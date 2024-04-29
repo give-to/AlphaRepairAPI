@@ -1,0 +1,879 @@
+ return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return!parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return getString().startsWith(OPTIONAL_ARG_PREFIX);
+ parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return name().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(opt_);
+ return parameter!= null;
+return parameter.getString().startsWith("opt_");
+ return parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt_);
+return parameter.getString().startswith(OPTIONAL_ARG_PREFIX);
+ return parameter.name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.optional();
+return parameter. isOptional ;
+ return isOptional(Parameter);
+ return parameter. getString ( ). contains(OPTIONAL_ARG_PREFIX);
+return parameter.getString().length();
+ return true;
+return parameter.getString().equals(parameter.getString());
+return parameter.getString() ;
+ return isOptionalParameter(Parameter);
+return parameter.isOptional();
+ return (name).startsWith(OPTIONAL_ARG_PREFIX);
+ return (OPTIONAL_ARG_PREFIX);
+ return parameter.getString ( )().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter. isOptionalArg ;
+ return parameter. getString ( ). matches(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(key);
+ return parameter. getString().equals(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(parameter.getString()); }
+ return matches(OPTIONAL_ARG_PREFIX);
+ return parameter instanceof Option;
+ return true);
+ return!local && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.contains(OPTIONAL_ARG_PREFIX);
+return parameter.endsWith("opt_") ;
+ return parameter. getStringNameEquals(OPTIONAL_ARG_PREFIX);
+ return parameter.name().startsWith(OPTIONAL_ARG_PREFIX);
+ return (true);
+ return parameter.getStringValue().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter. startsWith ( opt_ ) ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(Parameter);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(Parameter);
+ return parameter. getString ( ) == opt_;
+ return parameter.equals(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(opt_name);
+ return parameterName.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter. isOptionalArgument ;
+ return parameter. matches(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt);
+ return isOptionalParameter(Parameter)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.string().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter. isOptionalArgument ( )
+ return parameter.startswith(OPTIONAL_ARG_PREFIX);
+return parameter.getString(optional);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter();
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!local;
+ return isOptionalParameter(Parameter) parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.isOptionalArg();
+ return isOptionalParameter(Parameter.getString()).startsWith(OPTIONAL_ARG_PREFIX);
+ return! parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(parameter);
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ;
+return parameter. startsWith ( "opt_" )
+ return trim(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter).getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return getString(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"opt_\");
+ return isOptionalParameter(parameter).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals();
+return parameter.getString().startsWith("opt_") &&!isOptionalParameter();
+ return isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter. getString ( ) ) ;
+return  isOptionalParameter ( parameter ) ;
+ return isOptionalParameter ( parameter ) &&! isExported ( parameter ) ;
+return parameter. isString ( ) ;
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter ) )
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. getString ( ) ) ;
+return parameter.getString().equals(name);
+return parameter.getString() &&!isOptionalParameter(parameter);
+return parameter.isOptionalArgument() ;
+ return isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter. getString ( ) )
+ return isOptionalParameter(Parameter.getString());
+ return PARAMETER_NAME.equals(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(parameter.getStringName());
+ return isOptionalParameter(Parameter) &&!Parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return!local && name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(parameter.getName());
+ return.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_PREFIX); }
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) && isOptionalParameter ( parameter ) ) ;
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isOptional ;
+return parameter. isString ( ) && parameter!= null ;
+ return (boolean)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isOptionalArg ;
+ return isOptionalParameter ( parameter. getString ( ), parameter. getValue ( ) ) ;
+return  isOptionalParameter ( parameter. getString ) ;
+return parameter. endsWith ( opt_ ) ;
+return  this. isOptionalParameter ( parameter ) ;
+return parameterOptional ;
+ return isOptionalParameter ( parameter. getString ( ), parameter. getArguments ( ) ) ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(param);
+ return isOptionalParameter(Parameter).name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(Parameter.getString());
+return parameter. startsWith("opt_") ;
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter. getString ( ) ) ) ;
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isOptionalArg ;
+ return parameter. getStringName ( ). contains(OPTIONAL_ARG_PREFIX);
+ return parameter. getString ( )!= null;
+ return isOptionalParameter ( parameter. getString ( ), parameter. getValue ( ) )
+return parameter.getString() &&!isOptionalArgument(parameter);
+ boolean isOptionalArgParameter(Parameter) {
+ return isOptionalParameter ( parameter. getString ( ), parameter. getType ( ) )
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isOptional ( ) ;
+ return parameter. startsWith ( DEFAULT_OPTIONAL_ARG_PREFIX);
+ return parameter. getString ( ) == null;
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter!= null ;
+return parameter.getString().startsWith("opt_") &&!local;
+ return isOptionalParameter ( parameter. getString ( ) ) || parameter. isOptional ;
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isOptionalArgument ;
+ return parameter. getString ( ). endsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter. getString ( ) ) )
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_NAME);
+ return isOptionalArgParameter(Parameter);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter ) ;
+return  isOptionalParameter ( parameter. name ) ;
+ return isOptional();
+ return parameter.getStringName().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_OPTIONAL); }
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_ARG_NAME);
+return parameter.getString() &&!isOptionalParameter(parameter); }
+ return parameter instanceof OptionalParameter;
+ return isOptionalArgument(Parameter);
+ return parameter.is(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ; }
+ return isOptionalParameter(Parameter.getString);
+return parameter.getString().equals(opt_Name);
+return parameter.getString().equalsIgnore(OPTIONAL_ARG_PREFIX);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalArg ( parameter )
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_OPTIONAL);
+return  parameter. isOptionalParameter ;
+ return parameter. isName ( );
+return parameter.getString().startsWith("_") &&!isOptional(Parameter);
+return parameter.getString().startsWith(opt");
+return parameter.getString().startsWith("_") &&!isOptionalParameter();
+ return isOptionalParameter ( parameter. getString ( ) ) ; } else {
+return parameter.getString() == "opt_";
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) && parameter!= null ) ;
+ return!parameter.name.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_PARAM); }
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isRequired ( ) ;
+ return (bool)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) &&!isOptionalParameter(parameter);
+return parameter. endsWith ( "opt_" )
+return parameter.getString() == 'opt_';
+ return isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter. getString ( ), opt_ ) ;
+ return isOptionalParameter(Parameter) &&!isOptionalParameter(Parameter); }
+ return isOptionalParameter(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ; } } else {
+ return!local &&!name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString()!= null
+ return!local && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) || parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(optionalArgumentName);
+return parameter.getString() &&!isExported(parameter);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. value ) ;
+return parameter. equals ( "opt_" )
+return parameter.getString().startsWith("_") &&!isOptional(param);
+ return isOptionalParameter ( parameter. getString ( ) ) || parameter. isOptionalArg ;
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) &&! isOptional ( parameter ) )
+return parameter. isName ( ) && parameter!= null ;
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. name ) ;
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) && parameter. isOptional ) ;
+ return parameter.parent().getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter ) || this. isOptionalParameter ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalArgument(parameter);
+ return isOptionalParameter(Parameter) parameter.get().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_OPTIONS); }
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ; } public boolean isOptionalArg {
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isVarArgs ( ) ;
+ return PARAM_NAME. equals(parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalArg(Parameter) {
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. getString ) ;
+ return is(OPTIONAL_ARG_PREFIX);
+ return this. isOptionalParameter ( parameter ) && parameter. isOptionalArg ;
+return parameter.getString().equals(optionalParameter.getString());
+ return PARAMETER_NAME.startsWith(OPTIONAL_ARG_PREFIX);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. getName ) ;
+ return isOptionalParameter(Parameter) { return!parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) &&!isOptionalParameter(Parameter.name);
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. optionalArg ;
+ return isOptionalParameter(Parameter) &&!Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return!local && parameter.name.startsWith(OPTIONAL_ARG_PREFIX);
+return  this. isOptionalParameter ( parameter )
+ return parameter. getString ( )!= opt_;
+ boolean isOptionalArgParameter(Parameter parameter) {
+ return isOptionalParameter ( parameter. getString ( ), parameter. getValue ) ;
+return ! isOptionalParameter ( parameter ) ;
+ return!optional;
+ return isOptionalParameter ( parameter. getString ( ) ) ;
+ return isOptionalParameter(Parameter) parameter.name().startsWith(OPTIONAL_ARG_PREFIX);
+ return!isOptionalArgument(Parameter);
+return parameter. startsWith ( 'opt_' )
+ return isOptionalParameter(Parameter parameter) {
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ; } public boolean isOptional() {
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(Parameter);
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) ; } else {
+ return isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter. getString ( ), parameter ) ;
+return parameter.getString().length > 0 ;
+ return parameter. getString().endsWith(OPTIONAL_ARG_NAMESPACE); } else {
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ; } else {
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isName ( ) ;
+ return isOptionalParameter(parameter.getString).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isOptionalArg ( ) ;
+ return parameter. startsPrefix(OPTIONAL_ARG_PREFIX);
+ return this. isOptionalParameter ( parameter ) || this. isOptionalArgument ;
+ return parameter.endswith(OPTIONAL_ARG_PREFIX);
+ return parameter.has(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(parameter.getString()); *
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(parameter); }
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter;
+ return isOptionalParameter(Parameter).getStringValue().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter. getString ( ) ) ) == false ;
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptionalArg {
+ return parameterName.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (Boolean) (Boolean)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return  parameter. isOptional ( )
+ return isOptionalParameter(Parameter) parameter.value().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(optional);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(parameter);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptional();
+ return isOptional(param);
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter. getString ( ) ) ) ; }
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptionalArg() {
+ return isOptionalParameter ( parameter. getString ( ) ) ||
+ return parameter. getString ( ) == "";
+ return isOptionalParameter ( parameter ) &&! isOptionalParameter ( parameter. getString ( ) ) ; }
+ return this. isOptionalParameter ( parameter ) || this. isOptionalParameter ( parameter. getString ( ) ) ; }
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isExported(Parameter); }
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) ||!isOptionalParameter(Parameter) {
+ return!isExported(Parameter) parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) )
+ return isOptionalParameter ( parameter ) && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(op_);
+return parameter.getString().startsWith("opt_") && parameter. optional ;
+ return isOptionalParameter(Parameter).getStringName().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ||!local ; } else {
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) && parameter. optionalArg ) ;
+ return!! parameter && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter)Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getStringName ( )!= null;
+ return parameter. isString ( ) && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("optional");
+ return isOptionalParameter(Parameter.getString).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(parameter); *
+ return isOptionalParameter(Parameter) parameter);
+return parameter.getString().startsWith(" "") &&!isOptional(Parameter);
+ return parameter.getString!= null;
+return parameter.getString().startsWith("Opt_") &&!isOptionalParameter();
+return parameter.getString().startsWith("opt_") &&!isOptional();
+ return!isOptionalParameter(Parameter);
+ return parameter. getStringName ( ) == name;
+ boolean isOptionalArgParameter(Node parameter) {
+ return isOptionalParameter(Parameter) && name.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.string.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(param);
+ return! isOptionalParameter(Parameter) parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return (String) parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getStringValue ( );
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isVarArgs ( ) ;
+return parameter. equals ( opt_ ) ;
+ return isOptionalParameter(Parameter) { return parameter.getString().contains(OPTIONAL_NAME);
+return parameter.getString().equals(Parameter.getString()); }
+ return isOptionalParameter(parameter, false);
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isExported(Parameter) }
+ return parameter.parent.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter (Parameter) parameter && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalParameter(Parameter parameter) {
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isString ( ) ;
+ return isOptionalParameter(parameter.string).startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalParameter(Parameter) { boolean isOptionalArg(Parameter);
+ return parameter.value.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter. isOptArg ( ) ;
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ; } public boolean isOptionalParameter {
+return parameter.getString().startsWith("opt_") && parameter.optional();
+ return ISOPTIONAL_NAME.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(parameter.name).startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isExported(Parameter) ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter!= null;
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptArg() {
+ return isOptionalParameter ( parameter ) || (! isOptionalParameter ( parameter ) && parameter. isOptionalArg )
+ return isOptionalParameter(Parameter) &&!isOptionalParameter(Parameter.name());
+ return parameter. getString().endsWith(OPTIONAL_NAME); }
+ return parameter. getString ( ) == name;
+ return PARAMETER_NODE.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isExported(Parameter) {
+ return parameter.getFirstChildName().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL); }
+return parameter.getString().equals("opt_");
+ return name.startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalParameter(Parameter) {
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(Parameter); }
+ return isOptionalParameter(Parameter parameter) ;
+return parameter.getString().isEmpty();
+ return IS_OPTIONAL_PARAM.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX)) &&!isOptionalParameter(Parameter);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. optional ;
+ return isOptionalParameter(Parameter) {
+return parameter.getString( ). startsWith ( "opt_" )
+ return!isExported(Parameter);
+ return isOptionalParameter(Parameter)? : parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() &&!isOptionalParameter(Parameter);
+ return IS_OPTIONAL_NAME.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("opt_" + name);
+return parameter. endsWith ( 'opt_' )
+ return PARAMETER_NAME.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getStringEquals(OPTIONAL_ARG_PREFIX);
+ return trim(param).startsWith(OPTIONAL_ARG_PREFIX);
+ return (true)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(opt_");
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter.isOptional();
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith("opt_") ; }
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ||
+ return isOptionalParameter(parameter, true);
+ return!local &&!parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getStringName ( );
+ return (string) parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getStringMatches(OPTIONAL_ARG_PREFIX);
+return parameter.isString() &&!isOptional(Parameter);
+return  this. isOptionalParameter ( parameter ) ; }
+ return isOptionalParameter && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getNodeName().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith ( OPTIONAL_ARG_PREFIX ) ; } public boolean isOptionalArg(){
+ return! isExported(Parameter) && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return IS_OPTIONAL_NAME.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getFirstChild().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) ||!local;
+ return parameter instanceof OptionParameter;
+ return parameter instanceof Node;
+return parameter.getString().equals(opt_$1);
+ return parameter. hasPrefix(OPTIONAL_ARG_PREFIX);
+return  isOptionalParameter ( parameter. getString () )
+ return parameter.endsWith(G_OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("opt_") && parameter!= null ;
+ boolean isOptionalArg ( ) {
+return parameter. hasArguments ( ) ;
+ return parameter. getStringName ( ) == null;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. getString ( )!= null ;
+return parameter.isName ( ) && parameter. isOptional ;
+ boolean isOptionalArgParameter(Parameter(Node parameter)) {
+ return! isOptionalParameter(Parameter) || parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) ) &&
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalParameter(); }
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptionArg() {
+ return isOptionalParameter ( parameter. getString ( ) ) ; } } else {
+ return parameter. startsWith ( OPT_OPTIONAL_ARG_PREFIX);
+ if (parameter instanceof Option) {
+ return isOptionalParameter ( parameter. getString ( ), false ) ;
+return parameter.getString() + name.equals(OPTIONAL_ARG_PREFIX);
+return parameter. isString ( )? true : false ;
+ return parameter.getStringNodeValue().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("opt_"");
+ return false);
+ return!isOptional(Parameter);
+ return (Boolean)(String)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalParameter(Parameter);
+ return (Boolean)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getStringNodeName().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. hasArg ( ) ;
+ return isOptionalParameter ( parameter. getString ( ), true ) ;
+ return PARAMETER_NAME_NODE.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().length(); }
+ return parameter. startsWith(G_OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith(__OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ), local ) ;
+return ! isOptionalParameter ( parameter )
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIXES);
+ return parameter. getString ( ) == '';
+ return isOptionalParameter(Parameter) { return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX) &&!isOptional(Parameter)
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptionalArgs {
+ return isOptionalParameter(Parameter) && name().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptional;
+ boolean isOptionalArg (...) {
+return parameter.getString().equals(...)
+ return isOptionalParameter(Parameter, true);
+ return isOptionalParameter(Parameter, false);
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean opt_ {
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX_NAME);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX).equals(true);
+ boolean isOptionalParameter(Parameter(Node parameter)) {
+ return isOptionalParameter(Parameter.NAME).startsWith(OPTIONAL_ARG_PREFIX);
+ return (String) parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean isOptArgs() {
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_NAME());
+return parameter.getString().startsWith("");
+ return IS_OPTIONAL_PARAM_parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalArgParameter(ParameterNode parameter) {
+ return!isExported(parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalArgument(Parameter);
+return parameter.getString().startsWith(\"\"\"\"\"\"\"\"\"\"\"\"\"\");
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) }
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX)) &&!isOptional(Parameter);
+ return isOptionalParameter(Parameter) { return isOptionalParameter(Parameter) {} }
+ return isOptionalParameter ( parameter. getString ( ) ) && parameter. isRequired ( ) ;
+ return isOptionalParameter(Parameter).Name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.endsWith("opt_") ; }
+ return parameter.endsWith(Google.OPTIONAL_ARG_PREFIX);
+ return IS_OPTIONAL_ARG_parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(null);
+ return isOptionalParameter(Parameter) parameter; }
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isOptional ( )
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter. isVarArgsParameter ( )
+ boolean isOptionalArgParameter(Parameter(String) parameter) {
+ return IS_OPTIONAL && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return!parameter || parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getString().getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.value.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.name.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.endsWith("opt_);
+ if (optionalArgNames) {
+ return PARAMETER_NAMER.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return trim(name).startsWith(OPTIONAL_ARG_PREFIX);
+ return (Boolean) (Boolean)!parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.equals(__OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter(Parameter)) {
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalParameter(parameter);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_OP);
+ return isOptionalParameter(Parameter).getString(*).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.endsWith("Opt_") ;
+return parameter.getString().startsWith(\"\"") &&!isOptional(Parameter);
+return parameter.getString() + parameter.equals(OPTIONAL_ARG_PREFIX);
+return parameter. isString ( ) || parameter. optional ;
+ return isOptionalParameter ( parameter. getString ( ) ) ; } else
+ return!local && parameter.getStringValue().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getString().with(OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith ( _OPTIONAL_ARG_PREFIX);
+return parameter.getString() &&!isOptional(parameter);
+ return parameter.name().getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter.class).startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. getString().endsWith(OPTIONAL_PARAMETER_PREFIX); } else
+ return!empty(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(OPTIONAL_OPTIONAL());
+ return!!! parameter.name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(Opt_);
+return parameter.getString().equals(opt_name());
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalParameter(param);
+return  isOptionalParameter ( parameter )
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ; } else
+ return parameter. getString ( "opt_").startsWith(OPTIONAL_ARG_PREFIX);
+ return!(local && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return parameter.getString().isEmpty(); }
+ return IS_OPTIONAL_ARGS_parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"" && parameter.getString().length > 0);
+ return!name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() + parameter.getPrefix(OPTIONAL_ARG_PREFIX);
+ return!local &&!local && name.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) == false;
+ return parameter. startsWith ( MEMBER_OPTIONAL_ARG_PREFIX);
+ return PARAMETER.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"") &&!isOptionalParameter(Parameter);
+ return parameter. startsWith ( GCE_OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"") &&!isOptional(param);
+ return parameter.endsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalParameter(Parameter(String parameter)) {
+ return!isExported(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt_") &&!isOptionalParameter();
+ return node.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(param);
+ return isOptionalParameter(parameter).string().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith("__OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) ) ; } public boolean optionalArg {
+return parameter.getString().startsWith("op_") &&!local;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + "opt_");
+ return isOptionalParameter(Parameter) ;
+return parameter.isString ( ) && parameter. isOptional ;
+ return parameter. startsWith ( Google_OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("opt_") ; }
+return parameter. isString ( ) || parameter == null ;
+ boolean isOptionalArgParameter(Parameter(String parameter)) {
+ return isOptionalParameter(Parameter) { return parameter.getString().length > 0 &&
+ parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith ( COMPRESS_OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("op_") ;
+ return PARAM_NAMESPACE.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return opt_;
+ return parameter. startsWith ( GROO_OPTIONAL_ARG_PREFIX);
+ return parameter.value().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isOptional(param);
+ return isOptionalParameter(Parameter) { return parameter.getString().length > 0 ||
+ return!isExported(Parameter.NAME).startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(parameter.value).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt_) &&!isOptionalParameter();
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalParameter(parameterName);
+ return PARAMETER_NAME && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("op_" + name);
+ return isOptionalParameter(Parameter) { return parameter.getString().length > 0 }
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(opt_); } ;
+return parameter.getString( ) == "--opt_";
+ return isOptionalParameter(parameter.value);
+ return!local || local && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return!Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalArgParameter(Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!local && parameter;
+return parameter.getString(\"opt_\");
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalArgument(param);
+return  isOptionalParameter ( parameter ) ; }
+ return isOptionalParameter(Parameter) { return parameter.getString().endsWith(opt_); } else
+ return!local &&!local && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString( ). equals("opt_"");
+ return parameter. getString().endsWith(OPTIONAL_ARG_PREFIX); } else { }
+ boolean isOptionalParameter(Parameter) { boolean opt_ = true;
+return ! local ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + opt_);
+ return!parameter.endsWith("opt_);
+return parameter.getString().startsWith("opt_") ||!local;
+ return isOptionalParameter && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return (Node) parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.match(OPTIONAL_ARG_PREFIX);
+return  parameter. optional ;
+return parameter.endsWith("opt_"");
+ boolean isOptionalArgName() {
+return parameter.getString(). startsWith("opt_").match(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) &&!isOptionalArgument(Parameter);
+ return!isOptionalParameter(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalArg(Parameter);
+ return parameter. name == name;
+return parameter.getString() && parameter.endswith(OPTIONAL_ARG_PREFIX);
+ return parameter.exists(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == parameterName.equals(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt_) &&!isOptional(Parameter);
+return parameter.getString() contains(OPTIONAL_ARG_PREFIX);
+return parameter.getString( ) == "--" && parameter!= null ;
+return parameter.getString().startsWith(opt_) && parameter.isOptional();
+return parameter.getString().startsWith(\""\"") &&!isOptionalArgument(Parameter);
+return parameter.getString().startsWith({"opt_"});
+ return isOptionalParameter(Parameter) { return isOptionalParameter(Parameter.getString()) ; } }
+return parameter.getString().startsWith(\"\"\"\"\"\"\"\"\"\"\"\"\");
+ return parameterNode.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isExported(parameterName);
+ return parameter instanceof Optional;
+return parameter.getString().startsWith(\"\"") &&!isOptionalArgument(Parameter);
+ return (Boolean)this.parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(("opt_"));
+return parameter.getString(). equals(opt_). matches(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isOptional(Parameter);
+return parameter.getString().startsWith(opt_) && parameter. isOptionalArg ;
+ return isOptionalParameter ( parameter. getString ( ) ) }
+return parameter.getString(opt_) ;
+return parameter.getString().startsWith(\"\"") &&!isOptionalParameter(param);
+return parameter.getString().startsWith(\"\"\"") &&!isExported(parameter.string);
+return parameter.getString(). matches(key);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) && parameter.getString().length() ;
+return parameter.getString().startsWith(opt_" && parameter.isOptional());
+return parameter.getString() && parameter.getString().match(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(op_) &&!isOptional(Parameter);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX)!= null;
+ if (optionalArg) {
+return parameter.getString().startsWith("opt_") || false;
+ return (Boolean) (boolean)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return!Parameter.NAME.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return false;
+return parameter.endsWith("op_") ;
+ return isOptionalParameter(Parameter) parameter(this);
+return parameter.getString().startsWith(\"\"\") &&!isExported(parameter.string);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX.getString());
+return parameter.getString(). contains(opt_). contains(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(opt_());
+return  parameter == null ;
+ boolean isOptionalParameter(Parameter) { boolean isOptionalArg() {
+ return parameter.getString().toString().startsWith(OPTIONAL_ARG_PREFIX);
+ return opt_parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"\"") &&!isOptionalArgument(Parameter);
+return parameter.getString().startsWith(\"\"") &&!isOptionalParameter(parameter);
+ return IS_OPTIONAL parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == name.equals(OPTIONAL_ARG_PREFIX);
+ return PARAMETERNAME.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (parameter.getString).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString("opt_") ;
+ return parameter.getString().getName().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ) ) ; }
+return parameter.getString().startsWith(\"\"\"") &&!isOptional(name);
+ return matches(Parameter);
+ return node.getFirstChild().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(); parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return startsWith(OPTIONAL_ARG_PREFIX);
+ return * parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\""") &&!isOptionalArgument(Parameter);
+return parameter.getString().startsWith(\"\"\"") &&!isOptionalParameter(Parameter, parameter);
+ boolean isOptionalParameter(Parameter) { boolean opt_ = false;
+ return parameter. getFirstChild ( 0).startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptional(OPTIONAL_ARG_PREFIX);
+return parameter.getString(). equals(opt_). contains(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\"") &&!isExported(parameter.name);
+return parameter.endsWith("opt_" + name);
+return parameter.getString().startsWith(opt_) && parameter. optional ;
+ return isOptionalArgParameter(Parameter)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"\") &&!isExported(parameter.name);
+ return accepts(Parameter);
+return parameter.getString().startsWith(\"opt_\"");
+return parameter.getString().startsWith("opt_" + key);
+return parameter.getString() &&!isOptionalParameter(param);
+return parameter.getString().startsWith(opt_) && parameter. isOptional ;
+return parameter.getString().startsWith(op_) ;
+return parameter.getString().startsWith("opt_") == false;
+ return ISOPTIONAL && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"") &&!isOptional(name);
+ return parameter && parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter && parameter.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString( ). contains ( opt_ )
+return parameter.getString().equals(optionalArgumentName());
+return parameter.getString() == parameter.getFirstChild(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(parameter)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString(\"opt_\"");
+ return (Boolean|String)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return !! parameter ;
+ return (parameter.string).startsWith(OPTIONAL_ARG_PREFIX);
+ return (Boolean)(int)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ boolean isOptionalParameter(Parameter) { boolean opt_;
+ return * parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith("opt_" ) ||
+ return isOptionalParameter ( parameter. getString ( ) ) &&! isOptionalArg ; }
+ return isOptionalParameter(Parameter.name).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + ' ');
+ return isOptionalParameter(Parameter).isTrue();
+ if (optionalArgNames!= null)
+return parameter.getString().startsWith(opt_) && parameter!= null ;
+ return parameter. startsWith("opt_") ; }
+ return!local || parameter.startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter) { return isOptionalParameter(Parameter) {} ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) == true;
+return parameter.getString(). contains(opt_). matches(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(optional());
+ return OPTIONALParameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().equals(opt_{}");
+ return isOptionalParameter(Parameter.DEFAULT_OPTIONAL_ARG_PREFIX);
+return parameter.isOptionalParameter();
+ return "opt_" +parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX).matches();
+return parameter.getString().startsWith("Opt_");
+return parameter.getString() == null
+return parameter.getString() && parameter.getString().with(OPTIONAL_ARG_PREFIX);
+ return parameter.hasTag(OPTIONAL_ARG_PREFIX);
+ return IS_OPTIONAL_NAME_parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ; }
+ return "opt_".parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter ( parameter. getString ( ), opt_ ) ; } } else
+return parameter.getString().startsWith(opt_");
+return parameter.getString().needsPrefix(OPTIONAL_ARG_PREFIX);
+ return parameter[0].getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (Boolean) (parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parseString(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return isArgument(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == '--' && matches(OPTIONAL_ARG_PREFIX);
+ return parameter.value().getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptionalParameter(Parameter(Parameter)) ;
+return ! parameter ;
+return parameter.getString( ). startsWith(" " + opt_");
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + 'opt_');
+return parameter.getString().startsWith(opt_) && parameter.optional();
+return parameter.getString().equals(opt_(...));
+return parameter.getString().startsWith(\"\"") &&!isOptional();
+ return (Boolean)true||parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (parameter.name).startsWith(OPTIONAL_ARG_PREFIX);
+return  parameter. hasArg ;
+ return isOptionalParameter() parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() &&!isOptionalParameter(name);
+ return isOptionalParameter || parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (false);
+ return isOption(OPTIONAL_ARG_PREFIX);
+ return getString(param).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(op_) && parameter. optional ;
+return parameter.getString( ). startsWith(" " ) == false ;
+return parameter.getString().startsWith(Opt_);
+ return paramName.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("Optional");
+return parameter.getString().startsWith(\"\"" && parameter.isOptionalArg);
+ return isParameter(OPTIONAL_ARG_PREFIX);
+ return "--" +parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\"" && parameter.isOptional());
+ return!isVarArgsParameter(parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return isOptional(_);
+return parameter.getString().endswith(OPTIONAL_ARG_PREFIX);
+ return ISOPTIONALParameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX.STRING);
+ return parameter.get().startsWith(OPTIONAL_ARG_PREFIX);
+ return!empty(Parameter);
+return parameter.getString() == "optionalArg" && matches(OPTIONAL_ARG_PREFIX);
+ return isParam(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX); *
+ return parameter.String().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.getString.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith({"opt_": true});
+return parameter.getString(optionalArg);
+return parameter.getString().startsWith(\"opt_\"); }
+ return (Boolean)!parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("--");
+ return isOptional( parameter);
+ boolean isOptArg() {
+return parameter.getString().startsWith("opt");
+ return OPT_PARAM.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return parameter.data.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == "optional";
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + name);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) || false;
+return parameter.getString().startsWith(\"\"") && isOptional(Parameter);
+ return capitalize(name).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString(optionalArgName);
+return parameter.getString().startsWithOption();
+return parameter.getString().startsWith(\"\"" &&!isOptionalParameter);
+return parameter.getString().startsWith(\"\"") &&!isOptionalParameter);
+ if (optional) {
+ return name(Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+ return (param).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString(op_) ;
+return parameter.getString().startsWith(\"" && parameter.isOptional());
+return parameter.getString().emptyString();
+return parameter.getString().startsWith("--opt_");
+return parameter.getString() === opt_;
+ boolean isOptionalArgName();
+return parameter.isString(true);
+return parameter.getString().equals("");
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX).length() > 0
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) === false;
+return parameter.getString().startsWith(op_) &&! local ;
+ return name).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"\$\");
+return parameter.getString().startsWith(opt_name);
+ return parameter. matches(__OPTIONAL_ARG_PREFIX);
+ boolean isOptionalArg;
+return parameter.getString().startsWith(opt_) &&! local ;
+ return accepts(OPTIONAL_ARG_PREFIX);
+ return parameter. startsWith(GRP_OPTIONAL_ARG_PREFIX);
+ boolean optionalArg ;
+ return "parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"opt_\").length();
+return parameter.getString(optionalName);
+ return parameter.getName().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"{opt_}");
+return parameter.getString() == '--' && isOptional(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(op_name);
+return parameter.getString().startsWith(opt());
+ return (int)parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"op_\");
+ return equals(OPTIONAL_ARG_PREFIX);
+ return hasTag(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"{opt_\");
+ return parameter.isOptional);
+ return (!optional);
+ boolean isOptionalArg();
+return parameter.getString().startsWith(\"{$opt_}");
+return parameter.getString() == "optionalArg" && accepts(OPTIONAL_ARG_PREFIX);
+ return matchesPattern(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(\"{op_}\");
+return parameter.getString().matches();
+return parameter.getString().startsWith(\"{opt_}\");
+return parameter.getString(opt_");
+ return ().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(op_$1);
+return parameter.getString().startsWith(opt_');
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + "-");
+return parameter.getString(\"\");
+ boolean isOptionalArgName ;
+ return " "+parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return!optional);
+return parameter.getString().startsWith(opt_$1);
+return parameter.getString().startsWith(\"\"" + "\"");
+ return!optionalParameter;
+return parameter.getString().swith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(opt_\");
+return parameter!= null
+ return "".parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (Parameter).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().Startswith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith({"x:opt_"});
+ boolean isOptional ;
+return parameter.getString().startsWith(\"{$opt_\");
+ return (!OPTIONAL_ARG_PREFIX);
+return parameter.isRequired();
+ return "(OPTIONAL_ARG_PREFIX);
+ return isOptionalparameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith({"op_": true);
+ return "^parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return param!= null;
+return parameter.getString().startsWith(\"\"" || "opt_);
+return parameter.getString().startsWith(\"\"") &&!(optional);
+return parameter.getString().startsWith({"op_": "");
+return ! required ;
+return parameter.getString().startsWith(\"\"") && isOptional();
+return parameter.getString(optional");
+return parameter.getString().startsWith(\"\"\"\"\$\");
+ return!=parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return (string).startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith({"opt_}");
+ boolean opt_;
+return parameter.getString(optional');
+return parameter.getString().empty() ;
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX + "");
+ returnParameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return contains(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWithOpt();
+return parameter.getString(false);
+ return argument.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString(optional());
+ return getName().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() equals(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(option");
+return parameter.getString().startsWith('');
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) || false
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX)!==
+ boolean isOptionalArg =
+return parameter.getString() == name
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) ; }
+return parameter.getString() matches(OPTIONAL_ARG_PREFIX);
+return parameter optional ;
+ return true ;
+return parameter.getString().startsWith(opt_());
+ return false ;
+ return param.startsWith(OPTIONAL_ARG_PREFIX);
+ return "OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith("";
+return parameter.getString().startsWith(opt');
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIX) == false
+ return!startsWith(OPTIONAL_ARG_PREFIX);
+return parameter instanceof
+ return parameter().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == ""
+ return has(OPTIONAL_ARG_PREFIX);
+ argument.startsWith(OPTIONAL_ARG_PREFIX);
+ return argument.startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() == optional
+ boolean optional ;
+return parameter.getString().length;
+ return getText().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(OPTIONAL_ARG_PREFIXING);
+ return param).startsWith(OPTIONAL_ARG_PREFIX);
+ return toString().startsWith(OPTIONAL_ARG_PREFIX);
+ return key().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString ( )
+Parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.nil();
+return parameter.ok();
+return parameter.getString().es();
+ return canonicalName().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().test();
+ return request.startsWith(OPTIONAL_ARG_PREFIX);
+ return.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ argument.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return value().startsWith(OPTIONAL_ARG_PREFIX);
+ return string().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(option);
+ param.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(--opt);
+ return parameters.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString()); }
+return parameter.getString().startsWith(--_);
+ return (parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return _parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+ return param.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString().startsWith(Opt);
+return  optional ;
+ return TRUE);
+ *
+return parameter.getString().startsWith(op);
+ } {
+ return True;
+ return TRUE;
+ return null;
+ } *
+return parameter.getString().startsWith(optional);
+ if (!parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() ==(OPTIONAL_ARG_PREFIX);
+ if (parameter.getString().startsWith(OPTIONAL_ARG_PREFIX);
+return parameter.getString() ===(OPTIONAL_ARG_PREFIX);

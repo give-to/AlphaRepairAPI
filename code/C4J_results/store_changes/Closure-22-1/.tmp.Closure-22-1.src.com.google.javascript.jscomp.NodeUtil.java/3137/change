@@ -1,0 +1,569 @@
+return (expr ==  parent.getFirstChild())
+return (expr == parent.getParent())
+return (expr  == parent)
+ return parent.getFirstChild())
+ return (expr!== parent.getFirstChild())
+ return (parent.getFirstChild())
+ case Token.IF:
+ parent.getFirstChild())
+return (expr)
+ return parent.isCall())
+ return expr == parent.getFirstChild())
+return (expr  == parent
+ return (expr == parent))
+return (expr == parent.getFirstChild(1))
+ else { return (expr == parent.getFirstChild())
+return (expr == parent.getFirstChild(2))
+return (expr == parent.getFirstChild() && parent == expr)
+ else { return (expr!== parent.getFirstChild())
+ return (expr.isCall())
+return (expr == parent.getFirstChild() && parent == gramps)
+return (expr == parent.getFirstChild() && parent.isCall())
+ return (expr == parent.getParent()))
+return (expr == parent.getFirstChild()) && parent.isCall()
+ else { return (expr == parent.getParent())
+ case Token.IF: case Token.HOOK:
+ return expr.isCall())
+return (expr == parent.getFirstChild() && parent.getChildCount() == 2
+return (expr == parent.getFirstChild() && parent.getChildCount() == 2)
+ return (expr == parent.getFirstChild()))
+ return (expr == parent.getParent))
+ case Token.IF: case Token.HOOK: case Token.AND:
+return (expr == parent.getFirstChild() && parent == parent.getLastChild())
+return  (expr == gramps)
+return  expr == gramps
+return (expr == parent.getFirstChild() && parent.getChildCount() == 1
+return (expr == parent.getFirstChild() && parent.getChildCount() == 1)
+return (expr == parent.getFirstChild()) && parent == expr)
+return (expr == parent.getNext().getString())
+return (expr == parent.getFirstChild()) && parent.isCall())
+return (expr  == parent.getFirstChild() || expr)
+return (expr == parent.getFirstChild()) && parent == gramps)
+ case Token.IF: case Token.OR:
+return  parent == gramps
+return (expr == parent.getFirstChild() && parent.isCall()))
+ return (!parent.getFirstChild())
+return (expr == parent.getFirstChild() && parent.getChildCount())
+ case Token.OR: case Token.AND: case Token.OR:
+ else if (expr == parent.getFirstChild() && parent. getChildCount ( ) == 1) {
+ case Token.OR: case Token.AND: case Token.HOOK:
+return (expr == parent.getLastChild(1))
+return  (expr == parent.parent())
+return (expr == parent.getFirstChild(0))
+return  (expr == parent).getParent()
+return (expr == parent.getFirstChild() && parent!= null)
+return  expr == parent
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1)
+ else { return (expr == parent.getFirstChild(1))
+return  (expr == parent.getLastChild())
+ case Token.EXPR_RESULT:
+return (parent == parent.getFirstChild())
+ break ; case Token.IF: case Token.HOOK:
+ case Token.IF: case Token.HOOK: case Token.ANDOR:
+return (expr ==  parent.getFirstChild() && parent == null
+ case Token.OR: return (expr == parent.getParent())
+return (expr!= parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount ( ) == 2) {
+return (expr == parent.getFirstChild() && parent. getChildAtIndex(1))
+ break ; case Token.IF: case Token.OR:
+return  (expr == parent.next())
+ case Token.IF: return expr == parent.getFirstChild())
+ return (parent.isCall())
+return (expr == parent.getFirstChild() && parent == parent.getParent())
+return (expr == parent.getFirstChild() && parent!= gramps)
+ case Token.IF: return (expr == parent.getParent())
+ break ; case Token.OR: case Token.AND: case Token.OR:
+ else { return (expr == gramps.getFirstChild())
+ else { return (expr.getParent()!== parent.getFirstChild())
+return (expr  == parent.getFirstChild() && expr)
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == parent) {
+return (expr  == parent.getFirstChild().getString())
+return (expr == parent.getFirstChild() && parent == parent)
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2)
+ return (expr == gramps.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == parent)
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr. isName ( ) ) {
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == parent.getParent())
+ else { return (expr == parent.getFirstChild(2))
+ switch (parent.getType()) {
+ case Token.IF: return (expr ==parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1 && expr == parent) {
+ case Token.IF: case Token.HOOK: case.AND:
+return (expr  == parent.getFirstChild() == expr)
+ return (expr == parent.getParent)
+ else if (expr == parent.getFirstChild()) { case Token.IF: case Token.HOOK:
+ else { return expr == parent.getFirstChild())
+return (expr == parent.getFirstChild()) && parent.getChildCount() == 2
+ case Token.IF: return (expr == parent)
+return (expr  == parent.getFirstChild().getParent())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr. isName ( ))) {
+ case Token.OR: case Token.HOOK:
+ case Token.EXPRESSION:
+ else if (expr == parent.getFirstChild()) { case Token.IF: case Token.OR:
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1 && expr == parent.getParent())
+ else { return (expr == gramps)
+ case Token.OR: case Token.OR: case Token.AND:
+ else if (expr == parent.getFirstChild() && parent. getChildCount ( ) > 1) {
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr. isName ( )))
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1 && expr == parent)
+return (expr ==  parent.getFirstChild()) && expr == parent
+ else if (expr == parent.getFirstChild()) { case Token.EXPR_RESULT:
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1 && expr. isName ( ) ) {
+return (expr == parent.getFirstChild()) && parent!= null)
+return  (parent == gramps)
+return (expr ==  parent.getFirstChild()) && parent == expr
+ break ; case Token.OR: case Token.HOOK:
+ case Token.OR:
+ return parent == parent.getFirstChild())
+return  (parent == parent.getParent())
+ case Token.IF: return (parent.getFirstChild())
+ case Token.IF: case Token.HOOK: case OR:
+ return (expr == (null))
+ if (expr == parent.getFirstChild()) { case Token.IF: case Token.OR:
+return (expr ==  parent.getFirstChild()) && parent == null
+ else if (expr == parent.getFirstChild()) { case Token.COMMA:
+ return ((expr == parent))
+return (expr == parent.getFirstChild( && parent.getChildCount() == 2
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && parent == expr) {
+ else { return (expr == parent).getParent()
+ case Token.OR: case Token.AND:
+ case Token.OR: return (expr == parent.next())
+ case Token.IF: return (expr)
+return  (expr!= parent.getParent())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == parent.getNext())
+ if (expr == parent.getFirstChild()) { case Token.EXPR_RESULT:
+ case Token.IF: case Token.HOOK: case.OR:
+return (expr == parent.getFirstChild() && parent.getLastChild())
+ else { return (expr.getParent()== parent.getFirstChild())
+return (expr ==  parent.getFirstChild() && parent ==)
+return (expr == parent.getFirstChild() || parent == gramps)
+return  (expr == parent) == null
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && parent == parent) {
+return  (expr == parent).getFirstChild()
+ else { return expr == gramps
+ case Token.IF: return (expr == parent.next())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr!= null)
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == "eval") {
+ else { return (expr == parent == parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr!= parent)
+ else if (expr == parent.getFirstChild() && parent.getChildCount()) {
+ else { return (expr == parent.getParent)
+ break ; case Token.EXPR_RESULT:
+return (expr == parent.getFirstChild( && parent.getChildCount() == 2))
+ break; case Token.IF: return expr ==parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == null)
+return (expr == parent.getFirstChild( && parent.isCall()))
+ else if (expr == parent.getFirstChild() && parent. isCall ( ) ) {
+ break ; case Token.OR: case Token.AND:
+ else if (expr == parent.getFirstChild() && parent == parent.getParent())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2 && expr == "eval"))
+ else { return (expr == parent.getLastChild())
+ else if (expr == parent.getFirstChild()) { case Token.EXPR_RES:
+ else { return (expr == parent) == null
+ return (expr == parent.next()))
+ if (expr == parent.getFirstChild()) { case Token.IF:
+ case Token.IF: case Token.HOOK: case AND:
+ else { return (expr == parent.getFirstChild()))
+ case Token.OR: case Token.COMMA:
+ break; case Token.IF: return (expr == parent
+ else { return (expr == parent.parent())
+ else if (expr == parent.getFirstChild() && parent.isCall())) {
+ case Token.EXPR:
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1 && expr == "eval"))
+ else if (expr == parent.getFirstChild() && parent.getChildCount() == 1
+ break; case Token.IF: return (expr)
+ return parent. isCall ( )
+ return ((expr== parent.getFirstChild())
+ case Token.EVAL:
+ else { return parent.isCall() && (expr == parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. isCall ( )))
+return (expr == parent.getFirstChild() && parent == parent.parent())
+ return (expr == null))
+ case Token.IF: case Token.HOOK: case CASE:
+ case Token.RESULT:
+ else { return (expr == parent.next())
+ case Token.IF: return (expr == (parent.getFirstChild())
+return (expr  == parent.getSecondChild())
+ case Token.EXPR_VALUE:
+ case Token.IF: return (expr ==!parent.getFirstChild())
+ else if (expr == parent.getFirstChild()) { case Token.EQ:
+ case Token.IF: case Token.HOOK: default:
+ case Token.IF: case Token.HOOK: case Node.AND:
+ case Token.IF: return parent.getFirstChild())
+ case Token.IF: return (expr == parent.parent())
+ else { return parent. isCall ( )
+ return (expr!= parent.getParent()))
+ else { return (expr == parent)
+ else { return (expr == parent && expr!== parent.getFirstChild())
+ return (parent == parent.getParent()))
+return (expr == parent.getFirstChild()) && parent.getChildCount())
+ return (expr == (parent.getFirstChild())
+return (expr == parent.getFirstChild()) && parent.getChildCount()++
+return (expr == parent.getFirstChild( && parent.isCall())
+ else { return (parent.getParent()!== parent.getFirstChild())
+ return (expr == parent == parent.getFirstChild())
+ break; case Token.IF: return expr == parent
+ return (parent == parent.getFirstChild()))
+ case Token.IF: return parent == parent.getFirstChild())
+ break ; case Token.IF: return(expr == parent.getFirstChild())
+ break ; case Token.IF:
+ if (expr == parent.getFirstChild()) { case Token.OR:
+ return (expr!= parent.getFirstChild()))
+ case Token.IF: return ()
+ else if (expr == parent.getFirstChild() && parent == parent.parent)
+ case Token.IF: return expr == parent)
+ return (expr == parent.getNext()))
+ case Token.OR: return (expr ==parent.getFirstChild())
+ break ; case Token.EXPRESSION:
+ case Token.IF: case Token.AND:
+ case Token.EXPR: default:
+ else { return (parent.getFirstChild())
+ case Token.IF: return (!parent.getFirstChild())
+ else { return (expr == parent == gramps.getFirstChild())
+ case Token.IF: return true; return (expr == parent.getFirstChild())
+ return (expr == parent.getFirstChild)
+return (expr == parent.getFirstChild() && parent.getChildren() == 0
+ case (expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() && parent == null)
+ return (expr == -1)
+ else { return (expr == parent.getParent))
+ else if (expr == parent.getFirstChild()) { case Token.EXPR:
+return (expr == parent.getFirstChild() && parent!= expr)
+return (expr == null
+ case Token.OR: case Token.OR:
+ case Token.IF: return expr == parent
+ return ((expr == parent.getFirstChild()))
+ case Token.OR: case Token.AND: case Token.OR: case CASE:
+ case Token.OR: return (expr!==parent.getFirstChild())
+ case Token.EQ:
+ case Token.IF: return (expr == -parent.getFirstChild())
+return (expr == parent.getFirstChild( && parent.getChildCount()))
+ case Token.OR: return true; return (expr == parent.getFirstChild())
+ else { return parent == gramps
+ case (expr == parent.getParent())
+return (expr == parent.getFirstChild( && parent.getChildCount() == 1
+ else { return (expr == parent || expr!== parent.getFirstChild())
+ case Token.OR: return (expr == parent)
+ case Token.EXPR_RES:
+ return (expr == parent.getLastChild)
+ case Token.IF: return expr.isCall())
+ case Token.COMMA:
+return  parent == null
+ else { return (expr.next()== parent.getFirstChild())
+ else { return (expr.getNext()!== parent.getFirstChild())
+ case Token.OR: return expr == parent.getFirstChild())
+ return (parent.isCall(expr))
+ else { return (expr == (parent.getFirstChild())
+ break ; case Token.OR: case Token.OR:
+ switch (parent.getType()) { return!(expr == parent.getFirstChild())
+ return (expr == parent.firstChild)
+ case Token.IF: return! (expr == parent.getFirstChild())
+return (expr == parent.getFirstChild()) && parent == gramps
+ case Token.OR: case Token.CALL:
+ case Token.IF: return false; return (expr == parent.getFirstChild())
+ switch (parent.getType()) { return parent.getFirstChild())
+return (expr == parent.getFirstChild() && parent.isBlock())
+ case Token.OR: case Token.IF:
+ return (parent == parent.next())
+ else { return (expr == parent.getFirstChild(1)))
+ else { return expr == parent
+ else { return (expr == parent.parent.getFirstChild())
+ return (expr == "used))
+ else { return (gramps!== parent.getFirstChild())
+ else { case Token.EXPRESSION:
+ default: return (expr == gramps.getFirstChild())
+ else { return (expr == parent.getNext.getFirstChild())
+ else { case Token.COMMA:
+ break; case Token.IF: return ()
+ else { return (expr == parent.parent().getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 2) { } }
+ return (expr == parent.parent)
+ switch (parent.getType()) { } return(expr == parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildCount ( ) == 1) { }
+ else if (expr == parent.getFirstChild() && parent. getChildCount ( ) == 2) { }
+ break ; case Token.IF: return!(expr == parent.getFirstChild())
+ return '(expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() && parent.isCall(expr))
+ return (isBlock())
+ return (expr == parent.getFirstChildNode())
+ return (expr == "eval"))
+ return (isCall())
+ else if (expr == parent.getFirstChild() && parent. getChildCount() == 1) { } }
+ else { return (expr.next()!== parent.getFirstChild())
+ else { return (expr.getNext()== parent.getFirstChild())
+return (expr == parent.nextChild())
+ return expr!= parent.getFirstChild())
+ return (expr == parent.getParent().getFirstChild())
+ else { return ((expr!== parent.getFirstChild())
+ case Token.IF: return true
+ return (expr == null)
+ return (parent.isBlocked())
+ else { return false; } return expr == parent.getFirstChild())
+ else { return (expr == parent) == parent.getFirstChild())
+ return (expr == parent.call)
+ return (expr == parent.getFirstChildOnly())
+return  (expr == "expr")
+ else { return (expr == parent && parent.getFirstChild())
+ case Token.CONDITION:
+ else { return false; } return (parent.getFirstChild())
+ return (expr == parent.getNext().next())
+ return (expr == parent.getNext().getFirstChild())
+ else { return (expr.isCall())
+ case Token.IF: return (expr!=parent.getFirstChild())
+ return (expr.isBlock())
+ return (expr == ")")
+ else { return parent == parent.getFirstChild())
+ else { return (expr == gramps.parent.getFirstChild())
+ return (expr.isBlocked())
+ return (expr == (parent))
+ case Token.IF: return true if (expr == parent.getFirstChild())
+ else { return parent.isCall &&(expr == parent.getFirstChild())
+ else if (expr == parent.getFirstChild() && parent. getChildrenCount ( ) == 1) { }
+ return (expr == Node.NULL))
+ return (expr.getParent()== parent.getFirstChild())
+ else { return ((expr== parent.getFirstChild())
+ case Token.IF: return false
+ else { return (expr == parent.parent)
+ else { return (expr ==!parent.getFirstChild())
+return (expr == parent.getFirstChild() && expr == parent)
+ return (expr == parent.value)
+ return (expr == ")"))
+ else { return parent.isCall() &&expr == parent.getFirstChild())
+ return (expr.isBlockStatement())
+ return (expr ==!parent.getFirstChild())
+ return (parent.isFirstChild())
+ switch (parent).getType()) { return!(expr == parent.getFirstChild())
+ return expr.getFirstChild())
+ return (expr == parent).isCall().getFirstChild())
+ return (expr == parent.parent.getFirstChild())
+return (expr  == parent.call())
+ default: return (expr.getParent()== parent.getFirstChild())
+ return (expr == expr.getParent())
+return  expr == null
+ case Token.IF: return false; (expr == parent.getFirstChild())
+return (expr  == parent.firstChild())
+ case Token.IF: return (true) (expr == parent.getFirstChild())
+ default: return (expr == parent.parent.getFirstChild())
+ break ; case Token.CONDITION:
+ return '(expr == gramps.getFirstChild())
+return (expr != gramps)
+ expr == parent.getFirstChild())
+return  (expr == "eval")
+ parent.isCall())
+ else { return (expr.parent!== parent.getFirstChild())
+ return (expr == parent == gramps.getFirstChild())
+ return (expr == parent.parent().getFirstChild())
+ break ; case Token.OR: case Token.AND: case Token.OR():
+ else { return parent.isCall() (expr == parent.getFirstChild())
+ case Token.IF: return expr == parent ||(expr == parent.getFirstChild())
+ return (expr == Node.IF))
+ return (expr == parent.parent))
+ return (expr == parent.empty))
+ return parent.isBlocked())
+ return parent.isBlockStatement())
+ return (expr == "(used))
+ else { return (!parent.getFirstChild())
+ case Token.IF: case Token.HOOK: case Token.AND: {
+ else { return (parent == parent.getFirstChild())
+ else { return (expr == -parent.getFirstChild())
+ case Token.IN:
+ break; default:
+ default: return true; return (expr == parent.getFirstChild())
+ else { return (expr!= parent.getFirstChild())
+ case Token.OR: return! (expr == parent.getFirstChild())
+ case Token.IF: return "if" ==(expr == parent.getFirstChild())
+ else { return (expr == parent && expr== parent.getFirstChild())
+return (expr  == parent.get())
+ case Token.SELECT:
+ return ((expr!== parent.getFirstChild())
+ else { return parent.isCall(expr == parent.getFirstChild())
+ return (expr == gramps.parent.getFirstChild())
+ default: return false; return (expr == parent.getFirstChild())
+ break; } return (expr == parent.getFirstChild())
+ return (expr == parent.getNext.getFirstChild())
+ default: return (expr == (parent.getFirstChild())
+ return (expr == parent).is(parent.getFirstChild())
+ case Token.DO:
+ else { return parent.isCall ||(expr == parent.getFirstChild())
+ return ((expr == null))
+ return (expr == "=")
+ case Token.IF:
+ return (expr == parent) || (parent.getFirstChild())
+ default: return (expr!== parent.getFirstChild())
+ return parent == expr.getFirstChild())
+ case Token.EXPR_RESULT: return false; }
+ else { return (expr + expr!== parent.getFirstChild())
+ return (expr!= gramps.getFirstChild())
+ else { return expr.isCall &&(expr == parent.getFirstChild())
+ else { return (expr.parent()== parent.getFirstChild())
+ return (expr == -parent.getFirstChild())
+ else { return (expr == parent!== parent.getFirstChild())
+ else { return parent.getFirstChild())
+ else return (expr!== parent.getFirstChild())
+ return expr. isCall()
+ else { return expr == parent||(expr == parent.getFirstChild())
+ return (!expr)
+return (expr == parent.getFirstChild( && parent == expr))
+ switch (expr))
+ case Token.IF: case Node.OR
+ else { return (expr == expr.parent.getFirstChild())
+return (expr!= parent)
+ break ; } return (expr!== parent.getFirstChild())
+ return (expr.isBlank())
+return (expr == parent.getFirstChild() || parent == null
+ break ; case Token.IF: case Token.HOOK: {
+ return (expr.getFirstChild())
+ return '(expr == parent)
+return (expr ==  parent).getFirstChild())
+ else { return (expr.parent== parent.getFirstChild())
+ return ((expr == parent)
+ else { return expr!= parent.getFirstChild())
+ return (expr == null())
+return (parent == expr)
+ } return (expr == parent.getFirstChild())
+ return ((== parent.getFirstChild())
+ case Token.IF: case Token.HOOK: {
+ case Token.IF: return true ^(expr == parent.getFirstChild())
+ break; default: return(expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() && expr == parent
+return (expr ==  parent.getNext())
+return (parent == null
+ else {
+ else { return false; return (expr == parent.getFirstChild())
+ case (expr == parent)
+ break ; case Token.IF: case Token.OR,
+ return parent instanceof Node
+ return '(isCall())
+ else { return true; return (expr == parent.getFirstChild())
+ return (gramps!== parent.getFirstChild())
+ return (expr.next()== parent.getFirstChild())
+ else { return "eval"==(expr == parent.getFirstChild())
+ return expr.isBlock())
+ return (expr == expr.parent.getFirstChild())
+return (expr == parent.getFirstChild() && expr == null
+ return (!expr))
+ return (!expr.getFirstChild())
+ expr = parent.getFirstChild())
+ return (expr == expr())
+return (expr == parent.getFirstChild(parent.getParent))
+ else { return false; } (expr == parent.getFirstChild())
+ return (== parent.getFirstChild())
+return  (expr == "expr"))
+ return "eval"==(expr == parent.getFirstChild())
+return  expression == null
+return (expr == parentNode)
+return (expr == parent.getFirstChild(parent.getNext))
+return (parent == null)
+ return isCall())
+ return (!(expr))
+ return (block expr))
+return (expr == parent.getFirstChild(parent.getParent())
+ else { return "used".(expr == parent.getFirstChild())
+ return (expression)
+ default: return (expr == parent.getFirstChild())
+ return expr == parent||(expr == parent.getFirstChild())
+return (expr == parent.getFirstChild().next())
+ else { return false if (expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() == parent)
+return (expr == parent.getFirstChild() || expression)
+ else return (expr == parent.getFirstChild())
+ switch (expr)
+ return (false)
+return (expr == parent.getFirstChild(3) )
+ return "eval".is(expr == parent.getFirstChild())
+ return (expr))
+ return ((expr))
+return (parent)
+ else { return true if (expr == parent.getFirstChild())
+ else { return! (expr == parent.getFirstChild())
+ switch (!expr)
+return (expr == parent.getFirstChild(compound))
+ default: return false; (expr == parent.getFirstChild())
+ expr.getFirstChild())
+ return expr(parent.getFirstChild())
+return (expr == parent.getFirstChild() ||)
+ return (explicit)
+ return (false))
+ (expr== parent.getFirstChild())
+return (expr == parent.*)
+ else return (parent.getFirstChild())
+ return (compound)
+ else { return false; (expr == parent.getFirstChild())
+ parent = parent.getFirstChild())
+ else { return expr.is(expr == parent.getFirstChild())
+ else { return "used":(expr == parent.getFirstChild())
+ else { return "use":(expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() == n)
+ return isBlock())
+ return "(empty())
+ break; return(expr == parent.getFirstChild())
+ else { } return (expr == parent.getFirstChild())
+ return '(not used)
+ return "(empty expression))
+return  ()
+return (expression == null
+ return "(block())
+return (expr == parent.getFirstChild() &&)
+return !expr
+ case (expr!== parent.getFirstChild())
+ return ")" ==(expr == parent.getFirstChild())
+ return "used".(expr == parent.getFirstChild())
+ return (return false)
+return (expr == parent.value())
+ return (empty())
+ return (block())
+ break ())
+ break;
+return (expr  == expr)
+ return (empty expression)
+ switch parent.getFirstChild())
+return (expr == parent.getChild())
+ return "(expr== parent.getFirstChild())
+ (expr))
+ default: { }
+return  isBlock
+ switch (empty())
+ case parent.getFirstChild())
+return (expr == parent.getFirstChild(expr))
+return (expr  == node)
+ switch ())
+ default:
+return (expr == parent)) {
+ return! (expr == parent.getFirstChild())
+return (expr == parent.getFirstChild() ==)
+ (expression)
+ switch (())
+ return expression.getFirstChild())
+return (true)
+return (expr == parent.getFirstChild() == null
+ break ()
+return (expr == parent.*())
+ (expr)
+return  ())
+(.getFirstChild())
+ break (())
+ (block())
+return  isCall
+return (expr == parent.getFirstChild()())
+return (expr  == expr
+return (expr == parent) {
+ (optional)
+ break; }
+ else return ((expr == parent.getFirstChild())
+return (expr  == root
+ (false)
+return (expr != parent
+ return!parent.getFirstChild())
+ return (!expr == parent.getFirstChild())
+return (expr ==  root)
+ return ((parent.getFirstChild())
+return (expr == parent.getFirstChild().)
+ default: }
+ default: {
+ else { }
+ parent.(getFirstChild())
+ }
+ else
+return (expr > parent.getFirstChild())
+return (expr < parent.getFirstChild())
+return (expr <= parent.getFirstChild())

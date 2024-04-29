@@ -1,0 +1,563 @@
+ensureTyped(t, n);
+ report(t, n);
+ensureTyped(functionType, n);
+ensureTyped(t, n, functionType);
+ensureTyped(t, functionType);
+ensureTyped ( ) ;
+ensureTyped(t, n, n);
+ visitParameterList(t, n);
+ensureTyped(functionType);
+ensureTyped(t, n, functionType.getThisType());
+ report(t, n, n);
+ report(t, n, functionType);
+ visitParameterList(t, n, functionType);
+ visitParameterList(t, functionType);
+ visitParameterList(t, n, child);
+ensureTyped(t,  n, functionType.getThisType()); }
+ensureTyped(t);
+ensureTyped(t, n, child);
+ report(t, n, functionType.toString()); }
+ensureTyped(functionType, t, n);
+ensureTyped(t, n, functionType.getName());
+ensureTyped(t, n, functionType); }
+ensureTyped(t, n) ; }
+ensureTyped(t, n, functionType.toString());
+ visitParameterList(t, n, functionType.getReturnType());
+ensureTyped ( )
+ report(t, n, functionType.toString());
+ensureTyped(t,  n, functionType.getReturnType()); }
+ensureTyped(t, n, functionType.getReturnType());
+ensureTyped(t, n, functionType.getThis());
+ report(t, functionType);
+ensureTyped(t, n, null);
+ report(t, n, child);
+ensureTyped(t, n, functionType.name());
+ visitParameterList(t);
+ensureTyped(t, functionType, n);
+ visitParameterList(functionType);
+ensureTyped(t, n, childType);
+ report(t, functionType,n);
+ visitParameterList(t, n, functionType.getReturnType(), functionType);
+ visitParameterList(t, n, functionType.getThisType());
+ report(t, n, null);
+ visitParameterList(t, n, functionType.getThis());
+ensureTyped(t, n, functionType.getThisType()); } }
+ensureTyped(t,  n, functionType.getFunctionType()); }
+ visitParameterList(t, n, functionType, childType);
+ visitParameterList(t, n, functionType.getReturnType(), child);
+ensureTyped(t, n, functionType.getFunctionType());
+ visitParameterList(t, n, functionType, child);
+ensureTyped(t, n, functionType.getType());
+ report(t);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.toString());
+ visitParameterList(t, n, childType);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.getReturnType());
+ report(t, n, "Unknown type");
+ report(t, n, functionType.n);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.toString()); }
+ visitParameterList(t, n, functionType.getThis);
+ report(t, n, functionType.getReturnType(), functionType);
+ report(t, n, functionType,n);
+ throw new IllegalArgumentException ( ) ;
+ visitParameterList(t, n, functionType.getThisType(), functionType);
+ visitParameterList(t, n, functionType.getFunctionType(), functionType);
+ visitParameterList(, n);
+ensureTyped(t,  n, functionType.getCallType()); }
+ visitParameterList(t, n, functionType.getType());
+ report(t, n, functionType);
+ report(t, n, functionType, child);
+ report(t, t,n);
+ report(t, n, functionType.toString()); } else { report(t, n, functionType.toString()); }
+ report(t, n, functionType;
+ report(t, n); }
+ report(t, n, functionType.toString());
+ensureTyped(t, n, childType); }
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getReturnType(), functionType);
+ report(t, n, "unknown");
+ensureTyped(t, n, functionType.getThis);
+ visitParameterList(t, n, functionType.getReturnType()); }
+ensureTyped(t, n, functionType.getReturnType()); } }
+ensureTyped(t, n, functionType.getName()); }
+ report(t, n, functionType.toString()); } else { report(t, n, functionType.toString());
+ report(t, n, functionType.getReturnType(), functionType.toString()); } else { report(t, n);
+ visitParameterList(t, n, "this");
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.getName());
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType);
+ report(t, n, functionType); }
+ report(t, n, functionType.getReturnType(), child);
+ visitParameterList(t, n, functionType.getReturnType()); } } else {
+ report(t, n, "Unknown");
+ report(t, n, childType;
+ report(t, n, FunctionType);
+ report(t, n, functionType.getReturnType()); } } else { report(t, n, functionType.toString());
+ report(t, n, COMPLEM_NOT_CALLABLE, childType.toString());
+ensureTyped(t, n, functionType.getType);
+ visitParameterList(t, n, functionType.getFunctionType());
+ensureTyped(t, n, functionType.toString()); }
+ensureTyped ( t ) ; }
+ensureTyped(t, n) ; } }
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getReturnType()); }
+ visitParameterList(t, n, functionType.getThisType()); }
+ensureTyped(t, n, functionType); } }
+ visitParameterList(t, n, null);
+ report(t, n);
+ensureTyped(t, n, functionType).return();
+ report(t, n, functionType, child;
+ report(t, n, "unknown type");
+ visitParameterList(t, n, 'this');
+ report(t, NODE_ERROR,n);
+ensureTyped(t, n, functionType.getName);
+ensureTyped(t,  n, functionType.getNewType()); }
+ensureTyped(t, n, undefined);
+ visitParameterList(t, n, functionType.getReturnType(), functionType); }
+ report(t, n, functionType.name);
+ report(t, n, functionType.toString()); }
+ assertTyped(t, n);
+ report(t, n, child);
+ensureTyped(t, n, functionType.prototype());
+ensureTyped(t, n, functionType.getCallType()); } }
+ report(t, n, child;
+ensureTyped(t, n, functionType.getFunctionType()); } }
+ensureTyped ( n ) ;
+ report(t, n, EXPECTED_THIS_TYPE, functionType.toString()); } }
+ report(t, n, functionType); skip(t, n);
+ensureTyped(t, n, functionType).toString());
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.getType());
+ensureTyped(t, n, child, t, n);
+ assertTyped(t, n;
+ report(t, n, type.toString);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.name);
+ visitParameterList(t, n, FunctionType.ANY);
+ensureTyped(t, n) ; } } }
+ report(t, n, functionType.getReturnType()); }
+ report(t, n, childType); skip(t, n);
+ report(t, n, "Unknown type.");
+ visitParameterList(t, n, functionType.getReturnType()); if (isExtern)
+ report(t, n,);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType.name());
+ report(t, n, FunctionType.toString()); }
+ report(t, UNKNOWN_THIS_TYPE, n);
+ report(t, ERROR_CALLABLE, n);
+ visitParameterList(t, childType);
+ visitParameterList(t, n, FunctionType);
+ report(t, n, unexpectedType(t, n);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType, child);
+ report(t, n, unknown_type_n);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, FunctionType);
+ report(t, n, "Unknown function type");
+ assertTyped(t, n, functionType;
+ report(t, n, "Unknown function type.");
+ report(t, ERROR_CALLABLE_n);
+ report(t, n, functionType.getReturnType()); } } else { report(t, n, functionType);
+ report(t, n, "Unknown type",t, n);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, functionType); }
+ visitParameterList(t, n, functionType.getThisType()); } } else {
+ report(t, n, unknownFunctionType);
+ report ( t, n, "Unknown type" )
+ report(t, n, functionType.getReturnType()); } else { report(t, n, childType);
+ report(t, n, EXPECTED_THIS_TYPE, functionType.toString()); } } else {
+ report ( t, n, functionType. toString ) ;
+ if (isExtern)
+ report(t, n, EXPECTED_THIS_TYPE, functionType.toString()); } else
+ visitParameterList(t, n, functionType.getFunctionType()); } } else {
+ visitParameterList(n);
+ensureTyped ( t, n )
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getReturnType()); } }
+ visitParameterList(t, n, functionType.getThisType);
+ensureTyped(t, n, FunctionType);
+ensureTyped(t, n) ; } else { ensureTyped ( ) ;
+ assertTyped(t, n, child;
+ report(t, n, "missing");
+ report(t, n, functionType,t, n);
+ report(t, n, functionType, );
+ report(t, n, childType); report(t, n);
+ n = child ;
+ensureTyped(t, n, functionType.getNewType()); } }
+ report(t, n, "function");
+ visitParameterList(t, n, functionType.getReturnType(); } } else {
+ report(t, n, functionType.getReturnType()); } else { report(t, n, "unknown type");
+ visitParameterList(t, nodeType);
+ensureTyped(t, n, "void");
+ report(t, UNKNOWN_TYPE, n);
+ report(t, n, functionType.toString()); } else { report(t, n, functionType.name);
+ensureTyped(t, n, "function");
+ assertTyped ( ) ;
+ensureTyped(t, n, FunctionType); }
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getReturnType()); } else
+ report ( t, n, child )
+ report(t, n, functionType.getReturnType()); } else { report(t, n, "Unknown type");
+ report ( t, n, "Unknown function type" )
+ensureTyped ( child ) ;
+ report(t, n, ERROR_CALLABLE, childType.toString()); } } else {
+ visitParameterList(t, n, undefined);
+ report(t, n, unexpected(t, n);
+ report(t, n, childType);
+ report(t, NO_THIS_n);
+ report(t, n, unknownType(t, n);
+ report(t, n, EXECTED_THIS_TYPE, functionType.getReturnType()); } }
+ensureTyped(t, n) ; throw new IllegalArgumentException ( ) ;
+ report(t, n, functionType); report(t, n);
+ report(t, NO_THIS_TYPE, n);
+ report(t, n, functionType.toString()); } else { report(t, n, functionType); }
+ report(t, "Unknown type", n);
+ report(t, n, null;
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getTypeOfThis()); }
+ensureTyped(t, n, functionType.returnType);
+ensureTyped(t, n, false);
+ report(t, INVALID_TYPE, n);
+ensureTyped(t, n, "this");
+ visitParameterList(t, n, functionType.getReturnType()); } else {
+ report(t, ERROR_TYPE_n);
+ensureTyped(t, n) ; } return n ;
+ visitParameterList(t, n, parent);
+ensureTyped(t, n, null); }
+ visitParameterList(t, n, functionType.getReturnType()); } if (debug)
+ report(t, n, "function",t, n);
+ report(t, n, "unknown type",t, n);
+ensureTyped ( ) ; }
+ensureTyped(t, n, functionType.toString);
+ report(, n);
+ visitParameterList(t, n, node);
+ report(t, n, childType); unexpected(t, n);
+ report(t, n, functionType), child;
+ report(t, n, "unknown type",n);
+ensureTyped(t, n, null, n);
+ report(t, n, functionType.toString()) }
+ return false ; }
+ report(t, n, child); skip(t, n);
+ensureTyped(t, childType);
+ report(t, "unknown",n);
+ report(t, n, type);
+ report(t, NO_FUNCTION, n);
+ report(t, n, child); end(t, n);
+ report(t, ERROR_TYPE, n);
+ visitParameterList(', n);
+ visitParameterList(t, n, functionType.getReturnType()); } if (required)
+ report(t, n, undefined);
+ report(n);
+ visitParameterList(t, n, functionType); }
+ensureTyped(t, n, functionType.name);
+ report(t, n, child); report(t, n);
+ report ( t, n, null )
+ visitParameterList(t, n, parentType);
+ report(t, n, false);
+ report(t, n, type); skip(t, n);
+ report(t, NODE_NULL,n);
+ report(t, NO_FUNCTIONTYPE, n);
+ visitParameterList(t, n, functionType.getReturnType()); } }
+ report(t, ERROR_CALLING_n);
+ report(t, n, empty(t, n);
+ report ( t, n )
+ report(t, n, FunctionType;
+ensureTyped(t, n, "null");
+ensureTyped(t, n) ; assertTyped ( ) ;
+ report(t, null,n);
+ report(t, n, functionType.getReturnType()); } else { report(t, n, "function");
+ report(t, n, FunctionType.n);
+ report(t, n, "Unknown function",t, n);
+ report(t, NO_TYPE,n);
+ report(t, "unknown type", n);
+ensureTyped(t, n, null); } }
+ report(t, n, "unknown",t, n);
+ report(T, n, functionType);
+ report(t, n, EXPECTED_THIS_TYPE, functionType.getReturnType(), functionType));
+ensureTyped(t, n, null, t, n);
+ report(t, n, child, n);
+ report(t, n, child); leave(t, n);
+ report(t, "missing",n);
+ report(t, NO_FUNCTIONAL, n);
+ report(t, n, typeError(t, n);
+ensureTyped(t, n) ; assertTyped(t, n);
+ report(t, NODE_UNKNOWN_t, n);
+ visitParameterList(t, n, functionType.getReturnType()); } else { if typed {
+ visitParameterList(t, n, functionType.getReturnType(); } }
+ visitParameterList(t, n, functionType.getReturnType()); } else { return false;
+ensureTyped(t, n, "unknown");
+ report ( t, n, childType )
+ensureTyped ( ) ; } }
+ report(t, NODE_ERROR,t, n);
+ report(t, n, undefined(t, n);
+ report(t, ERROR_CALL_TYPE, n);
+ report(t, n, null, n);
+ return false ; } }
+ report(t, UNKNOWN_FUNC, n);
+ report(t, n) ; report(t, n);
+ report(t, NOT_SUPPORTED TYPE, n);
+ report(t, n, "Unknown type");
+ report(T, functionType);
+ visitParameterList(t, n, functionType.getReturnType()); } if (debug){
+ return false;
+ensureTyped(t, n) ; assertTyped ( t ) ;
+ report(t, 0,n);
+ report(t, n, null);
+ensureTyped(t, n, child, n);
+ensureTyped(t, n + 1, t, n);
+ensureTyped(t, n, functionType.prototype);
+ return n;
+ report(t, n, error(t, n);
+ensureTyped(t, n) ; throw new IllegalArgumentException(); }
+ report(t, n) ; skip(t, n);
+ensureTyped(t, n, parent);
+ report(t, false,n);
+ report(t, INDEX_ERROR, n);
+ report(T, functionType, n);
+ report(t, "Unknown "+n);
+ report(t, n, undefined);
+ensureTyped(t, n) ; } return n ; }
+ report(t, n, functionType.getReturnType(), functionType); } }
+ visitParameterList(t, n, functionType); } }
+ensureTyped(t, n) ; } } ) ;
+ensureTyped(t, n) ; return ; }
+ensureTyped(t, n) ; assertTyped ( t, n )
+ visitParameterList(t, n, functionType.getReturnType()); } if (required){
+ report(t, n, "unknown function",t, n);
+ report(t, n,);
+ visitParametersList(t, n);
+ report(t, NO_TYPE_t, n);
+ functionType = null;
+ return null ; } }
+ensureTyped(t, n) ; assertTyped(t, n); }
+ visitParameterList(t, n, functionType.getReturnType()); } else { } }
+ return n ; }
+ visitParameterList(n,);
+ report(t, childType);
+ throw new IllegalArgument ( );
+ report(t, n, ln);
+ checkTyped(t, n);
+ report(t, ERROR_TYPE_t, n);
+ visitParameterList(t, n, functionType.getReturnType()); if (isExtern){
+ report(t, NO_TYPE,t, n);
+ return null ; }
+ensureTyped(t, n) ; } } ;
+ensureTyped(t, n) ; assertTyped ( child ) ;
+ report(t, ERROR_NODE, n);
+ report(t, NO_THIS_t, n);
+ assertTyped(t);
+ensureTyped(t, n) ; return n ; }
+ visitParameterList(t, n, functionType.getReturnType()); if (isExtern).
+ report(, t, n);
+ensureTyped(t, null, null, n);
+ report(t, n, false;
+ensureTyped(t, n) ; } return t ;
+ throw new RuntimeException(); }
+ throw new RuntimeException ( )
+ report(t, nn);
+ensureTyped(t, n, true);
+ ensureTyped(null,t, n);
+ensureTyped(t, n) ; } } else { return n ; }
+ n = child ; }
+ensureTyped(t, n, 0, n);
+ensureTyped(t, n) ; n = childType ;
+ensureTyped(t, n) ; n = child ; }
+ensureTyped(t, n) ; } } else { n = child ;
+ return n ; } }
+ensureTyped(t, n) ; } else { n = child ;
+ensureTyped(t, node); }
+ checkTyped(n);
+ensureTyped(t, n) ; } } else { return ; }
+ensureTyped(t, n) ; assertTyped ( n ) ;
+ report(t, n, ".");
+ visitParameterList(t, n); }
+ensureTyped(t, n, parentType);
+ assertTyped(n);
+ report(t, unexpectedType(t, n);
+ensureTyped(t, n, 0, t, n);
+ensureTyped(t, n) ; } return n ; } ;
+ensureTyped(t, n, n, t, n);
+ensureTyped(t, n) ; } return node ; }
+ report(null, functionType);
+ensureTyped(t, n) ; } return n ; } }
+ n = childType ;
+ report(t, "function",t, n);
+ report(t, tn);
+ensureTyped(t, 0, 0, n);
+ensureTyped(t, n) ; } } } ) ;
+ report(t, n, undefined,t, n);
+ensureTyped(t, n) ; } } } }
+ report(t, ln);
+ assertTyped(n);
+ return t, n);
+ensureTyped(t, n) ; } return t, n ;
+ensureTyped(t, n) ; } return t ; } ;
+ return report(t, n);
+ report(t, functionType,t, n);
+ensureTyped(t, n, t, n);
+ensureTyped(t, n, functionType.type);
+ functionType = child;
+ checkType(t, n);
+(t, n);
+ensureTyped(t, n, funcType);
+ report(t, nil, n);
+ report(t, n,t, n);
+ ensureTypeTyped(t, n);
+ report(t, n, ct, n);
+ report(t, unknownType(t, n);
+ensureTyped(null, functionType, n);
+ensureTyped(t, functionType, t, n);
+ report(t, "unknown",t, n);
+ensureTyped(null, functionType, t, n);
+ report(tt, functionType, n);
+ensureTyped(t, n, functionType.this);
+ report(null, functionType, n);
+ report(t);
+ensureTyped(n, functionType, t, n);
+ report(t, NODE_t, n);
+ ensureNotTyped(t, n);
+ visit(t);
+ t.exit(n);
+ if (extern)
+ensureTyped(T, functionType, n);
+ensureTyped(t, 0, n);
+ assertNotTyped(n);
+ report(t, typeError(t, n);
+ensureTyped(n); }
+ ensureTypedFunction(t, n);
+ ensureTyped(function,t, n);
+ensureTyped(null, null, t, n);
+ report(t, "expected(t, n);
+ return null;
+ ensureTyped(child,t, n);
+ report(t, ".");
+ensureTyped(functionType.prototype, t, n);
+ assertTyped(t;
+ assert(n);
+ensureTyped(functionType, n, t, n);
+ ensureNonTyped(t, n);
+ ensureTyped()(t, n);
+ if (isNew)
+ throw(t, n);
+ visitParameterList(t, n);
+ report(T, n);
+ report(t, ".", n);
+ report(, t);
+ ensureTyped(this,t, n);
+ visitParameters(t);
+ checkTyped(t);
+ensureTyped(t, n, child.toString);
+ throw "Unknown function type.";
+ report(t, noType(t, n);
+ skip(n);
+ return true;
+ report(nullType, n);
+ensureTyped(t, n) ; break ; }
+ return - 1;
+ensureTyped(n, functionType);
+ if (isAsync)
+ visit(n);
+ checkType(n);
+ensureTyped(null); }
+ if (isNode)
+ensureTyped(t, n) ; } break ;
+ensureTyped(t,);
+ report(tpl, n);
+ return null(n);
+ensureTyped(T, n);
+ functionType = undefined;
+ if (!child)
+ return functionType;
+ensureTyped(T, functionType);
+ skipChildren(t, n);
+ return t, n;
+ reportUnknownType(t, n);
+ n = null;
+ functionType = n;
+ if (debug)
+ checkType(t);
+ t.skip(n);
+ensureTyped ( t )
+ensureTyped(n, t);
+ reportMissing(t, n);
+ reportFail(n);
+ ignoreType(t, n);
+ensureTyped(t, parentType);
+ throw "Unknown type";
+ report(null);
+ensureTyped(t, n) return false;
+ ensureTypedNamed(t, n);
+ reportNull(n);
+ensureTyped(n + 1, t, n);
+ skipNode(n);
+ expect(n);
+ensureTyped ( ;
+ assertTyped(n;
+ reportMissing(n);
+ throw "Unknown type.";
+ensureTyped(n, n, t, n);
+ensureTyped ( n )
+ reportUnexpectedThisType(t, n);
+ skipNode(t, n);
+ensureTyped(t, n));
+ensureTyped(t, null);
+ensureTyped(FunctionType, t, n);
+ n = parent;
+ return(null);
+ensureTyped(t, n) return n;
+ return t;
+ensureTyped(t, n) return ; }
+ensureTyped(t, null, n);
+ checkTypeCast(t, n);
+ensureTyped(n, 0, t, n);
+ensureTyped(t, t, n);
+ ignore(n);
+ throw(t);
+ensureTyped(functionType.prototype, n);
+ ensureTypedNested(t, n);
+ ensureTypedNodes(t, n);
+ ensureTypedForFunction(t, n);
+ensureTyped(t, 1, n);
+ if typed {
+ ensureTypedInternal(t, n);
+ visitFunctionCall(t, n);
+ensureTyped(t, n) return t;
+ensureTyped(childType);
+ensureTyped(t), n
+ skip(t, n);
+ return null);
+ensureTyped(n, child);
+ensureTyped(t, child);
+ ignore(t, n);
+ print(t, n);
+ensureTyped(t), n);
+ensureTyped(t, node);
+ return n);
+ensureTyped(t, n,);
+ return(t, n);
+ensureTyped(n, t, n);
+ensureTyped(FunctionType, n);
+ return false;
+ensureTyped(null);
+ return false);
+ returnType(t, n);
+ensureTyped(FunctionType);
+ visitFunction(t, n);
+ return null, n);
+ returnValue(t, n);
+ensureTyped(parentType);
+ return null;
+ensureTyped(returnType, t, n);
+ return n ;
+ensureTyped(parent);
+ensureTyped(t, n) }
+ ignore();
+ expect(t, n);
+ visit(t, n);
+ (n);
+ensureTyped(childType, n);
+ensureTyped(t, nodeType);
+ensureTyped(parentNode, t, n);
+ensureTyped(t, FunctionType);
+ensureTyped(t, n) return ;
+ensureTyped(nullType, t, n);
+ensureTyped(parentType, n);
+ensureTyped(p, t, n);
+ensureTyped(t, n) } }
+ return;
+ensureTyped(t, n) return }
+ } }
+ } else
+ leave(t, n);
+ return,
+ensureTyped(t, 0);
+ensureTyped(it, n);
+ensureTyped(s, n);
+ return

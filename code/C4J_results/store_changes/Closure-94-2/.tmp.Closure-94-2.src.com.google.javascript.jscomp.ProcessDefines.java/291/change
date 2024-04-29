@@ -1,0 +1,1267 @@
+} else if (processDefineAssignment(t, fullName, refInfo, valParent)) {
+} else if (processDefineAssignment(t)) {
+} else if (processDefineAssignment(t, fullName)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo)) {
+ } else{
+} else if (processDefineAssignment(t, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(refInfo, fullName, val, valParent)) {
+} else if (processDefineAssignment(refInfo, t, fullName, val, valParent)) {
+} else  { valParent = valParent ; }
+} else  { valParent = val ; }
+} else  { valParent = val ;
+} else if (processDefineAssignment(t, valParent, refInfo)) {
+} else if (processDefineAssignment(t, fullName,  val))
+} else if (processDefineAssignment(t, fullName,  valParent, refInfo)) {
+} else  { valParent = valParent ; } }
+ if (valParent)) {
+} else if (processDefineAssignment(t, refInfo.name, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo.name, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  ref)) {
+} else if (processDefineAssignment(t,  val))
+} else if (processDefineAssignment(t, fullName, val, valParent, lvalueToRemoveLater)) {
+} else  { valParent = valParent ; } } }
+} else if (processDefineAssignment(t, fullName, val) {
+} else if (processDefineAssignment ( valParent, refInfo ) ) {
+} else if (processDefineAssignment) {
+ valParent = valParent ;
+} else if (processDefineAssignment(t, refInfo, val, valParent)) {
+ } } else{
+ valParent = val ;
+} else if (processDefineAssignment(t, fullName, lvalueToRemoveLater, valParent)) {
+} else if (processDefineAssignment(t, valParent, refInfo.name)) {
+ } else { valParent = valParent. getNextChild ( ) ; }
+ valParent = valParent ; } }
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name)) {
+} else if (processDefineAssignment ( valParent ) ) {
+ if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, val)) {
+ } else { valParent = valParent. getNextChild ( ) ; } }
+ } })) {
+ valParent = valParent ; }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent ; }
+} else  { break ; }
+} else if (processDefineAssignment(t, valParent, ref)) {
+} else if (processDefineAssignment(val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo.name)) {
+ setDefineInfoNotAssignable(info, t); valParent = valParent ;
+} else if (processDefineAssignment(t, valParent, val) {
+} else if (processDefineAssignment(t, fullName, valParent)) break;
+ } else { valParent = valParent. getNextChild ( ) ; } } }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent ; } }
+} else if (processDefineAssignment(t, fullName, valParent, ref)) {
+ setDefineInfoNotAssignable(info, t); valParent = val ;
+} else if (processDefineAssignment(t, fullName, val)) {
+} else if (processDefineAssignment(t, fullName, valParent, val) {
+} else if (processDefineAssignment(t, val) {
+} else  { valParent = valParent. next ; }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent ; } } }
+} else if (processDefineAssignment(ref)) {
+ } else { valParent = valParent. getFirstChild ( ) ; }
+ } else { valParent = valParent. getNextChild ( ) ; } } } }
+} else if (processDefineAssignment(t, fullName, val, valParent)!= null) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  break;
+ } break;
+} else if  (valParent == val) {
+ setDefineInfoNotAssignable(info, t);
+ setDefineInfoNotAssignable(info, t); } } break ;
+ setDefineInfoNotAssignable(info, t); } break;
+ } else { valParent = valParent ; } }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent ;
+ valParent = valParent. getNext ( ) ;
+} else if (processDefineAssignment(ref, valParent)) {
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent ;
+ } else { valParent = valParent ; }
+} else if (processDefineAssignment(t, refInfo, valParent)) {
+} else if (processDefineAssignment ( valParent, val ) ) {
+ updateAssignAllowedStack(n, false); return true;
+} else if (processDefineAssignment(t, fullName, val, valParent))  { break; } }
+} else if (processDefineAssignment(t,  valParent, valParent, refInfo)) {
+} else if (processDefineAssignment(t, valParent, refInfo, name)) {
+ } else { valParent = getValueParent ( valParent ) ; }
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent ; }
+ setDefineInfoNotAssignable(info, t); valParent = valParent ; }
+ updateAssignAllowedStack(n, false); return false;
+ setDefineInfoNotAssignable(info, t); assignableDefines = null;
+} else if (processDefineAssignment ( valParent, refInfo ) )
+ } else { valParent = valParent. getFirstChild ( ) ; } }
+} else if (processDefineAssignment(name, valParent, refInfo)) {
+ valParent = valParent. getNextChild ( ) ; }
+ } else { valParent = valParent. getNextChild ( ) ; } } else {
+ valParent = valParent. nextChild ;
+ setDefineInfoNotAssignable(info, t); return false;
+ setDefineInfoNotAssignable(info, t); } }
+} else  { valParent. removeFirstChild ( ) ;
+ valParent = valParent. getNextChild ( ) ;
+} else  { valParent. removeLastChild ( ) ;
+ } else { valParent = valParent. getNextChild ( ) ; }
+ } else { setDefineInfoNotAssignable(info, t); } }
+ } else { valParent = getValueParent ( valParent ) ; } }
+ } else { valParent = getValueParent ( valParent ) ;
+ } else { valParent = valParent. getNextChild ( valParent ) ;
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. getNextChild ; }
+ updateAssignAllowedStack(n, false);
+} else  { valParent = valParent. nextChild ;
+} else if (processDefineAssignment(t, valParent, val)) {
+} else if (processDefineAssignment(ref, val)) {
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. getNext ( ) ;
+} else if (processDefineAssignment(t, valParent, refInfo)) break;
+} else if  (valParent!= val) {
+} else if (processDefineAssignment(refInfo.name, fullName, val, valParent)) {
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines.remove(name);
+} else if (processDefineAssignment(valParent, valParent, refInfo.name, fullName)) {
+ setDefineInfoNotAssignable(info, t); assignableDefines. remove ( fullName ) ;
+} else  { valParent = valParent ;
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. nextChild ; }
+ } else { valParent = getValueParent ( val ) ;
+} else if (processDefineAssignment ( val ) ) {
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines. remove( fullName); }
+} else if (processDefineAssignment(t,  valParent, refInfo, fullName)) {
+ if (t.inGlobalScope())) {
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines = null;
+ } else { valParent = valParent. getNextChild ( ) ; } } } else {
+ } else { valParent = getValueParent ( valParent ) ; valParent = null ; }
+} else if (processDefineAssignment(t, valParent)) break;
+ } else { valParent = getValueParent ( valParent. getNext ( ) ) ;
+ } else { setDefineInfoNotAssignable(info, t); } } }
+ } else { valParent = valParent. getFirstChild ( ) ; } } }
+} else if (processDefineAssignment(val, refInfo, valParent)) {
+} else if (processDefineAssignment(t, valParent, refInfo.name))
+ } } } else{
+ } else { valParent = valParent. getNextChild ( val ) ; }
+} else if (processDefineAssignment(t, fullName, valParent, refInfo)) break;
+ } valParent = valParent ; }
+ } else { valParent = valParent. getNextChild ( ) ; } } break ; default :
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. getNextChild(); }
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines. remove( fullName); } }
+} else if (processDefineAssignment(t, fullName, val, refInfo.name)) {
+} else if (processDefineAssignment(t, name, refInfo.name, val, valParent)) {
+ valParent = valParent. getNextChild ( ) ; } }
+ } else { setDefineInfoNotAssignable(info, t); }
+} else if (processDefineAssignment(t, fullName, valParent)) { valParent = valParent ; }
+} else if (processDefineAssignment(t, name, ref, val, valParent)) {
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines.remove(fullName);
+} else if (processDefineAssignment(t, fullName, val, lvalueToRemoveLater)) {
+ } else { valParent = valParent. getNextChild ( valParent ) ; }
+} else if (processDefineAssignment(name, valParent)) {
+ setDefineInfoNotAssignable(info, t); valParent = null ; }
+ valParent = valParent. getNextChild ( ) ; } break ;
+}  break ; default :
+ if (!assign(val, valParent)) {
+ valParent = valParent. next ( ) ;
+ } else if (valParent == null) { setDefineInfoNotAssignable(info, t); valParent = valParent ;
+} else if (processDefineAssignment(t, fullName,  valParent)) { valParent = valParent ;
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. getNextChild ( ) ;
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. getFirstChild ( ) ;
+ } else { valParent = valParent. getNextChild ( ) ; valParent = valParent ; }
+ updateAssignAllowedStack(n, true);
+ } else if (t.inGlobalScope())) {
+} else if (processDefineAssignment(t, fullName, val,  refInfo)) {
+} else if (processDefineAssignment(t, fullName, refInfo.name, ref, valParent)) {
+ } else { setDefineInfoNotAssignable(info, t); valParent = val ; }
+ } else { setDefineInfoNotAssignable(info, t); assignableDefines = null ; }
+ } else { setDefineInfoNotAssignable(info, t); } } break ;
+ } else { valParent = getValueParent ( valParent ) ; valParent = valParent ; }
+} else  { valParent. removeChild ( ) ;
+ } else { valParent = valParent. getNextChild ( ) ; } } } } }
+ } else { setDefineInfoNotAssignable(info, t); valParent = val ;
+ if (!assign(fullName, val, valParent)) {
+ setDefineInfoNotAssignable(info, t); assignableDefines. remove( fullName); }
+} else if (processDefineAssignment(t, refInfo, fullName, val, valParent)) {
+} else if (processDefineAssignment ( valParent, val ) )
+ } else { valParent = valParent. getNextChild ( ) ; valParent = null ; }
+ } else { valParent = valParent. getFirstChild ( ) ; } } } }
+ } else { valParent = valParent. getNextChild ( ) ; valParent = null ;
+} else if (processDefineAssignment(t, fullName, val, valParent, ref)) {
+ updateAssignAllowedStack(n, false); } }
+ } else { setDefineInfoNotAssignable(t, val, valParent); } } break ;
+ } else { setDefineInfoNotAssignable(info, t); valParent. removeFirstChild ( ) ;
+ } else { valParent = valParent ;
+ } else { setDefineInfoNotAssignable(info, t); } } } break ;
+ updateAssignAllowedStack(n, false); return true ; }
+ setDefineInfoNotAssignable(info, t); } } } }
+ } else if (valParent!= null) { setDefineInfoNotAssignable(info, t); valParent = valParent ;
+ } else { setDefineInfoNotAssignable(info, t); valParent = null ; }
+ } else { valParent = valParent. getLastChild ( ) ; }
+ } else { valParent = getValueParent ( valParent ) ; valParent = val ; }
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent ; } } }
+} else if (processDefineAssignment(t, fullName,  valParent, valParent, refInfo)) {
+ } else { valParent = valParent. getNextChild ( ) ; } break ; default :
+} else if (processDefineAssignment(ref, name, fullName, val, valParent)) {
+} else if (processDefineAssignment ( valParent ) )
+ valParent = null ; }
+ } else { setDefineInfoNotAssignable(t, val, valParent); } }
+} else if (processDefineAssignment ( ref ) )
+ } else { valParent = valParent. getSecondChild ( ) ; }
+ } else { valParent = getValueParent ( valParent ) ; valParent = valParent. parent ;
+ } else { valParent = getValueParent ( valParent ) ; } if ( valParent!= null ) {
+} else if (processDefineAssignment(name, valParent, refInfo.name, fullName)) {
+} else if (processDefineAssignment(t, fullName, val,  ref, valParent)) {
+ } else { valParent = valParent. getNextChild ( ) ; } } } } else {
+ } valParent = valParent ;
+} else if (processDefineAssignment(valParent, valParent.getNextChild())) {
+ } else { valParent = valParent. getNextChild ( ) ; if ( valParent!= null ) {
+ } else { valParent = valParent. getNextChild ( ) ; } } } break ; default :
+} else if (processDefineAssignment ( valParent, ref ) ) {
+ } else { valParent = getValueParent ( ) ;
+ } else { valParent = valParent. getNextChild ( ) ; } if ( valParent!= null ) {
+} else if (processDefineAssignment(valParent, refInfo, fullName)) {
+} else if (processDefineAssignment(t, fullName, valParent)!= null) {
+} else if  (refInfo!= null) {
+ } else { setDefineInfoNotAssignable(t, val, valParent); valParent = valParent ;
+} else if (processDefineAssignment(t, fullName, val, valParent))  { break; }
+} else if (processDefineAssignment(t, val, ref)) {
+ } else { setDefineInfoNotAssignable(info, t); valParent. remove ( ) ;
+ updateAssignAllowedStack(n, false); return false ; }
+} else if (processDefineAssignment(valParent, refInfo.name, fullName)) {
+ } else { setDefineInfoNotAssignable(t, val, valParent); } break;
+} else if (processDefineAssignment(t, fullName, ref, name, valParent)) {
+ setDefineInfoNotAssignable(info, t); } break ; }
+ } else if (t.inGlobalScope()) { setDefineInfoNotAssignable(info, t); valParent = val ;
+} else if (processDefineAssignment(t, refInfo.name, ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo.name))
+} else if (processDefineAssignment(t, refInfo.name, fullName, val, valParent)) {
+} else if (processDefineAssignment(refInfo, val)) {
+ setDefineInfoNotAssignable(info, t); } } } break ;
+} else if (processDefineAssignment ( valParent, refInfo, t ) )
+ } else { valParent = valParent. getNextChild ( ) ; } break ; }
+ } else if (t.inGlobalScope()) {
+ } else { valParent = valParent. getNextChild ( ) ; } } break ;
+ } else { valParent = valParent. getNextChild ( ) ; } } break ; default : {
+} else if (processDefineAssignment(valParent, valParent, refInfo, fullName)) {
+ } else { valParent = valParent. getNextChild ( ) ; valParent = val ; }
+ if (t.inGlobalScope)) {
+ setDefineInfoNotAssignable(info, t); valParent = null;
+ } else { valParent = getValueParent ( valParent ) ; valParent = null ; } }
+} else if (processDefineAssignment(t, valParent, refInfo, val) {
+ } if (valParent!= val) {
+ setDefineInfoNotAssignable(info);
+} else if  ( val!= null ) {
+} else if (processDefineAssignment(val, valParent, refInfo)) {
+ } if (t.inGlobalScope())) {
+} else if (processDefineAssignment(val, valParent, refInfo.name, fullName)) {
+ valParent = valParent ; } break ;
+ } else if (valParent!= null) { setDefineInfoNotAssignable(info, t); valParent = null ; }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = val ; }
+} else if (processDefineAssignment ( refInfo, valParent ) ) {
+} else if (processDefineAssignment(name, valParent, refInfo, fullName)) {
+} else if (processDefineAssignment(t, valParent, valParent!= null)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo, val) {
+} else if (processDefineAssignment(t,  valParent, refInfo.name)) break;
+ } valParent = valParent. nextChild ;
+} else if (processDefineAssignment(t, val, valParent)) {
+} else if (processDefineAssignment ( valParent, refInfo. name ) )
+ valParent = valParent. nextChild ; }
+ } if (refInfo!= null) {
+ if (assign(fullName, val, valParent)) {
+} else  { refInfo = valParent ;
+ } else { valParent = valParent. getNextChild ( ) ; } if ( valParent!= null )
+} else if (processDefineAssignment(ref, name, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(val, refInfo.name)) {
+ } else { valParent = valParent. getNextChild ( ) ; if ( valParent == null ) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent ; }
+} else if (processDefineAssignment(t, fullName, val, valParent) && valParent!= null) {
+ } else { valParent = getValueParent ( valParent ) ; valParent = valParent. next ;
+} else if (processDefineAssignment ( val ) )
+} else if (processDefineAssignment(name, valParent, valParent.getNextChild())) {
+} else if (processDefineAssignment(name, valParent, refInfo.name)) {
+} else  { refInfo. ref = ref ; }
+ } else { valParent = valParent. getNextChild ; } } } else {
+} else if (processDefineAssignment(valParent, valParent, refInfo)) {
+ } else { valParent = valParent. getNextChild ( ) ; } break ;
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent ; } } }
+} else if (processDefineAssignment(t, ref)) {
+ updateAssignAllowedStack(n, false); }
+ valParent = valParent ; break;
+} else if (processDefineAssignment ( valParent, refInfo ) {
+ } else if (valParent == null) { setDefineInfoNotAssignable(info, t); valParent = refParent ;
+} else if (processDefineAssignment(refInfo)) {
+ } else { valParent = valParent ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo, name)) {
+ } else { setDefineInfoNotAssignable(info, t); valParent = valParent. nextChild ;
+} else if (processDefineAssignment(t, val, refInfo)) {
+ valParent = null ; } }
+ if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName,  valParent, refInfo.name)) break;
+ } else { valParent = valParent. clone ( ) ; } } } }
+} else if (processDefineAssignment(name, valParent, refInfo, t)) {
+} else if (processDefineAssignment(ref, val, t)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent ; } }
+ } else { valParent = val ;
+ } } break ;
+ if (t.isAssignable(val, valParent)) {
+} else  { valParent = valParent. parent ;
+ updateAssignAllowedStack(n, true); } }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent ; break ; }
+} else if (processDefineAssignment(t, valParent, refInfo))) {
+ } else if (t.isAssigned(val, valParent)) {
+} else if (processDefineAssignment(ref, t, fullName, val, valParent)) {
+ } break; } else{
+} else if (processDefineAssignment(t, valParent)!= null) {
+} else if (processDefineAssignment(t, fullName, valParent, val)) {
+} else if (processDefineAssignment(valParent, valParent, refInfo.name, t)) {
+ } if (!assign(val, valParent)) {
+ } else if (t.isAssign(val, valParent)) {
+ } else { valParent = getValueParent ( valParent ) ; if ( valParent == null ) { break ; }
+ } if (ref!= null) {
+} else if (processDefineAssignment(t, valParent, valParent, ref)) {
+ } else { valParent = valParent. getNextChild ( val ) ;
+}  break ; default : {
+ } else { valParent = getValueParent ( valParent ) ; if ( valParent == null ) { continue ; }
+} else if (processDefineAssignment(name, valParent, valParent.getLastChild())) {
+ } else { valParent = getValueParent ( valParent ) ; } if ( valParent!= - 1 ) {
+ } if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(valParent, valParent, refInfo.name)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent ;
+} else if (processDefineAssignment ( valParent, val )!= null ) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { if (t.inGlobalScope()) {
+} else if (processDefineAssignment ( valParent, refInfo, t ) {
+} else if (processDefineAssignment(t, fullName, val,  refInfo, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent. removeLastChild ( ) ;
+} else  { refInfo. ref = ref ;
+} else if (t.inGlobalScope() && val) {
+} else if (processDefineAssignment(valParent, valParent.getLastChild(), t)) {
+ setDefineInfoNotAssignable(info, t); }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent. nextChild ;
+} else if (processDefineAssignment(val, refInfo)) {
+} else if (processDefineAssignment(val, valParent)) break;
+ } else if (isAssignable(val, valParent)) {
+ } else { valParent = getValueParent ( valParent ) ; if ( valParent == null ) break ; } }
+ } else { valParent = getValueParent ( valParent ) ; } if ( valParent!= null ) break ; }
+} else if (processDefineAssignment(t, fullName, valParent, ref) {
+} else if (processDefineAssignment(name, val)) {
+} else if (processDefineAssignment(refInfo.name, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(val, ref)) {
+} else if (processDefineAssignment(valParent, valParent.getFirstChild(), t)) {
+ valParent = valParent ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isAssignable(fullName, val, valParent)) {
+} else if (processDefineAssignment ( valParent ) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo, val)) {
+} else if (processDefineAssignment(name, refInfo, valParent)) {
+ } else { valParent = valParent. getNextChild ( ) ; if ( valParent == null ) break ;
+ } else { valParent = valParent. getNextChild ( ) ; } } } break ; default : {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo))) {
+} else if  (valParent == valParent) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = val ;
+ } else { valParent = valParent. getNextChild ( ) ; if ( valParent!= valParent ) {
+} else if (processDefineAssignment(ref, valParent, refInfo)) {
+} else if (processDefineAssignment(valParent, refInfo, t)) {
+} else if (processDefineAssignment(t, fullName,  valParent, refInfo, valParent)) {
+} else if (processDefineAssignment(ref, valParent, refInfo.name)) {
+ } else { valParent = valParent. getNextChild ( ) ; if ( valParent!= null ) break ;
+} else if (processDefineAssignment(t, fullName, val,  refInfo.name, valParent)) {
+} else if (processDefineAssignment(ref, val) {
+ } } } break ;
+} else if  (valParent!= valParent) {
+ valParent = valParent ; break ; }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { continue; } }
+} else if (processDefineAssignment(name, valParent, refInfo.name, t)) {
+ } else if (t.inGlobalScope)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valToRemoveLater = valParent ;
+ updateAssignAllowedStack(n, true); }
+ } if (valParent!= null) {
+ } else if (valParent!= null) {
+} else  { valParent. remove ( ) ;
+} else if (refInfo.name.isAssignable(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, valParent)) {
+} else if (processDefineAssignment(val, valParent, refInfo)) break;
+} else if (processDefineAssignment(name, valParent, val) {
+} else if (processDefineAssignment(t, fullName, ref, val, valParent)) {
+} else  { valParent = val ; } }
+} else if (processDefineAssignment(val, valParent, t)) {
+} else if (processDefineAssignment(val, refInfo, valParent)) break;
+} else if (processDefineAssignment ( valParent, val ) {
+} else  { valParent. removeLast ( ) ;
+ } else if (t.inLocalScope())) {
+} else if (processDefineAssignment(name, valParent, valParent.getFirstChild( ))) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == false) {
+} else if (processDefineAssignment(name, valParent, ref, t)) {
+ } if (t.inGlobalScope)) {
+} else if  (t.inGlobalScope() && val)
+ } valParent = valParent ; break ;
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent. parent ;
+} else if (processDefineAssignment(t, fullName, valParent) == false) {
+} else if (processDefineAssignment ( valParent, t ) )
+} else if (processDefineAssignment(t, refInfo.ref, val, valParent)) {
+} else  { var lvalueToRemoveLater ;
+ valParent = getValueParent(ref); }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment ( refInfo ) )
+} else if (processDefineAssignment(valParent, valParent, valParent.getNextChild())) {
+} else if (processDefineAssignment(t, fullName, val, valParent)!= -1) {
+ setDefineInfoNotAssignable(info); }
+} else if (processDefineAssignment(t, refInfo, name, ref, val, valParent)) {
+ } valParent = val ;
+ if (!assign(ref, val, valParent)) {
+ if (updateAssignAllowedStack, valParent)) {
+ } else if (name.declaration == ref) {
+ } else if (isAssignable(t, fullName, val, valParent)) {
+ valParent = refParent ;
+ if (isAssignable(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent)!= null)
+} else if (processDefineAssignment(t, fullName, ref, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  valParent, refInfo)) break;
+ if (isAssignable(val, valParent)) {
+} else if (processDefineAssignment(valParent, refInfo.name)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)!= null)
+ } } } } else{
+ } else if (isAssign(val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo) {
+ updateAssignAllowedStack(n); }
+ } else if (name.declaration!= ref) {
+} else  { break ; } }
+ } else { valParent = getValueParent ( valParent ) ; } if ( valParent!= null ) { break ;
+ } else if (assign(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo.ref, name, val, valParent)) {
+} else if  ( val == null ) {
+} else if (processDefineAssignment ( valParent, refInfo ) ) break ;
+ } if (assign(val, valParent)) {
+ } if (val!= null) {
+ if (t.assign(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = null ; }
+} else if (processDefineAssignment ( valParent, ref ) )
+} else if (processDefineAssignment ( refInfo, val ) )
+}  else { refInfo = valParent ; }
+ } else if (!assign(val, valParent)) {
+} else if (processDefineAssignment(valParent, valParent, refInfo, t)) {
+ } else { valParent = val ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (t.assign(val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { break; } } }
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valToRemoveLater = val ;
+} else  { valParent = null ; }
+} else if (processDefineAssignment(name, valParent, valParent.getFirstChild(...))) {
+} else if (processDefineAssignment(name, val, t)) {
+} else if (processDefineAssignment(t, fullName, val,  ref, name)) {
+} else if (t.inGlobalScope()) { break; }
+ } } else if (refInfo!= null) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo, ref)) {
+} else if  (valParent == valParent.parent) {
+ } if (shouldTraverse(t, fullName, val, valParent)) {
+} else if  (valParent. isAssign ) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo.name, val) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  break; }
+} else if (processDefineAssignment ( ref, val ) )
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name, ref)) {
+} else if (processDefineAssignment(t, fullName, val, refInfo, parent)) {
+} else if (processDefineAssignment(name, valParent, valParent.getFirstChild(), t)) {
+} else if  (refInfo.name!= null)
+ } else if (!assign(fullName, val, valParent)) {
+ } else if (refInfo.name!= name) {
+ } else if (isAssignable(valParent)) {
+ } if (!assign(fullName, val, valParent)) {
+} else if (processDefineAssignment()) {
+}  } break ; default :
+} else if  (refInfo.name!= null) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == -1) {
+ } else if (!assign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo.name, name, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  valParent, refInfo.name)) break;
+ if (shouldTraverse(t, fullName, val, valParent)) {
+ } if (processDefineAssignment(t, fullName, val, valParent)) {
+ } break; } } else{
+ valParent = null;
+} else if (processDefineAssignment(t, fullName, val, valParent, lvalueToRemoveLater++)) {
+} else if (processDefineAssignment(t, fullName, ref, lvalueToRemove, valParent)) {
+ if (assign(val, valParent)) {
+} else if (valParent == valParent.nextChild) {
+} else if (processDefineAssignment(name, refInfo, val)) {
+} else if (processDefineAssignment(val, name)) {
+} else  { valParent = null ;
+ if (t.inGlobalScope()) {
+} else if (processDefineAssignment(name, refInfo.name, fullName, val, valParent)) {
+} else if (processDefineAssignment(valParent, refInfo.name, t)) {
+} else if (processDefineAssignment(name, valParent, val)) {
+ } else if (shouldTraverse(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, name, refInfo.name, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  ref, valParent)) break;
+ } else if (isAssignable(ref, val, valParent)) {
+ if (!assign(t, fullName, val, valParent)) {
+ } if (!assign(ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name, refInfo)) {
+} else if (processDefineAssignment(t, fullName, val,  ref))
+} else if (processDefineAssignment(t, fullName, ref)) {
+} else if (processDefineAssignment(t, val, name)) {
+} else if (processDefineAssignment(t, fullName, refInfo.name, val, valParent)) {
+} else if  ( val == ref ) {
+ if (refInfo!= null) {
+} else if (t.inGlobalScope() && valParent)
+ } } else if (t.inGlobalScope)) {
+ if (t.isAssigned(val, valParent)) {
+ if (assign(ref, val, valParent)) {
+ valParent = name ; } }
+ } if (valParent == val) {
+} else  { var lvalueToRemove ;
+} else if  ( ref == val ) {
+} else if (processDefineAssignment(valParent, refInfo.name, val)) {
+ } } else if (valParent!= null) {
+ } } if (ref!= null) {
+ } if (t.inGlobalScope()) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo.name, ref)) {
+}  break ; default: break ; }
+ if (isAssignable(ref, val, valParent)) {
+ } else if (t.assign(fullName, val, valParent)) {
+ } else if (t.inGlobalScope(valParent)) {
+} else if (processDefineAssignment(ref, valParent, name, t)) {
+} else if (processDefineAssignment(t, fullName, refInfo.ref, val, valParent)) {
+ } else { valParent = valParent;else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref, name, val, valParent)) {
+ if (valParent!= null) {
+ if (!assign(name, val, valParent)) {
+} else if  (refInfo.name == name)
+ } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(val, refInfo.name)) break;
+} else if (processDefineAssignment(name, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = val ;
+ } else if (shouldTraverse(val, valParent)) {
+ } } else if (ref!= null) {
+ } else if (t.isAssigned(fullName, val, valParent)) {
+} else if (t.inGlobalScope()) { } else {
+} else if (processDefineAssignment(valParent, valParent.getFirstChild(), val)) {
+ if (isAssignable(name, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent. nextChild ;
+} else if (processDefineAssignment(valParent, valParent, fullName)) {
+ } else if (t.isDefined(val, valParent)) {
+} else if (processDefineAssignment(nodeTraversal, n, t, fullName, val, valParent)) {
+ } else if (ref!= null){
+} else if (processDefineAssignment(t, fullName, val, ref, name, parent)) {
+ } if (isAssignable(fullName, val, valParent)) {
+ } else if (assign(t, fullName, val, valParent)) {
+ } else if (t.isAssign(valParent)) {
+} else if (processDefineAssignment ( val, valParent, t ) )
+} else if (processDefineAssignment(t, ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = null ; } }
+ } else if (isAssign(fullName, val, valParent)) {
+ } if (!assign(t, fullName, val, valParent)) {
+ } } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isAssign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name, parent)) {
+} else if (processDefineAssignment(t, fullName, val, ref, name, valParent)) {
+ valParent = valParent ; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent))) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name, name)) {
+ break;
+ if (valParent!= val) {
+} else  { return ; } }
+} else if (processDefineAssignment(t, fullName, val,  valParent)) { continue; } } }
+} else if (processDefineAssignment(t, fullName, val,  refInfo, name)) {
+ } if (assign(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valParent. next ;
+ } else if (valParent instanceof Name) {
+} else if (processDefineAssignment(t, name, ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent.getNextChild)) {
+ if (shouldTraverse(t, val, valParent)) {
+ } else if (shouldTraverse(t, val, valParent)) {
+ } } else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isAssign(valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent, refInfo.name, refInfo))
+ } if (t.inGlobalScope(ref)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo, parent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valChild ; }
+}  break ; }
+ } } else if (!assign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment ( val, valParent, t ) {
+} else if (processDefineAssignment(t, fullName, val,  valParent)) { valParent = null ;
+ if (t.inGlobalScope(true)) {
+ } else if (assign(val, valParent)) {
+ } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if  (valParent. isAssignable) {
+ } else if (valParent.contains(processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (ref.isAssign) {
+} else if (processDefineAssignment(t, fullName, val,  refInfo.name)) break;
+ if (ref!= null) {
+ } else if (t.assign(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent. removeChild ( ) ;
+ valParent = valParent ; break ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (isAssigned(fullName, val, valParent)) {
+}  break ; default: break ; } }
+ break; } } else{
+ } else if (isAssignable(name, val, valParent)) {
+} else if (processDefineAssignment(valParent, val, t)) {
+} else if (processDefineAssignment(name, ref, val)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.name, compiler)) {
+} else if  ( valParent ) {
+} else if (processDefineAssignment(refInfo.ref, t, fullName, val, valParent)) {
+ } else if (t.isAssignable(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = valParent. parent ;
+ } else if (t.isAssign(fullName, val, valParent)) {
+ } else if (isAssigned(val, valParent)) {
+ } else if (t.processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (t.makeError(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo)) {
+} else if (processDefineAssignment(ref, valParent, t)) {
+ } if (assign(ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, lvalueToRemoveLater++)) {
+ if (isAssignable (refInfo, val, valParent)) {
+}  } break ; default : {
+} else if (processDefineAssignment(t, fullName, val, valParent) == 0) { break; } }
+ } else if (isAssignable(ref, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) && valParent. isVar ( ) ) {
+ if (t.isAssign(val, valParent)) {
+ if (valParent!= null)) {
+ if (debug) {
+ } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName)) break;
+} else if (processDefineAssignment(name, refInfo.name, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo)) {
+ if (debug)) {
+ } else if (isAssign(ref, valParent)) {
+} else if (processDefineAssignment(valParent, ref, t)) {
+ } else if (t.assign(ref, val, valParent)) {
+} else  { ref = valParent ;
+ } } else if (valParent == val) {
+} else if (processDefineAssignment(t, ref, name, fullName, val, valParent)) {
+ } else if (refInfo.assign){
+} else if  (t.inGlobalScope()) { } }
+} else if (processDefineAssignment(nodeTraversal, ref, t, fullName, val, valParent)) {
+ } else if (isAssignable(name, fullName, val, valParent)) {
+ } else if (isAssignable(name, valParent)) {
+ } else if (ref.isAssigned(valParent)) {
+ } else if (canAssign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(refInfo, name, fullName, val, valParent)) {
+ valParent = null ; break ;
+ } else if (!assign(ref, val, valParent)) {
+ } break ; } } } else{
+ } else if (isDefined(name, fullName, val, valParent)) {
+ if (t.isAssigned(fullName, val, valParent)) {
+ if (assign(t, fullName, val, valParent)) {
+ } break ; default: if (assign){
+ if (t.inGlobalScope(ref)) {
+ } } else if (isAssign(valParent)) {
+} else if (processDefineAssignment(t, name, ref, name, val, valParent)) {
+}  break ; default : break ;
+ } else if (isDefineInContext(t, fullName, val, valParent)) {
+ } else if (isAssignableTo(fullName, val, valParent)) {
+} else if (processDefineAssignment ( val, refInfo, t ) )
+ } else if (isAssign(ref, val, valParent)) {
+ if (updateDefineInfo(val, valParent)) {
+} else if (processDefineAssignment(ref, refInfo.name, fullName, val, valParent)) {
+ } } } if (processDefineAssignment(t, fullName, val, valParent)) {
+ } if (valParent!= null)) {
+ } else if (t.makeError(name, fullName, val, valParent)) {
+} else if (processDefineAssignment ( val, ref ) )
+ } else if (isAssignable(ref, fullName, val, valParent)) {
+} else if (refInfo.name.isAssigned(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo.ref, fullName, val, valParent)) {
+ return false;
+ } } } } } else{
+ } else if (canAssign(ref, val, valParent)) {
+ } else if (isDefined(fullName, val, valParent)) {
+ } else if (t.isDefined(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo.assign, valParent)) {
+} else if (processDefineAssignment(t, valParent))) {
+ } if (isAssign(ref, valParent)) {
+} else if (processDefineAssignment(t, valParent) {
+} else  { refInfo = null ;
+ } else if (isAssigned(fullName, val, valParent)) {
+ } break ; default: if (refInfo.processDefineAssignment(t, fullName, val, valParent)) {
+} else  { continue ; } }
+ } if (isAssign(val, valParent)) {
+} else if  (valParent. isAssignable()) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { break; } }
+ } else if (t.shouldAssign(fullName, val, valParent)) {
+ } else if (valParent.contains(valParent)) {
+ } else if (refInfo.assigned){
+ } if (isAssigned(ref, valParent)) {
+ if (isAssign(val, valParent)) {
+ valParent = valParent. nextChild ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo, ref, valParent)) {
+ } if (isAssignable(val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) { valParent = val ; }
+ if (isAssign(ref)) {
+ if (isAssign(fullName, val, valParent)) {
+ } else if (isDefine(t, fullName, val, valParent)) {
+ if (val!= null)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { continue; }
+ } else if (isDefined(ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  ref) {
+ } else if (assignDefines(t, fullName, val, valParent)) {
+ } else if (isDefineRef(t, fullName, val, valParent)) {
+ } if (!assign(name, val, valParent)) {
+ } else if (isDefineReference(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo.ref, valParent)) {
+ if (isAssignable(ref, valParent)) {
+ } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, name, refInfo, valParent)) {
+ } if (isAssignable(ref, valParent)) {
+ } else if (canAssign(name, fullName, val, valParent)) {
+ } else if (isDefined(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent!= null)) {
+ valParent = val ; }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = valChild ;
+}  } break ; }
+ } else if (name.isAssign()){
+} else if (processDefineAssignment(name, refInfo.ref, fullName, val, valParent)) {
+ } else if (name.isVariable())){
+ if (refInfo!= null)) {
+ } else if (assignDefine(t, fullName, val, valParent)) {
+ if (!set(fullName, val, valParent)) {
+ } } if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (assign(name, val, valParent)) {
+ } else if (isDefineReference(fullName, val, valParent)) {
+ if (shouldTraverse(val, valParent)) {
+ } else if (t.isAssigned(valParent)) {
+ break; } } } else{
+} else if (processDefineAssignment(nodeTraversal, t, fullName, val, valParent)) {
+ if (ref!= null)) {
+ } break; } } } } else{
+ } else if (canAssign(ref, fullName, val, valParent)) {
+} else  { continue ; }
+} else if (processDefineAssignment(t, fullName, val, valParent) > 0) {
+ } else if (isAssign(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(refInfo.ref, fullName, val, valParent)) {
+ } } else if (assign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name, ref, fullName, val, valParent)) {
+ } else if (isAssigned(ref, valParent)) {
+ if (isAssigned(val, valParent)) {
+} else if (processDefineAssignment ( val, t ) )
+} else if  ( assign ) {
+ if (val!= null) {
+ } else if (isDefineVariable(t, fullName, val, valParent)) {
+ } if (assign(t, fullName, val, valParent)) {
+ } else if (!assign(name, val, valParent)) {
+ } if (ref!= null)) {
+} else if (processDefineAssignment(name, refInfo.ref, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo, name, val, valParent)) {
+}  break; } } }
+} else  { refInfo = ref ;
+ } else if (valParent!= null) if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(defines, refInfo, t, fullName, val, valParent)) {
+ } if (isAssign(ref)) {
+ } } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isDefineRef(fullName, val, valParent)) {
+ } } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isDefined(valParent)) {
+} else if (processDefineAssignment(t, fullName, valParent) {
+ } } } }
+ valParent = valParent ; } } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == 0) { break; } } }
+ } else if (isDefineAssigned(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name)) {
+ } else if (name.assign){
+} else if  ( ignore ) {
+ if (checkAssign(fullName, val, valParent)) {
+ } else if (valParent.equal(valParent)) {
+ } else { valParent = val ; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } break ; } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+ if (valParent == val)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == true) {
+} else if  (t.inGlobalScope()) { }
+} else if (processDefineAssignment(t, fullName, val, valParent == null)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)!= 0) {
+ } if (!assign(ref, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo, refParent, valParent)) {
+ } else if (checkDefineInfo(t, fullName, val, valParent)) {
+ if (isAssign(ref, val, valParent)) {
+ switch (fullName, val, valParent)) {
+ } else if (isAssignableValue(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) ) { break ; default :
+} else if (processDefineAssignment(t, fullName, val, valParent) == 0) { continue; } }
+} else if  ( val ) {
+} else if (processDefineAssignment(ref, val, name)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == 0) { break; }
+ if (isAssign(ref, valParent)) {
+}  break ; } } } }
+ if (val, valParent)) {
+ } if (isAssign(ref, val, valParent)) {
+ } else { if (t.processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isAssign(name, valParent)) {
+ } if (valParent == val)) {
+ } else if (t.assign(name, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { valParent = val ; } }
+ } else if (isAssignableTo(t, fullName, val, valParent)) {
+ } break ; } } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isDefineReference(ref, val, valParent)) {
+ if (assign(ref, valParent)) {
+ if (isAssigned(ref, valParent)) {
+ } else if (isDefineVariable(fullName, val, valParent)) {
+ if (!assign(ref, valParent)) {
+} else  { break ; default :
+ } if (val!= null)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { } else {
+} else if (processDefineAssignment(t, fullName, val, lvalueToRemoveLater,)) {
+ } else if (!assign(ref, fullName, val, valParent)) {
+} else  { return ; }
+ } break ; } } } else { if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } } } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, ref, parent)) {
+ } if (!assign(ref, fullName, val, valParent)) {
+} else if (t.inGlobalScope()) && assign(t, fullName, val, valParent)) {
+ if (isDefined(name, fullName, val, valParent)) {
+ } else if (isDefine(valParent)) {
+ if (isDefined(t, fullName, val, valParent)) {
+} else if (processDefineAssignment ( ref ) {
+ valParent. removeLastChild(); } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (refInfo.name.addRef(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(nodeTraversal, name, t, fullName, val, valParent)) {
+ } } } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+ switch ((fullName, val, valParent)) {
+ } else if (isDefineInIT(t, fullName, val, valParent)) {
+ if (isAssignable()) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo, compiler)) {
+ break; } } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+} else  { valParent -- ;
+ } break ; default: if (t.processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isVariable(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, lvalueToRemove)) {
+} else if (processDefineAssignment(t, ref.name, val, valParent)) {
+ } break ; } } else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)!= null) break;
+ } else if (isDefineAssignment.processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (valParent.addChild(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref.name, fullName, val, valParent)) {
+ } else { if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name, ref, t, fullName, val, valParent)) {
+ if (!replace(val, valParent)) {
+ break; } else{
+} else if  ( refInfo ) {
+} else if (processDefineAssignment(t, fullName, val, name, ref)) {
+}  break ; default: { }
+ } break ; } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, name, ref.name, val, valParent)) {
+ break; } } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) && valParent. isVar ( ) )
+ } } } } } } else{
+ } else if (t.isSame(val, valParent)) {
+ } break ; } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (!assign(name, fullName, val, valParent)) {
+ } break ; default: } else{
+} else if (processDefineAssignment(t, fullName, name, ref, valParent)) {
+ } else if (t.inGlobalScope(), valParent)) {
+ } else { if(processDefineAssignment(t, fullName, val, valParent)) {
+ } } } } else { if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } if (assign) {
+ } else { } else{
+ } else if (valParent.containsChild(processDefineAssignment(t, fullName, val, valParent)) {
+ } if (isAssign(valParent)) {
+} else if (processDefineAssignment(t, name, ref.type, val, valParent)) {
+ } else if (t.isAssign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { continue; } } } }
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo))) {
+} else if (processDefineAssignment(t, fullName, val,  valParent) {
+} else if (processDefineAssignment(t, fullName, val, refInfo.name, parent)) {
+ } else if (isAssignVariable(valParent)) {
+ } break ; } } } if (!processDefineAssignment(t, fullName, val, valParent)) {
+ if (valParent.isEmpty()) {
+ } else if (valParent.next(valParent)) {
+ switch (val, valParent)) {
+ if (isDefine(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t), valParent) {
+ } if (!assign(name, fullName, val, valParent)) {
+}  } } }
+ } else if (valParent.compare(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent) == false)
+ if (!replace(ref, valParent)) {
+ } } } } if(processDefineAssignment(t, fullName, val, valParent)) {
+ if (!assign(name, fullName, val, valParent)) {
+ } else if (isVariable(valParent)) {
+} else if (t.isAssignableTo(t, fullName, val, valParent)) {
+ } break; } if(processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (isAssigned(valParent)) {
+ } else if (isVariable(name, fullName, val, valParent)) {
+ valParent = valParent ; break ; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(ref, name, parent, t, fullName, val, valParent)) {
+ if (set(fullName, val, valParent)) {
+ } else if (valParent).then(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (refInfo.name.isDefined(t, fullName, val, valParent)) {
+ } break ; } } } if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (valParent).contains(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo, name)) {
+ } else if (checkDefineInits(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, name, ref, n, val, valParent)) {
+ if (replace(ref, valParent)) {
+} else if (refInfo.name.addAssign(t, fullName, val, valParent)) {
+ break; } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t))) {
+} else if (processDefineAssignment(t, fullName, refInfo.define, valParent)) {
+ if (replace(val, valParent)) {
+ break; } } } } else if (!processDefineAssignment(t, fullName, val, valParent)) {
+ } if (isDefined(name, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName), val) {
+} else if (processDefineAssignment(t, fullName, val, refInfo.ref)) {
+ if (!assign(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref) {
+ } break ; } } } else { if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (t.inGlobalScope() && assign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment ( val ) {
+} else if (processDefineAssignment(t, name, val, valParent)) {
+ } break ; } } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, name)) {
+} else if (processDefineAssignment(t, fullName, val,  parent)) {
+ break; } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (t.isVariable(val, valParent)) {
+} else  { } } }
+} else  { break ;
+} else if (processDefineAssignment(t, name, fullName, val, valParent)) {
+ } else if (t.isAssigned(t, fullName, val, valParent)) {
+ } if (!replace(ref, valParent)) {
+ } else if (t.isDefineReference(t, fullName, val, valParent)) {
+ } else if (checkDefineInContext(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t), val)
+ } break ; } } if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(val))) {
+ } } } } } else if(processDefineAssignment(t, fullName, val, valParent)) {
+ valParent = getValueParent(ref); }if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, name, ref, parent)) {
+ if (assign(ref, fullName, val, valParent)) {
+ } else if (ref.equal(valParent)) {
+ } if (!set(fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  name)) {
+} else if (processDefineAssignment(t, fullName, valParent))
+ } else if (isValue(valParent)) {
+ valParent = null ; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (t.isDefineRef(t, fullName, val, valParent)) {
+ if (true)) {
+} else if (processDefineAssignment(ref, name, compiler, t, fullName, val, valParent)) {
+} else if  (! ignore ) {
+} else if (processDefineAssignment(name, refInfo, fullName, val, valParent)) {
+} else if  ( eval ) {
+ break; } } } if(processDefineAssignment(t, fullName, val, valParent)) {
+ } else { if (isDefineInContext(t, fullName, val, valParent)) {
+} else if (t.inGlobalScope()) && shouldVisit(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, ref) {
+ if ((val, valParent)) {
+} else if (processDefineAssignment(t, fullName, refInfo.defs, valParent)) {
+} else if (isDefineAssignable(t, fullName, val, valParent)) {
+ } if (ref.equal(valParent)) {
+ } else if (isDefineAssignmentAndprocessDefineAssignment(t, fullName, val, valParent)) {
+} else if (name == refInfo.name && assignValue(t, fullName, val, valParent)) {
+ return true;
+} else if  ( isVariable ) {
+ } switch(name, val, valParent)) {
+} else if (processDefineAssignment(t, refInfo, ref, val, valParent)) {
+ } if (isVariable(valParent)) {
+ } if (val.equal(valParent)) {
+ } else if (t.isDefinedIn(t, fullName, val, valParent)) {
+ } if (!replace(ref, val, valParent)) {
+ } else if (valParent) if(processDefineAssignment(t, fullName, val, valParent)) {
+ } if (isValue(valParent)) {
+ if (replace(ref, val, valParent)) {
+} else  { } }
+ if (assign(name, fullName, val, valParent)) {
+ if (isAssign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name.declaration, t, fullName, val, valParent)) {
+ synchronized (valParent)) {
+ } else if (valParent.hasChildAfter(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val,  valParent))) {
+} else if (processDefineAssignment(nodeTraversal(), t, fullName, val, valParent)) {
+} else if (refInfo.name.inject(t, fullName, val, valParent)) {
+ if (check(fullName, val, valParent)) {
+} else if (processDefineAssignment(nodeTraversalImpl, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref))
+} else if (processDefineAssignment(t, fullName))) {
+} else if (processDefineAssignment ( ) )
+ valParent = valParent ; } } #if (processDefineAssignment(t, fullName, val, valParent)) {
+ } else if (valParent.isSameNode(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name, refInfo, t, fullName, val, valParent)) {
+ if (set(name, val, valParent)) {
+ } switch (fullName, val, valParent)) {
+ if (set(ref, val, valParent)) {
+ } break ; }
+ } else if (valParent.next(processDefineAssignment(t, fullName, val, valParent)) {
+ if (!replace(fullName, val, valParent)) {
+ if (isDefineReference(fullName, val, valParent)) {
+} else if (t.inGlobalScope() && assignValue(t, fullName, val, valParent)) {
+ } if (!set(t, fullName, val, valParent)) {
+} else if  ( isDef ) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.refInfo)) {
+ if (match(fullName, val, valParent)) {
+ } if (!replace(val, valParent)) {
+} else if (processDefineAssignment(nodeTraversal, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, ref, name)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, ref, compiler)) {
+ valParent = valParent ; } } }if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (ref == val)) {
+ visit(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, name, parent)) {
+ if (isDefineRef(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(name, ref)) {
+} else if (t.isDefineInContext(t, fullName, val, valParent)) {
+ } if (val, valParent)) {
+ if (!set(name, fullName, val, valParent)) {
+ } else { valParent = val ; } }if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (name == refInfo.name && assignVar(t, fullName, val, valParent)) {
+ } if (!apply(t, fullName, val, valParent)) {
+} else if (t.isAssignableFrom(t, fullName, val, valParent)) {
+ } if (valParent)) {
+}  } break ;
+} else if (processDefineAssignment(t, fullName, val, valParent) == true)
+ valParent = refParent ; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } break; } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ if (isAssigned(t, fullName, val, valParent)) {
+ } if (set(fullName, val, valParent)) {
+ return; } if(processDefineAssignment(t, fullName, val, valParent)) {
+ if (!apply(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)!= 0)
+ break; } if(processDefineAssignment(t, fullName, val, valParent)) {
+ } if (!empty(valParent)) {
+ } else if (valParent.isChildOf(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t))
+ if (assign) {
+ } if (apply(t, fullName, val, valParent)) {
+ if (isValue(valParent)) {
+ if (isDefineReference(t, fullName, val, valParent)) {
+ if (isVariable(valParent)) {
+ if (!set(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, ref.name, valParent)) {
+ return;
+ if (!set(val, valParent)) {
+ if (val.equal(valParent)) {
+ } else { valParent = valParent ; }if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (val == null)) {
+ if (!ignore(val, valParent)) {
+ return; } else{
+ if (!(val, valParent)) {
+ if (set(name, fullName, val, valParent)) {
+ if (ref!= val) {
+ } if (fullName, val, valParent)) {
+ if (assign)) {
+ valParent = null ; } } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ } if (remove) {
+ } if (check(fullName, val, valParent)) {
+ } if ((ref, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, ref, compiler)) {
+} else if  ( {
+} else if (processDefineAssignment(val, t)) {
+ valParent = getValueParent(ref); elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ } if (assign)) {
+ assign(name, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, ref, parent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, name, ref)) {
+ } if (!set(val, valParent)) {
+ return false; } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ traverse(t, fullName, val, valParent)) {
+ if (!empty(valParent)) {
+ if (remove) {
+ } else if (check(t, fullName, val, valParent)) {
+ } }, val, valParent)) {
+ } if (!switch(val, valParent)) {
+ break; } break; } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { } }
+ } switch ((fullName, val, valParent)) {
+ } else if (!define(t, fullName, val, valParent)) {
+ break; } break; } } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ } if (assigned) {
+} else if (processDefineAssignment(ref.name, t, fullName, val, valParent)) {
+ } switch (ref, val, valParent)) {
+ } if ((fullName, val, valParent)) {
+ if (check(t, fullName, val, valParent)) {
+ } if ((val, valParent)) {
+ if (check(name, fullName, val, valParent)) {
+ } if (null(valParent)) {
+ if (!add(t, fullName, val, valParent)) {
+ break; } else if(processDefineAssignment(t, fullName, val, valParent)) {
+ } break ; } break ; } } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, name, parent)) {
+} else if (processDefineAssignment(t, fullName, name, val, valParent)) {
+ if (false)) {
+ return; } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ if (apply(t, fullName, val, valParent)) {
+} else  { }
+ valParent = valParent ; } #if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (true, valParent)) {
+ if (check(ref, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName,  ref))
+ } if (debug) {
+ } if (!setName, val, valParent)) {
+ return; } } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ } switch ((, val, valParent)) {
+} else if  (def) {
+ } }
+ } else if (null(valParent)) {
+} else if (processDefineAssignment ( ) {
+} else if (processDefineAssignment(ref, n, t, fullName, val, valParent)) {
+ if (replace(name, val, valParent)) {
+ } switch(name, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.defs)) {
+ assign(ref, fullName, val, valParent)) {
+ switch (name, val, valParent)) {
+ } } break ; } } elseif (processDefineAssignment(t, fullName, val, valParent)) {
+ } if (true)) {
+ } } }
+} else if (processDefineAssignment(t, fullName, val,  valParent))
+ } switch (val, valParent)) {
+ if (ignore) {
+ return false ; }
+} else if (processDefineAssignment(ref.ref, t, fullName, val, valParent)) {
+ } if (t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refInfo.define)) {
+ if (true) {
+ } if (set(t, fullName, val, valParent)) {
+ if ((ref, val, valParent)) {
+ } else if (val==valParent)) {
+ } if (null==valParent)) {
+} else if  (debug)
+ switch ((val, valParent)) {
+ } if (true) {
+ } if (!(val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent)) continue;
+ report(t, fullName, val, valParent)) {
+ } }, fullName, val, valParent)) {
+ if (!define(t, fullName, val, valParent)) {
+ if (!replace(name, valParent)) {
+ if (fullName, val, valParent)) {
+ if (assigned)) {
+ if (trace) {
+} else if  ( ignore )
+} else if (processDefineAssignment(ref.name, fullName, val, valParent)) {
+ } } if (valParent)) {
+} else if  (DEBUG)
+} else if (isDefined(t, fullName, val, valParent)) {
+} else if  (true)
+} else if (processDefineAssignment(t, fullName, val,  parent))
+ assign(t, fullName, val, valParent)) {
+ } } (t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, name.declarationRef)) {
+ } switch (t, fullName, val, valParent)) {
+} else if (processDefineAssignmentNode) {
+ if (!(fullName, val, valParent)) {
+ if ((fullName, val, valParent)) {
+ if (null(valParent)) {
+} else if  else {
+ if (!(valParent)) {
+ if (t.processDefineAssignment(t, fullName, val, valParent)) {
+ } if (!valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { break;
+ } if (ignore) {
+ } if (!(valParent)) {
+} else if (processDefineAssignment(ref))) {
+} else if (processDefineAssignment(t, fullName, val,  name))
+ } if (debug)) {
+ if (err)) {
+ if (!assigned)) {
+ if (trace)) {
+ if (name, val, valParent)) {
+ } switch(ref, fullName, val, valParent)) {
+ if (!valParent)) {
+} else  { continue ;
+ } if (!(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName,  ref) {
+ } } break ; } } } }else if (processDefineAssignment(t, fullName, val, valParent)) {
+ if (()) {
+ assign(n, fullName, val, valParent)) {
+ if (!set(, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, ref.type, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, compiler)) {
+} else if (processDefineAssignment(name))
+ } break; else{
+} else if (processDefineAssignment(t, fullName, val,  t))
+ } default) {
+ } if (!val, valParent)) {
+ } }) {
+} else if (processDefineAssignment(ref, fullName, val, valParent)) {
+ if (!preprocessDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent))  { continue;
+ } if ((t, fullName, val, valParent)) {
+ } }, valParent)) {
+} else  break ; }
+}  } }
+ if ((, valParent)) {
+ }(val, valParent)) {
+ switch ((, val, valParent)) {
+} else  return ; }
+} else if (processDefineAssignment(defInfo)) {
+ if (!)) {
+} else if (processDefineAssignment(t, fullName, val,  false))
+} else if (processDefineAssignment)) {
+} else if (processDefineAssignment(t, fullName, val))) {
+} else if (processDefineAssignment(t,  val));
+ if (!postprocessDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName,  val));
+} else if (processDefineAssignment(t, fullName, val, valParent))  { }
+} else if (processDefineAssignment(t,  val)))
+} else if (processDefineAssignment(t, fullName,  val)))
+} else if (processDefineAssignment(defInfo, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(evalParent)) {
+ continue;
+ if(, valParent)) {
+} else if (processDefineAssignment(t,  name))
+} else if (processDefineAssignment(t, fullName, val, valParent, parent)) {
+ if (!, valParent)) {
+ } visit(t, fullName, val, valParent)) {
+ }(t, fullName, val, valParent)) {
+ switch (valParent)) {
+ break; if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName) {
+} else if (processDefineAssignment(name, fullName, val, valParent)) {
+} else if (processDefineAssignment(defParent)) {
+ } traverse(t, fullName, val, valParent)) {
+ if ()) {
+ return } else{
+ if assign(t, fullName, val, valParent)) {
+ function report(t, fullName, val, valParent)) {
+} else if  (!)
+}  break ;
+} else if (processDefineAssignment(defInfo, fullName, val, valParent)) {
+ switch ((, valParent)) {
+} else if (processDefineAssignment(name, t, fullName, val, valParent)) {
+ } assign(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(RefInfo, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t) {
+ switch(, val, valParent)) {
+} else if  (! {
+(name, val, valParent)) {
+} else if  ( )
+} else  break ;
+} else if (processDefineAssignment(t, fullName, name, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, name)) {
+ (t, fullName, val, valParent)) {
+(name, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName,  name))
+ if (!) {
+ while (processDefineAssignment(t, fullName, val, valParent)) {
+ } else) {
+} else if (isReference(t, fullName, val, valParent)) {
+ } } while(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (shouldVisit(t, fullName, val, valParent)) {
+} else if (isSet(t, fullName, val, valParent)) {
+}  default :
+} else if (apply(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(RefInfo, fullName, val, valParent)) {
+ if () {
+} else if (processDefineAssignment(t)); {
+} else if (processDefineAssignment(refs, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, relInfo, val, valParent)) {
+} else if (processDefineAssignment(refs, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, t)) {
+ while (!processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName")) {
+} else if (processDefineAssignment(t, defInfo, val, valParent)) {
+ else if(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, varName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, compiler)) {
+} else : {
+} else  { {
+} else if (processDefineAssignment(n, fullName, val, valParent)) {
+} else if (set(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, evalParent)) {
+} else if (evaluate(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, defInfo)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, referenceInfo)) {
+} else if (processDefineAssignment(t, fullName, val, valParent")) {
+} else if (processDefineAssignment(n, t, fullName, val, valParent)) {
+} else if (match(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, defs, valParent)) {
+ } while(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, false)) {
+} else if (processDefineAssignment(t, fullName, referenceInfo, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, defParent)) {
+} else if (processDefineAssignment(t, fullName, refName, valParent)) {
+} else if (processDefineAssignment(t, fullName, defInfo, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, varName)) {
+} else if (processDefineAssignment(t, n, val, valParent)) {
+ }
+ }; else{
+ } }{
+} else if (processDefineAssignment(t, fullName, val, valParent, defs)) {
+} else if (processDefineAssignment(node, t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, val, valParent, refId)) {
+} else if (processDefineAssignment(def)) {
+ }); }else if (processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, node, val, valParent)) {
+} else if (processDefineAssignment(t, reference, val, valParent)) {
+ } switch(processDefineAssignment(t, fullName, val, valParent)) {
+} else if (processDefineAssignment(t, fullName, def, valParent)) {
+} else if (processDefineAssignment(t, fullName, prop, valParent)) {
+ break

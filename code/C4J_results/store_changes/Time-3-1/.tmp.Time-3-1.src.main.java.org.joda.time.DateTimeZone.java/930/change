@@ -1,0 +1,245 @@
+ return offsetPrev;
+return offsetPrev ; } else { return offsetLocal ;
+ return offsetAdjusted;
+return offsetPrev ; } else { return offsetAdjusted ;
+ return prev;
+return offsetPrev ; } else { return diff ;
+ return offsetLocal-offsetPrev;
+ offsetAdjusted = instantAdjusted-offsetPrev;
+return offsetPrev ; } else { break ;
+return offsetPrev - offsetLocal ;
+ offsetAdjusted = offsetLocal-offsetPrev;
+ return offsetAdjusted-offsetPrev;
+return  offsetPrevious ; } else { return offsetLocal ;
+return offsetPrev ; } else { return offsetLocal - diff ;
+ prev=offsetPrev;
+return offsetPrev ; } return offsetLocal ;
+return offsetPrev ; } else { return 0 ;
+return offsetPrev ; } else { return instantAdjusted ;
+return offsetPrev ; } else { return - offsetAdjusted ;
+ if (offsetPrev!= offsetLocal) {
+ if (offsetPrev!= prev) {
+ return offsetPrev ; }
+ return offsetPrev ; } else if (instantAdjusted - prev >= diff)
+return offsetPrev ; } else { return offsetLocal + diff ;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) {
+ if (offsetPrev!= offsetAdjusted) {
+return offsetPrev + offsetLocal ;
+return offsetPrev ; } } else { return offsetLocal ;
+return  offsetPrevious ; } else { return diff ;
+ return offsetPrev; } else if (instantAdjusted - prev > diff) {
+ offsetAdjusted = offsetPrev;
+ return offsetPrev ; } else if (instantAdjusted - prev > diff)
+ break;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetPrev) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (diff!= offsetPrev) {
+return offsetPrev ; } else { return prev ;
+ return offsetPrev ; } else if (instantAdjusted < diff) {
+return  prev ; } else { return offsetLocal ;
+ offsetPrev = offsetPrev ; } else if (diff < 0) { offsetPrev = diff ;
+ return offsetPrev; } else if (instantAdjusted - prev < - diff) {
+ return offsetPrev - diff ;
+ return offsetPrev; } else if (instantAdjusted - prev >= offsetLocal) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (offsetPrev!= offsetAdjusted) {
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { if (diff!= offsetPrev) {
+ offsetPrev = offsetPrev ; } else if (diff < 0) {
+return offsetPrev ; } else { offsetAdjusted = diff ;
+ return offsetPrev; } else if (diff < offsetLocal) {
+ offsetPrev = offsetPrev ; } else if (diff < instantAdjusted) {
+ if (prev!= offsetPrev)
+ return offsetPrev ; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetAdjusted) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (diff < offsetPrev) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev == instantAdjusted) {
+ return offsetPrev; } else if (diff < instantAdjusted) {
+ offsetPrev = offsetPrev ; } else if (diff < 0) { offsetPrev = diff ; }
+ return offsetPrev + diff ;
+ offsetPrev = offsetPrev ; } else if (diff < offsetLocal) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= instantAdjusted) {
+return offsetPrev ; } else { return - 1 ;
+ return offsetPrev; } else if (instantAdjusted - prev > offsetLocal) {
+return offsetPrev ; } else { return - 1 ; } }
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (diff < 0) {
+ offsetPrev = offsetPrev ; } else if (diff < diff) { offsetPrev = diff ;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (offsetPrev!= offsetLocal) {
+ offsetAdjusted = prev - offsetLocal;
+ return offsetPrev; } else if (diff > offsetLocal) {
+ offsetAdjusted = diff ; return offsetLocal;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetPrev) { break; }
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetPrev)
+return  prev ; } else { return diff ;
+ offsetAdjusted = prev ; return offsetLocal;
+return  offsetAdjusted ; } else { return 0 ;
+return  offsetLocal ; } else { return offsetPrev ;
+ offsetPrev = offsetPrev ; } else if (diff > 0) {
+ return offsetPrev ; } else if (diff < 0) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (diff!= 0) {
+ offsetPrev = offsetPrev ; } else if (diff!= offsetPrev) {
+return  offsetLocal ; } else { return diff ;
+ return offsetPrev; } else if (instantAdjusted - prev > offsetPrev) {
+ offsetPrev = offsetPrev ; } else if (diff > 0) { offsetPrev = diff ;
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { if (prev < diff) { return prev; }
+ offsetAdjusted = diff-offsetPrev;
+ return offsetPrev; } else if (instantAdjusted - prev < offsetLocal) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (diff < 0)
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { if (prev < diff) { return diff; }
+return  offsetAdjusted ; } else { return diff ;
+ return offsetPrev ; } else if (instantAdjusted - prev < diff) { if (prev!= offsetPrev) { break; }
+ offsetPrev = offsetPrev ; } else if (diff > offsetLocal) {
+return offsetPrev - offsetAdjusted ;
+ offsetPrev = offsetPrev ; } else if (diff < 0) { offsetPrev += diff ;
+ offsetPrev = offsetPrev ; } else if (diff > 0) { offsetPrev = diff ; }
+ offsetAdjusted = prev - diff ;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { diff = -diff;
+return offsetPrev ; } } else { return 0 ;
+return offsetPrev ; } else { return - offsetLocal ;
+ offsetPrev = offsetPrev ; } else if (diff < 0) { offsetPrev = prev ;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev >= diff)
+ offsetPrev = offsetPrev ; } else if (diff < 0)
+ offsetPrev = offsetPrev ; } else if (diff < diff) { offsetPrev = diff ; }
+ if (offsetPrev == offsetAdjusted) {
+return offsetPrev ; } break ; }
+return offsetPrev ; } } else { break ;
+ return offsetPrev; } else if (diff > 0) {
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetPrev) break ; }
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { if (prev!= offsetPrev) break; else
+ offsetPrev = offsetPrev ; } else if (diff < diff) { offsetPrev = prev ; }
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { diff = offsetPrev;
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { diff = offsetPrev;
+ offsetAdjusted = diff ; return offsetPrev;
+ return offsetPrev; } else if (instantAdjusted - prev > diff) { diff = offsetPrev;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { return prev; }
+return  offsetPrevious ; } return offsetLocal ;
+return  offsetPrevious ; } else { break ;
+ return prev ; } else { break ;
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { diff = offsetPrev; }
+ offsetAdjusted = prev + diff;
+ return prev - offsetLocal ;
+ if (prev!= offsetAdjusted) {
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { diff = offsetPrev; }
+ return diff ;
+ offsetAdjusted = diff ; offsetLocal=offsetPrev;
+ offsetAdjusted = diff ; return offsetAdjusted;
+ offsetAdjusted = prev ; return offsetPrev;
+ if (prev!= offsetPrev) {
+return  prev ; } return offsetLocal ;
+ return offsetPrevious - offsetAdjusted;
+ return offsetLocal + diff-offsetPrev;
+return offsetPrev ; } else { break ; }
+ offsetAdjusted = diff - offsetLocal;
+ offsetAdjusted = -offsetPrev;
+ if (offsetPrevious!= offsetLocal) {
+ offsetPrev = offsetPrev ; } else if (diff < 0) { break ; }
+ return offsetPrev; } else if (instantAdjusted - prev >= diff) { return diff ; }
+ return offsetLocal ; } else { return diff-offsetPrev;
+ return offsetPrev; } else if (instantAdjusted - prev < diff) { return prev ; }
+return offsetPrev + diff ; } return offsetLocal ;
+ return offsetPrev + offsetAdjusted;
+ offsetAdjusted = prev + offsetLocal;
+ offsetPrev = prev ; } else if (diff < 0)
+ offsetAdjusted = instantAdjusted+offsetPrev;
+return offsetPrev ; } else { return - 1 ; }
+ return - offsetAdjusted;
+ return prev + offsetLocal ;
+ offsetAdjusted = diff ; } else {
+ if (offsetPrev!= diff) {
+ return instantAdjusted-offsetPrev;
+ if (prev == offsetPrev) { return prev ; }
+ return offsetPrev ; } return diff ;
+ offsetAdjusted = diff + offsetLocal-offsetPrev;
+ offsetAdjusted = diff ;
+ offsetLocal=offsetPrev;
+ return offsetPrev ; } }
+ if (prev!= offsetPrev) { return prev; }
+ return diff-offsetPrev;
+ return offsetPrev ; } } else if (instantAdjusted - prev >= diff) { diff = offsetLocal ; }
+ if (offsetPrev < prev) {
+ offsetPrev = offsetPrev ; } if ( diff < 0 ) { offsetPrev = offsetPrev ; } }
+ offsetAdjusted = diff + offsetLocal;
+ return offsetPrev ; } } else if (instantAdjusted - prev < diff) { diff = offsetLocal ; }
+return offsetPrev ; } } else {
+ return offsetAdjusted + diff-offsetPrev;
+ return offsetPrev - diff + offsetLocal;
+ offsetAdjusted = diff ; } return offsetPrev;
+ if (prev!= offsetPrev) { break; }
+ offsetPrev = offsetPrev ; } if ( diff < 0 ) { offsetPrev = offsetPrev ; }
+ offsetPrev = offsetPrev ; } else { offsetPrev = prev ; }
+ return prev-offsetPrev;
+ if (prev == offsetPrev) { break; }
+ offsetAdjusted = offsetLocal+offsetPrev;
+ offsetPrev = offsetPrev - diff ; } else {
+ return offsetPrevious ; }
+ offsetAdjusted = offsetAdjusted-offsetPrev;
+return offsetPrev ; } return - 1 ;
+ if (prev == offsetLocal)
+ if (prev == offsetPrev) return offsetLocal;
+ diff = instantAdjusted-offsetPrev;
+ return offsetLocal+offsetPrev;
+ offsetAdjusted = diff - offsetLocal ;
+ if (offsetPrev!= prev)
+ return offsetAdjusted + offsetLocal-offsetPrev;
+ offsetAdjusted = diff ; return offsetLocal-offsetPrev;
+return  prev ; } break ; }
+ offsetAdjusted = prev-offsetPrev;
+ offsetAdjusted = prev + offsetLocal-offsetPrev;
+ return offsetAdjusted ; } else { return -offsetPrev;
+ return offsetPrevious + offsetLocal;
+ return offsetPrevious - offsetLocal;
+ return offsetAdjusted+offsetPrev;
+ offsetAdjusted = prev + delta ; prev=offsetPrev;
+ offsetAdjusted += offsetLocal-offsetPrev;
+return offsetPrev ; } break ; } }
+ return offsetAdjusted - diff-offsetPrev;
+ return offsetLocal - diff-offsetPrev;
+ if (prev!= offsetPrev) { prev = prev;
+ if (prev!= diff)
+ return offsetLocal ; } else { return diff+offsetPrev;
+ if (prev!= offsetPrev) break; else
+ return offsetPrevious;
+ diff = offsetLocal-offsetPrev;
+return offsetPrev ; } } }
+ offsetPrev = prev ;
+ offsetPrev = prev ; }
+ offsetAdjusted = diff ; }
+ offsetAdjusted = prev ;
+ return offsetLocal ; }
+ offsetPrev = diff ;
+ if (prev!= offsetPrev) break; }
+ diff = offsetPrev;
+ offsetAdjusted = prev ; }
+ offsetAdjusted = diff ; } else
+ return 0 ;
+ diff = 0;
+ offsetLocal = diff ;
+ return -offsetPrev;
+ return diff+offsetPrev;
+ return offsetLocal;
+return offsetPrev ; break ;
+ return offsetPrev; }
+ break; }
+ return delta + 1;
+ return previous - diff;
+ offsetPrevious = prev ; }
+ return delta - 1;
+ diff = prev ;
+ continue ;
+ return prev ; }
+ break;
+ return offsetOrig;
+ return prev;
+ return prev
+ continue; }
+ return offsetLoc;
+ continue;
+ break
+ return 1;
+ prev-offsetPrev;
+ return previous;
+ } else
+return offsetPrev ++ ;
+return offsetPrev ; break
+return offsetPrev break ;
+ continue
+ }
+ return
+ }
+ #

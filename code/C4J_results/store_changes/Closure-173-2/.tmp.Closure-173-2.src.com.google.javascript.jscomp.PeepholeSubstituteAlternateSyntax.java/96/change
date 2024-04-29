@@ -1,0 +1,449 @@
+return tryReplaceUndefined(node);
+ return node;
+ return tryMinimizeName(node);
+ return tryMinimizeNameLiteral(node);
+ return tryName(node);
+ return name(node);
+ return tryMinimizeName(node;
+return tryReplaceUndefined(node, result);
+ return tryName(node;
+ return tryMinimizeNameLiteral(node;
+ return tryMinimizeName(node); break;
+ return tryMinimizeName(node);;
+ return tryMinimizeNameLit(node);
+ case Undefined:
+ case Token.UNKNOWN:
+ case Token.UNDEF:
+ return node);
+ return tryMinimizeNameLiteralConstructor(node);
+ return tryReduceName(node); break;
+ default:
+ return tryMinimizeNameNode(node);
+ return tryMinimizeStringLiteral(node);
+ return tryMinimizeNameLit(node;
+ return trySplitName(node);
+ return _tryReplaceUndefined(node);
+ return NodeUtil.tryReplaceUndefined(node);
+ return tryMinimizeNameLiteralNode(node);
+ return tryMinimizeFunctionName(node);
+ return tryReduceNameLiteral(node);
+ return tryMinimizeNameLiteral()(node);
+ return tryReduceName(node);;
+ return trySplitName(node;
+ return this.tryReplaceUndefined(node);
+ return tryMinimizeNameliteral(node);
+ return reduceName(node);
+ return tryMinimizeNameString(node);
+ return tryReduceName(node);
+ return (node);
+ return tryMinimizeNamedLiteral(node);
+ case Token.UNNODE:
+ return tryReduceName(node;
+ return tryMinimizeNamed(node);
+ return tryMinimizeNamedName(node);
+ return tryMinimizeStringName(node);
+ case undefined:
+ return tryReduceName(node); return node;
+ return tryMinimizeNameLiteralImpl(node);
+ return tryMinimizeNameNode(node;
+ return tryMinimizeStringLiteral(node;
+ return tryReplaceName(node);
+ case Token.NEW:
+ return tryMinimizeString(node); break;
+ return tryReduceName(node);
+ return tryMinimizeName(node, result);
+ return tryMinimizeNameLiteralString(node);
+ case Token.UNDEFINE:
+ return tryMinimizeNameLiteralFunction(node);
+ return tryMinimizeName(node); return node;
+ return tryMinimizeSimpleName(node);
+ return tryReduceName(node);tryReplaceUndefined(node);
+ return tryReduceName(node, result);
+ return tryMinimizeName(node);tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case Token.NEW:
+return tryReplaceUndefined(node, -1);
+ return tryMinimizeNameLiteral(newnode);
+ return tryMinimizeNameString(node;
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case Token.UPDATE:
+ return tryMinimizeNameLiteralLit(node);
+ return reduceName(node);tryReplaceUndefined(node);
+ case Token.NULL:
+ return trySimpleName(node);
+ return tryGetName(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); case undefined:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.NEW:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); case Token.UPDATE:
+ case Token.UNKNOWN: return this.tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); case Token.NEW:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node);
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef(node); case undefined:
+ return trySimpleName(node;
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.UNKNOWN:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case undefined:
+ return tryMinimizeStringLit(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.NULL:
+ return tryMinimizeNamedNodes(node);
+ return name(node;
+ case Token.UNDEFNULL:
+ return tryReduceName(node); case Token.DEFAULT: return tryReduceDefault(node); case Token.NEW:
+ return tryCleanName(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case Token.USE:
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef(node); case Token.UPDATE:
+ return tryGetName(node;
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case undefined:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case Token.SET:
+ case Token.UNKNOWNLIT:
+ return tryMinimize(node);
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef(node);
+ return tryMakeName(node;
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.NONE:
+ return tryCompileName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.UNKNOWN:
+ return tryMinimizeSymbolName(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); case Token.REGEXP:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); case Undefined:
+return tryReplaceUndefined(node); if (node.isCall()) {
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); case Token.UNDEF:
+ return reduceName(node;
+ case Token.UNDEFINED:
+ return tryReduceName(node); case Token.UNKNOWN: case Token.REPLACE:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); case NEW:
+ return tryMinimize(node;
+ return tryMinimizeNameLetters(node);
+ return tryReduceName(node); case undefined:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUnknown(node);
+ return tryReduceName(node); case Token.UNKNOWN: case Token.REPLACED:
+ return tryReduceName(node); case Token.UNKNOWN: case Token.REPLACEUNKNOWN:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); default:
+ case Token.UNDIED:
+ case Token.UNDEFINED
+ return tryReduceName(node); case Token.DEFAULT: return tryReduceDefault(node); case undefined:
+ return tryReplaceName(node); else
+ return tryMinimizeName(node); case Token.UNKNOWN: case Token.REPLACED:
+ case Token.UNKNOWN: case Token.REPLACE:
+ case Token.UNSET:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); default:
+return tryReplaceUndefined(node); if (node.isName()) {
+ case Token.ID:
+ return tryMinimizeName(node); case Token.UNKNOWN: case Token.REPLACE:
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef(node); default:
+ case Token.UNKNOWN: case Undefined:
+ case Token.NL:
+ case Token.UNKNOWN: case Token.STRING:
+ return tryReduceName(node); case Token.UNDEF: case Token.REPLACE:
+ return tryMinimizeNameLiteralInFunction(node);
+ return tryReduceName(node).tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined();
+ return makeName(node);tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUndefined(node); else
+ case Token.UNKNOWN: case Token.NONE:
+ return tryMinimizeNameLiteralForString(node);
+ return tryMinimizeNameLiteralInString(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); default:
+ return tryReduceName(node); case Token.UNKNOWN: case Token.STRING:
+ return tryReduceName(node); case Token.NEW:
+ case Token.UNKNOWN: case Token.UNKNOWN:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); else
+return tryReplaceUndefined(node); case Token.STRING: return node;
+return tryReplaceUndefined(node, result, node);
+ return tryReplaceName(node); case undefined:
+ case Token.UNDEFUNDEF:
+ case Token.UNKNOWN: case Token.NEW:
+return tryReplaceUndefined(node.getString());
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef(node); else
+return tryReplaceUndefined((node);
+ case Token.UNKNOWN: return _tryReplaceUndefined(node);
+ return tryMinimizeName(node).tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: case Token.REGEXP:
+ return tryTryName(node);
+ case Token.UNKNOWN: case Token.UNSET:
+ return reduceName(node).tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNKNOWN: return tryReplaceUnknown(node); else
+ case Token.UNKNOWN: case Token.NULL:
+ name(node);
+ return tryReduceName(node); case Token.UNDEF: return tryReduceUndef() ;
+ case Token.UNKNOWN: case Token.FALSE:
+ return tryReduceName(node); case Token.UNDEF: case Undefined:
+ case Token.UPDATE:
+ return tryReduceName(node); case Token.UNKNOWN: case Token.REFLECT:
+ return tryReduceName(node); case Token.UNKNOWN: case Node.NEW:
+ return tryReduceName(node); case Token.ERROR:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined(node); }
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUndefined;
+ return tryReduceName(node); case Token.USE:
+ return tryReduceName(node); case Token.UNDEF: case Token.NEW:
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); else
+ return tryMinimizeNamedNamed(node);
+ return tryString(node); break;
+ return tryReduceName(node); case Token.UNKNOWN: case Token.NEW:
+ case Token.UNDEFEDLIT:
+ return tryReduceName(node); case Token.UNDEF:
+ return tryReduceName(node); case Token.UNKNOWN: case Token.UNKNOWN:
+ return tryMinimizeName(node); break break;
+ return tryReduceName(node); case Token.UNKNOWN: case Token.UNSET:
+ return tryReplplaceName(node); else
+ return tryReduceName(node); case Token.UNKNOWN: return tryReduceUnknown(node); }
+return tryReplaceUndefined(node); if (node!= null) {
+return tryReplaceUndefined(node); if (node == node) {
+ return tryReduceName(node); case Token.REPLACEUndefined:
+ case Token.INDEF:
+ case Token.UNKNOWN: return name.tryReplaceUndefined(node);
+ return trySplitName(node);;
+ return tryReduceName(node); case Token.UNKNOWN: case Node.NULL:
+ return tryMinimizeName(node); if (result) {
+ return tryReduceName(node); case Token.UNKNOWN:
+ case Token.NONE:
+ return tryReduceName(node); case Token.REPLACEUNNODE:
+ return tryReduceName(node); case Token.UNDEF: case Node.NEW:
+ return doName(node;
+ return tryMinimizeNamedNameNode(node);
+ return tryReduceName(node); case Token.UNDEF: case Undef:
+ case Token.UNKNOWN: case Token.UNEXPECT:
+ return tryReduceName(node); case Token.UNDEFINED:
+return tryReplaceUndefined(node); if (node.isString()) {
+ return doName(node);
+ return tryReduceName(node); else
+ return makeName(node).tryReplaceUndefined(node);
+ return tryCompileName(node);
+ return tryReduceName(node); }
+ return tryReduceName(node); case Token.UNKNOWN: case Undefined:
+ return tryReduceName(node); case Token.REPLACEUNDED:
+return tryReplaceUndefined(node, result, result);
+ return makeName(node;
+ return tryMinimizeName(node.*);
+ return parseName(node);
+ return tryReduceName(node); case Token.UNDEFLIT:
+ return tryReduceName(node); case Token.UNDERFINED:
+ return tryReduceName(node); case Token.REPLACEUNKNOWN:
+ return tryReduceName(node); case Token.REPLACEUNDEF:
+ return tryReduceName(node); if (node.isUndefined())
+ return String(node;
+ return tryReduceName(node); case Token.UNDEFEDLIT:
+return tryReplaceUndefined(node, ".");
+ return (Node)tryReplaceUndefined(node);
+return tryReplaceUndefined(node, result, false);
+ return parseName(node;
+return tryReplaceUndefined(node); if (node == null) {
+ return tryReduceName(node); case Token.UNDEFIN:
+ return tryComposeName(node);
+return tryReplaceUndefined(node, "name");
+ return tryReduceName(node); case Token.REPLACED:
+ return tryReduceName(node); case Token.UNDEFNULL:
+ return tryName(node);tryReplaceUndefined(node);
+ return named(node);
+ return reduce(node;
+ return tryReduceName(node); case Token.UNNODE:
+ return rename(node);
+ case Undef:
+ return tryMinimizeName(node); case Token.UNDEF:
+ return tryNormalizeName(node);
+ case Token.UNKNOWN: return thisNode.tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNDEFINE:
+ return makeName(node);
+ return node.value;
+ return tryCompileName(node); case Token.UNDEF:
+ return name.tryReplaceUndefined(node);
+ return tryReduceName(node); default:
+ return tryMinimizeName(node); case Token.UNKNOWN:
+ return tryMutationName(node;
+ case Token.NULL: return _tryReplaceUndefined(node);
+ return tryReduceName(node); case Token.UNDEFED:
+ case Token.UNKNOWN: case Undef:
+ return tryMangleName(node);
+ return tryReplaceName(node); default:
+ return tryReduceName(node); else:
+ return nameNode;
+ case NAME:
+ case Token.UNKNOWN: return this.untryReplaceUndefined(node);
+ return namedNode;
+ return node.name;
+ return node.name();
+ return node's name;
+return tryReplaceUndefined(node) if (node.isCall()) {
+ return transform(node);
+ node = node;
+ return node.tryReplaceUndefined(node);
+return tryReplaceUndefined(node, " ");
+ return nodeName;
+ return capitalize(node);
+return tryReplaceUndefined(node, ' ');
+ return NodeUtils.tryReplaceUndefined(node);
+ return $(node);
+ case FALSE:
+ switch(node)
+ return this.name.tryReplaceUndefined(node);
+ case ANY:
+ return tryMinimizeName(node); if (result) {}
+ case Token.UNKNOWN: return name().tryReplaceUndefined(node);
+ switch(node);
+ return tryMinimizeNameLiteral(node); }
+ case Token.UNKNOWN: return name+tryReplaceUndefined(node);
+ return reduceNameFalse;
+ case Token.UNKNOWN: return name_tryReplaceUndefined(node);
+ case Token.UNKNOWN: return this.__tryReplaceUndefined(node);
+ node = this.tryReplaceUndefined(node);
+return tryReplaceUndefined(node, node);
+ return tryMinimizeName(node); if (result) break
+ return this.name().tryReplaceUndefined(node);
+ case Token.UNKNOWN: return thisNode().tryReplaceUndefined(node);
+ return tryReduceName(node); return node; }
+return tryReplaceUndefined(node); if (node.isCall()) {}
+ return name(node);tryReplaceUndefined(node);
+ return - 1;
+ return tryMinimizeName(node); }
+return tryReplaceUndefined(node); if (node.isCall() {}
+return tryReplaceUndefined(node, true);
+ case Token.UNKNOWN: return this._tryReplaceUndefined(node);
+ return tryMinimizeName(node); return node; }
+return tryReplaceUndefined(node); if (node.isName()) {}
+ return tryMinimizeName(node); break ; } }
+ case NEW:
+ node = IR.tryReplaceUndefined(node);
+return tryReplaceUndefined(node) if (node!= null) {
+ case Token.NULL: return!tryReplaceUndefined(node);
+ return tryReduceName(node); }
+return tryReplaceUndefined(node); if (node.isName() {}
+(node);
+ return optimizeName(node);
+return tryReplaceUndefined(node) if (node.isName() { break }
+return tryReplaceUndefined(node) if (node.isName()) {
+return tryReplaceUndefined(node) if (node.isName() { break;
+ String(node);
+return tryReplaceUndefined(node, 0);
+return tryReplaceUndefined(node); if (node == node) {}
+ case Token.NULL: return...tryReplaceUndefined(node);
+return tryReplaceUndefined(node); if (node == node) break
+ return tryMinimizeName(node); break ; } break
+ return tryReduceName(node); break; }
+ return tryMinimizeName(node); break; }
+return tryReplaceUndefined(node) if (node.isCall() {}
+ return tryMinimize(node); }
+return tryReplaceUndefinedNode();
+return tryReplaceUndefinedNode;
+return tryReplaceUndefined(node) if (node.isName() {}
+return tryReplaceUndefined(node.*);
+return tryReplaceUndefined(node) if (node == node) {
+return tryReplaceUndefined(node) if (node.isCall()) }
+ return compiler.tryReplaceUndefined(node);
+return tryReplaceUndefined(node) if (node.isName() { break };
+ return reduce(node);
+ return tryMinimizeName(node); } else
+return tryReplaceUndefined(node) if (node.isCall()) {}
+return tryReplaceUndefined(node) if (node.isName() { break;}
+return tryReplaceUndefinedName();
+return tryReplaceUndefined(node) if (node.isName() { break });
+ return tryReduce(node); }
+ return trySplitName(node); }
+return tryReplaceUndefinedNode(node, result); }
+ return tryCompileName(node); }
+ return tryName(node); }
+ return reduceName(node)
+return tryReplaceUndefinedName(node, result); }
+return tryReplaceUndefinedNode(node, node.getNext()); }
+return tryReplaceUndefined(node) if (node.isName()) }
+return tryReplaceUndefinedNode(node, node.getParent()); }
+return tryReplaceUndefined(nodes);
+return tryReplaceUndefinedNode(node, Node.STRING); }
+return tryReplaceUndefinedNode(node, Node.NODE); }
+return tryReplaceUndefinedNode(node, node.getString()); }
+ return trySplit(node); }
+return tryReplaceUndefinedNode(node, node, result); }
+ return tryMinimizeName(); }
+return tryReplaceUndefined(node, node.getString()); }
+return tryReplaceUndefinedName;
+ rename(node);
+return tryReplaceUndefinedNode(node, "name") ;
+return tryReplaceUndefinedNode(node, "Name");
+ return tryMinimizeStringName(node); } {
+ return tryString(node); }
+return tryReplaceUndefined(node, result); }
+return tryReplaceUndefined(node++);
+return tryReplaceUndefinedNode(node, "name"); }
+return tryReplaceUndefinedNode(node, "Name"); }
+return tryReplaceUndefinedNode(node, result) ;
+return tryReplaceUndefined(node) if (node!= null) {}
+ return reduce(node); }
+ return tryGet(node); }
+return tryReplaceUndefinedName(node, result) ;
+return tryReplaceUndefined(node) if (node == node) }
+return tryReplaceUndefined(node, node.getNext()); }
+ return reduceName(node));
+return tryReplaceUndefined(node, node.getParent()); }
+return tryReplaceUndefinedNamespace(node); }
+return tryReplaceUndefined(node, Node.STRING); }
+return tryReplaceUndefined(node, Node.NODE); }
+return tryReplaceUndefined(node, -1); }
+ return name(node); }
+ return name().tryReplaceUndefined(node);
+return tryReplaceUndefined(node, "name"); }
+return tryReplaceUndefined(node, "Name");
+ return Name(node);
+return tryReplaceUndefined(node, "Name"); }
+return tryReplaceUndefined(node, 'name'); }
+return tryReplaceUndefinedNamespace(node) ;
+return tryReplaceUndefinedNode(node); }
+ return...tryReplaceUndefined(node);
+return tryReplaceUndefinedName(node); }
+return tryReplaceUndefinedNames(node); }
+return tryReplaceUndefined(node, node); }
+return tryReplaceUndefined(return node);
+return tryReplaceUndefined(node); break;
+return tryReplaceUndefined(node) + 1;
+ return node; }
+ return (Node).tryReplaceUndefined(node);
+return tryReplaceUndefined(node); }
+ return *tryReplaceUndefined(node);
+return tryReplaceUndefinedNames(node) ;
+return tryReplaceUndefinedName(node) ;
+return tryReplaceUndefined(node) + node;
+return tryReplaceUndefined(node) + node.value(); }
+return  name;
+return tryReplaceUndefined(node, true); }
+return tryReplaceUndefined(node, false); }
+return tryReplaceUndefined(node) + node.value; }
+(Node);
+return tryReplaceUndefined(node) + node.name(); }
+return tryReplaceUndefined(node), node); }
+ Default:
+return tryReplaceUndefined(node) + node.string(); }
+ node = this._tryReplaceUndefined(node);
+return tryReplaceUndefined(node) + (node); }
+return tryReplaceUndefined(node) + "Name"; }
+return tryReplaceUndefined(node) + node.name; }
+return tryReplaceUndefined(node) + 'Name'; }
+return tryReplaceUndefined(node) + node; }
+return tryReplaceUndefined(node) + '.'; }
+return  undefined;
+return tryReplaceUndefined(node) + result;
+ node = node();
+return  Node;
+return tryReplaceUndefined(node) + name;
+return tryReplaceUndefined() ;
+return tryReplaceUndefinedNode(); }
+return tryReplaceUndefined(node)
+return tryReplaceUndefined(node) + "Name"); }
+ node = node.
+ return n;
+return tryReplaceUndefined(node) + 1; }
+ return null;
+return tryReplaceUndefined(node), node;
+return tryReplaceUndefined(node) + name; }
+return tryReplaceUndefined(node); } }
+return tryReplaceUndefined(node));
+return tryReplaceUndefined(node) - 1; }
+return tryReplaceUndefined(node) + ''; }
+ default():
+return tryReplaceUndefinedName(); }
+ node=tryReplaceUndefined(node);
+return tryReplaceUndefined(node), node);
+return tryReplaceUndefined(node)); }
+return tryReplaceUndefined(node); break }
+return tryReplaceUndefined(Node);
+return  name; }
+return  undefined; }
+return  n; }
+return tryReplaceUndefined(n); }
+ {
+return tryReplaceUndefined(node)"; }
+ return
+return tryReplaceUndefined(n);
+return tryReplaceUndefined(name);

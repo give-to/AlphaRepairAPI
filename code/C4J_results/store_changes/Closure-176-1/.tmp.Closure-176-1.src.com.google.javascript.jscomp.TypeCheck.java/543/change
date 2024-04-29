@@ -1,0 +1,635 @@
+ ensureTyped(t, n, NULL_TYPE);
+ ensureTyped(n, NULL_TYPE);
+ ensureTyped(NULL_TYPE);
+ ensure(t, n, NULL_TYPE);
+ ensureTyped(t,NULL_TYPE);
+ensureTyped(t, n);
+ ensureTyped(t, n, NONNULL_TYPE);
+ ensureTyped(t, NONNULL_TYPE);
+ typeable = false;
+ ensureTyped(, n, NULL_TYPE);
+ ensureTyped(t, n, NON-NULL_TYPE);
+ ensureTyp(t, n, NULL_TYPE);
+ ensureTyped(t, n, null);
+ ensureTyped(t, n, null;
+ ensureTyped(t, - 1, NULL_TYPE);
+ ensureTyped(t, n, null, NULL_TYPE);
+ ensureTyped(t, -n, NULL_TYPE);
+ ensureTyped(t, n, n, NULL_TYPE);
+ ensureTyped(t, n, NULLTYPE);
+ case Token.NULL:
+ ensureTyped(t, n, NULL_STRING);
+ ensureTyped(t, n, NULL_TYPE); typeable = false;
+ ensureTyped(t, n, NULLABLE);
+ case Token.NONE:
+ ensureTypedNull(n, NULL_TYPE);
+ ensureTyped(t, n,);
+ ensureTypedNull(t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL);
+ ensureTyped(t, n, NULL_TYPE); typeable =
+ ensure(n, NULL_TYPE);
+ ensureTyped(t, n;
+ ensureTyped(t, t,n, NULL_TYPE);
+ case Token.NULL_VALUE:
+ ensureTyped(t);
+ ensureTyped(null(t, n, NULL_TYPE);
+ ensureTyped(t, n, NON_NULL_TYPE);
+ensureTyped(t, n, NULL_NULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE); if (typeable)
+ ensureTyped(t, n, NULLTYPE;
+ ensureTyped(t, N_NULL_TYPE);
+ ensureTyp(t, NULL_TYPE);
+ ensureTyped(null);
+ ensureTyped(t, n, NULL_TYPE_TYPE);
+ensureTyped(t, n, NULL_TYPE, t, n, NULL_TYPE);
+ ensureTyped(nullable(t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_VALUE_TYPE);
+ (t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE); break;
+ ensureTyped(t, n, NULLABLE;
+ ensureTyped(t, n, IS_NULL_TYPE);
+ case Token.NONNULLABLE:
+ ensureTyped(t, n, NONE);
+ ensureTyped(t, n, NULL_TYPE); typeable = true;
+ensureTyped(t, n, NIL_TYPE);
+ ensureTyped = false;
+ensureTyped(t,);
+ ensureTyped(t, n, NULL_TYPE); if (null)
+ case Token.NULL_TYPE:
+ensureTyped(t, n, NULL_TYPE); typeable = typeable ;
+ ensureTyped(t, n, null_n, NULL_TYPE);
+ ensureTyped(t, n, NULL_TYP);
+ case Token.NULL: case Token.NONE:
+ ensureTyped(t, n, NULLABLE, NULL_TYPE);
+ ensureTyped(t, NIL);
+ ensureTyped(t, n, NULL;
+ ensureTyped(t, n, ISNULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE); typeable ;
+ ensureTyped(t, n, NULL_TYPE); typeable = false
+ ensureTyped(t, nn, NULL_TYPE);
+ ensureTyped(t, n, nullable, NULL_TYPE);
+ensureTyped(t, n, NULL_STRING_TYPE);
+ case Token.NULL: case Token.NULL_TYPE:
+ ensureTyped(t, n, null); typeable =! (null);
+ ensureTyped(t, n, NIL);
+ ensureNull(n, NULL_TYPE);
+ ensureTyped(null,t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE); if (optional)
+ ensureTyped(t, n, void 0;
+ ensureTyped(t, n, NULL_TYPE); if typeable {
+ ensureTyped(t, nullType);
+ ensureTyped(t, n, EMPTY);
+ ensureTyped(t, n, NULL_TYPE); typeable = true
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE);
+ ensureTyped(t, n, NULL_TARGET);
+ typeable = false; ensureTyped(t, n, NULL_TYPE);
+ ensureTyped(t, 0,n, NULL_TYPE);
+ ensureTyped(t, n, NIL;
+ ensureTyp(n, NULL_TYPE);
+ ensureTyped(NNULL_TYPE);
+ ensureTyped(t, n, 0, NULL_TYPE);
+ ensureTyped(t, n, NULLType);
+ensureTyped(t, n, NULL_STRING, NULL_TYPE);
+ case Token.NONNULL_VALUE:
+ ensureTyped(t, n, UNKNOWN);
+ensureTyped(t, n, NULL_TYPE); typeable =! (null);
+ case Token.NULL_TYPE: typeable =
+ ensureTyped(t, n, NULL_TYPE, false);
+ ensureTyped(t, n, NULL_PTYPE);
+ case Token.NONNULL: case Token.NULL:
+ ensureTyped(t, n, - 1, NULL_TYPE);
+ ensureTyped(t, n, null); typeable = false;
+ensureTyped(t, n, NULL_NAMESPACE);
+ ensureTyped(t, Node.NULL_TYPE);
+ ensureTyped(t, nullable);
+ ensureTyped(t, null;
+ensureTyped(t, n, NONE_TYPE);
+ ensureTyped(t, null,n, NULL_TYPE);
+ case Token.NULL: case Token.FALSE:
+ ensureTyped(t, n, NONE;
+ typeable =
+ ensureTyped(t, n null;
+ ensureTyped(t, n, NOT NULL, NULL_TYPE);
+ ensureTyped(null); ensureTyped(t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_n, NULL_TYPE);
+ case Token.NULL_STRING:
+ ensureTyped(t, ISNULL_TYPE);
+ case Token.NULL: case Token.NONNULLABLE:
+ ensureTyped(t, Non-NULL_TYPE);
+ case Token.NULL: case Token.NULL:
+ ensureTyped(t, NULLABLE);
+ case Token.NONNULL: case Token.NULL_TYPE:
+ensureTyped(t, n, null_type, t, n, NULL_TYPE);
+ ensureTyped(t, n, parent, NULL_TYPE);
+ case Token.NULL: case Token.STRING:
+ ensureTyped(nullValue(t, n, NULL_TYPE);
+ ensureTyped(t, NONE);
+ case Token.NONNULL: case Token.NONSTRING:
+ ensureTyped(t, n, NULL, NULL_TYPE);
+ ensureTyped(t, 0.0, n, NULL_TYPE);
+ensureTyped(t, n, NULL_NONNULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER:
+ ensureTyped(t, -1*n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) break;
+ ensureTyped(t, n, NONE, NULL_TYPE);
+ ensureTyped(UNNULL_TYPE);
+ case Token.NONNULL_TYPE:
+ ensureTyped(t, N,NULL_TYPE);
+ typeable = true; ensureTyped(t, n, NULL_TYPE);
+ ensureTyped(nullSafe(t, n, NULL_TYPE);
+ ensureTyped(t, null);
+ typeable =! ensureTyped(t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE, STRING);
+ensureTyped(t, n, null.getTypeOfNull());
+ ensureTyped(t, void 0);
+ ensureTyped(t, n++;
+ ensureTyped(t, 'NULL',n, NULL_TYPE);
+ case Token.NON-NULL:
+ ensure(t, NULL_TYPE);
+ ensureTyped(nullable);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: typeable =
+ typeable = ensureTyped(t, n, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.NULL:
+ ensureTyped(t, n + 1, NULL_TYPE);
+ case Token.NULL: case Token.NON-NULL:
+ ensureTyped(t, n); assert(t, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: typeable =
+ n = null;
+ ensureTyped(t, n, - 1, n, NULL_TYPE);
+ensureTyped(t, n, EMPTY_TYPE);
+ ensureTyped(t, null_type);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL:
+ (n, NULL_TYPE);
+ case Token.NULL: case Token.NONNULL_TYPE:
+ensureTyped(t, n, NULL_TYPE, NULL_VALUE);
+ensureTyped(t, n, NULL_STR_TYPE);
+ ensureTyped(t, n, IFNULL_TYPE);
+ensureTyped(t, n, NULL_TYPE); if (typeable == false)
+ ensureTyped(t, n, NOT_NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL_TYPE:
+ensureTyped(t, n, NULL_TYPE, n, NULL_TYPE);
+ case Token.NULL: case Token.TRUE:
+ensureTyped(t, n, NULL_TYPE); typeable =! typeable ;
+ ensureTyped(t, 'null',n, NULL_TYPE);
+ ensureTyped(t, -1,n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER_TYPE:
+ensureTyped(t, n, getTyped(n, NULL_TYPE);
+ ensureTyped(t, n, false;
+ case Token.NULL: case Token.NIL:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMERIC:
+ ensureTyped(t, 0..n, NULL_TYPE);
+ case Token.NULL: case Token.NULL_STRING:
+ case Token.NULL: case Token.NOSNULL:
+ ensureTyped(nullable, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NULL: case Token.NULL:
+ case Token.NULL: ensureTyped(t, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case Token.NULL:
+ case Token.UNKNOWN: case Token.NULL_TYPE:
+ ensureTyped(t, n, NOTNULL_TYPE);
+ case Token.NONNULL: case Token.NONNULL_TYPE:
+ ensureTyped(t, n);;
+ ensureTyped(nullable_t, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NULL_VALUE:
+ ensureTyped(nullType);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: typeable =
+ ensureTyped(nulls(t, n, NULL_TYPE);
+ case Token.NULL: case Token.NULL_VALUE:
+ ensureTyped(t, n, 0xn, NULL_TYPE);
+ ensureTyped(null_t, n, NULL_TYPE);
+ ensureNull(t);
+ case Token.NIL:
+ case Token.NONNULLNULL:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case Token.NONE:
+ ensureTyped(t null);
+ case Token.NONNULL NULL_TYPE:
+ case Token.NONNULL: case Token.NULLABLE:
+ case Token.NULL: case Token.NULL: case Token.NULL_TYPE:
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NUMBER: case Token.NULL:
+ ensureTyped(t, n); check(t, n, NULL_TYPE);
+ ensureTyped(, n);
+ ensureTyped(t, n); validate(t, n, NULL_TYPE);
+ ensureTyped(t, 0xn, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL:
+ensureTyped(t, n, NULL_TYPE); if (typeable === false)
+ case Token.UNKNOWN: case Token.NONE:
+ typeable = n == null;
+ ensureTyped(t, n, nulln, NULL_TYPE);
+ case Token.NONNULLING:
+ ensureTyped(t, n, nullFn, NULL_TYPE);
+ case Token.NULL: case Token.NONNULL_VALUE:
+ ensureTyp(NULL_TYPE);
+ensureTyped(t, n, null.getTypeOfThis());
+ ensureTyped(t, n); ensureType(t, n, NULL_TYPE);
+ ensureTyped(t, n); assertNull(t, n, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: typeable =
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNONNUMBER:
+ ensureTyped(null.t, n, NULL_TYPE);
+ case Token.NULL: case Token.NO:
+ case Token.NO:
+ case Token.NONNULL: case Token.NULL_NONNULL:
+ensureTyped(t, n, NULL_NONNULLABLE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case Token.STRING:
+ ensureTyped(t, n); expect(t, n, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL_TYPE:
+ ensureTyped(t, n, nullValue, n, NULL_TYPE);
+ ensureTyped(nulls, n, NULL_TYPE);
+ ensureTyped(t,!n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNEGATIVE:
+ case Token.STRING: case Token.NUMBER: case Token.NULL: case Token.STRING:
+ensureTyped(t, n, NULL_VALUE, NULL_TYPE);
+ case Token.FALSE:
+ ensureTyped(n);
+ case Token.NULL: case Token.NULL: case Token.NULL:
+ ensureTyped(t, n, false);
+ensureTyped(t, n, null, t, n, NULL_TYPE);
+ ensureTyped(t, n, null_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL_STRING:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNumericKey:
+ case Token.NONNULL: case Token.NULL: case Token.NONE:
+ case Token.NULL: case Token.NULL: case Token.NONE:
+ case Token.NULL: case Token.VALUE:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case Token.NULLABLE:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONE:
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL_VALUE:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONSTRING: case Token.NULL:
+ case Token.NONNULL: case Token.NONSTRING: case Token.STRING:
+ ensureTyped(t, n, Null);
+ typeable = false; break;
+ensureTyped(t, n, null_type, n, NULL_TYPE);
+ensureTyped(t, n, NULL_NON_TYPE);
+ ensureTyped(t, 1.0, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL: case Token.NONNUMBER:
+ case Token.NULL: case Token.NONNULL: case Token.NONSTRING:
+ typeable = true;
+ ensureTyped(t, n, TYPE);
+ case Token.NONNULL: case Token.NONSTRING_KEY:
+ensureTyped(t, n,  NULL_TYPE); if (! typeable )
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: case Token.VALUE:
+ case Token.NONNULL: case Token.NONTRUE:
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NUMBER:
+ ensureTyped(t, n); assertType(t, n, NULL_TYPE);
+ ensureTyped(null); ensureType(t, n, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: case Token.NULL:
+ensureTyped(t, n, NULL_TYPE) { typeable = false;
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNumericType:
+ case Token.NONNULL: case Token.NONNONE:
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.STRING_KEY:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER_KEY:
+ ensureType(NULL_TYPE);
+ case Token.NONNULL_NULL:
+ ensureTyped(t, null_type, n, NULL_TYPE);
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: if typeable:
+ checkTyped(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable = false; }
+ case Token.NULL: case Token.NONNULL: case Token.NONE:
+ ensureTyped(t, null_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULLABLE:
+ ensureTyped(t, n); checkNull(t, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNULL:
+ ensureTyped(t, n, IS_NULL);
+ ensureTyped(t, n, null, n, NULL_TYPE);
+ensureTyped(t, n, NULL_N, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case Token.NULLVALUE:
+ ensureTyped(t null;
+ ensureTyped(t, n); ensureNull(t, n, NULL_TYPE);
+ case Token.NULL: case Token.NULL: case Token.FALSE:
+ ensureTyped(nullNode);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL: case Token.STRING:
+ ensureTyped(t, 0x00, n, NULL_TYPE);
+ ensureTyped(t, n,");
+ case Token.NULL: case Token.NONNULL: case Token.NOTNULL:
+ ensureTyped(t, n), null;
+ typeable = n.isNull;
+ensureTyped(t, n, NULL_TYPE); if (typeable!== false)
+ case Token.NONNULL: case Token.NULL: case Token.NOSNULL:
+ensureTyped(t, n, nullable, t, n, NULL_TYPE);
+ ensureNull(n);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNumeric:
+ ensureTyped(t, IFNULL_TYPE);
+ ensureTyped(t n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, STRING_TYPE);
+ case Token.UNKNOWN: case Token.NONNULLABLE:
+ensureTyped(t, n, NULL_TYPE); if (typeable!== true)
+ case Token.NONNULL: case Token.NULL: case Token.VALUE:
+ ensureTyped(NOTNULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NEGATIVE:
+ ensureTyped(t, n, '=', n, NULL_TYPE);
+ assert(null);
+ case Token.STRING: case Token.NUMBER: case Token.NULL: case Token.NONE:
+ ensureTyped(t, n, UNNULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: if typeable:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL;
+ensureTyped(t, n, NULL_TYPE) { typeable =!(null == n);
+ensureTyped(t, n, NULL_TYPE); typeable =! (typeable);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULLING:
+ ensureTypedt, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULL_VALUE:
+ ensureTyped(t, n, null.n, NULL_TYPE);
+ case Token.NONNULL: case Token.NONNOSNULL:
+ ensureTyped(t, typeable, n, NULL_TYPE);
+ ensureTyped(t, n, nullable, n, NULL_TYPE);
+ case Token.NULL_NULL_TYPE:
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULLSTRING:
+ case Token.NONNULL: case Token.NONSTRING: if typeable:
+ensureTyped(t, n, NULL_TYPE, null, NULL_TYPE);
+ ensureTyped(t, nullable_type, n, NULL_TYPE);
+ ensureTyped(null); ensureTyp(t, n, NULL_TYPE);
+ case Token.NONNULL: case Token.NULL: case Token.NULL_TYPE:
+ case Token.NOSNULL:
+ensureTyped(t, n, NULL_TYPE); if (typeable) return false;
+ case Token.NULL: case Token.NONNULL: case Token.NULLABLE:
+ ensureTyped(t, NOTNULL_TYPE);
+ ensureTyped(t, n2, NULL_TYPE);
+ ensureTyped()(t, n, NULL_TYPE);
+ ensureTyped(t, n, 0;
+ ensureTyped(nullT, n, NULL_TYPE);
+ensureTyped(t, n, NULL_STRINGTYPE);
+ case Token.NONNULL: case Token.NONSTRING: case Token.NULLVALUE:
+ ensureTypedNullable(t, n, NULL_TYPE);
+ case Token.TRUE:
+ ensureType(t, NULL_TYPE);
+ case Token.NONNULL: case Token.NULL: case Token.NONNULL:
+ensureTyped(t, n, NULL_TYPE); if (typeable == false) {
+ case Token.NONNULL: case Token.NONSTRING: case Token.NONNUMBER: case void 0:
+ case Token.NONNULL: case Token.NONSTRING: case Token.RAW:
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: if typeable =
+ensureTyped(t, n, NULL_TYPE) if (typeable)
+ensureTyped null;
+ typeable =!null;
+ case Token.STRING: case Token.NUMBER: case Token.STRING: case Token.NULL: if typeable,
+ case Token.NONNULL: case Token.NONSTRING: case Token.TEXT:
+ typeable = true; break;
+ ensureTyped(null_value_t, n, NULL_TYPE);
+ensureTyped(t, n, NULLABLE, t, n, NULL_TYPE);
+ ensureTyped(t, nullable(t, n, NULL_TYPE);
+ensureTyped(t, n, nullValue, t, n, NULL_TYPE);
+ ensureTyped(t, n, NOT_NULL);
+ensureTyped(t, n, NULL_TYPE); if (parent.isAssign())
+ensureTyped(t, n, NULL_TYPE) if (typeable == false)
+ ensureTyped(t, nullValue(t, n, NULL_TYPE);
+ ensureTypedNulls(t, n, NULL_TYPE);
+ ensureTyped(t, false, n, NULL_TYPE);
+ ensureTyped(t, n, null(t, n, NULL_TYPE);
+ ensureTyped(t, n1, NULL_TYPE);
+ ensureNull(t, n, NULL_TYPE);
+ ensureTypedNamed(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable = true; }
+ case Token.NULL_NULL:
+ ensureTyped(T, -n, NULL_TYPE);
+ case Token.NULL_VALUE_TYPE:
+ensureTyped(t, n, NULL_TYPE, EMPTY_TYPE);
+ case Token.NONNULL: case Token.NULL: case Token.NOSIGN:
+ ensureTyped = true;
+ case Token.NEGATIVE:
+ case Token.NULL: ensureTyp(t, n, NULL_TYPE);
+ ensureTyped(t, n, nullt, n, NULL_TYPE);
+ ensureTyped(t, n); skip(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_VALUE_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_STRING);
+ensureTyped(t, n, NULL_TYPE); if (typeable == false) break;
+ assert(NULL_TYPE);
+ ensureTyped(t, cn, NULL_TYPE);
+ typeable = n!== null;
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE, NULL_TYPE);
+ ensureTyped(__NULL_TYPE);
+ return false;
+ ensureTyped(t, false;
+ ensureTyped(null-t, n, NULL_TYPE);
+ensureTyped(t, n, - 1, t, n, NULL_TYPE);
+ ensureTyped(null.empty(t, n, NULL_TYPE);
+ typeable = false; ensureType(t, n, NULL_TYPE);
+ typeable =!== null;
+ensureTyped(t, n, NULL_NODE, NULL_TYPE);
+ensureTyped(t, n), null(t, n, NULL_TYPE);
+ensureTyped(nullValue, t, n, NULL_TYPE);
+ ensureTypedIfNotNull(t, n, NULL_TYPE);
+ ensureTyped(null); assertNull(t, n, NULL_TYPE);
+ ensureTyped(t, n, NULL_TYPE); }
+ typeable = false);
+ensureTyped(t, n); assertTyped, t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable =! typeable;
+ensureTyped(t, n, NULL_TYPE) if (typeable === false)
+ ensureTyped(t, UNNULL_TYPE);
+ null = true;
+ensureTyped(t, n, NULL_TYPE, 0, NULL_TYPE);
+ensureTyped(t, n) null(t, n, NULL_TYPE);
+ensureTyped(t, 0.0, t, n, NULL_TYPE);
+ typeable = -1;
+ ensureNullTyped(t, n, NULL_TYPE);
+ typeable = n.isNull();
+ ensureTyped(t, false);
+ensureTyped(t, n, NULL_TYPE); if (typeable && n == null)
+ case NULL:
+ensureTyped(t, n, NULL_TYPE) { typeable =!(typeable);
+ensureTyped(t, n,  NULL_TYPE); typeable = false; }
+ ensureTyped(t, 0);
+ ensureTyped(null_value(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_LIT, NULL_TYPE);
+ensureTyped(, null);
+ ensureTyped(null.get(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE); if (typeable) { typeable }
+ typeable = false; ensureNull(t, n, NULL_TYPE);
+ ensureTyped(null.value(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable = true;
+ ensureUntyped(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE_STRING);
+ typeable = false; ensureTyp(t, n, NULL_TYPE);
+ensureTyped(t, n, parent, t, n, NULL_TYPE);
+ case Token.VALUE:
+ensureTyped(t, n + 1, t, n, NULL_TYPE);
+ ensureType(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_ARRAY, NULL_TYPE);
+ensureTyped(t, n, nullType, t, n, NULL_TYPE);
+ensureTyped(t, n, null_type, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) if (typeable) return false;
+ensureTyped(t, n, NULL_TYPE) if (null == n)
+ensureTyped(t, n, NULL_TYPE) if (parent.isAssign(n));
+ensureTyped(t, n, getTypeOfNull, NULL_TYPE);
+ensureTyped(null,);
+ ensureType(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable =!(null == n));
+ case Token.NULLABLE:
+ensureTyped(t, n, NULL_TYPE); if (typeable) typeable = false
+ensureTyped(t, n, NULL_TYPE) { typeable =!(nullable);
+ensureTyped(t, n, NULL_TYPE) { typeable = false; } }
+ensureTyped(t, n, NULL_TYPE) { typeable = false ; break; }
+ case Token.NULL;
+ensureTyped(t, n, null_types, t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) break; default:
+ensureTyped(t, n, NULL_TYPE) || typeable = false;
+ensureTyped(t, n, NULL_TYPE) { typeable = typeable;
+ensureTyped(t, n, NULL_TYPE, getJSType(n)));
+ ensureNull(NULL_TYPE);
+ ensureUntyped(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE_NAME);
+ ensureTyped(nullify(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_STRING_TYPE);
+ ensureTypedN(NULL_TYPE);
+ ensureTypeTyped(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE_TYPE);
+ case Token.NOT:
+ensureTyped(t, n, NULL_TYPE, NULL_NULL_TYPE);
+ensureTyped(t, n, NULL_NAME, NULL_TYPE);
+ ensureTypedT(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, VOID_TYPE);
+ensureTyped(t, n, NULL_TYPE, getJSType(n));
+ensureTyped(t, n, null_types, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, VALUE_TYPE);
+ default:
+ensureTyped(t, n, 0, t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable = false; } else
+ensureTyped(t, n, null, null, t, n, NULL_TYPE);
+ ensureTyped(true);
+ case null:
+ ensureTyped(t, true);
+ assertNull(n);
+ assert false;
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE_LENGTH);
+ ensureTypedNullValue(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, UNKNOWN_STRING);
+ ensureed(t, n, NULL_TYPE);
+ ensureTypedBoolean(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, getTypeOfNullable ( ));
+ensureTyped(t, n, NULL_TYPE, NULL_TYPE_UNSPECIFIED);
+ensureTyped(t, n, NULL_TYPE, getJSType (n);
+ensureTyped(nullable, t, n, NULL_TYPE);
+ assert(true);
+ensureTyped(t, n, NULL_TYPE) if (n == null)
+ case Nullable:
+ return true;
+ensureTyped(null_type, t, n, NULL_TYPE);
+ensureTyped(null-1, t, n, NULL_TYPE);
+ return null;
+ case void 0:
+ensureTyped(t, n, NULL_TYPE) { typeable }
+ensureTyped(null_literal, t, n, NULL_TYPE);
+ensureTyped() ;
+ assertNull(t);
+ assert n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) if typeable;
+ assert(false);
+ ensureTyped(false);
+ null = false;
+ setTyped(t,n, NULL_TYPE);
+ case BooleanNull:
+ensureTyped(nullable_type, t, n, NULL_TYPE);
+ case void NULL:
+ensureTyped(t, n, NULL_TYPE) if typeable:
+ case nullable:
+ ensureNull(t, NULL_TYPE);
+ensureTyped(t, n, NULL_Type);
+ assertTyped(t,n, NULL_TYPE);
+ assert (!null);
+ensureTyped(t, n, NULL_TYPE) return false;
+ ensuresTyped(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) { typeable = }
+ensureTyped(t, n, NULL_TYPE) { typeable;
+ensureTyped(t, n, NULL_TYPE_NAME);
+ensureTyped(t, n, NULL_TYPE) { typeable };
+ensureTyped(t, n, NULL_TYPE, IS_NULL);
+ assert(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, true);
+ (break);
+ensureTyped(t, n, NULL_TYPE); typeable++;
+ typeable = Typed(t, NULL_TYPE);
+ assert false);
+ensureTyped(t, nil);
+ensureTyped(nullValueLit, t, n, NULL_TYPE);
+ensureTyped(nullable_null, t, n, NULL_TYPE);
+ typeed(t, n, NULL_TYPE);
+ assertNull(NULL_TYPE);
+ensureTyped(0.0, t, n, NULL_TYPE);
+ case None:
+ ensureTyped(s,NULL_TYPE);
+ensureTyped(null_value, t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, FALSE_TYPE);
+ensureTyped(nulls, t, n, NULL_TYPE);
+ (t, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) if null;
+ assert(t, n, NULL_TYPE);
+ensureTyped(t, n, t, n, NULL_TYPE);
+ensureTyped(nullable_types, t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) * 0;
+ typeable = null;
+ ensureTyped(d,NULL_TYPE);
+ visit(NULL_TYPE);
+ ensureTypn, NULL_TYPE);
+ ensureTyped(p,NULL_TYPE);
+ undefined = true;
+ case Null:
+ null =
+ensureTyped(nullType, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NOT_NULL);
+ assert true;
+ensureTyped(t, n, NULL_TYPE) return true;
+ assert null);
+ typeable(NULL_TYPE);
+ skip = true;
+ assert ();
+ensureTyped(t, n, NULL_TYPE, NONE);
+ expect(NULL_TYPE);
+ ifNulled(t,n, NULL_TYPE);
+ ensureTyp(, NULL_TYPE);
+ensureTyped(nullSafe, t, n, NULL_TYPE);
+ensureTyped(null t, n, NULL_TYPE);
+ensureTyped(nullType, t, n, NULL_TYPE);
+ensureTyped NULL;
+ ensure(NULL_TYPE);
+ assertTyped(NULL_TYPE);
+ ensureTyped(nt, NULL_TYPE);
+ensureTyped(t, n null);
+ensureTyped(t, n, NULL_TYPE, EMPTY);
+ ensureTy(t, n, NULL_TYPE);
+ hint(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, nullable);
+ensureTypedNULL();
+ setTyped(NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, NULLABLE);
+ ensureTy(n, NULL_TYPE);
+ typeable = (NULL_TYPE);
+ typable = false;
+ensureTyped(t, n, NULL_TYPE) false;
+ ensureTrue(n, NULL_TYPE);
+ensureTyped(t,');
+ guaranteeTyped(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) true;
+ enforceTyped(t, n, NULL_TYPE);
+ expect(t, n, NULL_TYPE);
+ awaitTyped(t, n, NULL_TYPE);
+ validate(t, n, NULL_TYPE);
+ hint(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE,);
+ expect(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) break; }
+ check(n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE, null);
+ ensureTyped(-n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE;);
+ ensureCast(t, n, NULL_TYPE);
+ enforceTyped(n, NULL_TYPE);
+ensureTyped(n, t, n, NULL_TYPE);
+ ensureTyped(-t, n, NULL_TYPE);
+ guaranteeTyped(n, NULL_TYPE);
+ awaitTyped(n, NULL_TYPE);
+ assert t, n, NULL_TYPE);
+ or:
+ensureTyped(t, n, NULL_TYPE; });
+ or =
+ typed(t, n, NULL_TYPE);
+ensureTyped(t, n, NULL_TYPE) break();
+ensureTyped(t, n, NULL_TYPE, 0);
+ assureTyped(t, n, NULL_TYPE);
+ensureTyped(t, n, 0);
+ensureTyped(t, n, NULL_TYPE, NULL);
+ensureTyped(p, t, n, NULL_TYPE);
+ensureTyped(this, t, n, NULL_TYPE);
+ return
+ #
+ break
+ensureTyped(t, 0, NULL_TYPE);
+ensureTyped(s, n, NULL_TYPE);
+ensureTyped(T, n, NULL_TYPE);
+ensureTyped(f, n, NULL_TYPE);
+ensureTyped(t, i, NULL_TYPE);
+ensureTyped(t, m, NULL_TYPE);
+ensureTyped(t, null, NULL_TYPE);

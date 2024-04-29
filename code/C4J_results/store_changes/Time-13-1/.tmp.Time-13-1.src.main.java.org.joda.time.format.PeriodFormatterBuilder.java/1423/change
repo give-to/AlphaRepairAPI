@@ -1,0 +1,932 @@
+value = (seconds * (millis));
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis);
+ value = seconds+ millis;
+ return (MILLIS_PER_SECOND) + millis;
+ return ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds+ millis;
+ return seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS:
+value = (seconds * (long) millis);
+value = ( int ) millis ;
+ return (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value=millis;
+ return (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = seconds+ millis;
+value = (seconds *  1000);
+ break; default:
+value = (int)
+ value = seconds;
+ return ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = 0;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis;
+ return Math.round(seconds) + millis;
+ return (Long.MILLIS_PER_SECOND) + millis;
+ return (seconds) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default:
+value = (int) seconds;
+ return floor(seconds) + millis;
+ return seconds.toFixed(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis;
+ break; case SECONDS_SECOND:
+value  = 0;
+value = (seconds * (long) millis) + (long)millis;
+ break ; case SECONDS_PER_SECOND:
+ break; case SECONDS_PER_DAY:
+value =  period.get(DurationFieldType.seconds());
+ return floor(MILLIS_PER_SECOND) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break;
+ break; case MILLIS_PER_SECOND:
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis);
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: value = 0;
+ ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return () + millis;
+ value = floor(seconds) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: break;
+ break; case MILLIS_PER_DAY:
+ break; case SECONDS_MILLIS:
+ break; default: value = Math.round(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) (millis);
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; case DAYS: value = 0;
+value = (seconds  - millis);
+ break; case MILLIS: value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (int seconds);
+ return floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: break; }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (millis);
+value = (seconds * (long)millis) + millis;
+value = ( int ) ( seconds * millis ) ;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: value = - 1;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: value = millis ;
+value = (seconds * (int) millis);
+ break; } else { value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  1;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: break; } }
+value = (seconds * (long) millis) * (long)millis;
+ break; case MILLIS: value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: return 0;
+ break; case MILLIS_SECOND:
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: value = 0.0;
+ return (int) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return Time.MILLIS_PER_SECOND) + millis;
+ return Math.round(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (SECONDS_MILLIS_PER_SECOND) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; case DAYS: value = 1;
+ break; } else { value = (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = seconds+ millis;
+ break; case MILLIS: value = value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: break;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) MILLIS;
+ if (seconds < 0) { value = seconds+ millis;
+ break; case MILLIS_PER_SEC:
+value = (seconds * (long)millis) + (long)value;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); break; default: value = 0;
+ break; case MILLIS: value = -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds > 0) { value = seconds+ millis;
+ break; case milliseconds:
+ break; case SECONDS_DAY:
+ return Math.min(iFieldType, seconds) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); }
+ if (seconds > millis) value = seconds+ millis;
+ if (seconds > millis) { value=millis;
+value = ( int ) value * millis ;
+ break; case SECONDS_NONE:
+ break; value = seconds+ millis;
+ return Math.min(seconds, value) + millis;
+value = (seconds * (long)millis); break; default:
+value = ( int ) ( value * millis ) ;
+ break; case MILLIS: default:
+ return (long) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = -seconds+ millis;
+value  = ( int ) ( seconds ) ;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (int) (millis);
+ break; default: return value;
+ break; default: break;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); break; default: value = millis ;
+ break; default: value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS:
+ break; default: break; value = seconds+ millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: value = 0; }
+ break; default: value = seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds == millis) { return value;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) 1000;
+ break ; case SECONDS_MILLIS : break ; case MILLIS_PER_SECOND:
+value  = ( int ) value * 1000;
+ return Math.min(millis, seconds) + millis;
+value = (seconds * (long) millis;
+ break; default: value = (long) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * TimeUnit.MILLIS_PER_SECOND) + millis;
+ return (double) (SECONDS_MILLIS_PER_SECOND) + millis;
+ if ( seconds == 0 ) { return Long. MAX_VALUE ; } else { if (value == 0)
+ break; default: value = (int) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * Time.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECOND);
+value = (seconds  - millis) * 1000;
+ break ; case SECONDS_PER_MILLIS:
+ break; case MILLIS: value = value *(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes); }
+value  = period. get ( DurationFieldType ) ;
+ return (int) (seconds * (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = Math.round(seconds) + millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS_PER_DAY:
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis * millis;
+ break; case MINUTES: value = period.get(DurationFieldType.minutes()); break; default: }
+ break; case MILLIS: value = (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value =  period. get ( DurationFieldType.seconds);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis ; } else { value = 0 ;
+ break ; case SECONDS_MILLIS : break ; case MILLIS:
+value = ( int ) ( seconds + millis ) ;
+ break; default: break; } value = seconds+ millis;
+value  = ( int ) ( milliseconds ) ;
+ return (int) seconds + (int) ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value  = period.get(DurationFieldType());
+value = (seconds * (long) DateTimeConstants.DAY);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis * millis);
+ break; } else { value = ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) TIME_PER_DAY;
+value  = ( int ) seconds * millis ;
+ break; case SECONDS_NANOSEC:
+ return (int) (seconds * 1000) + millis;
+ return Math.round64(seconds) + millis;
+ break; default: value = seconds * 1000+ millis;
+value  = - millis;
+ } else { value = 0;
+ break; default: return seconds.toFixed(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long)millis) - millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis * millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) millis;
+ break ; default : break ; } value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = (seconds *(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * Time.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis * MILLIS);
+value = (seconds * (long) millis); } else { value = 0;
+ return (seconds * 1000* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * 1000) + millis;
+ value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_SECOND:
+ break; default: return Math.round(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value  = ( long ) millis ;
+ return (long) (int) (seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (millis);
+ return floor(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds > millis) value = 0;
+ break; case MILLIS: value = +(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) floor(seconds) + millis;
+ return (double) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS_SECOND:
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis * 1000);
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS_PER_SECOND:
+ break ; case SECONDS_NONE : break ; case SECONDS_PER_SECOND:
+value = (seconds * (long)millis) + 1;
+value = (seconds  - millis) * 1000.0;
+ if (seconds == millis) return value;
+ return (int) (seconds * (double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_PER_SECOND:
+ break; else value = seconds+ millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * millis;
+ return (double) (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis * millis;
+ if (seconds > millis) { return 0;
+ return (int) (seconds * SECOND_MILLIS_PER_SECOND) + millis;
+ value = (int) (seconds * 1000) + millis;
+value  = ( int ) value % 1000;
+ if (seconds < millis) { return 0;
+ break; case SECONDS_MILLIS: if (isSupported(type, 0) && millis > 0) {
+value = (seconds *  millis) + millis;
+ return (int) ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * Calendar.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis; break; default:
+value = (seconds * (long) DateTimeConstants.DAYS);
+ break; } else { value = seconds+ millis;
+value = ( int ) seconds + millis;
+value = (seconds *  millis) + (value * millis);
+ if (seconds > millis) { return value;
+ return (double) (seconds * (double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case MILLIS:
+ break; case MILLIS: value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds) + millis;
+ return (int value * Time.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS_MILLIS: default:
+value = (seconds * (long)millis) * (long)value;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) SECONDS;
+ return (double) ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (Time.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS_PER_SEC:
+value = (seconds * (long) (millis)) ;
+ break; } else { value = seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS_MILLIS: if (isSupported(type, 0) && millis!= 0) {
+ return (long) (double) (seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS_PER_DAY:
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS:
+ return seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS_PER_DAY:
+value = (seconds * (long)millis) - 1;
+ return (int) (int) (seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS : break ; case MILLIS:
+ return (Integer.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS_SECOND:
+ return seconds.to(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int(seconds) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = (long) floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; default:
+ value = Math.round64(seconds) + millis;
+value = (seconds * (long) DateTimeConstants.TIME_SECONDS);
+ break; default : break ; } value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { return (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if ( seconds == 0 ) { return Long. MAX_VALUE ; } else { value = millis ; }
+ if (seconds == 0) { value=millis;
+ } default: value = 0;
+ break; } else { return -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) TIME_SECOND;
+ break; default: value = 0.0;
+ break; case DAYS: value = value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis);
+ return (long) (seconds * 1000* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); break; default:
+ break; case DAY:
+ return Math.abs(seconds) + millis;
+value = (seconds * (long) DateTimeConstants.DAY_SIZE);
+value  = 0.0;
+ return Math.int64(seconds) + millis;
+ return (double) Time.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * TimeFormatter.MILLIS_PER_SECOND) + millis;
+ break; case DAYS: value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (second * TimeUnit.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MAX);
+ return (second * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_DAY:
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS:
+ break; default: value = seconds * 60+ millis;
+ return (seconds * SECONDS_MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS_DAY:
+ break; } else { return floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return abs(seconds) + millis;
+ return (long) ( (long) seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) (seconds * Time.MILLIS_PER_SECOND) + millis;
+ break; default: value = +(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value + "= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_PER_SECOND: break;
+ break ; case SECONDS_MILLIS : break ; case MILLIS : default:
+value = (seconds * (long) DateTimeConstants.MAX_VALUE);
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS_PER_SECOND : break;
+ return (long) (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = (seconds) + millis;
+ break; default: return (long) (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = (seconds * 1000) + millis;
+value = (seconds  + millis) * 1000.0;
+value  = ( int ) value ;
+value = (seconds  - millis) * millis;
+ return (int seconds) + millis;
+ break; default: value = Math.floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS_PER_SECOND : default:
+value = (seconds * (long)millis); break; }
+ else { value = 0;
+ } else { return 0;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS_TIME:
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) 1;
+ return (int) (seconds * Unit.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_PER_SECOND: default:
+ return Math.calendar(seconds) + millis;
+ return (double) floor(MILLIS_PER_SECOND) + millis;
+ break; } else { value = (* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * 1000* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (long) Math.round(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  - millis;
+ return (value * seconds) + millis;
+ return (seconds * SimpleDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (millis)) + (value * millis);
+ return (int) (seconds * Time.Unit.MILLIS_PER_SECOND) + millis;
+ value = (int) floor(seconds) + millis;
+ if ( seconds == 0 ) { return Long. MAX_VALUE ; } else { return millis ; } }
+ break; default: value = value * (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (millis* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return Math.round(seconds * 1000) + millis;
+value = (seconds  + millis) * 1000;
+ return (double) (seconds * TimeUnit.MILLIS_PER_SECOND) + millis;
+ break; } else { value = (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS : break;
+ if (seconds == 0) { return 0.millis;
+ return (int) (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = seconds((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = seconds.to(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS_MILLIS: int
+value = (seconds *  millis) - (seconds * millis);
+ break; } value = seconds+ millis;
+ break; } else { value = seconds * (* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = seconds-millis;
+ else value = 0;
+ break; default: value = 0; break;
+value = (seconds * (long)millis) + (long)0;
+ return (int) seconds.toFixed(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) seconds * (long)(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds == 0) return 0;
+ return (GMTDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds.toString(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) 1000);
+ return (int) seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis * (long) ;
+ value = seconds.toFixed(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) seconds * (int) ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS_MILLIS: long
+ break; } else { return value * (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (long) (seconds * 60* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (double) millis);
+ break; } else { value=millis;
+value = (seconds * (long) DateTimeConstants.MAX_DAYS) + millis;
+ break; case MILLIS: value = seconds(((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds * (TimeUnit.MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis); break; default:
+ return (double) seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) (seconds * Calendar.MILLIS_PER_SECOND) + millis;
+ return (int) (s * TimeUnit.MILLIS_PER_SECOND) + millis;
+ break; default: value = (second *(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS_PER_SECOND: long
+value = (seconds * (long) DateTimeConstants.SECONDS_PER_DAY);
+ if (seconds < millis) return 0;
+ return (seconds * Calendar.MILLIS_PER_SECOND) + millis;
+ value = floor(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case milliseconds:
+ return (value * Time.MILLIS_PER_SECOND) + millis;
+ return (int) floor(MILLIS_PER_SECOND) + millis;
+value = ( int ) value * 1000.0;
+value = (seconds * (long)millis * (long)value);
+value = (seconds * (long) DateTimeConstants.SECONDS) + millis;
+value = (seconds *  millis) + (seconds * millis);
+ return (int) seconds + (int) (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = (((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND * millis);
+value = (seconds * (long)millis) + value;
+ return seconds.toInt(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis; break; default:
+ return (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_NONE : break ; case SECONDS_MILLIS : break;
+ return (int) ((double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int)millis) + millis;
+ return (int(double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; default : break ; } value = (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { return (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = floor((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds < 0) { return 0;
+ break ; case SECONDS_PER_SECOND: int
+ if (seconds == 0) { return -millis;
+value  = ( int ) ( seconds * millis());
+ break; value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = seconds * (Unit.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) (seconds * SECOND_MILLIS_PER_SECOND) + millis;
+ break; default: value = 1;
+ break ; case SECONDS_MILLIS : break ; case MILLIS_PER_SECOND: int
+ break ; case SECONDS_MILLIS : break ; case MILLIS_PER_SECOND: long
+value  = seconds * 1000;
+ return (long) (int) ((seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis * 1000;
+value = (seconds  + millis); break; default: break;
+value = (seconds *  millis) + 1;
+ break; } else { return seconds+ millis;
+ return (int) (seconds * int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = floor((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { return ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis) - 1;
+ return (double) (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = -seconds+ millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS: int
+ return ((int) seconds) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS_DAY);
+value = (seconds * (int)millis); break; default:
+value = (seconds * (int) ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MS:
+value = (seconds * (int) (double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (second * SECOND_MILLIS_PER_SECOND) + millis;
+ break; default: value = seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long)millis; }
+ break; } else { value = (TimeUnit.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * LocalDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_PER_SECOND: long
+ return (int) (seconds * SimpleDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value + milliseconds *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: return value * seconds+ millis;
+value = (seconds * (long) DateTimeConstants.MAX_VALUE) + (millis);
+value = (seconds  - millis) * 1000000.0;
+ return (int) (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case MILLIS: long
+ } else { return value;
+ return (double) (Time.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = seconds * (Time.MILLIS_PER_SECOND) + millis;
+ break; } else { return seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_PER_SECOND: long
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS: long
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis ; default : value = 0 ;
+ return (int) (seconds * ZonedDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = ((seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) mill;
+ return (long) (int) (sessions* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (ms));
+ break; default: break; return seconds+ millis;
+ break; } else { value = (GMTDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * TIME_MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis) % 1000;
+ return ((int64) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_PER_SECOND: int
+value = (seconds  - millis) % 1000;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) (millis());
+value = (seconds *  millis) - millis;
+ return (int) seconds * ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds * DurationFieldType.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis) * millis;
+ return (int) seconds + (int) value) + millis;
+ break; return seconds.to(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) DAY_SEC;
+ value = (int) (seconds * Time.MILLIS_PER_SECOND) + millis;
+ return (double) (TimeUnit.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (value * 1000) + millis;
+ return (seconds * TimeFormatter.MILLIS_PER_SECOND) + millis;
+ value = (int) seconds; return (int) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case SECONDS: int
+value  ++ ;
+value = (seconds * (long) DateTimeConstants.SECONDS_PER_MINUTE);
+value = (seconds *  millis) * 1000;
+ return (long) floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) (double(int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int value * Calendar.MILLIS_PER_SECOND) + millis;
+ return (int) seconds + (int) () + millis;
+ return (seconds * TIME_MILLIS_PER_SECOND) + millis;
+ return (double) (seconds*MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis
+ return (double) (Unit.MILLIS_PER_SECOND) + millis;
+ break; return seconds.toFixed(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MINUTE);
+ } else { value = seconds+ millis;
+ break; default: return -1*millis;
+ return (int) (seconds * 1000.0) + millis;
+value = (seconds * (millis)) + (seconds * millis);
+ break; case MILLIS: value = value %= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value = seconds*(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long)millis; }
+ return (int) ( (seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ if (seconds == 0) value=millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * 1000;
+ return (long) (double) (sessions* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = (-(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value + '= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; int value = seconds+ millis;
+ break ; case SECONDS_MILLIS_PER_SECOND: int
+ value = (int) (seconds * TIME_MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis; break; }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); break; default: break; }
+ break; case milliseconds: value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis ; } else { value = - 1 ; }
+ return (int seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) TIME_MS;
+value = (seconds *  millis); break; default: break; }
+ break; } else { value = -millis;
+ return (seconds * MathDateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) (millis); }
+value = (seconds *  millis) * 1000.0;
+ break; } else { value = - (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: break; } return(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS_PER_MILLIS);
+value = (seconds * (long)millis * (long)value;
+ return (double) (MSEC_MILLIS_PER_SECOND) + millis;
+value = (seconds * (long)millis; }
+ return (int) Time.MILLIS_PER_SECOND) + millis;
+ return (int) (SECOND_MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis * millis();
+ return (value * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break ; case SECONDS_MILLIS : break ; case SECONDS_MILLIS : break ; case MILLIS: int
+ return (int) (seconds * JsDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else { value = floor(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = -1*millis;
+value = (seconds *  1000 * millis) + millis;
+ return (int) seconds.toString(() + millis;
+ break; default: value = seconds * 100+ millis;
+ value = ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) seconds * Time.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis ; } else { value = 0 ; } }
+ break; } else { value = (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) (millis)) ;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; default : break ; }
+ return (int) (MSEC_MILLIS_PER_SECOND) + millis;
+ return (double) + millis;
+ value = (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis ; } else { value = 0 ; }
+ break; case MILLIS: millis= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return round(seconds) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case MILLIS: long
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis());
+value = (seconds * (millis) + (value * millis));
+ break ; case SECONDS_MILLIS : break ; case SECONDS_PER_SECOND: double
+ return (int) (seconds * double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value *== (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (long) ( (seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (TimeUnit.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.PERCENTAGE);
+ return (int) seconds * (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (second) + millis;
+ break ; case SECONDS_MILLIS : break ; default : break ; } break ; case MILLIS: int
+value = (seconds * (int) 1000);
+ return (int) (sessions* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: return (seconds *(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = floor((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis); break; default:
+ value = (int) (seconds * 60) + millis;
+ return (seconds << 1) + millis;
+ return (int)millis;
+ break; case MILLIS: int value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * Time.Unit.MILLIS_PER_SECOND) + millis;
+ return (int) (second* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) (SEC_MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) MILLIS();
+ break; } else { return -1*millis;
+ break; default: return value * 1000+ millis;
+ return (Duration.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: value += value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis * millis();
+ break; default: value = null;
+ return (long.MILLIS_PER_SECOND) + millis;
+ return (int) seconds * (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (millis)) + (value * millis());
+value = (seconds *  millis) + (value * millis());
+ value = seconds.to(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) (seconds*MILLIS_PER_SECOND) + millis;
+value = (seconds * (int)millis) - millis;
+ break; return seconds.get(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) ( (seconds * 1000) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis; break; }
+ return (int) (seconds * TimeFieldType.MILLIS_PER_SECOND) + millis;
+ return (int) (SECS_MILLIS_PER_SECOND) + millis;
+ value = seconds * 1000+ millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long)
+ return (int) (millis* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: break;
+value = (seconds *  1000.0);
+ return (int) floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) (millis); }
+value = (seconds * (long) DateTimeConstants.DAYS_DAY);
+ return seconds) + millis;
+ return (double) (iMILLIS_PER_SECOND) + millis;
+ break; default: return -1-millis;
+ return (MSEC_MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) millis); break; }
+value = (seconds * (long) DateTimeConstants.MAX_DAY_SIZE);
+ break; default: value = millis;
+value = (seconds * (long) DateTimeConstants.SI);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) millis; } }
+ return seconds * 1000+ millis;
+ break; default: value = (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) milliseconds;
+ return (int) (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (long) (1+seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double)(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS_PER_MILLI);
+ value = (GMTDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = (double) seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: break; } break;
+ return (seconds * 60* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) (millis)); }
+ break; default: break; value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = -millis;
+ return value * (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis; }
+ break; default: value = seconds * (GMTDateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int) millis;
+value = (seconds * (long) DateTimeConstants.MAX_DAY_VALUE);
+value = (seconds * (int) ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value  += millis;
+ value = -seconds+ millis;
+value = (seconds * (int)millis) + 1;
+value = (seconds * (long) DateTimeConstants.TIME_MS);
+value = (seconds * (long) DateTimeConstants.TIME_SECONDS_MS);
+ break; } else { return -1-millis;
+ break; default: value = (-(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case SECONDS_MILLIS: break; }
+ return (double) seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long)millis); }
+value = (seconds  - 1);
+ if (seconds == value) return value;
+ return (long) seconds * ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) ;
+value = (seconds * (long) DateTimeConstants.SECOND_SEC);
+ break; default: value = -1;
+ ((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis) + (value * 1000);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis + 1;
+ return (value) + millis;
+value = (seconds * (int|float) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: value = seconds-millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (long) millis; } }
+ return (NumberOfDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * 100* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return floor(Time.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  value;
+value = (seconds * (int) ((double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  1000 * millis) * 1000;
+ break; case MILLIS: int
+ return seconds * (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (TimeUnit.MILLIS_PER_SECOND) + millis;
+ return ((seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS) + 1;
+value = (seconds * (long) 1000;
+ } else { value = -millis;
+ value = ((seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; return (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = ( int ) seconds * millis ; } }
+ return (long) (1-seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.TIME_SECONDS_DAY);
+value = (seconds * (long) DateTimeConstants.SECONDS) * 1000;
+ return (double) (double(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (seconds * 2* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = ( int ) ( seconds * millis ) ; }
+ break; } return (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis) - 1.0;
+value = (seconds * (long) millis());
+ return (long)MILLIS_PER_SECOND) + millis;
+ return (long)millis;
+ break; } value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = ( int ) seconds * millis ; break ; }
+ else { return 0;
+ break; value = floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (millis)) + (value * millis));
+value = (seconds * (long)millis) + millis; }
+ value = (seconds * 60) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * (long) milli
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis; } }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  - 1;
+ case MILLIS:
+ } else { return -1*millis;
+value = (seconds * (int|long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.PERCENTAGE) + 1;
+ return (int) (1+seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } value = -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds.to(((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return floor(Unit.MILLIS_PER_SECOND) + millis;
+ return seconds * (long)(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS) + value;
+ return (long)seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.second);
+ break; return seconds.format(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (1000L* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) milliseconds);
+ value = (Long.MILLIS_PER_SECOND) + millis;
+ return floor(((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case MILLIS: float
+ return (int) -millis;
+ break; int result = seconds+ millis;
+ return (double) (((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ default: return 0;
+value = ( int ) seconds + millis ; } }
+value = (seconds *  millis) + (value * 60);
+ return floor((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int) + millis;
+value = (seconds * (int) (millis)); }
+ break; } return floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int64) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; value = -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (int seconds*MILLIS_PER_SECOND) + millis;
+value = (seconds * (long)millis); } }
+ return (double(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return Duration.MILLIS_PER_SECOND) + millis;
+ value = seconds * 60+ millis;
+value = (int) value
+value = (seconds * (int) int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = value * (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = (second* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.VALUE);
+ } else { return -1-millis;
+value = (seconds * (millis) ;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) TIME_SECOND();
+ break; case MILLIS: return
+value = ( int ) seconds * millis ; } } }
+value = (seconds  % millis);
+ return seconds * 60+ millis;
+value = (seconds * (long)millis * (long)value();
+ return (-(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MAX_VALUE) + millis; }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  milliseconds;
+ value = (DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.Nanos);
+value = (seconds * (int)millis; }
+value = (int) seconds
+ } else { value = seconds-millis;
+ return (int) seconds *(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis); break; default: { }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); break; }
+value = (seconds * (int) (float) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; default: return floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (int)millis); }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  % 1000;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) * (millis());
+value = (seconds * (double) (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis());
+ return seconds * (1000MILLIS_PER_SECOND) + millis;
+ return (Currency.MILLIS_PER_SECOND) + millis;
+ value = (SunDateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS); }
+ value = (double)millis;
+value = (seconds * (long) DateTimeConstants.MAX_VALUE) + millis; } }
+ break;;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND_DAY);
+value = (seconds * (long) DateTimeConstants) ;
+value = (seconds *  millis) + (value * 1000());
+ return seconds*millis;
+ return (double)millis;
+value  = millis();
+ default: return value;
+ return seconds.to((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return ((double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ else { return (int)millis;
+ break; case MILLIS_SECOND():
+ break; return floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (2* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return -(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECONDS_PER_MILLIS());
+value = ( int ) ;
+value = (seconds * (long) DateTimeConstants.TIME_SECONDS());
+ (int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.SECS);
+ return seconds * (long)-(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  + 1);
+ return ((DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value = seconds*millis;
+value  = 0
+ return (iMILLIS_PER_SECOND) + millis;
+ value = + seconds+ millis;
+ return (int) seconds+ millis;
+value = (seconds  % 1000);
+ else { return -1*millis;
+ return Math.floor(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ } break;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) * (millis));
+ value = seconds* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis) + millis; }
+value = (seconds  + millis); break; default: }
+ return (microseconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ default: break;
+ return seconds * (value *(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (double) seconds+ millis;
+value = (seconds  - millis) ; }
+ else { return -1-millis;
+value = (seconds * (double)millis; }
+ return (Number.MILLIS_PER_SECOND) + millis;
+ return (GMTField.MILLIS_PER_SECOND) + millis;
+ else { return value;
+value = (seconds * (int)millis); } }
+ return (SunDateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; } else: value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) mill;
+ value = seconds-millis;
+ value = (long)(MILLIS_PER_SECOND) + millis;
+ break; } int value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (iDateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis * (long) 1000;;
+ return log(MILLIS_PER_SECOND) + millis;
+value = (seconds * ((int) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (MAXMILLIS_PER_SECOND) + millis;
+ return (double) ((((long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  * milliseconds);
+value = (seconds * (1 + millis)) ; }
+ return (*MILLIS_PER_SECOND) + millis;
+ value += -millis;
+value = (seconds  * millis) ; }
+value = (seconds);
+ break; } long value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value  =;
+value = (seconds * (long) DateTimeConstants.DAYS) ; }
+ value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis); }
+ return (* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value  = 1;
+ return value; value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (double)
+value = (seconds * (long) DateTimeConstantsUnit);
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND_SEC);
+ return millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis - 1;
+ break; int value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  + millis); } }
+ return Long.MILLIS_PER_SECOND) + millis;
+ break; default;
+ return value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return seconds-millis;
+ ((double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long)) ;
+ break;
+ return (+(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; long value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds  - millis); } }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis();
+ break; } double value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (millis));
+value = (seconds * (double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (() + millis;
+value = (seconds * (month));
+value = (seconds * (1000));
+value = (seconds * (long) ;
+ int value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  (millis());
+value = (seconds *  milis);
+ return round(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.);
+ } else { value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return +(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds *  millis));
+value = (seconds *  millis) *
+value = (seconds * (mill));
+ return (-) + millis;
+ return ((MILLIS_PER_SECOND) + millis;
+value =  - 1;
+value = (seconds ; }
+value = (seconds *  60);
+value = (seconds * ((double) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return Number.MILLIS_PER_SECOND) + millis;
+value = (second);
+value = (seconds *  100);
+value = (seconds ); }
+ value += seconds+ millis;
+value = (seconds * (Millis));
+ long value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  millis);
+ long value *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return Calendar.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) ; }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  ms;
+value = (seconds * (long)();
+value = (seconds * (millis))
+ value -=millis;
+ break 2;
+ int value= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value =  milis ;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND); } }
+value = (seconds *  ms);
+ return value+ millis;
+ return value;
+value = (seconds * (int)
+value = (seconds * (milis));
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) +  milis;
+value = (seconds * (long)";
+value = (seconds * (long) DateTimeConstants. ;
+value = (seconds *  millis;
+ return -seconds+ millis;
+ break; }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  value;
+ int seconds *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ int time *= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ value -= seconds+ millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND; } }
+ } else {
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * 1000
+ return second* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; int result= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break; case
+value = (seconds ) {
+ return 2* (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (+(long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ return (-seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ print(DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND; }
+ return (-MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) *
+ break, }
+ + seconds+ millis;
+ value %= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ # seconds+ millis;
+ int result= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND)  * 100
+ return second+ millis;
+ return $(seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis. }
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis(); }
+value += (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ break,
+ break();
+value = (seconds % (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (short) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ } else
+value -= (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+ int
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis. else
+value = (seconds - (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;
+value = (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) % millis;
+ long
+ double
+value return (seconds * (long) DateTimeConstants.MILLIS_PER_SECOND) + millis;

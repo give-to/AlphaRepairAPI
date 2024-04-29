@@ -1,0 +1,343 @@
+ varNode =
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); varNode =
+ compiler.setDebugInformation(
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree ( ) ;
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); varNode =
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree ( ) ;
+ varNode = IR.var(newDecl);
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree ( n ) ;
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree ( n );
+NodeUtil.setDebugInformation(v,
+ newDecl. setFirstChild ( n, name ) ; Node varNode =
+ newDecl. setFirstChild ( n, name ) ; varNode =
+ varNode = IR. var ( newDecl. getFirstChild ( ) ) ;
+ newDecl. setFirstChild ( varNode ) ;
+ varNode = IR. var ( newDecl ) ; varNode =
+ varNode = newDecl. cloneNode ( ) ; varNode =
+NodeUtil.copyNode(
+ varNode = IR.var(
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); name =
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); varNode = name =
+ newDecl. setFirstChild ( n, name ) ; } else { varNode =
+ newDecl. setFirstChild ( n, name ) ; Node isHoisted =
+ if (isHoisted) { varNode =
+ varNode = IR. var ( newDecl. getFirstChild ( ), n. getString ( ) ) ;
+ varNode = IR. var ( newDecl, name ) ; varNode =
+ varNode = IR. var ( newDecl ). useSourceInfoFrom ( n ) ;
+ varNode = newDecl. clone ( ) ; varNode. setFirstChild ( n, name ) ; varNode. detach ( ) ;
+ varNode = IR. var ( newDecl, name ) ;
+ if (isHoisted) newDecl =
+ varNode.replaceChild(
+ newDecl. setFirstChild ( n ) ;
+ newDecl. setFirstChild ( n, name ) ;
+NodeUtil.setDebugInformation(newDecl, v.getNameNode(),
+ recordAlias(
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); varNode +=
+ varNode = IR.var("").useSourceInfo(
+ varNode = IR. var ( newDecl. getFirstChild ( n ) ) ;
+ varNode = IR. var ( newDecl ) ; Node isHoisted =
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); name =
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree ( n )
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFrom ( n ) ;
+NodeUtil.setDebugInformationIfMissingFromForTree(newDecl,
+ varNode = IR. var ( newDecl. getFirstChild(), n, name ) ;
+ varNode = IR. var ( newDecl ). useSourceInfo ( n ) ;
+ newDecl.replaceChild(
+ varNode = IR. var ( newDecl. getFirstChild ( ), name ) ;
+ varNode = IR. var ( newDecl. clone ( ), name ) ;
+ if (isHoisted) {
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); varName =
+ varNode = newDecl. clone ( ) ; varNode. setFirstChild ( newDecl. getFirstChild ( ), n ) ;
+ varNode = IR. var ( newDecl. getFirstChild ( n, name ) ) ;
+NodeUtil.setDebugInformation(v, newDecl, varNode,
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); varNode = name;
+ newDecl. setFirstChild ( n, varNode ) ;
+ varNode = IR. var ( newDecl ) ; Node debugInfo =
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); }
+ varNode = IR. var ( newDecl. clone ( ) ). useSourceInfoIfMissingFromForTree(n); }
+ varNode = IR. var ( newDecl. getFirstChild ( n ), name ) ;
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); varNode = name +
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); varNode +=
+NodeUtil.setDebugInformation(newDecl, v, globalName,
+NodeUtil.setDebugInformationIfMissingFromForTree(n, v,
+ if (isHoisted) { newDecl =
+ varNode = IR.var(newDecl, n);
+ varNode = IR. var ( newDecl, n, name ) ;
+NodeUtil.setDebugInformation(newDecl,
+NodeUtil.setDebugInformation(newDecl, globalName,
+ varNode = IR. var ( newDecl. clone ( ), n ) ;
+NodeUtil.addChildToFront(
+NodeUtil.setDebugInformation(v.getNameNode(),
+ if (newDecl!= null) { name =
+ varNode = IR.var().useSourceInfo(
+ varNode = IR. var ( newDecl. getFirstChild ( ) ). useSourceInfoIfMissingFromForTree(n); }
+NodeUtil.addChildToFront(newDecl,
+ varNode = IR. var ( newDecl ) ; Node newDebug =
+ varNode = IR. var ( newDecl, name ) ; varName =
+NodeUtil.setDebugInformationIfMissingFromForTree(v,
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); }
+NodeUtil.setDebugInformationIfMissingFromForTree(n,
+ if (isHoisted) { name =
+NodeUtil.copyNode (newDecl, varNode,
+ varNode = NodeUtil.newQualifiedName(
+NodeUtil.setDebugInformation(newDecl, v, varNode,
+ varNode = IR.var(name);
+ newDecl. detach ( ) ;
+ varNode = IR.var("").replaceChild(
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree(n); varNode.
+ varNode = IR. var ( newDecl ) ; varNode. useSourceInfoIfMissingFromForTree ( n ) +
+ varNode = IR.var(globalName,
+ varNode = NodeUtil.newVariableNode(
+NodeUtil.setDebugInformationIfMissingFromForTree(n, value,
+ varNode = IR.var(newDecl).setDebugInformation(
+ newDecl.addChildToFront(
+NodeUtil.copyNode (varNode,
+ varNode = IR. var ( newDecl. getFirstChild ( ), n. getString ( ) ) +
+ v.replaceChild(
+ varNode = IR.var(name,
+ varNode = newDecl. clone(); varNode.setDebugInformation(
+NodeUtil.setDebugInformation(v, newDecl, value,
+NodeUtil.setDebugInformation(v, globalName,
+ varNode = IR.var("".replaceChild(
+ varNode = newDecl.getFirstChild().setDebugInformation(
+ varNode = newDecl.addChildToFront(
+ newDecl.replaceFirstChild(
+NodeUtil.copyNode(value,
+NodeUtil.setDebugInformation(v, newDecl,
+NodeUtil.addChildToFront(v,
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFrom(n); }
+NodeUtil.copyNode (newDecl, v,
+ varNode = IR.var(newDecl,
+ varNode = IR.var(value,
+ if (debugInfo!= null) {
+ varNode = newDecl. clone ( ) ; varNode. setFirstChild ( newDecl. getFirstChild ( ), n ) +
+NodeUtil.addToFront(newDecl, globalName,
+ varNode = IR.var("", newDecl,
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree ( n ) +
+ varNode = IR. var ( newDecl ). useSourceInfoFrom(n); }
+NodeUtil.setDebugInformation(v, newDecl, compiler,
+NodeUtil.addChildToFront(newDecl, v,
+NodeUtil.copyNode(v,
+ } else { Node newDecl = NodeUtil.setDebugInformation(
+ varNode = NodeUtil.newIdentifierNode(
+NodeUtil.setDebugInformationIfMissingFromForTree(v, n,
+NodeUtil.setDebugInformation(newDecl, v.getDebugInfo(),
+NodeUtil.addChildToFront(varNode,
+ varNode = IR.var(newDecl); }
+ varNode = IR. var ( newDecl ) ; varNode +=
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFromForTree(n); name +=
+ varNode = IR.var(null,
+ varNode = newDecl ; NodeUtil.setDebugInformation(
+NodeUtil.addChildBefore(v,
+NodeUtil.addToFront(newDecl, v,
+ varNode = IR. var ( newDecl. getFirstChild ( ) ) +
+ newDecl.setFirstChild(
+ varNode = NodeUtil.newVarNode(
+ varNode = newDecl;
+ newDecl. setFirstChild().replaceChild(
+ varNode = IR. var ( newDecl. getFirstChild ( n, name ) ) +
+ varNode = IR. var ( newDecl ). useSourceInfoIfMissingFrom ( n ) +
+ varNode = newDecl. cloneNode ( ) ; varNode +=
+ varNode = IR.var(EXPR,
+ varNode = NodeUtil.newNode(
+ if (isHoisted) { NodeUtil.setDebugInformation(
+NodeUtil.copyNodeToFront(
+ varNode = IR. var ( newDecl. getFirstChild ( n ), name ) +
+NodeUtil.copy(value,
+ varNode = IR. var ( newDecl, name ) ; varNode +=
+ varNode = newDecl. detach ( ).setDebugInformation(
+ varNode = NodeUtil.newVariableReference(
+NodeUtil.setDebugInformation(newDecl, v,
+ varNode = IR.nameNode(
+ varNode = IR.var(newDecl, value,
+ varNode = IR. var ( newDecl ). useSourceInfoFrom(newName); }
+ v.addChildToFront(
+ varNode = IR.var(name).setDebugInformation(
+ v.setNameNode(
+NodeUtil.useSourceInfoIfMissingFrom(varNode,
+NodeUtil.addToFront(newDecl, varNode,
+NodeUtil.addChildToFront(newDecl, value,
+ NodeUtil.setDebugInformation(
+ newDecl.addChildBefore(
+ varNode = newDecl.replaceFirstChild(
+ varNode = IR.var(newDecl.parent,
+NodeUtil.addChildToFront(t,
+ varNode = IR.var(name =
+NodeUtil.copyNodeBefore(
+ newDecl. setFirstChild ( varNode,
+NodeUtil.addToFront(newDecl,
+ varNode = IR.var("name",
+NodeUtil.setDebugInformation(t,
+ varNode.setDebugInformation(
+NodeUtil.copy(
+ varNode = newDecl. nextChild ; compiler.setDebugInformation(
+ newDecl. jsdoc =
+NodeUtil.setDebugInformationNode(
+ varNode = newDecl. clone ( ).setDebugInformation(
+NodeUtil.addChildToFront(n,
+ varNode = IR.useSourceInfo(
+ varNode = IR.varDeclaration(
+ varNode = IR.name().replaceChild(
+NodeUtil.replaceChild(
+ varNode = NodeUtil.setDebugInformation(
+NodeUtil.addToFront(newDecl, value,
+ varNode = IR. var ( newDecl, name ) +
+ varNode = IR.variable(
+ varNode = newDecl.clone(); compiler.setDebugInformation(
+ varNode.replaceChildBefore(
+ newDecl. setFirstChild ( n, name ) ; varNode +=
+ v.addChildBefore(
+NodeUtil.addChildBefore(value,
+ varNode = newNode(
+ varNode = IR.variableName(
+ varNode.addChildToFront(
+NodeUtil.setDebugInformation(newDecl, varNode,
+ varNode = IR.newName(
+ varNode = NodeUtil.replaceChild(
+ varNode = IR.variableDecl(
+NodeUtil.setDebugInformation(v, compiler,
+NodeUtil.addChildToFront(value,
+NodeUtil.setDebugInformationIfMissingFromTree(v,
+NodeUtil.setDebugInformation(varNode,
+ varNode = IR.assign(
+ if (debugInfo!= null)
+ newDecl. setFirstChild ( n )
+ varNode = IR.var(value).setDebugInformation(
+NodeUtil.setDebugInformationToNode(v,
+ newDecl. setFirstChildToFront(
+NodeUtil.addToFront(newDecl, n,
+NodeUtil.copyNodeInfo(v,
+ varNode = NodeUtil.unsetDebugInformation(
+ newDecl. getFirstChild(0).setDebugInformation(
+ varNode = newDecl. parent ; compiler.setDebugInformation(
+ if (isHoisted)
+ varNode = NodeUtil.Debug.setDebugInformation(
+NodeUtil.copy(v,
+ varNode = IR.newNameNode(
+ varNode = v.getNameNode().setDebugInformation(
+ v.addNameNode(
+ varNode = IR.var(newDecl, name,
+NodeUtil.copyAttributes(
+NodeUtil.copyNewNode(
+ varNode = IR. var ( newDecl ) ; varNode.
+NodeUtil.setDebugInformationFrom(newDecl,
+ varNode = IR.name("").setDebugInformation(
+ varNode = IR.var(newDecl, name =
+NodeUtil.setDebugInformationInNode(v,
+NodeUtil.setDebugInformationFromNode(v,
+NodeUtil.copyChildren(
+ varNode = IR.jsdoc().setDebugInformation(
+NodeUtil.setDebugInformation(value,
+NodeUtil.setDebugInformationIfMissingFromTree(n,
+ varNode = newDecl ; varNode.setDebugInformation(
+ varNode.init(
+NodeUtil.setDebugInformation(n,
+NodeUtil.replaceNode(
+ report(t,
+ v.setDebugInformation(
+ varNode = IR.jsdoc.setDebugInformation(
+ varNode = IR. var ( newDecl ) +
+ v.insertBefore(
+ v.addChild(
+NodeUtil.setDebugInformationFrom(
+ v.addNameBefore(
+NodeUtil.setDebugInformationInJsdoc(
+NodeUtil.append(
+ varNode = v.getNameNode.setDebugInformation(
+NodeUtil.setDebugInformationTo(
+ newDecl.init(
+NodeUtil.addChildToFront(newDecl, -
+ if (isHoisted) compiler.setDebugInformation(
+ varNode.replace(
+NodeUtil.setDebugInformationFor(
+ varNode = IR.name(); compiler.setDebugInformation(
+NodeUtil.alias(
+ varNode = IR.jscomp.setDebugInformation(
+NodeUtil.replace(
+NodeUtil.report(
+NodeUtil.insert
+ if (isHoisted) { }
+ newDecl.setDebugInformation(
+ GOOG_SCOPE.setDebugInformation(
+ copy(t,
+ varNode = NodeUtil.debug.setDebugInformation(
+NodeUtil.addToFront(newDecl, -
+NodeUtil.append
+ varNode = newDecl; compiler.setDebugInformation(
+ varNode = n;
+ varNode = newDecl.setDebugInformation(
+ newDecl. compiler ( ).setDebugInformation(
+ if (isHoisted) { final
+ varNode = null;
+ varNode = IR.var().setDebugInformation(
+ varNode = NodeUtil2.setDebugInformation(
+NodeUtil.setDebugInformationInfo(
+ varNode = name =
+NodeUtil.copy
+ newDecl. detach ( ).setDebugInformation(
+ varNode = compiler.setDebugInformation(
+ newDecl =
+ NewDebugInfo(debugInfo).setDebugInformation(
+ node.replace(
+ NodeUtil.Debug.setDebugInformation(
+ recordName(
+ Node varNode =
+ if (debugInfo!= null) {}
+ varNode = name;
+ if (debug) {
+ NewDebugInfoUtil.setDebugInformation(
+NodeUtil.push
+ varNode = jsdoc.setDebugInformation(
+ node.init(
+NodeUtil.include
+ varNode = varNode.setDebugInformation(
+ jsdoc.setDebugInformation(
+ reportExpr(
+ reportExpression(
+ varNode = nodeUtil.setDebugInformation(
+ node.insert(
+ copyNode(
+ GOOG_DEBUG.setDebugInformation(
+ printName(
+ varNode = v.setDebugInformation(
+ NewDebugInfoNodeUtil.setDebugInformation(
+ value.setDebugInformation(
+ GOOG_scope.setDebugInformation(
+ NewNodeUtil.setDebugInformation(
+ GOOG_Scope.setDebugInformation(
+ varNode = NodeUtils.setDebugInformation(
+ printNode(
+ this.setDebugInformation(
+ nodeUtil.setDebugInformation(
+ varName =
+ addToFront(
+ String debugInfo =
+ NodeUtil.unsetDebugInformation(
+ NewDebugInfo.setDebugInformation(
+ varNode +=
+ name =
+ varNode = value.setDebugInformation(
+ varNode.$setDebugInformation(
+ varNode.__setDebugInformation(
+ NewUtil.setDebugInformation(
+ var nodeName =
+ gscope.setDebugInformation(
+ copyToNode(
+ jscomp.setDebugInformation(
+ varNode.append
+ StringUtil.setDebugInformation(
+ gcfg.setDebugInformation(
+ gg.setDebugInformation(
+ NodeUtils.setDebugInformation(
+ n.setDebugInformation(
+ copyNodeTo(
+ JSDocInfo.setDebugInformation(
+ recordVariable(
+ varNode.init
+ recordFunction(
+ NewDebugInfoHelper.setDebugInformation(
+ Name =
+ StringUtils.setDebugInformation(
+ name +=
+ Name +=
+ }

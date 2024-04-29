@@ -1,0 +1,452 @@
+return tryFoldTypeof(subtree);
+ return subtree;
+return tryFoldTypeof(subtree, left, right);
+return  tryFoldTypes(subtree);
+ return tryFoldTypedOperator(subtree);
+ return tryFoldTypedefOperator(subtree);
+ return tryFoldTypes(subtree;
+return  null;
+ default:
+ return tryFold(subtree;
+ return tryFoldType(subtree);
+ case Token.TYPE:
+ return tryFoldTypedEofOperator(subtree);
+return tryFoldTypeofSubtree;
+ return tryFoldType(subtree;
+ return optimize(subtree);
+ return tryFoldTypedef(subtree;
+ return tryFoldTypedEefOperator(subtree);
+ return tryFoldTypeOf(subtree);
+ return tryFoldTypedef(subtree);
+ case Token.NEG: case Token.NOT:
+ return tryFoldTypeEef(subtree);
+ case Token.NEG: case Token.BITNOT: case Token.TYPEOF:
+ return tryFoldTypeEof(subtree);
+ return tryFoldTypeef(subtree);
+ return (subtree);
+ case Token.NEG: case Token.BITNEG:
+ case Token.NEG: case Token.BITNOT: case Token.NOT:
+ case Token.NEG: case Token.BITNOT:
+ return tryFoldTypef(subtree);
+ return tryFoldTypeOfOperator(subtree);
+ case Token.NEG: case Token.BITNOT: case Token.BITOR:
+ return tryFoldTypef(subtree;
+ return tryFoldTypeof(subtree;
+ case Token.TYPECONST:
+ case Token.NEG: case Token.BITNOT: case Token.NEG:
+ return tryFoldKnownTypes(subtree);
+ case Typeof:
+ case Token.NEG: case Token.BITNOT: case Token.BITNOT:
+ case Token.BITTYPE:
+ case Token.NEG: case Token.BITOR:
+ return tryFoldKnownTypes(subtree;
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.NOT:
+ return tryFoldFunction(subtree);
+ return tryFoldTypeef(subtree;
+ return tryFoldTypeEofOperator(subtree);
+ return tryFoldType(tree);
+ return tryFoldTypeOfFunction(subtree;
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.BITNOT:
+ return tryFoldTypedMethods(subtree);
+ case Token.NEG: case Token.BITNOT: case Token.TYPECALL:
+ case Token.NEG: case Token.BITNEF: case Token.BITNEG:
+ case Token.NEG: case Token.BITTYPEOF:
+ return tryFoldType(node);
+ return tryFoldTypeOfFunction(subtree);
+ return tryFoldTypeOf(subtree;
+ case Token.NEG: case Token.NEG: case Token.NOT: case Token.BITNOT:
+ case Token.NEG: case Token.TYPECALL:
+ case Token.NEG: case Token.BITOR: case Token.BITAND:
+ case Token.TYPEDef:
+ return tryFoldFunction(subtree;
+ case Token.NEG: case Token.TYPEOFNOT:
+ case Token.TYPECALL:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.BITOR:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.TYPEOF:
+ case Token.NEG: case Token.BITEF:
+ case Token.TYPEOF: case Token.NEG: case Token.BIT:
+ case Token.NEG: case Token.NEG: case Token.BITNOT:
+ return tryFoldTinyEofOperator(subtree);
+ case Token.NEG: case Token.NEG: case Token.NEG: case Token.NOT:
+ return tryFoldTypEOF;
+ case Token.NEG: case Token.BITNOT: case Token.TYPEDef:
+ return subtree);
+ case Token.TYPECONF:
+ return tryFoldTypEOF();
+ return tryFoldTypefaults(subtree);
+ return _tryFoldTypeof(subtree);
+ case Token.TYPEDEF:
+ return tryFoldTypedEofs(subtree);
+ case Token.TYPEOF: case Token.NEG: case Token.NOT:
+ case Token.NEG: case Token.TYPEOF:
+ return typeof(subtree).tryFoldTypeof(subtree);
+return tryFoldTypeof(node);
+ case Token.TYPEOF: case Token.BITOF:
+ case Token.NEG: case Token.BITNOT: case Token.TYPEEOF:
+ case Token.NEG: case Token.TYPEDef:
+ case Token.NEG: case Token.BITNOT: case Token.TYPEND:
+return tryFoldTypeof(subtree, right);
+ return tryFoldTinyOperator(subtree);
+ return optimizeSubtree(subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.BITNOT:
+ return tryFoldTypeEef();
+ return tryFoldTypeEef(subtree;
+ return tryFoldTypedef();
+ case Token.NEG: case Token.BITNEF: case Token.BITNOT:
+ case Token.TYPEOF: case Token.NEG: case BITNOT:
+ case Token.NEG: case Token.BITNOT: case Token.TYPEDEF:
+ case Token.NEG: case Token.NEG: case Token.BITOR: case Token.BITAND:
+ case Token.TYPEOF: returntryFoldTypeof(subtree);
+ return tryFoldTypeEof(subtree;
+ case Token.NEG: case Token.NEG: case Token.NOT:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.BITOR:
+ case Token.NEG: case Token.BITTYPE:
+ case Token.TYPEOF: case Token.TYPE:
+ case Token.NEG: case Token.TYPECONF:
+ return tryFoldTypedMethods(subtree;
+ case Token.NEG: case Token.TYPEDEF:
+ return tryFoldTypEofOperator(subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.NOT:
+ return tryFoldTypeEOF(subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.BIT:
+ case Token.NEG: case Token.NEG: case Token.IGNORE: case Token.BITOR:
+ case Token.NEG: case Token.BITNOT: case Token.OR:
+ case Token.NEG: case Token.BITNOT: case Token.NEG2:
+ case Token.TYPEOFNULL:
+ case Token.NEG: case Token.NEG: case Token.BITOR: case Token.BITOR:
+ return tryFoldMethods(subtree;
+ return tryFoldTypedArrayOperator(subtree);
+ case Token.NEG: case Token.TYPECONN:
+ return tryFoldTypeOfObject(subtree);
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.BITNOT: case Token.NOT:
+ case Token.NEG: case Token.BITNOT: case Token.TYPEAT:
+ case Token.TYPEOF: case Token.BITTYPE:
+return tryFoldTypeof(Subtree, left, right);
+ case Token.TYPETYPE:
+ return tryFoldTypeof;
+return tryFoldTypeof(subtree, subtree);
+ case Token.NEG: case Token.BITPEF:
+ case Token.NEG: case Token.BITEOF:
+ return tryFoldSymbol(subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.BITNOT:
+ case Token.NEG: case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.NOT:
+ case Token.NEG: case Token.NEG: case Token.IGNORE: case Token.IGNORE: case Token.NOT:
+ case Token.NEG: case Token.NEG: case Token.IGNORE: case Token.NOT:
+ case Token.TYPEOF: return _tryFoldTypeof(subtree);
+ case Token.NEG: case Token.BIT:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.BIT:
+ return tryFoldTypeEefOperator(subtree);
+ case Token.NEG: case Token.TYPECONST:
+ return tryFoldMethods(subtree);
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.NEGNOT:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.TYPEND:
+ case Token.NEG: case Token.NEG: case Token.NOT: case Token.TYPEOF:
+ case Token.NEG: case Token.TYPESIGN:
+ return tryFoldTypeEef;
+ case Token.NEG: case Token.NEG: case Token.NOT: case Token.BITNOT: case Token.TYPE:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.TYPEAT:
+ case Token.NEG: case Token.BITNOT: case Token.TYPECONST:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.TYPEEOF:
+ case Token.TYPEOF:
+ case Token.NEG: case Token.BITNEF: case Token.TYPECALL:
+ case Token.NEG: case Token.BITNOT: case Token.NEG: case Typeof:
+ case Token.NEG: case Token.NEG: case BITNOT:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.TYPEND:
+ case Token.NEG: case Token.BITNEF: case Token.TYPEDef:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.BITNEG:
+ return tryFold (subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.BITOR:
+ case Token.BITIN:
+ return tryFoldFunction(tree);
+ case Token.NEG: case Token.BITNOT: case Token.TYPECONF:
+ return tryFoldTypEof(subtree);
+return tryFoldTypeof(subtree, left, right); break;
+ case Token.NEG: case Token.BITNEF: case Token.BITNEGEF:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.TYPETH:
+ return typeof subtree;
+ return tryFoldTokens(subtree;
+ case Token.NEG: case Token.BITNOT: case Token.TYPECONN:
+ case Token.NEG: case Token.BITNEF: case Token.TYPEDEF:
+ return tryFoldTypeofOperator(subtree);
+ case Token.ADD:
+return  tryFoldType();
+ return tryFoldTypedEfOperator(subtree);
+ return tryFoldTypef;
+ case Token.NEG: case Token.BIGINT:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.TYPEPEOF:
+ case Token.CAST:
+ return tryFoldTypEef(subtree);
+ case Token.TYPEOFNEG:
+ case Token.TINY:
+ return tryFoldTypedOperators(subtree);
+ return tryFoldObject(subtree);
+ case Token.NEG: case Token.BITNOT: case Token.NEG: case BITNOT:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.NEG2:
+ return tryFoldTypef();
+ case Token.TYPEDOC:
+ case Token.TYPEOFCALL:
+ return optimize(tree);
+ case Token.NEG: case BITNOT:
+ case Token.NEG: case Token.NEG: case Token.BITNOT: case Token.TYPEDef:
+ case Token.NEG: case Token.BITNOT: case Typeof:
+ return tryFoldTokens(subtree);
+ return tryFoldTypedEofMethods(subtree);
+ return parseType(subtree);
+ case Token.TYPEOF: case Token.NEG: case BITOR:
+ return tryFoldUnknownTypes(subtree);
+return tryFoldTypeof(subtree) ; case Token.AND:
+ case Token.TYPENDOC:
+ case Token.TYPEOFNONE:
+ case Token.BIT:
+ return tryFoldUnknownMethods;
+ case Token.TYPEOF:tryFoldTypeof(subtree);
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.NOT: case Token.TYPE:
+ case Token.NEG: case Token.BITNOT: case Token.NEG: case TypeOf:
+return tryFoldTypeof(subtree) ; case Token.BITIN:
+return tryFoldTypeof(subtree) ; } switch(subtree.type()) {
+return  tryFoldType;
+ case Token.STRING: returntryFoldTypeof(subtree);
+ return this.tryFoldTypeof(subtree);
+ return tryFoldTypeof();
+ return tryFoldTypeef;
+ case Token.TYPEOFNODE:
+ return tryFoldTypef(subtree).tryFoldTypeof(subtree);
+ return parse(subtree);
+return tryFoldTypeof(subtree, right, left);
+ case Token.NEG: case Token.NEG: case Token.NOT: case Token.BITNOT: case Typeof:
+ return optimizeType(subtree);
+ case Token.NEG: case Token.BITNEG: case 0:
+ return tryFoldTypeof(subtree); case Token.NEG: case Token.BITNOT: case Token.OR:
+ case Token.TYPE: returntryFoldTypeof(subtree);
+ case Token.BITTYPE:
+ case Token.BITPE:
+ return tryFoldSymbol;
+ case Token.TYPFULL:
+ return tryFold(node);
+ return tryFoldTypeEof;
+ return typeof(subtree.tryFoldTypeof(subtree);
+ case Token.NEG: case Token.OR:
+ case Token.IN:
+return tryFoldTypeof(subtree) ; case Token.IN:
+return tryFoldTypeofSubtree();
+ case Token.TYPEOF: return this.tryFoldTypeof(subtree);
+ case Token.TYPEOF: case Token.CAST:
+ return tryFoldTypeExpression(subtree); break;
+ case Token.TYPEND:
+ return tryFoldTypeef();
+ return tryFoldTypef(subtree);tryFoldTypeof(subtree);
+ case Token.BITTY:
+ case Token.STRING:
+ return type(subtree;
+return tryFoldTypeof(subtree, -1);
+ return transform(subtree);
+ case typeof:
+ return tryFold(tree);
+ case Token.TYPREF:
+ return tryFoldTypeof(subtree).tryFoldTypeof(subtree);
+ case Token.BITOR:
+ case Token.NEG: return _tryFoldTypeof(subtree);
+ return typeof(subtree);
+ return tryFoldProperty(subtree);
+ case Token.TYPEAT:
+ case Token.TYPE:tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) case Token.BITIN:
+ return typeof(subtree)+tryFoldTypeof(subtree);
+ return optimizeFunction(subtree);
+ return typeof(subtree)==tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree, true);
+return tryFoldTypeof(subtree) ; case Token.UNARYOPERATOR:
+return tryFoldTypeof(subtree, subroot);
+return tryFoldTypeof(subtree) ; case Token.INCR:
+ case Token.REF:
+ case Token.BITTYPE: returntryFoldTypeof(subtree);
+ return optimizeSubtree);
+ return typeof(subtree)->tryFoldTypeof(subtree);
+ return subtree.tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) ; case Token.ADD:
+ return optimize(node);
+ case Token.TYPECONST:
+return  tryFoldFunction();
+ case Token.REF: returntryFoldTypeof(subtree);
+ return tryTypeof(subtree);
+return tryFoldTypeof(subtree, left, right); case Token.IN:
+return tryFoldTypeof(subtree, left);
+ case Token.STRUCT:
+ case Token.NEG: return this.tryFoldTypeof(subtree);
+return tryFoldTypeof(Subtree, subtree);
+ case Token.STR: returntryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) ; case Token.BINARYOP:
+return tryFoldTypeof(subtree) ; case Token.BITOR:
+return tryFoldTypeof(subtree, right, right);
+ return tryFunction(subtree);
+ return typeof(void)tryFoldTypeof(subtree);
+ case Token.TYPEOF: return super.tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) ; case Token.UNIONALOPERATOR:
+ return tryFoldTypes(subtree, left, right); }
+return tryFoldTypeof(subtree) ; case Token.COMMA:
+return tryFoldTypeof(subtree, false);
+ return convert(subtree);
+return tryFoldTypeof(subtree) ; case Token.INFINITY:
+ return tryFoldTypeof(this).tryFoldTypeof(subtree);
+ return super.tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree, left, right); case Token.ADD:
+return tryFoldTypeof(subtree) ; case Token.INC:
+ return - subtree;
+return tryFoldTypeof(subtree, left, right); case Token.AND:
+ case Symbol:
+return tryFoldTypeof(subtree); break;
+return tryFoldTypeof(subtree, left, right); }
+return tryFoldTypeof(subtree) ; case Token.BITAND:
+return tryFoldTypeof(subtree) ; case Token.LITERAL:
+return tryFoldTypeof(subtree) ; case Token.BITNEG:
+return tryFoldTypeof(subtree) + subtree;
+return tryFoldTypeof((subtree);
+return tryFoldTypeof(subtree) ; case Token.UNARYOperator:
+ return (subtree;
+return tryFoldTypeof(subtree) ; case Token.BITWISE:
+ return (Node)tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) ; default: case Token.BITIN:
+return tryFoldTypeof(subtree) ; case Token.UNARY: return null;
+return tryFoldTypeof(subtree, left, right); case Token.INC:
+return tryFoldTypeof(subtree, null);
+ case TypeOf:
+return tryFoldTypeof(subtree) ; case Token.UNARYOP:
+ return tryFoldTypeof(subtree, subtree); }
+ return tryFoldTypef(subtree),tryFoldTypeof(subtree);
+ return tryFoldTypeOf(subtree); }
+ return tryExtends(subtree);
+ return tryFoldTypedef(subtree); }
+ case Token.FOR:
+ return tryFoldTypedef(subtree, right); }
+return tryFoldTypeof(subtree) ; } else { case Token.CALL:
+return tryFoldTypeof(Subtree, right, left);
+ return tryFoldTypedefs(subtree); }
+ case TYPEOF:
+ return tryFoldTypeOf (subtree, subtree); }
+ return tryFoldTypeExpression(subtree); }
+ case Token.TYPEOF: case undefined returntryFoldTypeof(subtree);
+ return tryFoldTypef(subtree)tryFoldTypeof(subtree);
+ return tryFoldTypeOfOperator(subtree); }
+ return tryFoldKnownTypes(subtree); }
+ return tryFoldTypeof(subtree); }
+return tryFoldTypeof(subtree, right, left); break;
+return tryFoldTypeof(subtree) ; } else { case Token.BITIN:
+ return tryFoldKnownEef(subtree); }
+ case Token.BITTYPE;
+ return null);
+ return tryFoldTypeof(subtree, right); }
+return tryFoldTypeof(subtree, left, right); } {
+return  tryFoldFunction;
+ return tryFoldKnownEof(subtree); }
+ return tryFoldTypes(subtree); }
+return tryFoldTypeof(subtree) ; default: case Token.INCR:
+ return!subtree;
+ case Token.CAST:tryFoldTypeof(subtree);
+ return traverse(subtree);
+return tryFoldTypeof(subtree, left, right) break;
+ case Token.REF:tryFoldTypeof(subtree);
+ return tryFolding(subtree);
+return tryFoldTypeofs(subtree);
+return tryFoldTypeof(subtree2);
+return tryFoldTypeof(subtree) ; break ; default:
+ return (null);
+return tryFoldTypeof(Subtree, right);
+return tryFoldTypeof(subtree, left, right); } case
+ return transformFunction(subtree);
+return tryFoldTypeofs(subtree); break;
+ case Symbol: returntryFoldTypeof(subtree);
+return tryFoldTypeof(subtree) + 1;
+ return type(subtree);
+ case TypeOF:
+return tryFoldTypeof(subtree, left, right, 0.0);
+return tryFoldTypeof(subtree, right, left); }
+ return node;
+return tryFoldTypeof(subtree, left, right, true); }
+return tryFoldTypeof(subtree, right, left, right); }
+return tryFoldTypeof(subtree, left, right, false); }
+return tryFoldTypeof(subtree) ; case Token.AND
+return tryFoldTypeof(subtree) case Token.AND:
+return tryFoldTypeof(Subtree, left, right); }
+return tryFoldTypeof(subtree, left, right, 0.5);
+return tryFoldTypeof(subtree, left, right); break ; }
+return  (Subtree);
+return tryFoldTypeof(subtree) case Token.IN:
+ return tryGetProp(subtree);
+return tryFoldTypeof(subtree, left, right); case Token.IN,
+ return constant(subtree);
+return tryFoldTypeof(Sub subtree);
+ return fold(subtree);
+return tryFoldTypeof(tree);
+ case undefined:
+return tryFoldTypeof(subtree) case Token.ADD:
+return tryFoldTypeof(subtree, left, right, false); break;
+return tryFoldTypeof(subtree, left, right, true); break;
+return tryFoldTypeof(subtree, left, right));
+return tryFoldTypeof(subtree, left, right)
+ break ; }
+return tryFoldTypeof(subtree++);
+ return parent.tryFoldTypeof(subtree);
+return tryFoldTypeof subtree;
+ return convertType(subtree);
+return tryFoldTypeof(subtree, right, right); }
+ return null.tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree, left); }
+return tryFoldTypeof(token);
+ return (true);
+ return (int)tryFoldTypeof(subtree);
+return tryFoldTypeof(subtree, true); }
+ optimize(subtree);
+return tryFoldTypeofs(subtree); }
+return tryFoldTypeofef;
+return tryFoldTypeof(subtree) - 1;
+ case Token.BIT,
+ case Token.TYPE::tryFoldTypeof(subtree);
+ (break);
+return tryFoldTypeof(Subtree);
+return tryFoldTypeof(subtree, false); }
+return tryFoldTypeofFunction();
+ return super().tryFoldTypeof(subtree);
+ case Token.IN,
+return  (SubTree);
+return tryFoldTypeofef();
+return tryFoldTypeof(root);
+return tryFoldTypeofMethods(subtree); }
+ return root;
+return tryFoldTypeof(subtree); } {
+return tryFoldTypeofFunction;
+return  (Subtree)
+return tryFoldTypeofNode;
+ return infer(subtree);
+return tryFoldTypeof(subtree) + subtree,
+ return!tryFoldTypeof(subtree);
+return tryFoldTypeof(leaf);
+return tryFoldTypeof(subtree), right;
+return  (SubTree)
+return  subtree,
+ return tree;
+ return $(subtree);
+return tryFoldTypeof(subtree)
+return tryFoldTypeof(subtree) ; break ; }
+ return untryFoldTypeof(subtree);
+ return ();
+ return undefined;
+return tryFoldTypeof(subtree) + subtree.
+ })();
+return tryFoldTypeof(subtree) break;
+return  false;
+ visit(subtree);
+ break;
+return tryFoldTypeof(Subtree); }
+ case :tryFoldTypeof(subtree);
+ throw subtree;
+ return substree;
+return tryFoldTypeof(subtree), right);
+return tryFoldTypeof(subtree));
+ default():
+return tryFoldTypeof(subtree) break,
+ {
+return tryFoldTypeof(singtree);
+return tryFoldTypeof(subree);
+ }
+return tryFoldTypeof(subtree)); }
+return tryFoldTypeof(subtree) }

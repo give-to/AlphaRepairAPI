@@ -1,0 +1,500 @@
+Node c = transform(child);
+Node c  = child;
+ c = child;
+ Node c = newNode(child);
+ Node c = (Node) child;
+Node  c;
+Node c = transform(child, skipCount);
+Node  c = child.nextChild();
+ if (child.getType() == Token.EMPTY) { continue; }
+ node.addChildToBack(child); } if (skipCount > 0) {
+Node c = transformChild();
+ if (child.getType() == Token.EMPTY) { skipCount++; }
+Node c =  node.getFirstChild(child);
+ if (child.getType() == Token.EMPTY) {
+ node.addChildToBack(child); if (skipCount > 0) {
+Node  c = child.getFirstChild(0);
+ Node c = node.child(child);
+ if (child.getType() == Token.EMPTY) { skipCount ++ ; continue ; }
+ skipCount += child.length;
+ Node c = child.getFirstChild( );
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount ++ ; }
+ if (child.getType() == Token.EMPTY) { skipCount += child.length(); }
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); continue; }
+ Node c = node.getChild(child);
+ if (child.getType() == Token.EMPTY) { skipCount += child.length; }
+ if (child.getType() == Token.EMPTY) { skipCount += 1; }
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); break; }
+ if (child.getType() == Token.EMPTY) { skipCount++; } node. removeChild ( child ) ;
+Node c =  node.addChild(child);
+ if (child.getType() == Token.EMPTY) { skipCount++; } node. addChild ( child ) ;
+ if (child.getType() == Token.EMPTY) { skipCount++; } node = child ; }
+ if (child.getType() == Token.EMPTY) { skipCount++; } node.addChildToBack(child); }
+Node c = transform(child); if (c!= null) {
+ if (child.getType() == Token.EMPTY) continue;
+ if (child.getType() == Token.EMPTY) { skipCount += child.skipCount(); }
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount++; } }
+ node.addChildToBack(child); skipCount ++ ; }
+ if (child.getType() == Token.EMPTY) { skipCount++; } node. addChild ( child ) ; }
+ Node c = (Node) node.getChild(child);
+Node  c = child.firstChild();
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount += 1 ; }
+ if (child.getType() == Token.EMPTY) { skipCount ++ } node. addChild ( child ) ; }
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount++; } else {
+ Node c = node.addChildToBack(child);
+ if (child.getType() == Token.EMPTY) { skipCount++; } }
+ Node c = (AstNode) this.transform(child);
+ node.addChildToBack(child); skipCount += 1 ; }
+ Node c = _transform(child);
+ Node c = this.transform(child);
+ Node c = child.next ( );
+ Node c = node.removeChild(child);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); skipCount++; } }
+ Node c = node.getChildToBack(child);
+ if (child.getType() == Token.EMPTY) { skipCount ++ } }
+ if (child.getType() == Token.EMPTY) { skipCount ++ } node = child ; }
+ c=transform(child);
+ Node c = child.getNext ( );
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); } }
+ skipCount += child.length();
+Node c = transform(child, node);
+ if (child!= null) { Node c=transform(child);
+ Node c = child.getFirstChild(...);
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); } }
+ node.removeChild(child);
+ if (child.getType() == Token.EMPTY) { skipCount += 1; } }
+Node c = transform(child) while (skipCount > 0) {
+Node  c = child.getFirstChild(node);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); skipCount++; } else {
+ if (child.getType() == Token.EMPTY) { skipCount++; } node.removeChild(); }
+ Node c = (AstNode) c; c= transform(child);
+ Node node = newNode(Token.ARRAYLIT);
+ Node c = child.parent;
+ AstNode c = node.addChild(child);
+ AstNode c = node.getChild(child);
+ node.removeChild(child); skipCount++; }
+ AstNode c= transform(child);
+ Node c = (AstNode) child;
+ node.addChildToBack(child, skipCount); }
+ node.addChildToBack(child); if (skipCount > 0) { }
+ Node c = (Node) this.transform(child);
+Node c = transform(child) node.removeChild(c);
+ if (skipCount > 0) {
+ Node c = node.firstChild(); Node c= transform(child);
+ if (child.getType() == Token.EMPTY) { skipCount++; } node. removeChild ( child ) }
+ if (child.getType() == Token.EMPTY) { continue }
+ if (child.getType() == Token.EMPTY) { skipCount++; } continue; }
+Node  c = child.parent();
+ Node c = node.firstChild(); c *= transform(child);
+ node.remove(child);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); break; } }
+Node c = transform(child) while (skipCount) {
+ Node c = child.getParent ( );
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); } } else {
+ node.addChildToBack(child); }
+ AstNode c = node.removeChild(child);
+ Node c = node.firstChild; c= transform(child);
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount ++ ; } else
+ if (child.getType() == Token.EMPTY) { node.addChildToBack(child); skipCount++; } } {
+ AstNode c = node.getFirstChild(child);
+Node c = transform(child).getFirstChild(0);
+Node  c = child.child;
+ AstNode c = this.transform(child);
+Node  c = child.child();
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); continue; } }
+Node  c = child
+Node c = transform(child).getFirstChild(node);
+ Node c = (Node) node.child(child);
+ Node c = (Node) child);
+ if (child.getType() == Token.EMPTY) { skipCount ++ ; continue ; } }
+ Node c = (Node) c; c= transform(child);
+ if (child.getType() == Token.EMPTY) { skipCount += child.count(); } }
+Node  c = child.next(null);
+Node c = transform(child) while (c) {
+ if (child.getType() == Token.EMPTY) skipCount ++; }
+ if (child!= null) {
+ Node c = node.firstChild();c = transform(child);
+ Node c = new Node(child); c.transform(child);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); skipCount++; } } {
+ if (child.getType() == Token.EMPTY) { }
+ Node c = (AstNode) transform().transform(child);
+ Node c = (AstNode) transformer.transform(child);
+ node.addChild(child); skipCount += 1 ; }
+ Node c = node.findChild(child);
+ Node c = child.getFirstChild(!);
+ Node c = child.getChild(0);
+ Node c = (AstNode) super.transform(child);
+ node.addChildToBack(child); } if (skipCount > 0) { final
+ node.addChild(child, skipCount); }
+ Node c = node.child(child;
+ node.addChild(child);
+ Node c = child.next;
+ node.append(child);
+ Node c = (Node) transform().transform(child);
+ if (child.getType() == Token.EMPTY) { skipCount++; } } {
+ Node c = node.removeChildToBack(child);
+ skipCount++; }
+ Node c = (Node) transformer.transform(child);
+ if (child.getType() == Token.EMPTY) { continue };
+ Node c = node; c= transform(child);
+ node.addChild(child); skipCount ++ ; }
+ Node c = child.getChild( );
+Node c = transform(child) while (c!= null) {
+ node.removeChild(child); }
+ if (child!= null) { c.transform(child);
+ node.remove($);
+Node c = transform(child) while (skipCount > 0)
+ Node c = node.getChildFromBack(child);
+Node  c = child.next(node);
+ Node c = node.getFirstChildToBack(child);
+ for (Node c : child) {
+ Node c = node.child(); Node c= transform(child);
+ AstChild c = node.addChild(child);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); } } {
+ Node c = this; c *= transform(child);
+ Node c = (AstNode) (Node)transform(child);
+Node c = transform(child, true);
+Node c = transform(child).getFirstChild(n);
+ if (child.getType() == Token.EMPTY) { continue; } }
+ if (child.getType() == Token.EMPTY) { skipCount ++ ; } final
+Node  c = child.firstChild;
+ Node c = (Node) node.removeChild(child);
+ if (child.getType() == Token.EMPTY) { skipCount ++ ; continue ; } final
+Node c = transform(child); if (c instanceof Comment) {
+ AstNode c = node.child(child);
+Node c = transform(child, skipCount, node);
+ if (child.getType() == Token.EMPTY) break; }
+ node.addChildToBack(child); } if (skipCount) { final
+ Node c = (Node) node.findChild(child);
+ if (child.getType() == Token.EMPTY) { } }
+ node.add(child);
+ Node c = node.removeFirstChild(child);
+ Node c = child.node;
+ Node c = child.next(...);
+ if (child.getType() == Token.EMPTY) { node.removeChild(child); } } final
+ Node c = node; c *= transform(child);
+ Node c = node.child(); c *= transform(child);
+ Node c = node.addChild(this).transform(child);
+ Node c = child.getFirstChild(null);
+Node c = transform(child, n);
+ Node c = (AstNode) child);
+ Node c = (AstNode) astHelper.transform(child);
+ Node c = (Node) super.transform(child);
+ Node c = (AstNode) transform(child);
+ skipCount += child.length(); }
+ Node c = node.firstChild; c *= transform(child);
+ Node c = transform().transform(child);
+ AstNode c = newNode(child);
+ if (child.getType() == Token.EMPTY) continue; }
+Node c = transform(child); if (c == Node.NAME) {
+ Node c = node.removeChildFromBack(child);
+Node c = transform(child, skipCount, true);
+ transform(child);
+ Node c = (Node)transform(child);
+ skipCount += child.count();
+ skipCount += 1;
+ Node c = child ; c *= transform(child);
+ Node c = child.getFirstChild(1);
+ c = newNode(child);
+ c.transform(child);
+Node c = transform(child); if (c!= null) break;
+Node c = transform(child.getParent());
+ Node c = node.addChildBack(child);
+ Node c = node.addFirstChild(child);
+Node c = transform(child.node);
+ node.removeChild(child); AstNodec = transform(child);
+Node c = transform(child) if (c == Node.STRING) {
+ Node c = node.firstChild(); c |= transform(child);
+ Node c = (Node) transform.transform(child);
+ Node c = node.children(child);
+ node.addChildToBack(child); } while (skipCount) { final
+ skipCount += child.skipCount(); }
+Node c = transform(child, false);
+ Node c = super.transform(child);
+ AstNode c = child;
+ Node c = processExpression(child);
+Node c = transform(child) ; if (c!= null)
+ node.addChildToBack(child); skipCount ++ ; final
+Node c = transform(child) ; if (c) {
+ C c = new C(child);
+ skipCount += child.length; }
+ AstNode c = transform().transform(child);
+ Node c = node.child;
+ Node c = node.createChild(child);
+ Node c = getFirstChild(child);
+ node.removeChild(child); ASTNodec = transform(child);
+ if (child.isEmpty()) continue;
+ Node c = transformer.transform(child);
+ skipCount += child.depth;
+ node.push(child);
+ c = newChild(child);
+Node c =  child. getFirstChild ( ). parent;
+ final Node c = child;
+ Node <AstNode>c = transform(child);
+ c.addChild(child);
+ processNode(child);
+ Node c = node.transform(child);
+ Node c[skipCount]= transform(child);
+Node  c = (child);
+ final AstNode c = _transform(child);
+ Node c = this; c |= transform(child);
+ Node c = this; c= transform(child);
+ Node c = (AstNode)(child);
+ node.remove();
+ node.addChild(child, 0); }
+ AstNode c = super.transform(child);
+ AstNode c = astNode.transform(child);
+Node c = transform(child.parentNode);
+ c.append(child);
+Node c =  node.findFirstChild(child);
+ Node c = node.getFirstChildToFront(child);
+ Node node = newNode(Token.ARRAYLIT); {
+ processChild(child);
+ AstNode c = getAstNode(child);
+Node c =  child. getFirstChild ( ). next;
+Node c = transform(child) if (c == Node.NAME) {
+ c.add(child);
+Node c = transform(childNode);
+ for (Node c) {
+ if (c) {
+Node c = transform(node, child);
+Node c = transform(child) node.remove(c);
+ if (child) {
+ node.removeChild(child); } Nodec = transform(child);
+ Node c = getChild(child);
+ Node c = this; Node c *= transform(child);
+ ++c;
+ final Node c=transform(child);
+ char c = (char) child;
+ node.addChild(child); }
+ while (true);
+ addChild(child);
+ node.addChild(child, false); }
+Node c = transform(child, skipIndexes);
+ Node c = child; c= transform(child);
+ Node node = newNode(child); Node cc = transform(child);
+Node c = transform(child) while (skipCount++) {
+ node.addChild(child); skipCount += 1 ; final
+ Node c = newChild(child);
+ AstNode c = astHelper.transform(child);
+Node c = transform(child) ; if (c!= null) continue;
+Node c =  child. getFirstChild ( ). next();
+ final AstNode c = this.transform(child);
+ node.removeChild(child); skipCount++; };
+Node c = transform(child, node, false);
+ char c = newChar(child);
+ Node <ArrayLit>c = transform(child);
+Node c = transform(child) ; skipCount += 1;
+Node c = transform(child, node, true);
+ AstNode c |= transform(child);
+ Node c = this.transform.transform(child);
+ node.addChild(child); } Nodec = transform(child);
+ Node childNode = child ; Node childc = transform(child);
+Node c = transform(child) node.addChildToBack(c); }
+ AstNode nc = transform(child);
+ ArrayLiteralc = transform(child);
+ node.addChild(child); skipCount ++ ; final
+ AstNode cc = transform(child);
+ Node c = * child;
+ skipCount += 1; }
+Node c = transform(child) ; if (c == node) break; else
+ Node c = node.firstChild;
+ node = child;
+Node c = transform(child.nextSibling);
+ Node c = untransform(child);
+ AstNode c *= transform(child);
+Node c = transform(child); if (c!= null) { } else
+Node c = transform(child) ; if (c == null) continue; else
+Node c = transform(child) ; if (c == null) break; else
+ final AstNode c= transform(child);
+Node c = transform(child); if (c!= null) { }
+ node.addChild(child, skipCount); {
+ node.addChildToBack(child); };
+Node c =  child. getFirstChild ( ). parent();
+ while (true)
+ Node c = processNode(child);
+Node c = transform(child); node.removeChild(c); }
+Node c = transform child;
+ ASTNode c= transform(child);
+ Node c = + child;
+ Node c = transformNode(child);
+ Node childNode = child ; Node cc = transform(child);
+Node c = transform(child) ; j = 0;
+Node c =  node.addChildBefore(child);
+ Node c = this; Node c |= transform(child);
+ Node c = child; Node c *= transform(child);
+ Node child = child ; Node childc = transform(child);
+Node c = transform(child) + skipCount;
+ node.addChild(child); } Node cc = transform(child);
+ Node node = newNode(child); Node nc = transform(child);
+Node c = transform(child); node.addChildBack(c); }
+ Node node = child;
+ Node c = toNode(child);
+ if (child)
+Node c = transform(child) + node;
+ Node node = newNode(child); Node childc = transform(child);
+ Node c = this; Node c &= transform(child);
+ Node c = this; C c *= transform(child);
+ ArrayLiteral c *= transform(child);
+ Node <?> c= transform(child);
+ ArrayLiteral cc = transform(child);
+ n = child;
+Node c = transform(child); node.removeChild(c); } else
+ Node node = newNode(child); C childc = transform(child);
+ Node child = child ; Node cc = transform(child);
+ Node childNode = child; Nodec = transform(child);
+ AstNode c == transform(child);
+ node.removeChild(child); } Cc = transform(child);
+Node c = transform(child) while (true) {
+ AstNode childc = transform(child);
+Node c = transform(child, node.parent);
+Node c  = child. getFirstChild ( ) ; }
+Node c = transform(child). next ( ) ;
+Node c = transform(child) ; i = 0;
+ int c = child;
+Node  c = child.getFirstChild()();
+Node c = transform(child) node.removeChild(c)
+Node c = transform(child); node.addChild(c); } else
+ if (child.isEmpty()) { }
+ node.addChildToBack(child) ;
+Node c = transform(child.getParent()));
+ Node child = child; Nodec = transform(child);
+Node c = transform(child) - skipCount;
+ Node c[ 0 ]= transform(child);
+Node c = transform(parentNode, child);
+ ASTNode nc = transform(child);
+ ASTNode cc = transform(child);
+ node c = child;
+Node c = transform(child, skipCount, node); }
+ process(child);
+ char c = child;
+Node c  = child.getFirstChild(0); }
+ Node c = node += transform(child);
+ c := child;
+Node c = transform(child.astNode);
+Node c  = child.getFirstChild(0); {
+ c++; }
+Node c = transform(child) node.removeChild(c); }
+ node.removeChild(child); } final
+Node c = transform(child).getFirstChild(node); }
+ final AstNode cc = transform(child);
+ processElement(child);
+Node c = transform(child).getFirstChild(n); }
+ ArrayLiteral ac = transform(child);
+ node.remove(_);
+Node c = transform(child, skipCount, node); {
+ Node cc = transform(child);
+Node c = transform(child) - node;
+Node c = transform(child) + 1;
+ node.delete($);
+ final AstNode nc = transform(child);
+Node c = transform(child) - 1;
+Node c = transform(child) node.addChild(c); }
+ c = (child);
+ ArrayLiteral abc = transform(child);
+ Node child = child ; Node nc = transform(child);
+ C c = _transform(child);
+ const c = _transform(child);
+Node c = transform(child) + child;
+ skipCount += 2; }
+ skipCount ++;
+Node  parent = child;
+Node c = transform(child) node.removeChild(child); }
+ Node childNode = child; Cc = transform(child);
+ Node child = child; Cc = transform(child);
+ Node childNode = child ; Node nc = transform(child);
+Node  c = child.nextChild(); {
+ c ++ ;
+ c --;
+ traverse(child);
+Node c = transform(child2);
+Node  c = child();
+Node c = transform() ;
+Node c = transform(child) ; j++;
+ skipCount += 1 ; final
+ final AstNode childc = transform(child);
+Node c = transform(child.parentNode());
+ Node c = child.nextChild(); }
+Node c = transform(child.getParentNode()); {
+ Node child = child; Childc = transform(child);
+Node c = transform(child, node); }
+Node  c --;
+ Node childc = transform(child);
+ Node c = (Node) child; else
+ node.transform(child);
+Node c = transform(child.getParentNode()); }
+Node c = transform(child, node); {
+Node c = transform(child).getFirstChild(); }
+ skipCount ++ ; } {
+ node.removechild);
+Node c =  node.next(child);
+ final AstNode oc = transform(child);
+ c = child; }
+ if (c);
+Node c = transform(child) ; j++; }
+ node = child ; }
+ Node child = child; cc = transform(child);
+ for (Node c) {}
+Node  c++;
+Node c = transform(child, n); }
+ Node c |= transform(child);
+Node c = transform(child.clazz);
+ while (c);
+Node  node = child
+ C c=transform(child);
+Node c = transform(childs);
+ Node c *= transform(child);
+ walk(child);
+Node  c();
+Node c = transform(child) {
+ Node c = child ; {
+Node  c -- {
+ Node c = child; else
+ Node nc = transform(child);
+ ++i;
+ Node c.transform(child);
+ processChildren(child);
+Node c = transform(child); {
+ parse(child);
+ c c;
+Node  c = (child));
+ c = _transform(child);
+ while ();
+Node c = transform(child.*);
+ if ();
+Node c = transform(child1);
+ $(c);
+ if (!);
+Node c = transformChild;
+ (++);
+Node c = transform(c);
+ const c= transform(child);
+Node c = transform(Child);
+ if (!)
+ node *= transform(child);
+ c *= transform(child);
+ n.transform(child);
+Node  node;
+ if (final
+ if(...)
+Node c ; {
+ if()
+Node c =  this;
+Node c = transform(child));
+Node c =  child++;
+Node c = transform(child) { }
+Node c = transform(child) ; }
+Node c = transform(child) {};
+Node c =  convert(child);
+ } else
+ final
+ } {
+Node c =  process(child);
+ } do
+Node c =  translate(child);
+Node c =  cast(child);
+Node c := transform(child);
+ {
+Node c = transform(children);
+Node c: transform(child);
+Node c += transform(child);

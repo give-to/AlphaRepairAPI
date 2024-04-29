@@ -1,0 +1,489 @@
+case STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source_file";
+ case FILE:    return "source_file";
+ case STATIC_SOURCE:
+case STATIC_SOURCE_FILE:    return  "static_source";
+ case SOURCE_FILE:    return "source_file";
+ case SOURCE_FOLDER:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static";
+ case STATIC_SOURCE_DIR:
+ case source_file: return"source_file";
+ case SOURCE:return "source_file";
+case  INPUT:
+case STATIC_SOURCE_FILE_NAME:
+ case SOURCE_FULL:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_file";
+ case STATIC:
+case  INPUT_ID:
+case STATIC_SOURCE_FILE:    return  "static_source"; case INPUT:
+case STATIC_SOURCE_FILE:    return  "static_sourcefile";
+ default: throw new IllegalStateException("unexpect prop " + propType);
+ case STATIC_SOURCE_FILE:
+case STATIC_SOURCE_FILE:    return  "static_source_file_name";
+ case STATIC_SOURCE_FILE: case UNSTATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_URL:
+ default: throw new IllegalStateException("unexpect " + propType);
+ case IS_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE: case IS_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "staticSourceFile";
+ case Source_FILE: return"source_file";
+ case SCRIPT_FILE: return"source_file";
+ default: throw new IllegalStateException("unexpect prop " + prop);
+ case INPUT_ID_STATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop id " + propType);
+ case STATIC_SOURCE_ID:
+ default: throw new IllegalStateException("unknown prop type");
+ case SOURCE_FIND:    return "source_file";
+ case INPUT_FOLDER:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop type");
+ default: throw new IllegalStateException("unknown");
+ default: throw new IllegalStateException("unexpect type " + type);
+ case STATIC_SOURCE_FILE: case INSTATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException;
+case STATIC_SOURCE_FILE:    return  "static_source_file"; case ID:
+case  INPUT_NAME:
+ case STATIC_SOURCE_FILE: case NONSTATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static source";
+case  INPUT_TYPE:
+ default: throw new IllegalStateException("unexpect type " + propType);
+ case SOURCES_FILE:return "source_file";
+ default: throw new IllegalStateException("unexpect prop type " + propType);
+ case STATIC_SOURCE : return "static_source";
+case STATIC_SOURCE_FILE:    return  "static_source_file_path";
+ case INPUT_ID;
+case STATIC_SOURCE_FILE:    return  "staticfile";
+ default: throw new IllegalStateException("unexpect prop type " + type);
+ case SOURCE_FOLDER_NAME:    return "source_file";
+ case STATIC_SOURCE : return "static source";
+ default: throw new IllegalStateException("unknown type");
+ case STATIC_SOURCE_CALL:
+ case SCRIPT_FOLDER:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "staticSource";
+ default: throw IllegalStateException;
+ default: throw new IllegalStateException("unexpect prop id " + prop);
+ case SOURCES: return"source_file";
+ case SOURCE_FNAME:    return "source_file";
+case  ID:
+case  INPUT_STRING:
+ case STATIC_SOURCE_FILE: case _STATIC_SOURCE_FILE:    return "source_file";
+ case FILE:"source_file";
+ case INPUT_FILE_OR_STATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException("Unknown prop type");
+ case SOURCE_FILE_PROP:    return "source_file";
+ case SOURCE_FILE_OR_STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCEFILE:    return "source_file";
+ case SOURCE_FOL:    return "source_file";
+ case FILE::"source_file";
+ case STATIC_SOURCE_FULL:
+ default: throw new IllegalStateException("Unexpect prop " + propType);
+ default: throw new IllegalStateException("unexpect prop id");
+ case SOURCE_FOLDER_PROP:    return "source_file";
+ case STATIC_SOURCE_DIR: return "directory";
+ case SOURCE_FILE_CALLBACK:    return "source_file";
+ case SOURCE_FILE_NAME_PROP:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop " + type);
+ case STATIC_SOURCE_HASH:
+ default: throw new IllegalStateException("unknown prop " + propType);
+ case SOURCE_FILE_NAME:    return "source_file";
+ case SOURCE_FILE_PROPERTY:    return "source_file";
+ case SOURCE_FILE_PREFIX:    return "source_file";
+ case SOURCES_FULL:return "source_file";
+ case STATIC_SOURCE_DIR: return "source_dir";
+ default: throw new IllegalStateException("unexpect prop type);
+case STATIC_SOURCE_FILE:    return  "static_sourceFile";
+ case STRING_SOURCES:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop " + propType); }
+ case STATIC_SOURCE_URL: return "url";
+ case SOURCE_FILE_STRING:    return "source_file";
+ case SOURCE_FOLENAME:    return "source_file";
+ default: throw new IllegalStateException("Unknown");
+ case STATIC_SOURCE_FILE_STATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException("invalid prop type");
+case STATIC_SOURCE_FILE:    return "source_file" or "static_source_file";
+ default: throw new IllegalStateException("unsupported prop type");
+ default: throw new IllegalStateException("unexpected prop type");
+ case STATIC_SOURCE_FILE_NAME:
+case STATIC_SOURCE_FILE:    return  "source";
+ case STATIC_STATIC:
+ case TYPE_FILE:
+ case STATIC_SOURCE_DIR: return "sourcedir";
+ default: throw new IllegalStateException("Unknown type");
+ case INPUTID;
+ default: throw new IllegalStateException("Unknown property");
+ default: throw new IllegalStateException("unknown property");
+ case STATICSOURCE:
+ case SCRIPT: return"source_file";
+ case STATIC_SOURCE_FILE: caseSTATIC_SOURCE_FILE:    return "source_file";
+ case STRING: return"source_file";
+ default: throw new IllegalStateException("unexpect prop type"); }
+ case STATIC_SOURCE_DIR: caseSTATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SRC:
+case STATIC_SOURCE_FILE:    return "source_file" case STATIC_INPUT_ID:
+case STATIC_SOURCE_FILE_ID:
+ case SOURCE_FOLDER_ROOT:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop type"); }
+ case STATIC_SOURCE_URL: return "source_url";
+ default: throw new IllegalStateException("unrecognized prop type");
+case STATIC_SOURCE_FILE:    return  source;
+case STATIC_SOURCE_FILE:    return  "static_src_file";
+ case STATIC_SOURCE_FILE|STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_FILE: case SOURCE:    return "source_file";
+ case INPUT_AND_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source_file"; break;
+ break;
+ case INPUT_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_URL: return "sourceurl";
+ default: throw new IllegalStateException("unexpect type");
+ case STATIC_SOURCE_DIR: return "source directory";
+ default: throw new IllegalStateException("unexpect prop id"); }
+ case INPUT_FILE:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop type";
+ case SOURCE_FILE: case IS_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_DATA:
+ case STATIC_FILE:
+ case STATIC_SOURCE_ID_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_TYPE_ID:
+ default: throw new IllegalStateException("unexpect prop id"); }
+case STATIC_SOURCE_FILE:    return  "static source file";
+case STATIC_SOURCE_FILE_PROP:
+case STATIC_SOURCE_FILE:    return "source_file" ; default : throw IllegalStateException ;
+case  INPUT_LENGTH:
+case STATIC_SOURCE_FILE:    return  file;
+ case STATIC_SOURCE_NAME: return "source_name";
+case  INPUT_NODE:
+case  INPUT_ID_TYPE:
+ case STATIC_SOURCE_FILE_ID:
+ default: throw new IllegalStateException("unexpect type " + propType); }
+ case SOURCE_FILE: case SOURCEID:    return "source_file";
+case  INPUT_STRING: return "input";
+case  INPUT_NAME: return "input";
+ case SOURCE_FILE_HREF:    return "source_file";
+case  INPUT_NAME: return "name";
+case  INPUT_TYPE_NAME:
+ case SOURCES_FIND:return "source_file";
+ default: throw new IllegalStateException("unrecognized prop type"); }
+case STATIC_SOURCE_FILE:    return  "file";
+ default: throw new IllegalStateException("invalid prop type);
+ case INPUT_FILE: case INPUTFILE:    return "source_file";
+ case STRING_FILE:    return "source_file";
+ case INPUT_STATIC_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_TYPE: return "input";
+ default: throw new IllegalStateException("invalid prop id " + propType); }
+ case STRING_TO_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_ID: return "id;
+ default: throw new IllegalStateException("unexpect prop " + prop;
+ default: throw new IllegalStateException(); }
+ case STATIC_SOURCE_DIR: return "static_source_dir";
+ case INSTATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_NUMBER_ID:
+ case INPUT_NAME: return "input;
+ case INPUT: return "input;
+ case STATIC_SOURCE_FILE: return "sourcefile";
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_ID:
+ case INPUT_FULL_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_PROP:
+ case STATICFILE:
+ case INPUT_OR_STATIC_SOURCE_FILE:    return "source_file";
+case  OUTPUT_ID:
+ case STATIC_SOURCE_DIR: return "static_dir";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : throw new IllegalStateException ;
+ default: throw new IllegalStateException("unexpect prop type") }
+ case STATIC_SOURCE_FILE: return "static_file";
+case  INPUT_TYPE: return "type";
+ case INPUT_NUMBER : return "input_number"; case INPUT_ID:
+ case STATIC_SOURCE_FILE: "STATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop type); }
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_TYPE:
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_NAME:
+case STATIC_SOURCE_FILE:    return  "static_src";
+ case OUTPUT_ID;
+ case MULTIPLE_STATIC_SOURCE_FILE:    return "source_file";
+ case source_file:"source_file";
+ case INDEX: return "index;
+ case SOURCESOURCE:    return "source_file";
+ default: throw new IllegalStateException("unrecognised prop type"); }
+case  INPUT_NUMBER_TYPE:
+case  INPUT_ID_NAME:
+case STATIC_SOURCE_FILE_NAME : return "static_source";
+ case INPUT_STRING : return "inputstring";
+ case INPUT_NAME: return "name;
+case STATIC_SOURCE_FILE : return "static_source"; case ID:
+ case STRING_STATIC_SOURCE_FILE:    return "source_file";
+ default: throw new IllegalStateException("unexpect prop type") {
+ case INPUT_NUMBER : return "input_number"; case INPUT_STRING:
+case STATIC_SOURCE_FILE : return staticSourceFile;
+ default: throw new IllegalStateException("unknown";
+ case STATIC_SOURCE_FILE: return "static_source_file";
+ case SOURCES_FOUND:return "source_file";
+ case STATIC_SOURCE_URL: return "static_source_url";
+ case INPUT_NAME;
+ case INPUT_STRING : return "input_string"; case INPUT_ID:
+ case INPUT_ID_GENSTATIC_SOURCE_FILE:    return "source_file";
+ case source_file::"source_file";
+ case TYPE:
+ default: return "unknown";
+case STATIC_SOURCE_FILE:    return "source_file" ; case STATIC_INPUT_ID:
+case  INPUT_STRING: return "string";
+ case INPUT_NAME: return name;
+ case CUSTOM_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT: return input;
+ case INPUT_NUMBER : return "input_number"; case INPUT_ID : break ;
+case STATIC_SOURCE_FILE : return sourceFile;
+ case STATIC_NAME:
+ case INPUT_TYPE: return "input;
+ case INDEX_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT;
+ case INPUT_NUMBER : return "input_num"; case INPUT_ID:
+ case INPUT_FIELD_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_NUMBER : return "input_num"; case INPUT_STRING:
+ default: return propType;
+case STATIC_SOURCE_FILE:    return  "static_source_path";
+ case SOURCE_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_NUMBER" : return "input_number"; case INPUT_ID:
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT:
+case STATIC_SOURCE_FILE:    return  "static_source-file";
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_ID:
+ case INPUT_TYPE;
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_STRING:
+ case LOCAL:return "source_file";
+case STATIC_SOURCE_FILE : return "static_source" ; break ;
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT:
+ case INPUT_TYPE: return type;
+ case INPUT_NUMBER : return "input_number"; case INPUT_TYPE:
+ case INPUT_ID: return "";
+ case INPUT_ID: return "input;
+ case INPUT_NUMBER : return "input_number"; case INPUT_ID_TYPE:
+ case INPUT_NUMBER : return "input_number" case INPUT_ID:
+ case STRING: return "string;
+ case INPUT_STRING : return "inputString";
+ case SOURCES_FNAME:return "source_file";
+case STATIC_SOURCE_FILE_STRING:
+case STATIC_SOURCE_FILE:    return "source_file" if propType == STRING:
+case  INPUT_NAME: return "inputname";
+ case Source_File:    return "source_file";
+ case INPUT_NAME: return "input_name";
+ case INPUT_ID_INSTATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_NUMBER : return "input_num"; case INPUT_ID : break ;
+ case INPUT_NUMBER : return "input_number"; case INPUT_ID : default:
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_STRING:
+ case OUTPUT: return "output;
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case FILE:
+ case SOURCE_FILE: case STRING:return "source_file";
+ default: throw new IllegalStateException; }
+case  INDEX:
+ case ID: return "id;
+ case MULTI_STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FOLDER: #"source_file";
+ case SOURCE_FILE: #"source_file";
+ case _STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir_name";
+ case SOURCE_FILE: returns"source_file";
+case STATIC_SOURCE_FILE:    return  "static-source-file";
+ case INPUT_ID: return "input_id";
+ case JS_STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FOLDER: returns"source_file";
+ case INTERNAL_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : throw new IllegalStateException();
+ case INPUT_NAME: return "";
+case  STRING:
+case STATIC_SOURCE_FILE:    return  static;
+case  INPUTID:
+case STATIC_SOURCE_FILE:    return  "static_source"; case INPUT : {
+ case SOURCE_FILE: case SOURCE:return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case STRING:
+ case INPUT_GENSTATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_NUMBER_NAME:
+ case STATIC_SOURCE_DIR: return "static_source_dir_path";
+ case STATIC_SOURCE_DIR: return "static_src_dir";
+ case ID: return id;
+ case INPUT_ID: return id;
+ case SOURCES_FILE: #"source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case SOURCE:
+ case INSTRUCTION_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_STRING : case TEXT:
+ case STATIC_SOURCE_DIR: return "static_source_directory";
+ case SOURCE_FOLDER_FILE:return "source_file";
+ case SFILE:return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case TYPE_FILE:
+ case STRING:
+ case SOURCE_FOLDER_ID:return "source_file";
+ case SOURCE_FILE: case FILE: return"source_file";
+case STATIC_SOURCE_FILE:     return "static_file"; case INPUT:
+ case FILE:
+case  INTEGER:
+case STATIC_SOURCE_FILE:    return "source_file" case STATIC_INPUT_LENGTH:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case STATIC:
+ case STATIC
+ case INDENT: return "intent;
+ case OUTPUTID;
+ case INPUT_;
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case TYPE:
+ case STATIC_SOURCE_DIR: return "static_dir"; case STATIC_SOURCE:
+case STATIC_SOURCE_FILE_NAME : return "static_name";
+ case STATIC_SOURCE_DIR: return "static_src_dir"; case FILE:
+case STATIC_SOURCE_FILE:    return "source_file" + propType;
+case  INPUT_NUMBER_REF:
+case STATIC_SOURCE_FILE:    return "source_file" case STATIC_INPUT_STRING:
+ case INPUT: return "";
+ case INPUT_ID: return "input id;
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case TYPE_NAME:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; break;
+case STATIC_SOURCE_FILE:    return "source_file" ; case STRING:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case TYPE_ID:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case CONFIG:
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "static_source dir";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case NAME:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case LOCAL:
+ default: return "unknown";;
+ case STRICT_STATIC_SOURCE_FILE:    return "source_file";
+case  OUTPUT:
+ case INPUT_ID: return "inputId;
+case STATIC_SOURCE_FILE:    return "source_file" or "static_source" ;
+ default: return"source_file";
+ case SOURCES_FILE: returns"source_file";
+ case INDEX: return index;
+ case INPUT:;
+ case INPUT_NAME: return "inputname;
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) { return "static_source_dir"; }
+ case INPUT_TYPE: return "input type;
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "static_source";
+case STATIC_SOURCE_FILE:    return  "static_filename";
+case STATIC_SOURCE_FILE_TYPE:
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "static_dir";
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; case STATIC_SOURCE_FILE:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; default:
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "static_source directory";
+ case STATIC_SOURCE_FILE: return "static_source_file"; break;
+ case STATIC_SOURCE_DIR: if (use_source_dir) return "source_dir";
+case STATIC_SOURCE_FILE:    return "source_file" if (propType)
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: throw new IllegalStateException;
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_dir"; return "sourcedir";
+ break ; default :
+ case STATIC_SOURCE_DIR: if (static_source_dir) { return "source_dir";
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "source_dir";
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; case STATIC_SOURCE_DIR:
+ case STATIC_SOURCE_DIR: { return "static_source_dir"; default: throw IllegalStateException;
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: throw IllegalStateException;
+case  NAME:
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; this return "static_source_dir";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_dir"; else return "unknown";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_dir"; return "source directory";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "static_source_dir"; break;
+ case STATIC_SOURCE_DIR: if (static_source_dir) { return "static_source";
+case STATIC_SOURCE_FILE_INFO:
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_dir"; return "source";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "static_source_dir"; case FILE:
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; this return "static_source_file";
+case STATIC_SOURCE_FILE:    return  "static_file"; case INPUT: {
+ case STATIC_SOURCE_DIR: if this is a static source directory, return "static_dir";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : throw new IllegalStateException;"
+case STATIC_SOURCE_FILE:    return  "static_source_file"; case
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: return "unknown type";
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: throw new IllegalStateException();
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: return "static_source";
+ case FILEreturn "source_file";
+ case NAME: return"source_file";
+ default: throw IllegalStateException();
+case STATIC_SOURCE_FILE:     return "static_file"; case ID:
+case STATIC_SOURCE_FILE:    return  "static_source_file;";
+case STATIC_SOURCE_FILE:    return "source_file" ; case ID:
+ case STATIC_SOURCE_DIR: { return "static_source_dir"; default: return "unknown type";
+ case SOURCE_FOLDER: return return"source_file";
+ case source: return"source_file";
+ case FILE: returns"source_file";
+case STATIC_SOURCE_FILE:    return "source_file" if (propType):
+ default: break;
+ case STRING;
+ case SOURCE_FILE::return "source_file";
+ case STATIC_SOURCE_DIR: { return "static_source_dir"; default: throw IllegalStateException();
+ case STORE:    return "source_file";
+ case USE_STATIC_SOURCE_FILE:    return "source_file";
+ case :return "source_file";
+ default: break;
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: throw new IllegalStateException; }
+ case NON_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; this return "static_source_dir"
+ case STATIC_SOURCE_DIR: return "static_source_dir"; break
+case STATIC_SOURCE_FILE : case FILE :
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; default: throw new IllegalStateException(); }
+ case UNSTATIC_SOURCE_FILE:    return "source_file";
+case  VALUE:
+ case FILE+"source_file";
+case STATIC_SOURCE_FILE:    return "source_file" + propName;
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: case STATIC_SOURCE_FILE: return "source";
+ case ID;
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: case STATIC_SOURCE_FILE: return "file";
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: case STATIC_SOURCE_FILE: return "directory";
+ case IN_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE : case TEXT:
+ case SOURCE_FOLDER: return +"source_file";
+ case SOURCE_FILE_NAME: _return "source_file";
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: case STATIC_SOURCE_FILE: return "dir";
+case STATIC_SOURCE_FILE:    return "source_file" case STATIC_INPUT_ID : {
+ case SOURCE_FOLDER: return \"source_file";
+case  TYPE:
+ case SOURCE_FILE_STR: #return "source_file";
+ case SOURCE_FILE_return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT : {
+case STATIC_SOURCE_FILE:     this.static_source_file;
+case STATIC_SOURCE_FILE:    return  "";
+ case SOURCE_FILE_PATH: #return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source"; case
+ case source_file::return "source_file";
+ case INDEX;
+ case CONFIG:return "source_file";
+ case #"source_file";
+case STATIC_SOURCE_FILE:    return  "static_source;";
+case STATIC_SOURCE_FILE:    return  null;
+case STATIC_SOURCE_FILE:    return "source_file" case ID:
+case STATIC_SOURCE_FILE:     case STATIC_SOURCE_DIR:
+case  INT:
+case  CLASS:
+ case Source_FILE::return "source_file";
+ case CSTATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: case STATIC_SOURCE_FILE: return "directory;
+case STATIC_SOURCE_FILE:    return  "filename";
+case STATIC_SOURCE_FILE : return "static_sourcefile;"
+case STATIC_SOURCE_FILE:    return  "SourceFile";
+ case NAME;
+ case :"source_file";
+case STATIC_SOURCE_FILE:     this.static_source_file();
+case STATIC_SOURCE_FILE:     return sourcefile;
+ case READ:return "source_file";
+case STATIC_SOURCE_FILE:     return "static_name";
+ case TEXT;
+ case TYPE:return "source_file";
+ default: return;
+ case TYPE;
+ case CLASS;
+ case ATSTATIC_SOURCE_FILE:    return "source_file";
+ case STAT:
+ case *"source_file";
+ case filereturn "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" + name;
+ default:
+case STATIC_SOURCE_FILE:    return "source_file" ; break ;
+case STATIC_SOURCE_FILE:    return "source_file" in source;
+case STATIC_SOURCE_FILE : {
+case  INPUT : {
+case STATIC_SOURCE_FILEID:
+ case!"source_file";
+ switch {
+ default :"source_file";
+ break; }
+ switch:
+case STATIC_SOURCE_FILENAME:
+ case PATH:    return "source_file";
+ case DATA:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; } }
+case STATIC_SOURCE_FILEName:
+case STATIC_SOURCE_FILE:     break;
+case STATIC_SOURCE_FILE : #
+case STATIC_SOURCE_FILE:    return "source_file" ; }
+case STATIC_SOURCE_FILE:    return "source_file" ; case
+case STATIC_SOURCE_FILE:    return "source_file""; case
+ }
+case STATIC_SOURCE_FILE:     break.
+ break
+case STATIC_SOURCE_FILE,    return "source_file";
+case STATIC_SOURCE_FILE;    return "source_file";

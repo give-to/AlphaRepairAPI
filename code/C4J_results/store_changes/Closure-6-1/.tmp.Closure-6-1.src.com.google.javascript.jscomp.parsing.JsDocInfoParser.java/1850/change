@@ -1,0 +1,813 @@
+if (match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA))  { token =
+if (match(JsDocToken.COMMA))  { hasParams =
+ } else if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) { hasParams =
+if (match(JsDocToken.COMMA) { token =
+ } else
+ } else { if(match(JsDocToken.COMMA)) {
+ } else{
+if (match(JsDocToken)) {
+ if (match(COMMA)) {
+if (match(JsDocToken.STRING)) {
+ } else {
+if (hasParams && match(JsDocToken.COMMA)) {
+if (hasParams) {
+ } else { if (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || isNew) {
+if (token)
+ } else if (!match(JsDocToken.COMMA)) {
+ if (isNew)) {
+if  (hasParams)
+ } else { if (hasParams) {
+if (hasParams) { hasParams =
+ } else { hasParams = false ; token =
+ } else { hasParams =
+ } else { hasParams = false ;
+ } else { if (match(JsDocToken)) {
+ } else { hasParams = false ; if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || hasParams) {
+if  (hasParams) { token =
+ } else { if (token == (JsDocToken.COMMA)) {
+ } else { if (JsDocToken.COMMA)) {
+ } else if (match(JsDocToken)) {
+ } else { hasParams = false ; } } else
+if (match(JsDocToken.COMMA)) { hasParams =!
+if (match(JsDocToken.COMMA)) { hasParams = true ;
+if (match(JsDocToken.COMMA) { hasParams =!
+ } } else{
+if (match(JsDocToken.COMMA) { hasParams = true; }
+ } else { if (match(JsDoc.COMMA)) {
+if (match(JsDocToken.STRING)) { token =
+if (match(JsDocToken.COMMA)) { hasParams = true; }
+ if (isNew) {
+if (!match(JsDocToken.COMMA)) {
+ } else if (isNew){
+ } else if (match(COMMA)) {
+ } else if (isNew)) {
+ } else { hasParams = false ; } } else {
+ } else { hasParams = false ; } token =
+if (match(JsDocToken.COMMA)) { hasParams = false; token =
+if (match(JsDocToken.COMMA) { hasParams = true ;
+ } else { if (match(JsDocTokenCOMMA)) {
+ } else { hasParams = if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.RP)) {
+ } else { if (isNew) {
+if (match(JsDocToken.RP))
+ } else { hasParams = false ;
+ } else { hasParams = false ; } } else { token =
+if  (hasParams) { functionType =
+ } if (match(JsDocToken.COMMA)) {
+ } else { if (hasParams &&!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.STRING)) token =
+ } else { hasParams = false ; } else
+if (match(JsDocToken.COMMA)) { hasParams = true ; token =
+if (match(JsDocToken.COMMA) { hasParams = false; token =
+ } else { hasParams = false ; }
+ if (match(Token.COMMA)) {
+ } else { if (hasParams && match(JsDocToken.COMMA)) {
+if (hasParams) { hasParams |=
+if (match(JsDocToken.COMMA) { hasParams = true ; token =
+ } else { if (isThis || isNew) {
+ } else if (hasParams)) {
+ } else if (JsDocToken.COMMA)) {
+ } else if (hasParams){
+if (match(JsDocToken.COMMA)) { hasParams = false;
+ } else { hasParams = false ; } } else {
+if (match(JsDocToken.COMMA) && isNew) {
+if (match(JsDocToken.COMMA) && hasParams) {
+ } else { hasParams = false ; } else { token =
+ } else { if (match(JsToken.COMMA)) {
+ } else { hasParams = true ; } } else {
+ } else { hasParams = false
+ } } else { if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.PREFIX)) {
+ if (token.COMMA)) {
+if (match(JsDocToken.COMMA) { hasParams = false;
+ } else { hasParams = true ; } } else
+ } else { if (!match(JsDocToken)) {
+if (match(JsDocToken.COMMA) { functionType =
+ } else { hasParams = false ; break ; } token =
+ } else { hasParams = true ; if(match(JsDocToken.COMMA)) {
+if (token == match(JsDocToken.COMMA)) {
+if (match(JsDocToken.STRING)) { hasParams =
+ } else { hasParams = true ; } } else { token =
+ } else { hasParams = false ; }
+ } else { hasParams ; if(match(JsDocToken.COMMA)) {
+ } else if (match(JsDocTokenCOMMA)) {
+ } else { token = next(); } } else
+ } else if (!match(JsDocToken)) {
+ } else if (match(JsDoc.COMMA)) {
+if (match(JsDocToken.COMMA)) { hasParams |=
+ } else { hasParams = true ; token = next(); } } else
+ } else { hasParams = true if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { hasParams = false; }
+ } else { if (token == (COMMA)) {
+if (match(JsDocToken.COMMA)) { functionType =
+ } else { hasParams = false ; } } else { hasParams = false ; } } else
+ } else { isParams = false ; } } else {
+ } else { if (hasParams)) {
+ } else { isParams = false ; } } else
+if (match(JsDocToken.COMMA) { hasParams = true; } else {
+ } if (!match(JsDocToken.COMMA)) {
+ } if (match(COMMA)) {
+ } else { if (token.match(JsDocToken.COMMA)) {
+if (match(JsDocToken.NL)) {
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; } } else
+ } else { hasParams = false ; } } else { hasParams = false ; } } else {
+ } else { if (is(Token.COMMA)) {
+ } else { if (isThis) {
+ } else { if (jsDocToken.COMMA)) {
+ } else { if (token == match(JsDocToken.COMMA)) {
+ } else { hasParams = true ; token =
+if (hasParams) { hasParams =!
+if (match(JsDocToken.COMMA)) token =
+if (match(JsDocToken.PREFIX)) { hasParams =
+ } else { hasParams = false ; break ; } else { token =
+if (match(JsDocToken.COMMA) &&!hasParams) {
+ } else { hasParams = false ; continue ; } else { token =
+ } else { hasParams = false ; break ; } } else { token = next();
+ if (JsDocToken.COMMA)) {
+ } else if (token == (COMMA)) {
+ } else { hasParams = false ; } } else { token = next();
+if (match(JsDocToken.COMMA) { hasParams |=
+ } else { hasParams = false ; } } else { token = next(); } } else
+ } else { hasParams = true ; } else { token =
+if (match(JsDocToken.COMMA))  { hasParams = true ; } token =
+ } else { token = next(); } else
+ } else { if (isNew)) {
+if (match(JsDocToken.COMMA) token =
+ } else { token = next(); }
+ } else { hasParams = false ; continue ; } } else
+ } else { hasParams = true ; } token =
+ } else if (match(JsDocTokenNL)) {
+if (match(JsDocToken.COMMA) { hasParams = false; }
+ } else { hasParams = false ; break ; } else
+ } else if (hasParams && match(JsDocToken.COMMA)) {
+ } else { if (!match(JsDocTokenCOMMA)) {
+ } else { hasParams = true
+ } else { hasParams if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) { hasParams = false; } else {
+ } else { hasParams = true ; token = next(); } else
+ } if (isNew)) {
+ } else { hasParams = false ; } } else { token = next(); } else
+ } else { hasParams = false ; break ; } } else { token = next(); } } else
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { skipEOLs();
+ } else { if (!match(JsToken.COMMA)) {
+ } else { hasParams = true ; } } else { hasParams = true ; } } else {
+if  (isParams) { hasParams =
+ } else { hasParams = false ; break ; } } token =
+ } else { hasParams = false ; } } else { hasParams = false ; } if (hasParams)
+ } else { hasParams = false ; token = next(); } else
+ } else { hasParams = true ; } } else { hasParams = false ; } } else
+ } else if (is(Token.COMMA)) {
+ } else { hasParams = false ; } }
+ } else { hasParams = true ;
+ } else { hasParams = false ; continue ; } token =
+ } else { hasParams = false ; } } else { hasParams = true ; } } else {
+ } else { hasParams = true ; } } else { hasParams = false ; } } else {
+ else { hasParams = false ; }
+ } else { hasParams = true
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; }
+ if (COMMA)) {
+ } else { if (isNew && match(JsDocToken.COMMA)) {
+ } else { if (hasParams && (JsDocToken.COMMA)) {
+ } else { hasParams = false ; break ; } } else {
+ } else { hasParams = true ; } } else { hasParams = true ; } } else
+ } else { hasParams = false ; continue ; } } else { token = next(); } } else
+if (match(JsDocToken.COMMA))  { hasParams = false ; } token =
+ } else if (isParams)) {
+if  (isNew)
+ } else { hasParams = false ; while(match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; } } else { if (isNew) {
+ } else { hasParams = true ; } } else { hasParams = false ; } } else { skipEOLs();
+ } else { hasParams = false if(match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; } } else { hasParams = true ; } } else { skipEOLs();
+ else { hasParams = false ;
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; } else
+ } else { hasParams = false ; } } else { token = next(); }
+if (match(JsDocToken.COMMA) { hasParams = true ; } token =
+if (match(JsDocToken.COMMA))  { hasParams = true; } else {
+ } else { token = next(); skipEOLs();
+ } if (match(Token.COMMA)) {
+if (match(JsDocToken.COLON)) {
+ } else { hasParams =!
+ } else { if (isParams)) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { token = next();
+if (match(JsDocToken.PREFIXES)) {
+ } else if (match(JsToken.COMMA)) {
+ } else { hasParams = true ; } } else { token = next(); } } else
+ } else if (jsDocToken.COMMA)) {
+ } else { hasParams = false
+ } else { if (isParams && match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; continue ; } } else { token = next();
+ } else { hasParams;
+ } else { if (isThis && match(JsDocToken.COMMA)) {
+ } else { if (!match(JsDoc.COMMA)) {
+if (match(JsDocToken.COMMA))  { hasParams = false; } else {
+ } else { token = next(); skipEOLs(); }
+ } else { token = next(); } } else {
+ } else { hasParams = false ; } } else { functionType =
+ } else { if (hasParams == true) {
+ } else { hasParams = true ; } } else {
+ } else { isParams = false ; token =
+ } else { hasParams = false ; } } else { if (hasParams) {
+ } else { hasParams = false ; break ; } } else { token = next(); } else
+ } else { hasParams =
+ } else { if (match(COMMA)) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { skipEOLs(); }
+ else { hasParams = false ; } } else {
+ } else { hasParams = true ; } } else { token = next(); } else
+if  (hasParameters)
+ } else { if (token == COLON)){
+ } else { hasParams = false ; } } else { hasParams = true ; } } else { token = next();
+ } else { hasParams = true ; } else
+ } else { hasParams = false ; } } else { hasParams = false ; break ; } else
+ } else { if (token!= match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; break ; } } else { if (isNew) {
+ } else { hasParams = true ; } } else { hasParams = false ; } } else { token = next();
+if (match(JsDocToken.COMMA) && token == next()) { if (hasParams) {
+ } else { isParams = false ;
+ } else { if (token && match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { hasParams = true
+ } else { hasParams = true ; } } else { hasParams = true ; } } else { token = next();
+if  (isThis || isNew) { token =
+ } else { hasParams = true ; } } else { token = next(); }
+if (match(JsDocToken.PREFIX)) { hasParams =!
+ } else if (isThis) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { token = next(); } else
+ } else { hasParams = false ; break ; } } else { } else
+ } else { if (token == COLON){
+ } else { hasParams = false ; } } else { hasParams = false ; } else
+ } else { hasParams = false ; continue ; } } else { hasParams = false ; } } else { token = next();
+if (match(JsDocToken.COMMA) { hasParams = false ; } token =
+ } } else {
+ } else { hasParams = true ; } } else { hasParams = false ; } } else { skipEOLs(); }
+if (match(JsDocToken.PARAMS)) {
+ } else { hasParams = false ; } } else { hasParams = true ; } } else { skipEOLs(); }
+ } else { hasParams = false ; } } else { } else
+if (match(JsDocToken.LP)) {
+ } else { hasParams = false ; break ; }
+ } else { isParams = false ; } token =
+ } else { hasParams = false ; continue ; } } else { token = next(); } else
+if (match(JsDocToken.COMMA) && token == JsDocToken) {
+if (match(JsDocToken.NP)) {
+if (match(JsDocToken.STRING)) { hasParams =!
+if  (hasParams) { parameters =
+if (match(JsDocToken.SP)) { token =
+if (match(JsDocToken.STRING)) { }
+ else { hasParams = false ; token =
+if  (isParams) {
+if (match(JsDocToken.NL)) { token =
+ if (hasParams)) {
+ } else { isParams = false ; } } else {
+ } else { hasParams = false ; break ; } else { token = next();
+if  (isParams)
+ } else { if (tokenStr.match(JsDocToken.COMMA)) {
+ } else { if (isThis && isNew) {
+ } else { hasParams = false ; } } else { if (token) {
+if (match(JsDocToken.NL))
+ } else { hasParams = false ; break ; } } else { token = next(); }
+ } else { isParams = false ; }
+ } else { isParams = false ; } else
+ } else { hasParams = false ; } } else { hasParams;
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; } }
+ } else { if (isThis || new) {
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; } else {
+ } else { hasParams = false ; } } else { token = next(); } } else {
+if (match(JsDocTokenNL)) {
+ } else { if (isNew || match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; break ; } } } else
+ } else if (token){
+ } else { hasParams = false ; } else { token = next();
+if (match(JsDocToken.UP)) {
+ } else { if (hasParams ||!match(JsDocToken.COMMA)) {
+ } else if (isThis || isNew) {
+if (hasParams) { hasParams = false
+ } else { if (isParams){
+if (match(JsDocToken.PARAMETER)) {
+if (hasParams) { hasParams &=
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { } else
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { token = next(); }
+ } else { hasParams = false ; continue ; } } token =
+ } else { hasParams = false ; } } else { hasParams &&
+if (isParams) { hasParams |=
+ else { hasParams = false ; } if(match(JsDocToken.COMMA)) {
+ } else { hasParams = false while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.NP))
+if (isNew && match(JsDocToken.COMMA)) {
+if  (hasParams) { }
+ } else { hasParams ; } if(match(JsDocToken.COMMA)) {
+ } else if (isThis)) {
+ } else { hasParams = true ; } } else { hasParams = true ; } } else { } else
+ } else if (!match(JsDocTokenNL)) {
+ } else { hasParams = true ; }
+ } else { hasParams = true while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.PREFIX)) { functionType =
+ } else { if (isThis)) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { token = next ;
+if (match(JsDocToken.LP))
+ } else { if match(JsDocToken.COMMA)) {
+if  (isParams) { token =
+ } else if (match(JsDocTokenRP)) {
+ } else { if (token!= (JsDocToken.COMMA)) {
+if (match(JsDocToken.PRECISION)) { hasParams =
+ } else { hasParams = false ; continue ; } } else { token = next(); }
+ } else { if (token == ' ') {
+ } else { if (!hasParams && match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { hasParams = false
+ } else { hasParams = false ; } } else { hasParams = true ; } } else { } else
+ } else { hasParams = false ; } } else { var token =
+if  (hasParams) token =
+ if (token == (COMMA)) {
+ } else { hasParams = false ; break ; } } else {
+ } else { while (match(JsDocToken.COMMA)) {
+if (match(JsDocToken.STRING)) { hasParams = false;
+ } else { if (match(LCOMMA)) {
+ } else { if (token == null && match(JsDocToken.COMMA)) {
+ } else if (!match(JsToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { isParams = false; token =
+if (match(JsDocToken.PREFIX)) { token =
+if  (isNew) { hasParams =
+if (match(JsDocToken.COMMA) || isNew) { if (hasParams) {
+ } else { hasParams = false ; } } else { } else {
+ if (hasParams) {
+ } else { hasParams = false ; } } else { token = next(); else
+if (match(JsDocToken.COMMA) && token == next()) { while (true) {
+ } if (isNew) {
+ } else { if (token == null){
+if (match(JsDocToken.STRING)) { hasParams = true ;
+ } else { if (token == "{")){
+ } else { token = next(); if (match(JsDocToken.COMMA)) {
+ } else if (!match(JsDocTokenCOMMA)) {
+if (match(JsDocToken.COMMA)) { if (hasParams) {
+ } else { if (isThis &&!match(JsDocToken.COMMA)) {
+ } else { token = next();
+if (matchParams)
+if (match(JsDocToken.COMMA) { hasParams = true
+if (match(JsDocToken.COMMA) && token == next()) { if (hasParameters) {
+ } else { if (token!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && token == next()) { if (isNew) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { token = next(); else
+ } else { if (token == ')')){
+if (match(JsDocToken.COMMA) && token!= null) { if (hasParams) {
+ } else { if (token == STRING){
+ } else { token = next(); } if (!match(JsDocToken.COMMA)) {
+ else { hasParams = false
+if (match(JsDocToken.COMMA) || (hasParams == true) {
+if (match(JsDocToken.PREFIX)) { hasParams |=
+ } else { if (match(STRING)) {
+ } else { hasParams = false ; } } else { hasParams = false ; } if (hasParams){
+ } else { hasParams = true ; }
+if  (isParams) { functionType =
+ } else if (hasParams && (JsDocToken.COMMA)) {
+ } else { if (hasParameters) {
+if (hasParams || match(JsDocToken.COMMA)) {
+ if (isParams)) {
+ } else if (hasParams &&!match(JsDocToken.COMMA)) {
+ } else { hasParams = if (!match(JsDocToken.COMMA)) {
+if  (isNew) { token =
+ } else { hasParams = false ; break ; } } else { hasParams = false ; break ; } } }
+ } else { } if (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.STRING))) {
+ } else if (match(LCOMMA)) {
+ } else { token = next(); } }
+if (match(JsDocToken.UP))
+ } else { } else if(match(JsDocToken.COMMA)) {
+if (isNew || match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { hasParams &=
+ } else { if (matchJsDocToken.COMMA)) {
+ } else { if (isNew &&!match(JsDocToken.COMMA)) {
+ if (match(JsDoc.COMMA)) {
+if (match(JsDocToken.COMMA) && token!= next()) { if (hasParams) {
+ } else if (!is(Token.COMMA)) {
+ if (isToken.COMMA)) {
+if (match(JsDocToken.COMMA) && hasParams == true) {
+ } else if (token!= null){
+if (match(JsDocToken.COMMA) && token == null) { if (hasParams) {
+ } else { } else
+ } else { if (!token.match(JsDocToken.COMMA)) {
+ } else { if (!hasParams &&!match(JsDocToken.COMMA)) {
+ } else if (!match(COMMA)) {
+ } else { if (isThis || match(JsDocToken.COMMA)) {
+ } else if (match(STRING)) {
+if (match(JsDocTokenRP)) {
+if (match(JsDocToken.COMMA) && token == next) { if (hasParams) {
+ } else { if (isToken.COMMA)) {
+if (match(JsDocToken.STRING)) { hasParams |=
+if (match(JsDocToken.STRING)) { tokenStr =
+ } else { hasParams && if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.NL)) { hasParams =
+if  (hasParams)) { hasParams =
+if (match(JsDocToken.COMMA) && (hasParams == true) {
+if  (isThis || isNew) {
+ } else if (match(NLCOMMA)) {
+if (match(JsDocToken.COMMA) { if (hasParams) {
+if (match(JsDocToken.PREFIX))
+ } else if (token == ')')){
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { }
+if (match(JsDocToken.STRING)) { functionType =
+if (match(JsDocToken.COMMA))) { hasParams =
+if (match(JsDocToken.PARAMETERS)) {
+ } else { isParams = false ; }
+ } if (hasParams) {
+ } else { if (token == "{") {
+ } else { if (isParams &&!match(JsDocToken.COMMA)) {
+ } } else { if (!match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; } } else { hasParams = false ; } } else { else
+ if (hasParams) { if(match(JsDocToken.COMMA)) {
+ } if (hasParams){
+ if (match(JsDocTokenCOMMA)) {
+ } else { if (token == '}') {
+if (match(JsDocToken.COMMA) || isNew) { if (token == COMMA) {
+ } else { if (match(NLCOMMA)) {
+if (match(JsDocToken.PARAMS)) { hasParams =
+ } if (!match(Token.COMMA)) {
+if (match(JsDocToken.COMMA) && token!= next()) { while (true) {
+ } else { isThis = false ;
+ } else { while (token == (JsDocToken.COMMA)) {
+ } else { hasParams = true ; } } else { hasParams = true ; } } else { }
+if (match(JsDocToken.STRING)) { hasParams = true
+ if (match.COMMA)) {
+if (match(JsDocToken.COMMA) { if (hasParams) token =
+ if (!match(Token.COMMA)) {
+ } else { hasParams = true ; } } else { hasParams = false ; } } else { }
+ if (hasParameters){
+ if (hasParams) if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || isNew || isThis) {
+ } else { hasParams = false ; } } else { break ; }
+ } else { { if (!match(JsDocToken.COMMA)) {
+ if (jsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) { hasParams = false
+if (match(JsDocToken.PRECISION)) { token =
+if (match(JsDocToken.COMMA) || token == null) { if (hasParams) {
+ } else { hasParams = false ; } } else { else
+ } else if (token == (JsDocToken.COMMA)) {
+ } else { hasParams = false ; } } else
+if (match(JsDocToken.P) { functionType =
+ } else { hasParams = false ; } else { token = next ;
+ } else if (match.COMMA)) {
+ } else { if (token){
+if (match(JsDocToken.PRECEDENCE)) {
+ } else { hasParams = false ; } } else { }
+if (match(JsDocToken.COMMA) && token == next()) { while (hasParameters) {
+if (match(JsDocToken.COMMA) || token == JsDocToken) {
+ } else { if (token == RP){
+if  token =
+if (match(JsDocToken.NAMESPACE)) {
+if  (isNew) { functionType =
+if (match(JsDocToken.PREFIX_STRING)) {
+if (match(JsDocToken.COMMA) && token == JsDocTokenNL) {
+if (match(JsDocToken.COMMA) { hasParams &=
+if (match(JsDocToken.COMMA) || isNew || hasParams) {
+ } else { if (token == ":") {
+ } else { while (isNew) {
+ } else { hasParams = false ; break ; } }
+if (match(JsDocToken.P)) { functionType =
+if (match(JsDocToken.COMMA) || (hasParams) {
+if (match(JsDocToken.PRECISION)) { functionType =
+ if (is(Token.COMMA)) {
+if (match(JsDocToken.PRECISION)) {
+if (match(JsDocToken.COMMA) ||!hasParams) {
+if (match(JsDocToken.COMMA) && token!= next()) { if (hasParameters) {
+if (match(JsDocToken.COMMA) || (isThis) { if (hasParams) {
+if (match(JsDocToken.COMMA))) { hasParams = false;
+ } else { while (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && token!= next()) { if (isNew) {
+ } else if (isThis || new) {
+if (match(JsDocToken.P) { hasParams =!
+if (isParams && match(JsDocToken.COMMA)) {
+ } } else { if (isNew) {
+ } } } else { if(match(JsDocToken.COMMA)) {
+ } else if (isNew && match(JsDocToken.COMMA)) {
+if  (hasParams) { hasParams &&
+ } else { hasParams if (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && token == null) {
+ } else { if (token == '{') {
+ else if (isNew){
+ } else { hasParams = true ; } } else { }
+ } else { hasParams = true ; } } else { else
+ } else { } if (match(JsDocToken.COMMA)) {
+if  (token == null) {
+if (match(JsDocToken.COMMA) || isNew || isThis || isNew) {
+if (match(JsDocToken.COMMA) || (hasParams && isNew) {
+if (match(JsDocToken.COMMA) &&!hasParams && isNew) {
+ } if (hasParams)) {
+ } else { hasParams = false ; } }
+if (match(JsDocToken.COMMA) && token!= JsToken.NL) {
+ } else if (next){
+if (match(JsDocToken.COMMA) && token!= JsDocToken) {
+if (match(JsDocToken.COMMA) || (hasParams == false) {
+ } else { while (true) {
+ if (hasParams)
+if  (hasParams) { return
+ } else { if ((JsDocToken.COMMA)) {
+ } else if (isToken.COMMA)) {
+if (match(JsDocToken.PREFIXEDSTRING)) {
+ } else if (match(JsDocComment)) {
+ } else { } else{
+if (match(JsDocToken.PREFIXESPACE)) {
+if (match(JsDocToken.COMMA) &&!hasParams == true) {
+if (match(JsDocToken.COMMA) && token == next()) if (isNew) {
+if (token!= match(JsDocToken.COMMA)) {
+ else { hasParams = true
+if (match(JsDocToken.CUSTOM)) {
+if (match(JsDocToken.COMMA) || (isThis && hasParams) {
+ } else { while (token.match(JsDocToken.COMMA)) {
+ } if (token == (COMMA)) {
+ while (true) {
+if (match(JsDocToken.COMMA) && (hasParams || isNew) {
+if (match(JsDocToken")) {
+if  (isParams) { }
+if (match(JsDocToken.SPAREN)) {
+if (match(JsDocToken.COMMA) || isNew) { if (token == ' ') {
+ } else { } else if (!match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; } } else { {
+if (match(JsDocToken.COMMA) || isNew) { if (token == null) {
+if (match(JsDocToken.COMMA) && token == JsToken.NL) {
+ if (match(JsToken.COMMA)) {
+ } else { currentToken = token ; } else
+ while ()) {
+if (match(JsDocToken.COMMA)) { currentToken =
+if (match(JsDocToken))) {
+if (match(JsDocToken.PARAMPLE)) {
+if (match(JsDocToken.COMMA) || isNew) { if (token!= null) {
+if (match(JsDocToken.PRECED_STRING)) {
+if (match(JsDocToken.COMMA) || isThis || hasParams) {
+ } } else { while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.PREFIX_COLON)) {
+ } else if (hasParameters) {
+if (match(JsDocToken.COMMA) || isNew) { if (token == ",") {
+if (match(NL)) {
+if (match(JsDocToken.COMMA) || hasParams == true) {
+ if (hasParams) while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA))  { if (hasParams)
+ } else { hasParams = false ; break ; } } else { {
+ if (token){
+if (match(JsDocToken.COMMA) && token == next()) { if (loop) {
+ } } else { if (isThis) {
+if (match(JsDocToken.COMMA) || token == null) { if (isNew) {
+ } else { hasParams =!match(JsDocToken.COMMA)) {
+ else { hasParams = if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && token!= null) {
+if (match(JsDocToken.COMMA) &&!hasParams == false) {
+if (match(JSDocToken)) {
+if (match(JsDocToken) {
+ if (hasParams if(match(JsDocToken.COMMA)) {
+ } else { if (!(JsDocToken.COMMA)) {
+if  (isThis || isNew) { }
+if (match(JsDocToken.COMMA) { if (hasParams)
+ else if (match(COMMA)) {
+if (match(JsDocToken.COMMA))) { token =
+ if (match(NLCOMMA)) {
+ if (!match(COMMA)) {
+if (match(JsDocToken.COMMA) || token == next()) { while (true) {
+if (match(JsDocToken.COMMA) && token == next()) { if (debug) {
+ } else { continue; if (!match(JsDocToken.COMMA)) {
+ } else { hasParams = false ; break ; } else
+ if ((JsDocToken.COMMA)) {
+ if (match(LCOMMA)) {
+if  (hasParams) { function type =
+ if (next)) {
+if (match(JsDocToken.PREFIX_WS)) {
+ if (isCOMMA)) {
+if (match(JsDocToken.STRING)) { stream =
+if (match(JsDocToken.PREFIX_NL)) {
+ } if (hasParameters) {
+ } } else if (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.STRING)) { next();
+ while () {
+if  (hasParam)
+if (hasParams match(JsDocToken.COMMA)) {
+ } else if (matchJsDocToken.COMMA)) {
+ } else { isNew ; if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || token == COMMA) {
+ } } else
+if (match(JsDocToken.COMMA) || token == null) { while (hasParameters) {
+ else if (isNew)) {
+ if (next) {
+ while (true)) {
+ } if (token){
+ } else { continue; if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.PREFIXPARAMS)) {
+ if ((COMMA)) {
+if (match(JsDocToken.COMMA) || token == ' ') {
+if (match(JsDocToken.COMMA) && token == ',') {
+if (match(JsDocTokenNP)) {
+ } else if (hasParameters)) {
+ if (hasParameters)) {
+ if (isThis)) {
+if (match(JsDocToken.PREFIXESET)) {
+ skipEOLs();
+ while (isNew) {
+if (match(JsDocToken.COMMA) && isThis || isNew) {
+if (match(JsDocToken.COMMA) || isThis || isNew || parameters) {
+if (match(JsDocToken.COMMENT)) {
+if (match(JsDocToken.COMMA) || token == null) {
+if (match(JsDocToken.PREFIX_CLOSE)) {
+ } if (COMMA)) {
+ } if (isToken.COMMA)) {
+ if ( (Token.COMMA)) {
+ } if (JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && token == ' ') {
+if (match(JsDocToken.COMMA) || (isThis && token == next())) {
+ if (isThis) {
+ } else { continue ; }
+if (token!= null) {
+ } else if (token.COMMA)) {
+if (token.match(JsDocToken.COMMA)) {
+ } if (isThis)) {
+if (match(JsDocToken.COMMA) && hasParams == false) {
+if (match(JsDocToken.COMMA))) { functionType =
+if (match(JsDocToken.COMMA) || (isNew == true) {
+if (match(JsDocToken.COMMA) && token == ",") {
+ } else { break ; }
+ } if (token.COMMA)) {
+if (match(JsDocToken.COMMA) && (hasParams) {
+if (match(JsDocToken.COMMA) && token == ';') {
+if (match(JsDocToken.COMMA) && token == '}') {
+if (match(JsDocToken.COMMA) || token == ",") {
+if (match(JsDocToken.COMMA) || hasParams == false) {
+if (match(JsDocTokenLP)) {
+ } } } else
+if (match(NL))
+if (match(JsDocToken.COMMA) || isParams) {
+if (match(JsDocToken.COMMA)) { hasParams &&
+if (match(JsDocToken.COMMA) || isNew || token == ' ') {
+ while (isNew)) {
+if  (!hasParams)
+if (isParams || match(JsDocToken.COMMA)) {
+ } } } else { while(match(JsDocToken.COMMA)) {
+ } } else { if (matchJsDocToken.COMMA)) {
+ else { hasParams =
+if (match(TypeParameters)) {
+if (match(JsDocToken.COMMA)) { isParams =
+ else if (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || token == next()) { if (loop) {
+if (match(JsToken.RP)) {
+ } } } else {
+ if ( (token.COMMA)) {
+ if match(JsDocToken.COMMA)) {
+ if (new) {
+if (match(JsDocToken.COMMA) || (isNew == false) {
+ } else if ((JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)) { var token =
+if (match(')')) {
+ if (matchJsDocToken.COMMA)) {
+ else { hasParams;
+ if (!token.COMMA)) {
+if (isThis && match(JsDocToken.COMMA)) {
+ if (optional)) {
+ } })) {
+ } } } else{
+ } else { { if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || token == next()) { if (debug) {
+if (match(String) token)
+if (match(JsDocToken.COMMA))) token =
+ if (token)) {
+ } if ((JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || isThis || isNew || params) {
+ if (true)) {
+ else if (match(JsDocToken.COMMA)) {
+if (match(Parameters)) {
+if (match(JsDocToken.COMMA) { currentToken =
+ } else { else
+ if (hasParam) {
+if (match(Parameter)) {
+if (match(JsDocToken.COMMA) { hasParams &&
+if (match(Token.RP))
+ } else { }
+if (currentToken.match(JsDocToken.COMMA)) {
+ } ()) {
+ if (isNew)
+if (match(StringToken)) {
+if (match(JsDocToken.COMMA)) { }
+ } } if (!match(JsDocToken.COMMA)) {
+ } } if (match(JsDocToken.COMMA)) {
+ while (match(JsDocToken.COMMA)) {
+ if (!COMMA)) {
+ if ()) {
+if (match(URI)) {
+ if (optional) {
+ } if (match.COMMA)) {
+if (match(JsDocToken.COMMA) && isParams) {
+if  (token =
+if (match(Token.NP))
+ } else if (COMMA)) {
+if (matchToken)
+if (match) {
+if  token {
+ if () {
+if (isThis)
+if (match(JsDocToken.COMMA)) { functionType +=
+if (hasParams
+if (match(JsDocToken.COMMA) && hasParameters) {
+ } } } else if(match(JsDocToken.COMMA)) {
+ } } else if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) { var token =
+ if (!isCOMMA)) {
+ if (!(JsDocToken.COMMA)) {
+ if (!(COMMA)) {
+if  (!token)
+if (match(JsDocToken.COMMA)) { next();
+ } } else { else
+ } else {{
+ } { if (!match(JsDocToken.COMMA)) {
+ while (match.COMMA)) {
+if (match(String)) {
+if (token && match(JsDocToken.COMMA)) {
+ if ((.COMMA)) {
+if (match) token =
+ if (.COMMA)) {
+ } else (match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA))  { token = next();
+if (matchParams())
+if (match(JsDocToken.COMMA))  { token2 =
+ if (Token.COMMA)) {
+ else { if (!match(JsDocToken.COMMA)) {
+if (match(JsDocComment)) {
+ if (!.COMMA)) {
+ (match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA)))) { token =
+if (match(JsDocToken.COMMA))) {
+if (match(NP))
+ if (is.COMMA)) {
+if (match() {
+ while (!match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) { functionType +=
+ } else {{{
+if  (token ==
+if (matchEmpty) {
+ } } { else
+if (match(JsDocNL)) {
+if (match(JsDocToken.COMMA) || token!= null) {
+if (match(JsDocToken.COMMA) || (isNew) {
+if (matchLastToken)
+if (match(JsDocString)) {
+if Token =
+ } while (!match(JsDocToken.COMMA)) {
+ while (JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) && isThis) {
+ if ($.COMMA)) {
+if (match(RP)) {
+if (match(JsDocToken.COMMA) { next();
+ }
+if (match(JsDocToken.COMMA)))) token =
+if (match(JsDocToken.COMMA)) { return
+if (match(RP))
+ catch (.COMMA)) {
+ } { if(match(JsDocToken.COMMA)) {
+if (matchNew)
+if (match(ParameterType)) {
+if (match(STRING)) {
+ } () {
+ } (() {
+if (match(JsDocToken.COMMA) || hasParameters) {
+if  (...)
+if (match(JsDocToken.COMMA) &&!isNew) {
+ while (COMMA)) {
+if (match(JsDocToken.COMMA) && hasParam) {
+if (matchPrevious)
+if  token,
+ } else) {
+ else
+ } } { if(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || isThis) {
+ while (()) {
+if (match(JsDocToken.COMMA) { tokens =
+if (match(String))
+if (match(WS))
+if (match(JsDocToken.COMMA) { operator =
+ catch (JsDocToken.COMMA)) {
+ } else while(match(JsDocToken.COMMA)) {
+if (match(FunctionType)) {
+ else { if(match(JsDocToken.COMMA)) {
+ } while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA))  { operator =
+if (match(JsDocToken.COMMA))  { tokens =
+ } { else
+if (match(ParameterName)) {
+ } } }
+if (token!=
+if (match(JsDocToken.COMMA) || hasNew) {
+if (match(JsDocToken.COMMA) && isNext) {
+if (match(JsDocToken.COMMA) { }
+if (contains(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA) || hasParam) {
+if (match(NP)) {
+if (submatch(JsDocToken.COMMA)) {
+ } }
+if (match(JsDocToken.COMMA))  { {
+if (match(JsDocToken.COMMA)))) {
+if (match(JsDocToken.COMMA) { {
+if (match(LP)) {
+if (match(JsDocToken.COMMA")) {
+ else {
+if (match(SP)) {
+ default :{
+ else while(match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COMMA))  token.
+if (case(JsDocToken.COMMA)) {
+if (parse(JsDocToken.COMMA)) {
+if (token(JsDocToken.COMMA)) {
+if (matched(JsDocToken.COMMA)) {

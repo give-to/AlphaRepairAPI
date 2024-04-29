@@ -1,0 +1,320 @@
+abstract  JSType
+ protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); protected
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } public
+ public JSType caseTopType(JSType topType) { return caseTopType(topType); } protected
+ public JSType caseTopType(JSType topType) { return caseTopType(topType); protected
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { } protected
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> {
+ protected JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); }
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } private
+ static class RestrictByTypeOfResultVisitor implements Visitor<JSType> { protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } public static
+ public JSType restrictByTypeOfResultVisitor extends Visitor<JSType> {
+ public JSType caseTopType(JSType topType) { return caseTopType(topType); } public
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); public
+ public JSType caseTopType(JSType topType) { return getNativeType(topType); protected
+ public JSType caseUnionType(UnionType type) { return caseUnionType(type); } protected
+ public JSType caseTopType(JSType topType) { return caseTopType ( topType ) protected
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE)); } protected
+ public JSType classRestrictByTypeOfResultVisitor
+ public JSType caseUnionType(UnionType type) { return caseUnionType ( type ) ; }
+ public JSType restrictByTypeOfResultVisitor extends Visitor<JSType>
+ static class RestrictByTypeOfResultVisitor implements Visitor<JSType> {
+abstract  Class < JSType >
+ protected class <JSType>RestrictByTypeOfResultVisitor
+ public JSType caseTopType(JSType topType) { return getNativeType(topType); }
+ public JSType caseTopType(JSType topType) { return caseTopType(topType); }
+ public JSType caseTopType(JSType topType) { return topType ; } public static final
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { public
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } static public
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } } protected
+ public class <JSType>RestrictByTypeOfResultVisitor
+ public JSType caseTopType(JSType topType) { return getNativeType(TOP_TYPE); } public final
+ public JSType caseUnionType(UnionType type) { return caseUnionType(type); } public
+ public JSType caseAllType() { return caseAllType(all_type); } protected
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { } public
+ public JSType caseTopType(JSType topType) { return topType ; } static { protected
+ public JSType caseTopType(JSType topType) { return topType ; } } public static
+ protected JSType restrictByTypeOfResultVisitor implements Visitor<JSType> { public
+ public JSType caseUnionType(UnionType type) { return caseUnionType(type); } public static
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType> public
+ static class RestrictByTypeOfResultVisitor implements Visitor<JSType> { public
+ public JSType caseTopType(JSType topType) { return topType ; } } ; protected
+ public JSType restrictByTypeOfResultVisitor implements Visitor<JSType>
+ public JSType caseUnionType() { return caseUnionType(UnionType type) { return type. restrict ( ) ; } protected
+ public JSType caseAnyType() { public class caseAnyType
+ public JSType caseRestrictByTypeOfResultVisitor
+ public JSType restrictByTypeOfResultVisitor implements Visitor<Type> {
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } }; <DC> public
+ public static JSType restrictByTypeOfResultVisitor ( ) { protected
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } }; <DC> protected
+abstract class  Visitor <JSType >
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } }; <DC>
+ public JSType restrictByTypeOfResultVisitor ( ) { protected
+ public JSType caseAnyType() { public class AnyType
+abstract  JSType caseType ( Class topType )
+ public JSType caseAnyType() { public JSType
+ static class RestrictByTypeOfResultVisitor implements Visitor<Type> {
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } } ; } protected
+ public JSType caseUnionType() { return caseUnionType(UnionType type) { return type. restrict ( ) ; } public
+ public static < JSType > classRestrictByTypeOfResultVisitor
+ public JSType caseUnionType() { return caseUnionType(UnionType type) { return type.getType(); } public static
+ public JSType caseAllType() { public class caseUnknownType
+ public class JSType caseRestrictByTypeOfResultVisitor
+ public static < JSType extends JSType >
+ private class <JSType>RestrictByTypeOfResultVisitor
+abstract  Class < JSType > type
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } } ; } public static
+ public class restrictByTypeOfResult() {
+ public class restrictByTypeOfResult {
+ public static < JSType >
+ public Class < JSType >
+ public static < JSType > JSTypeRestrictByTypeOfResultVisitor
+ static class RestrictByTypeOfResultVisitor implements Visitor<Type> { protected
+ public JSType caseAnyType() { public class CaseAnyType
+ public JSType restrictByTypeOfResultVisitor implements Visitor<Type> protected
+ protected class Visitor<JSType>
+ public JSType caseAllType() { public JSType
+ public JSType caseUnionType(UnionType type) { return getNativeType(UnionType.ANY_TYPE); } } public static
+ static class RestrictByTypeOfResultVisitor extends Visitor { protected
+ public class caseTopType
+ static class RestrictByTypeOfResultVisitor extends Visitor<Type> {
+ public < JSType > classRestrictByTypeOfResultVisitor
+abstract  JSType caseType ( Class type )
+ protected class JSType caseRestrictByTypeOfResultVisitor
+ public JSType caseUnionType(UnionType type) { return getNativeType(UNKNOWN_TYPE); } } } ; } protected
+ public < JSType >
+ public JSType getRestrictByTypeOfResultVisitor
+ static class RestrictByTypeOfResultVisitor implements Visitor<T > { protected
+abstract  JSType caseAnyType(AnyType)
+abstract  class caseJSType
+ public static JSType restrictByTypeOfResultVisitor ( ) {
+ static class restrictByTypeOfResult() {
+ public JSType restrictByTypeOfResult() protected
+ static class RestrictByTypeOfResultVisitor extends Visitor<T > {
+ public static JSType restrictByTypeOfResultVisitor ( ) { private
+ public JSType caseAnyType() { return caseAnyType(); } public static
+ protected Class restrictByTypeOfResultVisitor = null ; protected
+ public JSType caseAnyType() { return class JSType
+ public JSType restrictByTypeOfResultType() protected
+ static class restrictByTypeOfResult {
+abstract class  Visitor extends Visitor <JSType >
+ public JSType caseAnyType() { class caseAnyType
+ static class restrictByTypeOfResultVisitor extends Visitor { protected
+ public static < JSType extends Type >
+abstract  JSType caseAnyType(Any type)
+ public JSType restrictByTypeOfResultVisitor ( ) { public
+ public JSType restrictByTypeOfResultVisitor ( ) { private
+ public static JSType restrictByTypeOfResultVisitor ( ) { } protected
+ public JSType caseType()
+abstract  JSType caseAnyType ( Class type )
+ public JSType caseAllType() { public class caseTopType
+abstract  Class < JSType > class
+ protected class RestrictByTypeOfResultVisitor = null ; protected
+ static class RestrictByTypeOfResultVisitor implements Visitor { protected
+ public JSType restrictByTypeOfResult() { protected
+abstract class  Class <JSType >
+ public static Class < JSType >
+ public class caseType ( )
+ protected class RestrictByTypeOfResultVisitor ( ) { protected
+ public static Class restrictByTypeOfResultVisitor ( ) { protected
+abstract class  Visitor extends Visitor { public JSType
+ protected JSType caseRestrictByTypeOfResultVisitor
+ public static JSType classRestrictByTypeOfResultVisitor
+ protected class <JSType> getRestrictByTypeOfResultVisitor
+ public JSType caseAnyType()
+ public JSType caseAllType() { public class UnionType
+ public JSType caseType() { abstractclass RestrictByTypeOfResultVisitor
+ protected class restrictByTypeOfResult = true ; protected
+ public static JSType caseType ( )
+ public JSType caseAnyType() { class AnyType
+ public JSType caseType() { superclass RestrictByTypeOfResultVisitor
+ static class restrictByTypeOfResult() { superclass RestrictByTypeOfResultVisitor
+ public static Class restrictByTypeOfResultVisitor ( ) {
+ public JSType caseType() { public class CaseType
+ public JSType typeRestrictByTypeOfResultVisitor
+ public JSType restrictByTypeOfResult ( ) {
+ public JSType caseType() { public JSType
+ static class RestrictByTypeOfResult implements Visitor<Type> {
+ public JSType caseTypeOfResult() superclass RestrictByTypeOfResultVisitor
+ public JSType caseAnyType() { abstractclass RestrictByTypeOfResultVisitor
+ public static JSType getRestrictByTypeOfResultVisitor
+abstract  Class < JSType > typeOf
+abstract  class JSType
+ protected class restrictByTypeOfResult extends Subclass RestrictByTypeOfResultVisitor
+ public static JSType caseRestrictByTypeOfResultVisitor
+abstract  JSType caseAnyType ( class )
+ static class RestrictByTypeOfResult implements {
+ <DC> public
+abstract  JSType caseAnyType()
+ public < JSType > class CommonRestrictByTypeOfResultVisitor
+ protected class restrictByTypeOfResult implements Subclass RestrictByTypeOfResultVisitor
+ public static < JSType > final
+ public JSType restrictByTypeOfResult()
+abstract  class caseTopType
+ protected class <JSType> defaultRestrictByTypeOfResultVisitor
+ public JSType caseTypeOf ( class CanRestrictByTypeOfResultVisitor
+abstract class  caseType extends JSType
+ protected class restrictByTypeOfResult() { superclass RestrictByTypeOfResultVisitor
+abstract  JSType caseAnyType(type)
+ public class JSType
+ public class RestrictByTypeOfResult implements Visitor { protected
+ protected class restrictByTypeOfResult = false ; protected
+ public Class restrictByTypeOfResult()
+ public static JSType caseTypeof ( )
+ public JSType caseAnyType() { superclass RestrictByTypeOfResultVisitor
+ public JSType caseAnyType() { public class Type
+ protected class <JSType> classRestrictByTypeOfResultVisitor
+ public JSType caseType() { public class caseType
+ public class caseJSType
+ public class restrictByTypeOfResult implements Result { protected
+ public static JSType caseAnyType ( )
+ public static Class restrictByTypeOfResult() {
+ public static Class restrictByTypeOfResult ( ) { protected
+ public class caseAnyType
+ public static < JSType > class CanRestrictByTypeOfResultVisitor
+ public static < JSType > Class commonRestrictByTypeOfResultVisitor
+ public class caseAllType()
+ public Class restrictByTypeOfResult {
+abstract class  Visitor extends Visitor <? >
+ public static < JSType > class CommonRestrictByTypeOfResultVisitor
+ public Class restrictByTypeOfResult superclass RestrictByTypeOfResultVisitor
+ public JSType caseTypeOfResult()
+ public JSType caseAnyType(AnyType)
+abstract  Class < JSType > typeof
+abstract class  CaseType extends JSType
+ public static JSType caseTypeof(...)
+ public JSType caseAnyType(Any type)
+ public JSType caseTypeOf ( class ShouldRestrictByTypeOfResultVisitor
+ public static JSType caseTypeOf ( )
+ public static < JSType > Class getRestrictByTypeOfResultVisitor
+ public class caseAllType
+ public static < JSType > class ToRestrictByTypeOfResultVisitor
+abstract  Class < JSType > visitor
+ public static JSType caseTypeOf(...)
+abstract  JSType caseTypeof (...)
+ public JSType caseAnyType() implements IRestrictByTypeOfResultVisitor
+ public JSType caseTypeOf ( class CannotRestrictByTypeOfResultVisitor
+abstract  class caseType ( )
+ protected class caseType ( )
+ public JSType caseTypeOf()
+ public JSType caseTypeOfResult() protected
+ public static JSType caseTypeof(class)
+abstract class  Visitor <JSType> abstract
+ public JSType restrictByTypeOfResult {
+ public JSType caseAnyType
+ public class restrictByTypeOfResult superclass RestrictByTypeOfResultVisitor
+ <DC> protected
+ public JSType caseType (...)
+abstract  class caseTypeOf
+ public static JSType caseTypeOf(class)
+ public class restrictByTypeOfResult
+ public class RestrictByTypeOfResult implements { protected
+ public class caseTypeOf
+abstract  Class < JSType > typeClass
+abstract class  Visitor extends Visitor <AnyType >
+abstract  JSType caseAnyType() { class Type
+ public class restrictByType() {
+abstract class  Visitor <AnyType >
+ class TypeRestrictByTypeOfResultVisitor
+ public class TypeRestrictByTypeOfResultVisitor
+abstract class  Visitor <JSType> ( )
+ public class caseType () { superclass RestrictByTypeOfResultVisitor
+abstract  Class <JSType> caseType()
+ public class caseTypeOfAny
+ public Class restrictByTypeOfResultSubclass RestrictByTypeOfResultVisitor
+abstract  class caseTypeOfAny
+ public static < T > Subclass RestrictByTypeOfResultVisitor
+ public static
+abstract  class caseAllType()
+ public JSType caseClass()
+ public class caseType () { abstractclass RestrictByTypeOfResultVisitor
+abstract class  Visitor extends Visitor <? > abstract
+ public class JsRestrictByTypeOfResultVisitor
+ public JSType caseAnyType() { class Type
+abstract class  Visitor <? >
+ public class caseTypeOfResult {
+ public Class restrictByTypeOfResult|class RestrictByTypeOfResultVisitor
+abstract class  Class <JSType > caseAllType
+abstract  class caseTypeOf ( )
+abstract  class caseTypeof
+abstract class  Visitor<T >
+ public class restrictByTypeOfResultSubclass RestrictByTypeOfResultVisitor
+abstract  class caseAnyType
+ public abstractclass RestrictByTypeOfResultVisitor
+ public static < T > final
+abstract  class CaseType<T>
+ public static JSType protected
+ public static JSType { superclass RestrictByTypeOfResultVisitor
+abstract class  Class <JSType > type
+ public class ClassRestrictByTypeOfResultVisitor
+ public static < T >
+ public static java. lang.
+ public class restrictTypeOfResult {
+ class AutoRestrictByTypeOfResultVisitor
+ protected abstractclass RestrictByTypeOfResultVisitor
+ public static JSType public
+abstract  class caseType (...)
+abstract class  TypeOf
+abstract class  Typeof
+ public class typeRestrictByTypeOfResultVisitor
+ public static java. lang_class RestrictByTypeOfResultVisitor
+ public JSType { superclass RestrictByTypeOfResultVisitor
+ public class classRestrictByTypeOfResultVisitor
+ public class TypeOfRestrictByTypeOfResultVisitor
+ * <DC> public
+ public < T > final
+ public class TypeOfResult superclass RestrictByTypeOfResultVisitor
+ public static class TypeRestrictByTypeOfResultVisitor
+ public static class getRestrictByTypeOfResultVisitor
+ public class DefaultRestrictByTypeOfResultVisitor
+ <DC>
+ protected class JsRestrictByTypeOfResultVisitor
+ public JSType { abstractclass RestrictByTypeOfResultVisitor
+ private abstractclass RestrictByTypeOfResultVisitor
+ * <DC> protected
+ public <T > Subclass RestrictByTypeOfResultVisitor
+ class ClassRestrictByTypeOfResultVisitor
+ <DC> private
+abstract class  Visitor
+ protected static
+ private static
+ public static final
+ protected final
+ class CanRestrictByTypeOfResultVisitor
+abstract  class Class
+ class CommonRestrictByTypeOfResultVisitor
+ public abstract Subclass RestrictByTypeOfResultVisitor
+abstract  class Type
+ public staticclass RestrictByTypeOfResultVisitor
+abstract  jSType
+abstract  class Kind
+ <pre>
+ <code>
+ public static < T >class RestrictByTypeOfResultVisitor
+ public final
+ public static < JSTclass RestrictByTypeOfResultVisitor
+ * <DC>
+ public <T > superclass RestrictByTypeOfResultVisitor
+ <p> protected
+abstract class  typeOf
+abstract class  ClassCommon
+abstract  Class Kind
+abstract  class General
+ public static Subclass RestrictByTypeOfResultVisitor
+ public abstract subclass RestrictByTypeOfResultVisitor
+ static class Subclass RestrictByTypeOfResultVisitor
+ static abstract Subclass RestrictByTypeOfResultVisitor
+ public Subclass RestrictByTypeOfResultVisitor
+ * * public abstractclass RestrictByTypeOfResultVisitor
+ public
+ * * * Subclass RestrictByTypeOfResultVisitor
+ * * public *class RestrictByTypeOfResultVisitor
+ * * public staticclass RestrictByTypeOfResultVisitor
+ * * * *class RestrictByTypeOfResultVisitor
+ private
+ static

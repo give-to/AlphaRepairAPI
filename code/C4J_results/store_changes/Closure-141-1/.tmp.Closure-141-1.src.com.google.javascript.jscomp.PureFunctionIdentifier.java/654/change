@@ -1,0 +1,146 @@
+ }
+ return callNode ;
+ return callNode ; }
+ return callsInFunctionBody ;
+ return callNode. toString ( ) ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunctionBody ;
+ return callNode. toString ( ) ; }
+ return callNode ; }
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunctionBody ; }
+ return callsInFunctionBody ; }
+ } else { callsInFunctionBody. add ( callNode ) ; } return callNode ; }
+ } else { callsInFunctionBody. add ( null ) ; } return callsInFunctionBody ;
+ } else { callsInFunctionBody. add ( null ) ; } return callsInFunctionBody ; }
+ } return callsInFunctionBody ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunction ;
+ } else { callsInFunctionBody. add ( callNode ) ; } }
+ } else { callsInFunctionBody. add ( functionNode ) ; } }
+ } else { callsInFunctionBody. add ( functionNode ) ; } return callsInFunctionBody ;
+ } else { callsInFunctionBody. add ( functionNode ) ; }
+ } else { callsInFunctionBody. add ( callNode ) ; } return invariant ;
+ } else { callsInFunctionBody. add ( functionNode ) ; } } ;
+ } else { callsInFunctionBody. add ( functionNode ) ; } return invariant ;
+ } else { callsInFunctionBody. add ( null ) ; } return invariant ;
+ } else { callsInFunctionBody. add ( null ) ; } return callNode ; }
+ } else { callsInFunctionBody. add ( null ) ; } return callsInFunction ;
+ } else { callsInFunctionBody. add ( callNode ) ; } } ;
+ } else { callsInFunctionBody. add ( functionNode ) ; } return callNode ; }
+ } else { callsInFunctionBody. add ( functionNode ) ; } return callNode ;
+ } else { callsInFunctionBody. add(newCallNode); }
+ } else { callsInFunctionBody. add ( functionNode ) ; } return callsInFunctionBody ; }
+ } else { callsInFunctionBody = [ ] ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunctionBody ; } ;
+ } else { callsInFunctionBody. add ( callNode ) } return callsInFunctionBody ;
+ } else { callsInFunctionBody. add ( newCallNode ) ;
+ } else { callsInFunctionBody. add ( callNode ) } return callsInFunctionBody ; }
+ } else { callsInFunctionBody. add ( new Call ( callNode ) ) ;
+ } else { callsInFunctionBody. add ( functionNode ) ;
+ } else { callsInFunctionBody. add ( callNode ) ; }
+ } return callNode ;
+ } else { callsInFunctionBody. add ( callNode ) ;
+ } else { callsInFunctionBody. add ( functionNode ) ; } return this ;
+ } else { callsInFunctionBody. add ( newNode ) ;
+ } else { callsInFunctionBody. add ( null ) ;
+ } else { callsInFunctionBody. add ( null ) ; } return callsInFunctionBody ; } ;
+ } return callsInFunctionBody ; }
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunctionBody ; } }
+ } else { callsInFunctionBody = null ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return this ;
+ } else { callsInFunctionBody. add ( node ) ;
+ } else { callsInFunctionBody. add ( functionNode ) ; return this ;
+ } else { callsInFunctionBody. remove ( callNode ) ;
+ } else { callsInFunctionBody. add ( functionNode ) ; return callNode ;
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) ; }
+ } else { callsInFunctionBody. add ( callNode ) ; } return callNode ; } } ;
+ return callNode. toString ( ) + "()" ;
+ } else { callsInFunctionBody. add ( functionNode ) ; return true ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return toString ( callNode ) ;
+ } else { callsInFunctionBody. add ( null ) ; } return callsInFunctionBody ; } }
+ return callNode. toString ( )
+ } else { callsInFunctionBody. add ( functionNode ) ; } } }
+ return callNode. toString()); }
+ } else { callsInFunctionBody. add ( callNode ) ; } return callNode. toString () ;
+ } else { callsInFunctionBody. remove ( callNode )
+ return callNode. toString ( ) + "." ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return callNode ; } ;
+ } else { callsInFunctionBody. add ( callNode ) ; } return callsInFunctionBody. length ;
+ } else { callsInFunctionBody. add ( "new" ) ;
+ return callNode. toString ( ) ; } }
+ } else { callsInFunctionBody. add ( callNode )
+ }
+ } else { callsInFunctionBody. add ( ) ;
+ } else { callsInFunctionBody. add ( node )
+ } else { callsInFunctionBody. add ( null )
+ return this ;
+ } else { callInFunctionBody. add ( null ) ; } return callInFunctionBody. toString ( ) + "()" ;
+ } else { callsInFunctionBody. add ( null ) ; } } ;
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) ; } ;
+ } else { callsInFunctionBody = callNode ;
+ if (callNode!= null) { return callNode;
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) ; } }
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) + "." ;
+ } return callNode ; }
+ } else { callInFunctionBody. add ( callNode ) ; } return toString ( callInFunctionBody, invariant ) ;
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) ; } } ;
+ return callNode ; } return callsInFunctionBody ;
+ } else { callInFunctionBody. add ( null ) ; } return callInFunctionBody. toString ( ) ; } ;
+ } return callNode. toString ( )
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. toString ( ) + ";" ;
+ } else { callInFunctionBody. add ( null ) ; } return callInFunctionBody. toString ( ) ; } }
+ } else { callInFunctionBody. add ( null ) ; } return callInFunctionBody. toString ( ) + "." ;
+ } else { callInFunctionBody. add ( node ) ; } return callInFunctionBody. toString ( ) ; } ;
+ return callNode ; } return invariant ;
+ } else { callInFunctionBody. add ( null ) ; } return callInFunctionBody. toString ( ) ; } } ;
+ } else { callInFunctionBody. add ( node ) ; } return callInFunctionBody. toString ( ) ; } }
+ } else { callInFunctionBody. add ( callNode ) ; } return callInFunctionBody. join ( " " ) ; } ;
+ if (callNode == null) { throw new IllegalStateException("No call node found."); } return callNode ;
+ if (callNode == null) { throw new IllegalStateException("No call node found." + toString()); }
+ if (callNode == null) { throw new IllegalStateException("Call node not found." + toString()); }
+ return callNode. toString ( ) + "";
+ return callNode ; } } ;
+ return call ;
+ if (callNode == null) { throw new IllegalStateException("Call node not found."); } return callNode ;
+ if (callNode == null) { throw new IllegalStateException("Missing call node. " + toString()); }
+ if (callNode == null) { throw new IllegalStateException("No call node found." + toString()); } }
+ } return callsInFunction ;
+ if (callNode == null) { throw new IllegalStateException("Call node not found." + toString()); } }
+ return callNode. getString ( ) ;
+ if (callNode == null) { throw new IllegalStateException("No call node found. " + toString());
+ } return callsInFunctionBody
+ } return this ; }
+ if (callNode!= null) { return "Call node: " + callNode.toString(); } return callNode ;
+ return callNode. toString ( true ) ;
+ if (callNode == null) { throw new IllegalStateException("No call node found."); } return true ;
+ if (callNode == null) { return null ; } return callNode. toString ( ) + "()" ; }
+ return callNode. getString ( ) ; }
+ if (callNode!= null) { return "Call node: " + callNode.toString()); } return callNode ;
+ if (callNode!= null) { return "Call node: " + callNode.toString() + "."; }
+ if (callNode!= null) return true;
+ return true;
+ return callsInFunction ;
+ callNode. setCall ( this ) ;
+ } return call ; }
+ } } else {
+ } } } ; }
+ } return call ;
+ return callsInFunctionBody
+ return this ; }
+ } }
+ } } ; }
+ return callNode ;
+ return ;
+ } return this ;
+ return ; }
+ } } ;
+ } return calls ;
+ } } {
+ } private static
+ } },
+ return this
+ return();
+ } }
+ } {
+ };
+ }; }
+ },
+} public

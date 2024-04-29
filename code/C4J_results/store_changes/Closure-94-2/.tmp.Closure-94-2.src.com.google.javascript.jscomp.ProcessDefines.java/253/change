@@ -1,0 +1,162 @@
+ }
+ }
+ } }
+ return allRefInfo ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name ) ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name ) )
+ else { allRefInfo. put ( name. node, new RefInfo ( name, name ) )
+ else { allRefInfo. put ( name, name ) ;
+ else { allRefInfo. put ( name. node ) ;
+ else { allRefInfo. put ( name. node, name ) ;
+ return allRefInfo
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) )
+ else { allRefInfo. put ( name. node, name )
+ else { allRefInfo. put ( name, new RefInfo ( name. name, name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition, name ) )
+ } }
+ else { allRefInfo. put ( name, new RefInfo ( name. name, name ) )
+ else { allRefInfo. put ( name. name, name ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition, name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition ) ) ;
+ else { allRefInfo. put ( name. node, name. definition ) ;
+ else { allRefInfo. put ( name. node, name ) ; }
+ else { allRefInfo. put ( name, name )
+ else { allRefInfo. add ( name ) ;
+ else { allRefInfo. put ( name ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref, name ) ) ;
+ } return allRefInfo ;
+ else { allRefInfo. put ( name ) ; }
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; }
+ else { allRefInfo. put ( name. node, new RefInfo ( name. name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name, name ) ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name ) ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } }
+ else { allRefInfo. put ( name. name, name )
+ return this ;
+ else { allRefInfo. putAll ( name. references ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name. definition, name ) )
+ else { allRefInfo. putAll ( name. refs ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. define, name ) )
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) )
+ else { allRefInfo. put ( name. node, new RefInfo ( name. define, name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. name, name ) ) ;
+ else { allRefInfo. put ( name, name ) ; }
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition, name ) ) ; }
+ } else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ;
+ else { allRefInfo. put ( name. name, name. definition ) ;
+ else { allRefInfo. putAll ( name. node, new RefInfo ( name. definition, name ) ) ;
+ else { allRefInfo. put ( name. name, name ) ; }
+ else { allRefInfo. put ( name. node, name. definition ) ; }
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name. name ) ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name. name, name. node ) ) ;
+ return allRefInfo ;
+ else { allRefInfo. put ( name, new RefInfo ( name. name, name. node ) )
+ else { allRefInfo. put ( name, name. definition ) ; }
+ else { assignAllowed. add ( name. node ) ; }
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } return allRefInfo ;
+ else { assignAllowed. add ( name. node ) ;
+ } else { allRefInfo. put ( name, new RefInfo ( name, name ) )
+ else { allRefInfo. put ( name, new RefInfo ( name. node ) ) ;
+ else { allRefInfo. clear ( ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, ref. name ) ) ;
+ else { allRefInfo. put ( name, name ) ; } } } }
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } return allRefInfo ;
+ else { allRefInfo. put ( name. name, name. definition )
+ else { assignAllowed. add ( name. name, name ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. node, name. name, name ) ) ;
+ else { allRefInfo. put ( name. name, name. definition ) ; }
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, ref. name ) ) ; }
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition, name. name ) ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( name. name, name. name ) ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ; } } }
+ else { allRefInfo. put ( name. node, name. definition )
+ else { allRefInfo. put ( name. node, new RefInfo ( name. definition, name. name ) )
+ else { allRefInfo. put ( name. node, new RefInfo ( name. node, name. name, name ) ) ; }
+ } return this ;
+ else { allDefines. put ( name, name ) ;
+ else { allRefInfo. put ( name. node, new RefInfo ( ) )
+ else { assignAllowed. push ( name. node ) ;
+ else { allRefInfo. put ( name. node )
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, ref. name, name ) ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ; } } } }
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, ref. name ) ) ; } } }
+ else { allRefInfo. put ( name. node, name. define ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, ref. name ) )
+ else { allRefInfo. put ( name, name. definition, name ) ;
+ else { allRefInfo. put ( name, name. definition ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } return allRefInfo
+ else { allRefInfo. put ( name. node, new RefInfo ( name. name, name. name ) )
+ assignAllowed = null ;
+ else { allRefInfo. putAll ( name ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } return this ;
+ else { allRefInfo. put ( name, name. name ) ; } } } }
+ } return allRefInfo
+ else { allDefines. put ( name ) ; }
+ return this ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } } } ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ; } } } } }
+ return allRefInfo
+ else { allRefInfo. remove ( name ) ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } } } } ;
+ else { assignAllowed. push ( 1 ) ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ; } } } } ;
+ else { allRefInfo. put ( name, new RefInfo ( name, name ) ) ; } } } } } } } ;
+ else { allRefInfo. put ( name, name ) ; } } return this ;
+ else { allRefInfo. put ( ref. node, new RefInfo ( ref. name, name ) ) ; } } return this ;
+ return assignableDefines ;
+ else { allRefInfo = { } ;
+ } assignAllowed. push ( 1 ) ;
+ } return assignAllowed ; }
+ else { assignAllowed = [ ] ;
+ else { allRefInfo = { } ; }
+ } return allRefInfo
+ else { assignAllowed. push ( name ) ;
+ } assignAllowed. clear ( ) ;
+ } else { assignAllowed = [ ] ;
+ } assignAllowed = null ;
+ } return assignableDefines ;
+ } return allRef ;
+ else { assignAllowed. push ( 1 )
+ assignAllowed. clear ( ) ;
+ } assignAllowed = allRefInfo ;
+ else { assignAllowed = null ;
+ assignAllowed = allRefInfo
+ } return allDefines
+ } assignAllowed = [ ] ;
+ return assignAllowed ; }
+ } assignAllowed. push ( 1 )
+ assignAllowed. push ( 1 )
+ } return assignAllowed ; } }
+ } return assignAllowed ;
+ return assignAllowed ; } }
+ } } return this ;
+ } return this ;
+ return true ;
+ } } }
+ assignAllowed = null
+ assignAllowed ;
+ return refInfo ;
+ } return defs ;
+ return refInfo ;
+ } return true ;
+ assignAllowed ++ ;
+ return allRef ;
+ return true ;
+ } } }
+ } } ;
+ return defInfo ;
+ return all ;
+ return all ;
+ return null ;
+ } ;
+ return ;
+ return ;
+ } ;
+ return this
+ break ;
+ return this
+ ;
+ ;

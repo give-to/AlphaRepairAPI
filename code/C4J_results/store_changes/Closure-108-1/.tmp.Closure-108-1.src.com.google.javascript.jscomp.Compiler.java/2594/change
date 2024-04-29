@@ -1,0 +1,267 @@
+return  lastChild ;
+ return parent;
+ lastChild=lastChild;
+return lastChild. getFirstSibling ( ) ;
+return lastChild. getNextSibling();
+ parent=lastChild;
+return  getNodeForCodeInsertion ( ) ;
+return lastChild. getFirstChild ( ) ;
+return  getNodeForCodeInsertion ( parent ) ;
+return  getNodeForCodeInsertion(lastChild);
+return lastChild. nextSibling ;
+return lastChild. clone ( ) ;
+return  getNode ( resourceName )
+return  getNodeForCode ( ) ;
+return lastChild ; }
+return  getNodeForCodeInsertion ( )
+ return getNode ( ) ;
+ if ( isBase ) { ensureLibraryInjected("base"); }
+ if ( isBase ) {
+ return parent
+return lastChild. getFirstSibling ( ) ; }
+ return ( Node ) lastChild ;
+return  getNodeForCode ( resourceName )
+ return ( Node ) parent ;
+ if ( isBase ) { ensureLibraryInjected ( ) ;
+return  getNodeForCodeInsertion ( null ) ;
+return  new Node ( parent, lastChild ) ;
+ return new Node ( ) ;
+return  new Node ( lastChild ) ;
+ if ( lastChild!= null ) {
+return lastChild. getNextSibling ( ) ; }
+ if ( isBase ) { return parent ; }
+return lastChild. getLastSibling ( ) ;
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild ) ;
+ reportCodeChange();
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild, resourceName ) ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName ) ;
+ return new Node ( parent ) ;
+ if ( isBase ) { reportCodeChange(); }
+return lastChild. getNextSibling ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( resourceName ) )
+return  getNode ( resourceName ) ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) ; }
+ if ( isBase ) { ensureLibraryInjected("base");
+return lastChild. getFirstSibling ( ). node ;
+ if ( isBase ) { ensureLibraryInjected(lastChild); }
+return lastChild. getFirstSibling ( )
+return lastChild. getNextSibling ( ). node ;
+ if ( isBase ) { return lastChild ; } if ( isBase ) {
+return lastChild. cloneNode ( ) ;
+ if ( isBase ) { ensureLibraryInjected("base.js"); }
+return lastChild ; return parent ;
+ if ( isBase ) { setNodeForCodeInsertion ( parent, lastChild ) ; }
+ if ( isBase ) { return lastChild ; } else { parent. removeChild ( ) ; }
+return  new Node ( parent, lastChild )
+ if ( isBase ) { return lastChild ; } else { parent. removeChild ( lastChild ) ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( ) ) }
+ if ( isBase ) { ensureLibraryInjected(lastChild, resourceName); }
+ if ( isBase ) { return lastChild ; } else { parent. addChildrenAfter ( lastChild, injectedLibraries ) ; }
+return  getNodeForCodeInsertion ( parent )
+ if ( isBase ) { return lastChild ; } else { parent. addChildrenToFront(lastChild); }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( resourceName ) ) }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( resourceName ) ) ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( ) ) ;
+ if ( isBase ) { ensureLibraryInjected(resourceName); }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. values ( ) ) }
+return lastChild. getNextSibling ( )
+ return parent. clone ( ) ;
+ if ( isBase ) { ensureLibraryInjected(parent); }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. values ( ) ) ;
+ return getNode ( parent ) ;
+ if ( isBase ) { return lastChild ; } if ( isBase == null ) {
+ if ( isBase ) { ensureLibraryInjected("base"); } if ( lastChild ) {
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) ; reportChange(); }
+return lastChild ; } return null ;
+ if ( isBase ) { ensureLibraryInjected(); }
+ if ( isBase ) { ensureLibraryInjected("base", lastChild);
+ if ( isBase ) { ensureLibraryInjected("base").remove(); }
+return  getNodeForCodeInsertion ( lastChild));
+return lastChild. getFirstSibling ( ). parent ;
+ if ( isBase ) { reportCodeChange ( ) ;
+ if ( isBase ) { return lastChild ; } if ( isBase ) { parent. remove ( ) ;
+ if ( isBase ) { return lastChild ; } else { parent. removeChild ( lastChild ) }
+return lastChild. clone ( ) ; return null ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( base ) ) }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) }
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode ) ;
+ if ( isBase ) { return lastChild ; } else { parent. addChildrenAfter ( lastChild, injectedLibraries ) ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, lastChild ) ;
+return  getNodeForCode ( resourceName);
+ if ( isBase ) { setNodeForCodeInsertion ( lastChild, null ) ; }
+ if ( isBase ) { ensureLibraryInjected("base"); } if ( isBase ) {
+return  getNodeForCodeUpdate ( ) ;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) ; } }
+ if ( isBase ) { ensureLibraryInjected("base").removeChildren(); }
+ if ( isBase ) { ensureLibraryInjected("base"); } if ( parent ) {
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) ; } else {
+ if ( isBase ) { parent. addChildrenAfter ( lastChild ) ; } if ( isBase ) { return parent ; }
+return lastChild. getLastSibling ( ) ; }
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( base ) ) ;
+ if ( isBase ) { return lastChild ; } else { parent. addChildrenAfter ( lastChild, injectedLibraries ) }
+return lastChild. cloneNode ( ) ; return null ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName ) }
+ return ( Node ) parent
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( resourceName ) ) ; } else {
+ if ( isBase ) { ensureLibraryInjected(base"); }
+ if ( isBase ) { checkLibraryInjected("base"); }
+ if ( isBase ) { return lastChild ; } else { parent. addChildrenAfter ( lastChild, injectedLibraries ) ; } }
+ if ( isBase ) { return parent ; } else {
+ if (! isBase ) {
+ if (isBase) { return lastChild;
+ if ( isBase ) { return null ; }
+ if ( isBase ) { parent = null ; }
+ if ( isBase )
+return lastChild. getFirstSibling ( ) ; } ;
+ if ( isBase ) { ensureLibraryInjected("base"); } reportCodeChange();
+ if ( isBase ) { ensureLibraryInjected(parent);
+ return getNodeForCodeInsertion(parent),lastChild;
+ if ( isBase ) return firstChild ;
+ if ( isBase ) { return firstChild ; }
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName, parent ) ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName, ) ;
+return lastChild. getNextSibling ( ) ; } ;
+ parent.addChild(lastChild;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName, false ) ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode ) ; }
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild ) }
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName ) ; } }
+ if ( isBase ) { return parent ;
+ return new Node ( )
+ if ( isBase ) { ensureLibraryInjected("base").removeChildren();
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild ) ; }
+ if ( isBase ) { parent = null ;
+ return this. parseAndNormalizeSyntheticCode ( this, originalCode, resourceName ) ; }
+ if ( isBase ) { ensureLibraryInjected(base");
+ if (lastChild instanceof Node) {
+ parent.nextSibling=lastChild;
+ return getNodeForCode ( parent );
+ return parent ; return null ;
+ if ( isBase ) { return parent }
+ return getNodeForCodeInsertion(parent;
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild, resourceName ) ; } }
+ return parent. cloneNode ( ) ;
+ if ( isBase == false ) {
+ return this. parseAndNormalizeSyntheticCode ( this, lastChild, resourceName ) ; }
+ if ( parent == null ) {
+ return new Node ( lastChild, parent );
+ if ( isBase ) { ensureLibraryInjected(base);
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get("base") ) ; } } }
+ if ( isBase ) { return lastChild ; } if ( isBase ) { } else {
+ if ( isBase ) return parent ;
+ return getNodeForCodeInsertion(parent);;
+ parent. removeChild ( ) ; lastChild=lastChild;
+ if ( isBase ) { parent. addChildrenAfter ( lastChild, injectedLibraries. get ( "base" ) ) ; } else
+ if ( isBase ) { ensureLibraryInjected("base"); } }
+ if ( isBase ) { updateBase ( ) ; }
+ return getNodeForCodeInsertion(parent,lastChild;
+ if ( isBase ) return parent ; else
+return lastChild. nextChild ;
+ return node ( ) ;
+ return getNodeForCodeInsertion(parent));
+ parent. removeChild ( lastChild ) ; returnlastChild;
+return lastChild. firstChild ;
+ return ( Node ) this ;
+ parent.removeChild(lastChild;
+ return this. parseAndNormalizeSyntheticCode ( parent, lastChild ) ; }
+return lastChild ; return null ;
+ return (Node) (Node)lastChild;
+ if ( isBase ) { ensureLibraryInjected("base") ; } else {
+ return new Node ( parent, null );
+ if ( isBase ) { ensureLibraryInjected(lastChild); } else {
+ return getNodeForCodeInsertion(parent).lastChild;
+ return new Node ( parent, lastChild, );
+ return new Node ( parent, parent );
+ parent.removeChild();lastChild;
+ if ( parent ) {
+ if (!isBase)
+ if ( isBase ) { return parent ; } }
+ parent.addNextSibling(lastChild;
+ return new Node(parent, firstChild,lastChild;
+ firstChild=lastChild;
+ parent.addChildrenToFront(lastChild;
+ if ( isBase ) { return parent ; } else
+ if ( isBase ) { ensureLibraryInjected("base"); } else
+ parent.addSibling(lastChild;
+ return parent.nextSibling().lastChild;
+ if ( lastChild ) {
+ return Node. NODE;
+ return (Node) ((Node)lastChild;
+ parent. removeChildren ( );
+ return parent || null;
+ return new Node ( parent, last );
+ parent. removeChild ( );
+return lastChild. cloneNode ( ) ; } ;
+ parent.next=lastChild;
+ parent.setFirstChild(lastChild;
+ return ( Node ) {
+ return getNodeForCodeInsertion());
+ return ( Node ) null
+ return getNodeForCodeInsertion()+lastChild;
+ return new Node(parent;
+ return (Node)parent.next().lastChild;
+ parent.removeSibling(lastChild;
+ return parent ; }
+ parent. removeChild ( last );
+ return new Node ( parent, firstChild),lastChild;
+ parent. removeChild ( ) ; parent=lastChild;
+ parent.removeSibling();lastChild;
+ if ( isBase ) { ensureLibraryInjected("base") ; } } }
+ parent. removeChild ( first );
+ return "base";
+ if ( isBase ) { }
+return lastChild. getFirstSibling ( ;
+ return firstChild ;
+ return parent ;
+ return parent + 1;
+ return new Node(parent, null),lastChild;
+return lastChild. parentNode ;
+ parent.addChild=lastChild;
+ if ( hasChildren ) {
+ if ( return null )
+ return parent ; } }
+ return parent. parent;
+ parent.remove(lastChild;
+ break ; }
+ parent.append(lastChild;
+ return ;
+ } return null ;
+ reportCodeChanged();
+return lastChild || parent ;
+ if ( isBase ) return ;
+return lastChild. parent ;
+ return null;
+return lastChild || null ;
+return lastChild ; } ;
+ parentNode=lastChild;
+ if (debug)
+ parentChild=lastChild;
+return lastChild = parent ;
+ return parent ; } } ;
+ return this ;
+ return parent ; else
+ return null ;
+ return null
+ } return this;
+ } } ;
+ else return null;
+ } returnlastChild;
+return  parent ; }
+ node=lastChild;
+ break ;
+return lastChildNode ;
+ parent.lastChild;
+return lastChild ; ;
+ return root;
+return lastChild ; {
+ return node;
+ } }
+ break ;
+ }
+return lastChild. ;
+ } ;
+ return parent
+ return ;
+ }
+ return
+ else

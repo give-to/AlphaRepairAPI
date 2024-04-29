@@ -1,0 +1,536 @@
+shift = shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = true ;
+ shift += VVLQ_BASE_SHIFT;
+shift = shift +  1 ;
+ shift >>>= VVLQ_BASE_SHIFT;
+shift  ++ ;
+shift = shift + VLQ_BASE_SHIFT ; continuation =! continuation ;
+shift = shift  ; continuation = true ;
+ shift = digit >>>= VVLQ_BASE_SHIFT;
+shift = shift  ; continuation =! continuation ;
+ shift = digit << shift+ VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation ++ ;
+ shift = result + (digit)shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation ; shift = 0 ;
+ continuation = false ;
+ >>>=VLQ_BASE_SHIFT;
+shift =  digit >> shift ;
+ shift = result + (digit).shift + VLQ_BASE_SHIFT;
+shift = shift +  - 1 ;
+ continuation = continuation ; shift = digit >> shift;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift = 0 ;
+ shift += digit >>>= VVLQ_BASE_SHIFT;
+ while (continuation) {
+ shift = digit & VVLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continue ;
+shift =  digit >>> shift ; continuation = true ;
+ shift ++ ; result >>>= shift + VLQ_BASE_SHIFT;
+ shift = result + digit<<shift + VLQ_BASE_SHIFT;
+ continuation = true ;
+shift =  0 ;
+ shift = -shift + VLQ_BASE_SHIFT;
+ continuation =! continuation ;
+shift = shift +  1 ; continuation = continuation ; shift = 0 ;
+shift =  digit >>> shift ; continuation =! continuation ;
+shift = shift  ; continuation = false ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift ++ ;
+ if ( continuation ) { result += digit ;
+ shift = digit >>>+ VLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation =! continuation ;
+shift = shift  ; continuation = continuation ; shift ++ ;
+ if ( continuation ) { result += digit << shift ;
+ continuation = shift ; shift = 0;
+shift = shift + VLQ_BASE_SHIFT ; continuation = false ;
+ shift += -1;
+shift = shift  ; continuation =! continuation ; break ;
+ while ( continuation ) { continuation = continuation & VLQ_BASE_MASK ;
+ shift = result + (digit << shift)shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = -1;
+ shift = result + (digit <<)shift + VLQ_BASE_SHIFT;
+ shift = result + (digit << shift)*shift + VLQ_BASE_SHIFT;
+ while ( continuation ) { continuation = continuation & VLQ_BASE_MASK ; }
+ shift = result + (digit << shift)+shift + VLQ_BASE_SHIFT;
+ shift = digit>>shift + VLQ_BASE_SHIFT;
+shift  += digit ;
+ continuation = continuation ; shift = 0;
+ continuation = continuation ; shift = -shift;
+shift = shift +  (digit << shift);
+ shift = result + digit.shift + VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result += shift ; }
+ while ( continuation ) { continuation = continuation | VLQ_BASE_MASK ; }
+ continuation = continuation ; shift = digit >>> shift ;
+ shift = result + (digit << -shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation ; shift = - 1 ;
+ if ( result > 0 ) { result = result + VLQ_BASE_MASK ; } else {
+ shift = result + (digit << shift).shift + VLQ_BASE_SHIFT;
+shift = shift +  (digit << 1);
+shift = shift + VLQ_BASE_SHIFT ; continuation =! continuation ; break ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = true ; break ;
+shift = shift +  1 ; continuation = continuation ; shift += 1 ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) {
+ if ( result > 0 ) { result = result + VLQ_BASE_MASK ; continuation = true ;
+shift = shift +  1 ; continuation = true ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = true ; }
+ if ( result > 0 ) { result = result + (digit << shift); if ( result < 0 ) { result = result - 1 ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result = result ; }
+shift = shift + VLQ_BASE_SHIFT ; break ; } while ( continuation ) ;
+ shift -- ; result >>>= shift + VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + VLQ_BASE_MASK ; continuation = false ;
+ if ( continuation ) { result += (digit << shift); }
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result -= shift ; }
+ shift = continuation ; result >>>= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation =! continuation ; shift ++ ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result = result ;
+shift =  digit >> shift ; continuation = true ;
+ shift += digit & VVLQ_BASE_SHIFT;
+shift =  digit >>> 0 ; continuation = true ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 )
+ while (continuation) { result >>>= shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation = true ; break ;
+ if ( continuation ) { result += (digit << shift);
+ if ( result > 0 ) { result = result + (digit << shift); if ( shift > 0 ) {
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result -= shift ;
+ if ( result > 0 ) { result = result + (digit << shift); if ( shift > 0 )
+ if ( result > 0 ) { result = result + (digit << shift); } while ( result > 0 ) ;
+ if ( continuation ) { result += digit << shift ; }
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result += shift ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( continuation ) {
+shift = shift  ; continuation ++ ;
+ if ( result > 0 ) { result = result + shift ; } if ( shift > 0 ) { result = result - shift ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift = - 1 ;
+ shift = result - (digit)shift + VLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation = continuation ; shift ++ ;
+ continuation = continuation ; shift = digit << shift ;
+ if ( result > 0 ) { result = result + (digit << shift); } while ( continuation ) ;
+ if ( result > 0 ) { result = result + (digit << shift); continuation = true ; }
+ shift = digit.shift + VLQ_BASE_SHIFT;
+shift  = digit >>> 1 ; continuation = true ;
+shift =  digit >> shift ; continuation =! continuation ;
+shift = shift  ; continuation = true ; }
+ if ( result > 0 ) { result = result + (digit << shift); if ( continuation ) {
+shift =  in. next ( ) ; continuation = true ;
+ if ( continuation ) {
+shift = shift  ; continuation = continuation ; shift += digit ;
+shift = shift  ; continuation = continuation ; shift += 1 ;
+shift =  digit >>> shift ;
+ continuation = continuation ; shift = digit >>>= VVLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation ; break ; }
+ shift = result + (digit)*shift + VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > - 1 ) {
+ if ( result > 0 ) { result = result + shift ; continue ; } if ( shift > 0 ) { result = result ;
+ if ( result > 0 ) { result = result + shift ; } else { result = result - shift ; } if ( continuation ) {
+ if ( result > 0 ) { result = result + VLQ_BASE_MASK ; continue ; }
+ shift = 0 ; result >>>= shift + VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + shift ; } if ( shift > 0 ) { result = result + shift ;
+ continuation = continuation ; shift += digit << shift ;
+shift = shift  ; continuation = continuation ||! continuation ;
+shift =  digit >>> shift ; continuation = false ;
+shift = shift +  1 ; continuation = continuation ; break ; }
+ if ( result > 0 ) { result = result + (digit << shift); if ( result < 0 ) { result = result - shift ;
+ if (result > 0) { result >>>= shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = digit & 0xff ;
+ continuation =! continuation ; shift += digit ;
+ if ( continuation ) { result = result + (digit << shift) ; }
+ if ( result > 0 ) { result = result + (digit << shift); if ( result > 0 ) {
+ if ( result > 0 ) { result = result + VLQ_BASE_SHIFT ; } else {
+ if ( result > 0 ) { result = result + (digit << shift); } else {
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result <<
+ continuation = continuation ; shift = digit >> shift ;
+ if ( result > 0 ) { result = result + (digit << shift); if ( result > 0 )
+ while ( continuation ) { result += digit << shift ;
+ continuation = continuation ; shift += digit >> shift ;
+ continuation = continuation ; shift += -1;
+shift = shift  ; continuation = continuation ; result = digit ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ||! continuation ;
+ shift = result + digit>>shift + VLQ_BASE_SHIFT;
+shift =  digit >>> shift ; continuation = continuation || false ;
+ continuation = continuation ; shift = shift+ VLQ_BASE_SHIFT;
+ shift += 1 ; result >>>= shift + VLQ_BASE_SHIFT;
+ while (continuation) { result = result+ VLQ_BASE_SHIFT;
+shift = shift +  7 ; continuation = continuation ; shift += 7 ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result ++ ;
+ shift = digit >>> shift+ VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + (digit << shift); if ( result < 0 ) break ; }
+ if ( result > 0 ) { result = result + (digit << shift); } continuation = true ;
+ if ( result > 0 ) { result = result + (digit << shift); if ( result < 0 ) {
+shift  = digit >>> shift ; continuation = true ; }
+ continuation = continuation ; shift = digit & VVLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result - (digit << shift); continuation = true ; }
+ shift |= VVLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + shift ; } else { result = result + (digit << shift); }
+shift  += 1 ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result = shift ;
+ if ( result > 0 ) { result = result + (digit << shift); }
+ continuation = continuation ; shift = 0 ;
+ while (shift > 0) { continuation = continuation ; shift = shift ; } while ( continuation ) ;
+ continuation = in. next ( ) ; shift += 1 ;
+shift =  0 ; continuation = continuation ; shift = shift ;
+ continuation = continuation ; shift = digit ; }
+shift = shift  ; continuation = continuation || false ;
+ if ( result > 0 ) { result = result + shift ; continue ; } if ( shift > 0 ) { result = 0 ;
+ if ( result > 0 ) { result = result + (digit << shift); } else { result = result + c ; }
+ while ( continuation ) { continuation = continuation ; shift = shift ; } while ( shift ) ;
+shift = shift +  (character << shift); continuation = true ;
+shift = shift + VLQ_BASE_SHIFT ; break ;
+ if ( continuation ) { result += c << shift ;
+ if ( result > 0 ) { result = result + (digit << shift); } else { result = 0 ;
+ shift = result << shift+ VLQ_BASE_SHIFT;
+ shift += digit >>>=VLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation | digit ;
+ continuation = continuation ; shift = digit ; result = c ;
+shift = shift  ; continuation = continuation!= 0 ;
+ if ( shift > 0 ) { continuation = true ; break ; }
+shift  += digit ; continuation = true ;
+ continuation = continuation ; shift = digit & ~ 1 ;
+ continuation = continuation ; shift += (digit << shift;
+ if ( result > 0 ) { result = result + (digit << shift) ; }
+ if ( continuation ) { result = result + digit ;
+shift = shift  ; continuation =! continuation ; break ; }
+ if ( continuation ) { result = result + (digit << shift); break ; }
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift += 1 ;
+shift  = digit >>> shift ; continuation ++ ;
+ if ( continuation ) { result = result + (digit << shift) + 1;
+shift =  0 ; continuation = continuation ; shift = 0 ;
+shift  += digit >>> shift ;
+shift  += digit >> shift ;
+ continuation = continuation ; shift = digit << shift ;
+ while (continuation) result >>>= VVLQ_BASE_SHIFT;
+ shift = result + (digit << shift) -shift + VLQ_BASE_SHIFT;
+ if ( shift > 0 ) { continuation = shift ; } else {
+ continuation = continuation ; shift = digit >> shift ; break ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift = shift ; }
+shift  += digit << shift ;
+ shift = -shift;
+ if ( shift > 0 ) { continuation =! continuation ; } else {
+ if ( result > 0 ) { result = result + (digit << shift);
+ shift += digit ; result >>>= shift + VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result =
+ shift = digit ; result >>>= shift + VLQ_BASE_SHIFT;
+shift  = digit >>> 0 ; continuation ++ ;
+shift = shift  ; continuation = true ; break ; }
+ shift = result + (digit << shift)+ VLQ_BASE_SHIFT;
+ if ( result > 0) { result = result - (digit << shift);
+ continuation = continuation ; shift += digit ; }
+ continuation = continuation ; shift = digit ;
+ if ( result > 0 ) { result = result + (digit << shift); } if ( shift > 0 ) { result >>>
+ continuation = continuation ; shift >>>= VVLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation &&! continuation ;
+ continuation = continuation ; shift = digit >> shift ; }
+ if ( continuation ) { result = result + shift ; }
+ shift = result >>> shift; result >>>= shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = digit >>> shift ;
+shift = shift +  (digit << shift); continuation = true ;
+ continuation = continuation ; shift += digit >>>= VVLQ_BASE_SHIFT;
+ shift = result >>>=shift + VLQ_BASE_SHIFT;
+ continuation = shift ; shift ++;
+ if ( continuation ) { break ;
+ if ( shift > 0 ) { continuation = continuation ; break ; } else {
+ if ( result == 0 ) { break ; } continuation =! continuation ; shift ++ ;
+shift = shift +  7 ; continuation = continuation ; shift = 0 ;
+shift = shift +  1 ; continuation = continuation ; shift += 2 ;
+ continuation = result + (digit << shift) ;
+ if ( result == 0 ) { break ; } continuation = continuation ; shift += 1 ;
+ continuation =! continuation ; shift = 0;
+ if ( continuation ) { continuation = false ;
+ continuation = continuation ; shift = digit << shift+ VLQ_BASE_SHIFT;
+ if ( continuation ) break ;
+ if ( result > 0 ) { result = result + (digit << shift) - 1 ;
+ if ( result == 0 ) { break ; } continuation = continuation ; shift += digit ;
+ if ( continuation ) { result += digit ; }
+ while (continuation) { result <<= shift + VLQ_BASE_SHIFT;
+ if ( result == 0 ) { break ; } continuation = continuation ; shift = shift ;
+ while (continuation) result >>>= shift + VLQ_BASE_SHIFT;
+shift  = digit & 0xff ;
+ shift = result + (digit)^shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation ; shift += digit ; }
+ shift = result + (character << shift)shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation =! continuation ; }
+ while (continuation) { shift += VVLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation = continuation || false ;
+ shift += digit >> VVLQ_BASE_SHIFT;
+ if ( continuation ) { result = result + (digit << shift); break ;
+ continuation = digit & 1 ;
+ if ( result > 0 ) { result = result + (digit << shift) + continuation ;
+ if ( shift > 0 ) { continuation =! continuation ; break ; } else {
+shift  = digit & ~ 1 ;
+shift  = digit >>> 0xFF ;
+ if (result > 0) result >>>= shift + VLQ_BASE_SHIFT;
+shift = shift  ; continuation = true
+ shift = result + (digit << shift) >>>shift + VLQ_BASE_SHIFT;
+ while (shift < 0) { continuation = shift < 0 ; }
+ while (shift > 0) { continuation = shift < 0 ; }
+ shift = result + (digit << shift+ VLQ_BASE_SHIFT;
+shift = shift  ; continuation = continuation ; shift = shift ; }
+ continuation = continuation ; shift = digit >>> shift ; }
+ if ( shift > 0 ) { continuation = true ; } else {
+ continuation = continuation ; shift = digit ; result = result ;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift += digit ; }
+shift = shift  ; continuation = continuation ; shift = 0 ; }
+ while (continuation) { result += digit<<shift + VLQ_BASE_SHIFT;
+ shift = result - (digit).shift + VLQ_BASE_SHIFT;
+ if ( shift > 0 ) { continuation =! continuation ; break ; }
+shift = shift +  1 ; continuation = continuation ||! continuation ;
+ while (shift > 0) { continuation = continuation ; shift = shift - 1 ;
+ shift = result << -shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = digit >>> shift ; break ;
+ if ( result > 0 ) { continuation = result + (digit << shift) ; }
+ continuation = result + (digit << shift)+ VLQ_BASE_SHIFT;
+shift  = digit >>> 1 ; continuation ++ ;
+shift = shift + VLQ_BASE_SHIFT ; continuation =! continuation ; shift += digit ;
+ break ; } while (continuation) >>>=VLQ_BASE_SHIFT;
+ digit >>>= VVLQ_BASE_SHIFT;
+ shift = result + (digit << shift) ^shift + VLQ_BASE_SHIFT;
+ if ( continuation ) { result = c ;
+ if ( result > 0 ) { result = result + (digit >>> shift) ; }
+ shift |= shift + VLQ_BASE_SHIFT;
+ continuation = result + continuation ; shift >>>= VVLQ_BASE_SHIFT;
+ while (shift < 0) { continuation = true ; break ;
+shift = shift  ; continuation = continuation ; shift = digit ; }
+ if ( result > 0 ) { continuation = continuation ; shift = 0 ;
+shift = shift +  1 ; continuation = continuation!= 0 ;
+ continuation = continuation ; shift = shift + 1;
+ while (shift < 0) { continuation = continuation ; shift = shift - 1 ;
+ continuation = in. next ( ) ; shift = - 1 ;
+ continuation = continuation ; shift = digit >>> shift
+shift = shift + VLQ_BASE_SHIFT ; continue continuation ;
+ shift = digit << shift*+ VLQ_BASE_SHIFT;
+ while (shift < 0) { continuation = continuation ; shift = shift ; }
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation!= 0 ;
+ shift = digit >>>= ~VVLQ_BASE_SHIFT;
+ shift = (digit)shift + VLQ_BASE_SHIFT;
+shift = shift +  2 ; continuation =! continuation ;
+ if ( continuation ) { result += result + (digit); }
+ while (shift > 0) { continuation = continuation ; shift = shift ; } while ( continuation )
+ if ( continuation ) { result = result + digit ; }
+ continuation = continuation ; shift = digit >>> shift ; result += digit ;
+ if (result > continuation) { result >>>= shift + VLQ_BASE_SHIFT;
+shift =  - 1 ;
+shift  = digit >>> shift ; continue ;
+ shift = digit >>>=VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation =! continuation ; }
+shift = shift +  1 ; continuation = true ; }
+ shift = result >> shift ; result >>>+ VLQ_BASE_SHIFT;
+ if ( continuation ) { result += digit << shift }
+ if ( shift > 0 ) { continuation =! continuation ; shift = 0 ;
+ while ( continuation ) { continuation = continuation & 1 ; }
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation || false ;
+shift = shift +  1 ; continuation = continuation ; break ;
+ if ( result > 0 ) { result = result + VLQ_BASE_MASK ; continuation = false }
+shift  = digit >>> shift ; break ;
+ while ( continuation ) ;
+ continuation = continuation ; shift = digit >>>=VLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation = continuation | digit ;
+shift = shift  ; continue continuation ;
+ continuation = continuation ; shift = digit >> shift+ VLQ_BASE_SHIFT;
+ continuation = result + shift ; shift = result >>>= shift + VLQ_BASE_SHIFT;
+ if ( continuation ) { break ; }
+shift = shift + VLQ_BASE_SHIFT ; return result ;
+ continuation = continuation ; shift += digit << shift ; }
+ shift = shift*+ VLQ_BASE_SHIFT;
+shift = shift +  (character << shift) ;
+ while (shift > 0) { continuation = continuation ; shift = shift - result ;
+ while (shift > 0) { continuation = continuation ; shift = shift ; } while (true);
+ if ( result > 0 ) { continuation = true ; shift = 0 ;
+ while (shift < 0) { continuation = continuation ; shift = 0 ; }
+ continuation = continuation ; shift = digit >>> shift ; continuation = false ;
+ continuation = result + (digit >> shift); shift= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = continuation ; shift = 0 ; }
+ if ( result > 0 ) { result = result + (digit << shift); continuation = true ; } }
+ if ( continuation ) { result = result + (digit); }
+shift  = digit >>> shift ; continuation = continuation ; }
+ shift = result + -shift + VLQ_BASE_SHIFT;
+ if (result > 0) { result <<= shift + VLQ_BASE_SHIFT;
+ shift = digit >>>= shift + VLQ_BASE_SHIFT;
+ continuation = result + (digit); result >>>= shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = digit >>> VVLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = digit & 1 ;
+ continuation = continuation ; shift = digit >> shift ; break ; }
+ shift = digit >>>= -VVLQ_BASE_SHIFT;
+ shift += digit << shift+ VLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + continuation ; }
+ while (continuation) result <<= shift + VLQ_BASE_SHIFT;
+shift = shift +  (digit << 7);
+ shift >>>= shift + VLQ_BASE_SHIFT;
+ break ; } while (continuation); result <<+ VLQ_BASE_SHIFT;
+ if ( result > 0 ) { continuation = true ; shift += result ;
+ if ( result > 0 ) { continuation = continuation ; shift += result ;
+ if ( result > 0 ) { continuation = continuation ; shift += 1 ;
+shift  = digit >>> 0 ; continuation = true
+shift = shift +  1 ; continue ;
+ continuation = continuation ; shift = shift*+ VLQ_BASE_SHIFT;
+ while (shift > 0) result += digit <<= shift + VLQ_BASE_SHIFT;
+ if (result > continuation) { result <<= shift + VLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation = continuation!= false ;
+shift = shift  ; continuation = continuation ; }
+shift  += digit ; continuation = false ;
+ shift |+ VLQ_BASE_SHIFT;
+ continuation = digit >>>= VVLQ_BASE_SHIFT;
+ if (result > 0) { continuation result >>>= shift + VLQ_BASE_SHIFT;
+ if ( continuation ) continuation ++ ;
+ shift = result + digit*shift + VLQ_BASE_SHIFT;
+ shift = digit*shift + VLQ_BASE_SHIFT;
+ shift = result >>> shift ; result >>>+ VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation |= digit ;
+ continuation = continuation ; shift = digit & - 1;
+ continuation = continuation ; shift = digit >>> shift ; result = digit ;
+ break ; } while (continuation >>>= VVLQ_BASE_SHIFT;
+ while (continuation) shift |= shift + VLQ_BASE_SHIFT;
+ shift += digit >>>+ VLQ_BASE_SHIFT;
+ break ; } while (continuation) result <<+ VLQ_BASE_SHIFT;
+shift = shift +  1 ; continuation ;
+ continuation = true ; break ;
+ continuation = result + (digit << shift)*+ VLQ_BASE_SHIFT;
+ shift = result >>>(shift + VLQ_BASE_SHIFT;
+ continuation = in. next ( ) ; shift += digit ; }
+shift = shift +  1 ; continuation ++ ;
+shift = shift +  (digit << 2);
+ while (continuation) { shift= shift + VLQ_BASE_SHIFT;
+ shift += digit >> 1;
+ while (continuation) { result = result*+ VLQ_BASE_SHIFT;
+ while (shift > 0) result += digit >>>= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation -- ;
+ shift = ~shift + VLQ_BASE_SHIFT;
+shift =  0 ; continuation =! continuation ; }
+ shift = digit >> shift*+ VLQ_BASE_SHIFT;
+ if ( continuation ) { break }
+ continuation = continuation ; shift += 1;
+ continuation = continuation & 1 ;
+ continuation = continuation ; shift = digit >>>+ VLQ_BASE_SHIFT;
+ continuation = result + (digit << shift) >>>+ VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = true
+ continuation = result ; shift = 0;
+shift  += digit ; }
+shift  = digit >>> 0 ; continue ; }
+ while (shift < 0) { continuation = true ; break }
+ if ( shift > 0 ) { continuation = true ; break ; } }
+ continuation = continuation ; shift = digit >>>= shift;
+ continuation = continuation ; shift += digit;
+ shift = digit >>>= ^ VVLQ_BASE_SHIFT;
+ if ( continuation ) { result <<
+shift = shift + VLQ_BASE_SHIFT ; continuation = flag ;
+shift = shift  ; continuation = false
+ while (continuation) shift >>>= shift + VLQ_BASE_SHIFT;
+ shift += (digit << shift;
+ continuation = digit >>>= ~VVLQ_BASE_SHIFT;
+shift =  digit >>> 0xffff ;
+shift = shift  + 1
+ shift = result << shift*+ VLQ_BASE_SHIFT;
+ if ( shift > 0 ) { continuation =! continuation ; break ; } }
+ continuation = digit >>>= -VVLQ_BASE_SHIFT;
+ shift = digit+shift + VLQ_BASE_SHIFT;
+ shift = result + (digit)+ VLQ_BASE_SHIFT;
+shift =  digit & - 1 ;
+ if ( result > 0 ) { result = result + (digit << shift); } }
+shift = shift  ; continuation = false ; }
+ shift = --shift + VLQ_BASE_SHIFT;
+ if ( continuation ) { result += digit }
+ continuation = continuation ; shift += 1 ;
+ continuation = continuation ; shift |= VVLQ_BASE_SHIFT;
+ shift -= VVLQ_BASE_SHIFT;
+ if ( result > 0 ) { result = result + (digit << shift); } else
+ if ( shift > 0 ) { continuation = shift ; break ; } }
+ shift ; shift >>>= shift + VLQ_BASE_SHIFT;
+ continuation = continuation ; shift = digit+ VLQ_BASE_SHIFT;
+shift =  digit >> 1 ;
+ shift = digit << shift |+ VLQ_BASE_SHIFT;
+shift = shift  ; continuation = flag ;
+ if ( shift > 0 ) { continuation = continuation ; break ; } }
+ result += digit >>>= shift + VLQ_BASE_SHIFT;
+ continuation = in. next ( ) ; shift += continuation ; }
+shift =  digit >>> shift
+ continuation = in. next ( ) ; shift = digit ; }
+ continuation =! result == 0;
+shift = shift + VLQ_BASE_SHIFT ; continuation ;
+ if ( continuation ) { continue ; }
+shift = shift  ; continuation = continuation ;
+ shift = (digit >> shift;
+ shift = digit >> shift + shift+ VLQ_BASE_SHIFT;
+ shift += digit << shift*+ VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; continuation = True ;
+shift  = digit >>> shift ; }
+shift  = digit >> shift ; }
+ shift = digit << shift + result+ VLQ_BASE_SHIFT;
+shift =  digit >> shift
+ shift = digit >>= VVLQ_BASE_SHIFT;
+ shift = ++shift + VLQ_BASE_SHIFT;
+ continuation ++ ;
+ shift ++ ; result >>= shift + VLQ_BASE_SHIFT;
+ shift = digit >>>= 0x1VLQ_BASE_SHIFT;
+ while ( continuation )
+shift = shift +  digit << 1 ;
+ shift = digit >>>= 7 - VVLQ_BASE_SHIFT;
+ shift = digitShift+ VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT - 1 ;
+ if ( continuation ) { result >>>
+ shift = result >>>+ VLQ_BASE_SHIFT;
+shift = shift +  1 ; break ;
+ shifted >>>= VVLQ_BASE_SHIFT;
+ shift = digit >>>= 0x7VLQ_BASE_SHIFT;
+shift = shift  - 1 ;
+ shift &= VVLQ_BASE_SHIFT;
+ shift += 2;
+shift =  digit ;
+ shift = (shift + VLQ_BASE_SHIFT;
+shift = shift +  digit << shift ;
+ continuation --;
+shift = shift  ; }
+ shift -= -1;
+ result >>>= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT + 1 ;
+ shift = digit+ VLQ_BASE_SHIFT;
+ shift = VVLQ_BASE_SHIFT;
+ shift += -shift;
+shift  += continuation ; }
+shift =  digit >>> 1
+ shift += digit+ VLQ_BASE_SHIFT;
+ shift -= 1;
+shift = shift  + 2 ;
+ continuation ;
+ shift += fromVLQ_BASE_SHIFT;
+ shift &= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT ; }
+ shift *+ VLQ_BASE_SHIFT;
+shift = shift  >> 1 ;
+ << VVLQ_BASE_SHIFT;
+ shift ^= shift + VLQ_BASE_SHIFT;
+ shift += toVLQ_BASE_SHIFT;
+ shift>>+ VLQ_BASE_SHIFT;
+shift = shift +  - 2 ;
+ >> VVLQ_BASE_SHIFT;
+shift = shift +  1 ; }
+ continuation =
+ + VVLQ_BASE_SHIFT;
+ | VVLQ_BASE_SHIFT;
+ shifted = shift+ VLQ_BASE_SHIFT;
+shift  -- ;
+ shift = shifted+ VLQ_BASE_SHIFT;
+ result >>>+ VLQ_BASE_SHIFT;
+shift ++; ;
+shift = shift & VLQ_BASE_SHIFT;
+ break;
+shift = shift  | 1
+shift = shift  - 1
+ + continuation;
+shift =  1 ;
+ --shift;
+ result >>>
+shift = shift +  3 ;
+shift =  continuation ;
+shift = shift  | 0
+ break; }
+shift = shift +  4 ;
+shift = shift | VLQ_BASE_SHIFT;
+ * result >>>= shift + VLQ_BASE_SHIFT;
+shift = shift >>> VLQ_BASE_SHIFT;
+ shift result >>>= shift + VLQ_BASE_SHIFT;
+ shift *== shift + VLQ_BASE_SHIFT;
+ * shift |= shift + VLQ_BASE_SHIFT;
+ * result <<= shift + VLQ_BASE_SHIFT;
+shift = shift - VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT break ;
+shift += shift + VLQ_BASE_SHIFT;
+ int
+ *
+shift -= shift + VLQ_BASE_SHIFT;
+shift = shift + VLQ_BASE_SHIFT. }
+shift < shift + VLQ_BASE_SHIFT;

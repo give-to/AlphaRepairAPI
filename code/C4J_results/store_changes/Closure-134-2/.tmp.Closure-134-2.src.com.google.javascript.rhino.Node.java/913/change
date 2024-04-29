@@ -1,0 +1,424 @@
+ sb.append("] [end line: ");
+ } else {
+ sb.append"] [end line: ");
+ sb.append(");
+ } else { sb.append("] [end line: ");
+ sbappend("] [end line: ");
+ sb.append);
+ sb.append(""] [end line: ");
+sb.append("] [end: ");
+ sb.append(";
+ if (printType) sb.append("] [end line: ");
+sb.append(sof.getStartLineno());
+ sb.append("] [end: ";
+ if (printType) {
+sb.append();
+ if (printAnnotations) sb.append("] [end line: ");
+ sb.append("] ");
+ if (printType)
+ sb.append("] end: ";
+sb.append
+ } else sb.append("] [end line: ");
+ } sb.append("] [end line: ");
+ sb.append(" ");
+ if (printAnnotations) {
+ sb.append("] ";
+ sb.append(" ";
+ sb. append("] [start line: "); sb. append(sof.getStartLineno()); }
+ sb.append(']'); sb.append("] [end line: ");
+ sb. append("] [start line: "); sb. append(sof.getStartLine());
+ sb. append ( ). append("] [end line: ");
+ } else if (printAnnotations) {
+sb.append(sof.getStartLineno);
+ sb. append("] [start line: "); sb. append(sof.getStartLineno());
+ sb. append('] [start line: "); sb. append(sof.getStartLineno()); }
+ sb. append("] [start line: "); sb. append(sof.getStartLineno()); } else {
+ sb.append("] end: ");
+ } else
+ sb. append("] [end line: "); sb.append(sof.getEndLine());
+ sb.append("]"] [end line: ");
+ if (printAnnotations) { sb.append("] [end line: ");
+ sb. append("] [end line: "); sb.append(sof.getEndLine ( )));
+ sb. append ( ) +("] [end line: ");
+ } else if (type == Token.END) {
+sb.append("] [end line:"
+sb.append(sof.getStartLineno() + 1);
+ sb. append("] [end line: "); sb.append(sof.getEndLineNumber ( )));
+ sb. append("] [end line: "); sb.append(sof.getEndLine()); if (printType)
+ sb. append("] [start line: "); sb. append(sof.getStartLineno()); } else
+sb.append("] [end line: "); if (printType)
+ sb. append('] [start line: "); sb. append(sof.getStartLineno()); } else
+sb.append("] [end line: "); if (printEndLineno)
+ sb. append("] [end line: "); sb. append(sof.getEndLine()); } } else {
+ } if (printAnnotations) {
+ } } else {
+ sb. append("] [end line: "); sb.append(sof.getEndLine()); }
+sb.append(sof.getEnd());
+ } if (printType) {
+ } else if (printType) {
+ sb.append (("] [end line: ");
+ sb. append("] [end line: "); } else {
+ } if (printType) { sb.append(' ');
+ } else if (type == Token.END)
+ sb. append('] [end line: ");
+ sb.append(' ');
+ sb. append ( "] [end line: "));
+ } if (printAnnotations) { sb.append("] [end line: ");
+ sb. append("] [end line: "); sb.append(sof.getLine());
+ sb. append ( sb. append("] [end line: ");
+sb.append("] [end line: "); sb.append("] ");
+ sb. append("] [end line: "); sb.append(sof.getEndLine()); sb. append());
+ sb.append("] [""] [end line: ");
+ sb. append("] [end line: "); sb.append(sof.getEndLine()); sb. append();
+ } if (printType) { sb.append(" [type:");
+sb.append("] [end line: "); if (printEndLine)
+ sb.append("] ["] [end line: ");
+ sb. append("] [end line: "); sb.append(sof.getEnd());
+ } else if (type == Token.TEXT) {
+ sb.append("] [");
+ sb. append("] [end line: "); sb.append(getLineno()); }
+ sb. append("] [start line: "); sb. append(sof.getStartLineno()); if (append)
+sb.append("] [end line: "); sb.append("] [");
+sb.append("] [end line: "); if (printType) {
+ } if (printType) { sb.append("] [end line: ");
+ sb. append("] [start line: "); sb. append(sof.getStartLineno()) + 1);
+ } else if (type == Token.NUMBER) { sb.append();
+sb.append(sof.getStart());
+ } else if ( type == Token.STRING) { sb.append(" [start line: ");
+sb.append(sof.getBaseLine());
+ sb. append("] [end line: "); } else {
+sb.append(sof.getEndBaseLineno());
+ sb. append("] [end line: "); sb.append(sof.endLine());
+sb.append("] [end lineno: ");
+ } else if (type == Token.END) { sb.append(' ');
+ } else if ( type == Token.NUMBER) { sb.append(' '); }
+ } if (printType) { sb. append(" [type ");
+sb.append(sof.getStartLineno()); }
+ } else if (printType) { sb.append("] [end line: ");
+ sb. append ( "] [end: "));
+ } else if ( type == Token.END ) { sb. append(" [end ");
+ sb. append("] [end line: "); else {
+ } else if ( type == Token.NUMBER) { sb.append(' ');
+ } else if ( type == Token.NUMBER) { sb.append(" [end: ");
+ } if (printType) { sb. append(" [end: ");
+sb.append(sof.getStartLine());
+ } if (printType) sb.append("] [end line: ");
+ } else if ( type == Token.NUMBER) { sb.append(" [end ");
+sb.append("] [end line: "); sb.append("] " ;
+sb.append("] [end line: "); getLineno();
+sb.append("] [end line: "); sb.append(");
+ sb. append("] [end line: "); sb.append(getLine ( )));
+sb.append("] [end line: "); sb.append(getLineno());
+ sb. append('] [end line: "); } else {
+sb.append(sof.getEndBaseLine());
+ } else if ( type == Token.STRING) { sb.append(" [start: ");
+ } else if (type == Token.END) { sb.append();
+sb.append(sof.getStartLine);
+sb.append(sof.getBaseLineEnd());
+ sb.append("] end ");
+ sb.append("] [" + type +"] [end line: ");
+ sb. append("] [start line: "); } else {
+ } if (printType) { sb.append(' '); }
+ sb.append("""] [end line: ");
+sb.append(sof.getStartLineno()++);
+ sb.append('] sb.append("] [end line: ");
+ sb. append ( sb. +("] [end line: ");
+ } if (printType) { sb.append(" ");
+ sb. append("] [end line: : ");
+ } else if (type == Token.END) { sb.append("");
+ sb. append("] [end line: ");
+ sb.append(' ';
+ sb.append("] [" + ""] [end line: ");
+ sb. append("] [end line: "); } else
+ } else if (printEndLine) {
+ } else if (type == Token.TEXT)
+ sb. append("] [end: ");
+ sb.append("] end line: ";
+ sb. append("] [end base line: ");
+ } else if (type == Token.NUMBER) { sb.append("");
+ } if (printAnnotations) sb.append("] [end line: ");
+ } if (printType) { sb.append(" "); }
+ } else if ( type == Token.UNKNOWN ) { sb. append(" [unknown ");
+ } else if ( type == Token.UNKNOWN ) { sb.append(" " ;
+ } else if ( type == Token.STRING ) { sb.append(" [");
+ sb. append("] [start line: ");
+ sb.append(']'); sb +=("] [end line: ");
+ if (printType sb.append("] [end line: ");
+ } else if ( type == Token.STRING) { sb.append(" [end ");
+sb.append("] [end line: "); sb.append(getLineNumber());
+ sb. append("] [end line: "); } else
+ } else if (type == Token.NUMBER) { sb.append(");
+ } else if (type == Token.UNKNOWN) { sb.append("");
+ } else if (type == Token.END_LINE) {
+sb.append(sof.getStartLineno() - 1);
+sb.append(sof.getStartLineno()) + 1);
+ sb. append("] [end line: "); }
+.append("] [end line: ");
+ } else if (type == Token.CHAR) {
+sb.append("] [end line: ") getLineno();
+ } } else if ( type == Token.STRING) { sb.append(" [ ");
+ if (printType) { sb.append("] [end line: ");
+ } else if ( type == Token.NUMBER ) { sb.append(" " ;
+ sb.append(']'); sbappend("] [end line: ");
+ } else if (type == Token.ENDLINE) {
+ sb. append("] [end name: ");
+ sb.append(']; sb.append("] [end line: ");
+ sb. append('] [end line: "); else {
+sb.append(sof.getStartLineno()+);
+sb.append("] [end line: ") if (printEndLine)
+sb.append("] [end line: "); sb.append(getLine()); }
+ sb.append('] [');
+ sb.append("] ["""] [end line: ");
+ } else if ( type == Token.END ) { sb. append(" [end " ;
+sb.append('] [end: ");
+ sb.append('] ');
+ sb.append ";
+ } else if (type == Token.CHAR)
+ sb.append("] " + ""] [end line: ");
+ } if (printType) { sb.append(" [ ");
+ sb.append(']' ; sb.append("] [end line: ");
+ sb +="] [end line: ");
+ else { sb.append("] [end line: ");
+ sb.append("] end ";
+ sb. append("] [end lineno: "); else {
+ sb. append("] [end line: "); }
+ sb.append("] [";
+ sb. append("] [start line: "); } else
+ sb +=("] [end line: ");
+ sb.append("] " +"] [end line: ");
+sb.append("] [end line: ") if (printEndLineno)
+ sb.append(": ";
+ sb.append("] end (");
+ sb += 1;
+sb.append("] [end line: ") sb.append(");
+ if (printEnd) {
+ sb.append("] end line ";
+sb.append(sof.getBaseEnd());
+sb.append(getLineNumber());
+ sb.append("] end [");
+sb.append(sof.getEndLine());
+ sb.append("] [end line:";
+ sb.append(sb).append("] [end line: ");
+ if (printEndLine) {
+ } if (printEndLine) {
+ } if (printEndLineno) {
+ sb.append("]: ";
+ sb.append("]"; sb.append("] [end line: ");
+ sb.append("] [end: ",
+ sb.append;
+sb.append("] [end line: "); sb.append(" ");
+sb.append(sof.getBeginLineno());
+sb.append(getLine ( ));
+sb.append("] [end line: ") else if (type == Token.ENDLINE)
+ if (printEndLineno) {
+ sb.append('] ';
+sb.append(getLineNumber()); }
+ } if (printType) { printType }
+sb.append("] [end line: ") else if (type == Token.END) {
+sb.append(sof.getBaseEndLine());
+ } if (printType)
+ if (!printType) sb.append("] [end line: ");
+sb.append(sof.getBaseLine()); }
+ sb. append("] [end line: "); if printSource
+ sb.append("] line ";
+ sb.append(": ");
+sb.append("] [end line: ") if (printType)
+sb.append("] [end line: "); if (printSource)
+ } if (printType) { printType(); }
+sb.append(sof.getEndBaseLineno()++);
+ } else { sb.append(("] [end line: ");
+sb.append("] [end line: ") if (printType) {
+ } else if (type == Token.END())
+sb.append("] [end line: ") else if (type == Token.END)
+sb.append("] [line: ");
+ sb.append(']'); } else
+ sb. append("] [end line: "); if printType
+sb.append(getEndLineno()); }
+sb.append("] [end line: ") sb.append(getLineno());
+ sb.append("] [end line ");
+sb.append("] [end line: ") sb.append("] ");
+ sb. append_append("] [end line: ");
+ sb. append ( )append("] [end line: ");
+sb.append(getLineno()); }
+sb.append('] [end line: ');
+sb.append("] [end line: ") if (endLine!= -1)
+ sb.append("]: ");
+sb.append("] [end line: ") sb.append("]" ;
+ } if (printType) sbappend("] [end line: ");
+ sb+"] [end line: ");
+ sb. append ( )("] [end line: ");
+sb.append("] [end line: ") sb.append("] [");
+ sb.append("] [" + "\"] [end line: ");
+ sb.append("] [" + name +"] [end line: ");
+sb.append("] [end line: ") this. append (getEndLineno()); }
+ sb. append ( "("] [end line: ");
+sb.append("] [end line: ") else if (type == Token.LINEEND)
+sb.append(sof.getBaseLine()));
+sb.append("] [end line: "); sb.append();
+sb.append("] [end line:
+ sb.append("] (");
+sb.append(sof.getBaseLineEnd()));
+sb.append(getLineno());
+ if (printEndLineno)
+sb.append(sof.getLine);
+sb.append("] [end line: ") else if (printEndLineno)
+ else if (type == Token.END)
+sb.append("] [end line: ") getLineno(); }
+sb.append("] [end line: "); if (printSource) {
+sb.append(sof.getBeginLine);
+sb.append("] end line:");
+sb.append(sof.getStartLineno()); } else
+sb.append(sof.getLine());
+ sb.append(");
+sb.append("] [end line: "); if (!printType)
+ }
+sb.append("] [end line: ",
+sb.append(sof.getStartLineno()));
+sb.append("] [end line: ") else if (type == Token.TEXT)
+ sb.append());
+sb.append());
+ printSource);
+sb.append(sof.getEndName());
+ if (printType) sbappend("] [end line: ");
+ sb.append("");
+ sb.append("] " + "\"] [end line: ");
+ sb.append(']'); }
+ if (!printType)
+ } if (printType sb.append("] [end line: ");
+ sb. append ( "\"] [end line: ");
+sb.append("] [end line: ") getLineno());
+ sb("] [end line: ");
+sb.append("] [end line: "); getLineno(); }
+sb.append("] [end line: ") sb.append("] [end line:"
+ if (printType) s.append("] [end line: ");
+sb.append(sof.getEnd);
+sb.append(sof.endLine);
+ sb += 2;
+ sb.append(" ';
+sb.append("] [end:"
+ sb.append();
+sb.append("] [end line: ") if (endLine!= null)
+sb.append(getDouble());
+sb.append(': ');
+sb.append(endLineno);
+ sb. appendAndappend("] [end line: ");
+sb.append(sof.getString);
+ sb. append. "("] [end line: ");
+sb.append("] [end line: ") getLine ( ) ;
+sb.append("] [end line: "); if (end)
+ sb += "";
+ sb.append(' ');
+sb.append(getBaseLine ( )));
+sb.append("] [end line: ") this. getLineNumber());
+ if (printType).append("] [end line: ");
+ else sb.append("] [end line: ");
+sb.append(getEndLineNumber()); }
+sb.append(getEndLine());
+sb.append(getLineNumber()); } else
+ sbappend ");
+sb.append(getStartLineno());
+ sb += indent;
+sb.append(getDouble()); }
+ sb =sb.append("] [end line: ");
+sb.append("] [end line: "); getLineno());
+sb.append("] [end line: ") getLineno(); } else
+sb.append("] [end line: ") getLineno()); }
+sb.append("] [end line: ") + 1;
+ if (printSource)
+sb.append(getLine ( )));
+sb.append("] [end line: "); (int)
+ sb(""] [end line: ");
+sb.append(getLineNumber()));
+ sb.("] [end line: ");
+ sbappend(");
+sb.append(getStartLineno);
+ append(' ');
+ printSource ();
+ sb.+"] [end line: ");
+sb.append(getString());
+sb.append(endLineno());
+ if (append)
+sb.append("] [end line: ") if (end)
+ getLine ();
+sb.append("] [end line: "); if (append)
+ setLine ();
+ sb+("] [end line: ");
+sb.append("] [end line: "); getLineNumber();
+sb.append("] [end line: "); -1 =
+ printLine ();
+sb.append("] [end line: ") + (int)
+sb.append("] [end line: ") + 1);
+ append("] [end line: ");
+ sb.="] [end line: ");
+ if (end)
+sb.append( ", ");
+ ++ i;
+ if (reverse)
+ } }
+ if (!print)sb.append("] [end line: ");
+ if (print)b.append("] [end line: ");
+ if (printType)).append("] [end line: ");
+ } else { }
+sb.append("] [end line: ") else {
+sb.append("] [end line: ") + " ");
+sb.append(lineNumber());
+sb.append("));
+ int lineno;
+ sb ++;
+ sb.append(');
+ s.append("] [end line: ");
+ sb sb.append("] [end line: ");
+ print ();
+ + ""] [end line: ");
+ printLine ++;
+ sb=("] [end line: ");
+ sb. _append("] [end line: ");
+ sappend"] [end line: ");
+sb.append("] [end line: ") -1;
+sb.append("] [end line: "); } }
+ print("] [end line: ");
+sb.append("] [end line: ") -1);
+ printSource ++;
+ else {
+sb.append(")
+ +("] [end line: ");
+ + 1;
+ append(""] [end line: ");
+ s +="] [end line: ");
+sb.append(', ');
+ sb. bold.append("] [end line: ");
+ print(");
+ line ++;
+ { sb.append("] [end line: ");
+ sbb.append("] [end line: ");
+sb.append("] [end line: "); else?
+sb.append("] [end line: " + this);
+ sb..append("] [end line: ");
+ ++ line;
+ printType);
+ ++ index;
+ + 1);
+ continue ; }
+sb.append("] [end line: "");
+. +("] [end line: ");
+ } } else
+ if (...)
+sb.append(1);
+ sb.end("] [end line: ");
+ sb. +("] [end line: ");
+sb.append("] [end line: ") +
+sb.append("] [end line: ") + 1
+ ss.append("] [end line: ");
+sb.append("] [end line: ") else?
+ if needed
+ if necessary
+sb.=
+ sb).append("] [end line: ");
+ else {b.append("] [end line: ");
+sb. +=
+ sb_append("] [end line: ");
+ cb.append("] [end line: ");
+ #("] [end line: ");
+ seb.append("] [end line: ");
+ rb.append("] [end line: ");
+ nb.append("] [end line: ");

@@ -1,0 +1,649 @@
+Fraction result = parse(source, parsePosition);
+ parse(source, parsePosition);
+Fraction result = parse(parsePosition);
+Fraction result = parse(source);
+Fraction result = parse(source, pos);
+ parse(parsePosition);
+ parse(source);
+ Fraction result = parseFraction(source, parsePosition);
+Fraction  result = null;
+ Fraction result = Fraction.parse(source, parsePosition);
+ result.parse(source, parsePosition);
+ parsePosition.setErrorIndex(0);
+ Fraction result;
+ result.parse(parsePosition);
+ parse(source, pos);
+ Fraction result = _parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos);
+Fraction result = parse(source, pos, parsePosition);
+ Fraction result = getNumeratorFormat(source, parsePosition);
+ result = parse(source, parsePosition);
+ Fraction result = getFractionFromString(source, parsePosition);
+ ParseException result = null;
+ ParseException result = ParseException;
+Fraction result = parse(source, parsePosition.getIndex());
+ Fraction result = parseInternal(source, parsePosition);
+ Fraction result = getFraction().parse(source, parsePosition);
+Fraction result = parse(String source, parsePosition);
+ ParseResult result = parse ( source, parsePosition ) ;
+ ParseResult result = parse ( source, parsePosition, pos ) ;
+ ParseResult result = parse ( source, pos ) ;
+ FractionResult result;
+Fraction result = parse(source, parsePosition) ; if (result == null) {
+ parsePosition.setErrorIndex(errorIndex);
+ Fraction result = super.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition) ; if (result == null) return null;
+ final FractionResult result= parse(source, parsePosition);
+Fraction result =  Fraction. parse ( source, pos ) ;
+ ParseResult result = parse ( parsePosition ) ;
+ Fraction result = getFractionInternal(source, parsePosition);
+ ParseResult result = parse ( source ) ;
+Fraction  result = new Fraction ( parsePosition ) ;
+ parsePosition.parse(source);
+Fraction result =  new Fraction ( source, parsePosition ) ;
+ parse source, parsePosition);
+ Fraction result = getNumerator().parse(source, parsePosition);
+ Fraction result = getNumerator. parse(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException(); }
+ final Fraction result= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition.getErrorIndex);
+Fraction  result = new Fraction ( ) ;
+ ParseResult result = parsePosition;
+ ParseException result = parsePosition;
+Fraction result = parse(source, parsePosition, pos); if (result == null) {
+ ParseException result = parse ( source, pos ) ;
+ ParseResult result = null;
+Fraction result = parsePosition;
+ Fraction result = getDecimalFormat().parse(source, parsePosition);
+ Fraction result = getFractionFrom(source, parsePosition);
+Fraction  result = parseFraction ( parsePosition ) ;
+ Fraction result = parseString(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { return null; }
+ Fraction result = getFractionFormat().parse(source, parsePosition);
+Fraction  result = new Fraction ( source ) ;
+ ParseException result = parseException;
+ final Fraction result = getFraction().parse(source, parsePosition);
+ parseString(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw ParseException(); }
+ Result result = parse(source, parsePosition);
+ Fraction result = parseInternal(parsePosition);
+ Parraction result = parse ( parsePosition ) ;
+ ParseResult result = parsePosition.result;
+ ParseException result = parse ( source, parsePosition ) ;
+ Fraction result.parse(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException("Error"); }
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException(); } final
+ ParseResult result = getDecimalFormat().parse(source, parsePosition);
+ final Fraction result = Fraction.parse(source, parsePosition);
+ ParseResult result = parse ( source, parsePosition, null ) ;
+ parse(source, parsePosition); if ( parsePosition. getErrorIndex ( ) ) { throw new ParseException ( ) ; }
+ Fraction result = getFractionInstance(source, parsePosition);
+ ParsseResult result = parse ( source, parsePosition, pos ) ;
+ Fraction result = getFraction(source,parsePosition);
+Fraction  result = parseFraction ( source ) ;
+Fraction result = parse(source, parsePosition.getOffset());
+ parsePosition.setIndex(0);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() > 0) { throw new ParseException("Error"); }
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw parseException(); }
+Fraction result = parse(source, parsePosition) ; if (result instanceof Fraction) {
+Fraction result = parse(source, parsePosition, null);
+ Parraction result = parse ( source, parsePosition ) ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { return ; }
+ Fraction result = getNumeratorFormat().parse(source, parsePosition);
+Fraction  result = ( Fraction ) parsePosition ;
+Fraction result = parse(source, pos, null);
+ ParseResult result = parse ( source, parsePosition, false ) ;
+ ParserResult result = parse(source, pos);
+ Fraction result = parseAsInteger(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException();
+Fraction result = parse(source, parsePosition).getFraction ( ) ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw parseException(); } final
+Fraction result =  new Fraction ( parsePosition, source ) ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException("Invalid"); }
+Fraction result = parse(source, parsePosition).getFraction (0);
+ FractionResult result= parse(source, parsePosition);
+ parse(source, parsePosition); return parse ( source, parsePosition. getIndex ( ) ) ;
+ final Fraction result = getFractionFromString(source, parsePosition);
+Fraction result = parseFraction ( source, pos ) ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw parseException; }
+ parsePosition.setSource(source);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw null; }
+ Fraction result = getDenominator().parse(source, parsePosition);
+ Fraction result = parseFromString(source, parsePosition);
+ final Fraction result = getDecimalFormat().parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos.getIndex());
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw new ParseException(); } }
+Fraction  result = ( Fraction ) null ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { return null }
+ parse(source, parsePosition); return parse ( source, parsePosition); }
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() > 0) { throw new ParseException(); } final
+ parse (source, parsePosition);
+ Fraction result = parseRaw(source, parsePosition);
+Fraction  result = ( Fraction ) source ;
+ Fraction result = parseAndIgnore(source, parsePosition);
+ ParseException result = parsePosition.err;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw ParseException(); } final
+Fraction result = parse(source, parsePosition) ; if (result == null)
+ Fraction result = getFractionFromSource(source, parsePosition);
+Fraction result  = new Fraction ( source, pos ) ;
+ parse(source, parsePosition); if ( parsePosition. getErrorIndex ( ) ) { throw new ParseException ( ) }
+ parsePosition.setErrorIndex(source, pos);
+ Fraction result = getFraction.parse(source, parsePosition);
+ Parraction result = parse ( source ) ;
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw thisException; }
+ parse(source, parsePosition); if (parsePosition.getErrorIndex()) { throw new ParseException(""); } final
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { return null };
+ Fraction result = getFractionNumber(source, parsePosition);
+ Fraction result = getFraction(parsePosition);
+Fraction result = parse(source, parsePosition, -1);
+ parsePosition. setStart ( source ) ; Result result = null ;
+ Fraction result = parseFrom(source, parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() > 0) { throw new ParseException(); } }
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { return null; } final
+ Fraction result = parseNumber(source, parsePosition);
+Fraction result  = ( Fraction ) parsePosition. result ;
+Fraction result = parse(source, pos, false);
+ Fraction result = getFractionAt(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos); if (result == null)
+ parsePosition. setStart ( source ) ; result = null ;
+Fraction result = parseAsFraction ( source, pos ) ;
+ Fraction result = getDenominatorFormat().parse(source, parsePosition);
+Fraction result = parse(source, parsePosition.getPosition());
+ final Fraction result = getDenominator().parse(source, parsePosition);
+Fraction  result = parseFromString ( source ) ;
+ Fraction result = getFractionInstance(parsePosition);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex()) { throw new ParseException("Invalid fraction number"); } final
+ parsePosition.setOffset(0);
+ ParsedFraction result = null;
+ Fraction result = format.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos.getErrorIndex);
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw parseException(); } }
+ Fraction result = this.parse(source, parsePosition);
+ final Fraction result = null;
+ Fraction result = getFractionInternal(parsePosition);
+ ParseResult result = parse (source;
+ parse (source, parsePosition); Fraction*result = parse(source, parsePosition);
+ ParseResult result = parse ( source, parsePosition ) ; } else
+ parse(source, parsePosition); if (parsePosition.getErrorIndex() == 0) { throw ParseException(); } }
+ parsePosition.setErrorIndex(1);
+ result.setPosition(parsePosition);
+ ParseException result = parseException (pos;
+ ParseFraction result = null;
+ parsePosition.setStart(source);
+ parsePosition.setErrorIndex(0;
+Fraction result = parseAsFraction ( parsePosition ) ;
+ parse(source, parsePosition); if ( parsePosition. getErrorIndex ( ) ) { throw new ParseException ( "");
+ parsePosition.setErrorIndex(source, 0);
+Fraction result = parse(source, parsePosition, pos.getErrorIndex());
+ ParseFraction result = parsePosition ;
+Fraction result = parseFromString ( source, pos ) ;
+Fraction result = parse(source, parsePosition) ; if (result == null) { } else
+ parsePosition.setErrorIndex(0, source);
+Fraction result = parse(source, parsePosition) ; if (result) {
+ Parraction result = getFraction(source,parsePosition);
+ Fraction result = Math.parse(source, parsePosition);
+ ParseException result = parsePosition.getException;
+ parse ( source, parsePosition, pos); return parse ( source, parsePosition, pos); }
+Fraction result = parse(source, parsePosition, false);
+ parsePosition.setPosition(pos);
+ parsePosition.setErrorIndex(ErrorIndex);
+Fraction  result = ( Fraction ) ;
+ ParseException result = ParseException.ERROR;
+ parsePosition. setErrorIndex ( source ) ; result = null ;
+ parse ( source, parsePosition, pos); return parse ( source, parsePosition, pos ) ;
+ parse(source, pos, parsePosition);
+ ParserResult result = parse(parsePosition);
+ Fraction result = getFractionFromStart(source, parsePosition);
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } private
+Fraction result = parse(source,  parsePosition).getFractionNumber ( ) ;
+ parse(source, parsePosition); return parse ( source, parsePosition. getIndex ( ) ) ; }
+ parse ( source, parsePosition, pos); return parse ( source, parsePosition, pos ) ; } private
+ Fraction result = MathUtils.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition) ; if (result!= null) {
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } public
+Fraction result = parse(source, parsePosition, true);
+ return parse(source,parsePosition);
+ parse ( source, parsePosition, pos); return parse ( source, parsePosition, pos ) ; } public
+ parse(source, parsePosition); parsePosition.setErrorIndex(0); final
+ parse(source, parsePosition); return parsePosition. getIndex(); } private
+Fraction result = parse(source, parsePosition, pos.getIndex(0);
+ parse(source, parsePosition); parsePosition.setErrorIndex(0); }
+ ParseResult result = parse parsePosition;
+ Fraction result = getFractionAt(parsePosition);
+ parse(source, parsePosition); return parsePosition. getIndex(); } public
+ parse(source, parsePosition); return parse ( source, parsePosition, pos ) ; } else {
+Fraction result = parse(source, parsePosition) ; throw new ParseException(result);
+ parse (source, parsePosition); Fraction #result = parse(source, parsePosition);
+ parse (source, parsePosition); final Fractionresult = parse(source, parsePosition);
+Fraction result = parse(source, pos.getIndex());
+ Fraction result = getFractionFromPosition(source, parsePosition);
+Fraction result = parse(source, pos, true);
+Fraction result = parseFloat ( source, parsePosition ) ;
+Fraction result = parse(source, parsePosition, 0);
+ Fraction result = getFractionFromPosition(parsePosition);
+ Fraction result = parseFrom(parsePosition);
+ Fraction result = getFractionFrom(parsePosition);
+ ParsePosition pos = parsePosition;
+ parse(source, parsePosition); return parse ( source, parsePosition, pos ) ; } private
+ Fraction result = "Fraction".parse(source, parsePosition);
+Fraction result = parse(source, 0, pos, parsePosition);
+ final Fraction result *= parse(source, parsePosition);
+ ParseResult result = getParseResult(parsePosition);
+ parsePosition.set(source);
+ parse(source, parsePosition); return parsePosition. getErrorIndex(); } private
+ parse(source, parsePosition); return parse ( source, parsePosition. getIndex ( ), pos ) ; }
+ parseInternal(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos); } else
+ parserPosition.setErrorIndex(0);
+ parsePosition.setErrorIndex(startIndex);
+ Fraction result = fraction.parse(source, parsePosition);
+ parse(source, parsePosition); return parse ( source, parsePosition, pos ) ; } public
+ parse(source, parsePosition); return parse ( source, parsePosition, pos ) ; }
+ parse(source, parsePosition); return parsePosition. getErrorIndex(); } public
+ parsePosition. setStart ( source ) ; result = 0 ;
+ Fraction result = new Fraction(fraction, parsePosition);
+ Fraction*result = parse(source, parsePosition);
+ parseString(source, pos);
+Fraction result = parse(source, parsePosition, pos).getFraction(();
+ Fraction result = parseString(parsePosition);
+ String result = parse(source, parsePosition);
+ parse(source, parsePosition); return parsePosition. getFraction ( ) ; }
+ parse(source, parsePosition); return parsePosition. getIndex(); } final
+ parse(source, parsePosition, pos); return null; } private
+ ParseException result = ParseException.Unknown;
+Fraction result = parse(source, parsePosition.errorIndex);
+ parse(source, parsePosition, pos); return null; } final
+Fraction result = parseAsFraction ( source ) ;
+ result = parseInternal(source, parsePosition);
+ Fraction result = parseImpl(source, parsePosition);
+Fraction result = parse(source, pos, 0);
+Fraction result = parse(source, 0, 0, parsePosition);
+ parse(source, parsePosition, pos); return null; } public
+ Fraction result = FractionParser.parse(source, parsePosition);
+ result.parse(source);
+ result = parseString(source, parsePosition);
+ final Fraction *result = parse(source, parsePosition);
+ Fraction result = parseBegin(parsePosition);
+Fraction result = parse(getNumeratorFormat(), source, parsePosition);
+Fraction result = parseNumber ( source, pos ) ;
+Fraction result = parse(source, pos, null, parsePosition);
+ ParseFractionResult result= parse(source, parsePosition);
+Fraction  result = parse ( ) ;
+ parsePosition.setErrorIndex(source, pos;
+ final Fraction result = super.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos).getFraction();
+Fraction result = parse(source, pos, parsePosition, null);
+ final Fraction result ; final Fraction result= parse(source, parsePosition);
+ result = parse(source);
+Fraction result = parse(source, - 1, parsePosition);
+Fraction result = parse(fraction, source, parsePosition);
+ parsePosition.setErrorIndex(source, 0;
+Fraction result = parse(source, parsePosition) ; if (result == null) { }
+ parse ( source, parsePosition, pos ) ;
+ ParseFraction result= parse(source, parsePosition);
+ final FractionResult result;
+ parse(source, parsePosition);result = parse(source, parsePosition);
+Fraction result = parse(source,  parsePosition, pos); throw result; } else
+ ParseResult result = getParserFormat().parse(source, parsePosition);
+Fraction result = parse(source, parsePosition); } else
+ Fraction result = fc.parse(source, parsePosition);
+ Result result = parseInternal(source, parsePosition);
+Fraction result = parse(source, parsePosition.getErrorIndex()); } else
+ Fraction.parse(source, parsePosition);
+Fraction result = parse(Fraction. class, source, parsePosition);
+Fraction result = parse(source, pos, parsePosition++);
+ parse(source, parsePosition); return parse ( source, parsePosition. getIndex ( ) ; }
+ parse(source, parsePosition); return parse ( source, parsePosition. getIndex ( ) ) }
+Fraction result = parseNumber ( parsePosition ) ;
+ Fraction result = fp.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos).getFraction(*);
+Fraction result = parse(source, parsePosition); throw new ParseException(result); }
+ parse(source, pos);
+Fraction result = parse(source, 0, 1, parsePosition);
+ ParseResult result = parse ( source, parsePosition ) ; }
+ parse ( source, parsePosition, pos ) ; } final
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } return null ; } private
+ parse(source, parsePosition); return parsePosition; } private
+ parseFrom(source, parsePosition);
+ parsePosition.addErrorIndex(0);
+Fraction result = parse(source, parsePosition, "Fraction");
+ parse ( source, parsePosition, pos ) ; } private
+ ParsedFractionResult result;
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } return null ; } public
+ ParseResult result = parseInternal(parsePosition);
+ Fraction return result;
+Fraction result = parse(source, parsePosition, pos); *
+ Fraction result =.parse(source, parsePosition);
+ Number result= parse(source, parsePosition);
+Fraction result = parse(source, pos, - 1, parsePosition);
+ parse(source, result);
+ parsePosition. setErrorIndex ( source ) ; } else
+ parse(source, parsePosition); return parsePosition. fraction ; } final
+ parse(source, parsePosition); return parsePosition; } final
+ parse(source, parsePosition); return parsePosition. fraction ; } private
+Fraction result = parse(source, parsePosition, "fraction");
+ ParseResult result = parsePosition();
+Fraction result = parse(source, parsePosition, null); } else
+ parse(source, parsePosition); return parsePosition; } public
+Fraction result = parse(source, parsePosition, pos); }
+ parsePosition.setIndex(0); float result= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, 0.0);
+ Result result = parseInternal(parsePosition);
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } } private
+Fraction result = parse(source, pos, 0, parsePosition);
+ return parse(source, pos, parsePosition);
+ result = parse(parsePosition);
+ final ParseFraction result= parse(source, parsePosition);
+Fraction result = parse(source, 0, - 1, parsePosition);
+Fraction result = parse(source, parsePosition, 0); } else
+ parse(source, parsePosition); return parse ( source, parsePosition ) ; } } ;
+ int result;
+Fraction result = parse(source, parsePosition) ; if (result == null) { else
+Fraction result = parse(source, parsePosition, pos.getOffset());
+Fraction result  = ( Fraction ) parsePosition ; } else
+ parsePosition.setIndex(0); Formula result= parse(source, parsePosition);
+ parse(source, parsePosition); return parsePosition. fraction ; }
+ parse(source, parsePosition); return parsePosition.fraction
+ Fraction result *= parse(source, parsePosition);
+ parseRaw(source, parsePosition);
+ Fraction result = parseFormula(source, parsePosition);
+Fraction result = parse(source, parsePosition, parsePosition.errorIndex);
+ parse(source, parsePosition); return parsePosition. f ; } final
+ result.parseFrom(parsePosition);
+ parse ( source, parsePosition ) ; return null ; } final
+Fraction result = parse(source, parsePosition++);
+Fraction result = parse(source, parsePosition).getFraction(); *
+ parse(source, parsePosition); return parsePosition. f ; } private
+ result = parseInternal(parsePosition);
+ Fraction result = 0;
+ parseSource, parsePosition);
+ parsePosition.setIndex(0); Number result= parse(source, parsePosition);
+ Result result = parseString(source, parsePosition);
+ Fraction result = parseExtraction(source, parsePosition);
+ ParseResult result = null; try { result= parse(source, parsePosition);
+Fraction result = parse(source, "Fraction", parsePosition);
+Fraction result = parse(source, pos.getIndex, parsePosition);
+Fraction result = parse(fraction.class, source, parsePosition);
+ Fraction result = parseFormatted(source, parsePosition);
+ ParsseException result = null;
+ parseBegin(source, parsePosition);
+ return null; } Fractionresult = parse(source, parsePosition);
+ float result = parseFloat(source, parsePosition);
+Fraction result = parse(source, parsePosition); throw new ParseException(); } else
+ parse ( source, parsePosition ) ; } final
+ final Fraction result = null ; final result *= parse(source, parsePosition);
+ ParsePosition pos = position;
+ Formula result = parseInternal(source, parsePosition);
+Fraction result = parse(source, parsePosition).getFraction(); }
+Fraction result = parse(source, parserPosition);
+ Fraction result = *parse(source, parsePosition);
+Fraction result = parse(source, parsePosition).getFraction (0));
+Fraction result = parse(source, parsePosition) ; return result ; } else
+ parse ( source, parsePosition ) ; } private
+ final Fraction result &= parse(source, parsePosition);
+ Result result;
+Fraction  result = ( Fraction ) {
+Fraction result = parse(source, parsePosition, false); } else
+Fraction result = parse(source, parsePosition) ; if (result) { }
+Fraction  result = ( Fraction) null
+Fraction result = parse(source, parsePosition) ; throw new ParseException(); }
+ ParseException result = parse ( source, parsePosition ) ; }
+ parser.parse(source);
+ parse(source, parsePosition); Numberresult = parse(source, parsePosition);
+Fraction result = parse(Fraction, source, parsePosition);
+ Result result = parseBegin(parsePosition);
+Fraction result = parse(1.0, source, parsePosition);
+ Result result = parseRaw(source, parsePosition);
+ ParseFraction result = parsePosition();
+Fraction result = parse(0, 0, source, parsePosition);
+ return null; } Fraction *result = parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, pos); if (result) { }
+ ParseFraction result *= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition); *
+Fraction result  = ( Fraction ) parsePosition. result();
+ return parseFraction(source, parsePosition);
+ Result result = parseSource, parsePosition);
+Fraction result = parse(source, parsePosition, pos); } *
+Fraction result = parseInternal ( source ) ;
+Fraction result = parse(source,  parsePosition.getErrorIndex(), pos); *
+Fraction result = parse(source, pos, ".", parsePosition);
+ Result result = _parse(source, parsePosition);
+ parse ( source, parsePosition, pos ) ; final
+ ParseResult result = null; * result= parse(source, parsePosition);
+ ParsePosition pos = parsePosition();
+ parsePosition. setErrorIndex(source, pos); *
+ final Fraction.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition) ; throw result ; } else
+ return parseInternal(source, parsePosition);
+ ParseException resultEx;
+Fraction result = parse(source, parsePosition.getIndex()); *
+ parsePosition(parsePosition);
+ parse(source, parsePosition); Stringresult = parse(source, parsePosition);
+ ParsedFractionresult = parse(source, parsePosition);
+ parseBegin(parsePosition);
+ Fraction result = parseExtract(source, parsePosition);
+ parse (source, parsePosition); }
+ parse ( source, parsePosition ) ; return null ; }
+Fraction result = parsePosition. fraction ;
+ ParseException result2;
+ parseFrom(parsePosition);
+Fraction result = parse(getDecimalFormat().class, source, parsePosition);
+Fraction result = parse(source, parsePosition.getIndex()); }
+Fraction result = parseFrom ( source ) ;
+Fraction result = parse(source, parsePosition.getOffset()); *
+ ParseResult result = null; result &= parse(source, parsePosition);
+ parse ( source, parsePosition, pos); }
+ parseStart(parsePosition);
+ return null; Fraction*result = parse(source, parsePosition);
+Fraction result = parse(0.0, source, parsePosition);
+ final Fraction _result = parse(source, parsePosition);
+Fraction result = parseFraction ( source, parsePosition ) ; }
+ ParseResult result = null; result *= parse(source, parsePosition);
+ parseInternal(parsePosition);
+ float result= parse(source, parsePosition);
+Fraction result = parse(parsePosition.getIndex(), source, parsePosition);
+ parseString(source);
+Fraction result = parse ( source, parsePosition ) ; } } else
+ Fraction result0;
+Fraction  result = ( Fraction ) parsePosition ; }
+ final Fraction result ; Fraction result= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, 0, null);
+ Fraction result1;
+ source.parse(parsePosition);
+ return null; Fraction #result = parse(source, parsePosition);
+ ParseResult result ; Fraction result= parse(source, parsePosition);
+Fraction result = parseFromString ( source, parsePosition ) ; }
+ final Fraction result * *= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition).*();
+ ParseFraction result = parsePosition++;
+Fraction result = parse(source, parsePosition) ; if (result) { else
+ final Fraction result ; final result *= parse(source, parsePosition);
+ parsePosition. setErrorIndex ( source ) ; }
+ ParseFraction resultresult = parse(source, parsePosition);
+Fraction result = parse(fractionFormat.class, source, parsePosition);
+Fraction  result = parse ( source));
+Fraction result = parse ( source, parsePosition ) ; }
+Fraction result = parse(source, parsePosition) throws IOException {
+Fraction result = parse(\"" + source, parsePosition);
+Fraction result = parse(getDecimalFormat().parser, source, parsePosition);
+ parser.parse(parsePosition);
+Fraction result = parse(source, pos, parsePosition); *
+ parse ( source, parsePosition ) ; final
+ ParseResult result = parse ( source ) ; }
+ parse ( source, parsePosition ) ; return this ; }
+ ParseException result = parse ( source ) ; }
+Fraction result = parse ( source, parsePosition, pos ) ; else
+ final Fraction result = result *= parse(source, parsePosition);
+ return parse ( source ) ; }
+Fraction result = parse(source, parsePosition, null); *
+ final Fraction result = result &= parse(source, parsePosition);
+Fraction result = parse(Fraction.FORMAT, source, parsePosition);
+Fraction result = parse(fractionFormat, source, parsePosition);
+ parsePosition. setErrorIndex ( 0 ) ; }
+ parse ( source, parsePosition ) ; return result ; }
+Fraction result = parse(source, parsePosition); } *
+Fraction result = parse(source, startIndex, parsePosition);
+ ParseFraction result &= parse(source, parsePosition);
+ float result;
+Fraction result = parse(source, parsePosition, null, null);
+Fraction result = parse(getDecimalFormat().pattern, source, parsePosition);
+Fraction result = parse(source, parsePosition, parsePosition.index);
+ final Fraction result;
+ ParseFraction*result = parse(source, parsePosition);
+ parse ( source, pos); }
+Fraction result = parse(source, parsePosition, parsePosition.end);
+Fraction result = parse(source, parserPosition); } else
+Fraction result =  ( Fraction ) parsePosition. result ; }
+Fraction result = parseInternal ( ) ;
+ parsePosition(pos);
+ final Fraction result ; final float result= parse(source, parsePosition);
+ result = parseRaw(source, parsePosition);
+ parser.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, parsePosition.length);
+ final float result = 0 ; result *= parse(source, parsePosition);
+ return null; Fraction_result = parse(source, parsePosition);
+Fraction result = parse(source, parsePosition) ; return result ; }
+Fraction  result = parseFromString ( source ) ; }
+Fraction result = parse(Source source, pos);
+ Formula result=parse(source, parsePosition);
+Fraction result = parse(Fraction.TYPE, source, parsePosition);
+Fraction result = parse(source, parsePosition, 0, 0);
+Fraction  result = parsePosition();
+Fraction result = parse(source, parsePosition) ; throw result ; }
+ return null; } private
+ int result= parse(source, parsePosition);
+ final Fraction result; * result= parse(source, parsePosition);
+Fraction result = parse(source, parsePosition, 0, 0, null);
+Fraction  result = 1;
+Fraction result = parse(0, source, parsePosition);
+ final Fraction result = result |= parse(source, parsePosition);
+Fraction result = parse(source, ".", parsePosition);
+Fraction result = parse(Fraction.FORMAL, source, parsePosition);
+Fraction result = parse(source, parsePosition, pos, null);
+ return null; } public
+ ParsePosition result = parsePosition ; #result = parse(source, parsePosition);
+Fraction result = parse(fractionNumberFormat, source, parsePosition);
+Fraction result = parse(FractionFormat.class, source, parsePosition);
+Fraction result = parse(source, parsePosition) throws ParseException
+Fraction result = parse(source, parsePosition) ; result = result ;
+ throw parseException(); }
+Fraction result = parse(fractionParser, null, source, parsePosition);
+ parse(source, parsePosition).result = parse(source, parsePosition);
+Fraction result = parse(null, null, source, parsePosition);
+ return parsePosition ; } private
+Fraction result = parse(string, parsePosition);
+Fraction result = parse(source, null, parsePosition);
+Fraction result = parse(parsePosition); *
+Fraction result = parse(SOURCE, pos, parsePosition);
+ final float result;
+ throw parsePosition; }
+ return super.parse(source, parsePosition);
+Fraction result = parse(source, 0, parsePosition);
+Fraction result = parseNumber ( source);
+ String result;
+ return parsePosition ; } public
+ Formula result.parse(source, parsePosition);
+Fraction result = parse(source, parsePosition) throws parseException;
+Fraction result = parse(parsePosition, source);
+Fraction result = parse(null, source, parsePosition);
+ return null; }
+Fraction result = parse(source, parsePosition) throws parseException {
+Fraction result = parse(src, parsePosition);
+Fraction  result = parsePosition++;
+Fraction result = parse(source), pos);
+Fraction result = parse(source, parsePosition) throws parseException();
+ final Formula result;
+Fraction  result = null; *
+Fraction result = parse(source), parsePosition);
+Fraction result = parse(Source, parsePosition); *
+ return result;
+Fraction result = parse(source, pos); *
+ parse (source, parsePosition); Fractionsresult = parse(source, parsePosition);
+ final Number result;
+Fraction result = parse(source); *
+ ParseException result; *
+ ParsePosition pos; final
+Fraction result = parse(source, position);
+Fraction result = parse(source parsePosition);
+Fraction result = parse(stringSource, parsePosition);
+ Result result = null ; *
+ final Fraction result ; *
+Fraction result = parse(source, parsePosition) throws Exception {
+ ParseResult result ; *
+Fraction result = parse(source, parsePosition) throws Exception;
+ fraction result= parse(source, parsePosition);
+ parse(Source);
+Fraction result = parse ( source ) ; }
+Fraction result = parse(source, parsePosition, errorIndex);
+Fraction  result();
+Fraction result = parse(fraction, parsePosition);
+ this.parse(source, parsePosition);
+(source);
+ return source, parsePosition);
+Fraction result = parse(FORMAT, source, parsePosition);
+Fraction result = parse(fractions, source, parsePosition);
+Fraction result = parse(source, parsePosition) throws Exception();
+Fraction result = parse(Source parsePosition);
+ return this; }
+Fraction result = parse(source, parsePosition) ; result = result();
+Fraction result = parse(source, parser);
+ return null; };
+Fraction result = parse(source, parsePosition, 0); *
+Fraction result = parse(source, parsePosition) *
+Fraction  result =
+ final Number result= parse(source, parsePosition);
+Fraction result = parse(floatFormat, source, parsePosition);
+Fraction result = parse(sePosition); *
+ parse(SOURCE);
+Fraction result = parse(source, parserPosition); *
+ "+source);
+ parse(Source, parsePosition);
+Fraction result = parse(parsePosition) *
+ final Formula result= parse(source, parsePosition);
+Fraction result = parse(sePosition);
+(result);
+Fraction result = parse(stringBuffer, parsePosition);
+ parse(string, parsePosition);
+ parsing(source, parsePosition);
+Fraction result = parse(source, parsePosition, parsePosition);
+Fraction result = parse(source, parsePosition, ".");
+Fraction Result result();
+Fraction  result; *
+Fraction  result++;
+Fraction result = parse(stringBuilder, parsePosition);
+Fraction result = parse(source) *
+Fraction Result result =
+Fraction result = parse(pos, source, parsePosition);
+Fraction result = parse(this, source, parsePosition);
+Fraction result = parse(Source);
+Fraction result = parse(source,  parsePosition));
+Fraction result = parse(parser, source, parsePosition);
+(0);
+ "0);
+Fraction result = parsePosition);
+ print(parsePosition);
+Fraction result = parse(source, parsePosition) throws Error {
+Fraction result = parse(source,  0);
+Fraction result = parse(source,  null);
+Fraction result = parse(SOURCE);
+Fraction result = parse(src);
+ parsing(parsePosition);
+ parser(parsePosition);
+ read(source, parsePosition);
+ split(source, parsePosition);
+Fraction result (); }
+Fraction result = parse(source,sePosition);
+Fraction result = parse(source, readPosition);
+ final
+Fraction result = parse(parserPosition);
+Fraction result = parse(packPosition);
+Fraction result ); *
+Fraction result = parse(Source, parsePosition);
+Fraction result = parse(string);
+Fraction result = parse(SOURCE, parsePosition);
+Fraction result =  read(source, parsePosition);
+Fraction result =  decode(source, parsePosition);
+Fraction result =  split(source, parsePosition);
+Fraction result := parse(source, parsePosition);
+Fraction result += parse(source, parsePosition);
+Fraction result: parse(source, parsePosition);

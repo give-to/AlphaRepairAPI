@@ -1,0 +1,473 @@
+case STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source_file";
+ case FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source";
+ case SOURCE_FILE:    return "source_file";
+case  INPUT:
+ case SOURCE_FOLDER:    return "source_file";
+ case STATIC_SOURCE:
+ case SOURCE:return "source_file";
+case STATIC_SOURCE_FILE_NAME:
+ case STATIC:
+case STATIC_SOURCE_FILE:    return  "static_source"; case INPUT:
+case STATIC_SOURCE_FILE:    return  "static_sourcefile";
+case STATIC_SOURCE_FILE:    return  "static";
+ case SOURCE_FULL:    return "source_file";
+ case INSTATIC_SOURCE_FILE:    return "source_file";
+case  ID:
+ case STATIC_SOURCE_ID:
+ case SCRIPT_FILE: return"source_file";
+ default: Kit.codeBug();
+ case INPUT_FOLDER:    return "source_file";
+ case STATIC_SOURCE_DIR:
+ case SOURCEFILE:    return "source_file";
+ case STATIC_SOURCE: case IS_STATIC_SOURCE_FILE:    return "source_file";
+ case source_file: return"source_file";
+case STATIC_SOURCE_FILE:    return  "staticSourceFile";
+case  INPUT_ID:
+ case INPUT_FILE_PROP:    return "source_file";
+ default: Kit.codeBug(); }
+ case SOURCE_FILE_PROP:    return "source_file";
+ case STATIC_SOURCE : return "static source";
+ case STATIC_SOURCE_FILE: case INSTATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_file";
+ case STATIC_SOURCE_FILE: case UNSTATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_NAME:
+ case STATIC_SOURCE : return "static_source";
+case STATIC_SOURCE_FILE:    return  "static_sourceFile";
+ case STATIC_SOURCE_FILE:
+ case INPUT_ID;
+ case INPUT_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_FILE: case NONSTATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FOL:    return "source_file";
+case STATIC_SOURCE_FILE_PROP:
+ default: Kit.codeBug(); } return null;
+ case STATIC_SOURCE : return "source";
+case  INPUT_TYPE:
+ case Source_FILE: return"source_file";
+case STATIC_SOURCE_FILE:    return  "static_source_file_name";
+case STATIC_SOURCE_FILE:    return  "static_source_file"; case ID:
+ case INPUT_FILE: case INPUT:    return "source_file";
+case STATIC_SOURCE_FILE : return "static source";
+ case SOURCE_FIND:    return "source_file";
+ case SOURCES: return"source_file";
+ case INPUT_FILE: case INPUTID:    return "source_file";
+ default: Kit.codeBug(); return null;
+ case SOURCE_FOLDER_NAME:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source"; case INPUTID:
+ case SCRIPT: return"source_file";
+ case INPUT_ID_STATIC_SOURCE_FILE:    return "source_file";
+ case SCRIPT_FOLDER:    return "source_file";
+ case INPUT_FILE: case INPUTFILE:    return "source_file";
+ case INPUT_FILE: case SOURCEFILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "staticfile";
+ case SOURCES_FILE:return "source_file";
+case  INPUT_STRING:
+case STATIC_SOURCE_FILE:    return  "source";
+ case SOURCES_FOLDER:    return "source_file";
+case STATIC_SOURCE_FILE:    return  "static_source_file"; break;
+ case STATIC_STREAM:
+ default: Kit.codeBug();
+ case STATIC_SOURCE_FILE: caseSTATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_TYPE_PROP:
+ case STATIC_SOURCE: case UNSTATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE: case INSTATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FILE_NAME:    return "source_file";
+ case INPUT_FILE_PROPERTY:    return "source_file";
+ case INPUT_FILE: case SOURCE:    return "source_file";
+ default: Kit.codeBug();;
+ case INPUT: break;
+ default: Kit.codeBug(...);
+ case IS_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: case UNSTATIC_SOURCE_FILE:    return "source_file";
+ case INPUTID;
+ default: Kit.codeBug(); break;
+ default: Kit.codeBug(); return "unknown type";
+ case INPUT_FULL:    return "source_file";
+ case STATIC_STATIC:
+ case INPUT_FULL_FULL:    return "source_file";
+ case STATIC_SOURCE: case _STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FILE : case SOURCEID:    return "source_file";
+case STATIC_SOURCE_FILE : return "static source file";
+case STATIC_SOURCE_FILE:    return "source_file" or "static_source_file";
+ case STATIC_SOURCE: case NON_STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); case INPUT_ID:
+ case STATIC_SOURCE_FULL:
+ case INPUT_FILE:    return "source_file";
+ case TYPE_FILE:
+ default: Kit.codeBug(); return "unknown";
+case STATIC_SOURCE_FILE:    return  "static_source_file_path";
+ case SOURCES_FULL:    return "source_file";
+ case SOURCE_FILE_STRING:    return "source_file";
+ default: Kit.codeBug(null);
+ case STATIC_STORE:
+ case STATIC_FILE:
+ default: Kit.codeBug(); } case INPUT_TYPE_PROP:
+ case FILE:"source_file";
+case STATIC_SOURCE_FILE:    return  "staticSource";
+ case STATIC_SOURCE_FILE_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: return "source_dir";
+case  INPUT_PROP:
+ case STATIC_SOURCE: case EXT_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_ID: return "id";
+case  INPUT_TYPE_PROPERTY:
+ default: Kit.codeBug;
+ case INPUT_AND_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : Kit. codeBug ( ) ;
+case  INPUT_NUMBER : return "number";
+case  INPUT_TYPE_NAME:
+ default: Kit.codeBug(); } case STATIC_SOURCE_ID:
+ case SOURCE_FOLENAME:    return "source_file";
+ default: Kit.codeBug(); } case INPUT_ID:
+ default: Kit.codeBug(); } return null; case INPUT:
+ case STATIC_SOURCE : return "staticSource";
+case STATIC_SOURCE_FILE:    return "source_file" case STATIC_INPUT:
+case  INPUT_NAME: return "name";
+ default: Kit.codeBug(); } return null ; }
+ case INPUT: return "input;
+ default: throw Kit.codeBug(); break;
+ default: Kit.codeBug(); } case INPUT_TYPE :
+ default: Kit.codeBug(); } case INPUT_STRING :
+ case STATIC_SOURCE_URL: return "source_url";
+ case STATIC_SOURCE_FILE|STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); } case INPUT_LENGTH:
+ default: Kit.codeBug(); case INPUT_TYPE:
+ default: Kit.codeBug(); } case STATIC_SOURCE_FILE:
+ case FILE::"source_file";
+ case INPUT_NAME;
+ default: Kit.codeBug(); } case INPUT : {
+ case INPUT: return input;
+ default: Kit.codeBug(); } case STATIC_SOURCE_DIR:
+ default: Kit.codeBug(); } case INPUT_NUMBER:
+ default: Kit.codeBug(); } case INPUT_TYPE_NAME:
+case STATIC_SOURCE_FILE : return static_source;
+ case TYPE:
+case STATIC_SOURCE_FILE : return staticSourceFile ;
+ default: Kit.codeBug(); } case INPUT_NAME:
+case STATIC_SOURCE_FILE:    return  source;
+ case INPUT_TYPE;
+case  INPUT_LENGTH:
+ default: Kit.codeBug(); } case STATIC_SOURCE_URL:
+ case STATIC_NAME:
+ default: Kit.codeBug(); return "no_call";
+ default: Kit.codeBug(); } return null ; }
+ default: Kit.codeBug(); } }
+ case SCRIPT_FINDER:return "source_file";
+ case STRING_FILE:    return "source_file";
+ default: Kit.codeBug(); } return null; case INPUT_TYPE:
+ default: Kit.codeBug());
+ case STATIC_SOURCE : return "static";
+ default: Kit.codeBug(break;
+ default: Kit.codeBug(); } return null; case INPUT_NAME:
+ default: Kit.codeBug(); } case INPUT_NUMBER : {
+case  INPUT_NAME: return "input";
+ case INPUT_FILE_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_ID: return "id;
+ default: Kit.codeBug(); } return null; case INPUT_ID:
+ case INPUT: return;
+ case INPUT_OR_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_NAME: return "name;
+ default: Kit.codeBug(); return "unknown_type";
+case  INPUT_NODE:
+ case STATIC_ID:
+ default: Kit.codeBug(?);
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_ID:
+ default: Kit.codeBug(); } case STATIC_SOURCE_URI:
+ case INTERNAL_STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); } case STATIC_SOURCE : {
+case  INPUT_DATA:
+case  INPUT_ID : break ;
+ break;
+ case INPUT: return "";
+case STATIC_SOURCE_FILE:    return  "file";
+case  INPUT_TYPE_ID:
+ default: Kit.codeBug(); } case INPUT_NAME_NAME:
+case  OUTPUT_ID:
+ default: Kit.codeBug(); return "no-op";
+ default: Kit.codeBug(); } case INPUT_TYPE_PROP: {
+ case INPUT_NAME: return "input;
+ case SOURCE_FOLES:return "source_file";
+ case STRING_TO_STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); } case STATIC_STRING :
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_TYPE_PROP:
+case  INPUT_START:
+ default: Kit.codeBug(); } case INPUT_TYPE_ID:
+ default: Kit.codeBug(); } case INPUT_NAME : return inputName ;
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT:
+ case STATIC_TYPE:
+ case INPUT_TYPE: return "type;
+ default: Kit.codeBug(); } case INPUT_ID : return "id";
+ default: Kit.codeBug(); } return null ; } }
+ case INPUT_STRING : return "input_string"; case INPUT_ID:
+ default: Kit.codeBug(); } return null; } }
+ case INPUT_STATIC_STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); } case INPUT_NAME : return inputname;
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_NAME:
+ case INPUT_TYPE: if ( INPUT_TYPE ) { return "input_type"; }
+case STATIC_SOURCE_FILE:    return  "static_src_file";
+case  INPUT_NUMBER_TYPE:
+case  INPUTID:
+ case INPUT_GENSTATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_NAME: return "input name";
+ case INPUT_NAME: { return "input_name"; default: Kit.codeBug(); }
+case  INPUT_ID: return "input id";
+case STATIC_SOURCE_FILE:    return  "static_source"; case INPUT : {
+ case INPUT_ID: : return "input_id"; case STATIC_SOURCE_DIR: return "source_dir";
+ case SOURCESOURCE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : Kit.codeBug(); }
+case STATIC_SOURCE_FILE : return sourceFile ;
+ case OUTPUT: return "output;
+ default: Kit.codeBug(); } return null ; } ;
+case STATIC_SOURCE_FILE:    return  "static_src";
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_NAME:
+ case SOURCE_FOLDER: #"source_file";
+case  INPUT_ID_TYPE:
+ case INDEX: return "index;
+ case INPUT:;
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_ID:
+ case INFINITE_STATIC_SOURCE_FILE:    return "source_file";
+ case INVALID_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_TYPE:
+ case IMPORTED_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_ID: : return "input_id"; case STATIC_SOURCE_DIR: : return "source dir";
+ case STATIC_SOURCE: caseSTATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_ID: : return "input_id"; case STATIC_SOURCE_DIR: : return "source directory";
+ case TYPE_FILE_OR_STATIC_SOURCE_FILE:    return "source_file";
+ case MEMBER_STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FOLDER: returns"source_file";
+ case INPUT_TYPE: return "input;
+ case INPUT_NAME: return "input name;
+ case INPUT_ID: : return "input_id"; case STATIC_SOURCE_URL: return "source_url";
+ case INPUT_STRING : return "input_string"; case INPUT_ARRAY:
+ case INDEX_STATIC_SOURCE_FILE:    return "source_file";
+ case SOURCE_FILE: case INPUT:return "source_file";
+ case INPUT_ID: : return "input_id"; case STATIC_SOURCE_FILE: : return "source file";
+ case CLASS:
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_TYPE:
+ case STRING:return "source_file";
+case  INPUT_ID_NAME:
+ case INPUT_STRING : return "input_string"; default: Kit.codeBug();
+ case INPUT_STRING : return "input_string"; case INPUT_NUMBER:
+ default: Kit.codeBug(); } return null ; break ; }
+ case INPUT_SCOPE_STATIC_SOURCE_FILE:    return "source_file";
+ case INPUT_NAME: { return "input_name"; } case INPUT_ID: {
+case STATIC_SOURCE_FILE:    return  "static_source-file";
+case STATIC_SOURCE_FILE_STRING:
+case STATIC_SOURCE_FILE:    return  "";
+ case CLASS_NAME:
+ case INPUT_STRING : return "input_string"; case INPUT_STRID:
+ default: Kit.codeBug(); } return null ; } } }
+ case CLASS_FILE:
+ case SOURCE_STATIC_SOURCE_FILE:    return "source_file";
+ default: Kit.codeBug(); return null ; } }
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT_STRING:
+ case SCRIPTFILE:    return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case FILE:
+ case STATIC
+ case INPUT_SCRIPT_STATIC_SOURCE_FILE:    return "source_file";
+case  INPUT_NUMBER_NAME:
+ case INPUT_ID: return "input id;
+ case INPUT_STRING : return "input_string" case INPUT_ID:
+ default: Kit.codeBug(); } return null ; } ; }
+ case STATIC_SOURCE : return "static_source;"
+ case INPUT_STRING : return "input_str"; case INPUT_ID:
+case STATIC_SOURCE_FILE:    return  "static-source_file";
+case STATIC_SOURCE_FILE:    return "source_file" or "static_source_path";
+ case SOURCE_FILE: returns"source_file";
+ case SOURCE_FILE: case SOURCE:return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir_name";
+ case SOURCES:"source_file";
+case STATIC_SOURCE_FILE:    return  null;
+ case SOURCE_FILE: #"source_file";
+ case LOCAL:return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT_TYPE_ID:
+case STATIC_SOURCE_FILE_LENGTH:
+ case INPUT_STRING : return "input_string"; case INPUT_TYPE:
+case STATIC_SOURCE_FILE_NAME : return "static_source";
+ case STATIC_SOURCE_DIR: return "static_dir"; case STATIC_SOURCE:
+ case source_file:"source_file";
+ case INPUT_NAME: { return "input_name"; case INPUT_ID: { }
+ case INPUT_TYPE: return "input type;
+ case SOURCE_FOLDER::return "source_file";
+ case SOURCES::"source_file";
+ default: Kit.codeBug;
+ case OUTPUT: return "";
+case  INPUT_ID: return id;
+ case STRING_STATIC_SOURCE_FILE:    return "source_file";
+case  OUTPUT:
+ case source: return"source_file";
+case  INPUT_NUMBER_ID:
+ default: Kit.codeBug(); return null ; } ;
+ case OUTPUT_ID: return "output id;
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case STRING:
+case STATIC_SOURCE_FILE:    return "source_file" ; default : Kit.codeBug(); } }
+ default: Kit.codeBug(); } case STATIC_SOURCE : }
+ default: return null;
+case STATIC_SOURCE_FILEFINDER : return "static_source";
+case STATIC_SOURCE_FILE:    return  "static_source_file;"
+ case STATIC_SOURCE_DIR: return "source_dir"; case STATIC_SOURCE:
+ case SOURCE_FILE: case FILE:return "source_file";
+ case INPUT: return null;
+case STATIC_SOURCE_FILE_ID:
+case STATIC_SOURCE_FILE:    return  file;
+ case SOURCE_FOLORY: return"source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case SOURCE:
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case STATIC:
+ case OUTPUTID;
+ case NAME: return"source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case TYPE:
+ case FILE:
+ case STATIC_SOURCE_DIR: return "static_src_dir"; case FILE:
+case STATIC_SOURCE_FILE_TYPE:
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) { return "source_dir";
+case STATIC_SOURCE_FILE:    return "source_file" ; default : break ;
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case CLASS:
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_dir";
+ case STORE:return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir_path";
+ case STATIC_SOURCE_DIR: return "static_source_dir; case FILE:
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "static_sourcedir";
+ default: break;
+case STATIC_SOURCE_FILE:    return  "static-source";
+ case SOURCE_FILE: case SOURCE;return "source_file";
+ case STRING:
+ case STATIC_SOURCE_DIR: if (static_source_dir) return "static_source_dir";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "static_source directory";
+ case STATIC_SOURCE_DIR: this.static_source_dir = "static_dir";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source dir";
+ case JS_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:     { return "static_source_file"; }
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) { return "static_source_file"; } else {
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source directory";
+case  INTEGER:
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) return "static_source_file"; case STRING:
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) { return "static_source_file"; } else:
+case STATIC_SOURCE_FILE:    return "source_file" ; default: Kit.codeBug(...) ;
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "static_dir";
+case STATIC_SOURCE_FILE:    return  "static_source_file;";
+case STATIC_SOURCE_FILE:    return  "static_source_file"; }
+ case READ: return"source_file";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "source_";
+ case STATIC_SOURCE_DIR: this return "static_dir"; case STATIC_SOURCE:
+case STATIC_SOURCE_FILE:     { return "static_source_file";
+ case SOURCES_FILE: returns"source_file";
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) return "static_source"; else return "static source";
+ case NON_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE_PROPS:
+ case STATIC_SOURCE_FILE: this. source_file = source_file ; return "static_source_file";
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) return "static_source"; else return "unknown file";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) { return "source dir";
+ case STATIC_SOURCE_DIR: this.static_source_dir = "static_source";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) { return "source directory";
+ case STATIC_SOURCE_DIR: if (STATIC_SOURCE_DIR) return "sourceDir";
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) return "static_source"; default: return null;
+ case STATIC_SOURCE_DIR: this return "static_dir"; default: return "unknown";
+ case SFILE:    return "source_file";
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) { return "static_source_file" ; }
+ case SOURCES_FILE: #"source_file";
+ case SOURCE_FOLDER: return return"source_file";
+ case USE_STATIC_SOURCE_FILE:    return "source_file";
+ case STATIC_SOURCE_DIR: this return "static_source_dir"; case STRING:
+ case STATIC_SOURCE_FILE: this. source_file = source_file ; this. length = source_length;
+case STATIC_SOURCE_FILEFINDER : return "sourcefinder";
+ case SOURCE_FOLDER: {return "source_file";
+case  INDEX:
+case STATIC_SOURCE_FILE:    return "source_file" case INPUT:
+ case STATIC_SOURCE_FILE: if (STATIC_SOURCE_FILE) { return "static_source_file"; } else
+case STATIC_SOURCE_FILE:    return  "static_source_file"; case
+ case STATIC_SOURCE_FILE: this. source_file = source_file ; this. length = length ; break ;
+ case SOURCE_FILE: {return "source_file";
+ default: break;
+case STATIC_SOURCE_FILE:    return "source_file" or "static_source_file".
+case STATIC_SOURCE_FILE_NAME : return "static_name";
+ default: return"source_file";
+ case _STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; case ID:
+ default:
+ case IN_STATIC_SOURCE_FILE:    return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; case INPUT : {
+case STATIC_SOURCE_FILE:    return "source_file" case INPUTID:
+case STATIC_SOURCE_FILE:     this return "static_source_file";
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: return "static_source_dir";
+ case STATIC_SOURCE_DIR: return "static_source_dir_name;
+ case STATIC_SOURCE_FILE: return "static_source_file"; #
+ case SOURCE_FILE::return "source_file";
+case STATIC_SOURCE_FILE : break ;
+ case STATIC_SOURCE_FILE: return "static_source_file"; case
+ case STATIC_SOURCE_DIR: return "static_source_dir"; #
+case STATIC_SOURCE_FILE:    return "source_file" ; break ; }
+case  STRING:
+case STATIC_SOURCE_FILE:    return  "filename";
+ case :return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir" ; }
+ case STATIC_SOURCE_DIR: return "static_source_dir_name;"
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: { return "source_dir"; }
+ case SOURCE_FOLDER: return +"source_file";
+ case FILEreturn "source_file";
+ case SOURCE_FILE : case FILE : #"source_file";
+ case STATIC_SOURCE_FILE: this. source_file = source_file ; return "static_source_file"
+ case filereturn "source_file";
+ case source::"source_file";
+ case STATIC_SOURCE_URL: return "static_source_url"; #
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DEPTH: return "source_depths";
+ case SOURCE_FILE_NAME: {return "source_file";
+ case STATIC_SOURCE_DIR: return "static_source_dir"; case
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: "return "static_source dir";
+ case SOURCE_FILE: case FILE,return "source_file";
+ case STATIC_SOURCE_DIR: { case STATIC_SOURCE_DIR: " return "source_dir"; }
+case  NAME:
+ case INPUT;
+case STATIC_SOURCE_FILE ( ) :
+ case #"source_file";
+case  UNKNOWN:
+ switch sourceType {
+case STATIC_SOURCE_FILE:     return sourcefile;
+case STATIC_SOURCE_FILE : return "static_source"; }
+case STATIC_SOURCE_FILE:    return  static;
+ case UNSTATIC_SOURCE_FILE:    return "source_file";
+case  INT:
+case STATIC_SOURCE_FILE:     if (staticSourceFile) break;
+ case SOURCE: :return "source_file";
+case  INPUT : {
+ } break;
+ break ; break;
+ case CONFIG:return "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; break ;
+case  CLASS:
+case STATIC_SOURCE_FILE:     case STATIC_SOURCE_LINE:
+case  TYPE:
+ case TYPE:return "source_file";
+ case STATIC : {
+ break switch;
+ case STRING;
+ case *"source_file";
+ case STAT:
+case STATIC_SOURCE_FILE:     { return "static_source_file;"
+case STATIC_SOURCE_FILE:     return "static_source_file"
+ case Filereturn "source_file";
+case STATIC_SOURCE_FILE:    return "source_file" in source;
+case STATIC_SOURCE_FILE:    return "source_file" case CLASS:
+case STATIC_SOURCE_FILEID:
+case STATIC_SOURCE_FILE:    return "source_file" + name;
+ switch {
+ case CSTATIC_SOURCE_FILE:    return "source_file";
+ case :"source_file";
+ case GENSTATIC_SOURCE_FILE:    return "source_file";
+ break break;
+case STATIC_SOURCE_FILE:     case FILE:
+case STATIC_SOURCE_FILE : {
+case STATIC_SOURCE_FILE:    return "source_file" ; } } }
+case STATIC_SOURCE_FILENAME:
+ case ID;
+case STATIC_SOURCE_FILEName:
+ case TEXT;
+ switch:
+case STATIC_SOURCE_FILE:    return "source_file" break;
+ } #"source_file";
+case STATIC_SOURCE_FILE:    return "source_file" ; }
+ return ""source_file";
+ }
+case STATIC_SOURCE_FILE:     break;;
+case STATIC_SOURCE_FILE:     { }
+case STATIC_SOURCE_FILE,    return "source_file";
+case STATIC_SOURCE_FILE():    return "source_file";

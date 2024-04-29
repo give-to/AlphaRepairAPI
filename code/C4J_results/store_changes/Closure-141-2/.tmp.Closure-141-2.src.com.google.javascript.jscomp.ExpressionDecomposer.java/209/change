@@ -1,0 +1,225 @@
+decomposeSubExpressions(decomposition,
+ Node parent = parent. getFirstChild ( ) ;
+ Node parent = parent. clone ( ) ; Node subExpression =
+ Node parent = parent. getFirstChild(); Node subExpression =
+ Node child = parent. getFirstChild ( ) ;
+decomposeSubExpressions(parent.getParent(),
+ Node parent = parent. getParent ( ) ;
+ Node parent = parent. getNext ( ) ;
+ Node parent = parent. clone ( ) ;
+decomposeSubExpressions(null,
+decomposeSubExpressions(parent.getFirstChild.getNext(),
+ Node parent = parent. getFirstChild ; Node subExpression =
+ Node parent = parent. next ( ) ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; Node subExpression =
+decomposeSubExpressions(parent.getFirstChild(),
+decomposeSubExpressions(parent.getNext(),
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; if ( child!= null ) {
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; Node expressionRoot = parent. clone ( ) ;
+ if (parentType == Token.CALL) { Node subExpression =
+ Node child = parent. getFirstChild ( ) ; Node subExpression =
+ Node child = parent. next ( ) ;
+ Node subExpression =
+ Node child = parent. firstChild ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; if ( parent!= null ) {
+ Node child = parent. getNext ( ) ;
+decomposeSubExpressions(parent.getFirstChild(), null,
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; Node expressionRoot =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; Node expressionRoot =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; Node decomposition =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; if ( parent!= child ) {
+ Node parent = parent. clone ( ) ; parent = parent. getFirstChild ( ) ;
+ Node parent = parent. clone ( ) ; Node expressionRoot =
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ;
+ Node child = parent. getFirstChild ( ) ; if ( child!= null ) { Node subExpression =
+decomposeSubExpressions(parent.getFirstChild().getNext(),
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; if ( parent instanceof CallExpression ) {
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ;
+decomposeSubExpressions(functionExpression.getNext(),
+decomposeSubExpressions(functionExpression.getNext(), null,
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; if ( parent instanceof CallExpression ) {
+ Node child = parent. clone ( ) ;
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; if ( child!= null ) { parent =
+ Node parent = parent. nextChild ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getNext ( ) ;
+ Node parent = parent. clone ( ) ; parent =
+ Node parent = parent. clone ( ) ; } else { Node subExpression =
+ Node parent.getFirstChild();
+ Node parent = parent. clone ( ) ; } } else { Node subExpression =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. next ( ) ;
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; Node expressionRoot = parent. clone ( )
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; Node subExpression =
+ Node subExpression = decomposeSubExpressions(
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( null ) ;
+ Node child = parent. nextChild ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; parent. removeFirst ( ) ;
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; if ( parent instanceof Call ) { child =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; if ( parent == child ) {
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; Node expressionRoot = subExpression ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; Node extractedCall =
+ return decomposeSubExpressions(
+ Node parent = parent. clone ( ) ; Node child = parent. detach ( ) ;
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ( ) ; Node expressionRoot =
+ Node parent = parent. getFirstChild(); Node expressionRoot =
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; Node expressionRoot =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. nextChild ;
+ Node parent. getNext ( ) =
+decomposeSubExpressions(callExpression.getNext(),
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; Node expressionRoot = expressionExpression ;
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( ) ;
+ Node parent = parent. clone ( ) ; Node child = parent. clone ( ) ; if ( parent instanceof Call ) { parent =
+decomposeSubExpressions(parent.getSecondChild.getNext(),
+ Node parent = parent. getFirstChild ( ) ; parent =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; parent =
+ Node parent = parent. clone ( ) ; Node child = parent. next ;
+ Node parent = parent. getFirstChild(); Node child = parent. getFirstChild(). getNextChild();
+decomposeSubExpressions(functionExpression.getFirstChild(),
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ( ) ; Node extractedCall =
+ Node expressionRoot = decomposeSubExpressions(
+decomposeSubExpressions(node.getFirstChild.getNext(),
+ Node parent.getFirstChild() =
+ if (parentType == Token.CALL) { Node composedCall =
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( parent ) ;
+decomposeSubExpressions(parent,
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; Node expressionRoot = (Node)
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ( ) ; parent =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; child =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; Node replacement =
+ if (parentType == Token.CALL) { Node extractedCall =
+decomposeSubExpressions(parent.getSecondChild(),
+ Node parent = parent. clone ( ) ; parent. setNext ( null ) ;
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; Node result =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getSecondChild ( ) ; Node replacement =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; Node expression =
+decomposeSubExpressions(node.getFirstChild(), null,
+ Node parent = parent. clone ( ) ; Node child = parent ( ) ;
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( null )
+decomposeSubExpressions(parent.getLastChild(),
+decomposeSubExpressions((Node)
+decomposeSubExpressions(parent.getNext(), null,
+ Node parent = parent. clone ( ) ; } } else {
+decomposeSubExpressions(functionExpression.next(),
+decomposeSubExpressions(parent.getFirstChild, null,
+ Node parent = parent. clone ( ) ; } } else { parent =
+decomposeSubExpressions(parentType,
+ if (parentType == Token.CALL) { Node parent = (Node)
+ Node parent = parent. clone ( ) ; Node child = parent. parent ;
+ Node expressionRoot = rewriteCallExpression(
+ parentType = Token.CALL;
+decomposeSubExpressions(parent.getNextChild(),
+ Node parent = parent. clone ( ) ; parent.
+ Node parent = parent. clone ( ) ; parent = parent. getFirstChild ( ).
+decomposeSubExpressions(parent.getFirstChild(), parent,
+ Node child = parent. next ;
+ Node decomposition =
+ parent = parent ; } decomposeSubExpressions(
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( null, child ) ;
+ Node child = parentNode ;
+ Node parent = parent. clone ( ) ; } else {
+ Node parent = parent. clone ( ) ; parent = parent. getFirstChild ( ) ||
+ parent = parent ; decomposeExpression(
+ parent = parent ; decomposeExpressions(
+ Node parent = parent. getFirstChild(); Node child = parent. getFirstChild(). getNextChild;
+ Node expressionRoot = extractExpression(
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; Node replacement =
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getFirstChild ( ) ; parent.
+ node = rewriteCallExpression(
+ Node parent = parent ; decomposeExpression(
+ Node parent = parent. getFirstChild ( ) ; } else {
+ Node expressionRoot = parseExpressionTree(
+ Node parent = parent ; decomposeExpressions(
+decomposeSubExpressions(null.getNext(),
+ Node expressionRoot =
+ Node parent = subNode ;
+ return rewriteCallExpression(
+ Node parent = parent. getFirstChild ( ) ; parent.
+ Node child = parent. parent ;
+ decomposeSubExpressions(
+ Node child = parent. getFirstChild ( ) ; if ( child!= null ) { Node subExpression +=
+ parent = rewriteCallExpression(
+ return decomposeSubExpressionTree(
+ Node expressionRoot = parseExpression ( decomposition,
+ parent = parent ; } decomposeExpressions(
+ Node parent = parent. getFirstChild ; Node child = parent. getNextChild ; Node subExpression +=
+ Node parent = parent ; } decomposeExpression(
+ Node parent = parent ; } decomposeExpressions(
+ parent = parent ; } decomposeExpression(
+decomposeSubExpressions(functionExpression,
+ Node expressionRoot = parseExpression ( "call",
+ if (parentType == Token.CALL) { Node composedCall();
+ Node child = parent ;
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( null, child ) +
+ Node parent = parent. clone ( ) ; parent. setFirstChild ( parent ) ; } return
+ parentType = Token.CALL(
+decomposeSubExpressions(parentExpression,
+ return extractExpression(
+ Node parent = parent. getFirstChild ; Node child = parent. getFirstChild ( ) ; return
+ Node parent = parent. getFirstChild ( ) ; Node child = parent. getNext ( ) ||
+decomposeSubExpressions(functionRoot,
+ return parseCallExpression(
+ parentType = Token.Call;
+ decomposeExpression(
+ parent = extractExpression(
+ return decomposeSubExpressionNode(
+ Node parent = parent. getFirstChild ( ) ; return
+decomposeSubExpressions(parent.next(),
+ return decomposeSubExpressionList(
+decomposeSubExpressions(parent, null,
+ Node expressionRoot = parseExpressionNode(
+ Node descomposition =
+ decomposedSubExpressions(
+ child = parent ;
+ Node child = parent. getFirstChild ( ) ; return
+ return decomposeSubExpressionStatement(
+ Node parent = parent. clone ( ) ; } } }
+ Node parent.getFirstChild());
+ Node parent = parent. clone ( ) ; } } return
+ parent = parseCallExpression(
+ decomposeExpressions(
+ decomposedExpression(
+ parent = parent ;
+ parent =
+ return parseExpression(
+ Node parent = subNode();
+ parentType = getType(
+ super. visit(
+ parent = parent. clone ( ) ; } traverse(
+ Node expressionRoot = decomposeSubExpressions((
+decomposeSubExpressions(this,
+ parentType = Token.TYPE(
+ parentType = Token.Union(
+ return extractCall(
+decomposeSubExpressions2(
+ parent. replace(
+ parent = node ;
+ parent = replace(
+ parent. set (
+ Expression root =
+ parentNode =
+ } else {
+ parseCall(
+decomposeSubExpressions(".",
+ emitCall(
+ return transform(
+ ExpressionRoot =
+decomposeSubExpressions("",
+decomposeSubExpressions(null
+ return processCall(
+decomposeSubExpressions(" "+
+ parseNode(
+ return evaluate(
+ parent = process(
+ decompose(
+ child =
+ return visit(
+ if(
+ Expression root;
+ decomposed(
+ parent.
+ return traverse(
+ } return
+ return (
+ },
+ } return
+ return
+ }

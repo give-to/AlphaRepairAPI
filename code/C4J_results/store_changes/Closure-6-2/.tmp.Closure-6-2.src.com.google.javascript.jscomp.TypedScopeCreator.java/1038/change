@@ -1,0 +1,137 @@
+ } } else { enumType. defineElement ( keyName, rValue ) ;
+ } } else { enumType. defineElement(keyName, rValue); }
+ } } else { enumType. defineElement ( keyName, key ) ;
+ key = key. getNextChild();
+ }
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_NOT_CONSTANT));
+ } } else { enumType. defineElement(keyName, key); } } }
+ } } else { enumType. defineElement(keyName, key); } } } }
+ } } else { enumType. defineElement(keyName, key); key = key. getNext(); }
+ } } else { enumType. defineElement(keyName, key); } key. getNext ( ) ;
+ } } else { enumType. defineElement ( rValue);
+ key = null ;
+ } } else { enumType. defineElement ( keyName ) ;
+ } } else { enumType. defineElement(keyName, key); key. getNext(); }
+ } } else { enumType. defineElement ( keyName, key ) ; } }
+ if ( key!= null ) { enumType. defineElement ( key, key ) ;
+ if ( key!= null ) { enumType. defineElement ( key ) ;
+ key. remove ( ) ;
+ } } else { enumType. defineElement(keyName, key); key = key. getNext(); } }
+ if ( key!= null ) { enumType. defineElement ( key, key ) ; key = key. getNext ( ) ;
+ } else { enumType. defineElement(keyName, key); } } } }
+ } } else { enumType. defineElement(keyName, key); } } else { enumType = rValue ;
+ if ( key!= null ) { enumType. defineElement ( key ) ; }
+ } else { enumType. defineElement ( keyName, rValue ) ;
+ } else { enumType. defineElement(keyName, key); } } }
+ } } else { enumType. defineElement(keyName, key); key. getNext ( ) ;
+ } }
+ } } else { enumType. defineElement(keyName, key); } key = key. getNext(); }
+ } } else { enumType = rValue ; }
+ } } else { enumType. defineElement(key); } } else { enumType. defineElement(key);
+ } else { enumType. defineElement ( keyName, key ) ;
+ } else { enumType. defineElement(keyName, key); } key = null ;
+ } } else { enumType. defineElement ( key ) ; }
+ } } else { enumType. defineElement(keyName, key); key = key. getNext(); } } }
+ if ( key!= null ) { enumType. defineElement ( key, key ) ; key. getNext ( ) ;
+ } else { key = rValue. getFirstChild ( ) ;
+ break ; }
+ } else { enumType. defineElement(keyName, key); key = rValue ;
+ if ( key!= null ) { enumType. defineElement ( key, key ) ; key = key. getNext(); }
+ } else { enumType. defineElement(keyName, rValue); }
+ } } else { enumType. defineElement(keyName, key); } key = null ;
+ } } else { enumType. defineElement(keyName, key); } } } } }
+ } } else { enumType. defineElement(keyName, key); } key = key. getNext ( ) ;
+ } } else { enumType. defineElement(keyName, key); } } else { enumType = rValue ; }
+ } } else { enumType. defineElement(key); } } else { enumType. defineElement ( )
+ } } else { enumType = rValue ;
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_CONSTANT));
+ key = key. getNext();
+ } } else { enumType. defineElement(keyName, key); key = rValue ;
+ break ; }
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_INVALID));
+ if ( key!= null ) { enumType. defineElement ( key, key ) ; key. setNext ( null ) ;
+ } } else { enumType. defineElement ( rValue )
+ } } else { enumType. defineElement(keyName, key); } } else { enumType = null ;
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_NOT_STRING));
+ if ( key!= null ) { enumType. defineElement ( key, key ) ; key = key. getNextChild ( ) ;
+ } } else { enumType. defineElement(keyName, key); key. next ( ) ;
+ } } else { enumType. defineElement(keyName, key); } key. next ( ) ;
+ key = key. getFirstChild ( ) ;
+ } } else { enumType. defineElement(keyName, key); } } } } } }
+ } } else { enumType. defineElement(keyName, key); } key = key. getNextChild(); }
+ } } else { enumType. defineElement ( name, rValue )
+ } } else { enumType. defineElement(keyName, key); } } else { enumType = info ;
+ } else { key = rValue ; }
+ } } else { enumType. defineElement(keyName, key); } } else { break ; }
+ } } else { enumType. defineElement(keyName, key); } key = key. getNext(); } } }
+ } } else { enumType. defineElement(keyName, key); key. removeChild();
+ } else { key = rValue ;
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_NOT_CONSTRUCTED));
+ if ( key!= null ) { enumType. defineElement ( keyName ) ;
+ } } else { enumType. defineElement(keyName, key); } key. getNext ( )
+ } } else { enumType. defineElement(keyName, key); } } else { key = null ;
+ } } else { enumType. defineElement(keyName, key); } key. removeNext(); }
+ key. removeChild();
+ } else { key = key. getFirstChild ( ) ;
+ } } else { enumType. defineElement(keyName, key); } key = key. getNextChild ( ) ;
+ } } }
+ } } else { enumType = ( EnumType )
+ } } else { enumType. defineElement(keyName, key); } key. removeChild();
+ key = null;
+ } } else { enumType. defineElement ( key);
+ break ; } } else { enumType = rValue ;
+ } } else { enumType. defineElement ( keyName, key )
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_CONSTANT); }
+ } } else { enumType. defineElement(keyName, key); key. next ; }
+ } } else { compiler. report ( JSError.make(sourceName, key, KEY_NOT_CONSTANT)); }
+ } } else { enumType = ( EnumType ) key
+ } else { key = null ;
+ key. getNext ( ) ;
+ } } else { compiler. report ( JSError.make(sourceName, key, ENUM_INVALID); }
+ key. setNext ( null ) ;
+ } }
+ key = rValue ;
+ } else { key = key. getNextChild(); }
+ key = key. getNextChild ; }
+ } else { key = rValue. next ;
+ key = key. getNextNext ( ) ;
+ } else { key = key. getNext(); }
+ key = key. getNextChild ( ) ; }
+ key = key. nextChild ;
+ } } else { enumType. defineElement ( key )
+ } } else { enumType. defineElement ( rValue ;
+ } } else { key = null ;
+ } } else { break ; } } }
+ key = key. getNextNextChild();
+ } else { key = key. getNextChild();
+ } } }
+ key. next ( ) ;
+ key = key. getNextChild ; } } }
+ } } } }
+ key = key. next ;
+ key. removeChild();
+ } key = null ;
+ } } } }
+ } } } } }
+ } } } } } }
+ key. removeChildren ( )
+ } } } } }
+ } key = null ;
+ break ; } }
+ break;
+ break ; } } }
+ key. removeChildren();
+ key = nextKey ;
+ break ; } }
+ key = key ;
+ } break ; }
+ continue ; }
+ }
+ break ;
+ } break ;
+ key = null
+ return key ;
+ continue;
+ continue ;
+ break }
+ ;

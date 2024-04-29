@@ -1,0 +1,154 @@
+ }
+ }
+ } }
+ } }
+ } } }
+ } } }
+ } } } }
+ } } } }
+ } } } } }
+ } } } } }
+ else { registerMismatch ( instance, implemented ) ; }
+ } } } } } } }
+ } } } } } } } }
+ } } } } } }
+ else { registerMismatch ( instance, implemented ) ; } }
+ else { registerMismatch ( instance, implemented ) ;
+ else { registerMismatch ( instance, implemented ) ; } } }
+ else { registerMismatch ( instance, type. getInstanceType ( ) ) ;
+ } } } } } } } } }
+ } else { registerMismatch ( instance, implemented ) ;
+ else { registerMismatch ( instance, implemented ) ; } } } }
+ else { registerMismatch ( instance, implemented )
+ else { registerMismatch ( instance, type. getInstanceType ( ) ) ; }
+ } else { registerMismatch ( instance, type. getInstanceType ( ) ) ;
+ else { registerMismatch ( instance, type. getType ( ) ) ;
+ else { registerMismatch ( instance, instance. toString ( ) )
+ else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH_WARNING ) ) ;
+ } else { registerMismatch ( instance, implemented ) ; }
+ } else { registerMismatch ( instance, type ) ;
+ } } } } } } } } } }
+ else { registerMismatch ( instance, implemented. toString ( ) )
+ } else { registerMismatch ( instance ) ;
+ } else { registerMismatch ( instance, instance ) ; }
+ } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH ) ) ;
+ } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH_WARNING ) )
+ else { registerMismatch ( instance, implemented ) ; } } } } }
+ } else { registerMismatch ( instance, type. toString ( ) ) ;
+ else { registerMismatch ( instance, type ) ; } } } } }
+ else { compiler. report ( JSError.make(sourceName, n, type_MISMATCH_WARNING, type)) ;
+ } else { compiler. report ( JSError. make ( sourceName, n, type_MISMATCH ) ) ;
+ } else { registerMismatch ( instance ) ; }
+ else { compiler. report ( JSError.make(sourceName, n, TYPE_MISMATCH_WARNING, null)) ;
+ } else { registerMismatch ( ) ;
+ else { compiler. report ( JSError.make(sourceName, n, TYPE_MISMATCH_WARNING, instance)) ;
+ else { compiler. report ( JSError.make(sourceName, n, TYPE_MISMATCH_WARNING, type)) ;
+ } else { registerMismatch ( instance, type. getType ( ) ) ;
+ } else { compiler. report ( JSError. make ( sourceName, n, type_MISMATCH_WARNING ) )
+ else { compiler. report ( type, TYPE_INTERNAL_SERVER_ERROR ) ;
+ else { registerMismatch ( instance, type ) ; } } } } } }
+ else { registerMismatch ( instance, type. toString ( ) )
+ else { registerMismatch ( instance ) ;
+ } else { compiler. report ( type, TYPE_INTERNAL_SERVER_ERROR ) ;
+ } else { registerMismatch ( instance, type ) ; } } } } }
+ } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH_ERROR ) )
+ } else { registerMismatch ( type ) ;
+ else { registerMismatch ( instance, instance. toString ) ;
+ else { registerMismatch ( instance, type ) ; } } } } } } }
+ else { compiler. report ( JSError. make(sourceName, n, type_MISMATCH_WARNING ) ; }
+ } else { registerMismatch ( instance, ) ;
+ } } else { throw new IllegalArgumentException ( )
+ } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISSING ) ) ;
+ else { registerMismatch ( instance, type. getInstanceType ( ) )
+ } } } } } } } } } } }
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR ) ; } }
+ } else { registerMismatch ( instance, implementation ) ;
+ } else { registerMismatch ( instance, type ) ; } } } } } }
+ } else { compiler. report ( JSError. make ( type, type_MISMATCH_ERROR ) ;
+ else { registerMismatch ( instance, implemented. toString ) ;
+ } else { compiler. report ( JSError. make ( type, type_MISMATCH_WARNING ) ;
+ } else { compiler. report ( type, TYPE_MISSING_PROPERTY ) ;
+ } else { compiler. report ( JSError. make(sourceName, n, type_MISMATCH_WARNING));
+ else { compiler. report ( type, TYPE_MISSING_PROPERTY, prop ) ; } }
+ } else { compiler. report ( JSError. make ( type, type_MISMATCH_WARNING ) )
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, formatError ( type ) ) ;
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, undefined, undefined ) ;
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, msg ) ;
+ } else { compiler. report ( JSError. make ( sourceName, n, TYPE_UNKNOWN_SOURCE ) )
+ else { compiler. report ( type, TYPE_MISSING_PROPERTY, prop, instance ) ;
+ else { registerMismatch ( instance, implemented, type ) ;
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, null ) ; }
+ } else { compiler. report ( JSError. make ( sourceName, n, msg, required ) ) ;
+ } else { compiler. report ( JSError. make ( type, type_MISMATCH_ERROR ) )
+ else { compiler. report ( type, TYPE_MISMATCH_WARNING, formatUnknown ( ) ) ;
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, "Unknown interface" ) ;
+ else { registerMismatch ( instance, implemented. toString () ) ;
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, msg ) ; }
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, formatType ( type ) ) ;
+ else { compiler. report ( type, TYPE_MISMATCH_WARNING, formatInvalid ( ) ) ;
+ } } } } ) ;
+ } } } } } ) ;
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, formatInvalidType ( ) ) ;
+ else { registerMismatch ( instance, implemented, null ) ; }
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, "Unknown type" )
+ else { registerMismatch ( instance, type ) ; } } } } } ) ;
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, formatInvalidType ( ) ) ;
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, "Unknown type" )
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, formatError ( type ) ) ;
+ } else { compiler. report ( type, TYPE_MISMATCH_WARNING, formatType ( type ) )
+ } } } } ;
+ } else { compiler. report ( type, TYPE_MISMATCH_WARNING, formatType ( type ) ) ;
+ } else { compiler. report ( type, TYPE_MISSING_PROPERTY, prop ) ; } }
+ } else { compiler. report ( type, TYPE_INTERNAL_ERROR, "Unknown type." )
+ else { compiler. report ( type, TYPE_INTERNAL_ERROR, "Unknown type." )
+ } } else { throw new IllegalStateException ( )
+ } } } ) ;
+ } } else { return false ;
+ } } } } } } ) ;
+ else { registerMismatch ( type ) ;
+ } } } else { return false ;
+ } } } else { throw new RuntimeException ;
+ } } } else { return false ; }
+ } return instance ; }
+ } } else { return false ; }
+ } } } } } } } ) ;
+ } } else { throw new RuntimeException ;
+ else { throw new RuntimeException ( "Unable to find implementation for interface {${type.getName()}" ) ;
+ } } } else { return null ; }
+ } } } else { return true ;
+ } } else { return true ;
+ } } } } } ;
+ } } } ;
+ } return instance ;
+ } } return instance ;
+ } } } } } } ;
+ } else { return false ;
+ else { throw new RuntimeException ( "Unable to find implementation for interface {${type.getName()}." )
+ } } } } ;
+ else { throw new RuntimeException ( "Unable to find implementation of interface {$class} with property {$prop}" )
+ } } return instance ; }
+ } } } ) ;
+ else { throw new RuntimeException ( "Unable to find implementation for interface {${type.getTypeName()}" )
+ else { throw new RuntimeException ( "Unable to find implementation for interface {${type.getName()}}"); }
+ } } ) ;
+ } } return instance ;
+ } } } ;
+ } } return true ;
+ } return instance ;
+ } return true ;
+ } return true ;
+ } return type ;
+ } } ;
+ return true ;
+ return instance ;
+ return instance ;
+ return true ;
+ } } ;
+ } return ;
+ } return ;
+ } ;
+ } ;
+ return ;
+ return ;
+ ;
+ ;

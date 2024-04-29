@@ -1,0 +1,1022 @@
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ computeFollowNode(node, this));
+ createEdge(Branch.ON_FALSE, computeFollowNode(node, this));
+ computeFollowNode(this));
+ createEdge(node, computeFollowNode(node, this));
+ createEdge(ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, deflt));
+createEdge(node, Branch.ON_FALSE, deflt);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt, node, this));
+createEdge(node);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, deflt));
+ createEdge(deflt, computeFollowNode(node, this));
+ createEdge(Node.ON_FALSE, computeFollowNode(node, this));
+createEdge(node); }
+ createEdge(node, Branch.UNCOND, computeFollowNode(node, this));
+ createEdge(node, Branch.NON_FALSE, computeFollowNode(node, this));
+ createEdge(node, computeFollowNode(this));
+createEdge(node, Branch.ON_FALSE); }
+createEdge(node, deflt);
+ createEdge(computeFollowNode(node, this));
+ createEdge(node, computeFollowNode, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt));
+createEdge(node, Branch.UNCOND);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getFirstChild));
+createEdge(node, Branch.ON_FALSE);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } }
+ createEdge(node));
+ Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, deflt));
+ node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode()); }
+ createEdge(node, computeFollow(node, this));
+ createEdge(node, Branch.SWITCH.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, this)); }
+ createEdge(node, Branch.UNCOND, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, DEFAULT, computeFollowNode(node, this));
+ createEdge(node.ON_FALSE, computeFollowNode(node, this));
+ computeFollowNode(deflt, this));
+ createEdge(node, Branch.SWITCH, computeFollowNode(node, this));
+ computeFollow(node,this));
+ createEdge(node, Branch.ON_FALSE, node.getNext());
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_FALSE, node.getLastChild()); }
+createEdge ( )
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, this)); } }
+ createEdge(node, this));
+ createEdge(node, Branch.computeFollowNode(node, this));
+ createEdge(node, Branch.ON_FALSE, node.getFirstChild()); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } } }
+ createEdge(node, Branch.ON_FALSE, parent.getNext());
+ createEdge(node, deflt, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this)); }
+ createEdge(node, Branch.COND,computeFollowNode(node, this));
+ createEdge(node, Branch.ON_FALSE, node.getFirstChild()); } }
+ createEdge(node, Branch.ON_TRUE, deflt);
+createEdge(node, Branch.UNCOND, deflt);
+createEdge(node, Branch.ON_TRUE);
+ createEdge(node, Branch.ON_TRUE, node.getNext());
+ createEdge(node, Branch.ON_FALSE, parent.getNext()); }
+ createEdge(node, Branch.ON_TRUE, node.getLastChild()); }
+ createEdge(node, Branch.this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild()); }
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, parent, this)); }
+Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.UNCOND));
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, this)); } } }
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, deflt)); }
+ createEdge(node, Branch.UNCOND, computeFollowNode(node, this)); }
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, deflt)); }
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } }
+ createEdge(node, Branch.ON_FALSE, node.getFirstChild());
+createEdge(node, Branch.SWITCH);
+ createEdge(node, Branch.ON_FALSE, node.getLastChild());
+createEdge ( ) ;
+ createEdge(node, deflt, this));
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, this)); } } } }
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, this)); }
+createEdge(node, Branch); }
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, parent, deflt)); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild()); } }
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(node, deflt)); }
+ createEdge(node, Branch.SWITCH,this));
+ createEdge(node, Branch.ON_FALSE, parent); } }
+ createEdge(node, Branch.UNCOND, computeFollowNode(node));
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, node, this)); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.SWITCH);
+ createNode, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, parent);
+ createEdge(node, Branch.ON_FALSE, node.getNext()); }
+ createEdge(node, CASE, computeFollowNode(node, this));
+ createEdge(node, Branch.END));
+ createEdge(node.getFirstChild, Branch.ON_FALSE, computeFollowNode(node, this));
+ node = parent;
+ createEdge(node, Branch.END,computeFollowNode(node, this));
+ createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this));
+ createEdge(node, Branch.ON_TRUE, computeFollowNode(parent, this)); }
+ createEdge(node.getNext ( ), Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, parent.getNext());
+ createEdge(node, Branch.UNCOND, node.getNext());
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getFirstChild));
+ createEdge(node, Branch, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, deflt,computeFollowNode(node, this));
+ createEdge(node, Branch.UNCOND;
+ createEdge(node, Branch.END);
+createEdge(node, Branch.ON_FALSE, null);
+ createEdge(node.getNext, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getNext));
+ createEdge(node, Branch.ON_FALSE, node.next());
+ computeFollowSWITCH(node, this));
+createEdge(node, Branch.ON_FALSE, parent);
+ createEdge(node, Branch.SWITCH(node, this));
+ createEdge(node, deflt;
+ createEdge(node, Branch.UNCOND, computeFollowNode(node, this)); } } } } }
+ createEdge(branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node));
+ createEdge(node, parent));
+ createEdge(node, followNode(this));
+ createEdge(node, null, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.UNCOND, computeFollowNode(node)));
+ createEdge(node, Branch.ON_TRUE, node.next());
+ createEdge(node, null, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, parent); } }
+ createEdge(this));
+ createEdge(node, DefaultBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, computeFollowSWITCH(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this), deflt);
+createEdge(node, Branch.ON_FALSE, node.getFirstChild().getNext());
+ createEdge(node, Branch.SWITCH));
+createEdge(node, Branch.ON_FALSE, node);
+ createEdge(node,.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, (this));
+ createEdge(node, NodeUtil.Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, parent, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_TRUE); }
+ createEdge(node.getNext ()), Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.UNCOND); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getFirstChild(), deflt);
+ createEdge(node, Branch.END;
+ createEdge(deflt,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, SWITCH, computeFollowNode(node, this));
+ createEdge(node, Branch.UNCOND, parent); } }
+ createEdge(node, Branch.FollowNode(node, this));
+ createEdge(node, Branch.UNCONDBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, computeNode(node, this));
+ createEdge(node, Branch.UNCOND, node, this);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.SWITCH); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getFirstChild().getNext());
+ createEdge(node, Branch.COND,this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.Switch);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowSWITCH(node, this));
+ createEdge(node, Branch.UNCOND, this));
+ createEdge(node, Branch.OP.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); } } else {
+ createEdge(node, Branch.UNCOND, node.next());
+createEdge(node, Branch.ON_FALSE, node.getLastChild()); } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent)); }
+createEdge(node, Branch.ON_FALSE,  computeFollowOfSWITCH(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, deflt));
+ createEdge(node, computeEdge(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node = deflt ;
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); } } } else {
+createEdge(node, null);
+ createEdge(node, DEFAULT, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.UNCOND, parent);
+ createEdge(node, Branch.NOT_ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.SWITCH_ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, SwitchBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Deflt, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_TRUE, node);
+ createEdge(node, compute(node, this));
+ createEdge(node, Branch.ON_END));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getNext));
+createEdge(node, Branch.UNCOND, null);
+ createEdge(node, this, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.HEAD);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.END);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.WS);
+createEdge(node, Branch.ON_FALSE,  computeFollowNode(parent, deflt)); }
+ createEdge(node.getFirstChild(), node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.HEAD));
+ createEdge(node, FollowNode(this));
+ createEdge(node, computeFollowNode(parent, this));
+ createEdge(node Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, parent.getFirstChild()); } }
+ computeFollowNode(node, parent, this));
+ createEdge(node, Deferred.computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this)); } } }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Node.DEFAULT); } }
+ createEdge(node, Branch.SWITCH(this));
+ computeFollowNode(node));
+ createEdge(node, SWITCH.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.DEFAULT,this));
+createEdge(node, Deflt);
+ createEdge(node, Branch.DEFAULT);
+ createEdge(node, Branch.DEFAULT));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; connectToPossibleExceptionHandler(node);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Node.SWITCH); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent.getNext));
+ createEdge(node, Branch.UP,computeFollowNode(node, this));
+ createEdge(node, Branch.END_ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getFirstChild(), this)); }
+ createEdge(node, Branch.HEAD,computeFollowNode(node, this));
+ createEdge(node, _computeFollowNode(node, this));
+ createEdge(node, Branch.COND,node, this));
+ createEdge(node, Branch.COND,Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node, this)); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this)); } }
+ createEdge(node, Branch.SWITCH,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, StatementBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, parent.getFirstChild()); }
+createEdge(node, Branch.COND);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } } }
+ createEdge(node, UNCOND, computeFollowNode(node, this));
+ edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.OR,computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, parent.getNextChild()); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Node.SWITCH); } }
+ createEdge(node, Branch.DEFAULT,computeFollowNode(node, this));
+ computeFollowOfSWITCH(node, this));
+ createEdge(node, Branch.OPENON_FALSE, computeFollowNode(node, this));
+ connectToPossibleExceptionHandler(node, this));
+createEdge(node, Branch.UNCOND, node);
+ createEdge(node, Node.this));
+ createEdge(node, Branch.SWITCH, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); node. remove ( ) ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(this));
+createEdge(node, this);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, deflt, this));
+ createEdge(node, Branch.AND,computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.WEAK);
+ computeFollowNode(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.END, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, node.getNextChild()); }
+ createEdge(node, Branch.ON(false));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Node.DEFAULT); }
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.WITCH);
+ createEdge(node, Branch.ON_END);
+ createEdge(this.node, Branch.ON_FALSE, computeFollowNode(node, this));
+ connectToPossibleExceptionHandler(deflt,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.DEFAULT);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getFirstChild(), this));
+ createEdge(node.getFirstChild(), Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON(END));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); return deflt ;
+ createEdge(node, ConditionalSwitchBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node = deflt ;
+ createEdge(node, Branch.UP));
+ createEdge(node, Branch.FALSE);
+ createEdge(node, 0, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node.getFirstChild(), parent, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); if (condition == true)
+ createEdge(node, ConditionalBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.BRANON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.HEAD, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.COND));
+ createEdge(node, Deflt,computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); node. getNext ( ) ;
+ createEdge(node.getFirstChild(), this, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node.getSecondChild, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, NodeBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getFirstChild()); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getNext(), this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this).getNext()); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getLastChild));
+ createEdge(node, DEFAULTS, computeFollowNode(node, this));
+ createEdge(node, Branch.WITCH, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. remove ( ) ;
+ CreateEdge(node, Branch.UNCOND, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Token.SWITCH));
+createEdge(node, Branch.ON_FEALSE);
+ createEdge(node, Branch.ON) break;
+ createEdge(node, computeWith(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this)); } } } }
+createEdge(node, Branch.ON_PASS);
+ createEdge(node, Branch.OR, Branch.ON_FALSE, computeFollowNode(node, this));
+ CreateEdge(node, Branch.UNCOND, computeFollowNode(node, this));
+ computeFollowNode(node, null, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  this)); } node. getNext ( ) ;
+ createEdge(node,ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_Switch(node, this));
+ node.getFirstChild = parent;
+ connectToPossibleExceptionHandler(node); edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getFirstChild(), this));
+ createEdge(node, Branch.WITCH.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); } } } } else {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } return node ;
+ CreateEdge(node, Branch.UNCOND);
+ createEdge(node, Branch.STOP);
+ createEdge(node.getLastChild, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.CONCOND);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this).getFirstChild()); } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, node.getFirstChild));
+ createEdge(node, Branch.ON_PASS));
+ createEdge(node, Branch.UP);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this), deflt); }
+createEdge(node, Branch.UNCOND,);
+ createEdge(node, Branch.STMT.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getFirstChild, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return node. getFirstChild ( ) ;
+ (node, this));
+ createEdge(node, Branch.EXCEPT,computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, deflt, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node)); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } } } }
+ createEdge(node, Branch.END");
+ computeFollowNode(node, node, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); if (condition!= true)
+ return false;
+ createEdge(node, Branch.ON_END(node, this));
+ edge(node, computeFollowNode(node, this));
+ node.getFirstChild().getNext;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent.getFirstChild));
+ createEdge(node, - 1, Branch.ON_FALSE, computeFollowNode(node, this));
+ computeFollowNode(parent, node, this));
+ createEdge(node, computeFollow(this));
+ createEdge(node, Branch.ON_Follow(node, this));
+ createEdge(node, AbstractBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node.getParent, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, null));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); if (condition!= null)
+ follow(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollow(node, this));
+ createEdge(node, Branch.COND,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.Switch, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(this, Branch.SWITCH,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ CreateEdge(node, computeFollowNode(this));
+ createEdge(node, Branch.ON_END;
+ CreateEdge(node, Branch.NON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, parent.getFirstChild());
+ createEdge(node, Branch.UNCONDcomputeFollowNode(node, this));
+ createEdge(node, Branch.CONCOND, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  node.getFirstChild(), this)); } }
+ node.getNext());
+ computeFollowNodes(node, this));
+ createEdge(node, computeFollow(parent, this));
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); } } } finally {
+ createEdge(node, Branch.WEAK_ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.BACK));
+ createEdge(node, Branch.END, null;
+ createEdge(this).createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.SWITCH_node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt.node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ON_END, this));
+createEdge(node, Branch.END());
+ createEdge(node, Branch.ON_OR(node, this));
+ CreateEdge(node, computeFollowNode(node, this));
+ node.getNext ( );
+ createEdge(node, Branch.SWITCH,node, this));
+ createEdge(node, Branch.WEB, computeFollowNode(node, this));
+ node.set(Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. getFirstChild ( ) ;
+ createEdge(node.getFirstChild().node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node + 1, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.INCOND);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getFirstChild ( ) ;
+ createEdge(node, Branch.UNDEF, computeFollowNode(node, this));
+createEdge(node, Branch.BACK);
+ createEdge(node, 0,computeFollowNode(node, this));
+ createEdge(parseFollowNode(node, this));
+ createEdge(node.getNext().node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(this); createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.CLOSE);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), Node.DEFAULT); } else
+ createEdge(node, NEXT, computeFollowNode(node, this));
+ node = parent. getNext ( );
+ createEdge(node, Branch.CLOSE));
+ createEdge(node, Node.Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(parent, node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, findNode(this));
+createEdge(node, Branch.ON_NULL);
+ node.getFirstChild( );
+ createEdge(node, Branch.HEAD;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node)));
+ node.setNext(parent);
+ createEdge(node, Branch.ON_TRUE, node.getFirstChild().getNext(), this); if (condition == true).
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getSecondChild));
+createEdge(node, Branch.ON_FALSE, null); } }
+ createEdge(NODE.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.HEAD);;
+ node.setFirstChild(this));
+ createEdge(node, computeNext(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node, this));
+ createEdge(node, Branch.COND.Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, parent.next()); }
+ createEdge(node, Branch.ANON_FALSE, computeFollowNode(node, this));
+ node.getNextChild().getNext;
+ node.getNext = parent;
+ createEdge(node, node,this));
+ createEdge(Node.UNCOND,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.SWITCH_Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(null,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ node = node. getParent ( ). getNextChild ( ). getNextChild ( ). nextChild ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent, this)); } } } } }
+ node.setFirstChild(parent);
+ updateFollowNode(node, this));
+ createEdge(node, computeFollowSwitches(node, this));
+ parent = node.getNext;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this).getNextChild()); }
+ createEdge(Node Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, computeFollowSibling(node, this));
+ createEdge(node, null,this));
+ createEdge(node, Branch.ON_STEP(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. getNext ( )
+ createEdge(node); createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ computeFollow ( computeFollowNode(node, this));
+ connectToPossibleExceptionHandler(createEdge(node, this));
+ createEdge(node, followEdge(this));
+ createEdge(this, deflt, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowNodeOfSWITCH(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } node. remove ( ) ;
+ createEdge(node, this).computeFollowNode(node, this));
+ createEdge(node, true, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. setFirstChild ( parent);
+ createEdge(node, computeAfter(node, this));
+createEdge(node, Branch.UNDEF);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getNextChild(); }
+ createEdge(node, ConditionalEdgeBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } } } } }
+ connectToPossibleExceptionHandler(node);Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  node.getFirstChild(), computeNode(node, this));
+ createEdge(node, Branch.UNDEF));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node = next ;
+ createEdge(node, node));
+ connectToPossibleExceptionHandler(node); connect(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.WEAK);
+ computeFollowSibling(node, this));
+ createEdge(node, DEFlt, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) + deflt);
+ Edge(node, computeFollowNode(node, this));
+ createEdge(followNode(node, this));
+createEdge(node, Branch.ON_FALSE,  node.getLastChild(), computeNode(node, this));
+ createEdge(node, CatchBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, SiblingBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(parent.getNext, Branch.ON_FALSE, computeFollowNode(node, this));
+ if (deflt!= null) { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, branch(this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, false));
+ connectToPossibleExceptionHandler(...)Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ CreateEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node.get ()), Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return node. getNext ( ) ;
+ node = node. getParent ( ). getNextChild ( ). getNext ( ). next ( ) ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent.getNext()));
+ connectToPossibleExceptionHandler(node))(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  this)); } node. getNextChild ( )
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node));
+ createEdge(node, node);
+createEdge(node, Branch.ON_FALSE,  deflt, computeFollowSWITCH(node, this));
+ parent = node;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. getFirstChild = parent ;
+ createEdge(node, NodeUtilBranch.ON_FALSE, computeFollowNode(node, this));
+ parent = node.getFirstChild;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  this)); } } } else { return false ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent.getFirstChild, this));
+ node = node. getParent ( ). getNextChild ( ). getNextChild ( ). nextNode ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getFirstChild = parent ;
+ if ( this == node. getFirstChild ( ) ) {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node.getLastChild));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent.getNext, this));
+createEdge(node, Branch.ON_FALSE, parent).getNext();
+ parent = node.nextSibling;
+ if ( this == node. getParent ( ) || this == node. getNext ( ) )
+ node.next = parent;
+ createEdge(node, WITCH.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.ONCOND, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; parent. remove ( ) ;
+ if (deflt == null) { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, $(this));
+ createEdge(Node, computeFollowNode(node, this));
+ createEdge(node, LinkedHashMapBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getNext ( )
+ node = parent.getNext;
+ createEdge(this,computeFollowNode(node, this));
+ computeFollow(switch(node, this));
+ createEdge(node, BLOCK.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, DEFAULT);
+ createEdge(node, ConditionalStatementBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent));
+ parent = node.getParent;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getNext()));
+ node = node. getParent ( ). getNextChild ( ) ; if ( node!= null )
+ createEdge(node, NodeUtils.Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, node ) ; }
+ createEdge(SwitchBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.DONE));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this), deflt));
+ computeFollowNode(switch(node, this));
+ node.getFirstChild(parent);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  parent, this)); } } } } } }
+ createEdgeNode(Node.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch.UNCONC, computeFollowNode(node, this));
+ createEdge(node, Branch).createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getNext, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } } ) ;
+ return ; } } else { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ parent = deflt;
+ node.setNext(this));
+createEdge(node, Branch.ON_FALSE,  deflt); computeFollowSWITCH(node, this));
+ updateFollowNode(node, this);
+ createEdge(this,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ node.setFirstChild(parent));
+ node = getNextSiblingOfType(node, this));
+ node.getFirstChild().setNext(this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getNextChild();
+ computeFollow(node, parent, this));
+ createEdge(node.getNext(),node, Branch.ON_FALSE, computeFollowNode(node, this));
+ connectToPossibleExceptionHandler(node(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this); }
+ createEdge(this); computeFollowNode(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  node.getFirstChild().getNext(node, this));
+ node = deflt;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getFirstChild(); }
+createEdge(node, Branch.ON_FALSE, node.next()); }
+ createEdge(node, -this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getLastChild(); }
+ node = node. getParent ( ). getNextChild ( ). getNextChild ( ). next ; }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) + 1); } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getParent));
+ createEdge(parent.node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, Branch); createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node,...computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node = next ;
+ createEdge(node, ConditionalSwITCHBranch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt);
+ computeFollowNode(parent, this));
+ createEdge(node, LinkedHashSetBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. setFirstChild ( null);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return ; } } }
+ if ( parent == null ) { return ; } if ( parent == node. getFirstChild ( ) ) {
+createEdge(node, Branch.ON_FALSE,  node.getFirstChild(), computeFollow(node, this));
+ if ( this == node. getParent ( ) || this == node. get ( ) )
+ createEdge(node, computeSwitch(node, this));
+ if ( this == node. getParent ( ) || this == node. getChild ( ) )
+ connectToPossibleExceptionHandler(node,node, this));
+createEdge(node, Branch.ON_FALSE,  parent.getFirstChild().getNext(node, this));
+ if ( this == node. getParent ( ) || this == node. getPrev ( ) )
+ createEdge(self,node, Branch.ON_FALSE, computeFollowNode(node, this));
+ node.getFirstChild(computeFollowNode(node, this));
+ createEdge(this).edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } return deflt ;
+ createEdge(node,!computeFollowNode(node, this));
+ node.getNext(_);
+ createEdge(node, BranchImpl.ON_FALSE, computeFollowNode(node, this));
+ node = node. getParent ( ). getNextChild ( ). getNextChild ( ). parent ; }
+ node.setNext(computeFollowNode(node, this));
+ createEdge(node, ConditionalJumpBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, parent));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this).getNext());
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) + 1); } } }
+ createEdge(node.getSecondChild().node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); return node. getNextChild();
+createEdge(node, Branch.ON_FALSE, this);
+ computeFollowNode(case(node, this));
+ createEdge(node, Widget.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) || node. getFirstChild == null ) {
+ connectToPossibleExceptionHandler(falseEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getFirstChild, node, this));
+ } createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(Node.UNCOND, node, this));
+ node = node. getParent ( ). getNextChild ( ) ; if (! condition ) {
+ } } else { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) ) ; node. getNextChild ( )
+ if ( this == node. getParent ( ) || this == node. parent ( ) )
+ createEdge, Branch.ON_FALSE, computeFollowNode(node, this));
+ return ; } createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; connectToPossibleExceptionHandler(node));
+ node = node. getParent ( ) ; if ( node == null ) { continue ; } else {
+ if ( this == node. getParent ( ) || node. getFirstChild!= null ) {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } } } } ;
+ createEdge(node, DefaultEdgeBranch.ON_FALSE, computeFollowNode(node, this));
+ updateEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node. getFirstChild = null ;
+ computeFollow(edge(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } node. setFirstChild ( node);
+ if ( this == node. getFirstChild ( ) )
+ return null;
+ if ( this == node. getParent ( ) || ( this == node. parent ) )
+ node.setNext(_);
+createEdge(node, Branch.ON_FALSE,  computeFollowNodeWithSWITCH(node, this));
+ computeFollow (node, node, this));
+createEdge(node, Branch.ON_FALSE, node.next);
+ if ( this == node. getParent ( ) || node. isSwitch ( ) ) {
+ if ( this == node. getParent ( ) || this == node. next ( ) )
+ (this));
+ if ( this == node. getParent ( ) || this == node. parent ) {
+ if ( node!= null ) { if ( this!= null ) { if ( node == this ) return ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) ) ; } } } else { return ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } } } ;
+ if ( node!= null ) { if ( this!= null ) { if ( node!= this ) break ;
+ createEdge(node, Branch.OPENEXT.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, computeFollow node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, parent.getNext));
+createEdge ( node )
+ } else { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createFollowEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getSecondChild, this));
+ createEdge(node, computeForwardNode, this));
+ return Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdgeForSWITCH(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt+node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( node. getFirstChild ( )!= null ) {
+ node.getNextChild().setNext(this));
+ node = parent. next;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) ) ; } } } } } ) ;
+ computeFollowNode(parent));
+createEdge(node, Branch.ON_FALSE,  deflt); computeFollowSibling(node, this));
+ updateFollowNode(node, parent));
+ createEdge(this.switch(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( node. getFirstChild ( ) == null ) {
+ node = node. getParent ( ) ; if ( node == null ) { return ; } else {
+ Node parent = deflt;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, parent.getFirstChild));
+ createEdge(node, Branch.OR_node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)); } } } } } } } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, deflt, this));
+ node = node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(currentFollowNode(node, this));
+ node = parent ; break;
+ create, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( parent == null ) { return ; } if ( node!= null ) { if ( condition == true )
+ if ( node. getFirstChild. getNext ( ) )
+ createEdge(node, follow(node, this));
+ if ( this == node. getParent ( ) || this == node. child ) {
+ if ( this == node. getParent ( ) || node == this. parent ) {
+ computeFollowEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(deflt-node, Branch.ON_FALSE, computeFollowNode(node, this));
+ switch(node, this));
+ createEdge(parent, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( node!= null ) { if ( this!= null ) { if ( node!= this ) { }
+ createEdge(executeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; break ; }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(Node.UNCOND, this));
+ createEdge(this); } createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) || node. isSwitch ( ) )
+ node.push(Branch.ON_FALSE, computeFollowNode(node, this));
+ createEdge(node, )createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( node!= null ) { if ( this!= null ) { if ( node!= null ) { }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; node = parent ;
+ if ( parent == null ) { return ; } if ( parent == node. getParent ( ) ) { }
+ if ( this == node. getFirstChild ( ) ) { }
+ createEdge ( ) ; createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( parent == null ) { return ; } if ( parent!= null ) { if ( parent!= this )
+createEdge(node, Branch.ON_FALSE,  computeFollowSiblingNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) + 1); }
+ if ( this == node. getFirstChild ( ) ) break ;
+ if ( this == node. getParent ( ) || this == node. parent )
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent.nextSibling, this));
+ if ( node!= null ) { if ( node!= this ) { if ( this!= node ) { }
+ if ( this == node. getParent ( ) || this == node ) {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } } } } else { return false ;
+ parent = next ; break;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent, node));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this) + 1);
+ If condition is true, it goes into the body.
+ if (deflt!= null)
+ node = node. getParent ( ) ; if ( node == null ) { return ; } } }
+ computeFollowsSwitches(node, this));
+ if ( node. getFirstChild ( )!= null )
+ createEdge(node)); createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ switch(node));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this))); } }
+ createEdge(createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, false)); }
+ createEdge(this).Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getFirstChild ( ) ) continue ;
+ computeFollowWITCH(node, this));
+ If (conditions.test(node)) {
+ create(Node.ON_FALSE, computeFollowNode(node, this));
+ if (condition == true)
+ if ( this == node. getFirstChild ( ) || condition == true ) {
+createEdge(node, Branch.ON_FALSE,  node.getNext()); computeFollow(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowNodeSwitches(node, this));
+ node.set(Node.ON_FALSE, computeFollowNode(node, this));
+ If (conditions.isTrue(node))
+ next(node);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node.getPrevious));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, deflt, false));
+ if ( node. getFirstChild ( ) == null )
+ If condition is not true.
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent.getFirstChild, node, this));
+createEdge(node, Branch.ON_FALSE,  computePredicateFollowNode(node, this));
+ if ( this == node. getParent ( ) ||! condition ) {
+ node createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ return ; } } createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( node. getFirstChild. isSwitch ) {
+createEdge(node, false);
+ node.setParent(this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, Node.SWITCH));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(null, deflt, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return ; }
+ createEdge(parent,computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowSibling(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return false ;
+ computeFollow (Node(node, this));
+ create(Branch.ON_FALSE, computeFollowNode(node, this));
+ computeFollowOfSwitches(node, this));
+ createEdge(node, computeFollowEdge(node, this));
+ if ( this == node. getParent ( ) || this == node == null )
+ createEdge(parent);
+ updateFollow(node,this));
+ If condition is true.
+createEdge(node, Branch.ON_FALSE,  computeFollowSwitches(node, this));
+ node.getFirstChild().setNext(node, this));
+ computeFollow(Switch(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; } } } } else { } } }
+ this = this ; createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) ) { } else {
+ if ( this == node. getParent ( ) ) break ; }
+ return node;
+ If (condition == true)
+ switch(node);
+createEdge(node, Branch.ON_FALSE,  deflt); computeFollowWSwitch(node, this));
+ createEdge, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) && condition == true )
+ If (conditions.isTrue()) {
+ parent = null;
+ If (condition == true) {
+ follow(this));
+ if ( this == node. getParent ( ) || condition == true )
+createEdge(node, Branch.ON_FALSE, computeFollowNode(this, deflt));
+ connectToPossibleSwitch(node, this));
+ createEdge(Deflt, computeFollowNode(node, this));
+ if ( this == node. getFirstChild ( ) ) { } else {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node), this);
+ if (! condition ) break ;
+ if ( this == node. getParent ( ) || this == node ) { }
+ createEdge(node.next().node, Branch.ON_FALSE, computeFollowNode(node, this));
+ return ; createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getSecondChild, node, this));
+ Node createEdge(ON_FALSE, computeFollowNode(node, this));
+ if ( node. getFirstChild!= null ) { }
+ createEdge(this, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) ||! condition ) { }
+ If (conditions.isTrue(true))
+createEdge(parent, deflt);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.getLastChild, node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowSiblingOfNode(node, this));
+ if ( this == node. getParent ( ) ) continue ; }
+ createEdge(parent));
+ transition(node, this));
+ return createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) ||! condition ) break ;
+ createEdge(node.next(),node, Branch.ON_FALSE, computeFollowNode(node, this));
+ branch.ON_FALSE, computeFollowNode(node, this));
+ node.next(Branch.ON_FALSE, computeFollowNode(node, this));
+ if ( this == node. getParent ( ) || node == this ) { }
+ if (! condition ) { }
+ connectToPossibleExceptionHandlerForSwitch(node, this));
+ If condition is false.
+ computeFollowNode, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowSiblingSwitches(node, this));
+ $(node, this));
+ createEdge(DefaultBranch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) }
+ createEdge Branch.ON_FALSE, computeFollowNode(node, this));
+ computeNode(node, this));
+ return deflt;
+ } }));
+ if ( this == node. getFirstChild ) { } }
+ if (deflt)
+createEdge(node, Branch.ON_FALSE,  computeFollowNodeWithSwitches(node, this));
+ if ( this == node. getParent ( ) || node == this ) { } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this))); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, true));
+ if (! condition ) break ; }
+ branch(Node.ON_FALSE, computeFollowNode(node, this));
+ If condition is true, skip it.
+ if ( this == node. getParent ( ) ) { } else { }
+createEdge(node, Branch.ON_FALSE,  computeFollowSwITCH(node, this));
+ If (conditions.isTrue( ))
+ createEdge(Block.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowSwitchNode(node, this));
+ connect(node, computeFollowNode(node, this));
+ createEdge(tree.ON_FALSE, computeFollowNode(node, this));
+ createNode(node);
+ edge(Node.ON_FALSE, computeFollowNode(node, this));
+ switch(computeFollowNode(node, this));
+ updateFollow(node));
+ followNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return null ;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(this, deflt, node, this));
+ if ( this == node. getFirstChild ) { } else { }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this); } }
+ next(node));
+ node.getNext;
+createEdge(node, Branch.ON_FALSE,  computeEdge(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(), this);
+ If condition is true, it's a SWITCH.
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parent.next, this));
+ createEdge()Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(parent); }
+ createEdge(ranch.ON_FALSE, computeFollowNode(node, this));
+ If condition is true, skip.
+ createNode(deflt, computeFollowNode(node, this));
+ createNode(node));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, false, false));
+ (break);
+ return ; } { createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ follow(node));
+createEdge(node, Branch.ON_FALSE,  computeNode(node, this));
+ connect(Node.ON_FALSE, computeFollowNode(node, this));
+ if (condition!= true)
+ switch(this));
+ If condition is false
+ createEdge.ON_FALSE, computeFollowNode(node, this));
+ recreateEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ updateNode(node, this));
+ If condition is true, it goes into the head.
+ if (! condition ) { } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt, parent, node, this));
+ follow(node);
+ } }
+createEdge(node, Branch.ON_FALSE, null); }
+ return createEdge(computeFollowNode(node, this));
+ createEdge(node, Branch.IF(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node, parent));
+createEdge ( ;
+ createEdge(edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ followNode(this));
+ connect(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, true, false));
+ if ( this!= null ) { }
+ connect(Branch.ON_FALSE, computeFollowNode(node, this));
+ If condition is true, it goes back.
+ createEdgeInner(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this), node);
+ If condition is true, {
+ create(node, computeFollowNode(node, this));
+ transition(node));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node.next, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) } } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, false, true));
+ if ( this == node ) { } }
+ createEdge(Edge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, node, node));
+ If condition is true, it's not a default.
+ updateFollow(node);
+ createEdgeWithCondition(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode); }
+ This is the case.
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this), this);
+createEdge(node, Branch) ;
+ createEdge(null);
+ parent = child;
+createEdge(node, Branch.ON_FALSE, computeFollowNode(null, null, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(next, node, this));
+ node.setNext;
+createEdge(node, defaultNode);
+createEdge(node, Branch.ON_FALSE, parent); }
+ computeFollowEdge(node, this));
+ If condition is true
+ createNode(this));
+ (parent));
+ next(this));
+ edge(Branch.ON_FALSE, computeFollowNode(node, this));
+ If condition is true, it's not.
+createEdge(node, Branch.ON_FALSE, computeFollowNode, this);
+ createDefaultEdge(computeFollowNode(node, this));
+ next(parent);
+ handleSwitch(node, this));
+ return true;
+ if ( node!= null ) { } }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt, null, node, this));
+createEdge(node, Branch.ON_FALSE, this); }
+createEdge(); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defltNode, node, this));
+ computeFollowNode(child, this));
+ this. connectToSwitchNode(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ If condition is true, it's a CASE
+ if (! condition ) break ; else
+ computeFollow(this));
+ If condition is true,
+ if ( this == node ) { } else { }
+ return(node);
+ updateFollow(this));
+ set(Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(delta, this));
+ computeFollowNode((node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt, false, node, this));
+createEdge(node, Branch.ON_FALSE, false);
+ node.push(computeFollowNode(node, this));
+ createNode, computeFollowNode(node, this));
+ createNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt), node, this));
+ else {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) ; return ;
+ node.then(computeFollowNode(node, this));
+ set Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(); }
+createEdge(node, Branch). }
+ connect(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ No default.
+ computeFollowEdge(this));
+ next ());
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, node));
+createEdge(node, Branch.);
+ createNode(node, computeFollowNode(node, this));
+ createNode(computeFollowNode(node, this));
+ } else {
+ (parent);
+ createNewEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)) } }
+ No default found.
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node), this));
+ return this;
+createEdge(null); }
+ computeFollowNode((this));
+ else {computeFollowNode(node, this));
+ (this);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deflt2, node, this));
+ if (computeFollowNode(node, this));
+ return null);
+ $(this));
+ (node, computeFollowNode(node, this));
+ No DEFAULT
+ createFollowNode(this));
+ Otherwise, do nothing
+createEdge(node, Branch.ON_FALSE,  computeSwitch(node, this));
+ createNode(ON_FALSE, computeFollowNode(node, this));
+ updateFollowNode(this));
+createEdge(node, Branch.ON_FALSE,  computeWith(node, this));
+ createEdge(.computeFollowNode(node, this));
+ next(node, this));
+ createFollow(computeFollowNode(node, this));
+ If condition {
+ node(node, Branch.ON_FALSE, computeFollowNode(node, this));
+ Branch(ON_FALSE, computeFollowNode(node, this));
+ }
+ addEdge(computeFollowNode(node, this));
+ createGraph(computeFollowNode(node, this));
+ branch(this));
+ create (, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node,  DEFlt);
+ return(this));
+ Otherwise.
+ follow(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  compute(node, this));
+ For the next case
+ createEdge("ON_FALSE, computeFollowNode(node, this));
+ computeFollowPath(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode()) ;
+ createEdge(root, Branch.ON_FALSE, computeFollowNode(node, this));
+ computedFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowEdge(node, this));
+createEdge(node, Branch.ON_FALSE,);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, null));
+ createNode.ON_FALSE, computeFollowNode(node, this));
+ (parent, this));
+ createNode(Branch.ON_FALSE, computeFollowNode(node, this));
+ Otherwise,
+ If condition.
+ else (computeFollowNode(node, this));
+ CreateEdge, computeFollowNode(node, this));
+ create (, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(delegate));
+ updateNode, Branch.ON_FALSE, computeFollowNode(node, this));
+ create node, Branch.ON_FALSE, computeFollowNode(node, this));
+ Otherwise {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaultNode));
+ create Branch.ON_FALSE, computeFollowNode(node, this));
+ Node.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(Deflt, node, this));
+ addEdge(Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, {
+ updateEdge(Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaultlt));
+ $(parent, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(next));
+createEdge(node, Branch.");
+ branch(ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE,  computeFollowingNode(node, this));
+createEdge(node, Branch.ON_FALSE,  follow(node, this));
+createEdge(node, Branch.ON_FALSE)); }
+createEdge(node, Branch.ON_FALSE, computeFollowNode(null, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaultNode, this));
+createEdge(this);
+ computeFollowingNode(node, this));
+ createGraph(Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this)));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(parentNode));
+createEdge(node, Branch.ON_FALSE,  computeFollowPath(node, this));
+createEdge(node, Branch.ON_FALSE,  computefollowNode(node, this));
+ createNode(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, Deflt));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaultNode, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, parent));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, Deflt));
+createEdge(node)); }
+ addEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, defaultNode));
+ createGraph(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  null));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, - 1));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, defaultNode));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node,  true));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaults, node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(defaultlt, this));
+createEdge(node, Branch.ON_FALSE,  node(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(delegate, this));
+createEdge(node, Branch.ON_FALSE,  transform(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(delegate, node, this));
+ else
+createEdge(node, Branch.ON_FALSE,  switch(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, dt));
+createEdge(node,);
+createEdge(node, Branch.ON_FALSE, computeFollowNode(deleted, this));
+createEdge(node); break
+createEdge(node, Branch.ON_FALSE, computeFollowNode(node, this, condlt));
+ {
+createEdge(node, Branch.ON_FALSE, computeFollowNode(this, node, this));
+ removeEdge(node, Branch.ON_FALSE, computeFollowNode(node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(self));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(null));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(Node, this));
+createEdge(node, Branch.ON_FALSE, computeFollowNode(child, this));

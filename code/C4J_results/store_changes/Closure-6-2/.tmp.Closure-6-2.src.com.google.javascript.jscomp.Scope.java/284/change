@@ -1,0 +1,437 @@
+ return input.getName();
+ return inputName;
+ return input;
+ input.getName();
+ return input.getInputName();
+ return inputName();
+ return input.name();
+ {
+ return "<" + input.getName();
+ {
+ return "(input);
+ return "<input>"+input.getName();
+ return input.toString();
+ return input();
+ return "Scope.Input " + input;
+ if (input instanceof File) {
+ if (input instanceof File)
+ return "Input " + input.getName();
+ return "Scope.Input " + input.getName();
+ if (input!= null)
+ return getInputName();
+ { return "Scope.Var " + name + "{" + type + "}"; }
+return input.getName() + name;
+ return "Scope.Input " + inputName;
+return input + "{" + type + "}";
+ { return "Scope.Var " + name + "{" + type + "}"; } else {
+return  "Scope.Input " + input + "";
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; } else
+ return input. name ;
+ { return "Scope.Var " + name + "{" + type + "}"; } public String name() {
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; } else {
+ return " + input.getName();
+ return "Scope.Input " + input + "();
+ return " " + input.getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; }
+ return inputNode.getName();
+ { return "Scope.Input " + inputName;
+ return "Scope.Input " + input + ";
+ return input.file.getName();
+ if (input!= null) return "<unknown>"; else
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}";
+ return "Scope.Input " + inputName();
+ if (output!= null)
+ return input + " ";
+ return "Scope.Input " + inputNode.getName();
+ if (input instanceof FileInput) {
+ return "Scope.Input " + input + "
+ { return "Scope.Var " + name + "{ + type + "}"; } else {
+return  "Scope.Input " + name + "";
+ return "Scope.Input " + input();
+ { return "Scope.Input " + input;
+ { return "Scope.Var " + name + "{ + type + "}"; }
+ return "Scope.Input " + name + ");
+ return "Scope.Var " + name + ");
+ return "(" + input);
+ return "Scope.Input(input);
+ if (input instanceof InputFile) {
+ if (input!= null) return "<input>"; else
+return input + "{" + type + "}"
+ return "Scope.Var " + input + "();
+ { return "Scope.Var " + name + "{ + type + "}"; } public String name() {
+ { return "Scope.Var " + name + "{" + type + "}"; } public String getName(Input) {
+return input. toString ( ) + name;
+ { return "Scope.Var " + name + "{" + type + "}"; } public String getName(Input input) {
+ return "Scope.Var " + input;
+ return "Scope.Input " + (input);
+ { return "Scope.Input " + input.getName();
+ { return "Scope.Var " + name + "{" + type + "}"; } public String toString() { if (input)
+ return input + name;
+ return "Scope.Input " + input.name();
+return input + "{" + type + "};
+ return "<input>" ;
+ return "<input>"; else
+ return "Scope.Input " + input + name;
+ return "Input " + input.name();
+ if (input instanceof InputName) {
+ return otherInput.getName();
+ return "Scope.Var " + inputName;
+return input. toString ( ) + " " ;
+ return "(" + inputName);
+ { return "Scope.Var " + name + "{" + type + "}"; } public String getOutputName(Input) {
+ if ( input instanceof Var ) { return "Input " + name + "{" + type + "}"; } else {
+return input.getName() + "{" + type + "}";
+return  "Scope.Var " + input + "";
+ if ( input instanceof File ) return "<unknown-file>" ;
+return  "Scope.Var " + name + input;
+ if (input instanceof Input) {
+ input ;
+ if ( input instanceof Var ) { return "Scope.Var " + name + "";
+ if ( input instanceof Var ) { return "Input " + name + "{" + type + "}"; } else
+ { return "Scope.Input " + inputName();
+ return "Scope.Var " + inputName();
+ if ( input instanceof Var ) return "<unknown>"; else
+ return input. inputName ;
+ { return "Scope.Var " + name + "{" + type + "}"; } } public String getName ( input ) {
+ { return "Scope.Var " + name + "{" + type + "}"; } public String name {
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{ + type + "}"; }
+ return "Scope.Var " + name + "{" + type + "}"; } else {
+ return "<file>"+input.getName();
+ return "Scope.Input " + nameNode;
+ return "<input: "+input.getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; else
+ if ( input instanceof File ) return "<non-file>"; else
+ if (input instanceof Var)
+return input. toString ( ) ; }
+ if (input!= null) return "<unknown-file>"; else
+ if (input!= null) return "<unknown-file>";
+return input.getName() + "{" + type + "}"
+ return "Scope.Var " + (input);
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{input.getName()}" }
+ return "Scope.Input " + input);
+ return "Scope.Var " + input.getName();
+ return "Input: " + input.getName();
+ return "Scope.Input: "+input.getName();
+ return "Scope.Var " + input.name();
+ return "<input>" + " + input.getName();
+ { return "Scope.Var " + name + "({ + type + "})"; }
+return input + "{" + type + "
+ return "Scope.Input " + name+input.getName();
+return input. toString ( ) + "." ;
+ if (input instanceof Input)
+ return "Scope.Var " + name + "();
+ return input.toLowerCase();
+ if (input instanceof Input) return "<input>"
+ { return "Scope.Var " + name + "{" + type + "}"; } else
+ return "Scope.Input " + name + input;
+ if (output instanceof File) {
+ if (input instanceof File) return "<file>" ;
+ if ( input instanceof Var ) { return "Scope.Var " + name ; }
+ return "Scope." + input.getName();
+ { return "Scope.Var " + name + "{" + type + "}"; } public String inputName {
+ if ( input instanceof Var ) { return "Scope.Var " + name ;
+ return "<input>" + this.input.getName();
+ return "<input>" + this.type.getName();
+ if ( input instanceof Var ) return "<variable>"; else
+ { return "Scope.Var " + name + "{" + type + "}"; } } else {
+ if ( input instanceof Var ) { return "<variable>"; }
+ if (input!= null) return "<file>";
+return input.inputName();
+ if ( input instanceof Var ) return "<unknown-var>"; else
+return input + " " + name + " " ;
+ { return "Scope.Var " + name + "{" + type + "}"; } return "<input>";
+ { return "Scope.Var " + name + "{" + type + "}"; } }
+ return "Scope.Input " + name + "();
+ return inputName.getName();
+ return "<input>" + nameNode.getName();
+ { return "Scope.Var " + name + "{" + type + "}"; } return "<input>"
+return input.getName() + "{" + type + "};
+ { return "Scope.Var " + name + "{" + type + "}"; } public String() {
+ if ( input instanceof Var ) { return "Scope.Var " + name + "}"; }
+ return "Scope.Var " + name(input);
+ if ( input instanceof Var ) return "<unknown-variable>"; else
+ if ( input instanceof Var ) return "<unknown-variable>" ;
+ if ( input instanceof Var ) { return "Scope.Var " + name + "
+ return (input);
+return input.toString().replace(" ", " ");
+ return "Scope.Var " + name+input.getName();
+ return "Input " + input + ".name();
+ if (input!= null) return " "+input.getName();
+ return "Scope.InputName";
+ if (input instanceof Var) return "<variable>" ;
+ return "" ;
+ { return "Scope.Var " + name + "{" + type + "}"; } public String getOutputName() { {
+ if (input instanceof Var) {
+ return "<input>"; else return "input.getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; } }
+ if (input!= null) return "<input>";
+ return "<>" + input.getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "}"; else
+return input.getName() + "{" + nameNode};
+ { return "Scope.Var " + name + "{" + type + "}"; } public String name()
+ if ( input instanceof Var ) { return "<unknown-var>"; }
+return input.getName() + " " + nameNode;
+ if ( input instanceof Var ) { return "<unknown-variable>" }
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{input.getName()};
+ return "Input name " + input.name();
+ if ( input instanceof Var ) { return "Scope.Var " + input ; }
+ return "<input>" + input + type.getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}; }
+ if ( input instanceof Var ) { return "<unknown-variable>"; }
+ if (input)
+ if ( input instanceof Var ) { return "<unknown-var>" }
+ if ((input instanceof File)) {
+ return "Scope.InputName "+input.getName();
+ if ( input instanceof File ) return "<unknown-file>"; else {
+ return "Scope.Var " + input();
+ return "Scope.Input".getName();
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{" + type + "}"; } else { }
+return input.toString(utf-8);
+ if ( input instanceof Var ) { return "Scope.Var " + nameNode ;
+return input. toString ( ) + "<file>" ;
+ return input + nameNode.name();
+return  "Scope.Var " + name + "";
+ return "Scope.Var " + input);
+ return "Scope.Var " + inputNode.getName();
+ if ( input instanceof Var ) { return "<unknown-var>"; } else
+return input. toString ( ) + "<input>" ;
+return input. toString ( ) + ">" ;
+return input.getName() + " " + name + "";
+ if (input instanceof InputStream) {
+return input.getName() + "(" + type + ")" ;
+return input.getName() + "<non-file>";
+ if ( input instanceof Var ) { return "<variant>"; } else {
+ return "Scope.Input " + name + ".input.getName();
+ { return "Scope.Var " + name + "{" + type + "}"; } return "Input:"
+ return "Scope.Var(input);
+ return "<input>" + inputNode.getName();
+ return "Input " + input + "Name();
+ return input.input.getName();
+ return "<input " + input.getName();
+ return "String(input);
+ return "Scope.Var " + name + ".input.getName();
+ if ( input instanceof Var ) { return "<unknown-var>"; } else {
+ { return "Scope.Var " + name + "{ + type + "}"; } } else {
+return input.toString() + "{" + type + "
+ return "Scope.Input " + name + "input.getName();
+return input.toString(UTF-8);
+ return "<input>"; else return input.getName();
+ if ( input instanceof Var ) { return "<unknown-variable>"; } else
+ return input.type.getName();
+ return "Input: " + inputName();
+ if (input!= null) return "<"+input.getName();
+return input. toString ( ) + "<unknown>" ;
+ return "<input>"; else return inputNode.getName();
+ return "Input: "+getName();
+ if ( input instanceof Var ) return "<unknown-var>"; else {
+ return "<input>" + " " + input.getName();
+return input.toString().replace(" " + name);
+return input.toString() + "{" + nameNode};
+ return "Input " + inputName;
+ return "Scope.Var " + name + "input.getName();
+ return getName();
+ if (output instanceof File)
+ return inputNode.getInputName();
+return input.toString() + " " + nameNode;
+ { return "Scope.Var " + name + "{ + type + "}"; } else
+ return input);
+ return "<input>" + this.nameNode.getName();
+return input.getName() + "<input>";
+ return "Input: " + (input);
+ return input's name;
+ if ( input instanceof Var ) { return "Scope.Var " + name + "{ + type + "}"; } else { }
+ { return "Scope.Var " + name + "{ + type + "}"; } }
+ return "<input>: "+input.getName();
+ if (output == null) return "null";
+ return "<input-name>";
+ return "Input name " + inputName;
+ return "<input>"; else return otherInput.getName();
+ if (input!= null) return input.input.getName();
+ return "<input>" + name + " + input.getName();
+ return "Input name: " + input();
+ return "Scope.Input " + input + input.getName();
+ return inputFile.getName();
+ return "<input>"
+ if (output == null) return "<unknown>"
+ return "Scope.Var " + inputName);
+return input + "{" + type + "}"; }
+ return inputNode.toString();
+ return "<input>" + this.inputNode.getName();
+ return "String(" + input);
+ return input.getAbsoluteName();
+ if (output == null) return "unknown";
+ return input + ".";
+ return input.getFullInputName();
+ return "<input>"; else return " "+input.getName();
+return input.getName() + "." ;
+ if (input!= null) return input.file.getName();
+return input.getName( ) + " " + type + " " ;
+ return "Scope.Input " + name;
+return input.getName() + "(" + name + ")"
+ return name();
+ return "Input name: " + input;
+ return input + "<file>";
+ return "InputName " + input + name;
+return input.toString().toLowerCase() ;
+ if (output == null)
+return input.getName() + "{" + nameNode;
+ return input.getAbsolutePath();
+ if (input!=)
+ return input.class.getName();
+return input.getName() + " " + input. getType() ;
+return input.getName() + " " + name + type;
+ return input + nameNode;
+ return "Scope.InputName:";
+ return "Scope.Input " + name.input.getName();
+return input.getName() + " " + name;
+ return "Scope.InputName.";
+ return input + "...";
+ { return "Scope.Var " + name + "{" + type + "}"; } else { }
+return input.toString().replace(" "", "");
+ { return "<" + input.getName();
+ return " " + inputNode.getName();
+ return ":" + input.getName();
+ return "<input>" + name + ".input.getName();
+ return "<input> for "+input.getName();
+ return this.input.getName();
+ return "Input name " + input;
+ return "<input name>";
+return input.getNameName() ;
+ return "(input name);
+return input.getName() + "...";
+ if (output == null) return "<>";
+ return "<input name>(input);
+return input.getName() + ">";
+ return "<unknown>"
+ return "input.getName();
+ if (output == null) return "<null>"
+ return "Input " + nameNode;
+ return "Scope.Input name "+input.getName();
+return input.getInputName(scope);
+ return "Scope.Input "+getName();
+ return input + "<unknown>";
+ return "Input name: " ;
+return input.getInputName(this);
+ return "($input);
+return input. getName ( ) ; }
+return input.getName() + " ";
+ return "String "+(input);
+ return "<unknown>" ;
+ return input.name.getName();
+return input.getInputName() + name;
+ (input);
+return input.getName(scope) + "<non-file>";
+return input.toString("file") ;
+return input.getName() + "Input" ;
+return input.getName(scope) + " " + nameNode;
+return input. getString ( ) ;
+return input.getName().toString() ;
+return input. asString ( ) ;
+return input.getName() + "<unknown>";
+ return _input.getName();
+return input.getName() + "(" + type + ")" ; }
+ return "<input-file>";
+ return "<".input.getName();
+return input.getName(nameNode, hashCode);
+return input. getName ( )
+ if (output!=)
+return input.getName() + suffix;
+ return "(input>");
+return input.getName() {
+return input.toString(null);
+return input.getName(nameNode, scope);
+return input.getName() + "<non-file>"
+return input.getName(nameNode, scope, hashCode);
+ return getInput();
+ return inputInfo.getName();
+return input.getName() + "<non-file";
+ return input + type;
+ return "<input>(other);
+ return "<input> "+getName();
+return input. get ( ) ;
+return input.fullName();
+ return input.name + name;
+return input.getName() + "<unknown-file>"
+ return "(unknown>");
+return input.getName() + name();
+ return "Input>(input);
+ return "<input>(input);
+ return "<>" ;
+ return "<input name>(other);
+return input.getName() + "<unknown-file";
+ return input.string();
+return input.getName("input") ;
+return input.getNameName() {
+ return input;
+ return "<null>"
+ return null ;
+ return "<"input.getName();
+return input.getInputName() ; }
+ return nameNode;
+ return $input.getName();
+ return "(");
+ return name;
+ "(input);
+return input.getName(nameNode);
+return input.getName( ) + " " + name();
+return input.getName("inputName");
+ return toString();
+return input.getName(this);
+ return "(unknown);
+return input.getName(scope);
+ return "input";
+ if ()
+ return input
+return input.getName(this).name();
+ return this.name();
+return input.getName(nameNode, hashCode());
+return input.getName(this).name;
+ $(input);
+ "" ;
+ return inputType.getName();
+return input.getName(...) ;
+ return "#"input.getName();
+return input.getName(this.type, scope); }
+ return input.filename();
+ return ;
+return input.getName(null);
+ return.getName();
+ return outputName();
+ return "...";
+ return "" ;
+ getName();
+ return outputName;
+ getInput();
+ if {
+return input.getName() {}
+ return ;
+ return ""
+return input.getName(name); }
+ return input().getName();
+ return ""();
+ return {
+ super.getName();
+return input.getName() + name
+return input.Name();
+ return ".getName();
+ this.getName();
+return input.getName() + "
+ if provided
+ returns input.getName();
+return input.getName(null); }
+return input.getName(this); }
+return input.getName(context); }
+: input.getName();
+return inputname;
+ return in.getName();
+ return null;
+return input.getName() {};
+ return type;
+ String.input.getName();
+return input.getName() {...
+ it=input.getName();
+ null
+ ""
+...
+,
+:

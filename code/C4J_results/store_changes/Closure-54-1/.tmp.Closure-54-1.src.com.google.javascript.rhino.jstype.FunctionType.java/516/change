@@ -1,0 +1,289 @@
+defineDeclaredProperty(name,
+defineDeclaredProperty(name, thisTypeNode,
+ } return
+ } defineDeclaredProperty(name,
+ define(name,
+ defineDeclaredProperty(
+ }
+defineDeclaredProperty(thisTypeNode,
+ } defineProperty(name,
+ } define(name,
+ } defineDeclaredProperty(
+defineDeclaredProperty(name, "thisType",
+defineDeclaredProperty(name, new FunctionBuilder(registry),
+ } defineDeclared(name,
+ params. addChild ( thisTypeNode); }
+defineDeclaredProperty(name, "call",
+defineDeclaredProperty(thisType,
+ } } defineDeclaredProperty(name,
+defineDeclaredProperty(name, name,
+defineDeclaredProperty(name, thisTypeNode); defineDeclaredProperty(
+ } } else { defineDeclaredProperty(name,
+ } } return
+ } return defineDeclaredProperty(name,
+ params. addChildToFront(thisTypeNode); }
+defineDeclaredProperty(name, new FunctionBuilder(thisTypeNode),
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); }
+ defineDeclared(name,
+defineDeclaredProperty(name, "call" function lazily,
+ params = null; }
+defineDeclaredProperty(name, new FunctionBuilder(thisTypeNode,
+ } defineDeclaredProperty(thisTypeNode,
+defineDeclaredProperty(name, new FunctionBuilder(name,
+ } defineDeclaredProperty(thisType,
+ params. addChild ( thisTypeNode ) ; params = null ; }
+defineDeclaredProperty(name, "call" + name,
+ } defineDeclaredProperties(name,
+ params. addChild ( thisTypeNode ) ; params. pop ( ) ;
+ params. removeChild ( thisTypeNode); }
+ } return defineDeclaredProperty(thisTypeNode,
+ } defineDeclaredPropertyImpl(name,
+ params. addChild ( thisTypeNode ) ; params. clear ( ) ;
+defineDeclaredProperty(name, thisTypeNode); } return name,
+ params. addChild ( thisTypeNode ) ; params = params ; }
+ params. addChildBack ( thisTypeNode); }
+defineDeclaredProperty(name, "call", thisTypeNode,
+ params. addChildToBack(thisTypeNode); }
+ params. addChild ( thisTypeNode. cloneTree ( ) ) ; }
+defineDeclaredPropertyName(
+ } } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = null;
+ } } else { defineDeclaredProperty(
+ } } else { params = params. cloneTree(); params. addChildToFront(thisNode); }
+defineDeclaredProperty(name, new FunctionBuilder(registry)); } return
+defineDeclaredProperty(name, (Function)
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = null;
+ } } else { params = params. cloneTree(); params. addChildToFront(this); }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode);
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = null; }
+ } return defineDeclaredProperty(thisType,
+ } return super. defineDeclaredProperty(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces =
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = params; }
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface ) { this. extendInterfaces = extendedInterfaces ;
+ } if (params!= null) {
+ thisTypeNode.defineDeclaredProperty(name,
+ params.cloneTree(); defineDeclaredProperty(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this. extendInterfaces = extendedInterfaces ;
+defineDeclaredProperty(name, (String)
+defineDeclaredProperty(name, new FunctionBuilder(registry,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = params;
+ params. addChild ( thisTypeNode ) ; params. removeChild ( ) ; }
+ } } else { defineDeclared(name,
+ } } return super. defineDeclaredProperty(name,
+ params. addChild ( thisTypeNode ) ; params. removeChild ( ) ;
+ params. addChild ( thisTypeNode ) ; params. remove ( ) ; }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisType); }
+ } } return defineDeclaredProperty(name,
+ params = params; }
+ params. addChild ( thisTypeNode ) ; params. remove ( ) ;
+ } defineDeclaredProperty(name, null,
+ params. cloneTree ( ) ; } defineProperty(name,
+ params. addChild ( thisTypeNode ) ; params. addChild ( "call" ) ;
+ } } defineDeclaredProperty(thisType,
+ } return defineDeclared(name,
+ } defineDeclaredProperty(name, thisType,
+ } } else if ( hasOwnProperty ( name ) ) { String params = getParametersNode ( name ). cloneTree ( ) ;
+defineDeclaredProperty(name, new FunctionBuilder(thisTypeNode); return
+ } } else { params = params. cloneTree(); params. addChildToFront(null); }
+defineDeclaredProperty(name, new FunctionBuilder(registry) ||
+defineDeclaredProperty(name, thisTypeNode, "call",
+ } if ( isInterface()) { this.extendedInterfaces = params; }
+ params. addChild ( thisTypeNode ) ; params. clear ( ) ; }
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.thisType =
+ } defineDeclaredProperty(name + ".",
+ } } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.call =
+ } defineDeclaredProperty(name + ",
+ } } else { defineDeclaredPropertyImpl(name,
+ } defineDeclaredProperty(name, "call",
+defineDeclaredProperty(name, thisTypeNode); } } return
+defineDeclaredProperty(name, thisType,
+ params. addChild ( thisTypeNode ) ; params. addChild ( thisTypeNode ) ;
+ } return defineDeclaredProperty(name, name,
+defineDeclaredProperty(name, new FunctionBuilder(thisTypeNode) ||
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); params = null; }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); params. removeChild(); }
+ } } return defineDeclaredProperty(this.name,
+ } } return defineDeclaredProperty(
+ } } } else { defineDeclaredProperty(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.call =
+defineDeclaredProperty(name, new FunctionBuilder(name),
+ } } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.thisType =
+ } } defineDeclared(name,
+ } defineDeclaredProperty(name, name,
+ params. addChild ( thisTypeNode ) ; params. setOptionalArg ( false ) ;
+ } return defineDeclaredProperty(name, null,
+ } defineFunctionProperty(name,
+ } } else { params = getParametersNode ( ). cloneTree ( ). build ( ) ;
+ params. addChild ( thisTypeNode ) ; params. setOptionalArg ( true ) ;
+ } } else { params = getParametersNode ( ). cloneTree ( ). detach ( ) ;
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.methods =
+ params. addChild ( thisTypeNode ) ; params. removeChild ( this ) ; }
+ } } else { defineDeclaredProperties(name,
+ } return super.getPropertyType(name,
+ params. addChild ( thisTypeNode ) ; params. addChild ( thisTypeNode); }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); } }
+ } return defineDeclaredProperty(this.name,
+ params.addChild(thisTypeNode);
+ } defineOwnProperty(name,
+ } return definePropertyType(name,
+ } } else { params = params. cloneTree(); params. addChild ( this ) ; }
+ params. addChild ( this ) ; }
+ } } return super. getPropertyType(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.thisTypeNode =
+ } } else { return defineDeclaredProperty(name,
+ } defineDeclaredProperty(name + ")",
+ defineProperty(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces.=
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); } return
+ params = thisTypeNode;
+defineDeclaredProperty(name, (function)
+ } defineThisProperty(name,
+ params. addChild ( thisNode); }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); } } return
+ } } else { params = params. cloneTree(); params. addChildToFront(getTypeOfThis()); } }
+ } } return defineDeclaredPropertyImpl(name,
+ } } } else { return defineDeclaredProperty(name,
+ } } else { params = params. cloneTree(); params. addChildToFront(getTypeOfThis()); } return
+ } return defineDeclaredProperty(thisType.name,
+ } definePropertyType(name,
+ params. addChild ( thisTypeNode ) ; params. setOptionalArg ( true ) }
+ params. addChild ( thisTypeNode ) ; } } return
+ } defineMethodProperty(name,
+defineDeclaredProperty(name, thisTypeNode); return
+ } return defineDeclaredPropertyImpl(name,
+ params. detach ( ) ;
+ } definePrivateProperty(name,
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { return this; }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); };
+ params. cloneTree ( ) ; }
+ params. addChildToFront(thisTypeNode); } }
+ params. addChildToFront(thisTypeNode); } } return
+ params. addChild ( thisTypeNode ) ; params. setOptionalArg ( false ) }
+ } } else { params = params. cloneTree(); params. addChildToFront(thisTypeNode); } } }
+defineDeclaredProperty(name, "call" function,
+ params. removeChild ( ) ; }
+defineDeclaredProperty(name, thisTypeNode, params,
+ params. addChildToFront(thisTypeNode); } return
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces.push
+ } } else { params = params. cloneTree(); params. addChildToFront(getParametersNode(params)); } }
+ params. remove ( ) ; }
+ } } else { params = params. cloneTree(); params. addChildToFront(getParametersNode(params)); } return
+ } } else { params = params. cloneTree(); params. addChildToFront(getParametersNode()); } } return
+ } } else { params = params. cloneTree(); params. addChildToFront(this); } }
+ params. addChild ( thisTypeNode ) ; } return
+ params. pushBack ( this); }
+ } } else if ( hasOwnProperty ( name ) ) { if ( isInterface()) { this.extendedInterfaces = new
+defineDeclaredProperty(thisName,
+defineDeclaredProperty(name, new FunctionBuilder(builder),
+ } defineDeclaredProperty(thisName,
+ params. removeChild ( this ) ; }
+defineDeclaredProperty(name, new FunctionParamBuilder(
+ } defineMethodCall(name,
+ } } else { params = params. cloneTree(); params. addChildToFront(null); } }
+ params. addChildToBack ( thisTypeNode ) ; } } return
+ params. remove ( ) ;
+ } return super.definePropertyType(name,
+ params. push ( this); }
+ params. addChild ( thisTypeNode ) ; } }
+ } } else { params = params. cloneTree(); params. addChildToFront(this); };
+ } definePropertyImpl(name,
+defineDeclaredProperty(name
+ params. addChild ( thisTypeNode ) ; params. removeChild ( ) ; };
+ params.popChild(); }
+ params. addChildBack ( thisTypeNode ) ; } return
+ } return defineDeclaredProperties(name,
+ params. addChild ( thisTypeNode ) ; } } } return
+ params. addChild ( thisTypeNode. cloneTree ( ) ) ; };
+defineDeclaredProperty(thisTypeName,
+ params. addChild ( thisTypeNode ) ; params. removeFromFront(); } }
+defineDeclaredProperty(name, null,
+ params. addChildToBack ( thisTypeNode ) ; } return
+ params. addChild ( thisTypeNode ) ; params. addChild ( thisTypeNode ) }
+ params. addChild ( thisTypeNode ) ; };
+ params. clear ( ) ; }
+ return thisTypeNode;
+ params. addChild ( thisTypeNode ) ; params. removeFromFront(); } return
+ params. addChild ( thisTypeNode ) ; params. removeChild ( ) ; },
+ } return "return
+ params. push ( ) ; }
+ } } defineDeclaredPropertyImpl(name,
+ params.defineDeclaredProperty(name,
+ params. cloneTree ( ) ; definePropertyType(name,
+ } } else { return defineDeclaredPropertyImpl(name,
+defineDeclaredProperty(Name, thisTypeNode,
+ thisTypeNode; }
+ params. cloneTree ( ) ; defineFunctionProperty(name,
+ } return call(
+defineDeclaredProperty(thisTypeNode, name,
+ defineOwnProperty(name,
+ definePrivateProperty(name,
+ defineFunctionProperty(name,
+ } defineMethod(name,
+defineDeclaredProperty(name),
+ defineThisProperty(name,
+ } defineDeclaredMethod(
+ } return super.defineOwnProperty(name,
+ } call(name,
+defineDeclaredProperty(name + "",
+ } return defineDeclaredProperty(thisType(),
+ } return apply(
+ } defineDeclaredProperty($name,
+ defineDeclaredMethod(
+ } defineMember(name,
+ definePropertyImpl(name,
+ } return name(
+ } },
+ } defineCall(
+ defineDeclaredProperty()
+ }; defineDeclaredProperty(name,
+ } return definePropertyImpl(name,
+defineDeclaredPropertyname,
+defineDeclaredProperty(methodName,
+ } defineDeclaredProperty(name, (
+ } return name,
+ } definitionDeclaredProperty(name,
+defineDeclaredProperty(name, 0,
+ defineDecl(name,
+ params. removeFromFront(); } return
+ call(name,
+ return params; }
+ add(name,
+defineDeclaredProperty(name, thisTypeName,
+defineDeclaredProperty(name, params,
+ params.pushBack(); } }
+ defineCallProperty(name,
+ } defineMemberProperty(name,
+ } add name,
+ thisTypeNode;
+ definePropertyType(name,
+ thisTypeNode.
+ setProperty(name,
+defineDeclaredProperty()(
+ thisTypeNode }
+ } name,
+defineDeclaredProperty(name) +
+ } call(
+ thisTypeNode();
+defineDeclaredPropertyname(
+ add name,
+ } } return
+ return apply(
+ }, name,
+ return call(
+ set name,
+ } }
+ break; }
+ } } }
+ invoke(name,
+ register(name,
+defineDeclaredProperty(name+",
+defineDeclaredProperty(name); return
+ } } else
+defineDeclaredProperty(name) ->
+ } return
+defineDeclaredProperty(Name,
+defineDeclaredProperty(-name,
+ }; return
+ } throw
+ }; }
+ };

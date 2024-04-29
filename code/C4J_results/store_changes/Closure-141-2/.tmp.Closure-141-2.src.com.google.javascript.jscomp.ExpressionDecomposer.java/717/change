@@ -1,0 +1,332 @@
+seenSideEffects = true;
+seenSideEffects  = n ;
+ child = n;
+ parent = n;
+ n = child;
+ n.x = parent;
+seenSideEffects  ++ ;
+seenSideEffects  = n ; break; }
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; n = n. parent ;
+seenSideEffects  = n ; break; } }
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { n = n. nextChild ( ) ;
+ return DecompositionType.UNSPECIFIED;
+ if (isExternMethod(n, seenSideEffects)) { n = n.nextChild(); } else { n = child ;
+ if (isExternMethod(n, seenSideEffects)) {
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { n = n. nextSibling ( ) ;
+ return DecompositionType.ANY;
+seenSideEffects  = n ; } }
+ n = n. next ( ) ;
+ return DecompositionType.UNDECOMPOS= true;
+ return DecompositionType.STRING;
+ if (isExternMethod(n, seenSideEffects)) { parent.removeChild(n); } }
+ if (isExternMethod(n, seenSideEffects)) { break; }
+ if (isExternMethod(n, seenSideEffects)) { parent.removeChild(n); }
+ return DecompositionType.ERROR;
+ n = next().x;
+ return DecompositionType.UNKNOWN;
+ return DecompositionType.UNKNOWN; }
+ if (isExternMethod(n, seenSideEffects)) { n = n ; } else { n = n ; } }
+ if (isExternMethod(n, seenSideEffects)) { n = n.nextChild(); } }
+ n = n. nextChild ( ) ;
+ return DecompositionType.NONE;
+ if (n == parent.getFirstChild()) { break; }
+ if (isExternMethod(n, seenSideEffects)) { n = n.next(); } }
+ n.x = child;
+seenSideEffects = true ; break; } }
+ n = n. next ; } n = child;
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { parent. removeChild ( n ) ; } }
+ parent = n. nextChild ( ) ;
+ n = n ; child = n;
+ parent.next = n;
+ n = n. next ; child = n;
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; n = n. parent();
+ n = n.nextChild(); n = n;
+ if (isExternMethod(n, seenSideEffects)) { n = n ; } else { n = child ; }
+ if (isExternMethod(n, seenSideEffects)) { parent.removeChild(n); } } }
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { n = n. nextChild(); } }
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; n = n. parent }
+ if (isExternMethod(n, seenSideEffects)) { break; } }
+ return DecompositionType.DECOMPOS_true;
+ n = n; } child = n;
+ n = n.nextChild(); n = child;
+ n = n.nextChild( );
+ n = n; } parent = n;
+ if (isExternMethod(n, seenSideEffects)) { parent. removeChild ( n ) ; } } } }
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { n = n. nextSibling ( ) }
+ if (isExternMethod(n, seenSideEffects)) { n = n; } }
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } }
+ if (isExternMethod(n, seenSideEffects)) { } }
+ if (n == parent).getFirstChild()) { break; } }
+ if (isExternFunction(n, seenSideEffects)) { n = n ; } else { n = n ; } } } }
+ if (isExternMethod(n, seenSideEffects)) break; }
+seenSideEffects  --;
+ if (isExternMethod(n, seenSideEffects)) { parent = n ; } }
+ if (n == parent.getFirstChild()) { break; } }
+ n.decomposed= true;
+ parent.child = n;
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; } }
+ if (isExternMethod(n, seenSideEffects)) { n = n.nextChild(); } } }
+ if (isExternMethod(n, seenSideEffects)) break; } }
+ return DecompositionType.INLINE; }
+ if (isExternFunction(n, seenSideEffects)) { n = n ; } }
+seenSideEffects  = n
+ } break;
+ } n = child;
+ n = n. next ; } n = n;
+ return DecompositionType.NONE; }
+ n.isDecomposed= true;
+ if (isExternMethod(n, seenSideEffects)) { n = n.nextChild(); } } } }
+ return DecompositionType.UNSAFE_true;
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; } } }
+ } child = n;
+seenSideEffects  = n. children ;
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; } } } }
+ parent.nextChild = n;
+ n = n.nextChild(); n = parent;
+ n = n. next ; n = child;
+ n = n.next(); n = n;
+seenSideEffects = true ; break; }
+ return DecompositionType.UNCOMPOSABLE= true;
+ n = n.next(); n = child;
+ if (isExternMethod(n, seenSideEffects)) { continue; } }
+ return DecompositionType.ANY; }
+seenSideEffects = true; } }
+ child = n.parent;
+ n.x = foo();
+ if (n == parent).getFirstChild()) break; }
+ if (isExternMethod(n, seenSideEffects)) { n = n.nextChild(); } } } } }
+ if (isExternMethod(n, seenSideEffects)) { return; } }
+ } parent = n;
+ n.decompose=true;
+ n.decomposition=true;
+ if (isExternMethod(n, seenSideEffects)) { n = n. nextChild ; } } } } }
+ n = next(); } }
+ return DecompositionType.UNSPECIFIED_true;
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { }
+ if (isExternMethod(n, seenSideEffects)) { parent = n ; } } }
+ if (n == parent.getFirstChild()) break; }
+ if (isExternMethod(n, seenSideEffects)) { parent.removeChild(n); } else
+ continue; } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } } }
+ n = n;
+ if (isExternFunction(n, seenSideEffects)) { parent = n ; } } }
+ n = n.nextChild(); } break;
+ if (isExternMethod(n, seenSideEffects)) { n = n.next(); } } } }
+ if (isExternMethod(n, seenSideEffects)) { n = n ; } } }
+ return DecompositionType.UNSAFE:true;
+ n = n; parent = n;
+ if (n == parent.getFirstChild()) {
+ n = n.nextSibling;
+ if (n == parent).getFirstChild()) { } }
+ if (n == parent.getFirstChild()) { } }
+ if (isExternMethod(n, seenSideEffects)) { } } }
+ return DecompositionType.true;
+ if (isExternMethod(n, seenSideEffects)) { parent = n ; } } } }
+ if (isExternFunction(n, seenSideEffects)) { n = n ; } } }
+seenSideEffects  = null;
+ child = n; } break;
+ n.isUnsafe= true;
+seenSideEffects  = n ; break ; } } }
+ if (n == parent.getFirstChild()) break; } }
+ return DecompositionType.UNSPECIFIED:true;
+ if (n == parent.getLastChild()) {
+seenSideEffects  [ n ] = n ; } }
+ return DecompositionType.UNSPECIFIED;}
+ n = n.nextChild(); done=true;
+ if (n == parent).getFirstChild()); } }
+seenSideEffects  = n ; n = n ; } }
+ if (n == parent).getFirstChild(); } }
+ if (isExternMethod(n, seenSideEffects))) { } }
+ if (isExternMethod(n, seenSideEffects)) return; } }
+ if (isExternMethod(n, seenSideEffects)) continue; }
+ continue; } else { n = parent. getNextChild ( n ) ; } } }
+ return DecompositionType; }
+ n = n.next(); done=true;
+seenSideEffects = true; } else { parent = n ; } }
+seenSideEffects  = n ; } } } }
+ if (isExternMethod(n)) { parent = n ; } }
+ if (isExternMethod(n, seenSideEffects)) { } } } }
+ n.isDecomputed=true;
+ n = n. next(); } }
+ if (isExternMethod(n, seenSideEffects)) { }
+ if (n == parent).getFirstChild() { } }
+seenSideEffects  = n ; } } } } }
+seenSideEffects  = n ; } } }
+ n.isDecomposition=true;
+seenSideEffects  = n. children ; } }
+seenSideEffects =  n ; } else { n = child ; }
+ return DecompositionType.UNDECOSABLE= true;
+ return DecompositionType.UNSUPPORTED= true;
+seenSideEffects = true; } else { n = child; }
+ if (isExternMethod(n, seenSideEffects)) break; } } }
+ return DecompositionType.UNDECOMPRESS= true;
+ n.hasSideEffects= true;
+ n.inlined= true;
+ return DecompositionType.}
+seenSideEffects  = n ; break ; } } } }
+ continue; } else { n = parent. getFirstChild ( n ) ; } } }
+seenSideEffects  [ n ] = n ; } } }
+ n = n.nextChild(); child=true;
+ return null;
+ break; }
+ if (n == parent).getFirstChild(); }
+ parent = n ; break ; }
+seenSideEffects  = n ; } } } } } }
+seenSideEffects =  n. clone ( ) ; } }
+seenSideEffects = true; } else { n = n ; } }
+ return n;
+seenSideEffects  = n ; break ; } } } } }
+ continue; } else { n = n. nextChild ( ) ; } } } } }
+ n = n.nextChild; done=true;
+ n = n.next(); child=true;
+ n = parent;
+ if (n == parent).getFirstChild()); }
+ return DecompositionType.;
+seenSideEffects =  n ; } else { n = parent ; }
+ if (n == parent).getFirstChild()) { }
+ parent. removeChild ( n ) ; }
+seenSideEffects  [ n ] = n ; } } } }
+ continue; } else { n = parent. getNextChild(); } } } } } }
+seenSideEffects  = n ; }
+seenSideEffects  = n. children ; } } }
+ n.extern = null;
+seenSideEffects  = [ ] ;
+ if (n == parent.getFirstChild()) { }
+ if (n == parent).getFirstChild() { }
+ continue; } else { n = parent. getFirstChild(); } } } } } }
+ if (isExternMethod(n, seenSideEffects))) { }
+seenSideEffects  = n ; } } } } } } }
+ n = child; }
+seenSideEffects  = null; } }
+ n.unsafe= true;
+ if (n == parent.getFirstChild()); }
+ n = next().x();
+seenSideEffects  = n. children ; } } } }
+seenSideEffects =  n ; break ; } } } } } }
+seenSideEffects  = n ; n = n ; } } }
+ n = n. nextChild ; } }
+ parent = n ; } }
+ } n = parent;
+ n = child; }
+ n = n.next().x=true;
+seenSideEffects = true ; break ; } } }
+seenSideEffects  = n ; n = n. next ; }
+ n = n.nextChild(); } returntrue;
+ n = child ; } }
+ n = n.next().x.true;
+ } n = n;
+ n = n.nextChild(); } }true;
+seenSideEffects =  n ; n = child ; }
+ n = n ; } }
+ n = next(); } n.x= true;
+seenSideEffects = true ; break ; } } } }
+seenSideEffects = true ; } } } } }
+ n = child; } } done= true;
+ n = n ; } }
+ n.isCall=true;
+ n = next(); } }
+seenSideEffects = true ; break ; } } } } } }
+ n.isFunction=true;
+seenSideEffects =  [ n ] ; } } } } } }
+seenSideEffects = true ; break ; } } } } }
+seenSideEffects . add ( n ) ; }
+seenSideEffects = true ; } } } } } }
+ n = next(); } n.dirty= true;
+seenSideEffects =  n. children ; } } } } } }
+ n = n.next().x||true;
+ n = next(); } } }
+ n = next(); } n.modified= true;
+seenSideEffects = true ; } } } }
+ n = n; } } done= true;
+seenSideEffects =  n. children ; } } } } }
+ parent = n. parent ; } }
+seenSideEffects = true ; break ; } } } } } } }
+ n.isStatic= true;
+ n = next(); } n.fixed= true;
+seenSideEffects = true ; } else { } } } } }
+ break; }
+ n = n. parent ; } } }= true;
+ done=true;
+ n = n. nextChild ; } } }
+seenSideEffects = true ; } } } } } } }
+ child=true;
+ break; } }
+ n = n. next ; } } }= true;
+seenSideEffects = true; } else { } } } }
+ n = n ; } } }
+ n = child.nextChild(); } } }
+ n = n. parent ; } } done= true;
+ n = n. next ; } }
+ n.isDecompressed= true;
+ n = n. next ; } } done= true;
+ n.isDecompose= true;
+ n = next(); } n.closed= true;
+seenSideEffects  = n. children ; }
+ n = n. parent ; } } parent= true;
+ n = child ; } } } } } }
+ parent = n ; } } }
+ n.x= true;
+ n = n ; } } }= true;
+seenSideEffects = true; }
+seenSideEffects = true ; } } }
+ n = n. nextChild(); } } }
+ n = child ; } } }
+ n = child ; } } } }
+ return parent;
+ n = n ; }
+ node.x=true;
+ n = n ; } } }
+ parent = n ; } } } }
+seenSideEffects  = null ; } } }
+seenSideEffects =  n ; } } } else
+ found=true;
+ n.modified=true;
+ n = child.next(); } } } }
+ n = n ; } } } }
+seenSideEffects  = null; }
+ break; } }
+ continue; }
+seenSideEffects  = nil;
+ break; } } }
+ continue; }
+ n++;
+ return n ; } }
+ return ; } } } } }
+ continue; } }
+ } } done= true;
+ break;
+ return ; } } } }
+ break; } } }
+ } } } }
+seenSideEffects = true ; break;
+ return; } } }
+ n.dirty= true;
+ } done=true;
+ } } } } }
+ return; } }
+ } child=true;
+ isSafe=true;
+ } } }
+ } returntrue;
+ } } } }
+ return n ; }
+ isCall=true;
+ } }
+ } } }
+ break;
+ } }
+seenSideEffects = true. } }
+ } } returntrue;
+ continue;
+ } parent= true;
+ } prev= true;
+ break }
+ break }
+seenSideEffects = true } }
+seenSideEffects = true); }
+ break();
+seenSideEffects = true. }
+seenSideEffects <- true;
+seenSideEffects += true;
+ }
+seenSideEffects -= true;
+ }

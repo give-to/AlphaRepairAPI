@@ -1,0 +1,632 @@
+t.getCompiler().reportError(
+t. addError (
+t.getCompiler().report(
+t. report (
+ compiler.getCompiler().report(
+ else { JSError.report(
+ else { throw new RuntimeException(
+ compiler.report(
+ else { throw new IllegalStateException(
+ else if (n.getType() == Token.COMMENT) {
+t.getCompilerError(
+ else if (n.getType() == Token.NUMBER)
+ else if (n.getType() == Token.NUMBER) {
+ else if (n.getType() == Token.STRING) {
+ else if (n.getType() == Token.NUMBER) { msg = "Invalid number." ;
+ else if (n.getType() == Token.STRING)
+ if (msg!= null) {
+t.getCompiler().reportError(t, n, level, msg,
+ else if (n.getType() == Token.EMPTY) {
+ else if (n.getType() == Token.NUMBER) { msg = "?" ;
+ else if (n.getType() == Token.NUMBER) { msg = ""; }
+ else if (n.getType() == Token.ERROR)
+ else if (n.getType() == Token.COMMENT) { msg = ""; }
+ else if (n.getType() == Token.NUMBER) { msg = "." ;
+ else if (n.getType() == Token.STRING) { msg = "" ; }
+ else if (n.getType() == Token.NUMBER) { msg = "";
+ else if (n.getType() == Token.NULL) {
+ else if (n.getType() == Token.NUMBER) { msg = "Invalid number." ; }
+ else if (n.getType() == Token.STRING) { msg = "";
+ else if (n.getType() == Token.NUMBER) { msg = "Unknown number." ;
+ else if (n.getType() == Token.NULL)
+ else { throw new JSError(
+ else if (n.getType() == Token.NUMBER) { msg = "Invalid number" ;
+ else { msg =
+t.getCompiler().reportError(t, n, level,
+ if (n.getType() == Token.STRING) { msg += "." ;
+ else if (n.getType() == Token.NUMBER) { msg = "Invalid number" ; }
+ else if (n.getType() == Token.COMMENT)
+ else if (n.getType() == Token.NUMBER) { msg = "Missing number." ;
+ else if (n.getType() == Token.NUMBER) { msg = "++"; }
+ else if (n.getType() == Token.COMMENT) { msg = "No comment found." ;
+ if (n.getType() == Token.NUMBER) { msg = "Invalid number." ;
+ else { throw JSError.report(
+ else { throw JSError.make(
+ else if (n.getType() == Token.NUMBER) { msg = "Error" ;
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '-'?"; }
+ else if (n.getType() == Token.COMMA)
+ else if (n.getType() == Token.COMMA) {
+ else { throw
+ else if (n.getType() == Token.NUMBER) { msg = "Unknown number." ; }
+t.getCompiler().report(t, n, level, msg,
+ else if (n.getType() == Token.NUMBER) { msg = "Unknown" ;
+ else if (n.getType() == Token.NUMBER) { msg = "Error." ;
+ else if (n.getType() == Token.NUMBER) { msg = "There is no number." ;
+ else if (n.getType() == Token.COMMENT) { msg = "No comment found." ; }
+ else if (n.getType() == Token.NUMBER) { msg = "No number found." ; }
+ else if (n.getType() == Token.NUMBER) { msg = "No number found." ;
+ else { msg = "" ; }
+ else { throw JSError(
+t. addErrors (
+t.getCompiler().reportError(n,
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '*'?"; }
+ else if (n.getType() == Token.COMMENT) { msg = "This code lacks a comment." ; }
+ else if (n.getType() == Token.NL)
+ else { msg = "Unknown" ;
+ if (n.getType() == Token.STRING)
+t.getCompiler().reportError(compiler,
+ else if (n.getType() == Token.NUMBER) { msg = "No number found" ; }
+ else if (n.getType() == Token.NUMBER) { break; }
+ else if (n.getType() == Token.COMMENT) { msg = "This comment was ignored." ;
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '-'?" ; } else {
+t.getCompiler().report(t, n, level,
+ else { throw JSError.make
+ else { throw new JSErrorImpl(
+ else if (n.getType() == Token.STRING) { break; }
+ else { msg = "Unknown." ;
+ else { msg = " " +
+t.getCompiler().reportError(t, n,
+ JSError.report(
+t.getCompiler().warn(t, n, level, msg,
+ else if (n.getType() == Token.NUMBER) { msg = "There is a missing '-'"; }
+ else if (n.getType() == Token.NUMBER) { msg = "There is a missing '-'."; }
+ else if (n.getType() == Token.TEXT)
+t.getCompiler().error(t, n, level, msg,
+ throw new RuntimeException(
+ else { msg = "\n" ; } report(
+ else if (n.getType() == Token) {
+ else if (n.getType() == Token.NUMBER) { msg = "There is a number in code." ;
+ else { msg = ""; } compiler.getCompiler().report(
+ else { throw JSErrorException(
+ else if (n.getType() == Token.COMMENT) { msg = "This code lacks a comment." ;
+ else if (n.getType() == Token.COMMENT) { return;
+ else if (n.getType() == Token.NUMBER) { return;
+ else { msg = "Unknown error." ;
+ else if (n.getType() == Token.NUMBER) { msg = "The number is not valid." ;
+t.getCompilerContext().addError(
+ if (level > 0) {
+ else if (n.getType() == Token.NUMBER) { msg = "There is a missing '-'." ;
+ else if (n.getType() == Token.COMMENT) { msg = "This code contains comment." ; }
+t.getCompiler().addError(
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '-'?"; } }
+ else if (n.getType() == TokenError)
+ else { msg = "throw
+t. add ( n, level,
+ else { msg = "\n"; } compiler.report(
+t.getCompilerContext().reportError(
+ else { msg = ""; } compiler.report(
+t.getCompiler().reportError(t, n, level); throw
+t.getCompiler().report(t, n, level, " " +
+t. addError ( n, level,
+ else if (n.getType() == Token.STRING) { msg = "Is there a missing '-'?"; } }
+ else if (n.getType() == Token.COMMENT) { msg = "This code lacks comment." ; }
+ else if (n.getType() == Token.STRING) { msg } }
+ else if (n.getType() == Token.NUMBER) { msg } }
+ else if (n.getType() == TokenException)
+ else { throw (Exception)
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '-'?"; } return
+ else { msg = "\n" ; report(
+ if (msg!= null)
+ else if (n.getType() == Token.STRING) { msg = "Is there a missing '-'?"; } return
+ else { throw new ParseException(
+t.addError(n, n, level,
+t.getCompiler(n.getType()).reportError(
+t.getCompiler().warn(t, n, level,
+ else { msg = "Unknown error." ; }
+ else { msg = "Unknown error." ; compiler.getCompiler().report(
+t.getCompiler().addError(t, n, level,
+ else { msg = "return
+ else { msg = "Unknown" ; compiler.getCompiler().report(
+ else { msg = "\n" ; compiler.getCompiler().report(
+ else { msg = "" ; } report(
+t. addError ( n, " " +
+ else { throw new JSErrorException(
+t. addError ( " " +
+ else { throw JSError. newInstance(
+t.getCompiler().report(t, n, level); throw
+ else if (n.getType() == Token.NUMBER) { return
+ getContext().report(
+t.getCompiler().logError(t, n, level,
+t.getCompiler().error(t, n, level,
+t.getCompilerContext().report(
+ else if (n.getType() == Token.NUMBER) { msg = "Is there a missing '-'?" ; } } }
+ else { msg = "Unknown error." ; compiler.report(
+ else { msg = "There is no error." ;
+t.addError(n, level, " " +
+ else { throw JSErrorHelper.report(
+ else { msg = "." ; report(
+ else { msg = "Unknown"; }
+t. addError ( n, level, msg,
+ throw new IllegalStateException(
+t. addWarning (
+ else { msg = "\n"; } compiler.getCompiler().report(
+t. add ( n, level, msg,
+ else { msg = "No '+'" ; }
+ else if (n.getType()!= Token) {
+ else { msg = "Unknown error." } compiler.report(
+t.getCompiler().warn(t, n, level); throw
+ else { return; } throw
+ else { throw new Error(
+ else if (n.getType() == Comment) {
+t.getCompiler().reportErrors(
+t.addError(t, n, level,
+t.throw
+t.getCompilerContext().addErrors(
+ else { throw JSErrorFactory.report(
+ else { JSErrorHelper.report(
+t. add ( n, level, " " +
+ else { msg = "There is no." ;
+t.addError(n,
+ JSError.make(t).report(
+ else { msg = "Unknown." ; compiler.getCompiler().report(
+ else { JSError.make(t).report(
+t.getCompiler ( ). report ( t,
+t. add ( n, " " +
+ else { msg = "Not found." ; compiler.report(
+t. addError ( n, - 1,
+ else if (n.getType() == Token.COMMENT) { } }
+ else if (n.getType() == Token.COMMENT) { return
+ else { throw JSError wrap(
+t.error(
+t.getCompiler().report(t, n, level, "error",
+ else { throw JSError. runtimeCause(
+ else { msg = "There is no " + msg ;
+ else if (n.getType() == Token.NUMBER) { } }
+ else { msg = "Error: " +
+t.getCompiler().report(t, n,
+t.getCompiler().reportError(t, n, level + 1,
+t.addError(n, parent, level,
+ if (level > 0) { compiler.getCompiler().report(
+t.setAncestor(
+ else { msg = "No '+'." ; }
+t.getCompiler().reportError(t, n, - 1,
+t. add ( " " +
+t. add ( n, n, level,
+ else { msg = "\n"; compiler.report(
+ else if (n.getType() == Token.STRING) { return
+t.getCompiler()).reportError(
+t.setErrors(n,
+t.getCompiler().reportError(t, n, level) ;
+t.setSource(n,
+ else { msg = "\n" + String(
+t. reportError ( n, level,
+ else { msg = "Not found." ; compiler.getCompiler().report(
+t.getCompilerContext().addError(n,
+ else { msg = "There is no '+'." +
+ else { msg = "." ;
+t.getCompiler().addError(compiler,
+ else { msg = "This code is invalid." ;
+ else { msg = '' ; }
+ else { msg = "No '+" ; }
+ else { throw JSErrorManager.report(
+ else { msg = ""; } t.getCompiler().report(
+ else if (n.getType() == Token.STRING) { } }
+t.getCompiler(n.getType()).addError(
+t.getCompiler().addError(n,
+t. report ( n, level,
+ else { msg = n. getAncestor().report(
+ else { msg = "" ; compiler.report(
+ else { msg = "\n";
+ else { msg = "There is no '+'" ;
+t. reportErrors (
+t.getCompiler(n.getType()).error(
+ else { msg = "Unknown error." ;
+ else if (n.getType() == Token.NULL) { } }
+ else { throw JSError. runtimeException(
+ else { msg = "Unknown error" ; compiler.report(
+t.getCompiler().addError(t, n,
+ else if (n.getType() == Token.NUMBER) { msg } else
+ else { msg += ""; } compiler.report(
+t.addWarning(n, level, " " +
+ else { msg = "Unknown error" ;
+ else { msg = "!" ; report(
+ else { msg = "." ; compiler.getCompiler().report(
+ else { msg = "Unknown error" ; }
+t.getCompiler()().reportError(
+t.addError(n.getLine(),
+ else { JSError.make(n).report(
+ else { msg = "There is no problem." ;
+t.addError(n.getPath(),
+t.setError(n,
+ else { throw JSErrorImpl(
+ else { msg = "Unknown error" ; compiler.getCompiler().report(
+ else { throw new IOException(
+t.setError(n, level,
+ else { msg = "There is no error!" ;
+ else if (n.getType() == Token.NUMBER) { throw
+t.getCompiler().logError(t, n, level); throw
+t.getCompiler().report(t, n, level) ;
+t.getCompiler(n.getType()).report(
+ throw new JSError(
+t.getCompiler().logError(t, n,
+t.getCompiler(n.getPath()).reportError(
+t.getCompiler ( ). reportError ( t,
+ else { msg = "There is no error?" ;
+ else { JSError.create().report(
+ else { msg = "." +
+ else { msg = "\n"; } reporter.report(
+t. addError ( n, msg,
+ else { msg = "There is no '+"; throw
+t.getCompilerInfo().addError(
+ else if (n.isAncestor()).report(
+ else { msg = "Unknown error." }
+t.addError(t, n, - 1,
+t.getCompiler().addErrors(
+ else { msg = "Unknown error." } compiler.getCompiler().report(
+t.addError(n.getValue(),
+t. addError ( ctx,
+ else { throw JSError. toException(
+ else { msg = "Unknown Error." ;
+ reportError(
+ else { msg = "Unknown" ; t.getCompiler().report(
+t.getCompiler(n.getLineNumber(),
+ else { msg = "Unknown error!" ;
+t.getCompiler().reportError(n, level,
+ else { throw JSError. subreport(
+ else { msg = "Missing '-'"; }
+t. reportError (
+t.addError(t, n, " " +
+ else { msg = "Unknown code." ; compiler.getCompiler().report(
+t.getCompiler().reportError(n, level, msg,
+t.getCompilerException(
+ else { msg = "" ;
+t.addWarning(n, level,
+t.addError(n.getName(),
+ else { msg = "Missing '+'." }
+ else { return; } reportError(
+t. setError ( " " +
+ else { msg = "\n"; } t.getCompiler().report(
+ else { msg = ""; throw
+t.getCompiler(n.getType() + ": " +
+t.getCompiler().error(
+t.getCompiler().reportJSError(
+ else { JSError.create(n).report(
+t.getCompiler().error(t, n, level); throw
+t.getCompilerContext().addError(compiler,
+ else { msg = "Unknown" ;
+ else { return; } compiler.report(
+t.getCompiler()->reportError(
+ throw JSError(
+t. append ( " " +
+ throw new Error(
+ JSError.create().report(
+ else { msg = ""; compiler.getCompiler().report(
+ else { msg = n. getAncestors().report(
+t.getCompiler(n.getType()).throwError(
+t = n. getType ( ) ; } throw
+t.getCompiler(n.getType() + msg,
+t. report ( n,
+t.getCompiler(n.getName()) =
+ if (level > 0)
+t.getCompiler ( ). reportError ( ctx,
+t = n. getType ( ) ; throw
+t.getCompiler(n.getName(),
+ else { msg = n ; compiler.getCompiler().report(
+t.setErrors(
+ else { JSError.getInstance().report(
+t.getCompiler(n.getPath()) =
+ else { JSError.getCompiler().report(
+t.getCompiler().reportError(c,
+t.addChild(n,
+ else { msg = "\n"; } context.report(
+ else { JSErrorManager.report(
+ else { return; } report(
+t.getCompiler(n).reportError(
+ else { JSError. rereport(
+ else { throw JSError. _report(
+t.getCompiler().addError(n, level,
+t.getCompiler.reportError(
+ else { JSErrorReport.report(
+ else { msg = "Unknown." } compiler.getCompiler().report(
+ else { msg = "SystemReportContext.report(
+t.getCompiler().report(compiler,
+t.getCompiler(n).report(
+ n. getParent().report(
+ else { System.err.report(
+t.getCompiler().reportError(n, level); throw
+t.getCompiler.report(
+ else { msg = "Missing '+'" ;
+t.addError(parent, n,
+ else { return; } throwException(
+t.getCompiler().reportError(T.ERROR,
+ else { msg = "\n"; } t.report(
+t.getCompiler(n.getLineNumber()),
+ else { n. getAncestor().report(
+t.addError(n, level, "error",
+ else { jserror.report(
+ else { msg = "Unknown." }
+ else { n. getAncestors().report(
+ JSErrorHelper.report(
+t.getCompiler(n.getType()) =
+t. add ( n ) ; } throw
+t.getCompiler(n.getType() + 1,
+t.getCompiler()).report(
+ LOGGER.error(
+t.addAnnotation(
+t = n. getType ( ) ; } return
+ throw new ParseException(
+t.getCompiler ( ). reportError ( compilerName,
+t.getCompiler(n).addError(
+ else { n.getParent().report(
+t.getCompiler(n,
+t. addError(i,
+ JSError.make(e).report(
+t.getCompiler().reportError(t, ctx,
+t. report ( level,
+t.getCompiler().report(t, n, level, new
+t.getCompiler().addWarning(
+t.getCompiler().error(t, n, level, new
+ JSError.getInstance().report(
+t.getCompiler ( ). report ( n, level,
+t.getCompiler().logError(n,
+t. add (
+t.getCompiler()().report(
+ JSError.make(n).report(
+ else { JSError.make().report(
+t.getCompiler().report(n,
+t. add ( i,
+t.getCompiler(n.getPath(),
+t.getCompiler().warn(t, n, level); return
+t.getCompiler ( ). report ( " " +
+t.getCompiler ( ). reportError ( " " +
+ else { return; } n. getParent().report(
+t.setSourceNode(
+t.getCompiler().reportError(Compiler.
+ logger.error(
+t.getCompiler ( ). addError ( t,
+ if (compiler)
+t.setErrors(i,
+ else { return; } reporter.report(
+ else { JSEvent.report(
+t.getCompiler ( ). report ( t, n ) ;
+ else { n. getAncestorContext().report(
+ throw JSErrorException(
+t.getCompiler ( ). reportError ( compilerId,
+ if (report) {
+ else { return; } n. getContext().report(
+ log.error(
+t.getCompilerContext().report(n,
+ if (level > 0) { compiler.errors().report(
+t.setLastError(
+t. add ( n, level, " ",
+ if (debug) { compiler.getCompiler().report(
+t.getCompiler().report
+t.setError(
+ else { msg = n ; t.getCompiler().report(
+ JSError(t).report(
+t.getCompiler().addWarning(compiler,
+t.getCompiler().logError(T.ERROR,
+t.getCompiler ( ). report ( n, level ) ;
+t.getCompilerContext().logError(n,
+ reporter.report(
+t.getCompiler().reportError(t, n) ;
+t.getCompiler().logError(compiler,
+ else { JSErrorFactory.report(
+t.getCompiler().reportWarning(compiler,
+ else { return; } parent.getContext().report(
+t.getCompilerContext().addError(c,
+t.getCompiler().reportError(t, n, new
+t.getCompiler().reportError(new
+ parent.getContext().report(
+ else { JSErrorHandler.report(
+ throw (Exception)
+ else { return; } compiler.getCompiler().report(
+ else { JSErrorReporting.report(
+t.getCompiler().addError((Compiler)
+ JSError.make(err).report(
+t.getCompiler(n.getType() + " "+
+t.getCompiler().logError(t, " " +
+ else { n.getParent()).report(
+ n. getContext().report(
+ if (level > 0) { n.parent().report(
+ n.parent().report(
+ else { log. warn(
+ else { msg = n. getAnnotationContext().report(
+ else { n. getFirstChild().report(
+ else { msg = ""; } compiler().getCompiler().report(
+t.getCompiler()).report(n,
+ JSError.get().report(
+t.getCompiler().addError(t, " " +
+ else { n.getContext().report(
+ else { JSError.get().report(
+t.getCompiler(n, level,
+ NodeUtil.report(
+t.getCompiler().addError(t, n) ;
+ LOGGER.warning(
+ JSEvent.report(
+t.getCompiler(i,
+ else { msg = "\n" ; compiler().getCompiler().report(
+ else { msg = "" ; t.getCompiler().report(
+ else { return; } n.parent().report(
+t.getCompiler(n) =
+t.getCompiler().reportError(n, t,
+ report(n).report(
+ stack.push(
+t.getCompiler().addError(Compiler.
+ JSError.make().report(
+t.getCompiler(compiler,
+t.getCompiler().addError(t, n, new
+ if (level < 0) { return; } else
+t.addError((JError)
+ else { msg = "No '+'." } }
+ else { msg = "\n"; } compiler().getCompiler().report(
+t.getCompiler().throwError(
+t. fail (
+ JSError(context).report(
+ if (level > 1)
+t.warning(
+ NodeUtil.getCompiler().report(
+ JSError.getCompiler().report(
+ LOGGER.warn(
+t.setCause(
+ JSErrorManager.report(
+t.getCompilerInfo(
+ JSErrorFactory.report(
+ else { n.getNext().report(
+ else { return; } t.getCompiler().report(
+ else { compiler.getCompiler().report(
+t.setErrors(0,
+t.getCompiler().report(t, n, new
+ getReport().report(
+ JSError(n).report(
+t.addError(jsc,
+t.getCompiler().logError(t, n, new
+t.getCompiler ( ). report ( " ",
+t.getCompiler().error(t, n, new
+t.getCompiler(context) throw
+ compiler.errors().report(
+ JSError(stack).report(
+ report(err).report(
+ JSError(tc).report(
+t.getCompiler().reportNewError(
+ throw new IOException(
+ else { n.getContextFile().report(
+ log.warning(
+t.getCompiler().warn(
+ JSErrorHandler.report(
+ if (reportError)
+t.getCompilerContext() =
+ else { return
+ JSErrorReporting.report(
+ else { msg = ""; context.getCompiler().report(
+ context.report(
+ context.writer().report(
+t.getCompiler().throw
+ else { nodeUtil.getCompiler().report(
+ if (debug) {
+ if (debug) { t.getCompiler().report(
+ if (coverage)
+t.getCompilerError() =
+ report(t).report(
+t.getCompiler().report.error(
+t.getCompiler().addError(new
+ compiler.report().report(
+ reportContext(context).report(
+ reportContext.report(
+ else { reportContext.report(
+t.setSource(
+t.getCompiler(level) throw
+ return ; } compiler.report(
+ else { msg = ""; } _getCompiler().report(
+ Caster.getCompiler().report(
+ if (debug)
+ throw (Error)
+ JSTree.report(
+ n.getFirstChild().report(
+t.getCompiler().reportWarning(
+ else { msg = "This error." ; }report(
+t.return
+t.err(
+ context.report().report(
+t.getCompiler(err,
+ n.getFixer().report(
+ throwException(
+ jslint.report(
+ getReporter()).report(
+t.getCompiler(n) throw
+ JSErrorFactory.getCompiler().report(
+ else { msg += ",
+t.getCompiler ( ). report ( t, n ),
+ getReporter(n).report(
+ else { return; }
+t.getCompilerWarning(
+t.getCompiler(node,
+ return; } getContext().report(
+ getReporter().report(
+ n.getContextFile().report(
+ else { msg +=
+ if (err)
+ else { msg = "+
+ JUnit.report(
+ else { msg = "" }
+ getReportContext().report(
+ report(stack).report(
+ if (report)
+ JSErrorHelper.getCompiler().report(
+t.getCompiler()throw(
+ JUnit.getCompiler().report(
+ report(context).report(
+ JsLog(ctx).report(
+ else { Jscc.getCompiler().report(
+ else { reporter.report(
+ Ctx.getCompiler().report(
+ Js.getCompiler().report(
+ compilerContext.getCompiler().report(
+ } else { compiler.getCompiler().report(
+ getAnnotation(n).report(
+ JsLog(context).report(
+ jcs.report(
+ JCCache.report(
+ else { t.getCompiler().report(
+ JSCompilationContext.getCompiler().report(
+ JsLog(t).report(
+t.getCompiler(c,
+ stack.report(
+ Js.report(
+ JSError..getCompiler().report(
+ JSCompilationUnit.getCompiler().report(
+t.getCompiler()error(
+ parent.getCompiler().report(
+ } else { t.getCompiler().report(
+ logError(
+ CmsUI.getCompiler().report(
+ n.getCompiler().report(
+ JSCompiler.getCompiler().report(
+ report.report(
+ JSCompilationInfo.getCompiler().report(
+ } else { parent.getCompiler().report(
+ c.getCompiler().report(
+t.getCompiler().log(
+ CxxRuntime.getCompiler().report(
+ jscfg.report(
+ throwError(
+t.=
+ JSArror.report(
+ reportContext().report(
+ } else { n.getCompiler().report(
+ JSCompilationManager.getCompiler().report(
+ getSource().report(
+t.getCompiler().warning(
+ getParent().report(
+t.getCompilerContext(
+ } else {
+ throw exception(
+ JSCompilerFactory.getCompiler().report(
+ return compiler.getCompiler().report(
+ else {
+ reportException(
+ return ; } context.report(
+ report().report(
+ if (!)
+t.append
+ jscode.report(
+ else { context.getCompiler().report(
+ if ()
+ else { c.getCompiler().report(
+ if (...
+ if (report())
+ } else { context.getCompiler().report(
+ (context).report(
+ return t.getCompiler().report(
+ else { } }
+t.getCompiler().reportProblem(
+ reporter).report(
+ if (!null
+ } }).report(
+t.getCompiler().reportBug(
+t.getCompiler().reportException(
+ } }
+ } return
+ } else
+ return
+ }

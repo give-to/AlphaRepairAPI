@@ -1,0 +1,148 @@
+ }
+ }
+ } }
+ } }
+ } } }
+ } } }
+ } } } }
+ } } } }
+ } } } } }
+ } } } } }
+ } } } } } }
+ } } } } } } }
+ } } } } } } } }
+ } } } } } } } } }
+ } } } } } } } } } }
+ } } } } } } } } } } }
+ } } } } } } } } } } } }
+ } } else { compiler. report ( JSError. make ( type ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH ) ) ;
+ } } } } } } } } } } } } }
+ } } } else { compiler. report ( JSError. make ( type ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, source ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, type ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISSING ) ) ;
+ } else { compiler. report ( type. toString ( ) )
+ } } else { compiler. report ( JSError. make ( type ) ) ; }
+ } } else { compiler. report ( JSError. make ( sourceName, n, type ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, type ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, type_Mismatch ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, prop, instance ) ) ;
+ } } else { compiler. report ( JSError. make ( type, "Unknown type" ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, type_MISMATCH ) ) ;
+ } } else { compiler. report ( JSError. make ( type, "Unknown interface" ) )
+ } } else { compiler. report ( JSError. make ( sourceName, instance ) ) ;
+ } } else { compiler. report ( JSError. make ( typeName, type ) )
+ } } else { compiler. report ( JSError. make ( sourceName, type ) )
+ } } } else { compiler. report ( JSError. make ( typeName ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, instance ) )
+ } } } else { compiler. report ( JSError. make ( type, "Unknown type" ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, prop, instance ) )
+ } } } } } } } } } } } } } }
+ } } else { compiler. report ( JSError. make ( null, type ) ) ;
+ } } } else { compiler. report ( JSError. make ( ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, undefined ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, instance ) )
+ } } } else { compiler. report ( JSError. make ( sourceName, n, type ) )
+ } } else { compiler. report ( JSError. make ( typeName ) ) ;
+ } } } else { compiler. report ( JSError. make ( sourceName, n, type ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, "Unknown interface" ) )
+ } } else { compiler. report ( JSError. make ( null, type ) )
+ } } else { compiler. report ( JSError. make ( sourceName, source, instance ) )
+ } } else { compiler. report ( JSError. make ( type, "Unknown interface type" ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_UNKNOWN ) ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, undefined, undefined ) )
+ } } else { compiler. report ( JSError. make ( sourceName, source, prop, instance ) )
+ } } } else { compiler. report ( JSError. make ( typeName, type ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, prop, implemented ) ) ;
+ } } else { compiler. report ( JSError. make ( type, instance ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCHING ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH ) )
+ } } } else { compiler. report ( JSError. NO_SOURCE ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISSING ) )
+ else { compiler. report ( type. toString ( ) )
+ } } else { compiler. report ( JSError. make ( null ) ) ;
+ else { compiler. report ( type, prop, implemented ) ; }
+ else { compiler. report ( type, prop, implemented ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_ERROR ) ) ; }
+ } } else { compiler. report ( JSError. make ( type. name, type ) )
+ } } } else { compiler. report ( JSError. make ( type ) )
+ } else { compiler. report ( type. getSourceName ( ) )
+ else { compiler. report ( type, prop, instance ) ; }
+ } } } else { compiler. report ( type. toString ( ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, prop, implemented ) )
+ } else { compiler. report ( type. getSource ( ) )
+ } } else { compiler. report ( JSError. make ( sourceName, n, prop, instance ) ; }
+ } } } } else { compiler. report ( "Unknown type" ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, TYPE_MISMATCH ) ;
+ } } else { compiler. report ( JSError. make ( sourceName, n, "Unknown interface." ) )
+ else { compiler. report ( type, prop, instance ) ;
+ } } else { compiler. report ( type. getSourceName, n, TYPE_MISMATCH_WARNING, formatUnknownSource ) ;
+ else { compiler. report ( type, prop, implemented, instance ) ;
+ } } else { compiler. report ( type. getSourceName, n, TYPE_MISMATCH_WARNING, formatSourceName ) ;
+ } } else { compiler. report ( type. getSourceName, n, TYPE_MISMATCH_WARNING, formatUnknownType ) ;
+ } } else { compiler. report ( type. getSourceName, n, TYPE_MISMATCH_WARNING, formatMissingSource ) ;
+ } } } } else { compiler. report ( type. toString ( ) ) ;
+ } } } } else { compiler. report ( type. toString ( ) )
+ else { compiler. report ( type, prop, instance, implemented ) ;
+ } } else { compiler. report ( type. getSourceName, n, TYPE_MISMATCH_WARNING, formatSource ) ; }
+ } else { compiler. report ( type, implemented ) ;
+ } } } } } } } } } ) ;
+ else { compiler. report ( type, prop, instance. name ) ;
+ } else { compiler. report ( type, prop, instance. toString ) ;
+ } } } } } } else { break ; }
+ else { compiler. report ( type, prop ) ; }
+ } } } } } } } else { break ; }
+ } } } } } else { break ; }
+ } } } } } } else { break ; } }
+ } } } } else { compiler. report ( "Unknown type." ) ;
+ } } } } } } } } } break ;
+ } } } } } } } } ) ;
+ } } } } else { compiler. report ( "Unknown type " + type ) ;
+ else { compiler. report ( type, implemented ) ;
+ } } } } } } } } break ;
+ } } } } else { compiler. report ( type. getName ( ) ) ;
+ } } } } } } ) ;
+ } } } } } } } ) ;
+ } else { compiler. report ( type, prop, instance. toString () )
+ } } } } else { compiler. report ( "Unknown type" ) ; }
+ } else { compiler. report ( type, prop, instance. toString ( )
+ } } } } } } break ;
+ } } } } } } } } } } } break ;
+ } } } } else { compiler. report ( "Unknown type!" ) ;
+ } } } } else { compiler. report ( "Unknown interface" ) ;
+ } } } } else { compiler. report ( type, "Unknown type" ) ;
+ } } } } } } } break ; }
+ } } } } } } } break ;
+ } } } } else { break ; }
+ } } } } else { compiler. report ( type, node ) ;
+ } } } } else { compiler. report ( type, "Unknown type." ) ;
+ } } } } else { return false ;
+ } } } } } break ; }
+ } } } } } } return ;
+ } } else { return false ;
+ } } } } } break ;
+ } } } } } ) ;
+ } else { } } }
+ } } } } break ; }
+ } else { return false ;
+ } } } } break ;
+ } } return true ;
+ } } else { } }
+ } } return false ;
+ } else { } }
+ } else { } }
+ } } } return ;
+ else { } } }
+ } } return true ;
+ } } } break ;
+ } return true ;
+ } } return ;
+ } return false ;
+ } return false ;
+ return ; } }
+ } return true ;
+ return ; }
+ return ; }
+ return false ;
+ } return ;

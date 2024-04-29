@@ -1,0 +1,132 @@
+ }
+ return Mockito.mock(type, settings.useConstructor());
+ return Mockito.mock(type, constructor);
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( )
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( ) ;
+ return Mockito.mock(type, settings.useConstructor()); }
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( testInstance )
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( testInstance ) ;
+ return Mockito.mock(type, settings.useConstructor(), testInstance);
+ } else { constructor = type. getConstructor ( ) ;
+ } else { constructor = type. getDeclaredConstructor ( ) ;
+ return Mockito.mock(type);
+ return Mockito.mock(type, settings.useConstructor().newInstance(testInstance));
+ return Mockito.mock(type, settings.useConstructor().newInstance());
+ return Mockito.mock(type, settings.useConstructor().newInstance(testInstance)); }
+ } else { constructor = type. getDeclaredConstructor ( ). newInstanceArgs ( testInstance ) ;
+ } constructor = ( Constructor<?> ) constructor. newInstance ( ) ;
+ } else { constructor = type. newInstance ( ) ;
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( testInstance ) ; }
+ return Mockito.mock(type,);
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance(null));
+ return Mockito.mock(type, settings.useConstructor().innerInstance(testInstance));
+ } if ( constructor == null ) { return Mockito.mock(type, testInstance);
+ return Mockito.mock(type, testInstance);
+ } if ( constructor == null ) { return Mockito. mock ( type ) ;
+ } else { constructor = type. getDeclaredConstructor ( ). newInstanceArgs ( ) ;
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance());
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor(), testInstance);
+ } else { constructor = type. getDeclaredConstructor ( ). getConstructor ( ) ;
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( testInstance, field ) ;
+ return Mockito.mock(type, constructor); }
+ return null;
+ } constructor = enclosing ;
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor());
+ } else { constructor = type. getDeclaredConstructor ( ) ; }
+ return Mockito.mock(type, settings.useConstructor().newInstance(e));
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( ). newInstance ( ) ;
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor()); }
+ } if ( constructor == null ) { return testInstance ;
+ } constructor. newInstance ( ) ;
+ } else { constructor = type. newInstance ( )
+ } else { constructor = new Constructor<?> ( type. getSimpleName ( ) ) ; constructor. newInstance ( testInstance )
+ } else { constructor = type. getConstructor ( )
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor()); return ;
+ } else { constructor = new Constructor<?> ( type. getSimpleName ( ) ) ; constructor. newInstance ( ) ;
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor()).newInstance(null);
+ } else { constructor = type. getDeclaredConstructor ( ). newInstanceArgs ( args ) ;
+ } else { constructor = type. getDeclaredConstructor ( ). constructor ( )
+ } if ( constructor == null ) { constructor = new Constructor <> ( testInstance ) ;
+ return Mockito.mock(type, settings.useConstructor(), e);
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor()); return null ;
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance()));
+ } else { constructor = type. getDeclaredConstructor ( ) ; constructor = null ;
+ } if ( constructor == null ) { return null ;
+ } else { constructor = type. getDeclaredConstructor ( ). newInstance ( ). newInstance ( )
+ } else { constructor = type. getDeclaredConstructor ( ). constructor ; }
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance(test));
+ return Mockito.mock(type, settings.staticInstance());
+ return Mockito.mock(type, settings.useConstructor()); } }
+ } else { constructor = type. getDeclaredConstructor ( )
+ return Mockito.mock(type, settings.useConstruct());
+ } else { constructor = type. getDeclaredConstructor ( ). getConstructor ( ) ; }
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance()); }
+ } else { constructor = type. getConstructor ( ) ; }
+ } if ( constructor == null ) { return ;
+ }
+ return Mockito.mock(type, settings.useConstructor().newInstance(); }
+ } constructor. invoke ( ) ;
+ } else { constructor = type. getDeclaredConstructor ( ) ; } }
+ } constructor. init ( ) ;
+ return Mockito.mock(type, constructor, e);
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().null());
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().initInstance());
+ return Mockito.mock(type, settings, constructor);
+ } if ( constructor == null ) { return testInstance ; }
+ } else { constructor = ( Constructor ) constructor ;
+ return Mockito.mock(type, settings.useConstructor().newInstance(testInstance)); } }
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor()); {
+ return Mockito.mock();
+ } if ( constructor == null ) { return Mockito.mock(type, settings.useConstructor().newInstance();
+ return Mockito.mock(type, settings.static());
+ } constructor. invoke ( testInstance )
+ } } else
+ return Mockito.mock(type); }
+ return Mockito.mock(type,});
+ } constructor. initialize ( ) ;
+ } constructor. clear ( ) ;
+ } if ( constructor == null ) { return Mockito. mockInstance ;
+ return Mockito.mock(); }
+ return Mockito.null();
+ } constructor. clear ( )
+ } else { constructor = (Constructor);
+ return Mockito. mock ( type )
+ } else { constructor = (Constructor)
+ return Mockito.mock()();
+ return testInstance;
+ } constructor = type ;
+ } } else {
+ } if ( constructor == null ) { return
+ throw e;
+ } constructor = field ;
+ } constructor = null ;
+ } return constructor ;
+ return Mockito.null;
+ } constructor. init ( )
+ } constructor = {
+ return mockInstance;
+ } }
+ } constructor = constructor ;
+ } if (private)
+ } else
+ throw e; }
+ return;
+ } constructor = field ;
+ } } } else
+ } if (!static)
+ } else {
+ return null; } else
+ return null; }
+ return null; } }
+ } } }
+ } } } }
+ } }
+ } return ;
+ } else { }
+ return null
+ break;
+ return mock;
+ return ; }
+ }; }
+ return
+ };

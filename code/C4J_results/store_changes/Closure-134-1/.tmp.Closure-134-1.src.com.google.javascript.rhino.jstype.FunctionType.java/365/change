@@ -1,0 +1,143 @@
+ }
+ } else { interfaces. addAll ( getImplementedInterfaces ( ) ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getTypes ( ) )
+ } else { interfaces. addAll ( getImplementedInterfaces ( ) )
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add ( instance ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add ( type )
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add ( type ) ;
+ } else { interfaces = Collections. emptySet ( ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. interfaces ( ) )
+ } else { interfaces = Sets. newHashSet ( ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. interfaces ) ;
+ } else { interfaces. add ( instance ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces = null ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add ( instance )
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getInterfaces ( ) ) ;
+ } else { interfaces = Collections. newHashSet ( ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( this ) ;
+ } else { interfaces. addAll ( getImplementedInterfaces ( instance ) ) ;
+ } else { interfaces = new Set < ObjectType > ( ) ; interfaces. add ( type )
+ } for (ObjectType type : getSuperClassInterfaces()) { addRelatedInterfaces(type, interfaces);
+ } for (ObjectType type : getSuperClassConstructors()) { addRelatedInterfaces(type, interfaces);
+ } else { interfaces = Sets. newSet ( ) ;
+ } else { interfaces = new Set < ObjectType > ( ) ; interfaces. addAll ( getImplementedInterfaces ( ) ) ;
+ } else { interfaces = new HashSet ( ) ; interfaces. add ( type ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. interfaces ( ) ) ;
+ } else { interfaces = getAllImplementedInterfaces ( ) ;
+ } for ( Object type : getImplementedInterfaces()) { interfaces. addAll ( type. getTypes ( ) )
+ } for (ObjectType type : getSuperClassConstructors()) { addRelatedInterfaces(type);
+ } else { interfaces = new HashSet ( ) ; interfaces. addAll ( this ) ;
+ interfaces. add ( type )
+ } else { interfaces = new ArrayList < ObjectType > ( ) ; interfaces. addAll ( getImplementedInterfaces ( ) )
+ } for (ObjectType type : getSuperClassInterfaces()) { addRelatedInterfaces(type);
+ } else { interfaces = new ArrayList < ObjectType > ( ) ; interfaces. add ( type ) ; set. add ( instance ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( type ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { addRelatedInterfaces(type, interfaces, set);
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( this. interfaces ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getInterfaceTypes ( ) )
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( this. interfaces )
+ } else { interfaces. addAll ( getImplementedInterfaces ( type ) ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add instance ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. add type ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getInterfaceTypes ( ) )
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces = { } ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( types ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces = type ;
+ } else { interfaces = new HashSet ( ) ; interfaces. add ( type )
+ } for ( Object type : getImplementedInterfaces()) { interfaces. addAll ( type. interfaces ( ) )
+ } else { interfaces. addAll ( getImplementedInterfaces ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getAll ( ) ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getInterfaceTypes ) ;
+ } else { interfaces. addAll ( this ) ;
+ } else { interfaces = new Set < ObjectType > ( ) ; interfaces. add ( instance )
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getTypes ( ) );
+ } for (ObjectType type : getImplementedInterfaces()) { addRelatedInterfaces(type, interfaces); } return interfaces ;
+ } else { interfaces = getAllImplementedInterfaces ( type ) ;
+ } else { interfaces = Collections. newHashSet ( 0 ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getAllInterface ( ) )
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type, set ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getAll ( ) )
+ } for (ObjectType type : getSuperClassConstructors()) { addRelatedInterfaces(type, interfaces
+ } else { interfaces = new HashSet ( ) ; interfaces. add ( ) ;
+ } for (ObjectType type : getSuperClassInterfaces()) { addRelatedInterfaces(type, interfaces
+ } else { interfaces. addAll ( getInterfaceTypes ( ) )
+ } else { interfaces. addAll ( getAllInterfaces ( ) )
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getInstanceType ) ;
+ interfaces |= type ;
+ } else { interfaces = Collections. newHashSet ( ) ; return null ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getInstanceType ( ) )
+ } else { interfaces. addAll ( getInstanceType ( ) )
+ } else { addRelatedInterfaces(instance, interfaces);
+ } else { interfaces. addAll ( instance ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; interfaces. addAll ( getInterface ( ) ) ;
+ } for (ObjectType type : getImplementedInterfaces()) { addRelatedInterfaces(type, interfaces); interfaces = null ;
+ } else { interfaces. addAll ( getAllImplementedInterfaces());
+ } for (ObjectType type : getImplementedInterfaces()) { addRelatedInterfaces(type, interfaces); } if (interface)
+ } else { interfaces. add ( instance )
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type. getInterfaceTypes ( ));
+ interfaces. add ( type ) ;
+ } else { interfaces. addAll ( getAllInterfaceTypes ( ) )
+ } for (ObjectType type : getImplementedInterfaces()) { interfaces. addAll ( type.faces ) ;
+ } else { interfaces = { } ;
+ } else { interfaces = Sets. create ( ) ;
+ interfaces = null ;
+ } else { interfaces. addAll ( this. interfaces )
+ } else { interfaces = Collections. emptySet ;
+ } else { interfaces. addAll ( getInstanceType ) ;
+ } else { interfaces = Collections. newHashSet ( ) ; }
+ } else { interfaces. add ( type ) ;
+ } for (ObjectType type : getSuperClassInterfaces()) { addRelatedInterfaces(type,);
+ } else { interfaces. addAll ( getImplementedInterfaces ( instance ) ) ; }
+ } else { interfaces = set ( ) ;
+ } for ( Object type : getImplementedInterfaces()) { interfaces. addAll ( type. interfaces ( ) );
+ } else { interfaces = null ;
+ } else { interfaces = Sets. newHashSet ( )
+ } else { interfaces = Sets. newHashSet ( ) ; }
+ } else { interfaces = Collections. newHashSet ( ) ; } }
+ } else { interfaces = Collections. emptySet ( ) ; }
+ } if ( interfaces == null ) {
+ } if ( interfaces == null )
+ } else { interfaces. add ( null ) ;
+ } else { interfaces = [ ] ;
+ interfaces = set ;
+ interfaces. add type ;
+ } if ( interfaces!= null )
+ } else { interfaces = Sets. emptySet ;
+ } else { interfaces. clear ( ) ;
+ } else { interfaces. add ( type )
+ } else { interfaces = Sets. newHashSet ( ) ; } }
+ interfaces. addAll ( type ) ;
+ interfaces = newSet();
+ } else { addRelatedInterfaces(instance, interfaces); }
+ if (interface!= null) {
+ interfaces. add ( type ;
+ } else { interfaces = Sets. newHashSet ;
+ if (interface!= null)
+ } if ( interfaces ) {
+ } else { interfaces = null ; }
+ } if (interface)
+ } return interfaces ;
+ interfaces = { } ;
+ } } else {
+ return interfaces ;
+ } } return false;
+ } } }
+ } else {
+ } } } ;
+ } return ;
+ } return interfaces ; }
+ } return interfaces ;
+ } } } }
+ } } } } ;
+ } } } } }
+ break ; }
+ } } }
+ break; }
+ } return;
+ } }
+ break ;
+ } }
+ } else
+ }...
+ break();
+ }

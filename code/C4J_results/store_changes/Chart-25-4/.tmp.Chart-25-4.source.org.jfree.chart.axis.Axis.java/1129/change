@@ -1,0 +1,146 @@
+ }
+ return hotspot ;
+ state. cursorDown ( insets. getBottom ( ) ) ;
+ return label ;
+ state. cursorDown ( insets. getBottom ( ) ) ; }
+ state. cursorDown ( insets. getTop ( ) ) ; }
+ state. cursorDown ( insets. getTop ( ) + h ) ;
+ state. cursorDown ( insets. getTop ( ) ) ;
+ state. cursorUp ( insets. getBottom ( ) ) ;
+ state. cursorDown ( insets. getBottom ( ) + h ) ;
+ state. cursorUp ( insets. getTop ( ) ) ;
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, w, h, w); }
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, h, w, h);
+ state. cursorDown ( insets. getBottom ) ;
+ state. cursorDown ( insets. getTop ( + labelBounds. getHeight ( ) ) ;
+ state. cursorUp ( insets. getTop ( ) + h ) ;
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, h, w, h); }
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, w, h, w);
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, w, w, h); }
+ state. cursorUp ( insets. getTop ( ) ) ; }
+ state. cursorUp ( insets. getTop ( + insets. getBottom ( ) ) ) ;
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, w, h, h); }
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, w, h, h);
+ hotspot = new Rectangle2D.Float(labelx - w, w, h); state. cursorDown ( ) ; }
+ state. cursorDown ( insets. getTop ( + labelBounds. getBottom ( ) ) ;
+ state. cursorDown ( insets. getTop ( + labelBounds. getBottom ) ) ;
+ state. cursorDown ( insets. getTop ( ) + h ) ; }
+ state. cursorDown ( insets. getBottom() + h ) ; }
+ state. cursorUp ( insets. getBottom ( ) ) ; }
+ state. cursorDown ( insets. getTop ( + labelBounds. getHeight ) ) ;
+ state. cursorDown ( insets. getBottom ( ) - h ) ;
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, h, w, w); }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; edge = 0;
+ } }
+ state. cursorUp ( insets. getTop ( + insets.getBottom() + h ) ) ;
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, h, w, w);
+ hotspot = new Rectangle2D.Float(labelx - w, h, w, h, h); }
+ state. cursorDown ( ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; break ; }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT;
+ state. cursorDown ( insets. getBottom ( ) + 1 ) ; }
+ state. cursorDown ( insets. getTop ( + labelBounds. height ) ) ;
+ state. cursorDown ( insets. getTop ) ;
+ state. cursorUp ( insets. getTop ( ) + h ) ; }
+ state. cursorUp ( insets. getTop ( + insets.getBottom() + h ) ;
+ state. cursorDown ( insets. getBottom ( ) )
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.CENTER;
+ state. cursorDown ( insets. getTop ( ) + insets. getBottom ) ;
+ state. cursorDown ( insets. getTop ( + h * 2 ) ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.RIGHT; break ; }
+ state. cursorDown ( insets. getTop ( + h ) + w ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; } } }
+ } else if ( edge == RectangleEdge.TOP ) {
+ state. cursorDown ( insets. getTop ( + labelBounds. getHeight ) ;
+ state. cursorDown ( insets. getTop ( + h ) ) ; }
+ state. cursorUp ( insets. getTop ( + insets.getBottom() + h ) ) ; }
+ state. cursorDown ( insets. getTop ( ) + insets.getBottom()); }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.RIGHT;
+ } else if ( edge == RectangleEdge.TOP) { edge = RectangleEdge.BOTTOM;
+ state. cursorDown ( insets. getTop ( + h * 2.0 ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT-1;
+ state. cursorDown ( insets. getTop ( ) + h, w ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT_TOP;
+ state. cursorDown ( insets. getTop ( + labelBounds.getBottom()) ) ;
+ state. cursorUp ( insets. getTop ( + h ) + w ) ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = Edge. LEFT ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; edge = 1;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.RIGHT; edge = 0;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; edge = null;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.LEFT; } }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.RIGHT; }
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.RIGHT; } }
+ state. cursorDown ( insets. getTop ( ) )
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.TOP; edge = - 1;
+ return hotspot ; }
+ state. cursorUp ( insets. getBottom ) ;
+ state. cursorUp ( insets. getTop ( + insets.getBottom() ) ) ; }
+ state. setCursorDown ( ) ;
+ state. cursorUp ( insets. getTop ( + h ) + h ) ;
+ state. cursorDown ( insets. top ) ;
+ state. cursorDown ( insets. bottom ) ;
+ state. cursorDown ( ) ; }
+ state. setCursor ( ) ;
+ state. cursorUp ( insets. getTop ) ;
+ labelBounds = rotatedLabelBounds ;
+ } else if ( edge == RectangleEdge.LEFT) { edge = RectangleEdge.TOP; } }
+ state. cursorUp ( insets. top ) ;
+ state. cursorDown ( insets. getTop ( + labelBounds.getBottom()); }
+ state. cursorDown ( insets. getTop ( + h ) + 1 ) ; }
+ state. cursorDown ( insets. getTop ( ) + h * 2 ) ; }
+ state. cursorDown ( insets. getTop ( + h ) + w ) ; }
+ state. cursorDown ( insets. getTop ( ) + h * 2.0));
+ state. cursorUp ( insets. bottom ) ;
+ } else if ( edge == RectangleEdge.TOP ) { }
+ state. cursorUp ( insets. top ) ; }
+ state. cursorDown ( insets. height ) ;
+ state. setCursor ( 0 ) ;
+ state. setCursor ( null ) ;
+ state. cursorDown ( - 1 ) ;
+ g2. fill ( label ) ;
+ state. restore ( ) ;
+ state. cursorDown ( 0 ) ;
+ state. cursorDown ( ) ; } } }
+ state. cursorUp ( ) ; }
+ state. cursorDown ( 0, 0 ) ;
+ g2 = g1 ;
+ state. cursorUp ( 0, 0 ) ;
+ } } }
+ state. cursorDown ( ) ; return label ;
+ state. cursorDown ( 0.5 ) ;
+ hotspot = null;
+ labelbounds = hotspot ;
+ hotspot = null ;
+ return label ; }
+ edge = - 1 ;
+ } } } }
+ state. save ( ) ;
+ state. fill ( ) ;
+ state. move ( ) ; }
+ }
+ } } } } }
+ } else { edge = 0 ;
+ return null ; }
+ hotspot = label ;
+ } else { return ; }
+ state = null ;
+ labelx = w - h ;
+ hotspot = label ;
+ break ; }
+ hotspot(); }
+ hotspot = null;}
+ return null ;
+ } return hotspot ;
+ return false ;
+ edge = 0 ;
+ } }
+ } } }
+ break ;
+ break ; } }
+ } } ) ;
+ break ; }
+ return ; }
+ } } } }
+ return ;
+ continue ;

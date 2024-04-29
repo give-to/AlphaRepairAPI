@@ -1,0 +1,574 @@
+ if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); }
+ if (deadAssignmentElimination) {
+if (options) {
+ passes.add(removeUnusedVars);
+ passes.add(removeUnusedVars); }
+if (options.deadAssignmentElimination || options.deadAssignmentsElimination) {
+if (options.deadAssignmentElimination!= null) {
+ passes.add(removeUnusedVar); }
+if (options.deadAssignmentElimination)  { passes.add(deadAssignments);
+ passes.add(removeUnused); if (options.deadAssignmentElimination) {
+if (deadAssignmentElimination)
+ passes.add(); if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else {
+ passes.add(removeUnused); }
+if (options.deadAssignmentElimination && removeUnusedVars) {
+if (options.deadAssignmentElimination && options.deadAssignmentsElimination) {
+ passes.add(removeUnusedVars); } else { passes = [ ] ;
+ passes.add(remove); if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVar);
+ passes.add(remove); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentsElimination) {
+ passes.add(removeUnused); if (deadAssignmentElimination) {
+ passes.add(); } if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars);{
+ passes.add(removeUnusedVars)){
+if (options.deadAssignmentsElimination)
+if (options.deadAssignmentElimination && options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else { passes. add ( ) ;
+ passes.add(removeUnused); } if(options.deadAssignmentElimination) {
+ passes. addAll(removeUnusedVars); } else { passes. add ( ) ;
+ passes.add(remove); } if (deadAssignmentElimination) {
+ passes.add(removeUnusedVars);
+ passes.add(remove); }
+ if (options.removeDeadAssignments) {
+ passes. addAll(removeUnusedVars); } else { passes = [ ] ;
+ if options.deadAssignmentElimination) {
+ if (deadAssignments) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeDeadCode); }
+ passes.sort(); } if(options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else
+ passes.add(removeUnusedVars); } else { passes.add(removeDeadCode); }
+ passes.add(removeUnusedVar); if(options.deadAssignmentElimination) {
+ passes.add(removeUnused) } if(options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( foldConstants ) ;
+if (options.removeDeadAssignmentsElimination)
+ passes. addAll ( removeUnusedVars ) ; } else { passes. add ( removeUnusedVars ) ; }
+if (options.removeDeadAssignmentsElimination) {
+ passes.add(removeUnusedVars); } else { passes = [ ] ; }
+if (options.deadAssignmentElimination && removeUnusedVar) {
+if (options.deadAssignmentElimination)
+ passes.add(removeUnusedVar)){
+ passes.add(remove) if (options.deadAssignmentElimination) {
+ passes.add(removeVariable); } if(options.deadAssignmentElimination) {
+ passes.add(removeUnusedVariable); }
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedCode); }
+ passes. addAll ( removeUnusedVars ) ; } else { passes. add ( removeUnusedVars ) ;
+ passes.add(removeUnusedVars); } else { passes. add(removeUnused) ; }
+ passes. addAll ( removeUnusedVars ) ; } else { passes. add ( removeUnused ) ; }
+if (options.deadAssignmentsElimination!= null) {
+ passes.add(removeUnknown); }
+ passes.add(removeUnusedVars); } else { passes.add(none); }
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedSymbols ) ; }
+ passes.add(removeUnusedVars); } else { passes. add(removeUnusedCode); }
+ passes.add(removeUnusedVariable);
+if (options.removeDeadAssignment) {
+ passes.add(removeUnusedVars); } else { passes. add(removeUnusedVars); }
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnused) ; }
+ passes.add(removeUnusedVars); } if (options.fold) {
+ passes.add(); } if (deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else { passes. add(removeUnusedVariable); }
+ passes.add(removeUnusedVars); } else { passes.add(null);
+ passes.add(remove) } if (options.deadAssignmentElimination) {
+ passes. addAll(removeUnusedVars); } else { passes. add (removeDeadCode); }
+ passes.add(removeUnusedVars); } else { passes.add(removeCode); }
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedConstants ) ;
+ passes.add(removeVariable); if (options.deadAssignmentElimination) {
+ passes.add(removeUnused) }
+ passes.add(removeVar); if (options.deadAssignmentElimination) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedVariable); }
+ passes. addAll(removeUnusedVars); } else { passes. add (none); }
+ passes. addAll(removeUnusedVars); } else { passes. addAll ; }
+if (options.deadAssignmentElimination && options.removeUnusedVars) {
+ passes. addAll(removeUnusedVars); } else { passes. add (nothing); }
+if (options.removeDeadAssignmentsElimination
+ passes.add(removeUnusedVars); } else { passes = null ;
+ passes.add(remove) ; if (deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeCode ) ;
+ passes.add(removeUnusedVar); }{
+if (options.deadAssignments) {
+ if (options.cleanDeadAssignments) {
+ passes.add(removeUnusedVars); } else { passes.add(empty); }
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedConstants ) ; }
+ passes.add(removeUnusedVars){
+if (options.deadAssignmentElimination || options.removeDeadCode) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. add ( removeUnusedVars ) ; } } else
+ passes. addAll(removeUnusedVars); } else { passes. add (removeCode); }
+ passes.add(removeUnusedVars); } else { passes = []) ;
+ passes.add(removeUnusedVariable); if(options.deadAssignmentElimination) {
+ passes.add(removeVar); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination) { passes.add(deadAssignment);
+ if (options.removeUnusedAssignments) {
+ pass.add(removeUnusedVars); }
+if (options.removeDeadAssignmentElimination) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll ( functions ) ;
+if (options.deadAssignmentsEliminationEnabled) {
+ passes.add(unused); if (options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedCode ) ; } } else
+ pass.add(removeUnusedVars);
+ passes.add(blocks); } if(options.deadAssignmentElimination) {
+ passes.sort(); if(options.deadAssignmentElimination) {
+ passes.add(null); if (deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentsElimination2) {
+ passes.add(removeUnusedVar);
+if (options.deadAssignmentsElimination!== null) {
+ pass.add(removeUnusedVars); } else {
+ passes.add(removeUnusedVariable)){
+ passes.add(removeUses); if (options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedCalls ) ; } else
+ pass.add(removeUnusedVars); }
+if (options.deadAssignmentElimination || options.deadAssignmentsEliminationOptions) {
+ passes.remove(); } if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else if (dead)
+ passes. addAll(removeUnusedVars); } else { passes. addAll ( constants ) ;
+if (options.deadAssignmentElimination) { if (removeUnusedVars)
+ passes.add(removeUnknown); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination!= -1) {
+ passes.add(removeUnusedVars); } else { pass(options); }
+ passes.add(removeUnknown); } if (deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else { passes.add(); }
+ passes.add(removeUnused); if options.deadAssignmentElimination) {
+if  (deadAssignmentsElimination)
+if (options.deadAssignmentElimination && options.removeDeadAssignmentsElimination) {
+if (options.deadAssignmentElimination || options.deadLocalVariables) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(getCodeRemovingPasses()); } else
+if (options.removeUnusedVars == DeadAssignments) {
+if (options.deadAssignmentsElimination > 0) {
+ passes.add(removeUseless); }
+ passes.add(removeUnusedVars); } else { pass = null ;
+ passes.add(removeUnusedVars); } if (dead) {
+ passes.add(unused); } if (deadAssignmentElimination) {
+if (options.cleanDeadAssignmentsElimination)
+ passes.add(removeUseless); if (options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. add ( removeUnusedVars ) ; } else {
+ passes.add(removeUnusedVars); } if (all) {
+ passes.add(removeUnusedVars); } if (pass) {
+if (options.cleanDeadAssignment)
+ passes. addAll(removeUnusedVars); } else { passes. addAll(getCodeRemovingPasses(); } else
+if (options.cleanDeadAssignmentsElimination) {
+ passes.add(removeUnusedVariables); } else {
+ passes.add(removeUnused) ;
+ passes.add(blocks); if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVar); } else {
+if (deadAssignmentsElimination) {
+ passes.add(removeThis); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentsElimination!= -1) {
+ if (options.cleanDeadAssignment) {
+if (options.deadAssignmentElimination && options.deadAssignmentsEliminationEnabled) {
+ passes.remove(); }
+ passes.add(remove) } if (deadAssignmentElimination) {
+if (options.deadAssignmentsElimination
+ passes.add(removeUnusedVars); } else if (dead {
+if (options.deadAssignmentElimination!= void 0) {
+ if (options.removeDeadAssignmentElim) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedVars); } else
+if (options.deadAssignmentElimination && options.deadAssignmentElimination!= null) {
+ passes.add(unknown); if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVariables); }
+ passes.add(false if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } if (clean) {
+ passes.add(removeUnusedVars); } if (debug) {
+ passes.add(blocks); }
+if (options.removeDeadAssignmentsElim) {
+if (options.removeDeadAssignment)
+if (options.removeDeadAssignmentElimination)
+ passes.add(false); if (options.deadAssignmentElimination) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedCode); } else
+if (options.deadAssignmentElimination || options.deadLocalElimination) {
+if (options.deadAssignmentElimination) { removeUnusedVars();
+ passes.add(removeUnusedVars); } else if (dead){
+if (options.deadAssignmentElimination || options.deadAssignmentsEliminationOnly) {
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedVariable); } else
+ passes.add(remove) ;
+ passes. addAll(removeUnusedVars); } else { passes. addAll(removeUnusedVariables); } else
+ passes.add(null); if (options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeDeadCode ) ; else
+ passes.add(removeUnusedVariables); } else
+ pass.add(removeUnusedVar); }
+if (options.deadAssignmentElimination)  { pass.add(deadAssignments);
+ passes.add(removeUnusedVariables); }
+ passes.add(removeAll); }
+if (options.removeDeadAssignments)
+ pass.add(removeUnusedVar);
+ passes.add(removeUnusedVariable); }{
+ passes.add(false); } if (deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentsEclimination) {
+ passes.add(); }
+ passes.add(removeUnusedVar);{
+ passes.add(none); if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.deadAssignmentsElimination2) {
+ passes.remove(); if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } } else {
+ passes.add(blocks); } if (deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentsEliminationPass) {
+if  (deadAssignmentsElimination
+ if (options.removeDeadAssignmentsOnly) {
+ passes.add(removeUnusedVars); } } else {
+ passes.add(true if (options.deadAssignmentElimination) {
+if (options.fold) {
+ passes.sort(); }
+ passes.add(removeMissing); }
+ if (options.deadAssignmentsElim) {
+ passes.add(true); if (deadAssignmentElimination) {
+if (options.deadAssignmentElimination)  { passes.add(deadAssignments());
+if (options.removeUnusedVarsElimination) {
+if (options.cleanDead) {
+ passes.add(none); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination)  { passes.add(deadAssignment); }
+ passes.add(removeUnusedNames);
+if (options.deadAssignmentElimination) { passes.add(removeDeadCode);
+if (options.cleanDeadAssignmentsElimination
+ passes.clear(); }
+ pass.add(removeUnusedVars); } else
+ passes.add(unused); } if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.deadAssignmentElimination > 0) {
+ passes.add(removeUnusedVar); }
+ passes.add(false); if (deadAssignmentElimination) {
+ passes.add(removeUnusedVariars); }
+if (options.removeUnusedAssignmentElimination) {
+ passes.add(remove); if options.deadAssignmentElimination) {
+ passes.add(removeUnused);
+if (options.clean) {
+if (options.deadAssignmentElimination && options.removeDeadAssignmentElimination) {
+if (options.deadAssignmentElimination) { passes.add(inlineFunctions);
+ passes.add(removeUnused) if (options.deadAssignmentElimination) {
+ passes.add(removeUnusedVars); } else { } else
+if (options.deadAssignmentsElimination!== undefined) {
+if (options.deadAssignmentsElimination!= null)
+ passes.add(removeUnusedVars); } else { passes.add({}); }
+if (options.deadAssignmentElimination)  { passes.add(deadAssignmentRules);
+ if (removeDeadAssignment) {
+if (options.deadAssignmentsElimination!== false) {
+ passes.add(removeUnusedVars); } else if (!dead {
+if  (deadAssignmentElimination
+ passes.add(removeUnusedVariables);
+ passes.add(removeUnusedVars); } else
+if (options.cleanDeadAssignments)
+ passes. addAll(removeUnusedVars); } else { passes. addAll(getCodeRemovingPasses(); }); else
+ if (options.deadAssignmentElim) {
+ passes.add(null); if options.deadAssignmentElimination) {
+ passes.clear(); } if(options.deadAssignmentElimination) {
+ passes. addAll ( removeUnusedVars ) ; } else { passes. addAll ( removeUnusedConstants ) ; else
+ passes.add(removeEmpty); }
+if (options.deadAssignmentsEliminationPass) {
+ passes.add(unknown); } if(options.deadAssignmentElimination) {
+if  (!deadAssignmentElimination)
+ passes.clear(); if(options.deadAssignmentElimination) {
+ passes.add(removeUnused)){
+ passes.add(removeUnusedVariables); } else {
+ passes.add(removeUnusedVars); } } else
+ if (removeUnusedVars) {
+ passes.add(remove) ; if (.deadAssignmentElimination) {
+ passes.add(null);
+ passes.add(if options.deadAssignmentElimination) {
+ pass.add(removeUnusedVars); } else {
+ if (deadAssignmentsEnabled){
+if (options.deadAssignmentElimination || options.deadVariableElimination) {
+ passes.add(removeUnusedVariars); }
+if (options.deadAssignmentElimination || options.deadAssignmentsExpression) {
+if (options.deadAssignmentElimination || options.deadAssignmentEliminationOptions) {
+if (options.deadAssignmentEliminationEnabled) {
+if (options.deadAssignment) {
+ passes.add(false);
+if (options.deadAssignmentElimination && removeUnusedVariable) {
+if (options.deadAssignmentElimination || options.deadFunctionElimination) {
+if (options.dead)
+ passes.add(removeUnusedVars); } else if unused {
+ passes.add(removeUnusedVars); } else { } } else
+ passes.add(); if options.deadAssignmentElimination) {
+ passes.add(removeDeadCode);
+ passes.add(clean); }
+ if (options.deadAssignmentElining) {
+if  (!deadAssignments) {
+ passes.add(removeUnusedVars); } else if ( {
+ if (this.options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination!== null) {
+if (options.removeDeadAssignmentsEliminationPass) {
+ if (deadAssignmentElim) {
+ passes.add(removeUnusedVars); } else { {
+ passes.add(removeUnusedVariars); } else
+if (options.deadAssignmentElimination && options.cleanUnusedVars) {
+if (options.deadAssignmentElimination &&! options.deadAssignmentElimination) {
+ if (dead assignments){
+ if (options.keepDeadAssignment) {
+ passes.add(removeUnusedVars); } else { else
+if (options.deadAssignmentElimination && options.removeDeadCode) {
+if (options.removeDeadAssignmentsEjection) {
+if (options.deadAssignmentElimination) { if (removeDeadAssignment)
+if (options.deadAssignmentElimination || options.removeLocalVariables) {
+if  (deadAssignmentsEjection)
+ if (options.removeUnusedVariables) {
+if  (deadAssignment elimination) {
+ passes.add(removeUnusedVarNames); } else
+if (options.deadAssignmentsElimination == true) {
+ if (deadAssignment) {
+if (options.deadAssignmentElimination || options.deadAssignmentsEjection) {
+if (options.deadAssignmentElimination) { if (removeDeadCode) {
+ if (deadAssignmentElining){
+if (options.deadAssignmentsEjection)
+ if (deadAssignmentElimination{
+ passes.remove(); } else
+ pass.remove(); if (options.deadAssignmentElimination) {
+ if (deadAssignmentEjection){
+if (options.removeUnusedAssignmentsElimination
+if (options.deadAssignmentElimination > 0) {
+if (options.deadAssignmentElimination && options.removeDeadAssignments) {
+ passes.add(); if (deadAssignmentElimination) {
+ if (opts.deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.inlineLocalVariables) {
+if (options.deadAssignmentElimination) { removeUnusedVars =
+if (options.cleanDead assignments) {
+ passes.add(removeUnusedVars); } } else { else
+if (options.deadAssignmentElimination && options.deadAssignmentsExpression) {
+if (options.deadAssignmentElimination || options.deadAssignmentEliminationMode) {
+if (options.deadAssignmentElimination && options.deadAssignmentEliminationOptions) {
+ if (cleanDeadAssignment)
+ pass.add(removeUnusedVars); } else { } else
+if (options.removeDead assignments) {
+ passes.add(); if (!deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentExpression) {
+if (options.deadAssignmentElimination || options.cleanVariables) {
+if (options.deadAssignmentElimination) { passes.add(deadAssignment());
+if (options.deadAssignmentElimination) { removeUnusedVar();
+if (options.deadAssignmentElimination && options.removeDeadAssignment) {
+if (options.deadAssignmentElimination || options.deadAssignments) {
+if (options.deadAssignmentElimination || options.deadAssignmentsInlining) {
+ passes.add(removeUnusedVars); } {
+ passes.add; if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.deadAssignmentsExclusion) {
+ pass.remove(); } if (options.deadAssignmentElimination) {
+ if (deadAssignmentsAnalysis) {
+if (options.deadAssignmentElimination || options.deadAssignmentEliminationPolicy) {
+ (options.deadAssignmentElimination) {
+if (options.foldMethods) {
+if (options.deadAssignmentElimination) { removeUnusedVars
+if (options.deadAssignmentElimination || options.deadAssignmentEliminationPass) {
+if (options.deadAssignmentElimination && options.deadAssignmentEliminationEnabled) {
+if (deadAssignmentsEclusion)
+if (options.deadAssignmentElimination && options.deadAssignmentEliminate) {
+if (options.deadAssignmentElimination && options.inlineLocalVariables) {
+ if (cleanDeadAssignment){
+if (options.deadAssignmentElimination && options.removeUnusedVariables) {
+ passes.add(removeUnusedVars); } else if (){
+if (removeUnusedVars)
+ passes.add(); if (.deadAssignmentElimination) {
+ if (deadAssignments)){
+ if (deadAssignmentsOnly) {
+ if (emptyAssignments) {
+if (options.deadAssignmentElimination || options.cleanUp) {
+if (options.deadAssignmentElimination || options.removeDeadAssignment) {
+ passes.add(removeUnusedVars); } else { }
+if (options.clean)
+ if (not options.deadAssignmentElimination) {
+if (options.removeDeadAssignmentsEclusion) {
+ if (options.use.deadAssignmentElimination) {
+ if (options.options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination) { if (removeUnusedVar)
+if (options.removeDead) {
+ passes.add(removeUnusedVars); } }
+if (options.deadAssignmentElimination) { if (removeUnused) {
+ passes.add(remove());
+ passes.add(removeUnusedVariables); } else
+ passes.add(); } else if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination) { removeUnusedVars;
+ passes.add(removeUnusedVars); } else { final else
+if (options.deadAssignmentElimination && options.removeUnusedVariable) {
+ passes.add(removeUnusedVars); } else if { {
+ passes.add(remove()); if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination) { if (removeDeadCode)
+if (options.deadAssignmentElimination && options.deadAssignmentSatisfied) {
+if (options.deadAssignmentElimination || options.deadAssignmentsOnly) {
+ passes.add(removeUnusedVars); } } else { }
+if (options.dead) {
+ if (deadAssignments)
+ passes.add(removeUnusedVars); } else { }
+ if (removeDeadAssignment)
+if (options.deadAssignmentElimination && options.removeUnusedVar) {
+if (options.deadAssignmentElimination && options.foldConstants) {
+ passes = []; if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination) { removeUnusedVars &&
+if (options.deadAssignmentElimination || options.cleanup) {
+if (options.deadAssignmentElimination) { passes.add(cleanUp);
+ }else{
+ pass.add(removeUnusedVars); } else { {
+if (options.foldDead) {
+ if (true == options.deadAssignmentElimination) {
+if (deadAssignmentElining)
+ pass.add(removeUnusedVars); } else { else
+if (options.deadAssignmentElimination && options.deadAssignmentEliminator) {
+ if (options.ignore.deadAssignmentElimination) {
+ if (--options.deadAssignmentElimination) {
+ if (options.use_deadAssignmentElimination) {
+if  (deadAssignment)
+if  (cleanDead) {
+if (options.deadAssignmentElimination!== undefined) {
+ if (checkDeadAssignment)
+if  (dead assignments)
+if (options.deadAssignmentElimination) { removeUnusedVariable();
+if (options.deadAssignmentElimination && options.removeEmptyVariables) {
+ passes.addIf (options.deadAssignmentElimination) {
+ if (dead) {
+if (options.deadAssignment)
+ if (dead assigns){
+ passes.add(); if ($.deadAssignmentElimination) {
+ passes.add(); (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.deadAssignmentsOnly) {
+ if (options.usedeadAssignmentElimination) {
+ if (cleanDead assignments){
+ if (options.config.deadAssignmentElimination) {
+ if (removeUnusedVariable) {
+if  (clean) {
+ passes.if(options.deadAssignmentElimination) {
+ passes.add(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination)  { } else {
+if (options.deadAssignmentElimination || removeDeadCode) {
+if (options.deadAssignmentElimination == true) {
+if (options.deadAssignmentElimination)  { passes.clear();
+ if (removeDead assignments) {
+if (options.deadAssignmentElimination) { removeUnusedFiles();
+ passes++; } else
+ if (true) {
+if (options.deadAssignmentElimination && removeDeadCode) {
+ } else if(options.deadAssignmentElimination) {
+ if (options.allowdeadAssignmentElimination) {
+ if (removeDeadCode) {
+if (options.deadAssignmentElimination && removeUnusedArgs) {
+ if () {
+ if (dead assignment){
+if (options.empty) {
+ if (--deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.clean) {
+ passes = null;
+ if (!options.deadAssignmentElimination) {
+if  (cleanAll) {
+if (options.clean()) {
+ } else { if(options.deadAssignmentElimination) {
+if (keepDead) {
+if (options.deadAssignmentElimination && options.cleanVariables) {
+if (options.deadAssignmentElimination) { if (pass)
+if (options.deadAssignmentElimination) { if (true)
+if (options.deadAssignmentElimination && removeUnusedFiles) {
+ if (cleanDead assigns){
+ if (.deadAssignmentElimination) {
+ if (cleanDeadCode){
+ if (!deadAssignmentElimination) {
+if (options.deadAssignmentElimination && removeUnusedValues) {
+if (options.deadAssignmentElimination || removeUnusedVar) {
+ if (cleanDeadAss)){
+if (options.deadAssignmentElimination || options.cleanCode) {
+if  (dead)
+ passes.clear();
+ } if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination == null) {
+if (options.deadAssignmentElimination || options.cleanUpCode) {
+if (options.deadAssignmentElimination || options.removeDeadArray) {
+if (options.deadAssignmentElimination == false) {
+if  (empty) {
+if (options.deadAssignmentElimination) { removeUnused variables;
+if (options.deadAssignmentElimination || options.removeDeadVariable) {
+ passList(); if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination || removeUnusedVariable) {
+if (options.deadAssignmentElimination!= null)
+ passes = [];
+if (options.deadAssignmentElimination) { if (! strict)
+ passList.if (options.deadAssignmentElimination) {
+ if (cleanUp) {
+ if (!dead){
+if (options.deadAssignmentElimination) { for(pass)
+ if (usedeadAssignmentElimination) {
+if (options.deadAssignmentElimination)  { passes.remove();
+if (options.deadAssignmentElimination || options.clean) {
+ final if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.force) {
+ if (options.clean|options.deadAssignmentElimination) {
+if  (true)
+ if (emptyPass) {
+if (options.empty)
+if  any {
+if (options.deadAssignmentElimination && options.block) {
+ if (! strict){
+if (options).dead {
+if (cleanUnusedVariable) {
+ pass.if (options.deadAssignmentElimination) {
+if (options.fold)
+if (live) {
+ \n{
+if (options.deadAssignmentElimination && options.cleanUpCode) {
+if (options.deadAssignmentElimination || options.block) {
+if (block) {
+if (options.deadAssignmentEliminationEmpty) {
+if  (clean)
+if (options.deadAssignmentElimination || options.ignore) {
+if (options.deadAssignmentElimination)  return passes;
+ if (testing) {
+ pass passes; if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination && options.debug) {
+ if (pass|options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination || options.blocks) {
+ if (!) {
+ pass; } if(options.deadAssignmentElimination) {
+if  (null)
+if  (false)
+if  ( {
+if (options.deadAssignmentElimination)  { if (...)
+if (options.deadAssignmentElimination)  { if (!)
+ try { if(options.deadAssignmentElimination) {
+ if (.){
+if (options.deadAssignmentElimination)  throws an exception.
+if (options.deadAssignmentElimination &&! strict) {
+if (options)) {
+if (options.deadAssignmentElimination)  { if any {
+ if (option.deadAssignmentElimination) {
+ if (this.deadAssignmentElimination) {
+ if (+) {
+if  needed.
+ if (-) {
+if (options.block)
+if (options.deadAssignmentElimination &&! force) {
+ if (!!{
+ } } else{
+if  (! {
+if (options.deadAssignmentElimination || emptyPass) {
+if  (...)
+ } else {
+if (options.deadAssignmentElimination)  { do nothing
+ else if (options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination)  return null;
+if (options). {
+if (options.deadAssignmentElimination &&! skip) {
+if (options.deadAssignmentElimination &&! greedy) {
+if (options.deadAssignmentElimination)  { do not
+if (options++) {
+if (options.) {
+ \t{
+if (options.deadAssignmentElimination)) {
+ } else
+if (options.deadAssignmentElimination || emptyList) {
+if (options.deadAssignmentElimination &&! bypass) {
+ try {
+ try again }
+if (options.deadAssignmentElimination || removeAll) {
+ } } else
+ try to if(options.deadAssignmentElimination) {
+ \u{
+ try... if(options.deadAssignmentElimination) {
+if (options.deadAssignmentElimination)  then {
+if (options.deadAssignmentElimination ||! strict) {
+if (options.deadAssignmentElimination || isDefault) {
+ try { }
+ synchronized (deadAssignmentElimination) {
+if (options.deadAssignmentElimination()) {
+ if (-deadAssignmentElimination) {
+if (false) {
+ try:
+if (options.deadAssignmentElimination)  { {
+if (options.deadAssignmentElimination)  {...
+ if (-options.deadAssignmentElimination) {
+ synchronized (options.deadAssignmentElimination) {
+ else
+if (options.deadAssignmentElimination)  then {}
+ else unless(options.deadAssignmentElimination) {
+ }

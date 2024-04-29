@@ -1,0 +1,504 @@
+ case Token.MUL<mask> return "*"; 
+ case Token<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask>MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ case Token.MUL: <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ case Token.MUL: return <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ case Token.MUL<mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+Before  <mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask>; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+Before  <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ case Token.MUL<mask><mask><mask><mask> 
+ case <mask><mask><mask> 
+ <mask><mask><mask><mask>.MUL: return "*"; 
+ case Token.MUL: return <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask>return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+Before  <mask> 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask>: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask>; 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask>Token.MUL: return "*"; 
+ case <mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask>; 
+ case Token.MUL: return "*"<mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask> 
+ case Token.MUL<mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>return "*"; 
+Before  <mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask><mask><mask>: return "*"; 
+ case Token<mask><mask> 
+Before  <mask><mask><mask><mask> 
+ case <mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask><mask> 
+ <mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask>"*"; 
+ case Token.MUL<mask><mask><mask> 
+ <mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask>"*"; 
+ <mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>"*"; 
+ <mask><mask><mask><mask>.MUL: return "*"; 
+Before  <mask><mask> 
+ <mask><mask><mask>: return "*"; 
+ <mask><mask><mask>return "*"; 
+ <mask><mask><mask>return "*"; 
+ <mask><mask><mask><mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask>; 
+ <mask><mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask>; 
+ case Token.MUL: return "*"<mask><mask><mask> 
+ case <mask><mask><mask> 
+Before  <mask><mask><mask> 
+ <mask><mask><mask><mask><mask>.MUL: return "*"; 
+ <mask><mask><mask><mask>.MUL: return "*"; 
+ case Token.MUL<mask><mask><mask> 
+ case Token.MUL: return "*"<mask><mask><mask><mask> 
+ <mask><mask><mask><mask>MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask> 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask>; 
+ case Token.MUL: return "*"<mask><mask><mask><mask> 
+ case <mask><mask><mask> 
+ case <mask><mask> 
+ case Token<mask><mask> 
+ <mask><mask><mask><mask>return "*"; 
+ <mask><mask><mask>"*"; 
+ <mask><mask><mask><mask><mask>: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask> 
+ <mask><mask><mask>"*"; 
+ case <mask><mask> 
+ <mask><mask><mask><mask><mask>: return "*"; 
+ <mask><mask>: return "*"; 
+Before  <mask><mask> 
+Before  <mask><mask><mask> 
+ <mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask>: return "*"; 
+Before  <mask><mask><mask> 
+ <mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask><mask>Token.MUL: return "*"; 
+ case Token<mask><mask> 
+ <mask><mask><mask>: return "*"; 
+ <mask><mask><mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask>: return "*"; 
+ case <mask><mask> 
+ <mask><mask><mask>.MUL: return "*"; 
+ <mask><mask>Token.MUL: return "*"; 
+ <mask><mask>; 
+ <mask><mask><mask>Token.MUL: return "*"; 
+ case Token.MUL: return "*"<mask><mask><mask> 
+ <mask><mask><mask>: return "*"; 
+Before  <mask><mask><mask> 
+ <mask><mask>: return "*"; 
+ case Token<mask><mask><mask><mask> 
+ <mask><mask><mask><mask>Token.MUL: return "*"; 
+ case <mask><mask> 
+ <mask><mask>Token.MUL: return "*"; 
+ case Token.MUL<mask><mask> 
+ <mask><mask><mask>"*"; 
+ case Token.MUL<mask><mask> 
+ case <mask><mask> 
+ <mask><mask><mask>"*"; 
+ <mask><mask><mask>.MUL: return "*"; 
+ <mask><mask>; 
+ <mask><mask>MUL: return "*"; 
+ <mask><mask>Token.MUL: return "*"; 
+ <mask><mask><mask>"*"; 
+ <mask><mask>: return "*"; 
+ <mask><mask>MUL: return "*"; 
+ <mask><mask>MUL: return "*"; 
+ case Token<mask><mask> 
+ case Token<mask><mask> 
+ <mask><mask><mask>return "*"; 
+ case Token.MUL<mask><mask> 
+ <mask><mask>MUL: return "*"; 
+ <mask><mask>; 
+ <mask><mask>"*"; 
+Before  <mask><mask> 
+ <mask><mask>"*"; 
+ case Token.MUL<mask><mask> 
+ case Token.MUL<mask><mask> 
+ <mask><mask>"*"; 
+ <mask><mask>"*"; 
+ case Token.MUL: return "*"<mask><mask> 
+ <mask><mask><mask>MUL: return "*"; 
+ <mask><mask><mask>MUL: return "*"; 
+ <mask><mask>return "*"; 
+Before  <mask> 
+ case Token.MUL<mask> return "*"; 
+ case Token.MUL<mask> return "*"; 
+ case Token.MUL<mask> return "*"; 

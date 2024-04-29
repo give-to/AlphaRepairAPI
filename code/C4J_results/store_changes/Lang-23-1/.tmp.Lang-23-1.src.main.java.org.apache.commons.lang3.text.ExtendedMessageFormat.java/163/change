@@ -1,0 +1,318 @@
+ fmtCount++;
+fmtCount += 1;
+ break; }
+ appendStartFmt(pattern, pos, stripCustom, true); }
+ appendStartFmt(pattern, pos, stripCustom, true); break; }
+ appendStartFmt(pattern, pos, stripCustom);
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, pos);
+fmtCount += 1; }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, next(pos)); }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE:
+ stripCustom.append(pattern);
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT:
+fmtCount++; break; }
+ appendStartFmt(pattern, pos, stripCustom, false); }
+ appendStartFmt(pattern, pos, stripCustom, true);
+ parseFormatDescription(pattern, pos, next(pos)); break; case END_FE: parseFormatDescription(pattern, pos); break;
+ appendStartString(pattern, pos); break; case END_FE: appendEndString(pattern, pos); break; default:
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, next(pos)); break;
+fmtCount = readArgumentIndex(pattern, pos);
+ stripCustom.append(pattern); }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, pos); }
+ appendStartString(pattern, pos, stripCustom, true); break; case END_FE: appendEndString(pattern); }
+ appendStartFmt(pattern, pos, stripCustom, false); break; }
+ appendStartString(pattern, pos); break; case END_FE: appendEndString(pattern, pos, stripCustom); }
+ if (c[pos.getIndex()] == END_FE) { stripCustom.append(START_FE); break; }
+ appendStartFmt(pattern, pos, stripCustom, false);
+ if (c[pos.getIndex()] == END_FE) { stripCustom.append(END_FE); break; }
+fmtCount += readArgumentIndex(pattern);
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, next(pos)); break }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern);
+ stripCustom.append(c[pos.getIndex()]); break; default:
+fmtCount += readArgumentIndex(pattern); }
+ if (c[pos.getIndex()] == END_FE) { stripCustom.append(START_FE); } }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, next(pos)); break });
+ appendStartFmt(pattern, pos, stripCustom, true); break });
+ readArgumentIndex++;
+ parseFormatDescription(pattern, pos); fmtCount++;
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: default:
+ appendStartString(pattern, pos, stripCustom, true); break; case END_FE: appendEndString(pattern);
+ stripCustom.append(start); break; }
+ parseFormatDescription(pattern, pos, stripCustom;
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: break;
+ stripCustom.append(start); break; default:
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: break; }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern); }
+ appendStartLine(pattern, pos, stripCustom, true); break; default:
+ appendStartLine(pattern, pos, stripCustom, true); break; default: break; }
+ appendStartLine(pattern, pos, stripCustom, true); break; }
+ parseFormatDescription(pattern, pos, stripCustom, true); }
+ appendStartString(pattern, pos); break; case END_FE: appendEndString(pattern, pos) break; default:
+fmtCount = readArgumentIndex(pattern); }
+fmtCount++; }
+ appendStartFmt(pattern, pos, stripCustom, false); break });
+ parseFormatDescription(pattern, next(pos));
+ appendStartLine(pattern, pos, stripCustom, true); break; case END_FE:
+ appendStartLine(pattern, pos, stripCustom, true); }
+ appendStartFE(pattern, pos, stripCustom;
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, next(pos); }
+ appendStartFmt(pattern, pos, stripCustom, true); break }
+ stripCustom.append(start); }
+ appendStartFmt(pattern, pos, stripCustom, true); break; case END_FMT: break;
+ if (c[pos.getIndex()] == END_FE) { stripCustom.append(START_FE); break }
+ parseFormatDescription(pattern, next(pos++;
+ parseFormatDescription(pattern, next(pos)); break; case FMT:
+fmtCount++ break; case END_FE: break; }
+ stripCustom.append(c[pos.getIndex()] + fmtCount);
+ stripCustom.append(pattern);
+ stripCustom.append(start); break;
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription();
+ appendStartLine(pattern, pos, stripCustom); }
+ parseFormatDescription(pattern, pos, stripCustom, false); }
+ appendStartString(pattern, pos); break; case END_FE: appendEndString(pattern, pos); break; } }
+ parseFormatDescription(pattern, pos, next(pos)); break; case END_FMT: break;
+ appendStartFmt(pattern, pos, stripCustom); }
+ parseFormatDescription(pattern, pos, next(pos)); break; case END_FMT: default:
+ appendStartLine(pattern, pos, stripCustom, true); break });
+ parseFormatDescription(pattern, pos, stripCustom); }
+ appendStartFmt(pattern, pos, stripCustom, true); break; case END_FMT: default:
+fmtCount = readArgumentIndex(pattern);
+ break; default:
+ appendStartLine(pattern, pos, stripCustom, true); break; default: break;
+ break; case END_FMT:
+ appendStartString(pattern, pos, stripCustom, true); break; case END_FE: appendEndString() }
+ appendStartString(pattern, pos, stripCustom, true); break; case END_FE: appendEndString(); }
+ break; case END_FMT: fmtCount++;
+ appendStartFmt(pattern, pos); pos++;
+ appendStartFmt(pattern, pos); }
+ parseFormatDescription(pattern, pos);
+ parseFormatDescription(pattern, next(pos)); break; default: break; } }
+ parseFormatDescription(pattern, next(pos;
+ stripCustom.append(pattern); }
+ stripCustom.append(pattern); fmtCount++;
+fmtCount++; break; default:
+ parseFormatDescription(pattern, pos++;
+ parseFormatDescription(pattern, pos;
+fmtCount += readArgument(pattern);
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: } }
+ parseFormatDescription(pattern, pos, stripCustom, true); break });
+ stripCustom.append(C[pos.getIndex()]);
+ readArgumentIndex(pos;
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, pos)); }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern), pos);
+ appendStartString(pattern, pos, stripCustom, true); break; case END_FE: appendEndString(pos);
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern, pos));
+ appendStartString(pattern, pos, stripCustom, true); break; default: break; } if (pattern!= null)
+ appendStartFmt(stripCustom);
+ appendStartLine(pattern, pos, stripCustom, true); break }
+ appendStartFmt(pattern, pos);;
+ stripCustom.append(start); } fmtCount++;
+fmtCount++ break; case END_FMT:
+ break; case END_FE:
+ break; case END_FE:
+ appendStartLine(pattern, pos, stripCustom, true); break; default: break }
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: }
+ appendStartFEString(pattern, pos); }
+ appendStartFmt(pattern, pos, stripCustom, true); break; case END_FMT: break }
+fmtCount++; break; case END_FE:
+ parseFormatDescription(pattern, next(pos)); break; case END_FMT: {
+ stripCustom.append(C[pos.getIndex()]); break; default: }
+ stripCustom.append(start); default:
+ stripCustom += pattern; }
+ appendStartFE(pattern, pos); pos++;
+ parseFormatDescription(pattern, pos);
+ stripCustom.append(start); fmtCount++;
+ stripCustom.append(pattern); } fmtCount++;
+ parseFormatDescription(pattern, pos, next(pos)); break; case END_FMT: } }
+ parseFormatDescription(pattern, pos);;
+ appendStartFmt(pattern, pos, stripCustom, true); break; case END_FMT: }
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: }
+ break; default:
+ appendStartLine(pattern, pos, stripCustom, true); break; default: break; } }
+ break; case END_FE: fmtCount++;
+ appendStartFmt(pattern, pos++;
+ stripCustom.append(start); break }
+ break; case END_FMT: } break;
+ break; case END_FMT:
+fmtCount += 1; break; case END_FE:
+ stripCustom.append(Start_FE); }
+ appendStartLine(pattern, pos, stripCustom, true); break; case END_FE: }
+fmtCount++ break; case END_FE:
+ stripCustom.append(START_FE;
+ parseFormatDescription(pattern, pos, next(pos)); break; case END_FMT: break }
+ appendStartFmt(pattern, pos, stripCustom, true); break; case END_FMT: {
+ break; case END_FE: break;
+ appendStartFE(pattern, pos, true;
+fmtCount++ break; case END_FMT: }
+ readArgument(pattern, pos;
+ appendStartFE(pattern, pos);;
+ parseFormatDescription(pattern); fmtCount++;
+fmtCount += readArgumentIndex(); }
+ appendStartFE(pattern); fmtCount++;
+ appendStartLine(pattern, pos, stripCustom, true); break; case END_FE: {
+ appendStartFmt(pattern);
+fmtCount += readArgumentIndex();
+ break; default: break; }
+ appendStartFE(pattern, pos, false;
+ stripCustom.append(C[pos.getIndex()); }
+ stripCustom.append(start); break });
+ stripCustom.append(start); break;
+ break; }
+fmtCount++ break; case END_FE: break }
+ stripCustom.append(pattern, pos); break;
+ stripCustom.append(start); pos++;
+ parseFormatDescription(pattern, next(pos)); break; case END_FE: parseFormatDescription(pattern));
+fmtCount++; break; default: break; }
+ stripCustom.append(Start_FMT); }
+ break; case END_FMT: } };
+ stripCustom.append(C[pos]); }
+fmtCount += (int) 1;
+ stripLine(pattern, pos);
+fmtCount++; break; default: break; } }
+fmtCount += next(pos);
+ appendStartFE(pattern, pos;
+ appendStartFmt(pattern, pos, stripCustom, true); break; default: break; } } int
+ stripCustom.append(start); } }
+fmtCount++ break; case END_FMT: break }
+fmtCount++ break; }
+ appendStartFE(stripCustom);
+ break;
+ break; default: int fmtCount++;
+ parseFormatDescription(pattern, fmtCount++;
+fmtCount += 1; break; default: break; }
+ break;
+fmtCount += readArgumentIndex(pattern));
+ readArgumentIndex();
+fmtCount++ break; case END_FMT: break;
+fmtCount++ break; default: break; } }
+fmtCount++ break; case END_FE: continue; }
+fmtCount += readArgumentCount(pattern);
+ stripCustom += ' ';
+fmtCount++ break; case END_FE: break;
+fmtCount++; break; default: }
+fmtCount += 1; break; }
+ appendStartFE(pattern, pos++;
+fmtCount++ break; default: break; }
+ parseFormat(pattern, pos;
+ stripCustom.append(index++;
+fmtCount = readArgument(pattern);
+ Format format = null;
+fmtCount += readArguments(pattern);
+ break }
+ break; } int fmtCount++;
+ stripCustom = pattern; }
+ stripCustom.append(start)++;
+ break; default: }
+fmtCount += 1; } }
+fmtCount += readArgumentCount();
+ parseFormatDescription(pattern, pos, stripCustom); break
+fmtCount += readArgumentIndex(pattern)); }
+fmtCount += 1; break; default: }
+ stripCustom.append(pattern++;
+ fmtCount++; default:
+ break; case END_FE: break; default: } }
+fmtCount++ ; default:
+fmtCount = readArgumentIndex(); }
+ stripCustom.append(C[pos.getIndex()); });
+fmtCount ++ ; } }
+ if (pattern!= null)
+ stripCustom.append('');
+ break; } fmtCount++;
+ break; case END_FE: }
+fmtCount += 1; break; default: } }
+ appendStartLine(pattern, pos, stripCustom); });
+ break; case END_FMT: } continue;
+fmtCount++; break; default: } }
+fmtCount += next(pos));
+fmtCount += 1; break; default: break }
+ stripCustom.append(start++;
+fmtCount++; break; default: break }
+ stripCustom.append("++;
+ break; default: } }
+ break; default: break;
+fmtCount += 1; break });
+ stripCustom.append(start);++;
+ stripCustom.append(pattern); break
+ fmtCount ++; }
+fmtCount++; if (stripCustom)
+fmtCount++ break; default:
+fmtCount ++ ; break }
+ continue; default:
+ readArgumentIndex(pattern;
+ appendStartFmt(pattern;
+ break; default: } }
+ break; } } fmtCount++;
+ break; } } int index;
+ writeArgumentIndex++;
+ stripCustom.append(++;
+fmtCount++; break; } }
+ if (stripCustom)
+ stripCustom += pattern } }
+fmtCount ++ ; break });
+ stripCustom =
+fmtCount++ break; default: break }
+fmtCount++ break; default: } }
+ readArguments(pattern;
+fmtCount = 1;
+ } break;
+ readArgument(pattern++;
+ break; } } int fmtCount;
+ int fmtCount++;
+ readArgumentIndex =
+ break; default: pattern = pattern;
+ next(pos++;
+fmtCount++ break; default: break;
+ break; case TEXT:
+ readArgument();
+ break; } int index;
+ fmtCount++; } }
+ break; } }
+ formatDescription = null;
+ int index = 0;
+ readArgumentIndex()++;
+ continue; default:
+ break });
+ break }
+ continue; }
+ fmtCount++; break });
+ readArguments(pos;
+ pattern = pattern;
+ readArguments++;
+ fmtCount ++++;
+fmtCount += 2;
+ default:
+ continue; }
+ break };
+ default:
+ stripCustom +=
+ FormatFormat = null;
+ int fmtCount;
+ formatDescription = pattern;
+ pattern += pattern;
+ index = 0;
+ readArgument++;
+ pos = pattern;
+ readArgumentsIndex++;
+ break });
+ skipArgumentIndex++;
+fmtCount++ } }
+ skipFmtCount++;
+ { } }
+ break ;;
+ ++f;
+ break };
+ ++start;
+ break; });
+fmtCount++ break }
+fmtCount++ break });
+fmtCount ++);
+ formatCount++;
+ }
+ int index++;
+ }
+ {
+ fmt count++;
+ int f++;
+ {
+fmtCount++;;
+fmtCount --;

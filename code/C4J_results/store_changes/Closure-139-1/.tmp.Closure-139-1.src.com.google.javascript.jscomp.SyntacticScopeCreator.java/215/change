@@ -1,0 +1,156 @@
+ else { scope. declare ( name, n, parent, gramps, node ) ;
+ else { scope. declare ( name, n, parent, gramps, declaredType ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ else { scope. declare ( name, n, parent, gramps ) ; }
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber )
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber ) )
+ else { scope. declare ( name, n, parent, gramps ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name ) ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } }
+ else { scope. declare ( name, n, parent, gramps )
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name ) ) ; }
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name ) )
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, origVar ) ) ;
+ else { compiler. report ( origVar ) ; }
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, origParent ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, parent ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, "??" ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, name ) ) ;
+ else { compiler. report ( nodeWithLineNumber ) ;
+ else { scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ else { scope. declareVar ( name, n, parent, gramps )
+ else { scope. declareVar ( name, n, parent, gramps ) ; }
+ else { compiler. report ( sourceName ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber, compiler. getInput ( sourceName ) )
+ else { compiler. report ( nodeWithLineNumber ) ; }
+ else { scope. declare ( name, n, nodeWithLineNumber ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ;
+ else { scope. declareVar ( name, n, parent, gramps, node ) ;
+ else { scope. declareVar ( name, n, origVar ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber, compiler. getInput ( name ) )
+ else { scope. declareVar ( name, n, parent, gramps ) ;
+ else { compiler. report ( JSError. make ( sourceName, name ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, "" ) ) ;
+ else { scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; return ;
+ else { scope. declare ( name, n, origVar ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } }
+ else { compiler. report ( JSError. make ( sourceName ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, origVar ) ) ; }
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; return ; }
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, "?" ) ) ;
+ }
+ else { compiler. report ( origVar ) ;
+ else { scope. declareVar ( name, n, parent, gramps, declaredType ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; nodeWithLineNumber ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, parent ) ) ; }
+ else { scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber )
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, name ) )
+ else { compiler. report ( JSError. make(sourceName, nodeWithLineNumber, name, origVar)));
+ return origVar ;
+ else { compiler. report ( JSError. make(sourceName, nodeWithLineNumber, name, origParent)));
+ else { scope. declareVar ( name, origVar ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber, null ) ;
+ else { scope. declareVar ( name, n, nodeWithLineNumber ) ;
+ else { compiler. report ( JSError. make ( name, nodeWithLineNumber ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, parent, n ) ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, parent ) )
+ else { scope. declareVar ( name, n, parent ) ;
+ else { compiler. report ( JSError. make ( sourceName, nodeWithLineNumber, name, "unknown error" ) )
+ else { compiler. report ( JSError. make ( sourceName, node, name ) )
+ else { scope. declare ( name, n, parent, gramps ) ; } }
+ else { compiler. report ( JSError. make ( name, nodeWithLineNumber ) )
+ else { scope. declare ( name, n, parent, gramps ) ; return ; }
+ else { scope. declare ( name, n, origVar ) ; }
+ else { scope. declareVar ( name, n ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber
+ else { compiler. report ( nodeWithLineNumber, name ) ;
+ else { scope. declare ( name, origVar ) ;
+ else { scope. declare ( name, n, parent, gramps ) ; } } }
+ return origVar ;
+ else { scope. declare ( name, n, origParent ) ;
+ else { scope. declare ( name, n, declaredType )
+ else { compiler. report ( JSError. make ( name, sourceName ) ) ;
+ else { scope. declare ( name, n, parent, gramps, null ) ;
+ else { scope. declareVar ( name, n, origParent ) ;
+ else { scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } return scope ;
+ else { compiler. report ( JSError. make ( sourceName, name, parent ) )
+ else { compiler. report ( sourceName, nodeWithLineNumber ) ;
+ else { scope. declare ( name, n ) ;
+ else { scope. declare ( name, n, origVar, gramps ) ;
+ else { scope. declare ( name ) ;
+ else { scope. declareVariable ( name, n, parent, gramps )
+ else { scope. declare ( name, n, declaredType ) ;
+ else { scope. declareVar ( name ) ;
+ else { scope. declare ( name, n, parent ) ;
+ }
+ else { scope. declareVar ( name, n, origVar ) ; }
+ else { scope. declare ( name, n )
+ else { scope. declare ( name, n, parent, gramps, node )
+ else { scope. declare ( n ) ;
+ else { return ;
+ else { return origVar ;
+ } }
+ else { compiler. report ( name, parent ) ;
+ else { scope. declareVar ( name, n )
+ else { scope. declare ( name, n, parent, gramps ) ; } return scope ;
+ else { compiler. report ( origVar, name ) ;
+ else { scope. declare ( name, n, null ) ;
+ else { return ; }
+ return origVar ; }
+ else { compiler. report ( origVar ) ; } }
+ else { scope. declareVar ( name ) ; }
+ else { compiler. report ( ) ; }
+ else { compiler. report ( null ) ;
+ else { compiler. report ( ) ;
+ else { scope. addVar ( name ) ;
+ else { scope. clear ( ) ;
+ return nodeWithLineNumber
+ return origVar ; }
+ return s ;
+ else { allowDupe = true
+ else { return false ;
+ else { return null ;
+ else { scope. addVar ( n )
+ else { sourceName = origName ;
+ return nodeWithLineNumber ;
+ else { var = origVar ;
+ else { scope. pop ( ) ;
+ else { report ( ) ;
+ } }
+ return ;
+ } return s ;
+ else { reportError ( name ) ;
+ return s ;
+ else { allowDupe ;
+ else { report ( name ) ;
+ else { return origVar ; }
+ } return this ; }
+ } } ;
+ else { return origParent ;
+ else { return ; }
+ return this ;
+ } ;
+ else { allowDupe = false
+ } return origVar ;
+ else { return parent ;
+ return scope ;
+ } } }
+ return this ; }
+ } return scope ;
+ return true ;
+ return null ;
+ } } } ;
+ } } ) ;
+ return ; }
+ } } }
+ } return scope ;
+ } } } }
+ } ;
+ return ;
+ else {
+ } public
+ ; }
+ ;

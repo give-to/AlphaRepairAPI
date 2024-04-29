@@ -1,0 +1,811 @@
+ if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block)
+if (block!= null
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block)
+if (NodeUtil.mayEffectMutableState(block, compiler)
+if (NodeUtil.mayEffectMutableState(block, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(fnParam, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString())
+if (NodeUtil.mayEffectMutableState(cArg, fnParam)
+if (NodeUtil.mayEffectMutableState(block, fnParam, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString)
+if (NodeUtil.mayHaveSideEffects(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block, compiler)
+if  (block
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam, block)
+if (NodeUtil.mayEffectMutableState(cArg, block)
+ if (mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block
+if (NodeUtil.mayEffectMutableState(block, fnParam)
+ if (mayHaveSideEffects(cArg, compiler)
+ if (block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam)
+if (NodeUtil.mayEffectMutableState(cArg)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block!= null
+ if (block && NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, fnParam, block)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam.getString())
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (fnParam!= null
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam.getString)
+ if (block!= null && NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block)) { if (fnParam!= null
+ return CanInlineResult.NO; } } else {
+if (NodeUtil!= null
+ return CanInlineResult.NO; } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ return CanInlineResult.NO; } else
+ return CanInlineResult.NO; if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(cArg)
+if (NodeUtil.mayHaveSideEffects(cArg, compiler
+if  (block!= null && fnParam!= null
+if (NodeUtil.mayEffectMutableState(block, fnParam, block, cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(block)
+ if (block &&!NodeUtil.mayEffectMutableState(cArg, compiler)
+if (block!= null) { if (block!= null
+if (NodeUtil.mayEffectMutableState(cArg, block)) { if (block!= null
+ return CanInlineResult.NO; } if (block!= null) { if (block!= null
+ if (BlockUtil.mayHaveSideEffects(cArg, compiler)
+ cArg = cArg.getNext(); } if (block!= null) {
+ if (block)
+ if (NodeUtil.hasSideEffects(cArg, compiler)
+ return CanInlineResult.NO; }
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.getNext(); }
+ cArg = cArg.getNext(); } } else {
+ if (NodeUtil.mayHaveEffects(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam.getString())
+ cArg = cArg.getNext(); } if (cArg!= null) {
+ if ((cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block.getFirstChild())
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString()) == false
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.next(); }
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block.length > 0
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = null; }
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.getNext(); } }
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); }
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString()) == true
+ cArg = cArg.getNext(); } if (cArg == null) { cArg = fnParam.getNext(); }
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); } }
+ return CanInlineResult.NO; } } else
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg; }
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString()) > 0
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.next();
+if (NodeUtil.mayEffectMutableState(cArg, block) && fnParam!= null
+if (NodeUtil.mayEffectMutableState(block, fnParam.string())
+ if (NodeUtil.isCall(cArg, compiler)
+ return CanInlineResult.NO; } if (block!= null && fnParam!= null
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.NO; } else
+ if (BlockNodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); if (cArg!= null) {
+ cArg = cArg.getNext(); } if (cArg) {
+ return CanInlineResult.NO if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.NO; } } else {
+ cArg = cArg.getNext(); } if (cArg == null) { cArg = fnParam.getNext(); } }
+ return CanInlineResult.NO; } if (fnParam!= null
+ cArg = cArg.getNext(); } else
+ return CanInlineResult.NO; } if (block!= null
+ cArg = cArg.getNext(); } if (block) {
+ cArg = cArg.getNext(); if (block!= null) {
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); } } else {
+ cArg = cArg.getNext(); } else { cArg = fnParam. getNext(); } } } else {
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString(), compiler)
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.NO; } } else
+ cArg = cArg.getNext(); if (cArg == null) { return CanInlineResult; }
+ cArg = cArg.getNext(); } if (block!= null) { if (block
+ return CanInlineResult.NO; } if (block!= null) {
+ if (block!= null) { if (block.length > 0
+ cArg = cArg.getNext(); } if (cArg!= null) { fnParam = cArg; }
+ if (NodeUtil.isName(cArg, compiler)
+ cArg = cArg.getNext(); } if (block!= null && fnParam!= null
+ cArg = cArg.getNext(); }
+ if (block!= null)
+ return CanInlineResult.NO; } else {
+ if (NodeUtil.mayUse(block, compiler)
+if  (cArg
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); } } else
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.NO; } else {
+if (NodeUtil.mayHaveSideEffectsFor(cArg, compiler)
+ if (BlockUtil.isBlock(compiler)
+ cArg = cArg.getNext(); if (cArg) {
+ if (cArg == block) { return CanInlineResult; }
+ cArg = cArg.getNext(); } } else { if (fnParam!= null
+ cArg = cArg.getNext(); } else { cArg = fnParam.next(); }
+ cArg = cArg.getNext(); } if (cArg == null) { cArg = block ; }
+ if (block(block)
+ if (cArg!= block) { if (block!= null
+ if (block!= null) && NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (cArg == block) { if (fnParam!= null
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block && fnParam!= null
+if (NodeUtil.isNameReference(block)
+ if (NodeUtil.mayCall(block, compiler)
+ if (block == null || NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg; } if (block!= null) { if (block.length > 0
+if (NodeUtil.isNameReferenceCount(block)
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.YES; } else
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString())!= null
+if (NodeUtil.mayEffectMutableState(cArg, fnParam, compiler)
+ return CanInlineResult.NO; } if (cArg!= null) {
+if  (block!= null && block.length > 0
+ cArg = cArg.getNext(); } } if (cArg!= null) {
+ return CanInlineResult.NO; } if (fnParam!= null && block!= null
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = block;
+ cArg = cArg.getNext(); if (cArg!= null) { }
+if  (fnParam!= null
+if (NodeUtil.mayEffectMutableState(cArg, block) && (fnParam!= null)
+ if ((block, compiler)
+ cArg = cArg.getNext(); } if (block!= null)
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.getNext();
+if  (block && fnParam!= null
+if (NodeUtil.mayEffectMutableState(fnParam, block)
+ if (block!= null) {
+ if (!NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block == null ||!NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block) || fnParam!= null
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); } } if (cArg) {
+ if (block!= null &&!NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); } else { cArg = fnParam.getNext(); } } if (block) {
+ if (Util.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); } if (cArg!= null) { continue; }
+ cArg = cArg.getNext(); } } if (block!= null) {
+ if (Block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString()))
+ return CanInlineResult.NO; } if (cArg == null) { return CanInlineResult.YES; } } else {
+if (NodeUtil.mayEffectMutableState(cArg,  block)) { if (block.length > 0
+if  (block.length > 0
+ cArg = cArg.getNext(); } if (cArg!= null) { }
+ if (block!= null) if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (cArg!= block && NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.next(); }
+ if (block!= null) { if (block!= -1
+ return CanInlineResult.NO; } if (block && fnParam!= null
+ return CanInlineResult.NO;
+if (NodeUtil.mayHaveSideEffectsOnly(cArg, compiler)
+ if (cArg!= block) { if (fnParam!= null
+ cArg = cArg.getNext(); } else { cArg = fnParam. next ; }
+ if (block.isValid(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block), fnParam.getString())
+ cArg = cArg.getNext(); if (block) {
+ return CanInlineResult.NO; } if (block!= null) { if (block!= 0
+ cArg = cArg.getNext(); } else {
+if (NodeUtil.mayEffectMutableState(fnParam)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString(), compiler
+ return CanInlineResult.NO; } if (cArg) {
+ if (compiler)
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.prev(); }
+ cArg = cArg.getNext(); } } else
+ return CanInlineResult.NO; } if (block) {
+ return CanInlineResult.NO; } if (fnParam.getString!= null
+ return CanInlineResult.NO; } if (block!= null)
+if (NodeUtil.mayEffectMutableState(cArg, block) && (fnParam!= null
+ return CanInlineResult.NO; } else if (fnParam!= null
+ cArg = cArg.next(); if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(block
+ if (cArg == block) { return CanInlineResult.NO;}
+ if (NodeUtil.maymayEffectMutableState(cArg, compiler)
+ if (block.contains(compiler)
+ if (block.isName()
+ cArg = cArg.getNext(); } if (cArg!= null) { } } else {
+ return CanInlineResult.NO; } if (fnParam!= null) {
+ cArg = cArg.getNext(); } if (cArg == null) { return null; }
+ if (NodeUtil.isFunction(cArg, compiler)
+ cArg = cArg.getNext(); } if (cArg == null) { break; } else
+ if (cArg!= block) { if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); } if (block!= null && block. length > 0
+ cArg = cArg.getNext(); if (cArg!= null) { } }
+if  (block == null || fnParam!= null
+ cArg = cArg; } if (block!= null) { if (block && block!= null
+if (NodeUtil.mayEffectMutableState(cArg, block) || (fnParam!= null)
+ if (block.isString()
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = cArg.next;
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block!= -1
+ if (block, compiler)
+ return CanInlineResult.NO; } if (block!= null) { if (block++
+ return CanInlineResult.NO; } if (block!= null && block. length > 0
+ cArg = cArg.getNext(); } else { cArg = fnParam ; } }
+ return CanInlineResult.NO(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block!= null) { if (block!= 0
+ cArg = cArg.getNext(); } if (cArg!= null) { } } else
+if  (cArg!= block
+ if (NodeUtil.isName(block, compiler)
+ if (NodeUtil.isCall(block, compiler)
+ return CanInlineResult.NO; } if (block!= null) { if (blockName
+ cArg = cArg; } else if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.isName(block)
+ if (block.isEmpty()
+ if (block.mayHaveSideEffects(compiler)
+if (NodeUtil.mayEffectMutableState(block, cArg)
+ if (BlockUtil.isBlock(block, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block.getParent())
+ cArg = cArg.getNext(); } if (cArg!= null) { } else
+ cArg = cArg.getNext(); } if (cArg == null) { return null; } else
+ return CanInlineResult.NO; } if (block.length > 0
+if (NodeUtil.mayEffectMutableState(block, fnParam, cArg)
+if (NodeUtil.mayEffectMutableState(block, fnParam), compiler
+ cArg = cArg.getNext(); } if (cArg!= null) { cArg = null;
+if (NodeUtil.isNameReferenceCount(block, fnParam)
+ return CanInlineResult.NO; } if (cArg!= fnParam) {
+ return CanInlineResult; }
+ if (Block!= null && NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (BlockUtil.isBlock(cArg, compiler)
+ if (!NodeUtil.mayHaveSideEffects(cArg, compiler)
+ if (NodeUtil.use(block, compiler)
+ if (fnParam!= block) { if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (cArg!= block) if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if  (cArg!= block && fnParam!= null
+ if (cArg == block) { if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ return CanInlineResult.NO; } } } else {
+ if (block.contains(fnParam)
+ if (block == null) { if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block.contains(block)
+ if (block!= null) { if (fnParam!= null
+ return CanInlineResult.NO; } if (fnParam.getString
+ cArg = cArg.getNext(); } if (cArg.isThis()) {
+ cArg = cArg.next(); } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block!= null &&!block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block.isEmpty ( )
+ cArg = cArg.getNext(); } if (cArg == null) { break; } }
+ return CanInlineResult.NO; } if (fnParam.isString()
+ if (Block && NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.isNameReferenceValid(block, fnParam)
+ cArg = cArg; } if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (nodeUtil.mayHaveSideEffects(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block!= null && block
+ if (cArg!= block) { if (cArg!= block
+ if (cArg!= block) {
+ if (isBlock(block)
+ cArg = cArg.getNext(); } } } else {
+ if (isRemovable(block)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block!== null
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (fnParam.getString
+if (NodeUtil.mayHaveSideEffects(block) && block(cArg, compiler)
+ cArg = cArg.getNext(); } if (cArg!= null) { } }
+ cArg = cArg.getNext(); } if (fnParam.isString()
+ return CanInlineResult.NO; } if (cArg!= block) {
+ if (CNodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); } else { cArg = fnArg ; } }
+ if (NodeUtil.check(block, compiler)
+if (NodeUtil.mayEffectMutableState(cArg,  block)) { if (fnParam.getString
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block.isEmpty(?)
+ cArg = cArg.getNext(); } if (block!= null && block!= ''
+ return CanInlineResult.NO; } if (fnParam.hasString
+if (NodeUtil.mayEffectMutableState(block, fnParam.value, compiler)
+ if (cArg!= block) { if (cArg.isName()
+ if (()
+ if (cArg!= block) { if (block.length > 0
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block.isEmpty(...)
+ if (NodeUtil.call(cArg, compiler)
+ if (block!= null) { if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (BlockUtil.block(cArg, compiler)
+ cArg = cArg.getNext(); } if (block.length > 0
+if (NodeUtil.mayEffectMutableState(block, fnParam.string, compiler)
+ if (NodeUtil.isBlock(compiler)
+ if (block!= null) { if (block!== null
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block.length > 1
+if (NodeUtil.isFunctionObjectCall(block)
+ cArg = cArg.getNext(); } if (cArg!= null) { continue }
+ if ((block!= null)
+ cArg = cArg.getNext(); } if (block!= null && block!= 0
+ return CanInlineResult.NO; } else if (block.length > 0
+ return CanInlineResult.NO; } if (block!= null && block!= 0
+ if (NodeUtil.hasSideEffects(compiler)
+ if (cArg!= block &&!NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); } else if (fnParam.hasString
+ return CanInlineResult; if(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.hasNameReferenceCount(block)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block && block!= null
+ if (NodeUtil.include(block, compiler)
+ return CanInlineResult.NO; } if (block!= null && block!= null
+ return CanInlineResult.NO; } if (cArg.isThis()) {
+ if (block.filter(compiler)
+ if (cArg!= block) { if (cArg!= fnParam
+ if (cArg == block) { return CanInlineResult;
+if (NodeUtil.mayHaveSideEffectsAny(cArg, compiler)
+if (NodeUtil.hasNameReferenceCount(block, fnParam)
+if (NodeUtil.mayEffectMutableState(cArg, block) && block!= null
+ if (block!= null) { if (block!= ""
+ if (NodeUtil.isInline(cArg, compiler)
+ if (block!= null)
+ if (NodeUtil.mayHaveComments(cArg, compiler)
+ if (NodeUtil.canInline(cArg, compiler)
+if (NodeUtil.isFunctionObjectCall(fnParam, block)
+ if (cArg!= block) { if (cArg.isName
+if (NodeUtil.mayEffectMutableState(cArg,  block, fnParam.getString()) > 0
+ if (block.isName(fnParam)
+ cArg = cArg.getNext(); } } if (cArg!= null) { } else
+if (NodeUtil.mayEffectMutableState(block, fnParam, compiler
+ if (block!= null && cBlock.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.isFunctionObjectCall(cArg)
+if (NodeUtil.mayHaveSideEffects(block).contains(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg,  block)) { if (block.length > 1
+ if (block.evaluate(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler) && fnParam!= null
+ if (block.length()
+if (NodeUtil.mayEffectMutableState(cArg, compiler) || fnParam!= null
+if (NodeUtil.mayEffectMutableState(cArg, compiler) && block!= null
+if (NodeUtil.isCall(block)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString()...)
+if (NodeUtil.isNameReferenceCount(fnParam)
+if (NodeUtil.mayEffectMutableState(block, fnParam).getString()
+if  (block!= null || fnParam!= null
+ return CanInlineResult.YES; } } else {
+if (NodeUtil.mayEffectMutableState(block, fnParam.String, compiler)
+ if (fnParam!= block) if(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg,  block)) { if (fnParam.isName
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam.string())
+ return CanInlineResult.NO; } if (block)
+ if (cArg!= block) { } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.getNext(); if (cArg!= null) { } else
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block.getFirstChild())
+ if (block!== NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.string, cArg, compiler)
+ if (canInline(cArg, compiler)
+ if (block!= null) { if (block!= ''
+if (NodeUtil.mayHaveSideEffectsIn(cArg, compiler)
+ if (NodeUtil.isNameReference(cArg, compiler)
+ if (block.isName(block)
+ if (block.isNode()
+ if ((compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block.getString())
+if (NodeUtil.mayEffectMutableState(cArg, block) || block!= null
+ if (Cfg.mayEffectMutableState(cArg, compiler)
+ if (isBlock(compiler)
+ if (cArg.isThis()) { if (block.isEmpty(?)
+if (NodeUtil.isNameReferenceValid(block, fn)
+ return CanInlineResult.NO if (block.mayEffectMutableState(cArg, compiler)
+ if (fnParam!= null) { } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (fnParam.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffectsInline(cArg, compiler)
+if (NodeUtil.mayHaveInlineSideEffects(cArg, compiler)
+ if (NodeUtil.inline(cArg, compiler)
+if  (block!= null && fnParam
+ if (Block!== NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block!= null) { if (block!= "."
+ return CanInlineResult.NO}; if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (NodeUtil.apply(cArg, compiler)
+ if (BlockUtil.isName(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(Block.createBlock(cArg, compiler)
+ cArg = cArg.next();
+if  (block == null || block!= null
+ if (cArg == block) if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (cArg!= block && cArg!= fnParam
+if  (cArg.isThis()
+if (NodeUtil.mayEffectMutableState(cArg, block), fnParam!= null
+ if (block.is(compiler)
+ if (NodeUtil.is(block, compiler)
+ if (block.isNotEmpty()
+if (NodeUtil.mayHaveSideEffects(block) && inline(cArg, compiler)
+ cArg = null; } if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(block).apply(cArg, compiler)
+ CArg = cArg.getNext(); } else
+ return CanInlineResult.YES; } else
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { } if (block!= null
+ if (NodeUtil.isCompiler(compiler)
+if (NodeUtil.mayHaveSideEffects(block).compile(cArg, compiler)
+ if (cArg!= block) { if (block.length > 1
+if (NodeUtil.mayEffectMutableState(cArg, compiler) || block!= null
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block.getString())
+if (NodeUtil.isNameReferenceCount(block, name)
+ if (BlockUtil.mayBeBlock(compiler)
+if (NodeUtil.mayEffectMutableState(Block, fnParam.getString())
+ if (block == null ||!block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.name())
+ if (cArg &&!NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString());
+ if (block.hasChild(block)
+if (NodeUtil.mayEffectMutableState(block, "apply", compiler)
+ if (block.isNode(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) if (fnParam!= null
+ if (NodeUtil.isFunction(compiler)
+ if (NodeUtil.mayHaveComments(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block.getLastChild())
+if  (cArg.isName()
+if (NodeUtil.mayEffectMutableState(cArg, block.getParentNode())
+ if (block.include(compiler)
+ if (NodeUtil.filter(cArg, compiler)
+ if (!mayEffectMutableState(cArg, compiler)
+ if (!(cArg, compiler)
+if  (cArg.isName
+if (NodeUtil.isFunctionCall(block)
+if  (cArg.isName(block)
+if  (block == null || block.length > 0
+if (NodeUtil.mayEffectMutableState(block, fnParam.value)
+if (NodeUtil.mayEffectMutableState(cArg, block.getNext())
+ if (block && block.isName()
+if (NodeUtil.isFunctionObjectCall(block, fn)
+ cArg = cArg.getNext(); } } } else
+ if (NodeUtil.ismayEffectMutableState(cArg, compiler)
+ return CanInlineResult.NONE; } else
+if (NodeUtil.mayHaveSideEffects(cArg, block
+ return CanInlineResult.NONE; }
+ if (isCall(cArg, compiler)
+ if (NodeUtil.useBlock, compiler)
+ if (cArg.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.value, cArg, compiler)
+ if (NodeUtil.mayRmayEffectMutableState(cArg, compiler)
+ if (cArg!= null &&NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block == null) if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if  (block!= null && block.length > 1
+ if (block.isIdentifier()
+if (NodeUtil.mayHaveSideEffects(block).evaluate(cArg, compiler)
+if  (block!= -1
+ ((block, compiler)
+ return CanInlineResult.NO};
+ CArg = cArg.getNext(); }
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, fnParam, block)
+if (NodeUtil.mayHaveSideEffectsIgnore(cArg, compiler)
+ if (filter(block, compiler)
+ if (!(compiler)
+ if (block!= null && Cfg.mayEffectMutableState(cArg, compiler)
+ if (NodeUtil.shouldCall block, compiler)
+if (NodeUtil.isFunction(block)
+ cArg = cArg.next;
+if (NodeUtil.mayEffectMutableState(cArg, block), fnParam.getString
+if  (block!= null && block!= ''
+ if (block.isBlock(compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam, block, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.String, cArg, compiler)
+if  (cArg!= block && block!= null
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString(),)
+ if (isCall(block, compiler)
+if (NodeUtil.isNameReferenceValid(block)
+ if (NamedUtil.mayEffectMutableState(cArg, compiler)
+ if (NodeUtil.isDebug(compiler)
+if  (fnParam!= block
+ return CanInlineResult.NO; } } else { }
+ if (Block is NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveReverseSideEffects(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam).visible
+if (NodeUtil.mayHaveSideEffects(Block.create(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.node, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam).length
+ if (check(block, compiler)
+if  (block!= null && block!= 0
+ if (cModule.mayEffectMutableState(cArg, compiler)
+ cArg = cArg.next; }
+if (NodeUtil.mayHaveSideEffects(block).exec(cArg, compiler)
+ if (BlockUtil.block(compiler)
+ if (NodeUtil.isCompiled(compiler)
+ if (isBlock(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParams, cArg, compiler)
+ if (block.isChanged(compiler)
+ if (block.apply(compiler)
+if (block!= null) { if (BlockUtil.block(cArg, compiler)
+if (FunctionUtil.mayHaveSideEffects(cArg, compiler)
+ return CanInlineResult.YES; }
+ if (cArg.isName(fnParam)
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam).length
+ if (Block.isValid(block, compiler)
+if  (block == null || block!= block
+ if (block!= null && FunctionHelper.mayEffectMutableState(cArg, compiler)
+ if (block.isSameNode(block)
+if  (block!= null) { if (blockName
+if (NodeUtil.mayEffectMutableState(block, fnParam.getNode())
+if (NodeUtil.hasNameReferenceCount(block, block
+ cArg = cArg; }
+if (NodeUtil.isNamePattern(block)
+if  (block!= null && block!= block
+ if (filter(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, param, compiler)
+ CArg = cArg.next(); }
+ if ((block!= null, compiler)
+ if (NodeUtil2.mayEffectMutableState(cArg, compiler)
+ if (block.isSameNode(compiler)
+if (NodeUtil.hasNameReferenceCount(block
+if (NodeUtil.mayEffectMutableState(fnParam, compiler)
+ if (isFunction(block)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)); if (fnParam!= null
+if  (block!= null && block
+ if (blockHasSideEffects(cArg, compiler)
+ if (block!= null && block.length()
+ if (isName(block)
+ if (NodeUtil.debug(compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getString();)
+if (NodeUtil.mayHaveSideEffectsInlining(cArg, compiler)
+ if (Block.isBlock(block, compiler)
+ if (block) {
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (block
+ if (empty(compiler)
+if  (block.length > 1
+ if ((block)
+if (NodeUtil.hasName(block)
+if  (block.isEmpty(...)
+ if (blocks(block)
+ if (block!= null &&(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (NodeUtil.maySmayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(Block, fnParam.getString)
+if  (fnParam.hasString
+ if (block && block.isNotEmpty()
+if  (cArg == block
+if (NodeUtil.mayEffectMutableState(cArg, compiler
+ if ((!compiler)
+if (NodeUtil.mayHaveSideEffects(block),(cArg, compiler)
+ if (block.length(()
+if (NodeUtil.mayHaveSideEffectsIgnored(cArg, compiler)
+ cArg = null; if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (block!= null) { if (block.contains(cArg, compiler)
+if (NodeUtil.hasNameReferenceCount(block,)
+if (NodeUtil.mayEffectMutableState(cArg, block), fnParam.getString()
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, true)
+ if (isFunction(block, compiler)
+ if (shouldSkip(cArg, compiler)
+ if (include(block, compiler)
+ if (isBlock(block, compiler)
+if (NodeUtil.mayEffectMutableState(block, 0, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler) && block!= -1
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, 0)
+ if (false == NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParamName, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, 'apply', compiler)
+ if (cArg!= block &&(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (block!=)
+if (NodeUtil.mayEffectMutableState(block, fnParam.name, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getName)
+ if (blockIncluded(block, compiler)
+ if (NodeUtil.isName, compiler)
+if (NodeUtil.hasNameReferenceCount
+ if (cArg!= block && Cfg.mayEffectMutableState(cArg, compiler)
+ if (block == null || (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, block, "apply")
+if (NodeUtil.mayEffectMutableState(block, fnParam.string)
+ if (NodeUtil.include block, compiler)
+ if (block.isCompatible(compiler)
+ if (block.isCompiled(compiler)
+ if (!(block)
+if (NodeUtil.mayEffectMutableState(block, "apply", cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) if (block!= -1
+ if (block!= null && (block!= compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getNode)
+if (NodeUtil.mayEffectMutableState(block, fnParam.getParent)
+ if (block && block.isName(block)
+if (NodeUtil.mayEffectMutableState(block, fnParamNode, cArg, compiler)
+ if (cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, fnParam, false)
+if (NodeUtil.mayEffectMutableState(cArg, block, fnParam).visible
+ if (isCall(fnParam, compiler)
+ if (cArg!= block && Caster.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects
+ return CanInlineResult if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (isBlock(fnParam, compiler)
+ if (block!= null && NodeHelper.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mustHaveSideEffects(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParamString, cArg, compiler)
+ if (is(block, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, fnParam, true)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, false)
+ if (canInlineFunction(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, "apply")
+if (NodeUtil.mayEffectMutableState(cArg, block), compiler)
+ if (isFunction(cArg, compiler)
+ if (Compiler.mayEffectMutableState(cArg, compiler)
+ if (!cArg, compiler)
+ if (isDebug(compiler)
+ if (FunctionHelper.mayEffectMutableState(cArg, compiler)
+ cArg = block; if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ ((block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayHaveSideEffects(block,(cArg, compiler)
+if (NodeUtil.mayHaveSideEffectsInlineFunction(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (blockName
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block.getParent())
+ if(.mayEffectMutableState(cArg, compiler)
+ } if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (canInlineCall(cArg, compiler)
+ return NO; } if (NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (check(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(Block, fnParam, compiler)
+ if (apply(cArg, compiler)
+ if (block (!)
+ if (debug(compiler)
+if (NodeUtil.mayEffectMutableState(block, arg, compiler)
+ (block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.isNameReferenceCount()
+ if (isFunction(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, fnParam.getString)
+ if (blockInlineFunction(cArg, compiler)
+ if (blockInline(cArg, compiler)
+ if (shouldInline(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler), block!= null
+if (NodeUtil.mayEffectMutableState(fnParam, block, cArg, compiler)
+ if (isName(cArg, compiler)
+ if (block) if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (inline(cArg, compiler)
+ if (isCallNode(cArg, compiler)
+ if (!block)
+ if (Utils.mayEffectMutableState(cArg, compiler)
+ if (filter(compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, fnParam)
+if (NodeUtil.isNameReferenceCount
+if (NodeUtil.mayEffectMutableState(cArg, compiler), block)
+ if (mayBeInlined(cArg, compiler)
+ if ((block && fnParam, compiler)
+ if (blockNode(compiler)
+ if (enabled(compiler)
+ return CanInlineResult;
+ if (blocks()
+if (NodeUtil.mayEffectMutableState(cArg, block.getFirstChild(),)
+if (NodeUtil.mayEffectMutableState(fnParam, block
+ if (mayHaveEffects(cArg, compiler)
+ if (cArg!= null && FunctionHelper.mayEffectMutableState(cArg, compiler)
+ if (blockInlined(cArg, compiler)
+if (NodeUtil.isBlock(block
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block.getNext())
+ if (block &&!(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, true, compiler)
+ } else if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (isFunctionCall(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) { if (blockEmpty
+ if (!apply(cArg, compiler)
+ if (block()
+if (NodeUtil.mayEffectMutableState(cArg, block, true)
+if (NodeUtil.mayEffectMutableState(cArg, compiler) &&!block
+ var block = cArg;
+if (NodeUtil.mayEffectMutableState(cArg, block) == false
+ continue; } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (cArg!= null && NodeHelper.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, false, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, true, cArg, compiler)
+ } else { if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block, fnParamString)
+if (NodeUtil.mayEffectMutableState(block, cArgName)
+if (NodeUtil.mayEffectMutableState(block, node, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam.getParent)
+if (NodeUtil.mayEffectMutableState(block, cArgNode, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler), block
+if (NodeUtil.mayEffectMutableState(block, cArgNode)
+ while (()
+ while (NodeUtil.mayEffectMutableState(cArg, compiler)
+ ((Block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, fnNode)
+if (MayHaveSideEffects(cArg, compiler)
+if (NodeUtil.hasNameReference
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, block)
+if (NodeUtil.mayEffectMutableState(block, null, cArg, compiler)
+ if (block && (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(nArg, block)
+if (NodeUtil.mayEffectMutableState(nArg)
+if (NodeUtil.mayEffectMutableState(block, cArgString)
+if (NodeUtil.mayEffectMutableState(block, block)
+ if (BlockUtil.util.mayEffectMutableState(cArg, compiler)
+ if (!block) if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (_block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler), block == null
+ if ((NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.useBlock
+ if (!block) {
+if (NodeUtil.mayEffectMutableState(cArg, compiler)) if (block!= null)
+if (NodeUtil.mayEffectMutableState(block, cArgName, compiler)
+if  (!block!= null
+ (cArg, compiler)
+ (block, compiler)
+if (NodeUtil.isNameReference()
+ continue } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler) == false
+if (NodeUtil.mayEffectMutableState(block, false, compiler)
+if  ((block!= null
+if  (blockName
+ if (!.mayEffectMutableState(cArg, compiler)
+ if ((block!= "compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam.string)
+if (NodeUtil.mayEffectMutableState(block, params, compiler)
+ while (block)
+if (NodeUtil.mayEffectMutableState(cArg, block.getParent)
+ if (evaluate(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block
+if (NodeUtil.isName
+ if (block)
+if (NodeUtil.useNameReferences
+if (NodeUtil.isBlock
+ if ((block=compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block.getString)
+if (NodeUtil.hasNameReferences
+ if (if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler) == true
+if (NodeUtil.mayEffectMutableState(cArg, compiler, block, 1)
+if (NodeUtil.useNames()
+ if (!compiler)
+ (Block.mayEffectMutableState(cArg, compiler)
+ var compiler = this;
+if (NodeUtil.isBlock()
+if (NodeUtil.hasChildren
+if  (!cArg
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnParam.value)
+if (NodeUtil.mayEffectMutableState(block, fnNode, cArg, compiler)
+if  (cBlock
+if (NodeUtil.mayEffectMutableState(fnArg)
+if (NodeUtil.mayEffectMutableState(cArg, fnBlock)
+if (NodeUtil.useCount
+if  (_block!= null
+if (NodeUtil.mayEffectMutableState(Block, fnParam, cArg, compiler)
+ return CanNo; }
+ { if (NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, fnMode)
+if (NodeUtil.mayEffectMutableState(cArg, compiler)!= null
+ if (!block.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg), block
+ if(!(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cParam)
+ if ()
+ continue; }
+ if (!block)
+ if ($(cArg, compiler)
+ while ()
+ if ((, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnNode)
+if (NodeUtil.mayEffectMutableState(cArg, fnParam))
+if (NodeUtil.mayEffectMutableState(block, fnName, cArg, compiler)
+ continue; } else
+ (block)
+ } } if(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil!= block
+if  (!block
+if (NodeUtil.mayEffectMutableState(cArg, block, false)
+if (NodeUtil.DEBUG
+if (NodeUtil!= compiler
+if (block == null
+if (NodeUtil.mayEffectMutableStateBlock()
+ } else {
+ if (block ||(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, node)
+if (blocks!= null
+ if (null!=(NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(block))
+if (NodeUtil.mayEffectMutableState(block, node)
+ } else
+if (NodeUtil.mayEffectMutableState(cArg, )
+if (blockTag
+ if (((cArg, compiler)
+if (NodeUtil.mayEffectMutableState(nArg, compiler)
+if (NodeUtil.mayEffectMutableState(Block, compiler)
+if (NodeUtil.mayEffectMutableState(fnNode, cArg, compiler)
+if (blockNode
+if (NodeUtil.mayEffectMutableState(cArg, block))
+if (Block!= null
+ } } else
+if (NodeUtil.block
+if (NodeUtil.mayEffectMutableState block)
+ continue }
+if (NodeUtil.mayEffectMutableState() block
+if (NodeUtil.mayEffectMutableState({block})
+ continue;
+if (NodeUtil.mayEffectMutableState(fnArg, compiler)
+ try {
+ else if(NodeUtil.mayEffectMutableState(cArg, compiler)
+ if (, compiler)
+if (NodeUtil.mayEffectMutableState(CArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnArg)
+ if (_mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, fnBlock)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, functionName)
+if (NodeUtil.mayEffectMutableState(cArg, fnArg)
+ } }
+ continue } else
+if (NodeUtil.mayEffectMutableState(nBlock, cArg, compiler)
+if  ($block
+if  ((block
+ if ((mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(fnBlock, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, )
+ }
+ if (_NodeUtil.mayEffectMutableState(cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler); }
+if (NodeUtil.mayEffectMutableState(cArg, compiler) *
+if (NodeUtil.mayEffectMutableState(node)
+if (NodeUtil.mayEffectMutableState(block);
+ else
+ {
+if (NodeUtil.mayEffectMutableState(Block, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, blocks)
+if (NodeUtil.mayEffectMutableState(arg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, true)
+if (NodeUtil.mayEffectMutableState(blocks, cArg, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, compiler, false)
+if (NodeUtil.mayEffectMutableState(blocks)
+if (NodeUtil.mayEffectMutableState(node, compiler)
+if (NodeUtil.mayEffectMutableState(cArg, blocks)
+if (NodeUtil.mayEffectMutableState(Block)
+if (NodeUtil.mayEffectMutableState(blocks, compiler)
+if (NodeUtil.mayEffectMutableState(self, cArg, compiler)

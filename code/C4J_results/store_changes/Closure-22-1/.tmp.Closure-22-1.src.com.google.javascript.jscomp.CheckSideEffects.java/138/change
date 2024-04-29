@@ -1,0 +1,367 @@
+String msg = "This code lacks side-effects. Is there a bug?";
+ String msg;
+String  msg = "" ;
+ msg ="This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (isResultUsed) {
+String  msg = n. getMessage ( ) ;
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isNumber()) {
+ else { return ; } }
+ else { return ; }
+String  msg = "Unknown result." ;
+ if (isResultUsed) { msg= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (debug) {
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n!= null) {
+String msg = "This code lacks side-effects. Is there a bug?" ; if (isResultUsed)
+String  msg = "Unknown" ;
+ if (isResultUsed) { String msg= "This code lacks side-effects. Is there a bug?";
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n))) {
+ else { return ; } } }
+ }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n)) { return; }
+String  msg = null ;
+ else if (isResultUsed) { msg= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isFunction() ) {
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isExpression()) {
+String  msg = "Unknown result";
+String  msg = n. getString ( ) ;
+ else if (isResultUsed) { String msg= "This code lacks side-effects. Is there a bug?";
+String  msg = n. getSimpleMessage ( ) ;
+ else if (n.isBoolean()) { return; }
+ if (isResultUsed) {
+String msg = "This code lacks side-effects. Is there a bug?" ; if (isResultUsed) { } else
+ else { return; } String msg= "This code lacks side-effects. Is there a bug?";
+ } if ( isResultUsed ) { t. report ( n, level ) ; }
+ if (! isResultUsed ) { return ; } } } }
+ } else { return ; } } }
+String  msg = "Unknown result type." ;
+String  msg = n. getText ( ) ;
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.isStatement(n))) {
+String  msg = n. toString ( ) ;
+ else { return; } } String msg= "This code lacks side-effects. Is there a bug?";
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { return ; } } }
+String  msg = "Invalid result." ;
+ else { return ; } } } }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n, t))) {
+String  msg = n. getErrorMessage ( ) ;
+ else if (n.isBlock()) { return; } } else
+ if (! isResultUsed ) { return ; } } } } }
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } }
+ else if (n.isFunction()) { return; } } else
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isFunction() ||
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; }
+ else if (n.isBlock()) { return; } }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n)) {
+ else if (isSimpleOp) { String msg= "This code lacks side-effects. Is there a bug?";
+ } else if (n.isNumber()) { return; } } else
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n, t)) { final
+String msg = "This code lacks side-effects. Is there a bug?" ; if (!isResultUsed)
+ } else if (isResultUsed) { msg = "The result is being used." ; }
+ } else if (isResultUsed && n. isExprResult ( ) ) { throw new IllegalArgumentException ( ) ; }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n)) { final
+ } else if (isResultUsed && n. isExprResult()) { return; } else { return ; }
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } } }
+String  msg = n. getSimpleDescription ( ) ;
+String  msg = n. getString ( level ) ;
+ } else { n = parent. getNext ( ) ;
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n))) { final
+ else if (n.isBlock()) { return; } else
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } }
+ if (! isResultUsed ) { return ; } } } else {
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } else {
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects()) { final
+ else if (n.isBlock()) { return; } } }
+ else if (n.isFunction()) { return; } else
+ } else if (n.isFunction()) { return; } else
+ if (n.isNumber()) { return; } } else
+ } else { n = parent ; } } }
+String msg = "This code lacks side-effects. Is there a bug?" + n. getType ( ) ;
+ } else if (n.isFunction()) { return; } } else
+ } else { return ; } } } }
+ else if (n.isFunction()) { return; } } }
+ } if ( isResultUsed ) { n. setResult ( result ) ;
+String msg = "This code lacks side-effects. Is there a bug?" ; if (isResultUsed) { else
+ if (n.isNumber()) { msg = "." ; }
+ } else if (isResultUsed) { msg = "The result of the expression result." ; }
+ else if (n.isFunction()) { return; } }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n)))) {
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { return ; } else {
+ } else if (isResultUsed && n. isExprResult ( ) ) { throw new IllegalArgumentException ( n ) }
+ if (n.isNumber()) { return; } else
+ } else { return ; }
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } } else {
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n, t))) { final
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isNumber() { else
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { return ; } } final
+ } else { return ; } String msg= "This code lacks side-effects. Is there a bug?";
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } else {
+ } else { return ; } }
+ } if ( isResultUsed ) {
+ else if (n.isFunction()) { return; } } } else
+ if (n.isFunction() ) { msg= "This code lacks side-effects. Is there a bug?";
+String  msg = "No result." ;
+ } else if (isResultUsed) { msg = "The result is not being used.";
+String msg = "This code lacks side-effects. Is there a bug?" ; } else
+ } else if (isResultUsed) { String msg = "The result is being used." ;
+ else if (n.isBlock()) { return; } } } else
+ } else if (isResultUsed &&! isSimpleOp ) { return ; } } else {
+ } if ( isResultUsed ) { return ; } } }
+ else if (n.isBlock()) { return; } } } }
+ else if (n.isFunction()) { return; } } } }
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } final
+ else if (n.isBlock() ) { return; }
+ } else if (isResultUsed &&! isSimpleOp && n. isString ( ) ) {
+String  msg = "No result found." ;
+ } else if (isResultUsed && n. isExprResult ( level ) ) {
+ } else if (isResultUsed && n. isExprResult()) { return; } else { return ; } } }
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } } } }
+ else if (n.isFunction()) { return; } } } else {
+ } if ( isResultUsed ) { n. setResult ( result ) ; } }
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { return }
+ } else if (n.isFunction()) { return; } else { return ; } } }
+ else if (n.isFunction()) { return;
+ else { return ; } } } } }
+ else if (n.isFunction()) { return; } else { } }
+ } else if (isResultUsed && n. isExprResult ( ) ) { throw new IllegalArgumentException ( n ) ;
+ } else if (isResultUsed &&! isSimpleOp ) { return ; } } } }
+ else if (n.isBlock() { return; }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects()) { return;
+ } else if (isResultUsed && n. isExprResult ( ) ) { return }
+ else { return ; } } } else {
+ if (! isResultUsed ) { return ; } } } } else {
+ } else { return ; } } } else {
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects(n)) { {
+String msg =  n. getFullDescriptor ( ) ;
+ } else if (isResultUsed) { msg = "The result of the expression." ; }
+ } else { return ; } } else {
+ if (n.isNumber()) { String msg;
+ } else if (isResultUsed && n.isExpressionResult()) { } else
+ } else if (n.isFunction()) { return; } else { return ; } } } }
+ } else if (isResultUsed && n.isExprResult()) { } else
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects)) { final
+ } else if (isResultUsed) { msg = "The result of the expression is used.";
+ } else if (isResultUsed) { msg = "The result is being used." ;
+ } if ( isResultUsed ) { return ; } } } }
+ } else if (isResultUsed) { String msg = "Result not being used." ;
+ else if (n.isFunction()) { return; } } } } }
+String  msg = "Unknown." ;
+ if (! isResultUsed ) { return ; } } } } } }
+ } else if (isResultUsed &&! isSimpleOp ) { return ; } } }
+ } else if (isResultUsed) { String msg = "Result used." ;
+ else if (n.isBlock(n)) {
+ } else if (isResultUsed && n.isExpressionResult()) {
+ } else if (isResultUsed && n. isExprResult ( ) ) { return ; } } } ;
+ } } else {
+String  msg = "Invalid result";
+ } else if (n.isFunction()) { return; } else { return ; } } else {
+ else if (n.isBlock() ) { return; }
+ } else if (isResultUsed) { msg = "The result is already used." ;
+ else if (n.isBlock()) { return; } } } } }
+ } else if (isResultUsed && (isSimpleOp ||!NodeUtil.mayHaveSideEffects()) { {
+ } else if (isResultUsed) { String msg = "An expression result was used." ; else
+ } else if (n.isFunction(n)) {
+String  msg = "Unknown error." ;
+String msg =  n. getFirstChild ( ). value ;
+ else if (n.isNumber()) { return;
+ } else if (isResultUsed && n. isExprResult ( ) ) { final
+ } else if (isResultUsed && n. isExprResult ( ) ) { throw new RuntimeException ( "Error" ) }
+ } if ( isResultUsed && n. isExprResult ( level ) ) {
+ } else if (isResultUsed && (isSimpleOp || n.isString()) {
+ else if (n.isFunction(n)) {
+ } else if (n.isFunction()) { return; } } } }
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { final
+ } else if (isResultUsed) { msg = "Result used." ;
+ } else { return ; } } } } }
+ else if (n.isFunction() ) { return; }
+ } else if (isResultUsed &&! isSimpleOp ) { return ; } } } } }
+ if (! isResultUsed ) { return ; } } } } ;
+String  msg = "." ;
+ } if ( hasSideEffects ) {
+ } String msg ="This code lacks side-effects. Is there a bug?";
+String  msg = "Unknown result type" ;
+ else if (n.isBlock() { return; }
+ if (isResultUsed) msg= "This code lacks side-effects. Is there a bug?";
+ } else if (isResultUsed && n.isExpressionResult()) { else
+String msg =  n. getFirstChild ( ). message ;
+ } else if (n.isFunction()) { return; } else { return ; } } final
+ else if (n.isFunction()) { msg = "Invalid function." ; }
+ } if ( isResultUsed && n. isExprResult ( ) ) { final
+ } else if (isResultUsed) { String msg = "Unknown result." ;
+ } else if (n.isFunction()) { var msg = " " ;
+ } else { return ; } } String msg= "This code lacks side-effects. Is there a bug?";
+ } if ( isResultUsed ) { n. setResult ( result ) ; } final
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n.isNumber()) else
+ } else if (isResultUsed && n. isExpressionResult ( ) ) { return ;
+ else { } }
+ else if (n.isBlock() ) { } else
+ if (isResultUsed) { var msg= "This code lacks side-effects. Is there a bug?";
+ else if (n.isFunction() { return; }
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n) {
+ } } } else {
+ } else { throw new IllegalArgumentException(""This code lacks side-effects. Is there a bug?";
+ else if (n.isBlock())) {
+String msg  = "The result of the expression result." ;
+ } else if (n.isFunction())) {
+ } else { String msg = "Unknown result type." ;
+String msg = "This code lacks side-effects. Is there a bug?" ; if (debug)
+String  msg = n. getString ( ) ; else
+ } else if (n.isBlock())) {
+ if (n.isNumber()) { msg = "Invalid result.";
+ else { String msg = "Unknown result type.";
+ else if (n.isBoolean() { return;
+ } else { String msg = "Unknown operator.";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (DEBUG) {
+ if (isResultUsed)
+String msg =  "There is no result for this node." ;
+ } else { n = parent ; } } final
+ } }
+ } else if (n.isFunction()) {
+ } else { String msg = "";
+ else if (n.isBoolean() { return;}
+ else if (isResultUsed) { var msg= "This code lacks side-effects. Is there a bug?";
+ } else { String msg ="This code lacks side-effects. Is there a bug?";
+ } } else { String msg ="This code lacks side-effects. Is there a bug?";
+String msg =  "There is no result for this expression." ;
+ else { return; } } } String msg= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (n!= parent) {
+ } } }
+String msg = "This code lacks side-effects. Is there a bug?" + n ; else
+ } else { final String msg = "";
+ else { return ; } } final
+ } else { throw new IllegalArgumentException("This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (!debug)
+ else { String msg = "";
+ final String msg ="This code lacks side-effects. Is there a bug?";
+ else if (n!= null) { return;
+ } } } }
+ else { String msg = "Unknown result.";
+ if (n.isNumber()) { return;
+ } else { String msg = "Unknown ";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (!isError)
+String msg = "This code lacks side-effects. Is there a bug?" ; else
+ else if (n.isFunction() ) {msg = "This code lacks side-effects. Is there a bug?";
+String  msg = '' ;
+String msg = "This code lacks side-effects. Is there a bug?" ; level = 1 ;
+String msg  = n. getFullMessage ( ) ; else
+ else { final String msg = "";
+ } } } else { String msg ="This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (noCase) {
+ } } String msg ="This code lacks side-effects. Is there a bug?";
+ } else { String msg = " "+"This code lacks side-effects. Is there a bug?";
+ } else { String msg = "?";
+ } else { String msg = u"This code lacks side-effects. Is there a bug?";
+ else { String msg = "Unknown ";
+String msg  = n. getFullName ( ) ; else
+ } else { throw new IllegalArgumentException()"This code lacks side-effects. Is there a bug?";
+ } else { String msg = "\\"This code lacks side-effects. Is there a bug?";
+ } } else { String msg = u"This code lacks side-effects. Is there a bug?";
+ else { String msg ="This code lacks side-effects. Is there a bug?";
+ } } } } }
+ } } else { String msg = "\\"This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" + n.getType()); else
+String msg = "This code lacks side-effects. Is there a bug?" + level ; else
+String msg  = n. getFullMessage ( ) ; }
+ } } else { String msg = f"This code lacks side-effects. Is there a bug?";
+ final String msg = "";
+ } else { String msg = ( String ) u"This code lacks side-effects. Is there a bug?";
+ } final String msg ="This code lacks side-effects. Is there a bug?";
+ } final String msg = "";
+ } else { String msg = f"This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; level = 0 ;
+ else { String msg = "?";
+ } else if (isResultUsed) { Stringmsg = "This code lacks side-effects. Is there a bug?";
+ } else { String msg = "(String)U"This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; if (!isResultUsed
+ } } } String msg ="This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" + n.getType(); else
+ } String msg;
+ } } } } } }
+ } else { String msg = null;
+ } } } } String msg= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; } } else
+ } else { final String msg= "This code lacks side-effects. Is there a bug?";
+ } else {
+ } } } } } String msg= "This code lacks side-effects. Is there a bug?";
+ } } else { final String msg= "This code lacks side-effects. Is there a bug?";
+ } } } else { msg ="This code lacks side-effects. Is there a bug?";
+ } } else { msg ="This code lacks side-effects. Is there a bug?";
+ } String msg = "";
+ } else { return ; } } } Stringmsg = "This code lacks side-effects. Is there a bug?";
+ final String msg;
+ else { String msg = u"This code lacks side-effects. Is there a bug?";
+ } else { return ; } } else { Stringmsg = "This code lacks side-effects. Is there a bug?";
+ else { String msg = null;
+ else { return ; } } else { Stringmsg = "This code lacks side-effects. Is there a bug?";
+ return ; } }
+ else { } } String msg= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; level ++ ; }
+ } else { final String msg;
+ else { return; } } } else { Stringmsg = "This code lacks side-effects. Is there a bug?";
+ else { final String msg;
+ } else { String msg;
+ } else { return ; } } } } Stringmsg = "This code lacks side-effects. Is there a bug?";
+ else { return ; } } } } Stringmsg = "This code lacks side-effects. Is there a bug?";
+ } else { String msg *= "This code lacks side-effects. Is there a bug?";
+ String msg = u"This code lacks side-effects. Is there a bug?";
+ } String msg = u"This code lacks side-effects. Is there a bug?";
+ if (isResultUsed).msg = "This code lacks side-effects. Is there a bug?";
+ } } final String msg= "This code lacks side-effects. Is there a bug?";
+ } String msg = f"This code lacks side-effects. Is there a bug?";
+ else { final String msg= "This code lacks side-effects. Is there a bug?";
+ else { String msg = '';
+ } } else { return ; } } Stringmsg = "This code lacks side-effects. Is there a bug?";
+ final String msg = null;
+ var msg ="This code lacks side-effects. Is there a bug?";
+String  msg = "" ; else
+ String msg = f"This code lacks side-effects. Is there a bug?";
+ } } else { final
+String msg = "This code lacks side-effects. Is there a bug?" ; try { else
+ } else { final
+ } String msg *= "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" + n ;
+String msg = "This code lacks side-effects. Is there a bug?" + level ;
+ if (isResultUsed))msg = "This code lacks side-effects. Is there a bug?";
+ else { return; } } #msg = "This code lacks side-effects. Is there a bug?";
+String  msg = "" ; }
+ } final String msg;
+ } } String msg *= "This code lacks side-effects. Is there a bug?";
+ ErrorMessage msg;
+ } String msg += "This code lacks side-effects. Is there a bug?";
+ final StringBuilder msg;
+ } } final
+ return ; }
+ final final String msg;
+ let msg ="This code lacks side-effects. Is there a bug?";
+ String msg *= "This code lacks side-effects. Is there a bug?";
+ String msg |= "This code lacks side-effects. Is there a bug?";
+ ErrorString msg;
+ String msg.= "This code lacks side-effects. Is there a bug?";
+ } final
+ ErrorMsg msg;
+ } else { String _msg = "This code lacks side-effects. Is there a bug?";
+String msg = "This code lacks side-effects. Is there a bug?" ; { else
+ var msg;
+ } else { #msg = "This code lacks side-effects. Is there a bug?";
+ else {
+ int msg;
+ boolean msg;
+String  msg ; else
+String  msg ; }
+String msg = "This code lacks side-effects. Is there a bug?" ; }
+ message ="This code lacks side-effects. Is there a bug?";
+String  msg();
+String  msg:
+ else {msg = "This code lacks side-effects. Is there a bug?";
+ msg +="This code lacks side-effects. Is there a bug?";
+ msg=("This code lacks side-effects. Is there a bug?";
+ final
+String  msg); {
+ } #msg = "This code lacks side-effects. Is there a bug?";
+ String _msg = "This code lacks side-effects. Is there a bug?";
+String Msg;
+ };
+ String str;
+ StringMsg= "This code lacks side-effects. Is there a bug?";
+ String m= "This code lacks side-effects. Is there a bug?";
+String msg ; "This code lacks side-effects. Is there a bug?";
+String msg := "This code lacks side-effects. Is there a bug?";
+String msg += "This code lacks side-effects. Is there a bug?";

@@ -1,0 +1,657 @@
+ n.getString());
+ return n.getString());
+return getStringNumberValue(n);
+return getStringNumberValue(n.getString(n));
+return getStringNumberValue(n.getString());
+return getStringNumberValue(n); break;
+ switch (token);
+ String value = getStringValue(n));
+ String value = n.getString());
+ String value = n.getFirstChild());
+ String value = getStringValue(n);
+return getStringNumberValue(n.getFirstChild()); break;
+return getStringNumberValue(n.getSecondChild()); break;
+return  getStringValue(n);
+return getStringNumberValue(n.getString())? getStringNumberValue(n): null;
+ String = n.getString());
+return getStringNumberValue(n.value);
+ return getStringNumberValue(n));
+return getStringNumberValue(n.getSecondChild());
+ if (n.getString()!= null) {
+ String value = getStringValue(n.get());
+ String value = getStringNumberValue(n);
+ String value = getString(n));
+ String value = getStringValue(n.getString());
+return getStringNumberValue(n.getString()); break;
+return getStringNumberValue(n.getString())? 0.0 : 1.0;
+ String value = getStringNumberValue(n));
+ string = n.getString());
+ string = getStringValue(n);
+return  n.getString();
+ String value = getString(n);
+return getStringNumberValue(n.getFirstChild());
+ String string = getStringValue(n);
+return  getStringValue(n); break;
+ case Token.OBJECTLIT: case Token.ARRAY:
+ return getString(n));
+ if (n!= null) {
+ String value = ScriptRuntime.getStringNumberValue(n.getString());
+ if (n.getString()!= null)
+ String value = getString(n.getString());
+ String string = n.getString());
+ case Token.OBJECTLIT: String value = getString(n);
+ String s = n.getString());
+ return getStringNumberValue(n.getString));
+ return getStringValue(n));
+ String string = getStringValue(n));
+ return getStringNumberValue(rawJsString));
+return  rawJsString;
+ return getStringNumberValue(rawJsString);
+ string = getStringValue(n));
+ if (n.getString()!= null) { return getStringNumberValue(n); }
+ if (n.getString()!= null && n.getString().length() > 0)
+ if (n.getString() == Token.STRING)
+ String value = getString(n.get());
+ if (n.isString(n)) { return Double.NaN; }
+ return getString(n);
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } else {
+ if (n.getType() == Token.STRINGLIT:
+ String value = getStringValue(n, false);
+ String value = getStringValue(rawJsString);
+ case Token.STRING: if (n.getString()!= null) { return 0.0; }
+ String value = getStringValue(n.next());
+ switch (n.getType() { case Token.STRING: if (n!= null) {
+ String value = getStringValue(n, 0));
+ if (n.getString()!= null && n.getString()!= "")
+ String value = getStringValue(n, 0);
+ if (n.isString(n)) { if (n!= null) {
+ return getStringNumberValue(n.nextChild));
+ String value = getStringValue(n, false));
+ if (n.getString()!= null) { return Double.NaN; }
+ if (n.getString()!= null && n.getString()!= "") {
+ string = n.getFirstChild());
+ if (n.getType() == Token.STRING) {
+ String value = getStringNumberValue(n.getString());
+ case Token.STRING: if (n.getString()!= null && n.getString()!= "") {
+ case Token.OBJECTLIT: String value = getStringValue();
+ if (n.isString() && n.getString()!= null) {
+ String value = getStringValue(n, true);
+ case Token.STRING: if (n.getString()!= null) { return n.getString() ; }
+ String value = getString(n.next());
+ String string = n.getFirstChild());
+ String value = getStringStringValue(n);
+ if (n.getString()!= "null") {
+ if (n.getString()!= null && n.getString().equals("") {
+ String string = getStringLit(n);
+ string = n.getStringValue());
+ case Token.OBJECTLIT: String value = n;
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } if (n!= null) {
+ if (n.isString(n)) { return n.getString(n); }
+ case Token.OBJECTLIT: if (n!= null)
+ if (n.getString()!= null) { return 0.0; }
+ if (n.getString()!= null) return null;
+ case Token.STRING: if (n.getString()!= null && n.getString().length > 0)
+ if (n.getString()!= null) { String value = getStringValue(n); }
+ if (n.getType() == Token.STRING)
+ String value = n.getSecondChild());
+ String value = n.value());
+ case Token.OBJECTLIT: return null;
+ String value = n.getStringValue());
+ if (n.getString()!= null && n.getString() {
+ if (n.getString()!= null && n.getString()!= "null") {
+ if (n.getString() == null) { return 0.0 }
+ String value = getStringValue(n, true));
+ if (n.getString()!= null) { return n.getString() ; }
+ if (n.getString()!= null) { String value = getStringValue(n) ;
+ case Token.STRING: if (n.isString() && n.getString()!= null) {
+return  null;
+ if (n.isString(n)) { if (n.getString()) {
+ if (n.getString()!= null && n.getString()!= '')
+ String string = getString(n);
+ if (n.isString(n)) { return n.getString() ; }
+ String(n.getString());
+ if (n.getString()!= null && n.getString().length() == 0)
+ if (n.getString()!= null && n.getString()!= '') {
+ return getStringNumberValue(n;
+ switch (n.getType() { case Token.STRING:
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } else if (n!= null)
+ if (n.getString()!= null) { return 0.0;
+ return getStringValue(n.getString());
+ if (n.getType() == Token.STRING:
+ if (n.getString()!= "undefined") {
+ case Token.STRINGLIT: break;
+ case Token.STRINGLIT: String value;
+ case Token.STRING: return getStringValue(n.getString());
+ return (String(n));
+ case Token.STRING: if (n.getString()!= null && n.getString()) {
+ case Token.STRING: if (n.getString()!= null && n.getString()++) {
+ string = getString(n);
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } break; default:
+return getStringNumberValue(n.getFirstChild().getString()); break;
+ return stringNumberValue(n));
+ case Token.STRING: return String.getStringNumberValue(n.getString());
+ if (n.getString()!= null) { return 0.0 }
+ case Token.OBJECTLIT:
+ if (n.getString()!= null) { return getStringNumberValue(n); } else
+ case Token.STRING: if (n.getString()!= null) { return 0.0;
+ if (n.getString()!= null && n.getString().equals("String")) {
+ String value = getStringValue(n, n.getString());
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } if (n == null) {
+ string value = getStringValue(n.get());
+ case Token.OBJECTLIT: case Token.NULL:
+ if (n.getString()!= null && n.getString().equals("string")) {
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } else if (n) {
+ case Token.OBJECTLIT: if (n.getString()!= null) { return 0.0 }
+ case Token.STRING: if (n.getString()!= null) { return 0.0 }
+ if (n.isString() && n.isNumber() ) {
+ string = getString(n.get());
+return getStringNumberValue(n.getString())? 1.0 : 0.0;
+ if (n.getType() == Token.STRING):
+ if (n.getString()!= null && n.getString()) {
+ String String = getStringValue(n);
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } break; default:
+ if (n == null) { return null;
+ if (n instanceof String) {
+ String value = getString(n.getChild());
+ return getStringNumberValue(n.getString);
+ if (n.getString()!= null && n!= null) {
+ if (n.getString()!= null) { String(n);
+ String stringValue = n.getString());
+ if (n!= null)
+ case Token.OBJECTSTRING: String value;
+ if (n.isString(n)) {
+ if (n.getString().equals("") {
+ String string = getString(n));
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } else if (n == null)
+ return ScriptRuntime.getStringNumberValue(n.getString());
+ case Token.OBJECTLIT: if (n.getString()!= null && n.getString() {
+ return String.valueOf(n));
+ case Token.STRING: if (n.getString()!= null) { return n.getString() }
+ case Token.STRINGLIT: case Token.INTLIT:
+ case Token.OBJECTLIT: if (n.getString()!= null) { return 0.0;
+ if (n.getType() == Token.STRINGLIT)
+ if (n.getType() == Token.STRINGLIT):
+ if (n!= null) { return String.getStringNumberValue(n.getString());
+ case Token.OBJECTLIT: String value = (String)
+ case Token.OBJECTLIT: String value = (string)
+ case Token.OBJECTLIT: return n;
+ case Token.OBJECTSTRING: String.getStringNumberValue(n.getString());
+ return n;
+ String string = getStringValue(n.getString());
+ return String.format(n));
+ string = getStringValue(n, false));
+ if (n.getString()!= "undefined")) {
+ case Token.OBJECTLIT: case Token.MAP:
+ case Token.OBJECTLIT: String value = getString() ;
+return  getStringNumberValue(n) + 1;
+ string = getStringValue(n, false);
+return  getStringNumber(n);
+ case Token.LIT:
+ String value = getString(n.child());
+ case Token.STRING: if (n.getString()!= null) { return n.getString(); } else
+ String value = getString(n, 0));
+ String string = getString(n.get());
+ String value = getStringValue(n..getString());
+ switch (n.getType() ) {
+ String value = StringUtils.getStringNumberValue(n.getString());
+ case Token.STRINGLIT: return null;
+ String value = get(n.getString());
+ if (n.isString() {
+ if (n.isString() ) {
+ if (n.getType() == Token.STR)
+ if (n.getString()!= 'null') {
+ if (n.getString().length > 0)
+ if (n.getType() == Token.STR):
+ String value = n.string());
+ if (n.isString(true)) {
+ string = getStringValue(n, true));
+ string = getString(n.getString());
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } default: {
+ if (n!= null) { return n.getString());
+ return n.getStringValue());
+ if (n!= null) return String.getStringNumberValue(n.getString());
+ if (n.getString().length() {
+ case Token.OBJECTSTRINGLIT:
+ String value = stringValue(n);
+ String value = (n.getString());
+ return String.value(n));
+ case Token.STRING:
+ return getStringNumberValue(n) || null;
+ if (n.hasString() ) {
+ return getStringNumberValue(n, n.getString());
+ case Token.STRING: String value = n.getString());
+ String value = getStringStringValue(n.getString());
+ String value = parse(n.getString());
+ case Token.OBJECTLIT: case STRING:
+ if (n.getString()) {
+ if (n.getString()!= null) { String value;
+return getStringNumberValue(n.getString()); if (n.isArrayLit())
+ case Token.STRINGLIT:
+ if (n.getString()!= null) { return null }
+ case Token.NUMBER: return Number.getStringNumberValue(n.getString());
+ String value = getValue(n.getString());
+ case Token.STRING: String value=getStringNumberValue(n.getString());
+ case Token.OBJECTLIT: break;
+return getStringNumberValue(n.getSecondChild);
+ String string = getString(n.getString());
+ return String(n));
+ if (n == null) return null;
+ case Token.STRING: return getStringNumber(n.getString());
+ case Token.STRING: return string.getStringNumberValue(n.getString());
+ return stringNumberValue(n);
+ if (n!= null) { return parse(n.getString());
+return getStringNumberValue(n.getLastChild()); break;
+ String value = trim(n.getString());
+ return String.getStringNumberValue(n.getString());
+ return trim(n));
+return getStringNumberValue(n.getFirstChild);
+ return getStringNumberValue(String.valueOf(n.getString());
+ switch(token));
+return getStringNumberValue(n.getString())? getStringNumberValue(n): n;
+ case Token.OBJECTSTRING:
+ string = getString(n, false));
+ case Token.STRINGLIT: return n;
+return getStringNumberValue(n.getString()) + getStringNumberValue(child); break;
+ if (n.isStringLit() {
+return  n.getString(n);
+return getStringNumberValue(n.getString()) + getStringNumberValue(n)); break;
+ String value = stringValue(n.getString());
+ case Token.STRING:
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } else:
+ case Token.STRINGLIT: String string;
+ return getString());
+ switch(token());
+return getStringNumberValue(n).toDouble(); break;
+ String string = getStringNumberValue(n.getString());
+ case Token.OBJECT: return n;
+ return String(n);
+ String value = $(n.getString());
+return getStringNumberValue(n.getString()); if (n.getType() {
+ String value = value(n.getString());
+return  Number.NaN;
+ if (n.isString(n)) { return getStringNumberValue(n.getString()); } else if (n) {}
+ switch n.getType());
+ case Token.STRING: String s = n.getString());
+ String string = ScriptRuntime.getStringNumberValue(n.getString());
+ return n.value());
+ String String value = n.getString());
+ case Token.STRING: return null;
+ case Token.OBJECTLIT: return parse(n.getString());
+ String value = (String)getStringNumberValue(n.getString());
+ case Token.NULL: return null;
+ String value = rawJsString.getString());
+ return getStringValue(n) || null;
+ string = getString(n, false);
+ string = getString(n, true));
+ case Token.OBJECT:
+ if (n!= null) { return Number(n.getString());
+ string = getString(n, true);
+ case Token.OBJECT:
+ case Token.OBJECTSTRING: return _getStringNumberValue(n.getString());
+ String value = getString();
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } else { }
+ if (n == null) { return n.getString());
+ s = n.getString());
+ String value = getStringValue(n, child.getString());
+ n.getType());
+ case Token.STRING: String value = _getStringNumberValue(n.getString());
+return getStringNumberValue(n.getNextChild()); break;
+ case Token.OBJECTSTRING: String value = {
+return getStringNumberValue(n.getString()); if (n.isStringLit())
+ { switch (token.type) {
+ if (n!= null) { return convert(n.getString());
+ return getStringValue(n;
+ string = getString(n, 0));
+ if (n.getString()!= null) { return getStringNumberValue(n.getString()); } default: { }
+ return n.toString());
+ String value = this.getStringNumberValue(n.getString());
+ return n.getString;
+ String value = toString(n.getString());
+ return n.getString(n;
+return getStringNumberValue(n.getString()); if (n.getType(...) {
+ return parse(n.getString());
+ case Token.OBJECTSTRING: String value = {}
+ return getStringNumberValue(n.firstChild.getString());
+return getStringNumberValue(n.getString() || n.getString().length()); break;
+ return Number(n));
+return  n.value;
+ return stringValue(n);
+return getStringNumberValue(n.getString()); if (n.isArrayLit)
+ case Token.DECLARE:
+ if (n == null) { return 0;
+ n.getValue());
+ return getStringNumberValue(n..getString());
+return getStringNumberValue(n.getString(0)) + getStringNumberValue(n);
+ String value = decode(n.getString());
+ String str = n.getString());
+ Number value = ScriptRuntime.getStringNumberValue(n.getString());
+return  0.0;
+ String value = parseString(n.getString());
+ String value = string(n);
+ String literal = getStringValue(n.getString());
+ { switch (token) {
+ case Token.STRING: return parse(n.getString());
+ String StringValue(n.getString());
+ String value = getStringN().getString());
+ case Token.STRING: String value = decode(n.getString());
+ if (n.getType() == Token.STRINGLIT,
+ case Token.LIT;
+ String String = getStringValue(n.getString());
+ String value = getString());
+return getStringNumberValue(n.getString()); if (n.isLit())
+ return getStringValue(n, n.getString());
+ return stringValue(n));
+ String text = n.getString());
+ case Token.STRING: return decode(n.getString());
+ case Token.STRING: String value = *getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString()); if (n!= null) { break;
+ String value = (StringValue)getStringNumberValue(n.getString());
+ case Token.STRINGLIT: String value
+ return Double.valueOf(getStringValue(n.getString());
+ String value = getPureStringNumberValue(n.getString());
+ case Token.STRING: break;
+return getStringNumberValue(n.getLastChild());
+ if (n.isLit)
+ return n.getValue());
+ return toString(n));
+ case Token.STRING: return Number(n.getString());
+ case Token.STRING: return trim(n.getString());
+ return Double.NaN;
+ String rawJsString = n.getString());
+ String value = (String) child.getStringNumberValue(n.getString());
+ String value = String(n.getString());
+ String rawJsString = Script.getStringNumberValue(n.getString());
+ case Token.ARRAY:
+ return string(n);
+ String(n));
+return  getStringValue(n)
+ String value = getFirstChild().getString());
+ return (string(n));
+ case Token.STRING: return toNumber(n.getString());
+ String value = getStringValue(n);(n.getString());
+ string = getStringValue(n.getString());
+ String string = getStringStringValue(n.getString());
+ String value = (String)(n.getString());
+ case Token.STRINGLIT: {
+ case Token.LIT:
+ case Token.STRLIT:
+ switch (token.STRING)
+ string = getStringNumberValue(n.getString());
+ return convert(n.getString());
+ n.toString());
+ case Token.STRUCT:
+ case Token.CHARLIT;
+ return decode(n.getString());
+ String value = getStringValue(n); $(n.getString());
+ case Token.STRING;
+ return String(n.getString());
+ if (n.isLit())
+return  getStringNumberValue(n)
+ String n = getString());
+return getStringNumberValue(n.getValue());
+ case Token.OBJECTARRAYSTR:
+ case Token.STRING: return parseString(n.getString());
+return getStringNumberValue(n.getString(0)); break;
+return getStringNumberValue(n)); break;
+ return string(n));
+ String value = null; value=getStringNumberValue(n.getString());
+ case Token.OBJECTING:
+ case Token.CHAR: return Character.getStringNumberValue(n.getString());
+ case Token.DECLARE;
+return getStringNumberValue(n.getString()), n.getSecondChild()); break;
+ String value = (String) super.getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString(0)) + getStringNumberValue(child);
+ String value = _getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString()), n.getLastChild()); break;
+return getStringNumberValue(n.getString()); return n. getString ( );
+return getStringNumberValue(n.getString(0)) + getStringNumberValue(); break;
+ String stringValue(n.getString());
+ case Token.NULL;
+ return Number(n.getString());
+return getStringNumberValue(n.getString()) + 1.0;
+return getStringNumberValue(n.getString()) + 1;
+ return getStringNumberValueFromJsString(n.getString());
+ String value = getStringNumberFromString(n.getString());
+ String value = super.getStringNumberValue(n.getString());
+ String value = String.getStringNumberValue(n.getString());
+return getStringNumberValue(n.getFirstChild()); break,
+return getStringNumberValue(n.getString()); if (n.getType()) {
+return  n.getValue();
+return getStringNumberValue(n.getString()); if (n.isLit)
+return getStringNumberValue(n.getString()).toDouble(true); break;
+ return parse(n));
+return getStringNumberValue(n.getString())); break;
+ case Token.NULL: break;
+ case Token.TEXT:
+return getStringNumberValue(n.getString(true)); break;
+return getStringNumberValue(n.getString()).toDouble(false); break;
+ return (n.getString());
+ String value = getStringStringNumberValue(n.getString());
+ return parseString(n.getString());
+ case Token.OBJECTSTRING
+ String value = Script.getStringNumberValue(n.getString());
+ return toString(n);
+ case Token.STRING: print(n.getString());
+return  getStringNumberValue(n); break,
+ case Token.CHAR: return n;
+return getStringNumberValue(n.getString(0)) + getStringNumberValue(n).
+ String value = StringRuntime.getStringNumberValue(n.getString());
+ return trim(n);
+ return toNumber(n);
+ case Token.STRING: return _getStringNumberValue(n.getString());
+ case Token.OBJST:
+ case Token.NUMBER: return _getStringNumberValue(n.getString());
+ switch(n.getString());
+ switch (t);
+ return Script.getStringNumberValue(n.getString());
+ String StringValue = n.getString());
+ String value = (String) _getStringNumberValue(n.getString());
+ { switch (token.type)
+return  getStringNumberValue(n) {
+return  n.value();
+ case Token.CHAR:
+ String value = Native.getStringNumberValue(n.getString());
+ return getStringNumberValue(null,n.getString());
+return  n.getString(n)
+return getStringNumberValue(n.getString(0)) + getStringNumberValue(n)
+ if n!= null {
+ case Token.NULL:
+ n.string());
+return getStringNumberValue(n.getSecondChild()); {
+return  getStringNumber(n)
+ return toNumber(n.getString());
+ case Token.STRINGLIT: {
+return getStringNumberValue(n.getSecondChild();
+ string = getStringStringValue(n.getString());
+ case STRING:
+ return getStringNumberValueString(n.getString());
+return getStringNumberValue(n.getFirstChild()); {
+ case Token.TEXT;
+ case Token.OBJECT;
+ return getStringNumber(n.getString());
+ return getStringValue(n, child.getString());
+ if (n!= null) return (n.getString());
+ return _getStringNumberValue(n.getString());
+return getStringNumberValue(n.getFirstChild().getString();) ;
+return getStringNumberValue(n.getString();
+ case Token.CHAR;
+ StringStringString(n.getString());
+ return (double) n);
+return  "";
+ case Token.OBJECTARRAYSTRING
+ return getString();
+return getStringNumberValue(n.getString()).toDouble(); break;
+ case Token.STR:
+ return (n));
+ n.value());
+ n.strip());
+ String stringValue=getStringNumberValue(n.getString());
+ return string.getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString())? 0.0 : 1.0,
+ return getString(n.getString());
+return  getStringValue(n):
+ StringString value=getStringNumberValue(n.getString());
+return getStringNumberValue(n.getFirstChild().getString()); break,
+return getStringNumberValue(n.getFirstChild().getString()); break; }
+ return "(n));
+ switch (type);
+ default:
+ switch (n);
+ return getNumber(n.getString());
+ return super.getStringNumberValue(n.getString());
+ return trim());
+ String String value(n.getString());
+ return numberValue(n.getString());
+ switch n.getString());
+return getStringNumberValue(n.getChild());
+return getStringNumberValue(n.getSecondChild()); break; } #
+return getStringNumberValue(n.getString()) * 10;
+return getStringNumberValue(n.getString()) * 2;
+return getStringNumberValue(n.getText());
+return getStringNumberValue(n.getFirstChild(), false); #
+return getStringNumberValue(n.getSecondChild().getString()); break; }
+return getStringNumberValue(n.getString() || n.getString().length();) ;
+return getStringNumberValue(n.getFirstChild()); } break; {
+return getStringNumberValue(n.getSecondChild()); } break; {
+ return string());
+return  getStringNumberValue(n); } #
+return getStringNumberValue(n.getString()) break;
+return getStringNumberValue(n.getFirstChild(), 0); #
+return  s;
+return getStringNumberValue(n.getString(0)) || null; } break ; }
+return getStringNumberValue(n.getSecondChild()); return null; break; }
+return getStringNumberValue(n.getFirstChild().getString(); break; }
+ print(n.getString());
+return  getString(n)
+ return String());
+ String.getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString(0)) ; } break ; }
+return getStringNumberValue(rawJsString)
+return getStringNumberValue(n.getString() || n.getString().length()); break,
+return getStringNumberValue(n.getString())? 0.0 : null; #
+ string(n.getString());
+return getStringNumberValue(n.getString())? 0.0 : 1; #
+return getStringNumberValue(n.getString()); return null; } break ; }
+return getStringNumberValue(n.getString()) || null; } break ; }
+return getStringNumberValue(n.getString()) || Double.NaN; #
+return getStringNumberValue(n.getString()) || Double.NaN; } #
+return getStringNumberValue(n.getString(true)) ; } break ; }
+return  rawJsString,
+return getStringNumberValue(n.getString()) || Double.NaN; } else
+return getStringNumberValue(n.getString()).toDouble(null); break; }
+return getStringNumberValue(n.value());
+return getStringNumberValue(n.getString(0)) || null; } break; {
+ return value());
+return getStringNumberValue(n.getString()) + getStringValue(n); {
+return getStringNumberValue(n.child);
+return getStringNumberValue(n.getString()); break; } break ; }
+return  '';
+return getStringNumberValue(n.getString()) ; } break ; }
+return getStringNumberValue(n.children);
+ String value;
+return getStringNumberValue(n.getString()) - 1; } break ; }
+ switch ();
+ return n);
+return getStringNumberValue(n.getString()); return null; } break; {
+return getStringNumberValue(n.getString(n)).toDouble(null); } #
+ if (reverse)
+(n));
+return getStringNumberValue(n.getString(n)).toDouble(); break; }
+return getStringNumberValue(n.getString(n)).toDouble(null); } else
+return getStringNumberValue(n.getString()) || null; } break; {
+return getStringNumberValue(n.getString()) - 1.0; } #
+return getStringNumberValue(n.getString()).toDouble(true); #
+return getStringNumberValue(n.getString(true));
+return getStringNumberValue(n.getString()).toDouble(true); } #
+return getStringNumberValue(n.getString(0)) + null; break; }
+return getStringNumberValue(n.getString(n)).toDouble(false); } #
+ switch());
+return getStringNumberValue(n.getString(n)).toDouble(n); {
+return getStringNumberValue(n, false);
+ (break);
+return getStringNumberValue(n.getString()) - 1.0; #
+return getStringNumberValue(n); {
+return getStringNumberValue(n.getString(n)).toDouble(true); #
+return getStringNumberValue(n.getString(n))
+ break;
+return getStringNumberValue(n.getString()).toDouble(false); #
+ case String:
+return getStringNumberValue(n.getString()).toString(true); #
+return getStringNumberValue(n.getString()); return null; break; }
+return getStringNumberValue(s);
+return getStringNumberValue(n.parent);
+return getStringNumberValue(n.getString(n)).toDouble(false); #
+return getStringNumberValue(n); case
+return getStringNumberValue(n.getString()); return null; } #
+return getStringNumberValue(n.getString()).toDouble(); break; }
+return getStringNumberValue(n.getString(0)) ; break ; }
+ if (true)
+return getStringNumberValue(n.getString()).toString(false); #
+return getStringNumberValue(n.getString(0)) + 1; } #
+return getStringNumberValue(n.getString(0)) ; } break; {
+ return null);
+return getStringNumberValue(n).
+ case Token.TEXT
+ case Token.STR
+return getStringNumberValue(n.getString()) || null; break; }
+return getStringNumberValue(n.getString(0));
+return getStringNumberValue(n.getString(0)) + 1; } else
+ return 0;
+return getStringNumberValue(n.getString(0)) + 1; #
+ return -1;
+ case string:
+return getStringNumberValue(n.getString(true)) ; break; }
+return getStringNumberValue(n.getString()), null); break; }
+return getStringNumberValue(n.getString()) + null; break; }
+return getStringNumberValue(n.getString().getString()); break; }
+ switch { break;
+return getStringNumberValue(n.getString()).toDouble(); } #
+return getStringNumberValue(n.getString()) + 1.0);
+return getStringNumberValue(n.getString()) || null; } #
+return getStringNumberValue(n.getString(n);
+ string.getStringNumberValue(n.getString());
+ return!getStringNumberValue(n.getString());
+return getStringNumberValue(n.getString()) + 1; break; }
+return getStringNumberValue(n.getString(0)) ; } #
+return getStringNumberValue(n.getString();) ; break; }
+return getStringNumberValue(n.getString()) ; break ; }
+return getStringNumberValue(n.getString(true)) ; } #
+return getStringNumberValue(n.getString(), null); break; }
+return getStringNumberValue(n.getString(n)) {
+return getStringNumberValue(n.getString()); break; case
+return getStringNumberValue(n.getString()); break; break; }
+ String string;
+return getStringNumberValue(n.getString()); break,
+return getStringNumberValue(n.getString()); } break; {
+ switch(?);
+return getStringNumberValue(n.getString()), null; } #
+ return "-";
+return getStringNumberValue(n.getString();) ;
+ String value:
+ +n.getString());
+ return n));
+return getStringNumberValue(n.getString(0)); break,
+return getStringNumberValue(n.getString(n)); break; #
+return getStringNumberValue(n.getString()) || null; #
+return getStringNumberValue(n.getString())); break; }
+ N.getString());
+return getStringNumberValue(n.getString()) * 1000; #
+return getStringNumberValue(n.getString(n)); {
+return getStringNumberValue(n.getString() + 1); #
+return getStringNumberValue(n.getString()) {
+return getStringNumberValue() {
+return getStringNumberValue(n.getString()), 0; #
+return getStringNumberValue(n.getString(true)); {
+ return (getString());
+return getStringNumberValue(n.getString()).
+return getStringNumberValue(n.getString()),
+return getStringNumberValue(n.getString()); {
+return  s; }
+return getStringNumberValue(); {
+return getStringNumberValue();
+return getStringNumberValue(...)
+ break.
+ {
+return getStringNumberValue(n.getString()) break,
+return getStringNumberValue(n.getString()) break();
+return getStringNumberValue(n.getString())); {

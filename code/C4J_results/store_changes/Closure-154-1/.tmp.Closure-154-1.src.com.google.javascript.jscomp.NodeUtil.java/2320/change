@@ -1,0 +1,204 @@
+ return current;
+return current. getFirstChild ( ) ;
+ node=current;
+return  qName;
+return current. getNext ( ) ;
+ return current.parent;
+return current. next ( ) ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) {
+ qName=current;
+return current. getNextChild ( ) ;
+ return current.nextSibling;
+return current. getParent ( ) ;
+ return current ; } if ( type == Token.THIS ) {
+ return current ; } if ( type == Token.NAME ) { return current ; } if ( type == Token.THIS )
+ return current ; } if ( type == Token.NAME || type == Token.GETPROP) {
+ return current ; } else if ( type == Token.NAME || type == Token.THIS) {
+ return current ; } if ( type == Token.NAME && type == Token.THIS) {
+ return current ; } if ( type == Token.NAME || type == Token.THIS)
+return current. clone ( ) ;
+ return (Node)current;
+ break;
+ return current ; } if ( type == Token.NAME ) {
+ return current ; } if ( type == Token.NAME ) { current = current. getNextChild ( ) ;
+ return current ; } else { return qName;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = qName ;
+ return current ; } else { return current. parent;
+ return current ; } if ( type == Token.THIS ) { current = current. getNextChild ( ) ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { if (current == qName) {
+ return current ; } if ( type == Token.NAME ) { return current ; } if ( type == NAME ) {
+ return current ; } else if ( type == Token.NAME || type == Token.THIS)
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = current. getNext ( ) ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = current. nextChild;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } } else {
+ return current ; } if ( type == Token.NAME ) { current = current. getNext ( ) ;
+ current = current.nextChild(); if ( current!= null ) {
+ current = current. getNextChild(); return current;
+ return current ; } else if ( type == Token.NAME || type == Token.GETPROP) {
+ return current ; } if ( type == NAME ) {
+ current = qName;
+ return current ; } if ( type == Token.NAME ) { return current ; } if ( type == Token.GETPROP ) {
+ current = current. getNextChild(); if ( current!= null ) {
+ return current ; } if ( type == Token.NAME || type == Token.NONE) {
+ return current ; } if ( type == Token.NAME ) { current = current. next ( ) ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current. remove ( ) ;
+ current = current.nextChild(); if ( current!= null )
+ current = current.nextChild(); if ( type == Token.NAME)
+ return current ; } if ( type == Token.NAME || type == Token.NAMEPROP) {
+ return current ; } if ( type == 0 ) {
+ return current ; } if ( type == Token.NAME ) { if ( type == Token.THIS ) { return current ; } } else {
+ return current.nextChild;
+ return current ; } if ( type == Token.NAME || type == NAME) {
+ return current ; } if ( type == Token.STRING || type == Token.NAME) {
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current. setParent ( null);
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = current. nextChild();
+ return current ; } if ( type == Token.GETPROP ) {
+ return current ; } if ( type == Token.NAME && type == Token.THIS)
+ current = current.nextChild(); if ( type == Token.NAME) {
+ current = current. getNextChild(); if ( current!= null )
+ current = current. getNextChild(); current=current;
+ current = current. nextChild(); qName=current;
+ return current ; } if ( type == Token.NAME ) { return current ; } if (! debug ) {
+ return current ; } if ( type == Token.NAME ) { current = current. nextChild ( ) ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { if (current.isName()) {
+ return current ; } if ( type == Token.NAME || type == Token.THIS_NAME) {
+ return current ; } if ( type == Token.NAME || type == null) {
+ return current ; } if ( type == '.' ) {
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } if (! debug ) {
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } if ( debug ) {
+ current = current.nextChild(); } else { current = current. nextChild ;
+return  current. getLastChild ( ) ;
+ current = current.getNextChild(); } else {
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = current. getNextChild(); }
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return null;
+ current = current.nextChild(); } else { current = current. parent ;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } } } else {
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } if (! type ) {
+ return current ; } if ( type == Token.NODE ) {
+ return current.firstChild;
+ current = current. getNextChild ( );
+ current.setFirstChild(qName);
+ current = (Node)current;
+ return current ; } if ( type == Token.NAME ) { return current ; } if ( type == '.' ) {
+ return current ; } else { if ( type == Token.NAME ) {
+ return current ; } if ( type == null ) {
+ current = current. getNextChild; return current;
+ current = current. getNext ( );
+ current = current.nextChild(); current=current;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return current ; } if ( type == NAME )
+return  current. cloneNode ( ) ;
+return  current. getFirstChild ( ) ; break;
+ return current ; } if ( type == ':' ) {
+ continue;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { current = current. getFirstChild(); }
+ return current ; } if ( type == Token.PROP ) {
+ current = current. getNextChild(); node=current;
+ return current ; } if ( type == "." ) {
+ return current ; } } else {
+ current = current.nextChild(); } else { current = current. next ;
+ return current ; } else { return null;
+ return current ; } else { if ( type == Token.NAME)
+return  current. getFirstChildN ( ) ;
+ return current; } if ( type == Token.NAME || type == Token.THIS) { current.setParent(); }
+ current = current. nextChild ; qName=current;
+ return current ; } if ( type == Token.NAME || type == Token.THIS) { return null ; }
+return  current. getFirstChild ( ). parent ;
+ return current ; } if ( type == 1 ) {
+ current = current. nextChild ; current=current;
+ node = qName ;
+ return current ; } else {
+ return current.parentNode;
+return  current. getNextChild ( ) ; break;
+return current. getFirstChild ( ). firstChild;
+ return current ; } if (! debug ) {
+ return null ; } else { return current. parent;
+ return (Node) qName;
+ return current ; } if ( type == Token.NAME )
+ return current.getFirstChild;
+ return current ; } else { return null.current;
+ current = current.nextChild; returncurrent;
+ current.getNextChild()=current;
+return current. getFirstChild ( ). nextChild;
+ current = current.nextChild(); returncurrent;
+ if (current == qName) {
+return  current. cloneNode ( ) ; break ;
+ return current ; } if ( debug ) {
+ current = current. getNextChild(current;
+ current.setParent(qName);
+ current = current. parent;
+ current = current. getFirstChild(current;
+ current = current.getNext(current;
+ current = current. getFirstChild(); break;
+ node = current ;
+ current = current. nextChild;
+ return current.node;
+ return current ; } else { node=current;
+ current.getFirstChild()=current;
+ return current ; } else { return!current;
+return  current. getFirstChild ( ) ; }
+ current.setParent(null);
+ return current ; break;
+ current = current ;
+ current.getFirstChild=current;
+ current = current.getNextChild(); break;
+ current.setFirstChild(qName); }
+ current = current.getNextChild(); } }
+ current = current.nextSibling(); }
+ node = current.parent;
+ current = current.nextChild();
+ return current.next;
+ current = current;
+ current.setFirstChild(); } else {
+ return current.nextChild( );
+ return current.getParent().current;
+return  current.getFirstChild(current);
+ return current.branch;
+ return qName.current;
+ return current.value;
+ current = current.next;
+ return node.current;
+return current ; } else { return current. parent ; }
+ current = current.getNextChild(); } else
+ current.getFirstChild();current;
+ current = basisNode;
+ current = current.current;
+ current = current.nextSibling; }
+ current.getNextChild();current;
+ node.parent=current;
+ node.rootNode=current;
+ current.nextChild=current;
+ current.getFirstChild(current;
+ continue;
+ return current.nextChild(); else {
+ return current.nextChild(); } else
+ current.setParent();current;
+ return null;
+ break;
+ current = null;
+ return null;
+ current.setParent(current;
+ return null; }
+ return current.nextChild(); } }
+ root = current;
+ return null.current;
+ return qName=current;
+return currentNode;
+ return root=current;
+ return current;
+ break; }
+ continue; }
+return  qName,
+ return current,
+ return;
+return  node;
+ parent=current;
+ return;
+return current ; }
+return current.;
+ break
+ return parent;
+ return root;
+ continue
+ return
+ #
+ {

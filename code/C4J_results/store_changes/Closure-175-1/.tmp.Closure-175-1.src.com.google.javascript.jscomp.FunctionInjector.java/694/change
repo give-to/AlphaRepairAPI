@@ -1,0 +1,622 @@
+Node block = fnNode.getLastChild();
+Node block = fnNode. getFirstChild ( ) ;
+ fnNode.getLastChild();
+Node block  = fnNode ;
+Node block  = null ;
+Node block = fnNode. getNext ( ) ;
+ Node callNode=fnNode.getLastChild();
+Node block = fnNode.getLastChild(). getFirstChild ( ) ;
+Node block = fnNode. getFirstChild().getNext ( ) ;
+Node  cArg = null ;
+Node block = fnNode. getFirstChild ( 0 ) ;
+Node block = fnNode. firstChild ;
+Node block = fnNode.getFirstChild().getFirstChild ( ) ;
+Node block = fnNode.getLastChild(). getFirstChild().getNext ( ) ;
+Node  callNode = callNode. next ( ) ;
+Node block = fnNode.getLastChild(). getNext ( ) ;
+Node  callNode = callNode. nextChild ;
+Node  callNode = fnNode ;
+Node block  = fnNode. getFirstChild ;
+Node  callNode = callNode. next ;
+Node  callNode = callNode. firstChild ;
+Node  callNode = callNode. clone ( ) ;
+ callNode=fnNode.getLastChild();
+ return CanInlineResult ; }
+Node block = fnNode.getFirstChild().getFirstChild(block);
+Node block = fnNode. getFirstChild().getNextChild();
+Node block  = fnNode. next ( ) ;
+ Node callNode.getLastChild();
+ return CanInlineResult.YES;
+ if (callNode!= null) {
+Node  callNode = fnNode. next ( ) ;
+Node block = fnNode.getLastChild(). getFirstChild().getFirstChild();
+ if (callNode.getFirstChild().isCall()) {
+Node  callNode = callNode. getFirstChild ;
+Node block  = fnNode. next ;
+Node block  = fnNode. clone ( ) ;
+Node block  = fnNode. parent ;
+Node block = fnNode.getLastChild(). getFirstChild ( 0 ) ;
+Node block  = callNode. getFirstChild ( ) ;
+Node block = fnNode.getLastChild(). getFirstChild().next ( ) ;
+Node block = fnNode.getFirstChild().next();
+Node  call ;
+Node  callNode. removeFirstChild ( ) ;
+Node block =  NodeUtil. getBlock ( fnNode )
+Node  callNode = callNode. getNextChild ;
+ return fnNode.getLastChild();
+ if (callNode instanceof Call) {
+Node block = fnNode.getFirstChild().getNext(block);
+ if (! fnNode. isCallNode ( ) ) { return CanInlineResult ; }
+ Node callNode = node.getLastChild();
+ Node callNode = fnNode.getNext();
+ fnNode= fnNode.getLastChild();
+Node block = fnNode. getFirstChild ( 1 ) ;
+Node block = fnNode.getLastChild().getFirstChild(block);
+Node block = fnNode. getFirstChild().getLastChild();
+Node block = fnNode.getLastChild().getFirstChild().getNext(block);
+Node  callNode ;
+Node block  = fnNode. getFirst ( ) ;
+Node  cCallNode ;
+ if (! fnNode. isCallNode ( ) ) { return CanInlineResult.NO }
+Node block = fnNode.getFirstChild(block);
+ if (callNode.getFirstChild().isCall())
+ if (fnNode!= null) { return CanInlineResult.YES; }
+ Node callNode = call.getLastChild();
+ if (callNode. isCall ( ) ) {
+ if (! fnNode. isName ( ) ) { return CanInlineResult.NO }
+Node block = fnNode.getFirstChild().getFirstChild(0);
+ if (! fnNode. isName ( ) ) { return CanInlineResult.NO ; }
+ if (! fnNode. isName ( ) ) { return CanInlineResult ; }
+Node block = fnNode.getLastChild(). getFirstChild().getNextChild();
+ Node callNode = fnNode.getFirstChild();
+Node block  = fnNode. nextChild ;
+Node block = fnNode.getLastChild().getNextChild ( ) ;
+ if (! isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO ; }
+Node block  = null
+Node block = fnNode.getLastChild().getNext(); if (block) {
+Node block  = getBlock ( ) ;
+Node  cArg = null ; try {
+ if (fnNode!= null) { return CanInlineResult(); }
+ if (! fnNode. isCallNode ( ) ) { return false ; }
+ final Node callNode = fnNode.getLastChild();
+Node block  = callNode. getNext ( ) ;
+Node block =  NodeUtil. getBlock ( fn ) ;
+Node  cCall ;
+ if ( fnNode. isCallNode ( ) ) { return CanInlineResult ; }
+ if (! fnNode. isCallNode ( ) ) return CanInlineResult.NO;
+ if ((callNode.getFirstChild().isCall()) {
+ if (callNode. isCallNode ) {
+ if (fnNode!= null) { return CanInlineResult.YES;
+Node block  = NodeUtil. getBlock ( ) ;
+ if (fnNode!= null) { return CanInlineResult.NO; }
+ if (fnNode!= null) { return CanInlineResult; }
+ CallNode callNode = fnNode.getNext();
+ return true;
+Node block  = fnNode. getFirstChild ( )
+Node block =  NodeUtil. getBlock ( callNode )
+ if (fnNode!= null) {
+Node block = fnNode.getLastChild().getFirstChild().getFirstChild;
+ if ( fnNode. isCallNode ( ) ) { return CanInlineResult.YES;
+Node block = fnNode.getLastChild().getFirstChild().getNext;
+ if (callNode. isCallNode ( ) ) {
+ return CanInlineResult.YES;
+Node block  = fnNode. detach ( ) ;
+Node block = fnNode. getFirstChild().getFirstChild;
+Node block = fnNode.getFirstChild().getNext;
+Node  callNode. getFirstChild = null ;
+Node block = fnNode.block;
+Node  cArg = callNode ;
+Node block = fnNode.block();
+ if (! fnNode. isCallNode ( ) ) return CanInlineResult ;
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } Block block = null;
+Node  callNode = getCall ( ) ;
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } Node block = null;
+ if (!isDirectCallNodeReplacementPossible(fnNode)) { return CanInlineResult.NO; } Node block = null ;
+Node  callNode = callNode. getNext();
+ if (callNode.getFirstChild.isCall())
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } Node block = null ;
+Node block  = FunctionBlock. parse ( fnNode ) ;
+Node block = fnNode.getLastChild(block).getFirstChild ( ) ;
+ CallNode callNode.getLastChild();
+ if (fnNode!= null) { return CanInlineResult.NO;
+ Call node = fnNode.getLastChild();
+ if (! fnNode. isCallNode ( ) ) { return CanInlineResult.NO };
+ if (callNode.getFirstChild().isName()) {
+ if (! fnNode. isCallNode ( ) ) return CanInlineResult();
+ CallNode callNode = fnNode.getLastChild();
+ if (callNode.getFirstChild().isCallNode()) {
+ if (fnNode!= null) { return CanInlineResult.YES();
+Node  callNode. getNext ( ) ;
+ if (fnNode!= null) { return CanInlineResult.YES };
+Node block = fnNode.getLastChild(block).getFirstChild(block);
+ if (! fnNode. isCallNode ( ) ) return false ;
+ if (callNode. hasFirstChild ( ) ) {
+ if (callNode.getFirstChild!= null) {
+Node block = fnNode.getLastChild().getFirstChild().nextChild;
+ if (fnNode!= null) { fnNode= fnNode.getLastChild();
+Node block = fnNode.getLastChild().getFirstChild().nextChild();
+ if (! fnNode. isCallNode ( ) ) { return ; }
+ if ( isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO; } Block block = null;
+ if ((callNode.getFirstChild().isCall)) {
+Node  callNode = callNode. parent ;
+Node  callNode = callNode || null ;
+Node  cCall = null ;
+Node block  = functionBlock ( compiler ) ;
+Node block  = getCallBlock ( ) ;
+ CallNode callNode = callNode.next();
+Node block =  IR. block ( fnNode, false ) ;
+Node block = fnNode.getLastChild().getNext(block);
+Node block  = getBlock ( fnNode, compiler ) ;
+ if (! fnNode. isCallNode ( ) ) { return CanInlineResult.NO ;
+Node block  = fnNode. body ;
+Node block = fnNode.getFirstChild().block();
+ if (callNode) {
+ final Node callNode = callNode.next();
+Node block = fnNode.getLastChild( ) ; if ( block!= null ) {
+ if (callNode. isCall ) {
+ if (! fnNode. isCallNode ( ) ) {
+ CallNode callNode = fnNode.next();
+ if (callNode!= null)
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } Node block = block ;
+Node  callNode = call ( ) ;
+ if (fnNode!= null) { return CanInlineResult.YES(); }
+ Node callNode = callNode.getFirstChild();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } return true; }
+ return CanInlineResult ;
+Node block = fnNode.getFirstChild().block;
+ return CanInlineResult.YES();
+Node block = fnNode. getFirstChild().getNextChild;
+ Node callNode =.getLastChild();
+ return canInlineReferenceDirectly();
+ CallNode callNode = call.getLastChild();
+Node block = fnNode.getLastChild(true); if (block!= null) {
+Node block = fnNode.getLastChild(block).getFirstChild().getFirstChild();
+Node  callNode. detach ( ) ;
+ Node cCallNode=fnNode.getLastChild();
+Node block = fnNode.getLastChild(). clone ( ) ;
+ Node callNode = fn.getLastChild();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } } {
+Node block = fnNode.getLastChild(). getLastChild ( ) ;
+ if (fnNode. isCallNode ( ) ) {
+Node block = fnNode.getLastChild(). getFirstChild().getNextChild;
+ if (fnNode!= null) { return true; }
+Node block  = fnNodeBlock ;
+ final Node callNode = call.getLastChild();
+ if (fnNode instanceof Call) {
+ Call node = fnNode.getNext();
+Node block  = fnCallBlock ;
+Node block = fnNode.getLastChild(block).getFirstChild(0);
+Node block = fnNode.getFirstChild().getFirst();
+Node block = fnNode.getNextChild().getNext();
+ Node callNode.getFirstChild();
+ if (! isDirectCallNodeReplacementPossible(fnNode)) { return CanInlineResult.NO; } return true; }
+ final Node callNode = node.getLastChild();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NONE; } }
+Node block = fnNode.getLastChild(block);
+ if (! fnNode. isCall ( ) ) return false ;
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } final
+Node  cArg ;
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } }
+ return CanInlineResult.YES; }
+ if (fnNode!= null) { return CanInlineResult.YES; };
+ return CanInlineResult();
+ if (fnNode!= null) callNode=fnNode.getLastChild();
+ Node callNode.getFirstChild().getNext();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } return true; };
+ if (fnNode instanceof CallNode) {
+ CallNode callNode = node.getLastChild();
+ CallNode = fnNode.getLastChild();
+ if (fnNode!= null) fnNode= fnNode.getLastChild();
+ var cArg = null;
+ callNode = node.getLastChild();
+Node  callNode = node ;
+Node block = fnNode.getFirstChild().nextChild();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NONE; } final
+ if (fnNode!= null) { callNode= fnNode.getLastChild();
+ if (callNode!= null) { callNode.getLastChild();
+ fnNode.getNext();
+Node  callNode = callNode ;
+ node = fnNode.getLastChild();
+ final Node callNode = callNode.parent().getLastChild();
+ return canInline ; }
+ Node callNode = fnNode.getFirstChild;
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NONE; } } {
+ if (fnNode. isCall ( ) ) {
+ return CanInlineResult.YES();
+Node block = fnNode. getPrevious ( ) ;
+ if (fnNode!= null) { Node cblock = fnNode.getLastChild();
+ return true ; } }
+ if (!isDirectCallNodeReplacementPossible(fnNode)) { return CanInlineResult.NO; } return true ; } }
+ if (fnNode!= null) { return CanInlineResult(); };
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } return true ; } }
+Node block  = fn ( ) ;
+ Node callNode.getFirstChild().next();
+ CallNode callNode.getFirstChild();
+ final Node callNode = function(fnNode).getLastChild();
+ if (fnNode!= null) { return false; }
+ if (! isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO; } }
+ var callNode = fnNode.getFirstChild;
+ Node callNode = function(fnNode).getLastChild();
+ CallNode callNode = getCallNode();
+ if (fnNode!= null) { return CanInlineResult.YES; } }
+ Node callNode = (fnNode).getLastChild();
+ callNode = call.getLastChild();
+ if (fnNode!= null) { fn=fnNode.getLastChild();
+ if (fnNode!= null) { return CanInlineResult; };
+ Node callNode = fnNode. detach ( );
+Node  callNode = call ;
+ return fnNode!= null ;
+ Node callNode = callNode.parent().getLastChild();
+ Node callNode = getCallNode();
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } Node block = null.
+ if (fnNode!= null) { fnNode.getLastChild();
+ return canInlineReference ; }
+ if (fnNode!= null) {block = fnNode.getLastChild();
+Node block = fnNode. getNextChild ( ) ;
+ if (!callNode) { Node callNode=fnNode.getLastChild();
+ return CanInlineResult.YES; }
+ if (!isDirectCallNodeReplacementPossible(block)) { return CanInlineResult.NO; } return true ; }
+ if (fnNode!= null) { final Nodeblock = fnNode.getLastChild();
+ if ( fnNode!= null ) { return CanInlineResult.NO; } } {
+ node = node.getLastChild();
+ CallNode callNode = callNode();
+ if (callNode!= null) {
+ CallNode fnNode.getLastChild();
+ final Node CallNode callNode = fnNode.getLastChild();
+ if (block == null) {
+ final Node callNode = *fnNode.getLastChild();
+Node block = fnNode.getLastChild(0);
+Node block = fnNode.getLastChild(block).getFirstChild().getFirstChild;
+ fn.getLastChild();
+Node block = fnNode.getLastChild(Block.BRACE);
+ if (fnNode!= null) { Nodeblock = fnNode.getLastChild();
+ if ( isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO; } Block block = null.
+ if ( isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO; } Block block = null();
+ if (! isFunctionObjectCall ( fnNode ) ) { return CanInlineResult.NO ; } final
+ if (allNamesToAlias.isEmpty()) { return CanInlineResult.NO; } else { final
+ fnNode = fn.getLastChild();
+ Node cCallNode.getLastChild();
+ Call node = fnNode.next();
+Node block = fnNode.getLastChild(). nextChild ;
+ final Node callNode = CallNode(fn).getLastChild();
+Node  call = null ;
+ if (fnNode!= null) { node=fnNode.getLastChild();
+ if (! fnNode. isCallNode ( ) ) { return false ; } } {
+Node block = fnNode.getLastChild()getFirstChild();
+Node  callNode = fnNode ; {
+ if (isFunctionObjectCall(fnNode)) { return CanInlineResult.NO; } Node block = null ; }
+ fnNode.getFirstChild();
+ final Node callNode = node(fn).getLastChild();
+ if (!fnNode) { Node callNode= fnNode.getLastChild();
+ if (fnNode) {
+Node block  = fnBlockNode ;
+ if (isFunctionObjectCall(fnNode)) { return CanInlineResult.NO; } Node block = callNode ; }
+ CallNode callNode = new Call();
+ Node call = fnNode.getLastChild();
+Node block = fnNode.getLastChild().getNext;
+ if (fnNode!= null) { return true; } }
+ return CanInlineResult YES;
+ if (isFunctionObjectCall(callNode)) { return CanInlineResult.NO; } Node block = callNode ; }
+Node block = fnNode.getLastChild(). nextChild();
+ if (callNode!= null) { fnNode.getLastChild();
+ if (callNode. hasFirstChild ( ) ) { {
+ if (isFunctionObjectCall(fnNode)) { return CanInlineResult.NO; } Node block = fnNode ; }
+Node block = fnNode.getFirstChild().getFirstChild(block)
+ Node callNode = fnNode.nextChild;
+ Node cArg = callNode.getNext;
+ Node callNode = node(fn).getLastChild();
+ if ( fnNode. isCallNode ( ) ) { return CanInlineResult ; };
+ if (callNode == null) return fnNode.getLastChild();
+Node block = fnNode. lastChild ;
+Node block = fnNode.getLastChild().getFirstChild;
+Node block  = ;
+ var cArg = callNode.getNext;
+ if (block) {
+ if (fnNode!= null) { return true; } } {
+ if (fnNode!= null) { Node fblock = fnNode.getLastChild();
+Node block = fnNode.getLastChild(). next;
+ fn = fn.getLastChild();
+Node  callNode = fnNode ; }
+Node block = fnNode. getFirstChild ( ) ; {
+Node block = fnNode.getLastChild(). firstChild ;
+ if (!fnNode!= null) { fnNode= fnNode.getLastChild();
+Node block = fnNode. getNext ;
+ var cArg = callNode;
+ final Node callNode = callNode(fn).getLastChild();
+ Node callNode..getLastChild();
+ if (fnNode!= null) { Node _block = fnNode.getLastChild();
+ if (!callNode) { callNode = node.getLastChild();
+ final Node callNode = node(call).getLastChild();
+ if (callNode.getFirstChild().isCall) { }
+Node  cArg = null ; {
+ return CanInlineReference(fnNode);
+ Node cArg = null;
+ CallNode callNode = call();
+Node block = fnNode. first ;
+Node block  = fnNode. getFirstChild ( ;
+ if (fnNode) { Node callNode= fnNode.getLastChild();
+ Node callNode = *fnNode.getLastChild();
+ if (fnNode!= null) { return true; } final
+ return true ; } ;
+ if (!callNode) { callNode=fnNode.getLastChild();
+ return CanInlineResult.YES; };
+ final Node callNode = function(fnNode.getLastChild();
+Node block = fnNode.getLastChild().getFirstChild().getNext(block;
+Node block = fnNode.getLastChild().getFirstChild().getNext(block());
+ return canInlineReferenceDirectly(fnNode);
+ Function callNode = new Function();
+ return canInlineReference(fnNode);
+ Node fnCallNode=fnNode.getLastChild();
+Node block = fnNode. getFirstChild().getNextChild(); {
+ if (!block) {
+ if (fnNode!= null) { CallNode= fnNode.getLastChild();
+Node block = fnNode.getLastChild() + 1;
+Node block = fnNode.getFirstChild().getNext(block());
+ if (callNode.getFirstChild().isCall) { {
+Node block = fnNode.getLastChild(). getFirstChild ( ) ; {
+ final Node callNode = callNode.parent.getLastChild();
+ return CanInlineResult.YES; } }
+Node  callNode = ;
+ final Node cCallNode=fnNode.getLastChild();
+ return CanInlineResult.parse(fnNode);
+Node block = fnNode.getLastChild(Block.NODE);
+ return CanInlineResult(); }
+ final Node callNode = node(fnNode.getLastChild();
+ Node cCall=fnNode.getLastChild();
+ if (fnNode!= null) { return false; } }
+ return CanInlineResult(fnNode);
+Node  callNode = null
+ var cArg = fnNode;
+ final Node callNode = (Node)fnNode.getLastChild();
+ Node callNode = (Node)fnNode.getLastChild();
+ fnNode = fnNode();
+ return CanInlineResult(); }
+ if (callNode!= null);
+ if (!isCallNode(callNode);
+ Node fnNode.getLastChild();
+Node block = fnNode.getLastChild().next();
+ if (fnNode!= null) { return true; };
+ final Node cCallNode = cCallNode.getLastChild();
+Node block = fnNode.getFirstChild().getNext(block;
+ Node cArg = (Node) null;
+Node block = fnNode.getLastChild(). getFirstChild ( ) ; }
+ return canInlineReference(fn);
+ return canInlineReferenceDirectly(fn);
+Node block = fnNode.getLastChild(blockKind) ;
+Node block = fnNode.getLastChild(1);
+Node block = fnNode.getLastChild(block).nextChild();
+Node block = fnNode.getLastChild(block).getNext();
+ if (fnNode!= null) { final
+ return CanInlineResultOK;
+ if (callNode!= null) {block = fnNode.getLastChild();
+ Function fnNode = fnNode();
+ return CanInlineResult.YES(); }
+ fnNode.removeChildren();
+ return false ; } }
+ if (callNode instanceof Call);
+ assert fnNode.getLastChild();
+Node block  = fnNode ; {
+ final Node cCallNode = callNode.getLastChild();
+ fnNode.remove();
+ Call call=fnNode.getLastChild();
+ if (callNode!= null) { Nodeblock = fnNode.getLastChild();
+ return CanInlineResult.include(fnNode);
+ final Node callNode = callNodes.getLastChild();
+ return canInlineReferenceDirectly(callNode);
+ return CanInlineReferenceDirectly(fn);
+Node block = fnNode.getLastChild() || null;
+ if (callNode.isCallNode);
+Node  callNode
+ if (! fnNode. isCallNode ( ) ) { }
+ CallNode callNode.setNext(this);
+ if (fnNode.isCallNode()) { final
+Node block = fnNode.getLastChild(). getFirstChild().getNextChild(); {
+ return CanInlineResult.call(fnNode);
+ if (!isCall(callNode);
+Node block = fnNode.getLastChild(block).getFirstChild;
+Node block = fnNode.getLastChild() - 1 ;
+Node block  = callNode ;
+ if (callNode) { Call node=fnNode.getLastChild();
+Node block = fnNode.getLastChild(block).nextChild;
+ Node callNode = fnNode.next;
+ fnNode.preprocess();
+ final Node fnCallNode=fnNode.getLastChild();
+ CallNode callNode = caller();
+ Node fnCall= fnNode.getLastChild();
+ return CanInlineResult(this);
+Node block = fnNode.getLastChild().getNextChild;
+ var cArg ; var fnArg;
+ if (fnNode!= null) name=fnNode.getLastChild();
+ assert callNode.getLastChild();
+ final Node callNode: =fnNode.getLastChild();
+ fnNode.getParent();
+ if (fnNode!= null) { Stringblock = fnNode.getLastChild();
+ var cArg ; var fnParam;
+ return CanInlineResult(true);
+Node block = fnNode.getLastChild().getFirstChild(block)
+ Node fnNode= fnNode.getLastChild();
+ return CanInlineResult; }
+ Node callNode = fnNode || null;
+ return false ; } ;
+ return CanInlineResult.YES; });
+ final CallNode <? > callNode= fnNode.getLastChild();
+ if (fnNode!= null) callblock = fnNode.getLastChild();
+ return fnNode;
+Node  cNode ;
+ final Node parentNode = (Node)fnNode.getLastChild();
+ CallNode callNode.setNext(null);
+ var callNode = null;
+Node block = fnNode.getLastChild(block).getFirstChild(block)
+ if (callNode!= null) { }
+ return CanInlineResult(); };
+ var cArg = null, i;
+Node block = fnNode.getLastChild(block).getFirstChild(block());
+ if (!fnNode) { Node cblock = fnNode.getLastChild();
+ final Node <Call> callNode= fnNode.getLastChild();
+ if (fnNode!= null) { try { final
+ final Node callNode(Node)fnNode.getLastChild();
+ return canInline(fn);
+ final Node arg1, arg2= fnNode.getLastChild();
+ var cArg = null, x;
+ if (fnNode!= null);
+ var result = null;
+ final Node callNode; Node fnNode= fnNode.getLastChild();
+Node block = fnNode.getLastChild(block).getFirstChild(block); {
+ Call callNode=fnNode.getLastChild();
+ fnNode.clear();
+ var i = 0;
+ final Node cblock = fnNode.getLastChild();
+ fnNode.break();
+ if (callNode == null);
+ node callNode=fnNode.getLastChild();
+ final Node cCallNodes=fnNode.getLastChild();
+ if (fnNode.isCall() { final
+ CallNode cblock = fnNode.getLastChild();
+ return functionCall(fnNode);
+ node.getLastChild();
+ return false;
+ fnNode.next();
+ final Node cCallNr=fnNode.getLastChild();
+Node  cName ;
+Node block = fnNode.getLastChild().getFirstChild().getNext(); {
+ fn=fnNode.getLastChild();
+ if (fnNode. isCallNode ) { final
+ final Node name, ARG2= fnNode.getLastChild();
+ if (fnNode. isCall ) { final
+ final Node <CallNode>block = fnNode.getLastChild();
+Node block  = rootNode ;
+ final Node callNode; Node callNode= fnNode.getLastChild();
+ CallNode cArg;
+ fnNode.clean();
+Node block = fnNode.firstChild();
+ final Node <String> callNode= fnNode.getLastChild();
+Node block  = rootBlock ;
+ if (fnNode. isCall ( ) ) }
+ Node callNode = null;
+Node block = fnNode.getLastChild().getNext(block());
+Node block = fnNode.getLastChild(block).getFirstChild(0); {
+Node block = fnNode.getLastChild().getNextChild(); {
+ final Node[][]block = fnNode.getLastChild();
+ final Node callNode2= fnNode.getLastChild();
+ var callNode = node;
+ return "(fnNode);
+Node block  = this ;
+ return function(fnNode);
+ final Node <String> fnCall= fnNode.getLastChild();
+ final Node name, ARG2,= fnNode.getLastChild();
+ final CallNode cblock = fnNode.getLastChild();
+ Node cblock = fnNode.getLastChild();
+ final Node fnNode= fnNode.getLastChild();
+ final Node fnCall= fnNode.getLastChild();
+ return fnNode);
+ if (!isCallNode);
+Node block = fnNode.getLastChild(block).getNextChild(); {
+ return function(callNode);
+ if (call!= null);
+ final Node <Call> cblock = fnNode.getLastChild();
+Node block = fnNode.getLastChild(block).getFirstChild(); {
+ var result = false;
+ function.getLastChild();
+ final Node cCallNode = ()fnNode.getLastChild();
+ final Node callNode cCall= fnNode.getLastChild();
+ fnNode);
+Node block  = 0 ;
+ final Node cCallNode = null;fnNode.getLastChild();
+Node block  = head ;
+ if (true);
+ final Node <String> cblock = fnNode.getLastChild();
+ callNode.getLastChild();
+Node block = fnNode.getLastChild(block.getNextChild()); {
+ final Node <CallStatement>block = fnNode.getLastChild();
+ final Node <CallBlock>block = fnNode.getLastChild();
+ final Node _block = fnNode.getLastChild();
+ final Node argNodes= fnNode.getLastChild();
+ if (fnNode);
+ return true; }
+Node block = fnNode.getLastChild(Block.NODE); {
+Node  node ;
+ if (callNode++);
+ final Node callNodeCallNode= fnNode.getLastChild();
+Node block = fnNode.getFirstChild(); ;
+Node block = fnNode.getLastChild(). getNext ( ) {
+ final Node cCallNode2= fnNode.getLastChild();
+ final CallBlock cblock = fnNode.getLastChild();
+Node block = fnNode.getLastChild()).getFirstChild(); {
+ name=fnNode.getLastChild();
+ CallBlock cblock = fnNode.getLastChild();
+ CallNode _block = fnNode.getLastChild();
+ Node cArg = null,
+ final CallBlock callblock = fnNode.getLastChild();
+ assert true;
+Node block  = [];
+ final CallNode _block = fnNode.getLastChild();
+ if (!callNode);
+ if (callNode);
+Node block = fnNode ) {
+Node block = fnNode.prev();
+ final Node callNblock = fnNode.getLastChild();
+ boolean result;
+ return "(function ");
+ Node cArg = null();
+ final Node [ ] cblock = fnNode.getLastChild();
+ final CallNode callNblock = fnNode.getLastChild();
+Node block = fnNode.getLastChild(4);
+ cNode= fnNode.getLastChild();
+Node  c ;
+ if (this);
+Node block  ; {
+ functionNode.getLastChild();
+ if (false);
+ return false; }
+ final Node [ ] _block = fnNode.getLastChild();
+ fn().getLastChild();
+ final Nodeblock = fnNode.getLastChild();
+ } { Node <CallNode>block = fnNode.getLastChild();
+Node block Node ;
+ assert false;
+ })();
+ if (block) {}
+ return true; };
+ Node _block = fnNode.getLastChild();
+ return isCall();
+ } { Node <Call> cblock = fnNode.getLastChild();
+ if (!block) {}
+ fNode.getLastChild();
+ assertCallNode();
+Node block = fnNode ; }
+ } { Node <Call> _block = fnNode.getLastChild();
+ } { Node <String> cblock = fnNode.getLastChild();
+ return new Result();
+ } { Node <Call> callblock = fnNode.getLastChild();
+ return inlineReference();
+ }.getLastChild();
+ Call nblock = fnNode.getLastChild();
+ fnNode().getLastChild();
+ } });
+ return isReference();
+ return true();
+Node block = fnNode.getLastChild(blockKind); {
+Node block = fnNode ) ;
+Node block = fnNode.getLastChild(blockName); {
+ Call nodeblock = fnNode.getLastChild();
+ fn();
+Node block = fnNode.getLastChild(blockKind) {
+Node block = fnNode.getLastChild(block); {
+Node block = fnNode.getLastChild(block) {
+Node block = fnNode.getLastChild(0); {
+ return result();
+Node block = fnNode.getLastChild() ; {
+ return node.getLastChild();
+ checkCall();
+ try { final
+ return ok();
+ return false();
+ return fn.getLastChild();
+ } {
+Node block = fnNode.getLastChild() {
+Node block = fnNode.getLastChild()); {
+ final
+ }
+Node block := fnNode.getLastChild();
+Node block: fnNode.getLastChild();
+Node block, fnNode.getLastChild();

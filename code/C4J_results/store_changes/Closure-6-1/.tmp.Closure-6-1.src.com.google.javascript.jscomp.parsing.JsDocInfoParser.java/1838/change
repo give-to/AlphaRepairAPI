@@ -1,0 +1,392 @@
+Node contextType = wrapNode(
+Node  contextType =
+Node  contextType = newNode(
+ token = next(); }
+Node contextType  = newNode(Token.COLON,
+ contextType= wrapNode(
+Node  contextType = parse(
+ token = next(); } else { hasParams = false;
+Node  contextType = new ContextType(
+ }
+Node  contextType = newNode(Token.TEXT,
+Node  contextType = newNode(tokenStr,
+ contextType.wrapNode(
+ token = next(); } else { hasParams =
+Node  contextType = newNode(token,
+ token = next(); } if (hasParams) {
+ token = next(); } else { isParams = false;
+Node contextType  = newNode(Token.CONTEXTOR,
+Node contextType =  newNode(Token.CONTEXT_TYPE,
+Node  contextType = newNode(token ==
+ token = next(); } else { hasParams = true
+ token = next(); } else { token = next(); }
+ token = next(); } else { hasParams = false
+ token = next(); } else {
+ } contextType= wrapNode(
+ } else { token = next(); } } else { token = next(); skipEOLs();
+ token = next(); } else { token = next(); } if (isNew) {
+Node  contextType = new ContextNode(
+ token = next(); } else { token = next(); } if ( hasParams ) {
+ token = next(); } else { token = next(); } if (token) {
+Node contextType  = newNode(Token.FUNCTION,
+Node contextType  = newNode(Token.CUSTOM,
+ } else { token = next(); } } else { token = next(); skipEOLs(); }
+Node  contextType = parseContextType(
+Node contextType = wrapNode ( tokenStr,
+Node  contextType = newNode(Token.USE,
+ } ContextType = IR.wrapNode(
+ token = next(); if (hasParams) {
+ token = next(); } if (isNew) {
+Node  contextType = newNode(Token.NAME,
+ token = next(); } else { token = next(); } } else { token = next(); }
+ } else { token = next(); } else { token = next(); skipEOLs();
+Node  contextType = newNode(Token.TYPE,
+ token = next(); } else { hasParams = false; }
+ token = next(); } else { continue ; }
+ token = next(); } ContextType contextType=wrapNode(
+ } else { token = next(); } else { token = next(); } if ( isNew ) {
+ } else { ContextType contextType = newContext(
+ token = next(); } else { return ; }
+ } else { token = next(); } else { token = next(); } if (token) {
+ token = next(); } ContextType = IR.wrapNode(
+ } else { token = next(); } } else { token = next(); }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { next(); skipEOLs();
+Node contextType  = newNode(Token.CONTEXTTYPE,
+ } else { next(); } if ( isThis || isNew ) { next(); skipEOLs(); }
+ token = next(); } else { hasParams = true;
+ } contextType = newNode(
+ token = next(); } contextType = IR.wrapNode(
+ } else { next(); } if ( isNew ) { next(); skipEOLs(); } else { next(); skipEOLs();
+ contextType = newNode(
+ token = next(); } else { token = next(); } if (hasContext) {
+Node contextType  = newNode(Token.CONTEXT,
+Node  contextType = new Node(this,
+ token = next(); } else { hasParams &&
+ } ContextType = newNode(
+ } else { ContextType contextType = newNode(
+ token = next(); } else { token = next(); } if (token == JsDocToken) {
+ token = next(); } } else {
+ } else { hasParams = false;
+ token = next(); } contextType = newNode(
+Node contextType = wrapNode ( "ContextType",
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } if ( hasParams ) {
+ token = next(); } else { Node contextType= wrapNode(
+Node contextType =  newNode(Token.CUSTOMNAME,
+ } else { Node contextType = IR.wrapNode(
+ } else { token = next(); } else { token = next(); } if ( isThis ) {
+ token = next(); } else { token = next(); } }
+Node contextType =  newNode(Token.CUSTOMTEXT,
+ contextType = new ContextType(
+Node contextType =  newNode(Token.CONTEXTORNAME,
+Node  contextType = (
+ token = next(); } ContextType = context.wrapNode(
+Node contextType  = newNode(Token.COLON,!
+ } else { next(); } if ( isThis || isNew ) { next(); skipEOLs();
+ ContextType = IR.wrapNode(
+ contextType = IR.wrapNode(
+Node contextType = wrapNode ( Token.COLON,
+ } else { token = next(); } if ( token == JsDocToken.TEXT ) {
+ } else { next(); } } else { token = next(); } if (token == JsDocToken) {
+ } contextType = IR.wrapNode(
+ token = next(); } else { ContextType type= wrapNode(
+ } else { Node contextType; contextType= wrapNode(
+Node contextType  = new Node(token.COLON,
+ token = next(); } else { ContextType _contextType = wrapNode(
+ } String contextType =
+Node contextType =  newNode(Token.CUSTOMTYPE,
+ } else { token = next(); } else { token = next(); } }
+ token = next(); } else { hasParams = false ; } }
+ } ContextType = new ContextType(
+ token = next(); } else { Context typeType= wrapNode(
+ contextType = new Node(Token.COLON,
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { token = next(); } }
+ } else { contextType = new ContextType(
+ } else { next(); } } else { next(); skipEOLs(); } } else { token = next(); }
+ } contextType = parse(
+ } else { next(); } if ( isThis || isNew ) { next(); skipEOLs(); } }
+ } else { token = next(); }
+Node contextType = wrapNode ( Token. COLON, tokenStr,
+ parseToken(
+Node contextType = wrapNode ( "ContextType", tokenStr,
+ } contextType = new ContextType(
+ } else { ContextType typeType = parse(
+Node  context = parse(
+ } else { Node contextType = null ; parameters= wrapNode(
+Node  contextType = newNode(TokenImpl,
+ } else { token = next(); } else { token = next(); skipEOL } }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { next(); } } }
+ } else { contextType = null ; contextType= wrapNode(
+ contextType = new Node(tokenStr,
+Node  contextType = newNode(Token.SELECT
+ token = next(); } else { token = next(); } else { token = next(); } } }
+Node contextType  = newNode(Token.PARAM,
+ token = next(); } else { token = next(); } } }
+ token = next(); } contextType = parse(
+ } else { ContextType = new ContextType(
+ } ContextType = newContext(
+ } ContextType = parse(
+ ContextType = newNode(
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { token = next(); } } }
+ token = next(); } else { hasParams = false ; } } }
+ } contextType.wrapNode(
+ ContextType = newContext(
+ contextType = new Node(token,
+ } else { contextType = new Node(token,
+ token = next(); } else { token = next(); } } else { token = next(); };
+ token = next(); } else { isParams = false ; }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { next(); skipEOLs());
+ } else { next(); } if ( isNew ) { next(); skipEOLs(); } else { next(); } } else { final
+ } else { token = next(); } else { token = next(); } } }
+Node contextType = wrapNode ( "contextType",
+ } Node contextType=wrapNode(
+ token = next(); } else { token = next(); } } else { final
+ } else { next(); } } else { token = next(); } } else { token = next(); } }
+ } else { token = next(); } } else { token = next(); };
+ } else { token = next(); } } else { token = next(); } }
+ token = next(); } else { ContextType.contextType = wrapNode(
+ Token contextType =
+Node  contextType = new FunctionContext(
+ } else { next(); } } else { token = next(); } else { token = next(); } } }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { token = next(); } };
+ } else { next(); } } else { next(); skipEOLs(); } } else { token = next(); } }
+ token = next(); } else { token = next(); } } final
+ token = next(); } else { hasParams ||
+ token = next(); } else { isParams = false ; } }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { next(); } } };
+ } else { ContextTypeType = newContext(
+ token = next(); } ContextTypeType.wrapNode(
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } else { next(); } } } }
+ } else { Node contextType *= wrapNode(
+ } if ( isThis ) { next(); skipEOLs(); } if ( isNew ) { next(); } }
+ token = next(); } else { token = next(); };
+ token = next();
+ } else { next(); } } else { next(); skipEOLs(); } } else { token = next(); };
+ } else { token = next(); } else { token = next(); } } else { final
+ } else { next(); } } else { next(); skipEOLs(); } else { token = next(); } } }
+ } else { next(); } if ( isThis || isNew ) { next(); skipEOLs(); } };
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); token = next(); } else { } }
+ ContextType contextType = ContextType.wrapNode(
+ } if ( isNew ) { next(); skipEOLs(); } else { token = next(); } } else { final
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); } if ( isNew ) { } }
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); token = next(); } else { }
+ if (isNew) { Node contextType= wrapNode(
+ } ContextType contextType=wrapNode(
+ } else { Node contextType = parameters= wrapNode(
+ ContextType contextType = context.wrapNode(
+ } else { Node contextType = functionType= wrapNode(
+ } else { token = next(); } } else { token = next(); } } }
+ } else { token = next(); } else { token = next(); } } } }
+ token = next(); } else { token = next(); } } else { token = next(); } } }
+ } else { next(); } if ( isThis || isNew ) { next(); skipEOLs(); };
+ token = next(); } else { ContextType &contextType = wrapNode(
+ token = next(); } else { token = next(); } } } }
+ } else { next(); } } else { token = next(); } else { token = next(); } } final
+ } else { contextType = new Node(token ==
+ } else { next(); } if ( isThis ) { next(); skipEOLs(); token = next(); } else { final
+ token = next(); } else { token = next(); } else { token = next(); } } } }
+Node contextType = wrapNode ( "contextType", tokenStr,
+ } else { next(); } } else { token = next(); } else { token = next(); } } else { final
+ } Context typeType = newwrapNode(
+ String contextType =
+Node contextType = wrapNode ( Token. COLON ). concat(
+ token = next(); } else { hasParams = false ; } };
+ } else { Node contextType = contextType= wrapNode(
+Node contextType = wrapNode ( Token. COLON ) ; parseToken(
+ contextType *= wrapNode(
+ } else { token = next(); } else { token = next(); skipEOLs }
+ } else { contextType = newNode(
+Node contextType = wrapNode ( Token.CONTEXT_TYPE,
+ } else { token = next(); } else { token = next(); } } final
+ token = next(); };
+ } else { next(); } } else { next(); skipEOLs(); } } else { token = next(); } final
+ } else { next(); } } else { next(); skipEOLs(); } else { token = next(); } } final
+ token = next(); } else { token = next(); } } else { token = next(); } } final
+ } else { Node contextType |= wrapNode(
+Node  contextType = new Node
+ token = next(); } ContextType = parse(
+ contextType = newNode(Token.TEXT,
+ } ContextType = newwrapNode(
+ } if ( isThis ) { next(); skipEOLs(); } else { token = next(); } } } }
+Node contextType = wrapNode ( "ContextType", "Function",
+ } else { Node contextType = null;contextType = wrapNode(
+ } Node contextType =
+Node  contextType = create(
+ contextType = new Node(token ==
+ token = next(); } ContextType = _wrapNode(
+ token = next(); } ContextType = newwrapNode(
+ token = next(); } contextType = _wrapNode(
+Node contextType = wrapNode ( ":" +
+ } else { token = next(); } }
+ } else { next(); } } else { token = next(); } } else { token = next(); } } }
+ } else { ContextType = newNode(
+ token = next(); } contextType= wrapNode(
+ } else { next(); } } else { token = next(); } else { token = next(); } } } }
+ ContextType contextType = new ContextType(
+ token = next(); } else { hasParams = false ; } } } }
+Node contextType = wrapNode ( "Context",
+ } else { Node contextType = newwrapNode(
+ ContextType contextType = newContext(
+ } else { Node contextType = _wrapNode(
+ } else { token = next();
+ } else { Node contextType = parameters<?= wrapNode(
+ token = next(); } else { final
+ } else { Node contextType ::= wrapNode(
+ } ContextType contextType = _wrapNode(
+Node contextType = wrapNode ( "context",
+Node  contextType = build(
+Node contextType = wrapNode ( "ContextType", "FunctionType",
+ } else { NodeContextType contextType= wrapNode(
+ } else { ContextType = newContext(
+Node contextType = wrapNode ( Token. COLON ). replace(
+ if (hasParams) {
+Node contextType = wrapNode ( Token. COLON ) ; parseType(
+Node contextType = wrapNode ( Token. COLON ). put(
+ } else { hasParams =
+ } else { ContextType contextType *= wrapNode(
+ } ContextType contextType = newwrapNode(
+ } ContextType typeType = _wrapNode(
+ contextType = newNode(Token.NAME,
+Node contextType = wrapNode ( "{" +
+ token = next(); } else { continue; };
+ } parseToken(
+ } ContextType = new Context(token,
+ } ContextType typeType = newwrapNode(
+Node contextType = wrapNode ( "ContextType: " +
+Node contextType = wrapNode ( "ContextType", token,
+Node contextType = wrapNode(token,
+ } else { ContextType contextType=wrapNode(
+ } else { token = next(); } } }
+ contextType = parse(
+ } else { final Node contextType *= wrapNode(
+ } else { Node contextType ||= wrapNode(
+ token = next(); } } else { final
+Node contextType = wrapNode ( null,
+ ContextType contextType = newNode(
+Node contextType = wrapNode ( "ContextTypeName",
+Node contextType = wrapNode ( Token.TEXT,
+Node contextType = wrapNode ( "ContextType", null,
+ token = next(); } else { TokenContextTypecontextType = wrapNode(
+ token = next(); } else { }
+ token = next(); } else { Node _contextType = wrapNode(
+ } parseType(
+Node contextType = wrapNode ( "ContextType", "",
+ token = next(); } else { } }
+ contextType |= wrapNode(
+Node  type = parse(
+ ContextType = parse(
+ } else { contextType = parse(
+Node ContextType = newNode(
+Node contextType = wrapNode ( ':',
+ token = next(); } ContextType type= wrapNode(
+ parse(
+ token = next(); } }
+ contextType = new ContextTypeImpl(
+ parseType(
+ contextType.set(
+ } else { Node contextType= wrapNode(
+ } ContextType= wrapNode(
+ } else { token = next(); };
+Node contextType = wrapNode(this,
+ } ContextType parse(
+Node contextType = wrapNodeInContextType(
+Node contextType = wrapNodeImpl(
+ token = next(); } else { Node ccontextType = wrapNode(
+ token = next(); } else { Node...contextType = wrapNode(
+Node  contextType = new
+Node  contextType = parseType(
+ ContextType.wrapNode(
+ } parse(
+Node contextType = wrapNode(token ==
+ } else { hasParams &&
+ } else { Context typeType= wrapNode(
+Node  context =
+ ContextType.of(
+ if (hasParams)contextType = wrapNode(
+Node contextType = wrapNodeContext(
+ token = next; }
+Node contextType = wrapNode ( Token.COLON,!
+ token = next(); });
+ } Context type= wrapNode(
+ contextType.put(
+Node contextType = wrapNodeType(
+ token = next(); } else { #contextType = wrapNode(
+Node  parse(
+ token = next(); } final
+ } else { ContextType type= wrapNode(
+ ContextType= wrapNode(
+Node ContextType parse(
+ contextType = create(
+ if (hasParams) {contextType = wrapNode(
+ } else { ContextType _contextType = wrapNode(
+Node contextType = wrapNode ( Token.CONTEXT,!
+ } else { ContextTypeImpl.contextType = wrapNode(
+ } else { ContextTypeContextType _contextType = wrapNode(
+ } else { Context contextType= wrapNode(
+ } else { ContextType.contextType = wrapNode(
+ } else { contextType *= wrapNode(
+ return null; }
+Node contextType = wrapNodeNS(
+ } else { ContextTypeContextType.contextType = wrapNode(
+ } else { ContextTypeContextType=contextType = wrapNode(
+Node contextType = wrapNode ( "ContextTypeName" +
+ } ContextType *= wrapNode(
+ } contextType *= wrapNode(
+ } else { contextType= wrapNode(
+ } else { final
+ } else { ContextTypeImpl _contextType = wrapNode(
+Node contextType = wrapNodeWith(
+ parseTokens(
+ Context type= wrapNode(
+ } Context typeType= wrapNode(
+ newNode(
+ } ContextType ::= wrapNode(
+ } setToken(
+ } else {
+ match(
+ } return
+ } match(
+ next(
+ push(
+ } addChild(
+ parameters.wrapNode(
+ parseContextType(
+ parameters =wrapNode(
+Node  push(
+ } else { }
+Node  pair =
+ } expect(
+ } else { final NodecontextType = wrapNode(
+ token = next;
+ } parameters= wrapNode(
+Node  contextType
+ token = next; } }
+ } Node contextType *= wrapNode(
+ } Node contextType ::= wrapNode(
+ } Node contextType |= wrapNode(
+Node contextType  = $(
+ } else { Node _contextType = wrapNode(
+Node ContextType(
+ token = current(); } }
+ } #wrapNode(
+ } else { Node...contextType = wrapNode(
+ } else { Node ccontextType = wrapNode(
+Node contextType =  newNode(\
+ continue; }
+ return null; }contextType = wrapNode(
+ params.wrapNode(
+ return null; #contextType = wrapNode(
+ } }
+ } } }
+ } final
+ return ; } #contextType = wrapNode(
+ };
+ } } #contextType = wrapNode(
+Node contextType Node =
+ } else,contextType = wrapNode(
+ }; #contextType = wrapNode(
+ final
+ }; }
+ }; final
+Node contextType := wrapNode(
+Node contextType += wrapNode(
+Node contextType: wrapNode(

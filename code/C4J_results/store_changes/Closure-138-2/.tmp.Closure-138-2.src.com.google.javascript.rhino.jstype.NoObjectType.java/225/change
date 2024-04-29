@@ -1,0 +1,1014 @@
+return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return Ternary.TRUE : TernaryValue.UNKNOWN;
+ return that.isObject() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue.UNKNOWN;
+return that.testForEquality();
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue
+ return that? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isNoType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return Ternary.UNKNOWN;
+ return testForEquality(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.FALSE;
+ return isObject() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ;
+ return (that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that? that: TernaryValue.UNKNOWN;
+return that. testForEquality ( this ) ;
+ return Boolean.TRUE : TernaryValue.UNKNOWN;
+ return JSType.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that? Ternary.TRUE : TernaryValue.UNKNOWN;
+ return () ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (that == this) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isObject? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(that, this) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.False;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.False
+ return equals(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType()==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that. testForEquality ( this )
+ return that == that? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality(this); }
+ return that == this? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that. testForEquality();
+ return testForEquality(that, that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType() &&!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue. UNTRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  null : that. testForEquality();
+return that.visit(testForEquality);
+return that.isEmptyType()  && this.isEmptyType();
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NONE;
+ return this == that? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return BooleanValue.TRUE : TernaryValue.UNKNOWN;
+ return that == this? Ternary.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality(that);
+return  this. testForEquality ( that ) ;
+ return that.isTestForEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that. testForEquality ( )
+ return testForEquality that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isObject()? Ternary.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality(this, this);
+ return this? TernaryValue.NONE: TernaryValue.UNKNOWN;
+return that.testForEquality(this, that);
+ return that.isObject()? that.TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this;
+return that.isEmptyType() ?  null : that. testForEquality ( )
+ return TernaryValue.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that. isObject ( )? that: TernaryValue.UNKNOWN;
+ return that.isObject() &&!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that == that? Ternary.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. empty ( ) : that ;
+return that.isEmptyType() ? TernaryValue. NULL : that ;
+ return testForEquality(this, that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : that
+return  this. visit ( testForEquality ) ;
+ if (that!= null) {
+return that. testForEquality ( this, registry )
+ return this.isObject() &&!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. EMPTY : that ;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NULL;
+return that.isEmptyType() ? TernaryValue. empty ( ) : TernaryValue ;
+ return that. isObject ( )? Boolean.TRUE : TernaryValue.UNKNOWN;
+return that. testForEquality ( )
+ if (that.isEmptyType()) {
+return that. testForEquality ( this, this )
+ return this? Ternary.TRUE : TernaryValue.UNKNOWN;
+return that. testForEquality ( this, that )
+ return TernaryEquality.UNKNOWN;
+ return this.testForEquality(that,that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  this. testForEquality ( that )
+return that. testForEquality ;
+ return that.isObject()? BooleanValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEqualityTernaryValue.UNKNOWN;
+return  this. testForEquality();
+ if (that!= this) {
+ return TernaryValueEquality.UNKNOWN;
+return that.isEmptyType() ?  that : that. testForEquality();
+return that.isEmptyType() ?  that : that. testForEquality ( )
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue();
+ return that.isEmptyType() &&!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (TernaryValue)!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(that) && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType()  && this. isEmptyType ( that ) ;
+return that.visit(testForEqualityVisitor);
+ return this.isEmptyType()&&that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality(); }
+return that.isEmptyType() && that.isEmptyType(); }
+ return testForEquality(that, that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality(this, this); }
+ return this == that? TernaryValue: TernaryValue.UNKNOWN;
+return  this. visit ( testForEquality )
+return that. testForEquality ( registry ) ;
+ return checkForEquality(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() && this. isEmptyType(); }
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NONTRUE;
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue.UNKNOWN;
+return that.isEmptyType(that).testForEquality();
+return that.isObject() && that.isNoType();
+ return that.isObject()? that.value: TernaryValue.UNKNOWN;
+ return that.isTernaryType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isObject() {
+ if (that.isObject()) {
+return that.isEmptyType() && that.isEmptyType();
+ return testForEquality(that), that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  this. visit ( that ) ;
+ return this.isObject()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; }
+return that.value;
+ return that.isObject() && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType()  || this. isEmptyType ( that ) ;
+ return testForEquality.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType() && this==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(this, (that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that == this) {
+ return testForEquality(that.isObject() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  this. visit ( that ) ; }
+ return that.isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE;
+ return that.isTestForEqualityEnabled() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue.UNKNOWN; }
+ return this. isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; } else {
+return that.isEmptyType() ? TernaryValue. empty ( ) : that ; }
+return that.testForEquality(this, that); }
+return that.isEmptyType() || this. isEmptyType ( ) ;
+return that.testForEquality(that); }
+ return testForEquality(that).isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality().isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that!= null? that: TernaryValue.UNKNOWN;
+ return (TernaryValue)that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this? TernaryValue.VALUE: TernaryValue.UNKNOWN;
+return that. visit ( testForEquality )
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NULL
+ return that.isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE; }
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; } {
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue.UNKNOWN; } {
+return that.isEmptyType() ?  null : that
+ if (that.isEmptyType()) { return this.isEmptyType(); }
+return that.isEmptyType() && that.isEmptyType(that);
+ return this ==!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue : that
+return that.testForEquality(that, this);
+ return this. testForEquality ( that )? this : that. testForEquality ( this ) ; }
+ return this.isEmptyType(that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isEmptyType()) { return this; } else {
+ return this.testForEquality()? that: TernaryValue.UNKNOWN;
+ return this == that? Ternary.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(that)that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(that&&that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType()? TernaryValue.UNKNOWN :
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NO_VALUE;
+ return this? TernaryValue.ANY: TernaryValue.UNKNOWN;
+ return this. isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE; } else {
+ return that.testForEqualityTernaryValue.UNKNOWN;
+ return this. isEmptyType ( that )? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } else {
+return that.isEmptyType() ?  this : that. testForEquality ;
+return that.isEmptyType() ?  null :
+ return this. testForEquality ( that )? this : that. testForEquality ( this ) ;
+ return this? TernaryValue. UNTRUE : TernaryValue.UNKNOWN;
+ return TERNARY_UNKNOWN;
+ return this.testForEquality()&&that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.visit(testForEquality); }
+ return (that == that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue; }
+return that.isEmptyType() ?  null : that. testForEquality ;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue.UNKNOWN; }
+ return TernaryValue. IS_TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. EMPTY ;
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? this : that ;
+return that.isEmptyType() && that.isNoType();
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality ( that )
+ return TernaryValue. NOT_TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue.NONE.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType()? TernaryValue.UNKNOWN; } else {
+ return this.testForEquality()TernaryValue.UNKNOWN;
+ return that.isObject()? that.getTernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that) {
+return that.isEmptyType() ? TernaryValue. empty ( ) : that. value ;
+return that.isEmptyType() &&!that;
+ return this. testForEquality ( that ) ; } else {
+ return this.testForEquality(that.that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isObject(...)? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.testForEquality().TernaryValue.UNKNOWN;
+ return that instanceof TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE; } {
+ return this.isTestForEqualityEnabled() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() && this == that;
+ return that.isObject(that)?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.visit(testEquality);
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NO
+ return this.isTestForEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.testForEquality().UNKNOWN;
+ return this. testForEquality? that: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NEGATIVE;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NO;
+ return this.testForEquality().UNKNOWN;
+ return (TernaryValue that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (TernaryValue.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.Unknown;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue.ANY;
+ if (that.isEmptyType()) { return null; } else {
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue.ALL;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue.UNKNOWN; } {
+ return testForEquality(that).isObject() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.KNOWN;
+return  this. testForEquality ;
+ return that.isTernaryValue() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue.KNOWN;
+return that.isEmptyType() ? TernaryValue. NULL : TernaryValue ;
+ return this. testForEquality ( this, that )? this : that. testForEquality ( this, that ) ;
+ return _UNKNOWN;
+ return (this == that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return checkForEquality(that, this) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality().TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN_VALUE;
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue; }
+ return TENARY_UNKNOWN;
+ if (that.isEmptyType()) { return false; }
+return that.isEmptyType() ? TernaryValue.TRUE :  ternaryValue.FALSE;
+ if (that.isEmptyType()) { return this.isEmpty(); }
+return  testForEquality ( that ) ;
+return that.isEmptyType() ?  null : that ; }
+ return testForEquality(this,...that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that? TernaryValue.UNTRUE : TernaryValue.UNKNOWN;
+ return this.isObject()? that.TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(testForEquality);
+ return this. visit ( that ). testForEquality ( this. visit ( that ) )
+ if (that.isObject())) {
+ return that == this? BooleanValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that ; }
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? this : that ; }
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? this : that
+ return this.testForEquality()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( this )
+return that.isEmptyType() ?  this : that. value ;
+ if (that.isObject())
+ if (that.isEmptyType())) {
+ return this. testForEquality ( that )? this : that. testForEquality ( this, that ) ;
+ return this.isEmptyType()? TernaryValue.NONE :
+ return testForEquality(that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. createEmptyValue ( that ) : that ;
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return false ; }
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NOT_TRUE;
+return that.isEmptyType() ?  null : that;
+ return that.isTernaryEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForType(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue;
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return null ; }
+ if (that.isEmptyType()) { return true; }
+ return testForEquality(this,!that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isNoType(...)? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return this ; }
+ return TernaryValue.ANY.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. visit ( that ). testForEquality ( this. visit ( that ) ) ;
+return that. visitTestForEquality ( ) ;
+ return this.testForEqualityIsTrue() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue;
+return that.testForEquality(that, registry);
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return that ; }
+ return this? TernaryValue.EQ: TernaryValue.UNKNOWN;
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return false;
+ return that.testForEquality()TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. createEmptyValue ( this ) : that ;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NOSUE;
+ return this == that;
+ return this. testForEquality ( that )? that : this. testForEquality ( that ) ; }
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? that : this
+return that.isEmptyType() ? TernaryValue.NONE : that ;
+return that.isEmptyType() ? TernaryValue.TRUE  : that;
+return that.isEmptyType() ? TernaryValue. empty ( ) :
+ return this.testForEquality.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? that : this ;
+ return (JSType.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isObject()) { return that.isObject(); }
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; } else
+ return testForEquality(!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  testForEquality ( this, that ) ;
+return that.isEmptyType() ? TernaryValue. empty ( that ) : that ; }
+return that.isEmptyType() ?  this : that. isEmptyType();
+ return this.testForEquality()!=TernaryValue.UNKNOWN;
+ return this.visit(TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. EMPTY :
+ return this.isEmptyType() === that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( this, that )? this : that. testForEquality ( this )
+ return this.isEmptyType()? TernaryValue.UNKNOWN; }
+return that.isEmptyType() ? TernaryValue. empty ( this ) : that. value ;
+ if (that.isEmptyType(that)) {
+return that.isEmptyType() ?  this : that ;
+return that.isEmptyType() && this. isEmptyType ( that )
+ return this. visit ( that ). testForEquality ( this. visit ( this ) )
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.PASS;
+return  this. test ( that )
+ return this. testForEquality ( that )? this : that. testForEquality ( that ) ;
+return that.isEmptyType()  ; }
+ if (that.isEmptyType()) { return null; } else { return that; }
+ return that.isObject? that: TernaryValue.UNKNOWN;
+ return that.isEmptyType()==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isObject(that)) {
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.N;
+ return this.testForEquality()!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. empty ( that ) : that ;
+ return this? TernaryValue.NOT_TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(this that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( that ) ; }
+return that.isEmptyType() ? TernaryValue. empty ( this ) : that ; }
+ if (that.isObject()) { return that.isObject() && that.isNoType(); } else { return null;
+ return that.isForEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue.PUTRUE : TernaryValue.UNKNOWN;
+ return this. visit ( that ). testForEquality ( this. visit ( registry ) ) ;
+ return this.isEmptyType()that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. createEmptyValue ( ) : that ;
+ return this. visit ( that ). testForEquality ( that. visit ( ) )
+ return this. testForEquality ( that )? this : that. testForEquality ( this ) || that ;
+ return TernaryValueType.UNKNOWN;
+ return that.testForEquality(that),TernaryValue.UNKNOWN;
+ return?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? that ;
+ return this == that? TernaryValueCompat.TRUE : TernaryValue.UNKNOWN;
+ return this. visit ( that ). testForEquality ( this. visit ( this ) ) ;
+return that.isEmptyType() && testForEquality();
+ return this. visit ( that ). testForEquality ( this. visit ( ) )
+ return this.isEqual(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NOSET;
+ return testForEqualityThat(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return JSType that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isEmptyType()) { return null; }
+return that.isEmptyType() ? TernaryValue. empty ( ) : TernaryValue
+ return that? TerminaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? that : this. testForEquality ( this ) ; }
+ return that.testForEquality()!=TernaryValue.UNKNOWN;
+ return this.testForEquality()? this: TernaryValue.UNKNOWN;
+return that.isEmptyType(this, that);
+ if (this == that) {
+ return TernaryValue.that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(TernaryValue.UNKNOWN;
+ return this == that? TernaryValueImpl.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEqualityValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue.Unknown
+ return TernaryValue. EQUAL? UNTRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType()? TernaryValue.NONE : this;
+ if (that.isObject()) { return true; }
+ if (that.isObject()) { return that.isEmpty(); }
+ if (that == this) { return true;
+ return (T) that;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.SUFFIX;
+ return this.isEmptyType()? TernaryValue.UNKNOWN: this; }
+ return this. testForEquality ( that )? this : that. testForEquality ( that )? that : that
+ return that.isEmptyType()? TernaryValue.UNKNOWN: this; } else {
+ return that.isEmptyType()? TernaryValue.NONE : that.value;
+ return (TernaryValue) that?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that. testForEquality ( this, that. testForEquality ( ) )
+ return this == that? TernaryValueType.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType()  && that.isEmptyType()!= null;
+ if (that.isObject()) { return false; }
+return that.isEmptyType(that);
+ return this. testForEquality ( that )? that : this. testForEquality ( that )? that : this
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? that : that
+return that.isEmptyType() ? TernaryValue. EMPTY : that ; }
+ return this.isEmptyType()? TernaryValue.NONE : this; }
+return that.isEmptyType() ? TernaryValue : that ;
+return that.isEmptyType(that.isEmptyType(that));
+ return that.isNoType(that)? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( this )? that :
+ return this.testForEquality() ==TernaryValue.UNKNOWN;
+ return that.isObject && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEmptyType()? TernaryValue.NONE : that; }
+ return that == this? TernaryValueImpl.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( that )
+return that.isEmptyType() ? TernaryValue. empty ( ) : that
+ return this.testForEquality()==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValueTestEquality.UNKNOWN;
+ return that.isObject() &&!!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( this, that )? this : that. testForEquality ; }
+ return that.isObject()? that.isTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(that).testForEquality(); }
+ if (this.isEmptyType()) {
+ return that. testForEquality ( this, that. testForEquality ( this ) )
+return  testForEquality();
+ return this.isEmptyType()? TernaryValue.NONE; }
+ return this.testForEquality().isTrue() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(otherthat) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. empty ( that ) : that. value ;
+ return this. isEmptyType ( that )? TernaryValue.TRUE : TernaryValue.UNKNOWN; } {
+return that.isEmptyType()  && that.isEmptyType() == null;
+ return that.isObject(?)?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that. test ( this )
+ return that == TernaryValue.UNKNOWN;
+return that.isEmptyType(that.isEmptyType())? null : that
+ return this. visit ( that ). testForEquality ( this. visit ( that ) ) ; }
+return that.isEmptyType() ? TernaryValue.NONE : TernaryValue
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue();
+ return this. testForEquality_UNKNOWN;
+ return that. testForEquality ( this, that. testForEquality ( that ) )
+ return this.isInstance(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  that : that == that ;
+ return that. testForEquality ( this, that. testForEquality ( ) ) ;
+return that.isEmptyType() ? TernaryValue. createEmpty ( ) : that ;
+ return that == this? that.value: TernaryValue.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( ) ;
+return that.isEmptyType() ? TernaryValue. emptyValue : that ;
+ return this? TernaryValue this: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality ( )
+ return this. visit ( that ). testForEquality ( this, that ) ; }
+ return this.isEmptyType()? TernaryValue.UNKNOWN: this;
+ return that.isEmptyType()? TernaryValue.NONE : TernaryValue();
+ if (that.isEmptyType() {
+ return this.isNoType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that == this ;
+ return (Ternary)that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() && this.isEmpty();
+ return that == that? BooleanValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( this, that )? this : that. testForEquality () ;
+return that.isEmptyType(that) && that.isEmptyType() ;
+ return this. visit ( that ). testForEquality ( this. visit ( registry ) ) ; }
+ return this.isEmptyType()? TernaryValue.UNKNOWN; } {
+ if (that == this) { return -1;
+return that.isEmptyType() ? TernaryValue. empty : that ;
+ return Value.UNKNOWN;
+ return this. testForEquality ( that )? this : that. testForEquality ( that )? that :
+return that.isEmptyType(this);
+return that.isEmptyType() ? TernaryValue. NULL : that ; }
+ return TernaryValue.Equality.UNKNOWN;
+ return that.isObject(!)? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType()? TernaryValue.NONE : that; }
+ return this? TernaryValue that: TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  null : that. value ;
+return that.visit(testForE);
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN; }
+ return this.testForEquality(others) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NIL;
+ return this. testForEquality (that),TernaryValue.UNKNOWN;
+ return that.testForEqualityType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality()||TernaryValue.UNKNOWN;
+return that. test ( this )
+ return that instanceof TernaryEquality.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(!that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.testForEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(that)? null : that;
+ return testForEquality(that, this;
+return that.isEmptyType() ? TernaryValue.TRUE  : TernaryValue.N
+ if (emptyType) {
+return that.isEmptyType(that)? null : that ; }
+ return that: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : TernaryValue.false
+ return testForEquality(others) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return jstype.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return JSType.TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  TernaryValue.NEGATIVE; }
+return that.isEmptyType() ? TernaryValue. empty ( that ) : that
+ return TernaryType that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isNoEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality(that), this;
+ return that.testForEquality() ==TernaryValue.UNKNOWN;
+return that.isNoType();
+ return that.isEmptyType()? TernaryValue.FALSE : TernaryValue. }
+return that.isEmptyType() ? TernaryValue.TRUE  : null;
+return that.isEmptyType(that.isEmptyType()) &&!that;
+ return (that.isObject()) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.equals(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this? that.value: TernaryValue.UNKNOWN;
+ if (that.isObject()) { return that.empty(); }
+ if (that.isEmptyType()) return false;
+ if (that == this)
+ return that.isEmptyType()? TernaryValue.UNKNOWN: this; } {
+ return this. testForEquality ( this, that )? this : that. testForEquality ( )
+ return that.isEmptyType()? TernaryValue.TRUE : TernaryValue. }
+return that.isEmptyType() ? TernaryValue. createEmptyValue ( that ) :
+ return that.isObject()?!TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that == this) return true;
+ return TernaryValue.of.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isObject() && that.type.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that. testForEquality ( this, that. testForEquality ) ; }
+ return this. isEmptyType ( that )? TernaryValue.TRUE : TernaryValue.UNKNOWN ; }
+ return this.isEmptyType()? TernaryValue.UNKNOWN; } else
+return that.isEmptyType() ? TernaryValue : null ;
+return that.isEmptyType(that)? null : that. value ;
+return that.isEmptyType(that))? null : that. value ;
+ return that == that? null: TernaryValue.UNKNOWN;
+ return this. isEmptyType ( that )? TernaryValue.TRUE : TernaryValue.UNKNOWN; } else
+ return this. visit ( that ). testForEquality ( this ). visit ( that ) ;
+return that.isEmptyType() ? TernaryValue.createEmptyValue ( that ) : that ; }
+ return that.isNoType(!)? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that.isEmptyType() == true)
+ if (that.isEmptyType()) { return false }
+ return this. testForEquality ( that,TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. NULL : TernaryValue
+ return that.testForEquality.UNKNOWN;
+ return that == that? that: TernaryValue.UNKNOWN;
+ return that.testForEqualityValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue. empty ( this ) : that
+return that.isEmptyType() ? TernaryValue. empty ( that ) :
+ return that.isObject()? that instanceofTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isObject();
+ if (that.isEmptyType()) return true;
+return that.isEmptyType() ?  this : that. getValue();
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return testForEquality ;
+ return that.isEmptyType()? TernaryValue.NONE : that.value();
+ return that.isObject() && that.null? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this? that: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality () ;
+return that.isEmptyType(that.isEmptyType()) == true;
+return that.isEmptyType(that))? null : that ; }
+ return this.testForEquality(that? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. isEmptyType ( that )? TernaryValue. UNKNOWN : TernaryValue.TRUE ; }
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; return testForEquality ;
+ return this. visit ( that ). testForEquality ( that ). visit ( this ) ;
+ if (that.isEmptyType()) { return true;
+ return that == this? UNKNOWN: TernaryValue.UNKNOWN;
+ return this.that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(that)? null : that.value();
+ return that? TerribleValue.TRUE : TernaryValue.UNKNOWN;
+ return (JSType that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that;
+return that.isEmptyType() && that.isEmpty();
+ return that!= null?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  null : that. getValue();
+ return test(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE_VALUE;
+ return that.isTestForEqualityType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForNull(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return testForEquality
+ if (that.isEmptyType()) { return true }
+return that.isEmptyType(that))? null : that. getValue();
+ return this.emptyType==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( that ) ; } } else {
+return that.isEmptyType(that) && that.isEmptyType(); }
+return that.isEquality();
+ return this. testForEquality ( that )UNKNOWN;
+ return this. isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; } else { }
+return that.isEmptyType() ? TernaryValue.createEmptyValue ( this ) : that ; }
+return that.isEmptyType(that))? null : that ;
+ return this.testForEquality() == Value.UNKNOWN;
+return that.isEmptyType(this)? null : that;
+return that.isEmptyType() ?  this : that. asEmptyType();
+ return this.isEmpty(that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isObject()? that.getTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that
+ return that == this? EMPTY: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.NONE : that ; }
+ if (that.isObject()) { return that; } else
+ return this instanceof Boolean? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  that : this ; }
+return that.isEmptyType(that)? that : that == that ;
+ return this. isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE; } else { }
+ if (that.isEmptyType()) { return null; } else
+return that.isEmptyType(that.isEmptyType());
+ return this. isEmptyType()? TernaryValue.UNKNOWN : TernaryValue.TRUE ; } public boolean other {
+return that.isEmptyType(testForE);
+ return (TernaryValue)that.value.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return null;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return this;
+return that.testFor equality();
+return that.isEmptyType() && false;
+ return that == this? this: TernaryValue.UNKNOWN;
+ return this. isEmptyType()? TernaryValue.TRUE : TernaryValue.UNKNOWN; } public boolean other {
+ return (that!= null) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; return testForEquality
+ return TernaryTRUE : TernaryValue.UNKNOWN;
+ return this.isTestForEqualityBoolean() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  testForEquality
+return that.isEmptyType() == false;
+ if (that!= null)
+ return that.isObject();that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; return this ;
+return that. visit ( this ) ;
+ return this!= that?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isInterface()?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue. _UNKNOWN;
+return that.value();
+ if (that.isEmptyType()) { return false; } else
+return that.isEmptyType() ? TernaryValue. empty ( ) ;
+ return that.testForEquality(), Type.UNKNOWN;
+return that.isEmptyType() ?  this : that. toString();
+return that.isEmptyType() && this == that ; }
+ return that == this;
+ return this == that && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this. testForEquality ( this.UNKNOWN;
+ return testForValue(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } return this ;
+ return this.testForEquality()!= Type.UNKNOWN;
+ return this == that || that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return testForEquality()that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  null : that. getType ( )
+return that.isEmptyType() ? TernaryValue.NONE : TernaryValue.;
+return that.isEmptyType() == true;
+ return this.testForEquality() == Type.UNKNOWN;
+ return testForEqualityThat.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testForEquality(), Type.UNKNOWN;
+ return this. testForEquality (that).UNKNOWN;
+ return that? TernaryValueType.TRUE : TernaryValue.UNKNOWN;
+ return Tern.UNKNOWN;
+ return Value.TRUE : TernaryValue.UNKNOWN;
+ return that!= this? -1: TernaryValue.UNKNOWN;
+ return this. testForEquality ( this).UNKNOWN;
+ return that.isObject() && that.optional? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that?: TernaryValue.UNKNOWN;
+ return this &&!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(that)? null : that
+return that.isEmptyType(this); }
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; return testForEquality();
+ return this.isObject? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; return null ;
+return that.isEmptyType(this, that); }
+ return (int) that;
+return that.isEmptyType() && that == this;
+ return testForEquality? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this : that. isEmptyType ;
+ if (that.isEmptyType()) { }
+ return this. testForEquality ( ) #UNKNOWN;
+ return TernaryValueImpl.UNKNOWN;
+ if (!that.isEmpty())
+ return testFor equality(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality = true ;
+ if (this == that)
+ return this == that? UNKNOWN: TernaryValue.UNKNOWN;
+ if (!that)
+return that.isEmptyType() &&!this;
+return that.isEmptyType() ? TernaryValue.TRUE  : ternaryValue;
+ return this.testEquality;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; } return this ;
+ return TENSOR_UNKNOWN;
+ return that;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that.isEmptyType()) {
+ return TernaryValueNative.UNKNOWN;
+ return this. testForEquality? #UNKNOWN;
+return that.isEmptyType(testForEquality
+ return ternaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.NONE :
+ return TernaryValueFactory.UNKNOWN;
+ if (!that) {
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } return this ;
+ return this.testForEqualityType.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.FALSE ; return this;
+return that.isEmptyType() ? TernaryValue. EMPTY : that
+ return!that && that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that == this? null :TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that == null) return null;
+ return this.testForEquality()::UNKNOWN;
+ return that.isNoType()TernaryValue.UNKNOWN;
+ return this.testForEquality()=UNKNOWN;
+return that.isEmptyType() ?  that : this. value ;
+return  this. testForEquality
+ return JSType.testForEqualityTrue() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.createEmptyValue ( this, that ) : that
+ return that. testForEquality? #UNKNOWN;
+return that.isEmptyType(that).isEmptyType();
+ return that? ENUM: TernaryValue.UNKNOWN;
+ return TernaryValueKind.UNKNOWN;
+ return booleanValue.TRUE : TernaryValue.UNKNOWN;
+ return this.empty=that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.visit(testFor);
+ return that.isNotNull() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that instanceof Object?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return testForEquality();
+ return that.object() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return that ;
+return that.isEmptyType() ? TernaryValue.ofEmpty (that) : that;
+return that.isEmptyType() ?  true : false;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; return this;
+ return this.testForEquality() Boolean.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; return this ; }
+return that.isEmptyType() ? TernaryValue.createEmptyValue ( that ) : this ; }
+return that.isEmptyType(this, this); }
+ return this.testForEquality() Value.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.createEmptyValue ( that ) : that
+ return that.testForEquality(), Value.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.createEmpty ( that ) : that ;
+return that.isEmptyType() ?  this : that. value ; }
+ return testForEquality() that;
+return that.isEmptyType() ?  this : that. emptyValue ;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; } return null ;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return this ; }
+ return this? that : null;
+return that.isEmptyType() ? TernaryValue.NONE ;
+ return that.isFunction()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() && true;
+ return this == that? "TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(testEquality);
+ return JSType.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } return null ;
+ return!isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return it.isObject()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : -1;
+ return this === that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } public boolean isObject() {
+return that.isEmptyType() ? TernaryValue.TRUE  : testForEquality
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality ( ;
+ return that.is() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isEquality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.testForEquality
+ return isType(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.prototype.that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this? this: TernaryValue.UNKNOWN;
+ return that.isEquality;
+return  this. value ;
+return that.isEmptyType() ? TernaryValue.Unknown : that ;
+return that.isEmptyType() ? TernaryValue.TRUE  : this;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that) return that;
+return that.isEmptyType() ? TernaryValue.TRUE _NULL : that;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } public boolean isEmpty() {
+ return this. testForEquality ( that ) ; } ;
+return  testForEquality;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } public boolean isObject() {
+ return TernaryValue;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that == null)
+ return testForEquality()? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that.isEmptyType())
+ return that.isInterface? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.visit(test); }
+return that. test ( this);
+ return this? that : this;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } return this ; }
+ return Equality.TRUE : TernaryValue.UNKNOWN;
+ return this.testForTernaryValue.UNKNOWN;
+return that.isEmptyType() &&!null;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return that. test ( ) ;
+return that.isNull();
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } public boolean isEmpty() {
+ return that == JvmTernaryValue.UNKNOWN;
+ return testForEquality == Value.UNKNOWN;
+ return (null)that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.testEquality().UNKNOWN;
+ return this.test(that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ if (that)) {
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return that ; }
+ return!TRUE : TernaryValue.UNKNOWN;
+ if (!empty) {
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; this. testForEquality ( {
+ return that.compatible? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TERNARY.UNKNOWN;
+ return this: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.FALSE ; } public boolean isEmpty() {
+return that.isEmptyType() ? TernaryValue : null
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that == this)
+return that.isEmptyType() ?  undefined : that ; }
+return that.isEmptyType() ? TernaryValue. empty (that);
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NEGATIVE ; return this. value ;
+return that.isEmptyType() ?  true : false
+return that. testEquality();
+ return this. testForEquality ( that, that ) ; }
+ return that.equality() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that? thatValue: TernaryValue.UNKNOWN;
+ return that? this: TernaryValue.UNKNOWN;
+ return (void)that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return ternaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this?: TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return this. value ;
+return that.isEmptyType() ? TernaryValue. empty : that
+ return this.empty==that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.is() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that == JsTernaryValue.UNKNOWN;
+ return TernaryValue#UNKNOWN;
+return that.isEmptyType() ? TernaryValue : emptyValue ;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; if (that.isEmpty())
+ return that.isIsNoType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptythat.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  that : that ; }
+ return this.testFor equality;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } public boolean isType() {
+ return isInterface?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } public boolean isNull() {
+ return that == that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.NONE ; } return this. type ;
+ if (!that)) {
+ return that.isNotType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (this) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE _NULL : null;
+return that.isEmptyType() ? TernaryValue.NONE : this ; }
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } return null ; }
+ return (T) this;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; return that. value ;
+ return this ===!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return check(that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(this, that, false);
+return that.isEmptyType() ? TernaryValue.NONE : this;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; } return this ; }
+ return that instanceof this;
+return that.isEmptyType() ? TernaryValue.NullEmptyValue : that ;
+ return this!= that;
+ return isObject? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this.equalsToTernaryValue.UNKNOWN;
+ return TernaryValueCompat.TRUE : TernaryValue.UNKNOWN;
+ return that? { }: TernaryValue.UNKNOWN;
+return that.isEmptyType(that.isEmpty());
+return that.isEmptyType(test); }
+return that!= this ;
+return that.isEmptyType() ? TernaryValue.NONE : ternary;
+return that.isEmptyType() || this;
+ return TARGET_UNKNOWN;
+ return Tuple.TRUE : TernaryValue.UNKNOWN;
+ return TUE_UNKNOWN;
+return that.isEmptyType(this, this);
+ return ENUM_UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : this ; }
+ return that instanceof JvmTernaryValue.UNKNOWN;
+ return Type.UNKNOWN;
+ return TernaryValue.Value.TRUE : TernaryValue.UNKNOWN;
+ return? that: TernaryValue.UNKNOWN;
+ return isEnabled() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN ; testForEquality
+ return that? EQ: TernaryValue.UNKNOWN;
+ this = that;
+ return that.that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.compatible() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isNull()TernaryValue.UNKNOWN;
+ return ObjectType.UNKNOWN;
+ return!that.type.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return T_UNKNOWN;
+return that.isEmptyType() ? TernaryValue.VALUE : that ; }
+ return this.equals()TernaryValue.UNKNOWN;
+ return thatTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  this; }
+return that ; }
+ if (that)
+return that.isEmptyType() ? TernaryValueNull : that ;
+ return TEST_UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : false;
+return that.isEmptyType() ? TernaryValue.NullEmptyValue : that ; }
+ return (int)TernaryValue.UNKNOWN;
+ return this === that;
+return that.isType();
+ return that? "?": TernaryValue.UNKNOWN;
+ return that!= JvmTernaryValue.UNKNOWN;
+ return that? "TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return -1;
+ return this.testFor (TernaryValue.UNKNOWN;
+ return NULL_UNKNOWN;
+return that.getValue();
+return that.isEmptyType() ? TernaryValue.NULL : that
+ return that.isType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that.isArray() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return Boolean.UNKNOWN;
+ return TYP_UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE :  Ternary;
+return that.isEmptyType() ? TernaryValue.TRUE  : null
+return that.isEmptyType() ? TernaryValue : this ;
+ return.TRUE : TernaryValue.UNKNOWN;
+return  this. value ; }
+ return (true) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return!that;
+return that.isEmptyType() ? TernaryValue.TRUE  : null ; }
+ return TValue.UNKNOWN;
+ return that? BooleanValue.TRUE : TernaryValue.UNKNOWN;
+ return this.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  false : true
+ return this? BooleanValue.TRUE : TernaryValue.UNKNOWN;
+ return Values.UNKNOWN;
+ return that!=TernaryValue.UNKNOWN;
+ return { Ternary.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  that : this
+return that.isEmptyType() ? TernaryValue.TRUE :  ternary;
+ return TypeEnum.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : this
+ return { type: TernaryValue.UNKNOWN;
+ return equals() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return ITernaryValue.UNKNOWN;
+ return TypeEquality.UNKNOWN;
+ return this&&that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return _TRUE : TernaryValue.UNKNOWN;
+ return TernaryValue::UNKNOWN;
+ return that == DefaultTernaryValue.UNKNOWN;
+ return this == TARGET_UNKNOWN;
+return that.isEmptyType() ?  false :
+ return TernaryValueTRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  this :
+ return that == ITernaryValue.UNKNOWN;
+return that.isEmptyType(testFor);
+ return TesternaryValue.UNKNOWN;
+return that.isInterface();
+ return that? DefaultTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN.VALUE;
+ return DefaultTernaryValue.UNKNOWN;
+ return UNTRUE : TernaryValue.UNKNOWN;
+ return SemanticValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.VALUE : that
+ return isUnion? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return that == GenericTernaryValue.UNKNOWN;
+ return this<that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ { return this;
+return that.isEmptyType() ?  true :
+ return isFunction() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that == this ; }
+ return ternary.TRUE : TernaryValue.UNKNOWN;
+ return BooleanValue.UNKNOWN;
+ return (isObject) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return isInterface() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isType (that);
+ return this.TernaryValue.UNKNOWN;
+ return that == _TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.NULL;
+return that.isObject(this);
+ return (!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TypeTernary.UNKNOWN;
+return  null;
+return that.visit(test);
+ return this? Boolean.TRUE : TernaryValue.UNKNOWN;
+ return this.TRUE : TernaryValue.UNKNOWN;
+ return eql? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return Ternary::TRUE : TernaryValue.UNKNOWN;
+ return Equality.UNKNOWN;
+ return NTUNKNOWN;
+ return (testCase) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(true);
+ return IntegerValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(null); }
+ return isArray() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ { return that;
+return that.isEmptyType() ? TernaryValue : this
+ } return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this||TernaryValue.UNKNOWN;
+ return terredValue.TRUE : TernaryValue.UNKNOWN;
+ return null: TernaryValue.UNKNOWN;
+ return TValue.TRUE : TernaryValue.UNKNOWN;
+ return ValueEquality.UNKNOWN;
+ return value.TRUE : TernaryValue.UNKNOWN;
+ return TupleValue.TRUE : TernaryValue.UNKNOWN;
+ return isType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ?  undefined :
+ return { value: TernaryValue.UNKNOWN;
+ return (!that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType(null);
+ return (that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return?TRUE : TernaryValue.UNKNOWN;
+ return testable? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE  : false
+ return that.TRUE : TernaryValue.UNKNOWN;
+ return test() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return TUNKNOWN;
+ } else {
+return that.isEmptyType() ? TernaryValue.Unknown ;
+ return $UNKNOWN;
+return that.isEmptyType(false);
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN$N;
+ return it?TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return? Value.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN_VALUE();
+return that.isEmptyType() ? TernaryValue.NULL :
+ return UNUNKNOWN;
+ return true;
+return that.isEmptyType() ? TernaryValue :: empty
+ return false;
+ return null;
+ return check() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return  null; }
+ return _TernaryValue.UNKNOWN;
+ return SimpleTernaryValue.UNKNOWN;
+ return equal() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return?: TernaryValue.UNKNOWN;
+ return this;
+ return (isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return Void.UNKNOWN;
+ return JavaTernaryValue.UNKNOWN;
+ return thisTernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType()  == true
+return that.isEmptyType() ? TernaryValue : ;
+ return DefaultTernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return!TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.equality();
+return that.isEmptyType() ? TernaryValue.TRUE  : undefined
+return that.prototype;
+ if (!that).
+ if (that).
+return that.test();
+return that.isEmptyType()  == false
+return that.isEmptyType() ? null
+ return true? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return this) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return (!isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType()  || this
+ if (...)
+ return it.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return undefined: TernaryValue.UNKNOWN;
+ return!this.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that instance;
+ return that) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ assert Boolean.TRUE : TernaryValue.UNKNOWN;
+ return Result.TRUE : TernaryValue.UNKNOWN;
+ return (!) ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ return other.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType ( )
+ return compatible? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ } {
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;...
+return that ; return
+ test=TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWNS ;
+ }!that.isEmptyType() ? TernaryValue.TRUE : TernaryValue.UNKNOWN;
+ #
+ {
+return that.isEmptyType() ? TernaryValue.TRUE | TernaryValue.UNKNOWN;
+return that.isEmptyType() ? TernaryValue.TRUE, TernaryValue.UNKNOWN;
+return that.isEmptyType() || TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() && TernaryValue.TRUE : TernaryValue.UNKNOWN;
+return that.isEmptyType() == TernaryValue.TRUE : TernaryValue.UNKNOWN;

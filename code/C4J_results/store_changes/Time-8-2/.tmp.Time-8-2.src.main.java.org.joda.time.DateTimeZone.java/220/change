@@ -1,0 +1,583 @@
+return fixedOffsetZone(id, offset);
+ return id;
+ return forOffset(id, offset);
+return  DateTimeZone ;
+return fixedOffsetZone(id);
+ return DateTimeZone(id);
+return fixedOffsetZone(id, offset) ; }
+ return forOffsetHours(id, offset);
+ return DateTimeZone.UTC;
+ return DateTimeZone(offset);
+return fixedOffsetZone(cProvider, id, offset);
+ return forOffset(offset);
+return  DateTimeZone.forID(id, offset);
+ return forOffsetMinutes(id, offset);
+ return for(id, offset);
+ return forOffsetHoursMinutes(id, offset);
+ if ( id!= null ) {
+ } else { id = DateTimeZone.fixedOffsetZone(id, offset);
+ return DateTimeZone.fixedOffsetZone(id, offset);
+return  DateTimeZone. UTC ; } return id ;
+return fixedOffsetZone(id, offset) ; } else { id = - 1 ;
+ return DateTimeZone.UTC(id);
+ if ( id!= - 1 ) {
+ return (id);
+return fixedOffsetZone(id, offset) ; } } else { return null ;
+return  DateTimeZone. UTC ; } } }
+return  DateTimeZone.UTC; } }
+return fixedOffsetZone(id, offset) ; } return null ;
+ } else { id = cProvider.fixedOffsetZone(id, offset);
+return fixedOffsetZone(id, offset) ; } else { id = "UTC" ;
+ }
+ if ( id == 0L ) { return DateTimeZone ;
+ } else { id = forOffsetMinutes(id, offset);
+ return forOffset(id);
+ return DateTimeZone.prefixedOffsetZone(id, offset);
+ } if ( id!= - 1 ) {
+ return getfixedOffsetZone(id, offset);
+ if ( id == - 1 ) { return DateTimeZone ;
+ return (id, offset);
+ return DateTimeZone.of(offset);
+return fixedOffsetZone(id, offset) ; } else { id = offset ;
+ return DateTimeZone.of(id);
+return fixedOffsetZone(id, offset, 0);
+ return (offset);
+ if ( id == 0L ) { return DateTimeZone.UTC; }
+ return ( DateTimeZone )
+return fixedOffsetZone(id, -offset);
+ } if ( id. startsWith("+") || id. startsWith("-")) { int offset = offset ;
+ } if ( offset!= - 1 ) {
+return fixedOffsetZone ( id )
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(id); }
+return fixedOffsetZone(id, offset) ; } } else { id = null ;
+return  DateTimeZone.UTC; }
+ return DateTimeZone.UTC(offset);
+ } if ( offset!= 0 ) {
+return fixedOffsetZone(id, offset) ; } else { return null ;
+ } else { id = printOffset(id, offset);
+ if ( id!= null ) { return getUnfixedOffsetZone(id, offset);
+ if (id!= null)
+ return new DateTimeZone(offset);
+ } else { id = forOffsetHours(id, offset);
+return fixedOffsetZone(id, offset) ; } else { id = id + offset ;
+ return parse(id);
+return fixedOffsetZone(id, offset) ; } else { id = "GMT" ;
+ return DateTimeZone.getUnfixedOffsetZone(id, offset);
+ if ( offset!= - 1 ) {
+ } if ( id!= null && id!= "UTC" ) {
+ return DateTimeZone.UTC.format(id);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(id, offset); }
+ } if ( id. startsWith("+") || id. startsWith("-") ) {
+ } if ( id!= null ) {
+ return DateTimeZone.UTC.forID(id, offset);
+return fixedOffsetZone(id, offset) ; } else { id = null ;
+ return DateTimeZone.TZ;
+ if ( id!= null ) { return forOffset(id, offset);
+ } if ( id!= null ) { offset = parseOffset ( id ) ; } if ( offset!= - 1 ) {
+ } if ( id. startsWith("+") || id. startsWith("-"") ) {
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset += offset ;
+ } return forOffsetHoursMinutes(id, offset);
+ } if ( id!= null ) { if ( offset!= 0 ) {
+ } if ( id == - 1 ) { return null ; } if ( id!= - 1 ) { offset = parseOffset ( id ) ;
+ } if ( offset!= - 1L ) {
+ return forOffsetOffset(id, offset);
+ } if ( id!= null ) { offset = parseOffset ( id ) ; if ( offset!= - 1 ) {
+return fixedOffsetZone(id); }
+ if ( offset!= 0 ) {
+ if ( id == 0L ) { return DateTimeZone.UTC }
+ } if ( id!= null ) { offset = parseOffset ( id ) ;
+return  DateTimeZone.UTC; return id ;
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(id);
+ } if ( id!= null && offset!= 0 ) {
+ return DateTimeZone.forOffset(offset);
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset = 0 ;
+ return id);
+ } if ( id!= null ) { if ( offset!= - 1 ) {
+ return forOffsetInHours(id, offset);
+ return DateTimeZone.forOffset(id);
+ } if ( id!= null ) { offset = parseOffset ( id, offset ) ;
+ } else { id = getUnfixedOffsetZone(id, offset);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(offset, id); }
+ } if ( id!= null ) { if ( offset > 0 ) {
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset = 0L ;
+ return DateTimeZone.GMT+offset;
+ } if ( id. startsWith("+") || id. startsWith("-")) { int offset = 0;
+ return DateTimeZone.UTC.with(id);
+ } if ( id!= null ) { offset = parseOffset ( id ) ; if ( offset!= 0 ) {
+return fixedOffsetZone(id, offset) ; } else { id = 'UTC' ;
+return fixedOffsetZone.UTC; } else { id = offset ;
+return fixedOffsetZone(id, offset) ; } } else { id = "UTC";
+ if ( id!= 0L ) {
+ if ( id!= null ) { return getfixedOffsetZone(id, offset);
+return fixedOffsetZone(id, offset, zone);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(id); } }
+ } if ( id!= null && id!= offset ) {
+ } else { id = printOffset ( id ) ;
+return fixedOffsetZone(id, offset) ; } } }
+ return DateTimeZone.TZ);
+return  DateTimeZone. UTC + id ;
+ } if ( id!= null && offset ) {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == "UTC" ) {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(offset); }
+return  DateTimeZone.UTC; } return id
+ if ( id!= null ) { return forUnfixedOffsetZone(id, offset);
+ } if ( id!= null && offset!= 0 )
+ if ( offset == - 1 ) { return null ; }
+return fixedOffsetZone(DateTimeZone.UTC, id, offset);
+return fixedOffsetZoneForOffset ( id ) ;
+ return new DateTimeZone(id);
+ } if ( id!= null && id!= - 1 ) {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == "GMT" ) {
+ return getDateTimeZone(offset);
+ return DateTimeZone.of(id, offset);
+ } else { id = printOffset ( id + offset ) ;
+return  DateTimeZone. ISO8601 ;
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == - 1 ) {
+ } if ( id. startsWith("" ) { offset = parseOffset ( id, offset ) ;
+ } if ( id. startsWith("+") || id. startsWith("-")) { int offset;
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset ( id, offset ) ;
+return fixedOffsetZoneForOffset ( offset ) ;
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset ++ ;
+ if ( id == -L) { return null;
+ } if ( id == - 1 ) { return null ; } if ( offset!= 0 ) {
+ return DateTimeZone.forOffset(id, offset);
+ return DateTimeZone.ZONE;
+ if ( id!= null ) { offset = parseOffset ( id, offset ) ;
+return  DateTimeZone. UTC ; } return null ;
+ } else { id = printOffset(offset); }
+ if ( id == 0L ) { return UTC ; }
+ if ( id!= null ) { return _fixedOffsetZone(id, offset);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id!= 0L ) {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = printOffset(offset); } }
+ } if ( id!= null ) { if ( offset > 0L ) {
+ } if ( id!= null ) { offset = parseOffset ( id, - 1 ) ;
+ } if ( id == - 1 ) { id = 0L ; } if ( id == - 1 ) { return null ; }
+ if ( id == 0L ) { return null;
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset += 1 ;
+ } if ( id == - 1 ) { return null ; } if ( offset > 0 ) {
+ } else { id = printOffset ( offset + 1 ) ;
+ } if ( offset == - 1 ) { return null ; } else {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == -L ) {
+return fixedOffsetZone(id, offset, id ) ;
+ return id, offset);
+ return new DateTimeZone();
+ return id ; }
+ } if ( id!= null && id!= "UTC")) {
+ if ( id!= null ) { offset = parseOffset ( id, offset ) ; }
+return fixedOffsetZone(id, offset) ; } } else { return getDefault();
+ return DateTimeZone.UTC.with(id, offset);
+ if ( id == "UTC" ) {
+ return forOffsetHoursHours(id, offset);
+ return DateTimeZone.UTC+offset;
+return fixedOffsetZoneForOffset ( id, offset ) ;
+return fixedOffsetZone(id, offset) ; } } return null ;
+ } else { id = UTC ; } return _fixedOffsetZone(id, offset);
+ return DateTimeZone.NONE;
+ return DateTimeZone.forOffsetOffset(id, offset);
+ } if ( offset == 0L ) { return DateTimeZone.UTC; }
+ } if ( id. startsWith("+") || id. startsWith("-")) { offset --;
+ } if ( id!= null ) { if ( offset > - 1 ) {
+ } if ( id. startsWith("*") || id. startsWith("*") == 0 ) {
+ return DateTimeZone.parse(id);
+ return DateTimeZone.createUnfixedOffsetZone(id, offset);
+ } if ( id!= null && id!= "-" ) {
+return fixedOffsetZone(id, offset) ; } else { id = ' ' ;
+ if ( id!= null ) { offset = parseOffset ( id ) + offset ; }
+ } if ( id == - 1 ) { id = 0L ; } if ( id!= - 1 ) { offset = - 1 ;
+ return DateTimeZone.UTC.set(id, offset);
+ return DateTimeZone.GMT; }
+ } if ( id!= null && id!= "GMT" ) {
+ } if ( id!= null ) { if ( offset ) {
+ if ( id == - 1 ) { return null ; }
+return  DateTimeZone. UTC ; } return zone ;
+ return DateTimeZone.UTC.prefixedOffsetZone(id, offset);
+return fixedOffsetZone(offset, id);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } else { id = "UTC"; }
+ } if ( id == - 1 ) { id = 0L ; } if ( id == - 1 ) { return null }
+ } else { return DateTimeZone.fixedOffsetZone(id, offset);
+ return forOffsetDateTimeZone(id, offset);
+ } if ( id!= null && offset > 0 ) {
+ if ( id == - 1 ) { return UTC ; }
+ } if ( id == - 1 ) { id = 0L ; } if ( id!= - 1 ) { offset += id ;
+ return forOffsetDaysMinutes(id, offset);
+ } if ( id!= null && offset > 0 )
+ } else { id = printOffset ( offset + 1 )
+ return ( DateTimeZone ) zone
+ } if ( id!= null ) { if ( fixedOffset ) {
+ } else { id = printOffset(offset);
+ offset = parseOffset(id); return forOffset(id, offset);
+ return DateTimeZone.UTC.withOffset(id, offset);
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == - 1 ) { return null }
+ return DateTimeZone.UTC.with(offset);
+ return DateTimeZone.(id);
+ if (id) {
+ return DateTimeZone.UTC.of(offset);
+ return DateTimeZone.UTC.add(id);
+ } if ( offset > - 1 ) {
+ return new DateTimeZone ( )
+ return DateTimeZone.forOffsetHours(id, offset);
+ if ( id!= 0 ) {
+ return DateTimeZone.forID(id);
+ return of(id, offset);
+ } } else {
+ } if ( id!= null && id!= 0 ) {
+ } if ( id. startsWith("+") || id. startsWith("-")) { try {
+ if ( id == - 1 ) { return DateTimeZoneUTC
+ } if ( id!= null ) { offset = parseOffset ( id ) ; }
+ } return forOffsetMinutes(id, offset);
+ return forOffsetDatetimeZone(id, offset);
+ return getZone ( id ) ;
+return fixedOffsetZone. ofOffset ( id, offset ) ;
+ if ( offset > 0 ) {
+ } if ( id == 0L ) { return DateTimeZone.UTC ; } if ( id == - 1 ) { return null ; }
+ return DateTimeZone.UTC.at(offset);
+ } else { id = UTC ; } return getfixedOffsetZone(id, offset);
+ } else { id = getfixedOffsetZone(id, offset);
+return fixedOffsetZone ( id ) ; } return null ;
+ } if ( id!= 0L ) {
+ return getUnfixedOffsetZone(id, offset);
+ return dateTimeZone(id);
+return fixedOffsetZone(id, id, offset, zone);
+ if ( id!= null ) { offset = parseOffset ( id, offset ) }
+ return DateTimeZone.UTC.set(id);
+return  DateTimeZone.UTC; } return {
+return fixedOffsetZone(id, offset) ; } } else { return null
+return fixedOffsetZone ( id ) ; } else { return null ;
+ return DateTimeZone.UTC; } return _fixedOffsetZone(id, offset);
+ } if ( id!= null ) { if ( fixed ) {
+return fixedOffsetZone(id, offset, 0L);
+ if (offset) {
+ } else { id = forOffsetMinute(id, offset);
+ return parseZone(id);
+return fixedOffsetZone ( id, offset )
+ return get(offset);
+return fixedOffsetZone. ofOffset ( id ) ;
+ return DateTimeZone.UTC; } return create(id, offset);
+ } if ( id == - 1 ) { return null ; } if ( offset > 0 )
+ } if ( id == - 1 ) { id = 0L ; } if ( id!= - 1 ) { offset += offset ;
+ } else { id = forOffsetOffset(id, offset);
+ return dateTimeZone(offset);
+ } if ( id. startsWith("+") || id. startsWith("-")) { } }
+ if ( id == -L) { return offset;
+ } else { id = printUnfixedOffsetZone(id, offset);
+ return DateTimeZone.UTC
+ return DateTimeZone.createTimeZone(id, offset);
+ return DateTimeZone.UTC.set(offset);
+ } if ( fixed ) {
+ return DateTimeZone.ISO(id);
+ return forOffsetHours(hoursOffset, offset);
+ return DateTimeZone.create(id);
+ zone = cProvider.getZone(id, offset);
+ return forOffset(id, zone, offset);
+ } if ( id!= null ) { if ( offset > 0 )
+return fixedOffsetZone ; }
+ return forID(id);
+return fixedOffsetZone ( id ) ; } } }
+ if ( id!= null && id!= offset ) {
+return  DateTimeZone. ofID(id, offset);
+ } else { id = forOffsetInHours(id, offset);
+return fixedOffsetZone.UTC; } else { id += offset ;
+return fixedOffsetZoneForOffset ( offset )
+return fixedOffsetZone(id, offset) ; } else { id = id ;
+ } if ( id!= null ) { offset = parseOffset ( id, offset ) ; }
+return fixedOffsetZone. ofOffset ( offset, id ) ;
+ return DateTimeZone.UTC(id, offset);
+ return DateTimeZone.UTC; return forOffset(id, offset);
+ return DateTimeZone.Of(offset);
+return fixedOffsetZone(id, zone, offset);
+ } else { return cProvider.fixedOffsetZone(id, offset);
+ return of(offset);
+ return DateTimeZone.getInstance(offset);
+return fixedOffsetZone. ofOffset ( offset ) ;
+return fixedOffsetZone(id, offset); } return id ;
+return fixedOffsetZone(id, 0, 0, offset);
+return fixedOffsetZone(id, offset) ; } else { id += offset ;
+ return forOffsetMinutes(offset);
+ return DateTimeZone.UTC.withOffset(offset);
+ if (id == 0L) { return (offset);
+return  DateTimeZone.UTC.of(id, offset);
+ return DateTimeZone.GMT();
+ return DateTimeZone.UTC + -offset;
+ return dateTimeZone.forID(id, offset);
+return fixedOffsetZone(id, offset); } return null ; }
+return fixedOffsetZone(id, offset) ; } return - 1 ;
+return fixedOffsetZoneForID ( id )
+ } if ( id!= null ) { offset = parseOffsetOffset ( offset ) ; }
+ if ( id == 0L ) { return DateTimeZone.UTC ;
+ if (id == 0L) { return (-offset);
+return fixedOffsetZone ( id ) ; } } return null ;
+ if ( id == 0L ) return null;
+ } if ( id!= null ) { offset = parseOffset ( id ) + offset ; }
+ return forOffsetInHours(offset);
+ if ( id!= null && id!= 0 ) {
+return fixedOffsetZoneForOffset ( id )
+return fixedOffsetZone(id, offset); } } return getDefault ;
+ return getDefault ( ) ;
+ } else { return getUnfixedOffsetZone(id, offset);
+ return DateTimeZone.UTC.atOffset(id, offset);
+return fixedOffsetZone(dateTimeZone.UTC, id, offset);
+ } if ( id!= null ) { offset = parseOffset ( id ) - offset ; }
+ return DateTimeZone.GMT;
+ if (id!= null) { returnfixedOffsetZone(id, offset);
+ return DateTimeZone.UTC.for(offset);
+ return dateTimeZone.of(offset);
+return fixedOffsetZone(offset, id); }
+return fixedOffsetZone(id, offset, 0, 0);
+ return forOffsetMinute(id, offset);
+ return forOffsetUTC(id, offset);
+ } if ( id. startsWith("+") || id. startsWith("-"")) { } }
+return fixedOffsetZone(id, id, offset, 0);
+return fixedOffsetZone(id, 0, offset);
+ } return DateTimeZone.fixedOffsetZone(id, offset);
+return fixedOffsetZone(id, id, offset);
+return fixedOffsetZone(id, offset) ; } return UTCZone ;
+ } return cProvider.fixedOffsetZone(id, offset);
+ } else { return forOffsetMinutes(id, offset);
+ return dateTimeZone.of(id, offset);
+return  DateTimeZone.getInstance(id, offset);
+ return DateTimeZone.localOffset(offset);
+ } if ( id. startsWith("+") || id. startsWith("-")) { } else
+ return DateTimeZone.getDefault(offset);
+return fixedOffsetZone(id, offset); } return zone ;
+ return forOffsetDays(id, offset);
+ return _fixedOffsetZone(id, offset);
+ return getDefault ( id);
+ } else { id = _fixedOffsetZone(id, offset);
+ return -1;
+ return DateTimeZone.UTC; return create(id, offset);
+ } else { return forOffset(id, offset);
+ if (fixed)
+ return DateTimeZone.createDefault(id);
+ return TimeZone.UTC;
+ return forUnfixedOffsetZone(id, offset);
+ } if ( offset == 0L ) { return DateTimeZone.UTC; } }
+ zone = getUnfixedOffsetZone(id, offset);
+ return DateTimeZone.create(id, offset);
+ return DateTimeZone.UTC.getInstance(offset);
+ return forOffsetOffsetMinutes(id, offset);
+return fixedOffsetZone(id, 0L, offset);
+return fixedOffsetZone ( id, offset ) ; } return {
+return fixedOffsetZone(id, offset); } }
+return fixedOffsetZone. of ( id ) ;
+return fixedOffsetZone(id, offset) ; } return dateTimeZone ;
+ if (id == 0L) { return -offset);
+ return cProvider.fixedOffsetZone(id, offset);
+ return forID(id, offset);
+return fixedOffsetZone ( id, offset, 0 )
+ } if (fixed)
+return fixedOffsetZoneId ( id ) ;
+return fixedOffsetZone(id, offset) ; } } else { return ;
+return fixedOffsetZone(id, offset, UTC) ;
+ return getZone(offset);
+ return DateTimeZone.forId(id, offset);
+ } else { id = printOffset(id;
+ return newZone(id);
+return fixedOffsetZone(id, offset, id, offset, id);
+ } else { id = printOffset(offset;
+ } }
+ } else {
+ return of(id);
+return fixedOffsetZone. ofOffset ( id )
+ return create(id, offset);
+return fixedOffsetZone ( id ) ; } } else { return null
+ } if ( id. startsWith("+") || id. startsWith("-")) { }
+ return DateZone.UTC;
+ return for(offset);
+ zone = cProvider.fixedOffsetZone(id, offset);
+return fixedOffsetZone(id, id + "-");
+ return forOffsetLocal(id, offset);
+ return getPrefixedOffsetZone(id, offset);
+ } return getUnfixedOffsetZone(id, offset);
+ return dateTimeZone;
+ if ( id == 0L ) { return null ; } } }
+ return with(id, offset);
+return fixedOffsetZone(id, offset, id, offset);
+ return forOffsetMillis(id, offset);
+ return parseOffset(offset);
+ return DateTimeZone.UTC);
+ return for(id);
+ return IDZone.UTC;
+ return forOffsetInDays(id, offset);
+return fixedOffsetZone ( offset ) ;
+ return DateTimeZone.CUT;
+return fixedOffsetZone(id, offset) ; } return { } ;
+ return forOffsetId(id, offset);
+return fixedOffsetZone(id, offset, 0.0);
+ return DateTimeZone.Zulu;
+ if (fixed) {
+ return null, offset);
+ return id + "+offset;
+return fixedOffsetZone(id, 0L);
+ return create(offset);
+return fixedOffsetZone(id, offset, -1);
+ return UTCZone ;
+ return format(id);
+ offset = 0;
+ return zone ; }
+ return getDefault(offset);
+ return offset ; }
+ if ( id!= null ) { return null ;
+return fixedOffsetZone(id, id, -1);
+ return new TimeZone(id);
+return fixedOffsetZone(id, id, zone, offset);
+ zone = forOffset(id, offset);
+ if ( id!= null ) { return null }
+return fixedOffsetZone(cProvider, zone, id, offset);
+ if ( id!= null ) { return id }
+ return DateTimeZone.UTC.unfixedOffsetZone(id, offset);
+ return getDateTimeZone(id, offset);
+return fixedOffsetZone(datetimeZone.UTC, id, offset);
+return fixedOffsetZone(id, offset, 0, offset);
+ zone = getZone(id, offset);
+return fixedOffsetZone(id, id, 0, offset);
+return fixedOffsetZone(id, offset) + id ;
+ return id + " ";
+ offset = 0L;
+ return forOffsetHours(offset);
+ return getTimeZone(offset);
+return fixedOffsetZone ( offset )
+ return parse(offset);
+return fixedOffsetZone(id, -1);
+ return DateTimeZone();
+ } else { id = offset;
+return fixedOffsetZone(id, - 1, offset);
+ if (offset)
+return fixedOffsetZone(id, offset) + offset;
+ offset += offset ;
+ return getDefault(_);
+ } zone = getUnfixedOffsetZone(id, offset);
+return fixedOffsetZone(id, offset)? id : offset ;
+return fixedOffsetZone(id, offset) + zone ;
+ return forOffsetInDays(offset);
+return fixedOffsetZone(id, offset) + ' ' ;
+return fixedOffsetZone(id, "-", offset);
+ } return getPrefixedOffsetZone(id, offset);
+ return get(id, offset);
+return fixedOffsetZone(cProvider, null, id, offset);
+ return forOffsetUTC(offset);
+ zone = getPrefixedOffsetZone(id, offset);
+ zone = getfixedOffsetZone(id, offset);
+return fixedOffsetZone(offset); }
+return fixedOffsetZone(id, hoursOffset);
+return fixedOffsetZone(id + "-", offset);
+ if (id) return id;
+ return new Zone(id, offset);
+return fixedOffsetZone(id, offset)? offset : id ;
+return fixedOffsetZone(id, -Offset);
+ return (, offset);
+ return $(id);
+ } return id ; }
+return fixedOffsetZone(id, offset) ; } return ;
+return fixedOffsetZone(offset, 0);
+return fixedOffsetZone(id + offset, offset);
+ return new Zone(offset);
+return fixedOffsetZone(id, offset, id, id, offset);
+return fixedOffsetZone(id, offset, 0, 0, 0);
+return fixedOffsetZone(id, offset, 0L, 0);
+return fixedOffsetZone(id, offset, "GMT+");
+ return dateTimeZone.UTC;
+ } return getDefaultUnfixedOffsetZone(id, offset);
+return  new DateTimeZone(id, offset);
+return fixedOffsetZone(DateTimeZone.GMT, id, offset);
+return fixedOffsetZone(id, offset) ; } return null
+ return getZone(id, offset);
+ return withOffset(id, offset);
+ return forID, offset);
+return fixedOffsetZoneId ( id )
+ set(id, offset);
+ return forOffset, offset);
+return fixedOffsetZone(cProvider, locale, id, offset);
+ return (ID, offset);
+ return new UnfixedOffsetZone(id, offset);
+ return (-offset);
+return fixedOffsetZone(id, offset, id + " + offset);
+return fixedOffsetZone(id, offset, id, 0, 0);
+return fixedOffsetZone(id, id); }
+return fixedOffsetZone(id, null, offset);
+return fixedOffsetZone(zone, id, offset);
+return fixedOffsetZoneFor ( id);
+return fixedOffsetZone(cProvider.locale, id, offset);
+return fixedOffsetZoneFor ( id )
+return fixedOffsetZone(id, id, id, offset);
+return fixedOffsetZoneObject ;
+return fixedOffsetZone(id), offset);
+ return forId(id, offset);
+return fixedOffsetZone(cProvider.default, id, offset);
+return fixedOffsetZone(cProvider.zone, id, offset);
+return fixedOffsetZone(cProvider, offset);
+ return $(offset);
+return fixedOffsetZone(id, offset, id + "-");
+return fixedOffsetZone(0, 0, id, offset);
+ parse(id, offset);
+return fixedOffsetZone(id, offset, 0L, zone);
+return fixedOffsetZone(id, offset, 0L, false);
+return fixedOffsetZoneId ;
+return  DateTimeZone.
+return fixedOffsetZone(id, offset, cProvider);
+ return Zone.UTC;
+return fixedOffsetZone(offset, id, id, offset);
+return fixedOffsetZone(id, offset, 0, zone);
+ } return - 1;
+ return "UTC;
+return fixedOffsetZone(offset, 0, id, offset);
+return fixedOffsetZone(hoursOffset, offset);
+return fixedOffsetZone(id, offset, 0, null);
+ return defaultZone;
+return fixedOffsetZone(id, 0);
+ } try {
+return fixedOffsetZone(id, id);
+ } } }
+ return zone.UTC;
+return fixedOffsetZone(id); *
+ print(offset);
+return fixedOffsetZone(id, offset, -59);
+return fixedOffsetZone(locale, offset);
+return fixedOffsetZoneImpl ;
+ print(id, offset);
+ return ((, offset);
+(id);
+return  null ;
+return fixedOffsetZone(iOffset);
+ return offset);
+return fixedOffsetZone(locale, id, offset);
+return fixedOffsetZoneUTC ;
+ return null);
+return fixedOffsetZone(id, offset, UTCOffset);
+return fixedOffsetZone(CProvider, id, offset);
+ return createfixedOffsetZone(id, offset);
+ return 0, offset);
+ } } else
+return fixedOffsetZone($1);
+return  offset ;
+return fixedOffsetZone(localOffset);
+ return unfixedOffsetZone(id, offset);
+return fixedOffsetZone(localId);
+ if ()
+return fixedOffsetZone(Zone, id, offset);
+return fixedOffsetZone($id);
+ return newfixedOffsetZone(id, offset);
+return fixedOffsetZone(sz, offset);
+return fixedOffsetZone(localOffset, offset);
+ return zone;
+return fixedOffsetZone(zoneProvider, id, offset);
+return fixedOffsetZone(id, offset) + offset
+return fixedOffsetZone(null, id, offset);
+ return ID;
+return fixedOffsetZone(id, offset) - UTC
+return fixedOffsetZone(offset, id, offset);
+return fixedOffsetZone(id, offset) + UTC
+return fixedOffsetZone(id,  offset));
+return fixedOffsetZone(id, offset) + id
+return fixedOffsetZone(tzZone, id, offset);
+return fixedOffsetZone(id, offset, false);
+return fixedOffsetZone(id, offset, null);
+return fixedOffsetZone(aid);
+return fixedOffsetZone(ID);
+return fixedOffsetZone(id, offset).*
+return fixedOffsetZone(id, zone);
+return fixedOffsetZone(id, delta);
+return fixedOffsetZone(Id, offset);
+return fixedOffsetZone(ID, offset);
+return fixedOffsetZone(oid);
+return fixedOffsetZone(url);
+return fixedOffsetZone(uid, offset);

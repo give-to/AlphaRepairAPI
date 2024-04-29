@@ -1,0 +1,960 @@
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(def)) ||
+if ((NodeUtil.isCall(callNode)) ||
+if ((NodeUtil.isCall(def) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects||
+if ((NodeUtil.isCall(callNode) && functionInfo) ||
+ if (functionInfo.mayHaveSideEffects()) ||
+ if (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction(def)) ||
+ if ((isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(def)) ||
+ functionInfo.mayHaveSideEffects()) ||
+ if ((def.mayHaveSideEffects()) ||
+if (hasSideEffects &&!
+ if (() && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) ||
+if ((NodeUtil.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.mayHaveSideEffects()) ||
+ if (def.isPure()) ||
+ if (hasSideEffects) {
+if ((NodeUtil.isFunction(callNode)) ||
+ if ((functionInfo.mayHaveSideEffects()) ||
+ if ((mayHaveSideEffects()) ||
+ if (functionInfo.isPure()||
+ if (hasSideEffects) { if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { if(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects = (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (((callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects &&!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((hasSideEffects) ||
+if  (hasSideEffects) { if
+ if ( ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects =!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isPure()) ||
+if ((NodeUtil.isCall(callNode)) &&!hasSideEffects) ||
+if ((hasSideEffects =
+if ((NodeUtil.isFunction(def))
+if  (hasSideEffects &&
+ if (isPure(def) ||
+if ((NodeUtil.isCall(callNode, functionInfo) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { continue; } if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { continue; } if
+ if (hasSideEffects)
+ if (functionInfo.isPure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { hasSideEffects = true ; } if
+if ((hasSideEffects ||
+ if (def.pure()) ||
+ if ( (NodeUtil.isPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  &&!hasSideEffects ||
+if ((NodeUtil.isCall(def))
+if ((NodeUtil.isCall(def, callSite) && functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects=((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { hasSideEffects = true ; if
+if ((NodeUtil.isCall(callNode) &&  functionInfo ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects) ||
+if ((NodeUtil.isCall(callNode) &&  functionInfo &&
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure()) ||
+ if (isPure(def) && functionInfo.mayHaveSideEffects()) ||
+ if (() ||
+ if (hasSideEffects) { if (!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects = (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects &&!
+if ((NodeUtil.isCall(callNode)  &&!hasSideEffects) ||
+if ((NodeUtil.isCall(callNode)) &&!hasSideEffects ||
+ if (hasSideEffects &&!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { if (hasSideEffects ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects) { if
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure() ||
+ if (()) ||
+if ((NodeUtil.isNoSideEffectsCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure()||
+if ((NodeUtil.isNew() ||
+ if (hasSideEffects = functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && hasSideEffects) ||
+ if ((def) && functionInfo.mayHaveSideEffects()) ||
+ if (||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { continue; } if
+if ((NodeUtil.isCall(callNode)) && functionInfo.isPure() ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { break; } if
+ if (functionInfo.pure()||
+ if (NodeUtil.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects && (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects) { if
+if ((NodeUtil.isFunction(callNode)) &&!
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { break; } if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { break; } if
+ if (hasSideEffects =!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects(functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesGlobalState()) ||
+if ((NodeUtil.isFunction(functionInfo)) ||
+if ((NodeUtil.isCall(callNode)) &&!
+ if ( (FunctionInfo.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  &&!
+ if (hasSideEffects && (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects && ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesGlobalState()||
+ if ((Node.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if  (!
+if ((NodeUtil.isCall(def.getRValue()) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { continue; }
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState()) ||
+if ((NodeUtil.isCall(callNode)) && functionInfo.isPure()) ||
+ if ( (NodeUtil.isFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isNew(callNode)) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { continue; } else if
+ if (functionInfo.mutatesLocalState()) ||
+ if (isPure(functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInfo.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo.function() ||
+ if (isPure(&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.is(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && functionInfo.isPure ||
+ if ( (functionInfo.isPure()&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { } else if
+if ((NodeUtil.isFunction(callNode) ||
+ if (hasSideEffects) { if (((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo.function) ||
+ if (hasSideEffects) { callNode.setIsNoSideEffectsCall();
+ if (NodeUtil.isFunction(def) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { hasSideEffects } else if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects ||
+ if (functionInfo.mutatesGlobalState()&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && functionInfo &&
+if ((NodeUtil.isCall(callNode)) || functionInfo ||
+ if ( (FunctionNodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); } else
+if ((NodeUtil.isFunction(callNode)) || functionInfo ||
+if ((NodeUtil.isFunction(callNode) &&!
+ if (defInfo.mutatesGlobalState()||
+if ((NodeUtil.isFunction(callNode))) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { continue; } else if
+ if (NodeUtil.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction(def));
+ if (def.isNew(callNode) && functionInfo.mayHaveSideEffects()) { hasSideEffects = true ; } else
+ if (hasSideEffects) { } else if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && hasSideEffects) ||
+ if (hasSideEffects) { hasSideEffects = true;
+ if (functionInfo.mutatesLocalState()||
+if ((NodeUtil.isCall(callNode.getParent()) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction(def) ||
+if ((NodeUtil.isCall(def, functionInfo) && functionInfo.mayHaveSideEffects()) ||
+if  (hasSideEffects) { if (
+if ((NodeUtil.isFunction(callNode)) { } else if
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { } else if
+ if (hasSideEffects = (def.mayHaveSideEffects()) ||
+if ((NodeUtil.isNew(def))
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { break; } else if
+ if (def.isNew(callNode) && functionInfo.mayHaveSideEffects()) { hasSideEffects = true ; break; }
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState())) { } else if
+if ((NodeUtil.isFunction(callNode)) && functionInfo &&
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall();
+ if ( (FunctionInfoNodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && (functionInfo.isPure())) ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } if
+ if (def.isNew(callNode) && functionInfo.mayHaveSideEffects()) { hasSideEffects = true ; }
+if (((NodeUtil.isPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isNew(callSite)) ||
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); } else {
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsPure(); } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { hasSideEffects = true if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if
+ if (functionInfo.mayBePure(&& functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } else
+ if (Node.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isNew(callNode) && functionInfo ||
+ if (FunctionInfo.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects || functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isNew(def)) ||
+ if (defInfo.isPure()||
+if ((NodeUtil.isCall(callNode))) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { continue; } else if
+if ((NodeUtil.isCall(callNode)  && hasSideEffects ||
+ if ( (functionInfo.mayBePure()&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && functionInfo.function() ||
+ if (def.isNew(callNode) && functionInfo.mayHaveSideEffects()) { hasSideEffects = true ; } } else
+if (def &&
+if ((NodeUtil.isCall(callNode)) && functionInfo) ||
+ if (defInfo.isNew(callNode) && defInfo.mayHaveSideEffects()) { hasSideEffects = true ; } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState()) { break; } if
+ if (isPure &&((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((functionInfo.isPure() ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { break; } if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { if (hasSideEffects ||
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsCall(); } else
+ if (isNoSideEffectsCall &&!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure()) { continue; }
+ if (def.isNew(callNode) && defInfo.mayHaveSideEffects()) { hasSideEffects = true ; } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { continue; } if
+if ((NodeUtil.isCallable(callNode)) { continue; } if
+if ((NodeUtil.isCall(callNode)) && hasSideEffects ||
+ if ((&& functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure() ||(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode) && functionInfo.mayHaveSideEffects()) { hasSideEffects = true ; } else
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; } else
+if ((NodeUtil.isCall(callNode) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { } else if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { break; } else if
+if  (isNew(callNode) ||
+ if (if(functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); }
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { break; } else if
+ if (hasSideEffects) { callNode.setIsPure(); } else
+ if (NodeUtil.is(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isNew(callNode) && defInfo.mayHaveSideEffects()) { hasSideEffects = true ; }
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { if (hasSideEffects &&
+ if (defInfo.mayBePure()) { callNode.setIsPure(true); }
+ if (defInfo.mayHaveSideEffects()) { functionInfo.setIsNoSideEffectsCall(); } else {
+ if (defInfo.isNew(callNode) && defInfo.mayHaveSideEffects()) { hasSideEffects = true; }
+ if (functionInfo.isPure(?)||
+ if (hasSideEffects || (def.mayHaveSideEffects()) ||
+ if (&& functionInfo.mayHaveSideEffects()) ||
+ if ( (NodeUtil.isPureCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure(...)||
+ if (hasSideEffects) { hasSideEffects = false;
+ if (def && (functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); } } else
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsCall(); }
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); }
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure(def)) ||
+ if (isPure||
+if ((NodeUtil)!
+ if (def.isPure(()) ||
+if  (isNew(def) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; }
+ if (!hasSideEffects) {
+ if (functionInfo.mayBePure()&& functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsPure(); } } else
+ if (def.isPure()) { callNode. setIsNoSideEffectsCall(); } } if (hasSideEffects) {
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } } else { if
+ if ( (NodeUtil.isNew().isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (FunctionInformation NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsCall(); } } else
+ if (defInfo.mayBePure()) { callNode.setIsPure(); } else
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsCall(); } else {
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects) { } if
+ if ((functionInfo.isPure()) ||
+ if (hasSideEffects && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsPure(); } else {
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects) if
+ if (def.isPure()) { if (hasSideEffects) {
+ if (def.isPure()) { hasSideEffects = true;
+ if (isPure(functionInfo) ||
+ if (isPure() ||
+ if (functionInfo.isPure()&& functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { hasSideEffects = true;
+ if ( (NodeUtil.isNew(isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { if(!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInformation.isPure(def) && functionInfo.mayHaveSideEffects()) ||
+ if (((hasSideEffects) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayHaveSideEffects()) { hasSideEffects = true ; } else
+ if (def.isNew(callNode)) { hasSideEffects = true ; } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } } else
+ if (hasSideEffects) { callNode.setIsPure(true);
+if ((NodeUtil.isCall(def));
+ if (def.isPure()) { callNode. setIsNoSideEffectsCall(); } } if (hasSideEffects)
+ if ((isPure(def) && functionInfo.mayHaveSideEffects()) ||
+ if (isPure(callNode) ||
+ if (defInfo.mayBePure()) { if (hasSideEffects) ||
+ if (hasSideEffects((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { break; }
+ if (isPure(def)) ||
+ if ((functionInfo.isPure())) ||
+ if (functionInfo.isPureFunction()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { if (hasSideEffects) { if
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } } } else
+if ((NodeUtil.isNew(callNode)) ) { if
+if ((NodeUtil.isFunction(callNode)) ) { if
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } else if
+ if (hasSideEffects=||
+if  (def ||
+ if ( (def && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState()) { continue; } if
+ if (defInfo.mayBePure()) { if (hasSideEffects &&!
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects) ||
+ if (functionInfo.isPure(callNode) ||
+ if (functionInfo.mutatesLocalState()&& functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects || ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { break; } else if
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(true); } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (functionInfo.isPure() ||
+ if (functionInfo.isPure(()) ||
+ if (defInfo.mayHaveSideEffects()) { functionInfo.setIsPure(); } else
+if ((NodeUtil.isCall(callNode)) &&!hasSideEffects &&
+ if (FunctionInfo.isPure()||
+if  (def.isPure(callNode) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure ||
+ if (defInfo.mutatesGlobalState()) ||
+ if ((hasSideEffects=&& functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure(def) ||
+ if (hasSideEffects) { functionInfo.setIsPure(); } else
+ if (def.isPure && (functionInfo.mayHaveSideEffects()) ||
+ if ( (Function(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (hasSideEffects && functionInfo.mayHaveSideEffects()) ||
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; } } } else
+if ((functionInfo!= null) &&
+ if (hasSideEffects || (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (callNode.isPure && (functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } } else if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { hasSideEffects } else if
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( true ) ; } } } else
+ if (NodeUtil.isPure(def) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { hasSideEffects = true ; }
+ if (def.isPure()) { if (hasSideEffects)
+ if (defInfo.mayBePure()) { if (hasSideEffects) if
+ if (isNoSideEffectsCall &&((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (NodeUtil..isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && (functionInfo.isPure()) ||
+ if (defInfo.mayHaveSideEffects()) { functionInfo.setIsNoSideEffectsCall(); } } else
+if ((NodeUtil.isCallable(callNode)) ||
+ if (def.isPure()) { functionInfo.setIsPure(); }
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; break ; } } else
+ if (defInfo.mayHaveSideEffects()) { hasSideEffects = true; }
+ if (functionInfo.isPure() && (functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure()) { functionInfo.setIsPure(); } else
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; continue ; } } else
+if ((NodeUtil.isCall(callNode) && functionInfo.isNew(callNode)) ||
+ if (hasSideEffects && (def.mayHaveSideEffects()) ||
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; break ; } else
+if ((NodeUtil.isCall(def, callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break ; } } } else { if
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } } else if
+ if (((def == null)) ||
+ if (FunctionInfo.mayBePure(&& functionInfo.mayHaveSideEffects()) ||
+if ((hasSideEffects &&
+if ((NodeUtil.isCall(callNode)) &&!functionInfo ||
+ if (hasSideEffects) if ((functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) &&  (functionInfo.mutatesLocalState()) ||
+if ((isNew(callNode)) ||
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; } } } else {
+if ((NodeUtil.isCall(callNode)  &&!functionInfo ||
+if ((isNew(def)) ||
+ functionInfo = functionInfo. getFunctionInfo ( ) ; if (hasSideEffects) { if
+ if (isPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isNoSideEffectsCall =!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( true ) ; } } } else {
+ if (def.isPure(&& functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; } else if (hasSideEffects &&
+ if (functionInfo.isPure(() ||
+ if ( ((functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); } } } else
+ if (defInfo.mayBePure()) { if (hasSideEffects) { if
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure())) ||
+ if (functionInfo.isPure() || (functionInfo.mayHaveSideEffects()) ||
+if  (hasSideEffects) if
+ if (isPureFunction(&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction(callNode)) && functionInfo ||
+ if (def.isPure()&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) { } else if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { } else { if
+if ((NodeUtil.isCall(callNode)  && (functionInfo.isPure()) ||
+ if (hasSideEffects) { hasSideEffects = true
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { break; } if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects &&
+ if ((isPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; } else if
+ if (hasSideEffects) { functionInfo.setIsPure(); }
+ if (defInfo.mayBePure()) { callNode.setIsPure(); } } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { hasSideEffects = true ; if
+if  (hasSideEffects) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (hasSideEffects ||!
+ if (def.isPure() && (def.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } else { if
+ if (if (hasSideEffects && functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure()) { functionInfo.setIsPure(); } } else
+ if (functionInfo.hasSideEffects()||
+if ((NodeUtil.isCallSite ||
+ functionInfo = functionInfo. getFunctionInfo ( ) ; if (hasSideEffects &&!
+ if (isNoSideEffectsCall=((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((functionInfo.isPure() &&!
+if ((NodeUtil.isCall(callNode)) && (functionInfo.isPure() ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } else if(
+if  (hasSideEffects =
+ if (hasSideEffects) if ((FunctionInfo.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState())) { } else if
+ if ( (FunctionInformation) NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(def, name) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects || (functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } } } else {
+ if (def.isPure()) { hasSideEffects = true
+if  (isNew(functionInfo) ||
+ NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure(def)) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo!= null ||
+if (((NodeUtil.isNoSideEffectsCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if  (functionInfo.isPure() &&!
+ functionInfo = functionInfo.getFunctionInfo(); if (hasSideEffects) ||
+if  (def.isNoSideEffectsCall() ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; } else if (
+ if (!hasSideEffects) if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && functionInfo ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } } else if(
+if  (hasSideEffects) { } else if
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; } else { if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects &&!
+ if (functionInfo.isPure(def.mayHaveSideEffects()) ||
+ if (hasSideEffects) { callNode.setIsPure(); }
+ if (defInfo.mayBePure()) { if (functionInfo.isPure() ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { continue; } else if
+ if (def.isPure()) { break; }
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { hasSideEffects } else if
+ if (functionInfo.isPure &&((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInfo.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCallable(callNode)) &&!
+ if (hasSideEffects) { hasSideEffects = true; }
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { break; } else if
+ if (!hasSideEffects)
+ if ((functionInfo == null) ||
+ if (hasSideEffects) { functionInfo.setIsPure(true); }
+ if (defInfo.mutatesGlobalState()) { if (hasSideEffects &&
+ functionInfo = functionInfo. getFunction ( ) ; if (! hasSideEffects ) { if
+ if (defInfo.mayBePure()) { functionInfo.setIsPure(); } else if (
+ if (FunctionInfo.isPure(def) ||
+ if (functionInfo.mutatesGlobalState())) ||
+ if (defInfo. mayBePure()) { callNode. setIsNoSideEffectsCall ( true ) ; }
+ functionInfo = functionInfo. getFunctionInfo ( ) ; if (! hasSideEffects ) { } else if
+ if (def.isFunction(callNode)) { if (hasSideEffects &&!
+ if ( (NodeUtil.isRedisCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState())) { } if
+ if (((hasSideEffects=&& functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.isFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { functionInfo.setIsPure(); } } else
+ if ((isPure(def)) ||
+ if (functionInfo.isPure||
+ if (isPure) {
+ if (FunctionInfo.isPure(callNode) ||
+ if (def.isFunction(callNode)) { functionInfo.setIsPure(); } if
+ if (isSideEffects(&& functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.mayHaveSideEffects()) { callNode.setIsNoSideEffectsCall(); else
+if ((NodeUtil.isNew(callNode)) ||!
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; } } else { if
+if ((functionInfo.isPure ||
+if ((NodeUtil.isCall(callNode)  || functionInfo ||
+if ((NodeUtil.isCall(def.getNode()) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && (functionInfo.isPure() ||
+ if (hasSideEffects) { hasSideEffects = false; }
+if ((functionInfo.isPure(def)) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (functionInfo.hasSideEffects ||
+ if (FunctionInfo.isPure()) ||
+ if (functionInfo.mutatesCallSite()||
+if ((NodeUtil.isCall(callNode) &&  (functionInfo.mutatesGlobalState()) ||
+ if (def.mayBePure()) { continue; }
+if ((NodeUtil.isCall(callNode)  && functionInfo.function ||
+ if (isNoSideEffectsCall() &&!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure(callNode)) ||
+ if (defInfo.isPure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects == false ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; } else if (hasSideEffects ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects &&
+ if (NodeIsPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (hasSideEffects)) { if
+ if (hasSideEffects) { } if (!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { callNode.setIsPure() ;
+ if (def.isPure()) { hasSideEffects =
+ if (isPure && (functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure() &&!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((FunctionInfo) (NodeUtil.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesCallSite()) ||
+ if (defInfo.isNew(callNode)) { if (hasSideEffects) ||
+ if (def.isFunction(callNode)) { if (hasSideEffects) ||
+if  (def.isPure(name) ||
+if ((NodeUtil.isCall(callNode) &&  def ||
+ if (FunctionInfo.isPure(&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction(def)),
+ if (hasSideEffectsIf((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (def.isPure()) ||
+ if ((.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState())) ||
+if ((NodeUtil.isCall(callNode)  && (hasSideEffects ||
+ if (def.isPure||
+if  (isNew(callNode) ||!
+ if (defInfo.mayBePure()) { callNode.setIsNoSideEffectsCall(); else
+if ((def ||
+ if (hasSideEffects && (!functionInfo.mayHaveSideEffects()) ||
+if  (isNew(callNode) &&!
+ if (if(hasSideEffects||
+ if (hasSideEffects &&!(functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects
+ if (isPureFunction()) ||
+ if (hasSideEffects) { callNode = def.callNode;
+ if (hasSideEffects) { } else
+ if (functionInfo.isPure(&& functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mayBePure(def) ||
+ if (def.isPureFunction()) ||
+ if (hasSideEffects && ((functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesLocalScope()) ||
+if ((NodeUtil.isFunction(callNode)) ||!
+ if (hasSideEffects==||
+ if (isPureFunctionCall||
+if ((NodeUtil.isCall(callNode)  && (functionInfo.isPure()))) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (isNoSideEffectsCall) ||
+ if (pure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { continue; } else if
+ if (def.isPure(() ||
+ if (defInfo.mayBePure()) { if (functionInfo.isPure ||
+if ((functionInfo.isPure(callNode)) ||
+ functionInfo = functionInfo.getFunctionInfo(); if (isNew(callNode)) { if
+ if ((functionInfo.mutatesGlobalState()) ||
+ if (FunctionInfo.isPure()&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { } else { if
+ if (isFunction(functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCallable(callNode))) ||
+if (def.isPure(callNode)) { if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { } else if
+ if (defInfo.mayBePure()) { continue; }
+if ((NodeUtil.isCallable(callNode)) { } else if
+ if (isNoSideEffectsCall() && (functionInfo.mayHaveSideEffects()) ||
+if ((hasSideEffects &&!
+if ((NodeUtil.isCall(callNode)) && hasSideEffects &&
+ if (defined && (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isEmpty(def)) ||
+if ((hasSideEffects == false ||
+if  (hasSideEffects) { } else { if
+ if ( def. isPure ) { callNode. setIsNoSideEffectsCall ( false ) ; break ; } }
+if  (hasSideEffects ||!
+ if (functionInfo.isPure ||(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isNoSideEffectsCall.test((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState())) { } if
+if ((NodeUtil.isCall(def.getParent()) && functionInfo.mayHaveSideEffects()) ||
+ if ( (FunctionInfo.mayBePure() && functionInfo.mayHaveSideEffects()) ||
+if  (functionInfo &&
+ if (isPure(() && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects ||!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInfo.is(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects(&& functionInfo.mayHaveSideEffects()) ||
+ if (isNoSideEffectsCall() ||(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true; } else if (hasSideEffects =
+ if ( (functionInfo.isPureFunction()&& functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesLocalState())) ||
+ functionInfo = functionInfo.getFunctionInfo(); if (isNew(callNode) ||!
+if ((NodeUtil.isCall(callNode)  && functionInfo.function ()) ||
+if ((NodeUtil.isCall(callNode, def, name) && functionInfo.mayHaveSideEffects()) ||
+ if (defInfo.isNew(callNode)) { hasSideEffects = true ; break; } } else { if(
+ if (isPure()) {
+ if (isNoSideEffectsCall &&(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (! functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects)) {
+ if ((Node.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction() ||
+if ((NodeUtil.isNew(def));
+ if ((functionInfo.mutatesLocalState()) ||
+ if (hasSideEffects) { if(if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) ) { if
+ if ((FunctionInfo.isPure() && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isPure ||
+ if ((isPure() && functionInfo.mayHaveSideEffects()) ||
+ if ((.mayHaveSideEffects()) ||
+if ((functionInfo!= null) &&!
+if ((isNew(callNode) && functionInfo &&
+ if (def.isPure && (def.mayHaveSideEffects()) ||
+if (def.isPure()) { continue; } if
+ if ((IsPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.functionPure()) ||
+ if (isPure(functionInfo)) ||
+ if (functionInfo.mutatesFunctionCalls()) ||
+ if (functionInfo.isCallSite()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { } else if
+ if ((hasEffects&& functionInfo.mayHaveSideEffects()) ||
+ if (FunctionInfo.mayBePure(() && functionInfo.mayHaveSideEffects()) ||
+ if (isNew(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (defined(def)) ||
+if ((NodeUtil.isCall(callNode)) ) { if
+ if (is(def) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) ||
+if ((NodeUtil.isCall(def) ||
+if (hasSideEffects) { if (functionInfo &&
+ if ((NodeIsPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((def == null)) ||
+ if ((isPure()) ||
+if ((isNew(callNode))) ||
+if ((NodeUtil.isFunction(callNode)) && def ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if (isNoSideEffectsCall() ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { } else { if
+if ((NodeUtil.isNew(callNode) && functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.is(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInformation.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.pure||
+ if ((isPureCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (FunctionInfo.isPure(() && functionInfo.mayHaveSideEffects()) ||
+ if ((functionInfo == null)) ||
+ if (!hasSideEffects) continue;
+if ((NodeUtil.mayBePureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isCallSite() ||
+if  (hasSideEffects) { if (def ||
+ if (isPure&& functionInfo.mayHaveSideEffects()) ||
+if ((def.isPure(callNode)) ||
+ if (hasSideEffects) { hasSideEffects = false
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) ||
+ if (isNoSideEffectsCall && (functionInfo.mayHaveSideEffects()) ||
+if  (hasSideEffects) { if (def &&
+ if (Node.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.effects()||
+ if ( (functionInfo.pure()&& functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isFunctionPure()) ||
+if (((NodeUtil.isPureCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure()) || (functionInfo.mayHaveSideEffects()) ||
+ if (isPure &&(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { hasSideEffects } else
+ if ( (NodeUtil.isNew.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(def.getRValue) && functionInfo.mayHaveSideEffects()) ||
+if  (functionInfo!= null &&!
+ if ( (Function functionInfo.mayHaveSideEffects()) ||
+if ((isNew(callNode) && functionInfo ||
+ if (hasSideEffects) { continue; } else
+ if (((isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (if((functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mayBePure && (functionInfo.mayHaveSideEffects()) ||
+ if ((def.pure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects() ||
+if (def.isPure(callNode) &&!
+ if ((functionInfo.isPure()) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure()) { } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState()))) { } if
+ if (((def) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isPure(name) ||
+ if (functionInfo.mutatesGlobalCallSite()) ||
+if ((NodeUtil.isFunction())
+if ((isNew(callNode)) || functionInfo ||
+ if ((FunctionInfo.mayBePure) && functionInfo.mayHaveSideEffects()) ||
+ if (isPureCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.static()) ||
+ if (true == (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isFunction)
+ if (!||
+if ((NodeUtil.isCall(callNode) && functionInfo.isNew(def)) ||
+ if (true(functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode.getNextChild) && functionInfo.mayHaveSideEffects()) ||
+ if ((functionInfo.pure()) ||
+if ((NodeUtil.isFunction(callNode)) && def &&
+ if (functionInfo.isCallSite(()) ||
+if ((hasSideEffects
+if ((isNew(callNode)) ||!
+if ((NodeUtil.isCall(callNode)) ||!
+ if (IsPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (hasEffects||
+ if (functionInfo.isFunctionPure() ||
+if ((hasSideEffects) &&
+ if (hasSideEffects) { break; } else
+ if ((callSite) && functionInfo.mayHaveSideEffects()) ||
+ if (isPure(functionInfo) && functionInfo.mayHaveSideEffects()) ||
+ if (((isPureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isPure(...)||
+if ((callNode == null) ||!
+ if ( (NodeUtil.isFunction.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(def)),
+ if (isFunction(def) ||
+ if (defined(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (!new()) ||
+ if (! hasSideEffects &&! (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) ) { } if
+ if (! hasSideEffects && (!functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.mutatesInnerState()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState() ||
+ if (!hasSideEffects
+if ((NodeUtil.isCall(functionInfo)) ||
+ if (empty(callNode) && functionInfo.mayHaveSideEffects()) ||
+ hasSideEffects = if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (!()) ||
+if ((NodeUtil.isNamedFunctionCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.defined(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { hasSideEffects = if
+ if (! hasSideEffects && ((functionInfo.mayHaveSideEffects()) ||
+ if (hasEffectsIf(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.isFunctionCall()) ||
+ if ((callInfo) && functionInfo.mayHaveSideEffects()) ||
+ if (((functionInfo) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && (functionInfo ||
+if (((NodeUtil.isCalls(callNode) && functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.isExported(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (isPure(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  &&!isPure ||
+if ((NodeUtil.isCall(callNode, functionInfoProvider) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil == null ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { if
+ if (hasEffects=(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.functionPure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { } else if (
+ if (functionInfo.pure()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { if (true!==
+ if (isNew() ||
+ if ((pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((functionInfo.isPure(def) ||
+ if (isPure ||(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ( (NodeUtil.util.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) && def ||
+if (((NodeUtil.mayBePureFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((Node.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(def.getParent) && functionInfo.mayHaveSideEffects()) ||
+ if(if(&& functionInfo.mayHaveSideEffects()) ||
+ if ((isPure(functionInfo) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.new(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if(if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if  (hasSideEffects
+if ((NodeUtil.isFunction &&
+if ((FunctionInfo) (NodeUtil.isFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def || (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (functionInfo.pure) ||
+ if (def && (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (true||
+if ((NodeUtil.isNoSideEffectsFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if (((NodeUtil.isInnerFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((FunctionInformation.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.mayBePure()) { } else
+if ((NodeUtil.isFunction) ||
+ if (def.isPure() { } else
+ if (!hasSideEffects||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { return; } else if
+ if ((isPureFunction) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(functionInfo.callSite) && functionInfo.mayHaveSideEffects()) ||
+ if (hasNew||
+if ((functionInfo!= null &&
+ if (((mayHaveSideEffects()) ||
+ if (if (NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { } if
+ if (!NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((functionInfo ||
+ if ((Context.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCallable(callNode)) ||!
+if ((NodeUtil.isFunction ||
+ if (hasEffects&& functionInfo.mayHaveSideEffects()) ||
+if ((FunctionInfo) (NodeUtil.isNew(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) &&!hasSideEffects) ||!
+ if (hasSideEffects) { } } else
+ if ((hasEffects) && functionInfo.mayHaveSideEffects()) ||
+ if (debug) {
+if ((NodeUtil.isNoSideEffectsCallFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((isPure)) ||
+if ((NodeUtil.isCall(callNode) && def &&
+if ((NodeUtil.isCallSite &&
+ if (is(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (def.isFunction().mayHaveSideEffects()) ||
+ if (hasSideEffects) continue; else
+if ((NodeUtil.isCall(callNode)  == true) ||
+ if (true==((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { } if
+if ((NodeUtil.isCall(callNode)) && (!
+if  (functionInfo ||
+if ((NodeUtil.isCallable(def)) ||
+if ((NodeUtil.isCall(callNode) && functionInfo!= null) ||
+ if (hasSideEffects) { else
+ if (def || (functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode, def) && functionInfo.mayHaveSideEffects()) ||
+ if ( (functionInfo.__mayHaveSideEffects()) ||
+ if ((isPure) ||
+ if (hasSideEffects) break; else
+if ((NodeUtil.isCall(callNode)) && def &&
+if ((functionInfo &&
+ if ((empty()) ||
+ if (!isPure()) ||
+if ((isNewCall) ||
+ if (isPureFunction||
+ if ((defined(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo.isPure()) or
+if ((isNew(callNode)) ||!!
+ if ()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) ||!
+if ((NodeUtil.isCall(callNode) && functionInfo.isPure()); ||
+ if (true) {
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode) ||
+if ((NodeUtil.isCall(callNode)  && functionInfo)
+if ((NodeUtil.isCall(callNode) && functionInfo.pure ||
+ if (hasSideEffects) { }
+if  (isPure &&
+ if (def && ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (FunctionInformation.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil!= null &&
+ if (!) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(def) ||
+if (functionInfo!= null &&
+ if (!functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  == true ||
+if ((NodeUtil.pure ||
+if ((isNew(callNode)) || (!
+ if ((true) ||
+ if ((Function.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if ((dep) && functionInfo.mayHaveSideEffects()) ||
+ if (hasSideEffects) { } }
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { if
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState()) ||!
+ if ((true) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState()) ||!
+if ((def &&
+if ((Function.isPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((isPure ||
+ if ((Pure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode))) { } if
+ if () ||
+ if (defined||
+if ((NodeUtil.isCall(def)))
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) break; } if
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesGlobalState())) ||!
+if ((NodeUtil.isCall(callNode) && functionInfo == null ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(defs)) ||
+ if (new||
+ if (!hasSideEffects) { else
+ if ((defined)) ||
+ if (!(def) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mutatesLocalState())) ||!
+ if ((defined) ||
+ if ((def)) ||
+ if ((def) ||
+ if ((true)) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) { } } if
+ } if (!(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { } if
+ if (!def.mayHaveSideEffects()) ||
+ if (((true)) ||
+ if ((defined) && functionInfo.mayHaveSideEffects()) ||
+ if (Context.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if(true ==(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(name)) ||
+ if ((self)) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { } if
+ if(true) ||
+ if (true)
+ if (!)) ||
+ if ((name) ||
+ if(new()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo == def ||
+ if ((empty)) ||
+if ((IsPureCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (!(&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { } else if (
+if  (def ==
+ if ((Runtime.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ } if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) break; else if
+if ((NodeUtil.isCall(functionCallSite) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) ||!
+ if (mayHaveSideEffects()) ||
+ if(!((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (!mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  || name ||
+if ((NodeUtil.isCall(def),
+if ((NodeUtil.isCall(def)) &&
+if ((NodeUtil.isCall(def))) ||
+if ((NodeUtil.isCall(functionInfo) ||
+if ((NodeUtil.isCall(name)) ||
+if ((NodeUtil) &&
+if ((NodeUtil.isCallSite())
+ if (isStatic()) ||
+ if (isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { if (
+ if (!def||
+ if (!&& functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil) def &&
+if ((hasNew ||
+ if (debug)
+if ((NodeUtil.isCall(def.node) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil) def ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) { else if
+ ((def) && functionInfo.mayHaveSideEffects()) ||
+if ((HasSideEffects ||
+if ((NodeUtil.isCall(callNodeName) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callSiteNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(true)) ||
+ (Node.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()))) { if (
+ if(break)
+if ((isFunction(callNode) && functionInfo.mayHaveSideEffects()) ||
+if (hasSideEffects :=
+ (def.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { if
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode ||
+if ((NodeUtil.isCall(callNode) &&  functionInfo!=
+if (def!=
+if ((NodeUtil.isCall(callNode) && functionInfo.static ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  { } } if
+if ((NodeUtil.empty ||
+ if (!(callNode) && functionInfo.mayHaveSideEffects()) ||
+ } else if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(callNode)) or
+if ((NodeUtil.isCall(callNode) && ) ||
+if ((defined &&
+if ((NodeUtil.isCall(callNode) &&  function) ||
+if ((NodeUtil.isCallSite)
+ (Context.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCallSite()
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(")) ||
+if ((true ==
+if ((NodeUtil.isCall(callNode) && functionInfo.expression ||
+if ((defined ||
+if ((NodeUtil) ||
+if ((NodeUtil.isCall(callNode)  &&!!
+ functionInfo.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtilImpl)
+if ((NodeUtil.isCall(callNode) && functionInfo.parent ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||!
+ if (!isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) ||!
+if ((NodeUtil.isCall(callNode) && functionInfo)) ||
+ ((def.mayHaveSideEffects()) ||
+ isPure()) ||
+if ((NodeUtil.isCall(callNode) !==
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()); ||
+ ((() && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) &&  name!=
+if ((NodeUtil.new ||
+if ((NodeUtil.this ||
+if ((NodeUtil.pure ==
+if ((NodeUtil.isCall(callNode) &&  name ==
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects(...) ||
+if (def ===
+ if ((()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo); ||
+if  (!!
+if ((isNew(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((IsPure(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(functionInfo) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects) ||
+if ((NodeUtil.isCall(callSite) && functionInfo.mayHaveSideEffects()) ||
+ else if((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+ } } else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) or
+ } else {
+ } if(NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)) &&
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  ) { while
+ if (callNode) && functionInfo.mayHaveSideEffects()) ||
+ if (_||
+ if (*||
+if ((NodeUtil.isCall(name) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())) or
+if ((NodeUtil.isCall(callNode) && functionInfo) &&
+ } else
+if ((NodeUtil.isCall(callNode)) |
+ ((callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((empty(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode)  && not
+ (((callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((is(callNode) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects())  || *
+if ((NodeUtil.isCall(callInfo) && functionInfo.mayHaveSideEffects()) ||
+ try { else
+if ((NodeUtil.isCall(node) && functionInfo.mayHaveSideEffects()) ||
+ }
+ else
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) |
+if ((NodeUtil.isCall(call) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(parent) && functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) || functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) &&
+if ((NodeUtil.isCall(callNode) && functionInfo.mayHaveSideEffects()) OR
+if ((NodeUtil.isCall(callNode) and functionInfo.mayHaveSideEffects()) ||
+if ((NodeUtil.isCall(callNode) & functionInfo.mayHaveSideEffects()) ||

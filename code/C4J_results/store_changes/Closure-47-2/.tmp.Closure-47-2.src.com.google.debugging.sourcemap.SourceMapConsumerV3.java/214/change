@@ -1,0 +1,541 @@
+ Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(line >= 0);
+ assert(lineNumber >= 0);
+Preconditions.checkState(lineNumber);
+ checkState(lineNumber >= 0);
+Preconditions.checkState();
+Preconditions.checkState(lineNumber >= lines.size());
+Preconditions.checkState(lineNumber <= lines.size());
+Preconditions.checkState(lineNumber <= lines.size);
+ Preconditions(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= lines.size);
+ assert(column>= 0);
+ int index = lines.get(lineNumber);
+Preconditions.checkState(lineNumber >= -1);
+Preconditions.checkState(lineNumber >= 0 && column >= 0);
+Preconditions.checkState(lineNumber <= lines.size(0);
+Preconditions.checkState(line <= 0);
+Preconditions.checkState(lineNumber < lines.size);
+Preconditions.checkState(lineNumber < lines.size());
+Preconditions.checkState(true);
+Preconditions.checkState(line < 0);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; if ( lineNumber < 0 ) return null;
+Preconditions.checkState(lines.get(line) >= 0);
+ List<Entry> entries = lines.get(lineNumber);
+Preconditions.checkLine(lineNumber);
+Preconditions.checkState(lineNumber <= 0);
+ int index = lines.get(0);
+ int index = lines.get(line);
+ Iterator < Entry > entries = lines. get ( lineNumber ) ; if ( entries == null ) return null;
+Preconditions.checkState(lineNumber == lines.size);
+Preconditions.checkState(line == 0);
+ Iterator<Entry> entries = lines.get(lineNumber);
+Preconditions.checkState(lineNumber <= -1);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; if ( lineNumber == 0 ) return null;
+ int index = lines.get(line, column);
+ Iterator < Entry > entries = lines. get ( lineNumber ) ; if ( entries. isEmpty ( ) ) return null ;
+ Preconditions.checkState(lineNumber -->= 0);
+Preconditions.checkState(lineNumber < 0);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; int column = lineNumber - 1 ;
+conditions.checkState(lineNumber >= 0);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; if ( lineNumber < 0 ) { return null }
+Preconditions.checkState(lineNumber == lines.size());
+ int index = lines.get(index);
+ Iterator < Entry > entries = lines. get ( lineNumber ) ; if ( entries. hasNext ( ) ) return null ;
+ int lineNumber = lines. get ( 0 ). getLineNumber ( ) ; int column = lines. get ( 0 ). column;
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; int column = lineNumber + 1 ;
+Preconditions.checkState(lineNumber == 0);
+Preconditions.checkState(lineNumber >= 0, "negative");
+ PreconditionState(lineNumber >= 0);
+ if (lineNumber < lines.size()) {
+ int lineNumber = lines. get ( lineNumber ) ; int column = lines. size ( ) ;
+ assertLineNumber(line);
+ int index = lines.getIndex(0);
+ List<Entry> entries = lines.get(lineNumber);
+ if (column < 0) { return null; }
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; if ( lineNumber < 0 ) { return null };
+ int lineNumber = lines. get ( lineNumber ) ; int column = lines. get ( lineNumber ). getColumn ( ) ;
+Preconditions.checkState(lineNumber <= lines.size(1);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; if ( lineNumber < 0 ) { return null ;
+Preconditions.checkLineNumber(lineNumber);
+ int index = lines.get(lineNumber,0);
+ int index = lines.get(line-1);
+Preconditions.checkNumber(lineNumber);
+ if (lineNumber >= lines.size()) {
+Preconditions.checkState(lineNumber >= 0); Preconditions.checkState(line);
+Preconditions.checkState(lineNumber <= lines.size(column));
+ int index = lines.get(lineNumber++);
+ Preconditions.check(lineNumber >= 0);
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= lines.size);
+ Preconditions.check(line>= 0);
+Preconditions.checkState(lineNumber  >= 0); if (column >= 0) {
+ int index = lines.get(line + 1);
+ List<Entry> entries = lines.get(line);
+Preconditions.checkState(lineNumber <= lines.size() + 1);
+ final int index = lines.get(lineNumber);
+Preconditions.check (lineNumber);
+ int index = lines.get(line,0);
+ Preconditions.check(>= 0);
+Preconditions.checkState(lineNumber == -1);
+ if (lineNumber >= 0) {
+Preconditions.checkState(lineNumber >= 0) { return getPreviousMapping(lineNumber);
+ if (lineNumber > 0) {
+ int index = search(0);
+Preconditions.checkState(lineNumber < lineNumber) ;
+ Iterator < Entry > entries = lines. get ( lineNumber ) ; if ( entries == null ) return null.
+ if (lineNumber < 0) return null;
+ final int column = lines.getColumn(0);
+ int index = lines.size(0);
+ if (lineNumber <= lines.size()) {
+Preconditions.checkState(lineNumber < -1);
+ Iterator < Entry > entries = lines. get ( lineNumber ) ; if ( entries. isEmpty ( ) ) return null.
+ if (lineNumber < 0) return null;
+ Iterator < Entry > lines = lines. iterator ( ) ;
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) ; int column = lineNumber - 1);
+ List<Entry> entries = lines.get(column);
+ int column = lines.get(0);
+ int column = column(0);
+ if (lineNumber < lines.size()) {
+Preconditions.checkState(lineNumber >= 0) && lineNumber <= lines.size();
+ final int column = lines.get(line,0);
+ if (lineNumber >= 0) Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lines.size() > lineNumber);
+ checkLineNumber(line);
+Preconditions.checkLine(line);
+Preconditions.checkState(lineNumber >=  0); if (lineNumber < column) {
+Preconditions.checkState(lineNumber >= 0) { return getPreviousMapping(line); }
+ Iterator < Entry > entries = lines. iterator ( ) ;
+ Preconditions.checkState(lineNumber>0);
+ if (lineNumber > 0) Preconditions.checkState(lineNumber >= 0);
+ int index = lineNumber.get(0);
+ if (lineNumber < 0) {
+ if (lineNumber > 0) {
+ List<Entry> entries = lines.get(0);
+ if (lineNumber == 0) {
+ List<Entry> entries = lines.get(0);
+ int index = lines.get(line+0);
+ int index = lines.size(); assert (index>= 0);
+ if (lineNumber >= 0) {
+Preconditions.checkState(lineNumber >= 0) ; int index = lineNumber - 1;
+Preconditions.check(line);
+ Iterator < Entry > entries = lines. get ( lineNumber ). iterator ( ) ;
+ int index = lines.get(lineNumber+0);
+Preconditions.checkLineNumber();
+ final int column = lines.get(0);
+ checkLine(line);
+ int index = lines.get(column);
+ if (lineNumber >= 0)conditions.checkState(lineNumber >= 0);
+ Iterator < Entry > entries = lines. iterator ( ) ;
+ if (lineNumber == 0) return null;
+Preconditions.checkState(lineNumber >= 0) && lineNumber <= lines.size;
+ int index = lines.search(lineNumber);
+ int entry = lines.get(lineNumber);
+Preconditions.checkState(false);
+ int index = lines.size().get(0);
+ List<Entry> entries = lines.get(line);
+Preconditions.checkState(lineNumber >= 0) && lineNumber < lines.size;
+ int index = entries.get(0);
+ if (column < 0) { column = 0;
+ if (column < 0) {
+ if (column < 0) { column --;
+Preconditions.checkState(lines.size() >= 0);
+Preconditions.checkState(lineNumber >= 0)
+ int position = lines.get(lineNumber);
+ int index = lines.getFirst(0);
+Preconditions.checkState(lineNumber >= 0) && lineNumber < lines.size();
+ int index = lines.get(line-0);
+ Preconditions.checkArgument(lineNumber >= 0);
+ List<Entry> entries = lines.get(lineNumber, column) ;
+ assertcolumn>= 0);
+Preconditions.check();
+ if (column < 0) { return null};
+Preconditions.check (true);
+ if (lineNumber > 0)conditions.checkState(lineNumber >= 0);
+Preconditions.checkInput();
+ if (lineNumber < 0) {
+ if (column < 0) { return null;;
+ if (column < 0) { assert (column>= 0);
+ if (lines!= null) Preconditions.checkState(lineNumber >= 0);
+ Preconditions(line>= 0);
+ if (column < 0) { Preconditions.checkState(lineNumber >= 0);
+ int index = lines.indexOf(0);
+ if (lineNumber == 0) { return null;
+ if ( lineNumber < 0 ) { return getPreviousMapping ( lineNumber ) ; } else {
+ if (lineNumber == 0) { return null };
+ if (lineNumber == 0) Preconditions.checkState(lineNumber >= 0);
+ Iterator < Entry > entries = lines. get ( lineNumber ). entries ( ) ;
+Preconditions.checkState(lineNumber >= 0) { return getPreviousMapping(line); };
+ if (lineNumber < 0) Preconditions.checkState(lineNumber >= 0);
+ if (lineNumber) { Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) { return getPreviousMapping(lineNumber });
+ if (column > 0) {
+ int index = search(line);
+ int lineNumber = lines. get ( lineNumber ) ; int column = lines. size ( ));
+ if (lineNumber >= 0)
+ int index = index(0);
+ int column = (column-0);
+ if (lineNumber >= 0);
+ int column = (column+0);
+Preconditions.checkState(lineNumber < lines.size()) and
+ if (lineNumber < 0) { return null };
+ if (lineNumber < 0) { return ; }
+ List<Entry> entries = newArrayList ( );
+ if (lineNumber == 0) { return null};
+ if (lineNumber < 0) { return null;
+Preconditions.checkState(lineNumber >= 0) and
+ int lineNumber ++ ; Preconditions.checkState(lineNumber >= 0);
+ int index = lines.get(lineNumber)-;
+ int entry = lines.get(line);
+ List<Entry> entries = newArrayList ( );
+ Iterator<Entry> entries = newIterator ( ) ;
+ int lineNumber = line ; Preconditions.checkState(lineNumber >= 0);
+ int index = indexOf(line);
+ Iterator < Entry > entries = lines. get ( lineNumber, column ) ;
+Preconditions.checkState(lineNumber >= 0) { return getPreviousMapping(lineNumber));
+ if (lineNumber > 0 && lineNumber>= 0);
+Preconditions.checkState(lineNumber >= 0) ; int index = 0;
+ if (lineNumber == 0) {
+ Iterable<Entry> entries Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber <= lines.size()) and
+ int position = lines.get(0);
+ if (lineNumber) Preconditions.checkState(lineNumber >= 0);
+ Preconditions(column>= 0);
+ int column = (column|0);
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= lines.size());
+ assert(lineNumber == lineNumber);
+ assertState(lineNumber >= 0);
+ if (lineNumber < column) {
+ if (column >= 0) {
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= column) ;
+ Iterator<Entry> entries;conditions.checkState(lineNumber >= 0);
+ int lineNumber = lines. get ( lineNumber ). getLineNumber ( ) - 1 ; } else {
+ int index = search(index);
+ int index = 0 ; Preconditions.checkState(lineNumber >= 0);
+ assert(lineNumber + column>= 0);
+ Preconditions.check(column>= 0);
+ if (column < 0) { return null;
+ int index = lines.size(); assertindex>= 0);
+ Preconditions.checkLineNumber++;
+Preconditions.checkState(lineNumber >= 0) ; int column = 0;
+ int index = (column>0);
+ Iterator(lines.get(lineNumber);
+Preconditions.checkState(lineNumber < lines.size()) &&
+ int index = (int)index);
+ if (column < 0) if (column>= 0);
+ else { Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber < lineNumber) and
+ if (lines!= null) {
+Preconditions.checkState(line > 0);
+ Precondition.check(lineNumber >= 0);
+ if (lineNumber < 0)
+ if (column < 0) { column++;
+ (column>= 0);
+Preconditions.checkState(lineNumber >=  0, lineNumber < column);
+Preconditions.checkState(lineNumber < lineNumber) &&
+ Preconditions.checkLine(line;
+Preconditions.checkState(lineNumber >=  0, lineNumber >= column);
+ int lineNumber -- ; Preconditions.checkState(lineNumber >= 0);
+ PrecheckState(lineNumber >= 0);
+ if (lineNumber) {conditions.checkState(lineNumber >= 0);
+ int index = lines.size(column>= 0);
+ Iterator<Entry> entries = lines.get(lineNumber));
+ Preconditions.checkLine >= 0;
+ int index = (column-0);
+ int index = seek(0);
+ if (lineNumber >= 0) { checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) && column >= 0;
+ int index = (int) ();
+ int index = lineNumber - column--;
+ int index = lineNumber + column--;
+ Preconditions.checkState(lineNumber.lineNumber >= 0);
+ if (lineNumber >= 0)
+ checkState(line>= 0);
+ if (column < 0) Preconditions.checkState(lineNumber >= 0);
+ int index = lineNumber - 1;
+ Preconditions.checkState(lineNumber-lineNumber >= 0);
+ Iterator<Entry> entries = lines.get(lineNumber).
+ if (lineNumber < 0 && column>= 0);
+ assertLineNumber(0);
+ if (lines) { Preconditions.checkState(lineNumber >= 0);
+ int index = lines.size(); if(>= 0);
+ int index = lines.search(column>= 0);
+Preconditions.checkState(lineNumber  >= 0 && lineNumber <= lineNumber) ;
+ assertLineNumber(column);
+ Precondition(lineNumber >= 0);
+ int index = 0;
+ PreconditionCheck(lineNumber >= 0);
+ assert(lineNumber>0);
+ Preconditions.checkState(column>= 0);
+Preconditions.checkState(lineNumber >=  0, lineNumber);
+ if (lineNumber > 0)
+ final int index = lines.getIndex(lineNumber >= 0);
+ final int index = lines.get(lineNumber >= 0);
+ Preconditions.checkState(lineNumber+lineNumber >= 0);
+ Iterator<Entry> entries = lines.get(lineNumber());
+ Precondition.checkState(lineNumber >= 0);
+ Preconditions.checkState(this.lineNumber >= 0);
+ if (lineNumber + column>= 0);
+ Preconditions.checkState(0+lineNumber >= 0);
+ printLine(line);
+ final int lineNumber ; Preconditions.check(lineNumber >= 0);
+ Preconditions.checkState(1+lineNumber >= 0);
+ if (column < 0);
+Preconditions.checkState(lineNumber ++;);
+ assert(lineNumber -->= 0);
+ assert(lineNumber--; column>= 0);
+ int index;
+ Preconditions.checklineNumber >= 0);
+ Iterator<Entry> entries = lines.get(lineNumber)
+ Preconditions.checkState(1*lineNumber >= 0);
+ if (column>= 0);
+ Preconditions.checkState(inclusive&&lineNumber >= 0);
+ final int index = lines.size(lineNumber >= 0);
+ if (column < 0) { checkArgument(lineNumber >= 0);
+ int column--;
+ })();
+ if (lineNumber < 0)
+ List<Entry> entries = lines.get(lineNumber, column) {
+ int index = lineNumber;
+Preconditions.checkState(line);
+Preconditions.checkOpen();
+Preconditions.checkState(lineNumber >=  0, lineNumber++);
+Preconditions.condition();
+ checkLine(0);
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= lines.size)
+ assertColumn(column);
+ int column = lineNumber;
+ Preconditions.check(">= 0);
+Preconditions.checkState(lineNumber >=  0, "unknown line");
+ final int index = lines.search(lineNumber >= 0);
+ for (int lineNumber) {
+ Preconditions.checkState(0, ++lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0); Preconditions.checkState(line)
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= column) and
+ line.remove(0);
+ assertLine(line);
+ Pconditions.check(lineNumber >= 0);
+ assert lineNumber>0);
+ assert("lineNumber>= 0);
+ setLine(0);
+ if (column < 0) { } checkState(lineNumber >= 0);
+ check(line);
+ int index = lines.search(lineNumber >= 0);
+ final int column = lineNumber;
+ int index = line - 1;
+Preconditions.checkState(lineNumber  >= 0; lineNumber <= column) &&
+ int index = lineNumber + 1;
+Preconditions.checkState(valid);
+ int column = lineNumber - 1;
+ Preconditions.condition(>= 0);
+ if (!empty) Preconditions.checkState(lineNumber >= 0);
+ if (lineNumber --; column>= 0);
+ if (lines) Preconditions.checkState(lineNumber >= 0);
+ int index = lines.get(lineNumber >= 0);
+ Preconditions.checkStateNoEmptyLine(lineNumber >= 0);
+ Conditions.checkState(lineNumber >= 0);
+ final int column = line - 1;
+ final Preconditions.checkArgument(lineNumber >= 0);
+ Preconditions.checkState2(lineNumber >= 0);
+Preconditions.checkState(lineNumber >=  0 && lineNumber <= lines.size()); #
+ line.add(0);
+ parse(file);
+ final int index = checkState(lineNumber >= 0);
+Preconditions.checkLine();
+ int index = lines.size(lineNumber >= 0);
+Preconditions.checkInit();
+ int index = lineNumber + column;
+Preconditions.checkState(line ++);
+ if (lineNumber)conditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber <= lines.size()) &&
+ Preconditions.checkForArgument(lineNumber >= 0);
+ if (valid) Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) ; int column--;
+Preconditions.checkState(lineNumber >= 0); Preconditions.checkState(line++;
+ Preconditions.assert(lineNumber >= 0);
+ Preconditions.checkState(true)*(lineNumber >= 0);
+Preconditions.checkState(lineNumber < 0);;
+ Preconditions.checkState.Nil(lineNumber >= 0);
+ Preconditions.checkState(true),(lineNumber >= 0);
+Preconditions.checkState(lineNumber >=  0); if (lineNumber < column) {}
+Preconditions.checkState(line 0);
+Preconditions.checked();
+Preconditions.checkState(lineNumber >=  0 && lineNumber < lines.size()); #
+ int index = (0);
+Preconditions.checkState(lineNumber >= 0) { return null; }
+ Preconditions.checkStateNumeric(lineNumber >= 0);
+ final int lineNumber ; Preconditions.assert(lineNumber >= 0);
+ if (debug) Preconditions.checkState(lineNumber >= 0);
+ if (!empty) {conditions.checkState(lineNumber >= 0);
+ Preconditions.checkState(true)|(lineNumber >= 0);
+ setColumn(0);
+Preconditions.checkState(running);
+ Preconditions.checkArgument4(lineNumber >= 0);
+Preconditions.checkState(lineNumber ++);
+ int lineNumber = lineNumber ;conditions.checkState(lineNumber >= 0);
+ Preconditions.checkArgument2(lineNumber >= 0);
+ if (lineNumber < 0) { }
+ Precondition.check(>= 0);
+ int index = line + column;
+ int expectedColumn = lineNumber;
+Preconditions.checkState(lineNumber >=  0); if (lineNumber < column) then
+ int column = line - 1;
+ checkState(column>= 0);
+ Preconditions.validateState(lineNumber >= 0);
+Preconditions.checkState() {
+Preconditions.CHECK();
+ int lineNumber = 0;
+ if (lineNumber < column) { }
+Preconditions.checkState(lineNumber >=  lines.size()) and
+ int lineNumber = line;
+ if ((column>= 0);
+ int index = checkState(lineNumber >= 0);
+ int lineNumber = 0;
+ Preconditions("line>= 0);
+ int index = -1;
+ print(line);
+Preconditions.checkState(lineNumber >= 0) && column >= 0.
+ int index = 0;
+ Precondition.condition(lineNumber >= 0);
+ if (lineNumber == 0) { }
+ if (validate) {
+Preconditions.checkState(lineNumber >= 0, "negative number");
+ int column = 0;
+ if (lineNumber >= 0) { }
+Preconditions.checkState(lineNumber >= 0) ; int index = lineNumber - 1();
+. Preconditions.checkState(lineNumber >= 0);
+ if (lineNumber < 0) { }
+Preconditions.checkState(lineNumber >= 0) ; int index = lineNumber - 1;;
+ final int column = column;
+ Preconditions.condition(lineNumber >= 0);
+ int index = findIndex(lineNumber >= 0);
+ if (lineNumber > 0) { }
+Preconditions.checkState(lineNumber >= 0) && lineNumber <= lines.size(); final
+ int column++;
+ checkIndex(0);
+ Preconditions.(lineNumber >= 0);
+ checkNumber(column);
+ final int index; Preconditions(lineNumber >= 0);
+ Preconditions.state(lineNumber >= 0);
+Preconditions.OK();
+ PertureState(lineNumber >= 0);
+Preconditions.checkState(lineNumber  <= lines.size() - 1); #
+ checkState(0);
+ final int index = search(lineNumber >= 0);
+ if (lineNumber == 0) { }
+ if (lineNumber < column) { }
+ if (lineNumber >= 0) { }
+Preconditions.checkState(lineNumber >=  0 && lineNumber <= column); #
+ } else { Preconditions.checkState(lineNumber >= 0);
+ if(>= 0);
+ if (lineNumber > 0) { }
+ if (normalize)
+ printLineNumber);
+ check(0);
+ int index--;
+ I Preconditions.checkState(lineNumber >= 0);
+ init(0);
+ int offset = 0;
+Preconditions.checkState(lineNumber >=  0 && lineNumber < column); #
+ final int column--;
+ column --;
+Preconditions.checkState(lineNumber >=  0, lineNumber < column)
+ if (usePrevious)conditions.checkState(lineNumber >= 0);
+ assert(0);
+Preconditions.checkState(lineNumber >=  0, lineNumber >= column)
+ int expected = 0;
+ write(0);
+Preconditions.checkState(lineNumber >=  0, lineNumber < column).
+ else { } Preconditions.checkState(lineNumber >= 0);
+ assertTrue(lineNumber >= 0);
+ int index++;
+ sort(0);
+ CheckState(lineNumber >= 0);
+ else {. Preconditions.checkState(lineNumber >= 0);
+ if (debug) {
+Preconditions.checkState(lineNumber >=  0, lineNumber) and
+Preconditions.execute
+ try { final Preconditions.checkState(lineNumber >= 0);
+ parse(line);
+ Preitions.checkState(lineNumber >= 0);
+ else: Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber)
+ try { I Preconditions.checkState(lineNumber >= 0);
+ if (validate)
+Preconditions.checkState(lineNumber >= 0) ; int column = 0;;
+ } { Preconditions.checkState(lineNumber >= 0);
+ if (validation)
+Preconditions.checkState(lineNumber >= 0) && lineNumber <= column; else
+ int i;
+Preconditions.checkState(lineNumber >= 0) && lineNumber < column; else
+Preconditions.checkState(lineNumber >= 0) ; int index = 0;;
+Preconditions.checkState(lineNumber >= 0) ; int column >= 0;;
+ Pconditions.checkState(lineNumber >= 0);
+ Precondition.assert(lineNumber >= 0);
+Preconditions.clear
+ final int index = findIndex(lineNumber >= 0);
+ PreconditionsState(lineNumber >= 0);
+ } } ; Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0, lineNum);
+ final int lineNumber = assert(lineNumber >= 0);
+} ();
+ Precond.checkState(lineNumber >= 0);
+ final int index = indexOf(lineNumber >= 0);
+ Postconditions.checkState(lineNumber >= 0);
+ } });
+Preconditions.ignore
+ int column;
+Preconditions.checkState(lineNumber >=  -1) and
+ } } { Preconditions.checkState(lineNumber >= 0);
+Preconditions.once
+Preconditions.checkState(lineNumber ++;");
+ check(lineNumber >= 0);
+ assertThat(lineNumber >= 0);
+Preconditions.checkState(lineNumber >=  -1) &&
+Preconditions.checkState(LineNumber);
+ } else {conditions.checkState(lineNumber >= 0);
+}(_);
+Preconditions check.
+Preconditions.checkState()();
+Preconditions.checkState++();
+Preconditions.checkState(lineNumber >= 0) + 1;
+Preconditions.checkState(lineNumber >= 0, column) ;
+Preconditions.checkState(lines++);
+Preconditions.checkState(lineNumber >=  1);
+ Condition.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) < 0;
+ Functions.checkState(lineNumber >= 0);
+ Ipreconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0, lineNumber));
+Preconditions.checkState(lineNumber ) &&
+Preconditions.checkState(noEmpty);
+ Preconditionitions.checkState(lineNumber >= 0);
+Preconditions.checkState(incomplete);
+ Preconditions#checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >=  0;);
+Preconditions.checkState(lines);
+Preconditions.checkState(lineNumber >=  0;)
+Preconditions.checkState(lineNumber >= 0) < 1;
+Preconditions.checkState(lineNumber >= 0) < column;
+ assert2(lineNumber >= 0);
+ validate(lineNumber >= 0);
+ else {
+ } else {
+Preconditions.checkState(lineNumber >=  0).
+ assert(-lineNumber >= 0);
+ } } else {
+Preconditions.checkState(lineNumber >= 0) < 0; final
+Preconditions.checkState(lineNumber >= 0) < column; else
+Preconditions.checkState(lineNumber >= 0;) &&
+Preconditions.checkState(lineNumber >= 0;) +
+Preconditions.checkState(lineNumber >= 0) ;.
+ } } else.
+ else { } }
+ } else.
+ else:
+ else,
+ verify(lineNumber >= 0);
+ Conditions#checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) { }
+ Condition#checkState(lineNumber >= 0);
+Preconditions.checkState(lineNumber >= 0) { };
+ }

@@ -1,0 +1,240 @@
+ continue retry;
+ token = eatTokensUntilEOL(token);
+ token = preserveInfo.token; continueretry;
+ token = eatTokensUntilEOL(token, charno);
+ token = preserveInfo.token;retry;
+ token = preserveInfo.token;
+ continue retry; break;
+ token = eatTokensUntilEOL(token); token = ' ' ;
+ token = eatTokensUntilEOL(token); token = null;
+ token = eatTokensUntilEOL(token); token = "" ;
+ token = eatTokensUntilEOL(token).token;
+ token = eatTokensUntilEOL();
+ token = preserveInfo.token; continue break;
+ if (token == null) { token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL();
+ token = eatTokensUntilEOL(token); token = eatTokensUntilEOL(token);
+ token = eatTokensUntilEOL(token); token = token ;
+ token = eatTokensUntilEOL(token); if (!token)
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getLineeno()); }
+ if (token == null) { token = eatTokensUntilEOL(token); } token = preserveInfo.token;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve"); }
+ if (token!= JsDocToken.EOC) { parser.addWarning("msg.jsdoc.preserve", token); }
+ if (token!= JsDocToken.EOL) { token = eatTokensUntilEOL();
+ token = eatTokensUntilEOL(token); token = preserveInfo.token;
+ token = preserveInfo.token; break;
+ token = eatTokensUntilEOL(token); token = eatTokensUntilEOL();
+ if (token == null) { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL();
+ if (token == null) { token = eatTokensUntilEOL(token); }
+ if (token == null) { token = eatTokensUntilEOL(); } token = preserveInfo.token;
+ token = eatTokensUntilEOL(token); if (token == null)
+ if (token == null) { token = eatTokensUntilEOL(token);
+ if (token!= JsDocToken.EOL) { token = eatTokensUntilEOL(); }
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token);
+ if (token == null) { token = eatTokensUntilEOL(token); } token = preserve.token;
+ token = eatTokensUntilEOL(token, token);
+ if (token == null) { parser.addWarning("msg.jsdoc.license");
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getLine()); }
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token); token = ' ' ;
+ token = eatTokensUntilEOL(token.token);
+ if (token!= JsDocToken.EOC) { token = eatTokensUntilEOL(token); } token = ' ' ;
+ if (token == null) { token = eatTokensUntilEOL();
+ token = eatTokensUntilEOL(token); token = preserveInfo ;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", "null"); }
+ token = eatTokensUntilEOL(token, true);
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL();
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getCharno()); }
+ token = eatTokensUntilEOL(token); token = next(token);
+ token = eatTokensUntilEOL(token), charno);
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getToken()); }
+ if (token == null) { parser.addWarning("msg.jsdoc.incompat.license", lineno, charno);
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve.extra", stream.getLineeno()); }
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getLineno(), token);
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve");
+ if (token!= JsDocToken.EOC) { token = eatTokensUntilEOL(token); token = ' ' ;
+ if (token!= JsDocToken.EOL) { token = preserveInfo.token;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", ""); }
+ token = eatTokensUntilEOL(token); }
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve.extra");
+ token = eatTokensUntilOL(token);
+ if (token == null) { parser.addWarning("msg.jsdoc.incompat.license", lineno); }
+ } token = eatTokensUntilEOL(token); token = descriptionInfo.token;
+ if (token == null) { parser.addWarning("msg.jsdoc.incompat.license", lineno, token);
+ if (token!= JsDocToken.EOC) { token = eatTokensUntilEOL(token); token = ' ' }
+ token = preserveInfo.token;
+ token = eatTokensUntilEOL(token); if (token == EOL)
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", null); }
+ if (token!= JsDocToken.EOC) { token = eatTokensUntilEOL(token); } token = " " ;
+ if (token!= JsDocToken.EOL && token!= eatTokensUntilEOL(token))
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve, lineno); }
+ token = preserve.token;
+ if (token == null) { token = eatTokensUntilEOL(token); } token = preserveInfo ;
+ token = eatTokensUntilEOL(token); token = token. next ;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getLine());
+ token = eatTokensUntilEOL(token); if (token == EOF)
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token); token = " " ;
+ if (token!= JsDocToken.EOL && token!= eatTokensUntilEOL(token));
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", stream.getToken());
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", "null") }
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token); token = null;
+ token = eatTokensUntilEOL(token).token();
+ token = eatTokensUntilNL(token);
+ continue break;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve", "null");
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token); token = token. next ;
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve."token);
+ token = eatTokensUntilEOL(token, lineNo);
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(token); token = token.token;
+ token = eatTokensUntilEOL(token) + token;
+ token = eatTokensUntilEOL(token, charno));
+ token = eatTokensUntilEOL(token); token = token.token;
+ if (token == null) { parser.addWarning("msg.jsdoc.license"); }
+ if (token == null) { parser.addWarning("msg.jsdoc.ignore");
+ token = eatTokensUntilEOL(token); if (token!= EOL)
+ if (token == null) { parser.addWarning("msg.jsdoc.preserve") }
+ token = ' ';
+ token = descriptionInfo.token;
+ token = preserveInfo.token; continue continue;
+ token = eatTokensUntilEOL(token); token = token. value ;
+ token = eatTokensUntilCLOSE(token);
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL(); }
+ token = preserveInfo.token; break break;
+ token = preserveInfoInfo.token;
+ token = preserveInfo.token; } continueretry;
+ token = eatTokensUntilEOL(token); } token = eatTokensUntilEOL ;
+ token = eatTokensUntilEOL(token); if (token == '\n')
+ token = preserveInfo.token; break; continueretry;
+ token = preserveInfo.string; continue retry;
+ token = eatTokensUntilEOL(token); if (token == "END" )
+ continue retry; } break;
+ token = preserveInfo; continueretry;
+ token = preserveInfo.endToken;
+ token = preserveInfo.token; breakretry;
+ token = fileOverview;
+ token = "";
+ continue retry; continueretry;
+ continue retry; breakretry;
+ token = preserveInfo.string;
+ token = preserveInfo.token; } #retry;
+ token = preserveInfo.token.token; continueretry;
+ if (token == null) { continueretry;
+ break retry; break;
+ token = preserveInfo.token; } break;
+ token = preserveInfo.string;
+ token = null;
+ continue retry; break break;
+ if (token == null) { token = ""};
+ token = preserveInfo.endToken();
+ token = preserveInfo.lineNumber;
+ token = preserveInfo.token; break; #retry;
+ token = preserveInfo.token;;
+ if (token == null) { token = null};
+ token = next(token);
+ switch (token) { case EOF: continueretry;
+ token = preserveInfo.token; break; breakretry;
+ token = preserveInfo.token; continue;
+ if (token == null) { token = "" }
+ token = preserveInfo.token; continue loop;
+ token = preserveInfo.string;retry;
+ if (token == EOL)
+ token = '|' ;
+ token = preserveInfo.token(); break;
+ token = preserveInfo.token; } breakretry;
+ continue retry;;
+ break; continue retry;
+ continue retry;retry;
+ token = eatTokensUntilEOL(token));
+ token = preserveInfo.endToken;
+ switch (token) { case TEXT: continueretry;
+ break retry; } break;
+ token = preserveInfo.string; break;
+ if (!token)
+ token = preserve; break;
+ if (token == EOF)
+ token = preserveInfo.linebreak;
+ token = preserveInfo.token; continue ; }
+ token = preserveInfo.token();retry;
+ token = eatTokensUntilEOL(); }
+ token = preserveInfo.token; break ; }
+ token = preserveInfo.token;;retry;
+ break; } continueretry;
+ continue retry; } continueretry;
+ token = preserveInfo.string; } continueretry;
+ token = token.token;
+ token = preserveInfo.token; return retry;
+ continue continue;
+ continue retry; continue;
+continue  retry; break ; default : break ; }
+ token = preserve; } continueretry;
+ token = preserveInfo; breakretry;
+ break ; default: continueretry;
+ continue retry; } #retry;
+ token = preserve.token();
+ continue retry; returnretry;
+continue retry; break retry; break retry;
+ } continue retry;
+continue  retry; break ; case TYPE:
+ continue retry; break ; }
+ break; } #retry;
+ break retry;retry;
+continue retry; } else { continue retry ; }
+continue  retry; } else { break ; }
+ break; } break;
+continue  retry; break retry; break ; }
+continue  retry; break ; case PARAM:
+continue  retry; break ; default : break ;
+ continue retry; } break ; }
+ retry;
+continue  retry; } else { break ; } }
+ break ; }
+ break ; default : break ; } } } break;
+ return continue retry;
+ continue retry; break retry;;
+ continue retry.retry;
+ break; breakretry;
+continue  retry; } else { continue ; }
+ continue retry; } #
+ break retry;
+continue  retry; break ; } break ; } #
+ return token; break;
+continue retry; } else { token = null ; } }
+continue retry; else { token = token ; } } #
+continue retry; break ; default : break ; } }
+ break retry; break ; }
+continue retry; else { token = null; } } #
+continue retry; else { token = token ; } } }
+ continue ; }
+continue  retry; break ; default : #
+continue  retry; break } break ; }
+ break break;
+ break; #retry;
+ continue retry; continue ; }
+ continue retry();
+ return retry;
+ break; ++retry;
+continue  retry; break ; } } #
+ continue loop;
+continue  retry; } } #
+ return retry; } #
+ return token;
+ break retry; } #
+ break else:
+ } breakretry;
+ } #retry;
+ retry();
+ continue retry;; } #
+ continue ; }
+ retry:
+ break;
+ break;
+continue  retry. } #
+ continue returnry;
+ } #
+ } }
+continue  } #
+continue  ; #
+ }
+ } else
+continue  continue; }
+continue  return; }
+ break }
+ break

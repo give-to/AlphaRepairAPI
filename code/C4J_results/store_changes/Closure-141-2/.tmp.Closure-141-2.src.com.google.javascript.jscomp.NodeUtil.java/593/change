@@ -1,0 +1,669 @@
+return !NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.getString())
+return !NodeUtil.isConstantName(n.getString)
+return  n.hasChildren()
+return  n!= null
+return !n.hasChildren()
+return  hasChildren(n)
+ n.hasChildren(n)
+return !knownConstants.contains(n)
+return !NodeUtil.isConstantName(n.getString(), knownConstants)
+ return n.hasChildren(n)
+return !knownConstants.isEmpty()
+return  n.hasChildren(...)
+return  n instanceof Name
+return !NodeUtil.isConstantName(n.getString()) || n.hasChildren()
+return !NodeUtil.isConstantName(n.getString(), false)
+return !NodeUtil.isConstantName(n.getString()) || n.hasChildren
+return !n.hasChildren
+return !NodeUtil.isConstantName(n.getString(), true)
+ return n.hasChildren)
+ return exists(n)
+return !NodeUtil.isName(n.getString())
+return !knownConstants
+return ! knownConstants. contains(n.value())
+return !NodeUtil.isConstantName(n.getString(), 0)
+return ! knownConstants. contains(n.name())
+return !NodeUtil.isFunction(n)
+return !knownConstants.contains(emptySet)
+ return n.hasChildren(()
+ case Token.PROP: return!isConstantName(n)
+return !knownConstants.emptySet()
+return !NodeUtil.isConstantName(n.getString()); case Token.PROP
+ n.hasChildren(()
+return !knownConstants.hasEmptySet()
+return  n.hasChildren(?)
+return !knownConstants.contains(nName)
+return !NodeUtil.isName(n)
+return !NodeUtil.isConstantName(n.getString()).hasChildren()
+return !NodeUtil.isConstantName(n.getString(), null)
+return ! knownConstants. contains(n.value());
+return !NodeUtil.isConstantName(n, knownConstants); case Token.PROP
+return !NodeUtil.isString(n.getString())
+return !NodeUtil.NONE
+return !knownConstants.empty()
+ return n.hasChildren(*)
+return !NodeUtil.hasChildren(n)
+return  true; case Token.PROP
+return  true; default: return n.hasChildren
+ case Token.PROP: return IR.isConstantName(n)
+return !knownConstants.equals(n)
+return !NodeUtil.isConstantName(n.getString(), emptySet)
+ case Token.CALL: case Token.NEW:
+return !NodeUtil.isConstantName(n.getString(), ".")
+return  true; case Token.PROP:
+return  true; case Token.PROP: return hasChildren(n)
+return !n.hasChildren(...)
+return !NodeUtil.isConstantName(n.value)
+return !NodeUtil.contains(n.getString())
+return !knownConstants.isEmpty
+return !knownConstants.hasEmpty (...)
+return  false; case Token.PROP: return hasChildren(n)
+ case Token.PROP:!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.value())
+return  n instanceof Property
+return !NodeUtil.isConstantName(n, 0)
+return !NodeUtil.isNaN(n.getString())
+ n.hasChildren()
+return !NodeUtil.isEmpty(n.getString())
+ return true; case Token.PROP: return n.hasChildren()
+return  true; default: return n.hasChildren(n)
+return !NodeUtil.isIdentifier(n)
+ return true; case Token.PROP: return n!= null
+return  n.hasChildren().add(n)
+return !NodeUtil.isString(n)
+return !NodeUtil.isConstantName(n, knownConstants)
+return !NodeUtil.isName(n.getString(), false)
+return  canBeSideEffected(n)
+return !NodeUtil.isConstantName(n.getString()); case Token.SET
+return  false; case Token.PROP
+return !NodeUtil.isName(n.getString(), true)
+return !knownConstants.isEmpty(...)
+ return false; case Token.PROP: return n.hasChildren()
+return  true; case Token.CONSTANT
+return !NodeUtil.isConstantName(n
+return !NodeUtil.isConstantName(n, knownConstants) || n.hasChildren
+return  n.hasChildren().has(n)
+ return true; case Token.PROP:!NodeUtil.isConstantName(n)
+ return true; case Token.OPTIONS: return n.hasChildren()
+ n.has(n)
+return  false; case Token.ISOP(n)
+ case Token.PROP: return!!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.getName())
+return !NodeUtil.isConstantName(n, n)
+return !NodeUtil.isConstantName(n.getString()))
+ return true; case Token.PROP: return n.hasChildren
+ return false; case Token.OPTIONS: return n.hasChildren()
+ case Token.CONSTANT:
+ return knownConstants.isConstantName(n)
+ return true; case Token.PROP: return n.hasChildren(...)
+return  n.hasChildren().contains(n)
+ case Token.PROP:!isConstantName(n)
+return  n.hasChildren({})
+return !hasChildren
+ case Token.OP: return n.hasChildren)
+return  true; default: return n!= null
+ return!knownConstants.has(n)
+ case Token.PROP: return isProperty(n)
+ return true; case Token.PROP:!isConstantName(n)
+return !NodeUtil.isName(n.getString(), 0)
+return  true; case Token.PROP: return n
+return !NodeUtil.contains(emptySet)
+return  false; case Token.PROP: return exists(n)
+return  true; case Token.ISOP(n)
+ return false; case Token.PROP: return n.hasChildren
+ return true; case Token.OPTIONS: return n.hasChildren(...)
+ case Token.PROP:
+return  true; case Token.PROP: return exists(n)
+return  false; case Token.PROP:
+return !NodeUtil.isConstantName(n, knownConstants); case Token.SET
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETELEM:
+return !NodeUtil.isConstantName(n, true)
+return  true; case Token.PROP: return true
+return !NodeUtil.isConstantName(n.getString(), n.getString() )
+return !NodeUtil.isNaN(n.value())
+ return true; case Token.PROP: case Token.SETELEM
+return !n.hasChildren(?)
+return !NodeUtil.isConstantName(n.getString(), "name")
+ return false; case Token.OPTIONS: return n.hasChildren(...)
+ return true; }
+return  n.hasChildren().remove(n)
+ return!knownConstants.isConstantName(n)
+ return true; case Token.OPTIONS: return n.hasChildren
+ case Token.PROP: return NameNodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.getString()); case Token.OP
+ case Token.PROP: return true
+return !NodeUtil.isString(n.value())
+ case Token.PROP: return hasChildren(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.ELEM:
+return !NodeUtil.isString(n.getString(), false)
+ case Token.CALL: case Token.CONSTANT:
+ case Token.PROP: return n.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP:
+return !NodeUtil.isName(n.value())
+return  true; case Token.PROP: return false
+ case Token.CALL: case Token.NEW: if (canBeSideEffected(n)) {
+ case Token.PROP: return ts.isConstantName(n)
+ case Token.PROP: return exists(n)
+ return true; case Token.CONSTANT:
+ case Token.CALL: case Token.CONSTRUCTOR:
+ return true; default: return n.hasChildren()
+return  true; case Token.CONST
+ return true; case Token.PROP:isConstantName(n)
+ case Token.CALL: case Token.PROP:
+ return false; }
+return  true; case Token.CONSTANTNAME
+return  true; case Token.PROP: return isProperty(n)
+ case Token.OP: return!isConstantName(n)
+return ! knownConstants. contains(n.)
+ case Token.CALL: case Token.CONSTRUCT:
+ case Token.CALL: case Token.NEW: case Token.CONSTRUCTOR:
+return  false; case Token.PROP: return isProperty(n)
+return !NodeUtil.isConstantName(n.getString(), n.getParent() )
+ return true; } case Token.PROP:
+return !NodeUtil.contains(knownConstants)
+ case Token.PROP: return false
+ return n.hasChild(n)
+ return true; case Token.PROP: return n.hasChildren(?)
+return !NodeUtil.isConstantName(n.getString()), false)
+ case Token.PROP: return Functions.isConstantName(n)
+ case Token.CALL: case Token.NONCONSTANT:
+return  false; case Token.OP: return hasChildren(n)
+ case Token.OP: return hasChildren(n)
+ case Token.CALL: case Token.NONCALL:
+return !NodeUtil.contains(n.value())
+ return true; case Token.PROP:
+return !knownConstants.hasEmpty()
+ case Token.OP: return isProperty(n)
+return !NodeUtil.isFunction(n
+ case Token.CALL: case Token.NOP:
+ case Token.PROP: return Node.isConstantName(n)
+return !NodeUtil.isConstantName(n, emptySet)
+ return true; case Token.PROP: return n instanceof Property
+ case Token.PROP: return ASTNodeUtil.isConstantName(n)
+return  false; case Token.PROP: return n
+return !NodeUtil.isConstantName(n.getString(), ":")
+ case Token.CALL: case Token.NEW: return true;
+return  true; case Token.ISPROP(n)
+ case Token.PROP: return Names.isConstantName(n)
+return ! knownConstants. contains(n.name
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETPROP:
+ case Token.CONSTANTNAME:
+return !NodeUtil.isConstantName(n, knownConstants); case Token.OP
+return  true; case Token.PROPER:
+ case Token.CALL: case Token.NEW: case Token.CALL:
+return  n.hasChildNodes(n)
+ return false; } case Token.PROP:
+return  true; case Token.CONSTANT:
+ case Token.CALL: case Token.NEW: if (canBeSideEffected(n))
+ case Token.CALL: case Token.NEW: case Token.CONSTRUCT:
+ case Token.PROP: return Symbol.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.COP:
+return  false; case Token.PROP: return true
+ return true; case Token.OPTIONS: return n.hasChildren(?)
+ case Token.OP:!isConstantName(n)
+ case Token.OP: return n.is()
+ n.hasChildren)
+ return true; case Token.PROP: return n instanceof Name
+ case Token.PROP: return Token.isConstantName(n)
+ case Token.CALL: case Token.NONNULL:
+ return false;
+ return true; } else { return false ; } case Token.PROP:
+return  true; case Token.OP: return exists(n)
+return  false; case Token.CONST
+ return true; case Token.OP: return n.hasChildren
+ return true; case Token.OPEN: return n!= null
+ case Token.PROP:NodeUtil.isConstantName(n)
+return  n.hasChildren
+return !NodeUtil.isConstantName(n.getString(), knownConstants);
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: case Token.NAME:
+ n.next(n)
+ return true; case Token.OP: return!isConstantName(n)
+ case Token.CALL: case Token.CONSTANTNAME:
+return !NodeUtil.isString(n.value)
+ return false; case Token.OPTIONS: return n.hasChildren(?)
+return  true; case Token.PROP: return isPropertyDeclaration(n)
+ case Token.PROP: return!(!NodeUtil.isConstantName(n)
+return  true; case Token.PROP: return isPropertyName(n)
+ return true; } case Token.CONSTANT:
+ case Token.CALL: case Token.NODE:
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GET:
+ case Token.CONSTANTNAMES:
+ return true; case Token.OP: case Token.PROP
+ case Token.CALL: case Token.NEW: case Token.NOP:
+ case Token.CALL: case Token.NEW: if (n.hasChildren()) { return true; } case Token.NAME:
+return  true; case Token.PROP: return canBeSideEffects(n)
+ return false; } else { return false ; } case Token.PROP:
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: case Token.CALL:
+return  true; case Token.PROP: exists(n)
+ case Token.CALL: case Token.NEW: if (n.hasChildren()) { return true; } default: return false;
+return  false; case Token.OP: return exists(n)
+ return true; case Token.PROP: return n instanceof Symbol
+ case Token.CONSTANTNAMEL:
+ return n.hasOwnProperty(n)
+ return true; case Token.OPTIONS: case Token.OPTIONS*
+ return false; } case Token.CONSTANT:
+ return true; case Token.OPTIONS: return n instanceof Property
+return !NodeUtil.isName(n.value)
+return  false; case Token.PROP: return isPropertyName(n)
+ return true; case Token.CONSTANTNAME:
+return  false; case Token.PROP: return isPropertyDeclaration(n)
+ return isConstant(n)
+ return true; case Token.PROP: case Token.NEW
+ return true; case Token.PROP: case Token.NONNULL
+ return (hasChildren)
+ case Token.CONSTANTS:
+return  n.hasChildren().includes(n)
+ case Token.CALL: case Token.NEW: case Token.METHOD:
+ case Token.CALL: case Token.NEW: case Token.NONNULL:
+return  true; case Token.PROP: return isPropertyDefinition(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETELEM: {
+return !NodeUtil.isConstantName(n.getString());
+ case Token.CALL: case Token.NONSTANT:
+ case Token.CALL: case Token.NEW: case Token.SET:
+return !knownConstants!= null
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NAME: case Token.CALL:
+ case Token.CALL: case Token.NEW: case Token.CLASS:
+ n.hasChildren(*)
+ if (n.hasChildren(*)
+ case Token.CALL: case Token.NEW: if (canBeSideEffected) {
+ case Token.CALL: case Token.NEW: if (canBeSideEffected()) {
+ case Token.PROP:isConstantName(n)
+return  true; case Token.PROP: return isConstant(n)
+ case Token.CALL: case Token.NEW: case Token.CONSTANTS:
+return !NodeUtil. contains(n.getString(), n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.ELEM: return true;
+return  false; case Token.PROP: exists(n)
+return  n instanceof Symbol
+ case Token.SET: return!isConstantName(n)
+ case Token.OP: return is(n)
+ case Token.PROP: return FunctionNodeUtil.isConstantName(n)
+return  n.hasChildren({)
+return  false; case Token.OP: return isProperty(n)
+ case Token.CALL: case Token.CORE: case Token.CORE: case Token.NEW: case Token.CALL:
+ case Token.CALL: case Token.NEW: case Token.CONSTANTNAME:
+return  false; case Token.PROP: return isPropertyDefinition(n)
+ return n.hasChildren(1)
+ case Token.OP: return n.next()
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: case Token.NEW:
+ case Token.CALL: case Token.NONNAME:
+ case Token.PROP: return!Node.isConstantName(n)
+ case Token.OP: return exists(n)
+return !NodeUtil.hasChildren(n
+return  false; case Token.PROP: boolean hasChildren(n)
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NAME: case Token.NEW:
+ return n.isNamed(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: return true;
+return  true; case Token.ISNamed(n)
+ return n.hasChildren(c)
+ case Token.CALL: case Token.NEW: if (canBeSideEffected(n) {
+ return is(n)
+ return n.hasChildren(); case Token.OP)
+return !NodeUtil.isConstantName(n, knownConstants); case Token.NAME
+ case Token.OP:!NodeUtil.isConstantName(n)
+ return (n!= null)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.ENUM:
+ return true; case Token.OPTIONS:isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.LEM:
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: case Token.COP:
+ return n.isConstant(n)
+ case Token.PROP: return!Names.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.COP: case Token.NAME:
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.ELEM: return false;
+return  true; case Token.PROP: return canBeSideEffect(n)
+ case Token.CONSTANTNAMED:
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.EXPR:
+return !n.hasChildren({})
+ return!isConstantName(n)
+ case Token.PROP: return AstNodeUtil.isConstantName(n)
+ return IR.isConstantName(n)
+ case Token.OP: return IR.isConstantName(n)
+ n.is(n)
+return  n.hasChildren(); hasChildren(n)
+ return n.isDeclaration(n)
+return  true; default: return n instanceof Property
+ return n.isConstantName()
+return  n.hasNextChild(n)
+return  false; case Token.ISNamed(n)
+ return n.getNext().isConstantName(n)
+ case Token.PROP: return n
+ case Token.CALL: case Token.CORE: case Token.CORE: case Token.NEW: case Token.CORE:
+ case Token.OPTIONS: return!!NodeUtil.isConstantName(n)
+return  true; default: return n instanceof Name
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETOP:
+ return n.getParent().isConstantName(n)
+ return n.hasNext(n)
+ case Token.PROP: return isConstant(n)
+ case Token.CALL: case Token.COP: case Token.NEW: case Token.PROP: case Token.GETOP:
+ case Token.OP: case Token.OPEN:
+return  true; case Token.OPTIONS: return isOpts(n)
+ case Token.CALL: case Token.COP: case Token.NEW: case Token.PROP: case Token.GETProperty:
+ case Token.OPTIONS: return!(!NodeUtil.isConstantName(n)
+ return true; case Token.PROP: return hasChildren
+ case Token.PROP: n.has(n)
+ return true; default: return false; case Token.SET
+return  true; case Token.ISNOP(n)
+ case Token.PROP: return StaticNodeUtil.isConstantName(n)
+ case Token.CALL: return true; case Token.PROP: case Token.GETELEM: {
+ return true;
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NAME:
+return  true; case Token.ISNODE(n)
+ case Token.CONSTANT: return!!NodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.COP: case Token.GETPROP: {
+return !NodeUtil.isConstantName()
+ return true; case Token.OP:
+ return true; case Token.OP: return op.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.Elem:
+ case Token.CALL: case Token.NEW: return true; }
+ case Token.OP: return isFunction(n)
+ case Token.CALL: case Token.CONSTRUCTOR: case Token.CALL: case Token.PROP:
+ case Token.CALL: case Token.CONSTRUCTOR: case Token.CALL: case Token.COP:
+ case Token.PROP: n.next(n)
+return  false; case Token.PROP: return defined(n)
+ case Token.PROP: return isPropertyDefinition(n)
+ case Token.CONSTANTNAM:
+ case Token.CALL: case Token.NEW: if (canBeSideEffected(n)))
+ case Token.CALL: case Token.NEW: case Token.PROP: return false;
+ case Token.PROP: n.isConstantName(n)
+ return true; case Token.OP: return Op.isConstantName(n)
+ case Token.PROP: return isConst(n)
+ case Token.PROP: return isPropertyName(n)
+ return true; case Token.PROP:!!NodeUtil.isConstantName(n)
+ case Token.CONSTANT: return NameNodeUtil.isConstantName(n)
+ case Token.PROP: Symbol.isConstantName(n)
+ return true; default: return false; case Token.OP
+ case Token.PROP: return (n)
+return !NodeUtil.isConstantName(n, false)
+ case Token.PROP: return _isConstantName(n)
+ return (n)
+ case Token.PROPERTY.isConstantName(n)
+ return true; case Token.OPTIONS: return false
+ case Token.CALL: case Token.CONSTRUCTOR: case Token.CALL: case Token.CONST:
+ return true; case Token.OPTIONS: return true
+ n.hasChild(n)
+ case Token.OPTIONS: return IR.isConstantName(n)
+ n.hasNext(n)
+ case Token.PROP: Names.isConstantName(n)
+return !NodeUtil.isFunctionName()
+ case Token.PROP: return!Utils.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: return true; }
+ case Token.PROP: n.is(n)
+ case Token.STRING:isConstantName(n)
+ case Token.OPTIONS: return false
+return !knownConstants == null
+return  n instanceof NameNode
+ case Token.OPTIONS: return true
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: return true; }
+ case Token.OPTIONS:!isConstantName(n)
+ return true; case Token.PROP: Symbol.isConstantName(n)
+ return true; case Token.OP: return IR.isConstantName(n)
+return !NodeUtil.hasChildren()
+ return n.hasChildren(emptySet)
+ case Token.PROP: Context.isConstantName(n)
+return !NodeUtil.isConstantName(n, unknownSet)
+ case Token.PROP: System.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.GETPROP: {
+ return true; case Token.PROP: returnNodeUtil.isConstantName(n)
+ return n.isDeclared(n)
+ case Token.ISOP(n)
+ case Token.PROP: if (!n)
+ return true; } else { return false ; } case Token.CONSTANT: {
+ return true; } else {
+return !NodeUtil.isConstantNameString(n)
+return !NodeUtil.isName(n.getString());
+ case Token.CONSTANT: return ASTNodeUtil.isConstantName(n)
+ case Token.CALL: case Token.UNCALL: {
+ case Token.SET:!NodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETELEM:: {
+ case Token.PROP: return Util.isConstantName(n)
+return !NodeUtil.isName(n
+ case Token.CONSTANT: return true; }
+ return n.hasParent(n)
+ return (n.hasChildren(n)
+ case Token.PROP: if (n)
+ return true; case Token.SET:
+ case Token.PROP: case!isConstantName(n)
+ case Token.CALL: case Token.COP: case Token.NEW: case Token.PROP: case Token.GET: {
+ case Token.OPEN:!NodeUtil.isConstantName(n)
+ case Token.PROP: return NameHelper.isConstantName(n)
+return !NodeUtil.isFunction()
+ case Token.PROP: return true&&!NodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NEW: return false; }
+return !NodeUtil.isName(n.getString()
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.ELEM):
+ case Token.CALL: case Token.NEW: case Token.CALL: case Token.NEW: return false; }
+ case Token.OPEN: return!!NodeUtil.isConstantName(n)
+ case Token.OPTIONS: return NameNodeUtil.isConstantName(n)
+ return true; case Token.OPTIONS:NodeUtil.isConstantName(n)
+ case Token.CALL: case Token.CONSTRUCTOR: case Token.GETPROP: {
+return  n.hasOwnProp(n)
+ case Token.CALL: case Token.NEW: if (canBeSideEffected(n))))
+ case Token.OPTIONS:NodeUtil.isConstantName(n)
+return  true; case Token.CONSTRUCT
+return !NodeUtil.isConstantName(n.getName)
+ return n.isConstantName(()
+return  n!= null && n
+ return true; case Token.OP: return NameNodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.CONSTRUCTOR: {
+ case Token.OPTIONS: return ASTNodeUtil.isConstantName(n)
+ case Token.PROP: return Utils.isConstantName(n)
+return  n.hasSameParent(n)
+ case Token.PROP: return! NameNodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NEW: {
+return !N.hasChildren()
+ return canBeSideEffects(n)
+ case Token.CALL: case Token.NEW: case Token.NOP: {
+ case Token.PROP: return true(!NodeUtil.isConstantName(n)
+ case Token.OPTIONS: return ts.isConstantName(n)
+ return true; case Token.OPT:!NodeUtil.isConstantName(n)
+return !NodeUtil.hasNames()
+return !NodeUtil.isConstantName(n.getText())
+ return canBeSideEffect(n)
+ case Token.PROP: return (!initialized)
+ case Token.CALL: case Token.CONSTANTNAME: {
+return  hasChildren
+ n.hasChildrenn)
+ case Token.PROP: return (true)
+ case Token.CALL: case Token.NEW: case Token.CONSTANT: {
+ case Token.PROP:!!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.getValue())
+ return true; case Token.PROP:&&!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName
+ case Token.OP: return NameNodeUtil.isConstantName(n)
+ n.setFirstChild(n)
+ return n.hasChildBefore(n)
+ case Token.OPTIONS: return true(!NodeUtil.isConstantName(n)
+ case Token.PROP: returnNodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n.getString(), true);
+ case Token.CALL: case Token.NEW: case Token.CALL: {
+return !n.isFunction
+ case Token.CALL: case Token.NOP: {
+return  node.hasChildren(n)
+ case Token.CONST: return!!NodeUtil.isConstantName(n)
+ return Functions.isConstantName(n)
+return  n instanceof String
+ case Token.CONSTANTS: {
+ case Token.OP: Op.isConstantName(n)
+ return!KnownConstants.isConstantName(n)
+ case Token.CALL: case Token.NEW: case Token.PROP: case Token.GETPROP: { }
+return !NodeUtil.isConstantName(n).*
+ return true; } }
+ n.get()
+ return true; } } else {
+return !emptySet
+return !NodeUtil.hasConstants
+ case Token.OPTIONS: return true&&!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(nName)
+ case Token.SET: Names.isConstantName(n)
+ case Token.OPTIONS:!NodeUtil.isConstantName(n)
+ case Token.CALL: case Token.NONCONSTANT):
+return !n.isStatic
+ return true; } else
+ case Token.OP: return!!NodeUtil.isConstantName(n)
+ case Token.PROP: return "!NodeUtil.isConstantName(n)
+return !NodeUtil.isName(n.getString(), true);
+ case Symbol: return Symbol.isConstantName(n)
+ case Symbol: return IR.isConstantName(n)
+ return n.is(n)
+ case Token.PROP:&&!NodeUtil.isConstantName(n)
+ case Token.PROP: return (!NodeUtil.isConstantName(n)
+ case Token.PROP&&!NodeUtil.isConstantName(n)
+ case Token.PROP!NodeUtil.isConstantName(n)
+ n.next()
+ n.setNext(n)
+return !newConstants
+ case Token.OP: Flags.isConstantName(n)
+ case Token.OP: Symbol.isConstantName(n)
+ case Token.CONSTANTNAME: {
+ case Symbol: return!isConstantName(n)
+ case Token.SET: return!!NodeUtil.isConstantName(n)
+ return false; } }
+return !NodeUtil.isString(n).length
+ case Token.SET:
+return  "hasChildren(n)
+ return has(n)
+return !NodeUtil.isString(n).*
+return !n.isName
+ case Node.NAME:isConstantName(n)
+return !NodeUtil.isConstantName(n.getValue)
+return !NodeUtil.isConstantName(nNode)
+ case Pattern: return Pattern.isConstantName(n)
+ case Token.OP: returnNodeUtil.isConstantName(n)
+ return Context.isConstantName(n)
+ return false; } else
+ case Token.CONSTANT: {
+return !NodeUtil.isConstantName(...)
+return !NodeUtil.isString(n).name
+ return n.isConstantName(n)
+ case Token.OP:NodeUtil.isConstantName(n)
+return  canBeChanged(n)
+ return ts.isConstantName(n)
+return !NodeUtil.isName()
+ case Token.OPEN:NodeUtil.isConstantName(n)
+return !NodeUtil.NULL
+return !NodeUtil.STRING
+return !NodeUtil.empty
+ return (true)
+ return "(n)
+return !NodeUtil.isConstantName(n.getText)
+ break; }
+return !NodeUtil.isConstantName(n).name
+return !NodeUtil.CALL
+ case Symbol: return NameNodeUtil.isConstantName(n)
+return !NodeUtil.NODE
+return !NodeUtil.isConstantName(n), false
+return !knownConstantsEmpty
+ return NameNodeUtil.isConstantName(n)
+ return names.isConstantName(n)
+ return NameUtils.isConstantName(n)
+ case Token.OP:isConstantName(n)
+ return (!initialized)
+ case Token.SET&&!NodeUtil.isConstantName(n)
+ case Token.PROP: {
+ return true; default: }
+ return defined(n)
+return !NodeUtil.isConstantName(nodeName)
+ case Symbol: return ASTNodeUtil.isConstantName(n)
+ return true; } default: {
+ return true; } } else
+ return true; } default: }
+ return Constants.isConstantName(n)
+ case Token.NAME:isConstantName(n)
+return !NodeUtil.isConstantNameNamed
+ return Names.isConstantName(n)
+ return false; default: }
+ case Token.SET*!NodeUtil.isConstantName(n)
+ return true; case NameNodeUtil.isConstantName(n)
+ case ConstUtils.isConstantName(n)
+return !NodeUtil.UNKNOWN
+return  isVariableDefinition(n)
+ return ASTNodeUtil.isConstantName(n)
+ case Token.OP:!!NodeUtil.isConstantName(n)
+ case Token.SET:!!NodeUtil.isConstantName(n)
+ case 1:!NodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n), n
+return  isFunction(n)
+return !NodeUtil.NEW
+ return _isConstantName(n)
+return  n instanceof NameDefinition
+ assert(n)
+return !NodeUtil.DEBUG
+ case Token.OP:&&!NodeUtil.isConstantName(n)
+return !n.static
+ return!Names.isConstantName(n)
+ case 0:!NodeUtil.isConstantName(n)
+return !NodeUtil.DEF
+ case Symbol: return FunctionNodeUtil.isConstantName(n)
+ n.includes(n)
+return  isConstruction(n)
+ return FunctionNodeUtil.isConstantName(n)
+return !NodeUtil.isConstantNameName()
+return  "const"
+ return Util.isConstantName(n)
+ return!Utils.isConstantName(n)
+ n.isConstantName(n)
+ return!this.isConstantName(n)
+ case ConstUtil.isConstantName(n)
+ return Utils.isConstantName(n)
+return !NodeUtil.isConstantName(n))
+ switch (n)
+return !NodeUtil.isConstantName($n)
+return  isName(n)
+return !knownConstant
+return !NodeUtil.isConstantName(c)
+return !static
+ return!(!NodeUtil.isConstantName(n)
+ return ()
+ return NameHelper.isConstantName(n)
+return !NodeUtil.isConstantName(arguments)
+return !NodeUtil.isConstantName(* n)
+ (n)
+ if (n)
+return !initialized
+return  isProperty(n)
+ case '()
+return  isVariable(n)
+ return true&&!NodeUtil.isConstantName(n)
+ return '()
+return  n == null
+ return AstNodeUtil.isConstantName(n)
+ return matches(n)
+ return ClassNodeUtil.isConstantName(n)
+return !namesInScope
+ case ()
+ case!isConstantName(n)
+ case 0: StaticNodeUtil.isConstantName(n)
+ case NameHelper.isConstantName(n)
+ case 1: StaticNodeUtil.isConstantName(n)
+return !NodeUtil.isConstantName(n++)
+ case 2:!NodeUtil.isConstantName(n)
+ return!C++NodeUtil.isConstantName(n)
+ return! NameNodeUtil.isConstantName(n)
+ break; } }
+ return true(!NodeUtil.isConstantName(n)
+ } return IR.isConstantName(n)
+return !isStatic
+ case Node.NodeUtil.isConstantName(n)
+ return! ASTNodeUtil.isConstantName(n)
+ case Node:NodeUtil.isConstantName(n)
+return !isFunction
+ case Symbol:!!NodeUtil.isConstantName(n)
+return !fixed
+return  isName
+ case Symbol:&&!NodeUtil.isConstantName(n)
+ case!!NodeUtil.isConstantName(n)
+ return true; #!NodeUtil.isConstantName(n)
+ return false; #!NodeUtil.isConstantName(n)
+ case NAME:&&!NodeUtil.isConstantName(n)
+ return!!NodeUtil.isConstantName(n)
+ n=isConstantName(n)
+ } }
+return !NodeUtil.isConstantName(n);
+return !NodeUtil.isConstantName(sn)
+ } else
+ return (!NodeUtil.isConstantName(n)
+ return "!NodeUtil.isConstantName(n)
+ { }
+ case *!NodeUtil.isConstantName(n)
+ }
+return !NodeUtil.isConstantName(node)

@@ -1,0 +1,819 @@
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = (VVLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & (VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit!= 0;
+ continuation = continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT;
+ continuation = continuation && (digit & VLQ_CONTINUATION_BIT) != 0;
+ assert (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = true;
+continuation = (true)
+ result = result + (digit << shift); shift = shift + VLQ_BASE_Shift;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if (continuation) {
+ result = result + (digit << shift); shift = shift + VLQ_BASE_SIZE;
+continuation = (digit & VLQ_CONTINUATION_BIT) ;
+ continuation = continuation & digit!= 0;
+continuation  =!
+ continuation = continuation & ~(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = (VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; }
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if (continuation)
+ continuation = digit >>>(VVLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit!= 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; } else {
+ result = result + (digit << shift); shift += VLQ_BASE_SHIFT;
+ result = result + (digit << shift); shift = 0 ; while (continuation) {
+ result = result + (digit << shift); shift = VLQ_BASE_SHIFT;
+ continuation = (digit) != 0;
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) {
+ if ( digit == 0 ) { result = result + (digit << shift); } else {
+ result = result + (digit << shift; shift = shift + VLQ_BASE_SHIFT);
+ continuation = digit >>>= (VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } else {
+ continuation = true ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; } else
+ shift = shift + VLQ_BASE_SHIFT ; continuation = true ;
+ result = result + (digit << shift); shift = 0 ; while (shift > 0) {
+ continuation =!digit!= 0;
+ result = result + (digit << shift); shift += VLQ_BASE_SHIFT; continuation =
+ result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; int
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift ; continue ; } else {
+ result = result + (digit << shift); shift += VLQ_BASE_Shift;
+ continuation = (digit & 1) != 0;
+ assert (VLQ_CONTINUATION_BIT) != 0;
+ shift = shift + VLQ_BASE_SHIFT; while (continuation)
+ result = result + (digit << shift; shift = shift + VLQ_BASE_SHIFT;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift ; } else {
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; }
+ result = result + (digit << shift); shift = 0 ; while (true) {
+ shift=0;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; } else {
+ result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; else
+ shift = shift + VLQ_BASE_SHIFT ; while (continuation) {
+ continuation = digit & (VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE_SIZE ;
+ result = result + (digit << shift); shift += VLQ_BASE_SIZE;
+ result = result + (digit << shift); shift = 0 ; while (continuation)
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } else {
+ result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; }
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; }
+ result = result + (digit << shift); if (shift > 0) {
+ continuation = digit >>> (shift& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation || (digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ;
+ shift = shift + VLQ_BASE_SHIFT ; continuation =!
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift ; }
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_SHIFT ;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_SIZE ;
+ result = result + (digit << shift); shift = 0 ; while (shift > 0) { continuation =
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift ; continue ; } else {
+ continuation = continuation ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + digit ; }
+ if ( c == 0 ) { result = result + (digit << shift); } else {
+ assert digit& VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); continue ; }
+ result = result + (digit << shift); while (shift > 0) {
+ result = result + (digit << shift); shift = shift + 1;
+ result = result + (digit << shift); while (continuation) {
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0)
+ if ( digit == - 1 ) { result = result + (digit << shift); shift = 0 ; }
+ result = result + (digit << shift); if (shift > 0) { continuation =
+ result = result + (digit << shift); shift += VLQ_BASE_SHIFT; continuation =!
+ continuation = digit& VLQ_CONTINUATION_BIT) != 0;
+ continuation = (digit & VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); } else
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift + VLQ_SIZE ;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_Shift ;
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_SHIFT ;
+ if (digit == 0) { result = c ; }
+ shift = shift + VLQ_BASE_SHIFT; continuation =
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; } else
+ if ( digit == 0 ) { result = 0 ; continue ; }
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ;
+ result = result + (digit << shift); shift = shift + VLQ_Shift;
+ result = result + (digit << shift); shift = shift + -1;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } if ( continuation ) {
+ result = result + (digit << shift); shift = shift + VLQ_SIZE;
+ if ( digit == 0 ) { result = 0 ; } else {
+ continuation = continuation ; continuation =(digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); break ; }
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE ; }
+ continuation = continuation || continuation ; continuation = (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SHIFT) != 0;
+ if ( digit == 0 ) { result = c ; continue ; }
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift ++ ;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; } else { boolean
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift ; } else
+ result = result + (digit << shift; shift = shift + VLQ_BASE_SHIFT); int
+ result = result + (digit << shift); shift = 0 ; while (true)
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  -1;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT
+ if ( digit == 0 ) { result = 0 ; continue ; } else {
+ if ( digit == 0 ) { result = result + (digit << shift); shift ++ ; }
+ if ( digit == 0 ) { result = 0 ; continuation = true ; } else {
+ continuation = continuation &= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation || continuation && (digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift ; }
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } if ( continuation ) {
+ continuation = continuation && (digit << shift& VLQ_CONTINUATION_BIT) != 0;
+ result = result + (digit << shift); if (continuation) {
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } while (true) ;
+ continuation = continuation && digit >>>= (VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation << shift);
+ continuation = continuation & digit shift!= 0;
+ if (digit == 0) { break; }
+ if ( digit == 0 ) { result = c ; } else {
+ if ( digit == - 1 ) { result = 0 ; continue ; }
+ continuation =!(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; while (continuation) {
+ continuation = continuation & VLQ_MASK;
+ if ( digit == 0 ) { result = c + (digit << shift); } else
+ if (digit) {
+ if ( digit == 0 ) { result = c + (digit << shift); }
+continuation = (digit ) ;
+ if (digit!= 0) {
+ result += (digit << shift;
+ if ( digit == 0 ) { result = 0 ; break ; } else {
+continuation = (shift + VLQ_BASE_SHIFT - digit) != 0;
+ continuation = digit >> (VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_SHIFT }
+ if ( digit!= 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift
+ if (digit == 0) { result = c ;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; } else { boolean
+ while (digit) != 0;
+ if ( digit == 0 ) { result = c ; break ;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = shift ; } else { boolean
+ result = result + (digit << shift); while (shift > 0) { int
+continuation = (shift + VLQ_BASE_SHIFT) & (digit) != 0;
+ continuation = continuation || continuation ; assert (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = -(digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); }
+ shift = shift + VLQ_BASE_SHIFT; int
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; } else { continuation =
+continuation = (digit &  continuation);
+ continuation = continuation &&! (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit  >> shift);
+ continuation = continuation == true && (digit & VLQ_CONTINUATION_BIT) != 0;
+ if (digit == 0) { result = 0 ; }
+ continuation = continuation &(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >>>= (shift) != 0;
+ if ( digit == - 1 ) { result = 0 ; continue ; } else {
+ result += digit << shift;
+ if ( digit == 0 ) { result = result + (digit << shift); continue ;
+ if ( digit!= 0 ) { result += digit << shift ; continue ; }
+ if (result == -1) { continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = result + (digit << shift);
+ continuation = digit >>> (shift + VVLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & (1 << shift) != 0;
+ continuation =! continuation ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ int shift = shift;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation << shift ;
+ continuation = true ; continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0 ; shift = shift + (digit << shift);
+ continuation = continuation ||! continuation ; continuation = (digit & VLQ_CONTINUATION_BIT) != 0;
+ if (digit == -1) {
+continuation = (shift + VLQ_BASE_Shift) != 0;
+ continuation = (digit >>>& VLQ_CONTINUATION_BIT) != 0;
+continuation  = true ; shift ++ ;
+continuation = (digit & VLQ_CONTINUATION_BIT; if (continuation)
+ continuation = (digit >> shift) != 0;
+continuation = (continuation);
+continuation = (digit & VLQ_MASK) != 0;
+ if ( digit == 0 ) { result = c ; shift = 0 ; }
+ if (result == 0) { continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & (shift + VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = 0 ;
+continuation = (digit &  1) == 1;
+continuation = (digit &  1) == 1; if (continuation)
+ continuation = continuation && continuation ; continuation = (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation =! continuation ; shift = shift ; assert(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && -(digit & VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); } else { boolean
+ continuation = continuation && digit >>>(shift& VLQ_CONTINUATION_BIT) != 0;
+ result = result << shift;
+ if ( digit == 0 ) { result = c ; } else
+continuation  = continuation ; shift = shift + 1 ;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0; if (continuation)
+ if (digit == 0) { result = 0 ;
+ continuation = (& VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >> (VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } boolean
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation >>> shift;
+ result = result + (digit << shift;
+ continuation = continuation && result + (digit & VLQ_CONTINUATION_BIT) != 0;
+ if (digit == 0) { break }
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation >> shift;
+ result = result + (digit << shift); if (shift > 0) { int
+continuation  =! continuation ; shift = shift ;
+ result = result + (digit << shift) |0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; if (continuation) {
+ if ( continuation )
+ continuation = continuation & VLQ_SIGN;
+ continuation = continuation && digit >>>= (c& VLQ_CONTINUATION_BIT) != 0;
+ continuation = (result & digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = -shift;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if (result > 0) {
+continuation = (result + digit) == 0; continuation = (result + (digit << shift) != 0;
+ continuation = continuation ; shift = shift + (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit  << shift) ;
+ if (digit > 0) {
+continuation = (digit &  0xFF);
+continuation = (digit &  VLQ_BASE) ;
+continuation = (shift + digit << shift);
+continuation = (shift + VLQ_BASE_SHIFT & digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if continuation {
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = shift + - 1 ;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = digit ;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation ;
+ continuation = (digit << shift) != 0;
+ continuation = (digit & 7) != 0;
+continuation = (shift + VLQ_BASE_SHIFT + digit) != 0;
+ assert digit!= 0;
+ continuation = ord(c) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = -shift;
+continuation = (shift + VLQ_BASE_SHIFT << digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = shift + continuation ;
+ if (digit == 0) {
+ if (digit!= 0)
+ continuation = continuation || digit >>>= (VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_BIT) != 0;
+ continuation = digit & (shift | VVLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SIZE) != 0;
+ continuation = continuation ||! continuation ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + digit); shift = (shift + VLQ_SHIFT) != 0;
+continuation = (shift + VLQ_SHIFT) != 0;
+continuation  =! continuation ; shift = shift + 1 ;
+ if (c == digit) {
+continuation = (digit & VLQ_CONTINUATION_BIT)  == -1;
+ result = result + (digit << shift);
+ continuation = true ; continuation = continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit >>>= (shift& VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >>> (shift | VVLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation & VLQ_BIT;
+continuation = (digit &  1) == 1; shift = 0;
+ shift = shift + VLQ_SHIFT;
+ result = result + digit << shift;
+ continuation = true ; shift ++ ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SHIFT) >>> () != 0;
+ continuation = result + (digit << shift + 1) != 0;
+ continuation = continuation || digit >>>= (c& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation | VLQ_SIGN;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift += 1 ;
+ if ( digit == 0 ) { result = c ; } boolean
+ continuation = continuation && digit & (shift + VVLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SHIFT) << digit) != 0;
+continuation = (digit & VLQ_SIGN) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if (result > continuation) {
+ shift = shift + (digit << shift) >>>0;
+continuation = (digit & VLQ_CONTINUATION_BIT; if (value > 0) {
+ if (digit == c) {
+ if (digit == 0) { continue; }
+ if (continuation) continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >> (shift + VVLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit & ~(VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = digit >> shift ;
+continuation  = true ; shift = shift + -1 ;
+ if (digit == 0) { result = 0 ; } boolean
+ result = result + (digit << shift + 1;
+ continuation = continuation ; shift = digit >>> (shift& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation || digit & (shift + VVLQ_CONTINUATION_BIT) != 0;
+ continuation = (int) (digit& VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = shift + digit << shift ;
+continuation = (shift + VLQ_BASE_SHIFT + -1) != 0;
+continuation = (shift + VLQ_BASE_SHIFT) >> () != 0;
+continuation  = true ; shift = shift + 1 ;
+continuation = (digit &  1) == 1; shift = -shift;
+continuation = (shift + VLQ_BASE_SHIFT) >>> (digit) != 0;
+ continuation = continuation && digit >>>(shift + VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0;
+ continuation = continuation || digit!= 0;
+continuation = (shift + VLQ_BASE_SHIFT) << () != 0;
+ continuation = continuation == true ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation ||! continuation && digit!= 0;
+ if ( digit!= 0 ) { result += digit ; }
+ continuation = digit >>>= (c& VLQ_CONTINUATION_BIT) != 0;
+ char continuation = true;
+ continuation = true ; shift = shift ; assert(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation  =! continuation ; shift = digit >> shift ;
+ shift = shift + (digit << shift); digit!= 0;
+ continuation = continuation ; shift = ~(digit & VLQ_CONTINUATION_BIT) != 0;
+ result = result + digit;
+continuation = (shift + VLQ_BASE_SHIFT + digit << shift) != 0;
+continuation  = continuation ; shift = shift + -1 ;
+continuation = (shift + VLQ_BASE_SHIFT + digit << 1) != 0;
+continuation = (digit  << shift) == -1;
+ continuation =!result |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); if (continuation)
+continuation = (shift + VLQ_BASE_SHIFT - 1) != 0;
+ continuation = continuation || digit >>>= (shift& VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = 0 ; continue ; } boolean
+ continuation = decode(c) != 0;
+ continuation = (c& VLQ_CONTINUATION_BIT) != 0;
+ if ( digit == - 1 ) { result = 0 ; } else
+ continuation = continuation && continuation ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift) == 0 && result + (digit << shift) != 0;
+ continuation = continuation &= digit!= 0;
+ if ( digit == 0 ) { result = c ; continue ; } boolean
+ continuation = ~(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_BIT) != 0;
+ continuation = continuation ; shift = shift while (digit & VLQ_CONTINUATION_BIT) != 0;
+ if (digit == -1) break;
+ continuation = --shift!= 0;
+ continuation = continuation |= digit;
+ continuation = continuation && continuation && continuation && (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && continuation & ~(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && continuation &= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation &&! continuation && digit!= 0;
+continuation = (result + digit << shift) == -1;
+ continuation = continuation ||! continuation ; assert(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = true ; shift = 0 ; assert(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation |(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0 ; if ( continuation ) { result += digit ;
+ if ( digit == 0 ) { result = 0 ; } else { boolean
+ if (continuation) digit!= 0;
+ continuation = continuation && digit.indexOf(VLQ_CONTINUATION_BIT) != 0;
+ result = result |0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0? continuation : -1;
+ result = result + (digit << shift)*;
+ if ( digit == 0 ) { result = 0 ; continue ; } else { boolean
+ continuation = (digit << shift& VLQ_CONTINUATION_BIT) != 0;
+ while (continuation) { shift=0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation);
+ continuation = continuation |= digit << shift;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; if ( continuation ) { continuation ; }
+ continuation = digit >>> (VLQ_CONTINUATION_BIT) != 0;
+ while (continuation) { result=0;
+continuation  =! continuation ; shift = 0 ;
+continuation = (digit &  1) == -1;
+ continuation =! continuation && digit!= 0;
+ continuation = continuation ; shift =!(digit & VLQ_CONTINUATION_BIT) != 0;
+ shift = shift + (digit << shift) |0;
+ continuation =! continuation ; shift = shift + (digit & VLQ_CONTINUATION_BIT) != 0;
+ shift = shift + 1 ;
+ if (result == -1) { continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit >>>= shift & (VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + digit << shift) ;
+ result = result + (digit << shift)+1;
+ shift = shift + 1;
+ shift = shift |0;
+ if (result == -1) continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >> (shift + 1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = shift + continuation ; continuation =
+continuation = (digit  << shift); shift = shift + -1;
+ continuation = false; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit  >> shift) == -1;
+ continuation = continuation ; shift = digit >>>(& VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift)) == 0 || (result + digit << shift) != 0;
+ result = result + (digit << shift) |;
+ if ( digit == 0 ) { result = c ; } else { boolean
+ continuation = continuation |= digit ; digit!= 0;
+ if ( digit!= 0 ) { result += digit << shift ; shift = 0 ; } else
+ continuation = (c >>>& VLQ_CONTINUATION_BIT) != 0;
+ continuation = result + (digit >>> shift + 1) != 0;
+ shift = shift + digit << shift;
+ continuation =! continuation ; shift = shift |(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit >>>(1& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit & (shift | VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit == 0 ) { result = result + (digit << shift); boolean
+ continuation = continuation && digit.index(VVLQ_CONTINUATION_BIT) != 0;
+ if ( digit == - 1 ) { result = 0 ; continue ; } boolean
+ shift = shift + -1;
+ continuation = continuation | ~(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & (shift << shift) != 0;
+continuation = (digit  << shift) > 0 ;
+ continuation = continuation |= digit!= 0;
+continuation = (digit &  1) == 0; shift = 0;
+ continuation = continuation || shift ; assert(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0; shift = shift + continuation ;
+continuation  =! continuation ; shift = -shift;
+ continuation = digit >>> (= VVLQ_CONTINUATION_BIT) != 0;
+ continuation = digit(c) != 0;
+continuation  = true ; shift = shift ;
+ continuation = continuation && digit >= 0;
+continuation = (shift + VLQ_BASE_SHA-1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift ++ ;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0? continuation : 0 ; shift += continuation ;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = 0;
+ result = result + (digit << shift) >>>0;
+continuation  |=
+continuation  =! continuation ; shift =
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0 ; if ( continuation ) { result = c ;
+ continuation = continuation == false ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & (shift << 1) != 0;
+continuation = (result + (digit << shift) | c << shift) != 0;
+ continuation = digit >>> (shift + 1) != 0;
+ continuation = continuation & digit ; continuation!= 0;
+continuation = (digit &  1) == 0; shift = -shift;
+ continuation = continuation && (digit >>>=& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation &= digit >> shift;
+ continuation = CharacterIterator.decode(c) != 0;
+ continuation = continuation && continuation == true ; assert (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = decode(digit) != 0;
+ continuation = digit & (int VVLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SHIFTShift) != 0;
+ continuation = continuation && digit &= 1 && digit!= 0;
+ continuation = continuation || continuation ; continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ shift = shift + (digit << shift); continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation =  continuation ; shift = shift ; continuation = false ;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift += digit ;
+continuation = ! continuation ; shift = shift + -1 ;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift = -shift;
+ continuation = continuation ; shift = -(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit >>>= 1 && digit& VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift)) == 0 && (result + digit << shift) != 0;
+continuation = (result + digit << shift); continuation = (continuation) != 0;
+continuation = (result + digit << shift); shift = 0;
+continuation = (digit &  1) == 1; shift = 1;
+ continuation = continuation && digit == 0;
+continuation = (result + digit << shift) > 0 ;
+ continuation = digit >>>= (shift& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation |= digit >> shift;
+ continuation = digit >> (shift& VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = digit >> shift;
+continuation  = continuation || continuation == true;
+ result = result + (digit << shift) ^0;
+ continuation = continuation || continuation ; continuation =! (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = result + (digit << shift - 1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift = shift + - 1 ;
+ continuation = digit >> (int VVLQ_CONTINUATION_BIT) != 0;
+continuation  = continuation | digit;
+continuation = (digit &  VLQ_BASE_);
+continuation  = continuation ||!shift;
+ if (digit == 0) break;
+ continuation = continuation && digit >>> (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit & VLQ_(shift) != 0;
+ continuation = continuation ; continuation |= ((digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_Shift - digit) != 0;
+ continuation = decode(in) != 0;
+ while (digit) {
+ continuation = continuation && digit &= 1;
+continuation = (digit &  1) == 1; if continuation {
+ continuation = continuation && digit >>>= 0 && digit& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation & 1 ; digit!= 0;
+ shift = shift >>> 1 ;
+ continuation = (char >>>& VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift = shift + digit << 1 ;
+continuation = (result + (digit << shift) > 0);
+continuation = (shift + VLQ_BASE_IFT) != 0;
+continuation = (continuation)
+ shift = shift >>>0;
+continuation  = true ; shift = shift >>> 1 ;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift = 0 ;
+continuation = (result + (digit << shift + 1) != 0;
+ continuation = digit >>>(16*VLQ_CONTINUATION_BIT) != 0;
+ continuation = (int) (c& VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_BASE_SHIFT 1) != 0;
+ continuation = digit >>>= (shift + 1) != 0;
+ continuation = digit >>>(MASK) != 0;
+continuation = (result + (digit << shift) & -1) != 0;
+ result = result ^ digit;
+ continuation = continuation && digit >>>(1& VLQ_CONTINUATION_BIT) != 0;
+ if (digit == -1) continue;
+continuation = (digit &  1) == 1
+ continuation =! continuation ; shift = shift | ~(digit & VLQ_CONTINUATION_BIT) != 0;
+ while () != 0;
+continuation = (digit &  0) == 0; shift = 0;
+ continuation = digit >>>= (shift << shift) != 0;
+ continuation = digit >>>= (shift << 1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = -shift);
+continuation = (digit & VLQ_CONTINUATION_BIT)  > 0 ;
+ while (shift)
+continuation = (digit &  1) == 1; shift ++;
+continuation  = continuation &&! continuation ;
+continuation = (result + (digit << shift) > result);
+ continuation = continuation & digit ; result!= 0;
+ result = result >>>0;
+ continuation = continuation &&!result |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift = shift + VLQ_SIZE) != 0;
+continuation  = continuation && digit >> shift ;
+continuation = (shift + VLQ_BASE_SHIFT shift) != 0;
+continuation = (result + digit << shift) == 0;
+ shift = shift << shift ;
+ continuation = digit >> (shift 1) != 0;
+continuation  = continuation & 1 ;
+ continuation = continuation & digit ; digit!= 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0? 0 : -1; shift = continuation ;
+ continuation = continuation & 0 ; shift ++ ; continuation!= 0;
+continuation = (digit  >>>= VLQ_SIZE);
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = 0);
+continuation = (digit &  1) == 1; shift =
+ continuation = continuation && digit &= 0 && shift!= 0;
+continuation =  continuation ; shift = shift ; continuation = 0 ;
+ continuation = ((VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation & VLQ_BIT0;
+ continuation = continuation && digit >>>= 1 && (& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation ||!shift |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation  = continuation |=
+continuation = (result + (digit << shift) | c) != 0;
+ continuation = continuation && digit &= 0x0;
+ result=0;
+ continuation = ((digit >>>& VLQ_CONTINUATION_BIT) != 0;
+continuation =  continuation ; shift = shift ; continuation = true ;
+continuation  = continuation && result == digit ;
+ continuation = (shift) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift = digit ;
+continuation  = continuation && result == 0 ;
+ assert (& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation || ((digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation =! continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift) ) ;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = continuation ;
+continuation = (character & VLQ_BIT) != 0;
+continuation = (digit  >> shift) == 0;
+ continuation = continuation && 0x(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation | digit ; digit!= 0;
+ continuation = continuation || continuation == -1; digit!= 0;
+ continuation = continuation && digit & 1 && digit!= 0;
+ continuation = continuation && (digit >>>& VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift) >>> 0 | c) != 0;
+continuation  = continuation && continuation ;
+continuation = (char) c ;
+ continuation = true ; shift = shift + 1 while(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation  =! continuation ;
+continuation = (digit  >>>= VLQ_BIT);
+ continuation = continuation |= digit &=0;
+ continuation = digit &= 0xc0;
+ continuation = digit & (shift + -1) != 0;
+ continuation = continuation ; shift =(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (result + (digit << shift) >>> 0 | 0) != 0;
+continuation = (digit & (1 << shift) != 0;
+ continuation = digit &= 1.0;
+continuation = (result + digit << shift) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift >>> shift;
+continuation = (digit  << shift) == 0;
+ continuation = continuation && digit & (shift << 1) != 0;
+ continuation = digit >> (shift shift) != 0;
+continuation = (result + digit); shift = (shift + VLQ_BASEShift) != 0;
+continuation = (result + digit << shift) < 0 ;
+ continuation = continuation && digit-(digit & VLQ_CONTINUATION_BIT) != 0;
+ if (result == 0) { continue; continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation && digit &= 1.0;
+ shift = shift + digit << shift ;
+continuation = (digit  >> shift) == 1;
+continuation = (shift + VLQ_Shift) != 0;
+continuation = (digit  << shift); shift = shift + continuation;
+ continuation = continuation ||!result |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit &  1) == 0;
+ continuation = continuation & 0xF0;
+ if (c == '\\' ) continuation |= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + VLQ_SIZE) != 0;
+ continuation = digit >>> (shift 1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift += 1 ;
+ continuation = continuation & 0xff ; continuation!= 0;
+continuation = (digit &  1) == 0; shift =
+ while (continuation) { continuation=0;
+ continuation = continuation |= digit ; shift!= 0;
+ shift = shift >>> shift ;
+ continuation = continuation &= digit;
+ continuation = digit &= 0x0;
+ continuation = continuation &&!shift |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ result <<= shift;
+ continuation = continuation && digit & 1; digit!= 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift += continuation;
+continuation = (digit &  1) == 1; shift = digit >>> shift
+continuation = (result + (digit << shift) + c) != 0;
+continuation = (result == -1);
+continuation = (digit  >>>= shift);
+continuation = (digit  >>>= VLQ_SIGN);
+ continuation = true ; shift = shift + 1 if(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT | continuation);
+ continuation = continuation || continuation == true; digit!= 0;
+continuation = (shift == -1);
+continuation = (digit  << shift); shift = shift + 1 ;
+ result |= digit;
+continuation = (result + (digit << shift) + digit) != 0;
+ while (true)
+continuation = (shift + digit >> shift) ;
+ continuation = result |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ if (digit == 0) { break };
+ continuation = (character& VLQ_CONTINUATION_BIT) != 0;
+ shift ==0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; if continuation {
+continuation = (result + (digit << shift) >> shift) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift += ;
+ continuation |= digit!= 0;
+ continuation = continuation && digit &= 0xc0;
+ continuation = shift |= (digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = true; digit!= 0;
+ if (digit == 0) continue;
+ continuation = digit & (-VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & 0xFF) != 0;
+continuation = (digit & -1) != 0;
+ shift = shift + (digit << shift)+0;
+ shift = shift + digit >>>0;
+ continuation = continuation && digit &==0;
+ shift = shift &=0;
+continuation = (char) digit ;
+ shift = shift>>0;
+ continuation = continuation & 0xFF ; continuation!= 0;
+continuation = (shift + 1) ;
+ continuation = digit &= 0xf0;
+continuation = (shift + continuation) ;
+continuation = (result > 0) ;
+ continuation = -shift!= 0;
+ while (character) != 0;
+continuation = (digit &  0x7f);
+continuation = (shift + digit << 1);
+continuation = (digit & (shift + 1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0? continuation :
+continuation = (in.nextInt()) != 0;
+continuation  = continuation ;
+continuation = (digit &  1) == 1; shift = digit >>> 1
+ continuation = result + digit >>>0;
+continuation = (digit  >>> shift);
+continuation = (digit  &= 0xff);
+continuation = (digit & 0x80) != 0;
+continuation = (result + (digit << shift)+1) != 0;
+continuation = (digit &  0xff);
+ continuation = result + digit>>0;
+continuation = (digit &  7) == 7;
+continuation = (digit &  ~1);
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; shift = -1;
+continuation = (shift + digit << shift); continuation =
+continuation = (digit & 0x01) != 0;
+ continuation = digit & 0xf0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  === 0 ; shift ++ ;
+ if ((digit& VLQ_CONTINUATION_BIT) != 0;
+ int shift = shift |0;
+continuation = (digit & 0xff) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; continuation =
+continuation = (digit &  1) == 1; continuation =
+ int shift = shift >>>0;
+ continuation = digit & 0xc0;
+continuation = (result + digit << shift); continuation =
+continuation = (shift + 1); shift = 0 ;
+ result = result0;
+ continuation = continuation ^(digit & VLQ_CONTINUATION_BIT) != 0;
+ continuation = digit &=0;
+ char result = result |0;
+ while ((digit& VLQ_CONTINUATION_BIT) != 0;
+ continuation = c!= 0;
+continuation = (continuation &&
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = -shift;
+continuation = (digit & VLQ_CONTINUATION_BIT) == 1;
+ while (digit& VLQ_CONTINUATION_BIT) != 0;
+ continuation = continuation ; shift!= 0;
+continuation = (shift == 0);
+continuation = (digit  | continuation) ;
+continuation  = continuation ; shift = shift ; }
+ continuation = ((digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit &  0xF);
+ result += digit;
+ shift = shift + -shift;
+continuation = (int digit & 1) != 0;
+continuation = (shift + digit << 7);
+continuation = (digit &  1);
+continuation = (digit & 0x0F) != 0;
+continuation = (digit &  0x03);
+ while (shift) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = result + (digit << shift));
+ result ==0;
+continuation = (digit ) &&
+ do {
+continuation = (shift < 0);
+ continuation = false;
+continuation = (result + (digit << shift) 0) != 0;
+continuation = (digit  > 0);
+ assert digit(VLQ_CONTINUATION_BIT) != 0;
+ assert (VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit >>>= 0xFF) != 0;
+ continuation = (character) != 0;
+ assert (digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; break;
+continuation = (digit >>>= 0x80) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation;)
+ continuation = (+VVLQ_CONTINUATION_BIT) != 0;
+ if (! continuation)
+ continuation = true ;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation << shift;)
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0? true :
+ shift = -shift;
+ assert ((digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; shift =
+continuation = (digit & ~1) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation << shift ; }
+ result = c0;
+ continuation = continuation ||= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation ; }
+ continuation = (-VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = result + (digit << shift)
+ continuation = result!= 0;
+continuation = (digit  & 1) == 0
+ continued = continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (shift + digit << shift) &&
+continuation = (digit & VLQ_CONTINUATION_BIT; shift = shift + continuation; }
+ continuation = (c) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT == 0);
+continuation = (digit &  -1);
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0; shift =
+ result = $0;
+ while digit!= 0;
+ while ( (digit) != 0;
+continuation = (char digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0? false :
+continuation = (digit & VLQ_CONTINUATION_BIT); shift = shift + continuation ; int
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0? continuation :
+ result = digit;
+ continuation = +(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation  = continuation &&
+continuation = (digit  << shift) > 0 ; int
+ while ((VVLQ_CONTINUATION_BIT) != 0;
+continuation = (digit &  shift);
+ (digit& VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & = 0);
+ shift += 1;
+continuation = (shift + digit << shift) -
+continuation = (digit & = 1);
+continuation = (digit  >> shift) &&
+continuation = (shift + digit << shift); continuation &&
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0
+ continuation = continuation= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (result << shift) | c
+ continuation = (vVLQ_CONTINUATION_BIT) != 0;
+continuation = (true) ;
+continuation = (true) &&
+continuation = (shift & ~1) != 0;
+ continuation = shift!= 0;
+continuation  = continuation | ~
+ continuation |== (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation  =! continuation &&
+continuation = (int digit) != 0;
+ while (() != 0;
+continuation = (digit &  1) == 1; int
+ if () != 0;
+continuation = (digit &  1) == -1 &&
+continuation = (digit &  1) == 0; int
+ if continuation {
+ while ((VLQ_CONTINUATION_BIT) != 0;
+ ++ shift;
+ while (VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0 || continuation ;
+ if digit!= 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0? :
+ --shift;
+continuation = (digit  >> shift) ; int
+ shift = shift ; boolean
+continuation = (digit &  7);
+ assert ((VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0
+ continuation ++;
+ do { boolean
+continuation = (digit &  255);
+continuation = (digit & VLQ_CONTINUATION_BIT) == 1
+continuation = (continuation) != 0;
+ continuation=() != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 ; int
+continuation = (digit & VLQ_CONTINUATION_BIT)  == 0 ; int
+ continuation &= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit >>>) != 0;
+ shift ++;
+ shift += digit ; boolean
+ shift = shift ; *
+continuation = ( - digit) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) | continuation
+continuation = (digit & VLQ_CONTINUATION_BIT)  ||!
+ continuation(() != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  -1 &&
+continuation = (digit & VLQ_CONTINUATION_BIT) &&
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  0 &&
+continuation = (digit ) ||
+continuation = (flag)
+ shifted=0;
+continuation  &=
+continuation  = true
+ if ()
+continuation = (false)
+ if (...)
+ assert c& VLQ_CONTINUATION_BIT) != 0;
+continuation = (flag);
+ continuation = (-digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) !=  1;
+continuation = (digit & VLQ_CONTINUATION_BIT) ||
+ --shift!= 0;
+ -- digit!= 0;
+continuation = (digit & VLQ_CONTINUATION_BIT;)
+ continuation ^= (digit & VLQ_CONTINUATION_BIT) != 0;
+ boolean
+ while {
+ continuation == (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) != 0 ; assert
+ continuation |(digit & VLQ_CONTINUATION_BIT) != 0;
+ if {
+ continuation *= (digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (ctr) != 0;
+ if (
+ continuation +=(digit & VLQ_CONTINUATION_BIT) != 0;
+ if!
+ continued =(digit & VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit & VLQ_CONTINUATION_BIT) >= 0;
+continuation = (digit >> VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit | VLQ_CONTINUATION_BIT) != 0;
+continuation = (digit >>> VLQ_CONTINUATION_BIT) != 0;
+ bool
+continuation = (digit & VLQ_CONTINUATION_BIT) === 0;
+ *
+continuation = (digit << VLQ_CONTINUATION_BIT) != 0;
+continuation && (digit & VLQ_CONTINUATION_BIT) != 0;

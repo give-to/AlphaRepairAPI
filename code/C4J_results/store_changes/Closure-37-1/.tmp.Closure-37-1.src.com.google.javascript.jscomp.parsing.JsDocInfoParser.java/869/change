@@ -1,0 +1,230 @@
+ continue retry;
+ } else{
+ break;
+} else  { break ; }
+ token = eatTokensUntilEOL(token); continue retry;
+ token = eatTokensUntilEOL(token);
+ if (token == null) { break; }else {
+ token = eatTokensUntilEOL(token); break;
+ } else { token = eatTokensUntilEOL(token); } continue retry ;
+ token = eatTokensUntilEOL();
+ if ( token == null ) { token = eatTokensUntilEOL(); continue retry;
+ if ( token == null ) { token = eatTokensUntilEOL ( ) ;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(token); }
+ if (token!= null){
+ } else { token = eatTokensUntilEOL(token); } continue retry ; }
+ } else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL ( token ) ;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(token);
+ else { token = eatTokensUntilEOL(token); } continue retry ;
+ } else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(token); }
+ if (token == null) { }else {
+ token = eatTokensUntilEOL(token); continue retry; } break ;
+ } else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(token); } }
+ else { token = eatTokensUntilEOL(token); } else { token = eatTokensUntilEOL(token);
+ else { token = eatTokensUntilEOL(token); continue retry;
+ token = eatTokensUntilEOL(token); continue retry; break;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL();
+ } else { token = eatTokensUntilEOL(token); continue retry;
+ } else { token = eatTokensUntilEOL(token); } else { token = eatTokensUntilEOL(token); break ;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL ( token )
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.incompat." ) ;
+ } else { token = eatTokensUntilEOL(); continue retry;
+ } else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(token); break ;
+ token = eatTokensUntilEOL(token); continue retry
+ token = eatTokensUntilEOL(); continue retry;
+ } else { token = eatTokensUntilEOL(token); } continue retry ; } }
+ } else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL ( token )
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.incompat.type" )
+ if (token == null) { parser. addParserWarning ( "msg.jsdoc.incompat.type");
+ else { token = eatTokensUntilEOL(token); } else { token = eatTokensUntilEOL(token); break;
+ if (token == null) { token = eatTokensUntilEOL(); continue retry; break;
+ if (token == null) { token = eatTokensUntilEOL(line); continue retry;
+ if ( token == null ) { token = eatTokensUntilEOL(); continue retry ; }
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.incompat.type", lineno);
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL ;
+ if ( token == null ) { token = eatTokensUntilEOL(); continue retry ; } break ;
+ if (token == null) { parser.addParserWarning( "msg.jsdoc.incompat.type", lineno); }
+ } if ( token == null ) { token = eatTokensUntilEOL ( ) ;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL(); }
+} else  { if ( token!= null ) {
+ } else { token = eatTokensUntilEOL(); continue retry; }
+ token = eatTokensUntilEOL(token); } continue retry ;
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.unknown" ) ;
+ } else { token = eatTokensUntilEOL ( token ) ;
+ else { token = eatTokensUntilEOL(token); } } else { token = eatTokensUntilEOL ; }
+ } else { token = eatTokensUntilEOL(token); }
+ if ( token == null ) { token = eatTokensUntilEOL ( token ) ;
+ if (! token ) { token = eatTokensUntilEOL(); continue retry ;
+ token = eatTokensUntilEOL(token); continue continue;
+ if ( token == null ) { token = eatTokensUntilEOL ;
+ token = eatTokensUntilEOL(token); } break ;
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.incompat.type"));
+ } else { token = eatTokensUntilEOL(token); } continue retry; } break ; }
+ if ( token == null ) { token = eatTokensUntilEOL(); continue retry ; } break ; }
+ if (token == null) { parser.addParserWarning( "msg.jsdoc.incompat.type", lineeno); }
+ if ( token == null ) { parser. addParserWarning ( "msg.jsdoc.return" ) ;
+ if (token!= EOL){
+ } else { token = eatTokensUntilEOL();
+ if (token == null) { token = eatTokensUntilEOL(line); continue retry; break;
+ } else { token = eatTokensUntilEOL(token); } continue retry; } } break ;
+ if (token == null) { continue retry;
+ if (token == null) { continue; }else {
+ if (token == null) { parser. addParserWarning ( "msg.jsdoc.return", lineno);
+ if ( token == null ) { token = eatTokensUntilNL();
+ } if ( token == null ) { token = eatTokensUntilEOL ( token ) ;
+ continue retry; }else {
+ if (token == null) { break }else {
+ continue retry
+ continue retry; } }
+ if (token == null) { break;
+ continue retry; } break ;
+ token = eatTokensUntilNL(token);
+}  if ( token!= null ) {
+ if ( token == null ) { token = eatTokensUntilNL ;
+ if (token == null) { return ; }else {
+ if (token){
+ if (token!= EOF){
+ token = eatTokensUntilComment(token);
+ continue retry; break;
+} else  { token = token. next ( ) ;
+ } else { token = eatTokensUntilEOL ;
+ if (token == null) { continue retry
+ token = eatTokensUntilEOL(); }else {
+ if (!jsdocBuilder.recordReturnDescription()){
+ if (token!= null)
+ token = eatTokensUntilNL();
+ token = eatTokensUntilToken();
+ } else { token = eatTokensUntilEOF ; }
+ } else { token = eatTokensUntilEOF(); }
+ continue retry; } break ; }
+ token = eatTokensUntilEOL();else {
+}  break ; } } } }
+ token = eatTokensUntilEOL;
+ } else { token = eatTokensUntilNL();
+ if (token!= null && token!= ""){
+ if (!jsdocBuilder.recordReturnDescription)){
+ break; } continue retry ;
+} else  { break ; } }
+ continue retry; } } break ;
+ if (token == null) break ;else {
+ if (token == null) break; }else {
+ } else { token = null ; }else {
+ if (token == null) { } }else {
+ if (token!= JsDocToken){
+}  break ; } } else {
+}  break ; case EOL : {
+ if (token == null) { continue continue;
+} else  { if (token!= null) { break;
+} else  { break ; } } } }
+}  else { break ; } } } break ; }
+ break; } } break ;
+ if (!jsdocBuilder.recordReturnType()){
+ if (!jsdocBuilder.recordThisType)){
+ } continue retry ;
+ if (token == null) { break; }
+} else  { break ; } } } } } }
+ break; } } }
+} else  { break ; } } } } }
+} else  { returnDescription = token ; }
+ if (token!= ' '){
+} else  { if (token) {
+} else  { token = token. next ( ) ; }
+} else  { break ; } } else {
+ if (token!= "EOF"){
+ break; } } continue retry ;
+}  break; } else {
+ break; } break ;
+ if (token!= '\n'){
+ if (token!= eol){
+ if (token!= "END")){
+ if (token!= '\n')){
+ if (token == null) }else {
+ if (token!= null && retry){
+ } if (token == null) { }else {
+ if (token!= EOL)){
+ break; } continue retry
+ } break ;
+}  break ; } } }
+} else  { break ; } } }
+ if (token!= "END"){
+ continue continue;
+ if (token!= "EOF")){
+}  break ; } } } } }
+} else  { returnDescriptionInfo = null ; } }
+} else  { returnDescription = token ;
+} else  { token = token ; } } }
+ } } else {
+ if (token == null) {else {
+ while (token!= null){
+ if (token)){
+ continue retry;else {
+} else  { returnDescription = null ;
+} else  { continue ; }
+}  break ; } } break ; } }
+} else  { if (token!= null) { break }
+} else  { token = token ; } }
+ continue retry }else {
+ } break ; default :
+ break; } else{
+} else  { continue retry;
+ break; } }
+ if (eol){
+} else  { if (token!= null) { break();
+}  break ; case EOL : }
+ if (!token!= null){
+ if (retry){
+ if (returnDescription){
+ } break ; } }
+ } } break ;
+}  else { break ; } } } } } ;
+ if (!token == null){
+ } } } }
+}  else { break ; } } } } } {
+ continue break;
+}  break ; default : {
+ if (!token){
+}  break ; }
+ } break ; }
+}  else { break ; } } } } ;
+}  else { break ; } } } else
+ if (returnDescription)){
+}  break ; } } } else
+ } } } } }
+ break; } }else {
+}  else { break ; } } } ;
+ if (endToken){
+ continue retry; } }else {
+ break; } break ; } }else {
+} else  { break;
+} else  { } } } }
+ } break ; } } }else {
+ break; } } } }else {
+ break; } } }else {
+ } } }
+ break; } } }
+} else  { } } }
+} else  { break }
+ } default :
+} else  break ; }
+ } } } {
+ break; }
+ } } } else
+} else  { } }
+ } } }else {
+ } }
+ continue;
+ } default:{
+ } break;else {
+ } } #{
+ } finally{
+ } }
+}  } else
+ else {
+ }
+} else  { }
+} else  break;
+ } else
+}...else {
+ }
+} else  break();
+ break

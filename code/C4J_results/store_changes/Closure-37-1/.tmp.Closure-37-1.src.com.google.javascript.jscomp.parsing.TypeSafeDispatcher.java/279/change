@@ -1,0 +1,528 @@
+return processIllegalToken ( ) ;
+ else { return processNode(node);
+ case Token.ILLEGAL:
+return processIllegalToken ( node ) ;
+ else { return process(node);
+ else { throw IllegalStateException.processIllegalToken(node);
+return processIllegalToken(node) ; }
+ else {
+return  processNode(node);
+ case Token.ILLEGAL: {
+ default : throw IllegalStateException.processIllegalToken(node);
+ default : throw new IllegalStateException ( ) ;
+ default : throw new IllegalStateException("Unknown node type");
+ case Token.ERROR:
+ else { throw new IllegalStateException("Unknown");
+ case Token.STRING: return processStringLiteral((StringLiteral) node); case Token.ILLEGAL:
+ else { throw new IllegalStateException("Unknown node type");
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL:
+ else { throw new IllegalStateException("Unknown "+node);
+return processIllegalTokenType ( node ) ;
+ case Token.IllegalToken:
+ else { break ;
+return processIllegalToken ( node ) ; default : return null ;
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: default:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ERROR:
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEGAL:
+ else { throw new IllegalStateException("");
+ case Token.ILLEGAL: default:
+ default : throw new IllegalStateException("Unknown token type");
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.IllegalToken:
+ case Token.STRING: return processStringLiteral((StringLiteral) node); case Token.IllegalToken:
+ default : throw new IllegalStateException ( node ) ;
+ case Token.STRING: return processString ( node ) ; case Token.IllegalToken:
+return processIllegalToken(token);
+return processIllegalToken(node) ; default : throw new IllegalStateException ;
+return processIllegalToken(node) ; default : break ;
+ case Token.UNKNOWN: return processUnknownToken(node); case Token.IllegalToken:
+ case Token.STRING: return processStringLiteral(StringLiteral) node); case Token.ILLEGAL:
+ default : throw new IllegalStateException("processIllegalToken(node);
+ case Token.STRING: return processStringLiteral((StringLiteral) node);
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.IllegalToken:
+ default : throw new IllegalStateException("Unknown token");
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL_TOKEN:
+ else { throw new IllegalStateException("");
+ default : return node ;
+return processIllegalToken(node) ; default : return node ; }
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: return processIllegalToken();
+ case Token.STRING: return processString ( node ) ; case Token.ILLEGAL:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.INVALID: default:
+ case Token.CALL: return processCallStatement((CallStatement) node); } case Token.ILLEGAL:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: {
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.INVALID:
+ default : throw new IllegalStateException ( )
+ default : { throw new IllegalStateException ( ) ;
+return processIllegalToken(node) ; default : return node ;
+ else { throw new IllegalStateException(node);
+ else { throw new IllegalStateException(" "+node);
+ else { return node ;
+return processIllegalToken(node) ; } ) ;
+ case Token.ILLEGAL_TOKEN:
+return processIllegalToken ( node. getType ( ) ) ;
+return processIllegalToken(node) ; default : throw new IllegalStateException ( )
+ default : throw new IllegalStateException("Unknown type");
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.INVALID: {
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: case Token.EMPTY:
+ case Token.UNKNOWN: return processUnknownToken(node); case Token.ERROR:
+return processIllegalToken(node) ; default : throw IllegalStateException ;
+ case Token.STRING: return processStringString ( node ) ; case Token.ILLEGAL: default:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: case Token.STRING:
+ default : return node ; }
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: case Token.ERROR:
+ else { throw new IllegalStateException("").processIllegalToken(node);
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: return processInvalidToken();
+ else { throw new IllegalStateException("".processIllegalToken(node);
+ case Token.ILLEGAL
+ else { throw new IllegalStateException("processIllegalToken(node);
+ default : throw new IllegalStateException ;
+ case Token.STRING: return processStringLiteral((StringLiteral) node); }
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEK:
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEGAL: default:
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEGAL: {
+ case Token.STRING: return processString ( node ) ; case Token.ILLEGAL: default:
+ case Token.STRING: return processStringString ( node ) ; case Token.ERROR:
+return processIllegalToken(node) ; default : return null ; break ;
+ default : throw new IllegalStateException ( token ) ;
+return processIllegalToken(node) ; default : return processUnknownToken ( node )
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: case Token.NULL:
+ case Token.CALL: return processCallStatement((CallStatement) node); } case Token.ILLEGAL: {
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.EOL: case Token.ILLEGAL:
+ case Token.STRING: return processString ( node ) ; case Token.EOF:
+ case Token.UNKNOWN: return processUnknownToken(node); case Token.Illegal:
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.INVALID: {
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.OTHER:
+ else { throw new IllegalStateException("Unknown token);
+ case Token.STRING: return processString ( node ) ; case Token.ERROR:
+ default : return null ; break ;
+ else { throw new IllegalStateException("Node "+node);
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEG:
+ default : { throw new IllegalStateException(node);
+return  null ;
+ case Token.ILLEGAL_TYPE:
+return processIllegalToken ( node ) ; default : return null ; }
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: case Token.NODE:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEG:
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: default: {
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEGAL_TYPE:
+ default : { throw new IllegalStateException(" "+node);
+ else { throw new IllegalStateException ( )
+ else { throw new IllegalStateException();
+ else { return node ; }
+ default : throw new IllegalStateException("".processIllegalToken(node);
+ case Token.STRING: return processStringLiteral(node); default:
+ else { throw new IllegalStateException("Invalid "+node);
+ case Token.EOL: case Token.EOF:
+ case Token.INVALID: {
+ case Token.STRING: return processString ( node ) ; case Token.ILLEGAL: {
+ default : return new IllegalStateException("Unknown node type");
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: return processIllegalToken
+ case Token.STRING: return processStringString ( node ) ; case Token.EOF:
+ else { throw new IllegalStateException("Unknown token type");
+ } ) ;
+ case Token.EOF:
+ case Token.UNKNOWN: return processUnknownToken(node); case Token.ILLElegal:
+ case Token.UNKNOWN: return processUnknownToken(node); case Token.INVALID: {
+return processIllegalToken(node) ; default : throw new IllegalStateException ( {
+ case Token.UNKNOWN: case Token.ILLEGAL:
+ case Token.INVALID: default:
+ default : throw new IllegalStateException("").processIllegalToken(node);
+ default : return null ; }
+ case Token.CALL: return processCallStatement((CallStatement) node); case Token.ILLEGAL: return processIllegal;
+ case Token.INTERNAL: case Token.ERROR:
+ case Token.ILLEGAL: case Token.ILLEGAL:
+ else { throw new IllegalStateException("unknown "+node);
+ case Token.ILLEGAL: case Token.NULL:
+return processIllegalToken(node) ; default : return processUnknownToken ( ) ;
+ else { throw new IllegalStateException("Unknown type(node);
+ case Token.ILLEG:
+ else { return processNode ( node )
+ else { throw new IllegalStateException(""+processIllegalToken(node);
+ else { throw new IllegalStateException("Unknown node);
+ else { throw new IllegalStateException(");
+ default : return null ; } break ;
+ else { throw new IllegalStateException("Unknown type);
+ else { throw new IllegalStateException();
+ case Token.WITH: return processWITHStatement((WITHStatement) node); case Token.ILLEGAL
+ else { throw new IllegalStateException("unknown");
+return processIllegalToken ( node. getType ( ) )
+ else { throw new IllegalStateException(" "processIllegalToken(node);
+return processIllegalToken(node); default : return processUnknownToken(node);
+ else { return processWithStatement(node);
+ default : break ;
+ else { throw new IllegalStateException(token);
+return  node ; }
+ case Token.EOL: case Token.END:
+return  processNode ( ) ;
+ case Token.UNKNOWN: case Token.ERROR:
+ case Token.EOL: case Token.UnexpectedToken:
+ default : return processNode ( node ) ;
+return processIllegalToken(node) ; default : return processError ( node ) ;
+return processIllegalToken(node) ; default : return null ; } break ;
+ default : return processUnknownToken ( node ) ;
+ case Token.INVALID:
+ case Token.ILLEGAL: case Token.ERROR:
+ case Token.ILLEGAL: default : {
+ case Token.UNKNOWN: case Token.INVALID: {
+return  process(node);
+ default : return processUnknownNode ( node ) ;
+ default : return null ;
+ case Token.DECLARE: case Token.DECLARATION:
+ case Token.ILLEGAL: case Token.STRING:
+ default : throw new IllegalStateException ( {
+ else { throw new IllegalStateException("Unknown node(node);
+ else { return null ;
+ case Token.ERROR: case Token.INVALID:
+ case Token.ILLEGAL: case Token.EMPTY:
+ else { return processWithStatement((Statement) node);
+ case Token.DECLARE: case Token.INTERNAL: {
+ case Token.EOL: case Token.EOF: case Token.END:
+ case Token.DECLARE: case Token.DECLARED:
+ case Token.STRING: return processStringLiteral((StringLiteral) });
+ else { throw new IllegalStateException("Unknown token(node);
+return processIllegalToken ( node, context ) ;
+ case Token.STRING: return processStringLiteral(string); default:
+return processIllegalToken ( node ) ; default : break ; }
+return processIllegalToken ; }
+ else { throw new IllegalStateException ;
+ case Token.IllegalToken: {
+return processIllegalToken(node); default : return processInvalidToken(node);
+ case Token.UNKNOWN: case Token.UNKNOWN: default:
+ case Token.DECLARATION: case Token.ERROR:
+return processIllegalToken ( node ) ; } } ) ;
+ else { return processUnknownNode(node);
+ case Token.STRING: return processStringLiteral((String) node); }
+ case Token.ILLEGAL: case IllegalToken:
+ case Token.EOL: case Token.TEXT:
+return processIllegalToken ( node ) ; default : throw unexpectedToken ;
+ else { return processStatement(node);
+return  null ; break ;
+ else { return null ; }
+ case Token.ILLEGAL: case Token.INTERNAL: {
+return processIllegalToken(node) ; default : return null ; break ; }
+ default : { throw new UnsupportedOperationException(node);
+return processIllegalTokenType ( node ) ; default : return null ;
+ else { throw new IllegalStateException(""));
+ default : return null ; } }
+ case Token.DECLARE: case Token.DECLARE: default:
+ case Token.DECLARE: case Token.INTERNAL: default:
+return processIllegalToken(token, node);
+ case Token.EOL: case Token.ERROR:
+ else { throw new IllegalStateException("" "+processIllegalToken(node);
+ case Token.ILLEGAL: case Token.INVALID: {
+return processIllegalToken(Node) node); default : return node ; }
+ else { return processVariableDeclaration(node);
+return  node ;
+ case Token.ILLEGAL: case Token.UNIQUE:
+ else { throw new IllegalStateException("Invalid");
+ else { return processBlockStatement(node);
+return processIllegalToken ( node ) ; } break ;
+ else { throw new IllegalStateException(";
+ else { throw new IllegalStateException("Unknown");;
+return  null ; }
+ case Token.ILLEGAL: case Token.UNKNOWN: {
+ default : { throw new UnsupportedExpressionException(node);
+return  processNode ( node ) ; }
+ case Token.INVALIDATE:
+ else { throw new IllegalStateException("{ "+processIllegalToken(node);
+ else { throw new IllegalStateException("illegal");
+return processIllegalToken ( node ) ; } return null ;
+ else { return null ; } }
+ else { return processNormalStatement(node);
+ else { throw new IllegalStateException("unknown token);
+ else { throw new IllegalStateException("ERROR").processIllegalToken(node);
+ case Token.ILLEK:
+return processIllegalToken(node) ; default : return node ; break ;
+ else { throw new IllegalStateException(".");
+return processIllegalToken ( node ) ; } return node ;
+ else { throw IllegalStateException("").processIllegalToken(node);
+return processIllegalTokenType ( node ) ; default : break ;
+ case Token.EOL: case Token.EOF: break ; default:
+ else { throw IllegalStateException("".processIllegalToken(node);
+return processIllegalToken ( node ) ; default : { return null ;
+ else { return (node);
+return processIllegalToken(node) ; default : return processNode ( node )
+ default : throw new IllegalStateException("Unknown");
+ case Token.ILLEF:
+return processIllegalTokenType ( node ) ; }
+return processIllegalToken(node) ; default : return processToken ( node )
+ case Token.STRING: return processStringLiteral(string) node; }
+ else { return processUnknownToken(node);
+return  processVariableDeclaration ( node ) ; }
+return processIllegalTokenType ( node, context ) ;
+ else { throw new IllegalStateException("Unknown.");
+return processIllegalToken ( node ) ; } }
+ else { return processCatchStatement(node);
+return  processNode ( node )
+ default : break ; }
+ else { throw new RuntimeException ;
+ case Token.DECLARE: case Token.DECLAREFULL:
+ case Token.NULL:
+ else { throw new IllegalStateException("!");
+ else { return processSymbolNode(node);
+return  processVariableDeclaration ( node ) ;
+return processIllegalToken(node) ; default : throw new RuntimeException ;
+return processIllegalToken(token) node;
+return  processNode ( node ) ; } ) ;
+ } } }
+ else { throw new IllegalStateException("",node);
+ else { throw new IllegalStateException("Unknown "(node);
+return  processNode ( node ) ; default : break ;
+ default : return node ; break ;
+return processIllegalToken(Node) node); default : return null ; }
+return processIllegalToken(node) ; default : return null ; } }
+return processIllegalToken(node)? null : node ; }
+return  processNode ( node ) ; } } ) ;
+return processIllegalToken ( node, token ) ;
+return processIllegalToken ( token ) ; }
+return processIllegalToken(Node) node); default : return node ;
+ default : { throw new UnexpectedNodeException(node);
+ else { throw new IllegalStateException("Unknown(node);
+ default : break ; } }
+ else { throw "Unexpected node type.";
+return processIllegalToken(node.getType()); }
+return  processNode ( node, context ) ;
+ else { throw new IllegalStateException(type);
+return processIllegalTokenType ( tokenType ) ;
+return processIllegalToken(node.getType()));
+ else { return processUnknownType(node);
+ else { return processFunction(node);
+ default :
+ else { return processUnknownNodeType(node);
+return processIllegalToken(node)? null : node ;
+ case Token.INVALID: default : {
+return  processVariableDeclaration ( node ) ; } }
+ else { return processError(node);
+return processIllegalTokenException ( node ) ;
+ case Token.END:
+ else { throw new IllegalStateException(")";
+ default : { throw new UnsupportedTokenException(node);
+return processIllegalToken ( node ) ; } } }
+ else { return processSyntaxError(node);
+ else { throw IllegalStateException();
+return  processIfStatement ( node ) ; } ) ;
+return processIllegalTokenType ( node ) ; } }
+return  processVariableDeclaration((VariableDeclaration(node);
+ else { throw new IllegalStateException(" unexpected(node);
+ else { return processNode();
+return  node ; break ;
+return processIllegalTokenType ( ) ;
+return processIllegalToken ( )
+return  processNode ( node ) ; } break ;
+ else { return processSyntaxNode(node);
+return  null ; default : return node ;
+ else { return processToken(node);
+return processIllegalToken(node) ; default : throw node ;
+return  processNode ( node ) ; } return null ;
+ else { return this.processIllegalToken(node);
+ else { throw "Unknown node type.";
+return processIllegalToken(node) ; default : break ; } }
+return  null ; } ) ;
+ else { throw IllegalStateException().processIllegalToken(node);
+ else { throw new IllegalStateException("+node);
+ default : { return processUnknownNodeType(node);
+ else { throw new Error(token);
+return  node. getText ( ) ;
+return processIllegalToken(node)? node : null ;
+ default : { return processSymbolNode(node);
+ else { return processEmptyStatement(node);
+return  processNode ( node ) ; } }
+return  processIfStatement ( node ) ; } }
+ else { throw "Unexpected node type;
+ else { throw IllegalStateException;
+ else { throw new IllegalStateException();;
+return processIllegalToken(node.getType()), node ;
+ else { return null(node);
+ default : { return processUnknownToken(node);
+return processIllegalToken(node) ; default : { return node ;
+return  null ; } }
+return  processFunctionNode ( node ) ; }
+ else { throw(node);
+return  processFunctionNode ( node ) ; } }
+return  node. getValue ( ) ;
+ else { throw super.processIllegalToken(node);
+ } break ;
+return  processIfStatement((IfStatement))(node);
+ default : throw IllegalStateException("processIllegalToken(node);
+return processIllegalToken(Node) node); } }
+return  null ; default : return null ; }
+return  processIfStatement((IfStatement)))(node);
+ default : { return processSyntaxError(node);
+ break ; default :
+return  ( Node ) node ;
+ case Token.OTHER:
+return processIllegalToken(token) node ; }
+ else { return parse(node);
+return  null ; } return null ;
+ default : { return processCatchStatement(node);
+ else { throw unexpected(node);
+ default : { return processIgnoredNode(node);
+ else { throw new Error("processIllegalToken(node);
+ default : throw IllegalStateException().processIllegalToken(node);
+ else { return processBlock(node);
+ else { } }
+ else { return processNode() node;
+return  processUnknownNode ( ) ;
+return  null ; } return node ;
+return processIllegalToken(node) ; break ;
+return processIllegalToken(token, node) ; }
+ default : { return this.processIllegalToken(node);
+return  null ; } } ) ;
+return  null ; default : return null ;
+ else { continue ;
+ else { return transform(node);
+return  processIfStatement(node); return process(node);
+ else { throw "Unknown node type;
+return processIllegalToken(node).getType() ;
+return processIllegalToken(node) ; default : {
+return  node ; } }
+ else { return null
+return processIllegalToken(node) ; break ; }
+return processIllegalToken(token, node, context);
+ }
+ else { return convert(node);
+ else { return (null);
+ default : break ;
+ else { debug(node);
+ break ; }
+ else { return processNode(node;
+ else { assert(node);
+return processIllegalToken(token) node);
+return processIllegalToken ( node, context )
+ else { throw "Unknown token.";
+return processIllegalToken(Node) node;
+ else { return null ; break;
+return  null ; default : return processUnknownNode(node);
+return  process ( ) ;
+return  processCatchWarnings(node);
+return processIllegalToken(token, node, false);
+return  processExpressionNode(node);
+return processIllegalToken(node, false) ;
+return processIllegalToken ( node )
+return processIllegalToken(NodeType) node);
+ else { return node.value;
+return processIllegalToken(node) ; } ;
+return processIllegalToken(token, node, true);
+return  processSymbolNode(node);
+return  processUnknownNode(node);
+return  processCatchStatement(node);
+return processIllegalToken(null, null, node);
+return processIllegalToken(node) ; default :
+return processIllegalTokenException ;
+return processIllegalToken(token, node, node);
+return processIllegalToken(Node) node);
+return processIllegalTokenException ( ) ;
+ default : { return node;
+return  processUnterminatedNode(node);
+return processIllegalToken ( t ) ;
+ catch(node);
+return  processIfStatement(processIfStatement(node);
+ else { return "unknown type;
+return  processBlockStatement(node);
+ else { return '( ');
+ default : {
+return  processSyntaxNode(node);
+ else { return defaultValue;
+return  processIfStatement((IfStatement)(node);
+ else { throw new Error().processIllegalToken(node);
+ else { return (default);
+return  processSyntaxError(node);
+return  processIfStatement(processWithStatement(node);
+return processIllegalToken(nodes, node);
+ else { unexpected(node);
+ else
+return  processVariableDeclarationInner(node);
+return  processVariableDeclarationInitializer(node);
+return  processReturnStatement(node);
+return  this ; }
+return processIllegalToken(node) node;
+ else { throw new Error.processIllegalToken(node);
+return  processFunctionNode(FunctionNode(node);
+ default : { break;
+return  processVariableDeclarationInStatement(node);
+return processIllegalToken(node, tokenizer);
+ default : { return null;
+ else { return returnValue;
+return  processCatchAllStatement(node);
+return  processVariableDeclaration(Variable)(node);
+ default : } }
+return  returnValue ;
+ else { skip(node);
+return  processUnknownToken(node);
+return  processCatchFinallyStatement(node);
+return processIllegalToken(Node) ;
+return  processUnknownType(node);
+ else { throw new Error('processIllegalToken(node);
+ else { return this._processIllegalToken(node);
+ return processToken(node);
+return  processUnterminatedStatement(node);
+return  processCatchBlockStatement(node);
+return processIllegalToken(node) { break ;
+ catch (Exception e);
+ return processStatement(node);
+ else { throw super._processIllegalToken(node);
+return processIllegalToken(nodes, token);
+return processIllegalToken(tokenType);
+ else { return this.$processIllegalToken(node);
+return processIllegalToken ( token )
+ else { } }
+return  ( Node )
+return processIllegalToken(token, node2);
+return  result ;
+ } else {
+ while (node);
+return processIllegalToken ( node
+return  false ;
+ catch(e);
+return processIllegalToken(nodes);
+ } } break;
+ return (node);
+ return transform(node);
+ else { return;
+ default : { #processIllegalToken(node);
+ default : }
+return processIllegalToken(tokenizer);
+return processIllegalToken(token2);
+return processIllegalTokenType ;
+return processIllegalTokenException ( )
+return processIllegalTokenType ( )
+ else { break);
+return processIllegalToken(tokenList);
+ default : } #processIllegalToken(node);
+ return parse(node);
+return processIllegalToken(node) break ;
+ return ( null);
+return  processCall(node);
+return  processError(node);
+ default : { returnprocessIllegalToken(node);
+ return node);
+ return null);
+return  undefined ;
+ return process(_node);
+return processIllegalToken(node) { }
+ } break);
+ else { return #processIllegalToken(node);
+ default : return #processIllegalToken(node);
+ : break;
+ else { #processIllegalToken(node);
+ } ));
+ return process_(node);
+ default : #processIllegalToken(node);
+ break ; }
+ } });
+ default {
+ return convert(node);
+return processIllegalToken(node)) ;
+return processIllegalToken(node); ;
+ return next(node);
+ } #processIllegalToken(node);
+return processIllegalToken(node)); }
+ else #processIllegalToken(node);
+ default { #processIllegalToken(node);
+ ;
+ : {
+ else returnprocessIllegalToken(node);
+ {
+ default #processIllegalToken(node);
+return processIllegalToken(type);
+return processIllegalToken(parent);

@@ -1,0 +1,254 @@
+}  else {
+ token = next();
+}  } else {
+ if (hasParams)
+ if (hasParams){
+ return null;
+ token = next(); }
+} else  { next(); skipEOLs();
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { token = next();
+} else  { next(); skipEOLs(); }
+ token = next(); skipEOLs();
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } } }
+ token = next(); }else {
+ if ( hasParams ) { next(); skipEOLs(); token = next(); hasParams ;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); hasParams = false
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { return null ;
+ if ( hasParams ) { next(); skipEOLs(); token = next();
+ if (isNew){
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { hasParams =
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } hasParams =
+ if ( isNew ) { next(); skipEOLs(); token = next(); } }
+ if ( isThis ) { next(); skipEOLs(); token = next(); } }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); return null;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { token = next(); } }
+ } else { next(); skipEOLs(); token = next(); } }
+ } else { next(); skipEOLs(); token = next(); } hasParams = false
+} else  { skipEOLs(); token = next();
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } }
+ } else { next(); skipEOLs(); token = next(); }
+ if ( isNew ) { next(); skipEOLs(); token = next(); } else { token = next(); }
+ if ( isThis ) { next(); skipEOLs(); token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } hasParams ;
+ } else { next(); skipEOLs(); token = next(); } hasParams =
+ if ( isNew ) { next(); skipEOLs(); token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); }
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { }
+ if ( isNew ) { next(); skipEOLs(); token = next(); } } }
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } } }
+ if ( isThis ) { next(); skipEOLs(); token = next(); } } }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } hasParams = false
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { hasParams = false
+ if ( hasParams ) { next(); skipEOLs();
+ if ( isNew ) { next(); skipEOLs(); token = next(); } else { token = next(); } }
+ if (hasThis)
+ } else { next(); skipEOLs(); token = next(); hasParams = false
+ } else { next(); skipEOLs(); token = next(); hasParams ;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { hasParams = false ; }
+ if (isThis){
+ } else { next(); skipEOLs(); token = next(); } } }
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); hasParams =
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } else { token = next(); }
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } else { return null ;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { hasParams = false ; } }
+ if ( isNew ) { next(); skipEOLs(); token = next(); hasParams ;
+ if ( hasParams ) { next(); skipEOLs(); } else { next(); skipEOLs(); token = next(); }
+ next(); skipEOLs(); token = next(); hasParams ;
+ if ( hasParams ) { next(); skipEOLs(); } }
+ token = next(); return null;
+ token = next(); } else { hasParams =
+ if (match(JsDocToken)){
+ next(); skipEOLs(); token = next(); }
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } return null ;
+ if ( isThis ) { next(); skipEOLs(); token = next();
+ next(); skipEOLs(); token = next(); } }
+ if ( hasParams ) { next(); skipEOLs(); return null;
+ if ( isNew ) { next(); skipEOLs(); token = next();
+ if ( isNew ) { next(); skipEOLs(); token = next(); return null;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); if ( isThis ) { return null ;
+ if ( hasParams ) { next(); skipEOLs(); token = next(); if ( isNew ) { return null ;
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } else { token = next(); } }
+}  else { skipEOLs(); }
+ if (isThis || isNew){
+ } else { token = next(); skipEOLs();
+ } else { next(); skipEOLs(); token = next(); } hasParams
+ if ( isThis || isNew ) { next(); skipEOLs(); token = next(); } else { hasParams =
+ token = next(); } }
+} else  { next(); skipEOLs(); } }
+ } else { next(); skipEOLs(); token = next(); return null;
+ token = next(); } else { hasParams = false
+}  else { if (isThis)
+} else  if (isThis)
+ } else { token = next(); } else { token = next(); }
+ } else { token = next(); skipEOLs(); token = next();
+ if (match(JsDocToken.NL)){
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); if ( isThis ) { return null;
+ } else { token = next(); } hasParams = false
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { token = next(); } } }
+ } else { token = next(); } else { token = next(); } }
+ if (hasColon){
+} else  { skipEOLs(); } } else {
+ } else { token = next(); } }
+ } else if (match(JsDocToken)){
+ next(); skipEOLs(); token = next();
+ if ( hasParams ) { next(); skipEOLs(); token = next(); } else { token = next(); return null;
+ if (match(JsDocTokenNL)){
+ if (isThis || isNew) { next(); skipEOLs(); token = next(); } else { token = next ; }
+ } else { token = next(); }
+ token = next(); } else { hasParams = false ;
+}  else { if (isThis) {
+ next(); skipEOLs(); token = next(); return null;
+ if (hasParams) { return null }else {
+}  else if (isThis) {
+ } else { token = next(); } else { token = next();
+}  else if (isThis && isNew) {
+ token = next(); if ( token == null ) { return null ;
+}  else { if (hasParams)
+ next(); skipEOLs(); token = next(); hasParams =
+} else  { if (match(JsDocToken)) {
+ if (isThis && hasParams){
+ if (hasParams) { } }else {
+ token = next(); } else { token = next(); }
+ } else { if (hasParams){
+ } else if (hasColon){
+}  } } else {
+ if (isThis || isNew)else {
+ if (isThis) { return null; }else {
+ if ( hasParams ) { next(); skipEOLs(); break ;
+} else  if (isThis &&! isNew) {
+ } else { token = next();
+}  else if (hasParams)
+ if (isParams) {
+ token = next(); continue;
+ if (isThis &&! hasParams){
+ token = next(); break;
+ token = next(); } else { hasParams
+ token = next(); return contextType ;
+}  else { skipEOLs(token); }
+ token = next(); skipEOLs }else {
+ if ( hasParams ) { next(); skipEOL();
+ token = next(); } else { hasParams ;
+ if (isThis)
+ token = next(); hasParams ;
+ } else { next(); skipEOLs(); }
+ if (hasThis){
+}  else { skipEOLs();
+}  else { next(); skipEOL();
+ if (hasParams) { continue; }else {
+ token = next(); if ( isThis ) { return null ;
+ if (hasParams) { }else {
+}  else if (isThis && isNew)
+}  if ( isThis )
+} else  { hasParams =
+}  else if (isThis || isNew)
+ token = next(); } }else {
+ } else { if (hasColon){
+ if (!match(JsDocToken)){
+ token = next(); if ( isThis ) { break ;
+ } else { token = next(); return null;
+ } else { token = next(); hasParams ;
+ if (isThis && isNew == false){
+ } else { token = next(); } }else {
+ if (hasCron) {
+} else  { hasParams ;
+ token = next(); } else { return null ;
+ if (isThis && isNew == true){
+ if (isThis == false){
+ token = next(); skipEOLs(); }
+ if (isThis) { return null }else {
+ } else if (isThis == false){
+}  else { skipEOLs(); } } else
+ token = next(); continue ; }
+}  else if (isNew)
+ if (hasParams)else {
+ if (isNew)
+ token = next(); if (token)
+ token = next(); break ; }
+} else  { skipEOLs(); } }
+ if (isParams)
+ } else { token = next(); } } }
+ } else { next(); skipEOLs }else {
+ if (isThis && isNew)else {
+ } else { next(); skipEOLs();else {
+ if (hasParamselse {
+ if (isThis == true){
+ token = next(); } else { break ;
+ if (hasNew)
+ if (empty){
+ token = next(); skipEOLs;}else {
+ if (isThis || isNewelse {
+ if (hasParams)){
+ } else if (isNew){
+ token = next(); return functionType ; }
+ if (hasColon)else {
+ if (token == COLON)){
+ token = next(); if ( isNew )
+ } else if (hasParamselse {
+ if (hasNew){
+}  if (hasThis)
+ } else { hasParams }else {
+ token = next(); } else { }else {
+} else  { break ; }
+ return functionType; }else {
+ if (current){
+}  if ( isNew )
+ return functionType }else {
+}  else { return null;
+ token = next; }else {
+ token = next(); } } }else {
+ } else { hasParams =else {
+ if (isThis || isNew))else {
+ if (new){
+ token = next;
+ } else if (isThiselse {
+} else  { continue ; }
+ } else if (isNewelse {
+ return contextType }else {
+ contextType = null;
+ if (empty)
+ if (new)
+} else  if (empty)
+ break;
+ } }
+ } else { } }else {
+ token = next(); };
+ token = next(); ;
+ if (current)
+ return this;
+ }
+ return node;
+} else  return null;
+ break; }else {
+}  else { } }
+ } else { }else {
+}  else { continue;
+ contextType = null
+ } else
+ break; } }else {
+}  else if (...)
+ return contextType;
+ return null }else {
+ break ; }
+ return;
+}  else if ()
+ }
+ return null;
+ } else { }
+ return null;}else {
+ } }
+ } default:{
+ if (...)
+ else {
+ break }else {
+}  } } else
+}  } else
+} (else {
+} else  {{ {
+} else  {{ }
+ default else{
+ break;else {
+ else

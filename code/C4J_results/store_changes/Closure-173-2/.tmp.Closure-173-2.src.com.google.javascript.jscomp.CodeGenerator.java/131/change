@@ -1,0 +1,649 @@
+addExpr(first, p,  rhsContext);
+addExpr(first, p, context, rhsContext);
+addExpr(first, p,  context);
+addExpr(first, p);
+ addExpr(p, context);
+addExpr(opstr, first, p, context);
+addExpr(first, p, context, opstr);
+addExpr(last, p, rhsContext);
+ add(first, p, context);
+addExpr(first, p + 1, context);
+addExpr(first, p, rhsContext); }
+addExpr(last, p, context);
+addExpr(first, p, rhsContext, context);
+addExpr(n, p, rhsContext);
+addExpr(p);
+addExpr(last, p, rhsContext); }
+addExpr(n, type, last, p, context);
+ addOp(first, p, context);
+addExpr(first, p, context); } else {
+addExpr(last, p, opstr);
+addExpr(first, p, opstr);
+addExpr(n, last, p, context);
+addExpr(first, p, rhsContext, false);
+addExpr(last, p, rhsContext, context);
+addExpr(first, p
+ addExpr(first, context);
+addExpr(first, p, rhsContext, true);
+addExpr(n, p, rhsContext); }
+ addExpr(context);
+ add(p, context);
+addExpr(first, p,);
+addExpr(last, p);
+addExpr(first, p, rhsContext); } else {
+addExpr(n, p, context);
+addExpr(n, p, context, rhsContext);
+ addExpr(last, p, context;
+addExpr(first, p, context, rhsContext, false);
+addExpr(n, p, opstr);
+ addExpr(first, p, context;
+addExpr(n, first, p, context);
+ add(n, p, context);
+ addExpr(n, p, rhscontext);
+addExpr(last, p, rhsContext); } else
+addExpr(last, p, rhsContext, false);
+ addExpr(last, p, rhscontext);
+ addExpr(, p,context);
+addExpr(first, p + 1, last, context);
+addExpr(first, p, context, rhsContext); }
+addExpr(first, p, opstr, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last))
+addExpr(first, p, last, rhsContext); }
+addExpr(first, p, context, rhsContext, true);
+ addExpr(first, p context);
+addExpr(last, p, context, rhsContext);
+addExpr(n, rhsContext, first, p, context);
+ if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last, p) ) {
+addExpr(first, p, last, rhsContext);
+addExpr(n, p, last, rhsContext);
+ addExpr(first, p;
+ add(n, context);
+addExpr(n, type, first, p, context);
+addExpr(first,  p, ctx, rhsContext); }
+ add(last, p);
+addExpr(first, -1, context);
+ addExpr(n, p + 1, context);
+ addExpr(last, p++);
+addExpr(first, p, context); addExpr(last, p); }
+addExpr(first, p, rhsContext); } else
+ addExpr(last, p;
+addExpr(first, p, last, rhsContext); } else {
+addExpr(, p);
+ addExpr(first, p, rhscontext);
+addExpr(first, p + 1, n, context);
+ if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last), p == 0)
+addExpr(last, p,);
+ add(context);
+addExpr(last, rhsContext, first, p, context);
+addExpr(first, p, context, rhsContext); } else {
+ addExpr(first, p, context); cc.addOp(opstr); }
+addExpr(1, p, rhsContext);
+ if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last), p == 1)
+addExpr(first, p, context, false);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isOp(last)) {
+ add(first, p);
+ addExpr(n, p);
+addExpr(first,  p, last, rhsContext); } else
+addExpr(first, p, context); } else if (type == opstr)
+addExpr(first,  p, last, rhsContext, context);
+addExpr(last, p, rhsContext++);
+ addExpr(n, p, context;
+ addExpr(last, p + 1, context);
+ addExpr(last, p context);
+addExpr(1, p, rhsContext); }
+ p ++;
+addExpr(first, p, context) ; } else if (last!= n)
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentLast)) {
+ addExpr(last, p++;
+addExpr(last, p, rhsContext,);
+ cc.addOp(opstr, true); } else {
+addExpr(first, p, rhsContext, false); }
+addExpr(first, p, context); }
+addExpr(first, p, context); } else if (n == last)
+ addExpr(last, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isOp(last))
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignment(last))
+addExpr(first, p, });
+ addExpr(p, context;
+ addExpr(first, p++);
+ addExpr(last, p, _context);
+ if (n.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last)) {
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentLast()) {
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last));
+addExpr(first, p, context, rhsContext); } else
+addExpr(first, p, context); } else if (last instanceof Assignment)
+ cc.addOp(opstr, false); } else {
+addExpr(last, p, context); }
+ addExp(first, p);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isOperation(last)) {
+addExpr(p, p, rhsContext);
+ if (n.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last, p)) {
+ if (n.isAssignmentOp(n) && NodeUtil.isAssignmentOp(last))
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignment) {
+ addExpr(n, context);
+ addExp(last, p);
+ addExp(p, context);
+addExpr(n, p, rhsContext++);
+ addExppr(n, p, rhscontext);
+ addExpr(n, p, _context);
+addExpr(last, p, rhsContext2);
+ addExpr(n, type, opstr, context);
+addExpr(first,  p, last, rhsContext, true);
+ addExpr(n, p, opstr, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && first!= last) {
+addExpr(first, p, context); addExpr(last, p) ;
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.is(last)) {
+ addExpr(last, p, subcontext);
+addExpr(last, p, });
+addExpr(first, p, context, rhsContext++);
+ addExpr(first, p++;
+addExpr(first, p, ctx);
+ addExpr(last, p, ctx;
+ addFirst, p,context);
+ addExpr(opstr, p, context);
+ p += 1;
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignment)
+addExpr(...)
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isExpression) {
+ addExppr(last, p, context);
+(p, context);
+ addExpr(n, p, subcontext);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isOperator) {
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isIn) {
+addExpr(first, p, context) ; } else if (type == "in")
+addExpr(n, p, rhsContext,);
+ cc.addOp(opstr, p, rhsContext);
+ addExpression(context);
+addExpr(n, opstr, p, context);
+addExpr(first, p, context) ; } else if (last == n)
+addExpr(first, p, context, last, rhsContext);
+addExpr(first, p, context, rhsContext, p);
+ add(last, p, context);
+ cc.addOp(opstr, false;
+ addExpr(first, p, _context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && rhsContext)
+ addOp(p, context);
+addExpr(n, p,);
+ cc.addOp(opstr, false);
+ p = 1;
+ addExppr(last, p, opstr);
+ addExppr(last, p, rhscontext);
+ return; } else if (NodeUtil.isAssignmentOp(n) && first!= last)
+ addExpr(last, -1);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isAssignment())
+ addExpr(n, p,p, context);
+ CC.addOp(opstr, true); } else {
+ add(p);
+ addExppr(first, p,context);
+ addExpr(n, p, context++;
+ cc.addOp(opstr, true);
+ addExppr(, p,context);
+addExpr(p, p, context);
+addExpr(first, p, context) ; } else if (last!= null)
+ if (!cc.continueProcessing()) return;
+ addExpr(first, p, context); cc.addOp("opstr"); }
+ addLast, p,context);
+addExpr(1, p, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && last!= n) {
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.IN) {
+ addExppr(last, p;
+addExpr(first, p, context) ; } else
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.OP) {
+ if (cc.continueProcessing()) return;
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.isOperator())
+ cc.addOp(opstr, rhsContext);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil(last)) {
+addExpr(first, p + - 1, context);
+ cc.addOp(opstr, false);
+addExpr(first, p, context) ; } else if (n == last) {
+ cc.addOp(opstr, true); if (last!= rhsContext)
+addExpr(n, type, last, first, p, context);
+ CC.addOp(opstr, false); } else {
+ if (cc.continueProcessing()) {
+ addExpr(last, -p, context);
+ addExppr(last, p, context;
+ addExpr(first, p, context); cc.addOp("opstr") }
+ return; } else if (NodeUtil.isAssignmentOp(n) && last == n) {
+ cc.addOp(opstr, p, context); }
+ cc.addOp(opstr, true); if (last == rhsContext)
+ addExpr(first, p, context); cc.addOp('opstr'); }
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.INIT)
+addExpr(first, p, context, rhsContext2);
+ cc.addOp(opstr, true); if (p > rhsContext)
+ addExppr(first, p;
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.ISNULL)
+addExpr(n, p, context); }
+ addExpr(*, p,context);
+ p = 0;
+ cc.addOp(opstr, false); } else
+ cc.addOp(opstr, true); } else
+ if (!cc.continueProcessing()) { return; }
+ return; } else if (NodeUtil.isAssignmentOp(n) && last!= first) {
+ addExpr(first, p, context); cc.addOp(opstr) ;
+ addExp(n, p, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && last) {
+addExpr(first, p, context) ; } else if (type == 1)
+ cc.addOp(opstr, false); }
+ return; } else if (NodeUtil.isAssignmentOp(n) && last!= n)
+addExpr(first, p, context) ; } else if (type == '(')
+addExpr(first);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.IN)
+ p = last;
+ return; } else if (NodeUtil.isAssignmentOp(n) && first!= rhsContext)
+ return; } else if (NodeUtil.isAssignmentOp(n) && last!= first)
+ cc.addOp(opstr, true); if (p < rhsContext)
+ addExpr(n, type, opstr, p, context);
+ if (!cc.continueProcessing()) {
+ addExpr(last, p, opstr, context);
+ p = p + 1;
+ add(n, p);
+ addExpr(first, -p, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && last)) {
+ addOp(n, p, context);
+ cc.addOp(opstr, p, rhsContext); }
+ addExppr(p,context);
+ cc.addOp(p, context;
+ return; } else if (NodeUtil.isAssignmentOp(n) && first)) {
+ addExpr(n, type, -p, context);
+ addFirst(p, context);
+addExpr(first, p, context) ; } else if (opstr)
+ addContext(context);
+ cc.addOp(opstr, true); if (p > 0)
+addExpr(n, opstr, first, p, context);
+ addExpr(p, opstr, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && first) {
+addExpr(first, p, rhsContext,);
+addExpr(last, p
+ cc.addOp(opstr, true); }
+ cc.addOp(opstr, true); if (first!= last)
+ if (!cc.continueProcessing())
+ addExpr(last, -1, context);
+ addExpr(n, -p, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && last == n)
+ cc.addExpr(context);
+addExpr(first, p, rhsContext++);
+addExpr(first, p, rhsContext); } else if (...)
+ p = -1;
+addExpr(first, p, rhsContext); } else if ()
+ add(n);
+ addExp(last, p, context);
+addExpr();
+ CC.addOp(opstr, true);
+ addExp(first, p, context);
+ CC.addOp(opstr, false);
+ CC.addOp(opstr, false); }
+ p --;
+addExpr(p,);
+addExpr(first, p,  rhsContext); } else if (optional)
+addExpr(first, p,  rhsContext); } else if (reverse)
+ addOp(last, p, context);
+ if (cc.continueProcessing())
+addExpr(first, p, context, rhsContext, -1);
+ cc.addExpr(p);
+ return; } else if (NodeUtil.isAssignmentOp(n, p) ) {
+ add(last, context);
+ cc.addOp(opstr, true); if (last!= n)
+ cc.addOp(opstr, true); if (last!= null)
+ addExpr(1, context);
+ addExpr(n, p + - 1, context);
+ addExpr(n, p+p, context);
+ CC.addOp(opstr, true); }
+addExpr(n);
+ CC.addOp(opstr, false); } else
+ cc.addOp(opstr, true); if (p!= 0)
+ addExpr(last, p + - 1, context);
+addExpr(first, p + 1 + 1, context);
+addExpr(first, p,  rhsContext); } else if (inner)
+ if (!cc.continueProcessing()) { return }
+ addFirst, p, context;
+ return; } if (! cc. continueProcessing ( n, context, p ) ) {
+ if (cc.isAssignmentOp(n) && first!= last) {
+ cc.addOp(opstr, true); } else if (type == 1)
+ if (!cc.continueProcessing() {
+addExpr(first, p, context, rhsContext,);
+addExpr(first, p, context) ; if (last instanceof Assignment)
+addExpr(first, p, rhsContext); } else if (!)
+ addExpr(n, p + 1,p, context);
+addExpr(first, p + 2, context);
+ return; } else if (NodeUtil.isAssignmentOp(n) && NodeUtil.IN {
+addExpr(first, p, rhsContext2);
+addExpr(first, p, context, true);
+ if (!cc.continueProcessing()) return;
+addExpr(first, p, context, rhsContext, 0);
+addExpr(first, p - 1, context);
+ if (cc.isAssignmentOp(n) && last!= n) {
+ addExpr(p, _context);
+ addExpr(last,...context);
+ addContext(p, context);
+ p = 2;
+ if (p > -1)
+ if (!cc.continueProcessing()) { return };
+ if (cc!= null) { addExpr(first, p, context);
+addExpr(1, p);
+addExpr(first, p + 1, false, context);
+ if (p < rhsContext)
+ return; } if (! cc. continueProcessing ( n, context ) ) { return }
+ if (!cc.continueProcessing()) { return;
+ addExpr(last, p,p, context);
+ return; } if (! cc. continueProcessing ( n, context ) ) { return ;
+ addExpr(n, 0,p, context);
+ int p = p;
+ if (cc.isAssignmentOp(n) && last == n) {
+addExpr(first, p, rhs, context);
+ if (!cc.continueProcessing()) {
+ cc.addExpr(p, context);
+ addFirst, p(context);
+ cc.addOp(opstr);
+addExpr(first, p + opCount, context);
+ addExpr(n, p, last.p, context);
+addExpr(first, p, context); } else if (reverse)
+ if (!cc.continueProcessing()) add(first, p, context);
+ if (p!= -1)
+ if (cc.isAssignmentOp(n) && last!= null) {
+ if (!cc.continueProcessing()) addOp(first, p, context);
+ addExpr(n, p - 1,p, context);
+addExpr(first, p,)
+ addExpr(last, --p, context);
+addExpr(n, type, 0, p, context);
+addExpr(first, p, context); } else if (hasIn)
+ addExpr(n, p + 1p, context);
+addExpr(first, -1, p, context);
+ return ; } if ( n. isBlock ( ) ) { if ( p > 0 ) {
+addExpr(first, p, context) ; } else if (optional)
+ if (n == last) addExpr(first, p, context);
+addExpr(first, p, context) } else {
+ pushContext(context);
+ addExpr(n, p + 1..p, context);
+ var p = p;
+ addExpr(n, --p, context);
+ addExpr(n, type, p, context);
+ addLast, p(context);
+ addExppr(n, type, last, p, context);
+ addExpr(n, type, --p, context);
+addExpr(first, p, context); } else if (inContext)
+ if (cc.isAssignmentOp(n) && last!= first) {
+ addExpr(p, last, context);
+addExpr(first, p, context) ; if (last!= null)
+ addExppr(n, type, -p, context);
+addExpr(first, p, context) ; if (last!= n)
+ addExpr(first, p, rhsContext) }
+ addExpr(n, type + -p, context);
+addExpr(opstr, n, first, p, context);
+addExpr(first, p, context) ; } else if (inner)
+ addLast(p,context);
+addExpr(', p);
+ addExppr(n, type, opstr, p, context);
+ last = p + 1;
+ if (cc!= null) addExpr(first, p, context);
+ if (ctx.continueProcessing())
+ p = -p;
+addExpr(first, p, context) return; } else {
+ addExpr(nd, p, context);
+addExpr(n, type, 0, first, p, context);
+ case Token.IN: { addExpr(first, p, context);
+addExpr(n, type, null, first, p, context);
+ case Token.INIT: addExpr(first, p, context);
+ cc.addOp(opstr, false); return; } else
+ case Token.INIT: { addExpr(first, p, context);
+addExpr(p context);
+addExpr(n, type, null, p, context);
+ addLast, p, context;
+addExpr(first, p, rhsCtx);
+ addExpression(p, context);
+ if (context!= null) {
+ if (!cc.continueProcessing())
+ addOp(first, context);
+ if (p == rhsContext)
+ cc.addOp(opstr, true); } else if (...)
+addExpr(last, 0, first, p, context);
+ addExpr(n, opstr, last, p, context);
+ cc.addOp(opstr, false); } else if (...)
+ assert p == 0;
+addExpr(first, p, context); } else if ()
+ if (cc.continueProcessing()) addOp(first, p, context);
+addExpr(first, p, context); } else if (...)
+ p = p - 1;
+addExpr(first, p, context, null);
+ addNode(n, p, context);
+addExpr(first, p, context) ; } else if (in case)
+ addExpr(n, opstr, context, p, context);
+ cc.addOp(opstr, false); } else if ()
+ if (!cc.continueProcessing()) addExp(first, p, context);
+ if (context!= null)
+(n, p, context);
+ if (last == rhsContext)
+ addFirst(p);
+ addExpr(last, n, p, context);
+ cc.addOp(opstr); }
+ p = p + 2;
+ pushContext(p, context;
+(first, p, context);
+ addExpr(opstr, last, p, context);
+ add("in", p++;
+ pushContext(last, p;
+ addExpr(last, opstr, p, context);
+ if (ctx!= null)
+addExpr(first, p, rhsContext, context)
+ addExpr(opstr, n, p, context);
+ add(first, context);
+ add("in ");
+addExpr(last, opstr, first, p, context);
+ add(first);
+addExpr(first, p, context, rhsCtx);
+(last, p, context);
+ cc.addOp(opstr, true); } else { }
+ pushContext(p, context);
+addExpr(opstr, context, first, p, context);
+addExpr(rhssContext, first, p, context);
+ p = last + 1;
+addExpr(last);
+ addExpr(last, p, rhsContext)
+ cc.addOp(opstr, p, rhsContext)
+ if (cc.addOp)
+ if (!cc).addExpr(first, p, context);
+ CC.addOp(opstr); }
+ setContext(context);
+addExpr(first, p, rhsContext)
+addExpr(last, n, first, p, context);
+ case Token.IN: addExpr(first, p, context);
+ add(last);
+ cc.addOp(opstr, false); } else { }
+addExpr(first, n, p, context);
+addExpr(first,);
+ if (n == last) addOp(first, p, context);
+addExpr(last, p, first, p, context);
+addExpr(first, p, context, rhssContext);
+ if (n == last) {
+ if (cc.addOp())
+ addNode(p, context);
+addExpr(first, p, context); } else if (!)
+ setContext(p, context);
+ if (!cc.continueProcessing() (first, p, context);
+ add(cc);
+ add(, p);
+ if (!cc) addExpr(first, p, context);
+addExpr(1);
+addExpr(first, last, p, context);
+ if (!cc.continueProcessing)
+ return; addExpr(first, p, context);
+ addExpr(last); } add(first, p, context);
+ addExp(n, type, p, context);
+ if (!cc.continueProcessing()); add(first, p, context);
+ if (n) addExpr(first, p, context);
+ if (p > 0)
+ if (!cc.continueProcessing()) (first, p, context);
+addExpr(first,)
+ addExppr(opstr, p, context);
+ addExpression(opstr, p, context);
+ addExp(n, last, p, context);
+ push(p, context);
+ if (last == n) {
+ addOp(n, last, p, context);
+ if (ctx == null)
+addExpr(last + 1, first, p, context);
+addExpr(first, p, context, - 1);
+addExpr(first,  0, p, context);
+ push(context);
+addExpr(first, p, context); if (reverse)
+addExpr(first, p, context) return; }
+addExpr(first, p, context) ; return; }
+ if (last!= n) {
+ CC.addExpr(first, p, context);
+ if (n == last) return;
+ addBinaryOperator(first, p, context);
+addExpr(first, p, context) ; } else if (!==
+ addExppr(last); add(first, p, context);
+ cc.addOp(opstr) &&
+ add(nd, p, context);
+ if (!cc.continueProcessing add(first, p, context);
+ if (pushContext)
+addExpr(first, p, context); if (optional)
+ if (!cc.)addExpr(first, p, context);
+ if (ctx == n)
+ if (!cc).addOp(first, p, context);
+ (p=context);
+ if (cc!= null)
+ if (!cc.continueProcessingAdd(first, p, context);
+ addAll(context);
+ return; } addOp(first, p, context);
+ if (last!= null) {
+ case Token.IN:
+ add(1, p, context);
+addExpr(first, p, context) return; } else
+addExpr(first, p, context) ; continue; }
+ addNode(first, p, context);
+ addExpression(n,first, p, context);
+addExpr(*, p);
+ build(context);
+ return; } add(first, p, context);
+addExpr(first, opstr, context);
+ add("end"); } add(first, p, context);
+ if (n == last)
+ addExpr(last-first, p, context);
+addExpr(first, p); }
+ add(1, context);
+addExpr(first, p, context)
+addExpr(first, p., context);
+ case Token.ADD:
+addExpr(first, p, context) ; return; } else
+ addXpr(p, context);
+ add("in"); addOp(first, p, context);
+ case Token.INIT: {
+ add("while"); addLoop(first, p, context);
+addExpr(});
+ if (!cc.)addOp(first, p, context);
+ assign(first, p, context);
+ add("while"); addWhile(first, p, context);
+ if (cc == null)
+ if (useContext)
+ addAssociative(first, p, context);
+ addExppr(n, 0,first, p, context);
+addExpr(p p);
+addExpr(first, p., rhsContext);
+ if (!cc) addOp(first, p, context);
+ addOper(first, p, context);
+addExpr(first, p, context); } else { }
+addExpr(first, +1, context);
+ assign(p, context);
+ var opstr = opstr(first, p, context);
+ if (n!= last)
+ if (!cc.addOp(first, p, context);
+ addExpression(first, p, context);
+ addFirst(first, p, context);
+ buildExpr(p, context);
+ append(p, context);
+ addAssignments(first, p, context);
+addExpr(first, p, opsContext);
+addExpr(p++);
+ add(, context);
+addExpr(first, p, context, rhsContext)
+ init(context);
+ addAssignmentOp(first, p, context);
+ parse(context);
+addExpr(first, p, context) ; else {
+ if this is the last
+addExpr(first, p)
+addExpr(last, first, p, context);
+ if (noIn case)
+ build(p, context);
+addExpr(); }
+ p++);
+addExpr(p1, p, context);
+ CC build addExpr(first, p, context);
+ CCCC addExpr(first, p, context);
+ addAssignOp(first, p, context);
+ CC addAssignmentOp(first, p, context);
+addExpr(n1, p, context);
+addExpr()
+ buildExpr(first, p, context);
+ removeExpr(first, p, context);
+ add("in")(first, p, context);
+ push(first, p, context);
+addExpr(n first, p, context);
+ build(first, p, context);
+addExpr(first, p, - 1);
+ ++ p;
+ append(first, p, context);
+ p++;;
+addExpr(n last, p, context);
+ add(*, context);
+addExpr(first, p,  RhsContext);
+addExpr(first, p,  context) }
+ add();
+ add(();
+ pushContext(first, p, context);
+ add(*);
+addExpr(first, p,  rhsContext));
+ addAssigns(first, p, context);
+ if (noIn)
+addExpr(rhs, first, p, context);
+ if (in case)
+addExpr(first, p, context) } else
+(p);
+ setContext(first, p, context);
+addExpr(first p);
+addExpr(first, p, context, opsContext);
+addExpr(first, p),
+ if no in expression operator
+ if no in case operator
+addExpr(first, p, context, "=");
+addExpr(first, p, context, RhsContext);
+ if no in operator case
+addExpr(first, p, cc);
+addExpr(first, p, context, last);
+addExpr(first, p, crsContext);
+addExpr(inContext, first, p, context);
+ if not assignment operator
+ if implicit binary operator
+addExpr(first, p, cc, context);
+ if no in case
+ if not in case
+addExpr(first, p, context; }
+ if no in operator
+addExpr(first, p, context, n);
+addExpr(first, p, context, crsContext);
+addExpr(first, p, context, last, p);
+addExpr(n1, first, p, context);
+addExpr(p1, first, p, context);
+ try {
+ return;
+ if binary operator
+ exec(first, p, context);
+addExpr(nc, first, p, context);
+ if implicit operator
+ } else
+addExpr(first,  P);
+ if not assignment
+ if binary operators
+ if implicit operators
+addExpr(0, first, p, context);
+ return }
+addExpr(null, first, p, context);
+ try {}
+addExpr(first, p,  c);
+addExpr(first, p,  null);
+addExpr(first, p, context) + }
+addExpr(first, p, true);
+addExpr(first, 0, context);
+addExpr(first, n, context);
+addExpr(first, P, context);

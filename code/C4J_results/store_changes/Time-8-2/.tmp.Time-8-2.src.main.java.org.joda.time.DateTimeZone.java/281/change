@@ -1,0 +1,342 @@
+int offset = 0;
+int  offset ;
+int  minutesOffset ;
+int offset = 0 ; int minutesOffset = 0 ;
+int offset  = - 1 ;
+int offset = 0 ; int minutesOffset = - 1 ;
+ int minutesOffset=0;
+ int offset0;
+int  offset = 0.0 ;
+int offset = 0 ; int minutes = 0 ;
+int offset = 0 ; int minutesOffset = hoursOffset * 60 ;
+int offset = 0 ; int minutesOffset = minutesOffset * 60 ;
+int  offset = Math. random ( ) ;
+int offset = 0 ; int minutesOffset = hoursOffset ;
+int offset =  - 1 ; int minutesOffset = - 1 ;
+int  offset = Math. abs ( offset ) ;
+int offset  = - 1 ; int minutesOffset = 0 ;
+int  offset = hoursOffset * 60 ;
+int  offset = Math. floor ( hoursOffset ) ;
+int offset = 0 ; int minutesOffset = minutesOffset ;
+int  offset = Math. abs ( hoursOffset ) ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; static DateTimeZone forOffsetMillis ( int hoursOffset, int minutesOffset ) {
+int offset = 0 ; int minutesOffset = 0.0 ;
+int offset =  hoursOffset ; int minutesOffset = minutesOffset ;
+ int minutesOffset *= 0;
+ int offset *= 0;
+int offset = 0 ; long minutesOffset = 0 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; static DateTimeZone forOffsetMillis ( long hoursOffset, long minutesOffset ) {
+ if (offset < 0) { throw new IllegalArgumentException("Offset is negative"); }
+ DateTimeZone offset = 0.0 ;
+int  offset = ( int ) hoursOffset ;
+int  offset = Math. floor ( offset ) ;
+ long minutesOffset ;
+ long minutesOffset=0;
+ if (offset < 0) { throw new IllegalArgumentException("Offset too small"); }
+ DateTimeZone offset = - 1 ;
+int offset  = hoursOffset * 60 ; int minutesOffset ;
+ long offset ;
+ int minutesOffset = 0;
+int  offset = Math. abs ( minutesOffset ) ;
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; static DateTimeZone forOffsetMillis ( int hoursOffset ) {
+ long offset = 0 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursHours() {
+int offset  = ( int ) hoursOffset * 60 ;
+int  offset = - 1.0 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis(int hoursOffset) {
+int  minutesOffset = - 1 ;
+int  offset = ( int ) - 1 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursMinutes(int hoursOffset) {
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetHours ( int hoursOffset ) {
+ if (offset < 0) { throw new IllegalArgumentException("Offset < 0"); }
+ if (daysOffset < 0 || daysOffset > 24) { throw IllegalArgumentException; }
+ if (daysOffset < 0 || daysOffset > 24) { throw new IllegalArgumentException();
+ if (daysOffset < 0 || daysOffset > 24) { throw IllegalArgumentException(); }
+int offset = 0 ; int offset = 0 ;
+int  offset = ( int ) 0 ;
+ if (offset < 0) { throw new IllegalArgumentException("Offset too large"); }
+int offset = 0 ; long minutesOffset = - 1 ;
+int offset = 0 ; if ( hoursOffset > - 1 ) {
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursMinutes(int hoursOffset)
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public static DateTimeZone forOffsetMillis ( int offset ) {
+ if ( hoursOffset < 0 ) { return forOffsetHours ( 0 ) ; }
+int offset = 0 ; int minutesOffset ;
+ else { int offset = - 1 ;
+int  offset = hoursOffset * 24 ;
+ else { int offset = 0.0 ;
+ else { int offset = - 1 ; }
+ DateTimeZone offset = null ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursMinutes(int hoursOffset);
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetHoursHours() {
+ if (daysOffset < 0 || daysOffset > 24) { throw IllegalArgumentException();
+ if (HoursOffset < 0) { return forOffsetHours(0); }
+int offset = 0 ; int minutesOffset = 0xFF ;
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZone forOffsetHours() {
+int offset = 0 ; int minutesOffset = 0 ; do {
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis ( int hoursOffset ) { return null ;
+ long offset = 0.0;
+ if (HoursOffset < 0 || HoursOffset < 60) { return UTC; }
+ if (offset < 0) { return forOffsetUTC(offset); }
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHours ( ) {
+int  offset = 0x00 ;
+int offset = 0 ; int minutesOffset = 1 ;
+int offset = 0 ; int minutesOffset = minutesOffset + 1 ;
+ if (HoursOffset < 0 || HoursOffset < 0) { return null; }
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffset() {
+ final int offset = 0 ;
+ else { int offset = 0 ; }
+ if (HoursOffset < 0 || HoursOffset < 0) { return UTC; }
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursHoursHoursHours
+ int offset = -0.0;
+int offset = 0 ; long minutes = 0 ;
+ if (hourOffset < 0) { return forOffsetHours(0); }
+ else { return forOffsetHoursMinutes(offset); }
+ if (offset < 0) { offset *= 0;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursHoursHours()
+int  offset = hoursOffset * 60 + 1 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursHoursHours();
+ else { return forOffsetHours(hoursOffset); }
+ if (hoursOffset < 0) { return UTC; }
+ if (hourOffset < 0) { return UTC; }
+int offset = 0 ; int minutesOffset = minutesOffset + 60 ;
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZone forOffsetHoursHours {
+ if (offset < 0) { return forOffsetHours(offset); }
+ return forOffsetHoursMinutes ( hoursOffset ) ; static DateTimeZone forOffsetMillis ( int hoursOffset, int minutesOffset ) ;
+ DateTimeZone offset = 0x00 ;
+ final int offset = 0.0;
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZone forOffsetHoursHours()
+int offset = 0 ; while ( true )
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetHours();
+ else { return forOffsetMinutes(offset); }
+ if (hoursOffset < 0) { return forOffsetHoursUTC(); }
+ DateTimeZone offset = 0 ;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis ( int hoursOffset ) { } static
+ else { return forOffsetHours(offset); }
+int offset = 0 ; while ( ; )
+int  offset = 0xFF ;
+int offset = 0 ; while ( true ) {
+ int minutesOffset ||= 0;
+ if (daysOffset < 0 || daysOffset > 24) { throw new IllegalArgumentException;
+ DateTimeZone minutesOffset=0;
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZoneUTC() {
+ else { int offset = hoursOffset * 60.0;
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis ( int hoursOffset ) { } private
+ else { int offset = 0; int minutesoffset = 0;
+ int minutesOffset = 0.0;
+ int minutesOffset <<= 0;
+ return forOffsetHoursMinutes ( hoursOffset ) ; static DateTimeZone forOffsetMillis ( long hoursOffset, long minutesOffset ) ;
+ if (daysOffset < 0 || daysOffset > 24) { throw new IllegalArgumentException }
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis(int hoursOffset) { static
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public static DateTimeZone UTC {
+int offset = 0 ; int minutesOffset = 60 ;
+ int minutesoffset = 0;
+ int offset = 0; offset *= 0;
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; static DateTimeZone forOffsetMillis() { static
+ final int minutesOffset=0;
+ if (hourOffset < 0) { return UTC UTC UTC }
+ int offset = 0 ; int minutesOffset *= 0;
+ if (offset < 0) offset *= 0;
+ else { return forOffsetHours ( ) ; }
+ if (minutesOffset < 0) { throw new IllegalArgumentException("Minutes is too small"); } }
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetHoursMinutes(int hoursOffset) {}
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZone getOffset()
+ if (minutesOffset < 0) { throw new IllegalArgumentException("Minutes is too small"); } final
+ else { int offset = hoursOffset * 60;
+ int offset = 0; int minutesoffset = 0;
+ int minutesOffset = hoursOffset * 60.0;
+ if (offset < 0) { return forOffsetHoursOffset(); }
+ return forOffsetHoursMinutes ( hoursOffset ) ; } public DateTimeZone forOffsetMillis ( int hoursOffset ) { final
+ if (minutesOffset < 0) { throw new IllegalArgumentException("Minutes is too large"); } }
+ return forOffsetHoursMinutes(hoursOffset, minutesOffset); } public DateTimeZone getOffset();
+ if (minutesOffset < 0) { throw new IllegalArgumentException("Minutes is too large"); } final
+ if (minutesOffset < 0) { throw new IllegalArgumentException("Minutes outside of range"); } }
+ DateTimeZone offset = 0 ; int minutesoffset = 0;
+ if (offset < 0) { minutesOffset *= 0;
+ DateTimeZone offset = -1.0;
+ DateTimeZone offset = 0.0.0;
+ int offset = hoursOffset * 60 ; offset *= 0;
+ return forOffsetMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetMinutes() { static
+ int offset = 0.0.0;
+ long minutesOffset = 0;
+ else { int offset = -1.0;
+ else { return forOffsetHours ( hoursOffset ) ;
+ int minutesOffset = minutesOffset * 60.0;
+ else { return forOffsetHours ( hoursOffset ) }
+ else {
+ return forOffsetMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetMillis() { static
+int  offset = hoursOffset * 1000 ;
+ if (offset < 0) {
+ return forOffsetHoursMinutes ( hoursOffset, minutesOffset ) ; } public DateTimeZone forOffsetHoursHours() {}
+ else { int offset = -0.0;
+int  hoursOffset = 0 ;
+ DateTimeZone offset = -0000.0;
+int offset = 0 ; if ( UTC ) {
+ int offset===== 0;
+int offset  = 0x0000 ;
+ else { int offset = 0;
+ int offset = hoursOffset *= 0;
+ DateTimeConstants.offset = 0;
+ int offset = 0; int offset *= 0;
+ int offset = 0x00A0;
+ DateTimeZone offset = -9999.0;
+ DateTimeZone offset = 0 ; int minutes_offset = 0;
+ int offset ||= 0;
+ int minutesOffset = hoursOffset * 60;
+ else { int offset = hoursOffset * 3600;
+ int offset = hoursOffset * 3600;
+ else { int offset = 0x00A0;
+ if (offset < 0) { } offset *= 0;
+ int offset = 0; offset |= 0;
+int  minOffset = 0 ;
+ else { int offset = 0x00;
+int offset = 0 ; if ( UTC )
+ int offset = 0; int minutesOffset <<= 0;
+ if (offset < 0) { int offset *= 0;
+ long offset = -1;
+ int offset = 0x0;
+ long offset = 0 ; offset *= 0;
+ int minutesOffset |= 0;
+ int offset = hoursOffset * 24 ; offset *= 0;
+ int minutesOffset = minutesOffset * 3600;
+ else { int offset = hoursOffset * 24;
+ final int minutesOffset ;
+ int millisOffset;
+ int minutesOffset = -1;
+ else { int offset = hoursOffset * 1000.0;
+ int offset = 0; offset <<= 0;
+ if (offset < 0) return null;
+ if (offset < 0) return UTC;
+ else { int offset = 0 ; int minutes_offset = 0;
+ else { return forOffsetHoursMinutes(offset); } }
+ int minisOffset = -1;
+ final long minutesOffset=0;
+ int offset |= 0;
+ if (offset < 0) offset |= 0;
+int offset = 0 ; int minutesOffset = hoursOffset ; {
+ int offset = 1 ;
+ int offset!= 0;
+ int offset = 0x00C0;
+ else { int offset = 0x00C0;
+ else { int offset = 0 ; } }
+ if (daysOffset < 0) { return forOffsetDays(hoursOffset); } final
+ DateTimeZone offset = 0 ; long minutesoffset = 0;
+ DateTimeZone.offset = 0;
+ else { return forOffsetMinutes(offset); } }
+ int offset = 0; int minutes_offset = 0;
+ if (offset < 0) { return forOffsetUTC(offset); };
+int offset = 0.0f ;
+ if (hourOffset < 0) { return UTC UTC UTC };
+ DateTimeZone offset = 0xFFFFFFF;
+ int minutesOffset = hoursOffset * 60 + offset;
+int offset = 0 ; while true ; {
+ float minutesOffset = 0;
+int  offset = ( int ) hoursOffset ; }
+ int minisOffset = 0;
+ if (daysOffset < 0 || daysOffset > 24) { return null; } final
+ int offset = -0;
+ else { return forOffsetHoursMinutes(); } }
+ int offset = 0 ~= 0;
+ int offset = 0===== 0;
+ if (daysOffset < 0 || daysOffset > 24) { return null; } static
+ long offset0;
+ int minutesOffset = hoursOffset * 60 * 60;
+ if (hoursOffset < 0 || hoursOffset < 60) { return null; } final
+ else { int offset = hoursOffset * -23;
+ float offset = 0 ;
+ final int offset;
+ final int minutesOffset *= 0;
+int offset = 0 ; int minutesOffset = 0 ; {
+ int offset = -0000;
+ long minutesOffset *= 0;
+ if (offset < 0) { return forOffsetUTC(); } }
+ DateTimeZone offset = -0000;
+ else { int minutesOffset *= 0;
+ DateTimeUtils.offset = 0;
+ double minutesOffset ;
+ if (offset < 0) { return forOffsetUTC(); } final
+ else { int offset = hoursOffset * 1000;
+int offset = 0xFFFFFFFF ;
+ int offset = hoursOffset * 60 * 60;
+int offset = 0 ; while true {
+ int offset = hoursOffset <<= 0;
+ int offset = 0; int minutes-offset = 0;
+ int offset = 0<= 0;
+ int minutesOffset = hoursOffset * 60 *.0;
+ else { int minutesOffset = 0 ; }
+ double offset=0;
+ int offset = 0;= 0;
+int  offset = hoursOffset * 60 ; }
+ int minutesOffset = hoursOffset * 60 * -0;
+ int offset = 0, minutesoffset = 0;
+ if (offset < 0) { return forOffsetHoursOffset(); };
+ double offset ;
+int offset  = 0L ;
+int offset = 0xFFFD ;
+int offset = 0xffffff ;
+ if (hoursOffset < 0) { return null; } final
+ else { DateTimeZone.offset = 0;
+ int hoursOffset ;
+ else { return forOffsetHours(); } }
+ else { int minutesOffset <<= 0;
+ int offset = hoursOffset |= 0;
+ else { return forOffsetMinutes(); } }
+ float minutesOffset ;
+ else { return forOffsetHours(offset); };
+int  offset = hoursOffset * 24 ; }
+ DateTimeZone.UTC.offset = 0;
+ int offset = 0;offset = 0;
+ DateTimeZone.UTC #offset = 0;
+ long minutesoffset = 0;
+ int offset = 0; int minsoffset = 0;
+int offset = 0xffff ;
+ int offset = 0; int minoffset = 0;
+ int offset = 0; int minutes.offset = 0;
+ int offset = 0; int minutes*offset = 0;
+int offset  = 0f ;
+int offset  = 0d ;
+ int minutesOffset;
+ DateTimeZone.UTC longoffset = 0;
+ DateTimeConstants#offset = 0;
+ float offset ;
+ DateTimeZone>offset = 0;
+int offset Offset ;
+ final long offset;
+ int millisOffset();
+ DateTimeConstants $offset = 0;
+ final int minutesoffset = 0;
+ int minisOffset = -1();
+ } int offset;
+ DateTimeZone offset = 0 ; #offset = 0;
+ int minutesOffset = minutesOffset ; #
+int  offset = 60 ;
+ int minutesOffset = hoursOffset ; #
+int  monthsOffset ;
+int  daysOffset ;
+ final long minutesoffset = 0;
+int  offset = null ;
+ DateTime.offset = 0;
+ double offset0;
+ int minutesOffset,
+ }
+ offset=0;
+ DateTimeUnit>offset = 0;
+ } {
+ try {
+ final int -offset = 0;
+ int -offset = 0;
+ int minoffset = 0;
+ int hoursOffset;
+ int $0;
+ long minutesOffset ; #
+ } else
+ else { final
+int offset  ; {
+ else{ }
+ int error= 0;
+int  offset();
+int  offset);
+ int error;
+ }
+int offset: 0;
+int offset := 0;
+int offset is 0;

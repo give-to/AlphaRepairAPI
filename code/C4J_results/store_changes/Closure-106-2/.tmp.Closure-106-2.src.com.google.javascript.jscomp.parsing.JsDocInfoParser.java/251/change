@@ -1,0 +1,595 @@
+jsdocBuilder.recordBlockDescription(blockInfo);
+ jsdocBuilder.recordBlockDescription(blockInfo.string);
+ parser.recordBlockDescription(blockInfo.string);
+ blockInfo.string);
+jsdocBuilder.recordBlockDescription(token);
+ record(blockInfo.string);
+jsdocBuilder.addBlockComment(blockInfo);
+jsdocBuilder.addBlock(blockInfo);
+ blockInfo.string;
+ parser.addBlockComment(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno);
+ parser.addComment(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", token);
+jsdocBuilder.addBlockComment(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno);
+ parser.record(blockInfo.string);
+ return true;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo);
+jsdocBuilder.recordBlockDescription(blockInfo.string, charno);
+ parser.addBlockComment(token);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, token);
+jsdocBuilder.recordBlockDescription(blockInfo.string, token);
+ parser.addComment(blockInfo.string;
+jsdocBuilder.addBlock(token);
+ parser. addComment ( blockInfo. string ) ; }
+ record(string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno);
+ parser.addBlockComment(blockInfo);
+jsdocBuilder.record(blockInfo);
+ parser.recordBlockComment(blockInfo); parser.recordBlockDescription(blockInfo.string);
+ parser.parseTopLevelBlockComment(blockInfo.string);
+ parser.addBlock(token);
+ parser. addInfo ( blockInfo. string, blockInfo. token ) ;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo); }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno(), charno);
+ parser.addComment(blockInfo.string);;
+jsdocBuilder. addBlock ( blockInfo. string ) ;
+jsdocBuilder. addBlockComment ( blockInfo ) ; }
+ parser.parseTopLevelBlockExpression(blockInfo.string);
+ parser.recordBlockComment(blockInfo.string);
+ parser. addInfo ( blockInfo. string ) ; }
+ parser.addComment(token, blockInfo.string);
+ parser.addInfo(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.tag", blockInfo.string, stream.getLineno(), charno);
+ parser. addInfo ( blockInfo. string, token ) ;
+ parser. addComment ( blockInfo. string, blockInfo. token ) ;
+ parser. addComment ( blockInfo. string, token ) ;
+ parser.addComment(token);
+ parser.addInfo("block comment", blockInfo.string);
+ parser.addWarning("msg.jsdoc.block", blockInfo);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineeno(), charno);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getCharno()); } else {
+ parser.addWarning("block comment", blockInfo.string);
+ parser.addBlockComment(blockInfo;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno, charno);
+ parser.addWarning("msg.bad.jsdoc.blockDescription",
+ parser.addWarning("msg.bad.jsdoc.blockcomment",
+ parser. addWarning("msg.bad.jsdoc.block", blockInfo);
+ parser. addInfo ( blockInfo. string, blockInfo ) ;
+ if (blockInfo.blockDescription)
+jsdocBuilder.addBlockInfo(blockInfo);
+ parser.recordBlockComment(token); parser.recordBlockDescription(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string); }
+ parser.addWarning("msg.bad.jsdoc.block, token);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string); } else {
+jsdocBuilder.recordBlockComment();
+ parser.addWarning("msg.bad.jsdoc.blockdescription",
+ parser.addBlockComment(blockInfo.string;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineNo, charno);
+jsdocBuilder.recordBlockDescription(blockInfo.string, false);
+ recordBlock(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineeno, charno);
+ parser.addWarning("msg.bad.jsdoc.block, blockInfo.string, lineno);
+jsdocBuilder.recordBlockDescription(blockInfo.string, true);
+ parser.addWarning("msg.bad.jsdoc.blockDescription");
+ parser. addWarning("msg.bad.jsdoc.block", token);
+ parser. addComment ( blockInfo. string, token ) ; }
+ parser.recordBlockComment(token);
+ parser.addWarning("msg.bad.jsdoc.comment", blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, parser);
+ parser.addWarning("msg.bad.jsdoc.block",
+ parser.addComment(blockInfo);
+ parser.record(token);
+ parser.addWarning("msg.jsdoc.block(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno(), charno); }
+ recordBlockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getCharno()); }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineeno()); }
+jsdocBuilder.recordBlockDescription(blockInfo.string, token, state);
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, charno);
+ if (blockInfo.string!= null)
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineNumber()); }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getCharno());
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno()); }
+ parser.recordBlockDescription(blockInfo.string); } else {
+ parser. addInfo ( blockInfo. string, token ) ; }
+jsdocBuilder.recordBlock();
+ parser.addWarning("msg.bad.jsdoc.block, blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno); }
+ parser.addInfo("block", blockInfo.string);
+ parser. addInfo ( blockInfo. string, blockInfo. lineNumber ) ;
+ parser.addInfo(blockInfo.string;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLine()); }
+ parser. addComment ( blockInfo. string, blockInfo. lineNumber ) ;
+ parser.recordBlockDescription(blockInfo.string);
+ parser.addInfo(token, blockInfo.string);
+ parser. addComment ( blockInfo ) ; }
+ parser.recordBlockComment(token, blockInfo.string);
+ parser.addInfo("block", info.string);
+ parser.addWarning("msg.bad.jsdoc",
+ record(token);
+ parser.addWarning("msg.bad.jsdoc.block", "block comment");
+ parser.recordBlockDescription(blockInfo.string, lineno, charno);
+ parser.recordComment(blockInfo.string);
+ parser. add ( blockInfo. string, token ) ;
+ parser.addBlockLevelComment(blockInfo.string);
+ parser. addBlockComment ( blockInfo ) ; }
+jsdocBuilder.addBlock(block);
+ parse(blockInfo.string);
+ parser. addInfo ( blockInfo. string, blockInfo. token ) ; }
+ parser.addWarning("msg.bad.jsdoc.block_description",
+ parser.addWarning("msg.bad.jsdoc.block", token, state);
+ if (recordBlockDescription)
+ parser.addBlockComment(blockInfo);;
+jsdocBuilder.addBlock ( blockInfo. string ) ; }
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineNo);
+ if (blockInfo.recordDescription)
+ state = State. SEARCHING_NEWLINE ; } else { state = State. SEARCHING_EOC ; } } else {
+ parser.addWarning("msg.bad.jsdoc.tag",
+ parser. addComment ( blockInfo. string ) ; } return true ;
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno, 0);
+ parser.addBlock(blockInfo);
+ parse(token, blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.comment", blockInfo);
+jsdocBuilder. addBlock ( blockInfo ) ; }
+ if (blockInfo.string)
+ parser. addComment ( blockInfo. string, blockInfo. comment ) ; }
+ parser.recordBlockInfo(blockInfo); parser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.addBlockInfo(blockInfo.string);
+ parser.addTopLevelBlockComment(blockInfo.string);
+ parser.addInfo(blockInfo.string);;
+jsdocBuilder. addBlockComment ( token ) ;
+ parser. addInfo ( blockInfo. string ) ; } return true ;
+ parser.addTopLevelBlockExpression(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno(), charno));
+jsdocBuilder.recordBlockDescription(blockInfo.blockDescription);
+ if (blockInfo.string!= null) {
+ parser.addComment(blockInfo);;
+ parser.addComment(token.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno(), " ");
+ if (blockInfo.string.length() > 0)
+ parser.addWarning("msg.bad.jsdoc.block, blockInfo.string); }
+ parser.addBlockComment(token.string);
+ parser.addComment(token blockInfo.string);
+ parser. addInfo ( blockInfo. string, type ) ;
+ recordBlockInfo(string);
+jsdocBuilder.recordBlockComment(blockInfo);
+ if (blockInfo.description!= null)
+ parser.addWarning("msg.bad.jsdoc.comment",
+ parser.addWarning("msg.bad.jsdoc.tag", blockInfo.string, stream.getLineeno()); }
+ parser.recordBlockHeader(blockInfo); parser.recordBlockDescription(blockInfo.string);
+ parser.addWarning("msg.blockcomment",blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, line); }
+ parser.recordBlockComment(blockInfo);
+ parser.addInfo("block_comment",blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", token,
+jsdocBuilder.addBlock();
+ parser.addJsDocBlock(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno()); } else
+jsdocBuilder.addComment(blockInfo);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, 0);
+jsdocBuilder = builder;
+ parser.addWarning("block", blockInfo.string);
+ parser.addComment("block comment", blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block_description");
+ parser.addWarning(blockInfo.string);
+ parser.addJsDocComment(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno()); } return
+ parser.addComment(blockInfo, blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno, token);
+ parser.addWarning("msg.bad.jsdoc.comment", blockInfo.string); }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno, 1);
+ parser.recordBlockLevelComment(blockInfo.string);
+ parser.addWarning("msg.bad.block", token);
+jsdocBuilder.recordBlockDescription(blockInfo.string, state, token);
+ parser.addJsDocToken(blockInfo.string);
+ parser.parseBlockComment(token);
+ if (jsdocBuilder)
+jsdocBuilder.addBlockComment(blockInfo).string;
+ parser.recordBlockName(blockInfo); parser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlock(blockInfo);
+ if (blockInfo.description)
+ parser.addWarning("block comment", token);
+ parser.addWarning("msg.jsdoc.comment(blockInfo.string);
+ parser. addComment ( blockInfo. string ) ; } }
+ parser.parseBlockComment(blockInfo.string);
+ parser.recordBlock(blockInfo.string);
+ if (blockInfo.recordDescription())
+ recordBlock(token);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineeno()); } else
+ parser.addComment(info.string);
+ if (blockInfo.string.length() > 0) {
+ parser. addComment ( blockInfo. string, token ) ; } }
+ parser.addInfo("block-comment",blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, 0, token);
+ parser.addWarning("block level comment",blockInfo.string);
+ parser.recordBlockComment(blockInfo).recordBlockDescription(blockInfo.string);
+ if (blockInfo.string.length() == 0)
+ parser.addComment(blockInfo.docstring);
+jsdocBuilder.recordBlockDescription(blockInfo.string, false, false);
+jsdocBuilder.recordBlockDescription(blockInfo.string, state);
+ parser. addComment ( blockInfo. string ) ; } return true ; }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineeno()); } return
+ parser.recordBlockStart(blockInfo); parser.recordBlockDescription(blockInfo.string);
+ parser.recordBlockName(token); parser.recordBlockDescription(blockInfo.string);
+ parser.recordBlock (blockInfo); parser.recordBlockDescription(blockInfo.string);
+ parser. addInfo ( blockInfo. string, token ) ; } }
+ if (blockInfo.string.length() > 1) {
+ parser.recordBlockHeader(token); parser.recordBlockDescription(blockInfo.string);
+ if (blockInfo.string.length()!= 0)
+jsdocBuilder = null;
+ if (blockInfo.recordBlockDescription())
+ parser.parseTopLevelBlockCommentExpression(blockInfo.string);
+ parser.addComment(block.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, token, false);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return false ; }
+ parser.parseBlockLevelExpression(blockInfo.string);
+ recordBlockComment(string);
+ parser.addBlock(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo, lineno, token);
+ addBlockComment(blockInfo.string);
+ parser. addInfo ( blockInfo. string ) ; } }
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string); } else
+ parser.logBlockComment(blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, stream.getLineno(), charno); };
+ parser.addInfo("block level comment",blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string); } return
+ parser.setBlockComment(blockInfo.string);
+ parser.addBlockInfo(blockInfo;
+ if (blockInfo.recordComment)
+jsdocBuilder.recordBlockDescription(blockInfo).string);
+ if (blockInfo.string.length()!= 0) {
+ parser. addBlockComment ( blockInfo )
+ parser.recordBlockComment(blockInfo);
+ recordBlockComment(blockInfo.string);
+jsdocBuilder.addBlockComment(blockInfo).string();
+ parser.comment(blockInfo.string);
+ parser.recordBlock(token); parser.recordBlockDescription(blockInfo.string);
+ parser.next(); jsdocBuilder.recordBlockDescription(blockInfo.string);
+jsdocBuilder.addBlockInfo();
+ parser.record(blockInfo);
+ parser.addWarning("msg.jsdoc",
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno); return
+ parser. addComment ( blockInfo. string )
+ parser.record(blockInfo.string;
+ parser.addInfo("block comment", info.string);
+ parser.addInfo("comment", blockInfo.string);
+ parser.recordBlockInfo(token,blockInfo.string);
+ parser.addBlockInfo(token);
+ parser.addComment(blockInfo.blockComment);
+ parser.addWarning("msg.bad.block",
+ parser.addBlockInfoBlockInfo;
+ parser.recordBlockComment(token blockInfo.string);
+ if (blockInfo.description) {
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno); };
+ if (blockInfo)
+ recordComment(blockInfo.string);
+ blockInfo.string += "";
+ parser.addBlockComment(token;
+ parser.addWarning("block-comment",blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc");
+ blockInfo.comment = token;
+ parser. addComment ( blockInfo. string ) ; } } }
+ if (recordBlockDescription) {
+ parser.addComment(blockInfo); parser.next(blockInfo.string);
+ blockInfo.string =
+ parser.addInfo(blockInfo.blockComment);
+ parser.addWarning("block-level comment",blockInfo.string);
+ parser.recordBlockComment(blockInfo);.recordBlockDescription(blockInfo.string);
+ if (jsdocBuilder) {
+ parser.addInfo("block-level comment",blockInfo.string);
+ parse(token blockInfo.string);
+ parser.addWarning("msg.bad.jsdoc.block", blockInfo.string, lineno); } else
+jsdocBuilder.addBlockComment();
+ parser.addInfo(blockInfo.blockInfo);
+ parser.recordBlockDescription(blockInfo.description);
+ parser.parse(token);
+ parser.recordBlockDescription(blockInfo); }
+ parser. addInfo ( blockInfo. string ) ; } } }
+ parser.parseBlockInfo(token).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return true;
+ parser.addWarning("msg.blocklevel")(blockInfo.string);
+ parser.recordBlockInfo(token);
+jsdocBuilder.recordBlockInfo();
+ parseBlockComment(blockInfo.string);
+ recordBlock(string);
+ parser.addComment(blockInfo.comment); parse(blockInfo.string);
+ parser.addBlockInfo(blockInfo.string);
+ parser. add ( blockInfo. string ) ; } }
+ blockInfo.comment;
+ parser.recordBlockDescription(blockInfo.comment);
+ if (blockInfo.recordBlockDescription)
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno); }
+ addComment(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo).string;
+ parser.addWarning("msg.bad.jsdoc.block, blockInfo.string); } else
+jsdocBuilder.record(token);
+ jsdocBuilder.addComment(blockInfo.string);
+ token = blockInfo.token;
+ if (recordBlockDescription())
+ parser.recordBlock(token);
+ parser.addWarning("msg.bad.jsdoc.block, blockInfo.string); } return
+ parser.recordBlock (blockInfo).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo).string();
+ parser.recordBlock (blockInfo;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return false ; } }
+ parser.addWarning("msg.block.comment(blockInfo.string);
+jsdocBuilder.recordBlock(token);
+jsdocBuilder = null
+ if (recordComment)
+jsdocBuilder.addBlockComment(blockInfo.string); }
+ parser.addBlockComment(token, true);
+ if (blockInfo.string.length() == 0) { return
+ parser.record(blockInfo;
+ if (recordBlock)
+ parser.recordBlockComment(blockInfo); }
+ parser.recordComment(token); parser.recordBlockDescription(blockInfo.string);
+ blockInfo.(string);
+jsdocBuilder.record();
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; parser. next ( ) ; }
+ blockInfo.string = token;
+ parser.addComment(block.comment);
+ parser.parseBlock(blockInfo).recordBlockDescription(blockInfo.string);
+ parser.addComment(blockInfo.comment); print(blockInfo.string);
+ parser.recordBlockComment(); parser.recordBlockDescription(blockInfo.string);
+ parser.parseBlockLevelComment(blockInfo.string);
+ jsdocBuilder.record(blockInfo.string);
+ parser.add(token);
+ parser.next(token);
+ parser.parse(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; parser. addBlockInfo ( token ) ;
+ parser.addWarning("msg.jsdoc.",
+ jsdocBuilder =
+ parser.parseBlock(token).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return false;
+ parser.addInfo("block_comment"+blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.blockComment);
+jsdocBuilder.recordBlockDescription(blockInfo, charno);
+ parser.recordBlockInfo(blockInfo);.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return false ; } } }
+ parseBlock(blockInfo.string);
+ parser.addInfo("block level comment").append(blockInfo.string);
+ parser.comment(token);
+ parser.addInfo(block.string);
+ parser.addTopLevelBlockDeclaration(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno); }
+ if (recordDescription)
+ printBlockInfo(string);
+ parser.addWarning("msg.block" +(blockInfo.string);
+ parser.addInfo(blockInfo.blk);
+ parser.addWarning("msg.blocklevel",(blockInfo.string);
+jsdocBuilder.recordBlockDescription(token, state);
+ blockInfo(string);
+ addBlock(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo).comment();
+ parser. addWarning("msg.bad.jsdoc.blocklevel"); }
+ parser.writeBlockComment(blockInfo.string);
+ parser.addComment(blockInfo.endComment);
+ parser.addBlock(token;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return true;
+ addBlock(token);
+ parser = jsdocBuilder.recordBlockDescription(blockInfo.string);
+ print(blockInfo.string);
+ parser.recordBlockDescription(blockInfo.string); } else
+ parser.recordBlockInfo(string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return true ; }
+ parser.parseTopLevelCommentExpression(blockInfo.string);
+ return blockInfo;
+ recordComment(token);
+ blockInfo.recordComment;
+ if (blockInfo) {
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } } else { return false ;
+ recordblockInfo.string);
+ parser.jsdocBuilder.recordBlockDescription(blockInfo.string);
+ parser.recordBlock(token);;
+ parser.addWarning("jsdoc.recordBlockDescription(blockInfo.string);
+ parser.log(blockInfo.string);
+ if (blockInfo.string!= null) { return
+jsdocBuilder.recordBlockDescription(blockInfo.string, token); }
+ parser.parseBlockDescription(token).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return true ; }
+ add (blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { token = null ; }
+jsdocBuilder.recordBlockDescription(token.string);
+jsdocBuilder.recordComment();
+ blockInfo.blockDescription =
+ parser.addText(blockInfo.string);
+ parser.addWarning("block" + String(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return true ; }
+ printBlock(token);
+jsdocBuilder.recordBlockDescription(blockInfo.blockDesc);
+jsdocBuilder.recordBlockDescription(blockInfo.string); }
+jsdocBuilder.addBlockInfo(blockInfo.string); }
+ blockInfo.addComment;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return false ; } } ;
+ logBlockComment(blockInfo.string);
+ parser.getWriter ( ).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, stream.getCharno()); }
+ parse(blockInfo);
+ parseBlockComment(string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { throw EOF ; }
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { throw new RuntimeException(); }
+ return false;
+ parser.next(); parser.recordBlockDescription(blockInfo.string);
+ parser.parseBlockLevelCommentString(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno());
+ parser.parse(token); parser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.addBlockInfo(blockInfo); }
+ parser.addTopLevelBlockCommentString(blockInfo.string);
+ parser.addInfo("block comment").append(blockInfo.string);
+ parser.parse(blockInfo).recordBlockDescription(blockInfo.string);
+ addBlockComment(string);
+jsdocBuilder.recordBlockDescription(token, true);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return true ; } }
+ return parser.jsdoc.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno));
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, charno); }
+jsdocBuilder.recordBlockDescription(blockInfo.docComment);
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, col, charno); }
+jsdocBuilder.recordBlockDescription(token, false);
+ parser.parseBlock(token);recordBlockDescription(blockInfo.string);
+ parser.parseTopLevelBlockComments(blockInfo.string);
+ parser.addWarning("block" + escape(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { return true ; } } }
+ append(blockInfo.string);
+ parser.getLog ( ).recordBlockDescription(blockInfo.string);
+jsdocBuilder = [];
+ parser.next(token).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return false;
+ parser.parseJsDocInfo().recordBlockDescription(blockInfo.string);
+ parser.addInfo("block comment").record(blockInfo.string);
+ yield blockInfo;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return true ; } }
+jsdocBuilder.recordBlockDescription(blockInfo.string, charno); }
+ blockInfo.string ++;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } else { token = next(); }
+jsdocBuilder.recordBlockDescription(blockInfo.string, stream.getCharno()); break;
+ blockInfo = token;
+ blockInfo.record;
+jsdocBuilder.recordBlockDescription(blockInfo); }
+jsdocBuilder.recordBlockDescription(blockInfo.string, stream.getCharno()); } }
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineNo); }
+jsdocBuilder.recordBlockDescription(token, parser);
+jsdocBuilder.recordBlockDescription(blockInfo, lineno); }
+ printBlockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, token, state, charno); }
+ blockInfo.block;
+ parser.jsdoc.recordBlockDescription(blockInfo.string);
+ return jsdocBuilder.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, true); }
+jsdocBuilder = builder();
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno); } }
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return false;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return true ; } }
+jsdocBuilder.recordBlockDescription(blockInfo.string, parser); }
+jsdocBuilder.recordBlockDescription(blockInfo.string); } }
+ printBlockInfo);
+jsdocBuilder.recordBlockDescription(blockInfo.string, state); }
+jsdocBuilder.recordBlockDescription(blockInfo.string, false); }
+ parser.recordBlockComment(); } parser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, token); } }
+ logger.debug(blockInfo.string);
+ parser.getReport ( ).recordBlockDescription(blockInfo.string);
+ log(token);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return false ; } }
+ if (record)
+ parser.parseBlockInfo(...).recordBlockDescription(blockInfo.string);
+ if (debug)
+jsdocBuilder.parse();
+jsdocBuilder = builder
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, col, comment); }
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } return false ; }
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return true ; } } }
+ comment = token;
+ blockInfo ++;
+ this.jsdocBuilder.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, col, token); }
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno); } } }
+jsdocBuilder.recordBlockDescription(blockInfo.string, lineno, charno, token); }
+ parser.recordBlock (token)); parser.recordBlockDescription(blockInfo.string);
+ parse(token);
+ log(string);
+jsdocBuilder.recordBlockDescription(blockInfo.string, line, col, type); }
+jsdocBuilder.recordBlockDescription(blockInfo.description);
+ record(token.string);
+jsdocBuilder.comment();
+ next();
+ lineno =
+jsdocBuilder.recordBlockDescription(blockInfo, token); }
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } break;
+jsdocBuilder.block();
+ recordComment(string);
+ parse();
+ print(string);
+ logBlockInfo.string);
+jsdocBuilder.recordBlockDescription(block);
+jsdocBuilder.addBlock (blockInfo));
+ recordBlockInfo);
+ log(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.comment);
+ blockInfo =
+jsdocBuilder.add();
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; } } }
+jsdocBuilder.recordBlockDescription(blockInfo).string); }
+ if (!debug)
+ blockInfo.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) return true;
+jsdocBuilder = {
+ blockBuilder.recordBlockDescription(blockInfo.string);
+jsdocBuilder =;
+ next(_);
+jsdocBuilder.recordBlockDescription(blockInfo.string), token);
+ jsdocBuilder.
+ commentBuilder.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(info);
+jsdocBuilder.record()();
+ parser.jdoc.recordBlockDescription(blockInfo.string);
+ parser.addInfo().recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.str);
+ jsdocBuilder.__recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo, token);
+jsdocBuilder.recordBlockDescription(type);
+ jsdocParser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(parser);
+ parser.output(...).recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; break;
+jsdocBuilder.recordBlockDescription(blockInfo.string) ; return;
+ comment(blockInfo.string);
+jsdocBuilder.recordBlockDescription(blockInfo.description); }
+jsdocBuilder.recordBlockDescription(token); }
+ lineNo =
+ astBuilder.recordBlockDescription(blockInfo.string);
+ printBlock(blockInfo.string);
+ debug(string);
+ parser.output ( ).recordBlockDescription(blockInfo.string);
+ jsDocBuilder.recordBlockDescription(blockInfo.string);
+ comment(string);
+jsdocBuilder.recordBlockDescription({ blockInfo); }
+ print(');
+ jsdocInfoBuilder.recordBlockDescription(blockInfo.string);
+ lineno +=
+ jsondocBuilder.recordBlockDescription(blockInfo.string);
+ JSdocBuilder.recordBlockDescription(blockInfo.string);
+ blockParser.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription({ blockInfo); });
+jsdocBuilder.recordBlockDescription(blockInfo));
+jsdocBuilder.recordBlockDescription(blockInfo());
+ blockInfo;
+ jsdocBuilderImpl.recordBlockDescription(blockInfo.string);
+ yield token;
+jsdocBuilder.recordBlockDescription(blockInfo.string());
+ parser.__recordBlockDescription(blockInfo.string);
+ parserBuilder.recordBlockDescription(blockInfo.string);
+ astWriter.recordBlockDescription(blockInfo.string);
+ type =
+ parser =
+ lineNo +=
+ parserImpl.recordBlockDescription(blockInfo.string);
+ this.recordBlockDescription(blockInfo.string);
+ recordInfo.string);
+ builder.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(...)
+ reader.recordBlockDescription(blockInfo.string);
+ type.recordBlockDescription(blockInfo.string);
+jsdocBuilder.recordBlockDescription(); }
+ return null;
+jsdocBuilder.recordBlockDescription();
+jsdocBuilder.recordBlockDescription(blockInfo.string) break;
+jsdocBuilder.recordBlockDescription(blockInfo)); }
+BlockInfo.string);
+ commentInfo.string);
+ return
+jsdocBuilder.recordBlockDescription(");
+jsdocBuilder.recordBlockDescription(blockInfo.string()); }
+jsdocBuilder.recordBlockDescription(blockInfo.comment); }
+ parser.
+jsdocBuilder.recordBlockDescription(BlockInfo);
+ parser +=
+jsdocBuilder.recordBlockDescription(blockInfo.string) } }
+ parser :=
+jsdocBuilder.recordBlockDescription(blockText);
+jsdocBuilder.recordBlockDescription(blockInf);
+jsdocBuilder.recordBlockDescription(blockInfo.string)); }
+ throw

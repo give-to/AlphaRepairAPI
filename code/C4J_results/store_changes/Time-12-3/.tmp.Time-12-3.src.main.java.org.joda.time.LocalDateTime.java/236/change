@@ -1,0 +1,311 @@
+return new  LocalDateTime(
+return  new Date(
+return new  LocalDateTime ( date.getYear(),
+return new LocalDateTime ( date. getMonth ( ),
+ return
+return new LocalDateTime ( date. getYear ( ) + 1900,
+return new LocalDateTime ( date. getMonth ( ) + 1,
+return new  LocalDateTimeImpl(
+return new LocalDateTime ( date. getFullYear ( ),
+return new  DateTime(
+return new  LocalDateTime(date,
+return  fromDateFields(date,
+return new  LocalDateTime ( date. get ( ),
+ if (date == null) { return new LocalDateTime( date.getYear() + 1900, date.getMonth() ); }
+return new  LocalDateTime ( date. getDate(),
+return  fromDateFields(date.getYear(),
+return new LocalDateTime ( date. getDay ( ),
+return new  LocalDateTime ( date. getDate() -
+return new LocalDateTime ( date. getDay ( ) + 1,
+ return this(
+return new LocalDateTime ( date. getYear ( ) - 1900,
+return new LocalDateTime ( date. getMonth ( ) + 1900,
+ if (date instanceof LocalDateTime) {
+return new  LocalDateTime ( (int)
+return  fromDateFields( (int)
+return new  LocalDateTime ( date.century(),
+ if (date == null) { return new LocalDateTime( date.getYear()) + 1900, date.getMonth() ); }
+return new LocalDateTime ( date. getMonth ( + 1),
+ if (date == null) { return new LocalDateTime( date.getYear() + 1900, date.getMonth() ) }
+return  fromDateFields(Date.create(),
+ if (date instanceof BC) {
+return  new LocalDate(
+return new  LocalDateTime ( date.date(),
+return new  LocalDateTime(null,
+return new  LocalDateTime ( Date. of (
+return new  LocalDateTime( *
+ if (date.getYear() < 1900) { return null; }
+ if (date == null) { return new LocalDateTime( date.getYear() + 1900, date.getMonth()) } else
+ if (date.getYear() == 1900) { return new LocalDateTime( date.getYear() ); }
+return new  LocalDateTime(0,
+ if (date!= null) {
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) ; }
+ if (date.getYear() < 1900) { return null }
+ if (date == null) { return new LocalDateTime( date.getYear() + 1900, date.getMonth()) } *
+ if ( date. getYear ( ) > 1900 ) { return new LocalDateTime ( date ) ; }
+ if (date.getYear() == 1900) { return new LocalDateTime( date.getMonth() ); }
+return new  LocalDateTime ( date.year(),
+ if (date.getYear() == 1900) { return new LocalDateTime(); } else {
+ if (date.getYear() == 1900) { return new LocalDateTime(); }
+ if (date.getYear() == 1900) { return null; }
+ if (date.getYear() == 1900) { return new LocalDateTime( date.getDate() ); }
+ return LocalDateTime(
+ if (date.getYear() > 1900) { return null; }
+return  fromDateFields(Date.parse(),
+ if (date.getYear() > 1900) {
+ if (date.getYear() == 1900) { return new LocalDateTime(null); }
+ if (date.getYear() < 1900) { return new LocalDateTime(null); }
+ if (date.getYear() < 1900) { return new LocalDateTime(); } else {
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) }
+return  fromDateFields(
+return new  LocalDateTime ( date. year,
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date. getTime ) ; }
+. return new LocalDateTime(
+ if (date.getYear() < 1900) return null;
+ if (date.getYear() == 1900) { return new LocalDateTime(1900); }
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date. getTime () ) }
+ if (date.getYear() < 1900) {
+ if (date.getYear() == 1900) { return new LocalDateTime( date ); } else {
+return new  LocalDateTime ( "now",
+ if (date.getYear() > 1900) { return null }
+ if (date.getYear() >= 1900) { return null; }
+ if (date instanceof EraBC) {
+ if (date.getYear() == 1900) { return null }
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date. getDate ( ) )
+ if (date.getYear() == 1900) { return null ; } else {
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date. getDate ( ) );
+return new  LocalDateTime ( (long)
+ if (date.getYear() < 1900) { return null ; } else {
+ if ( date. getYear ( ) == BC ) { return null }
+ if (date.getYear() > 1900) return null;
+ if (date.getYear() == BC) {
+ if (date.getYear() >= 1900) {
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date. getDate ( ) ))
+ if (date.getYear() >= 1900) { return null }
+. return LocalDateTime(
+ if (date.getYear() > 2000) {
+ if (date instanceof HistoricDate) {
+ if (year == BC) {
+return  new LocalDateTime()(
+return  fromDateFields( *
+ if (date.getYear() == 1900) { return new LocalDateTime(); } *
+ if (date.getYear() == 1900) { return new LocalDateTime(null); } *
+, but not in era BC if ( date. getMonth ( ) == 1 ) { return new LocalDateTime ( ) ; } else {
+ if (date.getYear() < 1900) { return new LocalDateTime(null); } *
+ if (date.isEra() ) {
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) ;
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) ; } *
+return  (LocalDateTime) (
+ if (date.getYear() < 1900) { return new LocalDateTime(); } *
+ if (date.getYear() == 1900) { return new LocalDateTime( date.getMonth()) } *
+ if ( date. getMonth ( ) == 1 ) { return new LocalDateTime ( date ) ; } *
+ if (date.getYear() < 1900) { return null; } *
+return  of(
+ if (date.getYear() == 1900) { return new LocalDateTime( date.getYear()) } *
+. return new DateTime(
+ if (date.getYear() > 1900)
+: return new LocalDateTime(
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) ; } else
+. return new Date(
+ if (date.getYear() == 1900) { return new LocalDateTime( date, 1900 ); } *
+ if (date instanceof BCE) {
+ if (date.getYear() < 1900) { return null };
+return  (LocalDateTime)
+ if (date.getYear() == 1900) { return null; } *
+ if (date.isBC()) {
+ if (date.getYear() > 1900) { return null; } *
+ * LocalDateTime.createLocalDateTime(
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( ) ;
+ if (date.getYear() > BC)
+ if (date!= null) { return this(new LocalDateTime(
+ if (date.getYear() < 1900)
+return new  LocalDateTime( +
+, but not in era BC if ( date. getMonth ( ) == 1 ) { return new LocalDateTime ( date ) ; } *
+. return new LocalDateTimeImpl(
+. return new LocalDateTime(date,
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) ; } *
+. return fromDateFields(date,
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( ) }
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDateTime () ; }
+ if (date.getYear() == 1900) { return new LocalDateTime() } *
+, but not in era BC if ( date. getMonth ( ) == 1 ) { return new LocalDateTime ( date ) ; } else
+, but not in era BC if ( date. getYear ( ) < 1900 ) { return new LocalDateTime ( date ) ; } *
+. * LocalDateTime.createLocalDateTime(
+. * return newLocalDateTime(
+ if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( date ) } *
+ if (date.getYear() < 1900) { return new LocalDateTime() } *
+. return new LocalDate(
+return  new LocalDateTime({
+ if (date == null) { return this(new LocalDateTime(
+ if ( date. getYear ( ) > 1900 ) { return new LocalDateTime ( date ) } *
+ if (date instanceof EraBC) { returnnew LocalDateTime(
+ * returnnew LocalDateTime(
+return  localDateTime(
+ if (date.getYear() == 1900) { return new LocalDateTime()); } *
+ *
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDate ( date ) }
+return  fromDateField(
+ if (date.getYear() > 1900) { *
+: return LocalDateTime(
+ if (date.getYear() < 1900) return null *
+ * return new Date(
+. return new LocalDateTime( *
+. return fromDateFields( (int)
+ date.setTime(
+ if (date.getYear() == 1900) { return new LocalDateTime(); };
+. * LocalDateTime(new LocalDateTime(
+. * LocalDateTime this(new LocalDateTime(
+ if (date.getYear() < 1900) { *
+: return new LocalDateTime(date,
+return  new static(
+, but not in era BC if ( date. getYear ( ) == 1900 ) { return new LocalDateTime ( ) {
+. * <p> *
+. return new LocalDateTime ( (int)
+ if (cbc) {
+ if (date == null) { return null||new LocalDateTime(
+ return createLocalDateTime(
+: return new LocalDateTimeImpl(
+ { return LocalDateTime.create(
+. return new LocalDateTime(null,
+, but not in era BC, and not in era BC, and not in era BC, and not in era BC, etc.
+. * LocalDateTime instance = newLocalDateTime(
+, months in era BC, etc
+, but not in era BC, but not in era BC, but not in era BC, but not in era BC, etc.
+, and in era BC. return LocalDateTime(
+, but not in era BC, and not in era BC, and not in era BC, but not in era BC, etc.
+ if (date instanceof HistoricDate()) {
+, but not in era BC, and not in era BC, but not in era BC, and not in era BC, etc.
+, but not in era BC, and not in era BC, and not in era BC, and not in era BC. * *
+ Date.parse(
+ if (date instanceof Date) { date=new LocalDateTime(
+, and months in era BC. * return newLocalDateTime(
+. this(
+: * LocalDateTime.createLocalDateTime(
+. * LocalDateTime fromDateFields(
+. * LocalDateTime date = newLocalDateTime(
+, and months in era BC. *
+: * LocalDateTime this(new LocalDateTime(
+. * LocalDateTime=new LocalDateTime(
+: return new LocalDateTime( *
+, and in era BC * return LocalDateTime(
+ if (date.getYear() < 0) { *
+, months in era BC, etc * returnnew LocalDateTime(
+: * LocalDateTime(new LocalDateTime(
+. * LocalDateTime result=new LocalDateTime(
+. * LocalDateTime.create(
+. * LocalDateTime.newLocalDateTime(
+ return (
+. * LocalDateTime.parseLocalDateTime(
+. return new LocalDateTime(this(
+. * LocalDateTime.of(
+, months in era BC *
+return  create(
+. * LocalDateTime this=new LocalDateTime(
+ * LocalDateTime.fromLocalDateTime(
+. LocalDateTime(
+, but not in era BC. * return newLocalDateTime(
+ { return new LocalDateTimeImpl(
+ if (year == BC)
+, months in era BC. * returnnew LocalDateTime(
+ return new
+. return this(DateTime.create(
+, and in era BC. * return newLocalDateTime(
+. * return LocalDateTime(
+ * LocalDateTime.newLocalDateTime(
+, but not in era BC *
+ * LocalDateTime.parseLocalDateTime(
+: * return newLocalDateTime(
+, but not in era BC. return new Date(
+return  new(
+, and months in era BC * * return newLocalDateTime(
+. * LocalDateTime thisLocalDateTime(
+, in era BC, in era BC { this(
+, months in era BC * * returnnew LocalDateTime(
+. * LocalDateTime localDate=new LocalDateTime(
+, months in era BC etc.
+. * LocalDateTime.fromDate(
+, months in era BC, etc. returnnew LocalDateTime(
+ return new LocalDateTimeBasic(
+. * LocalDateTime.fromInstance(
+. * * return newLocalDateTime(
+return  new Year(
+. * <p> * * return newLocalDateTime(
+ in ISO chronology *
+ if (date!= null) { *
+ 1.1 * return newLocalDateTime(
+, in era BC, in era BC return this(
+. localDateTime(
+. return of(
+. * localDateTime=new LocalDateTime(
+ 1.0 *
+, but not in era BC * returnnew LocalDateTime(
+, and months in era BC * return new \LocalDateTime(
+, but not in era BC. return newLocalDateTime(
+, and months in era BC * return new BasicLocalDateTime(
+. * LocalDateTime localDate = this(
+ 1.1 *
+. * LocalDateTime.createFromLocalDateTime(
+return  new Date({
+, month in era BC * * returnnew LocalDateTime(
+. return LocalDateOf(
+ if (date instanceof BC) { *
+ if (date instanceof Date) { *
+: return new Date(
+, month in era BC
+ year return newLocalDateTime(
+ * return this.createLocalDateTime(
+. * LocalDateTime localDateTimeOf(
+ 1.0 * returnnew LocalDateTime(
+. return new
+ and in era BC *
+. * <p> * Date.createLocalDateTime(
+. * <p> * Date.parseLocalDateTime(
+ return this.createLocalDateTime(
+: * LocalDateTime=new LocalDateTime(
+return new  PlainDate(
+. return this(
+. return createLocalDateTime(
+. LocalDateTime(new LocalDateTime(
+ 1.1. *
+ 1.1.1
+: * * returnnew LocalDateTime(
+. * return createLocalDateTime(
+ 1.1 returnnew LocalDateTime(
+1 * returnnew LocalDateTime(
+, but not in era BC
+ 1.2 *
+ 1.0 returnnew LocalDateTime(
+ 1.2 * returnnew LocalDateTime(
+ return getLocalDateTime(
+. * return new BasicLocalDateTime(
+ + 1900 *
+ 1900 *
+. *
+. LocalDateTime=new LocalDateTime(
+01010101
+. return new BasicLocalDateTime(
+. * return new SimpleLocalDateTime(
+0101 returnnew LocalDateTime(
+ this(
+ * return this().createLocalDateTime(
+. new Date(
+010101 *
+ 1.1
+ 1.0
+-1900 *
+ 1.2 returnnew LocalDateTime(
+ return toLocalDateTime(
+return new  localDateTime(
+ return *
+-2015 *
+ { this(
+1 { returnnew LocalDateTime(
+ return now(
+: *
+1 *
+ return fromLocalDateTime(
+(
+ * (new LocalDateTime(
+ throw
+. (new LocalDateTime(
+ +

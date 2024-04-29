@@ -1,0 +1,810 @@
+return sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" +  columnNumber
+return  MISSING_SOURCE
+ else { src = MISSING_SOURCE+ "\n"
+return sourceName + ":" + lineNumber + ":" columnNumber
+ else { src = lineNumber+ ":" + columnNumber + "\n"
+ return lineNumber+ ":" + columnNumber + "\n"
+ else { src = sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + columnNumber
+return  columnNumber
+ return "\":" + columnNumber + "\n"
+ else { src = sourceName + "":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + columnNumber
+ return columnNumber+ "\n"
+ else { src = MISSING_SOURCE+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ":"
+ else { src = sourceName + lineNumber+ ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + columnNumber
+ else { src = src + "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = MISSING_SOURCE ; }
+ else { src += src ; }
+return sourceName + ":"  + columnNumber + ":\n"
+ else { src = MISSING_SOURCE+ ":" + columnNumber + "\n"
+ else { src = ""+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src ; } return f"\n"
+ else { src = src + "":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + columnNumber + " "
+ else { return sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "
+ else { src = sourceName + ":"+columnNumber + "\n"
+ else { src = sourceName + "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = ""+ columnNumber + "\n"
+ else { src = sourceName + lineNumber ; } return columnNumber
+ else { src = lineNumber+ "\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; }
+ else { src = src. toString ( ) ; } if ( src!= MISSING_SOURCE )
+ else { src = src. toString ( ) ; } if ( src!= null ) {
+ else { src = sourceName + lineNumber + columnNumber ; } return MISSING_SOURCE
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ""
+return sourceName + ":" + lineNumber  + ":\n"
+ else { src = sourceName + lineNumber ; } return MISSING_SOURCE
+ else { src = ":"+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ":\n"
+ else { src = src ; return f"\n"
+ else { src = src + MISSING_SOURCE ;
+return  MISSING_SOURCE + columnNumber
+ else { src = sourceName + lineNumber + columnNumber ; } return sourceName
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; } }
+ else { src = columnNumber+ "\n"
+return sourceName + ":"  + columnNumber + ": "
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE }
+ else { src = src. toString ( ) ; } if ( src!= sourceName ) {
+ else { src = STRING_SOURCE ; } return MISSING_SOURCE
+ if ( src == null ) { src = MISSING_SOURCE ; } if ( src!= null ) {
+ if ( src == null ) { src = MISSING_SOURCE ; }
+ else { src = src. toString ( ) ;
+ else { src = STRING_SOURCE + "":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { return ; }
+ else { src = sourceName ; } return f"\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { return null ; }
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE + "" ; }
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + columnNumber
+ else { src = src. toLowerCase ( ) ; }
+ else { src = src. toLowerCase ( ) ;
+ else { src = src ; }
+ else { src = MISSING_SOURCE ;
+ else { src = src. toString ( ) ; } if ( src!= null )
+ else { src = sourceName + "\":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; }
+return sourceName + ":"  + lineNumber + ""
+ else { src = src + MISSING_SOURCE ; }
+ if ( src == null ) { src = MISSING_SOURCE ; } else {
+ else { src = src. toString ( ) ; } if ( src!= null ) { return src ; }
+return sourceName + ":" + lineNumber  + ": "
+return sourceName +  lineNumber + columnNumber + MISSING_SOURCE
+ if ( src == null ) { src = MISSING_SOURCE ; } if ( src!= null )
+ else { src = src ; } return sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { return lineNumber+ ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; src = src. toNumber ( ) ; } if ( src!= null ) {
+ else { src = src + u"\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { return sourceName ; }
+ else { src = src. toString ( ) ; } if ( src!= null ) { src = src. toString ( ) ;
+ return n+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src == MISSING_SOURCE )
+ else { src = sourceName + sourceNumber ; } return MISSING_SOURCE
+ else { src = lineNumber+columnNumber + "\n"
+ else { src = "line "+ lineNumber + ":" + columnNumber + "\n"
+ else { src += MISSING_SOURCE ;
+ else { src = src. toString ( ) ; } if ( src == null ) { return "" ; }
+return sourceName + ":"  + columnNumber + ": " + lineNumber
+ if ( src == null ) { return sourceName + ":" + lineNumber + ":" + columnNumber + "\n"; } else {
+ else { src = STRING_SOURCE ; } return STRING_SOURCE + columnNumber
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ;
+ else { src = MISSING_SOURCE + "":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + ": "
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE }
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE + "\n"; }
+ else { src = lineNumber-columnNumber + "\n"
+ else { src = sourceName + sourceNumber + columnNumber ; } return MISSING_SOURCE
+ else { src = src + "\n"+lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + lineNumber ; } return MISSING_SOURCE + columnNumber
+ else if ( src!= null ) { src = MISSING_SOURCE ; }
+ else { src = src + "\n"+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ if ( src!= MISSING_SOURCE )
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; } } ;
+ else { src = sourceLineNumber+ ":" + columnNumber + "\n"
+ if ( src == null ) { src = MISSING_SOURCE ; } if ( src!= sourceName ) {
+ else { src = sourceName + " "+columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; } } }
+ return f"\n"
+ else { src = src. toString ( ) ; } if ( src!= null && src!= "" ) {
+ else { src = sourceName + lineNumber + columnNumber ; } return prefix
+ else { src = src ; } return columnNumber+ "\n"
+ else { src = sourceName + lineNumber ; } return sourceName
+ else { src = src. toString ( ). trim ( ) ; } if ( src!= MISSING_SOURCE )
+return sourceName + ":" + lineNumber  + " " + columnNumber + " "
+ else { src = sourceName + lineNumber + columnNumber ; } return
+ else if ( src!= null ) { src = MISSING_SOURCE ; } return MISSING_SOURCE
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + "\n"
+ else { src = _lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + " "+lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src!= null ) { src += " " ; }
+ if ( src!= null ) { src = src + "\n"; }
+ else { src = src. toString ( ) ; } if ( src!= null ) { src = src + "\n"; }
+ else { src = src. toString ( ) ; } if ( src!= null ) { return ; }
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + lineNumber
+ if ( src!= null ) {
+ if ( src == null ) { src = MISSING_SOURCE + "\n"; }
+ else { return columnNumber+ "\n"
+ else { src = src. toString ( ) ; src = MISSING_SOURCE ;
+ else { src = "line:"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src!= null ) { src += src ; }
+ else { src = src. toString ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; } else
+ else { src = sourceName + columnNumber ; } return sourceName
+ else { src = sourceName + ":" + src ; }
+ else { src = src. toString ( ). trim ( ). toLowerCase ( ) ;
+ else { src = src. substring ( 0, 1 ) ;
+return  STRING_SOURCE + lineNumber + columnNumber
+ else { src = src. toString ( ) ; } if ( src!= null ) { src = src + ""; }
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + ": "
+ else { src = src. toString ( ) ; } if ( src!= null ) { src = src + ";" }
+ else { src = MISSING_SOURCE }
+ else if ( src!= null ) { src = src ; }
+ else { src = src. toString ( ) ; } if ( src!= null ) { return src ; } }
+ else { src = sourceName + sourceNumber ; } return columnNumber
+ else { src = sourceName + ""; } return MISSING_SOURCE
+ else { src = src. toString ( ). trim ( ). toString ( ) ;
+ else { src += src }
+return sourceName + ":" + lineNumber  + " " + columnNumber + ": "
+ else if ( src!= null ) { src = MISSING_SOURCE ; } else { return columnNumber
+ else if ( src!= null ) { src = MISSING_SOURCE ; } else { src = " "
+ else { src = "line "+ columnNumber + "\n"
+ if ( src!= sourceName ) {
+ else { src = sourceName + lineNumber + columnNumber ; } return indent
+ else { src = src. toString ( ) ; } if ( src!= null && src!= "" )
+ else { src = src. toString ( ). trim ( ). toString ( ) ; }
+ else { src = src. trim ( ) ; } if ( src == null ) { src = MISSING_SOURCE ; } }
+ else { src = sourceName + lineNumber ; } return " "
+ else { src = sourceName + "#"columnNumber + "\n"
+ else { src = src ; return u"\n"
+ else { src = sourceName + _lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src == null ) { src = ";" ; }
+ else { src = src. toString ( ) ; } if ( src!= null ) return src ; }
+ if ( src == null ) { src = MISSING_SOURCE ; } if ( debug ) {
+ else { src = src + MISSING_SOURCE }
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + " "
+ else if ( src!= null ) { src = STRING_SOURCE ; } else { src = ""
+ else { src = src + ":" + line+ ":" + columnNumber + "\n"
+ else { src = STRING_SOURCE + "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src!= ";" ) {
+ else { src = _sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName ; return f"\n"
+ return ""+ columnNumber + "\n"
+ return lineNumber+ columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" +  columnNumber + " " + src + " "
+ else { src = STRING_SOURCE + "\":" + columnNumber + "\n"
+return sourceName  + lineNumber + columnNumber
+ else { src = sourceName + columnNumber+ "\n"
+ else { src = ":"+ columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src!= null ) { return src ; } else
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + lineNumber + columnNumber
+ if ( src == null ) { src = MISSING_SOURCE + src ; }
+ else { src = sourceName + ""; } else { src = sourceName + ""; } return columnNumber
+ else { src = "column "+ columnNumber + "\n"
+return sourceName + ":"  + columnNumber + ": " + n
+ else { src = src. toString ( ) ; } if ( src!= null ) { src += "\n"; }
+ else { src = src. toString ( ) ; } if ( src!= " " ) {
+ else { src = sourceName + " line "+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src ; } return u"\n"
+ else { src = STRING_SOURCE ; } return STRING_SOURCE + lineNumber
+ else { src = src. toString ( ) + ""; }
+ if ( src!= null ) { src = src + ""; }
+ else { src = src. toString ( ) ; src = MISSING_SOURCE }
+ else { src = src ; } return "":" + lineNumber + ":" + columnNumber + "\n"
+ else if ( src!= null ) { src = src + ""; }
+ else { src += src ;
+ if ( src!= null )
+ else { src = sourceName + lineNumber ; } return MISSING_SOURCE + NL
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE + ; }
+ else { src = sourceName + lineNumber + columnNumber ; } return ""
+ else { src = source + ":" + line+ ":" + columnNumber + "\n"
+ else { src = src. toString ( ). trim ( ) + ""; }
+ else { src = sourceName + sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src ;
+ else { src = sourceName + ++columnNumber + "\n"
+ else { src = src ; } return " "+lineNumber + ":" + columnNumber + "\n"
+ else { src += MISSING_SOURCE ; }
+ else { src = STRING_SOURCE ; }
+ else { src = src ; } return lineNumber+ columnNumber + "\n"
+ else { src = STRING_SOURCE ; } return STRING_SOURCE + ": "
+ else { src = src ; } return "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = COLUMN+ "\n"
+ else { src = sourceName.lineNumber + ":" + columnNumber + "\n"
+ else { src = STRING_SOURCE ; } return MISSING_SOURCE + src
+ else if ( src!= null ) { src = sourceName ; }
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE ; } else
+ return n+ ":" + columnNumber + "\n"
+ else if ( src!= null ) { src = MISSING_SOURCE ; } else { src = sourceName
+ else { src = sourceName ; } return u"\n"
+ else { src = src + "\":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + " - " + columnNumber + " "
+ else { src = "\n"+ columnNumber + "\n"
+return  STRING_SOURCE + sourceName + columnNumber
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ": " + columnNumber
+ else { src = MISSING_SOURCE + "\":" + lineNumber + ":" + columnNumber + "\n"
+ return "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } if ( src!= null ) { src += ";" }
+ else { src = src +"\n"
+ else { src = src ; } return ":"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = "\":" + columnNumber + "\n"
+ else { src = STRING_SOURCE ; } return STRING_SOURCE + src
+return  STRING_SOURCE + columnNumber
+ else { src = sourceName ; }
+ else { src = sourceName + "\n"+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber +  " " + columnNumber + ":\n"
+ else { src = source ; return f"\n"
+ else if ( src!= null ) { src = MISSING_SOURCE ; } else { src = ' '
+ else { src = src ; } return " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else if ( src!= null ) { src = MISSING_SOURCE ; } else { return ""
+ else { src = ""; } return "":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src + ":"+lineNumber + ":" + columnNumber + "\n"
+ else { src = COLUMN+ ":" + columnNumber + "\n"
+ else { src = STRING_SOURCE + u"\n"
+return  MISSING_SOURCE + NL
+ else { src = src + \"\n"
+ else { src = sourceName + ""; } else { src = sourceName + ""; } return ""
+ else { src = source + ":"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = ""; } return columnNumber+ "\n"
+ else { src = sourceName + lineNumber + columnNumber ; } return MISSING_SOURCE +
+ else { src = src ; return +"\n"
+ else { src = sourceName + ":"+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src ; } return lineNumber+ ":" + columnNumber + "\n"
+ else { src = sourceName + ""; } else { src = sourceName + ""; } return lineNumber
+ else { src = f"\n"
+return sourceName + ":"  + columnNumber + " " + lineNumber
+return sourceName + ":"  + columnNumber + "\n"
+ else { src = src. toString ( ) + ";" ; }
+ else { src = sourceName + "\n"+ columnNumber + "\n"
+ else { src = src + f"\n"
+ if ( src!= null ) { return src ; }
+return sourceName  + lineNumber + columnNumber + "\n"
+return  MISSING_SOURCE + "\n"
+ else { src = "+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src ; } return"\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "; "
+return sourceName + ":" + lineNumber + ":" +  columnNumber + ": " + src + src
+ else { src = src. toString ( ) ; } if ( src == null ) { return MISSING_SOURCE ;
+return  MISSING_SOURCE + lineNumber + columnNumber
+ else { src = "lineNumber+ ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } return MISSING_SOURCE + "[source unknown] "
+ else { src += MISSING_SOURCE }
+ else { src = MISSING_SOURCE + ""+ columnNumber + "\n"
+ else { src = sourceName + ":":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; src += ""; }
+ return "+ lineNumber + ":" + columnNumber + "\n"
+ if ( src == null ) { src = MISSING_SOURCE ; } if ( debug )
+ else { src = src ; } return "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = ":" + line+ ":" + columnNumber + "\n"
+ else { src = sourceName + ":{column":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; src = "" ; }
+ else { src = sourceName + ""; } else { src = sourceName + "; } return columnNumber
+ else { src = 0xcolumnNumber + "\n"
+ else { src = sourceName ; } return"\n"
+return sourceName + ":" + lineNumber + ":" +  columnNumber + ":" + n + ":"
+ else { src = sourceName + lineNumber+ "\n"
+ else { src = sourceName + lineNumber ; } return ": "
+return sourceName  + lineNumber + columnNumber + ": "
+ else { src = sourceName + " lineNumber":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "\"\n"
+ else { src = sourceName + lineNumber+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + lineNumber + columnNumber ; return ""
+return sourceName  + lineNumber + columnNumber + " "
+ else { src = STRING_SOURCE ; } return MISSING_SOURCE + NL
+ else { src += " " ; }
+ else { src = sourceName + lineNumber ; } return MISSING_SOURCE + ""
+ else { src = sourceName + ": "+ "\n"
+ else { src = STRING_SOURCE + "":" + columnNumber + "\n"
+return sourceName + ":" +  columnNumber + ":" + lineNumber + "
+return sourceName + ":" +  columnNumber + " " + lineNumber + "
+ else { src = MISSING_SOURCE_+ columnNumber + "\n"
+ else { src = sourceName ; return u"\n"
+ else { src = src. toString ( ) ; } if ( debug ) {
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ":" + columnNumber + " "
+ else { src = sourceName + " line "+ columnNumber + "\n"
+return sourceName + ":" +  columnNumber + ":" + lineNumber + ""
+return sourceName + ":" +  columnNumber + " " + lineNumber + ""
+ else { src = "column:"+ columnNumber + "\n"
+ else { src = MISSING_STRING+ "\n"
+ else { src = src. toString ( ). trim ( ) ; } }
+ else { src = src + ":" + n+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + sourceNumber ; } return MISSING_SOURCE + NL
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ":" + columnNumber + ":"
+ else { src = src + ":"+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + " " + columnNumber + "
+ else { src = MISSING_SOURCE_columnNumber + "\n"
+ return "lineNumber + ":" + columnNumber + "\n"
+ else { src = "line: "+ columnNumber + "\n"
+ else { src = STRING_SOURCE + ""+ lineNumber + ":" + columnNumber + "\n"
+ else { src = "[line:"+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber +  " - " + columnNumber + ": "
+ else { src = "\"column\":" + columnNumber + "\n"
+ else { src = sourceName + COLUMN+ "\n"
+ else { src = 1+columnNumber + "\n"
+ else { src = src ; } return "columnNumber + "\n"
+return  MISSING_SOURCE + ": "
+ else { src = src + r"\n"
+ else { src = src ; } } return f"\n"
+ else { src = sourceName ; } return +"\n"
+ if ( src!= null ) { return ; }
+ else { src = sourceName + --columnNumber + "\n"
+ else { src += "\":" + columnNumber + "\n"
+ else { src = "\":" + lineNumber + ":" + columnNumber + "\n"
+return  STRING_SOURCE + ": "
+ else { src = src + " " + n+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + lineNumber + columnNumber + columnNumber
+ return ":"+ lineNumber + ":" + columnNumber + "\n"
+ if ( src == null ) { src = MISSING_SOURCE ; } } ;
+ else { src = sourceName+ "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber  + " " + sourceName + " "
+return sourceName + ":" + lineNumber + ":" +  columnNumber + ":" + lineNumber + ""
+ else { return lineNumber+ "\n"
+ if ( src == null ) { src = MISSING_SOURCE ; } else
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ": " + src + " "
+ else { src = sourceName + lineNumber+columnNumber + "\n"
+ else { src = MISSING_SOURCE #+ columnNumber + "\n"
+ else { src = sourceName + ":":" + columnNumber + "\n"
+ else { src = sourceName + lineName+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + " " + src + src
+ return "":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "columnNumber":" + columnNumber + "\n"
+ else { src = sourceName + ":"+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + line+ ":" + columnNumber + "\n"
+ else { src = "column":" + columnNumber + "\n"
+ else { src = src ; } return "lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + columnNumber + "; "
+ else { src = sourceName + "":" + columnNumber + "\n"
+ else { src = " " + line+ ":" + columnNumber + "\n"
+ else { src = "Line: "+ columnNumber + "\n"
+ else { src = sourceName + "#"lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + " "+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + columnNumber + lineNumber
+ else { src = "\n"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src + " "+lineNumber + ":" + columnNumber + "\n"
+ else { src = src + " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + ":\n"
+ else { src = "\" + lineNumber+ ":" + columnNumber + "\n"
+ else { src = "[column: "+ columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" +  columnNumber + " " + n + " "
+return  MISSING_SOURCE + lineNumber
+ else { src = src ; } return "";lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + "[source]"+ "\n"
+ else { src = src ; } return line+columnNumber + "\n"
+ else { src += source ; }
+ else { src = "Line "+ columnNumber + "\n"
+ else { return f"\n"
+ else { src = src? :"\n"
+ else { src = "[line: "+ columnNumber + "\n"
+ else { src = sourceName + "{column":" + columnNumber + "\n"
+ else { src = "{columnNumber":" + columnNumber + "\n"
+ else { src = "{column":" + columnNumber + "\n"
+return sourceName  + lineNumber + columnNumber + ' '
+return  MISSING_SOURCE + " "
+ else { src = src + " " + _sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = ""; } return "\":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ": " + lineNumber
+return sourceName  + lineNumber + ": "
+return sourceName + ":" + lineNumber + ":" + columnNumber  + " " + sourceName + ": "
+return sourceName  + " " + columnNumber + " "
+ else { src = sourceName + ": "+ ":" + columnNumber + "\n"
+ else { src = "\n+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + " " + " "
+ else { src = "source":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + " at "+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "source line "+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src. toString ( ) ; } }
+ else { src = n.lineNumber+ ":" + columnNumber + "\n"
+ else { src = src. toLowerCase ( ) ; } }
+ else { src = sourceName + ", column":" + columnNumber + "\n"
+return sourceName + ":"  + lineNumber + ": " + n
+return sourceName + ":"  + columnNumber + "="
+ else { src = STRING_SOURCE+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + " " + lineNumber + ": "
+ if ( src == null ) { src = MISSING_SOURCE ; } }
+ else { src = ""; } return "\":" + columnNumber + "\n"
+ else { src = src. toLowerCase ( ) }
+ else { src = STRING + ":"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = src ; } return "position":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ": " + sourceName
+ else { src = source ; } return "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName + " line":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ":" + lineNumber + ":"
+ else { src = sourceName + " line "+ ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + ": + columnNumber
+ else { src = sourceName + ":column":" + columnNumber + "\n"
+ else { src = "line":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + " - "
+ else { src = u"\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ":source: "
+ else { src = "Line "+ lineNumber + ":" + columnNumber + "\n"
+return sourceName  + src + columnNumber + lineNumber
+return sourceName  + " " + columnNumber + ": "
+ else { src = "\n+ columnNumber + "\n"
+ else { src = " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "|"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + " " + sourceName
+return  MISSING_SOURCE + "[source unknown]"
+ return ""+ lineNumber + ":" + columnNumber + "\n"
+ else { src = n+ ":" + columnNumber + "\n"
+ else { src = MISSING_SOURCE:+ lineNumber + ":" + columnNumber + "\n"
+ else { src = n.sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + " " + columnNumber
+ else { src = src. toString ( ) }
+ else { src = source_name+ ":" + lineNumber + ":" + columnNumber + "\n"
+return  STRING_SOURCE + "\n"
+ else { src = "line":" + columnNumber + "\n"
+ else { return ""+ columnNumber + "\n"
+ else { src = source + ":" + n+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName +  " " + lineNumber + ":\n"
+ else if ( src!= null )
+ else { src = "source "+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src }
+ else { src = sourceLineNumber+ "\n"
+ else { src = sourceName + n+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = MISSING_STACK+ "\n"
+return  STRING_SOURCE + lineNumber
+ else { return "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { return "\":" + columnNumber + "\n"
+ else { src = "line"+ ":" + columnNumber + "\n"
+ else { src = source + " "+lineNumber + ":" + columnNumber + "\n"
+return  STRING_SOURCE + source + columnNumber
+ else { src = "position":" + columnNumber + "\n"
+ else { src = MISSING_SOURCE #+ lineNumber + ":" + columnNumber + "\n"
+ else { src = " lineNumber":" + columnNumber + "\n"
+ else { src = "\"column\"":" + columnNumber + "\n"
+ else { src = line+ ":" + columnNumber + "\n"
+ else { src = sourceName + "{":" + lineNumber + ":" + columnNumber + "\n"
+ return n+ "\n"
+return sourceName + ":" + lineNumber  + "\n"
+ else { src = src + NL ;
+ if ( src!= null ) { src += ";"; }
+return sourceName + ":"  + columnNumber + "|"
+ if ( src == null ) { src = MISSING_SOURCE + "\n"; } else
+return sourceName +  " " + columnNumber + ":\n"
+ else { src = MISSING_SOURCE_+ "\n"
+ else { return "+ lineNumber + ":" + columnNumber + "\n"
+return  STRING_SOURCE + sourceName + lineNumber
+return sourceName  + lineNumber + columnNumber + NL
+ return _sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else {
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ":" + columnNumber + "; "
+return sourceName  + lineNumber + columnNumber + indent
+ else { src = _columnNumber + "\n"
+ else { return lineNumber+columnNumber + "\n"
+ else { src = "\""+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + "\n"
+ else { src + " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return  MISSING_SOURCE + indent
+ else { src = "{line":" + columnNumber + "\n"
+ else { return n+ ":" + columnNumber + "\n"
+ else { src = lineNumber:columnNumber + "\n"
+return sourceName + ":" + lineNumber  + " - " + columnNumber
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ": " + n
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ","
+return sourceName + ":" + lineNumber + ":" + columnNumber +  ":" + lineNumber + ":\n"
+return sourceName + ":"  + lineNumber + column
+ else { return ""+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "\n: "
+return sourceName  + COLON + columnNumber
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "="
+ else { src + " "+columnNumber + "\n"
+ else { src = "+ columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber +  " " + src + " " + sourceName
+ else { src = sourceName + src+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = ""; return "":" + lineNumber + ":" + columnNumber + "\n"
+ else { return lineNumber-columnNumber + "\n"
+return sourceName + ":"  + columnNumber + "
+return sourceName  + lineNumber + columnNumber + 1
+ else { src = sourceName + """:" + lineNumber + ":" + columnNumber + "\n"
+return  MISSING_STRING
+ else { return ; }
+return sourceName +  source + ": " + columnNumber + source
+ else { src = ":" +sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = STRING_LINENumber+ ":" + columnNumber + "\n"
+ else { src = ++columnNumber + "\n"
+ else { src + " "+lineNumber + ":" + columnNumber + "\n"
+return  MISSING_SOURCE + " at line: "
+return sourceName  + " at line: "
+return sourceName  + lineNumber
+ return "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = sourceName_+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + lineNumber + columnNumber + "; "
+ return sourceName + "\":" + lineNumber + ":" + columnNumber + "\n"
+return  MISSING_NODE
+ else { src = sourceName + "{":" + columnNumber + "\n"
+ if ( src == null ) { src = MISSING_SOURCE + "\n"; } }
+ else { src = source + "":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + lineNumber + col
+return sourceName + ":" + lineNumber + ":" + columnNumber  + ":" + columnNumber + "*"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ":source "
+return  MISSING_SOURCE + src
+return  STRING_SOURCE + lineNumber + column
+return  MISSING_SOURCE + " at line "
+ else { src = source + "\":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + "\n\n
+ else { src = source + " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = source_prefix+ "\n"
+return sourceName +  " " + lineNumber + " \n"
+ else { src = "":" + columnNumber + "\n"
+return  MISSING_SOURCE +
+ else { src = source+ "\n"
+return  STRING_SOURCE + lineNumber + ""
+ else { src = "Source "+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { return n+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src + " line "+ ":" + columnNumber + "\n"
+ else { src = -columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber +  " " + src + " " + lineNumber
+ else { src = sourcelineNumber + ":" + columnNumber + "\n"
+ else { src += " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { return src + "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "source: "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = +columnNumber + "\n"
+ else { src = "\\"+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = src + "{":" + lineNumber + ":" + columnNumber + "\n"
+ return line+ ":" + columnNumber + "\n"
+ if ( src ) {
+return sourceName + ":" + lineNumber  + ":{columnNumber} "
+ else { return "+ columnNumber + "\n"
+return sourceName  + columnNumber + ": "
+return sourceName + ":" + lineNumber  + "; "
+return sourceName + ":" + lineNumber + ":"  + columnNumber + NL
+return sourceName + ":"  + lineNumber
+ else { src = "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "";lineNumber + ":" + columnNumber + "\n"
+return  MISSING_SRC
+return sourceName + ":"  + columnNumber + ":source="
+ else { src += " "+lineNumber + ":" + columnNumber + "\n"
+ else { src = source_name+ "\n"
+return sourceName  + lineNumber + column ( )
+return sourceName + ":"  + col + line
+ else { sourceName += u"\n"
+return sourceName + ":"  + columnNumber + ":source:"
+return sourceName + ":" + lineNumber + ":" + columnNumber +  " " + src + " " + " "
+ else { src += ":"+ lineNumber + ":" + columnNumber + "\n"
+ else { src = "{line":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "\n":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + ": " + column
+ else { return sourceName +"\n"
+ return lineNumber+ "\n"
+ else { src = "".sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { sourceName = f"\n"
+return sourceName + ":"  + columnNumber + " " + lineNumber "
+ return "+ columnNumber + "\n"
+ else { src ++ ;
+ return sourceName + "":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = "";sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return  STRING_SOURCE + "\\"
+return sourceName + ":"  + n + 1
+ else { src = src + NL }
+ else { src += MISSING_SOURCE+ "\n"
+ else { sourceName = u"\n"
+ else { return n+ "\n"
+return sourceName + ":"  + n + ""
+return sourceName + ":" + lineNumber  + ":{columnNumber}:"
+ else { src = source + source+ "\n"
+return sourceName  + " at line "
+ else { src += "\":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = +"\n"
+ else { return "":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + ": " + n
+ else { return src+ "\n"
+ return ":"+ columnNumber + "\n"
+ return "position":" + columnNumber + "\n"
+ else { src = r"\n"
+ else { src = source+ ":" + columnNumber + "\n"
+ else { return u"\n"
+ else { src = namespace+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src = n+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + indent
+return sourceName + ":" + lineNumber + ":" + columnNumber +  ":" + lineNumber + ":source:"
+return sourceName + ":"  + columnNumber + ":" + lineNumber*
+ else { src += ""+ columnNumber + "\n"
+ else { src = characterNumber+ "\n"
+return sourceName + ":"  + columnNumber + ":" + lineNumber++
+ else { return COLUMN+ "\n"
+return  MISSING_STACK
+ else { src = $sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else { src += sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber + ":" + lineNumber*
+ return lineNumber-columnNumber + "\n"
+ else { src = MissingING_SOURCE+ "\n"
+ return columnNumber + f"\n"
+return sourceName + ":" + lineNumber  + " - "
+return sourceName + ":" + lineNumber  + "|"
+ else { return ++columnNumber + "\n"
+ else { src + "\":" + columnNumber + "\n"
+ else { src = namespace+ ":" + columnNumber + "\n"
+return sourceName + ":"  columnNumber
+return sourceName  + columnNumber + NL
+ return "\n+ lineNumber + ":" + columnNumber + "\n"
+ return sourceName + _lineNumber + ":" + columnNumber + "\n"
+ else { return line+ ":" + columnNumber + "\n"
+ else { return source+ "\n"
+ else { src -- ;
+return sourceName  + ": line "
+ else { src ++ }
+return sourceName  + ", src="
+ else { src = \":" + columnNumber + "\n"
+ return "line":" + columnNumber + "\n"
+return sourceName  + " = "
+return sourceName  + lineNumber + 1
+return sourceName + ":" + lineNumber  + "[source unknown]"
+return sourceName  + " "
+return sourceName + ":" + lineNumber  + ":{columnNumber}="
+ return src + "\":" + lineNumber + ":" + columnNumber + "\n"
+ return src + ":"+ lineNumber + ":" + columnNumber + "\n"
+ return "columnNumber + "\n"
+ return "\n"+ columnNumber + "\n"
+return sourceName + ":" + lineNumber  + "[source: "
+ return "line:"+ lineNumber + ":" + columnNumber + "\n"
+ return "line "+ columnNumber + "\n"
+ return sourceName.lineNumber + ":" + columnNumber + "\n"
+return sourceName  + "\\"
+return sourceName + ":" + lineNumber  + ":source="
+ return sourceName + lineNumber+ ":" + columnNumber + "\n"
+return sourceName + ":"  + line
+ return "line "+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + n + column
+return sourceName + ":"  + n + line
+ return "lineNumber":" + lineNumber + ":" + columnNumber + "\n"
+ else { return"\n"
+ else { src += lineNumber+ ":" + columnNumber + "\n"
+ return src ; }
+ return COLUMN+ "\n"
+ return "":" + columnNumber + "\n"
+ return "Line "+ columnNumber + "\n"
+ else { return "":" + columnNumber + "\n"
+ else { return +"\n"
+ else { src = MISSING_Source+ "\n"
+ else return "\":" + lineNumber + ":" + columnNumber + "\n"
+ return u"\n"
+ return "line number":" + lineNumber + ":" + columnNumber + "\n"
+return  ": "
+ else { return _lineNumber + ":" + columnNumber + "\n"
+ return sourceName + lineNumber+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return "line":" + lineNumber + ":" + columnNumber + "\n"
+ return "pos":" + columnNumber + "\n"
+ else { return _sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ return "\n"+ lineNumber + ":" + columnNumber + "\n"
+return  COLUMN
+ else { return":" + columnNumber + "\n"
+ else { src += _sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + lineNumber + columnNumber ++
+ return sourceLineNumber+ ":" + columnNumber + "\n"
+ return "{line":" + columnNumber + "\n"
+ else { return namespace+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return source+ "\n"
+return sourceName + ":"  + column
+return  lineNumber
+ return "lineNumber":" + columnNumber + "\n"
+ else { return r"\n"
+ else { sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else return "":" + lineNumber + ":" + columnNumber + "\n"
+ else { return source+ ":" + columnNumber + "\n"
+ return ++columnNumber + "\n"
+ return "source":" + lineNumber + ":" + columnNumber + "\n"
+ return "source"+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return sourceName + ":"+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName  + ' '
+ else { return indent+ "\n"
+ else { return \":" + columnNumber + "\n"
+ return sourceName_+ ":" + lineNumber + ":" + columnNumber + "\n"
+ if ( debug )
+return sourceName  + NL
+ return name+ ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber  + "="
+return sourceName + ":" + lineNumber + ":"  + column ( )
+return sourceName + ":" + lineNumber + ":"  + (column)
+ return "{":" + lineNumber + ":" + columnNumber + "\n"
+ return "{lineNumber":" + columnNumber + "\n"
+ else return "+ lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + (columnNumber
+ else { return "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ return "\n":" + lineNumber + ":" + columnNumber + "\n"
+ return indent+ "\n"
+ return name+ "\n"
+return sourceName + ":" + lineNumber + ":"  + columnNumber*
+return sourceName + ":" + lineNumber + ":"  + columnNumber * 2
+return sourceName + ":" + lineNumber  + "
+ else return "+ columnNumber + "\n"
+ return namespace+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return src+ "\n"
+ if ( DEBUG )
+return  MissingING_SOURCE
+return  "* "
+return sourceName  + column
+ return " "+sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ return -columnNumber + "\n"
+return sourceName  + prefix
+return sourceName + ":" + lineNumber  + 1
+ else { src+ "\n"
+return sourceName  + sep
+return  STRING_SOURCE
+ return source+ ":" + columnNumber + "\n"
+ return \":" + columnNumber + "\n"
+return  " "
+ sourceName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return characterNumber+ "\n"
+ else return f"\n"
+ return name+ ":" + columnNumber + "\n"
+return  source + source
+ return indent+ columnNumber + "\n"
+ return +"\n"
+return  sourceName
+ return filename+ ":" + columnNumber + "\n"
+return sourceName + ":"  + rowNumber
+ return "{":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" ColumnNumber
+ return line+columnNumber + "\n"
+return sourceName + ":"  + characterNumber
+ return _lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":"  + colNumber
+ return u":" + lineNumber + ":" + columnNumber + "\n"
+ return \"\n"
+ return src ;
+ return u":" + columnNumber + "\n"
+ else { } }
+return sourceName + ":" + lineNumber + ":"  + colNumber*
+ return """:" + lineNumber + ":" + columnNumber + "\n"
+ return 1+columnNumber + "\n"
+return  MISSING_Source
+ return "";lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" colNumber
+return  missing_sourceName
+ } else {
+ return lineNumber+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return m_sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ return 0xcolumnNumber + "\n"
+ return columnNumber+ ":" + columnNumber + "\n"
+ return src ; else
+ return $sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else return n+ ":" + columnNumber + "\n"
+ else return u"\n"
+ } return f"\n"
+ return "".sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+return  rowNumber
+ } return "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ else returnlineNumber + ":" + columnNumber + "\n"
+ else returnsourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ } } ;
+ else return +"\n"
+ else return line+ ":" + columnNumber + "\n"
+ return lineName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return "".lineNumber + ":" + columnNumber + "\n"
+ return "",lineNumber + ":" + columnNumber + "\n"
+ return nodeName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ return fileName+ ":" + lineNumber + ":" + columnNumber + "\n"
+ else { }
+return sourceName + ":" + lineNumber + ":"  + characterNumber
+ else returncolumnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"  + lineNumber
+return sourceName + ":" + lineNumber + ":"  + colNumber
+ } } }
+ print "+ lineNumber + ":" + columnNumber + "\n"
+ else "+lineNumber + ":" + columnNumber + "\n"
+ else {+ lineNumber + ":" + columnNumber + "\n"
+ print "sourceName + ":" + lineNumber + ":" + columnNumber + "\n"
+ print "+ columnNumber + "\n"
+ } ;
+ } }
+ + f"\n"
+return sourceName + ":" + lineNumber + ":" +  columnNum
+ else,
+ else
+ }
+return sourceName + ":" + lineNumber * ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber, ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber * "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber, "\n"
+return sourceName += ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber - ":" + columnNumber + "\n"
+return sourceName * ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" + columnNumber. "\n"
+return sourceName, ":" + lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" * columnNumber + "\n"
+return sourceName + ":" * lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":"plus columnNumber + "\n"
+return sourceName + ":", lineNumber + ":" + columnNumber + "\n"
+return sourceName + ":" + lineNumber + ":" - columnNumber + "\n"
+return sourceName + ":". lineNumber + ":" + columnNumber + "\n"

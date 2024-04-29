@@ -1,0 +1,714 @@
+if (match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken)) {
+ if (!match(Token.RC)) {
+ token = next();
+if (recordType) {
+if (!match(JsDocToken.COMMA)) {
+ if (!match(RC)) {
+ if (!RC)) {
+if (!recordType) {
+ if (!match(JsDocTokenRC)) {
+if (!match(JsDocToken.RC))
+ if (!match(JsDocToken.RC) {
+ token = next(); skipEOLs();
+ token = next(); if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RR)) {
+ token = next(); while (true)
+ if (!match(JsDocToken.COMMA) {
+if (!match(JsDocToken.RC))  { next();
+ } else{
+ if (!match(JsDocToken.CRC)) {
+ if (!match(RecordType.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(); }
+ if (!match(JsDocToken.COMMA)) { next(); skipEOLs();
+ if (!match(JsDocToken.RRC)) {
+if (!match()) {
+if (match(JsDocToken.COMMA)) {
+ if (!match(JsDocToken.SRC)) {
+if (recordType.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing"); }
+ if (!match(JsDocTokenRC) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning();
+if (!fieldTypeList) {
+if (!match(JsDocToken.RC)) { next(); skipEOLs();
+ if (rc) {
+if (recordType &&!match(JsDocToken.RC)) {
+ if (match(JsDocToken.COMMA)) { next(); skipEOLs(); }
+if  (recordType == null) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing");
+ if (match(JsDocToken.COMMA)) { next(); skipEOLs();
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); token = next(); }
+ if (!match(JsDoc.RC)) {
+ if (!match(JsDocToken.COMMA)) { next(); skipEOLs(); }
+ if (!match(JsDocTokenRR)) {
+ if (!token.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing"); }
+ if (!match(JsDocToken.RR.RC)) {
+ if (!match(JsDocToken.COMMA)) { break; }
+if (!match(JsDocToken.RR))
+if (!match(JsDocToken.RULES)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("\""); }
+ if (!match(JsDocToken.RR) {
+ while (match(JsDocToken.RC)){
+if (recordType.is(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { if (recordType == null) {
+ if (!match(RR)) {
+if (!match(JsDocToken.RC)) { skipEOLs();
+if (!match(JsDocToken.RC) && recordType!= null) {
+ if (!match(JsDoc.RC) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.cm"); }
+ while (match(JsDocToken.RC) {
+ if (match(JsDocToken.COMMA)) { skipEOLs(); }
+if (match(JsDocToken.RC))
+ if (!match.RC)) {
+if (token!= match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) { if (recordType == null) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.comm"); }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.comment"); }
+ if (!match(JsDocToken.COMMA)) { return reportGenericTypeSyntaxWarning(); }
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); token = next();
+if (!match(JsDocToken.RC) { next(); skipEOLs();
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(recordType); }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.cm");
+if (!match(JsDocToken.RC)) { next(); if (recordType) {
+if (match(JsDocToken.RR)) {
+ if (!match(JsDocToken.CRC) {
+ token = next(); if!match(JsDocToken.RC)) {
+ token = next(); } else { if (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.comm");
+if (!match(JsDocToken.RC) || (recordType == null) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.comment");
+if (!rc) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing.cm"); }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing.comm"); }
+ if (match(JsDocToken.RC) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc"); }
+ if (!match(JsDocToken.COMMA)) { skipEOLs();
+if (!match(JsDocToken.RC)) { skipEOLs(); } else {
+if (fieldTypeList &&!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { if (recordType == null)
+ if (!rc)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing.cmp");
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing");
+if (!match(JsDocToken.RC) || (fieldTypeList == null) {
+ while (token!= null) { if (token == null) {
+ token = next(); } while (true); if!match(JsDocToken.RC)) {
+if (!match(JSDocToken.COMMA)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.comma"); }
+if (!match(JsDocToken.RR)) { break; }
+ token = next(); } else if (!match(JsDocToken.RC)) {
+ if (!match(DocToken.RC)) {
+ if (!recordType)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("Invalid comma"); }
+if (!match(JsDocToken.RC) { if (recordType == null)
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing.cm");
+ if (!match(JsDocToken.NRC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("Unknown comma"); }
+if (recordType!= null && match(JsDocToken.RC)) {
+if  (recordType == null)
+ while (!match(JsDocToken.RC)){
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(token); }
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); break; }
+ if (!match(JsDocToken.RRB)) {
+ if (!match(recordType.RC)) {
+if (!match(JsDocToken.RC)))
+ if (!matchJsDocToken.RC)) {
+if (!match(JsDocRC)) {
+if (!match(JsDocToken.RC))  { next(); } if (recordType) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RB) {
+if (!match(JsDocToken.RC)) { break; }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc.missing"; }
+ if (match(JsDocTokenRC)){
+if (!match(JsDocToken.RC)) { if (recordType) {
+ while (!match(JsDocToken.COMMA)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing); }
+ if (!match(.RC)) {
+ while (token!= null) { token = next(); skipEOLs();
+if (match(JsDocToken.RC)))
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RR) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); } if (recordType == null) {
+if (!match(JsDocToken.RC));
+ if (!match(JsDocToken.RC.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg); }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(",""); }
+if (!match(JsDocToken.RB)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(token);
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("missing.cm"); }
+ token = next();{
+ while (!match(JsDocToken.RC) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning
+ if (!match(JsDocToken.RBB)) {
+if (recordType == null && match(JsDocToken.RC)) {
+ token = next(); } while (true); (!match(JsDocToken.RC)) {
+if  (fieldTypeList == null) {
+ if (!match(JsDocToken.RSRC)) {
+ while (match(JsDocTokenRC)){
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning; }
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("missing.comment"); }
+ if (token == null) { skipEOLs(); token = next();
+if (!match(JsDocToken.RC))) {
+ token = next(); if (true)
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc."); }
+if (!match(JsDocToken.RC)) { break; } else {
+ if (!match(JsDocToken.COMMA)) { next(); skipEOL();
+ if (!recordType.RC)) {
+ if (!match(JsDocToken.RECORD.RC)) {
+if (!match(JsDocToken.RC)) { next(); if (rc) {
+ if (match(JsDocToken.NO_RC)) {
+ if (!match(JsDocToken.COMMA)) {
+if (!match(JsDocToken.RC) { skipEOLs(); } else {
+if (!match(JsDocToken.RC)) { skipEOLs(); }
+ if (!match(JsDocToken.LC.RC)) {
+ if (!match(JsDocTokenKind.RC)) {
+if (!matchRC)) {
+ if (!match(JsDocToken.RB.RC)) {
+if (!match(JSDocToken.RC)) {
+ if (!match(JsDocToken.NO_RC)) {
+ if (!token.match(JsDocToken.RC)) {
+ if ((JsDocToken.RC)) {
+ if (fieldTypeList) {
+ if (!match(JsDocToken.RECORDRC)) {
+if (!match(JsDocToken.RC) || match(JsDocToken.RB) {
+ if (!match(JsDocToken.RR_RC)) {
+if (!match(JsDocToken.RC) && match(JsDocToken.RB) {
+if (!match(JsDocToken.RC) { skipEOLs();
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(msg.jsdoc.missing);
+ while (token!= null) { if (recordType) {
+ while (token!= null) { if (token!= null) {
+ if (!recordType.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("missing.cm");
+ token = next(); } if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || match(JsDocToken.RR) {
+if (!match(JsDocToken.RC) && match(JsDocToken.RB))) {
+ if (!match(JsDocToken.RR))
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning(); } else
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("missing.co"); }
+ token = next(); } while (true) (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.empty"); }
+if (fieldTypeList.match(JsDocToken.RC)) {
+if (!match(JsDocToken.RUBY)) {
+if (!match(JsDocToken.RC) { next(); if (recordType) {
+ if (!match(JsDocToken.RR)) { break; }
+if (!match(JsDocToken.RUNTIME)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RR) {
+ if (!match(RRR)) {
+if (!match(JsDocToken.RUNCODE)) {
+ if (!match(JsDocToken.COMMA)) { if (!match(JsDocToken). }
+if (!match(JsDocToken.RC) { next(); } if (recordType) {
+if (!match(RRC)) {
+if (!match(JsDocToken.RC) && recordType == null) {
+if (!match(JsDocContext)) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); token = next(); } else
+ if (!match(JavaToken.RC)) {
+ if (record!= null){
+ if (()) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RC) {
+ if (recordType!= recordType) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc") }
+if (!match(JsDocToken.RC) { next(); if (recordType)) {
+if (!match(JsDocToken.RC) || match(JsDocToken.RC) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); } else
+ if (!match(JsDocRR)) {
+ if (!match(JsDocTokenRR) {
+if (!match(JsDocToken.RC)) { next( skipEOLs);
+ if (!match(JSDoc.RC)) {
+ token = next(); } else {
+ if (!match(JsDocToken.RS.RC)) {
+ if (recordType == null) { if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || recordType == null) {
+if (!match(JsDocToken.RC) || match(JsDocToken.RB))) {
+if (match(JsDocToken.RR))
+ if (!match(JsDocToken.NODE.RC)) {
+ if (!match(JsDocToken.COMMA)) { return reportTypeSyntaxWarning("msg.jsdoc"; }
+if (!match(JsDocToken.RC)) { next(); } else {
+if (!rc)
+ if (token == null) {
+ if (!match(RB)) {
+if (!match(JsDocToken.RC) && fieldTypeList!= null) {
+ if (!match(JsDocTokenRB)) {
+if (!match(JsDocToken.COMMA))) {
+ if (!match(JsDocToken.REC_RC)) {
+if (!match(JsDocToken.RC) { if (recordType!= null) {
+if (!match(JsDocToken.CURRENCY)) {
+if (!match(JsDocToken.RC) && match(JsDocToken.RR) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RB))) {
+if (recordType == null) { return null;
+ token = next(); } if (token!= match(JsDocToken.RC)) {
+if (!match(JsDocToken.RR)) { next(); skipEOLs();
+ if (!match(JsDocToken.CRC)) { break; }
+ if (!match(JsDocToken2.RC)) {
+ if (recordTypeList.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RRB) {
+if (match(JsDocToken.CRC)) {
+ if (!match(token,JsDocToken.RC)) {
+if (!match(JsDocToken.RUBIC)) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RB)) {
+if (!match(JsDocToken.RC) || (FieldTypeList == null) {
+ if (recordType!= null &&!match(JsDocToken.RC)) {
+ if (!match(JsDocTokenType.RC)) {
+if (!match(JsDocToken.RC) { if (recordType)) {
+ token = next(); } if (!token.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { break; } else
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RB) {
+ if (!match(recordType,JsDocToken.RC)) {
+ if (!match(JsDocToken.RBB) {
+ if (!match(JsDocToken.RBB.RC)) {
+if (!match(JsDocToken.RR)) { break; } else {
+if (token == JsDocToken.RC){
+if (!match(JsDocToken.RECORD_TYPE)) {
+if (!match(JsDocToken.RC) { if (recordType) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs(); token = next(); } } else
+ token = next(); } if (recordType&&!match(JsDocToken.RC)) {
+ if (!match(JsDocTokenList.RC)) {
+if (match(JsDocToken).RC){
+ while (token!= null) { token = next(); skipEOL();
+if  (fieldType == null) {
+if (!match(JsDocToken.RC) { next(); if (rc)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RC) {
+ if (!match(JsDocToken.REQUEST.RC)) {
+ if (!match(Token.RC) {
+ if (rc == null){
+ if (fieldTypeList == null && match(JsDocToken.RC)) {
+ if (skipEOLs();!match(JsDocToken.RC)) {
+ token = next(); if (recordTypeList.match(JsDocToken.RC)) {
+ if (!match(FieldTypeList)){
+ if (!match(JsDocToken.RC))
+ if (token.match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { next( skipEOLs());
+if (match(JsDocToken.RB)) {
+ if (!match(RecordType)) {
+if (!match(JsDocToken.R)) {
+if (!match(JsDocToken.RR, fieldTypeList)) {
+if  (true) {
+ token = next(); } while (token!= match(JsDocToken.RC)) {
+ if (!match(JsDocToken.Rb.RC)) {
+if (!match(RSRC)) {
+if (!match(JsDocR)) {
+ if (match(JsDocToken)) {
+ if (!isRC)) {
+if (!match(JsDocToken.REPLACE)) {
+ while (match(JsDoc.RC) {
+ if (!match(JsDoc.RR)) {
+ token = next(); if (fieldTypeList&&!match(JsDocToken.RC)) {
+ if (!match(Node.RC) {
+if (!match(JsDocToken.RC))  { if (recordType!= recordType) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RECORD)) {
+if (!match(CRC)) {
+ if (!match(JsDocToken.RR)) {
+ if (!match(Node.RC)) {
+if (!match(JsDocToken.RC)) { if (true) {
+if (!match(RC))
+ if (recordType == null) if (!match(JsDocToken.RC)) {
+ token = next(); while (true);
+if (!match(JsDocToken.RC) { break; } else {
+ token = next(); skipEOL();
+ token = next(); if (recordType!= null)
+ if (recordType!= null) {
+ if (recordType!= null) if (!match(JsDocToken.RC)) {
+if (match(JsDocToken.COMMA))) {
+ token = next(); if (recordType) {
+ token = next(); } else {
+ if (!match(JsDocToken.RR));
+ if (!match(recordType)) {
+if (!match(JsDocToken.RC) || match(JsDocToken)) {
+ token = next(); }
+if (skipEOLs && match(JsDocToken.RC)) {
+ while (token!= null) { if (token == ',')) {
+ while (token!= null) { if (token!= ',') {
+ token = next(); if (recordType.match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { next(); if (rc)
+ if (match(JsDocTokenRC) {
+ if (rc)) {
+ if (!match(RRRC)) {
+ if (!match(JsDocToken) && match(JsDocToken.RC)) {
+ token = next(); } if (token.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RRC) {
+ token = next(); if (recordType) if(!match(JsDocToken.RC)) {
+ if (rc!= null){
+if (!match(JsDocToken.RUNCALL)) {
+ while (token!= null) { token = next(); skipEOL;
+if (!match(JsDocToken.RUNCULE)) {
+ if (!match(JsDocToken.RR)) { continue; }
+ token = next(); if (recordType&&!match(JsDocToken.RC)) {
+ if (!match(JsDocToken)) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RR)) {
+if (!match(JsDocToken.RR(token))) {
+if (!match(JsDocToken.RC) && (recordType == null) {
+ token = next(); } while (true if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) { if (recordType!= recordType) {
+ if (!match(JsDocToken.CUSTOM)) {
+ if (record == null) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RB2) {
+ if (!match(RR))) {
+ if (!match(JsDocToken.RB))
+if (!match(JsDocToken.RC) || match(JsDocToken))) {
+ if (recType == null) {
+ if (recordType == null &&!match(JsDocToken.RC)) {
+ if (recordType == null || match(JsDocToken.RC)) {
+ if (!.RC)) {
+if (FieldTypeList &&!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) { if (recordType!= recordType)) {
+if (!match(JsDocToken.RC) && fieldTypeList) {
+if (!match(RRule)) {
+if (!match(JsDocToken.RC) && match(JsDocToken.RB)) {
+ if () {
+ while (true) if (!match(JsDocToken.RC)) {
+ token = next(); if (token.match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RR))(!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!match(FieldTypeList) {
+ if (!match(JsDocToken) {
+ if (!match(JsDocToken.COMMA)) { break;
+if  (rc {
+if (!match(JsDocToken.RC) && (fieldTypeList!= null) {
+if (!match(JsDocToken.RC) && fieldTypeList == null) {
+ if (!parseRC)) {
+ if (recordType!= null) {
+ if (!match(JsDocToken.COMMA)) { }
+ if (!match(JsDocToken.COMMA)) { break };
+if (!match(JsDocToken.RC)) { next(); if (rc)) {
+if (!match(JsDocToken.RC) || match(JsDocToken.RB2) {
+if (!match(JsDocToken.RC) && (fieldTypeList == null) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RECORD)) {
+ if (!match(JsDocToken.BRACE))
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RB))) {
+ if (!match(JsDocToken.COMMA)) { } else
+if (!match(JsDocToken.RC) &&!match(JsDocToken.REPLACE) {
+ token = next(); if (!(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || (rc) {
+ while (token!= null &&!match(JsDocToken.RC)) {
+ if (!match(RecordType,JsDocToken.RC)) {
+ token = next(); (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RR|JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!match(JsDocTokenRC) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RECORDTYPE) {
+if (!match(JsDocToken.RC) &&!match(JsDocTokenRB) {
+ token = next(); } while (true &&!match(JsDocToken.RC)) {
+if  (token!= null) {
+ if (!recordType.contains(JsDocToken.RC)) {
+if (!match(JsDocToken.RC))  { skipEOLs(); if (!rc)
+if (token!= null) { if (true) {
+if (!match(JsDocToken.RC)) { if (recordType)) {
+ token = next(); else {
+ if (!match(JsDocToken.COMMA)) { break; } else {
+if (!match(JsDocToken.RC) { skipEOLs(); }
+ token = next(); } else
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RUB)) {
+if (!match(JsDocToken.RC) && match(JsDocToken.RC) {
+if (!match(JsDocToken.RC) || match(JsDocToken.REF) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RBB)) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RR2) {
+if (!match(JsDocToken.RC) && match(JsDocToken)) {
+ if (!match(JSDocToken.RR|JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!recordType!= null) {
+ if (!match(FieldTypeList,JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!match(JsDocToken.RECORDTYPE) {
+ token = next(); if (token) if(!match(JsDocToken.RC)) {
+if (!match(rc)) {
+if (!match(JsDocToken.RULESCRIPT)) {
+ do { if (!match(Token.RC)) {
+ if (!match(JsDocToken.RB))(!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.CRC)) { break; } else
+ if (!recordTypeList) {
+!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!recordType == null) {
+ if (recordType!= null)
+if (!match(JsDocToken.RC) || (rc == null) {
+if  (rc)
+ if (!match(Node.RR) {
+if (!match(JsDocToken.CURRENCY)) { break; } else {
+if (!match(JsDocToken.RC) || match(JsDocToken.BR) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RB)) {
+if (!match(JsDocToken.RC) { break; }
+ token = next(); } if (token=!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) ||!match(FieldTypeList) {
+ if (!match(JsDocToken.COMMA)) }
+ if (!matches(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.REPLACE) {
+if (!match(JsDocToken.RC) { skipEOLs(token);
+ token = next(); } if (token is!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { break; } } else
+ if (!match(:RC)) {
+if (!match(JsDocToken.RC)) { next( skipEOLs()); }
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RR)) {
+ if (!match(JsDocToken.RR!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RB2) {
+ if (!match(JsDocToken.RC))(!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.RB)) {
+ if (!match(JsDocToken.BRACE));
+ if (!match(token.RC)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RRI) {
+ if (token)!match(JsDocToken.RC)) {
+ (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs;
+ if (!match(JsDocToken.REF))(!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.COMMA)) { skipEOLs;}
+ token = next(); if (!matchJsDocToken.RC)) {
+if (!match(JsDocToken.RRR)) {
+ while (true) && match(JsDocToken.RC)) {
+ if (recType){
+if (!match(JsDocToken.RC) { if (recType)) {
+ if (!match(JsDocToken).!match(JsDocToken.RC)) {
+ if (!hasRC)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RECORDType) {
+if (!match(JsDocToken.RC) || (recType == null) {
+ if (recordType)!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RULESCRIPTOR)) {
+if (!match(JsDocToken.RC) ||!match(JsDocToken.RUB)) {
+if (!match(JsDocToken.RC)) { if (rc) {
+ if (!match('.RC)) {
+if (!match(JsDocToken.RBBR)) {
+ if (!match(Node.RR)){
+ if (!match(recType,JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || (RC == null) {
+if (!match(JsDocToken.RC) && match(JSDocToken)) {
+if (!match(JsDocToken.RC) { if (recType) {
+ if (recordType)){
+if (!match(JsDocToken.RC)) { skipEOLs() }
+ if (!match(JsDocToken.COMMA))) {
+ if (match(RRR)){
+ if (!match(JsDocToken)!match(JsDocToken.RC)) {
+if (fieldTypeList.is(JsDocToken.RC)) {
+if (recordType.contains(JsDocToken.RC)) {
+ while (!match(Token.RC)) {
+if (!match(JsDocToken.RC) == null) {
+ if (!!match(JsDocToken.RC)) {
+if (!match) {
+if (!match(JsDocToken.RUBY_RC)) {
+ if (!fieldTypeList.match(JsDocToken.RC)) {
+if (recordType.isRC()) {
+if (!match(JsDocToken.RC) { if (true)) {
+ token = next(); } } else if(!match(JsDocToken.RC)) {
+ token = next(); } next(); { if(!match(JsDocToken.RC)) {
+ if (missingRC)) {
+if (!match(JsDocToken.RC) ||!match(recordType) {
+ if (token == "{") {
+if (recordType!== match(JsDocToken.RC)) {
+ if (recordType!= null && (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken).RB(!match(JsDocToken.RC)) {
+ if (recordType == null)
+ if (!match(recordType&&!match(JsDocToken.RC)) {
+ if (match(Token.RC)) {
+ while (true) (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RULESTRING)) {
+ if (recordType) if(!match(JsDocToken.RC)) {
+ if (!(JsDocToken.RC)) {
+ if (token == null) { return null; } else
+ if (!match(JsDocToken).RC(!match(JsDocToken.RC)) {
+ if (token == "rc")) {
+ if (!match(\"RC)) {
+if (!rc {
+ if (!match(".RC)) {
+if (!match(JsDocToken.RC) { if (true) {
+ if (JsDocToken.RC)) {
+ if (!match(JsDocToken.RR(!match(JsDocToken.RC)) {
+ if (token == ',') {
+ if (!match(JsDocToken.RC)) { break; } else
+if (!match(JsDocToken.RC)) { skipEOLs(token); }
+ if (!match(RRC) {
+ token = next(); while (true) {
+ token = next(); } } else
+ if (!match(JsDocToken.RR)) { break; } else
+ if ()) {
+ if (!match(null,JsDocToken.RC)) {
+ if (!match(RRB) {
+ if (!fieldTypeList&&!match(JsDocToken.RC)) {
+ if (!recType)) {
+ if (!match(JsDocToken)) }
+if (recordType == null) { return null; }
+ while (recordType.match(JsDocToken.RC)) {
+ if (!parse(rc)) {
+if (!match(JsDocToken.RC) || (rec == null) {
+ } else if (!match(JsDocToken.RC)) {
+ if (!match(JsDocToken.CUSTOM)) }
+ if (!match(JsDocToken.CUSTOM)) {}
+ if (!match(JsDocToken)) {}
+if (!match(JsDocToken.RC) ||!recordType) {
+ token = next(); } if { if(!match(JsDocToken.RC)) {
+ if (!match(token.JsDocToken.RC)) {
+ if (!match(Tag.RC)) {
+ while (true && match(JsDocToken.RC)) {
+ if (!) {
+if (!match(JsDocToken.RCSCRIPT)) {
+ while (token.match(JsDocToken.RC)) {
+if (!recType) {
+ if (!recordType&&!match(JsDocToken.RC)) {
+if (recordType && match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC(token))) {
+if (!match(JsDocToken.RC))  { skipEOLs(); } next(); {
+if (!match)) {
+if (!match(JsDocToken.RCREQUEST)) {
+if (!match(JsDocToken.RC) == false) {
+ if (!match(_.RC)) {
+if (!match(JsDocToken.RC) { if (recordType == null))
+if (!matchRR)) {
+ if (!parse(Token.RC)) {
+ if (!match(''RC)) {
+ while (true)!match(JsDocToken.RC)) {
+if (!match(JsDocToken.CR)) {
+if (!match(JsDocToken.RC) { skipEOLs(); } next(); {
+if (!match(JsDocToken.RC)) { if (true)
+ while (true&&!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || fieldTypeList) {
+if (!match(JsDocToken.RC) { next();
+ if (token.RC)) {
+ while (true) { if(!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) && record!= null) {
+if (!match(JsDocToken.RC) ||!recordType.rc) {
+if (!match(JsDocToken.RC) ||!recordType!= null) {
+if (!match(JsDocToken.RC))  { skipEOLs(); } next(); ;
+if (!isRb)) {
+ if (!is(Token.RC)) {
+ token = next(); } {
+if  ( {
+if (!match(JsDocToken.RC) &&!recordType) {
+if (!match(rc))
+ if (isrc)) {
+ if (!)) {
+if (!match(JsDocToken.RCSC)) {
+ if (!parse(RC)) {
+ token = next(); } { if(!match(JsDocToken.RC)) {
+ if (token==match(JsDocToken.RC)) {
+ if (match.RC)) {
+if (!match(JsDocToken.RC) && recordType) {
+if (!match())) {
+if (!match(JsDocToken.RC) && fieldType!= null) {
+if (!isRb) {
+ token = next(); else if(!match(JsDocToken.RC)) {
+ } else { if(!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RCL)) {
+ } if (!match(RecordType.RC)) {
+ token = next(); else
+if (!match(RR))
+if (!match(JsDocToken.RC) ||!recordTypeList) {
+if (!match(JsDocToken.RC) { skipEOLs(); } next(); ;
+ if (!match(Node.RC))){
+ skipEOLs();
+if (!match(JsDocToken.RCNAME)) {
+ if (token=!match(JsDocToken.RC)) {
+if (recordType!= match(JsDocToken.RC)) {
+if (token.is(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) &&!rc) {
+if (recType.match(JsDocToken.RC)) {
+ token = next(); } } {
+if (!match(JsDocToken.RC) && recordTypeList) {
+if (!match(JsDocToken.RC(token)) {
+ if (!recordType &&(!match(JsDocToken.RC)) {
+if (!matchrc)) {
+if (!match(JsDocToken.RC) &&!recordTypeList) {
+ } if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RCSCOPE)) {
+ if (.RC)) {
+if (null) {
+if (!match(JsDocToken.RC) { if (debug)
+ if (true)) {
+if (!match(JsDocToken.RC) && rec!= null) {
+if (!match(JsDocToken.RC) || record == null) {
+ if (token&&!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || token == null) {
+if (false) {
+ if (isrc) {
+if (!match(JsDocToken.RC) &&!rec == null) {
+ if (!match(?:JsDocToken.RC)) {
+if (!match(JsDocToken.RC) || (recordType) {
+if (!isRC) {
+ if ((rc)) {
+ catch ((JsDocToken.RC)) {
+if (!match(JsDocToken.RC) ||!rc) {
+ if (isRC)) {
+if (!true) {
+ if (bc) {
+if (!record) {
+ if (recordType).if(!match(JsDocToken.RC)) {
+ else if (!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { break; } {
+if  (!{
+if (token!match(JsDocToken.RC)) {
+ if (RC)) {
+if (!match(JsDocToken.RC)) { break; } }
+ token = next(); } }
+if (!match(JsDocToken.RR)) { break; } }
+if (!match(RFC)) {
+if (!match(JsDocToken.RC) ')' {
+if (!match(JsDocToken.RC)) { continue; }
+ token = next(); } {
+ } else {
+if (!match(JsDocToken.RC))  { break;
+ if (RC) {
+ if (!parse.RC)) {
+ if ((.RC)) {
+if (!match(RB))
+ while (true)|(!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC)) { if (true);
+ if ($.RC)) {
+if (!match(JsDocToken.RC) && recType) {
+if (!recordType {
+ while(true if(!match(JsDocToken.RC)) {
+if  ()
+ if (() {
+if (!match(JsDocToken.RC) &&!RC) {
+ Token = next();
+if (!match(JsDocToken.RC) { break; } else
+if (true)
+ token = current();
+if (!match(JsDocToken.RC) || (RC) {
+ if!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) { break; } {
+if (!match(JsDocToken.RC) || (!rc) {
+ if (.){
+ while () {
+ if (token &&(!match(JsDocToken.RC)) {
+ while ()) {
+ } }else{
+if (!match(JsDocToken.RC))  { default:
+if (!match(JsDocToken.RC) ||!RC) {
+ } else
+ do { if(!match(JsDocToken.RC)) {
+if (!match(RC));
+if (unmatch(JsDocToken.RC)) {
+if (continue)
+if (!match(JsDocToken.RC) { continue; } {
+if (!match(JsDocToken))) {
+if (!match(JsDocToken.RB))
+ } next();
+if (!RC {
+ } } else
+ { if (!match(JsDocToken.RC)) {
+ do!match(JsDocToken.RC)) {
+ if ((RC)) {
+if (!match")) {
+ do {
+ break; }
+ } { if(!match(JsDocToken.RC)) {
+ \n{
+if (no match(JsDocToken.RC)) {
+ while (!RC)) {
+ \else{
+ } do if(!match(JsDocToken.RC)) {
+ } } {
+if (!match(JsDocToken.RC) { next());
+ { } if(!match(JsDocToken.RC)) {
+ if (!parse(JsDocToken.RC)) {
+if (!match(JsDocToken.RC) { next()
+if (!match(JsDocToken")) {
+if (!match(JsDocToken)))) {
+if (!match(JsDocToken.RC")) {
+ } }
+ } {
+ { }
+ }
+if (!match(JsDocToken.RC))  { {
+if (!match(JsDocToken.RC)))) {
+if (!match(JsDocToken.RC)) ) {}
+ } while(!match(JsDocToken.RC)) {
+if (!match(JsDocToken.RC))  { }
+ { while(!match(JsDocToken.RC)) {
+ else
+if ( (!match(JsDocToken.RC)) {
+if (?!match(JsDocToken.RC)) {
+ {
+if (case(JsDocToken.RC)) {
+if (parse(JsDocToken.RC)) {
+if (not(JsDocToken.RC)) {
+if (catch(JsDocToken.RC)) {

@@ -1,0 +1,911 @@
+notifyListeners ( ) ;
+notifyListeners(new DatasetChangeEvent(event));
+ fireEvent(new DatasetChangeEvent(this, this));
+notifyListeners(new  DatasetChanged(this, this));
+ this.listenerList.add(new DatasetChangeEvent(this, this));
+notifyListeners(event);
+ this.listeners.add(new DatasetChangeEvent(this, this));
+ return true;
+ fireDataset(this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( ) ;
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( event ) ;
+notifyListeners(new  DatasetChangeListener(this, this));
+ fire(new DatasetChangeEvent(this, this));
+ fireDatasetChanged(this));
+notifyListeners(DatasetChangeEvent);
+ notify(this));
+notifyListeners ( fireDatasetChanged ) ;
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener));
+ fireChanged(this, this));
+ fireDataset(this, this));
+ listeners.add(new DatasetChangeEvent(this, this));
+ fireDatasetChanged());
+ fireChanged(this));
+ fireDatasetChanged(event));
+notifyListeners ( fireDatasetChanged ) ; }
+ this.listenerList.fireEvent(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( listener ) ;
+notifyListeners(new DatasetChangeEvent(this,  listener));
+notifyListeners(this.listenerList.getListenerList());
+ this.listenerList.addLast(new DatasetChangeEvent(this, this));
+notifyListeners(DatasetChanged);
+notifyListeners(new  DatasetChangeEvent());
+notifyListeners(new  DatasetChangeEvent(this, this));
+ fireDatasetChanged();
+ this.listenerList.fireDatasetChangeEvent(this, this));
+ fireDatasetChangedEvent(this));
+notifyListeners(new DatasetChangeEvent(event, this));
+ fireDatasetChanged(event);
+ fireDatasetChanged(this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else { this.
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged() { this.
+notifyListeners(new  DatasetChangeEventListener(this, this));
+notifyListeners ( ) ; }
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void fireDatasetChanged() { this.
+ fireDatasetChangedEvent(event));
+notifyListeners(new  ChangeListener(this, this));
+notifyListeners(DatasetChangeListener);
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( this ) ;
+ this.listenerList.addListenerList(new DatasetChangeEvent(this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } protected void fireEventChanged() { this.
+ fireDatasetChanged ( this. dataset ) ; }
+ fireChanged(event, this));
+notifyListeners(this.listenerList, listener);
+ this. notifyListeners ( new DatasetChangeEvent ( this, this, this ) ) ; } else { this.
+ fireDatasetChanged ( this. dataset ) ;
+notifyListeners(datasetChanged);
+ fireDatasetChanged ( this. dataset, listener ) ;
+ notifyListeners(this.listenerList.getListenerList()); return true ;
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void notifyChanged() { this.
+notifyListeners(new DatasetChangeEvent(this, this, listener));
+notifyListeners(new  DatasetChangeEvent(event)); }
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireChanged ( ) ;
+notifyListeners(new  DatasetChangedEvent());
+ listener.fireDatasetChangeEvent(this, this));
+ fireDatasetChangedEvent(event);
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged ( ) ;
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } protected void notifyChanged() { this.
+ fireDatasetChanged ( this, listener ) ;
+ this.listenerList.add( listener);
+notifyListeners(DatasetChanged());
+notifyListeners(new DatasetChangeEvent(this, this)). fireDatasetChanged ( event ) ;
+ this. listenersList. add ( listener ) ; fireDatasetChanged ( event ) ;
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged = this.
+notifyListeners ( this. listenerList ) ;
+notifyListeners ( listener ) ;
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged = true ;
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void notifyChanges() { this.
+notifyListeners(new DatasetChangeEvent(this, this).datasetChanged());
+ this. notifyListeners ( new DatasetChangeEvent ( this, this, this ) ) ; this.
+ notifyListeners(this.listenerList.getListenerList()); fireChanged ( ) ;
+notifyListeners ( fireDatasetChanged, listener ) ;
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged(); this.
+ notifyListeners(fireDatasetChangeEvent));
+notifyListeners ( this. listeners ) ;
+ this.listenerList.put(this, this));
+ this.listenerList.add(this, this));
+ this.listeners.fireDatasetChangeEvent(this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); this.
+notifyListeners ( fireDatasetChanged )
+ this. listenersList. add ( listener ) ; fireDatasetChanged ( listener ) ; }
+ fireDatasetChanged ( event ) ; return true ;
+ fireDatasetChanged(_);
+ this. listeners. add ( listener ) ; fireDatasetChanged ( event ) ;
+ this. listeners. addAll ( listener ) ; fireDatasetChanged ( event ) ;
+ fireDatasetChanged(event, this));
+ fireChanged( event);
+ this. notifyListeners ( new DatasetChangeEvent(this, listener)); } else { this.
+ this. listenersList. add ( listener ) ; fireDatasetChanged ( event ) ; }
+ this. notifyListeners ( new DatasetChangeListener(this, this)); } else { this.
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else { super.
+notifyListeners(datasetChangeEvent);
+ this.listenerList.add(this));
+ this. listeners. add ( listener ) ; fireDatasetChanged ( listener ) ; }
+ notifyListeners(fireDataset));
+notifyListeners(new DatasetChangeEvent(this, this)). fireDatasetChanged ( ) ;
+ this. listeners. addAll ( listener ) ; fireDatasetChanged ( event ) ; }
+notifyListeners(new DatasetChangeEvent(dataset));
+notifyListeners(new DatasetChangeEvent(DatasetChangeListener, this));
+ notifyListeners(this.listenerList.getListenerList()); fire ( ) ;
+ this.listenerList.notify(new DatasetChangeEvent(this, this));
+ this. listeners. add ( listener ) ; fireDatasetChanged ( this ) ; }
+ fireDatasetChanged ( this, listener ) ; }
+ this. listenersList. fireDatasetChanged(new DatasetChangeEvent(this, this));
+ notifyListeners(DatasetChangeEvent) { fireDatasetChanged(); }
+notifyListeners(new  EventListener(event));
+ notifyListeners(this.listenerList.getListenerList()); return ;
+ this. listeners. add ( listener ) ; fireDatasetChanged ( this. dataset ) ;
+ this. notifyListeners(new DatasetChangeEvent(this, this)); listener.
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( )
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } } else { this.
+ this. notifyListeners ( new DatasetChangeEvent ( this, listener ) ) ; this.
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( ) ; }
+ notifyListeners(fireDatasetChanged(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; fireDatasetChanged ( listener ) ;
+notifyListeners(new DatasetChangeEvent(this, this, this, this));
+ this.fireEvent(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; return true ;
+ fireDatasetChanged ( event ) ; return true ; }
+notifyListeners(new DatasetChangeEvent(datasetChangeListener, this));
+ this. notifyListeners(new DatasetChangeEvent(this, listener)); listener.
+ fireChangedEvent(this, this));
+ notifyListeners(DatasetChangeListener, this));
+ this. listeners. add ( listener ) ; fireDatasetChanged ( listener ) ;
+ return fireDatasetChanged(event);
+ notifyListeners(DatasetChangeEvent) { fireDatasetChanged();
+ this. notifyListeners(new DatasetChangeEvent(this, this)); } public void fireDatasetChanged() { return
+ fireDatasetChangedEvent(this, this));
+ fireDatasetChanged ( this. dataset, listener ) ; }
+ fireDatasetChanged));
+ this.listenerList.fireEvent(event);
+notifyListeners(new DatasetChangeEventListener(this.listenerList, listener));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else {
+ fireDatasets(this));
+ this.listenerList.fireNewEvent(new DatasetChangeEvent(this, this));
+ this.listenerList.add(DatasetChangeEvent(this, this));
+ this. listenersList. addAll ( listener ) ; fireDatasetChanged ( event ) ;
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireEvent ( ) ;
+notifyListeners(new DatasetChangeEvent(this, fireDataset));
+ this.listenerList.fire(event);
+ listener.fireDataset(this));
+ notifyListeners(this.listenerList.getListenerList(); return true ;
+ this. notifyListeners ( new DatasetChangeListener(this, this)); } else {
+ notifyListeners(this.listenerList.getListenerList()); return false ;
+ this. notifyListeners ( new DatasetChangeEvent(this, listener)); } else {
+ notifyListeners(fireDatasetChanged));
+notifyListeners(new  DatasetChangeListener(event));
+notifyListeners ( this ) ; }
+ fireDatasetChanged ( new Dataset ( ) ) ;
+ listener.fireDatasetChanged());
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener));
+ fireDatasetChanged(new Dataset(this, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, this));
+ notifyListeners(this.listenerList.getListenerList(); return ;
+ notifyListeners(this.listenerList.getListenerList()); }
+notifyListeners(this.listenerList, listener); }
+ notifyListeners(dataset));
+notifyListeners(new  DatasetChangeEvent(this, event));
+ this.listenerList.add(createDatasetChangeEvent(this, this));
+ this.listenerList.fireChanged( );
+ notifyListeners(fireDatasetChanged());
+ fireDatasetChanged(*);
+ fireChangedEvent(this));
+ this.listenerList.listen(this, this));
+ this.fireChangedEvent(new DatasetChangeEvent(this, this));
+ listener.fireDatasetChanged(this));
+ this.listenerList.fireChanged(); return;
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener)); return true ;
+ notifyListeners(this.listenerList.getListenerList()); return true ; }
+ fireDatasetChangedEvent ( this. dataset, listener ) ;
+ return fireDatasetChangedEvent(this, this));
+notifyListeners(FireDatasetChangedEvent event);
+notifyListeners ( event ) ; }
+ fireDatasetChanged(new ChangeListener(this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void notifyChanged() {
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void notifyChanged() { return
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener)); }
+notifyListeners(new  Dataset(this, this));
+notifyListeners(new  DatasetChangedEvent(event));
+notifyListeners(new DatasetChangeEvent(this, this, this, this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } protected void fireEventChanged() { return
+ this.listenerList.addAll(this, this));
+ this.listenerList.addListener(newDatasetChangeEvent(this, this));
+ notifyListeners(this.listenerList.getListenerList(), listener); }
+ this.listenerList.addAll(this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener); return true ;
+notifyListeners(new DatasetChangeEvent(this, this.listenerList));
+ fireDataset(new DatasetChangeEvent(this, this));
+ fireEvent(event));
+ listener = null;
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void fireChanged ( ) {
+notifyListeners(new  DatasetChangedEvent(this, this));
+ return fireDatasetChanged(event));
+ this. listeners = new ArrayList < Object > ( ) ; this.
+ this. listeners = new ArrayList < Object > ( ) ; fireDatasetChanged ( listener ) ; this.
+ this. fireDatasetChangedEvent(new DatasetChangeEvent(this, this));
+ this.listeners.put(this, this));
+notifyListeners(new  DatasetChangeEvent()); }
+ fireEvent(event, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, event));
+ fireDatasetChanged ( new DatasetListener ( listener ) )
+ fireDatasetChangedEvent ( this. datasetChanged ) ;
+ this. listeners = new ArrayList < Object > ( ) ; this. listeners.
+ fireDatasetChanged ( this. dataset, this. listener ) ;
+ this.listenerList.replace(this, this));
+ this.fireEventListener(new DatasetChangeEvent(this, this));
+ notifyListeners(FireDatasetChanged(this, this));
+ this.listenerList.clear ( );
+notifyListeners(new  DatasetChangeEventWrapper(this, this));
+ this.listenerList.registers(new DatasetChangeEvent(this, this));
+notifyListeners(new  DatasetChangedEventListener(this, this));
+ fireDatasetChanged(, this));
+ return fireDatasetChanged(this, listener);
+ notifyListeners(fireDatasetChanged()));
+ this.listenerList.addEventListener(new DatasetChangeEvent(this, this));
+ notifyListeners(fireDatasetChangedEvent);
+notifyListeners ( fireDatasetChanged ( listener ) )
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void fireChanged() { return
+ fireDatasetChangeEvent(event);
+ notifyListeners(datasetChangeListener, this));
+notifyListeners(new DatasetChangeEvent(this, this))(); fireDatasetChanged ( ) ;
+ this.fireDataset(this));
+notifyListeners(datasetChanged());
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged(event)); });
+notifyListeners ( fireDatasetChanged ( listener ) ;
+ fireDatasets(this, this));
+ this.listenerList = listenerList;
+notifyListeners(new DatasetChangeEvent(this, this)) ; fire ( ) ;
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( event )
+ this. notifyListeners ( fireDatasetChanged ) ;
+ this. fireDataset(new DatasetChangeEvent(this, this));
+ fireDatasetChangeEvent;
+ this.listenerList.fireEventListener(new DatasetChangeEvent(this, this));
+notifyListeners ( listener ) ; }
+ this.listenerList.fireChangedEvent(this));
+ this. notifyListeners ( fireDatasetChanged ).
+ fireDatasetChangeEvent(this));
+ fireDatasetChangedEvent(event, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener)); }
+ this.listenerList.fireNewDatasetChangeEvent(this, this));
+ this.listenerList.addLast(this));
+notifyListeners(new  DatasetChangeEventListeners(this, this));
+ fireDatasetChanged(new ChangeEvent(this, this));
+ fireDatasetChanged ( new DatasetEvent ( ) ) ;
+ this.listenerList.add(new OnDatasetChangeEvent(this, this));
+ notify(this, this));
+ this.listenerList.addLast(this, this));
+ this.listenerList.fireEventListeners(new DatasetChangeEvent(this, this));
+ fireDatasetChanged(this, listener));
+ fireDatasetChanged(new ChangeListener(this));
+ this. notifyListeners ( listener ) ; this.
+ this.listenerList.unregister(this, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList));
+ fire(event, this));
+ fireChanged ( );
+ this.listenerList.addFirst(new DatasetChangeEvent(this, this));
+ fireDatasetChangedEvent(new DatasetChangeEvent(this, this));
+ this.listenerList.clear(); return;
+ this.listenerList.fireEventListener(this));
+notifyListeners(new  DatasetChangedListeners(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, this.listenerList));
+ this.listenerList.DatasetChangeEvent(this, this));
+ this.listenerList.
+notifyListeners(new  DatasetChangeEvent()());
+ this. listeners = new ArrayList ( ) ; this. listeners.
+ notifyListeners(fireDatasetChangeEvent, this));
+ fireDatasetChanged.call(this, this));
+ return fireDatasetChangedEvent(event);
+ this.listenerList.fireChangeEvent(this));
+ notifyListeners(fireDatasetChangedListener);
+ this.fireDatasetChanged(_);
+ notifyListeners(dataset);
+ this.listenerList.addListener(createDatasetChangeEvent(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; fireDatasetChanged ( listener ) ; } void
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener, event)); }
+ notifyListeners(DatasetChangeEvent, this));
+ this.notifyListeners(new DatasetChangeEvent(this, this));
+notifyListeners(new  DatasetChangeEvent(event); });
+ this.fireDatasetChanged();
+ notifyListeners(event));
+notifyListeners(new  InstanceDatasetChanged(this, this));
+ return fireDatasetChanged(this, listener));
+ fireDatasetChangeListener, this));
+notifyListeners(new  DatasetChangedListener(this, this));
+ this.listenerList.put(null, this));
+ notify(event));
+notifyListeners(new  DatasetChangeListener());
+ return fireDatasetChangedEvent(event));
+notifyListeners(this.listenerList, event); }
+ this.listenerList =
+ this. notifyListeners ( ) ; fire(new DatasetChangeEvent(this, this));
+ fireDatasetChanged(new DatasetChangeEvent(this, this));
+notifyListeners(FireDatasetChangedEvent);
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireUpdate ( ) ;
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void notifyChanged() { }
+ this.listenerList.addDatasetChangeEvent(this, this));
+ notifyListeners(fireDatasetChangeListener));
+ this.listenerList.fireChangeListener(this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireEvent ( event ) ;
+ return fireDatasetChanged.call(this, this));
+ this.listenerList = list;
+notifyListeners(new  InstalledDatasetChangeListener(this, this));
+ fireChangedEvent(event, this));
+ return fireDatasetChanged(new ChangeListener(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; return true ; }
+ listener.fireDatasetChanged();
+ this.listenerList.put(name, this));
+ this.listenerList.addListenerList(this, this));
+ this. listeners = new ArrayList < Object > ( this. listeners ) ;
+notifyListeners(new DatasetChangeEvent(this), listener);
+ this.listenerList.unregister(this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } public void fireChanged() { }
+ this.listenersList.add(this));
+ fireEvent(event);
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireDatasetChanged ( this )
+notifyListeners(new DatasetChangeEvent(this.listenerList.getListenerList()); });
+ return fireDatasetChanged(listener);
+notifyListeners(new DatasetChangeEvent(dataset, this));
+ this.listenerList.fire(newListener, this));
+ this.listenerList.add( listener));
+ this.listenerList.addNewDatasetChangeEvent(this, this));
+ listener.fireDatasetChanged(, this));
+ fireChanged(event));
+ this.listenerList.send(newDatasetChangeEvent(this, this));
+ listeners.addLast(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this.name(), listener));
+ fireDatasetChangedEvent(new ChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; } return true ;
+ this.listenerList.add( listener;
+ return this.fireDatasetChanged();
+ notifyListener(this));
+notifyListeners(new DatasetChangeEvent(this.listenerList.getListenerList()); }
+ this.listenerList.addListener(this));
+ listener = listener;
+ this.listenerList.add(new GenericDatasetChangeEvent(this, this));
+ this.listenerList.fireChangeEvent();
+ listenersList.add(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, this));
+ notifyListeners(createDatasetChangeEvent(this, this));
+ fireDataset(event, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener, this)); }
+ notifyListeners(FireDataset(this));
+ this.listenerList.fireChanged(event;
+ this. listeners = new ArrayList ( ) ; this. listenerList.
+notifyListeners(new DatasetChangeEvent(this.listenerList, this.data); });
+notifyListeners(this.listenerList); }
+ this. listeners = new ArrayList ( ) ; fireDatasetChanged().
+ EventListener listener = this. listener ; listener.
+notifyListeners(new  InstanceDatasetChangeListener(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; super.
+ this.listenerList.fire(new Event(this, this));
+ listener.fireDatasetChange({, this));
+ if ( listeners. length > 0 ) { this. listenerList.
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener);) ;
+ this.listenerList.notify(this));
+ fireDatasetChanged(*, this));
+ this.listenerList.add(newListener, this));
+ this. listeners = new ArrayList ( ) ; fireDatasetChanged() ;
+notifyListeners(new DatasetChangeEvent(this.listenerList, event)); }
+ listener.fireDatasetChanged(*, this));
+ fireChanged ());
+ fireDatasetChanged ( event ) ; } } ;
+ this.listeners.add(this, this));
+ this.listenerList.fire(new Change(this, this));
+ this.listenerList.add(); return;
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener, this)); }
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else { return
+notifyListeners(new DatasetChangeEvent(this, "dataset"));
+ this.listenerList.fireListenerEvent(new DatasetChangeEvent(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; this. listeners =
+ notifyListeners(fireDatasetChangeListener, this));
+notifyListeners(new DatasetChangeEvent(this.dataSet, listener));
+notifyListeners(DatasetEvent);
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireEvents ( ) ;
+ notifyListeners(this.listenerList.getListenerList(); });
+notifyListeners(new DatasetChangeEvent(datasetChanged)) ;
+ this.listenerList.fire(new Object, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, this.data););
+notifyListeners(new Listener);
+ fireDatasetChanged(", this));
+ this.listeners().add(new DatasetChangeEvent(this, this));
+ this. notifyListeners ( new DatasetChangeEvent ( this, this ) ) ; fireDatasetChanged ( ) ; } void
+ this. listeners = new ArrayList < Object > ( ) ; return this.
+notifyListeners(new DatasetChangeEvent(this.data, listener));
+ this.listenerList.registers(this, this));
+ fireDatasetChanged(*));
+notifyListeners(this.listenerList, this.data);
+notifyListeners(new  DatasetChangeEvent(event););
+notifyListeners(new  InstalledDatasetChangeEvent(this, this));
+ this.listenerList.fireWithNewListener(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener); });
+ this.listeners = listeners;
+notifyListeners(new  DatasetChangeEvent<Datas>(this, this));
+ this.updated = true;
+ fireDatasetChanged;
+notifyListeners(new DatasetChangeEvent(datasetName, this));
+ notifyDatasetChanged(this, this));
+ return fireDatasetChanged();
+ notify(event, this));
+ fireDatasetChanged.call(this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireChange ( ) ;
+ fireDatasetChanged(event,new DatasetChangeEvent(this, this));
+notifyListeners(new  DatasetChangeEvent.Dataset(this, this));
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged(event)); }
+ notifyDatasetChanged ());
+notifyListeners(new DatasetChangeEvent(datasetChangeListener, this, this));
+ listener.fireDatasetChanged));
+notifyListeners(new  DatasetChangeEvent.ChangedListener(this, this));
+ this.listenerList.add(bind(this, this));
+ if ( listeners. length > 0 ) { this. listenerManager.
+ notifyChanged(this, this));
+ fireEventChanged(event));
+notifyListeners(new DatasetChangeEvent(this.name(), listener, this, this));
+ this.fireChangeEvent(new DatasetChangeEvent(this, this));
+ return true);
+ this.listenerList.addAllDatasetChangeEvent(this, this));
+ fireDatasetChanged(listener));
+ listener.fireDatasetChanged({, this));
+notifyListeners ( this ) ;
+ this. listenersList. addLast(new DatasetChangeEvent(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; fireDatasetChanged ( listener ) ; return
+ this. notifyListeners ( this ) ; this.
+notifyListeners(new DatasetChangeEvent(this, this) { })); fireDatasetChanged() ;
+notifyListeners(new  DatasetChangeEvent.EventListener(this, this));
+notifyListeners(new  DatasetChangeEvent.ChangeListener(this, this));
+notifyListeners(new  DatasetChangeListenerImpl(this, this));
+ fireDatasetChangedEvent;
+ notifyDatasetChanged ();
+notifyListeners(new DatasetChangeEvent(this)) ;
+ this.listenerList.push(new DatasetChangeEvent(this, this));
+ this.listenerList.add(replace(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; return super.
+ notifyDataset(this, this));
+ fireChangedEvent(event);
+notifyListeners(new  DatasetChangeEvent < T >(this, this));
+ return fireDataset(this, this));
+ fireDatasetChangeEvent(this, this));
+ this.listenerList = null;
+ this.listenerList.fire(new DatasetChangeEvent(this, this));
+ this.listenersList.add(new DatasetChangeEvent(this, this));
+ this. listeners = new ArrayList < Object > ( ) ; fireDatasetChanged ( listener ) ; }
+notifyListeners(FireDatasetChangedEvent); }
+ listener.changed(event);
+ this. notifyListeners ( listener ) ; } else {
+notifyListeners(DatasetChangeEvent());
+notifyListeners(FireDatasetChanged); }
+ notifyListeners(event, this));
+ notifyListeners(EventListener.DatasetChangeEvent(this, this));
+notifyListeners(fireDatasetChanged(event)); }
+notifyListeners(new DatasetChangeEvent(datasetChangeEvent));
+notifyListeners(new DatasetChangeEvent(this.listenerList, true));
+ fireDatasetChanged( listener);
+ notifyListeners(this, this));
+ this.changed = true;
+notifyListeners(new DatasetChangeEvent(this, this, listener, event));
+ fireChangedEvent(event));
+notifyListeners(FireDatasetChangedEvent());
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else void
+ notifyListeners(dataset, this));
+notifyListeners(new  InstalledDatasetChangeEventListener(this, this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener)); } } ;
+notifyListeners ( fireDatasetChanged ) ; return
+notifyListeners(new  DatasetChangeEvent<DataSet>(this, this));
+ fireEventChanged(event);
+ this. listeners = new ArrayList ( ) ; this. listener.
+notifyListeners(new DatasetChangeEvent(this, this, "dataset"));
+ fireDatasetChanged().call(this, this));
+ notifyListeners(this));
+ this. listenerList = null ;
+notifyListeners(new DatasetChangeEvent(this.name(), listener, this));
+notifyListeners(new DatasetChangeEvent(this, this).fireDatasetChanged()); }
+notifyListeners(new DatasetChangeEvent(this.listenerList, null));
+notifyListeners(DatasetChangeEvent event, listener); }
+notifyListeners(new  EventListener(this));
+ notifyListeners(null, listener, this));
+notifyListeners(new DatasetChangeEvent(this.namespace, this));
+ notifyDatasets(this, this));
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged(); });
+notifyListeners(new DatasetChangeEvent(this.name, this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, event)); }
+ fireEventListener(event, this));
+ fireEventChanged(this, this));
+ notify(event);
+ fireDatasetChangedListener(this));
+notifyListeners(new DatasetChangeEvent(DatasetChangeListener, this, this));
+ this. listenersList. add ( listener ) ; this.
+ this. listeners = new ArrayList < Object > ( this. listeners ).
+notifyListeners(this.listenerList, this); }
+ fireDataset ();
+notifyListeners(new DatasetChangeEvent(this, listener, event));
+ listener. changed ( );
+notifyListeners(new DatasetChangeEvent(this).fireDatasetChanged()); }
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); } else,
+ notifyDatasets(this));
+notifyListeners(new DatasetChangeEvent(datasetName, this, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, this)); }
+ listener.fireChangedEvent(this));
+notifyListeners(new DatasetChangeEvent(this, this).datasetChanged()); }
+notifyListeners(new DatasetChangeEvent(this, this.name(), listener));
+notifyListeners(new DatasetChangeEvent(this, this) ) ; fireDatasetChanged ( ;
+notifyListeners(new DatasetChangeEvent(this, this).dataset());
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged() });
+ fireChangedEvents(this, this));
+ this.listenerList.addToMap(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; fireUpdateEvent ( ) ;
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener););
+ fireDatasetChanged ( event ) ; } }
+notifyListeners(new DatasetChangeEvent(this, this).event());
+ fireEventChanged(this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener);); }
+notifyListeners(new  DatasetChangeEvent(new EventListener(this, this));
+ this. listeners = new ArrayList ( ) ; this. listeners =
+ this.listenerList.fireOnDataChanged(new DatasetChangeEvent(this, this));
+ fireDatasetChanged ( listener ) ; } }
+ this. listeners = new ArrayList < Object > ( ) ; } void
+ this.onDataset(this, this));
+ this. notifyListeners ( fireDatasetChanged ) ||
+ return listener!= null;
+ this.listenerList = listeners;
+ listener. changed = true;
+ this. listenersList = new ArrayList ( ) ; this. listenersList. =
+ notifyListeners(event -> fireDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this.name, this, this));
+notifyListeners(new DatasetChangeEvent(this, event, listener));
+ notifyDataset(this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener);); }
+notifyListeners(new DatasetChangeEventListener(this.listenerList)); }
+ listener.fireChangedEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, event, listener));
+notifyListeners(new DatasetChangeEvent(dataset, listener, this));
+notifyListeners(new  DatasetListener(this, this));
+ this. listenerList = list ;
+notifyListeners(new DatasetChangeEvent(this.datasetName));
+notifyListeners(new  DatasetChangeEventEventListenerWrapper(this, this));
+ this. listeners. add ( listener ) ; this. dispatcher.
+ this. listeners. add ( listener ) ; this. listeners.
+ notifyListener(event));
+notifyListeners(new DatasetChangeEvent(this.listenerList)); }
+ this.fireEventHandler(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; } return false ;
+notifyListeners(fireDatasetChanged()); }
+ fireChangeEvent(this));
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged()); });
+notifyListeners(new DatasetChangeEvent(this, this.listenerList)); }
+notifyListeners(new DatasetChangeEvent(datasetId, this));
+notifyListeners(this.listenerList.getListenerList();
+notifyListeners(new DatasetChangeEvent(this, listener)); }
+ this. notifyListenerList ( listener ) ;
+notifyListeners(new DatasetChangeEvent(this.listenerList()));
+ super.fireDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener);) }
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener)); } }
+ listenersList.put(this, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener)); } }
+ this. listeners = [ ] ;
+notifyListeners(new DatasetChangeEvent(this, this)) ; return false ;
+ this. listeners = new ArrayList < Object > ( ) ; } return
+ this. notifyListenerList ( listener ).
+notifyListeners(new DatasetChangeEvent(this, this).datasetChanged();
+notifyListeners(new DatasetChangeEvent(this, this)) ; return this ;
+ this.registers. add(new DatasetChangeEvent(this, this));
+ fireChanged( listener);
+ fireDatasetChanged( listener, this));
+notifyListeners(new DatasetChangeEvent(this.listenerList, listener);) *
+ this. notifyListeners ( listener ).
+notifyListeners(new DatasetChangeEvent(datas));
+ this. listenersList = null ;
+notifyListeners(new  EventListener(event)); }
+ fireEventListener(this));
+ fireDatasetChanged(object, this));
+ fireChangeEvent(this, this));
+notifyListeners(new DatasetChangeEventListener(this, listener)); }
+ this.listenEvent(new DatasetChangeEvent(this, this));
+ this. notifyListeners ( listener ) ;
+ fireChanged( listener, this));
+notifyListeners(new DatasetChangeEvent(this, this) { })); fireDataset();
+ listener = this;
+ this.listeners.send(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, listener, event)); }
+notifyListeners(new DatasetChangeEventListener(this, listener); });
+ this. listeners. add ( listener ) ; } void
+ this.listeners().fireDatasetChangeEvent(this, this));
+ this. notifyListeners ( new DatasetChangeEvent ( this ) ) ; #
+ notifyAll ( );
+ listeners.fireDatasetChangeEvent(this, this));
+ this. notifyListeners ( new DatasetChangeEvent(this, this)); }
+notifyListeners(new DatasetChangeEvent(datasetChangeListener));
+notifyListeners(new DatasetChangeEvent(this, listener); });
+notifyListeners(new DatasetChangeEvent(this, listener);) ;
+notifyListeners(new DatasetChangeEvent(this, this) + this.listenerList);
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged() }); }
+notifyListeners(new DatasetChangeEvent(this, event)); }
+ this. notifyListeners ( new DatasetChangeListener ( this ) ) ; #
+notifyListeners(new DatasetChangeEvent(event, listener)); }
+ notifyListener(event);
+ notify ());
+notifyListeners(new DatasetChangeEvent(this, this) { fireDatasetChanged()); }
+notifyListeners(new  EventListener() {});
+notifyListeners(new  DatasetChangeEvent(event)); } }
+ this. listeners = new ArrayList < Object > ( listeners ) ; } void
+ notifyListener ( );
+ notifyListeners.call(this, this));
+ this. notifyListeners ( new DatasetChangeEvent ( this ) ) ; *
+ fireChanged(object, this));
+notifyListeners(new DatasetChangeEvent(null, listener, this));
+ notifyListeners.add(this));
+notifyListeners(new  FireDatasetChanged(this, this));
+ notifyListeners(new OnDatasetChangeEvent(this, this));
+ this. listenersList. add ( listener ) ; } void
+ this. notifyListeners ( new DatasetChangeListener ( this ) ) ; *
+notifyListeners(new DatasetChangeEvent(this, this) + listener); return true ;
+ listeners.fires(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(datasetId, this, this));
+notifyListeners(new DatasetChangeEvent(this, event, listener)); }
+ listener(event);
+notifyListeners(new DatasetChangeEvent(this, this, null, null, null));
+notifyListeners(new DatasetChangeEvent(this, this).dataset);
+notifyListeners(new DatasetChangeEvent(this, this)) ; return false ; }
+notifyListeners(new DatasetChangeEventListener(this, listener););
+ fireDatasetChangedEvents(this, this));
+ notifyListeners.apply(this, this));
+ this. listeners. add ( listener ) ; } return
+notifyListeners(new DatasetChangeEvent(this.dataSet, this));
+ listenersList.fireDatasetChangeEvent(this, this));
+ this.listenerList
+ listeners.put(event, this));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener); } }
+notifyListeners(new DatasetChangeEvent(this.name(), this, this, this));
+ this.listeners.addDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, null, null, listener));
+ listener.fireEventListener(this));
+notifyListeners(new  EventListener());
+notifyListeners(new DatasetChangeEvent(this, this, listener, listener));
+notifyListeners(new DatasetChangeEvent(datasetChanged, this));
+notifyListeners(new DatasetChangeEvent(event, listener, this));
+ this. listenersList. add ( listener ) ; } return
+notifyListeners(new DatasetChangeEvent(this, this)) return true ;
+ notifyListeners(fireDatasetChangeEvent(this, this));
+ return hasListener;
+ this. listenerList = listeners ;
+notifyListeners(new DatasetChangeEvent(datasetChanged)); }
+ notifyListener(newDatasetChangeEvent(this, this));
+ fireUpdate(event));
+ notifyChanged(this));
+ this. listeners. add ( listener ) ; } } void
+ fire(this, this));
+ fireEvent(this, this));
+ listener.changed(this, this));
+ return event!= null;
+ listeners.add(event,this));
+notifyListeners(new  EventListener()); }
+ this.eventBus.
+ notifyListener(this, this));
+ fireDataChangedEvent(this));
+notifyListeners(this.listenerList, this.data());
+notifyListeners(new DatasetChangeEvent(this, this).datasetChanged(); }
+notifyListeners(new DatasetChangeEvent(this, listener, this, this));
+ this. notifyListeners ( listener ) ; } void
+notifyListeners(new DatasetChangeEvent(null, null, this, this));
+notifyListeners(new  EventListener()());
+ notify(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, listener, listener)); }
+notifyListeners(new DatasetChangeEvent(DatasetChanged, this));
+notifyListeners ( ) ; return ;
+notifyListeners(new  Event(this, this));
+ fireEventListener(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, listener, null));
+notifyListeners(new DatasetChangeEvent(this, this.listenerList, listener); }); }
+notifyListeners(new  EventListener(this)); }
+notifyListeners(this.listenerList, listener); *
+ fire(this));
+ notifyListeners.put(this, this));
+notifyListeners(new DatasetChangeEvent(this, this)) ; } } ;
+notifyListeners(new DatasetChangeEvent(this, datasetChangeEvent));
+notifyListeners(new DatasetChangeEvent(this.listenerList)); } }
+ this.listener =
+notifyListeners(new DatasetChangeEvent(this, this) + listener); } return true ;
+notifyListeners(new DatasetChangeEvent(this, this)); return ;
+notifyListeners(new  EventListener() {} });
+ this.
+notifyListeners(new DatasetChangeEvent(this, null, listener));
+ this.eventManager.
+ return false;
+notifyListeners(new DatasetChangeEvent(event, listener));
+notifyListeners(new DatasetChangeEvent(null, listener));
+notifyListeners(new DatasetChangeEvent(this, "dataset));
+notifyListeners(new Listener); }
+notifyListeners(new DatasetChangeEvent(event, listener, this, this));
+notifyListeners(new DatasetChangeEvent(this,  event, listener);) ;
+notifyListeners(new DatasetChangeEvent(this, this, listener);) ;
+notifyListeners(new DatasetChangeEvent(datasetInfo, this));
+notifyListeners(new DatasetChangeEvent(this), event);
+notifyListeners(new  DataChangeListener(this, this));
+ this. listenersList = listenersList ; } return
+ this. notifyListeners ( listener ) ||
+notifyListeners(new DatasetChangeEvent(datasetChanged, this, this));
+notifyListeners(new DatasetChangeEvent(this, this).event);
+notifyListeners(FireDatasetChangedEvent); *
+ fireEvent(this));
+notifyListeners(new DatasetChangeEvent(this, "datas"));
+ fireNewDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this.name));
+notifyListeners(new DatasetChangeEvent(this, listener, this));
+ notifyListener(createDatasetChangeEvent(this, this));
+ listener(event));
+notifyListeners(new  DatasetChange(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, "datas"));
+notifyListeners(new DatasetChangeEvent(this, this, "dataset));
+ notifyChanged());
+notifyListeners(new DatasetChangeEvent(this, this, listener, event)); }
+notifyListeners(new  SameDiffListener(this, this));
+ fireDataChangedEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this,  this.listenerList)); } }
+notifyListeners(new DatasetChangeEvent(this, newListener));
+ this. listenersList = listenersList ; } void
+ listener(this, this));
+ fireUpdated(this, this));
+ fireUpdated(this));
+notifyListeners(new  DatasetEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this) + listener); } return false ;
+notifyListeners(new DatasetChangeEvent(datasetInfo, this, this));
+notifyListeners(new DatasetChangeEvent(this, this) + listener); return true ; }
+ listener.event(new DatasetChangeEvent(this, this));
+ this. notifyListeners ( ) ; } void
+notifyListeners(new DatasetChangeEvent(this.dataSet));
+notifyListeners(fireDatasetChanged); } }
+notifyListeners(new DatasetChangeEvent(this, listener, this.name));
+notifyListeners(new DatasetChangeEvent(datasetName));
+notifyListeners(new DatasetChangeEvent(this, this, listener)); }
+notifyListeners(new DatasetChangeEvent(this, this, listener, listener, listener));
+notifyListeners(new DatasetChangeEvent(this, this.name(), event));
+ emit(event, this));
+notifyListeners(new DatasetChangeEvent(this, this).events());
+notifyListeners(new DatasetChangeEvent(this, this).data());
+notifyListeners(new DatasetChangeEvent(this, this) { }); } return true ;
+ return fireDatasets(this, this));
+notifyListeners(new DatasetChangeEvent(this.dataSet, this, this));
+notifyListeners(new DatasetChangeEvent(listener, this));
+ listener(event, this));
+notifyListeners(this.events);
+notifyListeners(new  EventChangeListener(this, this));
+notifyListeners(new DatasetChangeEvent(this, this) + listener); } } ;
+ listener ());
+notifyListeners(new  EventListener(this, this));
+ event = listener;
+notifyListeners(new DatasetChangeEvent(this, this) + listener); }
+notifyListeners(datasets);
+notifyListeners(new DatasetChangeEvent(datasetChanged))();
+notifyListeners(new DatasetChangeEvent(this, this).data);
+notifyListeners(new DatasetChangeEvent(this, this) + " updated") ;
+ this. notifyListeners ( listener ) ; }
+ return notifyDataset(this, this));
+notifyListeners(new DatasetChangeEvent(this, this, "databases"));
+ listener.onNewDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this,  event); });
+notifyListeners(new DatasetChangeEvent(this, newData));
+notifyListeners(new DatasetChangeEvent(this, this.dataSet));
+notifyListeners(new  DatasetUpdated(this, this));
+ this.model.
+notifyListeners(new DatasetChangeEvent(this, this)); }
+notifyListeners(new DatasetChangeEvent(datas, this, this));
+notifyListeners(new DatasetChangeEvent(listener, this, this));
+notifyListeners(new DatasetChangeEvent(this, listener);) *
+notifyListeners(new  ChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, fireDatasets));
+notifyListeners(new DatasetChangeEvent(this, this), listener); }
+notifyListeners(new EventListener); }
+notifyListeners(new DatasetChangeEvent(this,  listener, this)); }
+notifyListeners(new DatasetChangeEvent(datas, this));
+ on(event, this));
+notifyListeners(new Event);
+ callback(this, this));
+notifyListeners(new DatasetChangeEvent(this)); }
+notifyListeners(new ) ;
+notifyListeners(new  Date());
+notifyListeners ( ) ; } }
+ fireChanged(new DatasetChangeEvent(this, this));
+ listener.onDatasetChangeEvent(this, this));
+ return fireDatasetChangeEvent(this, this));
+ return this.
+ this.manager.
+notifyListeners(new DatasetChangeEvent(datet));
+notifyListeners(new  InstanceChanged(this, this));
+ return super.
+notifyListeners(new DatasetChangeEvent(this,  event, listener);) *
+ this.controller.
+notifyListeners(new DatasetChangeEvent(this, listener);) }
+notifyListeners(new DatasetChangeEvent(this, this, this.dataSet));
+ (event, this));
+notifyListeners(new DatasetChangeEvent(this, this)) return false ;
+ ( listener, this));
+notifyListeners(new DatasetChangeEvent(this, this, { }));
+ listener.fire(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this,  event, listener);); }
+ this.builder.
+ this.monitor.
+ return false);
+notifyListeners(new DatasetChangeEvent(this, this, event)); }
+notifyListeners(new Event); }
+ super().fireDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, this).dataset();
+notifyListeners(this.events());
+notifyListeners(new DatasetChangeEvent() {});
+notifyListeners(new DatasetChangeEvent(this, this, listener);) *
+notifyListeners(new DatasetChangeEvent(this,  event, listener);) }
+notifyListeners(Event event);
+notifyListeners(new DatasetChangeEvent(this, listener)); } }
+notifyListeners(new DatasetChangeEvent() {} });
+ notify ();
+notifyListeners(new DatasetChangeEvent(this,  event, listener)); } }
+notifyListeners(new DatasetChangeEvent(this, this, listener, eventName));
+ boolean true;
+notifyListeners ( )
+ return
+ broadcast(this, this));
+notifyListeners(new DatasetChangeEvent(this, this).event); }
+notifyListeners ( this )
+ (this);
+notifyListeners(new  UpdateListener(this, this));
+notifyListeners(new DatasetChangeEvent(this, this.name)); }
+notifyListeners(new DatasetChangeEvent(newInstance, this));
+notifyListeners(new DatasetChangeEvent(this, this) + listener); } }
+notifyListeners(new DatasetChangeEvent(calendar, this, this));
+ listener(this));
+notifyListeners ( listener )
+notifyListeners(new DatasetChangeEvent(this, this) + " updated"));
+ notify({, this));
+notifyListeners(new DatasetChangeEvent(listener));
+notifyListeners(new Listener());
+ (true);
+notifyListeners(new DatasetChangeEvent(event, this, this));
+ event(new DatasetChangeEvent(this, this));
+ fireEvents(new DatasetChangeEvent(this, this));
+ notifyChanged(new DatasetChangeEvent(this, this));
+notifyListeners(dataset());
+ fire ());
+ notify(, this));
+notifyListeners ( event )
+notifyListeners(new DatasetChangeEvent(this, this, event));
+notifyListeners(new DatasetChangeEvent(this, this, newListener));
+notifyListeners(new DatasetChangeEvent(this, this, newData));
+ notifyNewDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(dataSet));
+notifyListeners ( ;
+ broadcast(this));
+ fireOnDatasetChangeEvent(this, this));
+ listener(new DatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(this, listenerList));
+notifyListeners(new DatasetChangeEvent(newInstance, this, this));
+notifyListeners(new DatasetChangeEvent(newListener, this));
+notifyListeners(new DatasetChangeEvent(this, this); });
+notifyListeners(new DatasetChangeEvent(this, changeEvent));
+ notifyOnDatasetChangeEvent(this, this));
+notifyListeners(new DatasetChangeEvent(datet, this));
+notifyListeners(new DatasetChangeEvent(newInstance));
+notifyListeners(new DatasetChangeEvent(this, eventObject));
+ callback(this));
+ return listener.
+notifyListeners(new Instance()); }
+ emit(new DatasetChangeEvent(this, this));
+notifyListeners(true);
+notifyListeners(new DatasetChangeEvent(this, this)); } }
+notifyListeners(new DatasetChangeEvent(dao, this, this));
+notifyListeners(new  Date()); }
+notifyListeners(new DatasetChangeEvent(this, this, "changed));
+notifyListeners(new  DifferenceListener(this, this));
+notifyListeners(event); *
+notifyListeners(new DatasetChangeEvent(this, this)) return ;
+notifyListeners(new DatasetChangeEvent(this), listener));
+notifyListeners(new  Pair(this, this));
+ return true;
+notifyListeners(new DatasetChangeEvent(this, this););
+notifyListeners(new DatasetChangeEvent(this,  null));
+notifyListeners(new DatasetChangeEvent(this); });
+notifyListeners(new DatasetChangeEvent(this,  true));
+ notifyEvent(new DatasetChangeEvent(this, this));
+notifyListeners(null);
+notifyListeners(new  Notification(this, this));
+notifyListeners(new DatasetChangeEvent(this)) }
+notifyListeners(new DatasetChangeEvent(null, this, this));
+ * return
+notifyListeners(new  Change(this, this));
+ boolean false;
+ return this;
+notifyListeners(new DatasetChangeEvent(this, this)); } ;
+notifyListeners(new DatasetChangeEvent(this, this)); *
+notifyListeners(new DatasetChangeEvent(this, this)"); }
+notifyListeners(new DatasetChangeEvent(Event));
+notifyListeners(new DatasetChangeEvent(this, this, null));
+ this._
+notifyListeners(new DatasetChangeEvent(this, this, true));
+notifyListeners(new  Configuration(this, this));
+notifyListeners(new DatasetChangeEvent(object, this));
+notifyListeners(new DatasetChangeEvent(name, this));
+notifyListeners(new DatasetChangeEvent(name, this, this));
+ * *
+notifyListeners(new DatasetChangeEvent(null, this));
+notifyListeners(new DatasetChangeEvent(data, this, this));
+notifyListeners(new DatasetChangeEvent(data));
+notifyListeners(new DatasetChangeEvent(null));
+notifyListeners(new DatasetChangeEvent(true));
+ *

@@ -1,0 +1,644 @@
+return fixedOffsetZone(id);
+return fixedOffsetZone(id, millisOffset);
+ return id;
+ return forOffset(id, millisOffset);
+ return forOffset(millisOffset);
+ return DateTimeZone.UTC;
+ return forOffset(id);
+ return (id, millisOffset);
+ if ( id!= null ) {
+ return id);
+ return forOffsetMillis(id, millisOffset);
+return fixedOffsetZone ( id ) ; }
+return fixedOffsetZone ( id )
+ return id, millisOffset);
+ return DateTimeZone.of(id);
+ if ( id == null ) { return getDefault(); }
+return fixedOffsetZone ( id, millisOffset )
+ return new DateTimeZone(id, millisOffset);
+ return DateTimeZone.fixedOffsetZone(id, millisOffset);
+ return DateTimeZone.forOffset(id, millisOffset);
+ return (id);
+ return DateTimeZone.UTC + id;
+ return forOffsetMillis(id);
+return fixedOffsetZone(id,  millisOffset); }
+ if ( id == null ) { return getDefault ( ) }
+ return DateTimeZone. ofOffset ( id, millisOffset ) ;
+ return DateTimeZone. ofOffset ( id ) ; }
+ if ( id == null ) { return null ; }
+ return DateTimeZone. ofOffset ( id, millisOffset )
+ return DateTimeZone. ofOffset ( id ) ;
+ return forOffsetMillis(millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return forOffsetMillis ;
+ if ( id!= null ) return null ;
+ return new DateTimeZone ( id ) ; }
+ return new DateTimeZone ( id ) ;
+ return DateTimeZone.of(id, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return forOffsetMillis ( ) ;
+ return new DateTimeZone();
+ if ( id == null ) { return getDefault ( ) ; } else {
+ return for(millisOffset);
+ if ( id!= null ) return id ;
+ return DateTimeZone. ofOffset ( id ) ; } return null ;
+ return DateTimeZone.forOffset(millisOffset);
+ if ( id!= null ) { return getDefault ( ) ; }
+ return DateTimeZone(id);
+ return for(id, millisOffset);
+ DateTimeZone. forOffsetMillis(id, millisOffset);
+return fixedOffsetZone(id, -millisOffset);
+ return new DateTimeZone ( id, millisOffset )
+ return new DateTimeZone ( id, millisOffset ) ; }
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= null ) {
+return fixedOffsetZone ( id ). forOffsetMillis () ;
+ return DateTimeZone. UTC ( id ) ;
+ return new DateTimeZoneImpl(id, millisOffset);
+ DateTimeZone. ofOffsetMillis(id, millisOffset);
+ return DateTimeZone. forOffset ( id ) ;
+ if ( id!= null ) { return null ; }
+ return id + printOffset(millisOffset);
+ if ( id == null ) { return getDefault ; }
+ return new DateTimeZone ( id ) ; } return null ;
+ return new DateTimeZone ( id ) ; } return getDefault ;
+ if ( id!= null ) { return getDefault ( ) }
+ if (id!= null)
+ return new DateTimeZone ( id ). forOffsetMillis () ;
+ return new DateTimeZone ( )
+ return DateTimeZone. ofOffset ( id, 0 ) ;
+ DateTimeZone.forOffset(id,millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= "UTC" ) {
+ return DateTimeZone. ofOffsetMillis(id, millisOffset);
+ return for(id);
+ return getPrefixedOffsetZone(id, millisOffset);
+ return new PrefixedOffsetZone(id, millisOffset);
+ if ( id == null ) { return getDefaultUTC ( ) ; }
+ if ( id == null ) { return getDefault ( ) ; } if ( fixedOffset ) {
+ if ( id == null ) { return getDefault ( ) ; } if ( id. equals ( UTC ) ) {
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= null ) { return null ; }
+ return DateTimeZone. ofOffset ( id )
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= - 1 ) {
+ if ( id == null ) return getDefault ( ) ; if ( id!= null ) {
+return fixedOffsetZone ( id ) ; } return null ;
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= "UTC" )
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset(millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } if ( fixed ) {
+ return new DateTimeZone ( id )
+ return DateTimeZone. getInstance ( id ) ;
+ return DateTimeZone.NONE;
+ return DateTimeZone.forOffsetMillis(id, millisOffset);
+ return forOffsetUTC(id);
+ return DateTimeZone. getInstance ( id ) ; }
+return fixedOffsetZone(id, millisOffset) ; } return getDefault ;
+ return DateTimeZone. UTC ; }
+return  DateTimeZone ;
+ return DateTimeZone.prefixedOffsetZone(id, millisOffset);
+ return DateTimeZone. getInstance ( id, millisOffset )
+ DateTimeZone.UTC = id;
+ return DateTimeZone.forOffsetById(id, millisOffset);
+ return DateTimeZone.forID(id);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( - millisOffset);
+ if ( id!= null ) { return getDefault ( id ) ; }
+ return DateTimeZone. UTC ( id )
+return fixedOffsetZone ( id ) ; } return getDefault ;
+ return ( DateTimeZone )
+ return new DateTimeZone ( id, 0 ) ;
+ return DateTimeZone.UNKNOWN;
+ return DateTimeZone.Of(id);
+ if ( id == null ) { return getDefault ( ) ; } if ( id. length > 0 ) {
+return fixedOffsetZone ( id ) ; } return DateTimeZone ;
+ return fixedOffsetZone(id, millisOffset); } else { String id = millisOffset ;
+return fixedOffsetZone(id, millisOffset) ; } return DateTimeZone ;
+return fixedOffsetZone(id, millisOffset). forOffsetMillis ( ) ;
+ return new DateTimeZone ( id, null ) ;
+ DateTimeZone.UTC;
+ return fixedOffsetZone(id, millisOffset); } if ( id == null ) { return getDefault ( ) ; } else {
+ return DateTimeZone.forOffsetId(id, millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= null ) { return getDefault ( ) }
+ return DateTimeZone. getPrefixedOffsetZone(id, millisOffset);
+ if ( id == null ) { return DateTimeZone. UTC ; } else {
+return fixedOffsetZone(id, millisOffset) ; } return null ;
+ if ( id!= - 1 ) {
+return fixedOffsetZone ( id ). forOffsetMillis ;
+ DateTimeZone.of(id,millisOffset);
+ return DateTimeZone. OFFSET ;
+ return DateTimeZone.ZONE;
+ return unprefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, millisOffset). forOffsetMillis ( millisOffset )
+ if ( id == null ) { return getDefault ( ) ; } if ( id. equals ( "UTC" ) )
+ if ( id == null ) { return getDefaultUTCZone ( ) ; }
+ return new DateTimeZone ( id
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= "GMT" )
+ return DateTimeZone.create(id,millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return forOffsetUTC ( ) ;
+ return DateTimeZone.forOffsetID(id, millisOffset);
+ return DateTimeZone.UTC(id, -millisOffset);
+ if ( id!= "UTC") {
+ if ( id == null ) { return getDefault ( ) ; } if ( id!= null ) { return null }
+ if ( id == null ) return getDefault ( ) ; if ( id!= null )
+return fixedOffsetZoneForOffset ( id, millisOffset ) ;
+ return of(id);
+ if ( id == null ) return getDefault ( ) ; if ( id!= "UTC" )
+ return DateTimeZone. OFFSET ; }
+ return DateTimeZone.(id);
+ if (id) {
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, - millisOffset ) ;
+ if ( id == null ) { return null ; } if ( id!= null ) {
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( UTC ) ;
+return fixedOffsetZone(id, millisOffset) ; return null ;
+ if ( id == null ) { return getDefaultUTCZone ( ) ; } if ( id!= "UTC" )
+ DateTimeZone.create(id,millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( - 1 * millisOffset ) ;
+ return DateTimeZone.create(id);
+ return of(id, millisOffset);
+return fixedOffsetZone ; }
+ if ( id == null ) { return getDefault ( "UTC" ) ; }
+ if ( id == null ) { return null }
+ if ( id == null ) { return null ; } if ( fixedOffset ) {
+ return new DateTimeZone ( ). forOffset(id, millisOffset);
+ return new TimeZone(id, millisOffset);
+ return fixedOffsetZone(id, millisOffset); if ( id == null ) { return getDefault ( ) ; } else {
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( - 1, millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset(GMTOffset);
+ return new DateTimeZone ( id ) ; } return null ; } ;
+ return ( DateTimeZone ) id
+ return new DateTimeZone ( id, microsecond ) ;
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, millisOffset )
+ DateTimeZone. ofMillis(id, millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, 0, millisOffset )
+ return (DateTimeZone)fixedOffsetZone(id, millisOffset);
+return fixedOffsetZone ( id + millisOffset ) ;
+ return id.with(millisOffset);
+ if ( id == null ) return getDefault ( ) ; if ( fixed!= null )
+ return DateTimeZone. ofOffset ( id ) ; } }
+ if ( id == null ) { return null ; } if ( id!= "UTC" )
+ return DateTimeZone.GMT+id;
+return fixedOffsetZone(id, millisOffset); } return forOffsetMillis(offset);
+ if ( id == null ) { return getDefault ( 0 ) ; }
+ if ( id == null ) { return null ; } if ( id!= "UTC" ) {
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, 0 ) ;
+ if ( id!= null ) { return getDefault ( ) ;
+ return new DateTimeZone(id, UTC, millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, 0, millisOffset ) ;
+ if ( id == null ) return null ;
+return  DateTimeZone. ofMillis(id, millisOffset);
+ return DateTimeZone.UTC(id,millisOffset);
+ DateTimeZone. getInstance ( ). get(id, millisOffset);
+ return TimeZone.forOffset(id, millisOffset);
+ return DateTimeZone.createFromID(id);
+ return new TimeZone(id);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, - 1, millisOffset )
+ return new DateTimeZone ( id ) ; } } ;
+ return FixedOffsetZone ( id, millisOffset ) ; } public static String id() {
+ return new DateTimeZone(id, 0, millisOffset);
+ return DateTimeZone. ofOffset ( id ). UTC ;
+return fixedOffsetZone(id) ; } return forOffsetMillis ;
+ return DateTimeZone.fromID(id);
+return fixedOffsetZone(id, millisOffset). forOffsetMillis(millisOffset);
+ return DateTimeZone.TIME_ZONE;
+ return dateTimeZone(id, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return new DateTimeZone ( ) ;
+ if ( id == null ) { return getDefault ( ) ; } int fixedOffsetZone ;
+ DateTimeZone. getTimeZone(id, millisOffset);
+ return new DateTimeZone ( ).fixedOffsetZone(id, millisOffset);
+ DateTimeZone. getInstance ( ). set(id, millisOffset);
+ if (fixed) {
+ return DateTimeZone. UTC ; } }
+ return new DateTimeZone(id, UTC);
+ return new DateTimeZone ( id ).fixedOffsetZone(id, millisOffset);
+ return DateTimeZone.ofID(id,millisOffset);
+ return DateTimeZone.TIMEZONE_UTC;
+return fixedOffsetZone ( id, 0 ) ;
+ DateTimeZone.getPrefixedOffsetZone(id, millisOffset);
+ return (DateTimeZone) getPrefixedOffsetZone(id, millisOffset);
+ if ( id == null ) { return null ; } if ( id!= null ) { return null }
+return fixedOffsetZone(id, msOffset);
+return fixedOffsetZone(id, 0, millisOffset);
+ DateTimeZone.forID(id);
+ return TimeZone.of(id, millisOffset);
+return fixedOffsetZone ( id ). forOffset ( ) ;
+return fixedOffsetZoneForOffset ( id, millisOffset )
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, - 1, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return forOffsetMillis ( )
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, 0, 0, 0 ) ;
+return fixedOffsetZone(id). forOffsetMillis(offset);
+ return DateTimeZone.UTC(id).UTC;
+ DateTimeZone. getInstanceForPrefixedOffsetZone(id, millisOffset);
+ return forOffsetId(millisOffset);
+ return DateTimeZone. UTC ; return id;
+ if ( id!= null ) { return null }
+ if ( id == null ) { return getDefault(); } *
+ return DateTimeZone.createFromOffset(id, millisOffset);
+ return DateTimeZone.GMT id);
+return fixedOffsetZone ( id, millisOffset, false ) ;
+ DateTimeZone.TIMEZONES.put(id, millisOffset);
+ DateTimeZone.of(id);
+return fixedOffsetZone ( id ) ; return null ;
+ return get(id, millisOffset);
+ return DateTimeZone.create(id, UTC);
+ return new DateTimeZone(id, null, millisOffset);
+ return DateTimeZone.UTC(id, 0);
+ DateTimeZone.forOffset(millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, millisOffset));
+ return id + UTC;
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset ( 0, - 23 : 59 : 999 )
+ return forOffsetLocal(id, millisOffset);
+ return DateTimeZone.forOffsetMillis(millisOffset);
+return fixedOffsetZone(id, millisecondsOffset);
+ if ( id == null ) return getDefault ( ) ; if ( fixed == true )
+ DateTimeZone. getInstance ( ). create(id, millisOffset);
+ return DateTimeZone.UTC(id, UTC);
+ return new DateTimeZone ( id));
+ return DateTimeZone. ofOffsetMillis(millisOffset);
+ return (DateTimeZone) (millisOffset);
+return fixedOffsetZone(id). forOffset(offset);
+ return DateTimeZone.forOffsetId(millisOffset);
+return fixedOffsetZoneForOffset ( id ) ;
+ return forOffsetId(id, millisOffset);
+return fixedOffsetZone(id, 0, 0, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return getDefault();
+ return DateTimeZone.create(id, false);
+ return forOffsetUTC(id, millisOffset);
+ return new DateTimeZone ( id ). unprefixedOffsetZone(id, millisOffset);
+ return getTimeZone(id, millisOffset);
+ if (debug) {
+ return getDateTimeZone(id, millisOffset);
+ return getTimeZone(id);
+ return new DateTimeZone(id).prefixedOffsetZone(id, millisOffset);
+ return DateTimeZone.UTC - id;
+return fixedOffsetZone(id) + millisOffset;
+ return forOffsetMillisInternal(id, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; return getDefault();
+ DateTimeZone.TIMEZONES.get(id, millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } } else {
+ return DateTimeZone.of id, millisOffset);
+ return new DateTimeZone(id); returnfixedOffsetZone(id, millisOffset);
+ return id + formatOffset(millisOffset);
+return fixedOffsetZone(id, 0, -millisOffset);
+return fixedOffsetZone(id). forOffsetMillis(msOffset);
+ return DateTimeZone.TIME_ZONEUTC;
+ return get(id);
+return fixedOffsetZoneForOffset ( id ) ; }
+return fixedOffsetZone. forOffset ( id ) ;
+return fixedOffsetZone(id + millisOffset); }
+return  new DateTimeZoneMillis(id, millisOffset);
+ return new DateTimeZone ( ). withOffset(id, millisOffset);
+return fixedOffsetZone(id, getDefault());
+ return new DateTimeZoneImpl ( id ).fixedOffsetZone(id, millisOffset);
+ DateTimeZone. getFromOffset(id, millisOffset);
+return fixedOffsetZone(id, getDefault(), millisOffset);
+ if ( id == null ) return getDefault ( ) ; if ( id!= "UTC") {
+return  DateTimeZone. getByID(id, millisOffset);
+return fixedOffsetZone(id). forOffsetMillis, millisOffset);
+ DateTimeZone.forOffsetId(millisOffset);
+ return DateTimeZone.UTC(id)UTC;
+return fixedOffsetZone(id, millisOffset); *
+ return (DateTimeZone)prefixedOffsetZone(id, millisOffset);
+ return DateTimeZone.GMT;
+ return dateTimeZone(id);
+ return new DateTimeZone ( id ) ; } return getDefault(); }
+return fixedOffsetZone(id) + forOffsetZone(id);
+return fixedOffsetZone(id).forOffset(millisOffset);
+ return new DateTimeZone ( ). forPrefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id) + forOffset(id);
+return fixedOffsetZone(id, millisOffset) ; return DateTimeZone ;
+return fixedOffsetZone(id, millisOffset, -millisOffset);
+return fixedOffsetZone(id, id, millisOffset);
+ return new DateTimeZone ( id, );
+return fixedOffsetZone(id) ; } return forOffsetMillis () ;
+ return TimeZone.UTC;
+return fixedOffsetZone(id, -1);
+ return DateTimeZone. of ( ).fixedOffsetZone(id, millisOffset);
+ return getTimeZoneInstance(id, millisOffset);
+return fixedOffsetZone ( id, millisOffset ) ; } }
+return fixedOffsetZone(id, "UTC", millisOffset);
+ return DateTimeZone.ISO8601;
+return fixedOffsetZone(id, forOffsetMillis);
+ return new DateTimeZone(id, -1, millisOffset);
+return fixedOffsetZone(id,  0, 0, 0, millisOffset);
+ return new DateTimeZone(id)#fixedOffsetZone(id, millisOffset);
+ if (fixed)
+return fixedOffsetZone ( id, millisecondsOffset )
+return fixedOffsetZone ( id ). get ( ) ;
+ DateTimeZone instance = id;
+ return DateTimeZone(id, millisOffset);
+ return DateTimeZone. ofOffsetMilli(id, millisOffset);
+return  DateTimeZone. ofOffsetId(id, millisOffset);
+return fixedOffsetZone(id, millisOffset). forOffsetMillis(id); *
+ return DateTimeZone.UTC(id,));
+ return get(millisOffset);
+return fixedOffsetZone(id), forOffset(id);
+ return DateTimeZone. ofPrefixedOffsetZone(id, millisOffset);
+ return new Date(id);
+ return forOffset ( id )
+ DateTimeZone return id;
+return fixedOffsetZone(id, false);
+ return new DateTimeZone(id.id, millisOffset);
+ return forOffsetInternal(id, millisOffset);
+ return fixedOffsetZone(id, millisOffset); } else { String id = printOffset(GMTOffset());
+return  DateTimeZone. forOffsetUTC(id, millisOffset);
+ return getTimeZone(millisOffset);
+return  (DateTimeZone) get(id, millisOffset);
+return  DateTimeZone. ofOffsetID(id, millisOffset);
+ return DateTimeZone. ofUnprefixedOffsetZone(id, millisOffset);
+ return DateTimeZone. UTC ; return null;
+ return (DateTimeZone) unprefixedOffsetZone(id, millisOffset);
+ return new DateTimeZone.fixedOffsetZone(id, millisOffset);
+ DateTimeZone. ofOffsetMilli(id, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return null ; } ;
+ return parse(id);
+return fixedOffsetZone(id, -offset);
+return fixedOffsetZone(id, id, id, id, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, millisOffset);
+return fixedOffsetZone ( id, milliseconds ) ;
+return fixedOffsetZone(id, millisOffset) ; } return new DateTimeZone ;
+return fixedOffsetZone(id, millisOffset). forOffsetMillis(id);
+ return forOffsetUTC(millisOffset);
+ return create(id, millisOffset);
+return fixedOffsetZoneId ( id ) ;
+ return DateTimeZone. getfixedOffsetZone(id, millisOffset);
+return fixedOffsetZone ( id, ) ;
+return fixedOffsetZone(id), millisOffset);
+return  getDefault();
+ DateTimeZone.of(millisOffset);
+ return DateTimeZone. getUnprefixedOffsetZone(id, millisOffset);
+ return (int) id;
+ DateTimeZone. forOffsetUTC(id, millisOffset);
+return fixedOffsetZone(id, millisOffset). forOffsetMillis ( )
+ return forOffsetLocal(millisOffset);
+return fixedOffsetZone(id, millisOffset) ; return null ; }
+return fixedOffsetZone(id, millisOffset, null, null, null, null);
+ if (fixedOffset)
+return fixedOffsetZone(id, id + millisOffset);
+return fixedOffsetZone(id, forOffsetMillis());
+return fixedOffsetZone(id, +millisOffset);
+return fixedOffsetZone(id, forOffsetMillis(id));
+return fixedOffsetZone(id, getDefault);
+return fixedOffsetZone(id, null, millisOffset);
+return fixedOffsetZone(id, millisOffset) ; } return TimeZone ;
+return fixedOffsetZone(id) + forOffset(id, millisOffset);
+return fixedOffsetZone(id, millisOffset) + millisOffset ;
+ return new DateTimeZone(id,id, millisOffset);
+return  id ; }
+return fixedOffsetZone(id, millisOffset) ; return forOffsetMillis ;
+ if ( id == null ) { return getDefault ( ) ; } else
+ if (fixedOffset) {
+ DateTimeZone. ofOffsetUTC(id, millisOffset);
+ return PrefixedOffsetZone(id, millisOffset);
+ if (!id) {
+ if ( id!= null ) { return null ;
+ return TimeTimeZone.UTC;
+return fixedOffsetZone(id, null);
+ return $(id);
+return fixedOffsetZone(id, millisOffset, 0, 0, 0, 0);
+ return createDateTimeZone(id, millisOffset);
+return fixedOffsetZone(id,  0, millisOffset); }
+ return new DateTimeZoneImpl ( id )#fixedOffsetZone(id, millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } else { }
+ return with(id, millisOffset);
+return fixedOffsetZone(id, -1, millisOffset);
+return fixedOffsetZone ( id ) ; } return default ;
+return fixedOffsetZone(id); *
+return fixedOffsetZone(id, UTC);
+return fixedOffsetZone(id, 0.0, millisOffset);
+ return - 1;
+return fixedOffsetZone(id, forOffsetMillis(id);
+ return DateTimeZone.ZERO;
+ return TimeZone.fixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id,  millisOffset, UTC) ;
+return fixedOffsetZone(id, "GMT UTC", millisOffset);
+return fixedOffsetZone(id,  millisOffset, "UTC") ;
+return fixedOffsetZone(id, false, millisOffset);
+ return forOffsetMillisById(millisOffset);
+return fixedOffsetZone(id). forOffset(id, millisOffset);
+return fixedOffsetZone(DateTimeZone.UTC, id, millisOffset);
+ return id + offset;
+ return newInstance(id);
+ return forOffsetMillisId(millisOffset);
+ if ( id == null ) { return getDefault ( ) ; } if ( fixed ) { }
+return fixedOffsetZone(id, 0, -1);
+ return of(millisOffset);
+ if (id!= null) return null; *
+return fixedOffsetZone(id).forOffsetMillis(); }
+ return id + printOffset(-millisOffset);
+return fixedOffsetZone ( id ) ; } }
+ if (id!= null) return null; else
+ return millisOffset;
+return fixedOffsetZone(id,  millisOffset).UTC;
+ if ( id == null ) { return DateTimeZone. UTC ; } else
+return fixedOffsetZone ( millisOffset )
+ return Utils.prefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, null, null, millisOffset);
+ if ( id!= null ) return null ; else {
+return fixedOffsetZone(id, forOffsetMillis(id)));
+return fixedOffsetZone(id, getDefault(millisOffset);
+ DateTimeZone.ZONE;
+ if ( id == null ) { return TimeTimeZone. UTC ; } else { }
+return  dateTimeZone ;
+return fixedOffsetZone(id).forOffsetMillis(, millisOffset);
+ if ( id == null ) { return DateTimeZone. UTC ; } #
+ return forOffsetMillis(id.*, millisOffset);
+return fixedOffsetZone(id, millisOffset). getDefault();
+ return getUnprefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, microseconds);
+return fixedOffsetZone(id, 0, -1, millisOffset);
+ return toDateTimeZone(id, millisOffset);
+return fixedOffsetZone(id), millisOffset;
+ return (-millisOffset);
+return  ( id )
+ return getDefault(id);
+ if ( id == null ) { return TimeTimeZone. UTC ; } else
+return fixedOffsetZone(id) + fixedOffsetZone(msOffset);
+return  timeZone ;
+ return TimeZoneFactory.fixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id + ' ', millisOffset);
+ return (millisOffset);
+ return id + " ";
+return fixedOffsetZone(id, millisOffset, 0, 0, 0);
+ return withOffset(id, millisOffset);
+return fixedOffsetZone(id, millisOffset, null, null);
+ if (id)
+return fixedOffsetZone(id, millisOffset, 0, 0, 0.0);
+return fixedOffsetZone(id, millisOffset) + UTC;
+return fixedOffsetZone(id, "UTCOffset", millisOffset);
+ return create(id);
+return fixedOffsetZone(id, millis);
+return fixedOffsetZone(id, 0x01, millisOffset);
+ return getDerefixedOffsetZone(id, millisOffset);
+return fixedOffsetZoneForOffset ( id )
+return fixedOffsetZone(id, id, -id, id, millisOffset);
+ return TimeZone. getfixedOffsetZone(id, millisOffset);
+return  new ( id )
+return fixedOffsetZone(id, millisOffset, 0, -millisOffset);
+return fixedOffsetZone(id, forOffsetMillis(), false);
+return fixedOffsetZone(id, microsecond);
+return fixedOffsetZone(id, true);
+return fixedOffsetZone(id, millisOffset, getDefault(millisOffset);
+ if ( id!= null ) { return null ; } else
+return fixedOffsetZone(id, millisOffset, id, millisOffset);
+return fixedOffsetZone ( id));
+ if ( id!= null ) { }
+return  new DateTimeZoneInternal(id, millisOffset);
+return fixedOffsetZone(id).forOffset(offset, millisOffset);
+ if (id!= null) { *
+return fixedOffsetZone(id, millisOffset, 0, 0, null, null);
+return fixedOffsetZone(id, millisOffset, 0.0);
+ return TimeZoneHelper.fixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id). forOffset(id, id, millisOffset);
+return fixedOffsetZone(id, id, -1, id, millisOffset);
+ return forOffset(id); }
+return fixedOffsetZone(dateTimeZone.UTC, id, millisOffset);
+return fixedOffsetZone(id, ":", millisOffset);
+ return null + id;
+ return id + 1000;
+ return new UTC(id);
+return fixedOffsetZone(id + ":", millisOffset);
+return fixedOffsetZone(id, millisOffset, 0, -1);
+return fixedOffsetZone(id, millisOffset, getDefault(id));
+return fixedOffsetZone(id, id, 0, 0, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, 0, 0, 0, null);
+return fixedOffsetZone(id, millisOffset, 0, -1, 0);
+return fixedOffsetZone(id, getDefault(), getDefault(), null);
+return fixedOffsetZone(id, millisOffset, 0, 0);
+return fixedOffsetZone(id, millisOffset) ; } } ;
+return fixedOffsetZone(id, millisOffset, 0, 0.0);
+ return new FixedUnfixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, getDefaultMillis());
+return fixedOffsetZone(id,  msisOffset); }
+return fixedOffsetZone(TimeZone.UTC, id, millisOffset);
+ return newInstance(id, millisOffset);
+ return timeZone(id, millisOffset);
+ return getDefault(millisOffset);
+return fixedOffsetZone ( ) ;
+return fixedOffsetZone(id, getDefault(), getDefault(), false);
+ return createPrefixedOffsetZone(id, millisOffset);
+return  newInstance();
+ return getInstance(id, millisOffset);
+return fixedOffsetZone(dateTimeZone, id, millisOffset);
+ return forOffset(-millisOffset);
+return fixedOffsetZone(DATE_TIMEZONE, id, millisOffset);
+ return offset(millisOffset);
+return fixedOffsetZone(id, true, millisOffset);
+return  getDefault(); }
+ return getUnefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, 0, 0, 0, id, millisOffset);
+return fixedOffsetZone(id.length, millisOffset);
+return fixedOffsetZone(DateTimeZone.GMT, id, millisOffset);
+ if (!id)
+return fixedOffsetZone(id, millisOffset) + offset ;
+return fixedOffsetZone(id.length(), id);
+return fixedOffsetZone(id,  millisecondsOffset) ; }
+return fixedOffsetZone(id, millisOffset, 0, 0, -1);
+return fixedOffsetZone(id, millisOffset, 0, 0, null);
+ return getDefault;
+return fixedOffsetZone(id, id, 0, id, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, 0, -1, null);
+return fixedOffsetZone(id, millisOffset, "GMT+");
+return fixedOffsetZone(DATE_TIME, id, millisOffset);
+return fixedOffsetZone(id, millisOffset) + "UTC";
+return fixedOffsetZone(id, millisOffset, 0); }
+ return withOffset(millisOffset);
+ return forOffsetMilli(id, millisOffset);
+ return getFixfixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(id, millisOffset, null);
+return fixedOffsetZone(id, id, -offset, id, millisOffset);
+return fixedOffsetZone(DATE_TIMEZONES, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, UTC); }
+ return + id;
+return fixedOffsetZone(identifier, millisOffset);
+return fixedOffsetZone(getDefault(), null, id, millisOffset);
+ return "+millisOffset);
+return fixedOffsetZone(DATE_FORMAT, id, millisOffset);
+return fixedOffsetZone(1.0, id, millisOffset);
+return fixedOffsetZone(id,  zone);
+return fixedOffsetZone(id, getDefault(), false);
+ return id(millisOffset);
+return fixedOffsetZone(id, millisOffset, "GMT-UTC);
+ return (+millisOffset);
+return fixedOffsetZoneId ;
+return fixedOffsetZone ( )
+return fixedOffsetZone(id, millisOffset, -1);
+return fixedOffsetZone(dateTimeZone.GMT, id, millisOffset);
+return fixedOffsetZone(id,  msisOffset);
+ return getOffset(millisOffset);
+ return newOffset(id, millisOffset);
+return fixedOffsetZone(Zone.UTC, id, millisOffset);
+return fixedOffsetZone(id,  millisOffset());
+ return new Zone(id, millisOffset);
+return fixedOffsetZone(id,  millisOffset));
+return fixedOffsetZone(id, millisOffset, getDefault);
+return fixedOffsetZoneInstance ;
+return fixedOffsetZone(id) + (offset);
+ return (-id);
+return fixedOffsetZone(DATE_UTC, id, millisOffset);
+return fixedOffsetZone(getDefault()), id, millisOffset);
+return fixedOffsetZone(TIMEZone, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, 0, -offset);
+return fixedOffsetZone(id, millisOffset, "UTC);
+return fixedOffsetZone(int id, millisOffset);
+return fixedOffsetZone(0, 0, id, millisOffset);
+return fixedOffsetZone(id) *
+return fixedOffsetZoneId ( id )
+return fixedOffsetZone(int id);
+return fixedOffsetZone ( id
+return fixedOffsetZone(id UTC);
+return fixedOffsetZone(id, millisOffset, 0);
+ return getfixedOffsetZone(id, millisOffset);
+ return forPrefixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(idString);
+return fixedOffsetZone(id());
+ + "";
+ return (+id);
+ return ((id, millisOffset);
+ return _fixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(:id, millisOffset);
+ return null, millisOffset);
+return fixedOffsetZone(null, id, millisOffset);
+ return new Instant(id, millisOffset);
+ if (fixed())
+ return newfixedOffsetZone(id, millisOffset);
+return fixedOffsetZone(0x01, id, millisOffset);
+return fixedOffsetZone(id, millisOffset, microseconds);
+ return newInstance, millisOffset);
+ return (, millisOffset);
+return fixedOffsetZone(Zones, id, millisOffset);
+ return parseId, millisOffset);
+return fixedOffsetZone(SERVICE, id, millisOffset);
+return fixedOffsetZone(id.*, millisOffset);
+ printId, millisOffset);
+return fixedOffsetZone(id, milisOffset);
+return fixedOffsetZone(id, millisOffset, -offset);
+return fixedOffsetZone(idString, millisOffset);
+return fixedOffsetZone(id, millisOffset, true);
+ return ((, millisOffset);
+return fixedOffsetZone(LOCale, id, millisOffset);
+return fixedOffsetZone(LOCALE, id, millisOffset);
+(id);
+ + UTC;
+ return null);
+ get(id, millisOffset);
+ print id);
+return fixedOffsetZone(id, 0, 0);
+return fixedOffsetZone(id, milliOffset);
+ parse(id, millisOffset);
+ + ";"
+ + ' '
+ return $(id, millisOffset);
+ return null;
+return fixedOffsetZone(id, 0.0);
+return fixedOffsetZone(id, millisOffset)); }
+return fixedOffsetZone(0, id, millisOffset);
+return fixedOffsetZone(zone, id, millisOffset);
+return fixedOffsetZone(id, millisOffset) * *
+ * *
+return fixedOffsetZone(offset, id, millisOffset);
+return fixedOffsetZone(id, millisOffset) * ;
+return fixedOffsetZone(id, millisOffset) + UTC
+ return this;
+ *
+ return ID;
+return fixedOffsetZone(ids, millisOffset);
+return fixedOffsetZone(Id, millisOffset);
+return fixedOffsetZone(uid, millisOffset);
+return fixedOffsetZone(ids);
+return fixedOffsetZone(Id);
+return fixedOffsetZone(ID);

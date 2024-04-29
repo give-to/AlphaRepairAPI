@@ -1,0 +1,726 @@
+if (match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON))  { token =
+if (match(JsDocToken.COLON) { token =
+ if (match(COLON)) {
+ if (match(Token.COLON)) {
+if (match(JsDocToken.COLON) || isNew) {
+if (match(JsDocToken.COMMA)) {
+if (match(JsDocToken.COLON)) { hasParams =
+ if (isThis)) {
+if (match(JsDocToken.COLON) { hasParams =
+ if (hasParams) {
+if (token == match(JsDocToken.COLON)) {
+if (isThis)
+if (match(JsDocToken.COMMA)) { token =
+ if (JsDocToken.COLON)) {
+ token = next();
+if (match(JsDocToken.COMMA)) { hasParams =
+if (match(JsDocToken.COLON) && isNew) {
+ if (isThis && isNew) {
+ if (isThis){
+if (match(JsDocToken)) {
+if (match(JsDocToken.COLON)) { next(); skipEOLs(); }
+if (match(JsDocToken.COLON))  { next(); skipEOLs(); token =
+ if (isThis &&!isNew) {
+ if (wrap) {
+if (match(JsDocToken.COLON) { token = next(); } else {
+if (match(JsDocToken.COLON)) { token = next(); } else {
+ next(); skipEOLs(); } else { token = next(); } } else
+if (match(JsDocToken.COLON)) { next(); skipEOLs();
+ if (COLON)) {
+ next(); skipEOLs(); token = next(); } else { hasParams = false
+ token = next(); } else { token = next(); }
+ next(); skipEOLs(); } else { token = next(); } } else {
+ next(); skipEOLs(); token = next(); } } else {
+ next(); skipEOLs(); } else { token = next(); skipEOLs(); }
+ next(); skipEOLs(); token = next(); } else { token = next(); }
+ next(); skipEOLs(); } else { token = next(); } } } else
+ next(); skipEOLs(); token = next(); } } else
+ next(); skipEOLs(); token = next(); } else { hasParams;
+ next(); skipEOLs(); token = next(); } else { hasParams = false;
+ if (wrap)) {
+ if (isThis || isNew) {
+ token = next(); } if(match(JsDocToken.COLON)) {
+if  (hasParams)
+ if (match.COLON)) {
+ token = next(); } else { token = next();
+ next(); skipEOLs(); token = next(); }
+ isThis = "this".equals(tokenStr); } token =
+ if (match(JsDocTokenCOLON)) {
+ next(); skipEOLs(); token = next(); } else
+if (match(JsDocToken.COMMA)) { hasParams = false
+ next(); skipEOLs(); token = next(); } if (hasParams) {
+ token = next(); } else
+if (match(JsDocToken.COLON) || isNew) { if (hasParams) {
+ next(); skipEOLs(); token = next(); } else { hasParams =
+ next(); skipEOLs(); token = next(); if (isNew) {
+ next(); skipEOLs(); token = next(); } else { hasParams = false ; }
+ next(); skipEOLs(); } else { skipEOLs(); token = next(); }
+ next(); skipEOLs(); } else { token = next(); } if (hasParams) {
+if (match(JsDocToken.COLON))  { token = next(); } else { token =
+ next(); skipEOLs(); } else { token = next(); } if (hasParams)
+ isThis = "new".equals(tokenStr); } token =
+ next(); skipEOLs(); } else { token = next(); }
+if (match(JsDocToken.COLON)) { token = next(); }
+if (match(JsDocToken.COLON) || isThis || isNew) {
+ if (!match(JsDocToken.COMMA)) {
+ token = next(); } } else
+ next(); skipEOLs(); token = next(); } else { token = next(); } } else
+if (match(JsDocToken.CONTEXT)) { token =
+if (match(JsDocToken.COLON) { token = next(); } else { token =
+ token = next(); }
+if (match(JsDocToken.CUSTOM)) {
+ next(); skipEOLs(); } if(match(JsDocToken.COLON)) {
+ next(); skipEOLs(); } else { token = next(); } if (isNew) {
+ next(); skipEOLs(); } else { next(); skipEOLs(); } else { token = next(); } } else
+if  (isThis && isNew) { token =
+ next(); skipEOLs(); token = next(); } } } else
+if (match(JsDocToken.COMMA)) { next(); hasParams =
+if (match(JsDocToken.COMMA)) { token = next(); }
+if (match(JsDocToken.CALL)) { token =
+ isThis = "this".equals(tokenStr); token =
+if (match(JsDocToken.COLON)) { hasParams = false
+ token = next(); } else { token = next(); } } else
+if (isThis && match(JsDocToken.COLON)) {
+ if (isThis && match(Token.COLON)) {
+ isThis = "this".equals(tokenStr); }
+if (match(JsDocToken.NS)) {
+if (match(JsDocToken.COMMA)) { hasParams = false;
+ next(); skipEOLs(); token = next(); } else { token = next(); } }
+if (match(JsDocToken.COMMA)) token =
+if (match(JsDocToken.PARAMETER)) {
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) {
+ if (match(JsDocToken.NCOLON)) {
+ next(); skipEOLs(); token = next(); } else { hasParams ; }
+ next(); skipEOLs(); } else { token = next(); } else
+ next(); skipEOLs(); } else { token = next(); } }
+ if (token == (COLON)) {
+if (match(JsDocToken.COLON)) { token = next(); token =
+if (match(JsDocToken.NL)) {
+if  (isThis || isNew) { token =
+if (hasParams && match(JsDocToken.COLON)) {
+ next(); skipEOLs(); }
+ if (match(DocToken.COLON)) {
+if (match(JsDocToken.COLON) && token == next()) { if (hasParams) {
+ next(); skipEOLs(); token = next(); } else { continue ; }
+ next(); skipEOLs(); } else { next(); skipEOLs(); } if (isThis || isNew) {
+ token = next(); } else {
+ next(); skipEOLs(); token = next(); } else { } else
+ next(); skipEOLs(); token = next(); return null; } } else
+ token = next(); } else { if(match(JsDocToken.COLON)) {
+ next(); skipEOLs(); } else { token = next(); } } if (hasParams)
+ next(); skipEOLs(); token = next(); return null; } else
+if (match(JsDocToken.NS))
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { hasParams =
+ next(); skipEOLs(); if(match(JsDocToken.COLON)) {
+ next(); skipEOLs(); token = next(); } else { hasParams = true
+if (match(JsDocToken.COLON) { next(); skipEOLs(); token =
+ token = next(); } else { hasParams = false;
+ next(); skipEOLs(); token = next(); if (isNew)
+ if (isThis && isNew && match(COLON)) {
+ isThis = "new".equals(tokenStr); token =
+if (match(JsDocToken.COLON)) { skipEOLs(); token =
+if (match(JsDocToken.COLON))  { token = next(); skipEOLs();
+ return null; } if ( isThis && isNew ) { token = next(); } else { token = next(); }
+ if (!match(JsDocToken.COLON)) {
+ return null; } if ( isThis && isNew ) { token = next(); } else { token = next(); } } else {
+ token = next(); skipEOLs(); }
+ isThis = "this".equals(tokenStr); } else { isThis = "new".equals(); }
+ if (token.COLON)) {
+if (match(JsDocToken.COLON) && isThis || isNew) {
+ if (match(JsDocToken.NSCOLON)) {
+if (match(JsDocToken.CONTEXT)) {
+ next(); skipEOLs(); token = next(); } else { token = next(); } } } else
+ token = next(); } else { token = next(); } } } else
+ isThis = "new".equals(tokenStr); }
+if (match(JsDocToken.COLON) { next(); skipEOLs(); }
+ token = next(); } else if(match(JsDocToken.COLON)) {
+ isThis = "this".equals(tokenStr);
+ next(); skipEOLs(); token = next(); } else {
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) { hasParams =
+ return null; } if ( isThis && isNew ) { token = next(); } else { token = next(); } } } else
+ token = next(); } else { token =
+if (match(JsDocToken.COLON) { token = next(); token =
+ if (isThis && isNew && isThis) {
+if (match(JsDocToken.COLON) { token = next(); }
+ if (isThis && isNew)) {
+if (match(JsDocToken.COLON) && isThis &&!isNew) {
+ next(); skipEOLs(); token = next(); } else { hasParams = false ; } }
+ if (isCOLON)) {
+ next(); skipEOLs(); } else { next(); } if ( isThis || isNew ) { token = next(); } } else
+if (match(JsDocToken.COLON) && isThis && isNew) {
+if  (isThis && isNew)
+if (match(JsDocToken.NL))
+ if (match(JsDocToken.NP)) {
+ return null; } if (match(JsDocToken.COLON)) {
+ next(); skipEOLs(); } else { next(); skipEOLs(); } else { token = next(); } } } else
+if (match(JsDocToken.COMMA)) { token = next(); token =
+ if (isParams){
+ return null; } if ( isThis || isNew ) { token = next(); } else { token = next(); }
+ if (isThis && (isNew)) {
+if (match(JsDocToken.CALLBACK)) {
+ if (tokenStr.match(JsDocToken.COLON)) {
+ next(); skipEOLs(); token = next(); } else { } } else
+if (match(JsDocToken.COLON)) { hasParams = false;
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { hasParams = false
+ if (match(JsDocTokenNL)) {
+ token = next(); if(match(JsDocToken.COLON)) {
+ token = next(); } else { hasParams = false ; }
+ next(); skipEOLs(); } else { next(); } else { next(); } } else { token = next(); } } else
+if (match(JsDocToken.COLON) { token = next(); else { token =
+ if (isThis &&!match(Token.COLON)) {
+ return null; } if ( isThis && isNew ) { token = next(); } else { token = next();
+ next(); skipEOLs(); } else { skipEOLs(); token = next(); } else
+ if (isThis && isNew == true) {
+if (match(JsDocToken.COLONLY)) {
+ if (isThis &&!isNew)) {
+ next(); skipEOLs(); } else if(match(JsDocToken.COLON)) {
+ if (match(JsDocContext)) {
+ if (token == JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || isNew) { if (isThis) {
+ token = next(); if (token == null) {
+ next(); skipEOLs(); } else { next(); skipEOLs(); } else { token = next(); } }
+ token = next(); return null; }
+if (match(JsDocToken.COMMA)) { isThis = false;
+if (match(JsDocToken.TEXT)) {
+if (match(JsDocToken.COMMA)) { if (hasParams)
+if (match(JsDocToken.COLON) { token = next(); skipEOLs();
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) { continue; }
+ return null; } if ( isThis && isNew ) { next(); skipEOLs(); } else { token = next(); } }
+if (match(JsDocToken.CUSTOM)) { hasParams =
+if (match(JsDocToken.COMMA)) { hasParams = true
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { hasParams;
+ next(); skipEOLs(); } else { next(); skipEOLs(); } } else { token = next(); }
+ if (!match(COLON)) {
+ isThis = "new".equals(tokenStr);
+if (match(JsDocToken.COLON) { next(); skipEOLs();
+if (match(JsDocToken.WS)) {
+ next(); skipEOLs(); } } else
+if (match(JsDocToken.COLON) { hasParams = false
+ if (match(JsDoc.COLON)) {
+ next(); skipEOLs(); } else { next(); skipEOLs(); } } else { token = next(); } else
+ if (match(JsDocToken.PCOLON)) {
+ token = next(); } else if (isNew) {
+ token = next(); } else {
+ if (isThis && (token == Token.COLON)) {
+ if (isThis && isNew!= null) {
+if (match(JsDocToken.CUSTOM)) { token =
+ token = next(); if (token!= null) {
+ next(); skipEOLs(); } else { token = next();
+if (match(JsDocToken.COLON) && hasParams) {
+ token = next(); } else { if (!match(JsDocToken.COLON)) {
+if (match(JsDocToken.WS))
+if (match(JsDocToken.NAMESPACE)) {
+if (match(JsDocToken.COLON)) { if (hasParams) {
+if (match(JsDocToken.COLON)) { if (isThis) { token =
+if (match(JsDocToken.COLON) && token == next()) { if (isNew) {
+if (match(JsDocToken.NP))
+ next(); skipEOLs(); } else { next(); skipEOLs(); } } else { token = next(); } }
+if (match(JsDocToken.COLON)) { token = next(); hasParams =
+ if (matchJsDocToken.COLON)) {
+if (isThis &&!isNew) { token =
+if (match(JsDocToken.COLON)) { token = next(); else { token =
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { isNew }
+ if (hasParams)) {
+if (match(JsDocToken.CALL)) {
+if (match(JsDocToken.CRON))
+ token = next(); } else { hasParams =
+if (match(JsDocToken.COLON) && (isThis || isNew) {
+ hasParams = false; } else { hasParams = false; }
+ if (isThis &&! match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) { if (isThis) { token =
+ isThis = false; } else { isThis = true ; } token =
+ if (isThis == true) {
+if (match(JsDocToken.COLON) { token = next(); hasParams =
+ if (isThis || isNew)) {
+ token = next(); if (isThis && isNew) {
+ next(); skipEOLs(); } else
+ next(); skipEOLs(); } else { next(); } if (isThis || isNew) { token = next(); } else
+ if (match(JsToken.COLON)) {
+ return null; } if ( isThis && isNew ) { next(); skipEOLs(); } else { token = next(); } else
+if (hasParams) { hasParams =
+if (match(JsDocToken.PARAM)) {
+ if (match(JsDocToken.CR)) {
+ if (isThis && isNew && (Token.COLON)) {
+ if (isToken.COLON)) {
+if (match(JsDocToken.COLON) { if (hasParams) {
+if (match(JsDocToken.CONTEXT)) { hasParams =
+if (match(JsDocToken.COLON) && isThis && isNew && isThis) {
+ hasParams = false; } else { hasParams = true; }
+ return null; } if ( isThis && isNew ) { next(); skipEOLs(); token = next(); } else { } else
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { } else
+if (match(JsDocToken.COLON) || (isThis && isNew)) {
+ next(); skipEOLs(); } else { token = next(); } if (token == ')' ) {
+if (match(JsDocToken.PARAMETERS)) {
+ if (match(JsDocToken.NS_COLON)) {
+ if (token == JsDocToken){
+if (match(JsDocToken.COLON)) { if (hasParams)
+if (match(JsDocToken.COLON) || (isThis || isNew) {
+ return null; } if (isNew) if(match(JsDocToken.COLON)) {
+ token = next(); } else { hasParams = false
+ if (hasParams) { if (JsDocToken.COLON)) {
+if (match(JsDocToken.COLON)) { skipEOLs();
+ if (match(JsDocTokenNS)) {
+ token = next(); } else { token = next(); } }
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) { } else
+if (match(JsDocToken.COLON)) { tokenStr =
+ if (token && match(JsDocToken.COLON)) {
+ if (isThis && token!= null) {
+if (match(JsDocToken.COLON) { hasParams = false;
+if (match(JsDocToken.CR))
+if (match(JsDocToken.COLON)) { next(); hasParams =
+ token = next(); } } else { if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || isNew) { if (hasParameters) {
+if (match(JsDocToken.COLON) && (isThis || isNew)) {
+ if (isThis || isNew) { next(); skipEOLs(); } else { token = next(); } } else { } else
+ next(); skipEOLs();
+if  (hasParams) { token =
+ if (isThis || (isNew)) {
+ if (!match(Token.COLON)) {
+ token = next(); return null; } if(match(JsDocToken.COLON)) {
+ if (match(JsDocTokenKind.COLON)) {
+ if (hasParameters) {
+ token = next(); if (isNew) {
+ if (isThis!= null) {
+ next(); skipEOLs(); } } else {
+ token = next(); } else { token = next(); }
+ continue; }
+ next(); skipEOLs(); } if (!match(JsDocToken.COLON)) {
+if (match(JsDocToken.CALLBACK, tokenStr)) {
+ if (isThis ||!isNew){
+if  (isThis || isNew)
+ isThis = "this".equals("tokenStr); } token =
+if (match(JsDocToken.COMMA, tokenStr)) {
+if (match(JsDocToken.COLON) || isNew) { if (hasEOLs) {
+if (match(JsDocToken.CUSTOM_NAME)) {
+ if (isThis &&!matchJsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && isNew) { if (hasParams) {
+ token = next(); } } else if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLLAR)) {
+ if (match(JSDocTokenCOLON)) {
+ next(); skipEOLs(); } else {
+ return null; } } else { if(match(JsDocToken.COLON)) {
+ next(); } else { if (match(JsDocToken.COLON)) {
+ isThis = false; } else { isThis = true; }
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { } }
+if (match(JsDocToken) {
+ next(); return null; } if (match(JsDocToken.COLON)) {
+ token = next(); if (isThis){
+ if (match(JsDocToken.CLOSE_COLON)) {
+if (match(JsDocToken.COLON) { token = next(); if (isNew)
+if (match(JsDocToken.COMMA)) { }
+if (match(JsDocToken.CUSTOM_COLON)) {
+if (match(JsDocToken.COLON) || (isThis && isNew) {
+ if (isThis && isNew == false) {
+ if (hasParams &&!match(JsDocToken.COLON)) {
+if (match(JsDocToken.COMMA)) { token = next();
+if (match(JsDocToken.CUSTOM_TYPE)) {
+if (match(JsDocToken.CUSTOMES)) {
+if (match(JsDocToken.COMMA, token)) {
+if (match(JsDocToken.COLON))  { token = next(); if (isNew)
+if  (isThis == isNew)
+ return null; } if (hasParams if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON)) { token = next();
+ if (match(JsDocComment)) {
+ next(); skipEOLs(); token = next(); } else { }
+if (match(JsDocToken.COLON)) { hasParams = true
+ if (isNew){
+if (match(JsDocToken.COLON) && token == next()) { if (hasParameters) {
+ token = next(); } } else {
+if (match(JsDocToken.COLON) && token!= null) {
+if (match(JsDocToken.COMMA)) { next(); hasParams;
+ if (isThis && token == null) {
+if (match(JsDocToken.COMMA)) { tokenStr =
+if (match(JsDocToken.COLON)) { isThis = false;
+if (match(JsDocToken.COLON) { if (hasParams)
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { }
+ token = next(); if (hasParams)
+ if (isThis && isNew && match(JsDocToken.COLON)) {
+if (match(JsDocToken.CONTEXTOR)) {
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) { } }
+ token = next(); } if (!match(JsDocToken.COLON)) {
+ if (isThis == true && match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) &&! isThis &&! isNew) {
+if (match(JsDocToken.COLON) || hasParams) {
+ token = next(); if (isNew){
+ if (isThis || isNew || isThis) {
+ if (isThis && isNew && (token.COLON)) {
+ if (token.match(JsDocToken.COLON)) {
+ if (isThis &&!hasParams) {
+if (match(JsDocToken.COLON) &&! isThis &&!! isNew) {
+if  (isThis == "this") {
+if (match(CNAME)) {
+ return null; } else { if (token.match(JsDocToken.COLON)) {
+if (match(JsDocToken")) {
+if  (isThis == true)
+ if (isThis == false) {
+if (match(JsDocToken.COLON) &&! isThis &&! isNew && isThis) {
+ token = next(); } else if (!match(JsDocToken.COLON)) {
+ token = next(); } else { hasParams = false
+ next(); } else if (isThis && new) {
+ isThis = "this".equals(tokenStr); } if (isThis || isNew) { else
+if (match(JsDocToken.COLON) || isNew) { if (isThis == true) {
+ token = next(); } } else{
+if (match(JsDocToken.COLON) || isThis && isNew) {
+if (match(JsDocToken.COLON) && (isThis || (isNew))) {
+if (match(JsDocToken.COLON) || token == next()) { if (isNew) {
+ if (isNew && match(JsDocToken.COLON)) {
+ if (isThis && token == JSDocToken.COLON)) {
+ isThis = "this".equals(tokenStr); } if (isThis && isNew) { }
+ token = next(); if (hasParams)
+if (match(JsDocToken.COLON) || isNew) { if (isThis!= null) {
+if  (isThis == "new") {
+ if (match(JsDocToken.NP.COLON)) {
+ if (hasEOLs) {
+ if (isThis == true &&!match(JsDocToken.COLON)) {
+if (match(JsDocToken.COMMA)) { currentToken =
+if (match(JsDocToken.COMMA)) { tokenStr }
+ if (isThis && isNew(Token.COLON)) {
+if (match(JsDocToken.COLON) || isThis ||!isNew) {
+if (match(JsDocToken.COMMA, isNew)) {
+if (hasParams) { hasParams = false
+if (match(JsDocToken.COLON) && (isThis || isNew)!= null) {
+ return null; } if (!match(JsDocToken.COLON)) {
+ next(); skipEOLs(); token = next(); } else { token = next(); } } else { }
+ if (isThis!= isNew) {
+if (match(JsDocToken.CUSTOMIZED)) {
+ token = next(); if (isNew) if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || isThis || isNew || isThis) {
+if (match(JsDocToken.COLON)) { token = next(); } else
+if (match(JsDocToken.COLON) && isThis && isNew == true) {
+ token = next(); return null; } else
+ return null; } } else { if (!match(JsDocToken.COLON)) {
+ if (token == ":"){
+ token = next(); continue ; } } else
+ isThis = "this".equals("tokenStr); }
+ return null; } if (isNew { if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && token == next()) {
+ } else{
+ next(); } else { if (token == match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && (isThis || isNew) == true) {
+ token = next(); skipEOLs(); }
+if (match(JsDocToken.COLON) || (isThis && isNew) == false) {
+if (isThis && isNew) { isThis =
+ isThis = "this".equals(token);
+if  (hasParams == true)
+if (match(JsDocToken.COLON) && (isThis || isNew) == ':') {
+ isThis = "this".equals(this);
+ isThis = false; } else { isThis = true;
+ token = next(); } else if (isThis) {
+if (match(JsDocToken.COMMA)) { hasParams &&
+ token = next(); if (isThis)
+if (match(JsDocToken.COLON) && (isThis || isNew) == ":") {
+ token = next(); } else { token = next();
+ if (match(JsDocToken.L.COLON)) {
+ if ( (token.COLON)) {
+ return null; if (match(JsDocToken.COLON)) {
+ if (matchToken.COLON)) {
+ while (match(JsDocToken.COLON)) {
+if (match(JsDocToken.CUSTOMED_TYPE)) {
+ token = next(); } else { } if (match(JsDocToken.COLON)) {
+if  (hasParameters)
+if (match(JsDocToken.COLON) || isNew) { if (isThis == false) {
+ token = next(); } else { } if (!match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && isThis && isNew!= null) {
+ if ((JsDocToken.COLON)) {
+if  (isThis == false)
+ return null; } } else if(match(JsDocToken.COLON)) {
+ if (token == "{"){
+if (match(JsDocToken.COLON))  { next(); skipEOLs(); } else
+if (match(JsDocToken.COLON)) { if (isThis) token =
+ if (isThis == false &&!match(JsDocToken.COLON)) {
+ if (match(token.COLON)) {
+if (match(JsDocToken.COLON) { hasParams = true
+if (match(JSDocToken)) {
+if (match(JsDocToken.COLON) { token = next(); } else
+ continue; } if(match(JsDocToken.COLON)) {
+ } if (match(JsDocToken.COLON)) {
+if  (!hasParams)
+if (match(JsDocToken.OPERATOR)) {
+if (match(JsDocToken.COLON) || (isThis && isNew) || isNew) {
+ return null; } else { if (!match(JsDocToken.COLON)) {
+ hasParams = false;
+if (match(JsDocToken.COLON) || (isThis &&!isNew) {
+ token = next(); } else { token = next;
+if (match(JsDocToken.COLON) && isThis && isNew == false) {
+ if (isThis && isNew &&! match(JsDocToken.COLON)) {
+ return null; } else { if (match(JsDocToken.COLON)) {
+ if (hasParams) { if (matchJsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || token == null) {
+if (match(JsDocToken.COLON) || (isThis && isNew) == true) {
+if  (isParams)
+ if (!matchJsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || (isThis || isNew)) {
+if (match(JsDocToken.COLON) && (isThis || isNew) == ' ') {
+if (match(JsDocToken.COLON)) { token = next(); hasParams &&
+ next(); } else { if (!match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || isNew || isThis) {
+if (match(JsDocToken.COLON) { token = next();
+ if (isThis || match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) { isThis = false;
+if (match(JsDocToken.COLON) { if (isNew) token =
+ if (token == Token.COLON)) {
+if  (isNew == true)
+if (match(JsDocToken.COLON)) { currentToken =
+ if (is(this)) {
+ token = next(); } else { } else
+if  (isThis!= null)
+ if (isThis && token == ":") {
+ currentToken = tokenStr; if(match(JsDocToken.COLON)) {
+if (isThis || isNew) { isThis =
+ if (matches(JsDocToken.COLON)) {
+ isThis = false; } else {
+if (match(JsDocToken.COLON) { next(); hasParams =
+if (match(JsDocToken.COLON) && isThis) {
+ if match(JsDocToken.COLON)) {
+if (match(JsDocToken.CUSTOMED_NAME)) {
+if (match(JsDocToken.COLON) && isThis ||!isNew) {
+if (match(JsDocToken.COLON) { if (isThis) token =
+ if (isThis && token.match(JsDocToken.COLON)) {
+ return reportTypeSyntaxWarning("missing.paren"); }
+ if (match(CALL)) {
+if (match(JsDocToken.COLON, token, next)) {
+ token = next(); continue; } else
+ isThis = false; token =
+ if (isThis && token == this) {
+if  (!isThis)
+ isThis = false; } token =
+if (match(JsDocToken.COLON) { token = next(); hasParams &&
+if (match(JsDocToken.COLON) || match(JsDocTokenNL) {
+if (match(JsDocToken.COLON) &&!hasParams) {
+if (match(JsDocToken.COLON) || token == ":") {
+if (match(JsDocToken.COLON)) { hasParams &&
+ if (match(colon)) {
+ if (isThis == null) {
+ if (match(JSDocToken.COLON)) {
+if (isNew &&! match(JsDocToken.COLON)) {
+ if (token == JsDocToken.){
+if (match(JsDocToken.COLON) && token == ":") {
+ token = next(); if (isNew)
+ if (match(NSCOLON)) {
+ if (!isThis && match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON)) { isThis =
+ hasParams = false
+if (hasParams || match(JsDocToken.COLON)) {
+if (match(COMMA)) {
+if (match(JsDocToken.COLON) || (isThis && isNew))) {
+ if (isParams)) {
+if (match(JsDocToken.COLON) || isNew) { if (hasContext) {
+if (match(JsDocToken.COLON) && token == null) {
+if (match(JsDocToken.COLON)) token =
+ if (token!= match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) || isNew) { if (hasThis) {
+if (match(JsDocToken.COLON) || token == next()) {
+ if (hasParameters)) {
+if (isThis &&!isNew) token =
+if (match(JsDocToken.COLON) && isThis!= isNew) {
+if (match(JsDocToken.COLON) { next(); skipEOLs(); } else
+if (match(ContextType)) {
+if (match(JsDocToken.COLON)) { tokenStr }
+ if () {
+if (match(JsDocToken.COLON) { tokenStr =
+if (match(JsDocToken.COLON) || isParams) {
+if (hasParams) { var token =
+ isThis = false;
+ if (is(token)) {
+if (match(JsDocToken.COLON)) { }
+ if (isNew)) {
+ if (match(CMA)) {
+ if (isNew) if(match(JsDocToken.COLON)) {
+ token = next();{
+if (hasParams) { hasParams &&
+ if (is(true)) {
+ while (token && match(JsDocToken.COLON)) {
+ if (token == JsDocToken."){
+if (match(JsDocToken.COLON) && isParams) {
+ hasParams = false; }
+if (match(JsDocToken.COLON) && token == next()) { if (debug) {
+if (match(JsDocToken.COLON) { tokenStr }
+ if (match(PCOLON)) {
+if (match(JsDocToken.COLON) || match(JsDocToken)) {
+ if (debug){
+ if (match(LCOLON)) {
+ next(); } } else if(match(JsDocToken.COLON)) {
+ continue; } if (!match(JsDocToken.COLON)) {
+ if (tokenStr == match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && isThis && isNew && isNew) {
+ isThis = "this".equals(tokenStr); } }
+if (hasParams) { hasParams = true
+ next(); skipEOLs(); while(match(JsDocToken.COLON)) {
+if (match(JsDocTokenNP)) {
+ return null; if (!match(JsDocToken.COLON)) {
+ currentToken = tokenStr; }
+if (match(JsDocTokenWS)) {
+ return ; } if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON))) { token =
+if  (isNew)
+ if (!COLON)) {
+if (match(JsDocToken.COLON) ||!hasParams) {
+ next(); } else if (match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON) && (isThis || new) {
+if (match(JsDocToken.COLON) || isNew) { if (loop) {
+if (match(JsDocToken.COLON) && isThis!= null) {
+ while (true) {
+ if (!match.COLON)) {
+ while (token == JSDocToken.COLON)) {
+ if (match(.COLON)) {
+if (match(JsDocTokenCR)) {
+ if (!hasParams) {
+if (match(JsDocToken.COLON)) { isThis }
+ if (hasParams.match(JsDocToken.COLON)) {
+ if (!token.match(JsDocToken.COLON)) {
+if (match(Context)) {
+ if ( (Token.COLON)) {
+if (match(JsDocToken.COLON) { hasParams &&
+ hasParams =
+ break; }
+ } else if(match(JsDocToken.COLON)) {
+ token = next(); }{
+ token = next(); } }
+if (match(NL))
+ if (!isCOLON)) {
+ return null; } } else
+ while (token!= null) {
+ currentToken = tokenStr;
+if (match(JsDocToken.COLON) || (isThis && new) {
+ if (loop){
+ next(); return null; } else
+if (match(JsDocToken.COLON) && token == ':') {
+ if (new){
+ if (match(NCOLON)) {
+if (match(JsDocToken.COLON)) { hasParams;
+if (match(JsDocToken.COLON) { currentToken =
+if (match(JsDocToken.COLON) || (isThis == true) {
+if (match(NL)) {
+if (isCurrent) {
+if (tokenStr.is(JsDocToken.COLON)) {
+ if (new{
+ token = next(); while(match(JsDocToken.COLON)) {
+ if (()) {
+if (match(JsDocToken.COLON) token =
+ token = next; if(match(JsDocToken.COLON)) {
+ break; } if(match(JsDocToken.COLON)) {
+ return null; } else if(match(JsDocToken.COLON)) {
+ if (!(COLON)) {
+ return null; }
+ token = next(); else
+ token = next(); } else { token =!
+if (match(\"\")) {
+if (match(JsDocToken.COLON) || token == "{") {
+ } else if (!match(JsDocToken.COLON)) {
+ token = next(); } else { token = [];
+if (match(JsDocToken.COLON) || token == ':') {
+if (match(JsDocToken.COLON) || token!= null) {
+if (match(JsDocToken.COLON) { isThis =
+ token = next;
+if  (new)
+if (match(JsDocToken.COLON) && token == next(true)) {
+if (match(JsDocString)) {
+ hasParams;
+if  (isThis &&!isNew) { return
+ while (true)) {
+ } if (!match(JsDocToken.COLON)) {
+if (match(CG)) {
+ } } else{
+if (match(CRON))
+if  (optional)
+if (match(JsDocToken.COLON) && token == next) {
+if (match(JsDocToken.COLON)))) { token =
+if (match(JsDocToken.COLON) ||!isNew) {
+ (match(JsDocToken.COLON)) {
+if  isThis {
+ if (!(JsDocToken.COLON)) {
+ if (loop)) {
+if (match(JsDocNL)) {
+if (match(JsDocToken.COLON) { hasParams;
+ isNew ; } if(match(JsDocToken.COLON)) {
+if (match(ctx)) {
+ if (wrapper)) {
+ while () {
+ if ((COLON)) {
+if  (continue)
+if (hasParams) { var token;
+if (match(JsDocToken.COLON) || isThis) {
+ if (!token.COLON)) {
+ return; }
+ if ()) {
+if  (true)
+ while (match(COLON)) {
+if (current.match(JsDocToken.COLON)) {
+ continue; if(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON")) { token =
+if (matchContextType)
+if (matchThis)
+if (hasParam)
+ case Token.COLON)) {
+ next(()) {
+ if (!)) {
+if (match(JsDocToken.COLON)))) token =
+if (matchContext) {
+if  (...)
+ if (debug{
+ try { if(match(JsDocToken.COLON)) {
+if (isMatch(JsDocToken.COLON)) {
+ while (!match(JsDocToken.COLON)) {
+ continue } if(match(JsDocToken.COLON)) {
+if (matchContextTypes)
+if (matchContext)
+ if (match("COLON)) {
+if (matchNew)
+ } } else
+if (match(JsDocToken.COLON))) token =
+if (match(NP))
+ } else
+if (matchContextType())
+ if (!JsDocToken.COLON)) {
+if (matchCase)
+if (empty)
+ switch ($.COLON)) {
+ else if (match(JsDocToken.COLON)) {
+ (token.COLON)) {
+if (match(CR))
+if (matchCurrent)
+ else if (!match(JsDocToken.COLON)) {
+ if ((.COLON)) {
+if  (!)
+if (match(JsDocToken.COLON))) {
+ if (!) {
+if  ()
+if  ( {
+if (match(NEW))
+if (match(CG))
+ if (_COLON)) {
+ switch ((.COLON)) {
+if (match(JsDocToken.COLON) == true)
+ if (=) {
+if (match(JsDocToken.COLON) == false)
+if (match(JsDocToken.COLON))  { Token =
+if (match(JsDocToken.) {
+if (match(JsDocToken)+ {
+ try {
+if (match(JsDocToken.COLON))  { character =
+if (match(JsDocToken.COLON)) { return
+if (match(JsDocToken.COLON) && hasParameters) {
+ if (!{
+if (match(JsDocToken.COLON) && isNext) {
+if (match(NP)) {
+if (match(JsDocToken.COLON) || isNext) {
+if (match(JsDocToken.COLON)))) {
+if (match(NS)) {
+if (match(JsDocToken.COLON) { }
+if (match(JsDocToken.COLON) && isCurrent) {
+if (match(JsDocToken.COLON")) {
+if (match(JsDocToken.COLON) || hasNew) {
+if (match(WS)) {
+if (match(JsDocToken.COLON) || hasParameters) {
+ } }
+if (match(CR)) {
+if (match(JsDocToken.COLON) { {
+ } while(match(JsDocToken.COLON)) {
+if (match(JsDocToken.COLON))  token;
+ else
+ }
+if (is(JsDocToken.COLON)) {
+if (case(JsDocToken.COLON)) {
+if (matched(JsDocToken.COLON)) {
+if (parse(JsDocToken.COLON)) {

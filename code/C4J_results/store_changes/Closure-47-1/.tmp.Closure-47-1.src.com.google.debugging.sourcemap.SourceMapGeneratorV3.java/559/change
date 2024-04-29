@@ -1,0 +1,670 @@
+visit(v, m, nextLine, nextCol);
+visit(v, m);
+visit(v);
+visit(v, m, nextLine,  nextCol); }
+ visit(v, nextLine, nextCol);
+visit(v, nextLine);
+visit(v, m, nextLine, nextCol, nextLine);
+ maybeVisit(v, m, nextLine, nextCol);
+visit(v, parent, m, nextLine, nextCol);
+visit(v, m,  nextLine);
+ visit(v, m, nextCol);
+visit(v, m, parent, nextLine, nextCol);
+visit(v, m,  nextLine); }
+visit(v, m, nextLine, nextCol, nextLine); }
+visit(v, m, nextLine, nextCol, nextLine, nextCol);
+visit(v, parent, nextLine, nextCol, nextLine);
+ maybeVisit(nextLine, nextCol);
+visit(v, m,  nextLine, col);
+visit(v, parent, nextLine, nextCol); }
+ visit(m, nextLine, nextCol);
+visit(v, parent, nextLine, nextCol);
+ visit(v, parent, nextLine, nextCol, nextLine); }
+visit(v, m, nextLine, nextLine, nextCol);
+ visit(v, nextCol);
+visit(v, parent, nextLine, nextCol, m);
+ visit(v, m, nextLine, nextCol); } } else {
+visit(v, parent, v, m, nextLine, nextCol);
+ maybeVisit(m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol); } }
+ visit(v, m, line,nextCol);
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol ) {
+ visit(v, parent, nextLine, nextCol); } }
+visit(v, m, parent);
+visit(v, m, line, col);
+ visit(v, m, nextLine, nextCol); } else {
+ maybeVisit(v, nextLine, nextCol);
+visit(v, m, nextLine,  nextCol, nextLine, nextCol); }
+ visit(v, m, nextLine, nextCol); } if ( col < next ) {
+visit(v, v, m, nextLine, nextCol);
+ visit(v, m, nextLine, nextCol); } if ( col < nextLine + 1 ) {
+ visit(v, m, nextLine, nextCol); } else
+ visit(v, m, nextLine, nextCol); } if ( nextCol ) {
+ visit(v, m, nextLine, nextCol); } else if ( col < nextCol ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine + 1) {
+visit(v, parent, nextLine); }
+ visit(v, m, nextLine, nextCol); } if ( col < nextLine && nextCol ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol || (col == nextCol)) {
+ visit(v, parent, nextLine, nextCol, m.endPosition);
+ visit(v, parent, nextLine, nextCol); } } else {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol || (line == nextLine)) {
+ visit(v, m, nextLine, nextCol); }
+ visit(v, m, nextLine, nextCol); } if ( col < nextLine || nextCol ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine && nextCol) {
+visit(v, m, nextLine, nextCol) ; } else { return false ;
+ visit(v, parent, nextLine, nextCol, nextLine); } }
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || (col == nextCol ) ) {
+ visit(v, parent, nextLine, nextLine, nextCol); } }
+ visit(v, m, nextLine, nextCol); } } } else {
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || (line == nextLine ) ) {
+ visit(v, m2, nextLine, nextCol);
+visit(v, m, nextLine, nextCols);
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || (col == nextCol + 1)) {
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || nextCol == nextLine ) {
+ visit(v, m, nextLine, nextCol); } } else { return
+visit(v, parent, nextLine, nextCol, m, false);
+ visit(v, parent, nextLine, nextLine, nextCol); }
+ return false;
+visit(v, parent, nextLine, nextCol, m, true);
+ write(nextCol);
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || (line == nextLine && col)) {
+ visit(v, m, nextLine, nextCol); if (col < nextCol) {
+visit(v, parent, nextLine, m, nextLine, nextCol);
+visit(v, parent, nextCol, v, m, nextLine, nextCol);
+ visit(v, parent, nextLine, nextCol, nextCol); }
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine && col > 0) {
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || nextCol == 0 ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol || (col == nextCol)) { return
+ visit(v, m, nextLine, nextCol); if (col < nextCol)
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol || nextCol == 0) {
+visit(v, parent, nextLine, col);
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol)
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine || nextCol) {
+visit(v, parent, nextLine);
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine && nextCol)) {
+ visit(v, m, nextLine, nextCol); } else if ( nextCol ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol && col > 0) {
+visit ( v, m )
+ visit(v, parent, nextLine, nextCol) ; } return true ;
+ traverse(v, m, nextLine, nextCol); } } else {
+ write(nextLine, nextCol);
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine || nextCol)) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol ) { return
+ visit(v, parent, nextLine, nextCol, nextCol);
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine && nextCol > 0) {
+ visit(v, m, nextLine, nextCol); } if ( col > 0 ) {
+visit(v, parent, nextLine, nextCols);
+ visit(v, parent, nextLine, nextCol, m); }
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol || nextCol == null ) {
+visit(v, parent, nextLine, m);
+ visit(v, m, nextLine, nextCol); } else if ( col < next ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol || nextCol == null) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine && col > nextCol)
+visit ( ) ;
+ visit(v, parent, nextLine, nextCol); } else {
+visit(v, m, nextLine, nextCol, nextLine, nextCol, nextLine);
+ visit(v, m, nextNextLine,nextCol);
+visit(v, m.endPosition, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; return true ;
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol ) { } else {
+ visit(v, m, nextLine, nextCol); } if ( col > next ) {
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol ) { return
+ visit(v, m, nextLine, nextCol); } else if (col < nextLine + 1)
+visit(v, parent, nextLine, nextCol, m, null);
+ visit(v, m, nextLine, );
+ visit(v, m, nextLine, nextCol); } if ( nextLine ) {
+ visit(v, m, nextLine, nextCol); } else if (col < nextCol && nextLine > 0) {
+ v.write(m);
+ visit(v, parent, nextLine, nextCol) ; return true ;
+ visit(v, m, nextLine, nextCol); } else if ( col < nextCol ) { }
+visit(v, m, nextLine, nextCol, true);
+visit(v, m, nextLine, nextCol++);
+visit(v, m, nextLine, nextCol, nextLine); } }
+visit(v, m, nextLine, nextCol) ; } return true ;
+ visit(v, m, nextLine, nextCol); } if ( col < nextCol ) { }
+visit(v, m, nextLine, nextCol, false);
+ visit(v, parent, nextLine, nextCol); } else
+visit(v, m, nextLine, nextCol, null);
+ visit(v, m, nextLine, nextCol);
+visit(v, m,  nextLine, nextCol, nextCol); }
+visit(v); }
+visit(v, parent, nextLine, nextLine, nextCol);
+visit(v, parent, nextLine, v, m, nextLine, nextCol);
+ visit(v, m, nextLine, +nextCol);
+visit(v, parent, nextLine, nextCol, m, v);
+ visit(v, parent, nextLine, nextCol); } } else { return
+ visit(v, m, nextLine, col;
+ visit(v, m.endPosition, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { return - 1 ;
+visit(v, parent, nextLine, nextCol, m.offset);
+visit(v, m, nextCol, v, m, nextLine, nextCol);
+visit(v, m, parent, nextLine, nextCols);
+ visit(v, m, nextLine, nextCol); } if (reverse) {
+ visit(v, m), nextLine, nextCol);
+visit(v, parent, nextLine, nextCol++);
+visit(v, m, nextLine, nextCol, nextCol);
+ write ( v, m, nextLine, nextCol ) ;
+ visit(v, m, parent, m, nextLine, nextCol);
+ visit(v, m, parent, nextLine, nextLine, nextCol);
+ visit(v, parent, nextLine, nextCol); }
+ visit(v, m, parent, m.nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { write ( m ) ;
+ write ( v, m ) ; }
+visit(v, m, parent, nextLine, col, nextCol);
+visit(v, m, nextLine, nextCol) ; return ;
+ write ( v, m, nextLine, nextCol )
+ if (line < nextLine && col < nextCol)
+ write ( v, m, nextLine ) ;
+visit(v, m,  nextLine, nextLine, nextCol); }
+ print(v, m, nextLine, col);
+ visit(v, m, nextLine, nextCol); } if ( recursive ) {
+ visit(v, m, nextLine, nextCol); } } } else { return
+ write(v, m,nextCol);
+ visit(v, parent, nextLine + 1, m, nextLine, nextCol);
+ visit(v, parent, nextLine, m;
+ visit(v, m, nextLine;
+ if (line < nextLine && col < nextCol)) {
+visit(v, m, nextLine, nextCol, parent, m);
+ write(v, m, nextLine, col);
+ visit(v, m, nextLine, -nextCol);
+ visit(v, m, nextCol,nextLine, nextCol);
+visit(v, m, parent, nextLine + 1, nextCol);
+ if (line < nextLine && col < nextCol)) { }
+ visit(v, m, nextLine, ++nextCol);
+visit(v, m, nextLine, nextCol) ; } return false ;
+visit(v, m, nextLine, nextCol, nextCol); } else { return false ;
+visit(v, parent, m, v, m, nextLine, nextCol);
+ write ( v, m, nextLine, col )
+visit(v, m, nextLine, nextCol) ; } else { return ;
+visit(v, m, nextLine, nextCol, nextLine, nextCol); } }
+visit(v, m, nextLine, nextCol) ; return false ;
+ write ( v, m, nextLine )
+ return - 1;
+visit(v, m, nextLine, 0);
+ if (line == nextLine && col == nextCol)) { }
+ visit(v, m1, nextLine, nextCol);
+ visit(v, m, m, nextLine, nextCol);
+ print(v, m, line, col);
+visit(v, m2, m, nextLine, nextCol);
+visit(v, m.startPosition, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { return false ; }
+ (v, m, nextLine, nextCol);
+ visit(v, m) ; } visit(m, nextLine, nextCol);
+ visit(v, parent, nextLine, col, m, nextLine, nextCol);
+ if (line == nextLine && col == nextCol)) {
+ visit(v, parent, line,nextCol);
+ visit(v, parent, m.endPosition, nextLine, nextCol);
+ write(v, m, line, col);
+ visit(v, m, -nextLine, nextCol);
+ visit(v, m, nextLine ++, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { write ( m ) ; }
+ visit(v, parent, nextLine, +nextCol);
+visit(v, parent, nextLine, nextCnt);
+visit(v, m,  nextLine, nextCol) ; } } }
+ visit(v, m) ; } visit(v, m, nextLine, nextCol);
+ visit(v, m, parent, 0,nextLine, nextCol);
+ nextLine, nextCol);
+visit(v, parent, m);
+visit(v, m, 0);
+visit ( v, m ) ; }
+ write(v, nextLine,nextCol);
+ if (col < nextCol)
+visit(v, m, newLine, nextCol, nextLine);
+ visit(v, mapping,nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; updateCurrentPosition ( nextLine ) ;
+ visit(v, m) ; visit(m, nextLine, nextCol);
+ print(v, m, nextLine,nextCol);
+ v.write(nextCol);
+ write(v, m, line,nextCol);
+ visit(v, parent, m.nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } return nextLine ;
+visit(v, m, nextLine, line);
+ visit(v, parent, nextLine, nextCol);
+ v.write(nextLine, nextCol);
+ visit(v, m, nextLine-nextLine, nextCol);
+ print(v, m, nextLine);
+visit(v, m, nextLine, nextCol) ; } else { return false ; } }
+visit(mappingVisitor, v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; updateCurrentPosition ( ) ;
+ write(v, m, nextLine, );
+ visit(v, m, nextLine,, nextCol);
+ visit(v, m.startPosition, nextLine, nextCol);
+ print(v, m, line,nextCol);
+ visit(v, m, nextLineLine, nextCol);
+ visit(v, m, 0,nextCol);
+ if (line < nextLine && col < nextCol) {
+ visit(v, parent, m.startPosition, nextLine, nextCol);
+ v. write ( m ) ; }
+ visit(v, m, nextLine, 0;
+ writeMapping(v, m, nextLine, nextCol);
+ if (line == nextLine && col == nextCol)
+ visit(v, parent, m,m, nextLine, nextCol);
+ print(v, nextLine,nextCol);
+ write (v, m, nextLine); write(v, m, nextLine, nextCol);
+ visit(v, m, parent, line-nextLine, nextCol);
+ visit(v, m) ; visit(v, m, nextLine, nextCol);
+ if (line == nextLine && col == nextCol)) { } }
+ visit(v, m) ; return true;
+visit(v, m, nextLineCol);
+ if (line < nextLine) { visit(v, m, nextLine, nextCol);
+ if (line < nextLine) { maybeVisit(v, m, nextLine, nextCol);
+ visit(v, m, nextCol-nextLine, nextCol);
+ if (nextLine < nextCol) {
+visit(v, m, nextLine,  nextCol) ; } else { return true ;
+ visit(v, m, m.nextLine, nextCol);
+visit(v, m, line);
+ if (line < nextLine && col < nextCol)) { } }
+visit(v, m, 0, 0);
+visit(v, parent, nextCol, m, nextLine, nextCol);
+ v.append(nextCol);
+visit(v, m, nextLine, nextCol, nextLine); } else { return false ;
+visit(v, m, nextLine, nextCol, nextLine + nextCol ) ; }
+ write(v, m, parent);
+ visit(v, m, parent, line,nextLine, nextCol);
+visit(v, m, nextCol, m, nextLine, nextCol);
+ v. write ( nextLine ) ;
+ visit(v, m) ; update(v, nextLine, nextCol);
+ visit(v, m, nextLine); visit(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; update ( m ) ;
+ if (line < nextLine) {
+ visit(v, m, nextLine, nextCol); } } } else { {
+ v.append(m);
+visit(v, m, parent, v, m, nextLine, nextCol);
+ visit(v, parent, nextLine, -m, nextLine, nextCol);
+ print(v, m,nextCol);
+ visit(v, m, parent, nextCol, nextLine, nextCol);
+visit(v, m, nextLineLine);
+visit(v, m, nextLine, nextLine, nextCol); } } }
+ if (line < nextLine && col > nextCol)
+ visit(v, -nextLine, nextCol);
+ visit(v, parent, m, 0,nextLine, nextCol);
+ visit(v, parent, nextLine, +m, nextLine, nextCol);
+ write (v, m); } write(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { writeOut ( m ) ;
+ visit(v, m, nextLine, nextCol); } } else { } else
+visit(v, m.endPosition, v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, parent, nextLine);
+visit(v, m, nextLine, nextCol) ; updateCurrentPosition ( m ) ;
+ (v, nextLine, nextCol);
+ visit(v, m, nextLine); (v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { skip ( nextLine ) ;
+visit(v, nextLine, v, m, nextLine, nextCol);
+ visit(v, parent, parent,m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, line, nextCol);
+ visit(v, parent, nextLine, m, nextCol);
+ if (line < nextLine && col < 0)
+ write(v, m, nextLine;
+ if (col < nextCol) {
+ visit(v, parent, nextLine, _m, nextLine, nextCol);
+visit(v, m, null);
+ visit(v, parent, m.m, nextLine, nextCol);
+visit(v, m, parent, nextLine, line, nextCol);
+ visit(v, m, nextLine, parent, m, nextLine, nextCol);
+ visit(v, parent, null,m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { write ( v, m )
+visit(v, m, nextLine col);
+ write(v, m);
+ visit(v, m); maybeVisit(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { write ( nextLine ) ;
+ write(v, nextLine);
+visit(v, m, nextLine, nextCol) ; } else { write ( ) ;
+ if (m!= null) { visit(v, m, nextLine, nextCol);
+visit(v, m1, m, nextLine, nextCol);
+ write (v, m); write(v, m, nextLine, nextCol);
+ if (line < nextLine)
+visit(v, parent + 1, m, nextLine, nextCol);
+ write(v, m, parent,nextLine, nextCol);
+ if (line < nextLine && col > 0)
+ visit(v, m); } else visit(v, m, nextLine, nextCol);
+ visit(v, m, nextLine); write(v, m, nextLine, nextCol);
+ visit(v, m, --nextLine, nextCol);
+ visit(v, parent, nextLine, line, nextCol);
+ visit(v, parent) ; visit(m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { return true ; }
+ visit(v, m, line); } visit(v, m, nextLine, nextCol);
+ write(v);
+visit(v2, m, nextLine, nextCol);
+ if (nextLine) {
+visit(v, m, nextLine, nextCol) ; return nextLine ;
+ if (line < nextLine || nextCol)) {
+visit(v, parent, 0, m, nextLine, nextCol);
+ writeLine(nextCol);
+ print(v, m, parent);
+ if (nextLine < nextCol) { }
+ visit(v, m.nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { print ( m ) ;
+ if (nextLine < nextCol)
+ visit(v, parent, nextLine, *m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } else { write ( v ) ;
+visit(v m);
+visit(v, parent, 0, v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, nextLineCol);
+ return true;
+ print(v, nextLine);
+ m.endPosition = nextLine;
+visit(v, m.startPosition, v, m, nextLine, nextCol);
+ v, m, nextLine, nextCol; }
+ visit(v, parent, "end",m, nextLine, nextCol);
+ visit(v, m, _m, nextLine, nextCol);
+ visit(v, parent, nextLine;
+ write (v, m, next );
+ v, parent, nextLine, nextCol =
+visit(v, parent + 1, v, m, nextLine, nextCol);
+ v.writeNext(m);
+visit(v, m, nextLine, nextCol, nextLine, nextCols);
+visit(v, m, true);
+ write (v, parent, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, nextLine, nextCol++);
+ visit(v, parent); } visit(v, m, nextLine, nextCol);
+ if (nextLine < nextCol)) {
+visit(v, m, nextLine, nextCol, nextLine, nextLineCol);
+ writeMapping(m, nextLine, nextCol);
+ visit(v, parent); write(v, m, nextLine, nextCol);
+ write (v, m;
+ visit(v, parent); visit(v, m, nextLine, nextCol);
+ if (line < nextLine && col) {
+ visit(nextLine, nextCol);
+visit(v, m, nextLine, nextLine, nextCols);
+ write (v, m); } else write(v, m, nextLine, nextCol);
+ writeEntry(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; v. flush ( ) ;
+ if (line < nextLine) { }
+ v.writeLine(nextCol);
+ v.writeLine(line);
+ if (line < nextLine && col++) {
+visit ( m ) ;
+ if (col < nextCol)) {
+ print(v, m);
+visit(v, m, nextLine, line, nextCol);
+ visit(v, m) ; write(v, m, nextLine, nextCol);
+visit(v, nextLine, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, 0);
+ visit(v, m, -m, nextLine, nextCol);
+visit(v, m,  newLine, nextCol); }
+visit(v, m, nextLine, nextCol) ; } return ;
+ if (nextCol) {
+ if (nextLine > nextCol) {
+ v.writeInt(nextCol);
+ if (nextLine < nextLine)
+ doVisit(v, m, nextLine, nextCol);
+ if (line < nextLine) return;
+ visit(v, m, prevm, nextLine, nextCol);
+ writeV, m,nextLine, nextCol);
+ write (v, m) return;
+visit(v, m, nextLine, nextCol, m.endPosition);
+ if (nextLine < nextCol) return;
+visit(v, m, nextLine, nextCol, nextLine, nextCol2);
+ write (v, m, );
+ visit(v, m.nextCol);
+visit(v, parent, nextCol);
+ visit(v, mappings, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; v. close ( ) ;
+ visitV, m, nextCol);
+ if (prev!= null) { visit(v, m, nextLine, nextCol);
+ write(v, nextCol);
+visit(v, m, newLine, nextCol);
+ visit(v, parent, 0.0, m, nextLine, nextCol);
+ write(v, m.nextCol);
+visit ( )
+ visit(v, m, parent.line, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, m.offset);
+visit(v, m, nextLine, nextCol, nextLine + 1);
+ writeMappingEntry(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, nextLine + nextCols);
+ if (prev!= null)
+ if (m!= null) visit(v, m, nextLine, nextCol);
+ visit(v, _m, nextLine, nextCol);
+ visit(v, m, parent, 0, m, nextLine, nextCol);
+ visitV(v, nextCol);
+ doWrite ( v, parent, m, nextLine, nextCol);
+visit(mapping, v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; } } } ;
+ v.line(nextLine, nextCol);
+visit(v, m, newLine, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, m.length);
+ v.skip(nextCol);
+ write (v, parent); write(v, m, nextLine, nextCol);
+ writeOutNextLine(nextCol);
+ write (v, m); } visit(v, m, nextLine, nextCol);
+ print(nextLine,nextCol);
+ if (nextLine < line)
+visit m ;
+visit(v, m, nextLine, nextCol) ; m = nextLine ;
+visit(v, mappings, m, nextLine, nextCol);
+ visit(v, +nextLine, nextCol);
+ visit(v, +m, nextLine, nextCol);
+visit(v, newLine);
+ visit(v, parent, m.line, m, nextLine, nextCol);
+ writeNextLine(nextCol);
+visit(v, m, nextLine, nextCol) ; updateCurrentPosition ( )
+ visit(v, -m, nextLine, nextCol);
+ writeEntry(v, nextLine, nextCol);
+ writeLine, nextCol);
+ if (nextLine > 0)
+ visit(v, --nextLine, nextCol);
+ printNextLine(nextCol);
+ visit(v, m, parent, null, m, nextLine, nextCol);
+ writeOut(nextCol);
+ writeOutMapping(v, m, nextLine, nextCol);
+ } else {
+ writeNext(v);
+ writeOutMapping(m, nextLine, nextCol);
+ v. write ( m ) return;
+ v.writeChar(nextCol);
+ write (m);
+ print(m);
+visit(MappingVisitor, v, m, nextLine, nextCol);
+visit(v, currentPosition, m, nextLine, nextCol);
+ visitV, m,nextLine, nextCol);
+visit(nextLine);
+ writeEntry(m, nextLine, nextCol);
+visit(v, m, newLine, newCol, nextCol);
+ visit(v, null,m, nextLine, nextCol);
+ writeOut(v);
+ writeNextMapping(m, nextLine, nextCol);
+ if (nextCol++) {
+visit(v, m, nextLine, nextCol, nextLine, null);
+ v.write(");
+ printMapping(m, nextLine, nextCol);
+visit(v, nextCol, v, m, nextLine, nextCol);
+ v. skip ( );
+ doWriteMapping(v, m, nextLine, nextCol);
+ writeLine(v);
+visit(v, parent);
+ writeEntries(v, m, nextLine, nextCol);
+visit(v, m,  newLine, newCol);
+ writeCol(nextCol);
+ v = m;
+ v.append(");
+ writeOut ( );
+visit(v, m,  line, nextCol); }
+ writeNextLineAndColMapping(v, m, nextLine, nextCol);
+ if (m!= null) write(v, m, nextLine, nextCol);
+ writeLine ( v, nextCol);
+ visit(v, parent, cv, m, nextLine, nextCol);
+ write (v); } visit(v, m, nextLine, nextCol);
+ write (m));
+ doVisit(v, nextLine, nextCol);
+ writeOut (m);
+ writeMappingEntries(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCnt);
+visit(v, m, m);
+ maybeVisitMapping(v, m, nextLine, nextCol);
+ writeNextLineAndCols(v, m, nextLine, nextCol);
+visit(v, parentPosition, v, m, nextLine, nextCol);
+visit(v1, m, nextLine, nextCol);
+ write(m, nextLine, nextCol);
+ doWriteEntry(v, m, nextLine, nextCol);
+ visit(v, parent, subv, m, nextLine, nextCol);
+ visit(v, m, cv, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, newLine, nextCol);
+visit v ;
+ writeMappingToEnd(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextLineCol);
+visit(v, m, nextLine, nextCol2);
+ visit(v, parent, mv, m, nextLine, nextCol);
+ writeLine(m);
+ writeOutMappingEntry(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; break ; }
+ write (m); } visit(v, m, nextLine, nextCol);
+ v.write(_);
+visit ( v )
+ writeNext(nextCol);
+visit(v, m, 0, nextLine, nextCol);
+ print(v);
+ writeOut(v, nextLine, nextCol);
+ doWriteEntry(m, nextLine, nextCol);
+visit(v, m, v, m, nextLine, nextCol);
+ writeNextEntry(v, m, nextLine, nextCol);
+visit(v, m, line, nextLine, nextCol);
+visit(mapping);
+visit(m, parent, v, m, nextLine, nextCol);
+ writeOverlapping(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, newLine, newCol);
+visit(v, m, nextLines, nextCol);
+ doMaybeVisit(v, m, nextLine, nextCol);
+ writeEntry(nextCol);
+ writeMappedEntry(v, m, nextLine, nextCol);
+ write (v); } write(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, nextLine, nextLine);
+visit(m2, m, nextLine, nextCol);
+visit(v, m,  newLine); }
+ for (nextLine)
+ doMaybeVisit(m, nextLine, nextCol);
+visit(v, m, nextLine, next);
+ write (m); } write(v, m, nextLine, nextCol);
+visit(m); }
+ write (v) ; visit(v, m, nextLine, nextCol);
+ maybeVisitMappingEnd(v, m, nextLine, nextCol);
+visit(m1, m, nextLine, nextCol);
+visit(v), m
+ continue ; }
+visit(m1, v, m, nextLine, nextCol);
+ if (visit)
+ if (visitor)
+ doVisit(m, nextLine, nextCol);
+ writeLine(nextLine, nextCol);
+ writeEntry(nextLine, nextCol);
+ writeNext(m, nextLine, nextCol);
+ } } else {
+ writeMappingInLine(v, m, nextLine, nextCol);
+ visit(parent,v, m, nextLine, nextCol);
+visit(m2, v, m, nextLine, nextCol);
+ maybeWriteEntry(v, m, nextLine, nextCol);
+ writeNext(v, m, nextLine, nextCol);
+ maybeVisitParent(v, m, nextLine, nextCol);
+ doWrite(nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; break ;
+visit(v, m, nextLine, nextCol) return true ;
+ skip(nextCol);
+ write (, nextLine, nextCol);
+ return ' ';
+ for (next line)
+ (v, nextCol);
+visit(mappings, v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) return false ;
+visit(v, m), nextLine);
+ doWrite(m, nextLine, nextCol);
+ return + 1;
+ if (!skipCurrent)
+visit(, m);
+visit(v,);
+ writeMappedEntries(v, m, nextLine, nextCol);
+ maybeWrite(nextLine, nextCol);
+ _write(v, m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol, nextLine2);
+visit ++ ;
+visit(v), m);
+ update(v, nextCol);
+ writeOutMappedEntry(v, m, nextLine, nextCol);
+ if (!skip)
+visit(v, m, nextLine,  newCol); }
+ this.
+ output(v, nextCol);
+visit ( m )
+visit(v, m, nextLine, nextCol));
+ writeOutMappingRange(v, m, nextLine, nextCol);
+ write (");
+ write();
+visit(m, nextLine);
+ traverse(v, m, nextLine, nextCol);
+ visit(nextCol);
+ if (necessary)
+visit(mv, m, nextLine, nextCol);
+visit(m2);
+visit(parent, m, v, m, nextLine, nextCol);
+visit(m, v);
+ visitv, m, nextLine, nextCol);
+ skip(nextLine, nextCol);
+visit(v, m, nextLine,  null);
+visit(Mapping, v, m, nextLine, nextCol);
+ traverse(v, nextLine, nextCol);
+ flush();
+ print(nextCol);
+visit(v, m, nextLine,  nextCol)); }
+ write(_);
+visit(v, m, nextLine, newCol);
+visit(v, m, nextLine, nextCol) return ;
+ output(nextCol);
+ print();
+ } else
+ updateLine, nextCol);
+ update(nextLine, nextCol);
+ write m, nextLine, nextCol);
+ output(nextLine, nextCol);
+ super.
+visit(v, m,  nextLine));
+ output(v, m, nextLine, nextCol);
+visit(v, currentPosition, nextLine, nextCol);
+visit(v, m,  newLine);
+ continue ; } return
+visit(v, m, nextLine, nextCol) } }
+ } else { return
+ return 0;
+ traverse(m, nextLine, nextCol);
+visit(v) }
+visit(v, m, nextLine, nextCol) break ;
+ output(m, nextLine, nextCol);
+ if any,
+visit(v, child);
+ write(", nextCol);
+ if ()
+ } }
+visit(v, m, nextLine,  nextCol)
+ maybeWrite(v, m, nextLine, nextCol);
+visit(v, m), ;
+visit(m, v, m, nextLine, nextCol);
+visit(v, m)) ;
+visit(v, m, nextLine, nextCol, newLine);
+ return 1;
+visit(v, m, nextLine)); }
+ } return
+visit(v, m). }
+ MaybeVisit(v, m, nextLine, nextCol);
+ return null;
+visit(v, m, nextLine, nextCol, m);
+ print(m, nextLine, nextCol);
+visit(v, m, nextLine, nextCol) ; return
+ return
+visit(v, m, nextLine, nextCol, currentPosition);
+visit(v, m, nextLine, nextCol, currentLine);
+ visitor(v, m, nextLine, nextCol);
+visit(v));
+visit(v, m, nextLine, 1);
+visit(v, m, next, nextCol);
+visit(v, m, 1, nextCol);
+visit(v, m, currentLine, nextCol);
+visit(v, m, null, nextCol);
+visit(v, m, nextLine, currentCol);
+visit(v, m, nextLine, NextCol);
+visit(p, v, m, nextLine, nextCol);
+visit(v, m, NextLine, nextCol);
+visit(c, v, m, nextLine, nextCol);
+ *
+visit(v, child, nextLine, nextCol);
+visit(V);
+visit(vs);
+visit(v, null, nextLine, nextCol);
+visit(V, m, nextLine, nextCol);
+visit(h, m, nextLine, nextCol);
+visit(vs, m, nextLine, nextCol);

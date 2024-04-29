@@ -1,0 +1,298 @@
+JSType interfacePropType =
+JSType  propertyType =
+ propertyType=
+JSType interfacePropType  = (JSType)
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, propertyType);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, null);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName); }
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceHasProperty); }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, interfaceType);
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName); }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, propertyType);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName); }
+JSType  interfacePropType = (Type)
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY); }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceHasProperty);
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, null);
+ PropertyType interfacePropType=
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH); }
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY);
+ Type interfacePropType=
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, interface);
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName, null);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceHasProperty); }
+JSType  interfaceInterfacePropType =
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, property);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceHasProperty);
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, property);
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceType);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType);
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, propertyName, "");
+ compiler.report(T, n, reportMissingOverride, propertyName);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH); }
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH);
+ compiler.report(t, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY); }
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty); }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_OK);
+JSType  property =
+ compiler.report(t, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MISMATCH, property);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY); }
+ compiler.report(T, n, reportMissingOverride, propertyName, interfaceHasProperty); }
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_OK);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY); }
+ compiler.report(T, n, reportMissingOverride); }
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, null);
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY_MATCH);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName, null);
+ compiler.report(T, n, reportMissingOverride, propertyName, interfaceHasProperty);
+JSType  interfacePropType = (StringType)
+ compiler.report(t, n, reportMissingOverride, interfaceHasProperty);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName); }
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY
+JSType interfacePropType  = interfaceHasProperty? interfaceHasProperty :
+ compiler.report(t, n, reportMissingOverride, propertyName, interfaceHasProperty); }
+ type =
+ compiler.report(t, n, reportMissingOverride, propertyName);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName);
+JSType  interfacePropType = (ObjectType)
+ compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY_MATCH);
+JSType  interfacePropType = (JSTypeType)
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_PROP);
+ compiler.report(t, n, reportMissingOverride, interfaceHasProperty); }
+ compiler.report(T, n, propertyName);
+ compiler.report(T, n, reportMissingOverride, propertyName, interfaceHasProperty); } }
+JSType  interfacePropType = (JSType type)
+ compiler.report(T, n, reportMissingOverride);
+ compiler.report(T, n, foundInterfaceProperty);
+ compiler.report(t, n, reportMissingOverride); }
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty)); }
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_VALUE);
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty); } }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty, propertyName);
+JSType interfacePropType  = interfaceType.getTopMost (int)
+JSType  interfacePropType = (SType)
+ compiler.report(T, n, reportMissingOverride, HIDDEN_INTERFACE_NAME);
+ JSType _interfacePropType =
+JSType interfacePropType  = interfaceType.getTopMostPropertyType()
+ compiler.report(T, n, reportMissingOverride, propertyName); }
+JSType  interfacePropType = (String)
+ compiler.report(T, n, reportMissingOverride, propertyName, interfaceHasProperty)); }
+JSType  interfacePropType = (PropertyType)
+ compiler.report(T, n, reportMissingOverride, null);
+JSType interfacePropType  = (JSType) (Type)
+JSType interfacePropType  = interfaceHasProperty; Type propertyType =
+ JSType interfacePropType,=
+ compiler.report(T, n, reportMissingOverride, true);
+ if (interfaceHasProperty) { propertyType =
+JSType  interfaceTypeInterfacePropType =
+ boolean interfacePropType = (JSType)
+JSType interfacePropType  = interfaceHasProperty; String propertyType =
+JSType interfacePropType  = interfaceType.getTopMost (String)
+ compiler.report(T, n, foundInterfaceProperty); }
+ compiler.report(T, n, HIDDEN_INTERFACE_PROPS);
+ compiler.report(T, n, HIDDEN_INTERFACE_PROP);
+JSType interfacePropType  = (JSType) ()
+JSType  interfacePropType = (JSTypeImpl)
+ compiler.report(t, n, propertyName);
+ compiler.report(t, n, reportMissingOverride, interfaceHasProperty); } }
+ compiler.report(t, n, reportMissingOverride, propertyName); }
+ compiler.report(T, n, reportMissingOverride, interfaceType.toString()));
+JSType interfacePropType  = (JSType PropertyType)
+ compiler.report(t, n, reportMissingOverride, interfaceHasProperty)); }
+ compiler.report(T, n, reportMissingOverride); } }
+ compiler.report(t, n, reportMissingOverride);
+JSType  interfacePropType = ()
+JSType  interfacePropType = ((JSType)
+JSType  interfacePropType = JSType)
+JSType  interfacePropType = (JSType property)
+JSType interfacePropType  = interfaceHasProperty? propertyType :
+ if (interfaceType.canAssignTo(propertyName))
+ compiler.report(T, n, reportMissingOverride, interfaceHasProperty));
+JSType interfacePropType  = (JSType) (ObjectType)
+ compiler.report(jSError.make(t, n, null));
+JSType interfacePropType  = interfaceType.getTopMostPropertyType();
+ interfacePropType = (JSType)
+ compiler.report(t, n, foundInterfaceProperty);
+ Interface propertyType =
+ compiler.report(t, n, reportMissingOverride); } }
+ if (!interfacePropType) { propertyType =
+ if (interfacePropType!= null) {
+ if (!interfaceType.canAssignTo(interfaceHasProperty)) {
+ Class interfacePropType =
+ if (interfaceHasProperty) { interfacePropType=
+ if (interfaceHasProperty) interfacePropType=
+ compiler.report(T, n); }
+ ClassType interfacePropType =
+ Type propertyType =
+ compiler.report(T, n, reportMissingOverride)); }
+ interfacePropType=
+ compiler.report(T, n, reportMissingOverride, propertyName));
+ JSType interfacePropType_=
+ if (!interfacePropType) propertyType =
+JSType  interfPropType = (JSType)
+ JSType interfacePropType==
+ if (interfacePropType) { propertyType =
+ if (interfaceType!= null) {
+ if (interfaceType.canAssignTo(null))
+ ObjectType interfacePropType=
+JSType  interfacePropType = (type)
+ if (interfaceType.canAssignTo(propertyName)) { final
+JSType interfacePropType  = (JSType) (Object)
+JSType interfacePropType  = interfaceType.toObjectType()
+ if (interfaceHasProperty) propertyType =
+ if (interfaceHasProperty) { Interface propertyType =
+ type propertyType =
+ FunctionType interfacePropType=
+ Class propertyType =
+ JSType interfacePropType2=
+ boolean interfacePropType = (JSType type)
+ property =
+JSType  interfacePropertyType = (JSType)
+JSType interfacePropType  = (JSType) null)
+ compiler.report(T, n, true);
+ if (interfaceType.isInterface()) {
+ propertyType = interfaceHasProperty;interfacePropType =
+ if (interfacePropType) { Type propertyType =
+ if (interfaceType.isConstructor()) {
+ if (foundInterfaceProperty) {
+ compiler.report(T, n, null);
+ boolean interfacePropType = (JSType property)
+ if (interfaceType.isPrototype() ) {
+ compiler.report((T, n, propertyName);
+JSType  interfacePropertyPropertyType =
+ if (!foundInterfaceProperty) {
+ if (!foundInterfaceProperty) { interfacePropType=
+ if (!foundInterfaceProperty) { propertyType=
+ compiler.report(t, n); }
+JSType  type =
+ compiler.report(T, n, "");
+JSType  interfacePropPropertyType =
+ Object interfacePropType =
+ JSType $interfacePropType =
+ if (!interfacePropType) interfacePropType=
+ if (PropertyType interfacePropType =
+ compiler.report(interfaceHasProperty);
+ interfacePropType = (JSType type)
+ if (foundInterfaceProperty)
+ PropertyType propertyType =
+ if (interfacePropType == null)interfacePropType =
+ type interfacePropType=
+ TypeType interfacePropType =
+ if (!foundInterfaceProperty)
+ if (!interfacePropType) { interfacePropType=
+ continue; }
+ if (interfaceHasProperty) { type propertyType=
+ if (interfacePropType!= null)
+ if (propertyType!= null) {interfacePropType =
+JSType  interfacePropertyType = ()
+ if (!propertyType) interfacePropType=
+ if (interfacePropType == null) {interfacePropType =
+ if (interfaceType!= null) {interfacePropType =
+ if (propertyType!= null) { PropertyTypeinterfacePropType =
+ ClassInterface propertyType =
+ PropertyType interfaceInterfacePropType =
+ if (!interfacePropType) { continue }
+ if (interfaceType!= null)interfacePropType =
+JSType  interfacePropType = null =
+ if (!foundInterfaceProperty)interfacePropType =
+ if (!propertyType) { propertyType=
+ compiler.report(T, n, true);interfacePropType =
+ propertyType = interfaceHasProperty();interfacePropType =
+ compiler.report(null, n);
+ JSType.interfacePropType =
+ boolean interfacePropType = (ClassType)
+ compiler.report(null); }
+ JSType <? >interfacePropType =
+ if (interfacePropType!= null) {interfacePropType =
+JSType  interfacePropType = null!=
+ compiler.report(true); }
+ Type typeInterfacePropType =
+ ClassType interfaceInterfacePropType =
+ compiler.report(T, n, info);interfacePropType =
+ JSType[][]interfacePropType =
+ propertyType = interfaceType;interfacePropType =
+ if (interfaceType!= null)
+ ClassTypeInterfaceInterfacePropType =
+ compiler.report(T, n, info).interfacePropType =
+ if (interfaceType)
+JSType interfacePropType  = (JSSType)
+ JSHypedTypeinterfacePropType =
+ int propertyType=
+ compiler.report(null); } }
+ JSSType interfacePropType=
+ final JSType _interfacePropType =
+ JavaPropertyType interfacePropType=
+ compiler.report(T, n, true)interfacePropType =
+ JSType\$interfacePropType =
+ compiler.report(); } }
+ if (propertyType!= null) { TypeinterfacePropType =
+ if (propertyType!= null) { StringinterfacePropType =
+ compiler.report();
+ ISType interfacePropType=
+ JSType|String>interfacePropType =
+ if (propertyType!= null) { ClassinterfacePropType =
+ if (interfaceHasProperty)
+ JSType JsinterfacePropType =
+ compiler.report(null);
+ if (!foundInterfaceProperty
+ propertyType = interfaceHasProperty.interfacePropType =
+ ClassMember interfacePropType=
+ propertyType = interfaceHasProperty; }interfacePropType =
+JSType interfacePropType , _ =
+ if (!foundOverride)
+JSType interfacePropType  (String)
+ JSType JSTinterfacePropType =
+ JSHype interfacePropType=
+ return; } else {
+ continue; } }
+ return; } } }
+ return; } }
+ } } }
+ property type =
+ try { final
+ if (!ignore)
+ compiler.debug();
+ } else {
+ JSSType _interfacePropType =
+ PropertyType =
+JSType  prop =
+ final
+JSType  interfacePropertyType =
+ PropertyType _interfacePropType =
+ JSTypes.interfacePropType =
+ Property type =
+JSType  interfPropType =
+JSType  interfacesPropType =
+ PropertyType.interfacePropType =
+ Object typeinterfacePropType =
+ PropertyType $interfacePropType =
+ } }
+ try {
+ PropertyType
+JSType  properties =
+ Type.interfacePropType =
+ Type>interfacePropType =
+JSType  interface =
+ TypeType
+JSType  interfaceProp =
+JSType  propertiesType =
+ property :=
+JSType interfacePropType  = new
+ } final
+ } };
+ try {}
+ }
+ {
+JSType interfacePropType :=
+JSType interfacePropType:
+JSType interfacePropType,

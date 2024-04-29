@@ -1,0 +1,284 @@
+ return true;
+ else { mismatch(t, n, msg, type);
+ else { mismatch(t, n, msg); }
+ else { mismatch(t, n, msg, type); }
+return  true ; }
+ else { mismatch(t, n, msg);
+return true ; } return false ;
+ else { mismatch(t, n, msg, type, OBJECT_TYPE);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); }
+ else { match(t, n, msg, type, OBJECT_TYPE);
+ if ( type. matches ( ) )
+ else { match(t, n, msg, type, OBJECT_TYPE); }
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY_TYPE);
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY_TYPE); }
+ else { mismatch(t, n); }
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY_TYPE); }
+return  t. expectObject ( msg ) ;
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY_TYPE);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); return true; }
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY); }
+return true ; } else { return false ; }
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg); }
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type);
+ else { match(t, n, msg, type); }
+ else { return true ; } }
+return true ; } return mismatches ;
+ else { mismatch(t, n, msg, type, ANY_TYPE);
+ else { mismatch(t, n, msg, type, object); }
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY); }
+ else { return true ; }
+ else { mismatch(t, n, msg);;
+ else { mismatch(t, n, msg, type, type);
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( type. isObject ) {
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, EMPTY);
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg);
+return  t. expectObject ( n, msg ) ;
+ else { match(t, n, msg, type, OBJECT_TYPE, msg); }
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, OBJECT_TYPE); }
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY_OBJECT); }
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } }
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, EMPTY_TYPE);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( type == null ) {
+ else { mismatch(t, n, msg, type, objectContext);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); return false; }
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, EMPTY); }
+ else { mismatch(t, n, msg, type, ObjectType);
+ else { match(t, n, msg, type, OBJECT_TYPE); } }
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, EMPTY_TYPE);
+ if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, emptyType);
+ else { mismatch(t, n, msg, type, ObjectContext);
+ if ( type. isEmpty ( ) ) { return false ; } if ( type. isNull ( ) ) { return false ; }
+ else { mismatch(t, n, msg, type, Object); }
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( type. isObject ( ) )
+ else { mismatch(t, n, msg, type, NO_TYPE);
+ if ( type. matchesObject ( ) )
+return  t. expectObject ( msg ) ; }
+ else { mismatch(t, n, msg, type, objectContext); }
+ else { mismatch(t, n, type, msg); }
+ else { expectObject(t, n); returntrue;
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( ignore ) {
+ if ( type. isEmptyType ( ) ) { mismatch(t, n); }
+return true ; } else { return false ; } }
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY_TYPES);
+ else { mismatch(t, n, msg, type, METHOD_TYPE); }
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( type. matches ( msg ) )
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTYTYPE);
+ else if ( type. isEmpty ( ) ) { mismatch(t, n, msg, type, EMPTY_OBJECT); }
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( type. matchesObjectContext ) {
+ else { match(t, n, msg, type, object_TYPE);
+ else { mismatch(t, n, msg, type, object_TYPE);
+ if ( type. isObject ( ) )
+ else { mismatch(t, n, msg, type, null);
+ else { mismatch(t, n, msg, Object_TYPE);
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if (! ignore ) {
+ else { mismatch(t, n, msg, objectContext); }
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); return false; } }
+ if (type.matchesStringContext()) { mismatch(t);
+ else { mismatch(t, n, msg, type, METHOD_TYPE);
+return  type. equals ( msg ) ;
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if (! report ) {
+ if ( type. matchesObjectContext ( ) )
+ if ( type. matches ( msg ) )
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); return true; } }
+return true ; } else { return false ;
+ else { mismatch(t, n, msg);
+ else { mismatch(t, n, msg, null); }
+return  t. expectObject ( ) ;
+ else { mismatch(t, n, msg);true;
+ if ( type instanceof Object )
+ if ( type instanceof Object ) {
+return true ; } return false ; }
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY) }
+ else { mismatch(t, n, msg)true;
+ else { expectObject(t, n, msg, type, object_TYPE);
+return  t. expect ( msg ) ;
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY_TYPE); } }
+return  type. equals ( msg ) ; }
+ if (type.matchesStringContext()) { return false;
+ if ( type. matchesObjectContext ( msg ) )
+ if ( type. isEmptyType ( ) ) { mismatch(t, n) ;
+return  type. matchesObjectContext ( msg ) ;
+ if ( type. isEmptyType()) { mismatch(t, n, msg, type, EMPTY_TYPE); } }
+ else { mismatch(t, n, msg,true;
+ else { mismatch(t, n); returntrue;
+ else { return true ; } return false;
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } if ( ignoreFalse ) {
+ if ( type. matchesObjectContext ( msg ) ) {
+return  type. matchesObjectContext ;
+ else if ( type. isEmptyType ( ) ) { mismatch(t, n, msg, type, EMPTY_TYPE); } else
+ else { expectObject(t, n, msg, type, actualObjectType);
+ if (!type.matchesStringContext()) {
+ else { return true ;
+ if ( type. matchesAnyContext ) {
+return  t. expect ( ) ;
+return  t. expect ( n, msg ) ;
+ if ( type. isObject ) {
+ if ( type == n ) {
+ if (type.matchesStringContext(msg))
+return  t. expect ( n, msg ) ; }
+return  t. expectObject ( n, msg )
+ if (type.isEmptyType()) { returntrue;
+ if (type.matchesStringContext(msg) {
+ else { mismatch(t, n);
+ else { mismatch(t, n, msg, type, METHOD_TYPE); } }
+ else { expectObject(t, n, msg;
+return true ; } else { return false ; } } ;
+return  t. expectObject ( msg, type ) ;
+ if (type.matchesStringContext(msg)) {
+ if ( type!= null ) {
+ if ( type == null ) {
+ else { match(t, n, msg);;
+return  type. matchesObjectContext ( ) ;
+ if ( type.matchesObject ( msg ) )
+return  type. matchesObjectContext ( n, msg )
+return true ; } } ;
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } } }
+ else { expectObject ( t, n );
+ else { mismatch(t, n, msg, type, OBJECT_TYPE); } } else
+ if ( type. isEmpty ( ) ) { return false ; } if ( type. isNull ( ) ) { return false ; } }
+ if ( type. isObject )
+return  type. isObject ;
+ if (type.isObject()) { returntrue;
+return true ; } return true ;
+ else { expectObject(t, n)true;
+ else { mismatch(t, n, type);
+ } else { return true ; }
+return  type. matches ( ) ;
+ if (type.matchesObjectType() {
+ if ( t == n )
+ else { match(t, n); returntrue;
+ else { expectObject(t, n);true;
+ else { assertObject ( t, n );
+ if ( type == n )
+ if ( type!= null )
+return  type. equals ( n ) ; }
+return  true ; } }
+return true ; } else { expectCondition ( ) ; }
+ if (!type.isEmptyType())
+ if ( type == null )
+return true ; } else { return true ; }
+return true ; } else { assert ( ) ; }
+ else { assert (t, n, msg;
+return true ; } else { assert ( t ) ; }
+ if ( n == t )
+ else { return true ; } } return false;
+return true ; } else { return false ; } return ;
+return true ; } else { return false ; } } }
+return true ; } else { return true ; } }
+return true ; } return true ; }
+return  type. matches ( msg )
+return true ; } } else { return false ; }
+return true ; } else { return ;
+return  true ; } ;
+return true ; } else { return true ;
+return true ; } else { throw new RuntimeException ;
+ } else { return true;
+ else { this.expectedObject=true;
+ else { this.expectedObjectContext=true;
+ else { } return true;
+return true ; } return false ; } ;
+return true ; default : return false ; }
+return true ; } else { assert ( ) ;
+return true ; } } else { return false ;
+ return ;
+ else { return type instanceof Object;
+return true ; return false ;
+ } else { return false ;
+return true ; } return null ;
+return true ; } } return false ;
+ else { assert (type) return true;
+return true ; } } return mismatches ;
+return true ; } default : return false ; }
+ } return true ;
+ else { return type. matchesObjectContext;
+return true ; } } ) ;
+ else { return true; };
+ else { this.expected = true;
+return true ; return false ; }
+ } return true ; }
+ else { assert (t, n);
+ }
+ else { this.shouldReport=true;
+ if ( shouldReport )
+ else { assertObject(type); returntrue;
+return  true ; } ) ;
+ else { return true ; return false;
+ else { assert(t, n)true;
+ if ( expectCondition )
+ else { return true || false;
+return  type!= null ; }
+ else { assert(t, n);true;
+ return n == t ;
+ else { assert(t, n,true;
+ return! report;
+return  n!= null ;
+ else { this.isObject=true;
+return true ; } else {
+ else { return true ; } return;
+ else { return true ; } };
+ } else { return mismatches;
+return true ; } } }
+ else { return - 1;
+ if ( returnFalse )
+return  type!= null ;
+ else { return n == t;
+ return false ; }
+ else { return! report;
+ else { return true ; } returntrue;
+ else { this.result=true;
+ return expectObject;
+ else { return false ; } returntrue;
+ if (!report)
+ } return false ;
+ if (report)
+ if ( returnTrue )
+ else { return false||true;
+ } else {
+ else { return n.true;
+ else { return true||true;
+ else { return n==true;
+ else { return _true;
+ else { return false=true;
+ } }
+ else { return *true;
+ else { return!true;
+ } else { return false==true;
+ } else { return false=true;
+ } else { return false||true;
+return true ; return ;
+ if (!throw)
+ } ;
+ return!expectedObject;
+ else { return false;
+return true ; default :
+ else { assert=true;
+ return false ;
+ return true
+return  actualObject ;
+ else {
+return true ( ) ;
+ boolean true ;
+ else returntrue;
+ return true ; }
+ } } ;
+ } else returntrue;
+ } else { }
+ return false
+ else { }
+ else { #true;
+ } else
+ } else,
+ } } else
+ } } }
+ } }
+return  True ;
+return  null ;
+ else #true;
+ else,
+ else
+ }
+return true } ;
+return true } }
+return true } {

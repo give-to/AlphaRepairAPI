@@ -1,0 +1,1243 @@
+scope.declare(name, n, declaredType,  nodeWithLineNumber);
+scope.declare(name, n,  parent);
+scope.declare(name, n, declaredType,  gramps);
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName) ) ;
+scope.declare(name, n,  parent, gramps);
+scope.declare(name,  n);
+scope.declare(name, n,  parent, gramps, declaredType);
+scope.declare(name, n, declaredType, compiler ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber));
+scope.declare(name, n,  parent, gramps, nodeWithLineNumber);
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber);
+ declareVar(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumber); }
+ declareVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; }
+scope.declare(name, n, declaredType,  parent, gramps, nodeWithLineNumber);
+scope.declare(name, n, declaredType,  parent);
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), gramps ) ;
+scope.declare(name, n, declaredType,  parent, gramps, nodeWithLineNumber(sourceName));
+ declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare( name, n, parent, gramps )
+scope.declare(name, n, declaredType ) ;
+ redeclarationHandler.onRedeclaration.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber ++ ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent, gramps, nodeWithLineNumber
+scope.declare(name, n, declaredType,  parent, gramps, nodeWithLineNumber
+ declare(n, declaredType, compiler.getInput(sourceName));
+scope.declare( name, n, parent )
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber )
+ scope. declareVar ( name, n, parent, gramps, declaredType ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ;
+ redeclarationHandler.onUndeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declareVar();
+scope.declare(name, n,  parent, gramps, nodeWithLineNumber
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber ) ;
+ scope. declareVar ( name, n, parent, gramps, declaredType )
+ scope. declareVar ( name, n, parent, gramps ) ;
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber )
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber++));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent, gramps, node ) ;
+scope.declare ( name ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber, declaredType )
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber, declaredType )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } }
+ scope. declareVar ( name, n, parent, gramps, declaredType, nodeWithLineNumber ) ; }
+ scope. declareVar ( name, n, parent, gramps, declaredType, nodeWithLineNumber ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ;
+scope.declare(name, n, declaredType, compiler.getInput ( ));
+ declareVar(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n,  parent, gramps nodeWithLineNumber);
+ scope. setDeclared ( name, n, parent, gramps, declaredType ) ;
+ redeclarationHandler.onRedeclaration(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name,  declaredType);
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else {
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+scope.declare(name,  n, parent, gramps, node);
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } else {
+scope = null ;
+ scope. setDeclared ( name, n, parent, gramps, declaredType )
+scope.declare(name, n, declaredType,  nodeWithLineNumber(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber )
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ; }
+ redeclarationHandler.ondeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber ++ ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } else {
+ scope. declareVar ( name, n, parent, gramps ) ; }
+scope.declare(name, n, declaredType,  parent, nodeWithLineNumber ) ;
+ scope. declareVariable ( name, n, parent, gramps, declaredType ) ;
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber ) ; } }
+scope. pop ( ) ;
+ scope. setDeclared ( name, n, parent, gramps, declaredType, nodeWithLineNumber ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, gramps, nodeWithLine));
+ scope. declareVariable ( name, n, parent, gramps ) ;
+ redeclarationHandler.onDeclaration( scope, n, declaredType, compiler.getInput(sourceName));
+ scope. declareVar ( name, n, parent, gramps, node )
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } }
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ;
+scope.declare(name); }
+ scope. setGlobal ( name, n, parent, gramps, nodeWithLineNumber )
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, declaredType )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber, parent ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ;
+scope.declare(name, n, declaredType, parent, gramps, node ) ;
+ scope. setDeclared ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else {
+ scope. setDeclared ( name, n, parent, gramps ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber)); }
+ scope. declareVar ( name, n, parent, gramps, declaredType, nodeWithLineNumber )
+ scope. declare ( name, n, parent, gramps, declaredType )
+ scope. declare ( name, n, parent, gramps, declaredType, nodeWithLineNumber ) ;
+scope.declare( name, n, parent ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(parent, nodeWithLineNumber));
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber);
+ scope. declareVariable ( name, n, parent, gramps, declaredType )
+ scope. setDeclared ( name, n, parent, gramps ) ; }
+ scope. push ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), gramps, nodeWithLineNumber ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber )
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber )
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, nodeWithLineNumber)) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber)));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } } }
+scope.declareVar ( name, n, parent ) ;
+ scope. setDeclared ( name, n, parent, gramps, node )
+scope.declare(name, n, declaredType, compiler.getInput(parent, gramps, nodeWithLineNumber));
+ scope. setDeclared ( name, n, parent, gramps )
+scope.declare(name, n, declaredType, compiler, gramps ) ;
+ scope. push ( name, n, parent, gramps, nodeWithLineNumber, declaredType )
+scope.declareVar( name, n, parent )
+scope.declareVariable ( name, n, parent ) ;
+ scope. declare ( name, n, parent, gramps, declaredType, nodeWithLineNumber )
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber)) ; }
+scope.declare(name,  n, gramps);
+ scope. declare ( name, n, parent, gramps, declaredType ) ;
+scope.declareVariable ( name, n ) ;
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber )
+ redeclarationHandler.onRedeclaration(sourceName));
+ scope. declareVar ( name, n, parent, gramps, null )
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber )
+scope.declare ( ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber))); }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = parent ;
+scope.declare(name, n, parent, null);
+ redeclarationHandler.onDeclaration(compiler.getInput(sourceName));
+scope. declareVar ( name, n ) ;
+scope.declare(name,  n, parent, gramps); }
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = null ;
+ if ( scope. isLocal ( name, n, parent, gramps ) ) {
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps ) ; }
+scope.declareVariable ( name, n )
+scope = null
+ if ( scope. isLocal ( name, n, declaredType ) ) {
+ redeclarationHandler.onRede_declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(n, nodeWithLineNumber));
+ if (scope.isLocal() && name.equals(ARGUMENTS))
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps ) ; } else {
+ redeclarationHandler.onDeclare( scope, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( parent ), nodeWithLineNumber ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent, nodeWithLineNumber ) ;
+scope.declare(name, n, declaredType,  parent, gramps nodeWithLineNumber);
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber, gramps ) ;
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, declaredType ) ;
+scope.declare(name, n, declaredType, compiler.getInput(parent), nodeWithLineNumber ) ; }
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; if ( declaredType ) {
+scope. declareVariable ( name, declaredType ) ;
+scope.declare(name, n, declaredType, compiler ) ; }
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ redeclarationHandler.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber ) ; }
+ redeclarationHandler.onDeclaration(name, n, declaredType, compiler.getInput(sourceName));
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps ) ; } else
+ scope. declareVar ( name, n, parent, gramps nodeWithLineNumber )
+scope.declare ( name, n )
+scope.declare(name, n, declaredType, parent, gramps, node); }
+scope.declareVariable ( name ) ;
+scope.declare( name, n, parent, null )
+scope. push ( n ) ;
+scope.declareVariable ( name, n, parent )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, gramps), nodeWithLineNumber
+scope.declare(name, n, declaredType, compiler.getInput ( parent, gramps ) ) ;
+ nodeWithLineNumber = (declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = n ;
+scope.declare(name, n, parent, gramps, null);
+ scope. declare ( name, n, parent, gramps, node )
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, true ) ;
+scope.declare(name, n, declaredType, compiler.getInput(n)) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent)) ;
+ scope. declare ( name, n, parent, gramps ) ;
+ scope. declare ( name, n, parent, gramps, node ) ;
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, false ) ;
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } return true ;
+ redeclarationHandler.undeclare(name, n, declaredType, compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } return
+scope.declareVar( name, n, parent, null )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber = null ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber = parent ;
+ scope. declare ( name, n, parent, gramps ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = gramps ;
+ redeclarationHandler.on_declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber ) ; } }
+ redeclarationHandler.report(compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber, parent)) ;
+ redeclarationHandler.onDeclareVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber = gramps ;
+ nodeWithLineNumber = origVar.getInput(sourceName));
+scope.declareVar ( name, n )
+scope = parent ; }
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber), gramps ) ;
+ redeclarationHandler.onRedecl.declare(name, n, declaredType, compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; }
+ nodeWithLineNumber = compiler.createNode(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent, gramps ) ) ;
+scope.declare(name, n, declaredType, compiler.getInput(parent), gramps, nodeWithLineNumber);
+scope.declare( name, n, parent, false )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent ) ;
+scope.declare(name, n, declaredType, compiler.getInput ( nodeWithLineNumber )));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, null ) ;
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber, declaredType ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber = n ;
+ declare( scope, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, nodeWithLineNumber)); }
+scope.declare(name, n, declaredType,  parent, gramps ) ; }
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps ) ; else {
+scope.declareVar ( name ) ;
+ if ( scope. isLocal ( name, n, parent ) ) {
+scope.declareVar(name, n, parent, null);
+scope. clear ( ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber, parent)));
+scope.declare( name, n, parent, true )
+scope. setDeclared ( name, true ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent), nodeWithLineNumber); }
+ if (scope.isLocal() && name.equals(ARGUMENTS)))
+ nodeWithLineNumber = compiler.createNode(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber(declaredType, compiler.getInput(sourceName));
+scope.declare ( n ) ;
+ if (scope.isLocal() && name.equals(ARGUMENTS))) { declareVar =
+ scope. declare ( name, n, parent, gramps ) ; } else {
+ if (scope.isLocal() && name.equals(NAME))) {
+scope.addVariable ( name, n, parent ) ;
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent ), nodeWithLineNumber);
+ redeclarationHandler.declare( scope, n, declaredType, compiler.getInput(sourceName));
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber );
+ if (scope.isLocal() && name.equals(ARGUMENTS)) { declareVar =
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = parent ; }
+ if (scope.isLocal()) {
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber, false ) ;
+ redeclarationHandler.onRedecl(compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber -- ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName) + nodeWithLineNumber ) ; }
+scope.declare(name, n, parent, false);
+ nodeWithLineNumber = compiler.createNode(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber, parent));
+ if (scope.isDeclared(name)) {
+ if ( scope. isLocal ( name, n, parent, gramps ) )
+ if ( scope. isLocal ) { scope. declare ( name, n, gramps ) ;
+ scope. declareVar ( name, n, parent, gramps ) ; } } else {
+ scope. declare ( name, n, parent, gramps, true ) ;
+ nodeWithLineNumber = parent. getLineNumber ( ) ;
+ if (scope.isLocal() && name!= null) {
+scope.declare(name, n, declaredType,  nodeWithLineNumberOf(sourceName));
+scope.declareVar(name); }
+scope.addGlobal ( name, n, parent ) ;
+ nodeWithLineNumber = nodeWithLineNumber(compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName) + nodeWithLineNumber);
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if ( declaredType ) {
+scope.declare(name, n, declaredType, compiler.getInput(n, parent, gramps) ) ;
+ nodeWithLineNumber.init(declaredType, compiler.getInput(sourceName));
+scope. addVariable ( name, n ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent, gramps ) ; } } }
+ redeclarationHandler.onDeclared( scope, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclaredVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( parent, nodeWithLineNumber )));
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if (declared) {
+scope.declare(name, n,  parent, gramps, declaredType); }
+ if (scope.isLocal() && name.equals(NAME)) {
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = parent. line ;
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber
+ redeclarationHandler.scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = (compiler.getInput(sourceName));
+ if ( scope. isLocal ( name, n, parent, gramps))) {
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber -- ;
+ declareVar(name, declaredType, compiler.getInput(sourceName));
+scope.declareVar(name, declaredType);
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber );
+ redeclarationHandler.onError(scope.getInput(sourceName));
+scope.declareVar( name, n, parent, false )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, gramps, nodeWithNumber));
+ nodeWithLineNumber = nodeWithLineNumber ; }
+ redeclarationHandler.onDeclare(compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if (declared)
+ if (scope.isLocal(name)) {
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, declaredType ) }
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber()));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLineNumber, gramps)) ;
+ redeclarationHandler.onDeclaration(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclaration( scope, declaredType, compiler.getInput(sourceName));
+scope. setDeclared ( name, true )
+scope.declare(name, n, declaredType, compiler.getInput(parent, nodeWithLineNumber)); }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName))); nodeWithLineNumber ++ ;
+scope.declare(name, n, declaredType, compiler.getInput(parent, gramps, nodeWithLine));
+ if (scope.isLocal() && name!= declaredType) {
+ if ( scope. isLocal ) { scope. isLocal = false ;
+ redeclarationHandler.onRedecl_declare(name, n, declaredType, compiler.getInput(sourceName));
+ declareVar( scope, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, parent, true);
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent ) ) ;
+scope.declare(name, n, declaredType,  nodeWithLineNumber, identifier(sourceName));
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return true ;
+scope.declare(name, n, declaredType,  nodeWithLineNumberFor(sourceName));
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else { } else {
+scope.addVariable ( name, declaredType ) ;
+ if (scope.isGlobal()) {
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent, nodeWithLineNumber )));
+ if ( scope. isLocal ) { scope. declare ( name, n, parent ) ; }
+ redeclarationHandler.onDeclaredVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInputNode ( nodeWithLineNumber )));
+ redeclarationHandler.onDeclaration(scope.getInput(sourceName));
+ nodeWithLineNumber = - 1;
+ nodeWithLineNumber = nodeWithLineNumber;
+scope.declare(name, n, declaredType, compiler.getInput ( parent, gramps, node ) ) ;
+scope. add ( n ) ;
+scope. clearScope ( ) ;
+ redeclarationHandler.onVariableUndeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(parent), nodeWithLineNumber); } }
+ nodeWithLineNumber = null;
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps ) ; } return
+scope.addDeclared ( name, n ) ;
+ nodeWithLineNumber = (n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = parent. parent ;
+ if (scope.isLocal() && declaredType) {
+ nodeWithLineNumber = declareVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.addDeclared ( name, declaredType ) ;
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber, parent ) ;
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps, nodeWithLineNumber,
+scope.declare(name, n, declaredType, compiler, parent, gramps, nodeWithLineNumber
+ nodeWithLineNumber = compiler.getNode(declaredType, compiler.getInput(sourceName));
+ if (scope.isDeclared(name, true)) {
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) + nodeWithLineNumber); }
+ nodeWithLineNumber = declareVar(n, declaredType, compiler.getInput(sourceName));
+ if (scope.isDeclared(name, false)) {
+scope.declare(name, n,  parent, gramps) nodeWithLineNumber);
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber, false));
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber, true));
+scope.declare(name, n, declaredType, compiler.getInput ( nodeWithLineNumber ) )
+ redeclarationHandler.onDeclared(compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps ) ; } } }
+ redeclarationHandler.onDeclared(name, n, declaredType, compiler.getInput(sourceName));
+ if ( scope. isLocal ( name ) ) { scope. declare ( name, n, parent, gramps, nodeWithLine )
+scope.declare(name, n, declaredType, compiler.getInput ( parent ) ) ;
+ redeclarationHandler.onDeclare(name, n, declaredType, compiler.getInput(sourceName));
+ declareVar(name, compiler.getInput(sourceName));
+ if ( scope. isLocal ) { scope. declare ( name, n, parent, gramps ) ; return
+scope.declare(name, n, declaredType, compiler.compile ( nodeWithLineNumber ) ) ;
+scope. addGlobal ( name, n ) ;
+ nodeWithLineNumber = n ; return;
+ nodeWithLineNumber = compiler.getInput(declaredType, compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else
+scope.declare( name, declaredType )
+ if (scope.isLocal() && declaredType)
+ redeclarationHandler.onDeclare(scope.getInput(sourceName));
+scope.pushScope ( n, parent, gramps )
+ redeclarationHandler.onRedeclareddeclare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclaration( scope, compiler.getInput(sourceName));
+ if ( scope. isLocal ( name, n, parent ) )
+ redeclarationHandler.onInput(scope.getInput(sourceName));
+ nodeWithLineNumber = nodeWithLineNumber ; } return
+ nodeWithLineNumber = nodeWithLineNumber.compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if (declare)
+ nodeWithLineNumber=compiler.getInput(sourceName));
+scope. setDeclared ( true ) ;
+ nodeWithLineNumber(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.compile ( parent, gramps ) ) ;
+ redeclarationHandlerImpl.declare(name, n, declaredType, compiler.getInput(sourceName));
+ if ( scope. isLocal ( name, n, false ) ) {
+ declareVar(n, compiler.getInput(sourceName));
+ nodeWithLineNumber = compiler.parse(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, n);
+scope.declare(name, n, declaredType, compiler.getInput ( parent, gramps )));
+ if (scope!= null) {
+ redeclarationHandler.onDeclareVar(compiler.getInput(sourceName));
+ if ( scope instanceof Scope. Scope ) {
+scope.declare(name, n, declaredType, compiler.getInput(n, parent, gramps, node)) ;
+scope.push ( name, n, parent ) ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } } } ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber = parent. lineNumber
+scope. push ( declaredType ) ;
+ redeclarationHandler.onDeclared(scope.getInput(sourceName));
+ nodeWithLineNumber = n, declaredType, compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else { return
+scope. remove ( ) ;
+scope.declare(name, n, declaredType, compiler.getInput ( n, gramps ) ) ;
+ nodeWithLineNumber = scope.getInput(sourceName));
+scope. addVar ( name ) ;
+ nodeWithLineNumber = compiler.create(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = nodeWithLineNumber);
+ nodeWithLineNumber = nodeWithLineNumber ;
+scope. addVariable ( name ) ;
+ if (scope.isDeclared(name, n)) {
+ nodeWithLineNumber = null ; return;
+scope.declare(name, n, declaredType, compiler.getInput(n, parent)) ;
+scope.declare(name, n, declaredType,  parent, gramps, new String(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, new Name(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber, ) ;
+ redeclarationHandler.onUnexdeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; return ; }
+ redeclarationHandler.onDeclare( scope, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return nodeWithLineNumber ; } }
+ if ( scope. isLocal ) { scope. declare ( name, n, gramps ) }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), nodeWithLineNumber));
+scope.exit();
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent, gramps )));
+ redeclarationHandler.onRedeclarationdeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } nodeWithLineNumber ;
+scope.declare(name, n, declaredType,  nodeWithLineNumberFrom(sourceName));
+ redeclarationHandler.onRedeclaredeclare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclareVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope. push ( name, n ) ;
+scope.declare(name, n, declaredType,  nodeWithLineNumber, name(sourceName));
+ redeclarationHandler.onVariable( scope, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.declare(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, node.alias(sourceName));
+scope.addGlobal ( name, n, parent )
+ nodeWithLineNumber = parent. getLine ( ) ;
+scope = parent ;
+ redeclarationHandler.onUndefdeclare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. getLineNumber ; }
+scope.declare(name, n, declaredType,  parent, gramps, Node.name(sourceName));
+ if (scope.isGlobal(name)) {
+ redeclarationHandler.onDeredeclare(name, n, declaredType, compiler.getInput(sourceName));
+ scope. declareVar ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else { return
+ redeclarationHandler.onRedecldeclare(name, n, declaredType, compiler.getInput(sourceName));
+ console.log(name));
+ nodeWithLineNumber = parent. parent ; scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ super. declareVar( name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onIgnore(compiler.getInput(sourceName));
+ super. declareVar(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onRedeference.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onVariableDecl.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber ) ; } }
+scope.declare(name, n, declaredType, compiler.parse ( nodeWithLineNumber ) ) ;
+ declareVar(scope.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( node ) ) ;
+ nodeWithLineNumber = compiler.makeNode(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber+));
+scope.push ( name, n, parent ) ; }
+ nodeWithLineNumber = parent ; scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onVariableDeclaration.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclaration.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onError(compiler.getInput(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if (declared())
+ scope.setDeclared(name, true));
+ redeclarationHandler.onDeclare( scope, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumber, literal(sourceName));
+ redeclarationHandler.onError(node.getInput(sourceName));
+ if ( scope instanceof Scope ) {
+ redeclarationHandler.onUndefineddeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.addVariable ( name, n )
+ nodeWithLineNumber = getLineNumber().getInput(sourceName));
+ redeclarationHandler.onDeclaring( scope, n, declaredType, compiler.getInput(sourceName));
+scope. remove ( name ) ;
+ nodeWithLineNumber = compiler.makeNode(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onRede-declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, nodeWithLineNumber
+ redeclarationHandler.onRedeploydeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithLine));
+scope.declare(name, n, declaredType,  parent, gramps, nodeWithLineNumber));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return false ;
+ nodeWithLineNumber(n, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, getLocation(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), gramps, nodeWithLineNumber); }
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent ) ) ; }
+ redeclarationHandler.onPredeclare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declareVar(compiler.getInput(sourceName));
+ nodeWithLineNumber = compiler.makeNode(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber(compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. line + 1;
+ if (scope.isLocal())
+ redeclarationHandler.impl.declare(name, n, declaredType, compiler.getInput(sourceName));
+ if ( scope. isLocal ( name, n ) ) { return
+scope.declare(name, n, declaredType,  parent, gramps, node.get(sourceName));
+ nodeWithLineNumber = createNode(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent.getInput(sourceName));
+scope.declare( name, n ) ; }
+scope.declare(name, n, declaredType, compiler.getLineNumber ( ));
+scope.addDeclared ( name ) ;
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } } else { return
+ if (scope.isLocal(name))) {
+ nodeWithLineNumber = n, compiler.getInput(sourceName));
+scope.addDeclared ( name, n )
+ nodeWithLineNumber = createNode(declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclared(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler. create ( nodeWithLineNumber ) ) ;
+ nodeWithLineNumber = compiler.newNode(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) + nodeWithLineNumber);
+ nodeWithLineNumber = declareVar(scope, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclared( scope, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent, gramps));
+ nodeWithLineNumber = new Node(scope.getInput(sourceName));
+ redeclarationHandler.onRedefaration(compiler.getInput(sourceName));
+ nodeWithLineNumber = n;
+ redeclarationHandler.onDeclare(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.offRedeclaration.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = (scope.getInput(sourceName));
+ nodeWithLineNumber ++, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.$declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.addChild(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInputNode ( n ) ) ;
+ redeclarationHandler.onDeclared( scope, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onRedeclared.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. getNext ( ) ;
+ redeclarationHandler.onRedefs.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber(n);
+scope.declare(name, n, declaredType,  parent, gramps, node.path(sourceName));
+scope.declare(name, declType);
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } } } }
+ nodeWithLineNumber.init(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onLocalScope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.append(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. lineno;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), gramps); }
+ redeclarationHolder.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps.addChild(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } else { if (declare())
+ nodeWithLineNumber = compiler.createVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumber, compiler.source(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumber,(sourceName));
+ if ( scope instanceof GlobalScope ) {
+ nodeWithLineNumber = createNode(name, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = getLineNumber(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)), nodeWithLineNumber);
+ nodeWithLineNumber.append(name));
+scope.declare(name, n,  parent, gramps), declaredType);
+scope.declare(name, n, declaredType, compiler, parent ) ;
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else { } return
+ if (scope.isLocal()) { return
+ redeclarationHandler.onDeclareVar(sourceName));
+ redeclarationHandler.onRdeclare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onRedecl(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = (n, compiler.getInput(sourceName));
+ nodeWithLineNumber.setContent(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = nodeWithLineNumber ;));
+ redeclarationHandler.define( scope, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.create( scope, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declare(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declareNode(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(parent), gramps);
+ nodeWithLineNumber = nodeWithLineNumber(sourceName));
+ redeclarationHandler.onRedef(scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.push(n);
+scope.declare(name, n, declaredType, compiler.getInput(node, parent));
+ if (scope.isDeclared(name))) {
+scope = null ; }
+scope.declare(name, n, declaredType,  nodeWithLineNumber) ; compiler.exit(sourceName));
+ nodeWithLineNumber = compiler.create(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.setChild(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. line ( );
+ nodeWithLineNumber = nodeWithLineNumber));
+ nodeWithLineNumber = createVariableNode(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( nodeWithLineNumber )));
+ nodeWithLineNumber =));
+ nodeWithLineNumber = node.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(name)) ;
+ nodeWithLineNumber = compiler.eval(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declaredType.getInput(sourceName));
+scope.pushNode ( n ) ;
+ nodeWithLineNumber.push(n));
+ nodeWithLineNumber = null, compiler.getInput(sourceName));
+ redeclarationHandler.onRedefine.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.push(compiler.getInput(sourceName));
+ scope.setDeclared(name, declaredType));
+ nodeWithLineNumber = declare(scope, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(parent, gramps)); }
+ return n, declaredType, compiler.getInput(sourceName));
+scope.push ( name, declaredType ) ;
+scope.declare(name, n, declaredType,  parent, gramps, new Text(sourceName));
+ nodeWithLineNumber.appendChild(n));
+ nodeWithLineNumber = new LineNumber(sourceName));
+ scope. declare ( name, n, parent, gramps, nodeWithLineNumber ) ; } } else { } else
+ redeclarationHandler.onDeclareVariable(sourceName));
+ nodeWithLineNumber = nodeWithLineNumber(.getInput(sourceName));
+ redeclarationHandler2.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, n)) ;
+scope = n ;
+ nodeWithLineNumber.set(declaredType, compiler.getInput(sourceName));
+scope.addGlobal ( name, n )
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return null ;
+ compiler.report( name, compiler.getInput(sourceName));
+ redeclarationHandler.onVariable(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumber, get(sourceName));
+ nodeWithLineNumber ++, compiler.getInput(sourceName));
+scope.addNode ( n ) ;
+ redeclarationHandler.on( scope, n, declaredType, compiler.getInput(sourceName));
+scope. pop ( )
+scope.declare(name, n, declaredType, gramps); }
+ nodeWithLineNumber = createNode(scope.getInput(sourceName));
+ nodeWithLineNumber = parent.parent().getInput(sourceName));
+ nodeWithLineNumber = parseLine(n, compiler.getInput(sourceName));
+scope. leave ( ) ;
+ nodeWithLineNumber = declareNode(scope, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.push((sourceName));
+ nodeWithLineNumber = compiler.createNewNode(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent;
+ nodeWithLineNumber.push(name));
+ scope.setDeclared(name, false));
+ nodeWithLineNumber = parent.getLineNumber);
+ redeclarationHandler.onDeclaredVariable(sourceName));
+ redeclarationHandler.onSubdeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; nodeWithLineNumber();
+ nodeWithLineNumber = new Node(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parseLineNumber(n, compiler.getInput(sourceName));
+ parent. declare ( name, n, declaredType, compiler.getInput(sourceName));
+ scope. declareVariable ( name, gramps,n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber(n));
+scope. setLocal ( name, n )
+ nodeWithLineNumber = compiler.addNode(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = Node. CODE(compiler.getInput(sourceName));
+ console.log(name, compiler.getInput(sourceName));
+ nodeWithLineNumber = createNode(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = "nodeWithLineNumber);
+ nodeWithLineNumber = declareVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare ( name )
+ nodeWithLineNumber.exec(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  nodeWithLineNumberNode(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( n )));
+scope.declare(name, n, declaredType,  parent, gramps, identifier(sourceName));
+scope.declare(name, n, declaredType, compiler.compile ( nodeWithLineNumber )));
+ nodeWithLineNumber = compiler.new(declaredType, compiler.getInput(sourceName));
+ scope.setDeclared(true));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent)));
+ scope.declare(n, declaredType, compiler.getInput(sourceName));
+ scope. declareVar ( name, gramps,n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.put(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber, false ) ;
+ scope.addDeclaration(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = node.getLineNumber(sourceName));
+ if (scope.isLocal() || name) {
+ redeclarationHandler.inScope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = compiler.createLine (, compiler.getInput(sourceName));
+ compiler.warn((sourceName));
+ nodeWithLineNumber.append(compiler.getInput(sourceName));
+ nodeWithLineNumber = node(scope.getInput(sourceName));
+ nodeWithLineNumber = parent, compiler.getInput(sourceName));
+ nodeWithLineNumber.init(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( nodeWithLineNumber));
+ redeclarationHandler.onLocalVariable.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType ) ; }
+scope.declare(name, n, declaredType, compiler.parseNode ( nodeWithLineNumber )));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, parent)); }
+ redeclarationHandler.onVariable(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclaration(getInput(sourceName));
+ declareVar(name, gramps, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. parent. line;
+ nodeWithLineNumber = [ ], declaredType, compiler.getInput(sourceName));
+ compiler.report(make(sourceName));
+ nodeWithLineNumber.append(name);
+ nodeWithLineNumber = name, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = _compiler.getInput(sourceName));
+ scope.setVar(name, n, compiler.getInput(sourceName));
+ nodeWithLineNumber = node(compiler.getInput(sourceName));
+scope. push ( n )
+ nodeWithLineNumber = compiler.make(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent.parent.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler); } }
+ redeclarationHandler.onLocalVar.declare(name, n, declaredType, compiler.getInput(sourceName));
+ scope.declare(name, n));
+ nodeWithLineNumber = declareVariable(n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandlers.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = "(?");
+ nodeWithLineNumber = parent.input.getInput(sourceName));
+ nodeWithLineNumber = node.getLineNumber);
+scope.declare(name, n, declaredType, compiler.getInput(n)) ; }
+ scope.setDeclared(name, (true));
+ nodeWithLineNumber = parent, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( name )));
+ declareVar(compiler.getInput(sourceName));
+ redeclarationHandler.onUndeclared(sourceName));
+ scope.setDeclared(name, (false));
+ nodeWithLineNumber = compiler.create(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = getLineNumber()(getInput(sourceName));
+ compiler.report(sourceName));
+ nodeWithLineNumber.push(sourceName));
+ nodeWithLineNumber = (name, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = compiler. createVariableNode(name, n, declaredType, compiler.getInput(sourceName));
+scope.pushVar ( name ) ;
+scope.declare(name, n, declaredType, compiler.getInput ( )));
+ declareVar(sourceName));
+ nodeWithLineNumber = IR.lineNumber(sourceName));
+ nodeWithLineNumber = createNode(name, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, node)) ;
+ nodeWithLineNumber = scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.declareVar(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = createNewNode(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler ) ; } } }
+ redeclarationHandler.node.declare(name, n, declaredType, compiler.getInput(sourceName));
+ compiler.report(declaration(sourceName));
+ nodeWithLineNumber = "(name, n, declaredType, compiler.getInput(sourceName));
+ parent. declareVar( name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onVariable.declare(name, n, declaredType, compiler.getInput(sourceName));
+ declareName, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( nodeWithLineNumber ) )
+ nodeWithLineNumber = new LineNumber ());
+ nodeWithLineNumber.append(n));
+ nodeWithLineNumber = parent. lineNumber;
+ nodeWithLineNumber = newLineNumber(n, declaredType, compiler.getInput(sourceName));
+scope.declareVar ( name )
+ nodeWithLineNumber = parseLine(name, compiler.getInput(sourceName));
+ nodeWithLineNumber = sourceName;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), parent, gramps);
+ scope. onRedeclaration(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = new Node(compiler.getInput(sourceName));
+ nodeWithLineNumber = nodeWithLineNumberFor(sourceName));
+ nodeWithLineNumber(scope, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = (name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.onDeclared(n);
+ nodeWithLineNumber = create(n, declaredType, compiler.getInput(sourceName));
+scope.declareVariable(name); }
+ nodeWithLineNumber = getInput(compiler.getInput(sourceName));
+ nodeWithLineNumber = createNode(n, compiler.getInput(sourceName));
+ nodeWithLineNumber = n.getInput(sourceName));
+ redeclarationHandler.parent.declare(name, n, declaredType, compiler.getInput(sourceName));
+ compiler.report(declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.nodes.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( n, parent )));
+ scope.addVariable(name, n, declaredType, compiler.getInput(sourceName));
+ compiler.report( declareVar(sourceName));
+ nodeWithLineNumber = (parent, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = "()", compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.parse ( nodeWithLineNumber ) )
+ parent. declareVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.parseNode ( parent ) ) ;
+ compiler.report(declared(sourceName));
+ console.error(name));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( node ) ) ;
+ redeclarationHandler.onDeclaredVar(sourceName));
+ scope. declareVar( name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = declareNode(compiler.getInput(sourceName));
+ compiler.report((sourceName));
+ nodeWithLineNumber = newline.getInput(sourceName));
+ nodeWithLineNumber = " "+compiler.getInput(sourceName));
+ nodeWithLineNumber(parent, compiler.getInput(sourceName));
+ nodeWithLineNumber = (null);
+ scope.defineVariable(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLine(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent. detach().getInput(sourceName));
+ nodeWithLineNumber = new Node(getInput(sourceName));
+ redeclarationHandler.onUndeclaration(sourceName));
+ redeclarationHandler.predeclare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = nodeWithLineNumber((sourceName));
+ nodeWithLineNumber = parentNode.getInput(sourceName));
+ nodeWithLineNumber = "compiler.getInput(sourceName));
+ nodeWithLineNumber = getLastLineNumber(sourceName));
+ nodeWithLineNumber = _declare(name, n, declaredType, compiler.getInput(sourceName));
+ compiler.report(Declaration.make(sourceName));
+ nodeWithLineNumber = getLine(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName, nodeWithNode));
+ nodeWithLineNumber = parent. parent;
+ nodeWithLineNumber = "(??");
+ nodeWithLineNumber.append(1, compiler.getInput(sourceName));
+scope = origVar ;
+ nodeWithLineNumber return;
+scope.declare(name, n, declaredType, compiler.getLineNumber ( n ) ) ;
+ declareVar(scope, compiler.getInput(sourceName));
+ nodeWithLineNumber.push(name);
+ nodeWithLineNumber.append(n);
+scope.declare(name, n, declaredType), nodeWithLineNumber);
+ nodeWithLineNumber.setString(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, Node.importNode(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName))); } }
+scope.declare(name, n, declaredType, compiler.block ( nodeWithLineNumber, parent )));
+scope.declare(name, n, declaredType, compiler.parse ( nodeWithLineNumber )));
+ nodeWithLineNumber = n + 1;
+ nodeWithLineNumber = getFirstLineNumber(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput()); }
+ nodeWithLineNumber = (parent, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n,  parent, declarations);
+ nodeWithLineNumber += 1));
+scope.declare(name, n, declaredType,  parent, gramps ) ;
+ redeclarationHandler.on( n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = (getInput(sourceName));
+ nodeWithLineNumber = [ ], compiler.getInput(sourceName));
+ nodeWithLineNumber = create(name, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.inliner.declare(name, n, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler_.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber ++, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.append(0, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, Node.declare(sourceName));
+ compiler.report( declareVar(name,sourceName));
+scope.declare(name, n,  parent, 0);
+ nodeWithLineNumber = declare(name, declaredType, compiler.getInput(sourceName));
+ redeclarationHandler.parentScope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ scope.createVariable(n, declaredType, compiler.getInput(sourceName));
+ declare(declaredType, compiler.getInput(sourceName));
+ declareVariable(name, n, declaredType, compiler.getInput(sourceName));
+ super. declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber. append( scope.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent, gramps, Node.declared(sourceName));
+scope.add ( name ) ;
+ redeclarationHandler.onError(n);
+ nodeWithLineNumber.push("));
+ nodeWithLineNumber = n));
+scope.declare ( n )
+ scope.setDeclared(name, (n));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return ;
+scope.declare(name, n, declaredType, compiler.getInputNode ( n )));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName) + ")" ;
+ redeclarationHandler.onDeclare(sourceName));
+ redeclarationHandler.onDeclared(name);
+scope.declare(name, n, declaredType, compiler.getInput(parent), gramps));
+ nodeWithLineNumber = origParent.getInput(sourceName));
+ console.log(node(n));
+ nodeWithLineNumber(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( name )));
+ nodeWithLineNumber = "declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.append(name, n, declaredType, compiler.getInput(sourceName));
+ compiler.comment(sourceName));
+ nodeWithLineNumber = "name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.append(declaration);
+ nodeWithLineNumber = parent. line;
+ nodeWithLineNumber. append( node.getInput(sourceName));
+ scope.setDeclared(false));
+ nodeWithLineNumber = origNode.getInput(sourceName));
+ nodeWithLineNumber = " ", compiler.getInput(sourceName));
+ node = scope.getInput(sourceName));
+ nodeWithLineNumber = (0, compiler.getInput(sourceName));
+ compiler.report( declareVar(n,sourceName));
+scope.declare(name, n, declaredType, parent ) ; }
+scope.declare(name, n, declaredType, compiler.getInput(sourceName))); } } }
+ compiler.report(DeclarationError(sourceName));
+ parent.appendChild(n));
+scope = parent
+ if (scope.declare())
+ nodeWithLineNumber.set(n, declaredType, compiler.getInput(sourceName));
+scope.free ( ) ;
+scope.declare(name, n, declaredType, compiler.currentLineNumber()); }
+ nodeWithLineNumber = append(n, compiler.getInput(sourceName));
+ compiler.reportIgnored(sourceName));
+scope = undefined ; }
+scope.declare(name, n, declaredType, compiler.getInputNode ( parent )));
+ scope.addDeclaredVariable(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = create(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = parent));
+ if (scope.declare)
+ redeclarationHandler.onDeclaration(sourceName));
+ redeclarationHandler.onError(name);
+scope.declare(name, n, declaredType, compiler ) ; } } } ;
+ scope.addDeclaration(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber.push());
+scope.declare(name,  parent, n, gramps);
+ scope.addDeclared(name, n, declaredType, compiler.getInput(sourceName));
+ declareVar(ns, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( ) )
+ nodeWithLineNumber.init(scope, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLineNumber ( )));
+scope.declare(name, n, declaredType, compiler, nodeWithLineNumber )
+ nodeWithLineNumber = lineNumber(sourceName));
+ if (name!= null) {
+ nodeWithLineNumber = (n);
+ if (declared) {
+scope.declare(name, n, declaredType, compiler ) ; return ; }
+scope.declare(name, n, declaredType, compiler.getInput(parent)) ; }
+ declareVar ( name ) ;
+scope.declare(name,  declarationType);
+ redeclarationHandler.create scope, n, declaredType, compiler.getInput(sourceName));
+ compiler.report( new Error(sourceName));
+ nodeDeclare(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = new Node(sourceName));
+ nodeDeclare(declaredType, compiler.getInput(sourceName));
+ return parent.getInput(sourceName));
+ nodeWithLineNumber = node;
+scope.declare(name, n, declaredType,  parent.getChild(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), false ) ;
+ compiler.report( null, compiler.getInput(sourceName));
+ nodeWithLineNumber = "(n, declaredType, compiler.getInput(sourceName));
+ compiler.warn(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(parent, n)) ;
+scope.declare(name, n, declaredType, compiler, node ) ;
+ nodeWithLineNumber = newdeclaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = "getInput(sourceName));
+ if (declared)
+scope.declare(name, n, declaredType, compiler.nodeWithLineNumber()); }
+ nodeWithLineNumber.append( declaredType);
+scope.declare(name, n, declaredType, compiler ) ; } return true ;
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } } ;
+scope.declare(name, n, declaredType, compiler.getInput(nodeWithLineNumber2));
+ super. declare ( n, declaredType, compiler.getInput(sourceName));
+ declareType(declaredType, compiler.getInput(sourceName));
+scope = s ;
+ nodeWithLineNumber = " ";
+ nodeWithLineNumber = parent. parent. parent;
+ nodeWithLineNumber = new String(sourceName));
+ nodeWithLineNumber = ((sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(parentNode)) ;
+ if (declareScope)
+ nodeWithLineNumber = ' ';
+ compiler.report(missing(sourceName));
+ nodeWithLineNumber = source.getInput(sourceName));
+ nodeDeclare(name, n, declaredType, compiler.getInput(sourceName));
+ report(declaredType, compiler.getInput(sourceName));
+ compiler.reportIgnore(sourceName));
+ nodeWithLineNumber = "(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput ( ) ;
+ nodeWithLineNumber = $(n);
+ logger.error(name));
+ nodeWithLineNumber = '(?');
+ redeclarationHandler.onDeclared(sourceName));
+ declareVar(ns, compiler.getInput(sourceName));
+ declareVar(origVar.getInput(sourceName));
+ nodeWithLineNumber = parent. parent. node;
+ declareVar(declaration.getInput(sourceName));
+scope.addVariable ( name )
+ console.log((sourceName));
+scope.add ( n )
+ nodeWithLineNumber.append(sourceName));
+ declareVariable(declaredType, compiler.getInput(sourceName));
+ node = parent.getInput(sourceName));
+ compiler.exit(sourceName));
+scope.addNode ( n )
+ throw new IllegalArgumentException(sourceName));
+ writer.writeString(declaredType, compiler.getInput(sourceName));
+scope.declareVar(); }
+ declareVar( parent, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = null ; return false;
+scope.declare(name, parent, n);
+scope.declare(name, n, declaredType, compiler.block ( ) ) ;
+scope.declare(name, n, declaredType,  parent.getProp(sourceName));
+ return node.getInput(sourceName));
+ parent. declareVariable(n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber =(sourceName));
+ nodeWithLineNumber(getInput(sourceName));
+ console.log(sourceName));
+ if (declares) {
+scope = n
+ logger.info(name));
+ nodeWithLineNumber(name);
+ nodeWithLineNumber = newline(sourceName));
+ nodeWithLineNumber += "(declaredType, compiler.getInput(sourceName));
+scope.push ( ) ;
+ redeclator.declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLine(compiler.getInput(sourceName));
+ nodeWithLineNumber = ")";
+ nodeWithLineNumber(null);
+ nodeWithLineNumber = null ; return null;
+scope.declare(name, n, declaredType, compiler.getInput(node, false));
+ declareVar(declarer.getInput(sourceName));
+ nodeWithLineNumber().getInput(sourceName));
+ compiler.report( compiler.compiler.getInput(sourceName));
+ if (declaringScope)
+ return scope.getInput(sourceName));
+scope.exit(); }
+ throw new IllegalStateException(sourceName));
+ scope. onDeclareVar(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumberProvider.getInput(sourceName));
+ writer.write(declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber = make(name, n, declaredType, compiler.getInput(sourceName));
+ print(name, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  new Name(sourceName));
+ compiler.report(compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getLocation ( ));
+ compiler.reportError(compiler.getInput(sourceName));
+ writer.writeNode(declaredType, compiler.getInput(sourceName));
+ throw new RuntimeException(sourceName));
+ nodeWithLineNumber(parent);
+ super. declare ( name, declaredType, compiler.getInput(sourceName));
+ parent = scope.getInput(sourceName));
+ compiler.reportThis(sourceName));
+ return (compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.NONE);
+ nodeWithLineNumber = indent(sourceName));
+ declareVariable(n, declaredType, compiler.getInput(sourceName));
+ node.init(declaredType, compiler.getInput(sourceName));
+ compiler.createVariable(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; return ;
+ declareVar(node.getInput(sourceName));
+ nodeWithLineNumber = [n, declaredType, compiler.getInput(sourceName));
+ declare( name, declaredType, compiler.getInput(sourceName));
+ parent.getInput(sourceName));
+ declareVar(n.getInput(sourceName));
+ writer.writeText(declaredType, compiler.getInput(sourceName));
+ parent. setInput(compiler.getInput(sourceName));
+ return ; } scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ super. declareVar ( nn, declaredType, compiler.getInput(sourceName));
+ declareVar ( name )
+ scope. declareVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(node, true));
+ nodeWithLineNumberNode.getInput(sourceName));
+ return ; } declareVar(name, n, declaredType, compiler.getInput(sourceName));
+ declareVar, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, null);
+ nodeWithLineNumber += 1;
+ super. _declare(name, n, declaredType, compiler.getInput(sourceName));
+ debug(sourceName));
+ return null, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  parent.getAttribute(sourceName));
+ warn(sourceName));
+scope.declare(name, n, declaredType,  Node.valueOf(sourceName));
+scope.declare(name, n, declaredType, compiler.block ( ) ;
+ declareVarImpl( scope, n, declaredType, compiler.getInput(sourceName));
+ if (declare)
+ redecler.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(n); }
+ writer.write(n, declaredType, compiler.getInput(sourceName));
+ return null, compiler.getInput(sourceName));
+ return ; } super.declare(name, n, declaredType, compiler.getInput(sourceName));
+ if (declaring)
+ nodeWithInput(compiler.getInput(sourceName));
+ nodeWithLineNumber(");
+ declare( parent, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, false);
+scope.declare(name, n, declaredType, compiler.block ( name )));
+scope.declare(name, n, declaredType,  parent.get(sourceName));
+ return (scope.getInput(sourceName));
+ parent. push(compiler.getInput(sourceName));
+ throw new IOException(sourceName));
+ scope.define(name, n, declaredType, compiler.getInput(sourceName));
+ declare( n, compiler.getInput(sourceName));
+ nodeWithLineNumberVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.exitNode ( ));
+ if (scope)
+scope.declare(name, n,  nodeWithLineNumber);
+ print(sourceName));
+ nodeWithLineNumberCheck(name, n, declaredType, compiler.getInput(sourceName));
+ scope.decl(name, n, declaredType, compiler.getInput(sourceName));
+scope = undefined ;
+scope.clear(); }
+ node = node.getInput(sourceName));
+ nodeWithLineNumber(sourceName));
+ nodeWithLineNumber ++;
+ redeclater.declare(name, n, declaredType, compiler.getInput(sourceName));
+ report( name, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  new SourceLocation(sourceName));
+scope.declare(name, n, declaredType,  new String(sourceName));
+ redeclarer.declare(name, n, declaredType, compiler.getInput(sourceName));
+ declarationVar = scope.getInput(sourceName));
+ return name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber();
+ nodeWithInput=compiler.getInput(sourceName));
+scope.declare(name, n, declaredType), gramps);
+scope.declare(name, n, declaredType, compiler.getInputStream());
+ parent. append( n.getInput(sourceName));
+ declareVar, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.exitCode()); }
+scope.declare(name, n, declaredType,  nodeWithLineNumber)
+ declareVarImpl( name, n, declaredType, compiler.getInput(sourceName));
+ node.getInput(sourceName));
+scope.declare(name, n, declaredType,  node.alias(sourceName));
+ varDeclared =
+scope.init(); }
+ parent. _declare(name, n, declaredType, compiler.getInput(sourceName));
+ varDeclared = true;
+ log(sourceName));
+scope.declare(name, n, declaredType ) ; } }
+ emit(compiler.getInput(sourceName));
+scope.declare(name,  n), parent);
+ emit(declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.currentLineNumber);
+ nodeWithLineNumberFor(sourceName));
+ return origVar.getInput(sourceName));
+ return scope, n, declaredType, compiler.getInput(sourceName));
+ return declareVar(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName))); }
+ scope. _declare(name, n, declaredType, compiler.getInput(sourceName));
+ nodeWithLineNumber =);
+ parent.append(n);
+ nodeWithLineNumber --;
+ varDeclaration =
+ return source.getInput(sourceName));
+scope.declare(name,  nodeWithLineNumber
+scope.declare(name, n, declaredType, compiler, false);
+ parent. add_declare(name, n, declaredType, compiler.getInput(sourceName));
+ scope. add_declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, true);
+ return scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+ declareVarImpl(n, declaredType, compiler.getInput(sourceName));
+ assign(declaredType, compiler.getInput(sourceName));
+ throw new SourceException(sourceName));
+ scope.decl(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  compiler.escape(sourceName));
+ super.getInput(sourceName));
+ return ; } return
+ parent.push(n);
+ scope.add(n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  compiler.source(sourceName));
+ redeclaration.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.currentLineNumber());
+ declareVariable(sourceName));
+ node(scope.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName) + name);
+ return ; } parent.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(NodeWithLineNumber));
+scope.free(); }
+ return parent, n, declaredType, compiler.getInput(sourceName));
+scope.declare ( )
+scope.declare(name, n, declaredType, compiler.exit());
+ return name, declaredType, compiler.getInput(sourceName));
+ assignType(declaredType, compiler.getInput(sourceName));
+ this. on_declare(name, n, declaredType, compiler.getInput(sourceName));
+ createVariable(declaredType, compiler.getInput(sourceName));
+ emitDeclaration(name, n, declaredType, compiler.getInput(sourceName));
+ parent. add ( "declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, parent);
+ printNode(n));
+ } else {
+scope.declare(name, n, declaredType, compiler.getInput(sourceName), null);
+ return parent, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)));
+ declare(name, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  new Text(sourceName));
+ emit(scope.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.noop);
+ declareNode(name, n, declaredType, compiler.getInput(sourceName));
+scope.continue();
+ scope. on_declare(name, n, declaredType, compiler.getInput(sourceName));
+ createVariable(n, declaredType, compiler.getInput(sourceName));
+ throw new Error("));
+scope.declare(name, false);
+ return super.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declareVariable();
+ report(getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(origVar));
+scope.declare(name, n, declaredType,  node);
+ emitError(name));
+ createVariable(name, n, declaredType, compiler.getInput(sourceName));
+ print(compiler.getInput(sourceName));
+ emit(name));
+ declareVar((sourceName));
+ return false, compiler.getInput(sourceName));
+ throwError(sourceName));
+scope.declare(name, n, declaredType, compiler.ignore);
+ print(name));
+scope.declare(name, n, declaredType, compiler.NODE);
+scope.declare(name, n, declaredType, compiler.block);
+ varDeclarer =
+ return false));
+scope.declare(name, n, declaredType,  new File(sourceName));
+ return compiler.report(sourceName));
+ scope. onUndeclare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName))); return ;
+ defineVar(n, declaredType, compiler.getInput(sourceName));
+ defineVar(name, n, declaredType, compiler.getInput(sourceName));
+ declareVar, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.exit);
+scope.declare(name, n, declaredType,  identifier(sourceName));
+ return n, compiler.getInput(sourceName));
+ declaredType(compiler.getInput(sourceName));
+ declareVar(getInput(sourceName));
+ declarationVar(n, declaredType, compiler.getInput(sourceName));
+scope.return();
+ throw new RuntimeException));
+scope.declare(name, n, declaredType, compiler.nop);
+ var = declaredType;
+ createNewVariable(name, n, declaredType, compiler.getInput(sourceName));
+scope = s
+scope.declare(name, n, declaredType, compiler.debug);
+ printNode(node));
+ assert(declaredType, compiler.getInput(sourceName));
+ declareVariable(compiler.getInput(sourceName));
+scope.return;
+scope.declare(name, n, declaredType,  Gramps);
+ return ; } return;
+ declareVariableImpl(name, n, declaredType, compiler.getInput(sourceName));
+ throw(compiler.getInput(sourceName));
+ createNewVar(name, n, declaredType, compiler.getInput(sourceName));
+scope = undefined
+scope.declare(name, n, declaredType,  new Source(sourceName));
+scope.declare(name, n, declaredType,  gramp);
+ return parent, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.blockScope);
+scope.declare(); }
+ parent. add ( ".declare(name, n, declaredType, compiler.getInput(sourceName));
+ throw unexpected(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(genName));
+scope.declare(name, n, declaredType,  true);
+ declaration(n, declaredType, compiler.getInput(sourceName));
+ define(name, n, declaredType, compiler.getInput(sourceName));
+ define(n, declaredType, compiler.getInput(sourceName));
+ emit(n));
+ assign(n, declaredType, compiler.getInput(sourceName));
+ declaration(name, n, declaredType, compiler.getInput(sourceName));
+ report(n, declaredType, compiler.getInput(sourceName));
+scope.declareNode();
+ return false ; return;
+ return this. scope.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; } return
+ compiler.declare(name, n, declaredType, compiler.getInput(sourceName));
+ varNode =
+ return false ;));
+ return ; }));
+ print((sourceName));
+ node(getInput(sourceName));
+ return ; } s.declare(name, n, declaredType, compiler.getInput(sourceName));
+ return node ( ).declare(name, n, declaredType, compiler.getInput(sourceName));
+ return null));
+scope.declare(name, n, declaredType, compiler.getInput(ns));
+scope.declare(name, n, declaredType, compiler.getInput(sourceNode));
+ s.declare(name, n, declaredType, compiler.getInput(sourceName));
+ return compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  name(sourceName));
+ report(name, n, declaredType, compiler.getInput(sourceName));
+ return (false);
+ varDecl = null;
+ assign(name, n, declaredType, compiler.getInput(sourceName));
+ return n.getInput(sourceName));
+ } }));
+scope.declare(name, n, parent
+ super.
+ varInfo =
+scope.declare(name,  node);
+ varDecl =
+scope.declare(name); return
+scope.declare(name, n), parent
+scope.declare(name, n, declaredType, compiler.getInput(gamps));
+ return; } return);
+ return false);
+ varDef =
+ return ;
+scope.declare(name, n, declaredType,  literal(sourceName));
+ return (true);
+ return; } });
+ return true));
+ return ;));
+ if (false);
+ return false; });
+ return null; });
+ return false;
+scope.declare(name), n
+ return false;compiler.getInput(sourceName));
+ declaredType=compiler.getInput(sourceName));
+ return null);
+ return report(sourceName));
+ return s.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType,  get(sourceName));
+scope.declare(name, n, declaredType, compiler)); }
+scope.declare(name, n,  false);
+ } } return;
+ throwException(sourceName));
+ astWalker.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n,  null);
+ }return false;
+ astWriter.declare(name, n, declaredType, compiler.getInput(sourceName));
+scope.declare(name, n, declaredType); return
+ return true;
+ return
+scope.declare(name, n, declaredType,  String(sourceName));
+scope.declare(name, n, declaredType, compiler.getInput(sourceName)) ; return
+ return null;
+ } return
+ return true);
+ }return null;
+ }return true;
+ #return);
+ return return;
+ return ();
+ } }
+ {

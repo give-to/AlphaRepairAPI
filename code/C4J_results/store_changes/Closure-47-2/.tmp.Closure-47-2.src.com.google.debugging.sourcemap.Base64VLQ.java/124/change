@@ -1,0 +1,487 @@
+return fromVLQSigned(result);
+return  result ;
+return fromVLQSigned(result, shift);
+ out.append(result);
+return  out.append(result);
+return fromVLQSigned ( result, shift )
+return  decode(result);
+return fromVLQSigned ( result )
+ return Integer.fromVLQSigned(result);
+ return (result);
+return fromVLQSigned(result) + shift;
+return fromVLQSigned(result, shift, continuation);
+return fromVLQSigned(result, -1);
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; }
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT;
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; }
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift;
+return  result + shift ;
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift;
+ { result = result + (digit << shift); shift = shift + VLQ_SHIFT;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; } while (shift);
+ do { result = result + (digit << shift); shift = shift + VLQ_SHIFT;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; } }
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; } while (result);
+return fromVLQSigned(result) ; } while (continuation);
+ return Base64.fromVLQSigned(result);
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE ; }
+ { result = result + (digit << shift); shift = shift + VLQ_BASE ; }
+return fromVLQSigned ( result << shift ) ;
+ { result = result + (digit << shift); shift = shift + VLQ_Shift;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; if (result) {
+ } else { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT ; }
+ if (shift > 0) { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift;
+return fromVLQSigned(result) ; } while ( hasNext ) ;
+return fromVLQSigned(result, shift + 1);
+return  result << shift ; }
+return fromVLQSigned ( result
+return fromVLQSigned ( result ) ; } catch ( e ) {
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; } }
+return fromVLQSigned ( result ) ; } while ( continuation )
+ } else { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT ;
+ if (shift > 0) { result = result + (digit << shift); shift = shift + VLQ_BASE ; }
+return fromVLQSigned(result) ; } while ( result > 0 ) ;
+return fromVLQSigned(result, shift); } while ( hasNext ) ;
+return fromVLQSigned(result, shift); } while (continuation);
+ do { result = result + (digit << shift); shift = shift + VLQ_Shift;
+return  result << shift ;
+ if (result) { return Base64.fromVLQSigned(result);
+return fromVLQSigned ( result, shift ) ; }
+ { result = result + (digit << shift); shift = shift + VLQ_SIZE;
+ } else { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift ;
+return  result ; }
+return fromVLQSigned(result) ; } catch ( IOException e ) {
+return fromVLQSigned(result, shift); } while ( continuation )
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_Shift();
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_ ;
+return fromVLQSigned ( result, shift, continuation )
+ if (result > 0) { return Integer.fromVLQSigned(result);
+ do { result = result + (digit << shift); shift = shift + VLQ_BASE_SIZE ;
+return fromVLQSigned ( result, shift ) ; } return 0 ;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_ ;
+ result = result + (digit << shift); shift = 0 ;
+return  result << shift ; } while ( continuation )
+ { result = result + (digit << shift); shift = shift + VLQShift;
+ do { result = result + (digit << shift); shift = shift + VLQ_SIZE;
+ if (shift > 0) { result = result + (digit << shift); shift = shift + VLQ_BASE_ }
+ result += digit << shift ;
+ shift = shift + VLQ_BASE_SHIFT ;
+return fromVLQSigned ( result + shift ) ;
+return fromVLQSigned(result, shift); } while ( result > 0 )
+return fromVLQSigned(result, shift); } while ( hasNext )
+return fromVLQSigned(result) ; } catch ( IOException e ) { }
+ do { result = result + (digit << shift); shift = shift + VLQShift ;
+return  result + (digit << shift) ;
+return  result << shift ; } while ( hasNext )
+return  result + shift << shift ;
+return fromVLQSigned(result) ; } while ( result > 0 ) ; }
+return fromVLQSigned ( result, shift + 1 )
+ result = result + (digit << shift);
+return  result + shift ; } while ( continuation )
+ } else { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT; } }
+return  result << shift ; } while ( continuation ) ;
+ { result = result + (digit << shift); shift = shift + VLQ_BASE_SHIFT ; } } ;
+return  result + shift ; }
+ in. next ( ) ; return result ;
+ { result = result + (digit << shift); shift = shift + VLQSize;
+ { result = result + (digit << shift); shift = shift + VLQSIZE;
+ result += digit ;
+return  result ; } while ( hasNext ) ;
+ result = result + (digit << shift;
+return  result + shift ; } while ( continuation ) ;
+ shift(shift);
+ if ( result == 0 ) { return - 1 ; } else {
+ if (result == 0) { return Integer.fromVLQSigned(result);
+ { result = result + (digit << shift); shift = shift + - 1 ; }
+return fromVLQSigned ( result << shift ) + result << shift ;
+return fromVLQSigned ( result, shift ) + - 1 ;
+ if (result!= 0) { return Integer.fromVLQSigned(result);
+return fromVLQSigned ( result, shift, continuation ) ; }
+return fromVLQSigned(result, shift); } while (result > 0);
+return fromVLQSigned ( result, shift ) + 1 ;
+ shift = shift + 1 ;
+return fromVLQSigned(result) ; } while ( hasNext )
+ if (result) { out.append(result);
+return  out.append(result); out.append(result);
+ result = result + (digit << shift); return result
+return  result ; } while ( continuation ) ;
+return  out.toBase64(result);
+return fromVLQSigned ( result ) + shift ; }
+ result = result + (digit << shift); shift += 1
+ result += digit << shift ; return Base64.fromVLQSigned(result);
+return fromVLQSigned(result, shift); return - 1 ;
+ in. next ( ) ; return result ; }
+return  result | shift ;
+return fromVLQSigned ( result << shift, digit ) ;
+ result += digit << shift ; }
+ shift = shift + - 1 ;
+ if (result) {
+ result = result + (digit << shift); shift = shift ;
+ while (shift > 0) ; out.append(result);
+ in. next ( ) ; return result << shift ;
+ shift = shift + VLQ_BASE_SIZE ;
+ shift = shift + VLQ_BASE_Shift;
+return  in.decode(result);
+return fromVLQSigned ( result << shift ) + - 1 ;
+ while (shift > 0) { out.append(result);
+ shift = shift ; return result ;
+ if (result == 0) { break;
+return fromVLQSigned(result, shift); } while ( continuation ) ; }
+ result = result + result + result + result + result + result
+return fromVLQSigned(result, shift); return result ;
+ if (result == 0) { result = result + (digit << shift); }
+ result = result + (digit << shift); shift += 1 ;
+ result = result + (digit << shift); shift = 0
+ result = result + (digit << shift); shift++;
+return  out.append(c); out.append(result);
+ shift = shift + VLQ_BASE_ ;
+ if (result == 0) { result = 0;
+ shift = 0;
+return  result + shift ; } while ( hasNext )
+ if (result > 0) { return result ;
+return  result << shift ; } return 0 ;
+return fromVLQSigned(result) ; } while ( result > 0 )
+return fromVLQSigned(result) ; } while (true);
+ if (result == 0) { return result ;
+ return (result << shift);
+return  result + shift + digit << shift ;
+return fromVLQSigned(result) ; } catch ( Exception e ) {
+return fromVLQSigned ( result << shift )
+ if (result == 0) { result = 0;
+ in. next ( ) ; return result + shift ;
+return fromVLQSigned(result, shift) + result;
+return  result << shift | continuation ;
+return fromVLQSigned ( result, shift ) + 1
+ while (result > 0) { out.append(result);
+ return result + Base64.fromVLQSigned(result);
+ { result = result + (digit << shift); shift = shift + result << 1 ;
+ return VLQ.fromVLQSigned(result);
+ shift = shift + VLQ_SHIFT ;
+ if ( result == 0 ) { return - 1 ; }
+return fromVLQSigned ( result ) ; }
+ shift = shift + VLQ_BASE_SHIFT; }
+ if ( result == 0 ) { break ; } else {
+ result += digit << shift ; shift = 0;
+ if (result == 0) { result = 0; }
+ { result = result + (digit << shift); shift = shift + 1 ; } }
+return  toVLQSigned(in).append(result);
+return  in.next(); out.append(result);
+ if (result == 0) { return 0;
+ if ( result == 0 ) { break ; } if ( result!= 0 ) {
+ shift = result << shift;
+return  out.append(result); out.end(result);
+return  result + (digit << shift) + shift ;
+ { result = result + (digit << shift); shift = shift + 8 ; } }
+return  result | shift | continuation ;
+ if (result > 0) {
+ if (result == 0) { result = result + shift ; }
+ if (result > 0)
+ return result + (shift << shift);
+ in. next ( ) ; return result << shift ; }
+ result += digit << shift
+ result = result + (digit << shift); shift;
+return fromVLQSigned ( result, shift ) + result ; }
+ shift = - 1 ;
+return  result >>> shift ;
+ if ( result == 0 ) { break ; } if ( result > 0 ) {
+ if (result == 0) { break; }
+return fromVLQSigned(result, shift); return result + shift ;
+ result = result + (digit << shift) + shift;
+ if (result == 0) { result = result + shift ;
+ shift += 1 ;
+ if (result == 0) { result = result + (digit << shift);
+ if (result > 0) { result = result;
+ if (result == 0) { result = result + shift ; } else {
+return  result + shift + continuation ; }
+return fromVLQSigned(result) ; } catch ( IOException ex ) {
+return fromVLQSigned ( result + shift )
+return  result + shift + continuation ;
+ if ( result == 0 ) { return - 1 ; } if ( continuation ) {
+ result = result + (digit << shift) shift;
+ if (result) { return result ;
+return fromVLQSigned(result, shift + continuation);
+return  result >>> shift ; }
+return  result + shift << 1 ;
+return fromVLQSigned(result, +shift);
+return  result | shift ; }
+ if (shift < 0) { result = 0 ;
+ shift = result >>> shift ;
+ if (result == 0) { result = result + result << shift ; }
+ shift = shift + - 1 ;
+ result = result + (digit << shiftShift);
+ return result ; } while ( hasNext )
+return fromVLQSigned(result) + shift + result;
+ result = result + (digit << shift); break;
+ result = result + (digit << shift)*;
+return fromVLQSigned(result, shift); shift = 0 ;
+ } return Base64.fromVLQSigned(result);
+ while (shift < 0) ; out.append(result);
+ shift = shift + result << shift;
+ return result + (digit << shift + 1);
+ return result + (digit << shift;
+ result += (digit << shift);
+ result += digit << shift;
+ while (shift > 0); return out.append(result);
+ if (result) { break;
+ if ( result == 0 ) { return - 1 ; } if ( result ) {
+ return result + shift(shift);
+ result = result + (digit << shift) ;
+ while (shift > 0) ;
+return  result >> shift ;
+ if (result == 0) { result = result + result << shift ;
+ { result = result + (continuation << shift);
+return  result + shift
+return  out.append(c) + append(result);
+ return (result + shift);
+ result = result + (digit << shift); }
+ while (shift > 0) out.append(result);
+ if (result == 0) { out.fromVLQSigned(result);
+return  out.fromBase64(result);
+return fromVLQSigned(in, result, shift);
+ in.next(result);
+ result += digit << shift ; return result
+ if (shift > 0) { out.fromVLQSigned(result);
+return  result + shift << shift ; }
+return  out.append(result); out.close(result);
+ return result + -1;
+ return result + (result << shift + 1);
+ result += digit << shift + 1 ;
+return  result + (digit << shift) + shift
+return fromVLQSigned(result, -shift);
+ shift += -1;
+ result += result + (digit << shift);
+return fromVLQSigned(result) + (shift << shift);
+ result += (digit << shift + 1);
+ shift = shift + (digit << shift;
+ { result += (digit << shift + 1);
+ return result + (result + (digit << shift);
+ shift = shift - 1 ;
+ if (result) { in.next(result);
+ out.fromVLQSigned(result);
+ if (result == 0) { } else {
+return fromVLQSigned(result) ; } catch (Exception e) { return ;
+ result = result + (digit << -shift);
+ return Math.abs(result);
+return  out.append(char) + append(result);
+ return result ; } return Base64.fromVLQSigned(result);
+return fromVLQSigned(result) ; } catch ( IOException e ) { ;
+ return result + (digit << shift) + shift);
+ result += digit << shift; return result;
+return fromVLQSigned ( )
+ shift = shift + 1 ;
+return  result + shift ; } return 0
+ if (result == 0) { result = result + shift + 1 ;
+ if (result == 0) { return 0 }
+ return result + shift; return Base64.fromVLQSigned(result);
+ return result + (result + (shift << shift);
+ while (shift > 0) {
+ shift = shift + VLQShift ;
+ if (result > 0) { return decode(result);
+return fromVLQSigned(result, * shift);
+return  result + shift ; } } ;
+return fromVLQSigned(result) + shift + continuation;
+return  in.next().toBase64(result);
+ if (result) { out.appendInt(result);
+ return result + (shift << -1);
+ result = result + c << shift;
+ while (shift < result.length);
+ if (result) { result = Integer.fromVLQSigned(result);
+return  in.next(result);
+ shift = shift + result << 1;
+ { result = result + (digit << shiftShift);
+ shift = shift + VLQSize ;
+return fromVLQSigned(result + shift, continuation);
+ if (result) { out.writeInt(result);
+ if (result == 0) { } }
+return  result | shift
+ result = result + shift;
+return  in.read(result);
+return fromVLQSigned(result) ; } while (ctr);
+return  out.append(c).append(result);
+ result = Base64.fromVLQSigned(result);
+ shift += 2 ;
+ result = result + (shift << shift);
+return fromVLQSigned(result) ; } return 0 ;
+return  (int) in.next(result);
+ shift += (result << shift);
+return  out.append(char).append(result);
+ in.fromVLQSigned(result);
+ return result + (char << shift);
+ result += digit << shift);
+ result = decode(result);
+return  result + (digit << shift) + 1
+return  (int) out.append(result);
+ break; return Base64.fromVLQSigned(result);
+return  out.appendAscii(result);
+return  Integer. parseInt(result);
+ if (result) { out.appendByte(result);
+ return result = Base64.fromVLQSigned(result);
+return fromVLQSigned(result) + shift << shift;
+return  toVLQSignedDecode(result);
+ return result + shift + Base64.fromVLQSigned(result);
+ return result + VLQ.fromVLQSigned(result);
+return  result & ~ shift ;
+ } return out.append(result);
+ return result; return Base64.fromVLQSigned(result);
+return  (int) in.read(result);
+return  new Integer(result);
+ result += digit << shift; shift ++;
+return  out.append(result) + append(result);
+ shift = shift + result << shift ;
+return fromVLQSigned(result) == -1;
+return fromVLQSigned(result) + shift - result;
+ break ; } return Base64.fromVLQSigned(result);
+ if (result) { result = decode(result);
+ if (result) { return Math.abs(result);
+ return result + shift; return Integer.fromVLQSigned(result);
+ return result + shift);
+return fromVLQSigned(result) - shift;
+return  out.appendToBase64(result);
+ shift = shift + result);
+ shift = shift(shift);
+return fromVLQSigned(result), shift;
+ shift += digit << shift
+return  in.toBase64(result);
+return  out.appendBase64(result);
+return  out.append(result); return decode(result);
+ } while (shift++) ; return (result);
+ result += (digit << shiftShift);
+ result = result + shift << shift ;
+ if (result == 0) { result = result + (digit << shift));
+ while (shift > 0) { return decode(result);
+ return result + shift; out.append(result);
+ shift = (shift << shift);
+ while (shift < result.length)
+ return Math.int(result);
+return fromVLQSigned(result) | shift;
+ return out.decode(result);
+ } while (shift < 0); return (result);
+ if (result)
+return fromVLQSigned(result) + shift + result
+ } while (shift) ; return (result);
+return fromVLQSigned(result), shift);
+ if (result) { in.append(result);
+ result=fromVLQSigned(result);
+ return Math.round(result);
+ } else { return out.append(result);
+ while (result > 0) { return decode(result);
+ result = result + (shift shift);
+return fromVLQSigned(result) ; } while (ctr)
+ return out.encode(result);
+ shift = (shift << 1);
+ return result + (Base64.fromVLQSigned(result);
+ } else { result = in.next(result);
+return fromVLQSigned(result) ; } while (result > 0) {
+ return result ; } return Integer.fromVLQSigned(result);
+ while (result);
+return  result >>> shift
+ result = 0;
+ return result ; } return base64.fromVLQSigned(result);
+return fromVLQSigned(result) + 1
+return  result << shift
+return  Int. valueOf(result);
+ while (shift > 0) ; }
+return fromVLQSigned(result) + shift
+ shift = -shift;
+ } else { return Math.abs(result);
+ } while (shift); return decode(result);
+ return result + (char) (result);
+ return result << shift);
+return fromVLQSigned(result, shift); } }
+ } while (shift) return (result);
+ } while (shift < -result);
+return fromVLQSigned(result) << shift;
+ return result + (char) decode(result);
+ } return Integer.fromVLQSigned(result);
+return fromVLQSigned(charIterator);
+ in.append(result);
+ { out.append(result);
+return fromVLQSigned ( result ;
+ shift = 0;
+ shift = (result);
+ } else { return Math.round(result);
+ in.next(); return(result);
+ return base64.fromVLQSigned(result);
+ } else { return in.next(result);
+ return result + shift; return(result);
+return  out.writeInt(result);
+ return out.fromVLQSigned(result);
+ return result + (shift-result);
+ shift = 0; }
+ while (shift);
+ return 0 ; return Integer.fromVLQSigned(result);
+ return in.fromVLQSigned(result);
+return fromVLQSigned(decode);
+ shift = shift; }
+ shift += (1);
+ return int.fromVLQSigned(result);
+ } while (shift < 0)(result);
+ switch(result);
+return  in.toInt32(result);
+ shift < 0;
+ shift += 1;
+ in.next().append(result);
+return fromVLQSigned(result++);
+ result = Integer.fromVLQSigned(result);
+ return result + in.fromVLQSigned(result);
+return fromVLQSigned(result, shift); } ;
+return fromVLQSigned ( ) ;
+return  decodeResult(result);
+ return Character.fromVLQSigned(result);
+return  -1(result);
+return fromVLQSigned(result) - 1
+ shift += digit ; }
+ result = result.fromVLQSigned(result);
+ return result;
+return fromVLQSigned(result) + shift + 1
+return fromVLQSigned(int result);
+ in.complete(result);
+return fromVLQSigned ( in ) ;
+return fromVLQSigned(decoded);
+ return result);
+ break; }
+return  in.append(result);
+return fromVLQSigned(result), shift); }
+return fromVLQSigned(result) - result
+return fromVLQSigned(result, shifted);
+ in.read(result);
+ return encode(result);
+return fromVLQSigned(result) + result
+ }
+ return result + shift; return Integer#fromVLQSigned(result);
+ hasNext);
+return  encodeResult(result);
+ shift++);
+ return (-result);
+return  new int(result);
+return fromVLQSigned(out, result);
+ shift ++;
+ } while (result);
+return fromVLQSigned(...)
+ return VLQ().fromVLQSigned(result);
+ (shift);
+ return (!result);
+ return 0;
+ } }
+ result.fromVLQSigned(result);
+ break;
+ ++ result;
+ return int(result);
+ return -(result);
+ } ;
+ -- result;
+return fromVLQSigned(result); };
+ int decode(result);
+ int encode(result);
+return fromVLQSigned(out);
+return fromVLQSigned(result), shift
+return  0 ;
+return fromVLQSigned(result, shift
+return fromVLQSigned(result,);
+ break();
+return  return ;
+return  count ;
+return  convert(result);
+return  ord(result);
+return fromVLQSigned(Result);

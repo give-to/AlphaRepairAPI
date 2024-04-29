@@ -1,0 +1,1742 @@
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -recip;
+recipb += (1.0 -  recip);
+ recip = recip* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb);
+ recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  recip);
+ recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa + yab*recipb) * recip;
+ recip = (-yab*recipb) * recip;
+ recip = (recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip);
+recipb += (1.0 - yaa*recipa - yaa*recipb); recipb = recipb ;
+ recip = (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-recipb) * recip;
+recipb +=  -yb * recip * recip;
+recipb += (1.0 - yaa*recipa -  yab);
+ recip = recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * recip;
+ recip = (y- yab*recipb) * recip;
+recipb +=  recip * recip;
+ recip = (yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip);
+ recip = (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb + yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb = recip - recipb ;
+ recip = (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recipb);
+recipb +=  yab ;
+ recip = -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) * recip;
+ recip = (yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recipb ; recipb = recip - recipb ;
+ recipb += -recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recip;
+recipb += (yab) * recip;
+ recip = (1- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb = recip - recipb ;
+recipb += (1.0 - yaa*recipa - yaa*yab);
+recipb += (1.0 - yaa*recipa -  recipb); recipb = recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recip);
+ recip = (y- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * recip * recip;
+ recipb -= recip* recip;
+recipb += (1.0 -  recipb) * recip;
+recipb += (1.0 - yaa*recipa ) * recip - yab;
+recipb  = recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb); recipb += yab ;
+recipb  = recip - recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb = recipb ;
+ (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recipb ; recipb = recipb ;
+ recipb = (y- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yb*recipb);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb); recipb = recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * recip - yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recip - recipb ;
+ recip = (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -yb*recipb) * recip;
+recipb += (1.0 - yaa*recipa ); recipb = recip - recipb ;
+ recipb = -recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb); recipb = recip ;
+recipb += (1.0  - recipb) * recip - yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb)
+recipb += (1.0 - yaa*recipa ) * recip; recipb = recipb ;
+ recip = (1- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipb);
+recipb += (1.0 - yaa) * yab ;
+recipb += (1.0  - recipb) * yab ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip * recip;
+ recip = -(yaa*recipa - yab*recipb) * recip;
+ recipb += yab* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ) * recip; recipb = recipb ;
+recipb += (1.0 - yaa) * recip; recipb -= yab ;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * yab;
+ recip = (ya*recipa - yab*recipb) * recip;
+ recip = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip - recipb ;
+ recipb -= (-yab*recipb) * recip;
+ recipb = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip; recipb = recipb ;
+recipb += (1.0 - yaa*recipa -  recipb) * recip;
+ recipb += (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip + yb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recipb ; result *= 0.5 ;
+ recipb += (-yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recipb ;
+recipb += (1.0  - recipb); recipb = recipb ;
+recipb += (1.0 - yaa* recip) * yab;
+recipb  = recip + recipb ;
+ recipb = (-yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recip - recipb;
+recipb +=  recip ;
+recipb += (1.0 - yaa) * recip; recipb = recipb ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipa) * recip;
+recipb += (1.0  - recipb) * recip * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * recip - yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * recip - recipb;
+recipb += (1.0 - yaa*recipa ); recipb = recipb ;
+recipb += (1.0 - yaa*recipa -  recipb); recipb += - yab ;
+recipb += (1.0 - yaa) * recip - yab;
+ recip = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) * recip; recipb -= yab ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ); recipb = recip - recipb ;
+recipb += (1.0  - recipb) * recip + yab ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recip) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb * recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb += - yab ;
+ recipb = recip* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab); recipb = recip - recipb ;
+ (ya*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa) * recip;
+recipb += (1.0  - recipb) * recip * yab;
+ recipb += -yb*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb) * recip;
+recipb += (1.0 - yaa*recipa -  recipb) * yab;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0) * recip;
+recipb += ( recip * recip ) ;
+recipb += (1.0 - yaa* recip); recipb = recipb ;
+ recip = (ya*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -(yab*recipa - yab*recipb) * recip;
+recipb +=  recip * recip * recip;
+recipb += (1.0 - yaa*recipa -  yab*recipb);
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - recipa) * recip;
+recipb += (1.0 - yaa) * recip * yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recipb ; result = recipb ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - recip) * recip;
+recipb += (1.0 - yaa*recipa ); recipb -= yab ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - yab) * recip;
+ recipb = -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yb*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb -= recipa ;
+recipb += ( recip * recip * recip ) ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recip * recip) * recip;
+ recip = (-yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) * yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb);
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - recip * recip) * recip;
+ recipb -= -recip;
+recipb += (1.0 - yaa*recipa - yaa) * recip; recipb = recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb += - yb ;
+recipb += (yb - recip * recip) * recip;
+recipb  = recip - recipb ; } }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recipb ; recipb = recipb ; }
+ recipb = (1- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb; recip = recipb ;
+recipb += (1.0 - yaa* recip); recipb = recip - recipb ;
+ recip = (yb- yab*recipa - yab*recipb) * recip;
+ recip = (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += (-yb*recipb) * recip;
+recipb += (1.0 - yaa* recip); recipb -= yab ;
+recipb  = recip + recipb - yab ;
+ recip = (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += (-yaa*recipa - yab*recipb) * recip;
+recipb +=  -yb * recip * recip ; } else
+ recipb += -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb = recip + recipb ;
+recipb += (1.0 - yaa* recip) * recip - yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recip + yb ;
+ recipb = -(recipb) * recip;
+recipb += ( recip);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip; recip = recipb ;
+ recip = -(recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb ; result = recipb ;
+recipb += (1.0 - yaa) * recip; recipb = recip ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb - recipb);
+recipb += (1.0 - recipa) * recip; recipb -= (1.0 - recipb - recipb) * recip;
+recipb += ( recipb * recip * recip ) ;
+recipb += (1.0 - yaa*recipa -  recipb) * recip * yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) * recip; recipb = recipb ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb * recip * recip) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recipb ; result = y + recipb ; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip ; } else
+ recipb = (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recip - yab;
+ recip = (-y*recipb) * recip;
+ recipb += (y- yab*recipb) * recip;
+ recipb -= -yb*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb += recip * yab ;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - yb ;
+ recipb -= yab* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb = recipb - recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb += recipb ;
+recipb += (1.0 - yaa*recipa ) * recip + yab;
+ recip = (-recipa - yab*recipb) * recip;
+recipb += (yb * recip) * recip; recipb -= (yb * recip) * recip;
+recipb +=  recipb * recip * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - -recipb) * recip;
+ recipb += -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) * recip; recipb = recip ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 + recipb - recipa) * recip;
+recipb  = recip + recipb - recipa ;
+ recipb = (recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recip = recipb ;
+recipb  = recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip; recipb = recip ;
+ recipa += (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa + yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = (-recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb + -recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb += (1.0 - recipa) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb + recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ) * recip; recipb = recip ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip; recipb -= recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) - recipb;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb - yb ; yb = yb + yb ;
+ recipb = (-yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb = recipb - yab ;
+recipb += (1.0 - yaa) * recip; recipb -= recip ;
+ recip = -(recipb - yab*recipa - yab*recipb) * recip;
+recipb  = recip - recipb * recipb ;
+ recipa += -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb + recip * recip) * recip;
+ recipb = (-yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb + yb ;
+ recipb = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -(y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb); recipb = recip ;
+recipb += (1.0 - yaa*recipa -  recipb); recipb = recipb ; }
+ of yb yb = yb + recipb ; yb = yb + yb ; yb = yb - yb ; yb = yb + yb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) * recip; recipb -= yab ;
+recipb += (1.0 - yaa) * recip; recip = recipb ;
+recipb += (1.0 - yaa*recipa ); recip = recipb ;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - yb
+recipb += ( recip * yab ) ;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) - yab;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ); recipb += - yb ;
+recipb += ( recip - recipb ) * yab ;
+recipb += ( 1.0 - recipb ) * recip; var recipb += ( 1.0 - recipb - recip * recip) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recip - y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recipb ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb0) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0-y) * recip;
+ recip = recip + (-yab*recipb) * recip;
+ recipb -= (-recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip; var recipb -= ( 1.0 - recipb - recip * recip) * recip;
+recipb += ( 1.0 - recipb ) ;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (-1.0) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; yb = yb - yb ; yb = yb + yb ;
+recipb += (1.0 - yaa*recipa -  yab) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1 - recipb) * recip;
+ recipb += (recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * recip + yab;
+recipb += (1.0 - yaa*recipa ); recipb -= recip - yab ;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb) * (1.0) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb -= recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip;
+recipb += (1.0 - yaa* recip); recipb = recip ;
+ recipb = (recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa) * recip + yab ;
+ (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - recipb) * recip; recipb -= (yb - recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab); recipb += recip * yab ;
+ recip = (recipb- yab*recipb) * recip;
+ recip = (-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb +=  recip * yab ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip; recipb += recip ;
+recipb += (yb - recipa) * recip; recipb -= (yab) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recipb;
+recipb += (yb - recipb) * recip; recipb -= (yab) * recip;
+recipb += ( recip * recip ) * yab ;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; result *= 0.5 ; }
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb) * (1-y) * recip;
+recipb += ( recip * recipb ) ;
+recipb += (1.0 - recipb) * recip; recipb += (1.0) * recip;
+ recipb = (yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb) * (yab) * recip;
+ recipb += (-y*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - 1.0 - recip) * recip;
+ recip = (yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (0 - recipb) * recip;
+recipb += (1.0 - recipa) * recip + (1.0) * recip;
+ recip = (yaa- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb); recipb = recipb
+recipb  = recip - recipb ; } else
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*yb);
+recipb += (1.0  - recip) * recip;
+recipb += ( recipb * recip ) ;
+recipb += (1.0 - recipb) * recip + (1.0) * recip;
+ recip = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb * recip * recip) * recip;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb - yb ; yb = yb + 1 ;
+recipb += ( - recipb);
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb +=
+ recipb = -(yb*recipb) * recip;
+recipb += (1.0 - yaa - yab) * recip - yab;
+recipb +=  -yb * recip * yab ;
+ of yb, yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb);
+ recipb += (1- yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0f) * recip;
+ recipb -= (-yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recip + recipb ;
+ recipb = -recipa*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) + recipb;
+ recipb = (yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (-1- recipb) * recip;
+ recipb += (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0  + recipb) * yab ;
+recipb += (1.0 - recip * recip) * recip;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb - yb ; yb = yb + recip ;
+recipb +=  - yab ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ); recipb = recipb ;
+ of yb yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - y ;
+recipb += (yb - recipb) * recip; recipb -= (-yb) * recip;
+ recip * recip = -recip;
+recipb +=  recip - recipb ;
+ recipb += (-recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip ; } }
+recipb += ( 1.0 - recipb ) * recip ; } else { recipb += ( 1.0 - recipb + -recipb) * recip;
+ recipb -= yb* recip;
+ recipb -= recip;
+ recipb = -yb- yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip - (1.0) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recipb*recipb);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb - recipb);
+recipb += (1.0 - yaa* yab) * recip - yab;
+recipb += (yb - recip) * recip;
+ of yb, yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb); yb -= - (temp - yb);
+recipb += (1.0 - yaa*recipa -  yab) * recip * recip;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += - (temp - ya - recipb) * recip;
+ recipa += yab* recip;
+ recipb -= (-yab*recipa - yab*recipb) * recip;
+ recipb += (recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -(yab*recipb) * recip;
+ recipb += (-yab*recipa - yab*recipb) * recip;
+recipb += ( recipb - recipa);
+ recipb = (y- yab*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var yb = 0.5 ; var recipb = 1.0 - (1.0-y) * recip;
+ recip = -(yb*recipb - yab*recipa - yab*recipb) * recip;
+ recipb -= (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb * recip * recip) * recip;
+ (ya*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (-yb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var yb = 0.5 ; var recipb = 1.0 - (1.0 - recip) * recip;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb -= - (temp - ya - recipb); yb +=
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - (yb - recip) * recip;
+recipb += (1.0  + recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip - recipb;
+recipb += ( 1.0 - recipb ) * recip ; } else { recipb += ( 1.0 - recipb - -recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb = -(yb) * recip;
+recipb  = recip - recipb * recip ;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var result = -(yb) * recip;
+recipb += (1.0 - recipb - recip * recip) * recip;
+ of yb, yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - yb + 1 ;
+recipb += ( 1.0 - recip * recip ) ;
+ recipb += (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb = -(1-y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var yab = -(1-yb) * recip;
+ recip = -(recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var result = -(y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb += recip - recipb ;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb += (1.0-y) * recip;
+ recipb = (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var yab = -(yb) * recip;
+ of yb recipb += -(yaa*recipa - yab*recipb) * recip;
+recipb +=  -yb * recip * recip ; } }
+ recipb = (1- yab*recipa - yab*recipb) * recip;
+ recipb = -(-recipb) * recip;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb -= - (temp - ya - recipb) * recip;
+ recipb = (-y*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var y = -(y) * recip;
+ recip = (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb = yb + recipb ; yb = yb - recipb ; yb = yb + recipb ; yb = yb - recipb ; } else
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var yab = -(yb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recipb ; recipb -= recipb ; } }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb = recip ;
+ of yb, yb = yb + recipb ; yb = yb - recipb ; yb = yb + recipb ; yb = yb - recipb ; } }
+recipb += (yb + -recipb * recip) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (yab) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yb*recipb)
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var y = -(yb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb = recipb ; }
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb = -(yb - y) * recip;
+ of yb, yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - yb ; } }
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - (1.0 - recip) * recip;
+recipb += (yb + -recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb);
+recipb += (1.0 - recipb) * recip; var recipb = -1.0- recipb; var yb = -(yb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb += (yb - y) * recip;
+ recipb += ya* recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - (1.0-y) * recip;
+ of yb, yb = yb + recipb ; yb = yb - yb ; yb = yb + yb ; yb = yb - yb ; } else
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb =
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var yab = -(yb - y) * recip;
+ recipa += -(y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * (1.0-y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) - recip;
+ recip = -(y) * recip;
+recipb += ( 1 - recipb);
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * (1.0 - recip) * recip;
+: recipb += -yb * recip*recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var yab = -(1-y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb = recipb ; }
+recipb += (1.0 - recipb) * recip; recipb -= (-yab) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb + (1-y) * recip;
+ recipb += -ya*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var yb = 0.5 ; var recipb = 0.5 ; var recipb = (2) * recip;
+recipb += (1.0 - yaa*recipa -  yab) * recip - yab;
+recipb += (yb + recip * recip) * recip;
+recipb += (yb + -yb * recip * recip) * recip;
+ of yb recipb -= -yb* recip;
+recipb += (yb - recipa) * recip + (yab - recip) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var yb = 0.5 ; var recipb = 0.5 ; var recipb = (-y) * recip;
+recipb += (1.0 - recipb) * recip; recipb -= (1.0 - recipb - 1.0-y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb - recipa;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) - recip;
+recipb += (yb + -yb * recip) * recip;
+recipb += (1.0 - recipb) * recip; var recipb = -1.0- recipb; var yb = -(yab) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) - recip;
+recipb += (1.0 - yaa*recipa - yaa)*yab;
+recipb += ( 1.0 - recipb ) * recip ; } else { var yb = 0.5 ; var recipb = 1.0 - (1.0-ya) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab);
+recipb += (1.0 - yaa*recipa - yaa*recipb); recipb = recipb
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var result = (y) * recip;
+ recip = (yaa*-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( recip - recipb ) * recip ;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var recipb += (1-y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = -1.0-reciprocal(y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { recipb += ( 1.0 - recipb ) * sin(y) * recip;
+recipb += (1.0 - yaa* recip); recipb -= recip ;
+recipb += (1.0 - recipb) * recip; var recipb = -1.0- recipb; var yb = -(-yb) * recip;
+recipb += (yb - recipb) * recip; recipb -= (yb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb - (1-y) * recip;
+ recipb = -(y) * recip;
+recipb += ( recipb ) ;
+recipb += ( 1.0 - recipb ) * recip ; var yb = 1.0 - yb ; var recipa += (1.0-y) * recip;
+ recipb += -(yab) * recip;
+recipb += (1.0 - yaa* yab) * recip;
+ recip * recip = recip * recip;
+recipb += (1.0 - recipb - 1.0 - recip) * recip;
+ recip = (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip) * recip; recipb = recip ;
+ recip = recip + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - recipa) * recip; recipb -= (-yb) * recip;
+recipb += (1.0 - yaa*recipa -  recipb);
+ recip = recip + (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb - (yb) * recip;
+ of yb recipb += (-yaa*recipa - yab*recipb) * recip;
+ recipb -= (-y*recipb) * recip;
+ of yb recip = (1- yab*recipa - yab*recipb) * recip;
+ recipb += (-y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) * recip ; var result = (-y) * recip;
+ of yb, yb += -yb * recip; yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); ya = temp ;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += - recipb * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) * recip; recipb = recip ;
+ recipa = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yab - y) * recip;
+recipb += ( 1.0 - recipb ) * recip ; var yb = - ( 1.0 - recipb ) ; var yab = -(y) * recip;
+ of yb, yb += -yb * recip; yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += ;
+ of yb recipb = (1- yab*recipa - yab*recipb) * recip;
+ recipb += (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab* recip);
+ recip = recipb + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = (yb- yab*recipb) * recip;
+ recipb -= (yab) * recip;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb -= recipb * recipb ;
+ of yb recip = (-yaa*recipa - yab*recipb) * recip;
+ of yb, yb += -yb * recip; yb += -yb * recip; yb += -yb * recip; yb += -yb * recip;
+ recip = -yaa*recipa - yab*recipb) * recip;
+recipb += (yb - recipa) * recip + (yb + recip) * recip;
+ of yb, yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb += recipb * recipb ;
+ of yb, yb = -yb - recipb; yb = -yb + recipb; yb = -yb + recipb; yb = yb ;
+recipb += (1.0 - recipb) * recip + (yab) * recip;
+ recipb = (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipb) * recip;
+ of yb recipb += (1- yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipa += -(yab) * recip;
+recipb += (yb - recipb * recip) * recip;
+recipb += (1.0 - recipb * recip) * recip;
+ of yb, yb = -yb - recipb; yb = -yb + recipb; yb = -yb - recipb; yb = yb ;
+ of yb, yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb));
+recipb += (1.0 - yaa*recipa - yaa*bb);
+ of yb recipb -= -(yaa*recipa - yab*recipb) * recip;
+, recip = (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (y- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = (y-recipb) * recip;
+ recipb += (-bb*recipb) * recip;
+ of yb recipb = -yb* recip;
+ of yb yb += - (1.0 - yaa*recipa) * recip;
+ recipb = (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb ; var recip = (-y) * recip;
+ of yb, yb += -yb * recip; yb += -yb * recip; yb += -yb * recip; yb -= -yb * recip;
+ of yb, yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb); yb = yb - yb ; }
+recipb += ( yab ) ;
+recipb += (yb - recipb) * (yb - recip) * recip;
+recipb += (1.0 - yaa*recipa ); recipb = recip ;
+ of yb recipb = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb += -yb * recip; yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb = temp
+ of yb recipb = -(yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (-yaa*recipa - yab*recipb) * recip;
+ recip = (-yb*recipa - yab*recipb) * recip;
+recipb  = recip - recipb
+ recipa += (-yab*recipb) * recip;
+ of yb, yb += -yb * recip; yb += - (temp - ya - recipb); yb += - (temp - ya - recipb); yb = 0
+recipb += (1.0 -  recipb) * recipa;
+recipb += (yb - recipb) * (yab - recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recipb - recipa ;
+recipb +=  recipb ;
+ recip = (--recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb ; var recip = (x) * recip;
+ recip * recip = recipb;
+recipb += (1.0 - recipa) * recip + (yab) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb) * recip
+ of yb recip = (yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( recip * recip ) * recip ;
+ recipb += -(yb*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0-y; var recip = -(y) * recip;
+recipb += (yb - y) * recip;
+ recipb += (1- yab*recipa - yab*recipb) * recip;
+ recipa += -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb += - (temp - yb); yb += - (temp - yb); yb += - (temp - yb); yb -= - (temp - yb));
+ yb = -yb*(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += (-recipa - yab*recipb) * recip;
+recipb += (yb - recipb) * recip; recipb -= (ybb) * recip;
+recipb += (1.0 - recipb) * (yab) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb + (yb - recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * recip - yb;
+ recip = recip - (-yab*recipb) * recip;
+recipb +=  recip * recip ; } else
+ of yb yb = yb + recipb ; yb = yb - recipb ; recipb = recipb - recip ;
+ recipb -= (y- yab*recipb) * recip;
+ recip = (-bb*recipb) * recip;
+ of yb recipa += -yb* recip;
+ recip = yaa*recipa - yab*recipb) * recip;
+recipb += ( 1.0 - recipb ) * recip ; } else { var recipb = 1.0 - recipb ; var recip = (-1) * recip;
+: recipb = recip - recipb ; recip = recip + recipb ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip - yb ;
+recipb += (1.0 - recip) * (1.0) * recip;
+: recipb += 1.0 - recipb ; recipb = recip - recipb ;
+ of yb recipb -= (-yab*recipa - yab*recipb) * recip;
+ of yb recip = (y- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ); recipb = recip - recipb ; }
+recipb += (1.0 - yaa*recipa -  recipa) * recip;
+ recipb -= (recipa - yab*recipb) * recip;
+ recip = sin(y) * recip;
+: recipb = recip + recipb ; recip = recip - recipb ;
+ recipb += -(recipb) * recip;
+ of yb recipb += -yb* recip;
+ recip = (-ya*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) + yab;
+ of yb recip = (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (yb + recip*recipb) * recip;
+recipb += (1-recipb) * recip;
+recipb += (yb + -recipb * recip * recip) * recip;
+ of yb recipb += -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recipb = recipb + recip ;
+ return (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip - yab;
+ recip = (yb - recip*recipb) * recip;
+ of yb recipb = -(yb*recipb) * recip;
+ of yb recipb -= (-yab*recipb) * recip;
+recipb += ( recip - recipb);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip + yb;
+ recipb += (-yb*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= yb* recip;
+ recipb = (--recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) + recip;
+recipb += (1.0 - recipb - yab) * recip;
+recipb += (1.0 - recipb - 1.0) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipb)*yab;
+ recipb += (-b*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab)*yb;
+recipb += (1.0 - recip * recip * recip) * recip;
+ recipa += (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb + -recipa * recip) * recip;
+recipb += (1.0 - recipa - recip * recip) * recip;
+ of yb recipb = (yb- yab*recipa - yab*recipb) * recip;
+ of yb recip = (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* yab) * yab;
+ recipb = (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip * -recip;
+recipb += ( 1.0 - recip * recipb);
+ of yb recipb += (-yab*recipa - yab*recipb) * recip;
+ of yb recip = (ya*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -(yaa*recipa - yab*recipb) * recip;
+: recipb = -yb * recip*recip;
+ of yb recipb += (yb- yab*recipa - yab*recipb) * recip;
+ return (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb -= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - yb ; recipb = recipb - recip ;
+ recip = -(yab*recipb) * recip;
+ recip = (-1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb -= yab;
+recipb += (1.0 - recipb - recipb * recip) * recip;
+ of yb recipb = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= recip * recip;
+ recip = (recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * yab;
+ recip = recip + recip * recip;
+, recipb = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -yb- yab*recipa - yab*recipb) * recip;
+ of yb, yb += -yb * recip * recip;
+ of yb recipb = -yb*recipb) * recip;
+, recipb = recip * recip;
+ recipb = -(yb*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= yab* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip ; } {
+ of yb yb = yb + recipb ; yb = yb + recipb ; recipb = recipb - recip ;
+ of yb recipb += yab* recip;
+ of yb recipb = (y- yab*recipa - yab*recipb) * recip;
+ recip = recipb + (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yaa*recipa - yab*recipb) * recip;
+ recip = (-1) * recip;
+ of yb recip = -yb*recipa - yab*recipb) * recip;
+: recipb = recip - recipb ; recip = recip - recipb ;
+ recip = (*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += (1-y) * recip;
+ of yb recipb += -(yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(yab*recipb) * recip;
+ yb = -yb*(ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (1- yab*recipa - yab*recipb) * recip;
+ of yb recipb += recip * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab); recipb = recipb ; }
+ of yb recip = (yaa*-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip + (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - recipb) * (yab - y) * recip;
+ recipb += (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb - recip) * recip;
+ recip = (yab- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip - (yab*recipb) * recip;
+ recipa += -yb* recip;
+ of yb recipb = recip * recip;
+ of yb recipb = recip - recipb;
+ recipb += (-1) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb - recipb;
+: recipa += -yb * recip* recip;
+ recipb = -(--recipb) * recip;
+recipb += (1.0 - yaa*recipa -  recipb); recipb -= recipb ; }
+ yb = (yb + yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (1- yab*recipb) * recip;
+recipb += (1.0 -  recip) * yab ;
+recipb += (1.0 - yaa*recipa ) - yab;
+ recip = recipb + (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb += -yb * -recip;
+ (y- yab*recipb) * recip;
+ yb = (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipa += -recipb* recip;
+ of yb recipb += (-yab*recipb) * recip;
+recipb += (1.0 - recipb) * (1-y) * recip;
+recipb += (1.0 - yb * recip) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recip - recipb
+ of yb recipb -= -recip;
+ recip = recip - recip * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recipb = recip ;
+ of yb yb += - yb * recip * recip;
+, yb += -yb * recip * recip;
+ of yb yb = - yb ; yb = yb + recipb ; recipb = recipb - yb ;
+ of yb recipb += -recip;
+ of yb recipb += -recipb* recip;
+recipb +=  recip * recip ; } }
+ of yb recipb = (yb-recipb) * recip;
+ of yb recipb += (1- yab*recipb) * recip;
+ of yb recipa += -y * recip* recip;
+ recip = (yab*- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - yab) * recip;
+ of yb recipb = (-yaa*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yb) * recip;
+recipb += (yb * recip) * recip;
+(y) * recip;
+ of yb recip = (yb*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -(yaa*recipa - yab*recipb) * recip;
+ return (recipa - yab*recipb) * recip;
+ of yb recipb += (recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= -yb*recipb) * recip;
+ recipb = (yb-recipb) * recip;
+ recip = (-*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yab - recip * recip) * recip;
+ of yb recip = -(yb-recipb) * recip;
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+: recipa += -ya * recipb* recip;
+ of yb recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recip = (yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb +=  -yb * recip * recip ; } {
+ recip = (2) * recip;
+ of yb recipb += -recipb;
+ recipa += -recipb* recip;
+ of yb recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = -yb*recipb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip + (-yab*recipb) * recip;
+ recipb = -(yb*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-b*recipb) * recip;
+ of yb recipb = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb * recip- yab*recipb) * recip;
+: recipb = recip + recipb ; recipb = recip - recipb ; recip = recip ;
+ of yb recipb = (-yab*recipa - yab*recipb) * recip;
+ of yb recip = (ya*recipa - yab*recipb) * recip;
+ recip = (y*recipb) * recip;
+recipb += (yb - recipb) * recip + (y - y) * recip;
+ recip = -(ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -(yb) * recip;
+ recipb = -(y- yab*recipb) * recip;
+ of yb recipb = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - recipb) * recip + (y - ya) * recip;
+ recip a += -ya* recip;
+ of yb recipb += (yab*recipa - yab*recipb) * recip;
+: recipa += -recipb* recip;
+ of yb recipb += (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += recip * recip; yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (-yab*recipb) * recip;
+ recipa += (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recip - recipb ; recipb = recip + recipb ; recip = recip ;
+: recipb += 1.0 - recipb ; recipb = recipb - 1.0 ;
+recipb += (yb - recipb) * recip - (y - y) * recip;
+ result = 0;
+ of yb, yb += -(yb - yb); yb += - (yb - yb); yb += - yb - yb
+, recipb = -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recip = (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb *= recip;
+ of yb recipb += (yaa*recipa - yab*recipb) * recip;
+ of yb recipb = -yb- yab*recipb) * recip;
+ of yb recipb += -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -yb(recipb) * recip;
+ recip = (yaa*ab*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipa += recip* recip;
+ of yb recip = yb*recipa - yab*recipb) * recip;
+ return (-yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (yab*recipa - yab*recipb) * recip;
+ of yb recipb = (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  = recip - recipb ; } {
+ recipb = (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (bb*recipb) * recip;
+ of yb recipb = (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recipb * recipb) * recip;
+ of yb recip = -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = - yb ; yb = yb + recipb ; recipb = recipb - recipb ;
+ recipa += -(yb) * recip;
+ of yb recip = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (1- yab*recipb) * recip;
+ of yb recipb = -(yb*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (recipb - recip) * recip;
+ of yb recipb += (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(yb*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ); recipb = recipb ; }
+ recip = recipb + recip * recip;
+ of yb yb = - yb ; yb = yb + recipb ; recipb = recipb + yb ;
+ recip = recipb - recip * recip;
+recipb += (1.0-y) * recip;
+ of yb recip = (recipb- yab*recipb) * recip;
+ of yb recipb = -(yb*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recip = recipb ;
+, yb += recipb; yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(recipa*recipb) * recip;
+ of yb recipb -= ya* recip;
+ recip = (yab*recipb) * recip;
+: recipa += -yb * -recip;
+ of yb yb = - yb ; yb = - yb ; recipb = - recipb ; recip = recip ;
+ of yb recipb += -yb*recipb) * recip;
+ of yb recip *= -(yab*recipa - yab*recipb) * recip;
+, recipb = recip - recipb;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb;
+ of yb recipb += (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb -= (-1) * recip;
+ of yb recip = (yb - -recipb) * recip;
+ of yb yb = - yb ; yb = yb + recipb ; recipb = recip - recipb ;
+ of yb recipb += (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab)*yb;
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1
+ of yb recipb = recip + (yab*recipa - yab*recipb) * recip;
+ of yb recipb = (y-recipb) * recip;
+recipb += ( 1 - recip);
+ of yb recipb += -(yb*recipb) * recip;
+ of yb recipb += (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(yaa*recipa - yab*recipb) * recip;
+ recip = recipb + (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yb);
+ yb += -yb*(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recipb = -(yaa*recipa - yab*recipb) * recip;
+ of yb recip = -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipa - yab)* recip;
+ recipb = (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (-yab*recipb) * recip;
+ return (recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = - yb ; yb = yb + recipb ; recipb = recipb - recip ;
+ of yb yb = yb + recipb ; yb = yb + recipb ; recipb = recip ;
+ of yb yb = - yb ; yb = - yb ; recipb = - recipb ; } else {
+: recipa += -yb* recip;
+ of yb recip = (yb*recipa - yab*recipb) * recip;
+ of yb recip = (yb - recip*recipb) * recip;
+ of yb recip = -yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recip - recipb ; }
+ of yb recip = (recipa- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  yab*recipb)
+ of yb, yb += -(yb - yb); yb += - (yb - yab); yb += - yb - recipb
+ recip = (+yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = - yb ; yb = - yb ; recipb = - yb ; recip = recip ;
+: recipb += 1.0 - recipb ; recipb = recipb ; } else {
+ of x recip = -(yaa*recipa - yab*recipb) * recip;
+: recipb = -yb * -recip;
+ of yb recipb += (-yb*recipb) * recip;
+ of yb recipb = -yb*recipa - yab*recipb) * recip;
+ of yb recip = (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb + (-yab*recipa - yab*recipb) * recip;
+ of yb recipb += -yb- yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb-recipb) * recip;
+ of yb recipb += (-1- yab*recipa - yab*recipb) * recip;
+ recip = -(recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; var recip = recip ;
+ of yb recip = recipb + (-yab*recipb) * recip;
+ recip = recipb - (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recip = (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (-yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab*recipb)
+ of (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip - (-yab*recipb) * recip;
+ of yb recip = recipb + (yab*recipa - yab*recipb) * recip;
+ of yb recip = recip - (yab*recipb) * recip;
+ recip = (x- yab*recipa - yab*recipb) * recip;
+ of yb recipb += (recipa - yab*recipb) * recip;
+: recipb += -yb * yab;
+ of yb, yb += -(yb - yb); yb += - (yb - yab); yb += - yb - recip;
+ of yb recip = recipb + (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb) ; }
+, recip = (yaa*-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip * -recip;
+ of yb recipb = recip + (-yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb - (-yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip * recip ; } else
+ recipb = (y+recipb) * recip;
+ of yb recipb -= -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  *= recipb;
+ of yb recipb += recip * yab;
+ of yb var recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip + (-yaa*recipa - yab*recipb) * recip;
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2
+ of yb recipb = (-yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recip - recip ;
+ of yb recip = (y- yab*recipb) * recip;
+recipb += (1.0 - recip) * (1-y) * recip;
+, recipb = recip - recipb;
+ of yb recipb = (recipa*recipb) * recip;
+ of yb recip = (yb + -recipb) * recip;
+ by yb recip = (yb*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab); recipb = recip - recipb ; }
+recipb +=  recipa ;
+ of yb, yb = (yb- yab*recipa - yab*recipb) * recip;
+ recipb = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (recipa - yab*recipb) * recip;
+ of yb recipb = -(-recipb) * recip;
+ of yb recipb -= (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(yb- yab*recipb) * recip;
+ recip = recipb - -recip;
+recipb += (1.0 + recipb - recip) * recip;
+ of yb recipb = -recip;
+ of yb recipb = recip * -recip;
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0
+ of yb recipb = (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(yb*recipb - yab*recipa - yab*recipb) * recip;
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.
+ of yb recip = (1- yab*recipb) * recip;
+ of yb yb = - yb ; yb = - yb ; recipb = - yb ; } else {
+: recipb += -yb * recipa;
+ of yb recip = -(yb*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (yb * recip*recipa - yab*recipb) * recip;
+ recip = (yaa**recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -yb*(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recip - recipb ; recipb = recip + recipb ; } double
+ of 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5
+ recip = recipb;
+: recipb = recip - recipb ; recip = recip - recipa ;
+ of yb recip = recip + (yab*recipa - yab*recipb) * recip;
+ of yb recipb = (yb- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) - recipb;
+ of yb recipb = -yb(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recipb = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recipb + (-yab*recipb) * recip;
+, recipb = (yaa*-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb + -(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recip = recip ;
+ of yb recip = recip * recip;
+ of yb yb += - (1.0 - yaa*recipb)) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb;
+ recip = (-1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by yb recip = (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = - yb ; yb = - yb ; yb = - yb ; } else {
+ of yb yb += - (1.0 - yaa*y) ;
+ of yb recip = (-yab*recipa - yab*recipb) * recip;
+ recipb *= -recip;
+, recip = (yb- yab*recipa - yab*recipb) * recip;
+ recip = -yb + (-recipb) * recip;
+: recipa += -yb * recipb* recip;
+ of yb recipb = (y- yab*recipb) * recip;
+ recipb += -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recipb * recip + -recip;
+ of x recipb += -recip;
+: recipb = recipb * recip * -recip;
+ of yb recipb = -(recipb) * recip;
+ of yb recipb = recip + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -yb(recipb) * recip;
+: recipb += 1.0 - recipb ; recipb = recip - recipa ;
+ of yb recip = (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recipb* recip;
+recipb += (1.0 - yaa - yab);
+ of yb recipb = recip - (yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (recipa - yab*recipb) * recip;
+, recip = -(yb*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*yb);
+ of yb recip = recipb - (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb - recipa) * recip;
+ of yb recipb += (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (-recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recipb + -recip;
+ of yb recipb -= -(yb) * recip;
+ of yb yb += - (1.0 - yaa*recipa - yab*bb);
+ of yb recip = -(recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipa - yab*y);
+ of yb recipb = -yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -(recipb- yab*recipb) * recip;
+recipb +=  recip * recipb ;
+, recipb = -(yb*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab)* recip;
+ of yb recipb = recipb;
+ (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb * (recipa - yab*recipb) * recip;
+ yb = -yb*((- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb + -(yab*recipb) * recip;
+ of x recipb += -(x - y) * recip;
+ of yb recipb = -yb(recipb) * recip;
+ of yb recipb = -(recipa - yab*recipb) * recip;
+recipb += (1.0 - yab) * recip;
+ recipb = recip * -recip;
+ recip = (yaa-ab*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -yb* recip;
+recipb += ( 1.0 - recip * recipb )
+ of yb recipb = recip + (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += (y - y) * recip;
+ (yaa*recipa - yab*recipb) * recip;
+ of yb recip = (yab * recip- yab*recipb) * recip;
+recipb += (yab - recip) * recip;
+ recipb += -(yb * recip) * recip;
+ of yb recip = (yaa*-recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip + recipb ; } else
+ of yb recipb += -yb*recipa - yab*recipb) * recip;
+ of yb recipb = (-recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recipb = recipb ; } double
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip * recip ; } }
+ of yb, yb = -yb- yab*recipa - yab*recipb) * recip;
+: recipb = recip - recipb ; recipb = recip - recipb ; } double
+ recip = recipb * recip*recip;
+ yb = -(yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recipb + -(yab*recipa - yab*recipb) * recip;
+ recip = (-*recipb - yab*recipa - yab*recipb) * recip;
+ by yb recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb * recip- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb +=  -yb * recip * recip ; } ;
+ of yb recipb = (-1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recip = (y- yab*recipb) * recip;
+ recipb = (1-recipb) * recip;
+ of yb recip = -yb*(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( recip - recipb ) * yab ; }
+ recipb = -(yb-recipb) * recip;
+ of yb recip = recipb - (yab*recipb) * recip;
+ of yb, yb = y + (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += -yb(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (-recipa - yab*recipb) * recip;
+ yb = -yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab);
+ of yb recipb -= (y - y) * recip;
+ yb = -yb*(- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of x recip = recip * -recip;
+ of yb var recipb = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb); recipb = recipb ; }
+ of yb yb += - (1.0 - yaa*recipa - yab)*y;
+, yb += recipb; result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recip = (recipa- yab*recipb) * recip;
+: recipb = -(yb*recipb) * recip;
+ recipb = -(recipb - yab*recipa - yab*recipb) * recip;
+ recip = recipb - (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - recip - y) * recip;
+ (yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= -(recipb) * recip;
+: recipa += -ya* recip;
+ of yb recipb = recipb + (-yab*recipa - yab*recipb) * recip;
+ recipa += -yb(y) * recip;
+ recip = (1) * recip;
+: recipb = recip - recipb ; recip = recipb + recipb ; } double
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip + recipb ; } }
+ of yb recipb = -(--recipb) * recip;
+ recip = -recipb) * recip;
+, recipb += -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += -yb * recipb;
+ of yb recip = (yb * recip- yab*recipa - yab*recipb) * recip;
+, recipb = -yb*(ya*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = recipb + (yab*recipa - yab*recipb) * recip;
+recipb +=  recipab ;
+ return (yab*recipa - yab*recipb) * recip;
+, yb += -yb * recip*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip) * recip; recipb = recipb
+ of x recipb += (x - y) * recip;
+ of yb yb += - (1.0 - yaa*recipa) * recip; double
+ between yaa and yab recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipa+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = ((- yab*recipb) * recip;
+ of yb recip = recipb + -(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += (-recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yab*-recipb - yab*recipa - yab*recipb) * recip;
+ yb = (yab*- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip + -recip;
+, recipb = -yb(yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recipb = (1- yab*recipb) * recip;
+ by recip* recip;
+ recipb += -(y - y) * recip;
+ of ybb recip = (1- yab*recipb) * recip;
+ of x recipb -= -recip;
+ recip = recipa + (-yab*recipb) * recip;
+recipb  = recip + recipb - recipb ; }
+ of yb recipb -= (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb*(- yab*recipb) * recip;
+ of yb recip = recipb + (1- yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipa - yab)*yb
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip; recipb = recipb
+ of yb recipb = (y+recipb) * recip;
+ recip = (x) * recip;
+: recipb += -yb * recip-recip;
+ return (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of x recipb -= ya* recip;
+ of yb recipb -= -(-recipb) * recip;
+ recip = recipb + (-yb*recipb) * recip;
+ of yb recip = (yab*- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (ya- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip + (yaa*recipa - yab*recipb) * recip;
+ of yb recipb = recipb + (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -1.0*recipb;
+ yb = -yb*(1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (yaa*- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = -(yb*yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (-y- yab*recipb) * recip;
+ recip = (bb*recipa - yab*recipb) * recip;
+ recip = recipb - (-yab*recipb) * recip;
+ of yb recipb -= -(yab) * recip;
+ of ybb recip = (1- yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb*-recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = yb*recipb - yab*recipa - yab*recipb) * recip;
+, recip = yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = recip - recipb;
+ yb = recip - yb;
+ of yb, yb recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb = -yb * recip*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recip - recipb ; recipb = recip + recipb ; } else {
+ of yb recip = recipb + (yab*recipb) * recip;
+ of -recip;
+recipb += (1.0  - recipb) * yab ; }
+ of yb recipb = -yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recip = (y- yab*recipa - yab*recipb) * recip;
+ recip = (-inf) * recip;
+, yb += recip; yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb - recipb ; recipb = recip -
+ recip = (ya- yab*recipa - yab*recipb) * recip;
+ recip = (x- yab*recipb) * recip;
+ of yb, yb += -yb * recip * recip,
+ of yb recip = -yb * (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipb) * recip; double
+ recip = (ya- yab*recipb) * recip;
+ of yb recipb += -(recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*yb)
+recipb  = recip - recipb * recipb ; }
+ recip = ((- yab*recipa - yab*recipb) * recip;
+ of yb recipb = recipb + (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb += (-(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = -(y*recipb) * recip;
+ return (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = yab*recipa - yab*recipb) * recip;
+ of yb recipb -= (yab*recipb) * recip;
+ of yb recip += (recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb*- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recipb -= (-yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb); recipb = recipa
+ return (ya*recipa - yab*recipb) * recip;
+ of yb recipb = recipb - (yab*recipa - yab*recipb) * recip;
+ by yb recipb = recipb + (-yab*recipa - yab*recipb) * recip;
+ of yb recip = (-1- yab*recipa - yab*recipb) * recip;
+ of yb recip = (y- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of x recipb -= yab* recip;
+ of yb recip = recip - -recip;
+ return (-recipb) * recip;
+ of yb recip = recipa + (-yab*recipb) * recip;
+ of yb recip = (yb * -recipa - yab*recipb) * recip;
+ yb = -yb- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += (-yab*recipb) * recip;
+ recip = -yb*(-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += (recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb -= -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yaa*recipa - yab*recipb) * recip;
+: recip = recip + (-yab*recipb) * recip;
+recipb  = recip - recipb + recipab ; }
+ yb = -yb*recip (- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip ; }
+ recipb += -yb * recipa;
+recipb += (1.0 - yaa*recipa - yaa*recipb ); recipb -= recipb ; }
+ recip = (-1- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ); recipb -= yab ; }
+ return (ya*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -(- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += -(-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip + (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by yb var recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb, yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = recipb - (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb + (-yab*recipb) * recip;
+ recipb = recip - recip;
+ recip = +(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb = -(yb*1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipa += -(y - y) * recip;
+ of yb recip *= 2*recip;
+ return (-yb*recipb - yab*recipa - yab*recipb) * recip;
+: recip = (yb + recip*recipb) * recip;
+ recip = recip*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recip + recipb ; recipb = recip - recipb ; recip = recip -
+ recip = recipb + -yb*recipb) * recip;
+ var recip = (-recipb - yab*recipa - yab*recipb) * recip;
+: recipb = recip + recipb ; recipb = recip - recipb ; recip = recip +
+ recipb = -(y - y) * recip;
+ of yb recipb += (-recipa - yab*recipb) * recip;
+, recipb += -yb;
+ (yab- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb var recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = -yb(yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recipb = -yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  = recip + recipb ; }
+: recip = (yb - recip*recipb) * recip;
+ result = -result;
+ of ybb recip = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb*(- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = recip * recip + (-yab*recipb) * recip;
+ of yb recipb = recip-recip;
+, recipb = -yb*(1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  = recip - recipb ; }
+ of yb recip = (yb*- yab*recipa - yab*recipb) * recip;
+: recipb += -(y - y) * recip;
+ recipb += -(y - ya) * recip;
+ recip = recip + (yab*recipa - yab*recipb) * recip;
+ of yb, yb = yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (1- yab*recipb) * recip;
+ of yb recip = -yb*((- yab*recipa - yab*recipb) * recip;
+, yb = -yb * recip(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb + recipb + recipb ; double
+ double recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  += -yb * recip * recip ; }
+ of yb, yb = yb +(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recipb = (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (aa*recipa - yab*recipb) * recip;
+ of yb recip = recipb + (--yab*recipb) * recip;
+, yb = -yb*(1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( recip * recip ) * recip * recip ; }
+recipb += (1.0 - yaa*recipa - yaa*recipb) ; }
+ of yb recip = (yb*y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb += 1.0 - recipb ; recipb = recip - recipb ; }
+ recipb += -(yb - recip) * recip;
+ recip = -yab*recipb) * recip;
+ of yb recipb += (y-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb = yb + recipb ; yb = yb + recipb + yb ; double
+ of yb, yb += -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -(-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -1.0 - recipb * recip * recip; else
+ (yb*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip * recip) ;
+, recipb = -yb*(y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb = yb*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb = -yb(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = yab*recipa - yab*recipb) * recip;
+ recip = (-y- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb +=  recip - recip;
+ recip = -(- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = (yab- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb += (--yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (y- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* recip); recipb -= yab ; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yb);
+ recipb += (-recipb - yab*recipa - yab*recipb) * recip;
+ of yb recipb = recipb-recip;
+: recipb += 1.0 - recipb ; recipb = recip - recipb ; double
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipa);
+ of yb yb = yb + recipb ; yb = yb + recipb ; } else { double
+ (yb- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ between yaa and yab recipa+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb += 1.0 - recipb ; recipb = recip - recipb ; else
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yab);
+recipb += (1.0 - yaa*recipa ); recipb = recipb
+ recip += (-yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa  + recipb);
+, recip = -yb- yab*recipa - yab*recipb) * recip;
+ of yb, yb += -yb * recip * recip.
+ of x recip = -(recipa - yab*recipb) * recip;
+recipb += (1.0 -  recipb) * recip + yab ; }
+ recipa += -(-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recipb = (y- yab*recipa - yab*recipb) * recip;
+ recip += (ya*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - (1.0 - yaa*recipa) * recip; -
+ recip = (y*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -yb * recip * recip,
+, yb = -yb * (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb, yb *+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ result = (-recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab*recipb;
+recipb += (1.0 ) recip;
+ recip = recip + (-yab*recipa - yab*recipb) * recip;
+ of yb recip = (yb*1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1 - recip) * recip;
+: recipb += -(y - ya) * recip;
+ of yb recip = -yb * (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yb = (yb *- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yb*recipb) ; }
+ return (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -1.0 - yaa*recipb; double
+ of yb recip = (-recipa - yab*recipb) * recip;
+ recip = recip + (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by -recip;
+(x) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  1);
+ recip += (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (1- yab*recipa - yab*recipb) * recip;
+, yb = -yb + (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = -yb(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*y);
+ recip = (*recipb) * recip;
+ of ybb recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -1.0 - yaa*recipb, but
+, recipb = (1- yab*recipa - yab*recipb) * recip;
+, yb += -1.0 - yaa*recipb, so
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab*recipb) * recip.
+ of yb: yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recip
+recipb += (1.0 - yaa*recipa - yaa*recipb)
+recipb +=  recip * recip ; } {
+ recip = recip - (yab*recipa - yab*recipb) * recip;
+: recip = -(yab*recipa - yab*recipb) * recip;
+, yb += -yb; result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -1.0 - yaa*recipb; else
+recipb += (1.0 - yaa*recipa -  recipab);
+recipb +=  -yb * recip * recip.
+ of yb, yb + yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb = yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recip * recip ; } {
+recipb += (1.0 - yaa*recipa - yaa*recipb) * recip.
+ recip = -yb*yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb. yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ya recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipa += (y-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (yb) * recip;
+ return yaa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  yab*recipb;
+ of yb, yb = yb(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb = -(recipa - yab*recipb) * recip;
+ of ybb recip = (recipa - yab*recipb) * recip;
+, recip = (-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) - recip;
+, yb = -yb*(y1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of recip* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab*recipb) * recipb
+ recip -= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip += (-yab*recipa - yab*recipb) * recip;
+, yb = -yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb) * y
+ of yb recipa+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recip = (-yab*recipa - yab*recipb) * recip;
+ of ya recipa+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (y - y) * recip;
+ by yb. yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) ; }
+, yb += -1.0 - recipb * recip; else
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * recipb ; }
+ of y recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb result = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of (recipb - yab*recipa - yab*recipb) * recip;
+ of ybb recip = (yab*recipa - yab*recipb) * recip;
+, yb += -1.0*recipb,
+ of yb result = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by yb: yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( 1 ) ;
+: -(ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip -= (-yab*recipb) * recip;
+ recip -= (-yab*recipa - yab*recipb) * recip;
+, yb += -yb * recip * recip.
+recipb += (1.0 - yaa*recipa -  recipb); recipb = recipb ; else
+recipb +=  -recipb * recip * recip ; }
+recipb += (y - x) * recip;
+ + (-recipb) * recip;
+: recip = (-recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) + recip;
+ recip = +recip;
+ (bb*recipb) * recip;
+recipb += (1.0 )* recip;
+recipb += (1.0  - recipb) * recip ; }
+: recip = -(recipa - yab*recipb) * recip;
+ -yaa*recipa - yab*recipb) * recip;
+ of y var recip = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (-y*recipb) * recip;
+ of yb, yb = recip*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = recip - (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += recip * recip. yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by yb, yb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 -  recipa);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recipb)
+ recip(y) * recip;
+ (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*yab);
+ recip += (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb, result = result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ yaa*recipa - yab*recipb) * recip;
+ recip += -recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  - recipb ;
+recipb += (x - y) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) * yab.
+ of x recipb = (recipa - yab*recipb) * recip;
+recipb += (1.0  - recipb) * recip * recip.
+ by yb, yb += -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb yb += - yb * recip * recip.
+ of yb, yb -= -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = yb*recipa - yab*recipb) * recip;
+recipb +=  recip * recip * recip ; }
+ (y*recipb) * recip;
+ of yb, yb = -sin(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb recip = +(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb = y*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab* recip);
+ of yb recipb = recip - recipb ; double
+, yb += -yb * recip * recip; else
+ recip += (recipa - yab*recipb) * recip;
+ recip -= (yab*recipa - yab*recipb) * recip;
+, yb = recip yb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by zero;
+ of yb = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (y- yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * recipa ;
+ return (y- yab*recipb) * recip;
+ recip = (+- yab*recipb) * recip;
+ recip = 1- yab*recipb) * recip;
+ return (bb*recipa - yab*recipb) * recip;
+ of yb
+, yb += -1.0*recipb.
+ of yb yb += - yb * recip ; } double
+ of yb, yb = -*(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 + yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb, yb += -yb * recip; double
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb) * ;
+ result = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ - (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, recip = (*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip + recipb ; }
+recipb  += recip * recip ; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*yaa);
+recipb += (1.0  - recipb) * recip * recip);
+recipb += (1.0 - yaa) * yab ; }
+, recipb = (-yab*recipa - yab*recipb) * recip;
+ recip = sin(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb = 0; result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (y) * recip;
+ - (ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recipb.
+ of ya recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip += (yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 -  recipb) * recip * yab; }
+ recip += recip* recip;
+ return (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of (yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip = (y*1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+, yb += -yb * recip; double
+recipb += (1.0 - yaa* yab) * recip - yab.
+ return (yaa*recipb - yab*recipa - yab*recipb) * recip;
+: recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recip)
+ recip += (-recipb) * recip;
+recipb += (1.0 -  recipb) * recip - recipa; }
+ recip = -recipa - yab*recipb) * recip;
+recipb += (1.0 -  recipb) * recip - recipb; }
+, recipb += recipb * recip; else
+, recipb = recip - recipb; double
+recipb += (1.0 ) y;
+ of (-yab*recipb) * recip;
+ of (y) * recip;
+ + (-yab*recipb) * recip;
+ recip -= (recipb - yab*recipa - yab*recipb) * recip;
+ (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+: (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of (recipa - yab*recipb) * recip;
+ recip = (+- yab*recipa - yab*recipb) * recip;
+ (1- yaa*recipb - yab*recipa - yab*recipb) * recip;
+: (-yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  1);
+recipb += (1.0 - yaa*recipa -  recipb) * yab; }
+recipb += ( 1.0 - recipb ) * recip.
+, recipb = recipb + recipb; double
+recipb += (1.0 - yaa*recipa ); recipb = recipb ; else
+recipb +=  -yb * recip ; }
+, recipb = recip + recipb; double
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab*recipb) {
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipb)
+ (2*recipb) * recip;
+ of yaa and yab;
+ return (1- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of x recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa* yab) ;
+recipb += (1.0 - yaa*recipa -  yab) * recip * recip.
+recipb +=  -yb * recip * recip ; else
+, recipb = recip - recipb,
+: (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*y);
+, yb += recipb * recip; else
+, recipb = recipb - recipb; double
+, recipb = recip - recipb.
+recipb += (1.0 - yaa* yab) * recip - yab);
+recipb += ( recip )
+ return (1- yab*recipa - yab*recipb) * recip;
+ recip -= (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (yb) * recip;
+ + (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb  += recip * recip * recip.
+, yb += recipb * recip; double
+ return (-bb*recipb) * recip;
+ of (-yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*circ);
+ of yaa, yab double
+, yb = recip; result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of y recip = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ return (-recipb - yab*recipa - yab*recipb) * recip;
+, yb += -yb * recip; else
+recipb += (1.0 - yaa*recipa ) * recip - yab; }
+ of yaa, yab;
+ recip * recip;
+ recip += (-recipb - yab*recipa - yab*recipb) * recip;
+ by 2* recip;
+recipb += (1.0 - yaa*recipa - yaa*abc);
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) * yab; }
+recipb +=  recipb * recip * recip.
+ of (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+(2) * recip;
+recipb += (1.0 - yaa*recipa -  yab*recipb); }
+ yb += recipb * recip; double
+ of yaa and yab double
+ recip -= (recipa - yab*recipb) * recip;
+ of x, yb;
+recipb += (1.0 - yaa*recipa -  recipb) ; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recip * recip) ;
+recipb += (1.0 - yaa*recipa - yaa*recipb;) ;
+recipb += (1.0 - yaa*recipa - yaa*recipb;
+recipb += (1.0 - yaa*recipa - yaa*yab)
+ recip = 2*recipb) * recip;
+ (y- yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of yaa, yab.
+ recip = y;
+ = (-yab*recipb) * recip;
+, yb += -yb * recip, but
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yaa*recipb); }
+ recip += 1;
+ of yaa, yaa
+ of yb return -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of x, yb,
+ -(bb*recipb) * recip;
+recipb += (1.0  - recipb) ; }
+recipb += (1.0 - yaa*y) ;
+recipb += (1.0 - yaa) * recip - yab; }
+recipb += (1.0 - yaa*recipa - yaa*y);
+ of (yab*recipa - yab*recipb) * recip;
+ recip += (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa - yab) ; }
+ by yb;
+ of yaa, yb
+ = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (bb*recipa - yab*recipb) * recip;
+ of yb;
+recipb += (1.0 - yaa) * recip * yab; }
+ of y* recip;
+ recip = y* recip;
+ - (-yab*recipb) * recip;
+ y = (recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: (recipb - yab*recipa - yab*recipb) * recip;
+ of ybb = -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa * recip) * yab; }
+recipb += (1.0 - yaa* recip) * yab.
+recipb += (1.0 - yaa) * recip + yab; }
+ + (recipb - yab*recipa - yab*recipb) * recip;
+ - (-recipb) * recip;
+ - (y- yaa*recipb - yab*recipa - yab*recipb) * recip;
+ of 2;
+recipb += (cyab) * recip;
+ of x;
+ recip -= recip* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab) ; }
+ return (-1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+: (yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa) * recip
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip * recip) ;
+ (aa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recip -= -recip;
+ of x, yb.
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab) ; }
+ yb* recip;
+ (-y*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  yab) ; }
+ recip(ya) * recip;
+, yb = yb*+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*bb);
+ by zeros;
+ + (recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa - yab) * recip; }
+ below: recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += ( recip ;
+ of (-yab*recipa - yab*recipb) * recip;
+ result = (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ (aa*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  yb ;
+recipb +=  1 ;
+ by yb:
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip)
+ (-ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  yab)
+recipb += (1.0 - yaa*recipa -  1);
+ by yb,
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * y
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yb)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*cipb);
+recipb += (1.0 - yaa*recipa - yaa*recipb -  yab)
+recipb += (1.0 - yaa*recipa - yaa * recip * recipb); }
+ of y;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip;
+recipb += (1.0 - yaa*recipa ) * recip
+ (-ya*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*circ);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*y)
+. recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ recipb;
+recipb += (1.0 - yaa*recipa - yaa*acc);
+recipb += ( 1 )
+recipb += (1.0  - recipb)
+ (y*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*circ);
+ (aa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa -  y);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab)
+ recip-recip;
+recipb += (1.0 - yaa*recipa - yaa) * recip * recip; }
+ function: recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ + (-yab*recipa - yab*recipb) * recip;
+ ((ya*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  yab)* recipb
+recipb += (1.0 - yaa* yab) ; }
+ - (recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*yb)
+recipb += (1.0 - yaa*recipa -  recipa) ; }
+ return -(1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ -(recipb) * recip;
+recipb += (1.0 ) ;
+recipb += (1) * recip;
+ recip = 2* recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb;) ;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) * 2
+ (x- yab*recipa - yab*recipb) * recip;
+ recip * -recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb) {
+: recipa+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa) * yab.
+recipb += (1.0 -  recip)
+ below. recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa) ;
+recipb += (1.0 - yaa*recipa - yaa)*recipb; }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb;)
+ below, recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab * recip * recip); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab) * recip
+ (x- yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) * recip
+recipb += (ya) * recip;
+recipb += (1.0 -  recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab* recip;
+recipb += (1.0 - yaa*recipa - yaa*yab); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yy);
+recipb += (1.0 - yaa*circ);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yab)
+recipb += (1.0 - yaa*recipa - yaa*yab;
+ by 0.5;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab* recip)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipb.
+ by zero,
+ of ybb
+recipb += (1.0 - yaa) * yab;;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip * recip); }
+recipb += (1.0 - yaa*recipa ) ;
+ function. recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  y);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recipa; }
+ by 0.5,
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) - recipb; }
+recipb += (1.0 - yaa*recipa ) ; }
+recipb += (1.0  - recipb;
+recipb += (1.0 - yaa) ; }
+ by 0.5:
+ by zero.
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  y)
+recipb += (yyab) * recip;
+recipb += (1.0 - yaa*recipa -  recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recip * recip;)
+ by zero:
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa  - recip * recip;)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipb) {
+ factor recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+ by 0.0 double
+ below recipb+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa  - recip * recip); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * recip
+recipb += (1.0 - yaa*ci);
+ by zeros case;
+recipb += (1.0 - yaa*recipa -  recip)
+recipb += (1.0 - yaa*recipa - yaa*recipb;)
+recipb += (x) * recip;
+recipb += (1.0 - yaa*recipa - yaa) ; }
+recipb += (1.0 -  y);
+recipb += (1.0  - yab); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipc); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) ; }
+recipb += (1.0 - yaa*recipa -  recipb) ; else
+recipb += (1.0  + recipb); }
+recipb +=  y ;
+recipb += (1.0 - yaa*recipa -  recip * recip); }
+recipb  = ;
+recipb += (1.0 - yaa*recipa - yaa)* recipb
+recipb += (1.0 -  recipa)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*yb); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa -  recipb); }
+recipb  = 0
+, result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb -  recipb); }
+. result+= (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa) ;
+recipb += (1.0 - yaa*recipa -  yab;)
+recipb  = recip
+recipb += (1.0 -  recipb) {
+recipb += (1.0 - yaa*recipa -  yab) {
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) ;
+recipb += (bb) * recip;
+recipb += (1.0 - yaa*recipa - yaa)* recip.
+recipb += (1.0 - yaa*recipa ) * y
+recipb += (1.0 - yaa*yb); }
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) * y
+recipb += (2) * recip;
+;
+recipb += (1.0 -  x);
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  y ;
+recipb  = y
+,
+:
+ below,
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) *  recip.
+ function;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) * y
+ below:
+recipb += (1.0 - yaa* recip); }
+ function:
+ below;
+recipb += (1.0 - yaa*y) {
+recipb += (1.0 )) ;
+recipb += (1.0 - yaa*y); }
+recipb  ; }
+recipb += (1.0 ) {
+recipb += (1.0 - yaa*recipa - yaa)) ;
+recipb += (1.0 * yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb, yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa * yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa * yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab) {
+recipb += (1.0 - yaa*recipa ;)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb)  * x
+recipb += (1.0 - yaa) {
+recipb += (1.0 - yaa;)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ) {
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab) {
+recipb += (1.0 - yaa*recipa - yaa*recipb * yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa ) +
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa ;)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab;)
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) + recip;
+recipb += (1.0 - yaa*recipa, yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab;)
+recipb + (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa, yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab*recipb) ** recip;
+recipb += (1.0 - yaa*recipa - yaa)*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa)*recipa - yaa*recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab)*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab)*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*recipa - yab**recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa**recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa-recipb - yab*recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab*.recipa - yab*recipb) * recip;
+recipb += (1.0 - yaa*recipa - yaa*recipb - yab**recipa - yab*recipb) * recip;

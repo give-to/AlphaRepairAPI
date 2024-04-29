@@ -1,0 +1,912 @@
+toStringTreeHelper(cursor, level + 1,  sb);
+toStringTreeHelper(cursor,  sb);
+toStringTreeHelper(cursor, level , sb);
+toStringTreeHelper(cursor, level +  1);
+toStringTreeHelper(cursor, level + 1, sb, appendable);
+toStringTreeHelper(cursor, level);
+toStringTreeHelper(cursor, level , sb); } }
+ sb.append;
+toStringTreeHelper(cursor, level +  1, sb); } }
+ sb.append( cursor );
+ toStringTree(cursor, level + 1, sb);
+ sb.append(");
+toStringTreeHelper(cursor, level, appendable, sb);
+ cursor.toString(sb);
+ cursor.append(sb);
+toStringTreeHelper(n, cursor, level + 1, sb);
+ sb. append ( cursor. toString ( ) )
+toStringTreeHelper(cursor, level , s);
+toStringTreeHelper(n, level, sb);
+toStringTreeHelper(cursor, sb); } }
+toStringTreeHelper(this, 0, cursor, sb);
+ sb. append ( cursor. toString ( ) ) ;
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ;
+ append(level+ 1, sb);
+toStringTreeHelper(cursor, level +  1, sb); }
+ sb.append();
+toStringTreeHelper(cursor, level + 1,  s);
+ sb. append ( ' ' ) ; sb. append ( cursor ) ;
+toStringTreeHelper(cursor, level , sb); }
+ cursor.toStringTreeHelper(level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ' ' ) ;
+ sb. append ( ' ' ) ; sb. append ( ) ;
+ sb. append ( "\n" + cursor. toString ( ) ) ;
+ cursor.toStringTree(level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( cursor ) ;
+ sb. append ( ' ' + cursor. toString ( ) ) ;
+toStringTreeHelper(this, 0, cursor, sb, level);
+ cursor.toString(level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ) ;
+ sb. append ( ' ' + cursor. toString ( ) + ' ' ) ;
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ;
+ sb. append ( cursor ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor ) ;
+ sb.append(" " + cursor);
+toStringTreeHelper(n, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } } }
+toStringTreeHelper(n, level, cursor);
+toStringTreeHelper(cursor, level + 1, sb, n);
+toStringTreeHelper(cursor, sb, level, appendable);
+ cursor.toStringTree(sb);
+ sb. append ( ) ;
+ sb. append ( ' ' + cursor. toString ( ) )
+ sb. append ( "\n" + cursor. toString ( ) )
+toStringTreeHelper(cursor, sb); }
+ cursor.append(level+ 1, sb);
+toStringTreeHelper(this, 0, cursor, sb); }
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ;
+toStringTreeHelper(this, 0, cursor, sb, appendable);
+ sb. append ( ' ' ) ; sb. append ( cursor. text ) ;
+ sb.append(line);
+ toStringTree( cursor, sb);
+ sb. append ( ' ' ) ; sb. append ( cursor. value ) ;
+ sb. append ( "\n" + cursor. toStringTree ( ) ) ;
+ sb.append());;
+toStringTreeHelper(cursor, sb, level); } }
+toStringTreeHelper(cursor, level , sb, appendable);
+ sb. append ( '\n' + cursor. toString ( ) ) ;
+ sb. append ( ' ' ). append ( cursor ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. name ) ;
+ sb. append ( ' ' + cursor. getString ( ) ) ;
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { sb = n ;
+ sb. append ( ' ' + cursor. toString ( ) + ' ' )
+toStringTreeHelper(cursor, level +  1, sb, indent); }
+ print(sb);
+ sb. append ( "\n" ) ; sb. append ( cursor ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) )
+toStringTreeHelper(sn, sb);
+ cursor.append(1, sb);
+toStringTreeHelper(this, 0, sb);
+toStringTreeHelper(cursor, level , sb); sb.append();
+toStringTreeHelper(n, level, sb); } }
+ sb. append ( ' ' ). append ( ' ' ) ;
+toStringTreeHelper(cursor, sb, level, sb);
+ sb. append ( ' ' ) ; sb. append ( cursor. getString ( ) ) ;
+ sb. append ( ' ' + cursor. toString ( ) ) ; }
+toStringTreeHelper(cursor, level , sb); } } }
+ sb. append ( ' ' + cursor ) ;
+ sb. append ( ' ' ) ; sb. append ( ) ;
+ sb. append ( "\n" ) ; sb. append ( cursor. toString ( ) ) ;
+ sb.append();;
+toStringTreeHelper(cursor,  sb, level, appendable); } }
+toStringTreeHelper(sn, level, sb);
+toStringTreeHelper(this, level, sb);
+ sb. append ( ' ' + cursor ) ; }
+ sb. append ( "\n" ) sb. append ( cursor. toString ( ) ) ;
+ sb. append ( ' ' + cursor. name ) ;
+ sb. append ( "\n" + cursor. getString ( ) ) ;
+ sb. append ( ' ' + cursor. toString ( ) + NL ) ;
+ cursor.appendStringTree(level + 1, sb);
+ toStringTreeHelper(this, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ;
+toStringTreeHelper(cursor, level + 1,  sb); sb. append ( ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. name ) ;
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ' ' ) ; }
+toStringTreeHelper(n, level, sb, cursor);
+ sb. append ( "\n" ) sb. append ( cursor. toString ( ) )
+toStringTreeHelper(cursor, sb, level, appendable); }
+ sb.appendLine;
+toStringTreeHelper(this, level, sb, cursor);
+ sb.append(');
+toStringTreeHelper(cursor, level +  1, sb, appendable); }
+ sb. append ( "\n" ) ; sb. append ( cursor. toString ( ) )
+toStringTreeHelper(cursor, level , sb); } } return sb ;
+ sb. append ( ' ' ) ; } } }
+toStringTreeHelper(cursor, sb, level); }
+ sb. append ( '\n' ) ;
+toStringTreeHelper(cursor, level , sb); } return sb ;
+ printTree(level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; } } else {
+ cursor.toStringTreeHelper(sb);
+ sb. append ( "\n" + cursor. toString ( ) + ")" ;
+ sb. append ( ' ' ) ; sb. append ( cursor. getString ( ) )
+ this.toStringTreeHelper(cursor, level + 1, sb);
+toStringTreeHelper(this, level, cursor, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( cursor. name ) ;
+toStringTreeHelper(this, n, level, sb, cursor);
+toStringTreeHelper(cursor, n, level + 1, sb);
+ sb. append ( "\n" ) ;
+toStringTreeHelper(cursor, level + 1, sb) ; } sb. append ( n ) ;
+toStringTreeHelper(cursor, level + 1, sb) ; } sb. close ( ) ;
+ sb. append ( cursor. name ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; sb. append ( ) ;
+ sb. append('\n'); sb. append( cursor.toString()); sb. append('\n'); }
+toStringTreeHelper(this, 0, n, cursor, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; } sb. append ( ' ' ) ;
+ sb.append()+;
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( n ) ) ;
+ sb. append ( ' ' ). append ( cursor ) ; }
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ");
+toStringTreeHelper(c, level, sb); } }
+ sb. append ( ' ' + cursor. toString ( level ) ) ;
+ sb. append ( "\n" ) ;
+toStringTreeHelper(this, 0, cursor.toString());
+ sb. append ( "\n" ) ; sb. append ( ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. value ) ;
+ toStringTree(+ 1, sb);
+ sb. append ( ' ' ) ; sb. append ( )
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( "");
+ sb.append(_);
+ sb. append ( ' ' ) ; sb. append ( cursor )
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; } } else {
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ' ' ) ; } return
+ toStringTreeHelper(ursor, sb);
+ toString(level+ 1, sb);
+ sb. append(""); toStringTreeHelper(cursor, level + 1, sb);
+ sb. append ( cursor. toStringTreeImpl ( ) )
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1);
+toStringTreeHelper(sn, level, cursor);
+ sb. append ( ' ' + cursor. textContent ) ;
+toStringTreeHelper(this, sb);
+ sb. append("\n"); }
+toStringTreeHelper(this, cursor, level + 1, level + 1, sb);
+ sb.append cursor;
+toStringTreeHelper(n, level, sb); }
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( cursor. value ) ;
+ cursor.toStringTree(1, sb);
+ sb. append ( cursor. string ( ) )
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ' ' ) ; } }
+toStringTreeHelper(cursor, level); toStringTree(n, sb);
+ sb. append ( '\n' )
+toStringTreeHelper(this, 0, cursor, level + 1, sb);
+ this. toStringTreeHelper(n,cursor, level + 1, sb);
+ cursor.toStringTreeImpl(level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { return sb ;
+ sb. append ( ' ' ) ; }
+toStringTreeHelper(this, cursor, level + 1, sb);
+toStringTreeHelper(this, 0, cursor, appendable);
+toStringTreeHelper(this, 0, cursor); } }
+ sb. append ( ' ' ) ; sb. append ( ' ' ). append ( cursor. name ) ;
+ sb. append ( "\n" ) ; sb. append ( cursor. name ) ;
+ sb. append('\n'); sb. append( cursor.toString()); sb. append("\n"); }
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( "
+toStringTreeHelper(this, level, sb); } }
+toStringTreeHelper(this, 0, sb.append( cursor, level ));
+toStringTreeHelper(cursor, level + 1, sb) ; } } return sb ;
+ sb. append ( ' ' ) ; } } } }
+ sb.append( cursor.toString(sb);
+ sb. append ( cursor. text ) ;
+ printTree(cursor, level + 1, sb);
+ sb.append(" " + cursor;
+ sb. append ( cursor. toString()); }
+toStringTreeHelper(this, 0, sb, cursor.toString( ));
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( cursor. name )
+toStringTreeHelper(cursor, level , sb); } } } }
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ")
+ sb. append ( ' ' ) ; sb. append(); }
+toStringTreeHelper(cursor, level , sb, indent); }
+ sb. append ( ' ' ) ; sb. append ( cursor. string ( ) )
+toStringTreeHelper(cursor, level + 1, sb).append("\n"); }
+ sb. append ( "\n" ) ; sb. append ( cursor. toString()); }
+toStringTreeHelper(sb);
+ sb. append ( ' ' ) ; sb. append ( cursor. text ) ;
+toStringTreeHelper(this, 0, sb, cursor.toStringTree());
+ sb. append ( ' ' ) ; sb. println();
+toStringTreeHelper(this, 0, n, level, cursor, level + 1, sb);
+ cursor.toString(1, sb);
+ sb. append ( ' ' ) ; sb. append ( cursor. toString()); }
+toStringTreeHelper(cursor, level +  1, sb, indentation); }
+ sb. append('\n'); sb. append( cursor.toString()); sb. append('\n');
+toStringTreeHelper(this, 0, cursor, level);
+ sb. append(" "); toStringTree(cursor, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; sb. append ( "");
+ sb. append ( ' ' ) ; sb. append ( cursor. text ( ) )
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( n ) ;
+toStringTreeHelper(n, 0, sb, cursor);
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; sb. append ( ");
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append());
+ sb.append("\n" + cursor);
+ this.toStringTree(cursor, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append(); }
+toStringTreeHelper(cursor, level , sb, appendable); }
+toStringTreeHelper(cursor, level + 1, sb) ; } sb. append ( ) ;
+toStringTreeHelper(c, sb);
+ sb. append ( ' ' ). append ( ' ' ) ;
+ sb. append ( ' ' ) ; sb. append ( ");
+toStringTreeHelper(cursor, level , sb); } } return level ;
+ sb. append ( ' ' + cursor. toString ( ) + ' ' )
+ sb.append(ursor);
+ toStringTreeHelper(n, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( ",
+toStringTreeHelper(this, 0, cursor.toString(), sb);
+toStringTreeHelper(this, sb, cursor);
+toStringTreeHelper(cursor, level +  1, sb); } } } }
+toStringTreeHelper(cursor, level , sb); sb. flush ( )
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. name )
+toStringTreeHelper(cursor, level +  1, sb, indentation); } }
+toStringTreeHelper(this, cursor, level + 1, cursor, level + 1, sb);
+ cursor.toStringHelper(level+ 1, sb);
+toStringTreeHelper(cursor, 0, sb); } }
+ sb. append ( "\n" )
+ sb. append( cursor. toStringTree ( ) )
+toStringTreeHelper(cursor, level + 1, sb) ; sb. append ( ' ' ) ;
+ sb. append ( "\n" ) ; sb. append ( cursor. name )
+ sb. append ( "\n" ) ; sb. append ( ");
+ cursor.toStringHelper(n,level + 1, sb);
+ sb. append ( '\n' )
+toStringTreeHelper(cursor, level +  1, sb); } } return n ;
+toStringTreeHelper(n, level, sb, cursor); }
+toStringTreeHelper(this, 0, cursor, sb.append("));
+ this. toStringHelper(n,cursor, level + 1, sb);
+ sb. append(' '); toStringTree(cursor, level + 1, sb);
+ sb. append ( ' ' ) ; print(cursor, level + 1, sb);
+toStringTreeHelper(this, 0, sb.append(cursor)));
+ sb. append ( cursor. textContent ) ;
+ toStringTreeHelper(c, level + 1, sb);
+toStringTreeHelper(sn, cursor);
+ cursor.toStringTreeImpl(sb);
+ sb. append ( toStringTreeHelper(cursor, level + 1, sb);
+toStringTreeHelper(cursor, n, level, appendable, sb);
+toStringTreeHelper(cursor, level +  1, sb); } return n ;
+toStringTreeHelper(this, 0, sb, cursor, level + 1);
+toStringTreeHelper(cursor, level, sb); } return n ;
+toStringTreeHelper(n, sb, cursor);
+toStringTreeHelper(cursor, level + 1, sb, n, level); } }
+ sb. append ( "");
+ sb. append ( ' ' ). append ( cursor. name ) ;
+toStringTreeHelper(this, level, cursor, sb); }
+toStringTreeHelper(cursor, level + 1, sb.append('\n'); }
+toStringTreeHelper(cursor);
+toStringTreeHelper(cursor, level , sb); sb.append("");
+toStringTreeHelper(this, 0, sb, cursor.getString ( ));
+toStringTreeHelper(cursor, level + 1, sb.append("\n"); }
+ sb. append ( ' ' ) ; break;
+toStringTreeHelper(cursor, level + 1, sb) ; } return sb ;
+ printTree( cursor, sb);
+toStringTreeHelper(this, level, sb); }
+ sb. append('\n'); }
+ sb. append ( "\n"); sb. append("\n"); }
+toStringTreeHelper(cursor, level + 1, sb) ; } } } return sb ;
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; } }
+toStringTreeHelper(this, 0, cursor, sb, n);
+toStringTreeHelper(this, -1, n, cursor, level + 1, sb);
+ sb.append(\n");
+toStringTreeHelper(cursor, sb, level);
+toStringTreeHelper(cursor, level + 1, sb, false);
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { sb = null ;
+ sb. append ( "\n" ) ; sb. append ( "");
+toStringTreeHelper(c, sb); } }
+ sb.append(\n);
+toStringTreeHelper(this, 0, sb.append( cursor ));
+ sb. append ( "\n" ) ; sb. append ( "
+ sb.append(\n" + cursor);
+toStringTreeHelper(cursor, level + 1,  sb.append("\n"); } }
+toStringTreeHelper(this, 0, cursor.toStringTree());
+toStringTreeHelper(this, 0, cursor, sb, indentLevel);
+toStringTreeHelper(cursor, level , sb); sb. append(); }
+ sb. append ( ' ' ) ; sb. append ( "
+ sb. append ( " " )
+ toString(cursor, level + 1, sb);
+toStringTreeHelper(n, cursor, level + 1, level + 1, sb);
+ sb.append(c);
+ printTrees( cursor, sb);
+ sb. append ( ' ' ) ; sb. append("");
+toStringTreeHelper(this, 0, sb, cursor, appendable);
+ sb. append ( "\n" ) ; sb. append ( ",
+toStringTreeHelper(this, cursor, sb); }
+ sb. append('\n'); sb. append('\n'); sb. append('\n'); } }
+toStringTreeHelper(cursor, level + 1, sb, true);
+toStringTreeHelper(this, 0, sb, cursor.toString(n);
+toStringTreeHelper(cursor, level +  1, sb); } } return level ;
+toStringTreeHelper(ursor);
+toStringTreeHelper(cursor, level + 1, sb) ; } sb. close ( )
+toStringTreeHelper(cursor, level + 1, sb).append('\n);
+toStringTreeHelper(cursor, level + 1, sb, n.toString(), appendable);
+toStringTreeHelper(cursor, level +  1, sb.append(n)); }
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { sb ( ) ;
+ sb. append ( ' ' ) ; sb. append ( ",
+toStringTreeHelper(cursor, level +  1, sb, indent) ;
+ sb. append ( ' ' ) ; sb. append ( cursor. toString ( ) ) ; sb. append ; }
+toStringTreeHelper(this, 0, cursor, n, level + 1, sb);
+ toStringTreeHelper(ursor, level + 1, sb);
+ toStringTree(ursor, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(n.toString()); } }
+ toString( cursor, sb);
+ cursor.toString(n, level+ 1, sb);
+ sb. append ( ' ' ) ; } } else {
+ cursor.toStringTreeHelper(1, sb);
+toStringTreeHelper(this, 0, cur, sb);
+ this. toStringTreeHelper(n, level, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } sb = null ;
+ sb. append( cursor.toString() ) ;
+toStringTreeHelper(this, 0, cursor, sb.append()));
+toStringTreeHelper(this, level, cursor);
+ sb.append( ' ');
+toStringTreeHelper(cursor, level + 1, sb) ; } sb ( ) ;
+ sb. append ( ' ' + cursor. toString ( ) + ' ' );
+toStringTreeHelper(cursor, level + 1, sb.append("));
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { return false ;
+toStringTreeHelper(this, 0, cursor, sb++);
+toStringTreeHelper(cursor, sb, indent); }
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; sb. append ( cursor. name());
+ cursor.appendTrees(sb);
+ sb. append ( ' ' + cursor. name ) ;
+ sb. append ( ' ' ) ; sb. append(); }
+ sb. append ( ' ' + cursor ) ;
+toStringTreeHelper(this, 0, cursor);
+ toStringTree(this, level + 1, sb);
+ cursor.toStringTree(n,level + 1, sb);
+ toStringTreeImpl(cursor, level + 1, sb);
+ this. toStringTreeHelper(n, level + 1, sb);
+toStringTreeHelper(n, cursor);
+ sb. append ( "\n" ) ; sb. append ( cursor. name());
+toStringTreeHelper(c, level, sb); } } }
+toStringTreeHelper(cursor, level + 1,  sb.append(\n"); } }
+toStringTreeHelper(cursor, level + 1, sb.append(n)));
+toStringTreeHelper(cursor, level , sb); } sb++;
+ sb.append(" + cursor);
+ cursor.to(sb);
+toStringTreeHelper(cursor, n.toString(), level, sb);
+ sb. append ( ) ; printTree(cursor, level + 1, sb);
+ printNode( cursor, sb);
+toStringTreeHelper(cursor, level + 1, level + 1, sb);
+toStringTreeHelper(this, 0, appendable, cursor, level + 1, sb);
+ sb. append ( "\n" ) ; } } else {
+toStringTreeHelper(cursor, level + 1, sb.append('\n'););
+ sb. append ( ' ' ) print(cursor, level + 1, sb);
+toStringTreeHelper(cursor, 0, sb);
+toStringTreeHelper(cursor, level , sb); sb. append()); }
+ cursor.printTrees(sb);
+ sb. append ( toStringTree(cursor, level + 1, sb);
+ sb. append ( ' ' ) ; sb. append ( ' ' ) ; } return
+ cursor.appendStringTree(sb);
+toStringTreeHelper(n, 0, cursor, level + 1, sb);
+toStringTreeHelper(this, 0, cursor, n);
+ cursor.printTreesImpl(sb);
+toStringTreeHelper(cursor, level + 1, sb, n, level, appendable);
+toStringTreeHelper(this, 0, cursor, appendSb);
+ toStringTree(ursor, level + 1, sb);
+ this.toStringTreeHelper( cursor, sb);
+ this. toStringTreeHelperImpl(cursor, level + 1, sb);
+ printTrees(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } } else { level = 1 ;
+ toStringTree(c, level + 1, sb);
+ sb.append(" \n);
+toStringTreeHelper(cursor, level + 1, sb, null);
+toStringTreeHelper(cursor, level + 1, appendable);
+ this. printTreesHelper(n, level, sb);
+ cursor.printTreesHelper(sb);
+toStringTreeHelper(cursor, level +  1); } }
+ sb. append ( '\n' +
+ printTrees(cursor, n, level, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(cursor, level)); } }
+ this. toStringHelper(n, level, sb);
+toStringTreeHelper(this, i + 1, cursor, level + 1, sb);
+ sb.append( ' ' + ' ');
+toStringTreeHelper(this, cursor, n, level + 1, sb);
+toStringTreeHelper(c, sb); }
+toStringTreeHelper(cursor, level +  1, sb, false); }
+toStringTreeHelper(cursor, level +  1, sb); break;
+toStringTreeHelper(this, 0, cursor.getString());
+toStringTreeHelper(cursor, level + 1,  sb.append(\n")); }
+ sb. append ( '\n');
+toStringTreeHelper(cursor, level + 1, sb.append(' ' ));
+ printTrees(n, cursor, level, sb);
+ cursor.printTree(1, sb);
+ cursor.appendStringTree(1, sb);
+ toStringTreeHelperImpl(cursor, level + 1, sb);
+ cursor.render(1, sb);
+ sb. append( cursor.toString()); }
+ sb.break;
+ cursor.toStringTreeHelper(n,level + 1, sb);
+ Token.toStringTree(cursor, level + 1, sb);
+ toStringHelper(n,cursor, level + 1, sb);
+toStringTreeHelper(n, cursor, level + 1, cursor, level + 1, sb);
+ sb.append( cursor).toString(sb);
+ cursor.writeString(level+ 1, sb);
+toStringTreeHelper(cursor, sb); } } }
+toStringTreeHelper(cursor, level + 1,  sb.append('\n'); } }
+toStringTreeHelper(c, sb, level); }
+ cursor.writeTo(sb);
+ sb.append(parent);
+ toStringTreeHelper(curr, level, sb);
+ ++level;
+ sb.append('\n', cursor);
+toStringTreeHelper(cursor, level++, sb);
+ print( cursor, sb);
+ toStringTree(n, level, sb);
+ printTreesHelper(n,cursor, level + 1, sb);
+ sb.append( cursor.toString().sb);
+toStringTreeHelper(cursor, 0, sb); }
+toStringTreeHelper(cursor, level + 1, sb); sb. append ( n ) ;
+ this.toStringHelper(level+ 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) } } else { sb = n
+ cursor.getNext(); } printTrees(level + 1, sb);
+ this. toStringHelper(this, cursor, level + 1, sb);
+ toStringHelper( cursor, sb);
+toStringTreeHelper(cursor, n.getFirstChild(), level, sb);
+ if ( cursor!= null) {
+ cursor.write(level+ 1, sb);
+ cursor.printTrees(1, sb);
+toStringTreeHelper(Cursor, n, level + 1, sb);
+ cursor.write(1, sb);
+toStringTreeHelper(cursor, level +  1); }
+toStringTreeHelper(cur, sb);
+ cursor.printTrees(n,level + 1, sb);
+toStringTreeHelper(cursor, n, level, sb);
+toStringTreeHelper(cursor, level + 1, sb.append('\'));
+ this. toStringTreeHelper(this, cursor, level + 1, sb);
+ cursor.printTree(level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; sb = null ;
+toStringTreeHelper(this, - 1, cursor, level + 1, sb);
+ cursor.getChild(level+ 1, sb);
+ cursor.render(sb);
+ sb. append ( cursor. name + ";
+toStringTreeHelper(cursor, level + 1, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level , sb, indent) ;
+toStringTreeHelper(cursor, sb, indentation); }
+ toStringTreeHelper(this, cursor, sb);
+toStringTreeHelper(cursor, level, sb, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, level + 1);
+ this. toStringTreeHelper(c, level, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(cursor.toString()); }
+ sb. append ( ' ' + cursor. name + ");
+ sb. append ( ' ' ) ; sb += "";
+toStringTreeHelper(cursor, sb); } } } }
+ append(, sb);
+ cursor.toString(sb,sb);
+ sb += cursor;
+ cursor.toStringTreeImpl(1, sb);
+toStringTreeHelper(cursor, level); } printNode(n, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; sb. append ( " " )
+toStringTreeHelper(cursor, level + 1, sb.append('\n);
+toStringTreeHelper(cursor, appendable, level + 1, sb);
+ cursor.getFirstChild().appendStringTree(level + 1, sb);
+ cursor.toString(n.getLastChild+ 1, sb);
+ this.append(level+ 1, sb);
+toStringTreeHelper(cursor, 0, n, level + 1, sb);
+ cursor.appendTrees(level + 1, sb);
+ sb. append ( cursor. name + );
+ Token.toStringTreeHelper(cursor, level + 1, sb);
+ cursor.append("\n",sb);
+ printTreesHelper(n, level, sb);
+ sb. append ( ) ; printNode(cursor, level + 1, sb);
+ cursor. remove ( ) ;
+ sb( cursor);
+toStringTreeHelper(cursor); }
+ cursor.toStringHelper(this,1, sb);
+ print(level+ 1, sb);
+toStringTreeHelper(cursor, level); } printTree(n, sb);
+ toStringHelper(c, level, sb);
+ cursor.getFirstChild(); appendStringTree(level + 1, sb);
+toStringTreeHelper(n, sb); }
+ this.toStringTreeHelper(ursor, sb);
+ this.toString(n, level+ 1, sb);
+ sb. append ( ) ; print(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level , sb); break;
+ this.toStringHelper(this,1, sb);
+ cursor.appendToStringTree(level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, n.toString(), level);
+toStringTreeHelper(cursor, level + 1, sb) ; } } return null ;
+toStringTreeHelper(cursor, level +  sb);
+toStringTreeHelper(sn, sb); }
+toStringTreeHelper(cursor, 0, level, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(\"\n\"); }
+ this. toStringHelper(n, 0,cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(\n"); } } }
+ toStringHelper(n, level, sb);
+ n.append(level+ 1, sb);
+toStringTreeHelper(cursor, level + 1, sb.append()));
+ sb.append( cursor)+;
+toStringTreeHelper(cursor, level + 1, sb, 0, n);
+ cursor.append(n, level+ 1, sb);
+ cursor.printTree(sb);
+ cursor.toStringHelper(sb);
+ sb. append(""); printTrees(cursor, level + 1, sb);
+ sb. append ( toStringTreeImpl(cursor, level + 1, sb);
+ this.toStringHelper(n, level + 1, sb);
+ sb.append( cursor.toString(),sb);
+ traverse(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(\"\n\"); } }
+toStringTreeHelper(this, level, cursor, n);
+ cursor.toString(level-1, sb);
+ sb. append ( ) +
+toStringTreeHelper(cursor, level + 1, sb++);
+toStringTreeHelper(cursor, level + 1, sb.append(cursor, level)); }
+ cursor.toString(n.toString(),level + 1, sb);
+toStringTreeHelper(this, 0, cursor, s);
+ printTreesHelper(this, cursor, level + 1, sb);
+ cursor.writeStringTree(1, sb);
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1, false);
+ this.toStringHelper( cursor, sb);
+ sb(line);
+toStringTreeHelper(cursor, level +  sb); }
+toStringTreeHelper(this, n, level, cursor, level + 1, sb);
+toStringTreeHelper(cursor, n, level - 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, cursor, level + 1, n);
+ sb.append( cursor);;
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1, indent);
+toStringTreeHelper(sb, cursor);
+ sb.append("\n");;
+ toStringHelper(level+ 1, sb);
+ if (cursor) {
+ this. toStringTreeHelper(c, level + 1, sb);
+ this. append ( cursor. toString(), -1, sb);
+toStringTreeHelper(this, cursor, appendable, level + 1, sb);
+toStringTreeHelper(cursor, n.getLastChild(), level, sb);
+toStringTreeHelper(c, level, sb, indent); }
+toStringTreeHelper(cursor, level, n, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(cursor, level);); }
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1, true);
+ this. toStringTreeHelper(node, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb.append()););
+toStringTreeHelper(cursor, level + 1, sb) ; } return null ;
+ sb(c);
+ printTreeHelper(cursor, n, level + 1, sb);
+toStringTreeHelper(this, 0, cursor, n, cursor, level + 1, sb);
+ cursor.formatTree(1, sb);
+toStringTreeHelper(this, 0, n, 0, cursor, level + 1, sb);
+ printNode( cursor, level + 1, sb);
+toStringTreeHelper(this, level + 1, cursor, level + 1, sb);
+ cursor.writeString(1, sb);
+ cursor.toStringHelper(this, level+ 1, sb);
+ sb.append("\n"+sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } } return ;
+ sb.append("\n", cursor);
+ cursor.appendString(level+ 1, sb);
+toStringTreeHelper(cursor, level +  1, appendable); } }
+toStringTreeHelper(this, cursor, n);
+ cursor.toString(n.getNext().level + 1, sb);
+ cursor.printTrees(level+1, sb);
+ print(cursor, level + 1, sb);
+ append( cursor, sb);
+ this.toStringTreeImpl(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb.append(\"\n\")); }
+toStringTreeHelper(this, n, cursor, level + 1, sb);
+toStringTreeHelper(this, cursor, level);
+ cursor.print(sb);
+ cursor.append("\n", ssb);
+ cursor.toStringHelper(this, n, level + 1, sb);
+ cursor.toString(this, level+ 1, sb);
+ toStringHelper(this, 0, sb);
+ cursor.writeStringTree(level + 1, sb);
+ cursor.setString(level+ 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; } sb = n ;
+toStringTreeHelper(cursor, level + 1, sb) ; } return level ;
+ cursor. close ( ) ;
+toStringTreeHelper(Nodes, n, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level , appendable); } }
+ sb.append($);
+ printTree(ursor, level + 1, sb);
+ sb. append ( cursor + " );
+ cursor.getNext(); this.append(level+ 1, sb);
+ appendLevel+ 1, sb);
+ printTrees(n, cursor, level + 1, sb);
+ cursor.writeString(sb,sb);
+ this. toStringTreeHelper(n.cursor, level + 1, sb);
+toStringTreeHelper(this, level + 1, level + 1, sb);
+ this. toStringTreeHelperInner(cursor, level + 1, sb);
+ cursor.append($1, sb);
+toStringTreeHelper(this, cursor);
+ printTrees(n, cursor, level1, sb);
+ sb. append ( cursor + " ";
+ sb. append ( cursor. textString );
+ sb. append( cursor.toString()); } }
+ cursor.writeTree(sb);
+ cursor.setNext(new StringBuilder(level + 1, sb);
+ cursor.toString(level, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; sb. append(); }
+ cursor.toStringHelper(n, 0, level + 1, sb);
+ sb.append(\n\n);
+ printTrees;
+ cursor.printNode(1, sb);
+ sb. append ( ) ; append(cursor, level + 1, sb);
+ cursor.formatTree(sb);
+toStringTreeHelper(cur); }
+ cursor.toString(n, 0,level + 1, sb);
+ this. toStringTreeHelper(cursorNode, level + 1, sb);
+ toStringTree(level + 1, sb);
+toStringTreeHelper(cursor, level ); }
+toStringTreeHelper(cursor, this, 0, level, sb);
+ printTrees(n, cursor, indentation, sb);
+ this. toStringTreeHelper(this, n, level + 1, sb);
+ cursor.toString(n.getFirstChild+ 1, sb);
+ cursor.html(sb);
+ printTrees(cursor, level-1, sb);
+ printNode(level+ 1, sb);
+toStringTreeHelper(cursor, n.getParent ( ), sb);
+toStringTreeHelper(curr); }
+ printTreeHelper(n, 0,cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, n.getParent ( ));
+ cursor.toString(n, level + -1, sb);
+ sb. append ( ) ; traverse(cursor, level + 1, sb);
+ traverse( cursor, sb);
+toStringTreeHelper(catursor, level + 1, sb);
+ printTrees(n, 0,cursor, level + 1, sb);
+ Token.toStringHelper(cursor, level + 1, sb);
+ printTree(1, sb);
+ cursor.toStringHelper(this, 0, level + 1, sb);
+ cursor.toString(n.getChild(1, sb);
+ cursor.appendStringTreeImpl(level + 1, sb);
+ this.toStringHelper(c, level + 1, sb);
+ sb. append ( '\n' ) ; } }
+toStringTreeHelper(cursor, level +  sb); } }
+ cursor.dump(1, sb);
+ printStringTree(cursor, level + 1, sb);
+ printTrees(level + 1, sb);
+toStringTreeHelper(curr, level);
+ cursor.toString(n.getNext()+ 1, sb);
+toStringTreeHelper(this, cursor.getNext, level + 1, sb);
+ Token.printTrees(cursor, level + 1, sb);
+ cursor.append("\n"+sb);
+ appendTree(1, sb);
+ cursor.toString(level + -1, sb);
+ toString(ursor, level + 1, sb);
+ cursor.appendTree(level + 1, sb);
+ printTrees(ursor, sb);
+toStringTreeHelper(cursor, level , sb, n);
+toStringTreeHelper(cursor, level + 1, sb, '\n');
+toStringTreeHelper(cursor, level); printNode(node, sb);
+ sb.append("\n", ssb);
+toStringTreeHelper(); }
+toStringTreeHelper(cursor, level + 1, sb) ; } } } } }
+toStringTreeHelper(s); }
+toStringTreeHelper(cursor, level +  2, sb);
+toStringTreeHelper(curr, n, level + 1, sb);
+ sb.append( cursor.to(sb);
+ sb += line;
+ cursor.toString(n, level-1, sb);
+toStringTreeHelper(cursor, n.getNext( ), sb);
+ sb. append ( ' ' ) ; } } return
+ sb. append ( "+
+toStringTreeHelper(cursor, level + 1, sb, indentLevel);
+ toString(ursor, sb);
+toStringTreeHelper(this, cursor, level + 2, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; break ; }
+ cursor.setNext(); cursor.toString(1, sb);
+ cursor.(sb);
+toStringTreeHelper(cursor, level + 1, sb, cursor, level + 1);
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1..);
+toStringTreeHelper(c, level);
+ printTree(sb);
+ sb(node);
+toStringTreeHelper(n, cursor, 0, level + 1, sb);
+ cursor.toString(level + i+ 1, sb);
+ cursor.toString(n, i-level + 1, sb);
+toStringTreeHelper(this, - 1, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, n.toString());
+ this. toStringTreeImplHelper(cursor, level + 1, sb);
+ sb. append ( "\n" ) ; } } return
+toStringTreeHelper(cursor, n, cursor, level + 1, sb);
+ this.appendStringTree(cursor, level + 1, sb);
+ cursor.toString(n.getNextlevel + 1, sb);
+toStringTreeHelper(c);
+ cursorPrint(sb);
+ cursor.render(level + 1, sb);
+ write(level+ 1, sb);
+ sb.append( cursor.render(sb);
+toStringTreeHelper(cursor, level + 1, sb, indentation);
+ appendTree( cursor, sb);
+toStringTreeHelper(node, cursor, level + 1, sb);
+ printNode(1, sb);
+ appendTree(level+ 1, sb);
+ cursor.toString(n, level, -1, sb);
+toStringTreeHelper(parentNode, cursor, level + 1, sb);
+toStringTreeHelper(cur);
+ Token.TOKEN.append(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level +  2, sb); }
+toStringTreeHelper(cursor, n, level, 0, sb);
+ printTree(ursor);
+ cursor.toString(n, ++level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, n, appendable);
+ append(c);
+ if (printTree)
+toStringTreeHelper(cursor, level + 1, appendable, sb);
+ append(line);
+ this. toStringTreeHelper(N,cursor, level + 1, sb);
+ printTreesImpl(cursor, level + 1, sb);
+ print(ursor, sb);
+toStringTreeHelper(cursor, level + 1, sb, n, level + 1++);
+ cursor.toString(n.getDepth+ 1, sb);
+ cursorString(sb);
+ cursor.toString(n, level*+ 1, sb);
+ indent += 1;
+ appendNode(1, sb);
+ Token.TOKEN.print(cursor, level + 1, sb);
+toStringTreeHelper(sn); }
+toStringTreeHelper(node);
+ if (cursor)
+ appendStringTree(cursor, level + 1, sb);
+toStringTreeHelper(cursor, 0, n, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, sb);
+ print(c, level + 1, sb);
+ print cursor, sb);
+toStringTreeHelper(cursor, level + 1, sb, n, level - 1);
+toStringTreeHelper(ursor, level);
+toStringTreeHelper(cursor, level + 1, appendSb);
+toStringTreeHelper(curr, level + 1, sb);
+ this. toStringTreeImplImpl(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb) ; return ; }
+toStringTreeHelper(cursor, level + 1, sb, appendable, n);
+ this. toStringTreeWithLevel(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb2);
+toStringTreeHelper(cursor, level + 1, sb, n, level + 2);
+ toStringTreeInternal(cursor, level + 1, sb);
+ (this, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, appendStringTree);
+toStringTreeHelper(c, n, level + 1, sb);
+toStringTreeHelper(cursor, level +  ""); } }
+toStringTreeHelper(cursor, this, level, sb);
+toStringTreeHelper(sc); }
+ indent(1, sb);
+toStringTreeHelper(cursor, level +  " + sb);
+toStringTreeHelper(cursor, level + " ", sb);
+toStringTreeHelper(this, cursor.getParent, level + 1, sb);
+toStringTreeHelper(cursor, n);
+toStringTreeHelper(n, - 1, cursor, level + 1, sb);
+ printStringTreeImpl(cursor, level + 1, sb);
+toStringTreeHelper(node, cursor);
+ append(1, sb);
+toStringTreeHelper(cursor, level +  1, appendable); }
+toStringTreeHelper(cursor, level + 1, sb) ; } return ;
+ append(sb);
+toStringTreeHelper(cursor, level +  1), sb); }
+ print(ursor, level + 1, sb);
+toStringTreeHelper(cursor, cursor, level + 1, sb);
+ sb.println;
+toStringTreeHelper() {}
+ append(c, level + 1, sb);
+ writeLine(1, sb);
+ write( cursor, sb);
+toStringTreeHelper(cursor, level + 1, sb, appendable, false);
+toStringTreeHelper(n, level, cursor, level + 1, sb);
+ StringBuilder cb =
+ writeTrees(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, appendable, true);
+toStringTreeHelper(cursor, n, level++, sb);
+toStringTreeHelper(cursor, 0, indentLevel, sb);
+ writeTree(cursor, level + 1, sb);
+ append(ursor);
+toStringTreeHelper(cursor, s);
+toStringTreeHelper(parent, cursor, level + 1, sb);
+ print(ursor);
+ StringBuilder(s);
+toStringTreeHelper(cursor, indentLevel, sb);
+ StringBuilder(n);
+ appendTree(cursor, level + 1, sb);
+ StringBuilder s =
+ append(node);
+toStringTreeHelper() }
+toStringTreeHelper(cursor, level +  ""); sb();
+toStringTreeHelper(cursor, level, indentLevel, sb);
+toStringTreeHelper(cursor, level + 1, sb, n, level);
+toStringTreeHelper(cursor, n, level);
+ insert(level+ 1, sb);
+toStringTreeHelper(cursor, indent);
+toStringTreeHelper(cursor, level + 1, sb) } } } }
+toStringTreeHelper(cursor, level + 1) ; } } }
+ printLevel+ 1, sb);
+toStringTreeHelper(cursor, level , append);
+ writeTree(level + 1, sb);
+ print(1, sb);
+ append(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1), sb);
+toStringTreeHelper(cursor, level , appendable); }
+ indent(level+ 1, sb);
+toStringTreeHelper(cursor, level , null);
+ cursorNode(sb);
+ insert(1, sb);
+toStringTreeHelper(cursor, 0);
+toStringTreeHelper(, cursor);
+toStringTreeHelper(n, i, cursor, level + 1, sb);
+ write(1, sb);
+ printStringTreeHelper(cursor, level + 1, sb);
+ this.
+toStringTreeHelper(cursor, sb); {}
+ (break);
+ append(+ 1, sb);
+ this.printTree(cursor, level + 1, sb);
+ appendlevel+ 1, sb);
+toStringTreeHelper(cursor, level + 1); break;
+ writeLevel+ 1, sb);
+toStringTreeHelper(cursor, level , append());
+toStringTreeHelper(cursor, level + 1, sb, false, false);
+ write(cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, sb, false, true);
+ sb;
+ (c, level + 1, sb);
+toStringTreeHelper()();
+ write(sb);
+( cursor, level + 1, sb);
+ append($, sb);
+toStringTreeHelper(cursor, indentation, sb);
+toStringTreeHelper(cursor, level , sb) }
+toStringTreeHelper(cursor, level + 1, sb) } } }
+toStringTreeHelper(cursor, level + 1, sb) ; return ;
+ StringBuilder builder =
+ print(');
+toStringTreeHelper(cursor), sb);
+toStringTreeHelper(cursor, level + 1, append);
+toStringTreeHelper(Cursor, cursor, level + 1, sb);
+ printTreeHelper(cursor, level + 1, sb);
+ return cursor;
+ append();
+toStringTreeHelper(cursor, level + 1", sb);
+toStringTreeHelper(cursor, -1, sb);
+toStringTreeHelper(catn, level + 1, sb);
+ append(, level + 1, sb);
+toStringTreeHelper(Cursor, level + 1, sb);
+toStringTreeHelper(cursor, level ), sb);
+ append(), sb);
+ write cursor, sb);
+toStringTreeHelper(cursor, level , appendable);
+ render(cursor, level + 1, sb);
+toStringTreeHelper(\", cursor);
+ ++i;
+toStringTreeHelper(', cursor);
+ if (token)
+ indent = 1;
+toStringTreeHelper(catNode, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1,  sb) }
+ if (true)
+ super.
+toStringTreeHelper(cursor, level +  2); }
+ print();
+ append(");
+ if (print)
+toStringTreeHelper(cursor, level + 1, sb) } }
+ indent();
+toStringTreeHelper(catcher, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1,  null);
+toStringTreeHelper(cursor, level + 1,  indent);
+toStringTreeHelper(cursor, level +  ""); }
+ traverse(sb);
+ next(sb);
+toStringTreeHelper(cursor, appendable);
+toStringTreeHelper(cursor, sb)
+ } else {
+toStringTreeHelper(...)
+toStringTreeHelper(cursor, level + 1, sb) break;
+toStringTreeHelper(cursor, level +  2);
+toStringTreeHelper(cursor, level - 1, sb);
+ ctx.
+ coder.
+toStringTreeHelper(cursor, level + 1, sb, appender);
+ cursor.
+toStringTreeHelper(cursor, level + 1, b);
+toStringTreeHelper(cursor, level + 1,  sb)
+toStringTreeHelper(cursor,  sb());
+toStringTreeHelper(cursor, level +  1");
+toStringTreeHelper(cursor, level + 1,  stringBuilder);
+toStringTreeHelper(cursor, level + 1, n);
+toStringTreeHelper(cursor, level ); {}
+ } }
+toStringTreeHelper(cursor) }
+toStringTreeHelper(cursor, level + 1) }
+toStringTreeHelper(cursor, level + 1"); }
+toStringTreeHelper(cursor, level ) }
+toStringTreeHelper(cursor, level, 1, sb);
+toStringTreeHelper(cursor, level ) {
+toStringTreeHelper(cursor) {
+ return
+toStringTreeHelper(cursor, level + 1, sb) {
+toStringTreeHelper(N, cursor, level + 1, sb);
+toStringTreeHelper(cursor, level + 1, stringTree);
+toStringTreeHelper(cursor, level + 1, strb);
+toStringTreeHelper(sn, cursor, level + 1, sb);
+ print
+ echo
+toStringTreeHelper(cursor, depth, sb);
+toStringTreeHelper(cursor, 1, sb);
+toStringTreeHelper(cursor, i, sb);

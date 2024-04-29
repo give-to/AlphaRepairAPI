@@ -1,0 +1,651 @@
+Node gramps = parent.getParent();
+ parent = expr.getParent();
+ parent=parent.getParent();
+ Node gramps = expr.getParent();
+Node  gramps = parent;
+Node  gramps:
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); }
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent);
+Node gramps = parent. getFirstChild ( ) ;
+ return false;
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent);
+ case Token.FOR: parent = expr.getParent();
+Node  gramps = expr;
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(); }
+ case Token.OR: return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent); }
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent); }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(); }
+ const gramps = expr.getParent();
+ case Token.FOR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent);
+ return false;
+ case Token.OR: return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent);
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent);
+ case Token.FOR: parent=parent.getParent();
+ case Token.AND: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent);
+ case Token.OR: return (expr == parent.getLastChild())? true : isExpressionResultUsed(parent); }
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed();
+ case Token.OR: return (expr == parent.getSecondChild())? true : isExpressionResultUsed(parent); }
+ Gramps= parent.getParent();
+ return false; }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed();
+ case Token.FOR:
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); default: }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } }
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed(); }
+Node gramps = parent.next();
+ case Token.FOR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(); }
+ return (expr == parent.getFirstChild())? true : false; }
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } }
+ case Token.OR: return (expr == parent.getFirstChild())? false : isExpressionResultUsed(); }
+ case Token.AND: return (expr == parent.getFirstChild())? true : isExpressionResultUsed();
+ parent.getParent();
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed();
+ case Token.OR: return (expr == parent.getFirstChild())? false : isExpressionResultUsed();
+ case Token.FOR: Nodegramps = parent.getParent();
+ case Token.OR: return (expr == parent.getFirstChild())? true : false; }
+ case Token.OR: return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent); } }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent));
+ const gramps = expr.next();
+Node  gramps = getParent(expr);
+ Gramps = expr.getParent();
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed; }
+ var gramps = expr.getParent();
+ case Token.OR: return (expr == parent.getLastChild())? true : isExpressionResultUsed(); }
+ return (expr == parent.getFirstChild())? true : break; }
+Node gramps = parent. getSecondChild ( ) ;
+ return (expr == parent.getFirstChild())? true : isCompressionResultUsed(parent); }
+ return (expr == parent.getLastChild())? true : isExpressionResultUsed(); }
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent); } }
+Node gramps = parent.getFirstChild(); case Token.EVAL:
+ case Token.OR: return (expr == parent.getFirstChild())? true : isCompoundResultUsed(parent); }
+ case Token.OR: parent = expr.getParent();
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed; }
+ case Token.AND:
+ case Token.OR: return (expr == parent.getLastChild())? true : isExpressionResultUsed(parent); } }
+ case Token.EXPR_RESULT:
+Node gramps = parent.getParent(); case Token.EVAL:
+ case Token.OR: return (expr == parent.getSecondChild())? true : isExpressionResultUsed(parent); } }
+ case Token.OR: Node gramps=parent.getParent();
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } final
+ return true; case Token.GROUP:
+ gramps = expr.getParent();
+Node gramps = parent.getFirstChild(); break;
+ return (expr == parent.getFirstChild())? true : isCompressionResultUsed(parent);
+ return (expr == parent.getFirstChild());
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed;
+Node gramps = parent.getParent(); switch (parent.getType()) {
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); };
+ const gramps = getParent();
+ expr.getParent();
+ return true; case Token.FOR:
+Node gramps = parent.getParent(); break;
+ return false; case Token.GROUP:
+ case Token.OR: return (expr == parent.getFirstChild())? false : true; }
+ case Token.ELEM:
+ case Token.EXPRESSION:
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } } final
+ return (expr == parent.getLastChild())? true : isExpressionResultUsed();
+ return false; case Token.FOR:
+ case Token.FOR: return false;
+Node gramps = parent.getParent(); case Token.ELEM:
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } } }
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed;
+ Node gramps =.getParent();
+ return true();
+ return (expr == parent.getFirstChild())? false : true; }
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed; }
+ case Token.FOR: Gramps = expr.getParent();
+Node  gramps = expr.getParent(); break;
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); } };
+ case Token.GROUP: parent = expr.getParent();
+ case Token.AND: parent = expr.getParent();
+ case Token.ARRAY:
+ return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); default:
+ case Token.OR: return (expr == parent.getFirstChild())? true : isExpressionResultUsed(parent); default: };
+ Node gramps = gramps.getParent();
+ case Token.EVAL:
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed;
+ case Token.OR: Gramps = expr.getParent();
+ return expr.getParent();
+ case Token.ARRAY:
+Node gramps = parent.getParent(); case Token.EXPR_RESULT:
+ case Token.OR: return (expr == parent.getFirstChild())? true : false; } }
+Node gramps = parent.getFirstChild(); case Token.FOR:
+ case Token.AND:
+ case Token.OR: case Token.AND:
+ case Token.ARRAY: Nodegramps = parent.getParent();
+Node  gramps = getParent ( ) ;
+ } Node gramps = expr.getParent();
+ case Token.AND: parent= parent.getParent();
+Node gramps = parent.getFirstChild(); case Token.EQ:
+ case Token.STRING: parent = expr.getParent();
+ case Token.EXPR_RESULT: Nodegramps = parent.getParent();
+ const gramps = expr.getNext();
+ return false();
+ case Token.FOR: return true;
+ case Token.GROUP:
+Node  gramps = grp;
+ case Token.ARRAY: case Token.STRING:
+ case Token.GROUP gramps= parent.getParent();
+Node gramps = parent.getParent(); case Token.EXPRESSION:
+Node gramps = parent.getParent() ; switch (gramps).getType()) {
+Node gramps = parent.getFirstChild(); case Token.IF:
+ return (expr == parent.getFirstChild())? false : isExpressionResultUsed(parent); } };
+ return (expr == parent.getFirstChild())? true : false; } }
+ const gramps = parent.getParent();
+ case Token.OR: Node gramps = expr.getParent();
+ case Token.EQUAL:
+Node gramps = parent.getParent(); case Token.EQ:
+ case Token.FOR: Node gramps parent.getParent();
+ var gramps = expr.next();
+ case Token.FOR: return expr.getParent();
+Node gramps = parent.getSecondChild(); case Token.EVAL:
+ expr = expr.next();
+ return true; case Token.ARRAY:
+ return true; case Token.GROUP: return false; }
+Node  gramps = parent.parent;
+ case Token.OR: return false; case Token.GROUP:
+ case Token.ARRAY: return false;
+ case Token.OR: parent=parent.getParent();
+ case Token.OR: gramps = expr.getParent();
+Node gramps = parent.getNext().getParent(); break;
+ case Token.OR: return true; case Token.GROUP:
+Node gramps = parent.getParent() ; switch (gramps) { case CALL:
+ return (expr == parent);
+ case Token.FOR: Node gramps =.getParent();
+ case Token.FOR: Gramps=parent.getParent();
+ { Node gramps = expr.getParent();
+ case Token.GROUP: gramps=parent.getParent();
+ case Token.EXPR_RESULT:
+ return false; case Token.ARRAY:
+ case Token.AND: Nodegramps = parent.getParent();
+Node gramps = parent.getFirstChild(); case Token.DIV:
+ return true; case Token.Eval: return false;
+ case Token.OR: return false; case Token.FOR:
+ parent = expr.parent();
+ case Token.OR: return true; case Token.FOR:
+ case Token.STRING: Nodegramps = parent.getParent();
+ case Token.OR: return false; case Token.FOR:
+ case Token.AND: return false;
+Node gramps = parent.getParent(2);
+ case Token.FOR: Node gramps = expr.getParent();
+ case Token.OR: gramps=parent.getParent();
+ expr.getNext();
+ return (expr == parent.getNext());
+Node gramps = parent.getFirstChild(); case Token.SELECT:
+ case Token.OR: return true; case Token.FOR:
+ case Token.OR: return true; case Token.OR:
+ var gramps = expr.getNext();
+ return (expr == parent.getFirstChild())? true : false; default: }
+ const gramps = expr.parent();
+ case Token.EXCLUDE:
+ case Token.GROUP: parent=parent.getParent();
+ case Token.EXPR: Node gramps=parent.getParent();
+ case Token.EQ:
+ case Token.GROUP: Node gramps= parent.getParent();
+Node gramps = parent. getFirstChild ( 0 ) ;
+ case Token.OR: return false; case Token.OR:
+ case Token.FOR: gramps=parent.getParent();
+ return true;
+ return (expr == parent.getFirstChild())? true; } }
+ gramps = expr.next();
+ case Token.OR:
+ case Token.AND: Gramps= parent.getParent();
+Node gramps = parent.getParent(); case Token.FOR:
+Node gramps  = expr.getFirstChild(); break;
+ case Token.AND: return true;
+Node gramps = parent.getParent(); case Token.DIV:
+ const gramps = expr.getFirstChild();
+ case Token.FOR: Node gr= parent.getParent();
+ case Token.EXPRESSION: return false;
+ { Node gramps= parent.getParent();
+ case Token.FOR: Node gramps expr.getParent();
+Node gramps = parent.getFirstChild(); case Token.EXEC:
+ return (expr == parent.getFirstChild())? true : false; } final
+ case Token.GROUP:
+Node gramps = parent.getParent(2); case Token.ELEM:
+ break; } Node gramps =.getParent();
+ case Token.FOR: break;
+ case Token.OR: case Token.EQ:
+ return parent.getParent();
+Node gramps = parent.getParent() ; switch (gramps instanceof Call) {
+ gramps = parent.getParent();
+ return (expr == parent.getFirstChild())? false : true; } }
+Node gramps = parent.getSecondChild(); break;
+ case Token.STRING:
+Node  expr = parent;
+ case Token.GROUP: return false;
+ return true; }
+Node gramps = parent.getParent(); case Token.ELEMENT:
+Node gramps = parent.getParent(); case Token.IF:
+ case Token.FOR: Node parent= parent.getParent();
+ const gramps = getGroup(expr);
+ case Token.ARRAY: return true;
+Node gramps = parent.getParent(2); case Token.EVAL:
+ case Token.ESC:
+ case Token.EXPR_RESULT: return false;
+ break; } Node parent = expr.getParent();
+Node  gramps = group(expr);
+Node  gramps = parent.next;
+ case Token.DIV: Nodegramps = parent.getParent();
+ case Token.FOR: } Node parent = expr.getParent();
+ Gram gramps = expr.getParent();
+ const gramps = parseGroup(expr);
+ case Token.ARRAY: case Token.SET:
+ case Token.OR: return true; case Token.SELECT:
+ case Token.OR: Node gramps parent.getParent();
+ const gramps = expr.getGrandparent();
+ return (expr == parent.getFirstChild())? true : true; } }
+Node  gramps = expr.next();
+ case Token.ARRAY: Node gramps parent.getParent();
+ case Token.FOR: final Node gramps= parent.getParent();
+ var gramps = getParent();
+Node gramps = parent.getParent(); case Token.EXCLARED:
+ case Token.ARRAY: case Token.FOR:
+ return (expr == parent.getFirstChild())? false; } }
+ case Token.FOR:
+Node gramps = parent.getParent(1); case Token.ELEM:
+ case Token.AND: break;
+ return true; case Token.ELEM:
+ case Token.ELEMENT:
+Node gramps = parent.getParent() ; if (gramps instanceof Call) {
+ case Token.Eval: return false;
+ return (expr == parent.getParent());
+Node gramps = parent.getParent(); break; case Token.ELEM:
+ case Token.FOR: return parent.getParent();
+ case Token.GROUP: return expr.getParent();
+ return (expr == parent.getFirstChild())? true : false; };
+ return (expr == parent.getLastChild());
+ case Token.EQ: case Token.NOT:
+ } Node parent = expr.getParent();
+ case Token.ESC: Nodegramps = parent.getParent();
+Node gramps = parent.getParent() ; switch (gramps).type()) {
+Node  gramps = parent
+ return (expr == parent.getLastChild())? true : false; } }
+ case Token.ELEMEND:
+ case Token.OR: case Token.OR:
+ case Token.EXPRESSION: return true;
+ return (expr == parent.getFirstChild())? true : false; default: {
+Node gramps = parent.getParent(); case Token.EOL:
+ case Token.EXPR_GROUP: return false;
+ return true; case Token.GROUP: return true; }
+Node gramps = parent.getNext();
+Node gramps = parent.getParent() ; case Token.ARRAY:
+ case Token.ARRAY: Node grandparents = expr.getParent();
+ case Token.EQ: return false;
+ const gramps = expr.getSecondChild();
+ return isUsed(parent);
+ case Token.GROUP: Node gramps parent.getParent();
+ Grammar gramps= parent.getParent();
+ case Token.EXPR: return false;
+Node gramps = parent.getParent(2); case Token.EXPRESSION:
+ case Token.COMPATIBLE: return false;
+Node  gramps = parent.next(expr);
+ const gramps = expr.getParentNode();
+ return true;
+ return false; case Token.GRAMP: default:
+ return false);
+ expr = parent.next();
+ case Token.OR: final Node gramps= parent.getParent();
+Node gramps = parent.getNext(2);
+Node gramps = parent.getParent(); case Token.Evaluate:
+Node gramps = parent.getParent().getFirstChild(); break;
+ return (expr == parent.getFirstChild()) ; default: }
+ case Token.ESC: return false;
+ case Token.EXPR:
+ case Token.AND: return expr.getParent();
+Node gramps = parent.getParent().getFirstChild(); case Token.FOR:
+ case Token.FOR: } Node gramps=parent.getParent();
+ expr = expr.getParent();
+ return true; case Token.GRAMP: default:
+ return (expr == parent.getFirstChild())? true : false; } } final
+ return (expr == parent.next());
+ case Token.FOR: Node grammar= parent.getParent();
+ expr.break();
+ case Token.EXPR_GROUP:
+ case Token.EXPR_GROUP: Nodegramps = parent.getParent();
+Node gramps = parent. getNext ( ) ; break ; } else
+Node gramps = parent.getParent() ; case Token.SELECT:
+Node gramps = parent.getFirstChild(); break; } else
+ Rule gramps = expr.getParent();
+Node gramps = parent.getParent(); case Token.EQUAL:
+Node gramps = parent.getParent(). getFirstChild ( ) ;
+ case Token.OR: expr = expr.next();
+Node  gramps = expression;
+ return (expr == parent.getFirstChild())? true: } }
+ case Token.EXPR_RESULT: return true;
+ final Node gramps= parent.getParent();
+ case Token.Eval: return true;
+Node gramps = parent.getParent(); case Token.ELEMAL:
+ return expr.isString();
+ const gramps = expr.getNextSibling();
+Node gramps = parent.getFirstChild(); break; }
+ expr = parent.getParent();
+ case Token.OR: case Token.ELEMENT:
+ return true; case Token.Eval: return true;
+ return true; case Token.GRAMP: {
+ case Token.EXPLACE:
+ return false; case Token.GRAMP: {
+ var gramps = parseGroup(expr);
+ return expr == parent; break;
+ const gramps = getGroup(parent);
+ return (expr == parent.next);
+ case Token.COMPATIBLE: return true;
+Node gramps = parent. getFirstChild ( ) ; } else
+ case Token.Eval: return false; }
+ } Node gramps=parent.getParent();
+ const gramps = getGroups(parent);
+ case Token.EQ: { Node gramps= parent.getParent();
+ parent = parent.next();
+Node gramps = parent.getParent(2); case Token.FOR:
+ return (expr == parent.getSecondChild());
+Node gramps = parent.getParent(2); case Token.ELEMAL:
+Node gramps = parent.getParent(1);
+ const gramps = getGrams(expr);
+ case Token.EQ: return true;
+Node gramps =  expr.getNext().getParent(); break;
+Node gramps = parent.getParent(); break; }
+ case Token.ESCAT: Nodegramps = parent.getParent();
+ return (expr == parent.getFirstChild())? true; } final
+Node gramps = parent.getParent(2); case Token.EXCLARED:
+ return true; } break;
+ case Token.IF:
+ return false; case Token.GRAMP: }
+ return true; break;
+ case Token.EXPR_GROUP: return true;
+ case Token.OR: return expr.isName();
+Node gramps = parent.getParent() ; case Token.EXEC:
+ const gramps = getGroups(expr);
+ return parent == expr; break;
+ case Token.OR: return parent == gramps;
+ return expr.isString());
+Node gramps = parent.getNext().getParent(); break; }
+ case Token.ELEM:
+Node gramps = parent.getParent(); case Token.EXPR: default:
+ parent = parent.parent();
+ const gramps = expr.getParentGrouping();
+ return true; case Token.GRAMP: }
+ case Token.ESCARE: return false;
+ const gramps =.getParent();
+ return parent == gramps;
+ case Token.FOR: } final Node gramps= parent.getParent();
+Node gramps = parent.getParent(2).getFirstChild(); break; } else
+ Node gramps parent.getParent();
+ case Token.DIV gramps= parent.getParent();
+ case Token.OR: Node gramps = *parent.getParent();
+ return expr.isName();
+ case Token.OR: Node gramps = _parent.getParent();
+ return false; break;
+Node gramps = parent.getParent(2); case Token.IF:
+ return true; case Token.GREPES:
+ return (expr == parent.getFirstChild())? true : true; } } final
+ return true; case Token.ELEM: {
+Node gramps = parent.getParent() ; case Token.OR:
+ return isExpressionUsed(parent);
+Node  gramps = expr.getParent(); } else
+ return (expr == parent.getFirstChild())? false : true; } } final
+Node gramps = parent. getNextChild ( ) ; } else
+ return false; case Token.ELEM: {
+ const gramps = parent.getParentNode();
+ case Token.OR: expr = expr.parent();
+Node gramps = parent. getNextChild ( ) ; break; }
+ case Token.EXPR_REACH: Nodegramps = parent.getParent();
+ Node parent = expr.getParent();
+Node gramps = parent.getParent() ; case Token.EXCLARDE:
+ case Token.STRING: var grammar=parent.getParent();
+ return true; case Token.STRING: return true; } }
+ } final Node parent = expr.getParent();
+Node gramps = parent.getParent(1).getFirstChild(); break;
+ return (expr == parent.getFirstChild()) ; default: {
+ return (expr == parent).getNext(expr);
+ return parent.isChild(expr);
+ case Token.EXPR: Gramgramps= parent.getParent();
+ case Token.EQUAL:
+ return expr == gramps;
+ return true; case Token.STRING: return false; } }
+ return isUsed(expr);
+ expr.next();
+ case Token.OR: case Token.AND: } else
+ case Token.ESCARE: return true;
+ return!(expr);
+ case Token.ARRAY: Node grammar= parent.getParent();
+Node gramps = parent.getParent(2); case Token.DIV:
+ case Token: parent = expr.getParent();
+ return!empty(expr);
+Node gramps = parent.getParent(); break; } else
+Node  gramps = [];
+ case Token.CHAR: parent= parent.getParent();
+ return true; case Token.GROUP: return false; } }
+ parent.getNext();
+ case Token.FOR: expr.getParent();
+ return false; case Token.GROUP: }
+ return Boolean(expr);
+ return isComma(parent);
+ var gramps =.getParent();
+ case Token.FOR: Node...gramps = parent.getParent();
+Node gramps = parent.getNext().getParent(); } else
+ return expr.isName(_);
+ return expr.isParent(parent);
+ case Token.ARRAY: Node _gramps = parent.getParent();
+ case Token.EXPR: } Node gramps= parent.getParent();
+ case Token.COMPATIBLE: Node _gramps = parent.getParent();
+Node gramps = parent.getParent(). next ( ) ;
+ case Token.COMPATIBLE: Node pgramps = parent.getParent();
+ return (false);
+Node gramps = parent.next(2);
+ case Token.ARRAY: Node...gramps = parent.getParent();
+Node  gramps = grp();
+ case Token.ARRAY: Node pgramps = parent.getParent();
+ return true; case Token.GROUP: }
+ return true; case Token.GROUP: return false; };
+ return true; case Token.STRING: return true; } final
+ case Token.EXPR_GROUP: Node grammar= parent.getParent();
+ case Token.EQ: } Node gramps= parent.getParent();
+ } final Node gramps =.getParent();
+ return (expr == parent).getNext(true);
+ case Token.EQE:
+ return false; } break;
+ break; } Node gr= parent.getParent();
+Node  gramps = parent.getParent(); }
+ break; } Node parent=parent.getParent();
+ return true; case Token.ELEMENT: {
+ case Token.FOR: }
+ case Token.EQUALS:
+ case Token.ELEM: {
+ return (true);
+ case Token.EXPR_RESULT: } else
+Node gramps = parent. getFirstChild ( ) ; }
+Node gramps = parent.getParent(); switch (parent.getType()) { case
+Node  gramps;
+ GRamps = expr.getParent();
+ return!empty(parent);
+Node  gramps = expr.getParent(); }
+ Node gramps expr.getParent();
+ return true(expr);
+ return (expr == parent.parent);
+Node gramps = parent.getParent().getParent();
+ case Token.COMPATIBLE: Node parentgramps = parent.getParent();
+Node gramps =  expr. getNextChild ( ) ; } else
+Node gramps = parent.getParent(); switch (parent.getType()) { }
+Node  gramps = this;
+ case Token: Gramps= parent.getParent();
+ case Token.EQ;
+ case Token.COMMENT:
+ case Token.ARRAY: Node []gramps = parent.getParent();
+Node gramps = parent.getParent().getFirstChild(); } else
+ return is(expr);
+ return true; });
+ return false; }
+ case Token.EXPR_RESULT: }
+ case Token.EXPR: } else
+Node  parent = expr;
+Node gramps =  expr.getNext().getParent(); } else
+Node gramps = parent.getParent(1).getFirstChild(); } else
+Node  gramps = parent.getParent(); else
+Node gramps = parent.getParent(2).getFirstChild(); } else
+ return true; }
+Node gramps = parent.getFirstChild(); break; } }
+ } final Node gramps= parent.getParent();
+ case Token.EXPR_RESULT:gramps = parent.getParent();
+Node gramps  = expr.getNext().getParent(); }
+ case Token.EQ: {
+ expr.nextChild();
+Node gramps = parent. getFirstChild ( ) ; } }
+Node  gramps = expr.getParent(); else
+ case Token.ARRAY: } return false;
+Node gramps = parent.parent();
+Node gramps = parent. getFirstChild ( ) ; else
+Node gramps = parent.getParent() - 1;
+ parent.next();
+Node  gramps = getParent(expr));
+ case Token.EXPR_RESULT::gramps = parent.getParent();
+Node gramps  = expr. getNextChild ( ) ; }
+Node gramps  = parent. getNextChild ( ) ; }
+Node gramps = parent.getParent(); case Token.ELEM: {
+ case Token.ELEM: {
+Node gramps = parent.getParent(true); break; } else
+ expr = parent;
+Node gramps = parent.getParent(2); case Token.ELEM: {
+ case Token.ESCMA: Node pgramps = parent.getParent();
+Node gramps = parent.getParent(2).getFirstChild(); break; } }
+ case Token.ESCMA: Node _gramps = parent.getParent();
+ Node ggramps=parent.getParent();
+Node gramps = parent.getParent(0);
+ parent.nextChild();
+ switch(expr);
+ expr.setNext();
+Node gramps = parent.getSecondChild(); } else
+Node gramps = parent.getParent(0).getParent();
+Node  gramps = parent.getParent());
+ case Token.AND:gramps = parent.getParent();
+ return expr == parent;
+Node gramps = parent.getParent().getNext();
+Node gramps = parent.getParent() + 1;
+Node gramps = parent.getNext().getParent(); }
+ break; } Nodegramps = parent.getParent();
+ return (!expr);
+ return false; } }
+ break;
+Node gramps = parent.getParent() ; switch (gramps) { case
+Node  expr;
+ break; } Node grand= parent.getParent();
+ switch(parent);
+ case Token.FOR: {
+ return true);
+ case Token.FOR::gramps = parent.getParent();
+ node gramps=parent.getParent();
+ expr.pop();
+Node gramps = parent.getParent() ; switch (gramps) { }
+Node gramps = parent.getParent(). next (expr);
+ return true; } }
+ case Token.DIV:gramps = parent.getParent();
+Node gramps = parent.getNext().getParent(); else
+ default:
+ expr.clear();
+Node gramps = parent.getParent(); } } else
+ Rule gramps= parent.getParent();
+Node gramps = parent.getParent(0); break;
+ break; }
+Node gramps = parent.getParent(); break; } }
+ return -1;
+Node gramps = parent.getParent(2) ; break; }
+Node gramps = parent.getParent() ; case Token.EVAL: {
+ Gramgramps= parent.getParent();
+Node gramps = parent.getSecondChild(); }
+Node gramps = parent.getFirstChild(); break; else
+Node Gramps:
+Node gramps = parent.getParent() ; case Token.EVAL: else
+ default: break;
+Node gramps = parent.getParent(2); break;
+Node gramps = parent; break;
+Node gramps = parent.getParent(1); break;
+Node gramps = parent.getParent(2).getFirstChild(0); else
+Node gramps = parent.getParent(true); break; }
+ case Token: Nodegramps = parent.getParent();
+Node  gramps = parent; }
+ case ")":
+ case Comment: Nodegramps = parent.getParent();
+ const parent=parent.getParent();
+Node gramps = parent.getParent(true); } } else
+ case Token.GROUP: returnparent.getParent();
+ break; } else
+ switch parent.getParent();
+Node gramps = parent.getParent().getFirstChild(); }
+Node  gramps = expr
+Node  gramps = parent; else
+ return false; };
+ case null: Nodegramps = parent.getParent();
+Node gramps = parent.getParent().getParent(); }
+Node gramps = parent.getParent(true); break; } }
+ parent = expression.getParent();
+ Node parent=parent.getParent();
+ switch expr.getParent();
+Node gramps = parent.getParent().getFirstChild(); else
+ return false };
+Node gramps = parent.getParent(); } else
+ } Rule gramps= parent.getParent();
+Node gramps = parent.getParent(1).getNextChild(); }
+Node gramps = parent.getParent()); break;
+ GrammarNodegramps = parent.getParent();
+Node gramps = parent.getParent(0).getNextChild(); }
+ case Token.FOR: #parent.getParent();
+Node  eval:
+Node  expression:
+ assert expr.getParent();
+ return true };
+ } return false;
+Node gramps = parent.getParent() + expr;
+ break; } }
+Node gramps = parent.getParent(0).getParent(); }
+Node gramps = parent.next(); }
+Node gramps = parent.getParent().getParent(); else
+Node gramps = parent.getParent(expr);
+Node gramps = parent.getParent(3);
+ break; } }
+Node gramps = parent.getParent(0).getParent(); else
+Node gramps = parent.getParent().getNext(); }
+ (break);
+ return true break;
+Node gramps = parent.next(); {
+ return false break;
+Node gramps = parent.getParent(0); } else
+ GRamps= parent.getParent();
+Node  expr:
+ break;);
+ Node...gramps = parent.getParent();
+Node gramps = parent.getNext(); }
+ Node pgramps = parent.getParent();
+ case: Nodegramps = parent.getParent();
+Node gramps = parent.getParent(2) ; }
+Node  parent;
+ break; } #gramps = parent.getParent();
+Node gramps = parent.getParent(0).getParent;
+ final Node pgramps = parent.getParent();
+ GrammarImplgramps = parent.getParent();
+Node gramps = parent.getParent() break;
+Node gramps = parent.getParent() ; break; else
+ Node []gramps = parent.getParent();
+Node gramps = parent.getParent(1); }
+Node gramps  = expression
+Node gramps = parent.getParent(2); else
+ parent==parent.getParent();
+ switch(*);
+ parent.parent.getParent();
+ expression.getParent();
+Node gramps = parent.parents();
+ parent=getParent();
+ return break();
+ break loop();
+ break outer();
+ } }
+Node gramps ; {
+ GRAMP= parent.getParent();
+ return null;
+ {
+Node gramps = parent.else
+Node gramps = parent.getParent()); }
+ }
+Node gramps := parent.getParent();
+Node gramps, parent.getParent();
+Node gramps += parent.getParent();

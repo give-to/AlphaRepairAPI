@@ -1,0 +1,586 @@
+ qualifiedName= node.getQualifiedName();
+String qualifiedName = node.getQualifiedName();
+ node.getQualifiedName();
+String qualifiedName  = node.getString();
+String qualifiedName  = node;
+ scope.inferSlotType(type);
+ return node.getQualifiedName();
+ qualifiedName =.getQualifiedName();
+String qualifiedName  = node.name();
+String qualifiedName = node.getQualifiedName(); if (qualifiedName!= null) {
+ scope.inferSlotType(node, type);
+String  qualifiedName = nodeName;
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null) {
+String  origName =
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null) return;
+ scope.inferPropType(node, type);
+ scope.inferProp(node, type);
+ scope.inferPropertyType(node, type);
+ scope.inferProperty(node, type);
+ scope.inferPropertyType(node, type); break; }
+ scope.inferGetPropType(node);
+ scope.inferPropType(node, type); break; }
+ scope.inferPropertyType(node, type); break;
+ case Token.SETPROP: String qualifiedName= node.getQualifiedName();
+ scope.inferPropType(node, type); break;
+ scope.inferPropertyType(node, type); break };
+ scope.inferSlotType(node, type); break;
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.NAME:
+String qualifiedName = node.getQualifiedName(); if (qualifiedName!= null)
+ switch (node.getType()) { case Token.PROP: switch (node.getType()) { case Token.NAME:
+ scope.inferGetProp(node, type);
+ scope.inferPropType(node, type); break; }
+ case Token.SETPROP: qualifiedName=node.getQualifiedName();
+ scope.inferSlot(node, type);
+ scope.inferSlotType(node, type); break; }
+ switch (node.getType()) { case Token.NAME:
+ scope.inferPropertyType(node, type); break; }
+ node.getGetProp();
+ scope.inferPropType(node, type;
+ name=node.getQualifiedName();
+ scope.inferGetPropertyType(node);
+String qualifiedName = node.getQualifiedName(); if (qualifiedName) {
+ scope.inferPropertyType(node, type;
+ scope.inferPropertyType(node.getString(), type); break;
+ scope.inferPropType(node, type); break };
+ scope.inferGetPropType(node, type); break; }
+String qualifiedName  = node.getString(...) ;
+ scope.inferPropertyType(node, type); break;
+ node.getString();
+ scope.getSlot(type);
+ scope.inferSlotType(node.getString(), type);
+ scope.inferPropertyType(node.getString(), type); break; }
+ scope.inferPropType(node), type;
+ scope.inferSlotType(node, type); break; }
+ scope.inferGetPropertyType(node, type); break; }
+ scope.inferGetPropertyType(node, type); break;
+ scope.inferProperty(node);
+ scope.inferGetPropType(node, type); break;
+ scope.getSlot(node);
+ scope.inferPropertyType(node), type;
+String  qualifiedName = node.getName();
+String  propName = node.getString();
+ scope.inferPropertyType(node, name, type); break; }
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) case Token.NAME:
+ node.getProp();
+ scope.inferSlotType(node, type;
+String  origName = node.getString();
+ scope.inferPropType(node, name, type); break; }
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null) break;
+ scope.inferGetProp(node);;
+ scope.inferGetProp(node);
+ scope.inferPropType(node, type); break;
+ scope.inferSlot(type);
+ scope.inferPropertyType(node, type); break });
+ scope.inferPropertyType(node); break;
+ scope.inferSlotType(type);;
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.NAME:
+ scope.inferPropertyType(node.getString(), type); break };
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.STRING:
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.NEW:
+ final String qualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(); case Token.TYPE:
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()); break; }
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.USE:
+ scope.inferPropertyType(type);;
+ scope.inferPropertyType(node.getString(), type); break; } final
+String  qualifiedName = node.name;
+ qualifiedNameNode.getQualifiedName();
+ switch (node.getType()) { case Token.PROP: switch (node.getType()) case Token.NAME:
+String  name =
+String qualifiedName = node.getQualifiedName(); if (name == null) {
+ scope.inferPropType(node); break;
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.CLASS:
+String  qualifiedName = node name;
+ scope.inferProperty(type);
+ scope.inferGetPropType(node, name, type); break; }
+ scope.inferGetPropType(node, type); break; } final
+String qualifiedName = node.getQualifiedName().getString();
+ scope.inferSlotType(node); break;
+ scope.inferPropertyType(node.getString(), type); }
+ scope.inferGetProp(node); break;
+ scope.inferGetProperty(node);
+ scope.inferPropertyType(node, type); break; } final
+String  qualifiedName = node's name;
+ scope.inferSlot(node);
+ scope.inferPropType(node.getString(), type); }
+ scope.inferType(type);
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) {
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.NAME: final
+ scope.inferPropType(node, type); break; } final
+ scope.inferPropType(type);
+String qualifiedName  = node.getString(true);
+ scope.inferSlotType(node.getString(), type); }
+String qualifiedName  = node.getQualifiedName(this);
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { final
+String qualifiedName = node.getQualifiedName() if (qualifiedName!= null) {
+ scope.inferSlotType(node, type); }
+ scope.inferPropertyType(type);
+String qualifiedName  = node.getQualifiedName(...) ;
+ case Token.SET : qualifiedName = node.getQualifiedName();
+ switch (node.getName()) {
+String qualifiedName =  node.getQualifiedName(); break; }
+ switch (node.getName()) {
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()); break; });
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { } }
+ scope.inferGetPropType(node, name, type); break; } final
+ scope.inferSlotType(node.getProp(), type); }
+ case Token.SETOP: qualifiedName = node.getQualifiedName();
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()); break; };
+ scope.inferPropertyType(node, type); }
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } default: break; }
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) } break; }
+ scope.inferSlotType(type);
+ scope.inferPropertyType(node, name, type); break; } final
+ scope.inferPropertyType(node, type); }
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) {}; }
+ case Token.SETPROP: qualifiedName node.getQualifiedName();
+String  propertyName = node.getString();
+ scope.inferPropType(node, name, type); break; } final
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; case Token.USE:
+ scope.inferQualifiedSlot(node, "getprop", type); break; }
+ switch (node.getType()) { StringqualifiedName = node.getQualifiedName();
+ scope.inferSlotType(node);
+String qualifiedName = node.getQualifiedName() + "." +
+String qualifiedName =  node.getQualifiedName() + type;
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.NAME':
+ switch (node.getString()) {
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.NEW: final
+ case Token.SETPROP qualifiedName=node.getQualifiedName();
+ scope.inferPropType(node, type); }
+ switch (node.getType()) {
+String qualifiedName = node.getQualifiedName(true); if (qualifiedName!= null) {
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) return null;
+ switch (node.getType()) { case Token.PROP: switch (node.getType()) { case Token.NAME: final
+ String qualifiedName = *node.getQualifiedName();
+ scope.inferQualifiedSlot(node, name, type); break; } final
+ switch (node.getType()) { case Token.PROP: switch (node.getType()) { case Token.STRING: final
+ scope.inferPropType(node, type); }
+ scope.inferGetProp(); break;
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null) return
+ scope.inferPropType(node);
+ scope.inferQualifiedSlot(node, "getProp", type); break; }
+String  qualifiedName = name;
+ switch (node.getType()) { case Token.PROP: switch (node.getType()) { case Token.NAME':
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.NAME():
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } default: final
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; case Token.NEW:
+ case Token.PROP: qualifiedName = node.getQualifiedName();
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.CLASS: final
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { default: }
+ scope.inferQualifiedSlotType(node, "getprop", type); break; } final
+ switch (node.getType()) {
+String  qualifiedName = node.value();
+ scope.getProperty(node);
+ scope.inferSlotType(node, type); }
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { case Token.ADD: final
+ scope.inferGetProp(node, type); }
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.NEW: final
+ scope.getProp(node);
+ scope.inferProp(node);
+ case Token.SETOP: String qualifiedName=node.getQualifiedName();
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; case Token.SET:
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } } else { final
+ switch (node.getType()) { case Token.SETPROP: switch (node.getType()) { default: final
+ scope.inferQualifiedSlotType(node, getProp(), type); break; } final
+ switch (qualifiedName) {
+ scope.inferGetPropertyType(node); } final
+String  origType =
+ case Token.PROP: String qualifiedName=node.getQualifiedName();
+ case Token.SET: String qualifiedName= node.getQualifiedName();
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } case Token.NAME: final
+ scope.inferSlotType(getPropType);
+ switch (node.getType()) { qualifiedName= node.getQualifiedName();
+String  origName = node.getString(...) ;
+ scope.inferQualifiedSlot(node, "getProp", type); break; } final
+String  qualifiedName = node.string();
+ scope.inferPropertyType(node); } final
+String  propName = node;
+ case Token.SET : qualifiedName =.getQualifiedName();
+ scope.inferSlotType(type); }
+String qualifiedName = node.getQualifiedName(); String origType = null;
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } break ; } final
+ { final String qualifiedName = node.getQualifiedName();
+ scope.inferSlotType(type); } final
+ scope.inferGetProp(node); } final
+String qualifiedName = node.getQualifiedName(); case Token.GET:
+ scope.inferSlotType(node); } final
+String qualifiedName = node.getQualifiedName(); if (name!= null) {
+ scope.inferProp(node);;
+ case Token.SETOP:
+ String origType;
+ switch (node.getName()) { StringqualifiedName = node.getQualifiedName();
+ qualifiedName node.getQualifiedName();
+ switch (node.getName()) qualifiedName=node.getQualifiedName();
+String qualifiedName = node.getQualifiedName().toString( ) ;
+ scope.inferSlotType(node).get();
+ scope.inferGetProp(node, type); }
+String qualifiedName  = node.getString());
+ scope.getProp(type);
+String qualifiedName = node.getQualifiedName() + ".";
+ scope.inferPropertyType(node); } }
+ case Token.SET : qualifiedName node.getQualifiedName();
+ { JSType qualifiedName = node.getQualifiedName();
+ node.getJSType();
+ scope.inferQualifiedSlotType(node, name, type); break; } default: final
+ switch (node.getName()) { qualifiedName= node.getQualifiedName();
+ node.getName();
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } } final
+ scope.inferProperty(node);;
+ scope.inferQualifiedSlot(node, name, type); break; } default: final
+ scope.inferSlotType(node), type();
+ scope.inferPropertyType(node.getString(), type); break; } }
+ case Token.SETOP: qualifiedName =.getQualifiedName();
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) return;
+String qualifiedName = node.getQualifiedName(true); if (qualifiedName == null) {
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; default: final
+String  origType = null;
+ scope.inferSlotType();
+ node.getPropName();
+ scope.inferSlotType(type); final
+ switch (node.getString()); String qualifiedName= node.getQualifiedName();
+ Node propName = node.getString();
+ scope.inferSlotType(node).type();
+ case Token.PROP: qualifiedName =.getQualifiedName();
+String  origName = qualifiedName;
+ switch (node.getType()); String qualifiedName= node.getQualifiedName();
+ scope.inferQualifiedSlot(node, "getprop", type); break; };
+ scope.inferGetProp(node); }
+ switch (node.value()) {
+ scope.inferQualifiedSlot(node, qualifiedName, type); break; } default: {
+String  origName = name;
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null)
+ Node origType = null;
+ { JSType qualifiedName = * node.getQualifiedName();
+ scope.inferGetProp(node); final
+ switch (node.getName()) { return node.getQualifiedName();
+ switch (node.getString()) { StringqualifiedName = node.getQualifiedName();
+ scope.inferPropertyType(type); }
+ case Token.SETPROP: assert node.getQualifiedName();
+ case Token.SETSTRUCT: qualifiedName= node.getQualifiedName();
+String qualifiedName = node.getQualifiedName() + "__getprop__" ;
+ switch (node.getType()) { case Token.STRING: {
+ scope.inferPropType(node, type); break; });
+ case Token.SETPROP: name = node.getQualifiedName();
+ String qualifiedName = propVar.getQualifiedName();
+ case Token.SETOP: qualifiedName node.getQualifiedName();
+ switch (node.getString()); qualifiedName= node.getQualifiedName();
+ case Token.SETPROP: node.getQualifiedName();
+ switch (node.getName())
+String  propName =
+ switch (node.getName());
+ case Token.SET : qualifiedNameNode.getQualifiedName();
+ case Symbol: qualifiedName = node.getQualifiedName();
+ node.getProperties();
+String qualifiedName  = node.getStringName();
+ scope.inferPropertyType(node).get();
+ case Token.SETPROP:
+ case Token.SET } qualifiedName=node.getQualifiedName();
+ assert node.getQualifiedName();
+ switch (node.getType()) { final StringqualifiedName = node.getQualifiedName();
+String  qualifiedName = nodeName();
+String qualifiedName = node.getQualifiedName() + "GetProperties" ;
+ case Token.SET : qualifiedName = _getQualifiedName();
+ case Token.ISOP: qualifiedName =.getQualifiedName();
+ String qualifiedName = + node.getQualifiedName();
+ scope.inferPropertyType(node).type();
+ scope.inferSlotType(type); }
+ case Token.SETPROP: return node.getQualifiedName();
+ qualifiedName = nodegetQualifiedName();
+String qualifiedName = node.getQualifiedName(); case Token.ISNULL:
+ switch (node.getName()); StringqualifiedName = node.getQualifiedName();
+ case Symbol: String qualifiedName=node.getQualifiedName();
+ scope.inferPropertyType(node)();
+ JSType _qualifiedName = node.getQualifiedName();
+ node.getProperty();
+ case Token.SETNAME:
+String qualifiedName = node.getQualifiedName() + "__getprop" ;
+String qualifiedName = node.getQualifiedName() + "getprop" ;
+ scope.inferGetProp(node); }
+ { String qualifiedName = * node.getQualifiedName();
+ final String qualifiedName = *node.getQualifiedName();
+String qualifiedName = node.getQualifiedName() + '.' +
+ case Token.SET:
+ case Token.SET }; qualifiedName=node.getQualifiedName();
+ case Token.SETPROP;
+String qualifiedName = node.getQualifiedName(); case Token.SETNAME:
+ String qualifiedName = - node.getQualifiedName();
+ case Token.SETOP:
+ node.get();
+String qualifiedName  = node.getString(...));
+ switch (node.getType());
+String qualifiedName  = node.getQualifiedName(); }
+ scope.inferSlotType(); } final
+ String qualifiedName.getQualifiedName();
+ scope.getProp (*);
+ case Token.SETNAME:
+String  prop =
+ JSType qualifiedName= node.getQualifiedName();
+ switch (node.getString());;
+ String qualifiedName = node.get();
+ node.getGetProperty();
+ node.getGetProperties();
+String qualifiedName = node.getQualifiedName(); case Token.SETSTRUCT:
+String qualifiedName = node.getQualifiedName() + "Property" ;
+ { String qualifiedName = node.getQualifiedName();
+ case Token.SETPROP: final StringqualifiedName = node.getQualifiedName();
+ switch (node.getType()) { String _qualifiedName = node.getQualifiedName();
+ scope.getProperty (*);
+String qualifiedName = node.getQualifiedName() + "GetProp" ;
+ scope.add(node);
+ scope.inferGetProp(); } final
+String  getNativeType(GETPROP); }
+ node.getProps();
+ switch (node.getString());
+ scope.inferProperty(node); final
+ scope.inferPropertyType(type); }
+ scope.getProp(_);
+ case Token.SET: name=node.getQualifiedName();
+ switch (node.getType()) { String unqualifiedName = node.getQualifiedName();
+ case Token.SETSTRUCT:
+ qualifiedName = _getQualifiedName();
+ scope.inferSlotType(getProp();
+ case Token.PROP qualifiedName=node.getQualifiedName();
+ switch (node.getType()) { }
+String qualifiedName = node.getQualifiedName() + "GetProperty" ;
+ {JSType} qualifiedName= node.getQualifiedName();
+ Node origType = node;
+String  origName = node.getString(...) +
+ scope.inferPropertyType(node); }
+ scope.inferGetProp();
+ scope.inferProperty(node); }
+ scope.define(node);
+ String(qualifiedName)=node.getQualifiedName();
+String qualifiedName = node.getQualifiedName() + "getpropname" ;
+ String: qualifiedName=node.getQualifiedName();
+ scope.inferPropType(node)();
+String qualifiedName  = node.getProperty();
+ switch (node.getType()) { case Token: }
+ switch (node.getJSType();
+ case Token.SETPROP: final
+ scope.inferSlotType(node)();
+ node.getGetPropName();
+String qualifiedName  = node.getQualifiedName() +
+String  qualifiedName = node name.
+String qualifiedName = node.getQualifiedName(true); if (qualifiedName == null) return
+ JSType unqualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(); if (qualifiedName == null) return.
+ case Token.SETSTRUCT: StringqualifiedName = node.getQualifiedName();
+ case Token.SET: return node.getQualifiedName();
+ scope.inferPropertyType(); final
+ switch (node.getType())
+ { JSToken qualifiedName= node.getQualifiedName();
+String qualifiedName = node.getQualifiedName( ) + "." + type.name();
+String qualifiedName = node.getQualifiedName() + "";
+String qualifiedName = node.getQualifiedName() + "." + type; break; }
+ switch (node.getString()) { }
+ switch (node.getName()) { String _qualifiedName = node.getQualifiedName();
+String  origName;
+ final String qualifiedName =.getQualifiedName();
+ switch (node.getName());;
+String qualifiedName = node.getQualifiedName(\"getprop\");
+ case Token.SETPROP: {
+ type=node.getQualifiedName();
+ Node propName = node.getName();
+String  propName = node.getString(); }
+ String qualifiedName = node.String();
+String qualifiedName = node.getQualifiedName() + "_" +
+ switch (node.getString()); {
+ { final String qualifiedName = *node.getQualifiedName();
+ String qualifiedName = _node.getQualifiedName();
+ scope.inferSlotType(); final
+ switch (node.getType()) { case
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) return
+String qualifiedName = node.getQualifiedName() + "__getprop__" +
+String qualifiedName = node.getQualifiedName() + '.';
+String qualifiedName = node.getQualifiedName() + "__property" ;
+String qualifiedName =  node.getQualifiedName().getString());
+ switch (node.getName()) { }
+ case String: qualifiedName = node.getQualifiedName();
+ switch (node.getType()) {};
+ JSType qualifiedName |= node.getQualifiedName();
+ Simple qualifiedName = node.getQualifiedName();
+String  qualifiedName = node.getString(); }
+ return null;
+ case Token.SETPROP: String _qualifiedName = node.getQualifiedName();
+ { String qualifiedName = propVar.getQualifiedName();
+ switch (type) { final
+String qualifiedName  = node.getString(true));
+ case Token.SET(): qualifiedName= node.getQualifiedName();
+ scope.inferSlotType(getName();
+ switch (type) {
+ switch (node.getType()) {}; }
+ Node origType;
+ { final final String qualifiedName= node.getQualifiedName();
+String  propertyName = node.getString(); }
+ final String qualifiedNameNode.getQualifiedName();
+ node.getType();
+ final String qualifiedName = _node.getQualifiedName();
+ return type();
+String qualifiedName = node.getQualifiedName() + "()" ;
+String qualifiedName = node.getQualifiedName() + name;
+ final qualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(true); if (qualifiedName == null) throw
+ { break; }
+ qualifiedName := node.getQualifiedName();
+String  origName = node.getString(); }
+ JSToken qualifiedName= node.getQualifiedName();
+ switch (node) { final
+ Node origNode = node;
+ Node propName = node.getProp();
+ final final String qualifiedName= node.getQualifiedName();
+ delete node.getQualifiedName();
+String qualifiedName = node.getQualifiedName( ) + "." + "prop" ;
+ qualifiedName += node.getQualifiedName();
+String qualifiedName = node.getQualifiedName( ) + "." + type.name;
+ case Token.LOAD:
+ scope.init();
+ case Token.SETSTATIC:qualifiedName = node.getQualifiedName();
+String qualifiedName =  node.getProp();
+ case Token.SETOP: final
+ case Token.SET: final
+ final String namePrefix=node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(\"getProp\");
+String qualifiedName = node.getQualifiedName() + "GetProperties" +
+ scope.continue();
+ final String origType;
+ { JSType _qualifiedName = node.getQualifiedName();
+ JSType *qualifiedName = node.getQualifiedName();
+ case Token.SET: break;
+ final JSType _qualifiedName = node.getQualifiedName();
+String qualifiedName  = rawName;
+ switch (Node) node { final
+ case Token.GET:
+String qualifiedName = node.getQualifiedName(true); break; }
+String qualifiedName  = Node.getQualifiedName(); }
+ switch (node).getName;
+String qualifiedName = node.getQualifiedName(\"getprop\"");
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) { }
+String qualifiedName = node.getQualifiedName() if (qualifiedName == null) { throw
+String qualifiedName = node.getQualifiedName( ) + "__getprop" +
+ scope.break();
+String qualifiedName = node.getQualifiedName() + "()" +
+ scope.clear();
+ final String origName;
+ case Token.SET():
+ assert(true);
+ case Token.SET: {
+ JSToken.qualifiedName = node.getQualifiedName();
+ switch (node).getType;
+ Node prop = node;
+ switch (node).getProp;
+ { JSType unqualifiedName = node.getQualifiedName();
+ case Token.PROP: final
+ { final JSType unqualifiedName = node.getQualifiedName();
+ { final JSType _qualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName() + "Property" +
+ JSToken_qualifiedName = node.getQualifiedName();
+ final JSType unqualifiedName = node.getQualifiedName();
+ String name = node;
+String qualifiedName = node.getQualifiedName(this); break; }
+ String(name)= node.getQualifiedName();
+ { JSType qualifiedName |= node.getQualifiedName();
+String qualifiedName = node.getQualifiedName() + prefix;
+String qualifiedName = node.getQualifiedName() + suffix;
+ return type;
+ switch(propVar);
+ switch(getProp);
+ case Token.SETPROP():
+String  name;
+ scope.get(_);
+ if (!origType);
+ string qualifiedName = node.getQualifiedName();
+ case Token.SETProperty:qualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName( ) + "." + "prop" +
+ break;);
+ break;;
+ { JSToken(qualifiedName = node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(scope);
+ if(true);
+ Name qualifiedName = node.getQualifiedName();
+ return null();
+String  property =
+ String prop = node;
+String qualifiedName = node.getQualifiedName()); }
+ assert true;
+ scope.get();
+ return false;
+ String(name))= node.getQualifiedName();
+ String qualifiedName=(node.getQualifiedName();
+ assert(false);
+ String propName;
+ final String _qualifiedName = node.getQualifiedName();
+ break; } final
+ String qualifiedName="node.getQualifiedName();
+String qualifiedName = node.getQualifiedName(\"\") ;
+String qualifiedName  = name();
+String qualifiedName = node.getQualifiedName(true); break; } }
+String  prefix =
+ getProp();
+String qualifiedName  = null;
+ final String unqualifiedName = node.getQualifiedName();
+ qualifiedName=(node.getQualifiedName();
+ (break);
+ { break; };
+ { final
+ final String qualifiedName|= node.getQualifiedName();
+ throw node.getQualifiedName();
+ break; }
+String qualifiedName = node.getQualifiedName(this).name();
+ String namePrefix= node.getQualifiedName();
+ node=node.getQualifiedName();
+ if(false);
+ clearSlot();
+String qualifiedName = node.getQualifiedName(false); break; } }
+ qualifiedName="node.getQualifiedName();
+ scope.getQualifiedName();
+ clearScope();
+ break();
+String  propName; }
+String qualifiedName = node.getQualifiedName(this).name;
+ break; final
+String  propName; {
+ } });
+ assert isStatic;
+ String _qualifiedName = node.getQualifiedName();
+ break; } }
+ })();
+String  propertyName; }
+String  propertyName; {
+String  origName; {
+String qualifiedName = node.getQualifiedName(\"\")";
+ StaticStringqualifiedName = node.getQualifiedName();
+ static StringqualifiedName = node.getQualifiedName();
+ default: final
+String qualifiedName = node.getQualifiedName(\"\") +
+ String unqualifiedName = node.getQualifiedName();
+ Object qualifiedName= node.getQualifiedName();
+ return scope.getQualifiedName();
+ assertNode.getQualifiedName();
+String qualifiedName = node.getQualifiedName(scope); }
+String qualifiedName = node.getQualifiedName(this); }
+String qualifiedName = node.getQualifiedName(true); }
+String qualifiedName = node.getQualifiedName(type); }
+String qualifiedName  = *
+String qualifiedName  = "+
+String qualifiedName = node.getQualifiedName(false); }
+ name.getQualifiedName();
+String qualifiedName  = +
+ String resolvedName= node.getQualifiedName();
+ type.getQualifiedName();
+ node=getQualifiedName();
+String qualifiedName = node.getQualifiedName() + "+
+String qualifiedName ; {
+ final
+ return parent.getQualifiedName();
+String qualifiedName = node.getQualifiedName() ; *
+String qualifiedName : {
+String qualifiedName = node.getQualifiedName() + "
+String qualifiedName = node.getQualifiedName() + *
+ resolvedName= node.getQualifiedName();
+ qualifierName= node.getQualifiedName();
+ namedName= node.getQualifiedName();
+ {
+String qualifiedName := node.getQualifiedName();
+String qualifiedName += node.getQualifiedName();
+String qualifiedName: node.getQualifiedName();

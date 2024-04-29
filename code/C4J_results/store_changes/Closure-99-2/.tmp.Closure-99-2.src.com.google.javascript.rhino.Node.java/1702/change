@@ -1,0 +1,874 @@
+return left + "." + getLastChild().getString();
+ return left.getString();
+ return left().getString();
+ else { return left+ "." + getLastChild().getString();
+ else { return left.getLastChild().getString();
+ else { return left.getString();
+ else {
+ else { return left;
+ return left;
+ else { return getString();
+ else { return getFirstChild().getString();
+ else { return left+ getLastChild().getString();
+return left + "." + getLastChild().getString() + "";
+ return getString();
+ return getFirstChild().getString();
+ else { left+ getLastChild().getString();
+return left + "."  + getString();
+ return left();
+return left + "." + getLastChild().getQualifiedName();
+ left.getLastChild().getString();
+ else if ( type == Token.NAME) {
+ else { return "(left);
+ else { return getLeft().getString();
+ else if (left) { return left.getLastChild().getString();
+ else if ( type == Token.NAME)
+return left + "." + getLastChild().getName();
+ else if ( left!= null )
+ else { left.getString();
+ else { left.getLastChild().getString();
+ else { return left.toString();
+ else if ( type == Token.GETPROP) {
+ return "(left);
+ return left.getLastChild().getString();
+ return getLeft().getString();
+ else if ( left!= null ) {
+ else { return "left" ; }
+ else if (type == Token.GETPROP);
+ else { return (left).getLastChild().getString();
+ else if (left!= left) { return left.getString();
+ else return left.getString();
+ else if ( left ) {
+ else if (left) { left=getLastChild().getString();
+ else { return (left).getString();
+ else { return getString(left);
+ else { return left.getValue().getString();
+ if ( type == Token.NAME) { return "name"; } else if ( type == Token.THIS) {
+ if ( type == Token.THIS) { return "this"; } else {
+ else if (type == Token.NAME) { return left;
+ else { return " "+left + "." + getLastChild().getString();
+ if ( type == Token.NAME) { return "name"; } else {
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.THIS)
+ else if ( type == NAME ) {
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.THIS) {
+ else if ( type == Token.THIS) { return "this"; } else if ( type == Token.NAME) {
+ else if ( type == Token.NAME) { return "name"; } else {
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.THIS) {
+ if ( type == Token.NAME) { return "name"; } else if ( type == Token.THIS)
+ else if ( type == Token.NAME) { return "name";
+ else if ( type == Token.THIS) { return "this"; } else if ( type == Token.NAME)
+ if ( type == Token.NAME) { return "name";
+ else if ( type == Token.THIS) { return "this"; } else if ( type == Token.GETPROP) {
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.GETPROP) {
+ else if ( type == Token.NAME) { return "name"; } else if ( left!= null )
+ else if ( type == Token.SETPROP) {
+ else if ( type == Token.THIS) { return "this"; } else if ( left!= null )
+ if ( type == Token.NAME) { return "name"; } else
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.THIS)
+ if ( type == Token.NAME) { return "name"; } if ( left!= null ) {
+ if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROPS) {
+ if (right == null) { return null;
+ else if ( type == Token.THIS) { return "this"; } else {
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROPS) {
+ else { return getFirstChild(left).getString();
+ if ( type == Token.NAME) { return "name"; } if ( left!= null )
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.PROPS) {
+ if ( type == Token.NAME) { return "name"; } else if ( type == Token.GETPROP) {
+ if ( type == Token.THIS) { return "this"; } else if ( type == Token.GETPROP) {
+return left + "." + getLastChild().getString() + "." + getString();
+ left.getString();
+ else if ( type == Token.NAME) { return "name"; }
+ if ( type == Token.NAME) { return left;
+ else if (left == left) { return left;
+ if ( type == Token.NAME) { return "name"; }
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROP) {
+ if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROP) {
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.GETPROP) {
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.PROP) {
+return left + "." + getLastChild().getString() + ".";
+ else if ( type == Token.NAME) { return "name"; } else if ( left ) {
+ else if (type == Token.NAME) { return "name" + left;
+ else if (left == right) { return right().getString();
+ if ( type == Token.NAME) { return "name"; } else if ( left!= null )
+ else if ( type == Token.THIS) { return "this"; } else
+ else { return left + "."+"." + getLastChild().getString();
+ else { return left.strip();
+ else if (left!= left) { return left+ getLastChild().getString();
+ if ( type == Token.NAME) { return "name"; } else if ( type == NAME ) {
+ if ( type == Token.NAME) { return "name" + left;
+ else if (left!= left) { return left+ "." + getLastChild().getString();
+ else { return "."+ "." + getLastChild().getString();
+ else if ( type == Token.NAME) { return "name"; } else
+ else if (left == left) return left;
+ else { return "left" + left ; }
+ else { return "left" + left;
+ else if ( type == Token.NAME) { return "name"; } else if ( type == NAME ) {
+return left + "." + getLastChild(left).getQualifiedName() ;
+ if ( type == Token.NAME) {
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.SETPROP) {
+ else { return "left" + getString();
+ else if ( type == Token.THIS) { return "this"; } else if ( type == Token.SETPROP) {
+ else if ( type == Token.THIS) { return "this"; } else if ( type == NAME ) {
+ else if ( type == Token.THIS) { return "this"; } else if ( left ) {
+ else if ( type == Token.THIS) {
+ else { left=getLastChild().getString();
+ if ( left!= null ) {
+ if ( type == Token.THIS) { return "this"; } else
+ else { return left + ".";
+return left  + "." ;
+ else if ( type == Token.THIS) { return "this"; } else if ( type == Token.PROP) {
+ else { return left();
+return left + "." + getLastChild(left).getName ( ) ;
+ if ( type == Token.GETPROP) {
+ else if (left == left) { return left();
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.THIS) { return "this"; }
+ if ( type == Token.NAME) { return "name"; } if ( left ) {
+ else if (left!= left) { left.getString();
+ if ( type == Token.NAME) { return "name"; } else if ( left ) {
+ if ( type == Token.THIS) { return "this"; }
+ if ( left!= null )
+ else if (left == right) { return"." + getLastChild().getString();
+ else { return " "+ getLastChild().getString();
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.THIS) { return "this";
+ else if (left) { return left.getString();
+return left + "." + getLastChild().getQualifiedName()); return getString();
+ else { return "($left);
+ else if (left) { return left+ getLastChild().getString();
+ if (type == Token.NAME) return left;
+ if ( type == Token.NAME)
+ else if (type == Token.NAME) { return left
+return  getString(left);
+ else if (left!= left) { return"." + getLastChild().getString();
+ else { return left + getString();
+ else { return left.string();
+ if (type == Token.NAME) { returngetString();
+return left + "." + getLastChild().getString()); } else { return "null"; }
+return left + "." + getLastChild().getQualifiedName(); + ".";
+return left + "." + getLastChild().getString(...) ;
+ else if ( type == Token.PROP) {
+ else if ( type == Token.NAME) { return "name";
+ else { return left + getFirstChild().getString();
+ else { return getString(left); }
+ else { return $(left).getString();
+ else if (left) { left+ getLastChild().getString();
+return left + "." + getLastChild().getString()); } else { return "null";
+ else if (left!= null) { left.getLastChild().getString();
+ else if (type == Token.THIS) { return left;
+ else if (right == null) { returngetLastChild().getString();
+ else { return "left".getString();
+ else { return "left"; } else { return "left" + left ; }
+ else if ( type == Token.NAME) { return "name"; } else if ( left )
+return left + "." + getLastChild().getQualifiedName(...) ;
+ if ( type == Token.NAME) { return "name"; } if ( type == Token.THIS) { return "this"; } else
+ else if (left!= left) { left+ getLastChild().getString();
+ else if ( type == Token.SETELEM) {
+return left + "." + getLastChild().getProperties();
+ else { return (String)left).getString();
+return left + "." + getLastChild().getQualifiedName() + "";
+ if ( type == Token.NAME) { return "name"; } if ( type == NAME ) {
+ else if (left!= null) { return left().getString();
+ else if (left == right) { return right();
+return left + "."  + properties;
+ else { return left + "\\"." + getLastChild().getString();
+return left + "."  + getPropertyNames ( ) ;
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.PREF_OP) {
+return left  + "";
+ else { return left.getProperties().getString();
+ else { return _left + "." + getLastChild().getString();
+ else if (type == Token.NAME) {left + "." + getLastChild().getString();
+ else if (left) { return "+ getLastChild().getString();
+return left + "."  + getPropertyNames ( left ) ;
+return left  + getString ( ) ;
+ else { return "dot(left);
+ else if (left!= null) { left=getLastChild().getString();
+ else { return"." + getLastChild().getString();
+ else if (left == left) { returngetString();
+ else { return " " + left.getString();
+ else if (type == Token.NAME) { return left; }
+ else if (type == Token.NAME) { return left + "";
+ else if ( left )
+ else { return "this"; } else if ( type == Token.SETPROP) { return "this"; } else { return null }
+ else { return "."+left + "." + getLastChild().getString();
+ if ( type == Token.NAME) { return "name" + left; }
+ else if (type == Token.NAME) { return "name"; }
+ else if (left) { return left;
+ else if (left!= left) return left.getString();
+ if ( type == Token.NAME) { return "this"; } else {
+ else if (left) { return"." + getLastChild().getString();
+ else if ( type == Token.NAME) { return "name"; } else { return null }
+ else if ( type == Token.GETPROP() ) {
+ else if (left!= left) { return left().getString();
+ } else if ( type == Token.NAME) { return "name"; } else
+ else { return "left" + left + ";" }
+ else { return "left."+ "." + getLastChild().getString();
+ if (right == null) return null;
+ else if (left == right) { return ""+ getLastChild().getString();
+ else { return left.name+ "." + getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName(); return ".";
+ else if (left == right) { returngetString();
+ if ( type == Token.SETPROP) {
+ else { return left.getParent().getString();
+ else { return (string)left).getString();
+ else if (left == left) { return.getString();
+ else if (left!= right) { return"." + getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName() + ".";
+ else if ( type == Token.PROPS) {
+ else if (left) { return getString();
+ else if (left!= null) { return left.getString();
+ else { return "left." + getString();
+return left + "."  + "." + getString ( ) ;
+ else if (right == null) { return ""+ getLastChild().getString();
+ else if (type == Token.NAME) { return "name", left;
+ else { return left + right.getString();
+return left + "." + getLastChild().getPropertyName();
+ else if (left == right) { return _getLastChild().getString();
+ else { return "left +"." + getLastChild().getString();
+ if ( type == Token.NAME) { return "name"; } if ( left )
+ else { return "." + left.getString();
+ else { return "this"; } else if ( type == Token.SETPROP) { return "this"; } else if (left)
+return left + "."  + this + "." + getString();
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROP_OP) {
+return left + "." + getLastChild().getQualifiedName(); *
+return left + "."  + getProperties ( ) ;
+ else if (left!= left) { return "+ getLastChild().getString();
+ else if ( left instanceof String ) {
+ else { return left + ";
+return left + "." + getLastChild ( ) ;
+ else if (left) { return "(left);
+ else if (left == right) { return right;
+ else { return "this" + left + ";" }
+ else { return left.getName().getString();
+ else { return "this"; } else if ( type == Token.SETPROP) { return "this"; } else { return null ;
+return left + "."  + getPropertyNames ( getFirstChild ) ;
+ else { return "left.getString();
+return left + "." + getLastChild().getString()); } else { return "this"; }
+ else if (left!= null) { return"." + getLastChild().getString();
+ if ( type == NAME ) {
+ else if (left == right) { return right).getString();
+ else return left;
+ else
+return left + "." + getLastChild().getQualifiedName(); return null;
+ if ( type == Token.NAME) { break;
+ if ( type == Token.NAME) { return "name"; }
+ else if (left == right) { return right);
+ else { return "left" + left + "";
+return left + "." + getLastChild().getQualifiedName(); if (left) {
+ else if (left == right) { return.getString();
+return left + "." + getLastChild().getString() + "." + getPropertyNames ( ) ;
+ else if (left == right) { return.getLastChild().getString();
+ else if (left == left) { return right().getString();
+ else if (left!= left) { return ""+ getLastChild().getString();
+ else { return "this" + "."+left + "." + getLastChild().getString();
+ else if (left) { return ""+ getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName(); return left;
+ else if ( type == Token.NAME) { return "name"; } else if left {
+ if (type == Token.NAME) { left.getString();
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.PROP) { return null;
+return  "left";
+ else { return ((left).getString();
+return left + "." + getLastChild(left);
+ else if ( type == Token.SETNAME) {
+ return left).getString();
+ else if (left!= left) { return u"." + getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName().getString();
+ else if (left) { left.getLastChild().getString();
+return left  ; } else { return getString ( ) ;
+ else if (left == right).getLastChild().getString();
+ else { return "left;
+ if ( type == Token.NAME) { return left
+return left + "." + getLastChild().getQualifiedName()); getString();
+return left +  ": " + getString ( ) ;
+ else if (type == Token.GET(left);
+ else { return "\\."+left + "." + getLastChild().getString();
+ else { return "\\".left + "." + getLastChild().getString();
+ else { return "this" + left ; }
+ else if (left) { return left+ "." + getLastChild().getString();
+ else { } return left.getString();
+ else if (left!= left) { return \"." + getLastChild().getString();
+ if (right == null) { return left.getString();
+ else { return left + ":\"." + getLastChild().getString();
+ else { return "+";
+ return ((left).getString();
+ else if (left!= left) { left=getLastChild().getString();
+ else if (left) { return u"." + getLastChild().getString();
+ else if (left == right) { return u"." + getLastChild().getString();
+return left + "." + getLastChild().getString()); } else { return "name"; }
+ else { return ": "+ getLastChild().getString();
+ else if (left!= left) { return +"." + getLastChild().getString();
+ else { left+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString(...) + "." + getString(...) ;
+ else if (left) { return getParent().getString();
+ else if (left) { return \"." + getLastChild().getString();
+ else if (left!= left) { return.getString();
+ else { return left.getProps().getString();
+ else if (left!= null) { left+ getLastChild().getString();
+ else { return left);
+ } else {
+ else if ( left!= "" ) {
+ else if (left == right) { return \"." + getLastChild().getString();
+return  "left"; } else { return "left";
+ else { return "this" + left + "";
+ else if (left == right) { right+ getLastChild().getString();
+ else { return new String(left).getString();
+ else { return left + "";
+ else if (left == right) return right;
+ if ( type == Token.NAME) { return "this"; }
+return left + "." + getLastChild().getString()); } else { return null; }
+ else if ( left!= "" )
+return left + "."  + getPropertyNames ( right ) ;
+ else if (left!= null) { return left).getString();
+ else if (left == left) { return left().getString();
+ else { return ' '+ getLastChild().getString();
+return left + "." + getLastChild().getString(); } else { return "null"; }
+ else { return left + getProperties();
+return left + "." + getLastChild().getQualifiedName()); *
+ if (left == left) { return left;
+return left + "."  + getPropNames ( getFirstChild ) ;
+ return left+ getLastChild().getString();
+return left + "." + getLastChild(left)); } else { return "null"; }
+ else if (left) { return +"." + getLastChild().getString();
+ else if (type == NAME) { returnleft + "." + getLastChild().getString();
+ else if (left!= left) return left+ "." + getLastChild().getString();
+ else { return "left." + left ; }
+return left + "." + getLastChild().getString() + getNextChild().getString();
+return left + "." + getLastChild().name();
+return left + "." + getLastChild().getString(); } else { return "null";
+ else if (type == Token.NAME) { }
+return left + "." + getLastChild(left) + "";
+return left + "."  + getString ( type ) ;
+ else if (type == Token.NAME) { return "name", left);
+return left + "."  + getProperties ( left ) ;
+ if (type == Token.NAME) return left);
+ if (type == Token.THIS) { left.getString();
+ else { return left + "_"+"." + getLastChild().getString();
+return left + "." + getLastChild().getString() + "." + getString().length();
+return left + "." + getLastChild().getString()); } else { return "getProperty(); }
+return left + "." + getLastChild().getString() + "." + getPropertyName ( ) ;
+ else if (left == right) { right.getString();
+ if (right == null) { return.getString();
+ else { return left + u"." + getLastChild().getString();
+ else { return "+left;
+ else { return left.getText().getString();
+return left + "." + getLastChild(left).getQualifiedName() + "";
+return left + "." + getLastChild().getString()); } else { return null;
+return left + "." + getLastChild().getString(true); } else { return "null"; }
+return left + "." + getLastChild().getString()); } else { return "getProperty()";
+ else { return left + name+ "." + getLastChild().getString();
+ else { return u"." + getLastChild().getString();
+ else { return (String) getFirstChild().getString();
+ else { return split(left).getString();
+ else { return ":" + left.getString();
+ else if (type == Token.THIS) {left + "." + getLastChild().getString();
+return  "this"; } else { return left ; }
+ else { return left + right+ "." + getLastChild().getString();
+ else { return left + dots;
+ else { return "this." + left+ "." + getLastChild().getString();
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.GETPROP) { }
+ else if ( type == Token.NAME) { return "name"; } else if ( type == Token.SETPROP) { }
+ else if (left) { return getRight().getString();
+return left + "." + getLastChild().getString(...) + "." + getString();
+ return (left).getString();
+ else { return "left." + left;
+return  "this" ; } else { return left ;
+ else if (left!= left) { returngetString();
+return left + "." + getLastChild().getString(true); } else { return "null";
+ else if (type == Token.NAME(left);
+return left + "." + getLastChild(left)); } else { return "null";
+ else { return left + ": "+ getLastChild().getString();
+ else { return "left.toString();
+return left + "."  + getPropNames ( ) ;
+return left + "." + getLastChild().getString() + "." + getString(properties);
+return left +  " + " + getString(left);
+ else { return "left + ";
+ else if (left)) { return left.getLastChild().getString();
+ else { return getProperty(left).getString();
+return left + "." + getLastChild().getQualifiedName(); + "";
+ else { return "\\" + left.getString();
+ else { return "name."+left + "." + getLastChild().getString();
+ else { return "+left".getString();
+return left + "." + getLastChild().getString()); } else { return "name";
+ else if (left!= null) return left+ "." + getLastChild().getString();
+ else { return left + right;
+return left + "." + getLastChild().getIdentifier() ;
+ else if (left) { return getLeft().getString();
+ else { return ": "+left + "." + getLastChild().getString();
+ else { return "left"+"." + getLastChild().getString();
+ else if (left == left) { return right();
+return left + "." + getLastChild(left).getProperty ( ) ;
+ else { return get(left).getString();
+ else { return "left";
+return left . toLowerCase ( ) ;
+return left + "." + getLastChild().getString(true) + "." + getString();
+return left + "." + getLastChild().getString() + "." + getString(left);
+ else if (left == right) { returngetLastChild().getString();
+ else { return left.split();
+ else if (left == right) return left;
+return left + "." + getLastChild(left)); } else { return "this"; }
+ else { return left.toLowerCase().getString();
+ else { return ($(left).getString();
+ else { return (String)left.getString();
+ else { return (String) left.getLastChild().getString();
+return left + "." + getLastChild() + "." + getString();
+return left +  " " + getString ( ) ;
+ else { return "getProperty(left);
+ if ( left ) {
+ else { return left + "." + right.getString();
+return left + "."  + getString ( right ) ;
+ else if (left == right) { left+ getLastChild().getString();
+ if (type == Token.NAME) { return();
+ else if (type == Token.NAME) returnleft + "." + getLastChild().getString();
+ else { return \"." + getLastChild().getString();
+return left + "." + getLastChild(this).getQualifiedName() ;
+ else { return left + +"." + getLastChild().getString();
+ else { return "left:"+ getLastChild().getString();
+return left + "."  + getPropertyNames ( getProp ) ;
+ else { return left.toString().getString();
+ else { return (left);
+ else { return left + getProps();
+ else { return "+left+ "." + getLastChild().getString();
+return left + "." + getLastChild(left).getString ( ) ;
+return left + "." + getLastChild().getProperty ( ) ;
+ if (right == null) { return null();
+return left + "." + getLastChild().getString() + getLastChild().getString();
+ else { return ((String) left).getString();
+return left . toString ( ) ;
+return  "left"; } else { return null;
+ else { return capitalize(left).getString();
+ if (right == null) { right=getLastChild().getString();
+ else { return ' '+ "." + getLastChild().getString();
+ else { return left + "\\n"+ getLastChild().getString();
+return left + "." + getLastChild().getString(false); } else { return "null"; }
+return left + "." + getLastChild().getString()); } else { return "getprop"; }
+return left + "."  + getPropNames ( getProp ) ;
+ else { return left.name();
+ return $(left).getString();
+ else if (left) { return left().getString();
+ else { return left + "." + type+ "." + getLastChild().getString();
+ else { return "\\." + left.getString();
+return left  ; } else { return "getProperty()";
+ else if (left!= left) { left+ "." + getLastChild().getString();
+ else if (left!= null) { left+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString() + "." + getProperty ( left ) ;
+ else { return $(left).getLastChild().getString();
+return left + "."  + get ( ) ;
+ else { return "name "+left + "." + getLastChild().getString();
+return left + "." + getLastChild(left).getPropertyName();
+return left + "."  + this + "." + get ( ) ;
+return  "this" + left + "";
+ else if (left) { return left);
+ else { return "^"+left + "." + getLastChild().getString();
+ else { return "this." + left + left+ "." + getLastChild().getString();
+return  "this" ; } else { return null ;
+return left + "." + getLastChild(left).getValue ( ) ;
+ else if ( type == Token.NAME) { return "name"; } else { }
+return left + "." + getLastChild().getString(false); } else { return "null";
+return left + "." + getLastChild(left).getProperties();
+ else { return * left.getString();
+ else { return left.value();
+return  "left"; } else { return "right";
+ else { return "+"+ getLastChild().getString();
+ else { return "* " + left.getString();
+ else { return getProperties(left).getString();
+ else { return "left".getLastChild().getString();
+ else { return left + "." + getName+ "." + getLastChild().getString();
+ else { return left.getValue();
+return left  + getPropertyNames ( ) ;
+ else { return "this" + left ; } }
+ else if (left) { return leftChild().getString();
+return left + "." + getLastChild() + "." + getString(left);
+ else { return "".left + "." + getLastChild().getString();
+return left + "."  + getPropNames ( left ) ;
+ else { return "({left);
+ else { return " + left.getLastChild().getString();
+ else { return +"." + getLastChild().getString();
+ else { return "this." + (left);
+return left +  " + " + getString ( ) ;
+ else if left!= null {
+ else if ( type == Token.NAME) { return "name"; } else { } }
+return left + "." + getLastChild().getString(); } else { return "getProperty(); }
+ else { return "\\"+left + "." + getLastChild().getString();
+ else { return "this." + left.getString();
+return left + "."  + getPropertyNames ( getProperty ) ;
+return left + "."  + this + "." + properties;
+return left + "." + getLastChild(left) + ".";
+return left + "." + getLastChild().getString(); } else { return null ;
+ else { return join(left);
+ return left.strip();
+ else { return left + \"." + getLastChild().getString();
+ else { return "this" + " "+left + "." + getLastChild().getString();
+ else { return "dot(" + left);
+ else if (left == left).getLastChild().getString();
+ else if (right) { return "+ getLastChild().getString();
+return  getString(left); *
+return left + "." + getLastChild().getString()); } else { return "unknown"; }
+ else { return "this." + left.name+ "." + getLastChild().getString();
+return left + "." +  this + "." + this + "." ;
+ else if ( type == Token.THIS) { return "this"; } else { }
+return left  ; } else { return "this" ; }
+return left +  ": " + getString ( left ) ;
+ else { return "left"; } *
+ else { return this.getChild(left).getString();
+ else if (left) { return (left);
+ else if (left == right) {getString();
+ else { return "String(left);
+return left + "." + getLastChild(left).name;
+ else if (left == left) return left();
+ if ( type == Token.NAME) { return "name"; } else { }
+ else { return "left."+left+ "." + getLastChild().getString();
+ else { return "getProperties".getString();
+ else if (left!= null) { return *left + "." + getLastChild().getString();
+ else { return "left."+ getLastChild().getString();
+return left + "." + getLastChild().getString() + "." + getString(...) ;
+ else { return "this." + left + right+ "." + getLastChild().getString();
+ else if ( type == Token.THIS) { return "this"; } else { } }
+ else { return "this + left+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString() + "." + this;
+ else if ( type == Token.NAME) { return "name"; } else { } else
+ else { return getRight().getString();
+return left + "." + getLastChild().getQualifiedName(); + "; " ;
+return left + "." + getLastChild(left).getQualifiedName(...) ;
+return left + "."  + getName ( ) ;
+ else { return "left"; } }
+return left  + getPropertyNames ( left ) ;
+ else { return (String) (left).getString();
+return left + "." + getLastChild().getString() + "." + ".";
+return  "name" + left + "";
+return left + "."  + this;
+return left +  ": " + getString ( right ) ;
+return left + "." + getLastChild() + "";
+return left + "." + getLastChild(left)); } else { return "name"; }
+ else { return (String) getChild(left).getString();
+ else if (left) {+ getLastChild().getString();
+ else { return left.name.getString();
+ else {+ getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName(); return "this" ;
+ if ( type == Token.NAME) { return "name"; } else { } }
+return left + "." + getLastChild().getString() + ".getProperty();
+ else if (left == left) return left);
+ else { return left.value.getString();
+return left + "." +  "." + getPropertyNames ( left ) ;
+ else { return ": "+getString();
+return left + "." + getLastChild().getString() + "." + property;
+ else if ( type == Token.GETPROP) { } else
+ else { return "dot($left);
+ else { return *left + "." + getLastChild().getString();
+ else { return "this.a."+left + "." + getLastChild().getString();
+ if ( type == Token.THIS) { return "this"; } else { }
+ return (String)left).getString();
+ else { return "left + right+ "." + getLastChild().getString();
+return left + "." +  "." + getPropertyNames ( right ) ;
+return left  ; } else { return "getProperty(); }
+ else { return "get(left);
+return left + "." + getLastChild().getString() + "()" ;
+return left + "." + getLastChild().getString() + getString(left);
+return left + "." + getLastChild().getString().length ( ) ;
+ else { return "getProps".getString();
+ else { return left + "\\.";
+return left + "." + getLastChild(left).name();
+ else { return "left + left+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString() + ".getProperties();
+ else { return "left.name;
+return left + "."  + "getProperty();
+return  "left" + left;
+ else { return getChild().getString();
+return left  ; } else { return "null"; }
+return left + "." + getLastChild(left).getIdentifier();
+ return left.string();
+return left + "." + getLastChild().getString() + "; " ;
+return left + "." + getLastChild().getString()); } return getString();
+ else { return getSecondChild().getString();
+return  "this" + left + ".";
+ else { return getLastChild().getString();
+ else if (left == left) { return right).getString();
+return left + "." + getLastChild().getString() + "." + properties;
+ else { return left }
+ else { return "this." + _left + "." + getLastChild().getString();
+ else { return "this: " + _left + "." + getLastChild().getString();
+ else { return "name: "+left + "." + getLastChild().getString();
+ else { } return left;
+return left  ; } else { return "name"; }
+return left + "." + getLastChild().getSimpleName();
+ else { return left + "." + u"." + getLastChild().getString();
+return  "left" + left + "";
+ else { return "name: "+ getLastChild().getString();
+ else { return "%s"+ getLastChild().getString();
+return left + "."  + property;
+return left + "."  + getPropertyName();
+ else if (left!= left).getLastChild().getString();
+return left + "."  + this + "." + getPropertyName();
+return left + "." + getLastChild(left).getQualifiedName(); *
+return  "left"; } else { return left;
+ else { return (String) (left + "").getString();
+return left + "." + getLastChild().getQualifiedName(); return "this"; *
+return left + "." + getLastChild() + ".";
+return left . trim ( ) ;
+ else { return "this".left + "." + getLastChild().getString();
+ else { return "\\".left.getString();
+return left + "." + getLastChild().getString().toString ( ) ;
+ else if (type == Token.GETPROP) { }
+ return capitalize(left).getString();
+return  "this" + left + getString();
+ else { return "getProperties().left + "." + getLastChild().getString();
+ else { return getFirstChild(+left).getString();
+ else { return left.get().getString();
+ else { return "name_"+left + "." + getLastChild().getString();
+return left + "." + getLastChild().getQualifiedName() + "
+return left  + "getProperties();
+ else { return left + ' '+ getLastChild().getString();
+return left + "." + getLastChild().getString() + "." + getName();
+return left + "." + getLastChild().getString() + "." + getString(); *
+ else { return left + '.'+ getLastChild().getString();
+ else { return "(left ");
+ else { return "this." + " "+left + "." + getLastChild().getString();
+return left  + getString(right);
+return left + "." + getLastChild().getString() + "(" + getString());
+return left  + ": " ;
+return left + "."  + getString(properties);
+return left + "." + getLastChild().getString(...) + getString(...) ;
+return left + "." +  this + "." + "getProperty()";
+ return "($left);
+ else { return left ; }
+ else { return left + ".getString();
+return left  + " + getString(left);
+ else { return "left.$1;
+ return get(left).getString();
+ else { return "dot(leftString);
+return left + "." + getLastChild().name;
+return  (String) left;
+return left + "." + getLastChild().getString(true) + ".";
+return left + "." + getLastChild(left)) + "." + getString(); *
+return left + "." + getLastChild().getString() + ".properties";
+ else { return "getProps().left + "." + getLastChild().getString();
+ else { return "dot(+left);
+ else return left+ "." + getLastChild().getString();
+return left  + getString ( type ) ;
+return left + "." + getLastChild().getString().get ( ) ;
+ return trim(left).getString();
+return left + "." + getLastChild().getQualifiedName() ; }
+return left + "." + getLastChild().getString() + "." + getString()); *
+return left + "."  + this + "." ;
+ else if ( type == Token.SETPROP) { }
+ else { return "left".name;
+return left + "." + getLastChild().getString() + getString() ;
+ else { return "+left);
+return left +  ": " + properties;
+return left + "." + getLastChild().getString(true) + "." + property;
+ return left);
+ else { return +left + "." + getLastChild().getString();
+return left +  " + " + getString(left); *
+ if ( left )
+return left  + "getProperty()";
+ return (left);
+ else if (type == Token.GETPROP) { *
+return left + "." + getLastChild().getString().getString ( ) ;
+return left +  " + " + " + properties;
+return left + "." + getLastChild(left), ".";
+ else if left {
+ else { return getParent().getString();
+ else { return this.left + "." + getLastChild().getString();
+ else { return left().getString();
+return  (String) left + "";
+ else { return left).getString();
+ else { return (String)left(this).getString();
+ return "."+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString(...) + "." + ".";
+return left + "." + getLastChild().getString().getName() ;
+ else { return "left);
+ else { return.getString();
+return left + "."  + getProperty();
+return left + "." + getLastChild().getStringName ( ) ;
+ else { return getFirstChild(leftChild).getString();
+return left + "." + getLastChild().getString(...) + "." + this;
+return left + "." + getLastChild(left); *
+return  "getProperties();
+ return getSecondChild().getString();
+return left + "." + getLastChild().getString(...) + "." + getString(); *
+return left + "." + getLastChild().getString()); } else { return "" ;
+ else { return (String)left(1).getString();
+return left + "." + getLastChildName();
+return left  + "; " ;
+return left + "." + getLastChild().getString() + "." + getString(right); *
+return left + "." + getLastChild().getString() + "." + getString(left); *
+return  (String)left.value;
+ else { return left.value().getString();
+return  getString ( left, true ) ;
+return left + "." + getLastChild().getString(...) + "." + property;
+ return getLastChild().getString();
+(left);
+ else { return (left().getString();
+ else { return "left();
+ return getRight().getString();
+return left  + dots;
+return left + "." + getLastChild().getName(...) ;
+return  "getProperty()";
+return left  + "\\." ;
+return left + "." + getLastChild().getString(...) + ".";
+return  "left" + "." ;
+ else { return +left.getString();
+ else { return $(left);
+ else { return (left+).getString();
+return  getString ( left ) ; }
+ else { return r"." + getLastChild().getString();
+ else { return "\\left + "." + getLastChild().getString();
+return left + "." + getLastChild().getValue();
+return left + "." + getLastChild(left).value;
+return  (String) + left;
+return  (String)left.value();
+return left + "." + getLastChild(left).property;
+ else { return '.'+ "." + getLastChild().getString();
+ return left.name();
+return left + "."  + ".";
+return left + "." + getLastChild().getString(...) + "";
+return left + "." + getLastChild().getString().getValue();
+ return "({left);
+ return left.get();
+return left + "." + getLastChild().getName(); *
+ return u"." + getLastChild().getString();
+ else { return "+ getLastChild().getString();
+return left +  ":property" ;
+return left + "." + getLastChild().getString().toString(...) ;
+return left + "." + getLastChild().getString()); } return "." ;
+ left=getLastChild().getString();
+return left + "." + getLastChild(left).value();
+ return "(left).getString();
+return left + "." + getLastChild().getString(true, "dot") ;
+return left + "." + getLastChild().getString("name") ;
+return left + "." + getLastChild().property;
+ return "+left+ "." + getLastChild().getString();
+ else { return "+left.getString();
+return left + "." + getLastChild().getString(getType() ) ;
+ else { left=getString();
+return left + "." + getLastChild(...) ;
+return left + "." + getLastChild().property();
+return left + "." + getLastChild().getQualifiedName());
+return left  + properties;
+return  left; *
+return left + "." + getLastChild().value();
+return left + "." + getLastChild().getString(true); *
+ $(left).getString();
+return  "left"; *
+ return getChild().getString();
+return left + "." + getLastChild().getString() + ";
+ return ' '+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString(getType()); *
+return  "+left";
+ return left.get().getString();
+return left + "." + getLastChild().getString(getName()); *
+ (left).getString();
+return left + "." + getLastChild().getString() + ";"
+ return \"." + getLastChild().getString();
+ return " "+left + "." + getLastChild().getString();
+return left + "." + getLastChild().getName());
+return left + "." + getLastChild().getString(false); *
+return left + "." + getLastChild(right);
+ return "left);
+ return _left + "." + getLastChild().getString();
+ else { return '+ getLastChild().getString();
+ return "left;
+return left + "." + getLastChild().getString(getString()); *
+ return "+left);
+return  ' ' ;
+return  "+left;
+ else if left { return"." + getLastChild().getString();
+ return (left().getString();
+ else left.getLastChild().getString();
+ else { return right.getLastChild().getString();
+ else { return left().getLastChild().getString();
+ else return left().getString();
+return left + "." + getLastChild(this);
+ else { left==getLastChild().getString();
+ return +"." + getLastChild().getString();
+return left + "."  + properties
+ return (left+).getString();
+return left + "." ; *
+ if (left) returngetString();
+return left + "." + getLastChild(right); *
+return left + "."  + property
+ else if left+ getLastChild().getString();
+return left + "." + getLastChild().getString(null); *
+return left + "." + getLastChild().getString() + "
+ else { return right.getString();
+return left + "." + getLastChild().getText();
+return left + "." + getLastChild().getString(...) + "
+ else left=getLastChild().getString();
+ $(left);
+ else { } }
+ else if(left==getLastChild().getString();
+ + left.getLastChild().getString();
+ else return left();
+ return " "+ getLastChild().getString();
+ else { right+ getLastChild().getString();
+ return *left + "." + getLastChild().getString();
+ else { return right;
+ else { return right+ "." + getLastChild().getString();
+return left + "." + getLastChild().getString(true);
+return left + "." + getLastChild(this); *
+return left + "." + getLastChild().getString(); *
+ } return left;
+ return left + name+ "." + getLastChild().getString();
+ return "left();
+ if { return left;
+return left + "." + getLastChild().getString()); *
+ return b"." + getLastChild().getString();
+ } return left.getString();
+return left ; }
+return left + "."  ; }
+return left + "." + getLastChild().getString(this);
+return left + "." + getLastChild() ; }
+ return toString();
+return left + "." + getLastChild().getString() ; }
+return left + "." + getLastChild() * ;
+ else { }
+ return "+";
+return left + "." + getLastChild().getString(...) ; }
+ else if {
+ + left.getString();
+ return * left.getString();
+return left + "." *";
+ right.getString();
+ else returngetString();
+ return this.left + "." + getLastChild().getString();
+return left . *
+ return getName();
+ return "left + "." + getLastChild().getString();
+ if { return left.getString();
+ + left+ getLastChild().getString();
+ return +left + "." + getLastChild().getString();
+ return get();
+ return +left.getString();
+return left + "." + getLastChild()); *
+ else left.getString();
+ else { #"." + getLastChild().getString();
+ return leave();
+return left + "." + getLastChild() + "
+ return right();
+ return join();
+return left + "." + getLastChild(). *
+ right.getLastChild().getString();
+ right=getLastChild().getString();
+ default: {
+return left + "." + getLastChild().getString() + {
+return left + "." + getLastChild().getString() + ;
+return left + "." + getLastChild() * *
+ return "+ getLastChild().getString();
+ else {getString();
+ return right().getString();
+ else left;
+ left=getString();
+ return right).getString();
+return left  + "
+ else return"." + getLastChild().getString();
+return  right;
+ + left+ "." + getLastChild().getString();
+ return right+ "." + getLastChild().getString();
+ + left;
+ + left().getString();
+ return right.getString();
+ } else
+ else,
+ *
+return left * "." + getLastChild().getString();
+return left += "." + getLastChild().getString();
+return left - "." + getLastChild().getString();
+return left + "."plus getLastChild().getString();
+return left + "."return getLastChild().getString();

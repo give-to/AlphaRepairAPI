@@ -1,0 +1,519 @@
+ if (parentType == Token.CALL
+ if (type!== Token.CALL
+ if (Token.CALL
+} else if (parentType == Token.CALL
+ } else { if (parentType == Token.CALL
+ parent = child ; }
+ } else { if (type!== Token.CALL
+ }
+ else if (parentType == Token.CALL
+ parent = child ;
+ else if (type!== Token.CALL
+ } else if (type!== Token.CALL
+}  if (parent
+ if (CALL
+ } }
+ } else { if (parentType!== Token.CALL
+ } else { if (type == Token.CALL
+ else { if (type!== Token.CALL
+} else  if (parent
+} else if (parentType  == Token.GETELEM
+} else if (parentType  == Token.FUNCTION
+ } if (type!== Token.CALL
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ) ;
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ;
+} else if  (parent!= null
+ else { parent = child. getNext ( ) ;
+ } else if (Token.CALL
+} else if (parentType  == Token.METHOD
+ else { if (parentType!== Token.CALL
+ else { if (type == Token.CALL
+ } else if (parentType!== Token.CALL
+ else if (parentType == Token.OPEN) { parent = parent. next ( ) ;
+ } else { if (Token.CALL
+ else if (parentType == Token.OPEN) { parent = parent. getNext ( ) ;
+ else if (Token.CALL
+} else if  (parent!= child
+ } else if (type == Token.CALL
+ if (type== Token.CALL
+ else { parent = child. getFirstChild ( ) ;
+ else if (parentType == Token.CALL) { parent = parent. next ( ) ;
+ else if (parentType == Token.CALL) { parent = parent. getNext ( ) ;
+ else { if (parentType == Token.CALL
+ else if (parentType == Token.FUNCTION) { parent = child ; } }
+ } } else if(parentType == Token.CALL
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; }
+ else if (parentType == Token.FUNCTION) { parent = parent. next ( ) ;
+}  else { if (parent!= child
+ else if (parentType == Token.CALL) { parent = child. getFirstChild ( ) ;
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ) ; }
+ } else { if (parent.getType!== Token.CALL
+ } else { if (parent.type!== Token.CALL
+ else if (parentType == Token.FUNCTION) { parent = child ; }
+ else { parent = child ; } } }
+ else if (parentType == Token.EXECUTE) { parent = parent. getFirstChild ( ) ;
+ parentType = parent. getNextTokenType ( ) ;
+ else if (parentType == Token.OPEN) { parent = parent. getNextChild ( ) ; }
+ else if (parentType == Token.CALL) { parent = parent. getNextChild ( ) ; }
+ if (parent. getFirstChild ( )!== Token.CALL
+ } } }
+ else { if (parent.getType()!== Token.CALL
+ else if (parent.getType ( )!== Token.CALL
+ parentType = parent. getNextToken ( ) ;
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ; } else { parent = child ; }
+ else { parent = child. getFirstChild ; } }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ). getNext ( ) ;
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ; } else { parent = child ; }
+}  else { if (parent!= null
+ else if (parentType!== Token.CALL
+} else if (parentType  == Token.EXTERNAL
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ; } else { parent = child ; } }
+ } } else { if (parentType == Token.CALL
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ). next ( ) ;
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ; } else { parent = child ; } }
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ) ; } }
+ parent = next ( ) ;
+ parent = child. getFirstChild ( ) ;
+ else { parent = child. getNextChild ( ) ; }
+ } } else { if (type!== Token.CALL
+ else { if (parent.getType!== Token.CALL
+ else { parent = child ; } }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; } }
+ if (parent.getType ( )!== Token.CALL
+ else if (parentType == Token.EXECUTE) { parent = parent. getFirstChild ( ) ; }
+ parent = child ; } }
+ else if (parentType == Token.CALL) { parent = child ; } }
+} else  { if (parent
+ else if (parentType == Token.EXECUTE) { parent = parent. getNext ( ) ;
+ else if (parentType == Token.EXTERNAL) { parent = parent. getNext ( ) ;
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ). next ( ) ;
+ else { parent = child ; } } } }
+ else if (parentType == Token.CALL) { parent = child. next ( ) ;
+} else if  (isConditionalOp(parentType)
+} else if (parentType  == Token.FUNC
+ else if (parentType == Token.EXECUTE) { parent = parent. getFirstChild ( ). getNext ( ) ;
+ else { parent = child. getFirstChild ; } } }
+ parent = child. getNext ( ) ;
+} else if  (isExpressionTreeUnsafe(parent)
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ). clone ( ) ; }
+ else if (parentType == Token.FUNCTION) { parent = child ; } } }
+ else if (parentType == Token.EXECUTE) { parent = parent. getFirstChild ( ). next ( ) ;
+ else if (parentType == Token.OPEN) { parent = parent. next ; }
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ) ; } } }
+ else if (parentType == Token.CALL) { parent = child ; }
+ else { parentType = Token. FUNCTION ; parent = child ; } }
+ } } else { if (type == Token.CALL
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ; } else { parent = parent ; } }
+ else if (parentType == Token.OPEN) { parent = child ; } }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild(); parent = parent. parent ;
+ if (parentType!= null) if(parentType == Token.CALL
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild(); parent = parent ; }
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ( ). next ; }
+ else { parentType = Token. CALL ; parent = child ; } }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; parentType = Token. CALL ;
+ else if (parentType == Token.OPEN) { parent = parent. getFirstChild ; } else { parent = null ; }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild(); parent = parent. next ;
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; } } }
+ else { parentType = parent. getFirstChild ; } }
+ else if (type ==Token.CALL
+ else { parent = child. nextChild ; }
+ parent. setFirstChild ( child ) ;
+ } else { if (type == Token.GETCALL
+ else if (parentType == Token.EXECUTE) { parent = child ; } }
+ else { parentType = Token. CALL ; parent = child ; } } }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ). next ; }
+ else { parent = child. getFirstChild ( ) ; }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ; } else { parent = parent ; } }
+ else { parentType = parent. getFirstChild ; parent = child ; }
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ; } else { parent = null ; }
+ else { parentType = Token. CALL ; parent = child. getNext ( ) ;
+} else if  (isConditionalOp(parent, state)
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild(); parent = child ;
+ else { parent = child. getFirstChild(); } }
+ else if (parentType == Token.CALL) { parent = parent. next ; }
+ else { parentType = Token. ASSIGN ; parent = child ; } }
+ else if (parentType == Token.FUNCTION) { parent = parent. nextChild ;
+ } else { if (parent.getType ==Token.CALL
+ else if (parentType == Token.EXECUTE) { parent = parent. getFirstChild ( ). nextChild ; }
+ if (parent.getType() == Token.CALL
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; child = null ;
+ parent = child. getNextChild ( ) ; }
+ else { if (parentType == Token.GETCALL
+ } } else { if (parentType!== Token.CALL
+ else if (parentType == Token.CALL) { parent = parent. getFirstChild ( ) ; parentType = null ;
+ else { parentType = parent. getFirstChild. getType ( ) ;
+} else if (parentType  == Token.EXECUTOR
+ else { parent = child. getNextChild ( ) ; } } }
+ parent = child ; } } elseif (parentType == Token.CALL
+ else { parentType = parent. getFirstChild. type ; }
+ else { parentType = Token. ASSIGN ; parent = child ; } } }
+ parentType = parent. getNext ( ) ;
+ parent. setFirstChild ( child )
+ else { parentType = parent. getNextTokenType ( ) ;
+ else { if (parent.getType() ==Token.CALL
+ else { if (parent.type!== Token.CALL
+ else { parentType = parent. getType ( ) ;
+ else { parentType = parent. getFirstChild ; } parent = child ;
+ else if (parentType == Token.CALL) { parent = child ; } } }
+ else { if (type == Token.GETCALL
+ else { parentType = parent. getFirstChild ; } } } }
+ else { parent = child. nextChild ; } }
+ else { if (parent.getType ==Token.CALL
+} else if (parentType == Token.FUNCTION ) { if (parent!= child
+} else if (parentType  == Token.EXECUTE_FUNCTION
+ else { parent = child. getNextChild ; } } } }
+ parent = child. next ( ) ;
+ parentType = parent. getNextToken ( ) ; } }
+ else if (parent.getType() == Token.CALL
+ } else { parent = child ; } }
+ if (parentType!= null) { if(parentType == Token.CALL
+ } else { if (parent.type == Token.CALL
+ else { parentType = parent. getNextToken ( ) ; }
+ } } else if (type!== Token.CALL
+ else { if (parent.type == Token.CALL
+ } else { if (parentType.CALL
+} else if (parentType == Token.FUNCTION ) { if (parent!= null
+ else { parent = child ; }
+ } else { parent = child ; } } }
+ else { parentType = Token. CALL ; parent = child ; } } } }
+} else if (parentType  == Token.FUNCTION_EXPRESSION
+ parent. setNext ( ) ;
+ else { parentType = parent. getFirstChild ; parent = child ;
+ else { parent = child. getNextChild ; } parent = child ;
+ else { parent = child ; } } else if(parentType == Token.CALL
+ else { if (Token.CALL
+ else { parent = child. getNextChild(); } } } }
+ } else { if (parentType == TokenType.CALL
+ else { } } if (type!== Token.CALL
+ parentType = Token. CALL ;
+} else if (parentType  == Token.EXPORT) { if (parent
+ else { parentType = Token. CALL ; parent = child. next ; } }
+} else if (parentType == Token.EXECUTE) { if (parent!= child
+} else if  (parentType == Token.GET
+ parent = child ; } } }
+ parent = child ; } else if(parentType == Token.CALL
+ } } } else if(parentType == Token.CALL
+ else { parent = child ; } if(parentType == Token.CALL
+}  else { if (parent instanceof Node
+ else { if (parent!= child
+ } else if (parentType.CALL
+ else { parent = child ; } } } } }
+ } else { if (isToken.CALL
+} else if (parentType == Token.EXECUTE) { if (parent!= null
+ if (parent.getFirstChild(type)== Token.CALL
+ } else { if (parentType == FunctionToken.CALL
+ else if (parentType == Token.CALL) { parent = parent ; } }
+ else { if (parent!= null
+ else { if (parentType == Token.FUNCALL
+} else if (parentType == Token.CALL) { if (parent!= child
+} else if (parentType ==  Token.FUNCTION ) { if (parent
+ } else { if (type == GETCALL
+} else if (parentType  == Token.EXECUTOR_METHOD
+} else if  (isExternMethod(parentType)
+ parentType = type ; }
+ if (parent.getType == Token.CALL
+ } else { if (token.CALL
+ } parent = child ; }
+} else if (parentType == Token.CALL) { if (parent!= null
+ else { parent = child ; } } if (parentType == Token.CALL
+} else if (parentType  == Token.OBJECT
+}  } else { if (parent!= child
+ parent = parent. next ( ) ; if(parentType == Token.CALL
+} else if  (isExternMethod(parent)
+ } else { if (isExternalCALL
+ else { if (parentType == FunctionToken.CALL
+ } else if (TYPE.CALL
+} else  { if (parentType == Token.METHOD
+ parentType = Token. ASSIGN ;
+ } else if (parentToken.CALL
+ else { if (type == GETCALL
+ if (parentType == Token.GETCALL
+ else { } } else if (parentType == Token.CALL
+}  } else { if (parent!= null
+ parent. setFirstChild ( null )
+} else if (parent!= null && parent. isCallExpression
+}  else { if (parentType == Token.GET
+ else if (type == GETCALL
+}  if (parent!= null
+}  else { if (parent instanceof Function
+ parent = parent. getFirstChild ( ) ;else if (parentType == Token.CALL
+ } else { if (parentType!= Token.CALL
+} else if  (isExpressionTreeUnsafe
+ if (token.CALL
+ } else { if (TYPE.CALL
+ if (parent!= null && parent. getFirstChild!== child
+ } else { parent = child ; } } if(parentType == Token.CALL
+ if (parent!= child) if(parentType == Token.CALL
+ } else if (token.CALL
+ } if (Token.CALL
+ else if (parent!= child
+} else if (parentType ==  Token.EXECUTE) { if (parent
+} else if (parentType  == Token.FUNCTIONAL_NAME
+} else if (parentType  == Token.EXCLUDE
+} else if (parentType  == Token.DECOMPOSITIVE
+ } } else { if (Token.CALL
+ if (parent!= null && parent. isFunction ( )
+}  else { if (parent instanceof Call
+ else if (parent!= null
+ parentType = Node. CALL ;
+ if (parentType == Token.FUNC)else if (parentType == Token.CALL
+} else if  (isConditionalOp(parent) == true
+ } else { parent = child ; } if(parentType == Token.CALL
+ else { parent = child ; } } } elseif (parentType == Token.CALL
+} else if (parentType  == Token.EXECUTE
+ } if (parentType == Token.CALL
+ parent. setFirstChild ( null ) ;
+ if (parent!= null && parent. isCallExpression
+ if (parent!= null && parent. getFirstChild!= null
+} else if (parentType == Token.FUNCTIONAL) { if (parent
+ else { parent = child ; } } } if(parentType == Token.CALL
+ if (parent!= null && parent. getFirstChild ( )!= child
+ if (parentType!== Token.CALL
+} else  { if (parentType == Token.FUNC
+ parent. removeFirstChild ( ) ;else if (parentType == Token.CALL
+} else if (parentType  == Token.EXECUTOR_METHODS
+} else if  (parentType == Token.SET
+ parent = parent. getNextChild ( ) ;else if (parentType == Token.CALL
+} else  { if (parentType == Token
+} else if (parentType  == Token.EXECUTONLY
+ if (parentType == Token.METHOD) ||(parentType == Token.CALL
+ } else { if (type!= Token.CALL
+} else if  (parentType == Call
+} else if (parentType  == Token.EXTERNAL_OBJECT
+ else if (parentType == Token.METHOD
+ if (parentType == Token.METHOD)else if (parentType == Token.CALL
+ parentType = child ; }
+ } else if (type == GETCALL
+} else if  (parentType == Token.EXPORT
+ else if (CALL
+ if (parent!= null) if(parentType == Token.CALL
+ } else { if (type == "CALL
+ else if (parent!= null && parent. getFirstChild!= null
+} else if (isConditionalOp(parent).getType()
+ else { } if (type!== Token.CALL
+} else if  (parentType == FunctionCall
+} else if (parentType  == Token.EXECUTOR_MEMBER
+ else if (parent!= child && parent. getFirstChild!= null
+ parent = child ; } else { if (parentType == Token.CALL
+ else { if (parentType == Token.METHOD
+ if (parent!= null && parent. getFirstChild!== null
+ else { if (parentType == Token.GET
+ else if (parentType == Token.FUNC
+ } } } else { if (parentType == Token.CALL
+} else if  (parentType == Node
+ else if (parent!= null && parent. getFirstChild!= child
+} else if  (parentType == Token.LOAD
+} else if (parent!= null && parentType == Token.METHOD
+} else if (isConditionalOp(parent.getType())
+} else if (parentType  == Token.EXECUTORMETHOD
+} else if  (parentType == Token
+ else { if (parent instanceof Node
+ if (TYPE.CALL
+} else if (parentType  == Token.REWRITE
+ else if (token.CALL
+} else if (parentType  == Token.DECOMPOSITION
+} else if (parentType  == Token.FUNCTIONALNAME
+ } else if (CALL
+ else if (TYPE.CALL
+} else if (parentType  == Token.EXTERNAL_METHODS
+} else if  (parent!= null && parent instanceof Call
+} else if (parentType  == Token.DECOMPOSED
+ } } else { if (parentType == FunctionToken.CALL
+}  } else if (parent!= null
+} else if (parentType ==  Token.FUNCTIONAL_EXPRESSION
+ } if (parentType!== Token.CALL
+ if (parent!= null && parent. getFirstChild ( )!= null
+} else if (isConditionalOp(parent.getType)
+ if (parent!= null && parent. getFirstChild!= child
+ } else { parent = child ; } } elseif (parentType == Token.CALL
+}  else { if (parentType == "."
+ else { if (type == Token.FUNCALL
+ if (parentType!= Token.OP) if(parentType == Token.CALL
+} else if (parentType  == Token.DEFINITION
+}  } else { if (parent instanceof Node
+} else if (parentType  == Token.EXECUTE_METHOD
+ } else { } if (parentType == Token.CALL
+ } else if (isCALL
+ else { if (parent instanceof Function
+ } parent = child ;
+ if (parent!= null && parent. isCallExpressionTree ( )
+ parentType = type ;
+ if (parentType == Token.FUNC|parentType == Token.CALL
+ if (parentType == Token.GET ||parentType == Token.CALL
+} else if  (parent instanceof Call
+ if (parentType == Token.OP ||parentType == Token.CALL
+}  } else { if (parent instanceof Call
+ parent = child ; } } if(parentType == Token.CALL
+} else  { if (parentType == Node
+} else  { if (parentType == Token.
+ if (parentType == Token.OPEN|parentType == Token.CALL
+ if (parentType == Token) if(parentType == Token.CALL
+ else { } } else { if (parentType == Token.CALL
+ else { if (parentType == Token.FUNC
+ if (parent!= null && parent. getFirstChild ( ) == child
+}  else if (parent == child
+ } else { } } else if (parentType == Token.CALL
+ if (parentType == Token.FUNC ||parentType == Token.CALL
+}  } else { if (parent
+ else { } } if (parentType == Token.CALL
+} else if  (parent instanceof Node
+ } else if (type==CALL
+ if (parentType == Token.OP ||(parentType == Token.CALL
+}  if (parent!= child
+ if (parent!= null && parent. isCallExpression ( state )
+ } else { if (CALL
+ parent = child ; } if(parentType == Token.CALL
+ else { if (token.CALL
+}  else { if (parentType == Token.SET
+ if (type == GETCALL
+} else  { if (parentType == "("
+ if (parent!= null && parentType == Token.FUNC
+} else  { if (functionExpression
+} else if  (parentType == NodeCall
+ if (parentType == Token.OPEN ||parentType == Token.CALL
+ } } } }
+} else if  (parentType == Token.
+ if (parent.type!== Token.CALL
+} else if (parentType == Token.EXECUTE) { if (compress
+ parent = parent. getFirstChild ; } elseif (parentType == Token.CALL
+ else if (parentToken.CALL
+} else if  (parentType == "."
+} else if (parentType ==  Token.EXPORT) { if (compress
+ } else { } } if (parentType == Token.CALL
+} else if  (parentType == CallExp
+ } else { } else if (parentType == Token.CALL
+} else if (parentType == Token.FUNCTION ) { if (compress
+} else if  (parentType == Token.FUNCT
+ } } } } else if(parentType == Token.CALL
+ parent = parent. next ; } elseif (parentType == Token.CALL
+ if (parentType!= null && (parentType == Token.CALL
+ if (parentType == Token.GETelse if (parentType == Token.CALL
+ if (parentType == Token.METHODelse if (parentType == Token.CALL
+} else if (parentType ==  Token.EXPORT) { if (compound
+ } if (token.CALL
+ parent = next ; }
+}  else { if (composed
+ else { } else if (parentType == Token.CALL
+ if (parentType == STRING ||parentType == Token.CALL
+ } else if (ISCALL
+ return parent ;
+ if (parentType == Token.OPelse if (parentType == Token.CALL
+ } } } } }
+ if (isExternalCALL
+ parent. setFirstChild ( child ) ; }else if (parentType == Token.CALL
+} else if (parentType  == Token.OP
+ if (parentType == Token.SETelse if (parentType == Token.CALL
+ else if (isCALL
+ else if (Type.CALL
+ } if (CALL
+}  else if (composed
+} else if  (functionExpression
+ if (isCALL
+}  else if (isGet
+ return parent ; }
+ parent. removeFirstChild ( ) ; }else if (parentType == Token.CALL
+ parent = child. next ; } elseif (parentType == Token.CALL
+}  } if (parent
+ if (parentType == Token.FUNC)(else if (parentType == Token.CALL
+ if (parentType == Token.)else if (parentType == Token.CALL
+ if (parentType == Token.else if (parentType == Token.CALL
+ if (!CALL
+ parent = parent. next ( ) ; }else if (parentType == Token.CALL
+ if (parentType == Token.METHOD)(else if (parentType == Token.CALL
+ if (type==CALL
+ else { } if (parentType == Token.CALL
+ while (type!== Token.CALL
+ if (parentType == Token)else if (parentType == Token.CALL
+ if (parentType == Token).else if (parentType == Token.CALL
+ } else { parent = child ; } elseif (parentType == Token.CALL
+ parent = child ; } } }else if (parentType == Token.CALL
+ } } if (parentType == Token.CALL
+ parent. setFirstChild ( child ) ; elseif (parentType == Token.CALL
+ if (parentType == Token.METHOD))else if (parentType == Token.CALL
+ } } } } if(parentType == Token.CALL
+} else  if (compose
+} else  if (compress
+ } } } if(parentType == Token.CALL
+ if (Type.CALL
+ } else { if (!parentType == Token.CALL
+}  else if (child
+ if (parentType == Token|parentType == Token.CALL
+ if type== Token.CALL
+ else { parent = child ; } elseif (parentType == Token.CALL
+ if (== Token.CALL
+ if (parentType!= null) elseif (parentType == Token.CALL
+ node = child ;
+ if (ISCALL
+}  if (compose
+ if (parent!= null) {if (parentType == Token.CALL
+ } return parent ;
+ if (parent!= child) {if (parentType == Token.CALL
+ if (Type!== Token.CALL
+ break ; }
+ if (Node.CALL
+ if (parentToken.CALL
+} else  if (static
+ else if (!CALL
+} else  if (expression
+}  if (child
+} else if (parentType  == Symbol
+} else if  (compound
+} else if (parentType  == Object
+}  while (parent
+ } } else { } elseif (parentType == Token.CALL
+ if (isToken.CALL
+ parent = replacement ; } }else if (parentType == Token.CALL
+} else if (child == parent
+}  if (static
+ } break ;
+ continue ; }
+ } else { while(parentType == Token.CALL
+ parent = next ; } }else if (parentType == Token.CALL
+ parent = left ; } }else if (parentType == Token.CALL
+ } } } } }else if (parentType == Token.CALL
+ } else { elseif (parentType == Token.CALL
+ } else { } } }else if (parentType == Token.CALL
+ if ((type== Token.CALL
+ } } else {else if (parentType == Token.CALL
+ } } else { }if (parentType == Token.CALL
+ if (.CALL
+} else  (parent
+ break ; } elseif (parentType == Token.CALL
+ else { } } }else if (parentType == Token.CALL
+ parent!== Token.CALL
+ else if (!parentType == Token.CALL
+ else if (== Token.CALL
+}  if(
+} else  if(
+ while (parentType == Token.CALL
+ if (Type== Token.CALL
+}  if (!
+} else  if (!
+ break ;
+ while (CALL
+ } } else }else if (parentType == Token.CALL
+ while (Token.CALL
+ if (!== Token.CALL
+ if (!Token.CALL
+ case Token.CALL
+ if (!parentType == Token.CALL
+ continue ;
+ if (_CALL
+} else  if parent
+ } else }else if (parentType == Token.CALL
+ if (_.CALL
+ else { elseif (parentType == Token.CALL
+ return ;
+} else if (parentType!= Token.CALL
+ catch (Token.CALL
+ } ;
+ } while(parentType == Token.CALL
+ else (parentType == Token.CALL
+}  } else
+}  else if
+ else }else if (parentType == Token.CALL
+ { }else if (parentType == Token.CALL
+} else if (parentType >= Token.CALL
+} else if (parentType < Token.CALL
+} else if (parentType <= Token.CALL
+ ;

@@ -1,0 +1,890 @@
+return ENUM_KEY_PATTERN.matcher(key).matches();
+ return key.matches();
+return ENUM_KEY_PATTERN.matcher(key);
+ return key).matches();
+return ENUM_KEY_PATTERN. matches ( key )
+return ENUM_KEY_PATTERN. matches ( key ) ;
+return  key!= null ;
+ return!key.matches();
+ return _ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.equals(key); }
+return ENUM_KEY_PATTERN. matches ( key ) ; }
+return ENUM_KEY_PATTERN.matcher ( key ) ; }
+ return isValid(key);
+ return true;
+return ENUM_KEY_PATTERN.equals(key);
+ return true();
+return ENUM_KEY_PATTERN.equals(key.getString());
+return  isValidEnumKey ( key ) ; }
+return ENUM_KEY_PATTERN.matcher(key).matches() ; }
+ return (key).matches();
+return ENUM_KEY_PATTERN.matcher ( key )!= null ;
+return ENUM_KEY_PATTERN.matcher ( key )
+return ENUM_KEY_PATTERN.matcher ( key ) == null ;
+return  isValidEnumKey ( key ) ;
+ return key.length();
+return ENUM_KEY_PATTERN.equals(key.getString()); }
+return  key ; }
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; }
+return ENUM_KEY_PATTERN. matches key ;
+return ENUM_KEY_PATTERN. matches ( key ) ; } return false ;
+return ENUM_KEY_PATTERN == key ;
+return ENUM_KEY_PATTERN. matches ( key )? true : false ;
+ return super.is(key);
+ return isValid();
+return ENUM_KEY_PATTERN. matches ( key. trim ( ) )
+return ENUM_KEY_PATTERN.equals ( key. trim ( ) ) ;
+return  key. length > 0 ;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ;
+return ENUM_KEY_PATTERN.equals ( key. trim ( ) )
+return ENUM_KEY_PATTERN. matches();
+ return key.isEmpty();
+return ENUM_KEY_PATTERN.equals(key).length();
+ return true);
+return ENUM_KEY_PATTERN.matcher(key) && key. length ( ) ;
+return ENUM_KEY_PATTERN.matcher ( key ) == null ; }
+return ENUM_KEY_PATTERN. matchesKey ;
+ return isValidEnumKey(key, false);
+return ENUM_KEY_PATTERN. matches ( key ) && key!= null ;
+ return isValidEnumKey ( key ) ; } return false ;
+return ENUM_KEY_PATTERN.matcher ( key ). matches ( key ) ;
+return ENUM_KEY_PATTERN. matches ( key. trim ( ) ) ;
+ return (key);
+ return key == null ||!key.matches();
+ return isValidKey(key);
+return ENUM_KEY_PATTERN.matcher ( key )!= null ; }
+return ENUM_KEY_PATTERN. matches ( key ) ; } } ;
+ return key + "".matches();
+ return isValidEnumKey(key).matches();
+ return isValidEnumKey(key, true);
+return  isValidEnumKey ( key )
+return ENUM_KEY_PATTERN.matcher ( key ). matches ( )
+return ENUM_KEY_PATTERN. matches ( key ) ; } }
+ return key!= null &&!key.matches();
+ return is(key);
+ return isValidEnumKeyName(key);
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } return false ;
+ return isValidEnumKey ( key ) && key. length > 0 ;
+ return isValidEnumKey ( key ) && key. length ( ) > 0
+return ENUM_KEY_PATTERN. matches ( key ) == true ;
+return ENUM_KEY_PATTERN.matcher(key) && key!= null ;
+ return key.split(".").matches();
+return ENUM_KEY_PATTERN. matches ( key )!= null ;
+return ENUM_KEY_PATTERN.matcher(key). isMatch ( ) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. length > 0 ;
+ return isValidEnumKey(key).length();
+ return isValidEnumKey ( key ) || key. length > 0 ;
+ return key. isEmpty ( ) ||!key.matches();
+return ENUM_KEY_PATTERN. matches ( key ) ; } return true ;
+ return isValidEnumKey ( key ) ; } return false ; }
+ return isValidEnumKey ( key ) ; } return true ;
+return ENUM_KEY_PATTERN.matcher ( key. trim ( ) ) ;
+ return key. trim ( ). isEmpty();
+ return isValidEnumKey ( key ) || key. isEmpty ( ) ;
+ return key. isEmpty ( ) || key.matches();
+return ENUM_KEY_PATTERN ; }
+return ENUM_KEY_PATTERN.equals(key.toString()); }
+ return isValidEnumKey ( key ) ; } } ;
+ return isValidEnumKey(String key) {
+return ENUM_KEY_PATTERN. containsKey ( key ) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. length () > 0 ;
+return ENUM_KEY_PATTERN.matcher(key. trim()).matches();
+return ENUM_KEY_PATTERN.matcher ( key ). matchesAny ( ) ;
+ return isValidEnumKey ( key ) && key. startsWith ( "_" ) ;
+return ENUM_KEY_PATTERN.equals(key).getString() ;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; return false ;
+ return key == null || key.matches();
+ return key == 'A';
+ return isValidEnumKey ( key ) ;
+ return isValidEnumKey ( key ) && key. length ( ) ;
+return  key. charAt ( 0 ). toUpperCase(key).matches();
+ return key == "A";
+return ENUM_KEY_PATTERN. matches ( key. value ) ;
+return  key!= null ; }
+ return isValidEnumKey ( key ) || ( key == null ) ;
+return ENUM_KEY_PATTERN.matcher ( key. toString ( ) ) ;
+return ENUM_KEY_PATTERN.equals(key).toString() ; }
+ return isValidEnumKey ( key ) || ( key. startsWith ( "_" ) )
+return ENUM_KEY_PATTERN.matcher(key).matches(false);
+return ENUM_KEY_PATTERN.matcher(key.length() ) ;
+ return key.equals(name);
+ return isValidEnumKey ( key ) && key. endsWith ( "_" ) ;
+ return key!= null && key.matches();
+ return isValidEnumKey ( key ) || ( key. startsWith ( "_") ) ;
+ return isValidEnumKey ( key ) && key!= null ;
+ return key!= null? key : false;
+ return key. charAt(0) && key.matches();
+ return isValidEnumKey ( ) ;
+ return isValidEnumKey ( key ) || ( key. length > 0 ) ;
+ return isValidEnum(key);
+ return _matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key.length()); }
+ return isValidEnumKey(key).get();
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; return false ; }
+ return isValidEnumKey(key).matches(); } else {
+ return isValidEnumKey ( key ) || ( key. startsWith ( '-' ) )
+return  key. startsWith ( '.' ) ;
+ return isValidEnumKey ( key ) && key. startsWith ( '-' ) ;
+return ENUM_KEY_PATTERN!= null ;
+ return isValidEnumKey ( key ) && key. startsWith ( '.' ) ;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } return false ; }
+ return isValidEnumKey ( key ) || ( key. startsWith ( '-' ) ) ;
+return ENUM_KEY_PATTERN.equals(key).getString()); }
+ return key == null? false : key.matches();
+ return isValidEnumKey ( key ) == true ; }
+return ENUM_KEY_PATTERN.matcher(key.length()).matches();
+ return isValidEnumKey ( ) && _ENUM_KEY_PATTERN.matcher(key).matches();
+ return this. isValidEnumKey ( key, false ) ;
+return  key. startsWith ( "_" ) ;
+return ENUM_KEY_PATTERN.equals(key.length()); }
+ return isValidEnumKey(key)();
+ return isValidEnumKey ( key ) || ( key. startsWith ( "-" ) ) ;
+ return isValidEnumKey ( key ) || ( key. startsWith ( "__" ) ) ;
+ return isValidEnumKey ( key ) || ( key. startsWith ( '_' ) ) ;
+return  key. startsWith ( '-' ) ;
+ return isValidEnumKey ( key ) || key == null ;
+ return isValidEnumKey ( key ) ; } return true ; }
+return ! key ;
+ return isValidEnumKeyString(key);
+return ENUM_KEY_PATTERN.equals(key).toString().length();
+ return isValidEnumKey ( key ) || ( key. startsWith ( '.' ) ) ;
+ return isValidEnumKey ( key ) && key. startsWith ( "__" ) ;
+return ENUM_KEY_PATTERN.equals(key.length());
+return ENUM_KEY_PATTERN. matches ( key ) ||! local ;
+ return isValidEnumKey ( key ) || ( key. length > 0 )
+ return key!= null? key : key.matches();
+ return this. isValidEnumKey(key);
+return ENUM_KEY_PATTERN.equals();
+ return key && key.matches();
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( "_" ) ;
+return  key. startsWith ( "$" ) ;
+ return key!= null && key.length();
+ return isValidEnumKey ( key ) && key. startsWith ( _ ) ;
+ return isValidEnumKey ( key ) || key instanceof String ;
+ return key.split(" ").matches();
+return  key. charAt ( 0 ). toLowerCase(key).matches();
+ return isValidEnumKey ( key ) || key. length ( ) > 0
+ return isValidEnumKey ( key ) || ( key. length ( ) > 0 )
+return ENUM_KEY_PATTERN.matcher ( key. trim ( ) )
+ return isValidEnumKey ( key ) || ( key. startsWith ( "-" ) )
+return ENUM_KEY_PATTERN.matcher(key) && key. length ( ) > 0
+return ENUM_KEY_PATTERN.equals(key).isEmpty();
+ return GOOGLE_ENUM_KEY_PATTERN.matcher(key).matches();
+ return key.split("|").matches();
+ return isValidEnumKey ( key ) ||! local ;
+ return isValidEnumKey ( key ) && key. startsWith ( ' ' )
+ return isValidEnumKey ( key )!= null ; }
+return ENUM_KEY_PATTERN. matches ( key ) || false ;
+ return isValidEnumKey ( key ) || ( key. startsWith ( '__' ) ) ;
+ return key. toString ( ). isEmpty();
+return ENUM_KEY_PATTERN.matcher ( key ). matches ( )!= null ;
+ return isValidEnumKey(key).value();
+ return isValidEnumKey ( key ) || false ; }
+return  key. startsWith ( "__" ) ;
+ return key.split(",").matches();
+ return key. startsWith ( "-" );
+ return key. startsWith ( ' ' );
+ return isValidEnumKey ( key ) && key. startsWith ( '-' )
+ return isValidEnumKey ( key ) || key == '-' ;
+return ENUM_KEY_PATTERN.matcher ( key ) || key. length > 0 ;
+return ENUM_KEY_PATTERN.matcher(key) && key. endsWith ( "_" ) ;
+ return key. toString ( ).matches();
+return  key. startsWith ( ' ' )
+return ENUM_KEY_PATTERN.matcher(key.toLowerCase().getString()); }
+return ENUM_KEY_PATTERN.equals ( key. value ) ;
+ return isValidEnumKey ( key ) || ( key. endsWith ( '_' ) ) ;
+ return key. replaceAll ( " ", "").matches();
+ return isValidEnumKey ( key ) || key == ' ' ;
+ return isValidEnumKey ( key ) || ( key. startsWith ( "_" ) ) ; }
+ if (key!= null) {
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } return true ;
+return  key. charAt(0). matcher(key).matches();
+ return isValidEnumKey ( key ) ; } return false ; } ;
+return ENUM_KEY_PATTERN.matcher(key) && key. isEmpty ( ) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith("__") ;
+ return new RegExp(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() && key!= null ;
+ return key. toLowerCaseCase ( ).matches();
+ return isValidEnumKey ( key ) || ( local && key. startsWith ( _ ) )
+ return isValidEnumKey ( key ) && key. length ( ) == 0
+ return isValidEnumKey().matches();
+ return key!= null? key : true;
+ return key. isDigit();
+ return key. trim ( ). matches();
+return ENUM_KEY_PATTERN.matcher ( key ). matches ( ) == true ;
+ return key. startsWith ( "." );
+return  key. startsWith ( '_' ) ;
+ return key == ' ';
+return ENUM_KEY_PATTERN.matcher(key).matches() && key. length ( ) ;
+ return key instanceof String && key.matches();
+ boolean isValidEnumKey(String key) {
+ return key. toLowerCase ( ).matches();
+ return key == "A"();
+ return key. isEmpty ( ) &&!key.matches();
+return ENUM_KEY_PATTERN. contains ( key ) ;
+ return key. startsWith ( 'enum_' ) ;
+ return key. matches ( "-" );
+ return key!= null? true : false;
+ return "A-Z0-9".matcher(key).matches();
+ return key. replaceAll("^", "").matches();
+ return isValidEnumKey(key) && key. startsWith ( '_' ) ;
+ return isValidEnumKey(key) ||! key. startsWith ( "_" ) ;
+ return key!= null();
+return  isValidEnumKey ( key ) ||! Character. toLowerCase(key).matches();
+ return super.isValid(key);
+ return key + ' '.matches();
+ return IS_VALID_ENUM_KEY_PATTERN.matcher(key).matches();
+ return validEnumKey.matches();
+return  key. isValid ( ) ;
+return  key. startsWith ( '$' ) ;
+return ENUM_KEY_PATTERN. matches ( key ) ; return false ;
+ return key.equals(key);
+return ENUM_KEY_PATTERN.matcher(key).matches() || key. length > 0 ;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } } ;
+ return isValidEnumKey(key).val();
+ return key. length ( ) > 0();
+ return key. charAt(0)".matches();
+ return key.toString();
+ if ( key!= null ) { return key. length > 0 ; }
+ return isValidEnumKey(key) && key. startsWith ( '.' ) ;
+return ENUM_KEY_PATTERN.matcher(key).toString()).matches();
+ return key == null ||!key || key.matches();
+return  isValidEnumKey ( key ) ||! Character. isDigit(key).matches();
+ return "enumKey".matcher(key).matches();
+ return isValidEnumKey(key); }
+ return ENUMKEY.matcher(key).matches();
+ return "A-Z0-9_".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher() ;
+ return (String)key).matches();
+ return isValidEnumKey(key)).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() && key. length() > 0 ;
+ return VALID_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key.getString() ) ;
+ return key. startsWith ( "{" );
+ if ( key!= null ) { return key. matches ( ) ; }
+ return key. trim ( ). isValid();
+ return key instanceof EnumKey;
+ return isValidEnumKey(key) ||! key. startsWith ( "-" ) ;
+ return key. matches ( "." );
+ return key. charAt(0).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } return true ; }
+return  key instanceof String ;
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( '_' )
+ return isValidEnumKey(key) && key. startsWith ( '-' ) ;
+ return key. trim ( ) == ' '();
+return ENUM_KEY_PATTERN.matcher ( key ) == null ; } }
+ return key == null || key == null.matches();
+ return isValidEnumKey ( key ) ; } else {
+ return key!= null && key. trim ( ).matches();
+ return isValidEnumKey(key).matches(); } else
+ return isValidEnumKey(key) ||! key. startsWith ( '-' ) ;
+ return key.split( ',').matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() && key. endsWith ( "_" ) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( "_" )
+ return IS_VALIDATE_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } }
+ return key. startsWith ( '.' ) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key).length();
+return ENUM_KEY_PATTERN.matcher(key).matches() && key. length > 0 ;
+ return new Pattern(key).matches();
+ return key. replaceAll ( ".*").matches();
+return  key. matches ( regex ) ;
+ return key.split( ' ').matches();
+return ENUM_KEY_PATTERN.matcher(key.toLowerCase() ) ;
+return  key. contains ( ' ' ) ;
+ return enumKey.matcher(key).matches();
+ return isValidEnumKey ( key, false ) ;
+return ENUM_KEY_PATTERN. test ( key ) ; }
+ return equals(key);
+ return key.hasText();
+ return (string)key).matches();
+ return isValidEnumKey(key) && key.length() > 0;
+ return key. startsWith ( "enum" ) ;
+ return key. trim();
+ return key. trim ( ) + ".matches();
+ return "enum_key".matcher(key).matches();
+ return isValidEnumKey().equals(key).matches();
+return  key. charAt ( 0 ). trim ( ) == "$(key).matches();
+return ENUM_KEY_PATTERN.matcher ( key ) && key!= "-" ;
+return  key. startsWith ( '__' ) ;
+return  isValidKey ( key )
+ return key. replaceAll ( "\\.").matches();
+ return isValidKey ( key ) && _ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key) {
+return  isValidEnumKey(key) || getRegExp(key).matches();
+ return key. startsWith ( "enum" );
+ return key. replaceAll ( "$", "").matches();
+return ENUM_KEY_PATTERN. test ( key ) ;
+return  isValidEnumKey(key) || isPattern(key).matches();
+return ENUM_KEY_PATTERN.matcher ( key ) ; } } ;
+ return isValidEnumKey(String key) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( '.' ) ;
+ return key. startsWith ( '-' ) ;
+return  isValidEnumKey(key) || regex(key).matches();
+ return key.equals();
+ return key.replace("*", "").matches();
+ return isValidEnumKeyRegExp(key).matches();
+ return key. isUpperCase();
+ return key.split("-").matches();
+ return "A-Z0-9.matcher(key).matches();
+ return isValidEnumKey ( ) || _ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key) && key. length > 0
+ return isValidEnumKey(key) && key. startsWith ( "enum_" ) ;
+ return key. startsWith ( 'enum' );
+ return key!= null && GOOGLE_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) && key. startsWith ( 'enum_' ) ;
+return  isValidEnumKey(key) && name(key).matches();
+return ENUM_KEY_PATTERN.equals(key).length;
+ return isValidEnumKey(key) && key. contains ( '.' ) ;
+ return isValidEnumKey(key) && key. startsWith("enum_") &&
+ return key. charAt(0) + ".matches();
+ return key. trim ( )!= null();
+return  key. charAt ( 0 ). trim ( ) + "$(key).matches();
+return ENUM_KEY_PATTERN. matches ( )
+ return key. replaceAll ( ",", "").matches();
+ return isValidEnumKey(key) && key. contains ( ' ' ) ;
+return ENUM_KEY_PATTERN. matches ( key ) ; } return ;
+ return enumKeyPattern.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key.toLowerCase().getString());
+ return super.key(key);
+ return isValidKey ( key ) ;
+ return pattern.matcher(key).matches();
+return  isValidEnumKey(key) && getRegExp(key).matches();
+ return isValidEnumKey(key) && key. matches ( ' ' ) ;
+ return key(key).matches();
+ return key. charAt(0). matches(key).matches();
+ return key!= "A";
+ return key. startsWith ( 'enum' ) ;
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( "__" )
+return  isValidEnumKey(key) && regex(key).matches();
+ return key!= - 1;
+ return key. matcher ( "^"+key).matches();
+return  key. charAt ( 0 ). trim ( ). split(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).equals(key).matches(); } else {
+ return key. trim ( )!= ""();
+ if ( key!= null ) { return key. length ( ) ; }
+ if (key!= null) return true;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; return true ; }
+ return validate(key);
+return ENUM_KEY_PATTERN.matcher(key.getString()); }
+return  isValidEnumKey ( key ) ||! Pattern. toRegExp(key).matches();
+return ENUM_KEY_PATTERN.matcher(keyString).matches();
+ return false);
+ return isValidEnumKey(key) && key. matches ( "-" ) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key) ; }
+ return! isEmpty ( key ) && _ENUM_KEY_PATTERN.matcher(key).matches();
+return  key. charAt ( 0 ). trim ( ). matches(key).matches();
+return ENUM_KEY_PATTERN.matcher(key) && key. startsWith ( ' ' )
+ return key.matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).matches(); } else {
+return ENUM_KEY_PATTERN.matcher ( key ) || key!= null ;
+ return key.hasLength();
+ return key.replaceAll("-").matches();
+return ENUM_KEY_PATTERN.matcher(key.string()).matches();
+ return isValidEnumKey(key) && key. startsWith("_") ;
+ return isValidEnumKey(key) && key. startsWith("_") ; }
+ return validKey(key);
+ return key. matches ( ) || key.matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key) ;
+return  key. startsWith ( "_" )
+return ENUM_KEY_PATTERN.matcher(key) && key. length!= 0 ;
+return  isValidEnumKey(key) || isRegExp(key).matches();
+ return key. charAt(0) && (key).matches();
+return  key. contains ( ' ' )
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) || key. length ( ) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key) &&
+ return isValidEnumKey(key) && key. startsWith("enum_") ; }
+ return key. matcher ( ".*").matches();
+return ENUM_KEY_PATTERN.matcher(key). isMatch ( ) ; }
+return  isValidEnumKey ( key ) && regex. matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key) {}
+return ENUM_KEY_PATTERN.matcher(key).equals(key.length()); }
+return ENUM_KEY_PATTERN. isValid ( key ) ;
+ return key == 'A'();
+return  key. length!= 0 ;
+ return CUSTOM_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true);
+ return key. trim ( ) + ' '.matches();
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; return false ; } }
+ return ENUM_KEY.matcher(key).matches();
+ return isValidEnumKey.matches();
+return ENUM_KEY_PATTERN.matcher(key) || key. length ( ) ;
+return ENUM_KEY_PATTERN.matcher(key). isPresent ( ) ;
+return ENUM_KEY_PATTERN.matcher(key.toLowerCase()); }
+ return key. startsWith("__"));
+ return (int)key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() ||!local ;
+ return DEFAULT_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).equals(key.length() ) ;
+ return key.split('.').matches();
+ return key. matcher ( ' ').matches();
+ return key. isEmpty ( ) && key.matches();
+ return key. trim ( )!= "-"();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidKey(key).length();
+ return super.has(key);
+ return ENUM.matcher(key).matches();
+ return parse(key).matches();
+ return isKey(key);
+ return "A-Z_".matcher(key).matches();
+ return key + "$".matches();
+ return key == name;
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; } } ) ;
+ return key. replaceAll ( "\\\\").matches();
+ return key + ' 'matches();
+ if (key!= null) return false;
+ return isValidEnumKey(key) && key.length() == 0;
+ return isValidEnumKey(key) && key!= "*" ;
+ return isValidEnumKey(key) || isValidEnumKey(key).contains('enum_key') ||
+return ENUM_KEY_PATTERN.matcher(key) || key. length > 0
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) || key!= null ;
+ return key. replaceAll ( "\\{").matches();
+ return key. isEmpty ( ) ||
+ return isValidEnumKey(key) ||! isValidEnumKey(key).length(); }
+return  isValidEnumKey(key) ||!Character.isLowerCase(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidString(key) {
+ return isValidEnumKey(key) ||! isValidEnumKey(key).isEmpty(); }
+ return key!= "-";
+return  isValidEnumKey(key) && isPattern(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString().getString());
+ return isValidEnumKey(key) && key. startsWith ( 'enum_' ) &&
+ return key. isEmpty ( ) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidString(key); }
+ return isValidEnumKey(key) && key. length ( ) ;
+ return key. matcher ( "\\".key).matches();
+return  key. startsWith ( "-" )
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidCamelCase(key) ; }
+return ENUM_KEY_PATTERN.matcher(key).group(1).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() && key!= "_" ;
+return ENUM_KEY_PATTERN.matcher(key) && key. length > 1 ;
+ return isValidEnumKey(key) || isValidEnumKey(key).contains('enum_')) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidEnumKey(key); } *
+ return VAR_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) && key. length > 0 ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidString(key) ;
+return  isValidEnumKey(key) || regex.escape(key).matches();
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) || key == null ;
+return  isValidEnumKey ( key ) && "^". escape(key).matches();
+return ENUM_KEY_PATTERN.matcher(key.length).matches();
+ return isValidEnumKeyName(key).matches();
+ return key. isValidName();
+ return super.isValidKey);
+return ENUM_KEY_PATTERN.matcher(key).match();
+ return isValidEnumKey(key) && key.length() > 0 &&
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("abcdef") ||
+return ENUM_KEY_PATTERN.matcher(key).equals(key).length() > 0
+return ENUM_KEY_PATTERN.matcher ( key ). matches ;
+ return IS_VALIDATION_ENUM_KEY_PATTERN.matcher(key).matches();
+return  isValidEnumKey ( key ) && regexesForEnum(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidKey(key) ; }
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) && key!= "-" ;
+ return key.replace("*", '').matches();
+return  isValidEnumKey ( key ) || "^" + escape(key).matches();
+ return REGEX.matcher(key).matches();
+ return isValidKey ( key ) || _ENUM_KEY_PATTERN.matcher(key).matches();
+ return isKey(key).matches();
+return  isValidEnumKey ( key ) &&! Pattern. valueOf(key).matches();
+ return convert(key).matches();
+ return Pattern. compile ( ".*").matcher(key).matches();
+ return isValidEnumKey(key) && key!= '*' ;
+return ENUM_KEY_PATTERN.matcher(key, true).matches();
+ return key. charAt(0) && regex(key).matches();
+ return key. charAt(0) && name(key).matches();
+ return regexes. getEnumKeyPattern().matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("abcdef") ;
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) || key. length > 0
+return  key. length == 0 ;
+ return key. replaceAll ( "\\$").matches();
+ return new RegularExpression(key).matches();
+ return getRegExp(key).matches();
+ return key. matches ( ) && name.matches();
+ return decode(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("_") ;
+ return isValidEnum(key).matches();
+ return validKey();
+ return REGEX_KEY.matcher(key).matches();
+ return this. isValid ( ) && _ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("abc") ||
+ return regexEnum(key).matches();
+ return isValidEnumKey ( ) && #ENUM_KEY_PATTERN.matcher(key).matches();
+ return key. matcher ( "^".key).matches();
+return  isValidEnumKey ( key ) && "^". split(key).matches();
+ return key + ".*".matches();
+ return isValidEnumKeyPattern(key).matches();
+return ENUM_KEY_PATTERN.matcher(key) &&! local ;
+ return GOOGLE_API_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKeyNameRegExp.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key) && key!= "unknown";
+ return key. replace ( "\\.").matches();
+ return EnumKey.matcher(key).matches();
+ return STRING_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("abc") ;
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("_") ||
+ return isValidEnumKey(key) || (isValidEnumKey(key)) == false; }
+return ENUM_KEY_PATTERN.matcher(key.length(?)).matches();
+ return checkKey(key);
+ return isValidEnumKey(String).match(key).matches();
+ return key!= "default";
+ return GOOG_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() || (local && key);
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) == - 1 ;
+return ENUM_KEY_PATTERN.equals(key); *
+ return key. trim ( ) + " ".matches();
+return ENUM_KEY_PATTERN.matcher(key).equals(key); }
+ return key!= ".";
+ return isValidEnumKey(key) || isValidEnumKey(key).equals("abcdef") &&
+ return isValidEnumKey(key) || (isValidEnumKey(key) == false) ;
+ return key == 'a';
+return ENUM_KEY_PATTERN [ key ] ;
+ return GOOGLE_JSON_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(key) && key.length() > 0 ||
+ return getEnumKey(key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidString(key); } else
+ return key. matches ( "^"+key).matches();
+ return key. isValidKey();
+ return regex(key).matches();
+ return isValidEnumKey(key) ||! key. startsWith ( "__" ) ; }
+ return isValidEnumKey(key) ||! key. startsWith ( '_' ) ; }
+ return isValidEnumKey(Key).of(key).matches();
+ return isValidEnumKey(key) || (isValidEnumKey(key) == false); }
+return ENUM_KEY_PATTERN.matcher(key.toLowerCase().toString()); } }
+return ENUM_KEY_PATTERN.matcher(key) ||! local ;
+ return!key.length().matches();
+ return key. charAt(0) + "+key).matches();
+ return key. matcher ( "\\$key).matches();
+ return isValidEnumKey(key) || isValidEnumKey(key).contains('_')); }
+ return isValidEnumKey ( ) || #ENUM_KEY_PATTERN.matcher(key).matches();
+ return validateKey(key);
+ return isValidEnumKeyNameRegExp(key).matches();
+ return regex.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) ; return false ;
+ return key. charAt(0) + (key).matches();
+ return isValidEnumKeyRegex(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches ( ). matches ( ) ;
+ return isValidEnumKey(key) || isValidEnumKey(key) || isValidKey(key); } else
+ return matches(key);
+return ENUM_KEY_PATTERN.matcher(key.strip()).matches();
+return ENUM_KEY_PATTERN.matcher(key). isMatch ( 0 ) ;
+return  key. length > 0
+ return IS_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isEnumKey(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) && key. length ( ) ;
+ return isValidEnumKeyExpression(key).matches();
+ return isValidKey(key).matches();
+ return regexesForEnumKey.matcher(key).matches();
+ return isValidEnumKeyRegEx(key).matches();
+ return key. matcher ( "\\{key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches() > 0 ;
+ return key. charAt(0) === "+key).matches();
+return ENUM_KEY_PATTERN.matcher(key) && key. length ( )
+ return isValidEnumKey().patternRegExp.matcher(key).matches();
+ return isValidKey ( ) ;
+ return!matches();
+return ENUM_KEY_PATTERN.matcher ( )
+ return isValidEnumKey ( key ).matcher(key).matches();
+ return key.replace("^" "+key).matches();
+ return key + ".".matches();
+ return "a-z0-9.matcher(key).matches();
+ return "enum_key"".matcher(key).matches();
+ return Pattern. compile ( "^").matcher(key).matches();
+ boolean valid = true ;
+return ENUM_KEY_PATTERN.matcher(key.split(")).matches();
+return ENUM_KEY_PATTERN.matcher(key) || key == null ;
+ return new String(key).matches();
+ return FOLO_ENUM_KEY_PATTERN.matcher(key).matches();
+return  key!= "unknown";
+ return this.key.matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) && key. matches ( false ) ;
+ return "enum-key"".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString() ) ;
+ return key. matcher ( "${key).matches();
+ return regexesForEnumKeys.matcher(key).matches();
+ return key!= null && Pattern. valueOf(key).matches();
+ return isValidKey(key); }
+ return isValidEnumKey.matcher(key).matches();
+ return isValidEnumKey(key).matches(); } } ;
+ return (* key).matches();
+ return key. startsWith ( 'enum_' ) &&
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString()); }
+return ENUM_KEY_PATTERN. match ( key ) ;
+ return FOOO_ENUM_KEY_PATTERN.matcher(key).matches();
+ return 'enumKey'.matcher(key).matches();
+ return isValidEnumKey().patternExpression.matcher(key).matches();
+ return key == "*".matches();
+ return "enumKeyName".matcher(key).matches();
+ return key == '$1';
+ return GOOGLE_VENUM_KEY_PATTERN.matcher(key).matches();
+ return key. length > 0 ;
+ return (String) key.matches();
+ return isValidEnumKey(key) ||! isValidEnumKey(key).length() ;
+ return IS_ENUMKEY.matcher(key).matches();
+ return isValidEnumKey ( key ) ; } else
+ return isValidEnumKey(\"").matcher(key).matches();
+ return isValidEnumKey(String) Pattern.matcher(key).matches();
+ return ".*".matcher(key).matches();
+ return isValidEnumKey(key) ||! isValidEnumKey(key).length() ||
+return ENUM_KEY_PATTERN.matcher(key).matches()? true : false ; return false ; } ;
+ return key. trim ( key ). matches(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) && key. length ( ) > 0
+return ENUM_KEY_PATTERN.matcher(key).matches(false); }
+ return isValidEnumKey(key).matches() ; }
+ return keyRegExp.matches();
+return ENUM_KEY_PATTERN.matcher(key).matchesAnyOf ( ) ;
+return ENUM_KEY_PATTERN.matcher(key).matches(true) && key. length > 0 ;
+return ENUM_KEY_PATTERN.matcher(key).matches(false) && key. matches ( true ) ;
+ return key!= null);
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) == 1 ;
+return ENUM_KEY_PATTERN.matcher(key).matchesAll ( ) ;
+ return (String) GOOG_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey(String) pattern.matcher(key).matches();
+ return!empty && key.matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString().length());
+ return isValidEnumKeyString(key).matches();
+ return isValidEnumKey(key).matchAll(); } else
+ return key + "_".matches();
+ return "A" + "213"".matcher(key).matches();
+ return isValidEnumKey(pattern).matcher(key).matches();
+ return "enum-key".matcher(key).matches();
+ return isValidEnumKey(key)||matcher(key).matches();
+ return "abc".matches();
+ return "*".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).equals(true);
+return  false ;
+ return GOOGLE2_ENUM_KEY_PATTERN.matcher(key).matches();
+ return IS_VARIABLE_ENUM_KEY_PATTERN.matcher(key).matches();
+ return IS_ENUM_KEYS.matcher(key).matches();
+ return isValidEnumKeyNameRegex.matcher(key).matches();
+ return EnumKeyPattern.matcher(key).matches();
+ return key. replaceAll("^",key).matches();
+return ENUM_KEY_PATTERN. test ( key )
+return ENUM_KEY_PATTERN.matcher(key).matches ( ). find ( ) ; }
+return  key!= "" ;
+ return key!= null ; return false;
+ return GOOGLE_FORM_ENUM_KEY_PATTERN.matcher(key).matches();
+ return escape(key).matches();
+return ENUM_KEY_PATTERN.matcher(key, 1).matches();
+ boolean valid = false ;
+ return "A-Z_*".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches ( ) && key!= "." ;
+ return "A" == key || "-".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key, null).matches();
+ return key. replaceAll("\\",key).matches();
+ return "enum_".matcher(key).matches();
+ return (!key);
+return ENUM_KEY_PATTERN.matcher(key).matches(this).equals(false); }
+ return "enum_*".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key.value).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) && key. contains ( ' ' )
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) ; } } ;
+ return key == 'A'.length();
+return ENUM_KEY_PATTERN.matcher(key).isValid();
+ return "matches();
+ return key.replace("^"",key).matches();
+return ENUM_KEY_PATTERN. test key ;
+ return regexes.get(key).matches();
+ return get(key).matches();
+ return ISOLID_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key). matches ( ) &&! local ;
+ return GOOGLE__ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString().getName());
+ return "enumKey"".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(this).equals(true); }
+return ENUM_KEY_PATTERN.matcher(key).matches(true) || key. length > 0 ;
+ return key.replace("^",key).matches();
+ return isValidKey ( key ) && __ENUM_KEY_PATTERN.matcher(key).matches();
+ return isKey();
+ return 'enum-key'".matcher(key).matches();
+ return false ; } else {
+ return key.replace("\"",key).matches();
+return ENUM_KEY_PATTERN. contains ( key )
+ return key!= null ; return true;
+ return "A-Z". exec(key).matches();
+ return "A-Z\d".matcher(key).matches();
+ return isValidEnumKey ( key ) ; } else { }
+ return "abc".matcher(key).matches();
+ return "(key).matches();
+ return IS_VAR_ENUM_KEY_PATTERN.matcher(key).matches();
+ return "enumKey".match(key).matches();
+ return key.replace(".*",key).matches();
+ return isValidEnumKey(key).matches()); } *
+ return key.replace("*",key).matches();
+ return isValidEnumKey ( key ) ; } } ;
+return ENUM_KEY_PATTERN.matcher(key).matches(true); }
+ return regex. compile(key).matches();
+ return key.contains(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) || key. matches ( false);
+ return key. replaceAll(key).matches();
+ return keyRegEx.matches();
+ return "A" + "_".matcher(key).matches();
+ return key == '$abc';
+return ENUM_KEY_PATTERNES ;
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString())); }
+ return key == "A".length();
+ return IS_FORMAT_ENUM_KEY_PATTERN.matcher(key).matches();
+ return isValidEnumKey ( key ) ; } } }
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString().length()); }
+ return IS_ENUM_KEYNAME.matcher(key).matches();
+return ENUM_KEY_PATTERN. equals ( key )
+ return keyPattern.matcher(key).matches();
+ return isValidEnumKey ( key ) *;
+ return name(key).matches();
+ return REGEXP.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(true) || key. length ( ) ;
+ return (true);
+ return isValid(key).matches();
+ return isValidEnumKey(key) == true ; }
+return ENUM_KEY_PATTERN.matcher(key).matches(key).length() > 0
+return ENUM_KEY_PATTERN.matcher(key.stringValue).matches();
+ return $matcher(key).matches();
+ return "enum-key:".matcher(key).matches();
+ return (regularExp(key).matches();
+ return "enum key". equals(key).matches();
+ return "enum_".match(key).matches();
+ return capitalize(key).matches();
+ return key.empty();
+ return "enum_". equals(key).matches();
+ return "A_BAR".matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key) == null
+return !! key ;
+ return.matcher(key).matches();
+ return 'enum_key'.matcher(key).matches();
+ return enum.matcher(key).matches();
+ return USE_ENUM_KEY_PATTERN.matcher(key).matches();
+ return "*". escape(key).matches();
+ return "A" + "-".matcher(key).matches();
+ return name.matcher(key).matches();
+ return MEMBER_ENUM_KEY_PATTERN.matcher(key).matches();
+ return "A-Z_"".matcher(key).matches();
+ return Pattern. compile(key).matches();
+ return "A-Z_-".matcher(key).matches();
+ return IS_NODE_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).find ( ) ;
+ return key == 'A'.value();
+ return key instanceof String ; }
+ return "*". equals(key).matches();
+ return isString(key).matches();
+ return key == "A".value();
+return  true ; }
+return ENUM_KEY_PATTERN.matcher(key).matches(key).length() == 0
+ boolean matches = false ;
+return ENUM_KEY_PATTERN.matcher(key).matches(UTF-8);
+ return validKey.matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(Parameter.getString().length);
+return ENUM_KEY_PATTERN.matcher(key).matches(\"^$\");
+return ENUM_KEY_PATTERN.matcher(key).matches(\"$\");
+return ENUM_KEY_PATTERN.matcher(key).matches(\"$\"); }
+return ENUM_KEY_PATTERN === key ;
+ return enumKey.matches();
+ return MAX_ENUM_KEY_PATTERN.matcher(key).matches();
+ return enumPattern.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).isEmpty();
+ return new RegExp(.*key).matches();
+return ENUM_KEY_PATTERN.matcher(key); } }
+ return!key);
+ return JS_ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(getName() ) ;
+return ENUM_KEY_PATTERN.matcher ( key
+ key.matches();
+ return ~key.matches();
+ return key == null;
+return ENUM_KEY_PATTERN.matcher(key).matches("^$") ;
+ return key();
+return  isValid ;
+ return KEY_NAME.matches();
+return ENUM_KEY_PATTERN.matcher(key).matches ( ".*" )
+ return regexp(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(getName()); }
+return  key!= '' ;
+ return PHP_ENUM_KEY_PATTERN.matcher(key).matches();
+ return false();
+return ENUM_KEY_PATTERN.matcher(key).matches(key); }
+ return!key();
+return ENUM_KEY_PATTERN.matcher(key) > 0 ;
+return ENUM_KEY_PATTERN.matcher(key). matchesAny ) ;
+ return key == "";
+return ENUM_KEY_PATTERN!= key ;
+return ENUM_KEY_PATTERN.matcher(key).matches("^.*)");
+return ENUM_KEY_PATTERN.matcher(keyName).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(\".*\");
+return ENUM_KEY_PATTERN. matcher ;
+return ENUM_KEY_PATTERN.matcher(key)!= null
+ boolean matches() {
+ return "+key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(\"^\");
+return ENUM_KEY_PATTERN.matcher(key).matches(0); }
+ return _matches();
+ return!empty();
+ return false ;
+return ENUM_KEY_PATTERN.matcher(key).length();
+return ENUM_KEY_PATTERN.matcher(key).matches(arguments); }
+ return (!key).matches();
+ return key == null ; }
+ return Pattern.matcher(key).matches();
+return ENUM_KEY_PATTERN.matcher($1).matches();
+return ENUM_KEY_PATTERN. key ;
+ return false ; } }
+ return key!= null ; }
+ return false ; }
+ * return true;
+return ENUM_KEY_PATTERN.matcher(key); *
+ return true ;
+return ENUM_KEY_PATTERN.matcher(key).matches(this);
+return  validKey ;
+ return key);
+return ENUM_KEY_PATTERN.matcher ( key ;
+return ENUM_KEY_PATTERN. matches ;
+return ENUM_KEY_PATTERN.matcher(key.*).matches();
+ return keymatches();
+return ENUM_KEY_PATTERN.matcher(); }
+return ENUM_KEY_PATTERN.matcher(keyStr).matches();
+ return __ENUM_KEY_PATTERN.matcher(key).matches();
+return ENUM_KEY_PATTERN.match();
+return ENUM_KEY_PATTERN.matcher(key).matches(0);
+ return true ; }
+return ENUM_KEY_PATTERNAL ;
+ return $$matcher(key).matches();
+ return true ; } }
+ return key!= null ; *
+ return * key.matches();
+return ENUM_KEY_PATTERNED ;
+return ENUM_KEY_PATTERN.ANY ;
+ return reg.matcher(key).matches();
+ boolean valid = true ; *
+ return $(key).matches();
+return ENUM_KEY_PATTERN.matcher(key).matches(null);
+ return ok();
+ return ' ';
+return ENUM_KEY_PATTERN == key
+return ENUM_KEY_PATTERN.matcher(key).matches() || false
+return ENUM_KEY_PATTERN.matcher(key).length;
+return ENUM_KEY_PATTERN.matcher(key).matches() == true
+ boolean valid; *
+ boolean matches() {}
+return  key ;
+return ENUM_KEY_PATTERN.matcher(key).matches() true;
+ return KEY).matches();
+ return check();
+ return name.matches();
+return ENUM_KEY_PATTERN.matcher(key) === null
+ * *
+return ENUM_KEY_PATTERN.matcher(key).matches() == false
+ return ()
+ return { }
+ return IENUM_KEY_PATTERN.matcher(key).matches();
+ return "ENUM_KEY_PATTERN.matcher(key).matches();
+ return string.matches();
+ return key().matches();
+ super.matcher(key).matches();
+ return this).matches();
+return ENUM_KEY_PATTERN.matcher(key) == ;
+return ENUM_KEY_PATTERN.matcher(key)); }
+ *
+ return this;
+ return regex.matches();
+return ENUM_KEY_PATTERN.matcher(Key);
+ return this.matches();
+return ENUM_KEY_PATTERN.matcher(key());
+ * return
+return ENUM_KEY_PATTERN.matcher(KEY).matches();
+return ENUM_KEY_PATTERN.matcher(Key).matches();
+return ENUM_KEY_PATTERN.matcher(name).matches();
+return ENUM_KEY_PATTERN.matcher(string).matches();

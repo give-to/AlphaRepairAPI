@@ -1,0 +1,689 @@
+boolean negate = (value & 1) == 1;
+boolean negate = (value) == 1;
+ negate = value!== 1;
+ boolean negate = value!== 1;
+ boolean negate |= (value & 1) == 1;
+ boolean negate = -(value & 1) == 1;
+ boolean negate = -value!== 1;
+boolean negate = (value &  1);
+ boolean negate;
+ negate = value& 1) == 1;
+boolean negate = (value & -1) == 1;
+ assert value& 1) == 1;
+boolean  negate = true;
+ negate = (value & 1) == 1;
+ assert (-1) == 1;
+ assert (value & 1) == 1;
+ boolean negate = value & 0x1;
+boolean negate = (value & 1) ==  0;
+ boolean negate = value < 0;
+ value!== 1;
+ boolean negate = value & -1;
+ negate = true;
+ boolean negate = ((-value) == 1;
+ negate = (-value) == 1;
+ boolean negate = value < 0 ; negate |= (value & 1) == 1;
+boolean negate = (value  < 0) ;
+boolean negate = (-value) == 1;
+ negate = ((-value) == 1;
+ boolean negate = value & 1 ; negate |= (value & 1) == 1;
+ assert value!== 1;
+ boolean negate = value < 0 ; negate = (value & 1) == 1;
+ boolean negate = value & (value-1) == 1;
+ boolean negate = (int) (value & 1) == 1;
+ boolean negate = false ; negate |= (value & 1) == 1;
+ boolean negate = Math.abs(value & 1) == 1;
+ boolean negate = true ; negate |= (value & 1) == 1;
+ boolean negate = (value & 0x1) == 1;
+ boolean negate = (value-1) == 1;
+ boolean negate = value & (-1) == 1;
+ boolean negate = value & 1!== 1;
+ boolean negate = (--value & 1) == 1;
+ boolean negate =! value ; negate |= (value & 1) == 1;
+ boolean negate = value& 1) == 1;
+ boolean negate = value >> 1!== 1;
+ boolean negate = value == 0 ; negate |= (value & 1) == 1;
+ boolean negate = value < 0 && value!== 1;
+boolean negate = (value & 1) ==  0; if (value < 0) {
+ boolean negate = value < 0 || value!== 1;
+ boolean negate = ((-value)& 1) == 1;
+boolean negate = (value & 1) ==  0; if (value > 0) {
+ int value = toVLQSigned(value); if (value < 0) { return -value; }
+ assert (value) == 1;
+ boolean negate =!value;
+ boolean negate = value < 0 ; boolean negate |= (value & 1) == 1;
+ boolean negate = value & 1;
+ boolean!negate = (value & 1) == 1;
+ boolean negate = (-value& 1) == 1;
+boolean negate = (value & 1) == 1; if (value > 0) {
+ if (value < 0) { return -value; }
+ boolean negate = value |= (value & 1) == 1;
+ boolean negate = value >>> 1!== 1;
+boolean negate = (value & 1) == 1; if (value < 0) {
+ boolean negate = value & (1 << 1) == 1;
+ int value = toVLQSigned(value); if (value < 0) return -value;
+ int value = -1;
+ boolean negate = value & 1 ; value!== 1;
+ boolean negate = value & 1 ; negate = (value & 1) == 1;
+ boolean negate = -value |= (value & 1) == 1;
+ boolean negate = (int) (value & -1) == 1;
+ int value = toVLQSigned(value); if (value < 0) { return 0; }
+ boolean negate =! negate ; negate |= (value & 1) == 1;
+ if (value < 0) {
+ if (value < 0) return -value;
+ if (value < 0) { return -value + 1; } else { return (value << 1) + 0; }
+ boolean negate = value == -1 ; negate |= (value & 1) == 1;
+ boolean negate = value < 0 ; negate = ((value & 1) == 1;
+ int value = toVLQSigned(value); if (value < 0) { return value; }
+ if (value < 0) { return (value >>> 1) + 1; } else { return value ; }
+ boolean negate = 0x(value & 1) == 1;
+ boolean negate = value & 1 ; boolean negate |= (value & 1) == 1;
+ boolean negate = value < -value;
+ boolean negate = (value & 0x01) == 1;
+ boolean negate = value < 0 && (value & 1) == 1;
+ boolean negate = value < 0 ; negate = -(value & 1) == 1;
+ boolean negate = value == 0 ; negate = (value & 1) == 1;
+ if (value < 0) { return 0; }
+ int value = toVLQSigned(value); if (value < 0) { return -value; } else {
+ boolean negate = value == -1 || (value & 1) == 1;
+ int value = toVLQSigned(value); if (value < 0) return value;
+ if (value < 0) { return -value + 1; } else { return value ; }
+ if (value < 0) { return -value; } else { return (value << 1) + 0; }
+ boolean negate = -1;
+ boolean negate = value & 0x01;
+ boolean negate = value > 0 ; negate |= (value & 1) == 1;
+ boolean negate = value & (1-1) == 1;
+ int value = toVLQSigned(value); if (value < 0) return 0;
+ boolean negate = value & 0xF1;
+ if (value < 0) { return value; }
+ int value = toVLQSigned(value); if (value < 0) { return -value }
+ if (value < 0) return 0;
+ boolean negate ; negate |= (value & 1) == 1;
+ boolean negate = value & 1 ; negate = -(value & 1) == 1;
+ boolean negate = value & ((-value) == 1;
+ int value = toVLQSigned(value); if (value == 0) return -value;
+boolean negate = (value & 1) == 0; if (value > 0)
+ boolean negate = (value >> 1)& 1) == 1;
+ boolean negate = value < 0 ; boolean _negate = (value & 1) == 1;
+ return fromVLQSigned(value); }
+ if (value < 0) { return (value >>> 1) + 1; } else { return 0 ; }
+ if (value < 0) return value;
+boolean negate = (value & 1) ==  0; if (value < -value) {
+ boolean negate = value > 0 ; negate = (value & 1) == 1;
+ boolean negate = value & VLQ_SIGN;
+ boolean negate = value == -1 || value!== 1;
+ boolean negate = value < 0 ; boolean unnegate = (value & 1) == 1;
+ if (value < 0) { return -value + 1; } else { return (value << 1) + 0; } }
+ boolean negate = (int)value.shift(-1) == 1;
+ int value = toVLQSigned(value); if (value < 0) { final
+ if (value < 0) { return -value + 1; } else { return (value << 1) + 0; } final
+ int negate = (value & 1) == 1;
+ boolean negate = false;
+boolean negate = (value & 1) == 1; if (value > 0)
+ if (value < 0) { return (value >>> 1) + 1; } else { return -value ; }
+ int value = toVLQSigned(value); if (value < 0) { return -value; } final
+ if (value < 0) { return (-value) + 1; }
+boolean negate = (value & 1) == 0; if (value < 0)
+ int value = toVLQSigned(value); if (value < 0) { return ; }
+ boolean negate = ((value >> 1)& 1) == 1;
+ if (value < 0) { return (-value) + 0; }
+ boolean negate = (value & 1-1) == 1;
+ boolean negate = (value >> 31& 1) == 1;
+ if (value < 0) { return -value; } else { final
+ boolean negate = value & (-value) == 1;
+ boolean negate = 0 ; negate = (value & 1) == 1;
+boolean negate = (value & 1) == 1; if (value < -value) {
+ boolean negate = value > 0 && value!== 1;
+ if (value < 0) { return -value; } final
+ if (value < 0) { return (-value) << 1; } else {
+ int value = toVLQSigned(value); if (value < 0) { return -value };
+boolean  negate =
+ if (value < 0) { final
+ int negate = (value & -1) == 1;
+ int value = toVLQSigned(value); if (value > 0) return value;
+boolean negate = (value & 1) == 0; if (negate)
+ boolean negate = value < 0 ; boolean is_negate = (value & 1) == 1;
+ int value = toVLQSigned(value); if (value > 0) { final
+ boolean negate = ((value)& 1) == 1;
+ boolean negate = value == -1 || -(value & 1) == 1;
+ boolean negate = value <1;
+ if (value < 0) return;
+ boolean negate = value & 1;!== 1;
+ if (value < 0) { return -value ; } else { return (value << 1) + 0; } }
+ boolean negate = value & (1 << -1) == 1;
+ if (value < 0) { return -value; } else {
+ boolean negate = (int)value.shift(1) == 1;
+ boolean negate = (value >> 1) == 1;
+boolean  negate = value & 0x1F;
+ boolean negate = value << 1!== 1;
+ int value = toVLQSigned(value); if (value == -value) {
+ if (value < 0) {
+ boolean negate = value >> 1 == -1;
+boolean negate = (true)
+ boolean negate = (value >> 2& 1) == 1;
+ boolean negate = -value == -1;
+ boolean negate = (value & 1 << 1) == 1;
+boolean negate = (value & fromVLQSigned) == 1;
+ boolean negate = (value & 0xF1) == 1;
+ if (value < 0) { return -value ; } else { return (value << 1) + 0; } final
+ boolean negate = (int)value >>>(& 1) == 1;
+boolean negate = (value & 1) == 1; if (value < 0) return 0;
+ if (value > 0) {
+ boolean negate = value == 0 ; boolean negate |= (value & 1) == 1;
+boolean  negate = value & 0x1f;
+boolean negate = (value & 1) == 1; if (value < 0)
+ if (value < 0) { return -value ; } if (value > 1) { return +value ; } final
+ boolean negate = (double) (value & -1) == 1;
+ if (value < 0) { return -value; } else { int
+ return fromVLQSigned ( value ) ;
+ boolean negate = 0 && (value & 1) == 1;
+ boolean negate = value & VLQ_BIT;
+ int value = toVLQSigned(value); if (value < 0) return;
+ boolean negate = value < 0 ; value += -1;
+ boolean negate = value < 0 && -(value & 1) == 1;
+ boolean negate = value == 0 ; negate = -(value & 1) == 1;
+ boolean negate = value < 0; assert ((value & 1) == 1;
+ if (value < 0) { return (-value) << 1; } final
+ if (value < 0) { return (-value) + 1; } else {
+ if (value < 0) { return -value; } else { final int
+ boolean negate = value >> 2!== 1;
+ boolean negate = (int) ((value)& 1) == 1;
+boolean negate = (value  < 0) && (value > 1) ;
+ boolean negate = value & (1) == 1;
+ boolean negate=true; negate= (value & 1) == 1;
+ if (value < 0) { return -value + 1; } else { final
+ boolean negate = value == -1 || ((value & 1) == 1;
+ boolean negate = value < 0 ; if ( value > 0 ) {
+ boolean negate = (int) (value >> 2& 1) == 1;
+ negate = value (-1) == 1;
+ boolean negate = (value >>>=& 1) == 1;
+ boolean negate = (value & (1)-1) == 1;
+ if (value < 0) { return -value + 1; } else { return (value << 1) + 0; } } final
+ boolean negate = (value & 0x80) == 1;
+boolean negate = (value & 1) == 0x1F;
+ boolean negate = value > 0;
+boolean negate = (value & 1)!= 0;
+ if (value < 0)
+ boolean negate = (int) (value >> 31& 1) == 1;
+ boolean negate = value >> (& 1) == 1;
+ boolean negate =!value |= (value & 1) == 1;
+ boolean negate = value & 0x7f;
+ boolean negate = false ; negate= (value & 1) == 1;
+boolean negate = (value & 1) == 1; if (negate)
+ if (value < 0) { return (-value) + 0; } final
+ boolean negate = value & 0xFF;
+ int value = toVLQSigned(value); if (value < 0) { return -value; };
+ boolean negate = value == 0 || (value & 1) == 1;
+ boolean negate = (int) -(value & 1) == 1;
+ boolean negate = (int)value!== 1;
+ boolean negate = value < -1;
+boolean negate = (value & 1) == 1; if (value < 0) return value;
+ boolean negate = (value & 1 ^ -1) == 1;
+ boolean negate = value > -1;
+ int negate = value & 0x1;
+ boolean negate = value & ~1;
+ boolean negate = value (-1) == 1;
+boolean negate = (value  < 0) && value > 1;
+ if (value < 0) { return (value >>> 1) + 0; } final
+ if (value < 0) { return (-value) + 1; } final
+boolean negate = (value  < 0) || (value > 1) ;
+ boolean negate = value & 0x80;
+ int negate = value & VLQ_SIGN;
+ if (value < 0) { return -value + 1; } else {
+ boolean negate = (int)value(value& 1) == 1;
+boolean  negate = true; int
+ if (value < 0) { return (value >>> 1) + 1; } else { return value ; } }
+ boolean negate = (int)value - (value& 1) == 1;
+ boolean negate = value < 0 || (value & 1) == 1;
+ if (value < 0) { return -value; } else {
+ boolean negate = value & 0xC1;
+boolean negate = (value  < 0) == 0;
+ boolean negate = (value >> (value& 1) == 1;
+ boolean negate = ((value & 1) == 1;
+ boolean negate = (int) (value >>>& 1) == 1;
+boolean  negate = value == -1;
+ negate = (value-1) == 1;
+ boolean negate = (int) ((value & 1) == 1;
+ if (value < 0) { return -value + 0; } else { final
+boolean negate = (value & 1) ==  0; if (value == 0) {
+ boolean negate = value & 1 ; boolean unnegate = (value & 1) == 1;
+ boolean negate = negate ; negate |= (value & 1) == 1;
+ if (value < 0) { return -value; } if (value > 1) { return +value; } return -value; final
+ boolean negate = value < 0; assert (value & 1) == 1;
+ boolean negate = value & 1 == -1;
+ boolean negate = value == -1 && -(value & 1) == 1;
+ boolean negate = (value >>=& 1) == 1;
+ boolean negate = (value & ~1) == 1;
+ if (value < 0) { return -value; } if (value > 1) { return +value; } return -value; }
+ boolean negate; negate= (value & 1) == 1;
+ boolean negate = value & 0xF;
+ boolean negate = 0 ; negate |=(value & 1) == 1;
+ boolean negate = value & ~0x1;
+ boolean negate = (value & (1 << 1) == 1;
+ boolean negate = (value & ~1-1) == 1;
+ if (value < 0) { return -value + 0; } else {
+ boolean negate = value == 0 ; boolean is_negate = (value & 1) == 1;
+ if (value < 0) { return (value >>> 1) + 1; } else { return value ; } final
+ boolean negate = value & 1 ; boolean is_negate = (value & 1) == 1;
+ if (value < 0) { return -value; } if (value > 1) { return +value; } } else {
+ boolean negate = (int) (value >>>=& 1) == 1;
+ boolean negate = value && (value & 1) == 1;
+ if (value < 0) { return -value + 1; } else { return (value << 1) + 0; };
+ boolean negate = (value & ~0x1) == 1;
+ if (value > 0) { final
+ boolean negate = value < 0 |= (value & 1) == 1;
+boolean negate = (value & 1) > 0;
+ boolean negate = (int)value >> (& 1) == 1;
+ boolean negate = value < 0? true : false;
+ boolean negate = value & 0xff!== 1;
+ boolean negate = (int) (value >> 3& 1) == 1;
+ if (value < 0) { return (value >>> 1) + 1; } else { return -value ; } } final
+boolean negate = (value  < 0) == -1;
+ boolean negate = (value & 0x1F) == 1;
+ if (value < 0) { return (-value) + 0 }
+ boolean negate = (value >> 1)(& 1) == 1;
+ return fromVLQSigned(value); } static
+boolean negate = (value & 1) ==  0; if (value < 0) { int
+ boolean negate = value & (0x1) == 1;
+ boolean negate =! value & 1 ; boolean _negate = (value & 1) == 1;
+ if (value < 0) { return (-value) + 1 }
+ if (value < 0) { return 0; } final
+ boolean negate = value < 0 ; if ( negate ) return value ;
+ boolean negate = value & 1 ; boolean _negate = (value & 1) == 1;
+ boolean negate = (value & 0x1f) == 1;
+ boolean negate = value & -1!== 1;
+boolean negate = (value  < 0) & 1;
+ boolean negate = value < 0 ; boolean!negate = (value & 1) == 1;
+ return fromVLQSigned(value); } final
+boolean negate = (value & 1) == 0x1f;
+ boolean negate = value < 0 ; if ( negate ) {
+ int value = toVLQSigned(value); if (value < 0) { }
+ boolean negate =! value & 1 ; boolean unnegate = (value & 1) == 1;
+ boolean negate = value % (-1) == 1;
+ boolean negate = value >> ((& 1) == 1;
+boolean negate = (value & 1) ==  0; if (value > 0) { int
+ boolean negate = 0 == (value & 1) == 1;
+ boolean negate = value < 0? 0 : -1;
+boolean negate = (value & 1) == 0 ; if ( negate ) {
+ if (value < 0) { return ; }
+ if (value < 0) { return (value >>> 1) + 1; } else { return -value ; } } }
+ negate = value-1) == 1;
+boolean negate = (value & 1) ==  0 ; if (! negate ) return value ;
+ boolean negate =!= (value & 1) == 1;
+ int negate = value & VLQ_BIT;
+ int negate = -value!== 1;
+ boolean negate = value < 0 ; value = -1;
+ boolean negate = value >>>(& 1) == 1;
+ boolean negate = value-1) == 1;
+ if (value < 0) { return -value; } static
+ boolean negate = -value & -1;
+ if (value < 0) { return -value + 1; } final
+ if (value < 0) { return -value; } if (value > 1) { return +value; } return value ; } final
+ negate = ((value & 1) == 1;
+ boolean negate = value == 0;
+boolean negate = (value & 1) == 1 ; if (! negate ) return -value;
+ if (value < 0) { return (-value) + 0};
+ boolean negate = value(1) == 1;
+ boolean negate = value < 0 || -(value & 1) == 1;
+ int negate = ((-value) == 1;
+ if (value < 0) { return -value; } if (value > 1) { return +value; } } else { final
+boolean  negate = value & 0xff000000;
+ boolean negate = value == 0 && -(value & 1) == 1;
+ boolean negate = value < 0 && value >1;
+ boolean negate = value &= -1;
+ boolean negate = (int)value == -1;
+ if (value < 0) { return (value >>> 1) + 0; } static
+ negate = value(1) == 1;
+boolean negate = (value  < 0) || value > 1;
+ boolean negate = value - (value & 1) == 1;
+boolean negate = (value  < 0) && value > 0;
+ boolean negate = value == -1 && value!== 1;
+ return toVLQSigned(value); } static
+ boolean negate = value < 0 ; value > -1;
+ boolean negate = value & 0x7F;
+ if (value < 0) { return -value ; } if (value > 1) { return -value ; } } else { final
+ boolean negate = value & 1; assert value!== 1;
+ if (value > 0)
+ boolean negate = value & 0xff == -1;
+boolean negate = (value & 1) == 1 ; if (! negate ) return value ;
+boolean negate = (value & 1) == 1; if (value > 0) { int
+ negate = value ($1) == 1;
+ if (value < 0) { return -value ; } if (value > 1) { return +value ; } } { final
+ boolean negate = value == 0 ; value = -1;
+ if (value < 0) { return -value; } else { } int
+ negate = (-value & 1) == 1;
+ return fromVLQSigned ( value ) ; } private static
+ int negate = true;
+ boolean negate = value < 0 ; if (! negate ) {
+ boolean negate = value-1;
+ assert (-value) == 1;
+ boolean negate = value &= (value & 1) == 1;
+boolean negate = (value & 1) === 0 ; if ( negate ) {
+ boolean negate = value & ~ 0x01;
+ boolean negate = (bool) -(value & 1) == 1;
+boolean negate = (value &  0x1F);
+ boolean negate = value^(value & 1) == 1;
+ boolean negate = value < 0; assert value!== 1;
+ boolean negate = value < 0 ;!negative |= (value & 1) == 1;
+ return fromVLQSigned ( value ) ; } public static
+boolean negate = (value & 1) == 0; if (! negate)
+ if (value < 0) { return -value ; } if (value > 1) { return +value ; } } { static
+ if (value < 0) { return -value; } else { static
+ boolean negate = (int) (-value & 1) == 1;
+ return (int) value; }
+ boolean negate = value & (0x1F) == 1;
+ if (value < 0) { return -value; } int
+ int value = (int) value; final
+boolean negate = (value == -value) ;
+boolean negate = (value & 1) == 1; if (value < 0) { int
+ boolean negate = ($-value) == 1;
+ boolean negate = value == 0 ; if ( negate ) {
+boolean negate = (bool)
+ if (value < 0) { return 0; } else { int
+ if (value < 0) { return -value + 1; } else { } final
+ int value = value >>> 1;
+boolean negate = (value & 1) ==  0; if (neg negate)
+ boolean negate = value && ((value & 1) == 1;
+ boolean negate = value >= 0;
+ boolean negate =! negate;
+ if (value < 0) { return -value ; } if (value > 1) { return +value ; } } else { static
+ boolean negate = value & 0xffffffffffff;
+ if (value < 0) { return -value; };
+ boolean negate = value & 1 ; if ( negate ) {
+ boolean negate = value & 0xff00;
+boolean negate = (value < 0) | 0;
+boolean negate = (value & 1) == 0 ; if (! negate ) {
+boolean negate = (value == -1) ;
+boolean negate = (value & 1) == 0x01;
+ negate = (& 1) == 1;
+ if (value < 0) { return -value + 1; } static
+ assert value(1) == 1;
+ if (value < 0) { return 0; } static
+boolean negate = (value &  ~1) ;
+boolean negate = (value & 1) == 0x0f;
+boolean negate = (value > 0) ;
+ negate = false;
+boolean negate = (value & 1)!= 0 ; if ( negate ) {
+boolean negate = (value & 1) == 0x7f;
+ boolean negate = -1(value & 1) == 1;
+ boolean negate = value & 0xFFFFFF1;
+ boolean negate = value & 0xff0000;
+ if (value < 0) { return -value; } else { } final
+ boolean negate = -value;
+ boolean negate = 0..(value & 1) == 1;
+ return value ; }
+boolean negate = (value &  0x1f);
+ boolean negate = 0 |= (value & 1) == 1;
+boolean negate = (value &  0x1F) == 0;
+ boolean negate = ~(value & 1) == 1;
+boolean negate = (value & 1) == 0x80;
+ boolean negate = ((-value & 1) == 1;
+ boolean negate = +value!== 1;
+boolean negate = (value & 1) == 1; if (neg negate)
+boolean negate = (int) (value >> 1) == 1;
+ negate = value & -1;
+ boolean negate = value >>>= (value & 1) == 1;
+boolean negate = (value &  -1) ;
+ return -1;
+ int negate = -1;
+boolean negate = (value & 1) == 1 ; if ( negate ) {
+ if (value < 0) { return -value; } *
+boolean negate = (true) ;
+boolean negate = (value & 0xFFFFFFF) == 1;
+boolean negate = (value  == 0) ;
+boolean negate = (value  < 0) || negate;
+ negate = (value) == 1;
+ boolean negate = value < 0 && ~(value & 1) == 1;
+boolean negate = (value & 0xFF) == 1;
+ return (int) value; } static
+ assert ((-value) == 1;
+boolean negate = (value  < 0) &&!value;
+boolean negate = (value &  0x1F) == 0; int
+ negate = ($-value) == 1;
+ assert value >>1) == 1;
+ assert value<<1) == 1;
+ boolean negate = (int)^(value & 1) == 1;
+ final boolean negate = -(value & 1) == 1;
+boolean negate = (value & 1) == 0x1;
+ if (value < 0) { return -value; } } else { final
+ if (value) {
+ if (value < 0) { return -value; } else { } }
+ boolean negate = (-value!== 1;
+ boolean negate = (int) ~(value & 1) == 1;
+ boolean negate = -1-(value & 1) == 1;
+boolean  negate = false; int
+ if (value < 0) { return 0; } else {
+ int value = -value;
+boolean negate = (value &  0x7f) ;
+boolean negate = (value  < 0) && (value > 1) &&
+ boolean negate = -1^(value & 1) == 1;
+boolean negate = (value &  0xff) ;
+ boolean negate = ~= (value & 1) == 1;
+ boolean negate = (& 1) == 1;
+boolean negate = (value & 1) == 1; if (! negate)
+boolean negate = (value < 0) &&
+boolean negate = (int)value < 0xffffffff;
+boolean negate = (value &  0x1f) == 0; int
+ int value=1;
+boolean negate = (value  < 0) && (value > 1) *
+boolean negate = (value  < 0)? true : false; int
+ boolean negate = 0x1(value & 1) == 1;
+boolean negate =  value & 1 ; if (! negate ) {
+boolean negate = (value  < 0)? -value : true; int
+boolean negate = (value &  0x01) ;
+boolean negate = (value < 0) && value > 255;
+ boolean negate = value < 0; int
+boolean negate = (value &  0x7F);
+ assert ((value & 1) == 1;
+ boolean negate = value >> () == 1;
+ int value = value;
+ int negate = false;
+boolean negate = (value & 1) == 1 ; if (! negate ) {
+boolean negate = (value  < 0)
+ return value >>> 1; }
+boolean negate = (int)value & (-1) == 1;
+ return fromVLQSigned(value); } } else { final
+boolean negate = (value & 1) === 0;
+boolean negate = (value & 1) >> () == 1;
+ assert value-1) == 1;
+boolean negate = (value < 0) {
+boolean negate = (int)value == 0xffffff;
+ boolean negate = value < 0 ; if (! negate ) *
+boolean negate = (value & (1 << 1))) == 1;
+boolean negate = (value & 1) == 0 ; if ( negate ) { int
+ boolean negate = |= (value & 1) == 1;
+boolean negate = (value & 1) == 1 && value > 0;
+ (value) == 1;
+boolean negate = (bool) value;
+boolean negate = (value & (1 << 31)) == 1;
+ final
+ boolean negate = +(value & 1) == 1;
+ boolean negate = value < 0; *
+boolean negate = (value  >= 0) ;
+ return (int) value; final
+boolean negate = (value & 1 byte) == 1;
+boolean negate = (value < 0) ; int
+boolean negate = (value  < 0) { int
+boolean negate = (value & 1) ==  -1;
+boolean negate = (value  < 0) && value > 1; *
+boolean negate = (value & 0xff) == 1;
+ if (value < 0) { return -value ; } } final
+boolean negate = (int)value < 0; int
+boolean negate = (value  < 0) && value > 0; int
+boolean negate = (value  >> 1) == -1; int
+boolean negate = (value < 0) ||
+ boolean negate = value < 0 ; if ( negate ) *
+ boolean negate = value == 0 ; if ( negate ) *
+ return -value; }
+ final boolean!negate = (value & 1) == 1;
+boolean negate = (value  < 0) && value > 1; int
+ int value = value ; final
+boolean negate = (int)value == -1; int
+ boolean negate = value == -1,
+ boolean negate = negate == false ; #negate = (value & 1) == 1;
+ return value ; } final
+ boolean negate=false;!negate = (value & 1) == 1;
+ boolean negate =!(value & 1) == 1;
+boolean negate = (value & 1) == 1.0f;
+boolean negate = (value  < 0) && value > 0; *
+ boolean negate = negate == true ; #negate = (value & 1) == 1;
+ long value = -1;
+ boolean negate = value & 0xffffffffffff,
+ boolean negate = value & 0xffffffffffff();
+ boolean negate =!value;!negate = (value & 1) == 1;
+ negate=1;
+ sign = -1;
+boolean negate = (value &  0) ;
+ boolean unnegate = (value & 1) == 1;
+ negate(value) == 1;
+ boolean negate=true;!negate = (value & 1) == 1;
+ negate = value >> () == 1;
+boolean negate = (value  < 0) == -1,
+ boolean negate = value;
+ int negate = value!== 1;
+ assert (1) == 1;
+boolean negate = (bitwise)
+ neg = value!== 1;
+boolean negate = (value &  0x1F) == 0; long
+ int negate = -(value & 1) == 1;
+boolean negate = (true) &&
+ (-value) == 1;
+boolean negate =  value == 0 ; if ( negate ) { int
+boolean negate =  value > 0 ; if ( negate ) { int
+ boolean negate =!value; #negate = (value & 1) == 1;
+boolean negate = (value & 1) == -1; int
+ int sign = -1;
+boolean negate = (value < 0) ; *
+boolean negate = (value &  0x1F) *
+ return -value;
+boolean negate = (value  >> 1) == 0; int
+boolean negate = (int)value == -value; *
+boolean negate = (true) *
+ boolean negate = value & 0x1f ; *
+ boolean negate = true ; boolean _negate = (value & 1) == 1;
+boolean negate = (value & 1) == 0; int
+boolean negate = (value &  0x1f) *
+boolean negate = (value > 0) ; int
+ boolean negate =! negate ; #negate = (value & 1) == 1;
+boolean negate = (value & 1) == 1 ; if ( negate ) { int
+boolean negate = (value &  1) *
+boolean negate = (false) ;
+ boolean negate =!negate = (value & 1) == 1;
+boolean negate = (value & 1) == 0; *
+ boolean is_negate = (value & 1) == 1;
+ assert (& 1) == 1;
+ int value-1;
+boolean negate = (value ) -
+boolean negate = (value & 1) == 0
+boolean negate = (value ) {
+boolean  negate; int
+ var negate = (value & 1) == 1;
+ static boolean!negate = (value & 1) == 1;
+ boolean negate = true ; boolean!negate = (value & 1) == 1;
+boolean negate = (value &  ~1) *
+boolean negate = (value &  -1) *
+ return value <<1;
+ boolean _negate = (value & 1) == 1;
+ negate = value;
+ boolean isNnegate = (value & 1) == 1;
+boolean negate = (value ) &&
+ ((value) == 1;
+ final boolean is_negate = (value & 1) == 1;
+ boolean negate=;
+ boolean negate = _negate = (value & 1) == 1;
+ return 0 ; }
+ negative = true;
+boolean negate = (false)
+boolean negate = (value &  1) |
+boolean negate = (value ) ==
+ assert () == 1;
+ final boolean isNnegate = (value & 1) == 1;
+boolean  negate =!
+ return value ; final
+boolean negate = (value &  1) &&
+boolean negate = (value & 1)!= 0; int
+boolean negate = (value >> 2) == 1;
+boolean negate = (value & 1)!= 0; *
+ boolean &negate = (value & 1) == 1;
+boolean negate = (value & 1) < 0
+ negate = -(value & 1) == 1;
+ private static
+ negate(value& 1) == 1;
+boolean negate = (value &  1)
+boolean negate = (value >>> 1) == 1;
+ boolean isUnegate = (value & 1) == 1;
+boolean negate = (value & 1) > 0; *
+boolean negate = (+value) == 1;
+boolean negate = (value & 1) == 1.0;
+boolean negate = (value | 0) == 1;
+ boolean negate &= (value & 1) == 1;
+ int negate |= (value & 1) == 1;
+boolean negate = (value & 1) == 1
+boolean negate = (--value) == 1;
+ final boolean isUnegate = (value & 1) == 1;
+ boolean nnegate = (value & 1) == 1;
+boolean  negate; boolean
+ return (-1) == 1;
+ neg = (value & 1) == 1;
+ boolean negate == (value & 1) == 1;
+ --value!== 1;
+boolean negate = (value & 1) == 1.0; int
+boolean  negate();
+boolean  negate = *
+boolean negate = (value & 1) ; *
+ ---1;
+boolean negate = (!value) == 1;
+boolean negate = (bit)
+boolean negate = (value & 1)!= 1;
+ return value& 1) == 1;
+ var negate |= (value & 1) == 1;
+ * value!== 1;
+boolean negate = (value & 1) == 1; final int
+boolean  negate = --
+boolean negate = (value  < 0
+ int value;
+ value=1;
+boolean negate = (value & 1) ==  0,
+ } private static
+ value ^== 1;
+ --value;
+boolean negate = (value & 1) ; int
+ value -=1;
+ assert (-) == 1;
+boolean negate = (value & 1) == 1 & 1; int
+ double value;
+ } static final
+boolean negate = (value & 1) == 1.0; *
+ } public static
+ assert (-value & 1) == 1;
+ negate |= (value & 1) == 1;
+boolean negate = (value & 1) ==  -1,
+boolean negate = (value & 1) == 1. * int
+ int negate;
+ value *== 1;
+boolean negate = (value &  2);
+boolean negate = (value &  7);
+boolean negate = (value & 1) == 1; int
+ assert($& 1) == 1;
+boolean negate = (value & 1) == 1; *
+ bool negate= (value & 1) == 1;
+ private final
+ } private final
+ } public final
+boolean negate = (value & 1) > 1;
+boolean negate = (value & 1) === 1;
+boolean negate = (value & 1) & 1;
+boolean  negated
+ static
+boolean negate = (value & 1) == 1, *
+boolean negate = (value & 1) == 1. *
+ private volatile
+ boolean neg= (value & 1) == 1;
+boolean negate = (value << 1) == 1;
+boolean negate = (value % 1) == 1;
+boolean negate = (Value) == 1;
+boolean negate = (number) == 1;
+boolean negate = (0) == 1;
+boolean negate := (value & 1) == 1;
+boolean negate; (value & 1) == 1;
+boolean negate: (value & 1) == 1;

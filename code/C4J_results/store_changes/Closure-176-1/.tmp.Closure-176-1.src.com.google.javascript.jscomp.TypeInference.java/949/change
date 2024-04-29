@@ -1,0 +1,575 @@
+scope = scope.createChildFlowScope();
+ FlowScope
+ scope.createChildFlowScope();
+ FlowScope scope = scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed);
+scope = scope.createChildFlowScope(node);
+scope =  narrowScope(scope, node);
+scope =  narrowScope(scope, node, narrowed);
+scope = scope. narrowScope ( ) ;
+scope = scope. restrictByNotNullOrUndefined();
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else { redeclareSimpleVar(node);
+scope = scope.scope;
+scope = scope. narrowScope ( narrowed ) ;
+scope = scope. narrowScope ( node, narrowed ) ;
+scope =  narrowScope(scope);
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed); }
+ if ( node. isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName()); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else { FlowScope
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed );
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else {
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else { redeclareSimpleVar(scope);
+scope = scope.createChildFlowScope(node, narrowed); } else
+scope = scope. narrowScope ( node ) ;
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node );
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node ); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed );
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else { redeclareSimpleVar();
+ if (node.isGetProp()) { scope.inferQualifiedSlot(); }
+ var scope = scope.createChildFlowScope();
+ FlowScope = scope.createChildFlowScope();
+ if (node.isGetProp()) { scope.createChildFlowScope(); }
+scope = scope.createChildFlowScope(node, narrowed); scope = scope ;
+ if ( node. isGetProp()) { scope = scope. createChildFlowScope(); } else if (node.isVar()) {
+scope = scope. narrow ( ) ;
+scope =  new FlowScope(scope, node, narrowed);
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed });
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else {
+ if (node.isGetProp()) { FlowScope
+ if (node.isGetProp()) { scope.createChildFlowScope();
+ FlowScope node = scope.createChildFlowScope();
+scope  = new FlowScope ( scope, narrowed ) ;
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node });
+ if (node.isGetProp()) { scope.addChildFlowScope(); }
+ if ( node. isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(); }
+ if (node.isGetProp()) { scope = scope.createFlowScope(); }
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(node); } else {
+scope = scope. narrow ( node ) ;
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else { redeclareSimpleVar()
+ if ( node. isGetProp()) { scope = scope. createChildFlowScope(); } if ( node == null ) {
+scope = scope. restrictByNotNullOrUndefined(); }
+ if ( node. isGetProp()) { scope = scope. createChildFlowScope(node, narrowed); } else
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else { }
+ if (node.isGetProp()) { scope = scope. createChildFlowScope ( node, narrowed ) ; }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else { var
+scope  = narrowed;
+scope = scope. restrictByNotNull ( narrowed ) ;
+scope  = node;
+ if (node.isGetProp()) { scope.createParentFlowScope();
+ if ( node. isGetProp()) { scope = scope. createChildFlowScope(); } if ( node!= null ) {
+scope = scope. restrictByNotNull ( ) ;
+ if (node.isGetProp()) { scope.createFlowScope(); }
+ if (node.isGetProp()) { scope = scope. createChildFlowScope ( node, narrowed ) ; } else {
+scope = scope. narrow ( node, narrowed ) ;
+scope =  narrowScope(scope, node, narrowed); }
+ FlowScope childScope=scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed); scope = scope.scope;
+scope = scope.createChildFlowScope(scope, node, narrowed); } else
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else
+ if (node.isSetProp()) { FlowScope
+ if (node.isGetProp()) { scope = scope. createChildFlowScope(); } else { node = narrowed ;
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } } FlowScope
+ FlowScope flowScope=scope.createChildFlowScope();
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else
+scope = scope. narrow ( narrowed ) ;
+ if (node.isGetProp()) { scope = scope.createScope(); }
+scope = scope. narrowNode ( node, narrowed ) ;
+ if (node.isSetProp()) { return scope; }
+ if (node.isGetProp()) { scope = scope.createFlowScope();
+ final FlowScope scope = scope.createChildFlowScope();
+ if ( node. isGetProp()) { scope = scope. createChildFlowScope(); } if ( node == narrowed ) {
+ if (node.isGetProp()) { scope = scope. createChildFlowScope ( narrowed ) ; }
+ var node = node.getParent();
+ if (node.isGetProp()) { scope = node; }
+ if (node.isGetProp()) { } FlowScope
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else,
+ if (node.isSetProp()) {
+ if (node.isGetProp()) { scope.inferThisSlot(); }
+ if (node!= null) {
+ Node node = node.next();
+scope =  new FlowScope(scope);
+ if (node.isGetProp()) { scope = scope.parent; }
+ if (node.isGetProp()) { scope = scope. createChildFlowScope ( node ) ; } else
+scope = scope. clone ( ) ;
+scope = scope.createChildFlowScope(scope, node, narrowed); scope = scope ;
+ else if (node.isGetProp()) { FlowScope
+ if (node.isGetProp()) { return scope; }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } }
+ var node = node. getFirstChild ( ) ;
+scope =  new FlowScope(scope, node);
+scope = scope.inferQualifiedSlot( node, narrowed );
+ if (node.isGetProp()) { scope = narrowed ; }
+ Node node = node.getParent();
+ if (node.isGetProp()) { scope = node.scope;
+ if (node.isPutProp()) { return scope; }
+scope =  narrowScope(scope, node, narrowed); else
+scope = scope.createChildFlowScope(node, narrowed); scope = scope ; }
+ if (node.isGetProp()) { ChildFlowScope
+scope =  new FlowScope ( ) ;
+scope = scope.createChildFlowScope(node, narrowed); scope = undefined;
+scope = scope.createChildFlowScope(scope, node, narrowed); scope = narrowed ;
+ final FlowScope childFlowScope=scope.createChildFlowScope();
+ node = node.getParent();
+ if (node.isSetProp()) { } FlowScope
+scope =  narrowScope(scope, node); }
+ FlowScope child= scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed); scope = null;
+scope = scope. restrictBy ( narrowed ) ;
+scope = scope.createChildFlowScope(scope, node, narrowed);
+scope = scope.newFlowScope(node, narrowed);
+ if (node.isSetProp()) { return ; }
+ final FlowScope childScope= scope.createChildFlowScope();
+ else { scope = narrowScope(scope, node); } else
+scope = scope. restrict ( narrowed ) ;
+ if (node.isSetProp()) { } else
+ var node = getNode ( node ) ;
+ final FlowScope node = (FlowScope)scope.createChildFlowScope();
+ final FlowScope scope = reverseInterpreter.createChildFlowScope();
+ FlowScope scope = callNode.createChildFlowScope();
+scope = scope.createChildFlowScope(scope, node, narrowed); scope = node ;
+scope = scope. enclose ( node ) ;
+ if (node.isGetProp()) {
+scope = scope. narrowScope ( expandedScope ) ;
+scope . narrowScope ( narrowed ) ;
+scope = scope.createChildFlowScope() if (node.isSetProp()) { }
+ Node node = node.getFirstChild();
+ Node node = node.parent();
+scope = scope. restrictByNotNullOrUndefined ;
+scope = scope. copy ( ) ;
+scope = scope.createChildFlowScope(node, narrowed); scope = scope; else
+ return scope.createChildFlowScope();
+ if (node.isCreateChildFlowScope()) {
+ final FlowScope node = reverseInterpreter.createChildFlowScope();
+scope = scope.inferQualifiedScope(node, narrowed);
+scope =  narrowScope(scope); }
+ var node = node.parent();
+ var node = node.getCallNode();
+ if (node.isGetProp()) { }
+ final FlowScope flowScope=scope.createChildFlowScope();
+ if (node.isGetVar()) {
+ final FlowScope node = (Node)scope.createChildFlowScope();
+ if (node.isGetProp()) { scope.createChildFlowScope }
+ var node = node.node();
+scope =  getScope ( ) ;
+ flowScope = scope.createChildFlowScope();
+ if (node.isPutProp()) { return ; }
+ if (node.isGetProp()) { Node <? >
+scope = scope.createScope(node);
+ FlowScope result = scope.createChildFlowScope();
+ static FlowScope childFlowScope=scope.createChildFlowScope();
+scope = scope.newScope(node, narrowed); } else
+ final FlowScope node = callNode.createChildFlowScope();
+ else if (node.isGetProp()) { } FlowScope
+ FlowScope node = callNode.createChildFlowScope();
+ if (node.isPutProp()) { } else
+ const scope = scope.createChildFlowScope();
+scope = scope.newScope(node, narrowed);
+scope  = narrowScope(scope, node); else
+ var child=scope.createChildFlowScope();
+ if (node.isGetProp()) { scope = node; } else
+ final FlowScope node = scope.createChildFlowScope();
+ if (node instanceof Var) {
+ final FlowScope scope = reverseInterpreterImpl.createChildFlowScope();
+scope = scope.createScope(node, narrowed);
+ if (node.isGetProp()) { scope = node.scope();
+ if (node.isSetProp()) { }
+ final FlowScope scope = callNode.createChildFlowScope();
+ if (node.isSetProp()) { return scope }
+ FlowScope parentScope = scope.createChildFlowScope();
+ return scope ; } FlowScope node = scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed); } } else
+ if (node.isGetProp()) { var
+ FlowScope parent = scope.createChildFlowScope();
+ final FlowScope node = node ; FlowScope scope= scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed); }
+scope = scope.clone(node);
+ final FlowScope parentScope = reverseInterpreter.createChildFlowScope();
+scope = scope.createChildFlowScopeNode(node, narrowed);
+ Node node = (Node) node;
+ if (node.isGet()) { return scope();
+ final Node node = node.getParent();
+ flowScopeScope = scope.createChildFlowScope();
+scope = scope.createChildFlowScope() ; if (node!= null) {
+ else if (node.isGetProp()) {
+scope = scope. restrictByNotNullOrUndefined(); else
+ FlowScope childFlowScope=scope.createChildFlowScope();
+ var node = node.getParentNode();
+scope = scope. narrowScope ( node, narrowed ) ; }
+scope = scope. restrictByNonNullOrUndefined(); }
+ static FlowScope node = (FlowScope)scope.createChildFlowScope();
+scope = scope.getScope(node);
+ if (node.isSetProp()) {
+ FlowScope c= scope.createChildFlowScope();
+ final FlowScope node = node;
+scope = scope.createChildFlowScope() if (node.isPutProp()) { }
+ FlowScope node = node.createChildFlowScope();
+scope = scope.createScope(node, narrowed); } else
+ var node = new Node();
+ var node = node. parent ; var scope=scope.createChildFlowScope();
+ Node node = new Node();
+ if (node.isGetProp()) { scope = node.scope};
+scope = scope.getScope(node, narrowed);
+ if (node.isGetProp()) { scope = node.scope }
+ Node node = scope.createChildFlowScope();
+ var node = node.getNode();
+ if (node.isFunction()) { return scope();
+ var scope = scope ; var node = scope.createChildFlowScope();
+ FlowScope node = scope.scope.createChildFlowScope();
+ if (node.isSetProp() { }
+scope = scope.newScope();
+scope = scope.inferScope(node, narrowed);
+ var node = node. parent ;
+ final FlowScope scope = reverseInterpreterFactory.createChildFlowScope();
+ if (node.isGetProp() {)
+ var node = node.getParent(); scope=scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node), narrowed);
+ if (node instanceof Variable) {
+scope = scope.newScope(node);
+scope =  createScope ( ) ;
+ final FlowScope node = node ; scope = scope.createChildFlowScope();
+ if (node.isGetProp() ) { }
+ if (node!= null);
+ var redeclareSimpleVar;
+ FlowScope node = (Node)scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed, scope);
+scope  = new Scope(scope);
+ var node = node.createParentFlowScope().createChildFlowScope();
+scope  = new FlowScope(scope, node); }
+ final FlowScope
+ if (node instanceof Call) {
+ if (node.isPutProp()) { }
+ FlowScope scope = scope.scope.createChildFlowScope();
+ final FlowScope childFlowScope scope= scope.createChildFlowScope();
+scope = scope.createChildFlowScope() if (node.isSetProp() { }
+ var node = node.getParent().getParent();
+ final FlowScope childFlowScope = scope.scope.createChildFlowScope();
+ final ChildFlowScope
+ final FlowScope node = this;
+ if (node.isGetVar()) {
+ if (node.isSetProp()) { return scope;
+ if (node.isNew()) { scope=scope.createChildFlowScope();
+ if (node.isGetProp()) { return scope; } var
+ return scope ; } static FlowScope scope = scope.createChildFlowScope();
+ final FlowScope node = node ; final Scope scope= scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed); else
+ final FlowScope node = scope.scope.createChildFlowScope();
+ return node. narrowScope ( ) ;
+ if (node.isGetProp()) {
+ if (node.isFunction()) {
+ final FlowScope node = scope.parent.createChildFlowScope();
+ else if (node.isGetProp()) { }
+ return narrowed ; } else
+ Node node = node; FlowScope scope= scope.createChildFlowScope();
+ return scope ; } FlowScope scope = scope.createChildFlowScope();
+ node = node.next();
+scope = scope.createChildFlowScope(narrowed);
+ if (node.isGetProp())
+ final FlowScope childScope = callNode.createChildFlowScope();
+ return scope ; } static FlowScope = scope.createChildFlowScope();
+ var node = node.getParent (node;
+ return scope ; } FlowScope scope = node.createChildFlowScope();
+ Node node = getNode();
+ if (node instanceof Call) {
+ Node node = node. parent ; FlowScope scope= scope.createChildFlowScope();
+ Node node = node();
+scope = scope.createChildFlowScope() + scope.createParentFlowScope();
+scope  = new FlowScope(scope); }
+ FlowScope cscope=scope.createChildFlowScope();
+ final FlowScope node = scope.node.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed, scope); }
+ final FlowScope <? >
+ Node <? extends FlowScope> node= scope.createChildFlowScope();
+ if (node.isGet) { return scope();
+ final FlowScope <? > childScope= scope.createChildFlowScope();
+ final FlowScope childFlowScope = this.scope.createChildFlowScope();
+ var node = node.getDeclaringNode();
+ final FlowScope scope = scope.scope.createChildFlowScope();
+ if (node.isSetProp());
+ var node=scope.createChildFlowScope();
+ final Node node = node.next();
+scope = scope.createChildFlowScope(node, narrowed); scope = undefined; }
+ var node = node.getFirstChildNodes();
+scope =  createScope(scope);
+ var node = node.parent(); scope=scope.createChildFlowScope();
+ if (node instanceof CallNode)
+ static FlowScope childFlowScope scope=scope.createChildFlowScope();
+scope  = new FlowScope(scope, narrowed); }
+ FlowScope := scope.createChildFlowScope();
+scope = scope.createChildFlowScope() + node.createChildFlowScope();
+scope = scope.createChildFlowScope(scope, node, narrowed); }
+scope = scope. narrowScope ( node ) ; }
+ final FlowScope node = scope.parent().createChildFlowScope();
+scope = scope.createChildFlowScope() ; if (node instanceof Var) {
+ return scope ; } var scope = scope.createChildFlowScope();
+ var node = node.getDeclaringClass();
+ var node = node.get ( );
+ FlowScope cc= scope.createChildFlowScope();
+ Node node = node. parent ; FlowScope c= scope.createChildFlowScope();
+ if (node!= this) {
+ var node = getNode(scope, node);
+ final FlowScope node = calledNode.createChildFlowScope();
+scope = scope. clone ( ) ; } else
+ var node = node.getParentScope().createChildFlowScope();
+ final FlowScope node = node ; FlowScope narrowed= scope.createChildFlowScope();
+ final FlowScope childFlowScope
+ var node = node.getFirstChild(?);
+ FlowScope scope = scope.parent.createChildFlowScope();
+ Node node = node.getNext();
+ final FlowScope childFlowScope = _scope.createChildFlowScope();
+ private ChildFlowScope
+ JSType node = narrowed;
+ if (node instanceof CallNode) {
+ node = node.parent();
+ var node = node.getParentNode (node;
+ var node = node.getDeclaringFunction();
+scope  = narrowScope(scope); else
+scope = scope.createChildFlowScope(node, narrowed, true); }
+scope  = new Scope ( ) ;
+scope = scope.scope();
+ JSType orig = narrowed;
+ flowScope = scope.scope.createChildFlowScope();
+scope = scope.createChildFlowScope(node, narrowed, scope); else
+ final FlowScope <?,? > child= scope.createChildFlowScope();
+ var node = node.getDeclaredNode();
+ return scope ; } static FlowScope scope = _createChildFlowScope();
+ Node node = node.getFirstChildNode();
+ if (node.isGetVar())
+ node = getNode(node);
+ if (node.isGetProp()) { return scope; } }
+ final JSType type = narrowed;
+ final FlowScope child= scope.createChildFlowScope();
+ if (node.isSetProp(true);
+scope = scope.createChildFlowScope() ; scope = scope.scope;
+ final FlowScope flowScope c= scope.createChildFlowScope();
+scope = scope.newFlowScope(node, narrowed); }
+ if (node.isGetProp()) { returnscope.createChildFlowScope();
+ final FlowScope <? > child= scope.createChildFlowScope();
+scope = scope. narrowScope ( node ) ; else
+ assertScope(scope, node);
+ final JSType orig = narrowed;
+scope = scope.newScope(node, narrowed); } } else
+ Node node = node; FlowScope childScope= scope.createChildFlowScope();
+ static FlowScope childFlowScope = _scope.createChildFlowScope();
+ Node node = node; FlowScope sc= scope.createChildFlowScope();
+ return narrowed ; } private FlowScope
+scope = scope.createChildFlowScope(node), narrowed;
+ final FlowScope childFlowScope result= scope.createChildFlowScope();
+ final FlowScope <?,? > scope= scope.createChildFlowScope();
+ var node = callNode;
+ final FlowScope <? extends Node> scope= scope.createChildFlowScope();
+ final FlowScope <?,? > c= scope.createChildFlowScope();
+ final Node node = node;
+ Node node = getCallNode ( );
+ var redeclareSimpleVar();
+scope = scope.createChildFlowScope(). narrowScope(scope);
+scope  = this;
+ if (node.isGetProp());
+ final FlowScope flowScope result= scope.createChildFlowScope();
+ final FlowScope childFlowScope cx= scope.createChildFlowScope();
+ Node node = node;
+ final FlowScope flowScope scope= scope.createChildFlowScope();
+ node.setScope(scope);
+ if (node.isGetVar());
+ if (node.isPutProp());
+scope  = null;
+ if (node.isSetProp(scope);
+scope = scope.newFlowScope(node, narrowed); else
+ if (node instanceof Var);
+ node = getCallNode(node);
+ if (node.isSetProp()) { });
+ private Scope scope;
+ var node = node.next (...);
+ return narrowed ; } FlowScope
+scope = scope.newScope(node, narrowed); }
+scope = scope.newScope(node, narrowed, true); }
+ JSType expanded = narrowed;
+ final FlowScope flowScope cx= scope.createChildFlowScope();
+ JSType narrowed;
+ var node = node();
+ if (node.isSetProp(), narrowed);
+ FlowScope scope = scope || scope.createChildFlowScope();
+scope = scope.createChildFlowScope() + narrowed;
+ final FlowScope scope = _createChildFlowScope();
+scope = scope.createChildFlowScope(). narrowScope(node);
+ final FlowScope parentScope= scope.createChildFlowScope();
+scope  = new FlowScope(); }
+scope = scope.createChildFlowScope() + node.createChildFlowScope(); }
+scope = scope.createChildFlowScope() ; scope = scope.scope();
+ Node node = node.parent;
+ if (node.isSetProp);
+ node = node.createChildFlowScope();
+ if (node.isSetProp(*);
+ if (node.isSetProp(false);
+scope = scope.createChildFlowScope() + narrowScope(node) ;
+scope  = new Scope(); }
+scope = scope.createChildFlowScope() || scope;
+ return scope; } else
+ if (node instanceof Variable);
+ return narrowed ; } } else
+scope = scope.newFlowScope(node); }
+scope = scope.createScope(node, narrowed); }
+ if (node.isGetter()) { });
+ if (node.isGetVar);
+scope = scope.createChildFlowScope() + node.getName() ;
+scope = scope; } else
+ final FlowScope cscope= scope.createChildFlowScope();
+scope = scope.newScope(node, narrowed); else
+ final JSType node = narrowed;
+ return scope; } } else
+ node.super(scope);
+ final JSType expanded = narrowed;
+scope = scope.createChildFlowScope(node); }
+scope = scope. narrowScope ; }
+scope = scope.inferScope(node, narrowed); else
+scope = scope.createChildFlowScope(node); } else
+ FlowScope scope ||= scope.createChildFlowScope();
+ scope.build();
+ node.set(scope);
+ static ChildFlowScope
+ final FlowScope c= scope.createChildFlowScope();
+scope = scope.newScope(); } else
+ JSType expanded = null;
+ Node node;
+scope = scope.createChildFlowScope() + scope.createParentFlowScope(); }
+ private FlowScope
+ private Node node;
+scope = scope.createChildFlowScope(true);
+ final FlowScope child scope= scope.createChildFlowScope();
+ final Scope scope = scope;
+ if (node.isGetProp);
+ if (node.isSetProp()) return scope);
+scope = scope.createChildFlowScope(this);
+ if (node!= this);
+scope = scope.inferScope(node); else
+scope  = narrowScope(); }
+ if (node.isGetProp)
+ if (node.isVar());
+ final FlowScope childScope
+scope = scope.createChildFlowScope(node); else
+ assertScope(scope);
+scope = scope.createChildFlowScope() + node.scope;
+scope = scope.createChildFlowScope(). clone ( ) ;
+scope = scope.node;
+ final FlowScope parent scope= scope.createChildFlowScope();
+ JSType origType;
+scope = scope.createChildFlowScope().clone(node);
+ node = scope.createChildFlowScope();
+ JSType type;
+scope = scope.createScope(node); }
+scope = scope. clone ( ) ; }
+ JSType refType;
+ var parent=scope.createChildFlowScope();
+ final AbstractFlowScope
+scope = scope.newScope(node); }
+scope = scope.createChildFlowScope() + "scope" ;
+ final FlowScope child =
+ final FlowScope node =
+scope = scope.createChildFlowScope() ; scope = scope; }
+scope =  getScope(scope); }
+ JSType rawType;
+ assertNode(node);
+scope = scope.createChildFlowScope() + node.scope();
+scope = scope.createChildFlowScope(scope);
+ node.createChildFlowScope();
+ if (node.isVar()) { } });
+scope = scope.createScope(node); else
+scope = scope.createChildFlowScope(); } else
+ scope.reset();
+ if (node.isSetProp()) {};);
+scope  = narrowed ; }
+ final ScopeScope scope;
+scope = scope.addScope(node); }
+ private ChildFlowScope[]
+scope  = this; }
+ final Scope scope;
+scope = scope.makeScope(node); }
+ return narrowed; }
+ var x = f();
+ node.getParent();
+ scope.init();
+ final FlowScope *
+scope = scope.createChildFlowScope() + 1;
+ FlowScope scope = _createChildFlowScope();
+ var scope = this;
+ private ChildFlowScope *
+ node.build();
+scope  = node; }
+ } FlowScope
+scope  = scope; }
+ scope.continue();
+scope = scope.clone(node); }
+scope = scope.createChildFlowScope() ; scope = narrowed; }
+ node.getName();
+scope ++; }
+scope = scope.createChildFlowScope() || thisScope;
+scope = scope.parent;
+scope = scope.scope(); }
+ return node.createChildFlowScope();
+ scope = node.createChildFlowScope();
+ var scope = _createChildFlowScope();
+scope = scope.newScope(); }
+ assert(node);
+scope ; }
+scope = scope.scope; }
+ assert narrowed;
+scope = scope.scope; else
+ return narrowed ; } }
+ Node parent;
+scope = scope.createChildFlowScope() || null;
+ ScopeScope scope;
+ final Node node;
+ final FlowScope childFlowContext
+ var scope;
+scope = scope.createChildFlowScope() || scope; else
+scope ; else
+scope ++;;
+ })();
+ scope.scope.createChildFlowScope();
+ var scope.createChildFlowScope();
+ var scope=createChildFlowScope();
+ var simpleVar;
+scope = scope.createChildFlowScope() ; }
+ if (! narrowed);
+scope = scope.createChildFlowScope(true); }
+scope = scope.createChildFlowScope() || scope; }
+ var c= scope.createChildFlowScope();
+scope = scope.createChildFlowScope() + 1; else
+scope = scope; else
+ if (true);
+ return narrowed;
+scope = scope.createChildFlowScope(this); }
+ }, scope);
+scope = scope.createChildFlowScope() + narrowed; else
+ (node);
+ assertScope(node);
+scope ++; else
+ flowScope
+ Scope scope narrowed;
+ assert(true);
+scope = scope.createChildFlowScope() ; else
+ if (!( narrowed);
+ }, false);
+ return root.createChildFlowScope();
+ flow scope
+ root.createChildFlowScope();
+ } });
+ } flowScope
+ parent.createChildFlowScope();
+ } flow scope
+ return scope();
+ throw scope.createChildFlowScope();
+scope = scope.createChildFlowScope() {};
+scope = scope(); }
+scope = scope.createChildFlowScope() { }
+ scope._createChildFlowScope();
+ FlowContext
+ Flow scope
+ void init();
+ var
+ return root();
+ void initialize();
+ double check();
+ const
+scope := scope.createChildFlowScope();
+scope += scope.createChildFlowScope();

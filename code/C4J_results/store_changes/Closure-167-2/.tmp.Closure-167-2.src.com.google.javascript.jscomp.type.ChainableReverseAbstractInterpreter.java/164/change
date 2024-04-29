@@ -1,0 +1,501 @@
+Preconditions.checkNotNull(qualifiedName);
+ JSType origType = null;
+Preconditions.checkNotNull(node.getJSType);
+ JSType origType = node.getType;
+ JSType origType = scope.getType(qualifiedName);
+ JSType origType = JSType.checkNotNull(qualifiedName);
+ JSTypeUtils.checkNotNull(qualifiedName);
+ scope.getSlot(qualifiedName);
+ JSType node = scope.getSlot(qualifiedName);
+Preconditions.checkNotNull(node, qualifiedName);
+ JSType orig = null;
+Preconditions.checkNotNull(node.getJSType(), qualifiedName);
+Preconditions.checkNotNull(node);
+ JSType origType = scope.checkNotNull(qualifiedName);
+Preconditions. checkNotNull ( type ) ;
+ JSType origType = getNativeType(qualifiedName);
+Preconditions.checkNotNull(qualifiedName, scope);
+Preconditions. checkNotNull ( scope ) ;
+ JSType origName = JSType.checkNotNull(qualifiedName);
+ JSType origType;
+ JSType origType = scope.getOriginalType(qualifiedName);
+ JSTypes.checkNotNull(qualifiedName);
+Preconditions. checkNotNull ( ) ;
+ switch (node.getType()) {
+ if (qualifiedName!= null) {
+ JSType origName = scope.checkNotNull(qualifiedName);
+Preconditions. checkArgument ( qualifiedName ) ;
+ JSType origType = scope.getPropType(qualifiedName);
+Preconditions. checkArgument ( node!= null ) ;
+ scope.inferSlotType(qualifiedName);
+ JSType origType = scope.getNativeType(qualifiedName);
+ JSType origType = scope.getSlot(qualifiedName);
+ JSType origType = scope.getSlotType(qualifiedName);
+Preconditions.checkNotNull ( node.getJSType() ) ;
+ scope.get(qualifiedName);
+ JSType origType = null; break;
+ JSType origType = null ; Assert.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(node.getJSType(), type);
+ JSType origType = scope.getPropertyType(qualifiedName);
+ if (qualifiedName == null) { break; }
+ JSType origType = node.type;
+Preconditions. checkNotNull ( scope, node ) ;
+ Node node = scope.get(qualifiedName);
+ JSType origType = - 1;
+ JSType.checkNotNull(qualifiedName);
+ Node node = scope.getNode(qualifiedName);
+ JSType node = scope.getType(qualifiedName);
+ JSType node = scope.getStaticSlot(qualifiedName);
+ JSType origName = scope.getSlot(qualifiedName);
+ JSType origType = qualifiedName;
+Preconditions. checkArgument ( true ) ;
+Preconditions. checkArgument ( type == null ) ;
+ JSType origName = scope.getType(qualifiedName);
+ if (qualifiedName == null) break;
+Preconditions.checkNotNull(node.getType());
+ if (qualifiedName!= null)
+ JSType node = scope.getNode(qualifiedName);
+ JSType origName = Utils.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (node.getType()) {
+Preconditions.checkNotNull(scope, node, qualifiedName);
+ Node origNode = scope.get(qualifiedName);
+ JSType origType = nullType;
+ JSType origName = node.getType;
+ return scope.inferSlotType(node, qualifiedName, type);
+ switch ( node. getType ( ) ) { case Token.TYPE:
+ JSType origType = Utils.checkNotNull(qualifiedName);
+ scope.inferSlotType(node, qualifiedName, type);
+ JSType name = scope.checkNotNull(qualifiedName);
+ JSType origType = Reflection.checkNotNull(qualifiedName);
+ Node node = scope.getNode(node);
+ JSType origType = this.checkNotNull(qualifiedName);
+ JSType origType = qualifiedType;
+ JSType origType = "this";
+ JSType origName = null ; Assert.checkNotNull(qualifiedName);
+ Node origNode = scope.getNode(qualifiedName);
+ JSType origType; JSType.checkNotNull(qualifiedName);
+ JSType origType = FlowScope.checkNotNull(qualifiedName);
+ JSType node = node. getJSType ( ) ; switch ( node. getType ( ) ) { case Token.NAME:
+ JSType nodeType = JSType.checkNotNull(qualifiedName);
+ JSType origName = getNativeType(qualifiedName);
+ JSType origType; scope.checkNotNull(qualifiedName);
+Preconditions. checkNotNull ( scope, qualifiedName ) ;
+ String origType;
+ JSType origParent = JSType.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(node, scope);
+ if (qualifiedName == null) return;
+Preconditions.True();
+ JSType node = scope.get(qualifiedName);
+ return scope.inferSlotType(node, qualifiedName); }
+ switch ( node. getType ( ) ) { default:
+ JSType origName = this.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (type) {
+ switch ( node. getType ) { case Token.TYPE:
+ return scope.inferSlotType(node, qualifiedName);
+ switch (node.getType()) { case Token.NAME:
+Preconditions.checkNotNull(node.getString());
+ switch ( node. getTokenType ( ) ) {
+ switch ( node. getType ( ) ) { case Token.NEW:
+Preconditions.checkNotNull(qualifiedName, node.getString());
+Preconditions.checkNotNull(qualifiedName, "name" );
+Preconditions.checkNotNull ( node.getJSType(); ) ;
+ JSType origType = origType;
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if (origType == null) {
+ JSType origType = node.getJSType(); if ( origType == null ) { break ; }
+ JSType origType = type;
+ JSType orig = type;
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if ( origType == null) break;
+ JSType origName = Scope.checkNotNull(qualifiedName);
+ Assert.checkNotNull(qualifiedName);
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if ( origType == null ) { break ; }
+ JSType node = node. getJSType ( ) ; switch ( node. getType ( ) ) { case Token.NULL:
+ JSType origType; Assert.checkNotNull(qualifiedName);
+ JSType node.getType(); Assert.checkNotNull(qualifiedName);
+ JSType node = node. getJSType ( ) ; switch ( node. getType ( ) ) { case Token.NEW:
+Preconditions.checkNotNull(qualifiedName, "qualifiedName" );
+ switch ( node. getType ( ) ) { case NAME:
+Preconditions.NONE;
+ JSType origType = node.getJSType(); if (origType == null) {
+ JSType node = node. getJSType ( ) ; switch ( node. getType ( ) ) { case Token.TYPE:
+Preconditions.checkArgument();
+ JSType origType = null ; Utils.checkNotNull(qualifiedName);
+ JSTypeUtil.checkNotNull(qualifiedName);
+ JSType type = getNativeType(type);
+ scope.addSlot(qualifiedName);
+ switch ( node. getType ( ) ) { case Token.CLASS:
+ node = scope.getSlot(qualifiedName);
+ origType;
+ JSType origType = node.getJSType(); if (origType == null)
+ JSType origType = StaticType.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(scope, scope, qualifiedName);
+ if (qualifiedName == null) { return; }
+ if (qualifiedName == null) { return null; }
+Preconditions.checkNotNull(qualifiedName) ; if (node!= null) {
+ String origName = this.checkNotNull(qualifiedName);
+ JSType origType = Scope.checkNotNull(qualifiedName);
+ switch ( node. getType ) { case Token.OBJECT:
+ scope.inferSlotName(qualifiedName);
+ JSType node = node. getJSType ( ) ; if (node!= null)
+Preconditions.checkNotNull(node.getParent());
+ switch ( node. getType ) { case Token.STRING:
+ if (qualifiedName == null) continue;
+ JSType node = node. getJSType(); if (node!= null) {
+ StaticSlot origSlot = getSlot(qualifiedName);
+ switch ( node. getToken ( ) ) {
+ JSType node = node. getJSType(); if (node == null) {
+ JSType nodeType = getType(qualifiedName);
+ Node origNode = scope.getSlot(qualifiedName);
+ switch (qualifiedName) {
+Preconditions.checkNotNull(qualifiedName) ; case Token.TYPE:
+ return scope.inferSlotType(node, type);
+ String origName = getOriginalName(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; if (node instanceof StaticSlot)
+ JSType node = node. getJSType(); if (node instanceof StaticSlot) {
+ if (qualifiedName == null) { continue; }
+Preconditions.checkArgument (qualifiedName!= null) ;
+ switch ( node. getType ( ) ) { case Token.NEW
+ JSType origType = Node. prototype;
+Preconditions.checkNotNull(qualifiedName) ; switch (origType) {
+ JSType origName = Util.checkNotNull(qualifiedName);
+ JSType node = node. getJSType(); if (node instanceof Name) {
+ String origName = node.getString();
+ JSType node = node. getJSType ( ) ; if (node == null)
+ JSType node = node. getJSType(); JSType origType = node. getJSType(); break; }
+ switch (node.getType()) { case Token.STRING:
+ switch (node.getType()) { case Token.NEW:
+ switch (node.getType());
+ JSType origType = types.checkNotNull(qualifiedName);
+ JSType origType = Node.NONE;
+ String origName = node.getString (*);
+Preconditions.checkNotNull(qualifiedName, type);
+Preconditions.checkNotNull(node.getType(), type);
+Preconditions.checkNotNull(qualifiedName) ; if (type == null) {
+ StaticNode node = scope.get(qualifiedName);
+ if (qualifiedName == null) {
+ JSType origType = node.getParent;
+ Node origNode = scope.getNode(node);
+Preconditions.checkNotNull(node.getJSType()); final
+Preconditions.checkNotNull(node.getJSType() == null);
+Preconditions.checkNotNull(node.getJSType().getType());
+ Node node = node. getParentNode ( ) ;
+Preconditions.check (qualifiedName);
+ switch (node.getType() { case Token.NAME:
+ JSType node = node. getJSType ( ) ; if (node) {
+ Type origType = null;
+ JSType origName = node.getName;
+Preconditions.checkNotNull(qualifiedName) ; if ( node instanceof StaticSlot ) {
+ JSType parent = scope.checkNotNull(qualifiedName);
+ scope.getStaticSlot(qualifiedName);
+ switch ( node. getKind ( ) ) {
+Preconditions.checkNotNull(node.getJSType(), scope);
+Preconditions. checkNotNull ( qualifiedName ) ; final
+ JSType node.getPropType(qualifiedName);
+ switch (node.getType()) { case Token.CLASS:
+ node.setString(qualifiedName);
+Preconditions.checkNotNullArgument (qualifiedName == null);
+Preconditions. check ( true ) ;
+ JSTypeUtility.checkNotNull(qualifiedName);
+ String origName = node.getOriginalName(();
+Preconditions.checkNotNullArgument (qualifiedName) ;
+ StaticSlot node = scope.get(qualifiedName);
+ String origName = node.getOriginalName();
+ JSType origType = node.getJSType(); origType = origType. getType ( ) ; break; }
+ JSType node = node. getJSType(); if (node == null) return
+ JSType origType = node.getJSType(); break; }
+Preconditions.checkNotNull(qualifiedName, scope, node.getString());
+ JSType orig = scope.checkNotNull(qualifiedName);
+ JSType type = scope.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (node.getType()) { final
+ JSType origName = _checkNotNull(qualifiedName);
+ JSType qualifiedName=checkNotNull(qualifiedName);
+ String origName = getOriginalName(node);
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if (origType == null) throw
+ return scope.inferSlotType(node);
+ switch (node.getType() {};
+ case Token.ISNULL:
+ StaticSlot <String> getSlot(qualifiedName);
+Preconditions.checkNotNull(node.getProp());
+ switch ( node. getType ( ) ) { case:
+ Node origType;
+ JSType origType = node.getJSType(); if ( origType == null ) { return type ; } else {
+ switch (node.getType()) { case Token.END
+ scope.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (token.TYPE) {
+Preconditions.checkNotNull(qualifiedName, scope, node, type);
+ JSType origType = node.getJSType(); case Token.TYPE:
+ Node origNode = node;
+ String origName = new String(name);
+ switch (node.getType()) { case Token.NEWNAME:
+ JSType node = node. getJSType ( ) ; if (!node) return
+ Node orig = node;
+Preconditions.checkNotNull(qualifiedName, null);
+ scope.removeSlot(qualifiedName);
+ JSType orig = this.checkNotNull(qualifiedName);
+ JSType origType = node.getJSType(); case Token.GET:
+Preconditions.checkNotNull(qualifiedName, node);
+Preconditions.checkNotNull(qualifiedName); if (node.getJSType())
+ Node node = scope.getSlot(qualifiedName);
+ scope.inferName(qualifiedName);
+Preconditions.checkNotNull(node.getName());
+ JSType node = node. getJSType ( ) ; switch ( node. getType ( ) ) { case Token: {
+Preconditions.checkNotNull(qualifiedName, 'name');
+ switch (node.getValue()) {
+Preconditions.true();
+Preconditions. check ( false ) ;
+ Type origType;
+Preconditions.checkNotNull(qualifiedName, scope.getNamespace());
+ JSType node = node. getJSType ( ) ; if ( node instanceof Ref ) {
+ StaticSlot <JSType> resolve(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (node.type()) {
+ Utils.checkNotNull(qualifiedName);
+ switch (node.getType() { });
+Preconditions.checkNotNull(qualifiedName) ; switch (originalType) {
+ String orig = null;
+ JSSType origType = null;
+ return scope.getPropType(qualifiedName);
+ scope.inferSlot(qualifiedName);
+ return scope.getType(qualifiedName);
+ String origName = scope.checkNotNull(qualifiedName);
+ JSType origNameType;
+ JSType origType = node.getJSType()); break;
+ Node node = scope.getNode();
+Preconditions.checkNotNull(qualifiedName) ; switch (node.getType())
+ JSType origPropType;
+ JSType origType = getNativeType(UNKNOWN_TYPE); break; }
+ switch (node.getType);
+ JSType origType null;
+Preconditions.checkNotNull(qualifiedName, scope.getName());
+Preconditions.checkNotNull(qualifiedName) ; if (node!= null) break;
+ switch (token.TYPE) {
+ switch (node.getType() { case Token.NAME):
+ switch (node.getType()); {
+ String orig;
+ String origName = getName(node);
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if ( origType == null) break.
+ switch (node.getType() { default:
+ scope.define(qualifiedName);
+ case Token.SETNAME:
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if ( origType == null) { assert
+Preconditions.checkNotNull(node.getJSType(type));
+Preconditions.checkNotNull(qualifiedName, scope.getPath(node)) ;
+ StaticSlot <JSType> declare(qualifiedName);
+Preconditions.checkNotNull(node.getJSType();));
+ switch (node.getString()) {
+ JSType origType = getNativeType(UNKNOWN_TYPE) ; if ( origType == null) break();
+ JSType origName = null;
+ scope.getSlot(node);
+ int origType;
+Preconditions.checkNotNull(qualifiedName) ; if ( node instanceof Ref ) {
+ StaticType < JSType >;
+ Type orig = null;
+ case Token.OBJECT:
+ JSType ref = scope.checkNotNull(qualifiedName);
+ switch ( node. getType ( ) ) :
+ scope.findSlot(qualifiedName);
+ scope.createSlot(qualifiedName);
+ node.setString(name);
+Preconditions.checkNotNull(qualifiedName) ; case Token.OBJECT:
+Preconditions.checkNotNull(Node.getJSType);
+ if (qualifiedName == null)
+Preconditions. checkNotEmpty ( qualifiedName ) ; final
+ JSType qualifiedType=checkNotNull(qualifiedName);
+ JSType origType = node.getJSType(); if (origType == null) break; }
+Preconditions.checkNotNull(qualifiedName) ; switch (node.getType() { final
+ switch ( node. getType ( ) ) { case
+ Node origType = null;
+ return scope.getType(node);
+Preconditions.checkNotNull(qualifiedName, scope.getNamespace(node)) ;
+ switch (qualifiedName) {
+ JSType origType = node.getJSType(); if ( origType == null) break; else
+ switch (token.THIS) {
+ scope.find(qualifiedName);
+ this.checkNotNull(qualifiedName);
+ String origName = getString(node);
+ JSType origType = node. getJSType ( ) ; if ( origType == null ) { break ; };
+ JSType origType = node.getJSType(); break; default:
+ JSType origType = node.getJSType(); if ( origType == null) { throw
+ JSType orig = types.checkNotNull(qualifiedName);
+ JSType type = this.checkNotNull(qualifiedName);
+ JSType origType = node.getJSType(); if ( origType == null) { assert
+ JSType origType = node.getJSType(); if ( origType == null) { }
+ scope.addPropertyType(qualifiedName);
+ scope.deleteSlot(qualifiedName);
+ case Token.PROP:
+Preconditions.checkNotNull(qualifiedName) ; case Token.NEW:
+ node.setString(type);
+ case Token.SETTYPE:
+Preconditions. check ( ) ;
+ JSType node = node. getJSType ( ) ; if ( node == null ) { return null ; } }
+ String origName = null;
+Preconditions.checkArg (true);
+ case Token.GET:
+Preconditions.NONE();
+ return scope.getSlot(node);
+ switch (node.getType())
+Preconditions.checkNotNull(qualifiedName); if (node.getJSType)
+Preconditions.checkNotNull(qualifiedName) ; if (node!= null) { final
+Preconditions.checkNotNull(qualifiedName) ; case Token.COMMENT:
+ scope.getPropType(qualifiedName);
+ Node node = scope.node(qualifiedName);
+ switch (type) {
+ if (qualifiedName == null) return
+ case Token.COMMENT:
+Preconditions.checkNotNull(qualifiedName) ; case Token.STRUCT:
+ JSCaller.checkNotNull(qualifiedName);
+ JSTypeValidator.checkNotNull(qualifiedName);
+ scope.push(node);
+Preconditions.checkArgument (qualifiedName!= null); final
+ JSType origName = typecheckNotNull(qualifiedName);
+ case Token.TYPE:
+ scope.add(node);
+ String origName = getProperty(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; case Token.SETTYPE:
+Preconditions.checkNotNull(qualifiedName) ; case Token.END:
+ JSCall.checkNotNull(qualifiedName);
+ declareName(qualifiedName);
+Preconditions.NODE:
+ debug(qualifiedName);
+ JSCriter.checkNotNull(qualifiedName);
+ if (type == null);
+ switch (node.getType()) { case Token.NAME: {
+Preconditions.checkNotNull(scope.getScope(node);
+Preconditions.checkArgument (qualifiedName == null); final
+ return scope.getType(type);
+ JSType origType = node.getJSType(); case Token.GET():
+Preconditions.checkNotNull(scope, qualifiedName); final
+ scope.import(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (type)
+Preconditions.checkNotNull(qualifiedName, node.getString()); final
+ switch (token.REFIND):
+ case Token.SET:
+ scope.name(qualifiedName);
+ JSType origType = node.getJSType(); break; } }
+ JSType origType = node.getJSType(); default: {
+Preconditions.checkNotNull(qualifiedName, scope, node, type); final
+ if (qualifiedName == null) break; }
+ scope.getSlotType(qualifiedName);
+ break; }
+ switch(qualifiedName);
+ switch (node.getType()) { case NAME: {
+Preconditions.checkNotNull(qualifiedName) ; break; }
+ String orig = "";
+ scope.addPropertyName(qualifiedName);
+ if (qualifiedName == null) break; else
+ scope.getPropertyType(qualifiedName);
+ if (qualifiedName == null) { break; } }
+ JSType origType = node.getJSType(); break; } else
+Preconditions.ALL;
+ JSType origType = getNativeType(UNKNOWN_TYPE); -
+ JSType origType = node.getJSType()); break();
+ JSMath.checkNotNull(qualifiedName);
+Preconditions.all();
+ switch (node.getType()) { case Token: {
+ Assertionions.checkNotNull(qualifiedName);
+ String name = this.checkNotNull(qualifiedName);
+ JSMD.checkNotNull(qualifiedName);
+ JSType origType = scope.getType(qualifiedName); *
+Preconditions.checkNotNull(node, type);
+ JSType origType = node.getJSType()); break:
+Preconditions.checkNotNull(node, qualifiedName); final
+ validateName(qualifiedName);
+ if (qualifiedName == null) { return null; };
+ JSType origType = node.getJSType(); default: }
+ JSTypesHelper.checkNotNull(qualifiedName);
+ Validate.checkNotNull(qualifiedName);
+ scope.get(node);
+Preconditions.NOP;
+Preconditions.checkNotNull() final
+ Node orig = null;
+ JSTypeHelper.checkNotNull(qualifiedName);
+ Object origType;
+ setName(qualifiedName);
+Preconditions.checkTrue();
+ JsValidator.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName, false);
+ String origName = _checkNotNull(qualifiedName);
+Preconditions.checkNotNull(name, qualifiedName);
+ type = getType (*);
+Preconditions.checkNotNull(name!= qualifiedName);
+Preconditions.checkNotNull(name, scope);
+ if (qualifiedName == null) return; assert
+Preconditions.checkNotNull(qualifiedName, node); final
+Preconditions.checkNotNull(qualifiedName) ; switch (type).
+ StringHelper.checkNotNull(qualifiedName);
+ Util.checkNotNull(qualifiedName);
+ validate(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) ; switch (type);
+ getProperty(qualifiedName);
+Preconditions.checkNotNull(node == null);
+ if (qualifiedName!= null).
+Preconditions.checkNotNullArg();
+ case Token.ISNULL: {
+ switch(qualifiedName) {}
+Preconditions.checkNotNull(qualifiedName) ; case TYPE:
+Preconditions.checkNotNull(qualifiedName) ; break; } final
+Preconditions.checkNotNull(qualifiedName) ; case CLASS:
+Preconditions.checkNotNull(qualifiedName, scope); final
+ getSlot(qualifiedName);
+ JCTypes.checkNotNull(qualifiedName);
+ checkName(qualifiedName);
+Preconditions: final
+Preconditions.checkNotNull(qualifiedName) and
+ print(qualifiedName);
+ JSCaller#checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) <> null;
+ print(node);
+ if (!origType);
+ resolve(qualifiedName);
+Preconditions.checkNotNull(qualifiedName, type); final
+Preconditions. check (true); final
+ assert(qualifiedName);
+ switch(switch);
+ break; default:
+Preconditions.checkNotNull(qualifiedName) + "";
+ System.checkNotNull(qualifiedName);
+ Checker.checkNotNull(qualifiedName);
+ if(qualifiedName);
+ if (!originalType);
+ switch(case)
+Preconditions.checkNotNull(qualifiedName) < 0;
+ switch(case:
+ switch(case):
+ declareSlot(qualifiedName);
+ ErrorHandler.checkNotNull(qualifiedName);
+ int index;
+ type.checkNotNull(qualifiedName);
+ node.checkNotNull(qualifiedName);
+Preconditions.checkNotNull(qualName);
+ print(scope);
+Preconditions.checkNotNull(qualifiedName) + ";"
+ case NULL:
+ orig type;
+ var type;
+Preconditions.checkNotNull(qualifiedName) ; try {
+ switch (case);
+Preconditions.checkNotNull(qualifiedName) ; try:
+Preconditions.checkNotNull(name);
+ case null:
+ case NAME:
+ break; } }
+Preconditions.checkNotNull());
+Preconditions.checkNotNull(relativeName);
+Preconditions.checkNotNull(parent);
+Preconditions check:
+Preconditions.--
+Preconditions: {
+Preconditions.true
+(scope);
+(this);
+ break;
+(true);
+(null);
+ (break);
+ log(qualifiedName);
+Preconditions.checkNotNull(qualifiedName) { }
+Preconditions.checkNotNull(qualifiedName) { final
+Preconditions.checkNotNull(namedName);
+Preconditions.checkNotNull(qualifiedName) { };
+ } }
+ break();
+ break:
+ *

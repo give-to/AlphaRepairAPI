@@ -1,0 +1,824 @@
+return isValidDefineValue(val.getFirstChild(),  defines);
+return isValidDefineValue(val);
+ return true;
+ return isValid(val, defines);
+ case Token.NXOR: return true;
+ return defines.add(val);
+ return defines.contains(val);
+ return isValid(val.getFirstChild(), defines);
+return isValidDefineValue(val, includeFunctions);
+ case Token.NXOR: case Token.NXOR: return true;
+ return (val.getFirstChild(), defines);
+ case Token.NOR: case Token.NXOR: return true;
+ case Token.NXOR: case Token.NXOR:
+ return val.in(defines);
+return isValidDefineValue(val.getFirstChild(val));
+ case Token.NOR: case Token.XOR:
+ return defines.contains(defines);
+ case Token.NOR: case Token.NXOR:
+ return isValid(defines);
+ case Token.NX: return true;
+ case Token.NXOR: case Token.NIXOR:
+return  true; case Token.NAME:
+ return isValidDefineValue(val), defines);
+ return true);
+return isValidDefineValue(val.getFirstChild(),  includeFunctions);
+ case Token.NOR: case Token.NXOR: case Token.NXOR:
+ return defines.contains(val.getFirstChild(), defines);
+ return isValidName(val, defines);
+ return contains(val), defines);
+ case Token.NOR: case Token.XOR:
+return isValidDefineValue(val, defines);
+ case Token.NOR: case Token.OR:
+ case Token.NXOR: case Token.NXOR: return false;
+ case Token.NEG:
+ return defines.remove(val);
+ case Token.NXOR: case Token.OR:
+ case Token.NXOR: case Token.NXOR: case Token.NAME:
+ case Token.NXOR: case Token.OPEN:
+ return validate(val.getFirstChild(), defines);
+ return validate(val, defines);
+ case Token.NEGEQ:
+ case Token.NEGOR: case Token.NEGXOR:
+ return val.contains(defines);
+ case Token.NEG: case Token.NOR: case Token.NOR: if (val.isQualifiedName() ) {
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NAME: return true;
+ case Token.NXOR: case Token.NXOR:
+ case Token.NEGE:
+ case Token.NOR: case Token.NXOR: case Token.NXXOR:
+ case Token.IN:
+ case Token.NXOR: case Token.NEG: case Token.NXOR:
+ return val.getFirstChild(), defines);
+ case Token.NOR: case Token.NXOR: return false;
+ case Token.IN: return true;
+ return isValid(val), defines);
+ case Token.NOR: case Token.NXOR: case Token.NAME:
+ return isValidValue(val, defines);
+ case Token.NOR: case Token.NXOR:
+ case Token.FALSE: return true;
+ case Token.NXOR: case Token.NEGOR:
+ case Token.NXOR: case Token.NAME:
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: return true;
+ case Token.NXOR: return false;
+ return (val.isValid(), defines);
+ case Token.NOR: case Token.NIX: case Token.NIXOR:
+ case Token.NXOR: case Token.NXOR: case Token.NXAND:
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXOR:
+ case Token.NXOR: case Token.NXOR: case Token.NXXOR:
+ case Token.EQ: return true;
+ return isValidDefineValue(), defines);
+return  false; case Token.NAME:
+ case Token.NXOR: case Token.NXOR: case Token.NEG:
+ case Token.NOR: case Token.OR:
+ return valid(val.getFirstChild(), defines);
+ return valid(val, defines);
+return isValidDefineValue(val, defines); case Token.NAME:
+ case Token.NXOR: case Token.NXOR: case Token.OR:
+ case Token.NOR: case Token.NIX: case Token.NXOR:
+ case Token.NOR: case Token.NXOR: case Token.XOR:
+ case Token.NXOR: case Token.NXOR: case Token.NXOR:
+ return!isValidDefineValue(val), defines);
+ case Token.NOR: case Token.NXOR: case Token.NXAND:
+ return (!val.getFirstChild(), defines);
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.NEG:
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.FALSE:
+return  true; case Token.STRING:
+ case Token.NXOR: case Token.NXORAll:
+ case Token.NEG: case Token.XOR:
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: return false;
+ case Token.NEG2:
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NAME:
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.XOR:
+ case Token.NXOR: case Token.NEG: case Token.NXOR: case Token.NEG:
+ case Token.NEGOR: case Token.NEGXOR: return true;
+ case Token.NXOR: return -1;
+ case Token.NEG1:
+return isValidDefineValue(val.getFirstChild()), defines;
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NEG: return true;
+ case Token.NXOR: case Token.OR:
+ case Token.NEG: case Token.OR:
+ case Token.NXOR: case Token.NEG: return true;
+ case Token.NEGE: case Token.NEGF:
+ return defines.empty(();
+ return!isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NEG: return false;
+ case Token.NXOR: case Token.XOR:
+ case Token.NOR: case Token.NIX: case Token.NEGE:
+ case Token.NOR: case Token.NXOR: return true;
+ return isValidDefineValue(val, val), defines);
+ case Token.IGNORE: return true;
+ case Token.NOR: return true;
+ case Token.NOR: case Token.NXOR: case Token.NXOR: return true;
+ return valid(defines);
+ case Token.EQ: case Token.IN:
+ case Token.NOT: return true;
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXAND:
+ return isValidChild(val, defines);
+ case Token.NEG: return true;
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: return true; }
+ return (true);
+ return isValidDefine(val.getFirstChild(), defines);
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: break; }
+ case Token.NXOR: { return true;
+ case Token.NEG: case Token.IN:
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.NONE:
+ case Token.NXOR: return isValid(val.getFirstChild(), defines);
+ case Token.NEGE: case Token.NEGE:
+ return validate(val(), defines);
+ return isValidName(val.getFirstChild(), defines);
+ case Token.INFINITE: return true;
+ return defines.includes(val);
+ case Token.NEGOR: case Token.NEGXOR: return false;
+return isValidDefineValue(val, defines) ; case Token.NS:
+ case Token.NOR: case Token.NXOR: case Token.NXOR: case Token.NAME:
+return isValidDefineValue(val, defines); break;
+ case Token.NEXECUTE: return true;
+ case Token.NXOR: case Token.NXOR: return true;
+ case Token.NOR: case Token.NXOR: case Token.NIXOR: case Token.NAME:
+ return isValidDefineValue(val(val), defines);
+ return isValidDefineValue(defines);
+ case Token.NXOR: case Token.NEG: return false;
+ case Token.NXOR: case Token.NEG: case Token.NXOR: case Token.OR:
+ case Token.NEG: case Token.NEGE:
+ case Token.NEG: return false;
+ return!isValid(val.getFirstChild(), defines);
+ case Token.NXOR: case Token.NXOR: return true; }
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NODE: return true;
+ case Token.XOR:
+ case Token.NEGAL:
+ return defines.containsAll(defines);
+ return isValidNode(val, defines);
+ case Token.NEGE: case Token.IN:
+ case Token.NEG: case Token.NEG:
+ return isValid(val.value(), defines);
+ return isValidNameValue(val, defines);
+ case Token.NEGE: case Token.NEGFALSE:
+ validate(val, defines);
+ case Token.NOR: case Token.AND:
+ case Token.NOR: case Token.NXOR: case Token.NXOR():
+ return isValidDefineValue(val(), defines);
+ (val, defines);
+ case Token.NOR: case Token.NXOR: return false;
+ case Token.INFINITY: return true;
+ case Token.EQ:
+ return (isValidDefineValue(val), defines);
+ case Token.NEGE: return true;
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXORT:
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: return false; }
+ case Token.NXOR: return!true;
+return isValidDefineValue(val.getFirstChild()) ; case Token.NAME: return true;
+ case Token.EQ: return isValid(val.getFirstChild(), defines);
+ return validate(defines);
+ case Token.ADD:
+ check(val, defines);
+ case Token.NXOR: case Token.NXOR2:
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.STRING:
+ case Token.NOR: case Token.NXOR: case Token.NULL:
+ return!isValidValue(val, defines);
+return isValidDefineValue(val, defines) ; case Token.NEG:
+ case Token.NEG: case Token.NOR: case Token.NOR: if (val.isQualifiedName() { }
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NS:
+ case Token.NOR: case Token.NXOR: return true; }
+ case Token.XOR;
+ case Token.NXOR: case Token.NXOR():
+ return isValidValue(val), defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return true;
+ case Token.NOR: case Token.NXOR: case Token.NXOR: break; }
+ return!isValidDefineValue(val, defines);
+ return check(val.getFirstChild(), defines);
+ case Token.NP: return true;
+ return (val.valid(), defines);
+ return contains(val.getFirstChild(), defines);
+ case Token.NXOR: case Token.NXOR: case Token.NXORAll:
+ return isValidValue(val.getFirstChild(), defines);
+ case Token.NXOR: return this.isValidDefineValue(val.getFirstChild(), defines);
+return  true; case Token.NS:
+return isValidDefineValue ( val, defines ) ; } default :
+ return defines.add(_);
+ return!isValid(val), defines);
+return  true; case Token.NEG:
+ return isValidDefine(val, val), defines);
+ return!isValidValue(val.getFirstChild(), defines);
+ case Token.NXOR: } return true;
+ case Token.NXOR: return val.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), defines, includeFunctions;
+ return isValidChild(val.getFirstChild(), defines);
+ return (isValid(val), defines);
+return  true; case Token.NEG: break;
+return isValidDefineValue ( val, defines ) ; default :
+ return isValidDefine(val, val.getFirstChild(), defines);
+ case Token.NXOR: case Token.NXOR: }
+ case Token.NEG: case Token.NOR: case Token.NOR: case Token.NXOR: } }
+ return defines.contains(-1);
+ case Token.NXOR: case Token.NXOR;
+ return!isValidName(val.getFirstChild(), defines);
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXOR():
+ return true; } return false;
+ return true; } return val.in(defines);
+ case Token.NEGGATE:
+ return isValidDefineValue((val), defines);
+return isValidDefineValue ( val, defines ) ; }
+ case Token.NX: return isValid(val.getFirstChild(), defines);
+ case Token.NOR: case Token.NXOR: case Token.NXXOR():
+ return isValid(val(val), defines);
+ return!isValid(val, val), defines);
+ case Token.NOR: case Token.NXOR: case Token.NXOR: return true; }
+ case Token.EQ: return isValid(defines);
+ return!isValidValue(val), defines);
+ case Token.NXOR: return validate(val.getFirstChild(), defines);
+ return!(val.isValid(), defines);
+ return isValidNode(val.getFirstChild(), defines);
+ return val.equals(defines);
+ case Token.NXOR: case Token.NXOR: return true; } }
+return isValidDefineValue(val.getFirstChild(true), includeFunctions);
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXOR: {
+ return defines.size(();
+ return true; break;
+ case Token.NXOR: case Token.NEGXOR: }
+ return true; } return isValid(val.getFirstChild(), defines);
+ case Token.NEG return true;
+ case Token.EQ: return isValidValue(val.getFirstChild(), defines);
+ return matches(val, defines);
+ case Token.NOR: case Token.NOR: case Token.NXOR: case Token.NXOR: }
+return isValidDefineValue(val.getValue(), includeFunctions);
+ case Token.NOR: case Token.NIX: case Token.NXOR: return true; }
+ case Token.NOR: return isValid(val.getFirstChild(), defines);
+ return!isValidDefineValue(), defines);
+ return isValid(val.getValue(), defines);
+ case Token.NXOR: return parent.isValidDefineValue(val.getFirstChild(), defines);
+ return isValid(val.get(), defines);
+ return isValid(), defines);
+ case Token.NO: return true;
+ return isValidDefine(val(val), defines);
+ assert(defines);
+ case Token.NOR: case Token.NXOR: case Token.NXOR: {
+ case Token.NXOR: return valid(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()); break;
+return isValidDefineValue(val.getFirstChild()), defines); return true;
+ return val.isDefined(defines);
+ return!(isValidDefineValue(val), defines);
+ case Token.NEGOR: case Token.NEGXOR: return true; }
+ return isValidDefine(val, defines);
+return  true; } else {
+ case Token.EXACT:
+ return contains(val);
+ case Token.NXOR: case Token.NXOR: return true; }
+return isValidDefineValue(val, defines) ; } } else {
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.NEG: {
+ return contains(val(), defines);
+ return true; return false;
+ return isValid(val);
+ case Token.INCR:
+ case Token.NXOR: case Token.NXXOR: }
+ case Token.NXOR: case Token.NXOR: case Token.NXXOR():
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return false;
+return isValidDefineValue(val.getFirstChild(), defines); return true;
+ case Token.NOR: case Token.NXOR: case Token.NXXOR: {
+ return!val.contains(defines);
+return  false; case Token.NEG: break;
+ return!isValid(val(val), defines);
+ case Token.OR:
+ case Token.NOR: case Token.NXOR: return true; }
+ return val, defines);
+return  true; default: return false;
+ return isValid((val), defines);
+ case Token.NXOR: case Token.NEG: case Token.NXOR: case Token.NEG: }
+ return validateDefineValue(val.getFirstChild(), defines);
+return  true; case Token.NEGEQ:
+ case Token.NXOR: case Token.NXOR: return false; }
+ return!isValidDefine(val, val), defines);
+ case Token.NXOR: case Token.NXORAll():
+ return false; } return val.in(defines);
+ return!isValid(val.value(), defines);
+ return defines.equals(defines);
+ return compare(val), defines);
+return isValidDefineValue(val), defines;
+return isValidDefineValue(val, defines) ; break ; }
+ case Token.UNIQUE;
+ return isValidDefine(val), defines);
+return isValidDefineValue(val, defines) ; } return false ; }
+ return false; } return true;
+ case Token.NX: return isValid(defines);
+ return!isValid(val.getValue(), defines);
+ case Token.NOR: case Token.NXOR: return true; } }
+ case Token.IN: return isValid(val.getFirstChild(), defines);
+ case Token.NXOR: return (true);
+ return isValid(val.getString(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NAME: break;
+ return defines.size();
+ return!isValidDefineValue(val(), defines);
+ return isValidName(val.getString(), defines);
+ return!isValidName(val, defines);
+ case Token.NXOR: case Token.NXOR: case Token.NXXOR: {
+ return!(isValid(val), defines);
+ return isValid(val(), defines);
+ return isValid(val, val), defines);
+ return isValidExpression(val, defines);
+ case Token.EQ: return this.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), includeFunctions;
+ return!isValidDefine(val.getFirstChild(), defines);
+ case Token.NXOR: case Token.NEG: return true; }
+ case Token.EQ: return val.isValidDefineValue(val.getFirstChild(), defines);
+ case Token.NXOR: return valid(defines);
+ case Token.NX: return (true);
+return  true; case Token.NAME: break;
+ return isValidChild(val), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NAME: return false;
+ return defines.add(defines);
+ case Token.NOR: case Token.NIX: case Token.NXOR: return false; }
+ case Token.NXOR: case Token.NXOR: case Token.NXOR: {
+ return compare(val(), defines);
+ case Token.NX: return contains(val);
+ return defines.containsAny(val.getFirstChild(), defines);
+ return isValidAttribute(val, defines);
+return isValidDefineValue(val.getType()) ; case Token.STRING:
+ case Token.NEGU8:
+ return!isValidDefine(val, defines);
+ case Token.NOR: return isValid(defines);
+ return!isValidDefineValue((val), defines);
+ return true; } return isValidName(val, defines);
+ case Token.IN: return isValid(val, defines);
+ return check(val, defines);
+ return defines.has(val);
+ (val.getFirstChild(), defines);
+ return valid(val);
+ case Token.NOR: return isValidValue(val.getFirstChild(), defines);
+ case Token.INPUT: return isValid(val.getFirstChild(), defines);
+ case Token.NOT return true;
+ case Token.NXOR: return validate(defines);
+return isValidDefineValue(val, includeFunctions); }
+return isValidDefineValue(val.getType()) ; case Token.NEG:
+ return!isValidNameValue(val, defines);
+ case Token.NEGOR: case Token.NEGXOR: {
+ return isValid(val.data(), defines);
+ return!isDefineValue(val, defines);
+ return isValidName(val.getName(), defines);
+ return matches(val(), defines);
+ case Token.NXOR: return true; }
+ case Token.INIT: return isValid(val.getFirstChild(), defines);
+ case Token.FALSE: return -1;
+return isValidDefineValue(val.getFirstChild(), defines); return false;
+ case Token.NXOR: case Token.NXOR():
+ case Token.EXACT: return isValid(val.getFirstChild(), defines);
+ return true; } return isValid(val, defines);
+return isValidDefineValue(val.getName(), defines); case Token.NAME:
+ case Token.NOR: case Token.NXOR: case Token.XOR():
+ case Token.NX: return isValidValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getNext()); return true;
+ return (val.test(), defines);
+ case Token.NX: return validate(val, defines);
+ case Token.NXOR: case Token.NXOR: return false; }
+ return true; } return isValidName(val.getFirstChild(), defines);
+ return!(true);
+ return isValidExpression(val.getFirstChild(), defines);
+ return validate(val);
+ case Token.NOR: case Token.NIX: case Token.NIX: case Token.NIX: {
+ case Token.NXOR: case Token.NXOR; }
+ return false; } return false;
+return isValidDefineValue(val, defines, includeFunctions); }
+return isValidDefineValue(val.getFirstChild()), defines); break;
+return isValidDefineValue(val.getFirstChild(), defines) ; } else { return false ; } }
+ return is(val);
+ case Token.NX: return (val.getFirstChild(), defines);
+ return!isValid(val.getString(), defines);
+ case Token.NX: return is(val);
+ return isValid(val.getText(), defines);
+ case Token.NOR: case Token.NXOR: return false; }
+ return isValidDefineExpression(val.getFirstChild(), defines);
+ return isValidNameValue(val.getFirstChild(), defines);
+ case Token.EQ: return isValidName(val.getFirstChild(), defines);
+ return!isValidNameValue(val.getFirstChild(), defines);
+ return!isValid(val(), defines);
+ case Token.NXOR: return true;isValidDefineValue(val.getFirstChild(), defines);
+ return matches(val.getFirstChild(), defines);
+ case Token.NXOR: case Token.NEG: return false; }
+ return isValidValue(getFirstChild(), defines);
+ return (val.evaluate(), defines);
+ case Token.NX: return validate(val.getFirstChild(), defines);
+ return!isValidDefine(val), defines);
+ case Token.NULL:
+ return!isValidStringValue(val, defines);
+ return false; } return isValid(val, defines);
+ return (val.check(), defines);
+ case Token.NEGEqual:
+ return defines.containsAll(val.getFirstChild(), defines);
+ return isEmpty(defines);
+return  true; } } else {
+ case Token.NXOR(val);
+return isValidDefineValue(val.getType()); case Token.NAME:
+ return false; break;
+ case Token.NOR: case Token.NXOR():
+ return!isValidName(val.getName(), defines);
+ return true; case Token.NAME(val);
+ case Token.EQ: return parent.isValidDefineValue(val.getFirstChild(), defines);
+ case Token.EQ: return super.isValidDefineValue(val.getFirstChild(), defines);
+ case Token.NXOR: case Token.OPEN():
+ return!isValidName(val.getString(), defines);
+return  true; } default:
+ return false; return true;
+ case Token.OP:
+ case Token.NX: return valid(val, defines);
+ case Token.NX: return valid(val.getFirstChild(), defines);
+return  true; case NAME:
+ return val.valid(defines);
+return isValidDefineValue(val.getNext()); break;
+ return true; case Token.NEG(val);
+return isValidDefineValue(val.getFirstChild()), defines); return false;
+return isValidDefineValue(val.getFirstChild(), defines); default: return false; } } else {
+ case Token.NX: return!(true);
+ case Token.NXOR: return true; } }
+ case Token.NOR: return validate(val.getFirstChild(), defines);
+ assert(val), defines);
+ case Token.IN: return valid(val.getFirstChild(), defines);
+ return true; } return isValidValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines); break;
+ return!isDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.value);
+ case Token.NOR: case Token.NXOR: {
+ case Token.NEG: break; }
+ case Token.NXOR: case Token.NXOR: {
+ case Token.NOR: case Token.XOR():
+ case Token.IN: return contains(val.getFirstChild(), defines);
+ case Token.NEGOR: case Token.NEGXOR():
+ case Token.IN: return isValidValue(val.getFirstChild(), defines);
+ return!(val.isQualifiedName);
+return isValidDefineValue(val.getFirstChild(),  defines) ; } return false ; }
+ return isValidName(val, val), defines);
+ case Token.NEG: case Token.INIT
+ return defines.equals(val);
+ return true;
+ case Token.NX: return contains(val(), defines);
+ return validateDefineValue(defines);
+return isValidDefineValue(val.getFirstChild()) ; case Token.NEG: break;
+ return!(val.isNumeric);
+return isValidDefineValue(val.getType()), defines); return true;
+ case Token.NXOR(val.getFirstChild(), defines);
+ case Token.OR: return isValid(val.getFirstChild(), defines);
+ return is(val, defines);
+ case Token.NX: return matches(val, defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild());) ;
+return isValidDefineValue(val.getValue()); break;
+ return val.isValidValue(defines);
+ return val.match(defines);
+return isValidDefineValue(val.getFirstChild()); return true;
+ case Token.NX: return validate(val(), defines);
+ return checkValid(val.getFirstChild(), defines);
+ return false; case Token.NAME(val);
+return isValidDefineValue(val, defines).contains(val); }
+return isValidDefineValue(val.getFirstChild(), defines); } default:
+ case Token.IN: return isValid(defines);
+ return false);
+ return!isValidChild(val.getFirstChild(), defines);
+ case Token.NX: return valid(defines);
+ case Token.IN: return validate(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return true);
+ case Token.NEG(val);
+ case Token.NXOR: return true.isValidDefineValue(val.getFirstChild(), defines);
+ case Token.NEG: return true; }
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return false);
+return isValidDefineValue(val.getFirstChild(), defines) ; default:
+ return!isValidName(val.getText(), defines);
+return isValidDefineValue(val.getType()); case Token.NS:
+ compare(val, defines);
+ return false;
+return isValidDefineValue(val.getFirstChild(), defines) ; } } else {
+ case Token.NX: return validate(defines);
+ assert(val, defines);
+return isValidDefineValue(val.getFirstChild(),  defines).contains(val); }
+ return false; } return isValidValue(val.getFirstChild(), defines);
+ return val!= null;
+ return (in(val), defines);
+ return matches(val), defines);
+return isValidDefineValue(val.getFirstChild(), defines, val.getSecondChild()); break ; }
+return isValidDefineValue(val, defines) ; default: return false; }
+ case Token.EQ: return!isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getType()), defines); return false;
+ case Token.NX: validate(val, defines);
+return isValidDefineValue(val); break;
+ case Token.NOR: case Token.NXOR():
+ case Token.NEG: case Token.NEG: {
+ return defines.contains(-val);
+ return isValidDefineValueImpl(val.getFirstChild(), defines);
+ return!(val.contains(defines);
+return isValidDefineValue(val.getFirstChild(val.getNext()); return true);
+ return contains(defines);
+return isValidDefineValue(val, includesFunctions); }
+ assert(val.getFirstChild(), defines);
+ return true; } return isEmpty(defines);
+ case Token.NX: check(val, defines);
+ case Token.NOR: case Token.OR():
+ case Token.NXOR: return false; }
+ case Token.NEG: return false; }
+ case Token.NXOR: return!isValidDefineValue(val.getFirstChild(), defines);
+ switch(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), defines).contains(val); }
+ return valid(val.value(), defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return true; }
+ return (match(val), defines);
+ return true; } return validate(val.getFirstChild(), defines);
+ return equals(val), defines);
+return isValidDefineValue(val.getFirstChild(),  defines, val.getSecondChild()); }
+ return!valid(val, defines);
+return isValidDefineValue(val.getFirstChild(),  defines, val.getLastChild()); }
+return isValidDefineValue ( val ) ; }
+return isValidDefineValue(val.getFirstChild(true)); break;
+return isValidDefineValue(val.getFirstChild(val.getNext());) ;
+return isValidDefineValue(val.getName(), defines); break;
+ return contains((val), defines);
+ compare(val), defines);
+ return validateValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), defines.contains(val)) ; }
+ check(val.getFirstChild(), defines);
+ case Token.NX: return (false);
+ return containsAll(val), defines);
+return isValidDefineValue(val.getFirstChild(), defines); break; }
+ return true; return isValidValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild())); break; }
+return isValidDefineValue(val.getFirstChild()); return false;
+ (val), defines);
+ return!is(val.getFirstChild(), defines);
+ case Token.IGNORE: return true; }
+return isValidDefineValue(val.getFirstChild(),  defines, val.getSecondChild()); } }
+return isValidDefineValue(val.getFirstChild() && val.getSecondChild()); break; }
+return isValidDefineValue(val.getFirstChild(),  defines, val.getLastChild()); } }
+ case Token.EXACT: return!isValidDefineValue(val.getFirstChild(), defines);
+ return!empty(defines);
+return isValidDefineValue(val.getFirstChild(),  includesFunctions);
+ return validDefineValue(val.getFirstChild(), defines);
+ return validateChildren(val.getFirstChild(), defines);
+ return ok(defines);
+return isValidDefineValue(val.getType(), defines); } default:
+ return (isValid(), defines);
+return isValidDefineValue(val.getFirstChild() || val.getLastChild()); break; }
+return isValidDefineValue(val.getFirstChild(),  defines) ; case Token.NEG: }
+ case Token.INFINITE:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; } else {
+ case Token.NAME: check(val.getFirstChild(), defines);
+return isValidDefineValue(val.getName(), defines); break; }
+return isValidDefineValue(val.getFirstChild(), defines) ; case NAME:
+ case Token.XOR: return!isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getLastChild()); return false; }
+ return validateDefine(val.getFirstChild(), defines);
+ case Token.NEG(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val).getNext()); break; }
+return isValidDefineValue(val, defines) ; case Token.NAME: }
+return isValidDefineValue(val.getFirstChild(),  defines, val.getNext()); break; }
+return isValidDefineValue(val, defines); return true; }
+return isValidDefineValue(val.getFirstChild(), defines) ; } return true ; }
+ return isDefineValue(val.getFirstChild(), defines);
+ return!(val.isInSubdefines);
+ case Token.IGNORE: return false; }
+return isValidDefineValue(val.getFirstChild()), defines.contains(val)); } }
+return isValidDefineValue(val.getValue(), defines); break; }
+return isValidDefineValue(val.getFirstChild()), defines); break; }
+ case Token.INIT: assert(defines);
+ case Token.IN;
+return isValidDefineValue(val.getType()), defines); break; }
+return isValidDefineValue(val.name);
+ return this.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines, includeFunctions); }
+return isValidDefineValue(val, defines) ; default: }
+ return true; } return isValid(defines);
+ case Token.NAME: validate(val.getFirstChild(), defines);
+ return false; return isValidValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(),  defines) ; case Token.NAME: }
+ return evaluate(getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(),  defines) ; default: return false; } }
+return isValidDefineValue(val, defines); case Token.NEG: }
+return isValidDefineValue(val.getType(), defines); break; }
+return  true; case Token.NAME: {
+ case Token.EXACT;
+ return check(defines);
+ return validate(getFirstChild(), defines);
+ return true; return isValidName(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(),  defines).contains(val); } }
+return isValidDefineValue(val.getFirstChild(val.getSecondChild()); return true; }
+ case Token.NEGEQ: {
+return  true; } case Token.NAME: {
+ check(val), defines);
+ case Token.INEG: return!isValidDefineValue(val.getFirstChild(), defines);
+ return validChild(val, defines);
+return isValidDefineValue(val.getFirstChild(),  defines, val.getNext()); }
+return isValidDefineValue(val.getFirstChild()), defines.keys(); break; }
+return isValidDefineValue(val.getFirstChild(), defines) ; default: return false; }
+return isValidDefineValue(val.getFirstChild() && val.getLastChild()); } }
+return isValidDefineValue(val.getFirstChild() && val.getSecondChild()); } }
+return isValidDefineValue(val.getFirstChild()), defines, includeFunctions); }
+return isValidDefineValue(val.getFirstChild()), defines, val.getNext()); }
+ case Token.NX: return true; }
+ assign(getFirstChild(), defines);
+ return (!(), defines);
+return  true; case Token.NEG: }
+ return false;
+return isValidDefineValue(val.getFirstChild()) ; case Token.NEG: }
+ case Token.OR;
+ return (false);
+return isValidDefineValue(val.getFirstChild(),  defines, val.getNext()); } }
+ case Token.INIT:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; } break ; }
+ case Token.EQ: return _isValidDefineValue(val.getFirstChild(), defines);
+ case Token.XOR:isValidDefineValue(val.getFirstChild(), defines);
+ return validValue(val, defines);
+return isValidDefineValue(val, includeFunctions)
+return isValidDefineValue(val.getFirstChild(val.getLastChild())), defines); }
+ return isValidDefineValue(valNode.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), defines); return true; }
+return isValidDefineValue(val.getFirstChild()), defines); }
+return isValidDefineValue(val.getFirstChild(), defines) ; } case Token.NAME: {
+ return (eq(), defines);
+ case Token.NEG1: {
+return isValidDefineValue(val, defines).contains(val); } }
+return isValidDefineValue(val.getFirstChild()), defines.size()); break; }
+ return validateValue(val, defines);
+return  true; case Token.STRING: }
+ return true; }
+return isValidDefineValue(val.getFirstChild()), defines, includeFunctions);
+ return containsAny(val.getFirstChild(), defines);
+ return validateNode(val, defines);
+ return compare(getFirstChild(), defines);
+ case Token.INFINITE::isValidDefineValue(val.getFirstChild(), defines);
+ case Token.IN: assert(val.getFirstChild(), defines);
+ return containsAny(defines);
+return isValidDefineValue(val.getFirstChild()), defines.size(); break; }
+return  false; case Token.NAME: {
+ case Token.EXPR;
+return isValidDefineValue(val.getFirstChild()), defines, val.getNext(); }
+ return -1;
+return isValidDefineValue(val.getFirstChild(), defines) return true;
+return isValidDefineValue(val.getFirstChild()), defines, includeFunctions; }
+return isValidDefineValue(val.children);
+return isValidDefineValue(val.getFirstChild(), defines) return false;
+ case Token.EXACT:isValidDefineValue(val.getFirstChild(), defines);
+ return containsAll(defines);
+ return assign(getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), defines); }
+ return (in(), defines);
+return isValidDefineValue(val.getNext());
+ return validChild(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getType())); }
+return isValidDefineValue(val.getType()) ; case Token.NAME: }
+ validate(val(), defines);
+ { return true;
+ return validValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(), includeFunctions); }
+ compare(val.getFirstChild(), defines);
+ return (empty(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; case Token.NAME: {
+return isValidDefineValue(val, defines); break; } }
+ case Token.NEG: {
+ case Token.INFINITY:isValidDefineValue(val.getFirstChild(), defines);
+ return super.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getNext(), defines); }
+ return (!defines);
+ case Token.EXACT: returnisValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(true));
+return isValidDefineValue(val, includes) ; }
+return isValidDefineValue(val.getNext()); break; }
+return isValidDefineValue(val.getValue()); break; }
+ case Token.INEG: returnisValidDefineValue(val.getFirstChild(), defines);
+return  true; break; }
+return isValidDefineValue(val.getFirstChild(true), defines); }
+return isValidDefineValue(val.getFirstChild()), defines); return false; }
+return isValidDefineValue(val.getFirstChild()); default:
+return isValidDefineValue(val.getValue(), defines); }
+ validate(defines);
+return isValidDefineValue(val.getString()); break; }
+return isValidDefineValue(val.getFirstChild(val.getNext())); }
+ return (val), defines);
+ case Token.XOR::isValidDefineValue(val.getFirstChild(), defines);
+ case Token.INLINE:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getType()); return true; }
+ evaluate(getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()); break ; }
+return isValidDefineValue(val.getValue()); return true; }
+ validate(val.getFirstChild(), defines);
+ compare(getFirstChild(), defines);
+ check(defines);
+return isValidDefineValue(val.getFirstChild(),  defines.size()); break; }
+return isValidDefineValue(val.getFirstChild(val.getNext()); });
+return isValidDefineValue(val.getFirstChild()), defines);
+ return!();
+ return false;isValidDefineValue(val.getFirstChild(), defines);
+ return false; }
+return isValidDefineValue(val.getFirstChild(val).getNext()); } }
+ return (!valid);
+return isValidDefineValue(val.getFirstChild(), defines) ; default: }
+return isValidDefineValue(val.getFirstChild(),  defines); return true; }
+return isValidDefineValue(val), defines); }
+return  true; default:
+ return validNode(val.getFirstChild(), defines);
+ return true;isValidDefineValue(val.getFirstChild(), defines);
+ case Token.NAME:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(val.getNext()); }
+ validate(getFirstChild(), defines);
+return isValidDefineValue ( val )
+return isValidDefineValue(val.getNext()); }
+return isValidDefineValue(val.getFirstChild(), includeFunctions)
+return isValidDefineValue(val.parent);
+ return (eval.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()); return true; }
+return isValidDefineValue(val.getFirstChild(true);) ;
+return isValidDefineValue(val.getFirstChild(true)); break; }
+return isValidDefineValue(val.getFirstChild()); case Token.NAME: {
+ break; }
+return isValidDefineValue(val.getParent()); }
+return isValidDefineValue(val.getFirstChild(), defines); break; } }
+return  true; break; } }
+ assert (!defines);
+ return!check(getFirstChild(), defines);
+ return contains(), defines);
+ assert(getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(true)) ; }
+return  true; } default: }
+return  true; } default: {
+return isValidDefineValue(val.data);
+ return validate(), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; return false; }
+ return!true;
+ case Token.IN:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getValue()); }
+return isValidDefineValue ( val ) ; } }
+ return!this.isValidDefineValue(val.getFirstChild(), defines);
+return  true; case Token: }
+ } return true;
+return isValidDefineValue(val.getFirstChild(true, defines)); }
+return isValidDefineValue(val.getFirstChild(),  defines, val); } }
+return  true; } }
+ } return false;
+ return (bool)isValidDefineValue(val.getFirstChild(), defines);
+ return ((), defines);
+ return any(), defines);
+ return!Node.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getString()); }
+return isValidDefineValue(val.getFirstChild(val)); }
+ case Token.NAME::isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(); break;
+return isValidDefineValue(val.getFirstChild(true)); } }
+ case Token.NULL:isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()), defines; }
+return isValidDefineValue(val.getChild()); }
+return isValidDefineValue(val.getFirstChild(), defines) ; } default: }
+ return (!), defines);
+return isValidDefineValue(val.getFirstChild(), defines) ; } default: {
+return isValidDefineValue(val.value()); }
+ ((String), defines);
+ case null:
+ case Token.NULL::isValidDefineValue(val.getFirstChild(), defines);
+return  true; }
+return isValidDefineValue(val.getFirstChild( ));
+ return validChildren(val.getFirstChild(), defines);
+ return accepts(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()); } }
+ return true.isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild()); }
+return isValidDefineValue(val.getFirstChild(), defines) ; } }
+return isValidDefineValue(eval, defines); }
+ ((val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(0)); }
+ switch val.getFirstChild(), defines);
+return isValidDefineValue(val, define); }
+ return (, defines);
+ break; } }
+ return ((, defines);
+return isValidDefineValue(val), defines; }
+return isValidDefineValue(val.getFirstChild(1)); }
+return isValidDefineValue(val.getFirstChild(false)); }
+ ((int), defines);
+return  false; }
+return isValidDefineValue(val.parent); }
+return isValidDefineValue(val.name()); }
+return isValidDefineValue(val); break; }
+return isValidDefineValue(); }
+return isValidDefineValue(val.data); }
+ (break);
+return isValidDefineValue(val)); }
+ return _isValidDefineValue(val.getFirstChild(), defines);
+return isValidDefineValue(val.getFirstChild(),  define); }
+return isValidDefineValue(val.getFirstChild(),  define);
+return isValidDefineValue() ;
+return isValidDefineValue(val.getFirstChild(),  definitions); }
+return isValidDefineValue(val.getFirstChild(),  definitions);
+return isValidDefineValue(eval);
+return isValidDefineValue(val.getFirstChild(),  defines)); }
+return isValidDefineValue(val.getFirstChild(), defines) break;
+return isValidDefineValue(val.getFirstChild())); }
+return isValidDefineValue(val.getFirstChild(),  defines));
+return isValidDefineValue(nil);
+return isValidDefineValue(ctx);
+return isValidDefineValue(eval); }
+ {
+return isValidDefineValue(val.getFirstChild(); });
+return  True;
+ { }
+ return "isValidDefineValue(val.getFirstChild(), defines);
+ return -isValidDefineValue(val.getFirstChild(), defines);
+ } }
+return isValidDefineValue; }
+ return null;
+ } returnisValidDefineValue(val.getFirstChild(), defines);
+return  null; }
+return isValidDefineValue() }
+return  True; }
+return isValidDefineValue(val.getFirstChild();)
+ }
+return isValidDefineValue(val) }

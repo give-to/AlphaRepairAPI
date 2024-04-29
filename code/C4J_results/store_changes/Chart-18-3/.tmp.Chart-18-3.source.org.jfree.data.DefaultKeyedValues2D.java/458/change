@@ -1,0 +1,142 @@
+ }
+ iterator = null;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( )
+ } while ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ;
+ } if ( iterator. hasNext ( ) ) { iterator = null ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( columnKey ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. hasNext ( ) ;
+ } while ( iterator. hasNext ( ) ) { iterator. next ( ). removeColumn ( ) ;
+ } while ( iterator. hasNext ( ) ) { iterator. next ( ). removeColumn ( columnKey )
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; iterator. remove ( ) ;
+ } while ( iterator. hasNext ( ) ) { iterator. next ( ). removeColumn ( columnKey ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator. remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeColumn ( columnKey )
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). clear ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; iterator. removePrevious ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeColumn ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; }
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; }
+ } if ( this. columns. contains ( columnKey ) ) { this. columns. remove ( columnKey ) ; return true ;
+ } if ( this. columns. containsKey ( columnKey ) ) { this. columns. remove ( columnKey ) ;
+ } if ( this. columns. contains ( columnKey ) ) { this. columns. remove ( columnKey ) ; return ;
+ } if ( this. columns. contains ( columnKey ) ) { this. columns. remove ( columnKey ) ; }
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; } else { iterator. remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; }
+ } while ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey )
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; } else { iterator. remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( columnKey ) ;
+ } if ( this. columns. containsKey ( columnKey ) ) { this. columns. remove ( columnKey ) ; }
+ } if ( this. columns. containsKey ( columnKey ) ) { this. columns. remove ( columnKey ) ; return ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; return true ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator = null ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; iterator = null ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; iterator = null ;
+ return true;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; iterator = nextIterator ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; } else { this. rows. clear ( ) ;
+ rowData.removeColumn(columnKey);
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator. hasNext ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; iterator = null ; }
+ rowData.removeRow(rowKey);
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; return true ;
+ } if ( iterator. hasNext ( ) ) { iterator. hasNext ( ) ; }
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; } else { iterator. removePrevious ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator = nextIterator ;
+ } if ( iterator. hasNext ( ) ) { return true ;
+ } if ( iterator. hasNext ( ) ) { return false ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; return true ;
+ } if ( this. columns. contains ( columnKey ) ) { this. columns. remove ( columnKey ) ; return false ;
+ } if ( iterator. hasNext ( ) ) { iterator. removeValue ( columnKey ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( )
+ } if ( iterator. hasNext ( ) ) { return ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ) ; }
+ } if ( iterator. hasNext ( ) ) { iterator. removeNext ( ) ; } else { iterator. removeLast ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; iterator = next ; }
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; iterator = nextIterator ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator. remove ( ) ; iterator. remove ( ) ;
+ } while ( iterator. hasNext ( ) ) { iterator. remove ( ) ; iterator = nextIterator ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; } else { this. rows. remove ( ) ; }
+ } if ( this. rowKeys == null ) { this. rows = null ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( this. row ) ;
+ iterator. remove ( ) ;
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). remove ( )
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; return ;
+ iterator.hasNext(); break;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; return false ;
+ iterator.remove(); }
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; } return true ;
+ } if ( this. rowKeys == null ) { return - 1 ;
+ } if ( iterator. hasNext ( ) ) { iterator. remove ( ) ; return ;
+ iterator.remove(); }
+ } if ( iterator. hasNext ( ) ) { iterator. next ( ). removeValue ( columnKey ) ; } }
+ } if ( iterator. hasNext ( ) ) { iterator. removeFirst ( ) ;
+ rowData.removeRowIndex(rowIndex);
+ } if ( iterator. hasNext ( ) ) { iterator = next ;
+ iterator. hasNext ( ) ;
+ } if ( this. rowKeys == null ) { this. clear ( )
+ } else { this.rows.remove(rowData);
+ iterator. remove ( rowData ) ;
+ } else { this.rows.remove(columnKey);
+ iterator.next(); this.rowKeys.remove(rowData);
+ iterator.next(); this.rows.remove( rowData);
+ rowData.clear ( ) ;
+ this.rows.removeRowData();
+ this.rows.remove( rowData);
+ rowData.removeKey(columnKey);
+ } if ( this. rowKeys == null ) { this. keys = null ;
+ iterator.hasNext(); return;
+ rowData.removeRow(this);
+ this.rows.remove ( rowData ) ; return true ;
+ rowData.removeRow(row);
+ rowData.removeRow ( ) ;
+ rowData.removeColumn(columnKey); }
+ iterator.next(); this.rows.remove(rowData); }
+ rowData.removeKey(columnKey); iterator = null;
+ iterator.next(); this.rowKeys.remove(rowData); }
+ iterator.remove(); break;
+ rowData.removeRowIndex(rowIndex); break;
+ rowData.removeRowIndex(rowIndex); }
+ } if ( iterator. hasNext ( ) ) { iterator = next();
+ rowData.removeColumn(columnKey); break;
+ rowData.removeKey(columnKey); rowData.removeRow(row);
+ rowData = null;
+ iterator.hasNext(); }
+ this.rows.remove ( rowData ) ; }
+ rowData.removeColumn(columnKey); *
+ break;
+ return false;
+ } if ( this. rowKeys == null ) { return
+ rowData.removeRow(rowKey); }
+ rowData.removeRowIndex(rowIndex); *
+ rowData.clear(); }
+ rowData.removeRowIndex(rowKey); }
+ iterator = nextIterator();
+ } } else {
+ break; }
+ return this;
+ } return true ;
+ iterator.next(); }
+ iterator.close(); }
+ } return false ;
+ iterator.hasNext(); *
+ return;
+ } return this ;
+ } if (true)
+ rowData.clear();
+ break; } }
+ } }
+ return ; }
+ } return ; }
+ } *
+ break; } return
+ continue;
+ }
+ } } else
+ } return
+ *
+ return

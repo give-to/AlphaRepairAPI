@@ -1,0 +1,525 @@
+ } else if(type == Token.GETPROP) {
+ } else{
+ } if(type == Token.GETPROP) {
+ } else if (type!== Token.GETPROP) {
+ if (type == Token.GETPROP) {
+ } if (type!== Token.GETPROP) {
+} else if (type ) {
+} else if (type  == Token.THIS) {
+ return null;
+ } else if (Token.GETPROP) {
+ } if (Token.GETPROP) {
+ } else if (type.GETPROP) {
+ if (type!== Token.GETPROP) {
+} else if (type == Token.THIS) { return "this"; } else {
+ } if (GETPROP) {
+ } case Token.GETPROP) {
+} else if (type  == Token.THIS)
+ } if (type.GETPROP) {
+ return null; }else if (type == Token.GETPROP) {
+} else if (type == Token) {
+ } else { return null; } else if(type == Token.GETPROP) {
+ } else if (token.GETPROP) {
+} else if (type ==  Token.THIS) { return "this"; }
+ } else { if(type == Token.GETPROP) {
+ } else if (type == Token.THIS!== Token.GETPROP) {
+ } else { return null; } if (type == Token.GETPROP) {
+ case Token.GETPROP) {
+ } else if (GETPROP) {
+ } else { return "null"; } else if(type == Token.GETPROP) {
+ } else if (token.THIS!== Token.GETPROP) {
+ } else if (type == * Token.GETPROP) {
+ } else if (type == Token.THIS|Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "this"; }
+ } else { return null; } } elseif (type == Token.GETPROP) {
+ } else if (type == Token.THIS ||type == Token.GETPROP) {
+ } else { return "null"; } } elseif (type == Token.GETPROP) {
+ } else { return "name"; }
+ } else if (type ==.GETPROP) {
+ } else if (getType() == Token.GETPROP) {
+ } if (token.GETPROP) {
+ } else if (type == Token.PROP) {
+ } if (type == Token.THIS){
+} else if (type == Token.GETPROP) { return null; }
+ } if ( type == Token.THIS) { return "this"; } else {
+ } else { return "null"; } if(type == Token.GETPROP) {
+ } else if (getType!== Token.GETPROP) {
+ } else if (type == NAME) {
+ return "name";
+} else if (type == Token.GETPROP) { return "this"; } else {
+ } else if ( type == Token.THIS) { return "this"; } else { return "this." + getString(); }
+ } else { return null ;
+ } else if ( type == Token.THIS) { return "this"; } else { return null; }
+ } else { return null; }
+} else if (type == Token.GETPROP) { return "getProperty(); } else {
+ return "name"; }else if (type == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "null"; }
+}  else { return null ; }
+ } else if (type == Token.PROPS) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "null" ; } return null ;
+ } if (type == Token.PROP){
+ } else if ( type == Token.THIS) { return "this"; } else { return "name" + getString(); }
+ } else if ( type == Token.THIS) { return "this"; } else { return "this." + getString();
+} else if (type == Token.GETPROP) { return getString(); } else {
+ } else if (getFirstChild == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "null"; } else { return null; }
+ } else { return "null"; } return getFirstChild().getQualifiedName();
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString();
+ } else if ( type == Token.THIS) { return "this"; } else { return "null" ; } return "null";
+ } if ( type == Token.THIS) { return "this" ; } else { return "name" ; } return "properties" ;
+ } else { return "name" ; } else { return "properties" ;
+ } if ( type == Token.THIS) { return "this"; } else { return "this." + getString();
+ } else { return "name" + getString(); }
+ } else if (token.NAME!== Token.GETPROP) {
+ if (GETPROP) {
+ } if ( type == Token.THIS) { return "this"; } else { return "null"; }
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString(); return null;
+ } else if (type == Token.THIS.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "name" ; } return "properties" ;
+ } else { return "name";
+ } else if ( type == Token.THIS) { return "this"; } else { return "name" + getString();
+ } else if (type == Token.THIS) { return "this"; } {
+ } else { return getString(); } else { return "null"; }
+ } if (type == NAME) {
+ } else if ( type == Token.THIS) { return "this"; } else { return null;
+ } else if (this.type == Token.GETPROP) {
+ } else if (type == Token.THIS_GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "this" ; } return null ;
+ } else { return "null" ; } else { return "null"; }
+ } else if ( type == Token.THIS) { return "this".} else { return null; }
+ } else { return "null"; }
+ } else { return "this"; }
+ } else { return "name" + getFirstChild().getString(); }
+ } else { return "name"; } else if(type == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this" + getFirstChild().getString();
+ } else if ( type == Token.THIS) { return "this" + getString(this);
+ } else if (getFirstChild() == Token.GETPROP) {
+ } else { return "name" ; } else { return "properties" ; }
+ } else if ( type == Token.THIS) { return "this." + getString();
+ } else if (type == Token.THIS) { return null; }
+ } else { return "null" ; } else { return "this" ; }
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString(); }
+ } else { return "name" ; } else { return "property" ;
+ } else if ( type == Token.THIS) { return "this"; } else { return "this" ; } return "null";
+ } else if ( type == Token.THIS) { return "this" + getString();
+ } else { return "null"; } else { return "this." + getString(); }
+ } else if (type == Token.GETPROP) { final
+ } else if (type == Token.LINK) {
+ } else { return "name" ; } else { return null ; }
+ } else { return "null"; } else { return "this." + getString();
+ } else { return null }; if(type == Token.GETPROP) {
+ } else if (type == Token.SETPROP) {
+} else if (type == Token.GETPROP) { return "getProperty(); }
+ } else if ( type == Token.THIS) { return "this" + getString(); }
+ } else { return "name" ; } else { return "property" ; }
+ } else { return "name" + getString();
+ } else if ( type == Token.THIS) { return "this"; } else { return "name" + getString(); } }
+ } else { return getString(); } else { return null; }
+} else if (type == Token.GETPROP) { return "getProp(); } else {
+ } else if (type == Token.LAST) {
+ } else if (type == Token.THIS) { return "this";
+ } else if (type == Token.NOT_GETPROP) {
+ } else if (type == Token.type == Token.GETPROP) {
+ } else { if (type!== Token.GETPROP) {
+ } else if (type == Token.THIS{
+ } else if ( type == Token.THIS) { return "this"; } else { return "null" ; } } ;
+ } else { return "null"; } else { return "this" ; } return null ;
+ } } else if(type == Token.GETPROP) {
+ } else if (type == "."){
+ } else if (type == Token.THIS|type == Token.GETPROP) {
+ } else if (type == Token.THIS) { return "this"; } else
+ } else if (type == Token.Token.GETPROP) {
+ } else { return "name"; } } elseif (type == Token.GETPROP) {
+ } else { return "name" ; } return "properties" ;
+} else if (type ==  Token.NAME) { return "name"; }
+ } else if (type ==.THIS) {
+ } else { return "null"; } else {
+ } else if (type!= null && type!== Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return null; } }
+ } else if ( type == Token.THIS) { return "this." + getString(); }
+ } else if ( type == Token.THIS) { return "this"; } else { return "null; } }
+ } else if (type == THIS) {
+ } if ( type == Token.THIS) { return "this"; } else { return "this." + this};
+} else if (type == Token.GETPROP) { return "getProperty"; }
+ } else if ( type == Token.THIS) { return "this"; } else { return "null" ; } }
+ } else if (token.THIS && type!== Token.GETPROP) {
+ } else if (type == Token.JOIN) {
+ } else { return "null"; } return getFirstChild().getQualifiedName(); *
+ } else { return "null" ; } else { return "this" ; } }
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString(); } else {
+ } else if (this.type!== Token.GETPROP) {
+ } else if (getFirstChild instanceof Token.GETPROP) {
+ } if ( type == Token.THIS) { return "this"; } else { return "this." + this }
+ } else if (type== Token && type!== Token.GETPROP) {
+ } (Token.GETPROP) {
+ } else if (type == Token.NAME|Token.GETPROP) {
+ } if (type == Token.THIS && type== Token.GETPROP) {
+} else if (type == Token.THIS) { if (left) {
+ } else { } else if(type == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return "null"; } return "null"; }
+ } else if (type == Token) { if(type == Token.GETPROP) {
+ } else { else if(type == Token.GETPROP) {
+ } else { return "null"; }
+ } else { return getString(); } else { return "null";
+ } else { return "null" ; } return "null";
+ } else { return getString(); } return "this";
+} else  if (type == Token.POP) {
+} else if (type == Token.GETPROP)  { return "getProperties(); } else {
+ } else { return "null" ; } else { return "null";
+ } if (type == Token.THIS &&!Token.GETPROP) {
+ } else if (type == Token.NODE.GETPROP) {
+ } else { return "name" + getString(); } }
+ } else if (token.NODE!== Token.GETPROP) {
+ } else { return "null"; } else { return "this" ; } } ;
+ } else if (type == Token.THIS||Token.GETPROP) {
+ } else if (Token.THIS!== Token.GETPROP) {
+ } else if (type == Node.Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this"; } else { return null; } *
+ } else if (type == SimpleName) {
+ } else { return "this";
+ } if (type == Token.PROPS){
+ } else { return null ; } return "name" ;
+ return getFirstChild().getString(); }else if (type == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString(); } *
+ } if ( type == Token.THIS) { return "this"; } {
+ } else { return "name" + getString(this); }
+ } else if ( type == Token.THIS) { return "this"; } else { return "null; } } ;
+ } else if (type == Token.){
+} else if (type == Token.GETPROP) { return "getProperties"; }
+ } else { return "null" ; } return null ;
+ } else { return null; if (type == Token.GETPROP) {
+ } else { return null } if (type == Token.GETPROP) {
+ } if (type == THIS) {
+ } if ( type == Token.THIS) { return "this"; } else { return null; } }
+ } else { return getString(); } return "name" ;
+ } else if ( type == Token.THIS) { return "this" + getLastChild().getString(); } }
+} else if (type == Token.NAME) { return "name"; } else {
+ } else if (type == Token.NAME.GETPROP) {
+ } else if (type == Token.NAME) {
+} else if (type  == Token.NAME) { return null; }
+ } else if (getType == Token.GETPROP) {
+ } else if (getLastChild == Token.GETPROP) {
+ } else { return null; } else {
+ } else { return "null" ; } return "name";
+ } else if (type == Token....){
+ } else if (type == Token.GETPROP) { return null;
+ } if (type == Token.THIS && Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "getProp"; }
+ } else if (type == Token.!){
+ } else if (type == Token.ANY_GETPROP) {
+ } if (type == Token.THIS || Token.GETPROP) {
+} else if  (type == Token.PREFIX) {
+ } } else{
+ } else if (type == (Token.GETPROP) {
+ } else if (currentType!== Token.GETPROP) {
+ } else if (type == Token.THIS|GETPROP) {
+ } else if ( type == Token.THIS) { return "this" + getString(); } }
+ } if (type == * Token.GETPROP) {
+ } else if (type == NameToken.GETPROP) {
+ } else if (type == Token.GETPROP) { try {
+ } else { return "null";
+ } else if (type == null && type== Token.GETPROP) {
+ } if (type == Token.GETPROP) { final
+ } else if (type == "." ||type == Token.GETPROP) {
+ } else if ( type == Token.THIS) { return "this" + getString() }
+} else if (type == Token.THIS) { return "this; } else {
+} else if (type == Token.NAME && getLastChild!= null) {
+ } return "name";
+} else if (type == Token.THIS) { if (true) {
+ } else if (type!= null) if(type == Token.GETPROP) {
+ } else { return "null"; } return getFirstChild().getQualifiedName() ; }
+ } else if (type instanceof Token.GETPROP) {
+ } else { return "null"; } * elseif (type == Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "properties"; }
+ } else if (hasChildren){
+ } else if (type == Token.THIS) { final
+} else if (type == Token.NAME && getLastChild()) {
+} else if (type == Token.THIS) { if (hasChildren) {
+ } else if this == Token.GETPROP) {
+} else if (type == Token.THIS) { if (this) {
+ } else if (type == Token.THIS.Token.GETPROP) {
+} else if (type  == Token)
+ } if (type == Token.LINK) {
+ } else if (type) { if(type == Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "property"; }
+} else if (type == Token.THIS) { return "this"; } final
+} else if (type == Token.GETPROP_OP) {
+ } else if if (type == Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "getProperty(); } final
+} else if (type == Token.GETPROP) { return "getProperty";
+ } if ( type == Token.THIS )
+ } if (type == "."){
+ } else if (this){
+ } else if (type == "GETPROP) {
+ } else if (type == SimpleToken.GETPROP) {
+ } else if (type ==.NAME) {
+ } return null;
+ } else if (type==GETPROP) {
+ } else if (type.THIS) {
+ } else if (token.THIS && type== Token.GETPROP) {
+} else if (type == Token.PROPS) { return "properties"; }
+ } else if (getType().type ==Token.GETPROP) {
+ } if (type == Token.LAST) {
+ } else if (type == Token.GETPROP)) { final
+} else if (type == Token.PREFIXES) {
+} else if (type == Token.GETPROP2) {
+ } else if (type == Token) if(type == Token.GETPROP) {
+ } else if (type == NamedToken.GETPROP) {
+ } if (getType == Token.GETPROP) {
+ } if (== Token.GETPROP) {
+} else if (type == Token.GETPROP) { return getString(); } else { final
+ } return "name"; } elseif (type == Token.GETPROP) {
+ } else { return "name" ; } }
+} else if (type == Token.THIS) { if (getFirst) {
+} else if (type == Token.GETPROP) { return "get"; }
+} else if (type == Token.GETPROP) { return "getProperty(); } }
+ } else { return "this"; } elseif (type == Token.GETPROP) {
+ } else if this if (type == Token.GETPROP) {
+} else if (type == Token.THIS) { if (isFirst) {
+ } else if (type == (String)Token.GETPROP) {
+} else if  (type == Token.THIS):
+} else if (type == Token.FULL_NAME) {
+} else if (type == Token.GETPROP) { return "this";
+} else if (type == Token.THIS) { if (debug) {
+ } else if (type == Token.THIS) { return "This";
+ } if (type==GETPROP) {
+ } else if (type == Token.GETPROP) { *
+ } else if(getFirstChild().type == Token.GETPROP) {
+ } else { return "null"; } return getFirstChild().getString(); } }
+} else if (type ==  Token.PROPS) { return "properties";
+ } else { return "" ; } if(type == Token.GETPROP) {
+ } else if (type == TOP) {
+ } else if (type == null || type== Token.GETPROP) {
+ } else { return "this" ; } }
+ } else { return null }
+ } else { return "null" ; } }
+} else if (type == Token.THIS) { if (isLeft) {
+} else if (type == Token.GETPROP) { return ""; }
+ } if (isGETPROP) {
+ } return null; } elseif (type == Token.GETPROP) {
+ } else if (type=GETPROP) {
+ } else { return "name"; }
+} else if (type == Token.GETPROP()) {
+ } else { return "null" ; } } ;
+ } else { return "name" ; } } ;
+ } else if (isToken.GETPROP) {
+ } * elseif (type == Token.GETPROP) {
+ } if (type == Token.THIS_GETPROP) {
+ } else { return "this." + this ;
+ } else { return "unknown"; }
+ return null; } if(type == Token.GETPROP) {
+} else if (type ==  Token.GETPROP) { return null};
+} else if (type == Token.FULL_PROP) {
+ } else if (type is not Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "getProperties(); } final
+} else if (type == Token.GETPROP*) {
+} else if (type == Token.PLAIN) {
+ } else if (type == Token && (type == Token.GETPROP) {
+ } else if this is this (type == Token.GETPROP) {
+} else if (type == Token.GETPROP) { return "this"; } {
+ } else { return null } elseif (type == Token.GETPROP) {
+ } if ( type == Token.THIS) { final
+ } else { return "this" ; } } ;
+ } else { } else{
+} else if (type == Token.GETPROP) { return ".";
+ } else if (right){
+ } else { return null; } } } elseif (type == Token.GETPROP) {
+ } if (parent == null) {
+} else if (type == Token.GETPROP) { return "this"; } else
+ } if (getType() ==Token.GETPROP) {
+ return "this"; }else if (type == Token.GETPROP) {
+} else if (type == Token.SETPROP) { final
+} else if (type == Token.GETPROP) { return "getProperties(); } }
+ } else if (true){
+ } else if (type!= Token.GETPROP) {
+ } else if (left){
+ } if (hasChildren){
+ } else if ( type == Token.GETPROP) { } {
+ } else if (!){
+ } else if (tok!== Token.GETPROP) {
+ } if (type == TOP) {
+ } else if (hasChild){
+ } if (left) {
+} else if (type == Token.GETPROP_NAME) {
+} else if (type == Token.GETPROP.NAME) {
+ } else else{
+ } else if (null if (type == Token.GETPROP) {
+ return null; } } elseif (type == Token.GETPROP) {
+} else if  (type == Token.PROP) { final
+ } return "this";
+ return "name" ; }
+ } else { return "" ; } elseif (type == Token.GETPROP) {
+ } else if this is property (type == Token.GETPROP) {
+ } if (type == Token.GETPROP) { *
+ } if (type == NEXT) {
+} else if (type!= Token.THIS) {
+ } if (this) {
+} else if (type == Token.GETPROP)  { return "getProperty(); } else { final
+ } } else { if(type == Token.GETPROP) {
+ return getFirstChild().getString(); } }else if (type == Token.GETPROP) {
+ } else { } if(type == Token.GETPROP) {
+ } return null; else if(type == Token.GETPROP) {
+ } else if (.){
+} else if (type == Token.OPTIONS) {
+ } else { try{
+ } else if (super.type == Token.GETPROP) {
+}  else { return null;
+ } else { return "this"; } }else if (type == Token.GETPROP) {
+} else if (type == Token.PATTERN_NAME) {
+ return "name" ; } } elseif (type == Token.GETPROP) {
+ } else { } } elseif (type == Token.GETPROP) {
+ } else if (hasParent){
+ } else { return null; } {
+ } else if(!type == Token.GETPROP) {
+ } else if (Type.GETPROP) {
+}  else { return ; }
+ } else { return null; } final
+ } (== Token.GETPROP) {
+}  else if (...) {
+} else if (type  == Token.PREFIX) { final
+ } return "this"; }else if (type == Token.GETPROP) {
+ } else if ({
+ return getFirstChild().getString(); } *else if (type == Token.GETPROP) {
+ } return null; } if(type == Token.GETPROP) {
+} else if (type  == Token.NAME)
+ return "this";
+ return ""; }else if (type == Token.GETPROP) {
+} else if (type  == Token.GET) {
+} else if (type == Token.GETPROP)) { return null;
+ } if (Type.GETPROP) {
+}  else { return null };
+ } else if this { if(type == Token.GETPROP) {
+}  else if (!))
+} else if (type == Token.GETPROP)  { return getString(); } } else { final
+ } if (type!=Token.GETPROP) {
+ if (Token.GETPROP) {
+ if (== Token.GETPROP) {
+} else if (type == Token.PATTERN) {
+ } if== Token.GETPROP) {
+} else if (type  == Token.GROUP) {
+ if (type.GETPROP) {
+} else if (type  == Node) {
+ } else if (!GETPROP) {
+} else if  (false) {
+ } if (right) {
+ } else { return null; } *else if (type == Token.GETPROP) {
+} else if (type  == Token):
+ } if (true) {
+} else if (type == Token.GETPROP)  { return getString(); } else { } }
+} else if  (isSimple) {
+} else  { return "null"; } {
+} else if  (getFirstChild)
+ } if (first) {
+ return "name"; }if (type == Token.GETPROP) {
+} else if (type  == Token.FULL) { final
+} else if (type  == Token.NAME) { final
+ } else { return "null"; } } }else if (type == Token.GETPROP) {
+ } else if (!{
+ return "this"; }
+} else if (type  == THIS)
+ } if (*) {
+ } else { return "name"; } } }else if (type == Token.GETPROP) {
+} else if  (getLastChild)
+ if (left) {
+ } if (!GETPROP) {
+} else if (type == Token.NEW) {
+ if (token.GETPROP) {
+} else if (type == Token.CLASS) {
+ } else { else{
+ } else) {
+ } else if) {
+ return "Name";
+ } else { return null; } } ; }else if (type == Token.GETPROP) {
+ } else if{
+ } return "name"; *else if (type == Token.GETPROP) {
+} else if (type  == NAME)
+ } (!== Token.GETPROP) {
+ } if (isToken.GETPROP) {
+ if (this) {
+} else if (type == Token.GETPROP)  { try { final
+ } ((== Token.GETPROP) {
+ } return null; *else if (type == Token.GETPROP) {
+ return "";
+ }, Token.GETPROP) {
+}  else if else {
+ while (true) {
+} else if  (this)
+ return null }else if (type == Token.GETPROP) {
+ } catch (Token.GETPROP) {
+ } else, if(type == Token.GETPROP) {
+ } (GETPROP) {
+ } else if there if(type == Token.GETPROP) {
+ } switch (Token.GETPROP) {
+ } if (!== Token.GETPROP) {
+} else if  (true)
+} else if (type == Token.GETPROP)) return null;
+}  else { final
+ switch (Token.GETPROP) {
+}  else if { final
+ } synchronized (Token.GETPROP) {
+} else if (type == Token.GETPROP)) { try {
+ } (*) {
+} else if (type == Token)) {
+ return null; elseif (type == Token.GETPROP) {
+}  else { } {
+ } () {
+ } else if (if (type == Token.GETPROP) {
+ return name;
+ return this;
+ if (!GETPROP) {
+ } Token.GETPROP) {
+}  else { } else
+} else if (firstChild) {
+} else if (type )) {
+ } if.GETPROP) {
+ } * }else if (type == Token.GETPROP) {
+ * }else if (type == Token.GETPROP) {
+} else if (type == Token). {
+ } else if ((type == Token.GETPROP) {
+ } * *else if (type == Token.GETPROP) {
+}  else { *
+} else if (type == Token.GETPROP)) return "";
+ return ; }else if (type == Token.GETPROP) {
+} else if (type == Token.GETPROP)  return null;
+ }
+ * } *else if (type == Token.GETPROP) {
+} else if (hasLeft) {
+ } }
+} else if (isLeft) {
+ else if (type == Token.GETPROP) {
+ * }
+} else if (type == Token.GETPROP)) return this;
+ } *
+ *
+} else if (type == Token.GETPROP)  * { final
+ } if (!type == Token.GETPROP) {
+ if (*) {
+ * ;
+ * *
+} else if (type == Token.GETPROP)) {
+} else if (!)
+}  else: {
+ } (type == Token.GETPROP) {
+} else if (type == Token.GETPROP)  return "";
+} else if (type == Token.GETPROP)) { *
+ while (type == Token.GETPROP) {
+ if (!type == Token.GETPROP) {
+} (_) {
+ } * if(type == Token.GETPROP) {
+} else if (type ). {
+} else if (first) {
+} else if (type !) {
+} else if (type ++) {
+} else if (type == Token.GETPROP): {
+ } else unless(type == Token.GETPROP) {
+}  else {{
+ } while(type == Token.GETPROP) {
+}  if {
+ } elif (type == Token.GETPROP) {
+ }, if(type == Token.GETPROP) {
+ }; else{
+ } #{
+} else if (type == Token.GETPROP)  {} final
+ }; elseif (type == Token.GETPROP) {
+} else if (type is Token.GETPROP) {
+} else if (type = Token.GETPROP) {

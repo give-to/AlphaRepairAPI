@@ -1,0 +1,710 @@
+return NodeUtil.getConditionExpression(parent);
+ return parent!== getProp;
+return NodeUtil.getConditionExpression(parent) == getProp;
+ return compiler.getConditionExpression(parent) == getProp;
+ return parent.getFirstChild()!== getProp;
+ return validator.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(getProp) == getProp;
+ return parent.getParent!== getProp;
+ return _getConditionExpression(parent) == getProp;
+ return parent.getParent().getFirstChild(parent) == getProp;
+ return parent.getFirstChild() == getProp;
+ return parent.parent!== getProp;
+ return parent.getFirstChildOf(parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getParent) == getProp;
+ return (parent) == getProp;
+ return parent.getFirstChild(() == getProp;
+return NodeUtil.getConditionExpression(parent.getParent()) == getProp;
+ return parent.getParent()!== getProp;
+ return parent.getFirstChild().getParent!== getProp;
+return  parent.getParent().getFirstChildOf(parent) == getProp;
+ return parent.getFirstChild(parent) == getProp;
+ return parent.getFirstChild!== getProp;
+ return parent== getProp;
+ return parent.getNext () == getProp;
+return NodeUtil.getConditionExpression(parent, compiler) == getProp;
+ return parent.getParent().getFirstChild() == getProp;
+return  true;
+ return parent instanceofgetProp;
+ return parent.getFirstChild(0)!== getProp;
+ return false;
+ return parent.getFirstChild(0) == getProp;
+ return parent.getParent().NodeUtil.getConditionExpression(parent) == getProp;
+ return parent.getParent().getFirstChild(() == getProp;
+ return parent.getFirstChild() == parent;
+return  parent.getFirstChild() && getJSType(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) != null;
+ return parent.getFirstChild().getString() == getProp;
+ return parent.getParent().getConditionExpression(parent) == getProp;
+ return parent.getNextChild!== getProp;
+ parent=getProp;
+ return getJSType(parent) == getProp;
+ return parent.next () == getProp;
+return  parent.getFirstChild().getFirstChildOf(parent) == getProp;
+ return parent.getFirstChild(1) == getProp;
+return  parent.getFirstChild().getParent().getFirstChild(parent) == getProp;
+return  parent.getFirstChild().getFirstChild(parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getFirstChild) == getProp;
+ return parent.getLastChild()!== getProp;
+ return getPropertyTestFunction(parent) == getProp;
+ return parent.getFirstChild().test(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.TYPEOF:
+ return parent.getFirstChild() + 1!== getProp;
+ return parent.getLastChild!== getProp;
+ case Token.EXCEPTION: return compiler.getConditionExpression(parent) == getProp;
+ return parent.getFirstChild()!= getProp;
+ return parent.getParent==getProp;
+return  parent.getFirstChild().getFirstChild().compare(parent) == getProp;
+ return parent.getParent().getNext() == getProp;
+ return parent.getFirstChild().next() == getProp;
+ return parent.getFirstChild().getParent() == getProp;
+ case Token.OR: case Token.HOOK:
+ return parent.getParent().getNext(parent) == getProp;
+ case Token.IF: case Token.DO: case Token.WHILE:
+ return parent.getFirstChild == parent;
+ return parent.next!== getProp;
+ return ASTNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: return validator.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.HOOK:
+return  parent.getFirstChild().getParent().getNext(parent) == getProp;
+ return parent.getNextChild(1) == getProp;
+ return parent.getParent().getNextChild(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) ==  null;
+ return parent.getFirstChild() == getProp && parent.getLastChild() == parent;
+return  parent.getFirstChild().getFirstChild().getNext(parent) == getProp;
+ return parent.getFirstChild().parent!== getProp;
+return  parent.getFirstChild().getNextChild().getNext(parent) == getProp;
+ return parent.getParent() == getProp;
+ case Token.IF: case Token.DO: case Token.FOR:
+ return parent.getFirstChild(...)!== getProp;
+ return parent.getFirstChild().getNext(parent) == getProp;
+ case Token.IF: return compiler.getConditionExpression(parent) == getProp;
+ case Token.DO: return compiler.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case Token.HOOK:
+ return parent.getNextChildOf(parent) == getProp;
+ return parent.nextChild!== getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK:
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.INSTANCEOF:
+ case Token.EXCEPTION: return false;
+ return parent.getFirstChild() == getProp && parent.getLastChild == parent;
+ return parent.getFirstChild==getProp;
+ case Token.OR: case Token.NOT:
+ case Token.OR: return compiler.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.NOT:
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getFirstChild() == parent;
+ return parent.getFirstChild().getString!== getProp;
+ return parent.getFirstChild() == getProp && parent.getFirstChild() == parent;
+ return parent.getFirstChild() == getProp && parent.getNextChild() == parent;
+ case Token.EXCEPTION: return validator.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND:
+ return parent.getFirstChild(2) == getProp;
+ case Token.EXCEPT: return compiler.getConditionExpression(parent) == getProp;
+ case Token.FOR: return compiler.getConditionExpression(parent) == getProp;
+return  parent.getFirstChild().getFirstChild().getParent(parent) == getProp;
+ return parent.getFirstChild().parent(parent) == getProp;
+ case Token.EQ: case Token.OR: case Token.OR: case Token.AND: case Token.HOOK:
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case Token.NOT:
+ return parent.getFirstChild(*) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT:
+ case Token.FOR: case Token.DO: case Token.WHILE:
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.OR:
+return  parent.getFirstChild().getFirstChild().test(parent) == getProp;
+ return parent.getSecondChild()!== getProp;
+ return parent.getNextChild(0) == getProp;
+ case Token.OR: case Token.OR: case Token.HOOK:
+ case Token.OR: case Token.OR:
+ case Token.FOR: case Token.DO: case Token.DO: case Token.WHILE:
+return  parent.getFirstChild().getNextChild(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.INSTANCES:
+ case Token.OR:
+ return parent.getFirstChild().NodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.NOT:
+return  parent.getFirstChild().getNextSibling(parent) == getProp;
+return NodeUtil.isFunction(parent);
+ return parent.getNextChild().getNext(parent) == getProp;
+ return parent.getFirstChild().value== getProp;
+ case Token.FOR: case Token.DO: case Token.FOR: case Token.DO: case Token.DO:
+ return parent.getFirstChild().next(parent) == getProp;
+ case Token.FOR: case Token.DO: case Token.DO:
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.INSTANCEOF:
+ case Token.FOR: case Token.DO: case Token.DO: case Token.DO:
+ case Token.FOR: case Token.DO:
+ case Token.DO:
+ return parent.getParent().getParent() == getProp;
+return  parent.getParent().getFirstChild().test(parent) == getProp;
+ return parent.getFirstChild() == getProp && parent.getParent() == parent;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.CALL:
+ case Token.IF: return validator.getConditionExpression(parent) == getProp;
+return  parent.getLastChild().getFirstChildOf(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.TYPEOF:
+ return parent.getNextChild().test(parent) == getProp;
+ return parent.getFirstChild()NodeUtil.getConditionExpression(parent) == getProp;
+ return parent.getFirstChild().compare(parent) == getProp;
+return NodeUtil.isMemberOf(parent, getProp);
+return  parent.getParent().getNextChildOf(parent) == getProp;
+ case Token.DO: return false;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.INSTANCED:
+ return parent.getNextChild(parent) == getProp;
+return  parent.getParent().getFirstChild().getNext(parent) == getProp;
+return NodeUtil. isPropertyTestFunction ( getProp ) ;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.INSTANCEL:
+ case Token.EXCEPTION: returnNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getNextChild) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.WHILE:
+ return parent.getNextChild().getParent(parent) == getProp;
+ return parent.getFirstChild() == getProp && parent.getParent().isOr();
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR:
+ case Token.FOR: case Token.DO: case Token.FOR: case Token.WHILE:
+ case Token.EQ: case Token.OR: case Token.OR: case Token.AND: case Token.NOT:
+return  parent.getFirstChild().getParent().getProp(parent) == getProp;
+ case Token.FOR: case Token.DO: case Token.DO: case Token.OR:
+ return parent.getNextChild().next() == getProp;
+ case Token.FOR: case Token.DO: case Token.DO: case Token.HOOK:
+ case Token.FOR: case Token.DO: case Token.DO: case Token.DO: case Token.WHILE:
+ return parent.getFirstChild!= parent;
+ return parent.getFirstChild()!= parent;
+ return parent == null;
+ case Token.HOOK:
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case Token.AND:
+return NodeUtil.getConditionExpression(parent, getProp)!= null;
+ return parent.getNextChild()!== getProp;
+ return parent.getLastChild() == getProp;
+ return parent.getNextChild();
+ case Token.FOR: case Token.DO: case Token.DO: case Token.FOR:
+ return parent.getFirstChild() == getProp && parent.getLastChild!= parent;
+ return parent.getFirstChildOfStatement(parent) == getProp;
+return NodeUtil.getConditionExpression(parent).getFirstChild() == getProp;
+ case Token.FOR: case Token.DO: case Token.DO: case Token.DO: case Token.DO:
+ return parent.getFirstChild()!= getProp && parent.getLastChild!= parent;
+ case Token.IF: case Token.OR:
+ case Token.FOR: case Token.DO: case Token.HOOK:
+ case Token.FOR: case Token.DO: case Token.DO: case Token.DO:
+ case Token.EQ: case Token.OR: case Token.HOOK:
+ case Token.OR: case Token.OR: case Token.AND: case Token.ORHOOK:
+ case Token.OR: case Token.OR: case Token.OR:
+return NodeUtil.isIdentifier(parent);
+ case Token.FOR: return false;
+ case Token.EXCEPTION: case Token.OR:
+ case Token.IF: case Token.WHILE:
+ return parent.getParent) == getProp;
+ case Token.IF:
+ return parent.getLastChildOf(parent) == getProp;
+ return parent.getFirstChild!= null;
+ return parent.getFirstChild() == null;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.HOOK: return true;
+return NodeUtil.NOP;
+ case Token.EQ: case Token.OR: case Token.OR: case Token.AND:
+ case Token.EXCEPTION: return parent==getProp;
+ case Token.IF: case Token.FOR:
+ return parent.firstChild() ==getProp;
+return NodeUtil.getConditionExpression(parent.getLastChild) == getProp;
+ case Token.EXCEPTION: return ASTNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: case Token.WHILE:
+ return parent.getFirstChild()!= null;
+ case Token.EXCEPTION: case Token.EXCEPTION:
+ return parent.getNextChild==getProp;
+return NodeUtil. isPropertyTestFunction ( parent ) ;
+ case Token.FORIN: case Token.OR: case Token.ORIN:
+return NodeUtil.NODE;
+ return getProp.getNext(parent) == getProp;
+ case Token.EQ: case Token.OR: case Token.OR: case Token.EQ:
+ return parent.getFirstChildNode(parent) == getProp;
+ return true; } else { switch (parent.type()) {
+ return parent.getFirstChild() &&NodeUtil.getConditionExpression(parent) == getProp;
+ return getProp.getFirstChild(parent) == getProp;
+ case Token.EXCEPTION: case Token.END:
+ return parent.getFirstChildFor(parent) == getProp;
+ if (parent.getFirstChild() == getProp) {
+ case Token.EXCEPTION: case Token.DO:
+ case Token.FOR: return validator.getConditionExpression(parent) == getProp;
+ case Token.FORINFINITE:
+ case Token.EQ: case Token.OR: case Token.OREQ:
+ case Token.EXCEPTION: parent=getProp;
+ return parent.getFirstChild();
+return  parent.getFirstChild().getParentOf(parent) == getProp;
+ return getProp.getParent(parent) == getProp;
+ return compiler.getRuntime().getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.WITH:
+ case Token.OR: case Token.OR: case Token.AND: case NOT:
+ case Token.EXCEPTION: return ExpressionNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: case Token.IF:
+return NodeUtil.isMemberTestFunction(parent, getProp);
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.HOOK: return false;
+ case Token.EQUALS:
+ return compiler.generator.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case NOT:
+ case Token.EXCEPT: return false;
+ return parent.getFirstChild()||NodeUtil.getConditionExpression(parent) == getProp;
+ return parent == parent;
+ return parent.getNextChildOfStatement(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getLastChild() == parent;
+ case Token.INCLUDE:
+ return getProp(parent) == getProp;
+ case Token.EQ: case Token.OR: case Token.OR: case Token.OREQ:
+ case Token.EQ: case Token.OR: case Token.OR: case Token.HOOK:
+ return parent.next()!== getProp;
+return NodeUtil.getConditionExpression(parent.getFirstChild(), parent);
+ return parent.isFor();
+ return parent.getNext(() == getProp;
+ case Token.EXCEPT:
+ return parent.parent==getProp;
+ case Token.INFOR: return compiler.getConditionExpression(parent) == getProp;
+ if (parent.getFirstChild() == getProp) return true;
+return NodeUtil.getConditionExpression(parent) != getProp;
+ case Token.DO: return ASTNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION:
+ case Token.CALL: return parent instanceofgetProp;
+return NodeUtil.isFunction(parent, getProp);
+ if (parent.getFirstChild() == getProp) return false;
+ return true; } else { switch (getProp) {
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case '=':
+return NodeUtil.NULL;
+return NodeUtil.getConditionExpression(parent.getFirstChild(), true);
+ case Token.EXCEPTION: case Token.DO:
+ return parent.getFirstChild) == getProp;
+return  parent.isFunction();
+return NodeUtil.getConditionExpression(parent, getProp) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case CaseCondition:
+ return parent instanceof Node;
+ case Token.OR: case Token.CATCH:
+ return String(parent) == getProp;
+ case Token.EXCEPTION: case Token.FOR:
+ case Token.OR: case Token.OR: case Token.AND: return true;
+ case Token.FORIN: return false;
+ case Token.DO: return true;
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case '=':
+ case Token.EQ: case Token.OR: case Token.WITH:
+ return parent.getParent().parent().getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: case Token.EXCEPT:
+ case Token.DO: return parent==getProp;
+ return parent.lastChild() ==getProp;
+ case Token.EXCEPTION: case Token.CALL:
+ case Token.IN: return validator.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: case Token.CONSTRUCTOR:
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case '(':
+ case Token.OR: case Token.WITH:
+ return parent!= null;
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getNextChild() == parent;
+ return parent.getParent()NodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case AND:
+ case Token.INFINITE:
+ return true; } switch (parent.getType().getName())
+ case Token.OR: case Token.OR: case Token.AND: case AND:
+ case Token.OR: case Token.OR: case Token.AND: case '=':
+ case Token.EQUAL:
+ return parent.getFirstChild().getNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case None:
+ case Token.EXCEPTION: case Token.END:
+ case Token.OR: case Token.OR: case Token.AND: case Token.NOT: case Token.HOOK: {
+ return getJSTypeName(parent) == getProp;
+ return parent.getParent().parent.getConditionExpression(parent) == getProp;
+ return parent.value!== getProp;
+ case Token.OR: case Token.OR: case Token.AND: case None:
+ case Token.OR: case Token.OR: case Token.ANDWITH:
+ return compiler.getFactory().getConditionExpression(parent) == getProp;
+ case Token.IF: return ASTNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case CaseCondition:
+ case Token.EQ:
+ case Token.FOR:
+ case Token.DO: return ExpressionNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getFirstChild()!= parent;
+ case Token.OR: case Token.OR: case Token.AND: case NodeCondition:
+ case Token.EXCEPTION: case Token.CATCH:
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case "!":
+return  parent!= getProp;
+ return parent.parent() == getProp;
+ return getPropertyTest(parent) == getProp;
+ return parent.getPrevious()!== getProp;
+ case Token.FOR: case Token.DO: case Token.HOOK:
+ case Token.CATCH:
+ case Token.FORIN:
+ case Token.OR: case Token.OR: case Token.AND: case '(':
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: case Token.NOT: {
+ case Token.EXCEPTION: case Token.EXCEPTOR:
+ case Token.OR: case Token.OR: case Token.AND: case Token.OR: case OR:
+ case Token.OR: return NodeUtil.getConditionExpression(parent) == getProp;
+ return parent.next(() == getProp;
+ case Token.EXCEPTION: return getProp;
+ (parent) == getProp;
+return NodeUtil.getConditionExpression(parent) ==  parent;
+ case Token.FORIN: case Token.OR:
+ case Token.EXCEPTION: case Token.CONCEPTION:
+ case Token.FOR: returnNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.AND: case "OR":
+ return parent.getParent().builder.getConditionExpression(parent) == getProp;
+ case Token.EQ: case Token.OR: case Token.WORD:
+ return parent.parent()!== getProp;
+ case Token.EXCEPTION: case Token.FORWARD:
+ return parent.getNext().getProp;
+ case Token.EXCEPTION: case Token.STRING:
+ return parent.getNext(parent) == getProp;
+ case parent.getFirstChild()!== getProp;
+ case Token.ELEMENT:
+ case Token.OR: case Token.OR: case Token.AND: case Token.HOOK: {
+ return parent.value== getProp;
+return NodeUtil.isMember(parent);
+ return true; } else { return parent. getFirstChild!= null;
+ return true; } else { return parent. isFunction ( ) ;
+ return parent instanceof Function;
+ case Token.IN:
+ return true; } else { case Token.EOF:
+ case Token.OR: return _getConditionExpression(parent) == getProp;
+ case Token.OR: case Token.OR: case Token.HOOK:
+return NodeUtil.getConditionExpression(parent.firstChild) == getProp;
+ case Token.INFORGET: return compiler.getConditionExpression(parent) == getProp;
+ return compiler.compilerNodeUtil.getConditionExpression(parent) == getProp;
+ return parent.isEmptyType;
+ case Token.IF: return _getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) ==  getProp.expression;
+ case Token.EXCEPTION: case Token.CONCEPTOR:
+ case Token.OR: return compiler.prototype.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: return parent!=getProp;
+ case Token.EXCEPTION: case Token.CLASS:
+ return compiler.debug().getConditionExpression(parent) == getProp;
+ case Token.OR: return parent.getParent.getConditionExpression(parent) == getProp;
+ return null== getProp;
+ case Token.FOR: case Token.DO: case Token.CALL:
+ case Token.EXCEPTION: return!getProp;
+ return true; } else if (parent.getType()) == Token.FOR:
+ case Token.OR: return parent.getParentNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: return compiler.registry.getConditionExpression(parent) == getProp;
+ case Token.OR: return compiler.debug().getConditionExpression(parent) == getProp;
+ if (parent.getFirstChild() == getProp)) return true;
+ case Token.EXCEPTION: case Token.EXCEPT:
+ case Token.EXCEPTION: case Token.EXCEPTION:
+ return compiler.compiler.getConditionExpression(parent) == getProp;
+ case Token.OR: return compiler.impl.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: return astHelper.getConditionExpression(parent) == getProp;
+ return true; } else { case Token.FOR:
+ return node.getFirstChild(parent) == getProp;
+ case Token.EXCEPTION: return utils.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: return CxxNodeUtil.getConditionExpression(parent) == getProp;
+ return getProp == parent;
+ case Token.END: returnNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.IF: return parent instanceofgetProp;
+return NodeUtil.isEmpty(parent);
+ case Token.DO: returnNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: case Token.CALL:
+ case Token.EXCEPTION: return AstNodeUtil.getConditionExpression(parent) == getProp;
+ return true; } else { return parent. getFirstChild!= parent;
+ case Token.OR: return parent.compilerNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.NONE;
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getFirstChild()!= null;
+return NodeUtil.getConditionExpression(parent) . isPropertyTestFunction ( ) ;
+ return parent == node;
+ case Token.EXCEPTION: return JsNodeUtil.getConditionExpression(parent) == getProp;
+ return parentNode!== getProp;
+ case Token.EXCEPTION: return CssNodeUtil.getConditionExpression(parent) == getProp;
+ return parent.isFunction;
+ return true; } else if (parent.getType() == Token.FOR:
+ case Token.CALL: return parent!==getProp;
+ return getName(parent) == getProp;
+ case Token.FOR: case Token.DO: case Token.INSTANCES:
+ case Token.EXCEPTION: return true; } case Token.USE:
+return NodeUtil.isName(parent);
+ return true;
+ case Token.FOR: case Token.DO: case Token.INSTANCED:
+ case Token.OR: return ExpressionUtils.getConditionExpression(parent) == getProp;
+ case Token.FOR: return parent instanceofgetProp;
+return NodeUtil.getConditionExpression(parent.nextChild) == getProp;
+ return getFirstChild(parent) == getProp;
+ return findPropertyTest(parent) == getProp;
+ return parent.getParent()->getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent)  == getProp.expr;
+ return compiler.impl.getConditionExpression(parent) == getProp;
+return  true; } switch (getProp) {
+ case Token.EXCEPTION: return true; } case Token.DO:
+return NodeUtil.getConditionExpression(parent) != getProp.getParent;
+return NodeUtil.getConditionExpression(parent.getChildren()) == getProp;
+ return node(parent) == getProp;
+ case Token.FOR: return _getConditionExpression(parent) == getProp;
+return  true; } else { switch (parent) {
+ case Token.FORWARD: case Token.GET:
+ case Token.EXCEPTION: return! parent;
+ return parent.getProp ==getProp;
+ return getProp.test(parent) == getProp;
+ case Token.FORWARD: case Token.END:
+ return true; } else if (parent.getType() == Token.FOR)
+ return true; } switch (parent.getType().getValue())
+return  true; case Token.USE:
+return  true; case Token.INSTANCEOF:
+return  true; } switch (parent.type()) {
+return NodeUtil.NIL;
+ return parent == this;
+return NodeUtil.getConditionExpression(parent, propName) == getProp;
+ return compiler.registry.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent)  && parent!= getProp;
+return NodeUtil.NOSORT;
+ case Token.OR: case '=':
+ return parent.name ==getProp;
+ return findPropertyTestFunction(parent) == getProp;
+ return isPropertyTestFunction(parent) == getProp;
+return  true; } case Token.EOF:
+ return parent.!== getProp;
+ case Token.OR: return ExpressionUtil.getConditionExpression(parent) == getProp;
+ return!getProp;
+return  false; case Token.USE:
+ case Token.EXCEPTION: return astNodeUtil.getConditionExpression(parent) == getProp;
+return  true; case Token.DO:
+ return parent.getName().getProp;
+return  true; } else { case Token.DO:
+ return parent.getParentNodeUtil.getConditionExpression(parent) == getProp;
+return  true; } case Token.FOR:
+ return compiler.analyzer.getConditionExpression(parent) == getProp;
+ case Token.IF return compiler.getConditionExpression(parent) == getProp;
+ return compiler.context.getConditionExpression(parent) == getProp;
+ case Token.OR: return compiler.getNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case.NOT:
+ return Number(parent) == getProp;
+ return isTest;
+ return compiler.debug.getConditionExpression(parent) == getProp;
+ return compiler.expressionFactory.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) != getProp.getParent();
+ case Token.EXCEPTION: case Token.EXCEPTION;
+return NodeUtil.FALSE;
+ return parent.getFirstChild() == getProp && parent.isOr() ; }
+return NodeUtil.getConditionExpression(parent) != getProp.expression;
+ case Token.ELEMEND:
+ return getParent() == getProp;
+return NodeUtil.getConditionExpression(parent)  == getProp.value;
+ return parent.test=getProp;
+ case Token.EXCEPTION: default:
+ case Token.FOR: compiler.getConditionExpression(parent) == getProp;
+ return parent.data!== getProp;
+ return toString(parent) == getProp;
+ return parent.isNotNull;
+ return ExpressionNodeUtil.getConditionExpression(parent) == getProp;
+ return getPropTest(parent) == getProp;
+ return getProp!== getProp;
+ return parent++!== getProp;
+ return getExpression(parent) == getProp;
+ return compiler.prototype.getConditionExpression(parent) == getProp;
+ case Token.EXCEPTION: break;
+return  true; } case Token.USE:
+ return parent.getFirstChild()!= getProp && parent.isOr() ; }
+ return compiler.compilationNodeUtil.getConditionExpression(parent) == getProp;
+ case Token.OR: case "!":
+ return nodeToString(parent) == getProp;
+ return getProp;
+return NodeUtil.getConditionExpression(parent) ==  getProp.getParent;
+ return parent.getFirstChild() == getProp && parent.getNextChild(); }
+ return compiler.compileNodeUtil.getConditionExpression(parent) == getProp;
+ return findProperty(parent) == getProp;
+return NodeUtil.ALL;
+return NodeUtil.getConditionExpression(parent, false) == getProp;
+ return parent.child!== getProp;
+ return getParent(parent) == getProp;
+ return name(parent) == getProp;
+ return parent.isNotEmpty;
+ return parent.compilerNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.ISNODE;
+return NodeUtil.getConditionExpression(parent.getFirstChild(), true));
+ return utils.getConditionExpression(parent) == getProp;
+ return compiler.get ( ).getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent).getFirstChild() == getProp();
+return NodeUtil.getConditionExpression(parent) ==  getProp.content;
+ return ExpressionUtils.getConditionExpression(parent) == getProp;
+ return compilerUtils.getConditionExpression(parent) == getProp;
+ return parent.getFirstChild() == getProp && parent.getLastChild; }
+return NodeUtil.getConditionExpression(parent) ==  getProp.getParent();
+return NodeUtil.ANY;
+return NodeUtil.getConditionExpression(parent, node) == getProp;
+return NodeUtil.NOT;
+return NodeUtil.NP;
+ return literal(parent) == getProp;
+return NodeUtil.getConditionExpression(parent, true) == getProp;
+ return JsNodeUtil.getConditionExpression(parent) == getProp;
+ return CxxNodeUtil.getConditionExpression(parent) == getProp;
+ return getPropertyName(parent) == getProp;
+ return ((parent) == getProp;
+ return compilerRegistry.getConditionExpression(parent) == getProp;
+ return (parent++) == getProp;
+ return!parent;
+return NodeUtil.NOSON;
+return NodeUtil.NOSONAR
+ return get(parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getFirstChild(), getProp); }
+ case '(':
+ case CaseCondition:
+ return getProp ==getProp;
+ return AST.NodeUtil.getConditionExpression(parent) == getProp;
+ return getPropName(parent) == getProp;
+ return getNameOfProperty(parent) == getProp;
+ return compilerUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) ==  getProp && parent.isOr() ; }
+ return find(parent) == getProp;
+ return true; } else { case Token.FOR,
+ case '=':
+ case Token.FORWARD: case Token.GET;
+ case Token.ELEM: {
+return NodeUtil.getConditionExpression(parent).getFirstChild() == getProp);
+ case Token.EXCEPTION: {
+ return CssNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.isMemberOf(parent, getProp); }
+ case ";":
+ return getNode(parent) == getProp;
+return NodeUtil.isMemberOf(parent, getProp)
+ return compiler.propNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.isMemberOf(parent, getProp));
+ return false;
+return NodeUtil.getConditionExpression(parent, parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getFirstChild(), compiler); }
+return NodeUtil.getConditionExpression(parent.getFirstChild()) == getProp; }
+ return Compiler.NodeUtil.getConditionExpression(parent) == getProp;
+ return Validator.getConditionExpression(parent) == getProp;
+ return AstNodeUtil.getConditionExpression(parent) == getProp;
+ return compiler.expressionNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent)  == getProp.getParent() ; }
+ return JcrNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.isMemberTestFunction(parent, getProp;
+return NodeUtil.getConditionExpression(parent) != getProp && parent.isOr(); }
+return NodeUtil.getConditionExpression(parent) ==  getProp && parent.getNextChild(); }
+return NodeUtil.getConditionExpression(parent.getFirstChild(), true); }
+return NodeUtil.isMemberTestFunction(parent, getProp)
+return NodeUtil.isMemberTestFunction(parent, getProp));
+return NodeUtil.getConditionExpression(parent.getFirstChild(), false); }
+return NodeUtil.getConditionExpression(parent)  == getProp.getFirstChild() ; }
+return NodeUtil.isMemberOf(parent, getProp;
+return NodeUtil.getConditionExpression(parent) ==  getProp && parent.isNotEmpty(); }
+return NodeUtil.getConditionExpression(parent.getFirstChild(), parent); }
+ return astHelper.getConditionExpression(parent) == getProp;
+ return true;;
+return NodeUtil.getConditionExpression(parent) != getProp && parent!= getProp; }
+return NodeUtil.getConditionExpression(parent) == getProp();
+return NodeUtil.isFunction() ;
+return NodeUtil. isPropertyTestFunction(parent); }
+return NodeUtil.isPropertyTestFunction(getProp); }
+ return compiler.getNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent.getFirstChild())!= getProp; }
+return NodeUtil.getConditionExpression(parent) == getProp && parent.getFirstChild() ; }
+ case Case.:
+return NodeUtil.getConditionExpression(parent) != getProp.getParent() ; }
+ case OR:
+return NodeUtil.getConditionExpression(parent.getFirstChild(), getProp); } else
+return NodeUtil.getConditionExpression(getProp) ;
+return NodeUtil.getConditionExpression(parent) ==  getProp.getFirstChild(); } else
+return NodeUtil.getConditionExpression(parent)  == getProp.getString() ; }
+return NodeUtil.getConditionExpression(parent) ==  getProp.getFirstChild(0); }
+return NodeUtil.isFunction(parent, getProp));
+return NodeUtil.getConditionExpression(parent) == getProp.expression; }
+ return nodeFactory.getConditionExpression(parent) == getProp;
+return  true; break;
+return NodeUtil.getConditionExpression(parent)  > 0;
+ default:
+return NodeUtil.getConditionExpression(parent) != parent;
+ return compiler.astNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent, getProp) ; }
+return NodeUtil.getConditionExpression() == parent;
+return NodeUtil.getConditionExpression(parent) ==  getProp || parent == getProp; }
+return NodeUtil.getConditionExpressionNode(parent);
+ return (null) == getProp;
+return NodeUtil.isFunction(getProp); }
+ case FOR:
+return NodeUtil.getConditionExpression(parent.getFirstChild); }
+return NodeUtil.getConditionExpression(parent) == getProp.getFirstChild().getParent; }
+return NodeUtil.getConditionExpression(parent) == getProp.getFirstChild() == parent; }
+return NodeUtil.getConditionExpression(parent) . isPropertyTestFunction ( )();
+return NodeUtil.isIdentifier(parent); }
+return NodeUtil.isMemberTestFunction(parent); }
+return NodeUtil.isFunction(parent, getProp;
+return  true; case Token.DO,
+return NodeUtil.getConditionExpression(parent) == getProp; }
+return NodeUtil.isFunction(parent); }
+return NodeUtil.isMemberOf(parent); }
+return NodeUtil.isIdentifier(parent)
+return NodeUtil.getConditionExpression(parent) == getProp.getFirstChild().getParent(); }
+return NodeUtil.isEmptyNode(parent); }
+ return $(parent) == getProp;
+return  true; case Token.USE,
+return NodeUtil.getConditionExpression(parent).test();
+ return IR.getConditionExpression(parent) == getProp;
+ return this.getConditionExpression(parent) == getProp;
+return NodeUtil.isIdentifier(parent));
+return NodeUtil.getConditionExpression(parentNode) == getProp;
+ return compilation.getConditionExpression(parent) == getProp;
+ return parent) == getProp;
+return NodeUtil.isFunction(parent)
+ return interpreter.getConditionExpression(parent) == getProp;
+ return parent.getProp;
+return NodeUtil.isMember(getProp); }
+return NodeUtil.getConditionExpression(parent).expression;
+return NodeUtil.isIdentifier(parent).
+ return "(parent) == getProp;
+return NodeUtil.getConditionExpression(parent)!= null();
+return NodeUtil.getConditionExpression(parent) ==  parent.getFirstChild(); }
+ return () == getProp;
+ return null!== getProp;
+return NodeUtil.getConditionExpression(parent) ==  expression;
+return  parent.isFunction() {
+return NodeUtil.getConditionExpression(parent) ==  node;
+return NodeUtil.getConditionExpression(parent) ==  getProp.getValue(); }
+ break;
+return NodeUtil.getConditionExpression(getProp); }
+return NodeUtilTrue;
+ && parent!== getProp;
+ return SimpleNodeUtil.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent) ==  this;
+return NodeUtil.getConditionExpression(parent) ==  getProp.getParent; }
+ (expression) == getProp;
+return NodeUtilTest();
+return NodeUtil.getConditionExpression(parent).expression();
+ return StatementNodeUtil.getConditionExpression(parent) == getProp;
+ || parent!== getProp;
+ node() == getProp;
+return NodeUtil.getConditionExpression() ;
+ assert.getConditionExpression(parent) == getProp;
+return NodeUtil.getConditionExpression(parent); }
+return NodeUtil.getConditionExpression(parent) != getProp; }
+ assert parent!== getProp;
+return NodeUtil.getConditionExpression(propName) == getProp;
+ compiler.getConditionExpression(parent) == getProp;
+ parent==getProp;
+return NodeUtilTest;
+ return __getConditionExpression(parent) == getProp;
+ switch;
+return NodeUtil.getConditionExpression(parent) ==  getProp,
+ return undefined== getProp;
+return NodeUtil.getConditionExpression(parent)
+ assert!getProp;
+ return!getConditionExpression(parent) == getProp;
+ parent!== getProp;
+return NodeUtil.getConditionExpression(parent));
+return NodeUtil.getConditionExpression(parentArg) == getProp;
+return NodeUtil.getConditionExpression(parent)  === getProp; }
+ return!== getProp;
+return NodeUtil.getConditionExpression(getParent) == getProp;
+return NodeUtil.getConditionExpression(parent),
+return NodeUtil.getConditionExpression(parent) == getProp.compound; }
+ switch();
+return NodeUtilTrue();
+return NodeUtil.getConditionExpression(node);
+return NodeUtil.getConditionExpression(parent)  == "true"; }
+return NodeUtil.getConditionExpression(Parent);
+return NodeUtil.getConditionExpression(parent)  ==;
+return NodeUtil.getConditionExpression(parseProp); }
+return NodeUtil.getConditionExpression(parents);
+return NodeUtilTest:
+return  true,
+return NodeUtil.getConditionExpression()++;
+return NodeUtil.getConditionExpression(parent) ==  getProp. *
+ return null;
+return NodeUtil.getConditionExpression(parent)++;
+return NodeUtil.getConditionExpression(parent)  == null
+return NodeUtil.getConditionExpression(parent) ==  getCond; }
+return NodeUtil.getConditionExpression(parent) ==  null; }
+ {
+return NodeUtil.getConditionExpression(parent)  == [];
+return NodeUtil.getConditionExpression(); }
+return NodeUtil.getConditionExpression(node); }
+return  true ; }
+return NodeUtil.getConditionExpression(parent) === getProp;
+return  false ; }
+return NodeUtil.getConditionExpression(parent) ++; }
+return NodeUtil.getConditionExpression(node) == getProp;
+return NodeUtil.getConditionExpression().*
+return NodeUtil.getConditionExpression(parent));}
+return NodeUtil.getConditionExpression(Parent) == getProp;
+return NodeUtil.getConditionExpression(p) == getProp;
+return NodeUtil.getConditionExpression(parent) < getProp;
+return NodeUtil.getConditionExpression(parent) > getProp;
+return NodeUtil.getConditionExpression(parent) == getProp); }

@@ -1,0 +1,148 @@
+ else { callNode. setIsPure ( false ) ;
+ else { callNode. setIsPure ( true ) ; }
+ else { callNode. setIsPure ( true ) ;
+ }
+ else { callNode. setIsPure ( true ) ; } }
+ else { callNode. setIsPure ( false ) ; }
+ else { callNode. setIsPure ( false )
+ else { callNode. setIsPure ( true ) ; } } }
+ else { markPureFunctionCall ( ) ;
+ else { callNode. setIsPure ( false ) ; } }
+ else { callNode. setIsPure ( true )
+ else { callNode. setIsPure ( ) ;
+ }
+ else { callNode. setIsPure ( false ) ; } } }
+ else { callNode. setIsPure ( true ) ; } } } }
+ else { callNode. setIsPure ( true ) ; } return true ;
+ } }
+ else { callNode. setIsPure ( true ) ; } return callNode ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. setIsPure ( false ) ; }
+ else { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ; } }
+ else { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ; } } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. setIsPure ( false ) ;
+ else { callNode. setIsPure ( true ) ; return ; }
+ else { callNode. setIsNoSideEffectsCall ( false ) ;
+ else { callNode. setIsPure ( true ) ; } } return true ;
+ else { callNode. setIsPure ( false ) ; } return true ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( false ) ;
+ else { callNode. setIsPure ( isPureFunctionCall ) ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } return callNode ;
+ else { callNode. setIsPure ( true ) ; } } } } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. setIsPure ( true ) ; }
+ else { callNode. setIsPure ( true ) ; } } } ;
+ else { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } }
+ } else { markPureFunctionCalls ( ) ;
+ else { callNode. setIsPure ( true ) ; } } } } ;
+ else { callNode. setIsPure ( isPure ) ; }
+ else { markPureFunctionCalls ( ) ;
+ else { callNode. setIsPure ( false ) ; } } return true ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } return callNode ;
+ else { callNode. setIsPure ( isPure ) ; } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } return true ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } }
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } return callNode ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } return true ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. setIsPure ( true ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } else { markPureFunctionCalls ( ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } if ( hasSideEffects ) { markPureFunction ( ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( hasSideEffects ) ; } }
+ else { callNode. setIsPure ( true ) ; } } } } ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( false ) ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. reset ( ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. remove ( ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } else { return false ; }
+ else { markPureFunctionCallSite();
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } else { callNode. setIsPure ( false )
+ else { callNode. setIsPure ( true ) ; } } } } } }
+ else { callNode. setIsNoSideEffectsCall ( false )
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } else { return ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } return false ;
+ else { callNode. setIsNoSideEffects ( true ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } ;
+ else { callNode. setPure ( true )
+ else { callNode. setIsPure ( true ) ; } } } } } ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode. clear ( ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } ;
+ else { callNode. setPure ( ) ;
+ } else { callNode. setIsPure ( false ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( false ) ; } else { return false ; }
+ else { markPureFunctionCall ( callNode )
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } if ( hasSideEffects ) { markPureFunctionCallSite();
+ } else { markPureFunctionCalls ( ) ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = null ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = null ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } return callNode ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = def ; }
+ else { callNode. setPure ( false )
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode ( def ) ;
+ } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } } ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } else { markPureFunctionCall ( ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = null ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( false ) ; } else { return ; }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = callNode ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } else { callNode = def ;
+ else { callNode. setIsPure ( ) ; } }
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } else { markPureFunctionCalls ( )
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } else { return false ;
+ } else { callNode. setIsPure ( true ) ;
+ else { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } } } }
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } } } } ;
+ else { markPure ( ) ;
+ else { markPureFunction ( ) ;
+ else if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true ) ; } } } } } ;
+ } else { markPureFunctionCall();
+ return ; }
+ else { markPureFunction ( callNode )
+ else { markPureFunctionCallNode();
+ else { markPureFunctionCalls(); }
+ return true ;
+ } } } ;
+ } } }
+ } return this ;
+ return hasSideEffects ;
+ } return callNode ;
+ } return true ;
+ return false ;
+ } } }
+ else { return false ; }
+ } return callNode ;
+ } } } }
+ } } ;
+ } } } } }
+ return callNode ;
+ return this ;
+ else { markPureCallNode();
+ } else { return ; }
+ } return this ;
+ } } } } ;
+ return ; } } return ;
+ return ; } } } ) ;
+ } return true ;
+ } } } } } }
+ return true ;
+ else { return ; }
+ } } return true ;
+ return hasSideEffects ;
+ } } } }
+ return this ;
+ } } } ;
+ return ; } } } }
+ } } return this ;
+ return true ; }
+ return ; } } } } }
+ return ; }
+ } } } } }
+ return ;
+ return ;
+ } ;
+ } ;

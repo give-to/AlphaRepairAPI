@@ -1,0 +1,535 @@
+if (gramps &&
+ gramps.isCall() &&
+if (gramps.isCall() &&
+if (gramps!= null &&
+if (gramps.isCall(expr)) { if (
+ if (isCall() &&
+if (gramps!= null) { if (
+ if (expr.isCall() &&
+if (expr == parent ||
+if (gramps!= null) if (
+if (gramps.isCall(expr)) { return true; } else if (
+if (gramps!= null) &&
+if (gramps.isCall(expr)) { return true; } if (
+if (gramps!= null) { return true; } if (
+if (gramps == null) { if (
+ if (gramps.isName() &&
+ if (parent.isCall() &&
+if (gramps == null) { return false; } if (
+if (gramps.isCall()  ) { if (
+if (gramps.isName()) { return true; } if (
+ if (&&
+if (gramps.isCall(expr) ||
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true; }
+if (gramps.isCall(expr) &&
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true; } else
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { break; }
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return false; }
+ case Token.FOR: if(gramps.isCall() &&
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true;
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.EVAL:
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.ELEM:
+ return (expr == gramps.getFirstChild())? true : isExpressionResultUsed(parent); case Token.EVAL:
+if (expr ==
+if (gramps.isCall(expr)) if (
+if (gramps == null) { return false; if (
+if (gramps == null) return false; if (
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { return true; }
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.SELECT:
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return false; } else
+ return (expr == gramps.getFirstChild())? true : isExpressionResultUsed(parent); case Token.ELEM:
+if  (gramps == null ||
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.IF:
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.DIV:
+ if ((gramps!= null) &&
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { break; }
+if (gramps!= null) { return true; if (
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.EQ:
+if (gramps!= null) { return false; } if (
+ if (gramps.isName()) { return true; } else
+if (gramps.isCall(expr)) { return true; if (
+ if (gramps.isCall() && parent == gramps.getLastChild()) { return true; }
+ return (expr == gramps.getFirstChild())? true : isExpressionResultUsed(parent); case Token.SELECT:
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { return true; } else
+if (gramps == null) { return true; } if (
+ switch (parent == gramps && gramps.isCall() &&
+ if (gramps.isCall() && parent == gramps.getLastChild()) { return true; } else
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.FOR:
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { return false; }
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return false;
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true; } } else
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { return true;
+ return (expr == gramps.getFirstChild())? true : isExpressionResultUsed(parent); case Token.EQ:
+ if (gramps.isDirectCall() &&
+ if (gramps.isCall() && parent == gramps.getFirstChild()) return true;
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { } else
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.EXEC:
+if  (gramps == null) || (
+ return (parent.getChildAtIndex(1) == expr); case Token.EVAL:
+ if (gramps.isName()) { return true; } } else
+ switch (parent.getType()) {
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.EXPRESSION:
+ if (gramps.isCall() && parent == gramps.getFirstChild()) return false;
+ if (gramps.isCall() && parent == gramps.getSecondChild()) return true;
+ if (gramps.isName()) { return true; } case Token.EVAL:
+if (gramps.isCall(expr)) { return false; } else if (
+ return (expr == gramps.getFirstChild())? true : isExpressionResultUsed(parent); case Token.EXPRESSION:
+if (gramps.isName()) { return true; if (
+ if (gramps &&!gramps.isCall() &&
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { } else
+if (gramps.isCallIn(expr)) { if (
+if  (gramps == parent.getParent() ||
+ if (gramps.isName()) { return true; }
+ if (gramps.isName()) { return true; } case Token.ELEM:
+if (gramps.isName()) { return false; } if (
+if (gramps.isCall()  ) { return true; } if (
+if (gramps.isCall()  ) { return true; } else if (
+ if (gramps.isName()) { return false; }
+ if (gramps.isFunction() &&
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return false; } } else
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { return true; } } else
+ if (gramps.isName()) { return false; } else
+ if (gramps.isCall() && parent == gramps.getLastChild()) { return true; } } else
+ return (expr == gramps.getFirstChild())? false : isExpressionResultUsed(parent); case Token.Evaluate:
+if (gramps == parent.getFirstChild() ||
+ if (gramps!= null && gramps.isCall() &&
+if  (gramps == null ||!
+if (gramps == null) { break; if (
+ return (parent.getChildAtIndex(1) == expr); case Token.IF:
+ switch (parent == gramps) { if (gramps.isCall() &&
+ if (gramps.isName()) { return true; } case Token.FOR:
+ if (parent.isName() &&
+ if (gramps.isExpr() &&
+if (gramps.isCall(expr)) { return false; } if (
+ switch (gramps.isCall() &&
+ switch (gramps.getType()) { case CALL:
+if (gramps!= null) { return false; if (
+ return (parent.getChildAtIndex(1) == expr); case Token.FOR:
+ case Token.EVAL:
+ if (gramps.isName()) { return false; } } else
+if  (gramps == null) { } if (
+ if (expr == gramps.isCall() &&
+if (gramps == null) { return true; if (
+ switch (parent.getType()) { default:
+ if (gramps.isName()) { return true; } break; } else
+ if (gramps.isName()) { return true; } case Token.IF:
+ if (gramps && gramps.isCall() &&
+ if (gramps!= null && expr == parent&&
+ if (gramps!= null) { return true; } } else
+ case Token.ELEM:
+ case Token.IF: if(gramps.isCall() &&
+ if (gramps.getNext().isCall() &&
+ if (gramps.isName()) { return true; } case Token.SELECT:
+ switch (parent == gramps.getNext().isCall() &&
+ if (expr == gramps&&
+ if (expr == parent&&
+ return (parent.getChildAtIndex(1) == expr); case Token.EXEC:
+ if (gramps.isName()) { return false; } case Token.FOR:
+ switch (gramps).getType()) { if(gramps.isCall() &&
+ switch (gramps.getType()) { case Token.:
+ if (gramps == null) { return false; } break; } else
+if  (expr == null ||
+if (gramps.isCall &&
+ switch (parent.getType()) { case CALL:
+ case Token.EVAL: if(gramps.isCall() &&
+ return gramps. isCall ( ) ; case Token.EVAL:
+ if (gramps!= null) { return true; } break; } else
+ case Token.ARRAY: if(gramps.isCall() &&
+ if (gramps == null) { return false; } case Token.FOR:
+ if (gramps!= null) { return true; } case Token.FOR:
+ switch (parent == gramps && expr.isCall() &&
+ switch (parent == gramps ||
+ switch (gramps) {
+ if (gramps == parent.getFirstChild() &&
+ switch (parent == gramps) || (gramps.isCall() &&
+ if (gramps.isCall()) { return true; }
+ if (gramps.isCall(*) &&
+ switch (gramps) { if(gramps.isCall() &&
+ if (gramps == expr.getFirstChild() &&
+ if (gramps!= null) { return false; } } else
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true; } break; }
+ if (parent == gramps.isCall() &&
+if (gramps.isCall(expr &&
+ switch (parent!= gramps && gramps.isCall() &&
+ if (gramps.isDirectCall(expr) &&
+if (gramps.isCallable()) { return true; } if (
+ switch (gramps.isName()&&
+if  (expr == gramps ||
+ if (gramps.isCall(() &&
+if (gramps.isCallIn(expr)) if (
+if  ((gramps == null) ||
+if (gramps.isCallable()) { return true; } else if (
+ switch (gramps.getType()) { case Token.SELECT:
+ switch (parent == gramps) || gramps.isCall() &&
+ if (gramps.isCall() && parent == gramps.getSecondChild()) { else
+ switch (gramps&&
+ switch (gramps).getType()) { case Token.:
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { else
+if (gramps.isCallIn(expr)) { return true; if (
+ case Token.FOR:
+ switch (gramps!= null) { if(gramps.isCall() &&
+ switch (parent == gramps || gramps.isCall() &&
+ switch (parent == gramps) { if (!gramps.isCall() &&
+if  (gramps!= null) && (
+if (gramps.isCall()  ) { return true; } } else if (
+ switch (gramps.getType()) { default:
+ case Token.EXPRESSION:
+if (gramps.isCall(parent)) { return true; } else if (
+ if (gramps.isName()) { return true; } break; }
+ case Token.FOR: if
+ if (gramps.isCall() && parent == gramps.getLastChild()) { return true ; } break; }
+if (gramps.isCall(expr)) { return false; if (
+ if (gramps.isCompound() &&
+ switch ((gramps!= null) &&
+if (gramps.isCall()  && gramps.isIdentifier() &&
+ case Token.EQ:
+ switch (parent == gramps) if (gramps.isCall() &&
+ case Token.EXPR_RESULT: if(gramps.isCall() &&
+if (gramps.isName()) { return false; if (
+ case Token.EXPR: if (gramps.isCall() &&
+ switch (parent!= gramps &&!gramps.isCall() &&
+ if (gramps.isExprResult() &&
+ switch (parent == gramps &&!gramps.isCall() &&
+ switch (parent == gramps) ||
+if (gramps.isCall(expr.getNext().getString()) &&
+ if (gramps.isName()==&&
+ break; if(gramps.isCall() &&
+ if (gramps.isCall() && parent == gramps.getSecondChild()); else
+ switch (parent == gramps.isCall() &&
+ if (gramps.isIdentifier() &&
+ case Token.EXPRESSION: if(gramps.isCall() &&
+ switch (parent == gramps)) { if (gramps.isCall() &&
+ if (gramps.isName(expr)&&
+ if (gramps!= null) return false;
+ switch (parent).getType()) {
+if (gramps.isCall()  ) { return true; } else { if (
+if (gramps.isCall()  && gramps.isName() &&
+if (gramps.isCallIn(parent)) { return true; if (
+ if (gramps.isName()) { return true; } else {
+ switch (parent.getType() { default:
+ if (gramps.isCall() && parent == gramps.getLastChild()); else
+ switch (gramps.getType()) { if (
+ if (expr.isName() &&
+ switch (gramps.getType() { case
+ switch (parent.getType()) { case Token.:
+ if (expr == parent && gramps.isCall() &&
+ switch(gramps)
+if (gramps.isCallIn(expr) ||
+if  (gramps!= null) { } if (
+if (gramps.isName() && gramps.isString &&
+ switch (gramps &&!gramps.isCall() &&
+ if ((expr == parent) &&
+if (gramps == null) { return false; case
+ case Token.OR: case Token.AND: { if (
+if  (gramps == null) return false if (
+ case Token.ELEM: if(gramps.isCall() &&
+ if (Node gramps.isCall() &&
+ if (gramps.isName()) { break; }
+ switch (parent!= gramps&&
+ if (gramps.isName()) { return true;
+ if (gramps.isCompound(() &&
+if (gramps.isCallIn(expr) &&
+ if (gramps.next() &&
+ case Token.ELEMAL:
+ if (gramps.isName(...)&&
+ switch (() &&
+ case Token.EVAL: if (expr.isCall() &&
+ if (gramps.isCall() && parent == gramps.getFirstChild()) { return true; } break; else
+ case Token.DIV: if(gramps.isCall() &&
+if (gramps.isCall()  ) { return true; if (
+ if (gramps!= null && expr!= null&&
+if (gramps.isCallIn(parent)) { if (
+ case Token.FOR: return
+if (gramps.isCallTo(eval)) { if (
+ if (gramps.isExpr(expr) &&
+if (gramps.isCallable()) { return false; } if (
+if  (expr &&
+if (gramps.isCall(expr.getNext().getString());
+if (gramps.isCall()  && expr == gramps &&
+if (gramps.isName()) { break; } if (
+ if (gramps.isCall() && parent == gramps.getParent()); else
+ case Token.OR: if(gramps.isCall() &&
+if (gramps.isCall()  == true &&
+ case Token.EQ: if(gramps.isCall() &&
+ switch (gramps.getNext().isCall() &&
+ if (gramps.isName()) return false;
+ case Token.FOR: if (!gramps.isCall() &&
+ case Token.Evaluate: if(gramps.isCall() &&
+ switch (parent == gramps) if (expr.isCall() &&
+ if (gramps.isFunctionCall() &&
+ switch (parent.isName()&&
+ switch (parent == gramps || (gramps.isCall() &&
+ if (gramps.isCallBack() &&
+ if (gramps.isName() == true&&
+ if (expr == parent.getFirstChild().isCall() &&
+ if (gramps.isExpr(() &&
+if  (gramps!= null) ||
+if (gramps.isName()) { if (
+if (gramps.isCallIn(parent) ||
+ switch (gramps.getType() { default:
+ case Token.EQUAL:
+if  ((expr == gramps ||
+ switch (parent == gramps)) { if (!gramps.isCall() &&
+ switch (gramps) { case CALL: if(gramps.isCall() &&
+if (gramps.isName()) return true; if (
+ if (expr == parent) &&
+ switch (expr == parent&&
+ switch (parent == gramps && parent.isCall() &&
+ if ((gramps) &&
+ if (gramps && expr.isCall() &&
+ switch (gramps.getType() == 1&&
+ if (gramps && parent.isCall() &&
+ if (parent.isFunction() &&
+if (gramps.isForIn(parent) ||
+ break; } if(gramps.isCall() &&
+ case Token.EXEC:
+ if (gramps.isParentOf(expr) &&
+ if (gramps!= null && expr&&
+ case Token.EXPR: default: if(gramps.isCall() &&
+if (gramps.isCall(expr)) { if (expr ==
+ case Token.SELECT:
+ switch (parent == gramps&&
+ case Token.IF:
+if (gramps.isCallIn(parent)) if (
+ switch (gramps && gramps.isCall() &&
+if (gramps.isCallable()) { return true; if (
+ if (gramps) &&
+ switch (gramps instanceof CallStatement): if(gramps.isCall() &&
+ switch ((gramps) &&
+ case Token.ARRAY: if (!gramps.isCall() &&
+if (gramps.isCall(expr) { return true; if (
+ case Token.FOR: if (expr.isCall() &&
+ switch(gramps).type()) { if(gramps.isCall() &&
+if  (parent == null ||
+if (gramps.isCall(expr.getString())) ||
+ switch (parent.getType() { case
+ if (gramps!= null && expr.next() &&
+ case Token.FOR:
+ case Token.IF: if (expr.isCall() &&
+ switch (parent == gramps ||!gramps.isCall() &&
+ case Token.FOR: gramps.isCall() &&
+ if (gramps!= null && expr.expression() &&
+ if (gramps.isName&&
+ break; } else
+ if (gramps!= null && expr.empty() &&
+ if (expr.getNext().isCall() &&
+ switch (parent == gramps || parent.isCall() &&
+ switch (parent.getType() { case!gramps.isCall() &&
+if (gramps.isCall()  ) return true; if (
+if  (!gramps ||
+ if (gramps.isName()) { return true; } break ; } }
+if (gramps == null) ||
+ case Token.EXPR: if (expr.isCall() &&
+if (gramps.isDirectCall(expr) ||
+ switch(gramps) if(gramps.isCall() &&
+if (gramps.isCallTo(expr) &&
+if (gramps.isCallTo(eval")) { if (
+ if (gramps!= null && isCall() &&
+ switch (gramps.getType() { case!
+ if (gramps.isCompound(expr) &&
+ if (gramps.next(() &&
+ if ((expr!= null) &&
+ if (expr!= null&&
+if (gramps.isCall()  && gramps.isName &&
+if (gramps.isCall(expr)) { if (expr &&
+ if ((gramps instanceof Node) &&
+ switch (gramps) &&
+if (gramps.isCall()  { return true; if (
+ case Token.Eval: default: if(gramps.isCall() &&
+ case Token.IF: gramps.isCall() &&
+if (parent == gramps ||
+if (gramps.isCall()  && expr == gramps ||
+ if (gramps!= null) { return true; if
+ return true; if (
+ switch (parent.getType()) { case Token.DIV
+if (gramps.isCallIn(expr)) { if (expr ==
+ case Token.EVAL: { if (gramps.isCall() &&
+if (gramps.isForIn(parent ||
+if (gramps.isForIn(parent &&
+ if ((gramps.isCall() &&
+ switch (parent == gramps) if (!gramps.isCall() &&
+ switch (gramps.getType().isCall() &&
+ case Token.EQ: return
+ case Token.IF: return
+ if (expr!= null) &&
+if (gramps.isCallable &&
+if (gramps.isCall(expr)) { return true; case
+ if (gramps!= null && isFunction() &&
+if (gramps.isCall()  ) if (
+ break; if (
+ switch (parent == gramps).if (gramps.isCall() &&
+ if (expr == parent && expr.isCall() &&
+if (gramps.isFunction &&
+ if (gramps.isSingleLineStatement() &&
+ case Token.FOR&&
+ break; } if (
+ if (gramps instanceof Node&&
+ if (!isCall() &&
+ if (gramps.isCompoundName() &&
+ switch (parent!= null&&
+ if(.isCall() &&
+ return true; } if (
+if (Gramps!= null &&
+ case Token.Eval: return
+if (gramps.isCallable()) { return false; if (
+if (gramps.isCall(expr)) { return true; if
+ if (!gramps.isCall() &&
+if (gramps.isCall(expr)) { } if (
+ if (groups.isCall() &&
+if (gramps!= null &&!
+ if (isCall(expr) &&
+ return false; if (
+ if (isFunction() &&
+ if (expr == gramps) &&
+ case Token.FOR: (gramps.isCall() &&
+ if (expr == parent && parent.isCall() &&
+ switch (groups.isCall() &&
+ if (nodeGramps.isCall() &&
+ if (eval() &&
+ case Token.OR: return
+if (gramps.isCall()  { return false; if (
+ switch (parent.isCall() &&
+ switch ((expr == parent) &&
+if (gramps.isCallIn(expr)) || (
+if (gramps.isName()) { return true; case
+ case Token.ELEM: { if(gramps.isCall() &&
+if (gramps.isCallIn(expr)) { } if (
+if (gramps.isEmpty() ||
+if (gramps.isName()) { return true; if
+if (gramps.isCall(expr ||
+ case Token.ARRAY:gramps.isCall() &&
+if (gramps.isCall(expr)) ||
+ case Token.FOR(&&
+ switch (parent.getType()) { }
+if (gramps.isCall(expression)) { if (
+ switch (parent.getType()) { case
+ case Token.IF: (gramps.isCall() &&
+if (gramps.isCall(expr)) || (
+if (gramps.isCall(expr) { if (
+ switch (gramps) { case if(gramps.isCall() &&
+if (gramps.isCall()  == false &&
+ case Token.EVAL:gramps.isCall() &&
+ if (isExpression() &&
+if  (Gramps &&
+if (gramps.isName() &&!
+ if (~gramps.isCall() &&
+ case Token.IF&&
+if (gramps.isCall()  == false ||
+ if (expr gramps.isCall() &&
+if (gramps.isCall()  ) { } if (
+if (gramps.isCall()  && expr == parent &&
+if (gramps.isCallable() &&
+ break; } else if(gramps.isCall() &&
+if (gramps.isCall()  &&!
+ if (isDirectCall() &&
+ switch (expr&&
+if (gramps.isCallIn(expr &&
+if (gramps.isCall()  == true ||
+ switch (isCall() &&
+if (gramps.hasNext &&
+ if (exprGramps.isCall() &&
+if (gramps.isCallIn(parent &&
+if (gramps.isCall(expr)) && (
+ if (parent.next() &&
+ if (expr.gramps.isCall() &&
+ break; if (!gramps.isCall() &&
+ switch (true) &&
+ if (parent.empty() &&
+if (gramps.isCall()  && (expr ==
+ case '(': if(gramps.isCall() &&
+ break; }
+if (gramps.isCall(expr) &&!
+ if ((expr) &&
+if (gramps.isCall()  && expr == parent ||
+if (gramps.empty ||
+ if (expr.call() &&
+ switch (isFunction() &&
+ case ')' : if(gramps.isCall() &&
+if  (!expr ||
+if (gramps.isCall()  && expr!= null &&
+ } if (gramps.isCall() &&
+ switch ((expr) &&
+if (gramps.isCall()  { return true; }
+ if (gr) &&
+ switch(gramps);
+ break; default:
+if  ((Gramps)
+ switch (eval() &&
+ switch (parent).getType()); {
+ switch (expr.isCall() &&
+if (gramps.isCall(expr)) { if if (
+ switch (gramps) { case
+ if (exec() &&
+ switch (&&
+ case Token.ELEM: else
+ return false;
+ switch (gramps) { }
+ if ((expression) &&
+ break;
+if (gramps.isCall(expr)) &&
+if (gramps.isCall ||
+ if (!empty() &&
+ switch(expr)
+ case Token.IF if(gramps.isCall() &&
+ if (!expr&&
+ break; } }
+ if (expression() &&
+if (gramps ||
+ return true;
+ } if (!gramps.isCall() &&
+ switch (expression&&
+if (gramps.parent &&
+ case Colon: if(gramps.isCall() &&
+ switch(...)
+if (gramps.leaf &&
+if (gramps) ||
+if (grams &&
+ switch ({) &&
+ switch if (gramps.isCall() &&
+if (gramps.ok &&
+if (GRAMP &&
+if (gramps &&!
+ case WS: if(gramps.isCall() &&
+if (gramps.isCall() ||
+if (!
+ } else if(gramps.isCall() &&
+ case DOT: if(gramps.isCall() &&
+ if (() &&
+ if (!&&
+if (gramps.given &&
+if (gramps.isCall(...) &&
+if (gramps.isCall(expr); ||
+if  if (
+if (gramps.isCall()  && (
+if (gramps.isCallNode &&
+if (gramps.isCall()) &&
+ switch(!gramps.isCall() &&
+if (expr ||
+ switch () &&
+if (expression ==
+if (gramps.isCall()  ) ||
+ Gramps.isCall() &&
+if (gramps.isCall(expr);
+ case FOR:
+ break; else
+if (gramps == parent ||
+if (expr!=
+if (gramps.isCall()  ||!
+if (gramps) (
+ } } if(gramps.isCall() &&
+ } else
+if (gramps!= null ||
+ break(); if(gramps.isCall() &&
+ if parent.isCall() &&
+ switch (!isCall() &&
+ if (!() &&
+ if ((() &&
+ if expr.isCall() &&
+ isCall() &&
+ { if(gramps.isCall() &&
+ } while(gramps.isCall() &&
+ break();
+ } switch(gramps.isCall() &&
+ else
+ }
+if (gramps.isCall() AND

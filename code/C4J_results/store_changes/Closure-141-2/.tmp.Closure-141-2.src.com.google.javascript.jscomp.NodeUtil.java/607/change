@@ -1,0 +1,230 @@
+ return true;
+ break;
+return  true; } else { return false;
+ return true; } else if (canBeSideEffected(c, knownConstants)) {
+ return true; } } else if (canBeSideEffected(n, knownConstants)) {
+ return true; } } else if (canBeSideEffected(n, knownConstants))
+ return true; } else if (canBeSideEffected(c, n)) {
+ return true; } } else { if (canBeSideEffected(n, knownConstants)) {
+ return true; } } else if (canBeSideEffected(n, n)) {
+ return true; } } else { if (canBeSideEffected(n, knownConstants))
+ return false; } else if (canBeSideEffected(c, knownConstants)) {
+ return true; } else { if (canBeSideEffected(c, knownConstants)) {
+ return false; } else if (canBeSideEffected(c, n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) {
+ return true; } else if (canBeSideEffected(c, knownConstants, n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants))
+ return true; } else if (canBeSideEffected(c, knownConstants) || c == n) {
+ return true; } if (canBeSideEffected(c, knownConstants)) { if (c == n) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n)
+ return true; } else if (canBeSideEffected(c, knownConstants) && c == n) {
+ return true; } } else { if (canBeSideEffected(n)) {
+ return true; } else { if (canBeSideEffected(c, knownConstants))
+ return false; } } else if (canBeSideEffected(n, n)) {
+ return true; } } else if (canBeSideEffected(n)) {
+ return true; } } else { if (canBeSideEffected(n, n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants) && c.isFunction()) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c!= n) {
+ return true; } else if (canBeSideEffected(c, knownConstants) == true) {
+ return true; } else if (canBeSideEffected(c, knownConstants) == false) {
+ return true; } else if (canBeSideEffected(c, knownConstants) && c!= n) {
+ return false; } } else { if (canBeSideEffected(n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants) && c == n)
+ return true; } } else if (canBeSideEffected(n, knownConstants) == true) {
+ return true; } else if (canBeSideEffected(n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c!= n)
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) return false;
+ c.getNext(n); returntrue;
+ return true; } else { if (canBeSideEffected(c, knownConstants)) { return false; }
+ return true; } else if (canBeSideEffected(c, knownNames)) {
+ return true; } else { if (canBeSideEffected(c, knownConstants)) { return false; } }
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n.next()) {
+ return true; } } else if (canBeSideEffected(n, knownConstants) == false) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c!= null) {
+ return true; } else if (canBeSideEffected(c)) {
+ return true; } else if (canBeSideEffected(c, knownConstants) && c!= n)
+ return true; } else { if (canBeSideEffected(n)) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c) {
+return  true; } } else { return false;
+ return true; } if (canBeSideEffected(c, knownConstants)) { if (c == n) return false;
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) break;
+return  true; } else { break;
+ return true; } } else { if (canBeSideEffected(n, knownConstants))) {
+ return true; } } else if (canBeSideEffected(n, knownConstants)) { {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { break; } }
+ if (c == n) { returntrue;
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) { } }
+ return true; } } else { if (n == null) {
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) { }
+ return true; break;
+ c = c. getNextChild(); return true;
+ return true; } else { if (canBeSideEffected(c, knownConstants)) { }
+ return true; } else if (canBeSideEffected(n), c)
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c!= n) { }
+ c.getNext(c); return true;
+ return true; } else if (canBeSideEffected(c))
+ c.getFirstChild = n;
+ return true; } if (canBeSideEffected(c, knownConstants)) { if (c == n) { }
+ return true; } } else if (canBeSideEffected(n))
+ return false; } } else { if (canBeSideEffected) {
+ if (c.getString() == n) {
+ return true; } if (canBeSideEffected(c, knownConstants)) { if (c!= n) { }
+ return true; } else if (canBeSideEffected(c, knownConstants)) { if (c == n) { } else
+ return true; } } else { if (canBeSideEffected) {
+ return true; } else if (canBeSideEffects(c)) {
+ if (c.getString() == n)
+ if (c.getString() == n.getString())
+ return true; } } else { if (canBeSideEffected(n, knownConstants)))
+ return true; } } else { if (n!= null) {
+ return true; } } else { if (canBeSideEffected(n, knownConstants)) { }
+ return true; } else if (canBeSideEffected(n))
+ return true; } } else { if (n == n) {
+return true; } else { return false ; } } }
+ c.getNext() return true;
+ if (c == n) returntrue;
+ if (c == n.getFirstChild()) return false;
+return  true; } else { return false ; } }
+ c.getNextChild(n); returntrue;
+ return true; } else if (canBeSideEffected) {
+ if (c == n.getFirstChild() ) {
+ c.getNext(n); break;
+ return true; } else if (canBeSideEffect(n)) {
+ c.getNext(c); break;
+ return true; } else if (canBeSideEffected()) {
+ c = c.next; returntrue;
+ return true; } else if (canBeSideEffect(c)) {
+ return true; } else { return -1;
+ if (c == n.getLastChild() ) {
+return  true ; } } return false;
+ c = c. getNextChild; return true;
+ c.getNext(n);true;
+return  true ; } else { return false ; }
+ c.next(n); returntrue;
+ c. removeChild ( n ) ;
+ if (c == n.getLastChild()) return false;
+ if (c.isMember(n)) {
+return  true; } else { return true;
+ c. removeChild ( ) ;
+ if (c == n.getFirstChild()) return true;
+ if (c.getString()!= n) {
+ c.remove(n);
+ if (c == n).getFirstChild(c)
+ if (c == n) return false;
+return true; } } else { return false ; } }
+ return true ; } break;
+ c.getNext(); return true;
+ if (c == n.getLastChild() {
+ if (c == n).getFirstChild(c))
+ if (c.getString() == ".")
+ c. remove ( ) ;
+ return true; } else { return false; break;
+ if (c.getString()) == n)
+ c.getFirstChild = null;
+return  true ; } } else { return false ; }
+ c.getNext(n)+true;
+ if (c.isMember(n) {
+ return true; } else { return!true;
+ c.getNextChild(c); returntrue;
+ if (c.getString() == name)
+ return true; } else { return false==true;
+ c. remove ( ) ;
+ c.getNextChild(c); } returntrue;
+ c.pop ( ) ;
+ return true; } } else { return!n;
+ return true; } else { return false=true;
+ return true; } } else { return!true;
+ c.getNext(n); } returntrue;
+ if (c == n) { return c.true;
+ c = c. getNext(); return c==true;
+ c.getLastChild = n;
+ c.getNext(n); }
+ if (c == n) { return c==true;
+ c.getLastChild(n);true;
+ c.getNext(n);
+ if (c == n) { return false||true;
+ c.getLastChild(n)true;
+ c.getNext = n;
+ return true; } return false;
+ c.getNext(c);
+ c.setNext(n); }
+ c.getNext(); break;
+ c.getNextChild(n); }
+ c.getFirstChild(n); }
+ c.getNext( );
+ c.getNext(c); }
+ c.getNext()==true;
+ return true ; } break ; }
+ return true ; } } }
+ if (c.getString() == n.getString());
+ c.getNext()=true;
+ c.remove(n); }
+ return true ; } } } }
+ c.getLastChild(true;
+ return!true;
+ return true ; break ; }
+ return true; return false;
+ c = null; } returntrue;
+ return _true;
+ return -true;
+ c = null; }
+ continue;
+ c = n; }
+ c.isConst=true;
+ c.getNext(n); } }
+ return c!= n;
+ return true ; } }
+ return c == n;
+ return c == n.true;
+ c.isStatic=true;
+ c.isFunction=true;
+ if (c == n) { }
+ n = c ; } }
+ return true; }
+ c. remove ( ) ; }
+ return c==true;
+ c = null;
+ c = n;
+ return true ; } } } {
+ c = c ; }
+ return true ; } else { }
+ return true; } returntrue;
+ return -1;
+ c.next = n;
+ return *true;
+ c.remove(n;
+ case true: returntrue;
+ c.next = c;
+ return c.true;
+ return true
+ break; }
+ { return true;
+ return c=true;
+ c = c ; }
+ c = c ;
+ return c == _true;
+ continue; }
+ return c!= _true;
+ return c!= -true;
+ return c++true;
+ return c == $true;
+ return c->true;
+ return true();
+ return true;;
+ return + 1;
+ break;
+ return false;
+ return true.
+ continue ; } }
+ return true. *
+ return true(); }
+ break-true;
+ } }
+return  false; }
+return  True;
+ continue outer;
+ } else
+ break
+ break();
+ }
+ {
+ }

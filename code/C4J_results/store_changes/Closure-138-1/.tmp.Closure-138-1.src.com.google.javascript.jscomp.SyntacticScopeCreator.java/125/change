@@ -1,0 +1,129 @@
+ }
+ } else { n = n. getFirstChild(); n = n. getNext().getNext();
+ } else { n = n. getNext ( ) ; n = n. getFirstChild ( ) ;
+ } else { n = n. getNext ( ) ; n = n. getNext ( ) ;
+ name = name;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. getNext();
+ } else { n = n. getNext ( ) ; n = n. getNext ( ). getNext ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext ( ) ;
+ } else { child = n. getNext ( ) ;
+ } else { n = n. getNext ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. next;
+ } else { n = n. getNext(); n = n. getNext(); n = n. getNext();
+ } else { n = n. getNext(); n = n. getNext(); n = n. getNext().next();
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. getNext().next();
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. next();
+ } else { child = n. getNext().getNext ( ) ;
+ } else { child = n. getFirstChild ( ) ;
+ } else { n = n. getFirstChild ( ) ;
+ } else { n = n. getNext(); n = n. getNext().next();
+ } else { n = n. getFirstChild(); n = n. getNext(n);
+ } else { n = n. getNext().getNext ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = child;
+ } else { n = n. getFirstChild(); n = n. getNext(); child = n;
+ } else { n = n. getNextChild ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext(); break;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. nextChild();
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. nextChild;
+ } case Token.FUNCTION: if (n.isFunctionAnonymous(n)) { n = n. getNext ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext().getNext(); }
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. getNext().next;
+ } else { n = n. getNext(); n = n. getNext(); n = n. nextChild();
+ } else { child = n. getNextChild ( ) ;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. getNext(); }
+ } else { n = n. getNext(); n = n. getNext(); n = n. getNext().next;
+ } else { n = n. getNext ( ) ; n = n. getNextChild ( ) ; }
+ } else { n = n. getNext(); n = n. getNext().next;
+ } case Token.FUNCTION: if (n.isFunctionAnonymous(n)) { n = n. getNext(n);
+ } else { n = n. getNext ( ) ; n = n. getNext ( ) ; parent = n ; }
+ } else { n = n. getFirstChild(); n = n. getNext(); }
+ } else { n = n. getNext(); n = n. next ;
+ } else { n = n. getNext(); n = n. nextChild();
+ } else { n = n. getFirstChild(); n = n. getNext(); n = child ; }
+ } else { n = n. getNext(); n = n. nextChild;
+ } else { n = n. getNext(); n = n. getNext().getNext(); }
+ child = next. getNext ( ) ;
+ } else { n = n. getNext(); n = child;
+ } else { n = n. getFirstChild(); n = n. getNext(); n = null ; }
+ } else { n = n. getFirstChild(); n = n. getNext().getNext;
+ } else { n = n. getNext(); n = n. next();
+ } else { n = n. getFirstChild(); n = n. getFirstChild(); n = n. getNext(); }
+ } else { n = n. getFirstChild(); n = n. getNext(); n = n. getNextChild(); }
+ } case Token.FUNCTION: if (n.isFunctionAnonymous(n)) { n.getFirstChild().getNext();
+ } case Token.FUNCTION: if (n.isFunctionAnonymous(n)) { n.getFirstChild().removeChild();
+ } else { n = n. getNext(); n = n. getNext(); }
+ name = null;
+ } else { n = n. getNext(); parent = n ;
+ } else { n = n. getFirstChild(); n = n. getNext().getNext());
+ } else { n = n. getNext(); n = n. next ; }
+ } else { n = n. getNext(); n = null;
+ } else { n = n. getNext ( ) ; n = child. next ; }
+ } else { child = n. getNext().getNext(); }
+ } else { n = n. getFirstChild(); n = n. next ; }
+ } else { child = n. getNext(); child = n. getNext(); }
+ } else { return ; } case Token.CATCH: if (n.isFunctionAnonymous(n)) { throw new IllegalStateException();
+ } else { return ; } case Token.STRING: if (n.isString(n)) { n = n.nextChild();
+ } else { n = n. getFirstChild(); n = n. getNext().getNext(); } }
+ } else { n = n. next ( ) ;
+ } else { n = n. getNext(); n = null ; }
+ child. setNext ( null ) ;
+ } else { return ; } case Token.STRING: if (n.isString(n)) { n = n. nextChild;
+ child. setNext ( n ) ;
+ } else { return ; } case Token.STRING: if (n.isString(n)) { n = n.getNext();
+ child = next.getNext(); break;
+ parent = next.getNext();
+ } else { child = n. getNext ( ) ; }
+ } else { n = n. getFirstChild(); n = null; }
+ } else { n = n. getFirstChild(); n = child ; }
+ } else { child = n ; parent = n ;
+ } else { child = n. getNext(); child = null; }
+ } else { n = n ; parent = null ; }
+ child = next.next();
+ child = next. next;
+ } else { child = n ; parent = null ; }
+ } else { child = n. next ; }
+ } else { n = parent ; n = child ; }
+ child = next.getNext().next();
+ } else { child = n ; break ; }
+ child. setNext ( null )
+ } else { child = n. getFirstChild ;
+ name = name + name;
+ child = next.getNext().next;
+ name = "";
+ } if (!child)
+ next = next;
+ } else { child = n ; } } }
+ } else { child = n.next(); }
+ break;
+ child = next.getNext(); }
+ if (!child)
+ } if (child)
+ break; }
+ } if (ok)
+ } if (ignore)
+ } if (empty)
+ } }
+ name = null
+ name = name ; }
+ name = null; }
+ } break;
+ child = next ; }
+ name = name
+ parent = next ; }
+ } } }
+ break; } }
+ } break;
+ break; }
+ break; } else
+ } parent++;
+ } else
+ if (!child).
+ } } else
+ if (!child);
+ };
+ } }
+ break;
+ break }
+ break();
+ break;;
+ }

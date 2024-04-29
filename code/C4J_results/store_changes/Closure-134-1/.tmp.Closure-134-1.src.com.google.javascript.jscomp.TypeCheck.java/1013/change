@@ -1,0 +1,144 @@
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType ) ;
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName ) ;
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType); }
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType ) ;
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY ) ; }
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY ) ;
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName )
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName ) ;
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType )
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName);
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName ) ; }
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName )
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, null);
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, property ) ;
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName ) ; }
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY )
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName); }
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType ) ;
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY); }
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, propertyName, null);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY ) ; }
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType )
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY);
+ else { compiler.report(T, n, reportMissingOverride, propertyName, propertyType);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType ) ;
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType ) ; }
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, property);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType )
+ else { compiler. report ( t, n, reportMissingOverride, propertyName ) ; }
+ else { compiler.report(T, n, HIDDEN_INTERFACE_PROPERTY, property);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, property ) ;
+ else { compiler.report(t, n, reportMissingOverride, propertyName, propertyType);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY ) ;
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType));
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, propertyType));
+ else { compiler.report(T, n, reportMissingOverride, propertyName, null);
+ else { compiler.report(t, n, HIDDEN_INTERFACE_PROPERTY, null);
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, property ) ;
+ else { compiler. report ( t, n, reportMissingOverride, propertyName ) ;
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType, property ) ;
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfacePropType ) ; } }
+ else { compiler. report ( t, n, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceProperty ) ; }
+ else { compiler.report(t, n, reportMissingOverride, propertyName, null);
+ else { compiler. report ( t, n, reportMissingOverride, propertyName, propertyType )
+ else { compiler. report ( n, HIDDEN_INTERFACE_PROPERTY )
+ else { compiler.report(t, n, reportMissingOverride, propertyName, propertyType));
+ else { compiler.report(T, n, reportMissingOverride, propertyName);
+ else { compiler.report(t, n, reportMissingOverride, propertyName, interfacePropType);
+ else { compiler.report(T, n, reportMissingOverride); }
+ else { compiler. report ( t, n, reportMissingOverride, propertyName )
+ else { compiler.report(T, n, reportMissingOverride, propertyName); }
+ else { foundInterfaceProperty = propertyType ;
+ else { compiler. report ( n, reportMissingOverride, propertyName ) ; }
+ if ( foundInterfaceProperty ) {
+ else { compiler.report(T, n, reportMissingOverride, propertyName, property);
+ else { compiler.report(t, n, reportMissingOverride); }
+ else { continue ; }
+ else { compiler. report ( t, n, reportMissingOverride, property ) ;
+ else { compiler.report(T, n, reportMissingOverride, null);
+ else { foundInterfaceProperty = false ;
+ else { foundInterfaceProperty = false
+ else { foundInterfaceProperty = interfaceHasProperty ;
+ else { foundInterfaceProperty = true
+ else { foundInterfaceProperty = null ;
+ else { compiler.report(T, n, reportMissingOverride);
+ else { compiler. report ( n, reportMissingOverride, propertyName, propertyType )
+ else { foundInterfaceProperty = true ;
+ else { compiler.report(T, n, reportMissingOverride, propertyName));
+ else { foundInterfaceProperty = null
+ else { compiler.report(t, n, reportMissingOverride, null);
+ if ( foundInterfaceProperty ) { continue ;
+ else { compiler. report ( n, reportMissingOverride, propertyName, property ) ;
+ else { compiler.report(t, n, reportMissingOverride);
+ return foundInterfaceProperty ;
+ } } }
+ } } } }
+ else { foundInterfaceProperty = interfacePropType ;
+ else { return foundInterfaceProperty ;
+ else { compiler.report(T, n, reportMissingOverride, property);
+ if ( foundInterfaceProperty ) { return foundInterfaceProperty ;
+ if (! foundInterfaceProperty ) { continue ;
+ else { compiler. report ( t, n, reportMissingOverride, propertyType ) ;
+ else { foundInterfaceProperty = propertyName ;
+ else { continue;
+ if ( foundInterfaceProperty ) { }
+ else { foundInterfaceProperty = interfacePropType ; }
+ if (! foundInterfaceProperty ) {
+ if ( foundInterfaceProperty ) { break ;
+ else { break ; } } else { break ; } } } } }
+ if ( foundInterfaceProperty ) { return ; }
+ else { break ; } } else { break ; } } } break ;
+ if ( foundInterfaceProperty ) { } } }
+ else { break ; } }
+ else { continue ; } }
+ } } } } }
+ else { break ; } } else { break ; } } }
+ } }
+ if ( foundInterfaceProperty ) { foundInterfaceProperty = false
+ else { break ; } } else { break ; } }
+ else { return ; } } else { return ; }
+ if ( foundInterfaceProperty ) { foundInterfaceProperty ;
+ if ( foundInterfaceProperty ) { return foundInterfaceProperty
+ else { foundInterfaceProperty = null ; } } }
+ if (! foundInterfaceProperty ) { }
+ else { break ; } } else { break ; } } break ;
+ else { return false ; }
+ else { break ; } } else { break ; } } } }
+ foundInterfaceProperty = true
+ foundInterfaceProperty = null
+ else { return ; }
+ else { break ; } } else { continue ; } }
+ if ( foundInterfaceProperty ) { foundInterfaceProperty = true
+ else { compiler.report(t, n, reportMissingOverride));
+ foundInterfaceProperty = false
+ else { break ; }
+ else { break ; } } else { continue ; } } }
+ else { return ; } }
+ else { break ; } } } else { break ; } }
+ else { break ; } } else { return ; } } }
+ else { return ; } } else { return ; } } }
+ return foundInterface ;
+ else { continue; }
+ } } break ;
+ else { continue;
+ } break ;
+ } } }
+ } } } }
+ }
+ return foundInterfaceProperty
+ break ; } }
+ } continue ;
+ break ; }
+ } }
+ break ;
+ continue ;
+ return ; }
+ break ; }
+ continue ; }
+ } } ;
+ break ;
+ return ;
+ }
+ continue;
+ ;

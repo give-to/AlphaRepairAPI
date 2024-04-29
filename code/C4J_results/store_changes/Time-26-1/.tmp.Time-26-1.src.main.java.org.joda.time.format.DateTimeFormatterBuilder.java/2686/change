@@ -1,0 +1,191 @@
+ return position;
+ if (isOptional)
+ if (isOptional) {
+ return bestValidPos;
+ return - bestValidPos ;
+ return ~bestInvalidPos;
+ return bestInvalidPos;
+break ; } else { return position ; }
+ continue;
+break ; } return parsePos ;
+break ; } else { return bestValidPos ;
+ return ~bestValidPos;
+ return - 1;
+break ; } return bestValidPos ;
+ } if (parsePos < 0) { parsePos = ~parsePos ; if (isOptional) {
+ } else { parsePos = parser. parseInto(bucket, text, position); if ( parsePos == - 1 ) {
+ } else { parsePos = parser. parseInto(bucket, text, position); } if ( parsePos < position ) {
+ } if ( parser == null ) { return position ; } if ( isOptional )
+ } if (parsePos < 0) { parsePos = ~parsePos; if (parsePos == position) {
+ } else { parsePos = parser. parseInto(bucket, text, position); if ( parsePos < - 1 ) {
+break ; } if ( isOptional ) { break ;
+ } if (parser == null) { return position ; } if (isOptional) {
+break ; } return position ;
+ } if ( parser == null ) { if ( isOptional ) {
+ } if (parsePos < 0) { parsePos = ~parsePos ; } if ( isOptional ) {
+ } else if ( parser!= null ) { parser = parser. getParser ( ) ; } if ( parser == null ) {
+break ; } else { return position ;
+ } if ( parser == null ) { break ; } if ( isOptional ) {
+ } if ( parsePos < 0 ) { parsePos = ~parsePos ; if (! isOptional ) {
+ } if (parsePos < 0) { parsePos = ~parsePos ; } if (isOptional)
+break ; }
+ } if ( parsePos < 0 ) { parsePos = ~parsePos ; if ( parsePos == originalState ) {
+ } else if (parser!= null) { parser = parser. getParser ( ) ; if ( parser == null ) {
+ } if ( parsePos < 0 ) { parsePos = ~parsePos ; if ( parsePos > originalState ) {
+ } if (parsePos < 0) { parsePos = ~parsePos; if (parsePos > position) {
+ } if (parsePos < 0) { parsePos = ~parsePos ; } if (! isOptional ) {
+ } if (isOptional) {
+ } else { parsePos = parser. parseInto(bucket, text, position); if ( parsePos < 0 ) { break;
+break ; } else { position = i ; }
+ return -bestValidPos++;
+ } if (parsePos < 0) { parsePos = ~parsePos; if (parsePos < position) {
+ } else { parsePos = parser. parseInto(bucket, text, position); if ( parsePos < 0 ) { continue;
+ } else { if (isOptional) {
+break ; } else { position = bestValidPos ;
+ } if ( isOptional )
+ } else if (parser!= null) { parser = parser. clone ( ) ; if (isOptional)
+break ; } else { return - 1 ; } }
+break ; } else { return bestInvalidPos ;
+ } if (parsePos < 0) { parsePos = ~parsePos; if (parsePos == position)
+ } else if (parser == null) { if (isOptional) {
+ } else if (parser!= null) { parser = parser. parent ; if ( parser == null) {
+ } if ( parser == null ) { if (! isOptional ) {
+break ; } if ( isOptional ) { continue ;
+ } if (! isOptional ) {
+break ; } if ( isOptional ) break ;
+ } else { return bestInvalidPos;
+ } else if (parser!= null) { parser = parser. nextParser ; if (isOptional)
+ } if ( parser == null ) { return position ; } if (! isOptional ) {
+ } if ( parser == null ) { return position ; } if isOptional {
+ return parsePos;
+ } else if (parser!= null) { parser = parser. getParser ( ) ;
+break ; } else { return - bestValidPos ;
+ } else if (parser!= null) { parser = parser ; isOptional ;
+ } else { return position ;
+ } if ( parser == null ) { return position ; } if ( optional ) {
+break ; } else { position = i ;
+ } if (! isOptional ) { if (! parser ) {
+ } else { return ~bestInvalidPos;
+ } if (parser == null) { if (isOptional) { return position; }
+ } else { bestValidPos = position;
+ } else if (parser!= null) { parser = parser. parent ; if ( parser == null)
+ } else if (isOptional) { bestValidPos =
+break ; } bestValidPos = position ;
+ } else if (parser!= null) { parser = parser. nextParser ( ) ;
+ } if ( isOptional ) { if (! parser ) {
+ } else if (parser!= null) { parser = parser. nextParser;
+ } if ( parser == null ) {
+ } else if (parser == null) { if (isOptional) { return position; }
+ } else { parsePos = parser. parseInto(bucket, text, position); if (parsePos < 0) { }
+ } else if ( parser!= null ) { parser = parser. clone ( ) ; } if ( parser == null ) { break ;
+ } if ( parser == null ) { return position ; } isOptional =
+ break; } if ( isOptional )
+ } else if (isOptional) { if (isOptional)
+ } else if (parser!= null) { parser = parser ; isOptional =
+ } else if ( parser!= null ) { parser = parser. clone ( ) ; } if ( parser == null ) { continue ;
+ } else if (isOptional) { bestValidPos++;
+ } else { parsePos = parser. parseInto(bucket, text, position); if (parsePos < 0) { } }
+ } else if (parser!= null) { parser = parser. getParser ( ) ; if ( parser == null ) { }
+ } if ( isOptional ) { bestValidPos =
+ } if ( isOptional ) { bestValidPos ;
+ if (parser == null) {
+ } else if (isOptional) { position = i ;
+ } else if (parser!= null) { parser = parser. nextParser ; if (!parser)
+ } else if (parser!= null) { parser = parser. clone ( ) ; if (optional)
+ } else { if ( parser == null ) { isOptional =
+ } if ( parsePos < 0 ) { parsePos = ~parsePos ; if ( parsePos < 0 ) { }
+ } else { if (isOptional) return position;
+ } else if ( parser!= null ) { parser = parser. clone ( ) ; } if ( parser == null ) { return ;
+break ; } if ( isOptional )
+ } else { bestValidPos = - 1;
+ } if ( isOptional == false ) {
+ } else if (parser!= null) { parser = parser. clone ( ) ; if (!parser)
+ return position ; }
+ return - bestValidPos - 1;
+ } else if (isOptional) { isOptional =
+ } if ( isOptional == true ) {
+ if (isOptional == false) {
+ break; }
+break ; } if ( isOptional ) {
+ } else { return ~bestValidPos;
+ } else if (isOptional == true) {
+ break ; } else { bestValidPos = position;
+ } else if (parser!= null) { parser = parser. nextParser ; if (empty)
+ } if (! isOptional ) { if ( break ) {
+ return ~bestValidPos++;
+ } else { bestValidPos = bestValidPos;
+ } if ( isOptional ) { position = i ;
+ } else { return bestValidPos;
+ return - bestValidPos + 1;
+break ; } pos = i ;
+ } if ( parser == null ) { return position ; } isOptional ;
+ } else { return - 1;
+ } else { if (isOptional) { isOptional =
+ } else { if (isOptional) { break;
+break ; } else { break ; }
+ return ~bestInvalidPos++;
+ return - 1 ; }
+ } else if (isOptional == false) {
+ } else { if ( parser == null ) { isOptional ;
+ return - bestValidPos - position;
+ } else { return -bestValidPos;
+break ; } else { continue ;
+ } else { return - bestValidPos ++;
+ if (!isOptional)
+break ; } parser = null ;
+ return - bestValidPos - parsePos;
+ } return position ;
+ } if ( isOptional ) { position = 0 ;
+ break; } if (optional)
+ } if (parser == null) { if (isOptional) { return position ; } }
+ break;
+ } else { position = i;
+break ; } position ++ ;
+ return 0 ; }
+ return originalState;
+ } if (parser == null) { return position ; } if (isOptional) { } else
+ if (!optional)
+ } else if (parser!= null) { parser = parser. nextParser ; if (!parser))
+ } else { if (isOptional) break;
+break ; } position -- ;
+ } if (parser == null) { return position ; } if (isOptional) { } }
+ if (optional)
+ bestValidPos ;
+break ; default : break ;
+ bestValidPos =
+break ; } continue ;
+ } else { if (isOptional) { }
+ } else { if (isOptional) { return
+ if (isOptional) { }
+break ; } }
+ } if ( parser == null ) { return position - 1 ; }
+ bestValidPos++;
+ } if ( parser == null ) { if ( isOptional ) ;
+ } else {
+ } if ( parser == null ) { return position ; } } else
+break ; } break ;
+break; continue;
+ return 0;
+ }
+ break; } else {
+ } return parsePos;
+break; return position;
+ } if ( isOptional ) { } else
+ } return originalState;
+ return position;
+ break; else
+ } return -1;
+ } else
+break loop; }
+ return ;
+ continue
+ break;
+ } }
+ break loop;
+ return 1;
+ break
+ }
+break; break
+break; continue
+ break();
+ else

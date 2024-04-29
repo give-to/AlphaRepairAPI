@@ -1,0 +1,689 @@
+ boolean negate<mask> (value & 1) == 1; 
+ boolean negate = (<mask>) == 1; 
+ <mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>== 1; 
+ boolean negate = (value & <mask><mask> 
+ <mask><mask>; 
+ <mask><mask><mask>& 1) == 1; 
+ boolean negate = (<mask><mask><mask><mask>) == 1; 
+ <mask><mask>& 1) == 1; 
+ boolean <mask><mask><mask><mask> 
+ <mask><mask><mask>value & 1) == 1; 
+ <mask><mask>1) == 1; 
+ <mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (value & 1) == <mask><mask> 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask> 
+ boolean negate = (<mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>== 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask>; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean <mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask>1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ boolean <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>== 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (<mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>; 
+ boolean negate = (value & 1<mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask>1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean <mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>& 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1) == 1; 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask>& 1) == 1; 
+ <mask><mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+Before  <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (value & <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>= (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask>; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>& 1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>1) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask> 
+ <mask><mask><mask>; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask>(value & 1) == 1; 
+Before  <mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>== 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & <mask><mask><mask><mask> 
+ <mask><mask>1; 
+ <mask><mask><mask><mask>1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ boolean negate = (value <mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (<mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask>1) == 1; 
+ <mask><mask><mask>1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>== 1; 
+ <mask><mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask>; 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (value & <mask><mask><mask><mask> 
+ <mask><mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask>1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask> 
+ <mask><mask>value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask>) == 1; 
+ <mask><mask><mask>1) == 1; 
+ boolean negate = (<mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask>) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask> 
+ <mask><mask>) == 1; 
+ boolean negate = (<mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask>) == 1; 
+Before  <mask> 
+ <mask><mask><mask><mask>(value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask>) == 1; 
+ boolean negate = (<mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask> 
+ boolean negate = (value & 1) == <mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask>) == 1; 
+Before  <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask>1; 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask>1; 
+ <mask><mask><mask>1; 
+ boolean negate = (value & <mask><mask><mask> 
+ <mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask>) == 1; 
+ <mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask>) == 1; 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>; 
+ <mask><mask><mask><mask><mask>== 1; 
+ <mask><mask>1) == 1; 
+ boolean negate = (<mask><mask><mask> 
+ <mask><mask><mask><mask>== 1; 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>(value & 1) == 1; 
+ boolean negate = (<mask><mask><mask> 
+ <mask><mask>) == 1; 
+ boolean negate = <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask>1; 
+ boolean negate = (<mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask> 
+Before  <mask><mask><mask><mask> 
+ boolean negate = (value <mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask><mask><mask><mask> 
+ <mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask> 
+ boolean negate = (<mask><mask><mask> 
+ <mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask> 
+ <mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask>& 1) == 1; 
+ <mask><mask><mask>1; 
+ boolean negate = (value <mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask> 
+ boolean negate = (value <mask><mask> 
+ boolean <mask><mask><mask> 
+ <mask><mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask><mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & <mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask><mask> 
+ <mask><mask><mask>1; 
+ <mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask>; 
+ <mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value <mask><mask> 
+ <mask><mask>) == 1; 
+ <mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask><mask>; 
+ <mask><mask><mask><mask>negate = (value & 1) == 1; 
+Before  <mask><mask><mask><mask> 
+ <mask><mask><mask>; 
+ boolean negate = (<mask><mask> 
+ boolean negate = (value & <mask><mask><mask> 
+ boolean negate = (value <mask><mask> 
+ <mask><mask>) == 1; 
+ <mask><mask><mask><mask>negate = (value & 1) == 1; 
+ boolean <mask><mask><mask> 
+Before  <mask><mask><mask><mask> 
+ boolean negate = (value & <mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask><mask>) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask> 
+ <mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask> 
+ <mask><mask><mask>(value & 1) == 1; 
+Before  <mask><mask> 
+ <mask><mask><mask>& 1) == 1; 
+ boolean negate = (value & <mask><mask> 
+ boolean negate = (<mask><mask><mask>) == 1; 
+ <mask><mask><mask>negate = (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask><mask><mask> 
+ boolean negate = (<mask><mask>) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask> 
+ boolean negate = (<mask><mask><mask>) == 1; 
+ <mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1<mask><mask><mask> 
+ boolean negate = (<mask><mask>) == 1; 
+ <mask><mask><mask><mask>negate = (value & 1) == 1; 
+ <mask><mask>negate = (value & 1) == 1; 
+ boolean <mask><mask><mask> 
+ <mask><mask>1) == 1; 
+ <mask><mask><mask>value & 1) == 1; 
+ <mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask>== 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask> 
+ boolean <mask><mask> 
+ boolean <mask><mask><mask> 
+ boolean negate = (value & 1<mask><mask><mask> 
+ <mask><mask>1; 
+ boolean negate = (<mask><mask>) == 1; 
+ boolean negate = (<mask><mask> 
+ boolean negate = (value & 1)<mask> 1; 
+ <mask><mask>& 1) == 1; 
+ <mask><mask><mask>= (value & 1) == 1; 
+ <mask><mask><mask>== 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask> 
+ boolean <mask><mask><mask> 
+ boolean negate = (value <mask><mask> 
+ <mask><mask>; 
+ <mask><mask>1; 
+ boolean negate = (value & 1) == <mask><mask> 
+Before  <mask><mask><mask> 
+ <mask><mask>== 1; 
+ <mask><mask>; 
+ boolean negate = (value & 1<mask><mask><mask> 
+ <mask><mask>1; 
+ <mask><mask>) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask> 
+ <mask><mask>; 
+Before  <mask><mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask><mask><mask> 
+Before  <mask><mask><mask> 
+ <mask><mask>value & 1) == 1; 
+ <mask><mask>= (value & 1) == 1; 
+ boolean negate = (value & 1) == <mask><mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask><mask> 
+ <mask><mask>; 
+ <mask><mask>== 1; 
+ boolean negate = (value & <mask><mask> 
+ boolean negate = (value & <mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask> 
+ <mask><mask>& 1) == 1; 
+ boolean negate = (value & 1) == 1<mask><mask> 
+ <mask><mask>= (value & 1) == 1; 
+Before  <mask><mask> 
+Before  <mask><mask><mask> 
+Before  <mask><mask><mask> 
+ boolean negate = (value & 1)<mask> 1; 
+ boolean negate = (value & 1)<mask> 1; 
+ boolean negate = (value & 1)<mask> 1; 
+ boolean <mask><mask> 
+Before  <mask> 
+ boolean negate = (value & 1) == 1<mask><mask> 
+ boolean negate = (value & 1) == 1<mask><mask> 
+Before  <mask><mask> 
+ <mask><mask>= (value & 1) == 1; 
+ boolean negate = (value<mask> 1) == 1; 
+ boolean negate = (value<mask> 1) == 1; 
+ boolean negate = (<mask>) == 1; 
+ boolean negate = (<mask>) == 1; 
+ boolean negate = (<mask>) == 1; 
+ boolean negate<mask> (value & 1) == 1; 
+ boolean negate<mask> (value & 1) == 1; 
+ boolean negate<mask> (value & 1) == 1; 

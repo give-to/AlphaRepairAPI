@@ -1,0 +1,581 @@
+Node fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(recordType);
+Node fieldTypeList =  parseFieldType(token);
+ next(token);
+ FieldTypeList= parseFieldTypeList(token);
+ parseFieldTypeList(token);
+Node fieldTypeList  = null;
+ parseRecordType(token);
+Node fieldTypeList =  parse(token);
+ fieldTypeList=parseFieldTypeList(token);
+ recordType.parseFieldTypeList(token);
+Node fieldTypeList  = newNode(Token.LC);
+Node fieldTypeList = parseFieldTypeList(token, recordType);
+Node  next();
+Node fieldTypeList = parseFieldTypeList(token); skipEOLs();
+Node  fieldTypeList;
+ parseType(token);
+Node fieldTypeList = parseFieldTypeList(token.LC);
+Node fieldTypeList =  parseGenericTypeFieldTypeList(token);
+Node  fieldTypeList();
+Node fieldTypeList =  parseType(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning();
+Node  fieldTypeList = parseField ( token ) ;
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); }
+Node fieldTypeList = parseFieldTypeList(token, skipEOLs);
+ if (recordType == null) { return reportTypeSyntaxWarning();
+ if (token == null) { return reportGenericTypeSyntaxWarning(); }
+Node fieldTypeList =  newNode(Token.LC); next(token);
+ if (recordType == null) { return null; }
+ if (recordType == null) { return null; }
+Node  fieldTypeList = (Node) token;
+ if (recordType == null) { return reportTypeSyntaxWarning(); }
+Node fieldTypeList =  parseFieldTypeLists(token);
+ if (token == null) { return reportGenericTypeSyntaxWarning();
+Node fieldTypeList  = parseFieldType(token, recordType);
+ if (token == null) { return reportTypeSyntaxWarning(); }
+ Node fieldTypeList = parseFieldType(token); skipEOLs();
+Node fieldTypeList = parseFieldTypeList(token, skipEOLs());
+ if (token == null) { return reportGenericTypeSyntaxWarning(); }
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { return recordType; }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning();
+ if (recordType == null) { return null };
+Node  fieldTypeList = token.LC;
+ if (recordType == null) { return null;
+ next();
+ if (recordType == null) { return reportGenericTypeSyntaxWarning;}
+Node fieldTypeList =  parseFieldType(parseFieldTypeList(token);
+ if (recordType == null) { return reportGenericTypeSyntax();
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return null; }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning };
+Node  fieldsTypeList = null;
+Node fieldTypeList = parseFieldTypeList(token) ; if (recordType == null) {
+Node fieldTypeList  = newNode(Token.LB);
+ if (recordType == null) return null;
+ if (token == null) { return null; }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType!= null) {
+Node fieldTypeList = parseFieldTypeList(token, recordTypeList);
+ if (recordType == null) { return null; } if (recordType!= null) {
+Node fieldTypeList  = newNode(token.LC);
+ if (recordType == null) { return reportGenericTypeError(); }
+ recordType=parseFieldTypeList(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { return recordType }
+ if (recordType == null) return null;
+Node fieldTypeList =  parseRecordTypeFieldTypeList(token);
+ if (token == null) { return reportGenericTypeSyntaxWarning();
+Node fieldTypeList = parseFieldTypeList(recordType, token);
+Node  fieldTypeList = next ( ) ;
+Node fieldTypeList =  parseFieldType(Token.LC)(token);
+ if (null) { return reportGenericTypeSyntaxWarning(); }
+Node  fieldTypeList = recordType;
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { return recordType };
+ if (token == null) { return null; }
+Node  fieldTypeList = [ ] ;
+ if (recordType == null) { return reportTypeSyntaxWarning };
+Node fieldTypeList =  parseFieldType(parseTypeExpression(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return null }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType!= null)
+Node  fieldTypeList = token.LB;
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { return null; }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType == null) {
+Node  fieldTypeList = token.value;
+ if (recordType == null) { return reportTypeSyntaxWarning("msg.jsdoc"); }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning;}
+Node  fieldTypeList = token. firstChild ;
+ if (recordType == null) { return reportTypeSyntaxWarning("unknown record type"); }
+ if (recordType == null) { return null }
+ if (token == null) { return reportGenericTypeSyntaxWarning };
+ if (recordType == null) { return reportTypeSyntaxWarning;}
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return null };
+ Token fieldTypeList = parseFieldType(token);
+ if (recordType == null) { return reportTypeSyntaxWarning();
+Node fieldTypeList = parseFieldTypeList(token) ; token = next(); skipEOLs();
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) return null;
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType == null) return null;
+Node fieldTypeList =  parseFieldTypeListOfRecordType(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return ; }
+ if (recordType == null) { return null; } if (recordType == null) return null;
+Node fieldTypeList =  parseFieldTypeListFromToken(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return recordType; }
+ if (recordType == null) { return reportTypeSyntaxWarning("no record type"); }
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) {
+Node fieldTypeList =  parseFieldTypeList(JsDocToken(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(msg.jsdoc.missing });
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType == null) { return null }
+Node fieldTypeList =  parseTypeFieldTypeList(token);
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { continue; }
+ fieldType= parseFieldTypeList(token);
+ if (recordType == null) { throw reportGenericTypeSyntaxWarning(); } if (recordType!= null) {
+ Node fieldTypeList = parseFieldType(token;
+ Node fieldTypeList = (token);
+Node fieldTypeList = parseFieldTypeList(Token.LC); skipEOLs();
+ if (recordType == null) { return null; } if (recordType == null) {
+ { Node fieldTypeList = parseFieldTypeList(token);
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType == null)
+ if (recordType == null) { return null; } if (recordType == null) { return; }
+ if (recordType == null) fieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(Token.LC, token);
+Node  skipEOLs();
+ if (recordType == null) { return null; } if (recordType!= null) { next(); }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType) {
+ if (recordType == null) { return reportTypeSyntaxWarning("msg.recordType"); }
+ Node parseFieldTypeList(token);
+ Token fieldTypeList = token. next ( ) ;
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType == null) { return null; } final
+ if (token == null) { return reportGenericTypeSyntaxWarning(); } if (recordType == null) {
+ if (recordType == null) {
+Node  fieldTypeList = token;
+Node fieldTypeList =  parseFieldTypeListType(token);
+Node fieldTypeList =  parseFieldTypeListInRecordType(token);
+ FieldTypeList.parseFieldTypeList(token);
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType.length) {
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType!= null) { return recordType; };
+Node fieldTypeList = parseFieldTypeList(token); if (recordType == null)
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } final
+ if (recordType == null) { return null; } if (recordType == null) { return null }
+ if (recordType == null) { return null; } if (recordType!= null) { do {
+ if (recordType == null) { return reportTypeSyntaxWarning(msg.jsdoc.missing);
+ if (recordType == null) { return ; }
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } else {
+Node fieldTypeList = parseFieldTypeList(Token.LC);
+Node fieldTypeList  = newNode(Token.LI);
+Node fieldTypeList = parseFieldTypeList(token); if (fieldTypeList == null) {
+ if (null) { return reportGenericTypeSyntaxWarning();
+ if (recordType == null) return;
+ do { Node fieldTypeList = recordType.parseFieldTypeList(token);
+Node fieldTypeList =  parseStructFieldTypeList(token);
+ if (recordType!= null) { return recordType; }
+ RecordTypeList = parseRecordType(token);
+ if (token == null) { return reportTypeSyntaxWarning();
+ RecordTypeFieldTypeList = parseFieldTypeList(token);
+ RecordTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, skipEOLs();
+Node fieldTypeList = parseFieldTypeList(token, RecordTypeList);
+ { Node fieldTypeList = parseFieldType(token);
+ Node fieldTypeList = newNode(token);
+ if (token == null) { return reportTypeSyntaxWarning };
+ if (recordType == null) {
+Node fieldTypeList = parseFieldTypeList(Token.LC); SkipEOLs();
+ if (recordType == null) { return null; } if (recordType.isArray()) {
+ Node fields = parseFieldType(token);
+ Node fieldType = parse(token);
+Node fieldTypeList =  parseFieldTypeListFromRecordType(token);
+ if (recordType == null) { return null; } if (recordType!= null) { final
+ if (null) { return reportGenericTypeSyntaxWarning };
+ if (recordType == null) { return null; } if (recordType == recordType)
+ if (token == null) { return null };
+ if (token == null) { return reportTypeSyntaxWarning;}
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType!= null) { final
+ if (recordType == null) { return reportTypeSyntaxWarning(); } final
+ if (token!= null) { FieldTypeList= parseFieldTypeList(token);
+ if (recordType == null) { return null; } else
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType.length++) {
+Node fieldTypeList =  parseRecordFieldTypeList(token);
+ if (token!= null) { fieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList =  parseGenericTypeSyntaxList(token);
+ Node fieldType = null;
+Node fieldTypeList = parseFieldTypeList(token, '}');
+Node fieldTypeList = parseFieldTypeList(token); if (recordType == null) return;
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); };
+ if (token == null) { return reportGenericTypeSyntaxWarning(); } final
+ if (token == null) { return reportGenericTypeSyntaxWarning(); } else {
+Node  fieldTypeList = token.value();
+ Node fieldTypeList = newNode(Token);
+Node fieldTypeList = parseFieldTypeList(token) ; if (recordType!= null) {
+ if (token!= null) fieldTypeList= parseFieldTypeList(token);
+ Node fieldsTypeList = parse(token);
+ Node fieldTypeList = newNode(recordType);
+Node  recordTypeList = null;
+Node fieldTypeList = parseFieldTypeList(token); if (recordType == null) { }
+ RecordTypeList.push(token);
+Node  fieldTypeList = token. firstChild();
+ Node fieldTypeList = (Node) recordType;
+ if (null) { return reportGenericTypeSyntaxWarning;}
+ if (token == null) { return reportGenericTypeSyntaxWarning(); } if (token!= null) { final
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } do {
+Node fieldTypeList = parseFieldTypeList(token) ; if (recordType == null ||
+ if (recordType == null) { return reportTypeSyntaxWarning(); } if (recordType.isEmpty()) { final
+ Node fieldTypeList = fieldTypeList;
+ if (recordType!= null) {
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } } {
+ do { Node fieldTypeList = super.parseFieldTypeList(token);
+ Token fieldTypeList = (Node) token;
+ if (recordType == null) recordType=parseFieldTypeList(token);
+ do { Node fieldTypeList = _parseFieldTypeList(token);
+ RecordTypeList = parseType(token);
+ RecordTypeList := parseFieldTypeList(token);
+Node fieldTypeList =  parseFieldTypeListFromFieldType(token);
+ if (token == null) { return null };
+Node fieldTypeList = parseFieldTypeList(token, true);
+ { Node fieldTypeList = recordType.parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, recordType, skipEOLs);
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } if (recordType.length) { final
+Node  fieldTypeList = parseFieldType(token));
+Node fieldTypeList = parseFieldTypeList(token); if (recordType!= null)
+ Node fields = parseField(token);
+ token = next(token);
+Node fieldTypeList =  parseGenericTypeSyntaxFieldType(token);
+ if (token == null) { return null }
+ Node fieldTypeList = newNode(...);
+ Token fieldTypeList = null;
+ if (recordType == null) break;
+ if (recordType == null) { return reportTypeSyntaxWarning(null); } final
+Node fieldTypeList = parseFieldTypeList(token); if (fieldType == null) {
+ { Node fieldTypeList = parseType(token);
+ if (token!= null) {
+ Token fieldTypeList = token. firstChild ;
+ if (recordType == null) { fieldType= parseFieldTypeList(token);
+ RecordTypeList := parseRecordType(token);
+Node fieldTypeList  = newNode(Token.LC));
+ FieldTypeList = parseFieldType(token);
+ if (recordType == null) { ; }
+ if (recordType == null) { return reportTypeSyntaxWarning("msg.jsdoc"); };
+Node fieldTypeList = parseFieldTypeList(token) ; if (recType == null) {
+ if (recordType == null) { next();
+ if (recordType == null) { Node _fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList =  parseFieldTypeListInline(token);
+ Node fieldTypeList = type(token);
+ if (recordType!= null) fieldTypeList= parseFieldTypeList(token);
+ if (recordType) return null;
+Node fieldTypeList = parseFieldTypeList(token) ; if (recordType) {
+ if (token == null) { return null; } else
+Node fieldTypeList = parseFieldTypeList(token) ; if (recordType == null &&
+ RecordTypeFieldTypeList = parseRecordType(token);
+ if (recordType!= null) {
+ if (recordType == null) { return }
+ if (recordType!= null) recordType.parseFieldTypeList(token);
+ { Node fieldTypeList = parseField(token);
+ Node fieldTypeList = $(token);
+ if (recordType == null) break;
+ if (recordType == null) { return reportTypeSyntaxWarning("missing"); } final
+ if (recordType == null) { return reportGenericTypeSyntaxWarning(); } }
+ do { Node fieldTypeList = this.parseFieldTypeList(token);
+ Node fieldsTypeList = recordType;
+ if (recordType) { next(recordType);
+ FieldTypeList := parseFieldTypeList(token);
+Node  fieldTypeList = recordType();
+ if (recordType == null) { return null; };
+ if (recordType == null)
+Node fieldTypeList = parseFieldTypeList(recType, token);
+ parseRecord(token);
+ Node fieldTypeList = newNode(null);
+Node fieldTypeList = parseFieldTypeList(token); if (fieldTypeList!= null)
+ while (token!= null) {
+ if (recordType == null) return;
+ if (recordType == null) { Node...fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token); if (fieldTypeList == null)
+ if (recordType == null) {fieldTypeList = parseFieldTypeList(token);
+ RecordTypeList = parse(token);
+ RecordType fieldTypeList = parseRecordType(token);
+ recordType.init(token);
+ if (recordType == null) { return reportGenericTypeSyntaxError(); } final
+ if (recordType == null) { return reportGenericTypeSyntaxWarning; } final
+ if (recordType == null) continue;
+ if (token!= null) { recordType= parseFieldTypeList(token);
+ RecordTypeList = parseRecord(token);
+Node fieldTypeList = parseFieldTypeList(token, recordType, skipEOLs());
+ if (recordType == null)
+ if (recordType!= null)
+ if (recordType == null) return super.parseFieldTypeList(token);
+ RecordTypeFieldTypeList(token);
+ if (recordType) { skipEOLs);
+ if (recordType) { next(token);
+ next(_);
+ if (recordType) { FieldTypeList= parseFieldTypeList(token);
+ RecordTypeList(token, recordType);
+Node fieldTypeList = parseFieldTypeList(token); if (token == null) {
+ do { Node fieldType = recordType.parseFieldTypeList(token);
+ Token fieldTypeList = token. second ;
+ RecordTypeList := parseType(token);
+ if (recordType == null) { }
+ RecordTypeList(recordType, token);
+ Token fieldTypeList = token;
+Node fieldTypeList =  parseFieldType(token, recordType); }
+ parseFieldType(token);
+ token = next(2);
+ do { Node fieldTypeList=parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, false);
+ if (recordType == null) { Node sfieldTypeList = parseFieldTypeList(token);
+ if (recordType) { fieldTypeList= parseFieldTypeList(token);
+ Node fieldTypeList = parseList(token);
+Node fieldTypeList = parseFieldTypeList(token, "record");
+ Node fieldTypeList = newNode(null;
+ Node fields = parseFieldTypes(token);
+ { Node fieldTypeList = super.parseFieldTypeList(token);
+Node  fieldTypeList = parseFieldType(token)
+ Node typeList = fieldTypeList;
+ Node fieldTypeList = newNode(LC);
+ if (recordType == null) { return null; };
+ if (recordType == null) { var _fieldTypeList = parseFieldTypeList(token);
+ if (recordType == null) { return null; } } else
+Node fieldTypeList  = newNode(Token.LC); }
+ if (recordType == null) { }
+ if (token!= null) { return token; } else
+ { Node fieldTypeList = parseRecordType(token);
+ node fieldTypeList;
+ fieldTypeList = (token);
+ if (token!= null) { Node _fieldTypeList = parseFieldTypeList(token);
+ { Node fieldTypeList = _parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) { skipEOLs();
+ do { Node recordType = recordType.parseFieldTypeList(token);
+Node  fieldTypeList = null
+Node  fieldTypeList = newNode(token); }
+ parserRecordType(token);
+ fieldTypeList(token);
+ if (token == null) { return null; } final
+Node fieldTypeList = parseFieldTypeList(token, null);
+ { Node fieldTypeList = this.parseFieldTypeList(token);
+ Node fieldTypeList := recordType;
+Node fieldTypeList = parseFieldTypeList(token, skipEOLs');
+Node fieldTypeList = parseFieldTypeList(recordType(token);
+ if (recordType == null) { return null; } }
+Node fieldTypeList = parseFieldTypeList ( ) ;
+ token = next(true);
+ if (recordType!= null)
+ if (token!= null)
+ Node fieldsType = null;
+ token = next(1);
+ if (recordType == null) { return null; },
+ if (recordType == null) { return null; } even
+ if (token == null) { return null; } } else
+ Node fieldTypeList = parseFieldType(token, recordType));
+ if (token!= null) { Node...fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, "recordType") ;
+ if (recordType) {
+ if (recordType == null) { NodefieldTypeList = parseFieldTypeList(token);
+ if (recordType!= null) {fieldTypeList = parseFieldTypeList(token);
+ while (true);
+ String fieldTypeList;
+ node fieldTypeList = null;
+ RecordTypeList(fieldTypeList);
+ Node fieldTypeList = next());
+ RecordType.parseFieldTypeList(token);
+ FieldType list= parseFieldTypeList(token);
+ if (recordType!= null) { Node _fieldTypeList = parseFieldTypeList(token);
+ I { Node fieldTypeList = _parseFieldTypeList(token);
+ if (recordType == null);
+Node fieldTypeList  = newNode(Token.LC); {
+Node fieldTypeList = parseFieldTypeList(token) ; SkipEOLs();
+ while (true) { FieldTypeList|fieldTypeList = parseFieldTypeList(token);
+ Node fieldTypeList = parseFieldType(token, true); }
+ Node fieldTypeList = (null);
+Node fieldTypeList = parseFieldTypeList(token) - skipEOLs();
+ RecordTypeFieldType(token, null);
+ { Node fieldTypeList = parseFieldTypes(token);
+Node  fieldsTypeList;
+Node  fieldsTypeList();
+ Node recordType = null;
+ RecordTypeList(token, null);
+ recordType.push(token);
+ while (token!= null)
+ RecordType.parse(token);
+ } do { Node fieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, recordType); }
+Node fieldTypeList  = parseFieldType(token) ; }
+ parseStruct(token);
+Node fieldTypeList  = parseFieldType(token, false); }
+ { do { Node fieldTypeList |= parseFieldTypeList(token);
+ if (token == null) {
+Node fieldTypeList = parseFieldTypeList(recordType, true);
+Node fieldTypeList = parseFieldTypeList ( token ) ; skipEOLs(){
+ } do { Node fieldTypeList |= parseFieldTypeList(token);
+ Node fieldTypeList2;
+ parseField(token);
+ { do { Node fieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList  = parseFieldType(token); } else
+ next());
+ if (token!= null) { NodefieldTypeList = parseFieldTypeList(token);
+ parseRecordTypeList(token);
+ if (recordType!= null);
+ { do { Node fieldTypeList *= parseFieldTypeList(token);
+ parseNode(token);
+ I { Node fieldTypeList=parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList ( token ) ; skipEOLs());
+Node fieldTypeList =  parseFieldTypes(token);
+ { do { Node fieldTypeList,= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) while (true) {
+Node fieldTypeList  = parseFieldType(token); } {
+Node fieldTypeList =  parseFieldType(token, recordType) {
+ parserFieldTypeList(token);
+ fieldTypeList = next();
+Node fieldTypeList = parseFieldTypeList(token) + skipEOLs();
+ } do { Node fieldTypeList *= parseFieldTypeList(token);
+ parseTypeExpression(token);
+Node fieldTypeList =  parseRecordType(token);
+ fieldList= parseFieldTypeList(token);
+ if (recordType)
+Node fieldTypeList = parseFieldTypeList(token, skipEOLs); }
+ while (true) {
+ { Do { Node fieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) { skipEOLs(); }
+Node fieldTypeList = parseFieldTypeList ( token ) ; skipEOLs;
+Node fieldTypeList =  parseFieldType ( token ) ; next(); }
+Node fieldTypeList = parseFieldTypeList(token) ; skipEOL();
+ this.parseFieldTypeList(token);
+ if (token!= null) { final
+ { Node fieldsTypeList = _parseFieldTypeList(token);
+Node  fieldTypeList = {}
+Node  fieldTypeList = ;
+Node fieldTypeList =  parseTypeExpression(token);
+Node fieldTypeList =  parseFieldType(token, recordType; }
+ parserFieldType(token);
+ I { Node fieldTypeList |= parseFieldTypeList(token);
+ FieldType= parseFieldTypeList(token);
+ if (recordType!= null) {}
+Node fieldTypeList = parseFieldTypeList(token) - recordType;
+ fieldTypes= parseFieldTypeList(token);
+ I { Node fieldTypeList *= parseFieldTypeList(token);
+ Node fields = null;
+ token = next());
+ { Node fieldTypeList *= parseFieldTypeList(token);
+Node fieldTypeList  := null;
+ { while (true) { NodefieldTypeList = parseFieldTypeList(token);
+ Node fieldType= parseFieldTypeList(token);
+ ParseRecordType(token);
+ next(*);
+Node fieldTypeList =  parseFieldTypeType(token);
+ if (true);
+Node fieldTypeList = parseFieldTypeList(token) ; skipEOLs(); }
+Node fieldTypeList = parseFieldTypeList(token) ; SkipEOLs(); }
+ token = next();
+Node fieldTypeList = parseFieldTypeList(token, true); }
+ Node next;
+Node fieldTypeList =  parseStruct(token);
+ { Node fieldTypeList |= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) ; skipFieldTypes();
+ { FieldTypeList=parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(Token.LC, recordType); }
+Node fieldTypeList = parseFieldTypeList(token.LC); }
+ } { Node fieldTypeList= parseFieldTypeList(token);
+ Node fieldType;
+Node fieldTypeList = parseFieldTypeList(token, false); }
+Node fieldTypeList = parseFieldTypeList ( token));
+ { SkipEOLs();fieldTypeList = parseFieldTypeList(token);
+ if (token) {
+Node fieldTypeList = parseFieldTypeList(token, recordType) {
+Node fieldTypeList = parseFieldTypeList(Token.LC); }
+ } Node fieldTypeList=parseFieldTypeList(token);
+Node fieldTypeList =  parseMember(token);
+ do { FieldTypeList= parseFieldTypeList(token);
+Node fieldTypeList =  parseMemberTypeList(token);
+Node fieldTypeList = parseFieldTypeList(recordType); }
+ if (!recordType)
+ I { FieldTypeList=parseFieldTypeList(token);
+Node fieldTypeList =  parseFieldList(token);
+Node fieldTypeList =  parseFieldTypesList(token);
+ Field typeList= parseFieldTypeList(token);
+ String fieldTypeList= parseFieldTypeList(token);
+ { SkipEOLs(fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token).next(); } else
+ { Node fieldTypeList ^= parseFieldTypeList(token);
+ Node recordType;
+ String type = null;
+Node fieldTypeList = parseFieldTypeList(token).next(); } {
+ token = next(_);
+ { do { FieldTypeListfieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, true); else
+ node fieldTypeList= parseFieldTypeList(token);
+ parseTypeList(token);
+ if (recordType);
+ token = next(););
+Node fieldTypeList = parseFieldTypeList(token) ; }
+Node fieldTypeList =  parseTypeList(token);
+ { Node fieldTypeList,fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) - RecordType;
+ { fieldTypeList=parseFieldTypeList(token);
+ next(1);
+Node fieldTypeList = parseFieldTypeList(token) while (true); {
+Node fieldTypeList = parseFieldTypeList(token) ; skipEOL;
+ node = null;
+Node fieldTypeList = parseFieldTypeList(token); } else
+Node  recordType();
+ { Node fieldTypeList_fieldTypeList = parseFieldTypeList(token);
+ parse(token);
+Node fieldTypeList = parseFieldTypeList(token); } {
+Node  first();
+Node  current();
+Node  fieldType();
+ IRI fieldTypeList= parseFieldTypeList(token);
+ IFieldTypeTypeList= parseFieldTypeList(token);
+ node = token;
+ { do { Node _fieldTypeList = parseFieldTypeList(token);
+ unexpected(token);
+ expect(token);
+ int fieldCount;
+ super.parseFieldTypeList(token);
+ { do { Node...fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token, recordType));
+ { do { Node sfieldTypeList = parseFieldTypeList(token);
+ { do { Node &fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) - recordType();
+ int i;
+ { Do { Node _fieldTypeList = parseFieldTypeList(token);
+ this._parseFieldTypeList(token);
+ int index;
+Node fieldTypeList =  this;
+ Node prev;
+ Node fieldTypelist= parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) ; else
+ Node node;
+Node fieldTypeList = parseFieldTypeList(recType);
+ Node fieldTypesList= parseFieldTypeList(token);
+ skip(token);
+Node fieldTypeList = parseFieldTypeList(token) {
+Node  next(){
+Node  current;
+ I do {
+ { do {
+Node fieldTypeList = parseFieldTypeList(token) { }
+ { Node ','fieldTypeList = parseFieldTypeList(token);
+ { Node _fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(RecordType);
+ Node _fieldTypeList = parseFieldTypeList(token);
+ { Node...fieldTypeList = parseFieldTypeList(token);
+ { Node '',fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token2);
+ { Node \$fieldTypeList = parseFieldTypeList(token);
+ { Node \nfieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) ; {}
+Node fieldTypeList = parseFieldTypeList(token++);
+ { Node sfieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) {}';
+ super().parseFieldTypeList(token);
+ { Node &fieldTypeList = parseFieldTypeList(token);
+ Node...fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(Token);
+ } do {
+ Node *fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token) {}();
+ String[]fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(); }
+ { String[]fieldTypeList = parseFieldTypeList(token);
+Node fieldTypeList = parseFieldTypeList(token)
+ } {
+ } next(); {
+Node fieldTypeList =  next(token);
+ } final
+Node fieldTypeList = parseFieldTypeList(); {
+Node fieldTypeList ; else
+ } next(); final
+Node fieldTypeList =  read(token);
+ { } ; final
+Node fieldTypeList = parseFieldTypeList(token)); }
+ { do { final
+ {
+ } next(); }
+ { do {}
+ { final
+Node fieldTypeList = parseFieldTypeList(Token); }
+Node fieldTypeList =  match(token);
+Node fieldTypeList = parseFieldTypeList(token) {};
+Node fieldTypeList = parseFieldTypeList() {
+Node fieldTypeList := parseFieldTypeList(token);
+ final
+ { };
+ }
+Node fieldTypeList = parseFieldTypeList(token; }
+Node fieldTypeList = parseFieldTypeList(word);
+Node fieldTypeList = parseFieldTypeList(text);
+Node fieldTypeList: parseFieldTypeList(token);
+Node fieldTypeList; parseFieldTypeList(token);

@@ -1,0 +1,676 @@
+ builder.append(toString(token));
+ builder.append(token));
+ next(token));
+builder.append();
+ builder.append(token);
+ if (ignoreStar) { builder.append(toString(token));
+builder.append(toString(token, ignoreStar));
+ while (token!= null) { builder.append(toString(token));
+ } if (ignoreStar) { builder.append(toString(token));
+ break; builder.append(token));
+ if (token!= null) { builder.append(toString(token));
+ break; builder.append(toString(token));
+ builder.append((token));
+ if (!ignoreStar) { builder.append(toString(token));
+ } if (token!= null) { builder.append(toString(token));
+ if (ignoreStar) break; builder.append(toString(token));
+ builder.append(Token.toString(token));
+ if (ignoreStar) builder.append(toString(token));
+ } if (ignoreStar) builder.append(toString(token));
+builder.append(toString(token)) ; if (ignoreStar) {
+builder.append(token); } if (ignoreStar) {
+ builder.append('*'));
+ break; } builder.append(toString(token));
+ } else { ignoreStar = false;
+ while (true) { builder.append(toString(token));
+ } else { builder.append(toString(token));
+ trimEnd(token));
+builder.append(token); if (ignoreStar) {
+ if (!ignoreStar) break; builder.append(toString(token));
+ builder.append(" "+token));
+ if (token!= null) { builder.append(' ');
+ } if (ignoreStar) { builder.append(' ');
+ if (!ignoreStar) builder.append(toString(token));
+builder.append(toString(token)) ; if (ignoreStar) { continue; }
+ } else { if (ignoreStar) { builder.append(toString(token));
+builder.append(token); } while (true) {
+ if (token!= null) break; builder.append(toString(token));
+ if (token!= null) { builder.append('*'); }
+ if (token!= null) { builder.append('\n'); }
+ } if (ignoreStar) { builder.append('\n'); }
+ } if (ignoreStar) { builder.append('*'); }
+ } if (token!= null) {
+ builder.append(' ');
+ } if (ignoreStar) {
+ } else { if (ignoreStar) { builder.append('\n'); }
+ while (token!= null) builder.append(toString(token));
+ if (ignoreStar) {
+ } } else { builder.append(toString(token));
+ break; } else { ignoreStar = false;
+ } if (ignoreStar) {
+ break; } if (ignoreStar) { builder.append(toString(token));
+builder.append(toString(token)); } if (ignoreStar) {
+builder.append(toString(token)) ; if (ignoreStar) { break; }
+ builder.append(token.toString(token));
+ if (token!= null) { builder.append(' '); if (ignoreStar) {
+ break; } if (ignoreStar) {
+ break; } if (ignoreStar) { builder.append('*'); }
+ break; } builder.append(token));
+builder.append(' '); } if (ignoreStar) {
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( ' ' ) ;
+builder.append('';');
+ if (ignoreStar) { builder.contents(toString(token));
+builder.append('*'); } if (ignoreStar) {
+ if (ignoreStar) {
+builder = null;
+ } else { if (ignoreStar) {
+ } else { builder.append('\n');
+ builder.append(next(token));
+builder.append(toString(token, stream));
+builder.append('*'); } while (true) {
+builder.append(token); } } while (true) {
+ builder.append(' '));
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( '*' ) ;
+ break; } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( ' ' ) ;
+ } else { builder.append('\n'); }
+ } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( '*' ) ;
+ break; } if ( ignoreStar ) { builder. append ( ' ' ) ; } else { builder. append ( ' ' ) ;
+ } builder.append(token));
+ if (token!= null) { builder.append(' '); } if (token!= null) {
+ if (token!= null) { builder.append(' '); } if (token!= null) { builder.append(' ');
+ } if (ignoreStar) { builder.append(' '); } if (token) {
+ break; } if (token!= null) {
+ break; } } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( ' ' ) ;
+ break; } } else { ignoreStar = false;
+builder += ' ';
+ if (token!= null) { builder.append(' '); } if ( token!= null ) { builder. append ( ) ;
+ if (token!= null) { builder.append(' '); } if ( token!= null ) { if (ignoreStar) {
+builder.append(toString(token)); } while (true) {
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( '\n' ) ;
+builder.append(' '); } while (true) {
+ } if (ignoreStar) { builder.append(' '); } while (true)
+ } else { if (ignoreStar) { ignoreStar }
+builder.append('*'); }
+builder.append(toString(token)) ; while (true) {
+builder.append(token); } if (! ignoreStar ) {
+ if (token!= null) { builder.append(' '); } if (token!= null) { builder.append('*');
+ } else { if (ignoreStar) break;
+ } builder.append(toString(token));
+ } else { ignoreStar = false;
+ } else { ignoreStar = true;
+ break; } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( ' ' ) ; }
+ } else { builder. append(' '); } if (ignoreStar) { builder.append('*'); }
+ } } else { ignoreStar = false;
+ break; } if (ignoreStar) { builder.append(' '); if (token!= null) {
+ } if (ignoreStar) { builder.append(' '); } if (token)
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append('\n'); } else {
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( '*' ) ; } else {
+builder.append(token); while (token!= null) {
+ break; } if ( ignoreStar ) { builder. append(' '); } if ( token!= null ) {
+ if (token!= null) { builder.append(' '); } if (ignoreStar)
+ break; } if (ignoreStar) builder.append(toString(token));
+ if (token!= null) { builder.append(' '); }
+builder.append('*'); break; }
+ } if (token) builder.append(toString(token));
+ break; } if (ignoreStar) { builder.append(' '); } if (ignoreStar) {
+builder.append(token); token = trimEnd(token));
+ } else { builder.append(' '); } } else {
+builder.append(token); } else { ignoreStar = false;
+builder.append(token); } } while (ignoreStar) ;
+ } if (!ignoreStar) { builder.append(toString(token));
+ break; } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( '*' ) ;
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( ' ' )
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( token ) ;
+ } else { builder. append(' '); } if ( token!= null ) { builder. append ( '*' ) ;
+builder.append(token); } } while (true);
+ builder.append({token));
+ break; builder.append((token));
+ break; } if (ignoreStar) { builder.append(' '); } else {
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append('\n'); }
+ while (true);
+builder.append( extractBlockComment(token));
+builder = "";
+builder.append(toString(token, true));
+ } else { if (ignoreStar) continue;
+builder.append(token); } } while (ignoreStar) {
+ break; } if (ignoreStar) { builder.append(' '); } if (token) {
+ break; } if (ignoreStar) { builder.append(' '); if (token!= null)
+builder.append(toString(token)); } } while (token!= null) {
+ builder.append("*"));
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( "*" ) ;
+ break; } if (ignoreStar) {
+ } else { if (ignoreStar) { ignoreStar =
+ if (token!= null) {
+ } if ( ignoreStar ) { while ( true ) {
+builder.append('\n'); }
+ } else { builder.append(token);
+ break; } if (ignoreStar) { builder.append(' '); } if (token)
+ } else { builder.append(Token.toString(token));
+ } else { builder.append(token.toString(token));
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( '*' ) ; continue ; }
+ if (ignoreStar) { builder.appendLine(toString(token));
+ break; } if (ignoreStar) { builder.append(' '); } while (true)
+ break; } else { builder.append(token);
+ } if (ignoreStar) { builder.length(); }
+builder.append('';");
+ break; } } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( " " ) ;
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( ' '); }
+ } else { if (ignoreStar && token!= null)
+ } if (ignoreStar) { builder.append(' '); } else {
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( " " ) ;
+builder.append('*'); } } while (true) {
+builder.append('*'); } } else {
+ break; } else { ignoreStar = true;
+ break; } while (true);
+ } else { if (ignoreStar) { ignoreStar &&
+builder.append(toString(token)) ; while (token!= null) {
+ } if (ignoreStar) { ignoreStar false;
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append(' '); } } else {
+ break; } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( '\n' )
+ builder.append("(token));
+ } if (ignoreStar) { builder.append('*');
+builder.append(token); while (true) { final
+ if (ignoreStar) { break; }
+builder.append(toString(token))); } while (true) {
+builder.append(';');
+ } else { if (ignoreStar) { ignoreStar = false
+ } else { builder.append(getBlockComment(token));
+builder.append(toString(token)); } if (! ignoreStar ) {
+ break; } if (ignoreStar) { builder.append(' '); if (token) {
+builder.append(token); } while (true);
+ } if (ignoreStar) { builder.append(' '); } while (true);
+ break; builder.append(" "+token));
+ builder.contents(toString(token));
+builder.append(toString(token)); } } while (! ignoreStar ) ;
+ } if (token instanceof Comment) { builder.append(toString(token));
+ break; } builder.append(" "+token));
+ break; } builder.append((token));
+ if (ignoreStar) { builder.appendString(toString(token));
+ } if (ignoreStar) { while (true);
+builder.append(toString(token.nextToken()));
+ break; } continue;
+ } while (true);
+builder.append(toString().trim(), token); } } else {
+ builder.append("*'));
+builder.append('*'); } } else { final
+ break; } } else { ignoreStar = true;
+ } if (! ignoreStar ) {
+ break; } if (ignoreStar) { builder.append(' '); } while (true);
+ break; } else { builder.append(toString(token));
+builder.append(getBlockComment(token));
+ while (true));
+ } else { builder. append(' '); } if ( ignoreStar ) { builder. append ( '*' ) }
+builder.append(toString(token)) ; break; } } while (true) {
+ if (ignoreStar) break;
+ } while (true) {
+builder.append(' '); } while (true) ;
+ } if (ignoreStar) { builder.append(' '); } while (true){
+ builder.append((\n));
+ } if (ignoreStar) { while (true)
+ builder.append('));
+builder.append('\n'); } while (true) {
+ break; builder.append("(token));
+ } else { builder.append('*');
+ builder.append(Comment.toString(token));
+ builder.appendLine(toString(token));
+ if (ignoreStar) { builder.append2(toString(token));
+ } if (token!= null) {
+builder.append(token); if (ignoreStar) { final
+builder.append('*'); } final
+ } } else { builder.append(Token.toString(token));
+ builder.append('*');
+builder.append('\n'); break; }
+ } if (ignoreStar) { token = next;
+ break; } if (ignoreStar) { builder.append(' '); } else { ignoreStar &&
+ } else { builder.append('*'); }
+ break; } } while (true) {
+ break; builder.append({token));
+ } else { while (token!= null) {
+ break; } if (ignoreStar) { builder.append(' '); } else { break; }
+ } else { String stream = extractBlockComment(toString(token));
+ while (token!= null) {
+ break; } if ( token!= null ) { builder. append ( token ) ; } else { builder. append ( ' ' ) }
+ } } else { ignoreStar = true;
+ } if (ignoreStar)
+ if (ignoreStar) { builder.appendRaw(toString(token));
+ break; while (true);
+builder.append(toString(blockComment));
+ } } else { builder.append(token.toString(token));
+ builder.appendLine(token));
+ break; builder.appendLine(token));
+ builder.append(" "));
+builder.append('\n'); } } else {
+builder = '';
+ break; } } else { builder.append(toString(token));
+ } if ( ignoreStar ) { break ; } } else {
+builder.append('*'); continue; }
+ break; } if (ignoreStar) { builder.append(' '); } while (true){
+ break; } break;
+ } else { builder.appendToken(toString(token));
+ token = trimEnd(token));
+builder += token;
+ } if ( ignoreStar ) { while ( true ) { final
+ } if (token == null) {
+ return builder.toString(token));
+builder.append('*'); } while (true) ;
+builder.append(toString().trim(), token)); } } else {
+ break; builder.append(token);
+builder.append(toString(token)); if (ignoreStar) { final
+ break; builder.append('*'));
+ } else { builder.append(parseBlockComment(token));
+ builder.append($(token));
+ break; } builder.append("(token));
+builder.append(toString(token)) ; if (ignoreStar) break;
+ break; } else { builder.appendToken(toString(token));
+builder.append(toString(token)); if (token == null) {
+ return new ExtractionInfo(toString(token));
+ break; break; builder.append(token));
+builder.append(toString(token)) ; while (true) { final
+ builder.append2(toString(token));
+ break; } } while (ignoreStar) {
+builder.append(toString(token, false));
+ break; default: builder.append(toString(token));
+ } else { while (true) { final
+ builder.append(token.toString());
+builder.append(stream.getBlockComment(token));
+ builder.append(' ';
+ if (token == EOL) {
+builder.append(token); } } else { final
+builder.append(toString().trim(), token); break; }
+builder.append(toString(token)) ; if (ignoreStar)
+ } else { builder.append(Json.toString(token));
+ break; builder.appendString(token));
+builder.append(token); builder.append((token));
+ if (ignoreStar)
+ break; builder.append(' '));
+ } else { builder.contents(toString(token));
+ if (token == null) { continue; }
+builder.append(token); } } else {
+ } else { String stream = new Stream(toString(token));
+ builder.appendToken(toString(token));
+ } else { builder.append(' ' + indent(token));
+builder.append(toString(stream, ignoreStar));
+ print(token.toString(token));
+ builder.append(stream.getLine());
+ default: builder.append(toString(token));
+ if (token!= null) { } builder.append(toString(token));
+ break; } builder.appendLine(token));
+ print(Token.toString(token));
+ } if ( ignoreStar ) { break ; } else {
+ break; } } while (ignoreStar) ;
+ } else { builder.appendLine(toString(token));
+ builder.append('\n');
+ trimStart(token));
+builder.append('*'); } } while (true) ;
+ break; } while (ignoreStar);
+ break; } else { builder.append(token));
+ } } else { String stream = new Stream(toString(token));
+ if (token == null) {
+builder.append(toString(token)); } while (true) { final
+builder.append('*'); final
+ break; break; } builder.append(toString(token));
+ break; } builder.appendToken(toString(token));
+builder.append('\n'); } final
+ token = next(token);
+ } else { builder.append(' ' + escape(token));
+ break; } while (token!= null);
+ } else { String stream = new String(toString(token));
+ } else { builder.append2(toString(token));
+ break; } builder.append(Token.toString(token));
+builder.append(toString(token)); } } else {
+ trimEnd(toString(token));
+builder.append(token); } } } else {
+builder.append(\"\n\" + indent(token));
+ } } else { builder.appendLine(toString(token));
+builder.append(toString(token)) ; } } while (token!= null) ;
+ break; } builder.append(token);
+ break; builder.append("*"));
+ break; builder.append((ignoreStar));
+builder.append(toString(token)); } while (true)) {
+ } else { builder.append(escape(token));
+ break; } print(builder.toString(token));
+builder.append('*'); } }
+ break; } else { builder.append(" "+token));
+ } else { builder.append( trimStart(token));
+builder.append('\n'); final
+builder.append(toString(token)); } } while (true) { final
+builder.append('*'); break; } final
+ while (true) { final
+ token = trimStart(token));
+ break; } else { builder.append((token));
+ break; } else { builder.append(escape(token));
+builder.append('\n'); } } else { final
+ } else { builder.append(stripEnd(token));
+ } else { builder.append( trimEnd(token));
+ break; } else { builder.contents(toString(token));
+ builder.append(comment(token));
+builder.append('*'); break;
+ } } else { String stream = new String(toString(token));
+ } else { builder.appendString(toString(token));
+ builder.append( trimEnd(token));
+ } } else { builder.contents(toString(token));
+ if (ignoreStar) continue;
+ break; break; } builder.append(token));
+ if (token!= null) { builder.append(' '); if (ignoreStar) return
+ } else { if (ignoreStar) { builder.append('\n'); };
+ } else { builder.append(getComment(token));
+ break; } else { builder.appendLine(toString(token));
+ if (token!= null) { builder.append(' '); } if (ignoreStar){
+ builder.append( trimStart(token));
+builder.append('\n'); break; } final
+builder.append(toString(token)) ; while (token!= null) { final
+ break; } builder.appendString(token));
+ } else { builder.append(' ');
+ } if (ignoreStar) { } builder.append(toString(token));
+ } else { builder.append(strip(token));
+ break; } else { ignoreStar true;
+ break; trimEnd(toString(token));
+ } else { builder.append(ignoreStar);
+ } else { builder.append(next(token));
+ } else { builder.append(quote(token));
+ break; builder.append(next());
+builder.append(token); } while (true)
+builder.append(toString(token)); if (ignoreStar) break; }
+ break; builder.append(next(token));
+builder.append(toString(token, stream, builder));
+ print(builder);
+ break; } if (token == null);
+ builder.append(token.toString()));
+builder.append(toString(token)); break; } } else {
+ } if (token!= null) { final
+ } else { builder.append(stripComment(token));
+ builder.appendString(toString(token));
+ break; } else { ignoreStar --;
+ break; break; } builder.append(" "+token));
+builder.append(toString(token)) ; if (ignoreStar) { continue }
+ if (token!= null) { final
+ } else { builder. append('\n'); } }
+ builder.append(quote(token));
+ } else { if (ignoreStar) break; }
+ } else { builder.append(comment(token));
+ } if (token) {
+builder.append(toString(token.getValue()));
+builder.append('*'); break; } }
+ } else { builder.append(token);;
+ builder.append(escape(token));
+ } else { builder.length(); --;
+ break; builder.append(' ');
+ break; }
+ } else { builder. append('\n'); } final
+ break; return builder.toString(token));
+ break; } } while (true) ;
+ builder.append(');
+builder.append('\n'); } }
+builder.append(token); builder.append(token));
+ break; } builder.append(comment(token));
+ } }));
+ } if ( ignoreStar ) { break ; } default : {
+ builder.append(BlockComment.toString(token));
+ token = extractBlockComment(token));
+builder.append(toString(token)); break; } } else { final
+builder.append(toString(token)); break; }
+ } if (token!= null) { String builder.append(toString(token));
+builder.append(' '); break; } final
+builder.append(toString(stream, token));
+builder.append(toString().trim(), token); }
+builder.append('\n'); break; } }
+builder.append(token); builder.append("(token));
+ print(Builder.toString(token));
+ print(builder));
+builder.append(toString(token)) ; if (ignoreStar) { } }
+builder.append(toString().trim(), token); break; } final
+builder.append(toString(token)); if (ignoreStar) { continue; };
+builder.append(toString(token)); if (ignoreStar) break; final
+ } else { builder.append("* ");
+builder.append(\"\n\" + escape(token));
+ break; break; builder.append((ignoreStar));
+ printEnd(builder));
+builder.append(toString().trim(), token); } }
+ builder.append());
+builder.append(toString(token)); } } else { final
+ append(toString(token));
+ } if ( ignoreStar ) { break ; } }
+ continue; } builder.append(toString(token));
+builder.append(toString(token)); } } while (true); { final
+ print(builder.toString(token));
+ if (token == null) { break; } }
+ } if ( ignoreStar ) { break ; } final
+builder.append(toString().trim(), token); } final
+builder.append(token); } else { final
+ break; } } while (true;
+ break; } } else { final
+ break; } else { ignoreStar;
+ if (ignoreStar) { builder.append('\n'); } else
+builder.append( ' ' + trimEnd(token));
+ token = nextToken(token));
+ } if ( ignoreStar ) { break ; } } }
+ } else { if (ignoreStar) { builder.append(' '); } else
+ if (token == null) { break; } final
+builder.append(toString(token.getText()));
+builder.append(*'); break; }
+ } else { if (ignoreStar) { builder.append(' '); } }
+ else { ignoreStar = true;
+ } if (token!= null) { } builder.append(toString(token));
+ builder.append("));
+ } if ( ignoreStar ) { while ( true ) { }
+ print(token));
+ builder.append('\n);
+builder.append(); }
+ break; } builder.append(.toString(token));
+builder.append(toString(token, builder, stream));
+builder.append("*"); }
+builder.append(toString(token.next()));
+builder.append(toString(token, builder));
+builder.append(toString(token); break; }
+ break; } } else {
+ } else { builder. append(' '); } } } }
+ else { ignoreStar = false;
+builder.append(); final
+ } else { builder.append(.toString(token));
+ } else { builder.append('\n'); };
+ } else { ignoreStar --;
+ builder.append(.toString(token));
+builder.append(toString().trim(), token); } } }
+ break; } while (true;
+ } else { ignoreStar true;
+builder.append(toString(token)) break; } } else { final
+builder.append(toString()); break; }
+ } else { builder.append((token.value));
+ printToken(toString(token));
+builder.append('*'); break; } } final
+ printEnd(token));
+builder.append(toString().trim(), token); final
+ next(token);
+builder.append(stream.getLine(token));
+ break; } } while (ignoreStar); {
+builder.append(toString().trim(), token)); } final
+builder.append(toString(token) + ')' ;
+builder.append(toString().trim(), token); } } final
+builder.append(toString(token)); } while (true); {
+ break; } } break;
+ break } builder.append(toString(token));
+ trimToken(token));
+ break; } } continue;
+builder.append(toString().trim(), token)); } }
+builder.append(token); } while (true));
+builder.append(parseBlockComment(token));
+builder.append(toString().trim(token)); } final
+builder.append(toString(token)) ; } default: {
+ } } else { ignoreStar true;
+builder.append(toString(token))); } } else { final
+ builder.append("");
+builder.append( ' ' + trimStart(token));
+ } else { builder.append(' '); } }
+builder.append(toString(blockComment, token));
+builder = null; }
+ continue;);
+ } default: builder.append(toString(token));
+builder.append(toString(); break; }
+builder.append(token.getBlockComment(token));
+builder.append(token); } default: {
+builder.append(token); break; } final
+builder.append(toString(token)); break; } final
+ next());
+ break; continue;
+builder.append(token); }
+builder.append(toString().trim(), token)); }
+builder.append(toString(token) + ' ');
+ continue; }
+builder.append(toString(token); break; });
+builder.append(*'); } final
+ break; } default:
+builder.append(token); continue; } final
+ } continue;
+ } break;
+builder.append(*'); continue; }
+builder.append(token.getText(token));
+ break;));
+ break;;
+builder.append(toString(token)); break; } }
+builder.append(toString(token)) break; }
+ if (ignoreStar) break; }
+ print(toString(token));
+builder.append(toString(token)); } while (true) ;
+builder.append(toString(token.value()));
+builder.append(toString(token)); } final
+ trimEnd((token));
+builder.append(stream.getComment(token));
+ printLine(toString(token));
+ continue;));
+builder.append(toString()); break;
+ } } else { final
+builder.append(toString(token); break; } }
+builder.append(toString(token)) ; } }
+ } else { ignoreStar = false();
+builder.append(toString(token) + ')');
+builder.append(token.getValue(token));
+builder.append(toString(token)) ; } } { final
+builder.append(token); final
+builder.append(toString(token); break; } final
+builder.append(toString(token)); }
+ printComment(toString(token));
+ token = next(token));
+ break; } final
+builder.append(toString().trim()); } final
+ } } else {
+builder.append(toString(token)) ; } default: final
+ trimStart(toString(token));
+ break; default:
+builder.append(toString(token)); } } }
+ break; default;
+ } builder.appendLine(toString(token));
+ break; })();
+builder = new
+ next();));
+builder.append(toString(token)); break; } } }
+builder.append(toString(token)); break; } } final
+ break; break;
+ buffer.append(token));
+ } while (true); } }
+ printStream(toString(token));
+builder.break();
+builder.append(toString(token)); final
+ break outer;
+ extractComment(token));
+builder.length();
+builder.append(toString(token)) ; break;
+builder.append(*'); } }
+ } else { final
+ break;);
+builder.append(toString()); break; } final
+builder.append(toString(token)); continue; } final
+ break; };
+builder.append(*'); }
+builder.append(toString(token)) break; } final
+ } else: builder.append(toString(token));
+ continue; break;
+ next(););
+builder.append(toString(token)) ; continue; }
+builder.append(toString()); } final
+builder.append(*'); break; final
+ break; } }
+builder.append(toString(); break; });
+ } else {
+ })();
+builder.append(getCommentLine(token));
+builder.append(toString(token)) break; } }
+ next();
+ builder.toString(token));
+builder.length(); }
+ break; } default: {
+ print(token);
+builder.clear();
+ break; } } final
+builder.append(toString()); final
+builder.append(\n'); }
+ super.toString(token));
+ continue; } final
+ break; } } }
+builder.append(blockComment(token));
+builder.append(toString()); } }
+builder.append(stripComment(token));
+builder.append( ' '); }
+builder.append(toString();) ;
+builder++; }
+builder.append(\n"); }
+builder = [];
+builder.append(getComment(token));
+ log(toString(token));
+builder.append(toString(token))); }
+ build.append(token));
+builder.append(toString()); }
+builder.close(); }
+builder.append(toString(Token));
+ while (token));
+ break loop;
+builder.append(line);
+ break; default: {
+ logger.debug(toString(token));
+ appendComment(toString(token));
+ break; } }
+ buffer.append(toString(token));
+ advance(token));
+ while (next(token));
+builder.append(*'); final
+ logger.info(toString(token));
+builder += [];
+ break; default: {
+ break; default: final
+ skip(token));
+builder.append(toString(token)) }
+builder +=();
+builder.append(toString(transformer));
+ break; default: }
+builder.append(toString(...));
+ checkToken(token));
+ parseToken(token));
+builder.close();
+builder.append(''');
+ } break; }
+builder.append(*');
+ if (token));
+ else builder.append(toString(token));
+ break;
+builder.append(toString("));
+builder.append(toString(sep));
+ if (next(token));
+builder.append(toString(segment));
+builder.append(toString(blockBody));
+ break; });
+ continue; } }
+ default:
+builder.append(toString( )));
+ break }
+builder.append(toString(); });
+builder.append(toString(token)) } }
+builder.append(token(token));
+builder.append(toString()) ;
+ }
+ } buffer.append(toString(token));
+ } }
+ }Builder.append(toString(token));
+builder.append(toString(stream));
+ parser.append(toString(token));
+ reader.append(toString(token));
+builder.append(toString(string));
+builder.append(toString(buffer));

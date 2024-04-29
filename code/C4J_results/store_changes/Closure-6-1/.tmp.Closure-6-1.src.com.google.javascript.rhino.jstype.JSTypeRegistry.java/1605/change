@@ -1,0 +1,489 @@
+Node current = n.getFirstChild();
+ current.getFirstChild();
+ current=n.getFirstChild();
+Node current = n. getNext ( ) ;
+ Node current.getFirstChild();
+ Node current = (FunctionNode)n.getFirstChild();
+ Node current = (Node)n.getFirstChild();
+ Node contextNode = current.getFirstChild();
+ Node current = current.getFirstChild();
+ Node current = current.getNext();
+Node current = n.next();
+ Node current = null; Node contextNode=n.getFirstChild();
+ Node current = current.getNextSibling();
+ Node current = current.getNext().getNext();
+ current = current.next();
+ current = current.getFirstChild();
+Node  current;
+ current = current.getNext(scope);
+ current = current();
+ Node current = namedType;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNotNullOrUndefined
+ Node current = current.getFirstSibling();
+ Node currentNode= n.getFirstChild();
+ Node current = n.getNext(); current=n.getFirstChild();
+Node current = n.getFirstChild(); Node contextNode = null;
+ current = current.getNext();
+ Node current = namedType.getFirstChild();
+ Node current = n.getFirstChild(); current= n.getFirstChild();
+ Node current = current.getNext;
+ Node current = n.getNextSibling();
+ Node current = n;
+ Node current = n.getFirstSibling();
+ Node current = (Function)n.getFirstChild();
+ Node currentNode = current.getFirstChild();
+Node  current = currentNode ( ) ;
+ Node current = n; Node contextNode= n.getFirstChild();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNullOrUndefined
+ Node current = n.getNext().getNext();
+Node  current = currentNode. getNext ( ) ;
+ current = current.getNext(();
+ Node contextNode = current.getFirstSibling();
+ Node current = current.getNext(scope);
+Node  current = node;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNotNull();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNullOrUndefined();
+ Node current = n.getFirstChild(); if (current.getType() == Token.NEW) { thisType = null; }
+ Node current = n; Node functionNode= n.getFirstChild();
+ Node current = node.getFirstChild();
+ Node currentNode = namedType.getFirstChild();
+ Node current = null; Node functionNode=n.getFirstChild();
+ Node contextNode=n.getFirstChild();
+ Node current = node ; Node contextNode = current.getFirstChild();
+ Node currentContextNode= n.getFirstChild();
+ current.next(_);
+Node  current = node. getNext ( ) ;
+ current = current.next(_);
+ Node current = n.getNext(); Node node= n.getFirstChild();
+ Node current = current.getNext(); current.getFirstChild();
+ if (n.getType() == Token.NEW) { thisType = null; }
+ Node current = n.getFirstChild(); if (current.getType() == Token.NEW) { thisType = null;
+Node current = n. getFirstChild ( sourceName ) ;
+ Node current = currentNode. getFirstChild ( ) ;
+ Node current = current.getFirstChild;
+ Node current = n.getFirstChild;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNonNullOrUndefined
+ Node current = n. getFirstChild(); if (current.getType() == Token.NEW) {
+ Node current = n. getFirstChild(); if (current.getType() == Token.NEW)
+ Node current = n.getNext(); Node parent= n.getFirstChild();
+ Node current = current ; Node contextNode = current.getFirstChild();
+ Node current = n. getFirstChild(); if (current.getType() == Token.FUNCTION) {
+ thisType = createFromTypeNodesInternal( n.getFirstChild(), sourceName, scope, isConstructor );
+Node current = n.getFirstChild(); Node contextNode = current. parent;
+ if (n.getType() == Token.NEW) { thisType = ObjectType.cast(); }
+ Node contextNode = null;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByUndefined();
+Node current = n.getFirstChild(); if (current!= null) {
+ if ( n. getType() == Token.NEW) { thisType = ObjectType.cast( createFromTypeNodesInternal()); }
+ Node current = getCurrentNode();
+Node current = n.getFirstChild(); if (current!= null)
+ Node current = current.getNext().getParent();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNonNull();
+ current = current.getNext(_);
+ Node current = currentNode; current = current.getFirstChild();
+ Node current = null; Node node=n.getFirstChild();
+ Node current = current.getFirstChildNodes();
+ Node current = current. getNext(); if (current) {
+ if (current.getType() == Token.NEW) { thisType = null;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope, isConstructor );
+ Node current = n.getNext(); Node context= n.getFirstChild();
+ Node current = n. getFirstChild(); if (current.getType() == Token.CONTEXT) {
+ current = current.next(();
+ if (n.getType() == Token.NEW) { isConstructor = true ; }
+ if (n.getType() == Token.NEW) { isConstructor = true;
+ Node current = current.getFirstChild(();
+Node current = n. getFirstChild(); if (current) {
+ Node current = node ; Node node = current.getFirstChild();
+ Node current = current.nextChild;
+ if (n.getType() == Token.NEW) { thisType = ObjectType.cast(null);
+ Node current = n.getFirstChild(); if (current.getType() == Token.NEW) { thisType = null ; } }
+ Node current = null ; current = n.getFirstChild();
+Node current = n.getFirstChild() while (current!= null) {
+Node current = n.getNext(); if (current!= null) {
+Node current = n. getNextChild ( ) ;
+ Node current = n.getFirstChild(); if (current!= null) {
+ Node current; Node contextNode= n.getFirstChild();
+Node current = n. getFirstChild(); thisType = null;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNullOrUndefined());
+ Node current = n. getFirstChild(); if ( current. getType() == Token.NEW ) { return thisType ; }
+ Node current = n; Node newNode= n.getFirstChild();
+Node current = n.getFirstChild(); Node context = null;
+ Node contextNode = (Node) current.getFirstChild();
+ Node current = n.next(); Node contextNode= n.getFirstChild();
+ Node current = n.getFirstChild(); if (current!= null)
+ Node current = n.getFirstChild(); if (isConstructor) {
+ Node current = n.getFirstChild(); if (current == null) {
+ Node current = current.next();
+ Node current = n.getFirstChild(); if (current) {
+ Node current = current. getNext(); thisType = null;
+ if (n.getType() == Token.FUNCTION) {
+ Node contextNode = current.getNext();
+ Node current = n; Node sourceNode= n.getFirstChild();
+ Node current = n.getSecondChild();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNotNull(); }
+ Node current = n.getFirstChild(); if (current instanceof Function) {
+ if (current.getType() == Token.NEW) { isConstructor = true
+ if (n.getType() == Token.NEW) { thisType = null;
+ current.next();
+ Node current = n.getFirstChild(); Node contextNode = null;
+ if (n.getType() == Token.NEW) {
+ Node current = node.next();
+Node current = n.getFirstChild(this);
+ Node current = n; Node currentContextNode= n.getFirstChild();
+ Node current = n. getNext ( ) ;
+ Node current = (FunctionCallNode)n.getFirstChild();
+ Node current = n; Node node= n.getFirstChild();
+ Node current = n; Node newContextNode= n.getFirstChild();
+ Node current = current.getNext(();
+Node current = n.getFirstChild(); Node contextNode = current. firstChild;
+Node current = n.getFirstChild(); Node contextNode = current;
+Node  current = getCurrent ( ) ;
+ Node current = (Node) node.getFirstChild();
+ Node current = current.getFirstChild(scope);
+ Node current = n.getFirstChild(); Node reporter = null;
+ current = current.getNext(*);
+ if (n.getType() == Token.NEW) { thisType = null ; } else {
+ Node current = currentNode; Node contextNode=n.getFirstChild();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope); if (thisType)
+ Node current = (FunctionNode) node.getFirstChild();
+ Node current = n.firstChild();current = n.getFirstChild();
+ Node current = (FunctionMemberNode)n.getFirstChild();
+ if (n.getType() == Token.NEW) { isConstructor =
+ thisType = createFromTypeNodesInternal( n.getFirstChild(), sourceName, scope, isConstructor); }
+ Node current = n.getFirstChild(); if (isConstructor)
+ if (n.getType() == Token.NEW)
+ Node current = null; Node node = this.getFirstChild();
+ Node current = n. next ( ) ;
+ Node current = current.getNextChild(scope);
+ current = current.next(*);
+ if (current.getType() == Token.NEW) { return thisType; }
+ Node current = null; Node contextNode = current.getFirstChild();
+ Node current = (ObjectType)n.getFirstChild();
+ if (n.getType() == Token.CONTEXT) {
+ Node current = current.getNext(...);
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNotNull;
+ Node contextNode = null;
+ thisType = createFromTypeNodesInternal( n, sourceName, scope).restrictByNotNull(); {
+ current = node;
+ current = getNext();
+Node current = n.getFirstChild() while (current!= null)
+Node current = n.getFirstChild(); if (current instanceof Function) {
+ Node current = n.getFirstChild();
+ Node current = current.getFirstChild(...);
+ Node current = n.nextChild;
+ Node current = n.getFirstChild(); Node context = null;
+ current = node.getFirstChild();
+ Node current = (Function) node.getFirstChild();
+ current = current.getNext(false);
+ Node current = current.getParent;
+ Node current = current.getFirstChild(this;
+ Node current; Node functionNode= n.getFirstChild();
+ Node n = node. getFirstChild ( ) ;
+ Node current = n.getFirstChild(n;
+ Node current = current.getNext(sourceName);
+ if (current.getType() == Token.NEW) { break; }
+ Node contextNode = current;
+Node current = n.getFirstChild(); Node contextNode;
+Node current = n.getFirstChild(); if (current instanceof Node) {
+ Node current = node; Node node = node.getFirstChild();
+ Node current = node.getNextChild(0);
+ Node current = current.getNextChild(0);
+ Node current = n.getFirstChild(); if (current)
+ Node current = (FunctionNode) fn.getFirstChild();
+ Node current = null ; current = node.getFirstChild();
+ if (n.getType() == Token.NEW) { thisType = null; } }
+Node current = n.getFirstChild(); if (isConstructor) {
+ Node current = n.getFirstChild(); if (current instanceof ObjectType)
+Node current = n.getFirstChild() if (current!= null) {
+ Node contextNode = (Function) current.getFirstChild();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope, isConstructor ); }
+ Node current = current. getFirstChild ( sourceName ) ;
+ current = current.getFirstChild(();
+ if (n.getType() == Token.NEW) { thisType = ObjectType.cast(); } }
+ Node current = n.firstChild;current = n.getFirstChild();
+ Node current = (FunctionType)n.getFirstChild();
+Node  current = node ( ) ;
+Node current = n. getFirstChild ( ) ; }
+ Node current = n.getFirstChild(); Node contextNode;
+ if (isConstructor) {
+Node current = n.getFirstChild(); Node contextNode = n. nextChild;
+ Node current = (FunctionCall)n.getFirstChild();
+ Node current = node; Node node= n.getFirstChild();
+ current = current.getNext(sourceName);
+ Node current = this.getFirstChild();
+Node current = n.getFirstChild(); Node contextNode = current. next;
+ Node currentContextNode = current.getFirstChild();
+ thisType = createFromTypeNodesInternal( n, sourceName, scope, reporter ); }
+ Node current = this.getNext();
+ Node contextNode = n. firstChild;
+ if (n.getType() == Token.NEW) { isConstructor = true ; } else { }
+ Node currentNode = current = n.getFirstChild();
+ Node current = n.next;
+Node current = n. getFirstChild ( ) ; } else
+ Node current = ((FunctionNode)n.getFirstChild();
+ Node current = this.n.getFirstChild();
+ Node current = new Node();
+ Node current = this;
+ current.push(scope);
+Node current = n.getFirstChild(); Node contextNode = n. nextChild();
+Node current = n.getFirstChild(); Node contextNode = n;
+ if (n.getType() == Token.THIS) {
+ Node current = null; Node contextNode = cn.getFirstChild();
+Node current = n.getFirstChild() ; Node contextNode = current. firstChild();
+ current = current.getNext(); } else
+Node current = n.getFirstChild(scope); if (current!= null) {
+Node current = n. firstChild;
+ Node current = current. getFirstChild ( ) ; }
+Node  current = current ( ) ;
+ Node current = node(this;
+ current = current;
+ Node currentNode = functionNode.getFirstChild();
+ Node contextNode = n. firstChild();
+ Node current = n. firstChild();
+Node current = n. getFirstChild ( ) ; else
+ Node current = current.getParent();
+Node current = n.getFirstChild(); current = current.getNext(); } else
+ while (true) {
+ current = this.getFirstChild();
+Node current = n.getFirstChild() Node contextNode;
+ current = current.getNext);
+ Node current = n.getFirstChild(); if (current instanceof Object) {
+ Node current = null; Node contextNode = contextn.getFirstChild();
+ Node current = n.next(); Node node= n.getFirstChild();
+ Node current = current. getNextChild ( ) ; }
+ current = parent;
+Node current = n.getFirstChild(); if (current)
+ Node current = n.getFirstChild(); } else {
+ Node current = n. firstChild;
+ Node current = current. getFirstChild ( ) ; else
+ current.getNext();
+ Node current; node current= n.getFirstChild();
+ Node current; Node current= n.getFirstChild();
+ Node current = current. getFirstChild ( ) ; } else
+ Node current = scope.getFirstChild();
+ Node current = node.next;
+Node current = n.getFirstChild() Node contextNode = null;
+ current = current(scope);
+Node current = n.getFirstChild() ; Node contextNode = n. parent ;
+ if (debug) {
+ current = node.next();
+Node current = n. getNextChild ( ) ; } else
+ Node current = this.parent.getFirstChild();
+Node current = n. getNextChild ( ) ; }
+ if (n.getType() == Token.THIS)
+ Node current = getNext();
+ if (current.getType() == Token.FUNCTION) { }
+ current = n;
+ Node contextNode = contextNode.getFirstChild();
+ Node current = (Node) this.getFirstChild();
+Node current = n.getFirstChild(); current = current;
+ Node contextNode = currentNode.getFirstChild();
+ current.next(scope);
+Node current = n.getFirstChild(this); if (current!= null)
+ current = current.getNext(); }
+ Node current=getFirstChild();
+ current = this;
+ current.next (*);
+Node current = n.getFirstChild(this); if (current) {
+ Node current = ((Node)n.getFirstChild();
+Node current = n.getFirstChild() - 1;
+ current.getNext(_);
+ Node current = n.getFirstChild(); } }
+ Node currentNode = node.getFirstChild();
+ reporter = null;
+ current = next;
+ boolean reporter = false;
+Node current = n. getNextChild ( ) ; else
+ Node current = this_n.getFirstChild();
+ Node contextNode = n;
+Node  current = current. getNext(); }
+Node current = n.getFirstChild() Node context = null;
+Node  current = root;
+ current.getNext(); } else
+ Node contextNode = null; Node _current = n.getFirstChild();
+ boolean reporter = true;
+ Node current = node_n.getFirstChild();
+ Node current = node.parent;
+ Node current = n.getFirstChild(); }
+ if (isConstructor)
+ Node nodeCurrent= n.getFirstChild();
+ current = current.getNext(); else
+Node current = n.getFirstChild( ) ; Node contextNode = current. next();
+ current = getCurrent();
+ while(true);
+Node current = n. firstChild();
+ current.nextNode();
+Node  current = current. getNext(); else
+Node  current = currentNode ( ) ; }
+ current.next(();
+ Node current = n.getSecondChild(); }
+ current = scope.getFirstChild();
+Node current = n.getLastChild();
+ current.nextToken();
+ Node current = n.getFirstChild(); {
+Node current = n. getFirstChild ( ) ; } }
+ Node current); Node current= n.getFirstChild();
+ Node current = fn.getFirstChild();
+ Node contextNode = n ; } }
+ boolean isNew = false;
+Node  current = target;
+ Node current = current_n.getFirstChild();
+ Node current = currentNode;
+ Node current = node.n.getFirstChild();
+ Node current = cn.getFirstChild();
+Node  current = node ; } else
+Node current = n.getFirstChild() ; Node contextNode = current. next ; }
+ Node contextNode = null; Node #current = n.getFirstChild();
+ Node current = n.getFirstChild(scope); }
+ Node[][]current = n.getFirstChild();
+ Node _current = n.getFirstChild();
+ Node current = n.getNextChild(); #current = n.getFirstChild();
+ Node context = null;
+ Node(ContextNode)current = n.getFirstChild();
+ Node current = functionParamNode.getFirstChild();
+ Node node = null;
+ Node current; current= n.getFirstChild();
+Node current = n.getFirstChild(scope).getFirstChild();
+ Node current; Node node= n.getFirstChild();
+ Node current = functionNode;
+ Node current = n.nextChild(); #current = n.getFirstChild();
+Node current = n.getFirstChild() ; Node contextNode = null ; }
+ current.getNext( ) {
+ Node current = n.getFirstChild;current = n.getFirstChild();
+ Node current = parent.getFirstChild();
+Node current = n.getNext(); thisType = null; }
+Node current = n.getFirstChild() ; Node contextNode = null ; else
+ Node current = n.getFirstChild());current = n.getFirstChild();
+Node current = n.getNext(); thisType = null; else
+ Node current = null; Node _current = n.getFirstChild();
+ Node current = n.getFirstChild(); }current = n.getFirstChild();
+Node current = n ; } else
+ Node contextNode = null; {
+ if (debug)
+Node current = n.getFirstChild() ; Node contextNode = current ; }
+ current = next();
+ current.continue();
+ Node current = null; Node subcurrent = n.getFirstChild();
+ node current.getFirstChild();
+ current.getNext(); }
+ Node current = n ; Node subcurrent = n.getFirstChild();
+ Node current = n. next(); }
+ Node contextNode = n ; }
+Node current = n.getFirstChild() ; Node contextNode = current ; else
+ Node current = n ; Node _current = n.getFirstChild();
+ current.getNext(); else
+Node current = n.getFirstChild( "thisType" );
+Node current = n. getNext ( ));
+Node  current = n. next ; }
+ Node contextNode = null; }
+ current = current.getNext;
+Node current = n.getFirstChild(scope); }
+Node current = n.getFirstChild(scope); else
+ Node current, current= n.getFirstChild();
+Node current = n.getFirstChild(this); else
+ current = current ; }
+Node current = n.getFirstChild(this); }
+ Node current = n;current = n.getFirstChild();
+ Node current, node= n.getFirstChild();
+Node current = n. getNext(); }
+ reporter = this;
+ Node objectNode= n.getFirstChild();
+Node current = n.getFirstChild(0);
+Node current = n.getFirstChild() + 1;
+Node  current = node ; }
+ Node functionNode= n.getFirstChild();
+ Node(Node)current = n.getFirstChild();
+Node current = n.getFirstChild( "contextNode" );
+ JSType _current = n.getFirstChild();
+Node current = n.getFirstChild(0); else
+ current =.getFirstChild();
+Node current = n.getFirstChild(n);
+ Node objectType current= n.getFirstChild();
+Node current = n.getParent();
+Node  current = node ; else
+Node current = n.parent;
+Node  current = namedType();
+ current = getNext(); }
+Node current = n.getFirstChild() Node contextNode();
+ Node ncurrent = n.getFirstChild();
+ while (current);
+ current current;
+Node current = n.getFirstChild( ) ; Node contextNode();
+ current = next; }
+ current.reset();
+ current = next; else
+ current = parent);
+ JSType $current = n.getFirstChild();
+ final Node _current = n.getFirstChild();
+ JSType #current = n.getFirstChild();
+Node current = n.getFirstChild(scope).getFirstChild(); }
+Node current = n.getFirstChild( ) ; Node contextNode ; }
+Node current = n.getFirstChild(scope).getFirstChild(); else
+Node current = n ; } }
+Node  current:
+ current = next);
+Node  contextNode;
+Node current = n.getFirstChild() Node contextNode);
+Node current = n.Next();
+Node current = n.parent();
+ Node $current = n.getFirstChild();
+ Node current = node; #current = n.getFirstChild();
+ Node node_current = n.getFirstChild();
+ node current;
+Node current = n.getFirstChild() Node contextNode++;
+ Node parent_current = n.getFirstChild();
+ Node this_current = n.getFirstChild();
+ Node context_current = n.getFirstChild();
+Node current = n.getFirstChild(sourceName); }
+Node current = n ; }
+Node current = n.getFirstChild(sourceName); else
+Node current = n.getFirstChild() - 2;
+Node current = n.getFirstChild( ) ; try { else
+Node current = n.getFirstChild( ) ; try { }
+Node  current; else
+ new Function();
+Node current = n.getFirstChild( "thisType" ).
+Node  current; }
+ } else {
+ { while();
+Node current = n ; else
+Node  current: {
+Node current = n.getFirstChild(sourceName)); }
+Node current = n.getFirstChild(contextNode); }
+ node current=n.getFirstChild();
+ currentNode.getFirstChild();
+ Node current=$n.getFirstChild();
+ Node current=(n.getFirstChild();
+ checkThis();
+ newCall();
+ { Nodecurrent = n.getFirstChild();
+ current=getFirstChild();
+ current node;
+ })();
+ try { final
+ try { }
+ Node node;
+ } });
+ } } }
+ (break);
+ context.getFirstChild();
+ node.getFirstChild();
+ (...);
+ } }
+ (try);
+ current=$n.getFirstChild();
+ current.n.getFirstChild();
+Node  context;
+Node current ); {
+ { }
+ {
+ N current= n.getFirstChild();
+ }
+Node current = n.getFirstChild() {
+Node current = n.getFirstChild() { }
+ { final
+ Node context= n.getFirstChild();
+Node current = n); }
+Node current := n.getFirstChild();
+Node current, n.getFirstChild();
+Node current; n.getFirstChild();

@@ -1,0 +1,738 @@
+jsdocBuilder.markText(multilineText,
+ builder.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno,  startCharno, endLineno,
+jsdocBuilder.markText(multilineText, startLineno,  startCharno, endCharno,
+jsdocBuilder.markText(multilineText, builder,
+ builder.replace(startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, endCharno,
+ builder.append(multilineText, startLineno, startCharno,
+jsdocBuilder.append(multilineText,
+ builder.replace(startCharno,
+ builder.replace(line, startCharno,
+ builder.replace(line,
+ builder.replace(line, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, ignoreStar,
+jsdocBuilder.markText(multilineText, startLineno, ignoreStar,
+ builder.replace(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, EOL,
+jsdocBuilder.markText(multilineText, startLineno, endLineno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, ignoreStar,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, line,
+ multilineText =
+ builder.append(line, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno + 1,
+jsdocBuilder.markText(multilineText, startLineno, startCharOffset,
+jsdocBuilder().append(multilineText,
+ builder.append(multilineText, startCharno,
+jsdocBuilder.append(line,
+ builder.append(multiline, startLineno, startCharno,
+ builder.substring(startCharno,
+jsdocBuilder.markText(multilineText, startLineno,  startCharno), multilineText,
+jsdocBuilder.append(multiline,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLine,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, EOF,
+jsdocBuilder.append(multilineText, builder,
+jsdocBuilder.markText(multilineText, startLineno,  startCharno, endCharno -
+ token = toString(multilineText,
+jsdocBuilder.markText(multilineText, -
+jsdocBuilder.append(multilineText, -
+ builder.append(' '); builder.append(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, builder.toString(token),
+ token = toString(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineNumber,
+jsdocBuilder.markText(multilineText, startLineno, endLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, line,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineno -
+jsdocBuilder.markText(multilineText, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, ' ',
+ token = toString(token); } else { token = toString(multilineText,
+jsdocBuilder.markText(multilineText, startLine, line,
+jsdocBuilder.markText(multilineText, builder.toString(), startLineno,
+ builder.substring(startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startLineCharno,
+ startLineno = startCharno ; } else { startLineno = endLineno ;
+ print(builder, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, token,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { jsdocBuilder.markEnd
+ builder.append(multilineText,
+ startLineno = startCharno ; } else { startLineno = endCharno ;
+ builder.append( line,
+jsdocBuilder.markText(multiilineText, builder,
+jsdocBuilder.markText(multilineText, stream, startLineno,
+jsdocBuilder.markText(multiilineText, startLineno,
+jsdocBuilder.format(multilineText,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, 0,
+ token = unmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(builder,
+ builder.contents(multilineText, startLineno, startCharno,
+ token = toString(token,
+jsdocBuilder.markText(multilineText, builder, startLineno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { jsdocBuilder.markText
+ startLineno = startCharno ; } else { startLineno = endLineno ; }
+jsdocBuilder.markText(multilineText, token, startLineno,
+ builder.replace(",
+jsdocBuilder.markText(multilineText, startLineno, startCharno, true,
+ builder.append(multiline,
+ builder.append(multiline, startCharno,
+ builder.append(startLineno, startCharno,
+ token = toString(token)); } else { token = toString(multilineText,
+jsdocBuilder.add(multilineText,
+ token = toString(multilineText, startCharno,
+jsdocBuilder.markText(multilineText, startLineno,  startCharno), multiilineText,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineno +
+ builder.appendRange(startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { jsdocBuilder.mark(
+ buffer.append(multilineText, startLineno, startCharno,
+ builder.replace(", startLineno, startCharno,
+ startLineno = startCharno ; } else { startLineno = 0 ; } if (ignoreStar) {
+ token = trimEnd(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, builder.toString( ),
+jsdocBuilder.markTextLine(multilineText,
+ startLineno = startCharno ; } else { startLineno = endLine ; }
+jsdocBuilder.markText(multilineText, startLineno,  startCharno, endCharno +
+jsdocBuilder.markText(multilineText,  builder.toString(), startCharno,
+ builder.append(multilineText, 0,
+jsdocBuilder.markText(multiline,
+jsdocBuilder.append(multilineText
+ builder.append(toString(startLineno, startCharno,
+ startLineno = startCharno ; } else { startLineno = 0 ;
+jsdocBuilder.markText(multilineText, stream.getCharno(),
+ startLineno = startCharno ; } else { startLineno = 0 ; }
+jsdocBuilder.markText(multilineText, builder, stream, startLineno,
+ token = toString(token); } else { token = toString(multiline,
+jsdocBuilder.markText(multileText,
+ token = toString(token); } else { token = toString(multilineText, -
+ startLineno = startLineno ; } else { startLineno = endLineno ;
+ buffer.append(multilineText, startCharno,
+ if (!ignoreStar) { ignoreStar = true; } else { ignoreStar = true; } builder.replace(
+ builder.splice(startLineno, startCharno,
+ token = trimEnd(multilineText, startCharno,
+jsdocBuilder().append(multiline,
+ builder.append(multilineText.startLineno, startCharno,
+ startLineno = startLineno ; } else { startLineno = endLineno ; }
+ token = toString(token); } else { token = toString(multiilineText,
+jsdocBuilder.markText(\"\n\", multilineText,
+jsdocBuilder().append(multilineText, -
+jsdocBuilder.write(multilineText,
+jsdocBuilder.markText(multiilineText, ignoreStar,
+ if (!ignoreStar) { ignoreStar = true; } else { ignoreStar = false; } builder.replace(
+jsdocBuilder.markText(multilineText, startLineno, startCharno
+ token = toString(token, startLineno, startCharno,
+ builder.append(line, startCharno,
+jsdocBuilder.markText(multilineText, endCharno,
+jsdocBuilder.markText(multilineText, stream.getLineNumber(),
+ builder.replace(", startCharno,
+ token = toString(multiline,
+ token = trimEnd(token,
+ builder.append("\n",multilineText, startLineno, startCharno,
+ builder.append(multilineText, 0, startLineno, startCharno,
+ builder.replace({, startCharno,
+jsdocBuilder.markTextEnd(
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false; } builder.replace(
+ token = toString(token); } else { token = toString(token); builder.replace(
+ print(builder,
+ builder.replace({, startLineno, startCharno,
+ builder.append(multiLineText, startLineno, startCharno,
+ builder.append(' '); builder.append(startLineno, startCharno,
+ token = toString(token); } else { token = toString({multilineText,
+ builder.splice(startCharno,
+ multilineText = stripBookmarkText(multilineText, startLineno, startCharno,
+ print(builder, startCharno,
+jsdocBuilder = new JSdocBuilder(multiline,
+ token = toString(token).substring(startCharno,
+jsdocBuilder.markTextEnd(multilineText,
+ builder.replaceRange(startLineno, startCharno,
+ token = toString(token); } else { token = toString(token, multilineText,
+jsdocBuilder.markText(multiilineText, startCharno,
+ builder.append(" "); builder.append(startLineno, startCharno,
+ token = toString(token); } else { token = toString(\"\"\"\"\"\"\"",
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { builder.markText(
+jsdocBuilder = new JSdocBuilder(builder,
+ token = toString(token); } else { token = toString(multicolon,
+ token = toString(token); } else { token = toString(token.toString(),
+ token = toString(token)); } else { token = toString(token); builder.replace(
+ startLineno = startCharno + 1 ; } else { startLineno =
+ builder.append(multilineText.startCharno,
+ token = toString(token, startLineno,
+jsdocBuilder.markText(multilineText, builder.toString(), ignoreStar,
+ multilineText = formatBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, builder, startLine, line,
+jsdocBuilder.markText(multiilineText, startLine, line,
+ builder.append(multilineText2, startLineno, startCharno,
+ token = trimEnd(multilineText,
+ if (!ignoreStar) { ignoreStar = true; } else { ignoreStar = true; } builder.set(
+jsdocBuilder.markText(multilineText, builder.toString(), endLineno,
+ token = toString(token); } else { token = toString(multiLineText,
+ buffer.append(multilineText,
+jsdocBuilder.markText(multilineText
+ token = toString(token); } else { token = toString(token, startLineno,
+jsdocBuilder.markText(multilineText, startLineno, startCharNo,
+ token = toString(token); } else { token = toString(\"\"\"\"\"\"",
+ builder.copy(startCharno,
+ builder.appendRange(multilineText, startLineno, startCharno,
+jsdocBuilder.append(multilineText, 0,
+ multilineText = replaceBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, 0,
+ token = trimEnd(multilineText2, startLineno, startCharno,
+ token = toString(startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { jsdocBuilder.markLine
+ token = toString(multilineText2, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, stream.getEndLine(),
+jsdocBuilder = new JSDocBuilder(multiline,
+jsdocBuilder.markText("multilineText",
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { builder.markEnd(
+jsdocBuilder.markText(multilineText, stream.getLine ( ),
+ startLineno = startCharno ; } else { startLineno = end ; }
+jsdocBuilder.append(multilineText, ' ',
+jsdocBuilder.append(multicolumn,
+ token = substring(token,
+ token = toString(multileText,
+ token = toString(token, endLineno, startLineno, startCharno,
+jsdocBuilder.append(multicolon,
+ token = toString(token); } else { token = toString(\"\"\"\"\"\"\"\",
+ token = toString(token)); } else { token = toString(multiline,
+ token = toString(token); } else { token = toString(multileText,
+ multiilineText =
+ startLineno = startCharno ; } else { startLineno = endCharno ; } } else {
+ token = toString(token); } else { token = toString(token,
+ builder.appendTo(multilineText, startLineno, startCharno,
+ print(multilineText, startLineno, startCharno,
+jsdocBuilder.append(multilineText, ignoreStar,
+jsdocBuilder.markText(\"\"\"\", multilineText,
+ startLineno = startLineno ; } else { startLineno = endLine ; }
+ builder.set(startCharno,
+jsdocBuilder.markText(multilineText, builder, stream.getLine ( ),
+ token = toString(token); } else { token = toString(\"\"\"\"\"\"\",
+ token = trimEnd(token); print(multilineText, startLineno, startCharno,
+ startLineno = endLineno ; builder.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { token = markEnd(
+ builder.append(multilineText2,
+ builder. append(' '); } else { builder. append(' '); } if (ignoreStar) {
+ builder.replace(,
+jsdocBuilder.append(multilineText, EOL,
+ token = toString(token); } else { token = toString(token) ; builder.append(
+ token = toString(multiline, startLineno, startCharno,
+ multilineText = trimBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.append(multilineText, true,
+ builder.replace(, startCharno,
+jsdocBuilder.markText(\"\"\", multilineText,
+jsdocBuilder.append(multiLineText,
+ token = trimEnd(token); } else { if (ignoreStar) {
+ builder.append(toString(token), startCharno,
+jsdocBuilder.markText(text, multilineText,
+ builder.copy(startLineno, startCharno,
+ builder.append(toString(token,
+jsdocBuilder.markText(multiilineText,
+jsdocBuilder.append(multilineText, " ",
+ builder.contents(startLineno, startCharno,
+jsdocBuilder.append(toString(multilineText),
+ builder.append(' '); } builder.append(multilineText, startLineno, startCharno,
+ token = toString(token).replace(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(line,
+jsdocBuilder.append(multilineText, false,
+ builder. append(" "); } else { builder. append(multilineText,
+ token = toString(multilineTextBlock, startLineno, startCharno,
+ startLineno = endLineno ;
+jsdocBuilder.append(multiilineText,
+jsdocBuilder = newJsDocBuilder(multiline,
+ builder.append("\n", startLineno, startCharno,
+ token = toString(token); } else { token = toString(token) ; token = new String(
+ builder.replace({,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, stream.getLineNumber(),
+ builder.replace(lines, startLineno, startCharno,
+ startLineno = startCharno ; } else { startLineno = 1 ;
+ builder.append("\n"); print(multilineText, startLineno, startCharno,
+ startLineno = startCharno ; } else { startLineno = null ;
+jsdocBuilder.markText(multilineText, beginLineno,
+ startLineno = endLineno ; stream.markText(multilineText, startLineno, startCharno,
+ token = trimEnd(multiline, startCharno,
+ builder.append(multilineTextBlock, startLineno, startCharno,
+ token = trimEnd(token, startCharno,
+ builder.append("\n"+multilineText, startLineno, startCharno,
+ multilineText = cleanBookmarkText(multilineText, startLineno, startCharno,
+ builder.append(multiLineText,
+jsdocBuilder.markText(multilineText,  builder.toString(), stream.getLine(),
+ startLineno = endCharno ; } else { startLineno = startCharno ; } if (ignoreStar) { return
+jsdocBuilder.markText(multilaText,
+ token = toString(token); } else { token = toString(eol,
+ buffer.append(multiline, startCharno,
+ builder.append(toString(multilineText, startLineno, startCharno,
+ builder. append ( ' '); } else { builder. append ( ' ' ) ; } if (mark) {
+ builder. append(' '); } else { builder. append(' '); } else { builder. append( ' '); }
+ builder. append(' '); } else { builder. append(' '); } else { builder. append("");
+ builder.set(startLineno, startCharno,
+ token = trimEnd(multilineText2, startCharno,
+ builder.append(lineNumber, startCharno,
+jsdocBuilder.markText(multiletext,
+ startLineno = startCharno ; } else { startLineno = endCharno }
+ startLineno = endCharno ; } else { startLineno = endCharno ; } if (ignoreStar) { return
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false ; } builder.substring(
+ token = toString(token); } else { token = toString(line,
+ token = toString(token, startCharno,
+ builder.append(multilineText1, startLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } if (startLine!= null) {
+ builder.append(multiilineText, startLineno, startCharno,
+ builder. append(" "); builder.append(multilineText, startLineno, startCharno,
+ builder.fill(startCharno,
+ startLineno = startCharno ; } else { startLineno = endLineno =
+ token = toString(token).replace(startLineno, startCharno,
+ startLineno = endCharno ; } else { startLineno = startCharno ; } if ( ignoreStar ) { #
+ builder.append(multicolumn, startLineno, startCharno,
+ builder.replace(lines, startCharno,
+ builder.append(lineNumber, startLineno, startCharno,
+ builder.append(multilineText2, startCharno,
+ var startCharno =
+jsdocBuilder.append(toString(token), line,
+ builder.append(' '); builder.replace(multilineText, startLineno, startCharno,
+ token = toString(token)); } else { token = toString(token,
+jsdocBuilder.markText(multilineText, startLineno, token,
+jsdocBuilder.add(multilineText, -
+ builder.replace(, startLineno, startCharno,
+ token = toString(multilineText2,
+ startLineno = endCharno ; } else { startLineno = endCharno ; } if ( ignoreStar ) { #
+jsdocBuilder.markText(multilineText, builder.toString(), endLineNumber,
+ builder. append(' '); } else { builder. append(' '); } else { final String line =
+ builder.substring(multilineText, startLineno, startCharno,
+ builder.append("*",multilineText, startLineno, startCharno,
+jsdocBuilder.replace(
+jsdocBuilder.markText(\"\n\", multiLineText,
+jsdocBuilder.append(multilineText2,
+ startLineeno = endLineeno ; builder.markText(multilineText, startLineno, startCharno,
+ multilineText = builder.markText(multilineText, startLineno, startCharno,
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false ; } builder.setText(
+ builder.append(multilineText1,
+jsdocBuilder.markText(multiilineText, -
+ builder.append(toString(startCharno,
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false ; } builder.splice(
+ builder.replaceLine,
+jsdocBuilder.format(builder,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, -
+ token = toString(token); print(multilineText, startLineno, startCharno,
+ builder.append('\n',multilineText, startLineno, startCharno,
+ multilineText = unmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText,  builder.toString(), startLine, line,
+ builder.append(", startLineno, startCharno,
+jsdocBuilder.markText(multilineText, true,
+ builder.appendLine(multilineText, startLineno, startCharno,
+ builder.append(endLine, startLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } else { builder = ' ' ;
+jsdocBuilder.append(multilineText, --
+ builder.append(multilineTextA,
+jsdocBuilder.format(multilineText, -
+ builder.append(multicolon, startLineno, startCharno,
+ builder.append(lineString, startLineno, startCharno,
+ token = toString(multilineTextstartLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } if ( ignoreStar ) { token =
+jsdocBuilder.setRange(
+ builder.replaceLine, startCharno,
+ token = toString(token).replace(startCharno,
+ builder.append(multiilineText, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, stream.getEndLine(),
+ token = toString(token); } else { token = toString(endToken,
+jsdocBuilder().append(line,
+ builder.append(toString(token), line,
+jsdocBuilder.markText(multilineText, ' ',
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' '); } else {
+ startLineno = startCharno ; } else { startLineno = endCharno =
+jsdocBuilder.markText(multilineText, false,
+jsdocBuilder.markText(\"\n\"\n\"",
+ token = toString(token); } else { token = toString(startLine,
+ builder.append( " ", startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { tokens.markEnd(
+ builder. append(' '); } else { builder. append(' '); } if (ignoreStar) { builder =
+ builder.replace(block, startCharno,
+ builder. append(' '); } else { builder. append(toString(token, line,
+ builder.append("*", startLineno, startCharno,
+ builder. append ( ' '); } else { builder. append ( ' ' ) ; } if (markText)
+ token = trimEnd(multilineText2,
+ token = toString(token); } else { token = new LineToken(
+jsdocBuilder.markText(multilineText,  builder.toString(), stream.getText(),
+jsdocBuilder.markText(token,
+jsdocBuilder.endLine(
+ if (!ignoreStar) { token = unmarkText(multilineText, startLineno, startCharno,
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false ; } token = new String(
+jsdocBuilder.markTextLine(multilineText, -
+ token = stripBookmarkText(multilineText, startLineno, startCharno,
+ builder.append(format(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, endCharno, -
+jsdocBuilder.markText(multilineText, startLineno, beginCharno,
+ token = toString(token); } else { token = toString(line, -
+ if (ignoreStar) { ignoreStar = true; } else { ignoreStar = false ; } builder.append(" ",
+jsdocBuilder.append(
+ builder.fill(startLineno, startCharno,
+ builder.append(endLine, startCharno,
+ token = toString(token); if (ignoreStar) { builder.append(
+ multilineText = TrimBookmarkText(multilineText, startLineno, startCharno,
+ builder.replace(text, startCharno,
+ token = trimEnd(token); format(multilineText, startLineno, startCharno,
+ builder.replaceLine, startLineno, startCharno,
+ token = toString(token); if (ignoreStar) { builder.replace(
+ builder. append(" '); } else { builder. append(" "); } else { final String line =
+jsdocBuilder.markText(\"\n\", multiline,
+jsdocBuilder.markText(multilineText, endCharno -
+ token = trimEnd(token); printLine(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, endCharno -
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' ' ; } } else {
+ builder. append(" '); builder.append(multilineText, startLineno, startCharno,
+ token = toString(token); printLine(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLine,
+jsdocBuilder.markText(multilineText, startLineno, startLine,
+jsdocBuilder.markText(multilineText, " ",
+ multilineText = Trimmer.markText(multilineText, startLineno, startCharno,
+ builder. append(' '); } else { builder. append ( ' ' ) ; } else { token =
+jsdocBuilder.setLine(
+ multilineText = Parser.markText(multilineText, startLineno, startCharno,
+ builder.append(multilineText1, startCharno,
+ builder.append( " ", startCharno,
+ multilineText = Utils.markText(multilineText, startLineno, startCharno,
+ builder.append(endLine,
+ builder.replaceRange(startCharno,
+jsdocBuilder.set(
+ print(startLineno, startCharno,
+ builder.delete(startCharno,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' '); } } else {
+ startLineno = startLineNumber + endLineNumber;
+ startLineeno = endLineno ; stream.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, 0, endCharno,
+ builder.append(Line.startLineno, startCharno,
+jsdocBuilder.append(multiLine,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append("";
+ builder.replace(block, startLineno, startCharno,
+ builder.replace(text, startLineno, startCharno,
+ token = trimEnd(token); } else { token = "*" ;
+jsdocBuilder.markText(multilineText, token, ignoreStar,
+ builder.append(multicolon,
+ token = new BenchmarkText(multilineText, startLineno, startCharno,
+ builder.append(multilineText, -startLineno, startCharno,
+ if (ignoreStar) { builder.unmarkText(multilineText, startLineno, startCharno,
+ builder.append(replace(multilineText, startLineno, startCharno,
+ token = trimEnd(multilineTexts, startCharno,
+ if (!ignoreStar) { builder.unmarkText(multilineText, startLineno, startCharno,
+ builder. append("\n"); printLine(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { builder.append(
+ if (ignoreStar) { token = unmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, 0, 0,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineno, startLineno,
+ builder.appendRange(startCharno,
+jsdocBuilder.markTextLine(
+jsdocBuilder.setText(
+ token = toString(token); else { token = toString(token,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(); }
+ startLineno = startCharno ; } else { startLineno = endCharno ; } else { #
+ builder.replace($,
+ builder.append("\n\",multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineno, ignoreStar,
+ builder.append(multilineText+ "+startLineno, startCharno,
+ builder.append(multileText,
+ builder.replace(), startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { builder.replace(
+ multilineText = Rewriter.markText(multilineText, startLineno, startCharno,
+ builder.appendBenchmarkText(multilineText, startLineno, startCharno,
+ token = substring(line,
+ builder. append(multilineText, -startCharno,
+jsdocBuilder.append(lineString,
+ builder.unmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.append(linebreak,
+ startLineno = endLineno ; } stream.markText(multilineText, startLineno, startCharno,
+ builder.append(' '); builder.appendRange(multilineText, startLineno, startCharno,
+ builder.append(multilineText + "startLineno, startCharno,
+ builder.append(" ");
+ token = buildBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, stream.getEol(),
+ builder.append(multicolumn,
+jsdocBuilder.markText(multilineText, builder, line,
+ token = toString(token); } else { token = new SourceToken(
+ builder. append(multilineText.substartCharno,
+ startLineno = startCharno ; } else { startLineno = endCharno ; } } else,
+ builder. append(' '); } else { builder. append(' '); }
+ multilineText = Rewrite.markText(multilineText, startLineno, startCharno,
+ break; } if (startLineno!= endCharno) { break;
+ token = toString(token); } else { token = new StringBuilder(
+ token = new LineToken(multilineText, startLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' '); } return
+ builder(line, startLineno, startCharno,
+jsdocBuilder.markText(multilineText2,
+ multilineText = Marker.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markTextLine(multiline,
+ builder.append(line.startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, endLine,
+ builder.append(multicolumn, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, stream.getChars(),
+ builder.append(line.startCharno,
+jsdocBuilder.markText(endLine,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' '); } }
+ builder.append(multicolon, startCharno,
+ builder.append(split(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(text, startLineno,
+ token = toString(token); else { token = toString(line,
+jsdocBuilder.markTextLine(multileText,
+ token = new LineToken(startCharno,
+ token = trimEnd(token); } else { token = "*"; }
+jsdocBuilder.append(text,
+ token = trimEnd(token); } else { token = '*'; }
+ builder.append(multiline(startLineno, startCharno,
+ builder.append("\n")(multilineText, startLineno, startCharno,
+ token = formatBookmarkText(multilineText, startLineno, startCharno,
+ builder.append(new LineRange(startLineno, startCharno,
+ builder.append("\n"); stream.markText(multilineText, startLineno, startCharno,
+ builder.set(line,
+ builder.append("\n")multilineText, startLineno, startCharno,
+ format(multilineText, startLineno, startCharno,
+ builder.append("\n",startCharno,
+ startLineno = endLineno + 1 ;markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, EOL,
+ builder.append(' ');
+ token = new ExtractionInfo(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(startLine,
+ break; } builder.replace(startLineno, startCharno,
+ builder.append(new String(startLineno, startCharno,
+ builder.replace(lines,
+ buildLine(startCharno,
+ builder.append(multilineTextstartLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' ' ; } #
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' ' ; } }
+jsdocBuilder.add(line,
+ builder.append("\\n",multilineText, startLineno, startCharno,
+jsdocBuilder.markTextRange(
+jsdocBuilder.markText(multilineText, startLineno, " ",
+ token = toString(multicolor, startLineno, startCharno,
+ builder.append(new LineRange(startCharno,
+jsdocBuilder.delete(
+jsdocBuilder.markText(multilineText, +
+ builder.append(multiline(startCharno,
+jsdocBuilder.append(sourceText,
+ builder.append("\n"+startLineno, startCharno,
+ token = toString(token, _startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, endLineNum,
+jsdocBuilderEnd(
+jsdocBuilder.markText(multilineText, startLineno, startCharno) +
+ if (!ignoreStar) { token = bookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.setLocation(
+ builder. append(' '); } else { final String line =
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' ' ; } } else
+ builder.append("\n"+startCharno,
+ builder.fillRegion(startCharno,
+ builder.append("\n") +
+ final String line =
+jsdocBuilder.markText(multilineText, startLineno, startCharno); } else { builder.set(
+ token = toString(token, -startCharno,
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' '); } } else
+ break; } builder.replace(startCharno,
+ builder.appendToString(multilineText, startLineno, startCharno,
+ buildLine(startLineno, startCharno,
+ startLineno = startCharno ; } else { startLine =
+ builder.append("\n"); builder.markText(multilineText, startLineno, startCharno,
+ builder.appendReplacement(multilineText, startLineno, startCharno,
+ startLineno = startCharno + 1 ; } else {
+jsdocBuilder.markTextLine(line,
+ builder.append(" * "+multilineText, startLineno, startCharno,
+ builder.append(new Line(startCharno,
+ builder.append(block.startLineno, startCharno,
+ multileText =
+jsdocBuilder.markText(buffer,
+ builder.append("\n*",startLineno, startCharno,
+ var startChanno =
+ builder(line,
+ builder.append("\n"); } else {
+ builder.contains(multilineText, startLineno, startCharno,
+ builder.append(block.startCharno,
+ startLineno = startCharno - 1 ; } else {
+ builder. append(' '); } else { builder. append(' '); } else { builder. append(' ' ; } } else,
+jsdocBuilderLine(
+ buffer.append(line,startCharno,
+ startLineno = startLineNumber ; } else { token =
+ builder(line, startCharno,
+ builder.append(' '); } else { token =
+ startLineno = endLineno ; } builder.markText(multilineText, startLineno, startCharno,
+ multilineText = bookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startCharno, stream.getEOL(),
+ printLine(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, startChanno, -
+ builder.append(' '); } else { builder =
+jsdocBuilder.markText(multilineText, endLineNumber,
+ split(builder, startCharno,
+ builder.appendSubstring(multilineText, startLineno, startCharno,
+ startLineno = endLineno =
+jsdocBuilder.append(\" \",
+ startLineno = startCharno + endCharno; }
+ multineText =
+ printLine(startLineno, startCharno,
+ multilineText = Parsing.markText(multilineText, startLineno, startCharno,
+ formatText(multilineText, startLineno, startCharno,
+ builder.append(" " +
+ multilineText = Markdown.markText(multilineText, startLineno, startCharno,
+ token =
+ token = new SyntaxToken(multilineText, startLineno, startCharno,
+jsdocBuilder.setEndLine(
+ multilineText = writer.markText(multilineText, startLineno, startCharno,
+ builder.printf(multilineText, startLineno, startCharno,
+ startLineno = endLineno +
+jsdocBuilder.line(
+ builder.appendSubString(multilineText, startLineno, startCharno,
+ builder. append(' '); } else { builder. append(' '); } +
+ multilineText = Markup.markText(multilineText, startLineno, startCharno,
+ startLineno = startLineNumber + endLineNumber();
+ builder.append(' '); } stream.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(endToken,
+ break; } if (startLineno!= endCharno) { break();
+jsdocBuilder.markTextLine(builder,
+jsdocBuilder.markText(stream,
+ token = bookmarkText(multilineText, startLineno, startCharno,
+ startLineno = endLineno ; } writer.markText(multilineText, startLineno, startCharno,
+ multilineText = _markText(multilineText, startLineno, startCharno,
+ startLineno = startCharno + endLineno; }
+ startLineno = endLineno ; } reader.markText(multilineText, startLineno, startCharno,
+ token = _markText(multilineText, startLineno, startCharno,
+ setRange(startCharno,
+ startLineno = startLineNumber + endLineNumber; }
+jsdocBuilder.markText(multilineText, startLineno, builder,
+ buildText(startCharno,
+ builder.append("\n"); writer.markText(multilineText, startLineno, startCharno,
+ multilineText = stream.markText(multilineText, startLineno, startCharno,
+ formatLine(multilineText, startLineno, startCharno,
+ builder.append(\"multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno, 1,
+ token = toString(Token).replace(multilineText, startLineno, startCharno,
+ builder.append(' '); } builder.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, token,
+ multilineText = reader.markText(multilineText, startLineno, startCharno,
+ final String markText =
+ format(startLineno, startCharno,
+ startLineno = startCharno + endCharno ; #
+ token = new ExtractionToken(multilineText, startLineno, startCharno,
+ format(builder, startCharno,
+ append(builder,
+ break; } builder.markText(multilineText, startLineno, startCharno,
+ builder.setstartCharno,
+ multilineText = parser.markText(multilineText, startLineno, startCharno,
+ builder.format(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(\"\n\",
+ multiline =
+ builder.append("").markText(multilineText, startLineno, startCharno,
+ appendLine(multilineText, startLineno, startCharno,
+ printBlock(multilineText, startLineno, startCharno,
+ startLineno = startCharno ; } else { startLine +=
+ token = toString(Token.create(multilineText, startLineno, startCharno,
+ startLineno = startLineNumber + endLineNumber +
+ print(buffer, startCharno,
+ print(", startLineno, startCharno,
+ split(builder,
+ split(builder, startLineno, startCharno,
+ builder.setstartLineno, startCharno,
+ multilineText = millmarkText(multilineText, startLineno, startCharno,
+ token = toString(Token.parse(multilineText, startLineno, startCharno,
+ builder.append("");markText(multilineText, startLineno, startCharno,
+ splitLine(startCharno,
+ builder. append(' '); } else { builder +=
+jsdocBuilder.markText(multilineText, 0,
+ startLineno = startCharno + endLineno ; #
+ builder.append(' '); }
+ builder(buffer, startLineno, startCharno,
+ builder.append(""); print(multilineText, startLineno, startCharno,
+ print(buffer,
+ if (ignoreStar) { return
+ trim(startCharno,
+ buildText(startLineno, startCharno,
+ if (!ignoreStar) { return
+ print(buffer, startLineno, startCharno,
+ token = new ParsedBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(text, ignoreStar,
+ print(startCharno,
+jsdocBuilder.markText(lineBuilder,
+jsdocBuilderStart(
+ builder.copy(multilineText, startLineno, startCharno,
+ startLineno = startLineNumber + endLineNumber; return
+ token = BenchmarkText(multilineText, startLineno, startCharno,
+ builder.append("*"); }
+ translate(startCharno,
+ token = toStringWithWhiteSpace(multilineText, startLineno, startCharno,
+ token = new ParsedLineToken(multilineText, startLineno, startCharno,
+ builder.append("\n"); } else
+ token = trimEnd(token); } else
+ token = toStringWithSpaces(multilineText, startLineno, startCharno,
+ printLine, startLineno, startCharno,
+ builder.append("\n"); } return
+ final String markedText =
+ final String line = builder.markText(multilineText, startLineno, startCharno,
+ trimEnd(multilineText, startLineno, startCharno,
+ startLineno = startLineNumber - 1; } else
+ token = trimEnd(token); } return
+ token = new LineBookmarkText(multilineText, startLineno, startCharno,
+ format(startCharno,
+ builder.append("")markText(multilineText, startLineno, startCharno,
+ token = ParserHelper.markText(multilineText, startLineno, startCharno,
+ token = new ParsedTextBlock(multilineText, startLineno, startCharno,
+ multilineText +=
+ token = new ParsingTokenImpl(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(\"\",
+ token = Parser.markText(multilineText, startLineno, startCharno,
+ log(multilineText, startLineno, startCharno,
+ builder.append(' '); } else { #
+ print(", startCharno,
+ token = TokenUtils.markText(multilineText, startLineno, startCharno,
+ builder.append("\n"); } else,
+ builder += (startLineno, startCharno,
+ split(startCharno,
+jsdocBuilder.markText(multilineText, startLineno, -
+ append(multilineText, startLineno, startCharno,
+ final String line = stream.markText(multilineText, startLineno, startCharno,
+ final String line = writer.markText(multilineText, startLineno, startCharno,
+ split(multilineText, startLineno, startCharno,
+ print(, startLineno, startCharno,
+jsdocBuilderBlock(
+ translate(startLineno, startCharno,
+ print(",
+ token = builder.markText(multilineText, startLineno, startCharno,
+jsdocBuilderString(
+ extend(startLineno, startCharno,
+ printLine, startCharno,
+jsdocBuilder.markTextBlock(
+jsdocBuilder.markTextBetween(
+ builder = builder.markText(multilineText, startLineno, startCharno,
+ (builder,
+ printLine,
+ indent(startLineno, startCharno,
+ token = Marker.markText(multilineText, startLineno, startCharno,
+ print(, startCharno,
+ print(', startLineno, startCharno,
+ line = builder.markText(multilineText, startLineno, startCharno,
+ indentationUtils.markText(multilineText, startLineno, startCharno,
+ line = stream.markText(multilineText, startLineno, startCharno,
+ token = Parsing.markText(multilineText, startLineno, startCharno,
+ print line,
+ (builder, startCharno,
+ builder += builder.markText(multilineText, startLineno, startCharno,
+ print(,
+ printText, startLineno, startCharno,
+ builder().markText(multilineText, startLineno, startCharno,
+ final token =
+ token = Tokenizer.markText(multilineText, startLineno, startCharno,
+ buffer.markText(multilineText, startLineno, startCharno,
+ buildBookmarkText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, --
+jsdocBuilder.markText(multilineText, startLineno, +
+ textBlock =
+ token =markText(multilineText, startLineno, startCharno,
+ line +=
+ indentation.markText(multilineText, startLineno, startCharno,
+ line += "+
+ line =
+jsdocBuilder.markText(multilineText, startLineno, --
+ line += "
+ commentBuilder.markText(multilineText, startLineno, startCharno,
+ token +=
+jsdocBuilder.markText(multilineText, startLineno) +
+ builder =
+jsdocBuilder.markText(multilineText, startLineno, startCharno, +
+jsdocBuilder.markText(multilineText, startLineno, startCharno),
+ builder +=
+jsdocBuilder.markText(multilineText, startLineno, startCharno)',
+ mapper.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText, startLineno+1
+ commentWriter.markText(multilineText, startLineno, startCharno,
+ mb.markText(multilineText, startLineno, startCharno,
+jsdocBuilder.markText(multilineText2(),
+ return
+ new

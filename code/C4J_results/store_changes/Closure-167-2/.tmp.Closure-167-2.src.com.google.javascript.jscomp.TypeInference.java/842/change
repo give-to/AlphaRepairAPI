@@ -1,0 +1,643 @@
+ if (node.isGetProp()) {
+if (node.isGetProp())  { scope =
+if (node!= null) {
+ if (isGetProp()) {
+ if node.isGetProp()) {
+if (node.isGetProp() || node.isSetProp()) {
+if (node.isGetProp() && narrowed!= null) {
+ if (node.isQualifiedName()) {
+if (node) {
+ if (node.isQualified()) {
+ if (node.isQualifiedName)) {
+ if (node.isQualifiedName) {
+if (node.isQualifiedName()) { scope =
+if (node.isGetProp() && node.isSetProp()) {
+if (node.isGetProp() || node.isSetProp() || narrowed!= null) {
+if (node.isGetProp() &&! narrowed) {
+if (node.isGetProp() || node.isSetProp) {
+if (node.isGetProp() && node.isSetProp() && narrowed!= null) {
+ if (node.isName()) {
+if (node.isGetProp() || node.isSetProp() || narrowed) {
+ if (node.isQualified) {
+ if narrowed) {
+ if (node!= null)) {
+ if (node.isQualified)) {
+if (node.isGetProp() && node.isSetProp() &&! narrowed) {
+ if (node.isQualifiedName!= null) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed); }
+if (node.isGetProp() || node.isSetProp() ||! narrowed) {
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName()); } else
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName()); } else
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName()); }
+ if (()) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed); } else
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed );
+if (node.isGetProp() || node.isSetProp()) { scope =
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed); } } else
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getName(), narrowed); }
+if  narrowed {
+ if (node.getQualifiedName()) {
+ if (node.isName)) {
+ if (node.isQualifiedName())) {
+ if (node.isThis()) { scope.inferQualifiedSlot( node, node.getQualifiedName(), narrowed); } else
+ if (node.getQualifiedName!= null) {
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else
+ if (node.isSlot()) {
+if (node.isGetProp() && node.getQualifiedName!= null) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getName(), narrowed); } else
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } } else
+if (node.isGetProp())  { scope = (Scope)
+ if (node.isSetProp || node.isGetProp()) {
+ } else{
+ if (.isGetProp()) {
+if (node.isGetProp() && node.isSetProp()) { scope =
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed); }
+ if (node.isSetProp() || node.isGetProp()) {
+ if (node.isSetProp()) { return scope; }
+if (node.isGetProp() || node.isSetProp() && narrowed!= null) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed); } else {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getName()); } else
+ if (node.isQualifiedNameAvailable()){
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else {
+ if (node.getQualifiedName!= null)) {
+if (node instanceof QualifiedName) { scope =
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getProp()); } else
+if (node.isGetProp())) { scope =
+if (node.isQualifiedName()) { return
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, node.getProp()); } else
+ if (node.isSetProp()) { scope.inferModifiedSlot( node, node.getModifiedName()); }
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getName(), narrowed );
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node, narrowed); } else
+if (node.isGetProp(true)) { scope =
+if (node.isGetProp())  { scope = scope.createChildFlowScope();
+if (node.isGetProp() || node.isSetProp(), narrowed!= null) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, node.getProp(), narrowed); }
+ if (node.named()) {
+if (node.isGetProp() || node.isPutProp()) {
+if (node.isGetProp() && node.isSetProp()!= null) {
+if (node.isGetProp() || node.isPutProp() || narrowed!= null) {
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } else { }
+ if (node.getQualifiedName())) {
+if (node.isGetProp() || narrowed!= null) {
+ if (node.isSetProp()) { scope.inferModifiedSlot( node, narrowed); } else
+if (node.isGetProp() || node.isSetProp(...)) {
+if (node.isGetProp() || node.isPutProp() || narrowed) {
+ if (node.isSetProp()) { scope.inferProp(node); }
+ if (node.isPutProp()) { scope.inferSlot( node); }
+if (node.isGetProp() || node.isSetProp() || narrowed == null) {
+ if (node.isSimpleVar()) {
+ if (node instanceof Name) {
+if (node.isGetProp())  { scope = (FlowScope)
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed); } else { }
+if  (node!= null) { scope =
+ if (node.isQualifiedNameAvailable) {
+ if (node.isQualifiedName(true)) {
+ if (node.isSetProp()) { scope.inferSlot( node); }
+ if (node.isGetProp()) { scope.inferQualifiedSlot( node, narrowed); } } else {
+ if (node.isSetProp()) { scope.setProp(node); }
+if (node.isGetProp())  { scope.childFlowScope =
+ if (node.isProp()) { scope.inferProp(node); } else
+ if (node.isQualifiedNameRequired()){
+ if (node.hasQualifiedName()) {
+if (node.isGetProp())  { scope = scope.createChildScope();
+ if (node.isThis()) { scope.inferThisSlot( node, narrowed); } else
+if (node.isGetProp())  { scope.inferProp(node); }
+if  (named) {
+if (node.isGetProp() && node.isPutProp() && narrowed!= null) {
+ if (node.isSetProp()) { scope.inferSetProp(node); }
+if (node.isQualifiedName()) { scope.scope =
+if (node.isGetProp())  { scope = scope.createPropertyScope();
+ if (node.isSetProp()) { scope.inferSetProp( node, narrowed); }
+ if (node.isSetProp()) { return scope; } else
+ if (node.isQName()) {
+if (node.isGetProp() && node.isSetProp(), narrowed!= null) {
+if (node.isGetProp())  { scope = scope. createChildScope(); }
+ if (node.isThis()) { scope.inferThisSlot( node, narrowed); }
+if (node.isGetProp() || node.isSetProp() &&! narrowed) {
+ if (node.isSetProp()) { scope.inferQualifiedSlot( node, narrowed );
+ if (node.isQualifiedNamePresent()) {
+if (node.isGetProp(node)) { scope =
+ if (node.isSetProp()) { scope.set (node); }
+if (node.isGetProp() && node.isSetProp) {
+ if (node.isSetProp()) || node.isGetProp()) {
+if (node.isGetProp())  { scope.createChildFlowScope();
+ if (node.getQualifiedName) {
+ if (! node.isGetProp()) {
+ if (node.hasQualifiedName)) {
+ if (node.isSetProp()) { scope = node; }
+if  (node instanceof QualifiedName) {
+ if (node.getQualifiedName)) {
+ if (isSetProp() && node.isGetProp()) {
+ if (node.isThis()) { scope.inferThisSlot( node, narrowed );
+ if (node.isVariable()) {
+ if (node.isPutProp()) { return scope; }
+ if (node.isSetProp()) { scope.inferSetProp( node, narrowed); } else
+ if (node instanceof SimpleVar) {
+ if (node.isSetProp()) { scope.inferModifiedSlot( node, narrowed );
+ if (node.isSetProp()) { scope.inferSlot( node, narrowed); }
+if (node.hasQualifiedName()) { scope =
+ if (node.name()) {
+ if (node.isSetProp()) { scope.inferSetProp(node, narrowed);
+ } else if (node.isGetProp()) {
+ if (node.isSetProp()) { scope = narrowed; }
+ if (node.isSetProp()) { scope.setProp(); } else
+if (node.isGetProp())  { scope = scope.createNewScope();
+if (node.isQualifiedName()) { scope.slot =
+ if (isSetProp && node.isGetProp()) {
+ if (node.isThis)) {
+if (node.isGetProp() && node.isSetProp(...)) {
+ if (node.isPutProp()) { scope.inferPutSlot( node); }
+ if (node instanceof NameNode) {
+if (node.isQualifiedName())) { scope =
+ if (node.isSetProp()) { scope.setProperty(node); }
+ if (node.getQualifiedName!= null()) {
+if (node.isGetProp(scope)) { scope = (Scope)
+ if (node.isSetProp() && node.isGetProp()) {
+ if (node!= null &&! node.isGetProp()) {
+ if (node.isSetProp()) { scope.inferNewSlot( node, narrowed );
+ if (node.isSlot)) {
+if (node.isGetProp() && node.isPutProp() &&! narrowed) {
+if (node.isGetProp() && node.isPutProp()) {
+ if (node.isFunction()) {
+ if (node.isProp || node.isGetProp()) {
+ if (node.isSetProp()) {
+if (node.isGetProp(node)) { scope = (Scope)
+if  (node instanceof SimpleVariableReference) {
+ if (isThis()) {
+if (node.isGetProp())  { scope = scope.createParentScope(); }
+ if (node.isSetProp()) { return ; }
+if (node instanceof QualifiedSlot) { scope =
+ if (node.isSetProp()) { } else
+if (node.isGetProp() && node.isSetProp() == true) {
+ if (node.isSetProp|node.isGetProp()) {
+ if (node.isSetProp() &&!node.isGetProp()) {
+ if (node.isSetProp()) { scope = scope; }
+ if (node.isSetProp()) { scope.setProp(); }
+if  (node instanceof QualifiedName) { return
+ if (node.isVariable)) {
+if (node.isGetProp() && node.isSetProp() && narrowed) {
+ if (node instanceof Slot) {
+ if (node.isQualifiedSlot()) {
+ if (node.hasQualifiedName) {
+if (node.isGetProp(scope)) { scope = (FlowScope)
+if (node.isGetProp())  { scope.scope =
+ if (node.isPutProp || node.isGetProp()) {
+ if (node.isSetProp()) { scope = undefined; }
+if (node.isQualifiedName(node)) { scope =
+if (node.isGetProp())  { scope = scope.createVariableScope();
+ if (isSetProp || node.isGetProp()) {
+ if (isName()) {
+ if (node.isSetProp()) { scope.setProp(node);
+ if (node && node.isGetProp()) {
+ if (node.isPutProp() || node.isGetProp()) {
+if (node.isGetProp() && node.isSetProp() == false) {
+ if (node.isQualifiedNameNode()) {
+ if (node.isQualifiedNameVariable()) {
+if (node.isGetProp() || node.isProperty) {
+ if (node.hasQualifiedName!= null) {
+ if (node.isQualifiedNameInferred()) {
+ if (node.isSetProp()) { scope.setThis(); }
+if (node.isGetProp() || node.isProp) {
+ if (node.isSetProp()) { scope.setThis(node); }
+ if (node.getQualifiedNameAvailable()) {
+ scope = scope.createParentFlowScope(); if(node.isGetProp()) {
+ if (node!= null && node.isGetProp()) {
+ if (node.isSetProp()) { }
+ if (node.isFunction)) {
+ if (node.isQualifiedName(scope)) {
+if (node.isGetProp() || node.isPutProp) {
+ if (node.isSetProp && node.isGetProp()) {
+ if (isSetProp() || node.isGetProp()) {
+ if (node &&! node.isGetProp()) {
+if  (node instanceof QualifiedSlot) { return
+if (node.isGetProp() && node.isGetVar()) {
+ if (named()) {
+if (node.isGetProp() || node.isPutProp() ||! narrowed) {
+if (node.isGetProp(true)) {
+if (node.isGetProp(node)) { scope = scope.createScope();
+if (node!= null)
+ if (node.isThis()) {
+ if (node.isSetProp()) { scope.resetScope(); }
+ if (node.isSetProp()|node.isGetProp()) {
+if (node.isGetProp() || node.isSetProp()*) {
+if (node.isGetProp() || node.isSetProp() || narrowed!= node) {
+if (node.isQualifiedName()) { return scope =
+ if (node.isSimpleVar) {
+ if (node!= null && node && node.isGetProp()) {
+ if (node.isSetProp()) { scope.setProperty(node);
+if (node.isGetProp() && node.isSetProp()) { if (qualified) {
+ if (node!= null) {
+ if (node.isSetProp()) return scope;
+if (node!= null) { scope = (FlowScope)
+if (node instanceof SimpleVariable) { scope =
+if (node.isGetProp(scope)) { scope = scope.getScope();
+if (node.isGetProp() && node.isSetProp() && narrowed == null) {
+ if (node.isSetProp()) { scope.pushNode(); }
+ if (node.isSetProp()) { scope.setProp( narrowed); }
+if (node.slot)
+if (node.isGetProp() && node.isSetProp()) { if (linked) {
+if (node.isGetProp(scope)) { scope = scope.createScope();
+ if (node instanceof Module) {
+ if (node.isSetProp()) { return scope }
+if (node.isGetProp() || node.isSetProp( narrowed )) {
+ if (node.isProp()) { return scope; } else
+ if (node.isProp()) { scope.inferProp( node );
+ if (node.hasQualifiedName(true)) {
+if (node.isQualifiedName()) { scope = scope &&
+ if (node.isSimple()) {
+if (node.isGetProp(node)) { scope = (FlowScope)
+if (node.isGetProp())  { scope.inferProp(node);
+if (node.isGetProp(true)) { scope = (Scope)
+if (node.isGetProp(scope)) { scope =
+ if (node.isSetProp()) { scope.inferProp(node);
+ if (node.isQualifiedNameInScope()) {
+ if (node.isSetProp()) { break; } else
+if (node.isGetProp() && node.isGetProp()) {
+ if (node.isQName) {
+if (node.isGetProp(node))) { scope =
+if (node.isGetProp() || node.isSetProp(true))) {
+if (node.isGetProp())  { scope.parentFlowScope =
+if (node.isGetProp()) { scope = scope.getScope();
+ if (node.isSetProp()) { continue; }
+if (node.isGetProp(scope)) { scope = scope.scope =
+ if (isQualifiedSlot(node), narrowed) {
+ if (node.slot()) {
+ } if (node.isGetProp()) {
+ if (node == null ||! node.isGetProp()) {
+ if (isSetProp(node), node.isGetProp()) {
+ if (node.isPutProp()) || node.isGetProp()) {
+ if (node.isProp() || node.isGetProp()) {
+if (node.isName()) { scope =
+if (node.isQualifiedName()) { scope = scope =
+if (node.isGetProp(node)) { scope = scope.scope =
+ scope = scope.createChildScope(); if (node.isGetProp()) {
+if (node.isGetProp(scope)) { scope = scope.scope();
+ if (node.isVar || node.isGetProp()) {
+ if (node.isSimpleVariable)) {
+ if narrowed)){
+if (node.isGetProp(node)) { scope = scope.clone(); }
+if (node.isGetProp(node.getProp)) {
+ if (node.hasQualified()) {
+ if (node.isPutProp()) { } else
+ if (node.qualified()) {
+ if (node.getQualifiedName().length()) {
+ scope = scope; if(node.isGetProp()) {
+ scope = scope.createParentScope(); if (node.isGetProp()) {
+ if (node.hasQualifiedNameInScope()) {
+ if (named)) {
+ if (node.isSimpleVar)) {
+if (node.isGetProp())  { scope.prop =
+if (node.isQName()) { scope =
+ if (node.isSetProp() ||!node.isGetProp()) {
+ if (node.isName())) {
+if (node.isGetProp())  { scope.inferProperty( node ); }
+if (node.isGetProp() || node.isProp()) {
+ if (node instanceof Var) {
+if (node.isGetProp() || node.isPutProp(...)) {
+if (node.isGetProp() && node.isThis) {
+ if (qualified) {
+ if (node.isSetProp()) { if(node.isGetProp()) {
+if (node.isFunction() ) { scope =
+if (node.isGetProp() && node.getQualifiedName) {
+ if (name!= null){
+if (node.isGetProp())  { scope = scope.createScope();
+if (node.isGetProp() || node.isSetProp()) { return
+if (node.isGetProp() || node.isVar()) {
+ scope = scope.scope; if(node.isGetProp()) {
+ if (isGetProp && narrowed.isGetProp()) {
+if (node.isGetProp() || node.isSetProp(?)) {
+ if (node.isSetProp()) { scope.setThis; }
+if (node.isGetProp())  { scope = scope.scope =
+ if (isSlot()) {
+ if (isQualified) {
+ if (node instanceof SimpleVar) { return
+ if (node!= null) if(node.isGetProp()) {
+ if (node.isPutProp()) return scope;
+ if (node.isName) {
+if (node.isGetProp() || node.isSetProp() || isThis) {
+ if (node.isSetProp()) || (node.isGetProp()) {
+ if (isQualified()) {
+ if (node!= null) { if(node.isGetProp()) {
+if (node.isGetProp() ||! narrowed) {
+ if (isSetProp(node) &&!isGetProp()) {
+ if (isSetProp &&! node.isGetProp()) {
+ if (isGetProp && node.isGetProp()) {
+ scope.createParentFlowScope(); if (node.isGetProp()) {
+ if (isQualified)){
+ if (node instanceof SimpleVariable) { return
+ if (node.isQualifiedSlot) {
+if (node.isGetProp() && node.isProp()) {
+if (node.isGetProp(node)) { scope.scope =
+ scope = scope; } if(node.isGetProp()) {
+ var node = scope.createChildNode(node);
+if (node.isGetProp() || node.isIsSetProp()) {
+ if (node.isQualifiedName (...)) {
+if (node.isGetProp) { scope = scope.createChildScope();
+if (node.isGetProp() || node.isSetProp(true)) {
+ if (scope!= null){
+if (node.isGetProp() || node.isVar) {
+ if (qualified()) {
+ var node = node. parent ( ) ;
+if (node.isGetProp() && node.isSetProp()*) {
+ if (scope!= null) {
+if  (singleton) {
+if (node.isGetProp() || narrowed) { scope =
+if (node.isGetProp())  { scope = scope.scope();
+ if (node instanceof Variable) {
+ if (node.isPutProp()) { }
+if (node.isGetProp) { scope = scope.createPropertyScope();
+if (node.isGetProp) { scope = scope.createNewScope();
+if (node.isGetProp() && node.isVar()) {
+ if (node!= null) { return
+ if (node.isProperty || node.isGetProp()) {
+ scope = scope.createParentFlowScope();
+if (node.isGetProp())  { scope = scope &&
+if (node.isGetProp() && node.isGetVar) {
+ if (node.isSetProp() { }
+ if (node instanceof Node) {
+if  (explicit) {
+ if (node.type.isGetProp()) {
+ if (node instanceof Name) { return
+if (node.isGetProp() && node.isSetProp()) { return
+ if ( node instanceof SimpleVar ) { scope = scope.
+if (node.isGetProp() && node.isThis()) {
+if (node.isGetProp) { scope = scope.createVariableScope();
+if (node.isGetProp) { scope =
+ if (isPutProp && node.isGetProp()) {
+ if (node == null || node.isGetProp()) {
+ scope = scope.createFlowScope(); if(node.isGetProp()) {
+ if (node instanceof Call) {
+if (node.isGetProp() && node.isName) {
+ scope = narrowed ;
+ if ( node instanceof SimpleVariable ) { scope = scope.
+if (node.isGetProp())  { scope.getProp =
+if (node.isGetProparedName()) { scope =
+if (node.isGetProp())  { scope.createChildFlowScope =
+if (node.isGetProp(true)) { scope.scope =
+ scope = scope.scope(); if(node.isGetProp()) {
+if (node.isGetProp() ) { scope = scope.scope;
+ if (qualified)) {
+if (node!= null) { scope = scope.scope =
+if (node.isGetProp(this)) { scope =
+if (node.isGetProposedName()) { scope =
+if (node.isGetPropDeclaration()) { scope = (Scope)
+if (node.isGetProparedName()) { scope = (Scope)
+if (node.isGetProp() || narrowed == null) {
+if (node.isGetPropDeclaration() ) { scope =
+if (node.isGetProp())  { scope.getProp();
+ if (node.isPutProp|node.isGetProp()) {
+if (node.isGetProp() || node.isThis) {
+if (node.isGetProp())  { scope = scope.
+ if (node.isSimpleVariable) {
+ if ( node instanceof SimpleVar ) { scope. scope =
+ scope = scope.createScope(); if(node.isGetProp()) {
+if (node.isGetProp())  { scope = scope.parent; }
+if  ( narrowed ) {
+ if ( narrowed!= null) {
+ if ( node instanceof SimpleVariable ) { scope. scope =
+if (node.isGetProp() && node.isSetProp()) if (linked) {
+if (node.isGetProp() && node.isPutProp(...)) {
+ if (node.isSetProp()) ||!(node.isGetProp()) {
+if (node.isGetProp(node.getName)) {
+if (node.isQualifiedName()) { var scope =
+if (node.isGetProp())) { scope.scope =
+if (node.isGetProp) { scope.createChildFlowScope();
+ if (linked){
+if (node.isGetProp() || node.isGetVar()) {
+ if (node instanceof Node) {
+ if (isName)){
+ if (node.isSetProp()) if(node.isGetProp()) {
+ if (true == node.isGetProp()) {
+if  (! narrowed) {
+ if (true!== node.isGetProp()) {
+ var node = node. parent ;
+if (node.isGetProp() && node.isSetProp(?)) {
+if (node.isGetProp() || node.isGetProp()) {
+ if (isPutProp || node.isGetProp()) {
+ if (isFunction()) {
+ return scope; }
+ if (node.isPutProp()) { if(node.isGetProp()) {
+if (node.isGetProp) { scope = scope.getScope();
+ if (node instanceof Name) {
+ var node = node.getParentNode();
+if (node.isGetPropDeclaration())) { scope =
+if (node.isGetProp() || node.isGet) {
+if (node.isQualifiedName())) { return
+if (node!= null) { scope = scope.scope();
+if (node.isGetProp())  { return scope =
+ if (node.isProp|node.isGetProp()) {
+ scope.createParentFlowScope(); } if(node.isGetProp()) {
+ if (node.isProp&&node.isGetProp()) {
+if (node.isGetProp() && node.isSetProp()) if (qualified) {
+if (node.isGetProp() || node.isSetProp())) { return
+if (node.isCall()) {
+ if (node.isSetProp()).then(node.isGetProp()) {
+ if (isVariable()) {
+ if (node.isSetProp|(node.isGetProp()) {
+if (node.isGetProp())  { scope = scope =
+if (node.isGetProp() && narrowed == null) {
+if (node.isGetProp() || node.isGetProp) {
+ if (node.kind.isGetProp()) {
+if (node.isGetProp(scope)) { scope.getProp =
+if (node.isGetProp() { scope =
+if (node.isGetProparedName()) { scope.scope =
+ if (node.isSetProp&&(node.isGetProp()) {
+ if (name!= null)) {
+if (node.isGetProp() && node.isSetProp(true) {
+if (node.isGetProp(scope)) { scope.scope =
+ if (isThis)){
+if (node)) {
+ if (scope!= null)) {
+if (node.isGetProp(true)) { return
+ if (linked)) {
+if (node.isGetProp() || node.isSetprop()) {
+if (node.isGetProp(node)) { scope = scope &&
+ scope = scope.clone(); if(node.isGetProp()) {
+ if (not node.isGetProp()) {
+ if (singleton)) {
+if (node.hasQualifiedName()) { return
+ scope = scope. scope ;
+if (node.isGetProp())  { scope.propScope =
+ if (node!= scope) {
+if  (named)
+ if (isProp && node.isGetProp()) {
+if (node.isGetProp(node)) { scope.getScope =
+if (node.isGetProp() && node.isVariable) {
+if (node.isGetPropDeclaration()) { scope = scope.scope =
+ if (node.getParent().isGetProp()) {
+if (node.isGetProp(...)) {
+if (node.isGetProp() && node.isVar) {
+if (node.isGetProp()) { return
+ if (explicit) { return
+if (node.isGetPropDeclaration() ) { scope.scope =
+if (node.isQualifiedName()) { return scope &&
+if (node.isGetProp())  { scope = (scope)
+ scope. detach ( ) ;
+if (node.isFunction() ) { return
+if (node.isGetProp(node)) { scope = scope.
+ scope.createScope(); if(node.isGetProp()) {
+ if (isGet || node.isGetProp()) {
+ if (isName){
+ scope = narrowed ; }
+ if (!isGetProp()) {
+ if ( node instanceof QualifiedName ) { narrowed =
+if (node.isName()) { return
+if (node.isGetProp(node)) { return scope =
+ if (node.isVar|node.isGetProp()) {
+if (node.isGetProp(scope)) { return
+if (node.isGetProp() && node.isFunction) {
+if (node.isGetProp(true)) { return scope =
+ } else
+ if (isProperty && node.isGetProp()) {
+ scope = scope.scope();
+ if (isProp || node.isGetProp()) {
+ if (slen) {
+if  (true)
+ if (spinner){
+if (node).slot {
+if (node.isGetProp (node.isSetProp)) {
+if (node.isGetProparedName()) { return scope =
+if (node.isGetProp(scope)) {
+if (node.isGetProparedName()) { scope = scope &&
+if (node.isFunction())) { return
+if (node == null) {
+if (node.isGetProp())) { return scope =
+ scope = scope; else if(node.isGetProp()) {
+if (node.isGetProp(?)) {
+if (node.isSlot()) { return
+if (node.named) {
+if (node.name) {
+if (node.isGetPropDeclaration()) { return scope =
+ if (spinner)) {
+ if (node!= this)) {
+if (node.isGetProparedName()) { scope = scope =
+ if (missingSimpleVar) {
+if  (! narrowed)
+if (node.isGetProp() || node!= null) {
+ else if (node.isGetProp()) {
+ if (joiner)) {
+if (node.isGetProp() { scope.scope =
+ } else { if (node.isGetProp()) {
+ if (declare) {
+if (node.isGetProp() ) { scope = scope. scope ; }
+ if (nodeisGetProp()) {
+ if (joining)) {
+ if (callNode.isGetProp()) {
+if (node.isGetProp())) {
+ if () {
+ if ()) {
+ if (optional()) {
+ if (joiner) {
+ if (! narrowed ) { return
+if (node.isGetPropDeclaration()) { return
+ if (true)) {
+ } } else if (node.isGetProp()) {
+if (node.isGetProp (node)) { return
+ scope = narrowed; } if(node.isGetProp()) {
+if (node.isGetProp (node.isThis)) {
+if (spoped) {
+ if (declared) {
+ if (true) if(node.isGetProp()) {
+if (node.isGetPropName()) { return
+if (node.isGetProposal()) { return scope =
+if (node.name)
+if (node.isGetProp())) { return
+ scope = scope ; }
+if  (bound)
+ if (node.is(node.isGetProp()) {
+if (node.isGetProp(node))) { return
+ break; } if(node.isGetProp()) {
+ scope.super(); if(node.isGetProp()) {
+ if (short) { return
+if  ( narrowed )
+ if (true) {
+if (node.named)
+if (node == null)
+if (node == this) {
+if (node!= this) {
+if (node.isGetProp( ) {
+if (node.isGetProp() && narrowed == node) {
+ if (wide)) {
+ if (static()) {
+ return scope;
+ if (wide) {
+ break; } else
+ } } else
+if (node.isGetProp(this)) { return
+ if (unique()) {
+if (node.isGetProp(...) {
+if (node.isGetProp() || node == null) {
+if (node.slot){
+if (node.isGetProp) { return
+if (node.isGetProp())  { var scope =
+ scope = narrowed ; else
+if (node.isGetProp(false)) { return
+if (node.isGetProp() || node.get) {
+if (node.isGetProp() { return scope =
+if (node) { return
+if (node.isGetProp(?) {
+ } else if (!node.isGetProp()) {
+if (node.isGetProp())  { return scope &&
+if (node.isGetProp() && narrowed!= node) {
+ while (node.isGetProp()) {
+if (node.isGetProp() && scope!= null) {
+ if (!)) {
+if (node.isGetProp())) { return scope &&
+if  requested {
+ function (()) {
+ if (true ==!node.isGetProp()) {
+ if (this.node.isGetProp()) {
+ } else { if (!node.isGetProp()) {
+if (closed)
+if  expanded {
+if (node.isGetProp())  { return scope;
+ if (named {
+if (node.isGetProp())  { return scope +
+ if narrowed.{
+ if strict) {
+ if (=) {
+if  ()
+if (node.isGetProp) {
+ if narrow){
+ if (!()) {
+ if("()) {
+if  needed {
+if (node.isGetProp() { return
+if (node.isGetProp(node))
+if (node.isGetProp() || isProperty) {
+if (node.isGetProp() || isStatic) {
+ } if (!node.isGetProp()) {
+if (node.isGetProp)) {
+if (node.isGetProp() || getProp) {
+if (node.isGetProp() || isFunction) {
+ } } ; if(node.isGetProp()) {
+ if (*.isGetProp()) {
+if (node.isGetProp())  { node =
+if (node.isGetProp() &&! strict) {
+if (node.isGetProp() ) { *
+if (node.isGetProp())  { expanded =
+if (node.isGetProp() &&! narrow) {
+if (node.isGetProp())  { scope.
+ if (!.isGetProp()) {
+ if({
+if (node.isGetProp() &&! expanded) {
+ if (!{
+ return this;
+if (node.isGetProp() &&! narrowing) {
+ return ; }
+if (node.isGetProp() { {
+if (node++) {
+if (node.isGetProp")) {
+ } elseIf(node.isGetProp()) {
+if (node).{
+ if (_isGetProp()) {
+ } }
+ }
+if (node.isGetProp())  {...
+ while (isGetProp()) {
+ if ((node.isGetProp()) {
+if (node.isGetProp())  {} return
+ } while(node.isGetProp()) {
+ else

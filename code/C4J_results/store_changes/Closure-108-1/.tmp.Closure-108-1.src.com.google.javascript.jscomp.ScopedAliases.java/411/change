@@ -1,0 +1,365 @@
+varNode = parent;
+ else { varNode = grandparent;
+varNode = parent ; }
+ else { varNode = null ; }
+ return grandparent;
+ else { varNode = null;
+ varNode = grandparent;
+ else { varNode = null ; } }
+ else { varNode = value.parent;
+ else { varNode = v ; } }
+ else { varNode = v ; }
+ else { value = grandparent;
+ else { varNode = existingName;
+ else { varNode = value ; } }
+ else { varNode = value ; }
+varNode  = v ; }
+ else { varNode = value ;
+varNode = parent. detach ( ) ;
+varNode = parent. clone ( ) ; }
+varNode  = null ; }
+varNode  = IR. var ( ) ;
+varNode  = v. getNameNode ( ) ;
+varNode  = IR. var ( value ) ;
+ else { varNode = v ;
+varNode = parent. replaceChild ( value ) ; }
+ varNode = value ;
+varNode = parent. replaceChild ( v ) ; }
+varNode = parent. replaceChild ( n, value ) ;
+varNode = parent. removeChild ( ) ;
+ else { varNode. parent= parent;
+varNode = parent. replaceChild ( n, value ) ; }
+varNode = parent ; } }
+varNode  = IR. var ( value ) ; }
+varNode = parent. replaceChild ( v, value ) ;
+ varNode = null ;
+ else { varNode = value ;
+varNode = parent. clone ( ) ;
+varNode = parent. cloneNode ( ) ; }
+varNode = parent. replaceChild ( parent, value ) ; }
+varNode  = V. var ( value ) ;
+varNode  = value. clone ( ) ; }
+varNode = parent. replaceChild ( parent, value ) ;
+ else { varNode = grandparent= parent;
+varNode = parent. cloneNode ( ) ;
+ else { varNode = grandparent.parent;
+varNode  = v. clone ( ) ; }
+varNode = parent. replaceChild ( v, value ) ; }
+varNode  = value ; }
+varNode  = v. cloneNode ( ) ;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; node. detachFromParent ( ) ;
+varNode  = v ; } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ). detach ( ) ;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; varNode = node. clone ( ) ;
+ else { varNode = IR. var ( parent ). useSourceInfoFrom ( value ) ;
+varNode  = v. clone ( ) ;
+ else { varNode = null ; grandparent= parent;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; varNode = node. detach ( ) ;
+ else { varNode *= parent;
+varNode = parent. replaceChild ( node, value ) ;
+ else { varNode= parent;
+ else { grandparent. detach ( ) ;
+ varNode = v ;
+varNode = parent. detachNode ( ) ;
+ else { var node = value. clone ( ) ; varNode = node ; } } else { var node = varNode ;
+varNode  = value. detach ( ) ;
+varNode = parent. replaceChild ( node, value ) ; }
+varNode = parent. replaceChild ( parent, v ) ; }
+ else { return null ; }
+ else { if (varNode == null) {
+varNode = parent. removeChild ( ) ; }
+ else { varNode = newName;
+ else { var node = value. clone ( ) ; varNode = node. detachNode ( ) ;
+varNode = parent. detachChild ; }
+varNode = parent. removeChild ( n ) ;
+ else { varNode = v.grandparent;
+ else { varNode = VAR_NULL;
+ else { varNode = IR.null;
+ else { var node = value. clone ( ) ; varNode = node. getFirstChild ( ) ;
+ else { value = null;
+varNode  = v. getNameNode ( ) ; }
+ else { varNode = v.parent;
+ else { varNode = node ; } }
+ else { varNode = "var NAME;
+ else { if (isHoisted) { grandparent =
+varNode = parent. removeChild ( v ) ; }
+varNode = parent. detach ( ) ; }
+ else { var node = value. clone ( ) ; varNode = node. detachFromParent ( ) ;
+varNode = parent. replaceChild ( value ) ;
+varNode = parent. replaceChild ( v, null ) ;
+ else { varNode = varNode.parent;
+ else { varNode = IR. var ( parent ). useSourceInfoFrom ( value )
+ else { varNode = IR. var ( parent ) ; } if ( parent!= null ) {
+ else { if (parent!= null) { varNode = value ; } else {
+ else { varNode = n.parent;
+varNode  = IR. var ( value ) ; } }
+ else { return ; } varNode = grandparent;
+ else { var node = value. clone ( ) ; node. setSourceInfoIfMissingFrom ( parent ) ;
+ else { varNode = node.parent;
+varNode  = IR. var ( name ) ; }
+ else { varNode = null ;
+varNode = parent ; } } }
+varNode  = value ; } }
+varNode = parent. detachNode ; }
+ else { if (parent!= null) { parent. detachFromParent(); }
+ else { var node = v. getNameNode ( ) ; if ( node == null ) { varNode = null ; } else {
+ else { if (isHoisted) { varNode = value ;
+varNode  ; }
+ else { grandparent. parentNode |= parent;
+varNode  = value. parent ; }
+ else { varNode = parent ; } } else { if (isHoisted) {
+ else { varNode = parent.parent;
+varNode = parent. nextChild ; }
+ else if (parent!= null) { parent. detachFromParent(); }
+ else { varNode = null ; break;
+ else { varNode = IR. var ( parent ) ; } if ( varNode ) {
+ else { if (parent!= null) { parent. detach ( ) ;
+ else { if (parent!= null) { varNode = value ;
+ else { if (parent!= null) { varNode = parent ; } else {
+ else { varNode = node ; }
+ else { varNode = IR.var(); break;
+ else { if (isHoisted) { grandparent = value ;
+varNode  = value. clone ( ) ; } }
+varNode  = IR. var ( value. name ) ;
+ else { varNode = IR. var ( parent ) ; if ( varNode ) {
+ else { varName = globalName ;
+varNode  = v. var ; }
+ else { varNode = IR.VAR;
+varNode  = V. var ( ) ;
+ else { varNode ||= parent;
+ else { varNode = parent ; } } else { if (isHoisted)
+ else { if (isHoisted) {
+ else { var node = v. getNameNode ( ) ; if ( node == null ) { varNode = parent ; } else {
+ else { if (parent!= null) { parent. detach ( ) ; }
+ else { varNode = IR. var ( parent ). useSourceInfoFrom(value); }
+ } } else {
+varNode  = IR. var ( value )
+ else { grandparent = null ; }
+ else { var varNode = parent. clone ( ) ; varNode = varNode. clone ( ) ; } } } else {
+ else { varNode = IR.var());
+ else { varNode ; }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } } else {
+ else { varNode = IR. var ( parent ). useSourceInfoFrom ( value ) }
+ else { var node = value. clone ( ) ; node. detachFromParent ( varNode ) ; } } } else {
+ else { varNode = null ; };
+varNode =  IR. var ( value. name ) ; }
+ else { varNode = v.scope.parent;
+ else { parent = grandparent;
+ else { varNode [ 0 ]= parent;
+ else { varNode |= parent;
+ else { varNode = v ; grandparent= parent;
+ else { varNode = IR.var() null;
+ else { varNode = v.getNameNode;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; varNode = varNode ; } } }
+ else { varNode = IR.var() grandparent;
+ else { varNode = value ; grandparent= parent;
+ else { varNode = grandparent ;
+ else { if (isHoisted) { grandparent = varNode ;
+ else { if (parent!= null) { varNode =
+ } } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; }
+ else { varNode = IR.var;
+ else { if (varNode == null)
+varNode =  IR. var ( value ) ; } } }
+varNode = parent. cloneNode ( ) ; } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } }
+ else { var node = value. clone ( ) ; node. detachFromParent ( varNode ) ; }
+varNode  = IR. var ( name ) ; } }
+varNode . detach ( ) ;
+ else { if (isHoisted) { varNode = value ; }
+varNode  = v. clone ( ) ; } }
+varNode = parent. clone ( ) ; } }
+ else { var node = value. clone ( ) ; } } } else {
+ else { var node = value. clone ( ) ; varNode = node ; } } else { var node = null ; }
+ else { varNode = IR.var(null;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; node. detachFromParent ( ) ; }
+varNode =  IR. var ( value. value ) ; }
+ else { varNode = IR. var ( parent. clone ( ) ) ; } } else {
+varNode  = VAR ; } }
+ else { return varNode;
+ else { grandparent. parentNode ||= parent;
+ else { if (parent!= null) { varNode = value ; } else
+ else { if (varNode!= null) {
+ else { varNode. parent |= parent;
+ else { if (isHoisted) { grandparent.
+varNode  = value. clone ( ) ; } } }
+ else { varNode = value ; } } } else {
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; varNode = varNode ; } } else
+ else { varNode = n;
+ else { varNode = null ; } varNode= parent;
+ else { varNode = v.getParent().parent;
+ else { varNode = null ; } } else { if (isHoisted)
+ else { varNode = v.parent().parent;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } }
+ else { var node = value. clone ( ) ; node = varNode ;
+ else { varNode = v ;
+ else { return ; }
+ else { varNode = VAR_NAME;
+varNode = parent. detach ; }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ). detach ( ) }
+ else { var varNode = parent. cloneNode ( ) ; varNode = varNode. cloneNode ( ) ; } } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ). clone ( ) ; } }
+ else { varNode = value ; } } else {
+ else { varNode = null ; } } } else {
+ else { varNode = VAR_VALUE;
+ else { varNode = null ; value= parent;
+ else { var node = value. clone ( ) ; varNode = node. clone ( ). clone ( ) ; }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } } }
+ else { var node = value. clone ( ) ; varNode = node. detach ( ) ; }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } } else
+ varNode. parent= parent;
+ else { varNode = IR. var ( parent ) ; } } } } else {
+ else { var node = value. cloneNode ( ) ; varNode = node. cloneNode ( ) ; } }
+ else { varNode = node;
+ else { var varNode = value. clone ( ) ; varNode = varNode. clone ( ) ; } } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; node. detach ( ) ; }
+varNode  = value ; } } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } } } }
+ } } } }
+ else { var varNode = parent. cloneNode ( ) ; varNode = varNode. cloneNode ( ) ; } } else
+ else { var node = value. clone ( ) ; varNode = node. cloneNode ( ) ; }
+ else { var node = value. clone ( ) ; node. detachFromParent ( varNode ) ; } } } }
+ else { var node = varNode ;
+ else { var node = node. clone ( ) ; varNode = node. clone ( ) ; } } }
+ else { varNode = IR.var();
+varNode = parent. clone ( ) ; } } }
+ else { varNode = v.nextGrandparent;
+ else { varNode = value. grandparent;
+ else { varNode = IR. var ( parent. clone ( ) ) ; } } } else {
+varNode  = v ; } } }
+ else { var node = value. clone ( ) ; varNode = node. clone ( ) ; } } else
+ else { varNode = IR. var ( parent. clone ( ) ) ; } else {
+ else { var node = v. getNameNode ( ) ; if ( node == null ) { varNode = parent ; } } }
+varNode =  IR. var ( name ) ; } } }
+ else { varNode = v.detachFromparent;
+ else { var node = value. clone ( ) ; node. detachFromParent ( varNode ) ; } }
+ return varNode ;
+ else { varNode = v.detach(parent;
+ else { varNode = IR. var ( parent ) ; if ( varNode ) break
+ parent = varNode ;
+ else { varNode = globalName;
+ else { varNode = parent ; } } } } else {
+varNode = parent ; break ; }
+ else { return ; } varNode= parent;
+ else { var node = value. clone ( ) ; node. detachFromParent ( ) ; } }
+ else { varName = value ;
+ else { var node = v. getNameNode ( ) ; if ( node == null ) { varNode = null ; } } }
+varNode  = null ; } }
+ else {
+ else { parent = varNode ;
+ else { varNode = null ; n= parent;
+ else { varNode = value ; } varNode= parent;
+ else { varNode = IR. var ( parent ) ; if ( varNode ) return
+ else { return grandparent;
+ else { varNode = v ; } varNode= parent;
+ else { varNode. parent ||= parent;
+varNode =  value. clone ( ) ; } } } }
+ else { varNode = null ; parent= parent;
+ else { varNode!= parent;
+ else { varNode &= parent;
+varNode = parent ; return ; }
+ else { varNode = grandparent ; value= parent;
+ else { varNode = newValue;
+ else { varNode = parent ; } varNode= parent;
+ else { varNode = NEWName;
+ } }
+ else { varNode = v.next().parent;
+ else { varNode = grandparent ; parent= parent;
+ else { grandparent = grandparent;
+ }
+varNode  = null
+ varNode = existingName;
+ else { varNode = value= parent;
+ return value;
+varNode = parent. next ; }
+ else { varNode = v.Grandparent;
+ if (varNode) {
+ varNode *= parent;
+ else { varNode = value. clone ( ) ; } }
+ else { if (isHoisted) { varNode } }
+varNode  = v. parent ;
+ else { if (parent!= null) { varNode } =
+ else { if (isHoisted) { varNode } else
+ else { var = null;
+ else { grandparent =
+ else { var = value ;
+ else { varNode =
+ varNode = value.parent;
+ else { parent = value ;
+ else { varNode = value ; } } } else
+ else { return ; } varNode = value ; }
+ else { varNode = value ; } } } }
+varNode = parentNode ; }
+ else { parent. parent |= parent;
+ else { grandparent. remove ( ) ; parent= parent;
+ else { name = null;
+ else { if (varNode == null) {}
+ varNode |= parent;
+ else { varNode = value ; } }
+ else { } }
+varNode  = node ; }
+ else { varNode = null ; } } } else
+ else { varName = value ; } }
+ else { varNode = value ; } } }
+ parentNode = grandparent;
+ else { value = null ; } } }
+ } else {
+ else { grandparent= parent;
+ varNode ||= parent;
+ else { if (varNode == null) then
+ else { return null;
+ return v;
+varNode  = value
+ parent = grandparent;
+ v.parent!= parent;
+ } return grandparent;
+ grandparent= parent;
+ varNode &= parent;
+ else { return ; }
+ else { return value = grandparent;
+ else { grandparent.
+varNode = parent. parent ;
+ else { return ; } }
+ else { return value;
+ break ; }
+ return null;
+ } } } }
+ } varNode= parent;
+ else { varNode } =
+ else { return;
+ else { } }
+ } } } else
+ return node;
+ else { break }
+ return ; }
+ return parent;
+varNode = parent ; break ;
+varNode  = v
+ else { } } }
+ else { break;
+ } return v;
+ } } break;
+ } } }
+varNode  = parent
+ } } else
+ return parent.parent;
+ return newGrandparent;
+ } grandparent;
+varNode = parentNode ;
+ variableNode= parent;
+ return parentGrandparent;
+ else { return
+ else { var
+ break ;
+ var node= parent;
+ }Grandparent;
+ else,
+ } }
+varNode = parent ; ;
+ } else
+ break }
+ else
+ }
+varNode += parent;
+varNode -= parent;
+varNode == parent;

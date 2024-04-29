@@ -1,0 +1,303 @@
+c = '\n';
+c  = '\n'; }
+ c = '\n;
+ } else { lineEndChar = c ;
+ } else {
+c  = '\n'; } return c;
+ c = '\n';;
+ sourceString.= '\n';
+ cursor++;
+c  = '\n'; } }
+ } else if (c == '\r' || c == '\n') { lineEndChar = c ;
+ } else { if (c == '\r') { lineEndChar = c;
+ } else if (c == '\r' || c == '\n') { lineEndChar = c; }
+ } else if (c == '\r') { lineEndChar = c;
+c  = '\n'; return c;
+ c = u'\n';
+ } else if (c == '\r' || c == '\n') { lineEndChar =
+ } else if (c == '\r' || c == '\n') { lineEndChar = c; } else {
+ } else if (c == '\r' || c == '\n') { lineEndChar ++ ;
+ } else if (c == '\r' || c == '\n') { lineStart = c ;
+ } else if (c == '\r') { lineEndChar = c; } else if (c == '\n') {
+ } else if (c == '\r' || c == '\n') { lineEndChar = c; } else
+c  = '\r'; } return c;
+ } else { lineEndChar = ' ' ;
+ } else { lineEndChar = c ; c= '\n';
+ } else if (c == '\f' || c == '\t') { lineEndChar = c; } else {
+ } else if (c == '\f' || c == '\t') { lineEndChar = c ;
+ } else if (c == '\f') { lineEndChar = c;
+ } else if (c == '\f' || c == '\n') { lineEndChar = c ;
+ } else if (c == '\r' || c == '\n') { lineEndChar = '\r';
+ } else if (c == '\f' || c == '\t') { lineEndChar = c; } else
+ } else if (c == '\r' || c == '\n') { continue;
+ } else if (c == '\r') { lineEndChar = -c;
+ } else if (c == '\f' || c == '\t') { lineEndChar = c; }
+ } else if (c == '\r' || c == '\n') { lineEndChar = -c;
+ } else if (c == '\r' || c == '\n') { lineEndChar = c; } } else {
+ cursor--; } else { c ='\n';
+ } else if (c == '\r' || c == '\n') { cursor++;
+ } else { if (c == '\r') { lineEndChar = -c;
+ } else if (c == '\r') { lineEndChar = c; } else {
+ } else if (c == '\r') { lineEndChar = '\n';
+ } else if (c == '\r' || c == '\n') { charno = getOffset(); } } else {
+ } else if (c == '\\' || c == '\\\\') { lineEndChar = c; }
+ cursor++; }
+ } else if (c == '\f') { lineEndChar = c; } else {
+ } else if (c == '\f' || c == '\n') { lineEndChar = c; }
+ } else
+ } else { lineEndChar = - 1 ;
+ } else if (c == '\r' || c == '\n') { charno = getOffset(); } else {
+ } else if (c == '\r' || c == '\n') { lineEndChar = c ; cursor--; }
+ } else { lineEndChar = c ; }
+ } else if (c == '\f' || c == '\t') { lineEndChar = c; } } else {
+ } else { break ; } } else { lineEndChar = c ;
+ } else if (c == '\r') { lineEndChar = c; } else if (c == '\n')
+ } else if (c == '\r') { lineEndChar = c; }
+ } else if (c == '\r' || c == '\n') { lineEndChar = c ; cursor--; } else
+ cursor--;
+ cursor--; }
+ } else { if (c == '\r') { lineEndChar ++;
+ break;
+ } else if (c == '\r' || c == '\n') { charno = getOffset(); } else { continue;
+ } else if (c == '\r' || c == '\n') { lineStart = 0 ;
+ cursor--; } else { return'\n';
+ } else if (c == '\f' || c == '\n') { cursor++;
+ } else if (c == '\r' || c == '\n') { cursor = c ;
+ } else if (c == '\t') { lineEndChar = c; }
+ } else { if (c == '\r') { lineEndChar =
+ } else if (c == '\f' || c == '\t') { lineEndChar = c ; cursor--; } else
+ } else { lineEndChar = '\r';
+ } else if (c == '\r' || c == '\n') { lineEndChar = c; } else { continue;
+ } else { if (c == '\r') { lineEndChar = c; } } else {
+ } else if (c == '\r') { lineEndChar ++;
+c  = '\n'; break;
+ } else if (c == '\r') { lineEndChar =
+ } else if (c == '\t') { lineEndChar = c; } else
+c = '\n' ; } else { return c ;
+ } else if (c == '\r' || c == '\n') { lineStart ++ ;
+ } else if (c == '\f') { lineEndChar = c; } else
+ } else if (c == '\r' || c == '\n'); { continue;
+ cursor--; } else { lineEndChar ='\n';
+ } else if (c == '\r') { lineEndChar = c; } else { continue;
+c  = '\n'; } } }
+ } else if (c == '\r' || c == '\n') { lineStart =
+ } else if (c == '\r') { lineEndChar = c; } else
+ c = '\\';
+ } else { lineEndChar ++ ;
+c  = '\n'; } break;
+ } else if (c == '\r') { lineStart = c ;
+ lineEndChar |= '\n';
+ c = '\n'; } else { return'\n';
+ } else { if (c == '\r') { lineEndChar = c; } }
+ } else { lineEndChar |= '\n';
+ c = ' ';
+c = '\n' ; } else { c = '\r';
+c  = '\r'; return c;
+ } else if (c == '\r') { lineStart = 0;
+ } else { lineStart = c ;
+ } else { lineEndChar = u'\n';
+ cursor--; c = u'\n';
+ } else { lineStart = cursor ;
+ } else { lineStart = 0 ;
+ c = '\r'; }
+c = '\n' ; } else { c = '\n';
+ } else { lineEndChar = c;
+ } else { if (c == '\r') { continue;
+ cursor--; } else { lineEndChar |= '\n';
+ } else { lineEndChar = c ; } else {
+ c = '\';
+ c = '\r';
+ c = '\r'; } c ='\n';
+ c = '\n'; continue;
+ cursor--; } else {
+ } else { lineEndChar = c + 1 ;
+c = '\n' ; } else { return c ; }
+ c = '\r'; } else { return'\n';
+ } else { lineEndChar = '\\' ;
+ cursor--; } else { c = u'\n';
+ } else { lineEndChar = c+'\n';
+ cursor++; } else { c ='\n';
+ } else { break ; } } else { break ; }
+ } else { if (c == '\r') { continue; }
+c =  '\r'; } else { return c;
+ } else { lineEndChar = '\n';
+ } else { lineEndChar = c ; cursor ++ ;
+ c |= '\n';
+ c = '\n'; } c ='\n';
+ cursor++; } else { lineEndChar |= '\n';
+ } else { lineEndChar ++ ; c= '\n';
+ } else { lineStartChar = c ;
+ } else { if (c == '\r') {
+ cursor--; } else { charno ='\n';
+ cursor++; } else { return'\n';
+c = '\n' ; return c ; }
+ } else { lineEndChar = c += '\n';
+ } else { lineEndChar = c ; } } else {
+ cursor++; } else { lineEndChar ='\n';
+ c = '\r'; c ='\n';
+c = '\n' ; } else { return EOF_CHAR;
+c  = '\n'; } } return c ;
+ } else { lineEndChar =
+ lineStartChar = c ;
+ cursor--; } else { c |= '\n';
+ } else if (c == '\t') { cursor++;
+ } else { charno = getOffset(); } else { break ; }
+ } else { lineEndChar = c ; cursor = 0 ;
+ } else { charno = c ;
+ } else { lineEndChar = c ; cursor ++ ; }
+ } else { lineStartChar = c ; }
+ } else { charno = getOffset(); }
+ sourceCursor++= '\n';
+c = '\n' ; } else { return - 1 ;
+c = '\n' ; } else { c = - 1 ;
+c =  0;
+ cursor--; } else
+c = '\n' ; } else { c = 127 ;
+ } else if (c == '\r') { cursor++;
+ c = '\n'; cursor++;
+ sourceString[sourceCursor]= '\n';
+ cursor++; } else
+ c = '\r'; } }
+ cursor++; }
+c ++;
+ } else { lineEndChar = ' ';
+ } else { lineEndChar = c ; } }
+ cursor--; }
+ } else { break ; } return c;
+c = '\n' ; } else { charno = - 1 ;
+ c = '\r;
+ cursor--; } else { c *= '\n';
+c = '\n' ; } } else { return - 1 ;
+ } else { lineEndChar ='\n';
+ } else { lineEndChar = '\n;
+ } else { charno = getOffset();
+ } else { cursor = 0 ;
+c = '\n' ; } } else { return c ;
+ sourceCursor *= '\n';
+ c = '\r'; break;
+ } else { lineEndChar = c |= '\n';
+c = '\n' ; } else { c = ' ' ;
+ cursor++; c = u'\n';
+ } else { lineEndChar = 0 ;
+ } else { c ='\n';
+ cursor++; } else { c |= '\n';
+ } else { lineEndChar += c += '\n';
+ cursor--; } else { return -1;
+c = '\n' ; } else { charno = c ;
+ cursor++; break;
+ cursor++; continue;
+ } else { charno = 0;
+ c = c+'\n';
+ } else { lineEndChar += c *= '\n';
+ }
+ } else { lineEndChar = -1;
+ continue;
+ cursor++; } else {
+c  = '\r'; } } return c ;
+ cursor--; } c |= '\n';
+ lineStart ++ ; sourceString.= '\n';
+ } else { c |= '\n';
+ cursor--; } else c ='\n';
+ c = '\r'; continue;
+ } else { cursor += 1 ;
+c = '\n' ; cursor ++ ; }
+c = '\n' ; } else { cursor ++ ;
+c  = '\n'; } else { continue;
+ } else { cursor -= 1 ;
+ cursor++1;
+c = '\n' ; cursor ++ ; } }
+ sourceString[c++]= '\n';
+ } else { cursor += c ;
+ } else { lineEndChar += c ;
+ cursor++; } else { c *= '\n';
+ c = '\r'; c *= '\n';
+ lineEndChar *= '\n';
+ } else { if (c == '\r') { }
+ } else { break ; } } else { break ; } }
+ sourceCursor++ *= '\n';
+ } else { break ; } } else { break ; } } else
+ } else { lineEndChar *= '\n';
+ cursor--; } c ='\n';
+ } else { lineEndChar = c ; cursor -- ; } }
+ c = ';';
+ c ++; c = u'\n';
+c =  '\n'; } } else { break ;
+ c *= '\n';
+ c = '\r';;
+ cursor--; } c *= '\n';
+ } else { lineEndChar = c + 1;
+ } else { lineEndChar = '\\';
+c = '\n' ; cursor ++ ; break ;
+c = '\n' ; } else { break ; }
+c = '\n' ; } else { cursor -- ;
+c = '\n' ; cursor -- ; } }
+ break; } } else {
+ } else { break ; }
+ lineEndChar.= '\n';
+ cursor++break;
+c  --;
+ } } else {
+ } else { lineEndChar = c ; break;
+ c = ' '+'\n';
+c = '\n' ; } return c ; }
+ } else { return -1;
+ } else { c *= '\n';
+ sourceCursor++ |= '\n';
+ lineStart ++ ; c |= '\n';
+c = '\n' } return c;
+ lineStart ++ ; c *= '\n';
+c = '\n' ; } else { break ;
+ } else { lineEndChar = c - 127;
+c  ++; }
+c  --; }
+ cursor--; c = b'\n';
+ lineStartChars |= '\n';
+ cursor--; break;
+ cursor--; continue;
+ sourceString *= '\n';
+ cursor--; c ='\n';
+ c = b'\n';
+ sourceString <<= '\n';
+ c = '\n'; break
+ c ++; c ='\n';
+ cursor++++;
+ } else { continue;
+ } else { return c;
+ lineStartChar ='\n';
+ } else { return'\n';
+ c += '\n';
+ c = 127+'\n';
+ cursor--++;
+ cursor++;
+ cursor--; return c;
+ sourceString |= '\n';
+ c = '\\n';
+ return c;
+ c = \'\n';
+ c = r'\n';
+ cursor--;;
+ }
+ sourceString += '\n';
+c =  127;
+ continue; }
+ break; }
+ c <<= '\n';
+ cursor--;
+c =  '\t';
+c =  "\n";
+ c ^= '\n';
+c = '\n' break;
+ break;
+ else {
+ } }
+ else
+ continue;
+ c += u'\n';
+c = '\n' } }
+ return c
+ } }
+ return
+ c=='\n';
+ break
+ continue
+c is '\n';

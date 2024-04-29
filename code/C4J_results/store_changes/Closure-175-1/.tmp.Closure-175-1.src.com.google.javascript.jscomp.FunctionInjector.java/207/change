@@ -1,0 +1,613 @@
+return canInlineReferenceDirectly( t, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly( t, fnNode);
+return canInlineReferenceDirectly(callNode);
+return canInlineReferenceDirectly(callNode,  t);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases);
+ return CanInlineResult.DIRECT;
+ return CanInlineResult.NO;
+ if (assumeStrictThis) {
+ return CanInlineResult;
+ if (assumeDirectly) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InliningMode) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases );
+return canInlineReferenceDirectly(callNode, fnNode, t);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases); } else {
+return  CanInlineResult.NO
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases); } else
+return canInlineReferenceDirectly( t, callNode);
+ return canInlineDirectCall(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases ); }
+return canInlineReferenceDirectly( t, callNode, needAliases);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode );
+ return canInlineReference(callNode);
+ if (assumeStrictDirectly) {
+ return canInlineReference(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (useDirectly) {
+ return canInlineReferenceAsStatementBlock( t, callNode, needAliases);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InliningMode.ALL)
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (needAliases) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (direct) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (directCall) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (useDirect) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InliningMode.SOURCE)
+ return canInlineReferenceAsStatementBlock(t, callNode, needAliases); }
+ return canInlineReferenceAsDirectCall(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == DirectMode) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if ( needDirectly ) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, useAliases); } else {
+return canInlineReferenceDirectly ( t, callNode, fnNode )
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (directly) {
+ return canInlineCall(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InlineMode) {
+ return canInlineReferenceAsStatementBlock(t, callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InliningMode.HEAD)
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases); } } else {
+ return CanInline.NO;
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else {
+ if (!assumeStrictThis) {
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, useAliases); } else
+return  CanInlineResult();
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, useAliases );
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == InliningMode.ANY)
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); }
+ return canInlineReferenceAsStatementBlock( t, callNode );
+ return canInlineReferenceAsStatementBlock(t, callNode, needAliases);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == Directly) {
+return canInlineReferenceDirectly(callNode, needAliases);
+return canInlineReferenceDirectly( t, callNode, fn);
+ if (!assumeStrictDirectly) {
+ if (useDirectly) {
+ return canInlineReferenceAsStatementBlock( t, callNode, );
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases });
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == ExplicitMode) {
+return canInlineReferenceDirectly(t);
+ return canInlineReferenceAsDirectCall(fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, useAliases); }
+ return CanInlineResult.INDIRECT;
+ return canInlineReference( t, fnNode);
+return canInlineReferenceDirectly( t, callNode, mode, fnNode);
+ return canInlineDirectCall(fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, needAliases); } else
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == Mode.HEAD) {
+ return canInlineReferenceAsStatementBlock(callNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode); } else if (mode == Inline) {
+ return canInlineReferenceAsStatementBlock(callNode, fnNode, needAliases);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode ); }
+ return canInlineReferenceAsStatementBlock(callNode, fnNode); } else {
+ return canInlineReferenceAsStatementBlock(T, callNode, needAliases); }
+ if (direct) {
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, t);
+ return canInlineReferenceAsStatementBlock( t, callNode, fn);
+ return canInlineReferenceDirectly(callNode, fnNode); } else {
+ return canInlineReferenceAsStatementBlock( t, callNode, useAliases);
+ return canInlineReferenceDirectly(callNode, fnNode); }
+ return CanInlineResult.NO; } else if (useDirectly) {
+return canInlineReferenceDirectly( t, callNode, fnNode, true );
+return  CanInlineResult.YES;
+ if (!assumeStrictThis)
+ return canInlineReferenceAsStatementBlock(t, callNode); } else
+ return canInlineReferenceDirectly(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock(t, callNode); }
+ return CanInlineResult.DIRECTION;
+ return CanInlineResult.DIRECT; }
+ return canInlineReferenceAsStatementBlock( t );
+ return canInlineReferenceAsDirect(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineResult.NO;
+ return CanInlineResult.DIRECT_NO;
+ return canInlineReferenceAsFunction(callNode);
+ return canInlineReferenceAsCall(callNode);
+return canInlineReferenceDirectly(callNode, fnNode, useAliases);
+ return NodeUtil.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAlias);
+ return canInlineReferenceAsCall( t, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode); }
+ return canInlineReferenceAsStatementBlock( t, fnNode);
+ if (assumeStrictThis && needAliases) {
+ return canInlineReferenceAsStatementBlock(callNode, fnNode); } else
+ return canInlineReferenceAsDirect(callNode);
+ return CanInlineResult.NO);
+ return CanInlineResult.DIRECT);
+ return canInlineReferenceDirectly(callNode, fnNode); } else
+ return CanInlineResult.NO; } else if (direct) {
+ return false);
+ return canInlineReferenceAsFunction( t, fnNode);
+return canInlineReferenceDirectly ( t, callNode )
+ return inline(callNode, fnNode);
+ return false;
+ return canInlineReferenceAsFunctionObjectCall(callNode, fnNode);
+ return canInlineCall( t, fnNode);
+ return CanInlineResult.NO; } else if (directly) {
+ return canInlineReferenceAsStatementBlock( t, callNode, rewrite);
+ return canInlineReferenceAsStatementBlock( t, callNode, this);
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAlias );
+ return canInlineReferenceAsStatementBlock( t, call );
+ return canInlineReferenceAsCall(callNode, fnNode);
+ return CanInlineResult.NO; } else { return CanInlineResult;
+ if (assumeStrictThis && needAliases)
+return canInlineReferenceDirectly(t, callNode, fnNode, mode);
+return canInlineReferenceDirectly( t, callNode, fnNode, false );
+ return canInlineReferenceAsFunction(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock( t, callNode, undefined );
+ return inline( t, fnNode);
+ return CanInlineResult.NONE;
+ return canInlineReferenceAsDirectBlock(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineReferenceAsStatementBlock();
+ if (!assumeStrictThis && needAliases)
+ return CanInlineResult.NO; } else { return CanInlineResult();
+ return canInlineCall(fnNode);
+ return canInlineReferenceAsFunctionCall(callNode, fnNode);
+return canInlineReferenceDirectly( t, callNode); }
+ return canInlineReferenceAsDirect(t, callNode);
+ return callNode, fnNode);
+ return canInlineReferenceAsStatementBlock(fnNode);
+ return CanInlineResult.NO; } if (direct) {
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineReferenceAsStatementBlock;
+return canInlineReferenceDirectly(callNode, fnNode) || needAliases;
+return canInlineReferenceDirectly(callNode, fnNode, needComments);
+ return canInlineReferenceAsStatementBlock( );
+ return canInlineReferenceAsStatementBlock( t, callNode, fnNode, needAliases); } else { }
+ return canInlineReferenceAsFunctionCall(fnNode);
+ return CanInlineResult(callNode);
+return canInlineReferenceDirectly(callNode, t, fnNode);
+ return canInlineReferenceAsFunctionObjectCall(fnNode);
+ return canInlineReferenceAsDirect( t, fnNode);
+return canInlineReferenceDirectly( t, callNode, fnNode, aliases);
+ return canInlineFunctionCall(fnNode);
+ if (assumeStrictThis === true) {
+ return canInlineReferenceAsFunctionObjectApply(callNode, fnNode);
+ if (assumeStrictThis == true) {
+ return CanInlineResult.DIRECTIVE;
+ return canInlineDirect( t, fnNode);
+ return canInlineReferenceAsDirectFunctionCall(callNode, fnNode);
+return canInlineReferenceDirectly(t, call);
+ return canInline( t, fnNode);
+ return canInlineReferenceAsDirectCallBlock(callNode, fnNode);
+ return canInlineCall(callNode);
+ return canInlineResult.DIRECT;
+ return canInline(callNode, fnNode);
+ return canInlineReference(fnNode);
+ return canInlineFunctionCall(callNode, fnNode);
+ return t.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) && needAliases;
+return canInlineReferenceDirectly ( callNode )
+ return true;
+ return CanInlineResult.DISTINCT;
+ return canInlineReferenceAsDirectStatementBlock(callNode, fnNode);
+ return CanInlineResult.INLINE_DIRECT;
+ return canInlineReferenceAsDirectBlock(fnNode);
+ return CanInlineResult.DIRECT_YES;
+return canInlineReferenceDirectly( t, callNode, useAliases);
+ if (assumeStrictThis) { if (!useAliases)
+ return canInlineReferenceAsFunction(t);
+ return CanInlineResult.NO; } else if (apply) {
+return canInlineReferenceDirectlyBlock( t, callNode, fnNode );
+ return canInlineReferenceAsFunction(fnNode);
+ return CanInlineResult.NO; } else if (direct)
+return canInlineReferenceDirectly( t, callNode, fnNode); }
+ return CanInlineResult.NO.canInlineReferenceDirectly(callNode, fnNode);
+ if (!assumeDirectly)
+ return canInlineReferenceAsDirectCallBlock(fnNode);
+ return (callNode, fnNode);
+ return CanInlineResult.INLINEDIRECT;
+ return canInlineReferenceAsStatement(fnNode);
+ if (!assumeMinimumCapture)
+ return canInlineReferenceDirectly(fnNode);
+ return canInlineReferenceAsDirectFunction(fnNode);
+ return CanInlineResult.NOPMD;
+ if (useDirect) {
+ return canInline(t);
+return canInlineReferenceDirectly(callNode, fnNode) ; } else { return CanInlineResult ;
+ if (assumeStrictThis &&!needAliases)
+ return CanInlineResult.INDIRECT; }
+return canInlineReferenceDirectly(callNode, fnNode) ; }
+ return canInlineReferenceAsStatement(callNode, fnNode);
+return  canInlineResult.NO;
+return canInlineReferenceDirectly(callNode); }
+ return CanInlineResult.INLINE;
+ return canInlineReferenceAsStatementBlock( t, node );
+return canInlineReferenceDirectly(t, node);
+return canInlineReferenceDirectly(callNode,  fnNode, needAliases, "apply");
+return canInlineReferenceDirectly(callNode,  fnNode, needAliases, callNode);
+ return canInlineReferenceAsBlock(callNode, fnNode);
+ return canInlineReferenceAsStatementBlockDIRECT(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, useThis);
+ return canInlineReferenceAsDirectFunctionCall(fnNode);
+return canInlineReferenceDirectly( t, callNode, mode);
+return canInlineReferenceDirectly(callNode, fnNode, useAliases, t);
+return canInlineReferenceDirectly ( t, callNode, mode )
+ return canInlineReferenceAsDirect(t, callNode); }
+ return canInlineReferenceDirectly(callNode, fnNode });
+ return canInlineReferenceDirectly(callNode, t); }
+return canInlineReferenceDirectly(t, mode, callNode, fnNode);
+ return inline(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needCapture);
+ return canInlineReference(t);
+ return CanInline.YES;
+ return canInlineReferenceAsCall(t);
+return  canInlineReferenceAsStatementBlock( t )(callNode, fnNode);
+ return CanInlineResult.NO; } return true;
+ if (assumeMinimumCapture) {
+ if (assumeStrictThis && needAlias) {
+ return canInlineReferenceAsCall(fnNode);
+ return canInlineFunction(fnNode);
+ return canInlineReferenceAsDirectFunction(callNode, fnNode);
+ return CanInlineResult.DIRECTORY;
+ return CanInlineResult.DIRRECT;
+ return canInlineReferenceDirect(callNode, fnNode);
+ if (assumeStrictThis) return false;
+return canInlineReferenceDirectly(callNode, fnNode, needThis);
+return  CanInlineResult.YES
+ return CanInlineResult.DISTANCE;
+return canInlineReferenceDirectly(callNode,  fnNode, needAliases); return true;
+ return canInlineFunctionObjectApply(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ; } else { return CanInlineResult();
+ if (directly) {
+return  canInlineReferenceAsStatementBlock(t))(callNode, fnNode);
+ if (assumeStrictThis &&!alias) {
+return canInlineReferenceDirectly( t, callNode, true);
+ return canInlineReferenceAsCallsBlock(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock(); }
+ return canInlineReferenceAsDirective(callNode, fnNode);
+ return canInlineReference(t, node);
+ return CanInlineResult.DONE;
+ return canInlineReferenceAsDirect( t, callNode, );
+ if (assumeStrictThis &&!useAlias) {
+return canInlineReferenceDirectly( t, callNode, );
+return  CanInlineResult.DO
+ return canInlineFunction( t, fnNode);
+ if (assumeDirect) {
+ if (!assumeDirectly) {
+ return CanInlineResult.NO; } if (direct)
+ if ((assumeStrictThis)) {
+ return canInlineResult.NO);
+ return CanInlineResult.NO; } return false;
+ if (needAliases) {
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineReferenceAsBlock(t);
+ return canInlineReferenceAsBlock(fnNode);
+ return canInlineFunction(callNode, fnNode);
+ if (assumeUseStrictThis) {
+return canInlineReferenceDirectly( t, callNode, this);
+ return CanInlineResult(NO);
+ return CanDirectResult.NO;
+ if (!assumeStrictThis) { returncanInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, useAliases); }
+return canInlineReferenceDirectly(t, call, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, true);
+return canInlineReferenceDirectly( t, callCallNode);
+return canInlineReferenceDirectly( t, callNodes);
+ if (!assumeStrictThis) {canInlineReferenceDirectly(callNode, fnNode);
+ return canInlineReferenceAsDirectFunctionObjectCall(callNode, fnNode);
+ return canInlineReferenceAsStatement(t);
+ if (assumeStrictThis)) {
+ return canInlineReferenceAsInnerFunctionCall(callNode, fnNode);
+return canInlineReferenceDirectly(T, callNode, fnNode);
+return canInlineReferenceDirectly(T, callNode, needAliases);
+return canInlineReferenceDirectly(callNode,  fnNode, needAliases) + 1;
+return canInlineReferenceDirectly(callNode,  fnNode, needAliases); return false;
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, t, callNode);
+return  false; }
+ if (assumeStrictDirectly)) {
+ return canInlineDirect(callNode, fnNode);
+ return canInlineReferenceAsStatementBlock;
+ return CanInlineResult.canInlineReferenceDirectly(callNode, fnNode);
+return  canInlineReferenceAsStatementBlockWithAliases(callNode, fnNode);
+ return canInlineReferenceAsStatementBlockDirectly(callNode, fnNode);
+ return canInlineApply(callNode, fnNode);
+ if (assumeStrictThis) { returncanInlineReferenceDirectly(callNode, fnNode);
+ return (t, fnNode);
+ return canInlineApply(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); } return false;
+return canInlineReferenceDirectly(callNode, fnNode) &&! needAliases;
+ if (!assumeDirect)
+ return canInlineDirectFunction(fnNode);
+return  canInlineReferenceAsStatementBlock(t).(callNode, fnNode);
+ if (callNode) {
+ if (directCall) {
+return canInlineReferenceDirectly(t, node, fnNode);
+ return CanInlineDirectCall(fnNode);
+ return call(callNode, fnNode);
+return  CanInlineResult.ANY;
+ return canInlineDirectReference(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, mode);
+return canInlineReferenceDirectly( t, * callNode, fnNode);
+ return CanInlineResult.$canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); } return true;
+ return isDirectCall(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) && canInlineReferenceAsStatementBlock;
+return canInlineReferenceDirectly(callNode, fnNode) && canInlineReferenceAsStatementBlock();
+ return (t, callNode, fnNode);
+ return canInlineReferenceAsDirectFunctionObjectApply(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); } }
+ if (assumeDirectly()) {
+ return canInlineDirect(fnNode);
+ if (assumeStrictThis &&!useAlias)
+return  canInlineResult.YES;
+ return CanInlineResult.DIRECT; } }
+ return canInline(fnNode);
+ return directCall(callNode, fnNode);
+return canInlineReferenceDirectly(T, callNode);
+ return CanInline(t);
+return canInlineReferenceDirectly(callNode, fnNode) ; } else { return false ; }
+return canInlineReferenceDirectly(callNode, fnNode) ||!assumeMinimumCapture;
+ return direct(callNode, fnNode);
+return  CanInlineResult.N
+return canInlineReferenceDirectly( t, callCallNode, fnNode);
+ return (true);
+return  true; }
+ return CanInlineResult.DEFAULT;
+ return inlineCall(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) && canInlineResult.NO;
+ return canInlineDirectReference(callNode, fnNode);
+return canInlineReferenceDirectly( t, node, callNode, fnNode);
+return canInlineReferenceDirectly( t, t, callNode, fnNode);
+ return canDirectCall(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ||!assumeStrictThis;
+ return CanInlineResultImpl.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, false);
+ return CanInlineResult.NO; } }
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, t, fnNode);
+ return CanInline.ANY;
+return canInlineReferenceDirectly( t, call, callNode, fnNode);
+ return apply(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineResult;
+ if (!assume)
+ return CanInlineDirection;
+ return true);
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineResult.YES;
+return canInlineReferenceDirectly(callNode, fnNode) &&!assumeMinimumCapture;
+ return CanInlineResult.NO||canInlineReferenceDirectly(callNode, fnNode);
+ return canInlineCallNode(callNode, fnNode);
+return canInlineReferenceDirectly(t.inGlobalScope(), callNode, fnNode);
+ return isSupportedCallType(callNode, fnNode);
+ return callNode(callNode, fnNode);
+ return -1;
+return canInlineReferenceDirectly(callNode, fnNode, t, needAliases);
+ return indirect(callNode, fnNode);
+ return indirect(fnNode);
+return  CanInlineResult; }
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); } return false ; }
+return canInlineReferenceDirectly(callNode, fnNode, needAliases); } return true ; }
+return canInlineReferenceDirectly( t, callNode2);
+return canInlineReferenceDirectly(T.DIRECT, t, callNode, fnNode);
+ return _canInlineReferenceDirectly(callNode, fnNode);
+ return result.NO;
+ return t, fnNode);
+return canInlineReferenceDirectly ( t, node )
+ return CanInlineResult.YES.canInlineReferenceDirectly(callNode, fnNode);
+ return (false);
+ inline(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ; } else { return false ; } }
+( t, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ||!needAliases;
+ return CanInlineResult.NONE.canInlineReferenceDirectly(callNode, fnNode);
+ return CanInlineResult::$canInlineReferenceDirectly(callNode, fnNode);
+ return result.YES;
+return canInlineReferenceDirectly(t, needAliases, callNode, fnNode);
+ return!assumeStrictThis&&canInlineReferenceDirectly(callNode, fnNode);
+ return CanInlineResult.NO;canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, functionNode, needAliases);
+return canInlineReferenceDirectly(callNode, fnNode, haveAliases);
+ return CanInlineResult.__canInlineReferenceDirectly(callNode, fnNode);
+ return CanInlineResult._canInlineReferenceDirectly(callNode, fnNode);
+ return function(callNode);
+return canInlineReferenceDirectly(t, callNode, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, referencesThis);
+ if (inline) {
+ return canInlineCallDirect(callNode, fnNode);
+return canInlineReferenceDirectly( t, call, fn);
+ return CanInlineResult);
+return canInlineReferenceDirectly(callNode, useAliases);
+ apply(callNode, fnNode);
+ if (!assumeStrictThis) { } }
+return canInlineReferenceDirectly(callNode, fnNode, needAliasMap); }
+ return nodeUtil.canInlineReferenceDirectly(callNode, fnNode);
+return  canInlineResult;
+return canInlineReferenceDirectly(callNode, fnNode, true, needAliases);
+return canInlineReferenceDirectly(t.inGlobalScope, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases));
+ return Result.NO;
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineReferenceApply;
+return canInlineReferenceDirectly( t, callNode2, fnNode);
+ return (canInlineResult);
+ if (assumeStrictThis) { } }
+return canInlineReferenceDirectly(t, "call()", callNode, fnNode);
+ return InlineUtil.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ; } else { return false ;
+ if (!assumeStrictThis) {!canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(t, "apply", callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) || false;
+ return shouldInline(callNode, fnNode);
+ if (direct)
+return canInlineReferenceDirectly( t, callNodeNode);
+return canInlineReferenceDirectly(callNode, fnNode, "apply", needAliases);
+return canInlineReferenceDirectly(callNode, fnNode) && needAlias;
+ return apply(fnNode);
+ return (callNode);
+return canInlineReferenceDirectly(t callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ; } return false ;
+ return canDirectCall(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) ; } return true ;
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineResult.NO
+return canInlineReferenceDirectly(T.DIRECT, callNode, fnNode);
+ return isDirect(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) || needAliases; }
+ return canCall(t);
+ return inlineFunction(callNode, fnNode);
+return  canInlineResult();
+ if (directly)
+ if (assumeStrictThis) {!canInlineReferenceDirectly(callNode, fnNode);
+ return!NodeUtil.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly ( t )
+ return t.inline(fnNode);
+ return (T) t);
+return canInlineReferenceDirectly(t, "apply()", callNode, fnNode);
+ if (!assumeStrictThis) returncanInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(t, "call", callNode, fnNode);
+ return inlineReference(callNode, fnNode);
+ return CanInlineResult.NONE||canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(t, callTree, callNode, fnNode);
+ return InliningUtil.canInlineReferenceDirectly(callNode, fnNode);
+ if (!alias) {
+return canInlineReferenceDirectly(callNode, fnNode) || useAliases;
+ return inlineFunction(fnNode);
+return canInlineReferenceDirectly(this, t, callNode, fnNode);
+ return isDirectCall(fnNode);
+ inline(fnNode);
+ return directInline(callNode, fnNode);
+return canInlineReferenceDirectly(t, useAliases, callNode, fnNode);
+return  CanInline();
+ return inlineReference(fnNode);
+ return CanInlineResult.NO; } else
+ return NodeUtil.$canInlineReferenceDirectly(callNode, fnNode);
+ return apply( t, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) && needAliases
+ return CanOutlineResult;
+return  CanInline;
+return canInlineReferenceDirectly(t, thisNode, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, functionNode); }
+ return "apply";
+ return inlineDirectCall(callNode, fnNode);
+ return isDirect(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) == false;
+ return inlineCall(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, useCallee);
+return canInlineReferenceDirectly(t, callType, callNode, fnNode);
+ return (fnNode);
+ return (true, t);
+ return CallUtil.canInlineReferenceDirectly(callNode, fnNode);
+ return "apply(");
+return canInlineReferenceDirectly(callNode, fnNode, needCallee);
+return  canInline;
+return canInlineReferenceDirectly(callNode, fnNode, useAllAliases);
+return  canInline();
+ return true(t);
+return canInlineReferenceDirectly(callNode, fnNode) == true;
+ return callNode;
+return canInlineReferenceDirectly(callNode, fnNode) || canInlineResult();
+ return!canInlineReferenceDirectly(callNode, fnNode);
+ return isFunctionCall(callNode, fnNode);
+ return Result.YES;
+return canInlineReferenceDirectly(T, mode, callNode, fnNode);
+ return CanInlineResult.NONE_canInlineReferenceDirectly(callNode, fnNode);
+ return (this);
+return canInlineReferenceDirectly(callNode, fnNode) || needAlias;
+ return t.apply(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, t, useAliases);
+return canInlineReferenceDirectly(it, t, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, referenceThis);
+return  CanOutlineResult();
+ return CallResult.NO;
+ return canCall(fnNode);
+return canInlineReferenceDirectly(t, "call" node, callNode, fnNode);
+ return inject(callNode, fnNode);
+ inline( t, fnNode);
+ return call(fnNode);
+return canInlineReferenceDirectly(callNode, fnNode) && useAlias;
+ return CanInlineContinue;
+return canInlineReferenceDirectly(t, fn);
+ (callNode, fnNode);
+ return this.canInlineReferenceDirectly(callNode, fnNode);
+ return NodeUtils.canInlineReferenceDirectly(callNode, fnNode);
+ var needAliases=canInlineReferenceDirectly(callNode, fnNode);
+ return "(this ");
+return canInlineReferenceDirectly(callNode, fnNode) || true;
+return canInlineReferenceDirectlyWithStatementBlock();
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, callContext);
+ return direct(fnNode);
+ return (null);
+return canInlineReferenceDirectly(callNode, fnNode, useAliasing);
+ return (t);
+return  true; } }
+ return true(true);
+return canInlineReferenceDirectly(callNode, requireAliases);
+return canInlineReferenceDirectly ( )
+ return!mode;
+ apply(fnNode);
+ if (inline)
+ return false; }
+ } else {
+ return thisNode.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(T, t, callNode, fnNode);
+return canInlineReferenceDirectly ( );
+return canInlineReferenceDirectly(callNode, fnNode, needCallees);
+return canInlineReferenceDirectly(f, callNode);
+return canInlineReferenceDirectly(...)
+return canInlineReferenceDirectly(callNode), t;
+ return callSite.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, needCallels);
+ if (external)
+ return this._canInlineReferenceDirectly(callNode, fnNode);
+ return " ";
+return canInlineReferenceDirectly(callNode, fnNode, needAliases, true);
+ return {... }canInlineReferenceDirectly(callNode, fnNode);
+ return null);
+return canInlineReferenceDirectly(CallNode);
+return canInlineReferenceDirectly(thisNode, callNode, fnNode);
+ emit(fnNode);
+ return ".";
+ assign(callNode, fnNode);
+ return this.$canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode), fnNode;
+return canInlineReferenceDirectly(callNode, fnCall);
+return canInlineReferenceDirectly(callNode, fnNode) ; } }
+ call(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode)
+return canInlineReferenceDirectly(callNode, functionNode);
+return  null; }
+return canInlineReferenceDirectly(callNode, this);
+return canInlineReferenceDirectly(T t, callNode, fnNode);
+ return T.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode), t);
+return canInlineReferenceDirectly(inliner, callNode, fnNode);
+ return compiler.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly() }
+return canInlineReferenceDirectly(callNode, fnCallNode);
+return canInlineReferenceDirectly(T);
+ return null;
+ try {
+return canInlineReferenceDirectly(inContext, callNode, fnNode);
+return canInlineReferenceDirectly(n);
+ return 0);
+return canInlineReferenceDirectly(callNode, fnCallContext);
+return canInlineReferenceDirectly( r, callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode, doAliases);
+return canInlineReferenceDirectly(directly, callNode, fnNode);
+return canInlineReferenceDirectly(cNode);
+return canInlineReferenceDirectly(CallNode, fnNode);
+return canInlineReferenceDirectly(callNode,  fnName);
+ return 0;
+ var ret=canInlineReferenceDirectly(callNode, fnNode);
+ return...canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode,  template);
+ ret.canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode,  true);
+ } else
+ try { }
+ } }
+return canInlineReferenceDirectly(callNode,  fn);
+ return undefined;
+return canInlineReferenceDirectly(callNode, fnNode) }
+return canInlineReferenceDirectly(callNode) }
+return canInlineReferenceDirectly(callNode)); }
+ try catch }
+ try catch {
+ ret _canInlineReferenceDirectly(callNode, fnNode);
+return canInlineReferenceDirectly(callNode, fnNode)); }
+return canInlineReferenceDirectly(cNode, fnNode);
+return canInlineReferenceDirectly(Call node, fnNode);
+return canInlineReferenceDirectly(callNode, varNode);
+return canInlineReferenceDirectly(node);
+return canInlineReferenceDirectly(callNode, fnNode, trans);
+return canInlineReferenceDirectly(nameNode);
+ try to
+return canInlineReferenceDirectly(callNode, fnNode) } }
+return canInlineReferenceDirectly(callNode, mode);
+ }
+return canInlineReferenceDirectly( node, fnNode);
+return canInlineReferenceDirectly( template, fnNode);
+return canInlineReferenceDirectly( m, fnNode);
+return canInlineReferenceDirectly( m, callNode, fnNode);
+return canInlineReferenceDirectly( template, callNode, fnNode);
+return canInlineReferenceDirectly( f, callNode, fnNode);

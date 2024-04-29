@@ -1,0 +1,242 @@
+ return replacement;
+return  replacement ; } return node ;
+return  replacement ; } else { return replacement ; }
+return  replacement ; } return replacementTemplate ;
+return  replacement ; }
+return  replacement ; } else { return node ;
+return replacement ; } else { replacementTemplate = node ; }
+return  replacement ; } else { replacementTemplate = node ;
+return  replacement ; } else { return replacementTemplate ;
+ if (replacementTemplate.isThis()) {
+return  replacement ; } else { return replacementTemplate ; }
+return  replacement ; } else { replacementTemplate = null ;
+return  replacement ; } else { replaceThis = true ;
+ if (replaceThis) {
+return  replacement ; } else { return node ; }
+return  replacement ; } } else { return node ;
+return replacement ; } else { replacementTemplate = null ; }
+return  replacement ; } else { return replacement ;
+return  replacement ; } } }
+return replacement ; } else { replaceThis = false ; }
+ } else { replacementTemplate = node. clone ( ) ;
+ if (replaceThis) { replacements.remove(THIS_MARKER);
+return  replacement ; } else { return parent ;
+ } else { replacementTemplate = node. cloneTree ( ) ;
+return  replacement ; } return parent ;
+return replacement ; } else { node = replacementTemplate ; }
+return  replacement ; } else { replacement = node ;
+return  replacement ; } }
+return  replacement ; } return replacement ;
+return  replacement ; } else { return replacement ; } }
+ if (replacementTemplate.isThis())
+ } else { replacement = node. cloneTree ( ) ;
+ } else { replacement = parent. replaceChild ( node, replacement ) ;
+ if (replaceThis)
+return replacement ; } else { replacement = node. parent ;
+ } else { replacements. put ( node. getString ( ) )
+return  replacement ; } } return replacementTemplate ;
+return  replacement ; } else { return null ;
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) {
+return  replacement. clone ( ) ;
+ } else if (node.isFunction() && node.isVar()) { if (replacementTemplate.isThis()) {
+ } else if (node.isFunction()) {
+ } else { replacements. put ( node. getString ( ) );
+return  replacement ; } return null ;
+ } else if (node.isFunction()) { if (replaceThis && node.isThis()) {
+ if (replaceThis) { replacements.remove(THIS_MARK());
+ } else { replacement = node. clone ( ) ;
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch() && replaceThis) {
+return  replacement. cloneTree ( ) ;
+ } else { replacementTemplate = node. parent ; }
+ } else { replacements. remove ( replacementTemplate ) ;
+ } else if (node.isFunction()) { if (!replacementTemplate.isThis()) {
+ } else { replacement = node. cloneTree ( ) ; }
+return  replacement ; } } return node ;
+ if (replacementTemplate.isThis()) { replacementTemplate = replacement ; }
+ } } else if (node.isFunction()) { if (replaceThis && node.isThis()) {
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { if replaceThis {
+ } else { replacements. remove ( THIS_MARKER);
+ } else if (node.isFunction()) { if (replacementTemplate.isThis())
+ } else if (node.isFunction()) { if (replaceThis) { replacements.remove(THIS_MARK());
+ } if (replaceThis) {
+ if (replacementTemplate.isThis()) { replaceThis = false;
+ } else if (replaceThis && node.isFunction()) { Node replacement = replacements.get(THIS_REGEXP);
+ } else if (node.isFunction() && node.isVar()) { Node replacement = replacementTemplate.cloneTree(); }
+ } else if (replaceThis && node.isFunction()) { Node replacement = replacements.get(THIS_NODE);
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { return parent;
+ } else if (replaceThis && node.isFunction()) { if (replaceThis) {
+ if (replaceThis) { replacements.remove(THIS_MARK);
+ } else { replacements. put ( node. getString ( ) ;
+ } else { replacementTemplate = node. cloneTree(); }
+ } else if (replaceThis && node.isThis()) { if (replacementTemplate.isThis() ) {
+ } else if (replaceThis && node.isFunction()) { if (replacementTemplate.isThis()) return replacement;
+ } else if (replaceThis && node.isFunction()) { if (replacementTemplate.isThis() ) {
+ } else if (node.isFunction()) { if (replaceThis) { replacements.remove(THIS_MARK);
+ } else if (node.isFunction()) { if (replaceThis && node.isThis())
+ if (!replaceThis)
+ } else if (replaceThis && node.isThis()) { if (replaceThis)
+ } else if (replaceThis && node.isFunction()) { if (replacementTemplate!= null) { replacements.remove(this);
+ } else if (replaceThis && node.isFunction()) { Node replacement = replacements.get(THIS_NAME);
+ if (replacementTemplate.isThis()) { replacements.remove(this); }
+ if (replacementTemplate!= null)
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { return null;
+ } else if (replaceThis && node.isThis()) { if (!replaceThis)
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { return node;
+ } else { replacementTemplate = node. parent ;
+ if (replacementTemplate.isThis()) { replacements.remove(NAME); }
+ if (replacementTemplate.isThis()) { replacements.remove(name); }
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { } else {
+ } } else if (node.isFunction()) { if (replaceThis && node.isThis())
+return  replacement ; } return replacement ; }
+ } } else if (node.isFunction()) { if (replaceThis && replacementTemplate) {
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) return replacement;
+ } else if (replaceThis && node.isThis()) { replaceThis = false;
+ } if ( replacementTemplate!= null ) {
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { return parent; }
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { if replaceThis:
+ if (replacementTemplate.isThis()) { replacements.remove(THIS); }
+return  replacement ; } else { return ;
+ } else if (node.isFunction()) { if (replaceThis && replacement!= null)
+return  replacement ; } return ;
+ if (replacementTemplate!= null) { returnreplacement;
+ if (replacementTemplate.isThis()) { replaceThis = true;
+ if (replacementTemplate.isThis()) { replacements.remove(node); }
+ if (replacementTemplate) { return replacement;
+ if (replacementTemplate!= null) return replacement;
+ if (replacementTemplate == null) return replacement;
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { return node; }
+return  replacement ; } return node
+ if (replacementTemplate) {
+ } else if (node.isFunction()) { if (replaceThis && replacementTemplate) {
+ } else if (replaceThis && node.isFunction()) { if (replacementTemplate.isThis()) { return this;
+ if (replacementTemplate.isThis()) { replacements.remove(node);
+ } if ( replacement!= null ) {
+ } else if (node.isFunction() && node.isVar()) { if (replacementTemplate.isThis() {
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { } else
+ } else if (node.isFunction()) { if (replaceThis) return this;
+ } else if (node.isFunction() && node.isVar()) { if (replacementTemplate.isThis())
+ if (replacementTemplate == null)
+ } if (replaceThis)
+ } else { replacementTemplate = node ; }
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { return null;
+ } return replacement ;
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { return replacement;
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { } }
+ } else { replacementTemplate = null ; }
+ if (!replaceThis) {
+ } else { replacements. remove ( THIS_MARKER )
+ if (!replacementTemplate) {
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { return null }
+ } else if (node.isFunction()) { if (replacementTemplate.isThis() {
+ } else if (node.isFunction() && node.isVar()) { Node replacement = replacementTemplate.cloneTree(); } else
+ } else if (node.isFunction() && node.isVar()) { if (replacementTemplate.isThis()) { }
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { return replacement }
+ } else if (node.isFunction()) { if (replacementTemplate.isThis()) { }
+ } else if (node.isFunction() &&!parent.isVar() &&!parent.isCatch()) { } }
+ } else if (replaceThis && node.isFunction()) { Node replacement = replacements.get(THIS_NAME());
+ } else if (node.isFunction() && node.isVar()) { Node replacement = replacementTemplate.cloneTree(); } }
+ } else if (node.isFunction()) { if (replacementTemplate.isFunction())
+ } else if (node.isFunction()) { if (!replacementTemplate.isThis()) { }
+ } else if (replaceThis && node.isFunction()) { if (replacementTemplate.isThis()) { }
+return  replacement ; } return {
+ } else if (node.isFunction()) { if (!replacementTemplate.isThis()) { } }
+ if (replacementTemplate.isThis()) { }
+ } else if (node.isFunction()) { if (replaceThis && node.isThis()) { } }
+ } else { replacementTemplate = node ;
+ if (replacementTemplate.isThis()) { } }
+ if (!replacementTemplate) { return replacement;
+ if (replacementTemplate) return replacement;
+ if (replaceThis) { replacements.remove(THIS_MARKER());
+ if (replaceThis) { replacements.remove(THIS_MARKER));
+ return replacement ; } else { return replacementTemplate.replacement;
+ } else { replacementTemplate = node ; } }
+ } else { replacements. remove ( replacementTemplate ) }
+ return replacement ; } else { replacementTemplate = parent;
+ if (replaceThis) { replacementTemplate = _replacement;
+ } else { replacementTemplate = null ; } }
+ return replacement ; } else { replacementTemplate = _replacement;
+ return replacement ; } else { return node.replacement;
+ if (replacement!= null) returnreplacement;
+ if (replaceThis) { replacementTemplate=replacement;
+ return replacement ; } else { return parent.replacement;
+ } return replacementTemplate ;
+ if (!replacementTemplate). return replacement;
+ if (replaceThis) { replaceThis=replacement;
+ } return replacement ; } }
+ if (replaceThis) return replacement;
+ replacement = replacement ;
+ if (!replaceThis) return replacement;
+ return replacement ; } } else { return replacement;
+return  replacement. value ;
+ } } return replacementTemplate ;
+return  replacement. parent ;
+ if (replaceThis) { replacementTemplate =!replacement;
+ if (replaceThis)) {
+ return replacementTemplate;
+ replacementTemplate = replacement ;
+ if (replaceThis) { }
+ return replacement
+ } }
+ } else { replaceThis = false;
+return  replacement + replacement ;
+ if (replacementTemplate.isThis());
+ } else { replaceThis = true;
+ return replacement ; } else { return _replacement;
+ replacement = null;
+ } return replacement ; }
+ } else { return replacementTemplate.replacement;
+ return replacement.getString;
+ } } else {
+ } else { return parent.replacement;
+ } else { return node.replacement;
+ } else { return replacementTemplate;
+ } } else { return node.replacement;
+ if (replace)
+ return replacement.nextChild;
+ } else { replacementTemplate=replacement;
+ return replacement.parentNode;
+ return replacement.getParent;
+ return replacement.replacement;
+ } else { return this.replacement;
+ } else { replacement = _replacement;
+ } else { return replacement;
+ if (replaceThis))
+ if (!replaceThis))
+ if (replaceThis())
+ return replacement.parent.replacement;
+ return replacement + node;
+ if (replace())
+ return (Node)replacement;
+ return replacementNode;
+ return replacement ; } else { #replacement;
+ return replacement.next().replacement;
+ } else { return _replacement;
+ return replacement.$replacement;
+ } return replacement
+ } else {
+ } } }
+ break;
+ return replacement; returnreplacement;
+ }
+ return node.replacement;
+ return replacement.$$replacement;
+ return replacement();
+ return parent.replacement;
+ return replacement; }
+ return!replacement;
+ if (replace...)
+ return ;
+ return _replacement;
+ return replacement template;
+ } }
+ } } else
+ } } }
+ } else
+return  replacement.
+ }
+ throw replacement;
+return  replacement);
+ return node;
+ return root;
+ return
+ else

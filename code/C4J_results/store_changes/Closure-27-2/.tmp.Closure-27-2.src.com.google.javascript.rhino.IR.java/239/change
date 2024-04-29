@@ -1,0 +1,750 @@
+Node tryNode = tryCatch(tryBody, catchNode);
+Node  tryNode =
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody);
+ tryNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally();
+ tryNode = block(catchNode);
+ Node tryNode = block(catchNode);
+ return block(catchNode);
+Node tryNode = tryCatch(tryBody, finallyBody, catchNode);
+ Node tryNode = tryFinally(catchNode);
+ block(catchNode);
+Node tryNode = tryCatch(tryBody);
+ Preconditions.checkState(catchNode.isCatch());
+Node  tryNode = block(tryBody);
+Node tryNode = tryCatch(tryBody, Node catchNode);
+Node tryNode =  tryFinally(tryBody, catchNode);
+Node tryNode = tryCatchFinally(tryBody);
+ tryNode = catchNode;
+ tryNode = body;
+ tryNode = tryFinally(tryBody, catchNode);
+Node tryNode = tryCatchFinally ( tryBody, catchNode ) ;
+Node tryNode =  block().copyInformationFrom(tryBody, catchNode);
+Node  tryNode = catchNode ;
+ Preconditions.checkState(catchNode.isBlock());
+ Node tryNode = tryCatch(catchNode);
+ Node tryNode = block().copyInformation(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); final
+ tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, block);
+ Node tryNode = tryBody.next(catchNode);
+Node  tryNode = tryBody ;
+Node  tryNode = tryBody. detach ( ) ;
+ Preconditions.checkState(catchNode.isCatch()); Node tryNode =
+Node tryNode = tryCatch(tryBody, catchNode) ; tryNode =
+ tryNode.addChild(catchBody);
+ Preconditions.checkState(catchNode.isCatch()); return
+ tryNode.addChildToBack(catchBody;
+ tryNode.addChild(catchBody;
+ tryBody, catchNode);
+ Preconditions.checkState(catchNode);
+ Node tryNode = tryBody.addChild(catchNode);
+ tryNode = block(tryBody, catchNode);
+Node tryNode =  block(catchNode).copyInformation(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); }
+ tryNode.addChildToBack(body;
+Node tryNode  = tryBody. clone ( catchNode ) ;
+ Preconditions.checkState(catchNode.isCatch()); tryNode =
+ try(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch());
+ Preconditions.checkState(catchNode.isBlock());
+ Node tryNode = block(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, tryBody, finallyBody);
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody);
+ Preconditions.checkState(catchNode.isCatch()); return finallyBody;
+ Preconditions.checkState(catchNode.isCatch(tryBody));
+ Preconditions.checkState(catchNode) ;
+Node tryNode = tryCatch(body, catchNode);
+ Preconditions.checkState(catchNode isBlock());
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); tryNode =
+ Preconditions.checkState(catchNode.isCatch(), finallyBody);
+Node tryNode = tryCatchFinally ( tryBody, catchNode )
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH);
+ Node tryNode = try(tryBody, catchNode);
+Node  tryNode = catchNode. detach ( ) ;
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(catchNode);
+ Preconditions.checkState(catchNode).tryCatch(tryBody, catchNode);
+ return new Node(Token.CATCH, tryBody, catchNode, finallyBody); }
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody); }
+ Preconditions.checkState(catchNode.isCatch()); return finallyBody; }
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody, catch);
+Node tryNode = tryCatchFirst ( tryBody, catchNode ) ;
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, body);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH); }
+ return new Node(Token.CATCH, tryBody, catchNode, finallyBody);
+ Preconditions.checkState(tryNode.isCatch()); Node tryNode =
+ Preconditions.checkState(catchNode.isCatch()));
+ Preconditions.checkState(tryBody.isCatch());
+ Preconditions.checkState(catchNode.isCatch(); });
+ return tryNode;
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody, catch());
+ Preconditions.checkState(tryNode.isCatch()); return
+ tryNode = tryBody.copyInformationFrom(catchNode);
+ Node tryNode = tryBody, catchNode);
+ tryNode.addChildToBack(block(catchNode);
+Node  tryNode = Node ( ) ;
+Node tryNode = tryCatch(tryBody, catchNode, true);
+ Preconditions.checkState(catchNode.isCatch()); if (catchNode!= null)
+ Preconditions.checkState(catchNode.isCatch(); Node tryNode =
+ Preconditions.checkState(catchNode!= null);
+ Preconditions.checkState(catchNode.block());
+ Preconditions.checkState(tryNode.isCatch());
+ Preconditions.checkState(catchNode!= null);
+Node tryNode  = tryBody. getFirstChild ( ) ;
+ Preconditions.checkState(catchNode.isCatch()); if (catchNode!= null) {
+Node tryNode = tryCatch(block, tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); Node catchNode = finallyBody;
+ tryNode.addChild(body);
+Node  tryNode = tryBody ( catchNode ) ;
+ Preconditions.checkState(tryNode);
+ Preconditions.checkState(catchNode.isCatch()); tryBody. addChildToBack(catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, catchNode, finallyBody);
+Node tryNode  = tryBody. nextChild ( ) ;
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody); }
+Node tryNode = tryCatch(tryBody, catch);
+Node tryNode  = block().copyInformationFrom(catchNode);
+ Preconditions.checkState(catchNode.isCatch();) ;
+ Preconditions.checkState(catchNode.isCatch()); return finallyBody; };
+ tryNode = tryNode.copyInformationFrom(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody, body);
+ Preconditions.checkState(catchNode.isCatch()); tryBody. addChildToBack(catchBody);
+ tryNode.addChildToBack(catchBody);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, null);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody, catchBody);
+ Preconditions.checkState(catchNode.isCatch()); } final
+ Preconditions.checkState(catchNode.isCatch()); return tryBody;
+ Preconditions.checkState(catchNode.isCatch()); return finallyBody; } static
+Node tryNode = tryCatch(tryBody, node catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return catchNode;
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody, finallyBody);
+ Preconditions.checkState(catchNode.isCatch()) return finallyBody;
+ Preconditions.checkState(catchNode.isCatch()); if (catchNode)
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CONFIRM);
+ Preconditions.checkState(catchNode.isCatch(); tryNode =
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody, catchNode);
+ Preconditions.checkState(tryNode.isCatch()); tryNode =
+Node  tryNode = this ;
+ tryNode = tryBody.copyInformationFrom(tryBody, catchNode);
+ Node tryNode = block(catchNode).tryCatch(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody) {
+Node tryNode = tryCatch(catchNode, tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch(tryBody));
+ tryNode = block(catchNode).copyInformation(tryBody, catchNode);
+ return new Node(Token.CATCH, tryBody, catchNode, finallyBody); } static
+ tryNode = tryBody. detach ( );
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH); };
+ Preconditions.checkState(catchNode.isCatch()); return catchNode; }
+ Preconditions.checkState(catchNode.isCatch()); } static
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody); };
+ Preconditions.checkState(catchNode.isCatch()); if (catchNode.isCatch())
+ Preconditions.checkState(catchNode.isCatch()); return catchNode; } static
+ return new Node(Token.CATCH, tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, body);
+ Node tryNode = new Node(catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.TRY, finallyBody); }
+ Node tryNode = tryBody.after(catchNode);
+ tryNode = block().copyInformationFrom(tryBody, catchNode);
+Node tryNode = tryCatchLast ( tryBody, catchNode ) ;
+Node tryNode = tryCatch(tryBody, catchNode) ; if (tryNode!= null)
+Node tryNode = tryCatch(tryBody, catchNode, false);
+ tryNode.addChild(catch);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, catchNode, body);
+ Preconditions.checkState(tryNode).tryCatch(tryBody, catchNode);
+ tryNode.addChildToBack(body);
+ tryNode.addChildToBack(catchNode);
+Node tryNode = tryCatch ( tryBody, catchNode, finallyBody )
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); if (tryNode)
+ Node tryNode = (tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, body);
+ Preconditions.checkState(catchNode.isCatch()); Node catchNode = null;
+ return new Node(Token.CATCH, tryBody, catchNode, finallyBody); } final
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CRAN, finallyBody);
+Node tryNode = tryCatch(tryBody, catchNode); return
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody); }
+ tryNode = block(catchNode).tryCatch(tryBody, catchNode);
+ Preconditions.checkState(catchNode == null);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (tryNode)
+Node tryNode = tryCatch(catchNode, tryBody, finallyBody);
+ return new Node(Token.CATCHFinally, catchNode);
+ tryNode.addChildToBack(block;
+ tryNode.addChildToFront(catchBody;
+Node  tryNode = block(tryBody, catch);
+ Preconditions.checkState(catchNode.isName());
+ Node tryNode;
+Node tryNode = tryCatch(tryBody, block, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.TRY, tryBody, catchNode);
+Node tryNode = tryCatch(tryBody,  catchNode).copyInformationFrom(catchNode);
+Node tryNode =  tryBody. removeChild ( catchNode ) ;
+Node tryNode = tryCatch(finallyBody, catchNode);
+ Preconditions.checkState(catchNode++);
+ (tryBody, catchNode);
+ tryNode.addChildToBack(catchNode;
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, catchNode); }
+ Node tryNode = new Node(Token.TRY, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); tryBody. addChildToBack(catchNode); }
+ Preconditions.checkState(tryNode.isBlock());
+ Preconditions.checkState(catchNode.isCatch()) Node tryNode =
+ return new Node(Token.CATCH, catchNode);
+Node  tryNode = block(tryBody); return
+ Preconditions.checkState(catchNode.isName());
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody, tryBody);
+Node  tryNode = (TryNode)
+ tryNode.tryCatch(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CONFIRMALLY); }
+Node  tryNode = catchNode ( tryBody);
+ tryNode.addChildToBack(tryBody, catchNode);
+ Node tryNode = try(body, catchNode);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody); } static
+ tryNode.addChild(tryBody, catchNode);
+ tryNode = try(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if ( tryNode!= null) {
+ Preconditions.checkState(catchNode is block());
+Node  tryNode = block(tryBody, body);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); if (tryNode) return
+ return new Node(Token.TRY, catchNode);
+ Node tryNode = copyInformationFrom(tryBody, catchNode);
+ Preconditions.checkState(block().tryCatch(tryBody, catchNode);
+Node  catchNode = block(catchNode);
+ tryNode;
+ tryFinally(tryBody, catchNode);
+Node tryNode = tryCatchFirst ( tryBody ) ;
+Node tryNode = tryCatch(tryBody, catchNode).copyInformationFrom(block);
+ Node tryNode = (Node)= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (tryNode) return
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, tryBody); } static
+ Preconditions.checkState(Block).tryCatch(tryBody, catchNode);
+ Preconditions.checkState(catchNode isCatch());
+Node tryNode = tryCatch(tryBody,  catchNode).copyInformationFrom(tryBody);
+ tryCatchFinally(catchNode);
+ Preconditions.checkState(tryNode!= null);
+ Preconditions.checkState(catchNode.isCatch()); return new Node(Token.CATCH, finallyBody); final
+ Preconditions.checkState(catchNode == null);
+ tryNode = tryBody.addChild(catchNode);
+ Preconditions.checkState(catchNode.isCatch()); Node catchNode = finallyBody();
+ tryNode.addChild(catchNode;
+ tryNode(tryBody, catchNode);
+ tryNode = block(catchNode); tryNode= tryCatch(tryBody, catchNode);
+ tryNode = block().tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (catchNode!= null)
+ Node tryNode = block().tryCatch(tryBody, catchNode);
+ Node tryNode = new Node(tryBody, catchNode);
+Node tryNode = tryCatch(body);
+ tryCatchFinally(tryBody, catchNode);
+ Preconditions.checkState(catchNode); final
+Node tryNode =  catchNode. addChild ( tryBody ) ;
+ Preconditions.checkState(tryNode.isName());
+ tryNode.addChild(catchNode);
+Node tryNode  = tryBody. cloneNode ( ) ;
+ Node tryNode|= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, null);
+Node tryNode = tryCatch(tryBody, catchNode) ; tryNode. addChild ( catch ) ;
+Node tryNode = tryCatch(tryBody, node, finallyBody);
+ Node tryNode = block(finallyBody);
+Node tryNode = tryCatch ( tryBody, catchNode, finally ) ;
+ Node tryNode = catchNode(catchNode);
+Node tryNode =  tryBody. addChild ( catchBody ) ;
+Node tryNode = tryCatch(TryBody, catchNode, finallyBody);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); return
+ return new Node(tryBody, catchNode);
+Node tryNode = tryCatchFinally(tryBody, body);
+ Preconditions.checkState(block).tryCatch(tryBody, catchNode);
+Node  tryNode = block();
+ Node tryNode = tryBody.append(catchNode);
+ Preconditions.checkState(tryBody==catchNode);
+ tryCatchFinally(tryBody, catchNode, finallyBody);
+ Preconditions.checkState(tryCatch());
+ tryNode.addChild(body;
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody, catchNode);
+ tryNode = Node tryBody;
+ Preconditions.checkState(block);
+ tryNode(catchNode);
+ Preconditions.checkState(catchNode.isCatch())); return
+ Preconditions.checkState(catchNode isBlock());
+ Preconditions.checkState(catchNode); }
+ Preconditions.checkState(tryBody).tryCatch(tryBody, catchNode);
+ tryNode = new Node(tryBody, catchNode);
+ return new Node(Token.CATCH, tryBody, body);
+ tryCatchFinally(tryBody, catch);
+ Preconditions.checkNode(finallyBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (catchNode!= null) {
+ tryNode = tryCatchFinally(tryBody, catchNode);
+ Preconditions.checkState(Block.tryCatch(tryBody, catchNode);
+ Preconditions.checkState(catchNode); return
+ Preconditions.checkNode(catchNode);
+ Preconditions.checkState(catchNode.isCase());
+ Preconditions.checkState(tryBody=catchNode);
+ Node tryNode = block(try,catchNode);
+ Node tryNode = _tryCatch(tryBody, catchNode);
+ Node tryNode = Block.tryCatch(tryBody, catchNode);
+ Node tryNode = tryTryFinally(tryBody, catchNode);
+ return new Node(Token.CATCH, finallyBody); }
+ return new Node(Token.CATCH, tryBody);
+Node  tryNode = node(this);
+Node tryNode = tryCatch(tryBody, catchNode, FinallyBody);
+ Node tryNode = BlockUtils.tryCatch(tryBody, catchNode);
+ Node tryNode; tryNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (tryNode!= null) return
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody());
+Node tryNode = tryCatch(tryBody, catchNode) ; tryNode. addChild ( body ) ;
+ Preconditions.checkState(tryCatch);
+Node tryNode = tryCatch(tryBody, catchNode) ; if ( tryNode instanceof Node ) {
+Node  tryNode = node ( ) ;
+ tryNode = tryNode.addChildToBack(tryBody, catchNode);
+ tryNode.addToBack(tryBody, catchNode);
+ Node tryNode = (tryBody);
+ Node catchNode = finallyBody; tryNode= tryCatch(tryBody, catchNode);
+ Node tryNode = Node tryBody;
+ return new Node(Token.CATCH, tryNode, body);
+Node tryNode = tryCatch(tryBody, catchNode); tryNode. addChild ( catchBody);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); if (tryNode) {
+ Preconditions.checkNode(tryNode);
+Node tryNode = tryCatch(tryBody, catchNode, tryBody);
+ Node tryNode = tryTry(catchNode);
+ return new Node(Token.CATCH, tryBody, body);
+ Node tryNode *= tryCatch(tryBody, catchNode);
+ tryNode. addChildToBack(catchNode, finallyBody);
+ Preconditions.checkState(block());
+Node tryNode = tryCatch(Node tryBody, catchNode);
+ Node tryNode[ 0 ]= tryCatch(tryBody, catchNode);
+ tryCatch(catchNode);
+ return new Node(Token.CATCH);
+ Preconditions.checkState(catch);
+ Node tryNode = block().copyInformationFromBack(tryBody, catchNode);
+ catchNode = tryBody;
+ Node catchNode = catchNode;
+Node tryNode = tryCatchFinally(tryBody, catch);
+ return new Node(Token.CATCH); }
+ return new Node(Token.CATCH, tryBody, catchNode); }
+ return tryNode);
+Node tryNode = tryCatch(tryBody, catchNode, tryBody.isCatch);
+Node tryNode = tryCatch(catchNode, tryBody);
+ tryNode = block().copyInformation(tryBody, catchNode);
+ return new Node(Token.CATCH, body, catchNode);
+ Node tryNode = tryBody ; tryNode= tryCatch(tryBody, catchNode);
+ tryNode = tryNode.replaceChild(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if ( tryNode instanceof Block ) {
+ Node catchNode = catchNode;tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if(finallyBody)
+ Preconditions.checkState(catchNode.isCatch()); tryCatchFinally(tryBody));
+ Preconditions.checkState(catchBody);
+Node tryNode =  block(tryNode).copyInformation(tryBody, catchNode);
+ tryNode.addChildToFront(catchNode);
+ Node catchNode = finallyBody;
+ Preconditions.checkState(tryCatch(tryBody, catchNode);
+ block(tryBody, catchNode);
+Node  tryNode = catchNode ( ) ;
+ Node catchNode = finallyBody ; Node tryNode= tryCatch(tryBody, catchNode);
+ if (catchNode.isCatch())
+ Preconditions.checkState(tryNode++);
+ tryCatchFinally(tryBody);tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (tryNode) {
+ Node tryNode = finallyBody ; tryNode= tryCatch(tryBody, catchNode);
+ Node catchNode = block(catchNode);tryNode = tryCatch(tryBody, catchNode);
+ tryNode = try(body, catchNode);
+ Preconditions.checkState(catchNode.isCatch(), finallyBody));
+ tryCatchFinally(tryBody, catch);tryNode = tryCatch(tryBody, catchNode);
+ tryNode.removeChild(body);
+Node tryNode =  tryBody. addChildToBack ( ) ;
+ tryNode.addChildBack(catchNode);
+ Node tryNode = block(body, catchNode);
+ Node tryNode [ ] tryNode= tryCatch(tryBody, catchNode);
+Node  tryNode = new tryNode();
+Node tryNode = tryCatch ( tryBody, catchNode )
+ return new Node(Token.CATCH, null, catchNode);
+ Node(catchNode)tryNode = tryCatch(tryBody, catchNode);
+ tryNode = Block(catchNode).tryCatch(tryBody, catchNode);
+Node  tryNode = node(tryBody);
+ Node tryNode = catchNode);
+ Node tryNode = this; tryNode= tryCatch(tryBody, catchNode);
+ TryCatch(tryBody, catchNode);tryNode = tryCatch(tryBody, catchNode);
+ tryCatchFinally(catchNode);tryNode = tryCatch(tryBody, catchNode);
+ tryNode.addToBack(catchNode);
+ tryNode.removeChildFromBack;
+ tryNode = tryNode.addChildToFront(tryBody, catchNode);
+Node  tryNode = body ;
+Node tryNode = tryCatch(tryBody,  catchNode).copyInformationFrom(tryNode);
+ Node tryNode = tryTry(tryBody, catchNode);
+ Node tryNode = try.catch(catchNode);
+ tryNode = block(body, catchNode);
+ tryNode = catchNode || body;
+ Preconditions.checkState(try);
+Node tryNode = tryCatch(catchNode, finallyBody);
+ Node tryNode = null; tryNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, null, catchNode);
+ tryNode.removeChild(catchNode);
+ tryNode.addChildToBack(body, catchNode);
+ tryNode.append(body);
+ Node tryNode = catchNode ; Node tryNode= tryCatch(tryBody, catchNode);
+ Node tryNode = this.tryCatch(tryBody, catchNode);
+Node tryNode =  tryBody.addChildToBack(tryBody, catchNode);
+ tryNode = block(tryBody);
+Node tryNode =  tryNode.copyInformationFrom(tryBody, catchNode);
+Node tryNode = tryCatch(Block(catchNode), tryBody, catchNode);
+ Node tryNode = finallyBody ; Node tryNode= tryCatch(tryBody, catchNode);
+ Node tryNode(catchNode);
+Node  tryNode = this.
+ Node tryNode(tryBody, catchNode);
+ Node tryNode = block(); tryNode= tryCatch(tryBody, catchNode);
+ tryNode = tryCatchFinallyBlock(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody, false);
+ Node tryNode = Block().copyInformation(tryBody, catchNode);
+ Preconditions.checkState(catchNode.isCatch())
+ tryTry(tryBody, catchNode);
+Node tryNode = tryCatch(catchNode, body);
+ Preconditions.checkState(catch);
+ tryNode = BlockUtils.tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, finallyBody);
+Node tryNode =  block().copyInformationFromBlock(tryBody, catchNode);
+Node tryNode =  block(); tryNode.copyInformation(tryBody, catchNode);
+ tryNode.addChildToBack(*catchNode);
+ Node tryNode = block(block().tryCatch(tryBody, catchNode);
+ tryNode = block().copyInformationFromBack(tryBody, catchNode);
+ tryCatchFinally(Node tryNode);tryNode = tryCatch(tryBody, catchNode);
+ Node tryNode = tryCatchFinallyNode(tryBody, catchNode);
+Node tryNode =  block(catchNode); tryFinally(tryBody, catchNode);
+ Node tryNode = tryBody ; Node finallyBody= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally(tryBody); return
+ Node tryNode = block(block).tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally(catchNode);
+ if (catchNode.isBlock())
+Node tryNode = tryCatch(tryBody, catchNode, ifCatch);
+ tryBody = block(catchNode);
+ Node tryNode = (Node)tryCatch(tryBody, catchNode);
+ if(catchNode!= null);
+Node tryNode = tryCatch(try, catchNode);
+ Node tryNode = block().copyChildren(tryBody, catchNode);
+Node tryNode =  block().copyInformationFromFront(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (catchNode)
+Node  catchNode = catchNode;
+ tryNode = tryCatchFinallyWithBlock(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) + finallyBody;
+ Node (tryNode)= tryCatch(tryBody, catchNode);
+ return try(tryBody, catchNode);
+ tryCatchFinally(tryBody, catch)tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody.isCatch);
+ return tryFinally(tryBody, catchNode);
+Node tryNode =  block().copyInformationInformationFrom(tryBody, catchNode);
+ tryCatchFinally(tryBody);
+ Node tryNode = block(catchNode); _tryCatch(tryBody, catchNode);
+ return block(tryBody, catchNode);
+ Node catchNode = catchNode();
+ tryNode = catch(tryBody, catchNode);
+ tryNode.removeChild();
+Node tryNode = tryCatch(tryBody, block);
+Node tryNode = tryCatch(tryBody catchNode);
+ tryNode = block(this).tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally(tryBody, catchNode); return
+ return new Node(Token.CATCH, tryBody); }
+ tryNode.tryNode = tryCatch(tryBody, catchNode);
+ tryTryFinally(tryBody, catchNode);
+ return tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(Node tryBody, finallyBody, catchNode);
+ Node tryNode = nodeFactory.tryCatch(tryBody, catchNode);
+ tryNode = tryFinally(catchNode);
+ tryNode = finally(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, tryBody, catchNode);
+ tryNode = Block.tryCatch(tryBody, catchNode);
+ Node tryNode [ ] ]= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(TryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, catchNode);
+Node tryNode = tryCatch(tryBody, CatchNode, finallyBody);
+Node tryNode = tryCatch(tryBody, null);
+Node tryNode = tryCatch(tryBody, catchNode, block());
+ tryBody(tryBody, catchNode);
+ return null;
+ catchNode = body;
+Node tryNode = tryCatch(tryBody, catchNode, node, block);
+ tryNode = block(block).tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(TryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (catchNode) return
+Node tryNode = tryCatch ( ) ;
+Node tryNode = tryCatch(tryBody, catchNode) ; if ( tryNode instanceof Node ) return
+Node tryNode = tryCatch(tryBody, catchBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode), finallyBody);
+ tryNode = catchNode);
+Node tryNode = tryCatch(node, body);
+Node tryNode = tryCatch(catchNode, tryBody, finallyBody); return
+ Node catchNode = catchNode (catchNode);tryNode = tryCatch(tryBody, catchNode);
+ Node tryNode = self.tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(FinallyBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; if (!tryNode)
+Node tryNode = tryCatch(tryBody); return
+Node tryNode = tryCatch(tryBody, FinallyBody, catchNode);
+ return catchNode; }
+ return tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, true, catchNode);
+ tryCatchFinally(tryBody, catch).tryNode = tryCatch(tryBody, catchNode);
+ Node(tryNode)tryNode = tryCatch(tryBody, catchNode);
+ Node catchNode = body;
+Node tryNode = tryCatch(tryBody, body, catchNode);
+Node tryNode = tryCatch ( tryBody, catchNode, finallyBody ;
+ tryCatchFinally(Node)tryNode = tryCatch(tryBody, catchNode);
+Node tryNode =  node().copyInformationFrom(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; Node tryNode =
+ return new Node(Token.CATCH, *tryBody, catchNode);
+ return catchNode;
+ TryNode = block(catchNode);
+ return block(tryNode);
+ tryNode = _tryCatch(tryBody, catchNode);
+ Node catchNode = block();tryNode = tryCatch(tryBody, catchNode);
+ return finallyBody; }
+ Node catchNode = tryBody;tryNode = tryCatch(tryBody, catchNode);
+Node  (tryNode)
+Node tryNode  = catch(catchNode);
+ tryCatchFinally(Node tryNode)tryNode = tryCatch(tryBody, catchNode);
+ Node tryNode = node.tryCatch(tryBody, catchNode);
+ try(catchNode)tryNode = tryCatch(tryBody, catchNode);
+ Node catchNode = finallyBody();
+ Node tryNode.tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(TryCatchFinally, tryBody, catchNode);
+ Node catchNode = body();
+ return finallyBody; } static
+ TryNode tryNode;
+Node tryNode = tryCatch(try, finallyBody, catchNode);
+ Node catchNode = tryNode;tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, finallyBody, tryBody, catchNode);
+Node tryNode = tryCatch(finallyBody);
+ tryNode = this;
+Node tryNode = tryCatch(Token.CATCH, tryBody, catchNode);
+ return (tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, node, block);
+ TryBody = block(catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; Node finallyBody =
+Node tryNode =  tryCatchTryFinally(tryBody, catchNode);
+ Node tryNode &= tryCatch(tryBody, catchNode);
+ Node tryCatchNode= tryCatch(tryBody, catchNode);
+ Block.tryCatch(tryBody, catchNode);
+ Node tryNode = new Node(= tryCatch(tryBody, catchNode);
+ try(catchNode);
+ return block(tryBody);
+Node tryNode = tryCatch(tryBody, catchNode, function(finallyBody);
+ return catchNode;
+ tryNode.append(catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, function(tryBody);
+Node tryNode = tryCatch(Block(catchNode)), tryBody, catchNode);
+ Node tryNode = tryNode += tryCatch(tryBody, catchNode);
+ tryNode.next = null;
+ return catchNode; } static
+Node tryNode = tryCatch(Node tryBody);
+ if(catchBody);
+ Node tryNode [ ] *= tryCatch(tryBody, catchNode);
+ return catchNode; };
+ tryBodyFinally(catchNode);
+Node tryNode = tryCatch(Node(Token.CATCH, tryBody, catchNode);
+ Node tryNode = newtryCatch(tryBody, catchNode);
+ tryCatchFinally(Node tryNode,tryNode = tryCatch(tryBody, catchNode);
+ tryNode.next = this;
+ block(tryNode);
+Node tryNode = tryCatch(catchNode, finallyBody); return
+Node tryNode = tryCatch(tryBody, catchNode, FALLYBody);
+ tryNode = null;
+ Node(tryBody)tryNode = tryCatch(tryBody, catchNode);
+ return finallyBody;
+ return finallyBody; };
+ tryNode = tryTry(tryBody, catchNode);
+ tryCatchFinally(catchNode)tryNode = tryCatch(tryBody, catchNode);
+ return (tryNode);
+Node tryNode = tryCatch(TryBody, catchNode); return
+ node(tryBody, catchNode);
+ copy(tryBody, catchNode);
+ if(catchNode);
+ return tryBody;
+ if (catchNode.isBlock());
+ Node tryNode(body, catchNode);
+ tryCatchFinally(tryBody)tryNode = tryCatch(tryBody, catchNode);
+ Preconditions.tryCatch(tryBody, catchNode);
+ tryNode = this.tryCatch(tryBody, catchNode);
+ Node tryNode = node(catchNode);
+Node  body =
+Node tryNode = tryCatch ( tryBody )
+Node tryNode = tryCatch(tryBody, catchNode, (Node)finallyBody);
+Node tryNode = tryCatch(Block(finallyBody), tryBody, catchNode);
+Node tryNode = tryCatch(Token.TRY, tryBody, catchNode);
+ Node catchNode = catchNode ; Node newtryNode = tryCatch(tryBody, catchNode);
+ return tryBody; } static
+ return tryNode.tryCatch(tryBody, catchNode);
+Node (tryNode);
+Node tryNode = tryCatch(Node.TRY, tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, finallyBody); }
+ return catch(tryBody, catchNode);
+Node tryNode = tryCatch(this.tryCatchFinally, tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, tryBody.isBlock());
+ Try tryNode = try(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) ; Node finallyNode =
+Node tryNode = tryCatch(node catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, tryCatchFinally);
+Node tryNode = tryCatch(Block(tryBody), tryBody, catchNode);
+ Node tryNode = (Node) node= tryCatch(tryBody, catchNode);
+ Node tryNodeWithBody= tryCatch(tryBody, catchNode);
+ Node tryNode=tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(catchNode); return
+Node tryNode = tryCatch(tryBody, catchNode, function(catchNode);
+ tryCatchFinally(catchNode).tryNode = tryCatch(tryBody, catchNode);
+ tryNode =.tryCatch(tryBody, catchNode);
+ return null;
+Node tryNode = tryCatch(tryCatchFinally, tryBody, catchNode);
+Node tryNode = tryCatch(Block().copyInformationFrom, tryBody, catchNode);
+ Node catchNode();
+Node tryNode = tryCatch(node tryBody, catchNode);
+ return catchNode);
+ final
+Node tryNode = tryCatch(tryBody, catchNode) ; if (catch)
+ return finally(tryBody, catchNode);
+ Node newTryNode= tryCatch(tryBody, catchNode);
+ Callback(catchNode);tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) + 1;
+Node tryNode = tryCatch(tryBody, catchNode) ; if (try)
+ tryNode = (catchNode);
+Node tryNode =  tryNode().copyInformation(tryBody, catchNode);
+Node tryNode = tryCatch(FinallyBody, tryBody, catchNode);
+Node tryNode = tryCatch(Block(catchNode, tryBody, catchNode);
+ tryBodyBlock(catchNode);
+Node  tryNode; return
+Node  tryNode = await
+ (tryBody);
+Node tryNode = tryCatch(catchBody, tryBody, catchNode);
+ catch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, tryNode, finallyBody);
+ Node tryNode_tryNode = tryCatch(tryBody, catchNode);
+ Node catchNode;
+Node tryNode = tryCatch(finallyBody, tryBody, catchNode);
+ Node tryNode.body= tryCatch(tryBody, catchNode);
+ return tryBody);
+ Node(Node)tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(Block(block)), tryBody, catchNode);
+Node tryNode =  Node.newNode(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, node, block, catchNode);
+ (tryNode);
+Node tryNode = tryCatch(tryBody, catchBody);
+Node tryNode = tryCatch(tryBody, catchNode, (Node) null);
+Node tryNode = tryCatch(tryBody, catch());
+Node  result =
+ return Block.tryCatch(tryBody, catchNode);
+ tryNode);
+ return block().tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(Node tryBody, tryBody, catchNode);
+Node tryNode = tryCatch(Block(finallyBody)), tryBody, catchNode);
+Node tryNode = tryCatch(this);
+Node tryNode  = tryBody. clone ( ) ; #
+Node  ret =
+ return tryNode;tryNode = tryCatch(tryBody, catchNode);
+Node  node =
+ return tryNode, catchNode);
+Node tryNode = tryCatch (try);
+ tryBody.tryNode = tryCatch(tryBody, catchNode);
+ Node newtryNode = tryCatch(tryBody, catchNode);
+ Node catchNode = finallyBody ; final
+Node tryNode = tryCatch(tryBody, catchNode, tryBody, block);
+ (tryNode, catchNode);
+Node tryNode =  new TryNode(tryBody, catchNode);
+Node tryNode =  new TryFinally(tryBody, catchNode);
+Node tryNode = tryCatch (block);
+ block().tryCatch(tryBody, catchNode);
+ copyInformationFrom(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, Node finallyBody);
+ return super.tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) + body;
+ TryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally(tryBody) +
+Node tryNode = tryCatch(tryBody, catchNode) + tryBody;
+Node tryNode = tryCatch(catch);
+Node tryNode = tryCatch(tryBody, catchNode) +
+Node  try =
+ Node.tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(catchBody);
+ return _tryCatch(tryBody, catchNode);
+ Node oldtryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(Node catchNode);
+ return null;tryNode = tryCatch(tryBody, catchNode);
+ return finallyBody;
+Node tryNode = tryCatch(tryBody, catchNode), finallyBody;
+ try {
+ return tryBody;
+Node tryNode = tryCatch(tryBody, catchNode) ; tryNode &&
+ tryBody;
+ finally(tryBody, catchNode);
+ copyInformation(tryBody, catchNode);
+ super.tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) - 1;
+ tryNode, catchNode);
+ tryFinally(catchNode);
+Node tryNode = tryCatch(tryBody, tryNode);
+ yield(tryBody, catchNode);
+ Node _tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(in tryBody, catchNode);
+Node  catchNode =
+ tryTry(catchNode);
+ tryBody);
+ Node this.tryNode = tryCatch(tryBody, catchNode);
+ assertBlock(catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) + block;
+ try body, catchNode);
+Node tryNode  = new
+ return try(catchNode);
+ return body;
+Node tryNode = tryCatch(TryBody);
+Node tryNode  = +
+ try(, catchNode);
+ assert false;
+ (body, catchNode);
+ } static
+ (block);
+ tryBody,tryNode = tryCatch(tryBody, catchNode);
+ (break);
+ return(catchNode);
+ return();
+Node tryNode = tryCatchFirst();
+ } final
+ return this;
+ try(catchNode);
+ return };
+Node tryNode = tryCatch(Block, tryBody, catchNode);
+ yield(catchNode);
+ return try;
+Node tryNode = tryCatch(catchFunction, tryBody, catchNode);
+Node tryNode = tryCatch(block, catchNode);
+ return try();
+Node  attemptNode =
+ TryNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchFinally;
+ node tryNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatchLast();
+Node tryNode =  makeTry(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody) +
+Node tryNode =  TryFinally(tryBody, catchNode);
+Node tryNode = tryCatchNext();
+ Try node= tryCatch(tryBody, catchNode);
+ Node catchNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(catchBody, catchNode);
+Node tryNode = tryCatch(tryBody, true);
+Node tryNode =  finally(tryBody, catchNode);
+ try node= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(this, catchNode);
+ Node ifNode= tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, tryBody);
+ node.tryNode = tryCatch(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody)) ;
+Node tryNode ; =
+ Node attemptNode= tryCatch(tryBody, catchNode);
+Node tryNode =  catch(tryBody, catchNode);
+Node tryNode = tryCatch(true, tryBody, catchNode);
+Node tryNode = tryCatch(tryNode, catchNode);
+Node tryNode =  if(tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, catchBody);
+Node tryNode = tryCatch(this, tryBody, catchNode);
+ }
+Node tryNode = tryCatch(tryBody, catchNode) { return
+Node tryNode = tryCatch(Body, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode, finallyNode);
+Node tryNode = tryCatch(tryBody, catchNode, thenBody);
+Node tryNode = tryCatch(null, tryBody, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) { }
+Node tryNode = tryCatch(true, catchNode);
+Node tryNode = tryCatch(tryBody, catchNode) {};
+ };
+Node tryNode; tryCatch(tryBody, catchNode);
+Node tryNode: tryCatch(tryBody, catchNode);
+Node tryNode := tryCatch(tryBody, catchNode);

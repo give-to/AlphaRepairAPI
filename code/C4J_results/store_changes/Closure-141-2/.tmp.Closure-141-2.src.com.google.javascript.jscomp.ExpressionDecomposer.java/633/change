@@ -1,0 +1,652 @@
+return isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot);
+ return expressionRoot;
+return  canExposeExpression(expressionRoot, subExpression);
+ return DecompositionType.isSubexpressionMovable(expressionRoot, subExpression);
+ return _isSubexpressionMovable(expressionRoot, subExpression);
+ return expressionRoot);
+ return true;
+return isSubexpressionMovable(subExpression);
+ return isExpressionMovable(expressionRoot, subExpression); } else {
+ return canExpose(expressionRoot, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot) {
+ return canExposeExpression(expressionRoot);
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot!= null) {
+ return isExpressionMovable(expressionRoot, subExpression); } if (expressionRoot) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null)
+ return isExpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null) {
+ return canExposeExpression(expressionRoot, subExpression); }
+ return canExposeExpression(expressionRoot); } else {
+ return isExpressionMovable(expressionRoot, subExpression); }
+ return canExposeExpression(expressionRoot, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot!= null)
+ return canExposeExpression(expressionRoot, subExpression); } else {
+ return isExpressionMovable(expressionRoot, subExpression); } else if (expressionRoot!= null) {
+ return isExpressionMovable(expressionRoot, subExpression);
+ return isExpressionMovable(expressionRoot, subExpression); } if ( expressionRoot!= null )
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot) {
+return isSubexpressionMovable(expression);
+ return expressionRoot.canExpose(subExpression);
+ return isExpressionMovable(expressionRoot, subExpression); } } else {
+ return isSubexpressionMovable(expressionRoot, subExpression); } else {
+ return isSubexpressionMovable(expressionRoot, subExpression); } } else {
+ return canExposeExpression(expressionRoot, subExpression); } if (expressionRoot) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && subExpression) {
+ return isExpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && subExpression) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if ( expressionRoot instanceof Node ) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= subExpression) {
+ return DecompositionType.DECOMPOSABLE;
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot!= expression) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot instanceof Call) {
+ return canExposeExpression(root, subExpression);
+ return canExposeExpression(this, subExpression);
+ return canExposeExpression(root);
+ return canExpose(expressionRoot);
+ return canExposeExpression(expressionRoot, subExpression); } } else {
+ return canExposeExpression(null, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot instanceof Call) {
+ isSubexpressionMovable(expressionRoot, subExpression); } if ( expressionRoot ) {
+ return canExposeExpression(expressionRoot*, subExpression);
+ return isExpressionMovable(expressionRoot); } else {
+ return canExposeExpression(expressionRoot); }
+ return DecompositionType._isSubexpressionMovable(expressionRoot, subExpression);
+ return expressionRoot == subExpression;
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expression) {
+ return canExposeExpression(subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot instanceof Node) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot instanceof CallSite) {
+ return (expressionRoot);
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot)
+return  expressionRoot!= null;
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot instanceof CallStatement) {
+ return expressionRoot.equals(subExpression);
+ return canExposeExpression(expressionRoot, subExpression); } if (legal) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot!= undefined) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot == null || expressionRoot!= null) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot!= this) {
+ return DecompositionType.MOVABLE; if (expressionRoot) {
+ return isSubexpressionMovable(expressionRoot, subExpression); }
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot instanceof Call) {
+ return CanExposeExpression(expressionRoot);
+ return isExpressionMovable(expressionRoot, subExpression); } if (expression) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot instanceof Node) {
+ return canExposeExpression(expression);
+ return isSubexpressionMovable(expressionRoot, subExpression);
+ return isExpressionMovable(expressionRoot); }
+ return canExposeExpression(expressionRoot);
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot!= null && expressionRoot) {
+ return DecompositionType.MOVABLE; if (expressionRoot == null)
+ return canExposeExpression(expressionRootNode, subExpression);
+ isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot)
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot instanceof CallNode) {
+ return isExposeExpressionMovable(expressionRoot, subExpression); }
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot instanceof CallStatement) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } else if (expressionRoot instanceof CallSite) {
+ return true; } else {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot instanceof CompoundStatement) {
+ return isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot == null || expressionRoot instanceof Node) {
+ return DecompositionType.MOVABLE; if (expressionRoot == null) {
+ return canExposeExpressionImpl(expressionRoot, subExpression);
+ return isExposeExpressionMovable(expressionRoot, subExpression);
+ return CanExposeExpression(expressionRoot, subExpression);
+ return DecompositionType.CONFIGURED;
+ return canExposeExpression(expressionRoot.*, subExpression);
+ return isExposeExpressionMovable(expressionRoot); } else {
+return isSubexpressionMovable ( expressionRoot, true ) ;
+ return expressionRoot.contains(subExpression);
+ return DecompositionType.MOVABLE; if (expressionRoot!= null)
+ return DecompositionTypeImpl.isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpression(expressionRoot++, subExpression);
+return isSubexpressionMovable(expressionRoot*, subExpression);
+ return isExpressionMovable(expressionRoot, subExpression); } else
+ return DecompositionType.MOVABLE; } if (expressionRoot == null)
+ return DecompositionType.MOVABLE; if (expressionRoot!= null) {
+return isSubexpressionMovable ( expressionRoot, false ) ;
+ return isExpressionMovable((expressionRoot, subExpression)); } else {
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return false ; }
+ return expressionRoot.type;
+ return DecompositionType.INCLUDE;
+ return expressionRoot++;
+ return expressionRoot(subExpression);
+ return DecompositionType.MOVABLE; } if (!expressionRoot)
+ return isSubexpressionMovable(expressionRoot); } else {
+ return findExpressionRoot(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return false ;
+ return canExposeExpression(expressionRoot, subExpression); } else
+ return canExposeExpression(expressionRoot.subExpression);
+ return CanExposeExpression(subExpression);
+ return false; } else {
+ return expressionRoot == originalLocation;
+return isSubexpressionMovable(expressionRoot, subExpression); } else { return! subExpression ;
+ return canExposeExpression(expression, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } else
+ return DecompositionType.__isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpressionInContext(expressionRoot, subExpression);
+ return canExposeCall(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return subExpression ;
+ expressionRoot = findExpressionRoot(expressionRoot);
+ return expressionRoot.canExpression(subExpression);
+ return isExpressionMovable(expressionRoot);
+ return canExpose(null, subExpression);
+return isSubexpressionMovable(expressionRoot. parent, subExpression);
+ return isExpressionMovable(expressionRoot, expression); }
+ return DecompositionType.Movable.isSubexpressionMovable(expressionRoot, subExpression);
+ return DecompositionType.MOVABLE if (expressionRoot!= null) {
+ return canExposeExpressionInPlace(expressionRoot, subExpression);
+ return canExposeExpressionExpression(subExpression);
+ isSubexpressionMovable(expressionRoot, subExpression); } if (expression) {
+ return DecompositionType.MOVABLE if (expressionRoot) {
+ return canExposeExpressionInternal(expressionRoot, subExpression);
+ return canExpose(root, subExpression);
+ return expressionRoot.canExposeExpression(subExpression);
+ return DecompositionType.DECOMPOSE;
+ return CanExposeExpression(expression);
+ if (expressionRoot!= null) {
+ return canExposeExpressionAt(expressionRoot, subExpression);
+ return expressionRoot.canExposeNode(subExpression);
+ return DecompositionType.MOVABLE(expressionRoot, subExpression);
+ return DecompositionType.X.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression);
+ return DecompositionType.MOVABLE;
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return null ;
+return isSubexpressionMovable(expressionRoot, canExposeExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return false ; } }
+return isSubexpressionMovable ( expressionRoot. getNext ( ) ) ;
+ return expressionRoot, subExpression);
+ return DecompositionType.MOVABLE if (expressionRoot!= null)
+ return DecompositionType.MOVABLE; return expressionRoot;
+ expressionRoot = findExpressionRoot(expressionRoot); }
+ return isExposeExpression(expressionRoot); }
+ return DecompositionType.MOVABLE.isSubexpressionMovable(expressionRoot, subExpression);
+ return DecompositionType.MOVABLE if (expressionRoot!= null);
+ return expressionRoot is MOVABLE;
+ return isExpressionMovable(expressionRoot); } else
+ return DecompositionType.MOVABLE if (expressionRoot == null)
+ return expressionRoot == this;
+ return canExposeExpressionWithLocation(expressionRoot, subExpression);
+ return canExpose(this, subExpression);
+ return canExpose(subExpression);
+ return expressionRoot.canInline(subExpression);
+ return canExposeExpressionIn(expressionRoot, subExpression);
+ return DecompositionType.INCLUDEExpression;
+ return canExposeExpression(expressionRoot++);
+return isSubexpressionMovable(expressionRoot).canExpose(subExpression);
+ return canExposeExpression(expressionRoot); } else
+ return DecompositionType.EXPOSABLE;
+return isSubexpressionMovable(expressionRoot.nextSibling, subExpression);
+ return CanExposeExpression(root);
+return isSubexpressionMovable(root);
+return isSubexpressionMovable(expressionRoot, subExpression); *
+ return canExposeExpression(this);
+ return canExposeExpressionWithRoot(expressionRoot, subExpression);
+ return ExpressionType.DECOMPOSABLE;
+ return DecompositionType.canExposeCall(expressionRoot, subExpression);
+ return canExposeExpression(expressionRoot).isSubexpressionMovable(expressionRoot, subExpression);
+ return DecompositionType.MOVABLE; if (expressionRoot!= this) {
+ return canExposeSubExpression(expressionRoot, subExpression);
+ return DecompositionType.COMPOSITIVE;
+ return DecompositionType::_isSubexpressionMovable(expressionRoot, subExpression);
+ return! isSubexpressionMovable(expressionRoot); }
+ return isSubexpressionMovable(expressionRoot, subExpression); } if ( expressionRoot == null ) { return null ; }
+ return canExpose(root);
+ return DecompositionType.COMPOSIBLE;
+ return DecompositionType.DECOMPOS;
+return  expressionRoot == expressionRoot;
+return  expressionRoot == null;
+ return DecompositionType.MOVABLE_isSubexpressionMovable(expressionRoot, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } if ( expressionRoot == null ) { return false ; }
+return isSubexpressionMovable(expressionRoot, subExpressionNode);
+ return DecompositionType.can_isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeNode(expressionRoot, subExpression);
+ return canExposeExpression(expressionRoot, subExpression); } }
+ return CanExposeExpression(expressionRoot*, subExpression);
+return  expressionRoot == expression;
+ return DecompositionType.MOVABLE; } else {
+ return canExposeExpressionInplace(expressionRoot, subExpression);
+ return isSubexpressionMovable(expressionRoot, subExpression); } if ( expressionRoot == null ) { return true ; }
+ return canExposeExpression, subExpression);
+ expressionRoot = findExpressionRoot(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return true ; }
+return isSubexpressionMovable(expressionRoot, subExpression)? expressionRoot : subExpression;
+ return canExposeExpression(expressionRoot*);
+ return canExposeExpression(expressionRoot); *
+ return expressionRoot. isCall ( ) ;
+ return DecompositionType.MOVABLE; } if (expressionRoot == null){
+return isSubexpressionMovable(subExpression, expressionRoot);
+ return canExposeCall(subExpression);
+ return DecompositionType.MOVED(expressionRoot, subExpression);
+ return canExposeExpressionInner(expressionRoot, subExpression);
+return  expressionRoot!= this;
+return isSubexpressionMovable(expressionRoot, true, subExpression);
+ return DecompositionType.canExpose(expressionRoot, subExpression);
+ return canExposeExpression(); } else {
+ return canExposeExpression(expressionRoot.*);
+return isSubexpressionMovable ( expressionRoot, subExpression )
+return isSubexpressionMovable(expressionRoot, canExposeExpression());
+return isSubexpressionMovable ( expressionRoot ) ; } return false ;
+return isSubexpressionMovable(expressionRoot. getParent ( ), subExpression);
+return isSubexpressionMovable ( expressionRoot. parent ( ) ) ;
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return null ; }
+ return canExpose(expression, subExpression);
+ return DecompositionType.MOVABLE; } return false;
+return isSubexpressionMovable(expressionRoot) && expressionRoot!= null;
+return isSubexpressionMovable ( ) ;
+ return canExposeExpressionWithExpression(expressionRoot, subExpression);
+ return DecompositionType.canExposeNode(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return null ; } }
+ return CanExpose(expressionRoot);
+ return DecompositionType.this.isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpressionInExpression(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return true ;
+return isSubexpressionMovable(expressionRoot, "canExposeExpression);
+return isSubexpressionMovable(expressionRoot, subExpressionRoot);
+ return contains(expressionRoot, subExpression);
+ return DecompositionType.CANEXPOSEAST(expressionRoot, subExpression);
+ if (expressionRoot!= this) {
+return isSubexpressionMovable ( expressionRoot, null ) ;
+ return canExposedExpression(expressionRoot, subExpression);
+ return canExposeExpression($root, subExpression);
+return isSubexpressionMovable(expressionRoot); } else { return! subExpression ;
+ return expressionRoot!= - 1;
+ return canExpose(expression);
+ return this);
+return isSubexpressionMovable(expressionRoot, subExpression); } else { return false ; } } }
+return isSubexpressionMovable ( expressionRoot, subExpression ) ; }
+ return DecompositionType.MAJOR.isSubexpressionMovable(expressionRoot, subExpression);
+ return expressionRoot.compose(subExpression);
+ return CanExposeExpression(expressionRoot); *
+ return DecompositionType.REWRITE(expressionRoot).value;
+ return "(expressionRoot);
+return isSubexpressionMovable(expressionRoot); } else { return false;
+return isSubexpressionMovable(expressionRoot), subExpression;
+ isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot).
+ return true);
+ isSubexpressionMovable(expressionRoot, subExpression); } if (expressionRoot);
+return isSubexpressionMovable(expressionRoot, subExpression) && expressionRoot!= null;
+return isSubexpressionMovable(expressionRoot. getPath ( ), subExpression);
+return isSubexpressionMovable(expressionRoot, expressionRoot);
+ return canApplyExpression(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return true ; } }
+ return canExpression(expressionRoot, subExpression);
+ return DecompositionType.X_isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot. parentNode, subExpression);
+return isSubexpressionMovable(expressionRoot), subExpression);
+ return DecompositionType.canReisSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpressionImpl(subExpression);
+ return canMove(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, this, subExpression);
+ return isExpressionMovable(expressionRoot, subExpression));
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return 0 ; }
+return isSubexpressionMovable(callSite, expressionRoot, subExpression);
+ return DecompositionType.Movable_isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot)? true : false;
+ expressionRoot = findExpressionRoot(expression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return null ; } } }
+ if (expressionRoot) {
+ if (subExpression) {
+ return expressionRoot == currentLocation;
+ expressionRoot.remove(subExpression);
+ return this.isSubexpressionMovable(expressionRoot, subExpression);
+ return function(expressionRoot);
+return isSubexpressionMovable(expressionRoot, subExpressionLocation);
+return isSubexpressionMovable(expressionRoot,  subExpression) ; } return false ;
+ return expressionRoot == callSite;
+return isSubexpressionMovable(expressionRoot, subExpression, "canExposeExpression");
+ if (expressionRoot!= null)
+return isSubexpressionMovable(expressionRoot).canExposeExpression(this);
+ if (expressionRoot!= expressionRoot)
+return isSubexpressionMovable(expressionRoot); } else { return false ; }
+ return DecompositionType.CONFIGUREOR(expressionRoot, subExpression);
+ return DecompositionType.MODABLE.isSubexpressionMovable(expressionRoot, subExpression);
+ expressionRoot.add(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression).*;
+ return DecompositionType.MODIFIED.isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpressionInNewLocation(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, "canExposeExpression");
+ expressionRoot.append(subExpression);
+ return DecompositionType.canExposeFunction(expressionRoot, subExpression);
+ return canExposeExpression ( expressionRoot ) ; }
+return isSubexpressionMovable(expressionRoot, subExpression.nextSibling);
+return isSubexpressionMovable(subExpression, expressionRootNode);
+ if (expressionRoot!= rootNode) {
+ return canExposeExpression(expressionRoot, true); *
+ return DecompositionType.COMPOSIBLE.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.path ( ), subExpression);
+ return DecompositionType.MOVABLE; } else { return;
+return isSubexpressionMovable(expressionRoot, subExpression) || expressionRoot == null;
+return isSubexpressionMovable(expressionRoot, subexpression);
+return isSubexpressionMovable(expressionRoot.nextChild (...), subExpression);
+ return canInject(expressionRoot, subExpression);
+ return compose(expressionRoot, subExpression);
+ return expressionRoot.canApply(subExpression);
+ return DecompositionType.INCLUDEExpression();
+return isSubexpressionMovable ( expressionRoot ) ; } return false ; }
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return "unknown expression" ;
+return isSubexpressionMovable(expressionRoot); } else { return! expressionRoot ;
+ return canExpression(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } return false ; }
+return isSubexpressionMovable(expressionRoot.next ( ), subExpression);
+ return false; }
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return 0 ; } }
+ return CompilationContext.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(subExpression, expressionRoot, true);
+ return DecompositionType.MAKE.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.parentNodes, subExpression);
+ return DecompositionType.(expressionRoot);
+return isSubexpressionMovable(subExpression, expressionRoot, false);
+ return getType(expressionRoot);
+ return CompressionType.MOVABLE;
+ return canExposed(expressionRoot, subExpression);
+ return!expressionRoot;
+ return null; } else {
+return isSubexpressionMovable(expressionRoot.parent ( ), subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } else { return "not found" ;
+return  expressionRoot; *
+return isSubexpressionMovable(expressionRoot,  true); } else { return false ; } }
+ return canExposeExpression(expressionRoot, false); *
+ return expressionRoot. type!= null;
+return isSubexpressionMovable(expressionRoot).canExposeExpression(call);
+return isSubexpressionMovable(expressionRoot, subExpression, "canExposeExpression);
+return isSubexpressionMovable(expressionRoot. firstChild, subExpression);
+ return canExposeFunction(expressionRoot, subExpression);
+ return expressionRoot. isFunction ( );
+ return this; } else {
+ return canExposeExpression(expressionRoot); } *
+ return expressionRoot.next(subExpression);
+ return ((expressionRoot);
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression, false);
+ return DecompositionType.REWRITE(expressionRoot).value();
+ return apply(subExpression);
+return isSubexpressionMovable(expressionRootNode, subExpression);
+ return ExpressionHelper.isSubexpressionMovable(expressionRoot, subExpression);
+ return canInline(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression, true);
+return isSubexpressionMovable(expressionRoot.nextChild ( ), subExpression);
+return isSubexpressionMovable ( expressionRoot, subExpression));
+return isSubexpressionMovable(expressionRoot, subExpression); } *
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression(), false);
+return  expressionRoot!= null; *
+ return expressionRoot instanceof CallStatement;
+return isSubexpressionMovable(expressionRoot, originalLocation);
+ return combine(expressionRoot, subExpression);
+return  expressionRoot == this; *
+ return expressionRoot.equal(subExpression);
+return isSubexpressionMovable(subExpression, expressionRoot.parentNode);
+return isSubexpressionMovable(expressionRoot, originalLocation, subExpression);
+ return expressionRoot. isCall (...);
+ return expressionRoot.edge(subExpression);
+ return CanExposeExpression(expressionRoot); } *
+return isSubexpressionMovable(expressionRoot, subExpression, true); *
+return isSubexpressionMovable(expressionRoot, subExpression, true, false);
+return isSubexpressionMovable(expressionRoot,  subExpression) == true;
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression(), true);
+return isSubexpressionMovable(expressionRoot, true); *
+return isSubexpressionMovable(subExpression, expressionRoot.nextChild);
+return isSubexpressionMovable(expressionRoot); } else { return false ; } }
+return isSubexpressionMovable(expressionRoot.nextSibling);
+ return expressionRoot*;
+ return Compiler.isSubexpressionMovable(expressionRoot, subExpression);
+ return isCall(expressionRoot);
+ return containsExpression(expressionRoot, subExpression);
+ return CompilationHelper.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot); } else { return false ; } } }
+return isSubexpressionMovable(expressionRoot, * subExpression);
+ return getExpressionType(root);
+ return canExposeexpressionRoot);
+ return RecompositionType.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, canExposeExpressionFunction);
+ if (expressionRoot)
+return isSubexpressionMovable(expressionRoot, subExpression, false); *
+return isSubexpressionMovable(expressionRoot); } else { return false; *
+ return astHelper.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, newLocation);
+ return canExposeExpression(); } else
+return  expressionRoot. isCallable();
+ return decompositionType.isSubexpressionMovable(expressionRoot, subExpression);
+ return CanExposeExpression(expressionRoot) ; }
+ return isCall(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpression());
+ return canApply(expression, subExpression);
+ return shouldExposeExpression(expressionRoot, subExpression);
+ return expressionRoot instanceof CallNode;
+return isSubexpressionMovable(expressionRoot, canExposeSubExpression);
+ return true; }
+return isSubexpressionMovable ( expressionRoot ) ; } }
+return isSubexpressionMovable(expressionRoot.branch, subExpression);
+return isSubexpressionMovable(expressionRoot, true, true, subExpression);
+ return DecompositionHelper.isSubexpressionMovable(expressionRoot, subExpression);
+ return canApply(subExpression);
+ return expressionRoot. type == 1;
+return isSubexpressionMovable(expressionRoot, this);
+ return canApply(root, subExpression);
+return isSubexpressionMovable(expressionRoot, expression);
+ return * expressionRoot;
+ return canInsert(expressionRoot, subExpression);
+ return DecompositionType(expressionRoot++);
+ return DecompositionBuilder.isSubexpressionMovable(expressionRoot, subExpression);
+ return canApply(expressionRoot, subExpression);
+ return combine(expression, subExpression);
+ return canExposeExpression(expression);
+return isSubexpressionMovable(expressionRoot); *
+return isSubexpressionMovable(expressionRoot), subExpression); *
+return isSubexpressionMovable(expressionRoot, subExpression) ; } return true ;
+ return node(expressionRoot);
+ return getDecomposed(root);
+ return ExpressionUtils.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot); } else { return false ; } *
+ return (expressionRoot, subExpression);
+return  expressionRoot == null; *
+return isSubexpressionMovable(this, expressionRoot, subExpression);
+return isSubexpressionMovable ( expressionRoot )? true : false ; }
+ return can(expressionRoot);
+return isSubexpressionMovable ( expressionRoot ) ; }
+return isSubexpressionMovable(expressionRoot,  true); } else { return false ; } *
+ return canExposeExpression() ; }
+ expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.branches, subExpression);
+ return canApply(this, subExpression);
+ return canMove(subExpression);
+return isSubexpressionMovable(expressionRoot, false); *
+ return compiler.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(Expression expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression, true, false); *
+return isSubexpressionMovable(expressionRoot,  subExpression); } else {
+return  canExposeExpression(); *
+return isSubexpressionMovable(expressionRoot, subExpression) + 1;
+ return CompressionHelper.isSubexpressionMovable(expressionRoot, subExpression);
+ return (int expressionRoot);
+return isSubexpressionMovable(expressionRoot); } else { return true ; } }
+return isSubexpressionMovable(expressionRoot. getParent ( ), expressionRoot, subExpression);
+ return (!expressionRoot);
+return isSubexpressionMovable(expressionRoot,  subExpression, true, true); *
+ return (String expressionRoot);
+ return CompilationUnit.isSubexpressionMovable(expressionRoot, subExpression);
+ return canExposeExpression(expressionRoot));
+ return visit(subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression, false, true); *
+ return (subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression) == true; *
+ return ASTHelper.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot. data, subExpression);
+ return Expression.isSubexpressionMovable(expressionRoot, subExpression);
+ return accept(subExpression);
+ return compose(subExpression);
+ return canComposeExpression(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression)? true : false; *
+ return canExposeExpression(); } *
+return isSubexpressionMovable(expressionRoot, subExpression, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.*, subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression.getPath ( )); *
+return isSubexpressionMovable(expressionRoot, subExp);
+return isSubexpressionMovable(expressionRoot. getPath ( ), expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression, true);
+ return move(expressionRoot, subExpression);
+ return astWalker.isSubexpressionMovable(expressionRoot, subExpression);
+ return accept(null, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression.next (...));
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpressionFunction);
+ return apply(expressionRoot, subExpression);
+ return accept(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.next (...));
+ return accept(this, subExpression);
+ return canContinue(subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } return null ;
+return isSubexpressionMovable(expressionRoot,  subExpression).*();
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpressionCall);
+return isSubexpressionMovable(expressionRoot,  subExpression).nextChild; *
+ return optimize(subExpression);
+return isSubexpressionMovable(expressionRoot,  subExpression.locations); *
+return isSubexpressionMovable(expressionRoot), subExpression,
+return isSubexpressionMovable(expressionRoot, subExpression, "canExpose");
+ return combine(this, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpressionContext);
+ return expressionRootLocation;
+return isSubexpressionMovable(expressionRoot, subExpression, canExposeExpressionFalse);
+return isSubexpressionMovable(expressionRoot, canExposeExpressionCall);
+return isSubexpressionMovable(expressionRoot, subExpression)? true : false ; }
+return isSubexpressionMovable(expressionRoot,  subExpression) ; } }
+ return isSame(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.nextSibling, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, false);
+return isSubexpressionMovable(expressionRoot, null); *
+ } else {
+return isSubexpressionMovable(this, expressionRoot, expressionRoot, expressionRoot, subExpression);
+ return context.isSubexpressionMovable(expressionRoot, subExpression);
+ return true; } else
+ if (expressionRoot!= expressionRoot))
+ return ast.isSubexpressionMovable(expressionRoot, subExpression);
+ return shouldInsert(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.nextChild());
+return isSubexpressionMovable(expressionRoot, subExpression, true, false, true);
+return isSubexpressionMovable(subExpression); *
+return isSubexpressionMovable(expressionRoot, subExpression, true, true, true);
+return isSubexpressionMovable(this, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, true, true, false);
+return  expressionRoot ; }
+ push(subExpression);
+return isSubexpressionMovable(this, callSite, expressionRoot, subExpression);
+return isSubexpressionMovable(composedExpression, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, expressionRoot.parent, expressionRoot, subExpression);
+ move(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.parentNodes, expressionRoot, subExpression);
+return isSubexpressionMovable(CallSite, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.parent ( ), expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRootNode);
+ return null);
+return isSubexpressionMovable(expressionRoot, subExpression) == false;
+ assign(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot.parentSibling, expressionRoot, subExpression);
+return  this;
+return isSubexpressionMovable(this.callSite, expressionRoot, subExpression);
+ compose(expressionRoot, subExpression);
+ return false; } else
+ return false);
+return isSubexpressionMovable(callSite, originalLocation, expressionRoot, subExpression);
+return isSubexpressionMovable(callSite, expressionRoot. parent, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot*);
+return isSubexpressionMovable(callSite, expressionRoot, expressionRoot, subExpression);
+ if (expressionRoot!= null).
+return isSubexpressionMovable(); *
+return isSubexpressionMovable(expressionRoot, subExpression, true, true);
+return isSubexpressionMovable(expressionRoot); } *
+return isSubexpressionMovable(callSite, callLocation, expressionRoot, subExpression);
+return isSubexpressionMovable(Expression. this, expressionRoot, subExpression);
+return isSubexpressionMovable(calls, callSite, expressionRoot, subExpression);
+return isSubexpressionMovable(root, subExpression);
+return  expressionRoot!= null
+return isSubexpressionMovable(expressionRoot, subExpression) == 0;
+return isSubexpressionMovable(this.location, expressionRoot, subExpression);
+ return null, subExpression);
+return isSubexpressionMovable(this);
+return  null;
+return isSubexpressionMovable(expressionRoot, subExpression) + 1; *
+return isSubexpressionMovable(expressionRoot,  subExpression). *
+return isSubexpressionMovable(expressionRoot, subExpression, false, true);
+ return false; } *
+ return (this, subExpression);
+return  false;
+return  expressionRoot.type
+ accept(subExpression);
+ extend(expressionRoot, subExpression);
+ assign(this, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) == false; *
+return isSubexpressionMovable(expressionRoot, subExpression, "call");
+return isSubexpressionMovable(expressionRoot++);
+(this, subExpression);
+ return containsCall(expressionRoot, subExpression);
+ accept(expressionRoot, subExpression);
+return isSubexpressionMovable(this.locations, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) ; } } }
+ if (move)
+return isSubexpressionMovable(expressionRoot,  SUBExpression);
+return isSubexpressionMovable((expressionRoot);
+return isSubexpressionMovable(SubExpression);
+return isSubexpressionMovable(callSiteRoot, expressionRoot, subExpression);
+ return (null, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, false, false);
+ replace(root, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, "movable");
+return isSubexpressionMovable(callSite, expressionContext, expressionRoot, subExpression);
+return isSubexpressionMovable(callSiteNode, expressionRoot, subExpression);
+return isSubexpressionMovable(callSiteContext, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) == 0; *
+return  expressionRoot();
+return isSubexpressionMovable(callSiteLocation, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, "move()");
+return isSubexpressionMovable(expressionRoot,  SUBEXPORTS);
+return isSubexpressionMovable(expressionRoot, subExpression, "moved");
+ append(subExpression);
+ return (true);
+ return it);
+ append(, subExpression);
+ assert expressionRoot);
+return isSubexpressionMovable(node);
+return isSubexpressionMovable(expression, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, this.locations);
+return isSubexpressionMovable(expressionRoot). *
+return  0;
+return isSubexpressionMovable(expressionRoot, subExpression, expressionRoot);
+return isSubexpressionMovable(expressionRoot, subExpression, true, " ");
+return isSubexpressionMovable(currentLocation, expressionRoot, subExpression);
+ assert.isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(compiler, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot,  this); *
+return isSubexpressionMovable(expressionRoot, subExpression, newLocation);
+return isSubexpressionMovable(locator, expressionRoot, subExpression);
+ return __isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, currentLocation);
+return isSubexpressionMovable(); }
+return isSubexpressionMovable(null);
+ return!isSubexpressionMovable(expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, ".");
+return isSubexpressionMovable(null, subExpression);
+return isSubexpressionMovable(expressionRoot, newExpression);
+return isSubexpressionMovable(context, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, SubExpression);
+return isSubexpressionMovable; *
+return isSubexpressionMovable(expressionRoot, subExpression, " ");
+return isSubexpressionMovable(expressionRoot, subExpression, null);
+return isSubexpressionMovable(expressionRoot, subExpression, context);
+return isSubexpressionMovable(expressionRoot, subExression);
+return isSubexpressionMovable(expression, expressionRoot, subExpression);
+ throw expressionRoot;
+ * *
+return isSubexpressionMovable(null, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot)
+return isSubexpressionMovable; }
+return isSubexpressionMovable(Root);
+return isSubexpressionMovable(node, expressionRoot, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression, location);
+return isSubexpressionMovable(node, subExpression);
+return isSubexpressionMovable(expressionRoot, subExpression) { }
+ } else {}
+ return effectType;
+ * * *
+ *
+return isSubexpressionMovable(expressionRoot, subExpression) { *
+return isSubexpressionMovable(ressionRoot);
+return isSubexpressionMovable(ressionRoot, subExpression);
+return isSubexpressionMovable(expressions);
+return isSubexpressionMovable(expressions, subExpression);
+return isSubexpressionMovable(expRoot, subExpression);

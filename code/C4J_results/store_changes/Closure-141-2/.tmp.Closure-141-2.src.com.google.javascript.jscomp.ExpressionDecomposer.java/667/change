@@ -1,0 +1,769 @@
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot);
+ NodeUtil.seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot;
+ expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpression);
+ Node parent = null;
+boolean seenSideEffects  = false;
+boolean seenSideEffects = NodeUtil. seenSideEffects ( ) ;
+ Node parent = getParent(subExpression);
+boolean seenSideEffects = NodeUtil. isSideEffects ( subExpression ) ;
+boolean seenSideEffects = NodeUtil. isSideEffects ( expressionRoot ) ;
+boolean  isConditionalOp(subExpression);
+boolean seenSideEffects =  isSubexpressionMovable(subExpression);
+boolean  isConditionalOp = false;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subexpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot);
+ Node parent = new Node(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true;
+ Node parent = getParentNode(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; }
+ Node parent = expressionRoot.parent;
+boolean seenSideEffects = NodeUtil. hasSideEffects ( subExpression ) ;
+ Node parent = parent(subExpression);
+ Node parent = expressionRoot.nextSibling;
+ Node parent = expressionRoot; Node parentType;
+boolean seenSideEffects = NodeUtil. seenSideEffects ( expressionRoot ) ;
+boolean seenSideEffects = NodeUtil. seenSideEffects ( subExpression ) ;
+ Node parent = expressionRoot; Node child = null;
+boolean  isConditionalOp(subExpression) {
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition =
+boolean seenSideEffects = NodeUtil.ALL;
+ Node parent = (Node expressionRoot);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true;
+ if (isConditionalOp(root)) { requiresDecomposition = true;
+ Node parent = expressionRoot; Node parent = child;
+ Node parent = expressionRoot; parent.mayHaveSideEffects(subExpression);
+ Node parent = (expressionRoot);
+ Node parent = subExpression; Node child = expressionRoot ; Node parent = expressionRoot ;
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; }
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, expression);
+ Node parent = subExpression; Node child = parent. getFirstChild ( ) ;
+ Node parent = expressionRoot ; Node child = subExpression ; Node parent = expressionRoot ;
+boolean  isConditionalOp = true;
+boolean seenSideEffects = NodeUtil. hasSideEffects ( expressionRoot ) ;
+ Node parent = subExpression; Node child = expressionRoot ; Node parent = subExpression ;
+ if (isConditionalOp(subExpression)) { requiresDecomposition = true
+ boolean isConditionalOp = isConditionalOp(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; }
+boolean seenSideEffects = NodeUtil. getSideEffects ( subExpression ) ;
+ if (isConditionalOp(subExpression)) { requiresDecomposition = true;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { requiresDecomposition = false ; }
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = expressionRoot;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = parent. getFirstChild ( ) ;
+ if (subExpression == expressionRoot) { requiresDecomposition = true;
+boolean seenSideEffects =  seenSideEffects(subExpression);
+ Node parent = expressionRoot; Node child;
+ Node parent = getParent(expressionRoot);
+boolean seenSideEffects = NodeUtil. empty ( ) ;
+boolean  inline = false;
+ Node parent;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(ExpressionRoot, subExpression);
+ Node parent = expressionRoot);
+boolean seenSideEffects = NodeUtil. isClosed ( subExpression ) ;
+boolean seenSideEffects = NodeUtil. getSideEffects ( expressionRoot ) ;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } if (subExpression) {
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition =
+ if (subExpression == null) { requiresDecomposition = true; }
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition; }
+ if (subExpression == expressionRoot) { requiresDecomposition = true; }
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = parent. getParent ( ) ;
+boolean  isConditionalOp(expressionRoot) {
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } else { requiresDecomposition = false ; }
+ if (isConditionalOp(subExpression)) { requiresDecomposition; }
+ Node parent = expressionRoot.mayHaveSideEffects(subExpression);
+ Node parent = Node(expressionRoot);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { requiresDecomposition = true ; }
+boolean seenSideEffects = NodeUtil. FALSE;
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } else {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(Expression, subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } parent = expressionRoot;
+boolean seenSideEffects = NodeUtil. getSideEffects ( ) ;
+boolean seenSideEffects = NodeUtil. isSideEffects ( expression ) ;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else {
+ Node parent = child.getParent(expressionRoot);
+boolean seenSideEffects =  isSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true
+ if (expressionRoot!= null) { expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpression*);
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; parent = expressionRoot ; }
+ Node parent = expressionRoot; Node parent = parent(subExpression);
+ boolean isConditionalOp = isConditional(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true ; } Node parent = expressionRoot ;
+ NodeUtil.unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot ; Node subExpression = subExpression ;
+ Node node = expressionRoot; Node parent = node;
+ if(subExpression) requiresDecomposition= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) &&! seenSideEffects;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffectsInExpression(subExpression);
+ if (subExpression!= null)NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot + 1;
+ if (expressionRoot!= null) expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  false ; Node parent = getParentNode(subExpression);
+ Node parent = expressionRoot; Node parent.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil. seenSideEffects ( expression ) ;
+boolean seenSideEffects =  false; Node parent = getParent(subExpression);
+boolean seenSideEffects = NodeUtil. isClosed ( expressionRoot ) ;
+ Node parent = child.getFirstChild;
+ Node parent = expressionRoot ; Node parent = subExpression ;
+ Node expressionRoot = getExpressionRoot(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition; }
+ Node parent = getFirstChild(subExpression);
+boolean seenSideEffects = NodeUtil. hasSideEffects ( ) ;
+ if (isConditionalOp(expressionRoot))mayHaveSideEffects(subExpression);
+ Node parent = null; parent.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } if (debug) {
+ Node parent = expressionRoot.firstChild;
+ Node parent = node.getParent(expressionRoot);
+ Node parent = expressionRoot; NodeUtil.seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { requiresDecomposition = false ; } final
+ Node expressionRoot(subExpression);
+ Node parent = expressionRoot.Parent;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpressionNode);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; };
+ Node expressionRoot = expressionRoot.replaceWith(subExpression);
+ if (isConditionalOp(subExpression)) { requiresDecomposition = true; } final
+ boolean isConditionalOp = isConditionalOp ( expression ) ;
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } final
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = expressionRoot ; final
+ Node parent = expressionRoot ; Node child = subExpression ;
+ Node parent = Node.getParent(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = }
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? true : false;
+ Node parent = expressionRoot.next ( );
+boolean seenSideEffects = ! isSubexpressionMovable(subExpression);
+ Node parent = root;
+ if (subExpression) expressionRoot.mayHaveSideEffects(subExpression);
+ Node parent = getParentOfExpression(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } else { final
+ Node parent = expressionRoot ; Node child = expressionRoot ;
+boolean  isConditionalOp(SubExpression) {
+ Node parent = (Node) expressionRoot);
+ Node parent = $(expressionRoot);
+ boolean isConditionalOp = isConditionalOp ( ) ;
+ boolean isConditionalOp = false;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = expressionRoot();
+ Node parent = null;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { final
+ Node parent = expressionRoot - 1;
+ Node parent = expressionRoot++;
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { requiresDecomposition = false ; } }
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = false
+ Node parent = getFirstChildOf(subExpression);
+ if (isConditionalOp(root)) root.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; };
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, expressionRoot);
+ if (isConditionalOp(expressionRoot))NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression == null) { requiresDecomposition = true; } final
+ if (subExpression) { expressionRoot.mayHaveSideEffects(subExpression);
+ Node parent = child.getFirstChild();
+ Node expressionRoot = getExpression(subExpression);
+ Node parent = parse(subExpression);
+ boolean isConditionalOp = conditionalOp(subExpression);
+boolean seenSideEffects  = false ; boolean inline = false ;
+ if (isConditionalOp(subExpression)) { requiresDecomposition = true; } }
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = (Node) parent; final
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = subExpression ; final
+ Node parent = getFirstChildOfExpression(subExpression);
+boolean  isConditionalOp(expressionRoot) ;
+boolean seenSideEffects = NodeUtil. isEmpty ( ) ;
+boolean  decomposed = false ; boolean inline = false ;
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition;
+ if (isConditionalOp(expressionRoot)).mayHaveSideEffects(subExpression);
+ if (subExpression) { boolean unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot ; Node child = null ;
+ if (isConditionalOp()) expressionRoot.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true ; } else {
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = parent. nextChild ; final
+ Node parent = expressionRootChild;
+ Node parent = expressionRoot; Node childNode;
+ if (subExpression) requiresDecposition= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = (Node)expression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition ||
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getFirstChild(), expressionRoot);
+ if (isConditionalOp(parent)) parent.mayHaveSideEffects(subExpression);
+ Node parent = (Node)(expressionRoot);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } parent = expressionRoot();
+ Node parent = expressionRoot; if (parent.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot;
+boolean  decomposed = false;
+ Node parent = getParentOfCall(subExpression);
+ Node parent = new Node(null);
+ Node parent = new Node(this);
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; } else {
+ Node parent = getParentExpression(subExpression);
+ Node expressionRoot=(subExpression);
+ if (subExpression) { boolean hasUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean decomposed= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; Node child = parent(subExpression);
+ Node expressionRoot = expressionRoot.replaceWithNode(subExpression);
+ Node parent = root.getFirstChild(0);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true ; } else { final
+ assertNotNull(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ; boolean isConditionalOp = false;
+ Node expressionRoot = getRoot(subExpression);
+ if (subExpression) requiresDecomp= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpression.*);
+ boolean isConditionalOp = isConditional ( expression ) ;
+ if (subExpression!= null) ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition &&
+ Node child = expressionRoot; child.mayHaveSideEffects(subExpression);
+ Node parent = Node.getFirstChild(subExpression);
+ Node parent = root.getNextSibling(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || seenSideEffects;
+ if (subExpression == expressionRoot) { requiresDecomposition = true ; } else { final
+ Node parent = getNode(subExpression);
+boolean seenSideEffects = NodeUtil. emptyList ( ) ;
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; } else { final
+ Node expressionRoot.mayHaveSideEffects(subExpression);
+ Node expressionRoot = expressionRoot.addChild(subExpression);
+boolean seenSideEffects  = false; boolean decomposed = false;
+ Node parent = expressionRoot.getFirstChildAfter(subExpression);
+ Node parent = expressionRoot. getParent ( ) ;
+ Node parent = ((Node)subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = getParent ( ) ; final
+ Node parent = expressionRoot; Node node;
+ Node expressionRoot = new Node(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRootNode);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition |
+ boolean hasSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = root.getFirstChildAfter(subExpression);
+ Node parent = findParentNode(subExpression);
+boolean seenSideEffects =  false ; Node parent = getFirstChild(subExpression);
+ Node expressionRoot = getExpressionRootNode(subExpression);
+boolean seenSideEffects =  false ; Node parent = getParentOfExpression(subExpression);
+boolean seenSideEffects =  false ; Node parent = getFirstChildOf(subExpression);
+ Node parent = getParentOfNode(subExpression);
+ Node parent = root.getFirstChildOf(subExpression);
+ Node parent = expressionRoot; assert parent.mayHaveSideEffects(subExpression);
+ Node parent = getFirstParentNode(subExpression);
+ if (isConditionalOp) expressionRoot.mayHaveSideEffects(subExpression);
+ Node node = new Node(subExpression);
+boolean  isConditionalOp;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expr, subExpression);
+ Node parent = child.getFirstChild(*);
+ Node parent = Node.getParentNode(subExpression);
+ Node parent = get(subExpression);
+ if (subExpression) { boolean _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  [ ] ; Node parent = getParentNode(subExpression);
+ boolean hasSideEffects = false; hasSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition |
+ Node expressionRoot = expressionRoot;
+ if (subExpression!= null) { ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean  isConditionalOp(subExpression)
+boolean seenSideEffects =  [ ] ; Node parent = getFirstChildOf(subExpression);
+ Node parent = ((Node) expression);
+boolean seenSideEffects =  false ; Node parent = getParentOfCall(subExpression);
+ Node parent = expressionExpression;
+ Node parent = child.getNext(expressionRoot);
+boolean seenSideEffects =  null ; Node parent = getParentNode(subExpression);
+ if (expressionRoot) expressionRoot.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition &&
+ boolean isConditionalOp |= NodeUtil.mayHaveSideEffects(subExpression);
+ if (expressionRoot!= null) expression.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp = isConditionalOp(expressionRoot); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(this, subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot); final
+ if (subExpression!= null) AstNodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; } Node parent = parent ( ) ; final
+ Node parent = subExpression;
+ if (subExpression) AstNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  false ; Node parent = getParentOfSubexpression(subExpression);
+boolean seenSideEffects = NodeUtil. TRUE ;
+ if (subExpression) ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = this.getFirstChildOf(subExpression);
+boolean seenSideEffects =  [ ] ; Node parent = getParentOfCall(subExpression);
+ Node parentNode;
+boolean seenSideEffects =  [ ] ; Node parent = getParentOfExpression(subExpression);
+boolean seenSideEffects =  false ; Node parent = getParentExpression(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? false : true;
+ Node parent = ((Node) null);
+ Node parent = findParent(subExpression);
+ boolean isConditionalOp = true;
+ Node parent = (Expression);
+ Node expressionRoot = getFirstChildOf(subExpression);
+ Node parent = root(subExpression);
+ Node parent = child.getFirstChild(();
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { try { final
+boolean seenSideEffects =  false ; Node parent = findParentNode(subExpression);
+boolean seenSideEffects  = false ; boolean visited = false ;
+ if (subExpression == expressionRoot) { requiresDecomposition = true; } else { } }
+ Node parent = getFirstChildOfNode(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { } }
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } Node parent = expressionRoot ; } final
+ if (subExpression!= null) { AstNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  false ; Node parent = getFirstChildOfExpression(subExpression);
+ Node parent = expressionRoot; expressionRoot.mayHaveSideEffects(subExpression);
+ if (subExpression) { boolean!seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; } } else { final
+ if (isConditionalOp()) requiresDecposition= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExp);
+ Node parent = root.getFirstChild(1);
+ if (subExpression)NodeUtil.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } else { } final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ; boolean isConditionalOp = true;
+boolean seenSideEffects  = false ; int seenCall = 0 ;
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true; } else { } }
+ Node parent = root; parent.mayHaveSideEffects(subExpression);
+ Node parent = getParentOfSubexpression(subExpression);
+ if (subExpression == null)NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  [ ] ; Node parent = getParentOfSubexpression(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, true);
+ boolean isConditionalOp.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  false ; Node parent = new Node(subExpression);
+boolean  isConditionalOp(expressionRoot) {}
+ boolean isConditionalOp= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean seenSideEffects = false;seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp; isConditional= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expression, subExpression);
+boolean seenSideEffects  = null ; boolean inline = false ;
+ Node parent = expressionRoot ; Node sibling = null ;
+boolean  isConditionalOp();
+ Node parent = expressionRoot ; Node node = null ;
+ Node parent = node(subExpression);
+ Node parent = (subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true ; } } final
+boolean seenSideEffects = NodeUtil.hasSideEffects(subExpression) ; final
+ if (subExpression) { booleanseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = false ; boolean isComposed = false ;
+ Node parent = this.getFirstChildAfter(subExpression);
+boolean seenSideEffects =  false ; Node parent = getParentOfNode(subExpression);
+ Node parent = this;
+ if (subExpression!= null)!!NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp = this.mayHaveSideEffects(subExpression);
+ if (subExpression!= null) exprNodeUtil.mayHaveSideEffects(subExpression);
+ boolean hasDecomposition= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = getFirstChildOfStatement(subExpression);
+boolean seenSideEffects = !isSideEffects(subExpression);
+ Node parent = parentOfCall(subExpression);
+ Node parent = expressionRoot; ExpressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  [ ] ; Node parent = getFirstAncestor(subExpression);
+ Node child = null; child.mayHaveSideEffects(subExpression);
+ if (subExpression) { _mayHaveSideEffects(subExpression);
+ if (isConditionalOp(parent)) { requiresDecomposition = true ; } } final
+ Expression.mayHaveSideEffects(subExpression);
+ if (isConditionalOp(expressionRoot)) { requiresDecomposition = true ; } } { final
+ if (isConditionalOp(parent)) { requiresDecomposition = true; } else { } final
+ if (isConditionalOp()) requiresDecomp= NodeUtil.mayHaveSideEffects(subExpression);
+ int parentType = 0;
+boolean seenSideEffects =  [ ] ; Node parent = getParentOfNode(subExpression);
+ Node node = getNode(subExpression);
+boolean seenSideEffects =  false ; Node parent = findParent(subExpression);
+ ExpressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(this, expressionRoot, expression);
+ Node parent = subExpression; Node child = parent. nextChild; final
+ if (subExpression) { <= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression*);
+ Node parentType;
+ boolean isConditionalOp = _mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, false);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression); final
+ Node node = expressionRoot;
+boolean seenSideEffects =  false ; boolean isConditionalOp = false ;
+boolean seenSideEffects =  false; Node parent = parent(subExpression);
+ Node parent = expressionRoot ; Node child = subExpression ; final
+boolean seenSideEffects =  false ; if (isConditionalOp()) { inlineCall(subExpression);
+ boolean isConditionalOp = isConditionalOp(expression); final
+ Node child = expressionRoot.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot ; Node child = parent. getNextChild(); final
+ boolean hasSideEffects; hasSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp =!mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot ; Node subExpression = subExpression();
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) &&! seenSideEffects (expressionRoot);
+ boolean unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression) { boolean alreadyUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp = ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; Node child = parent. nextChild; final
+ Node expression = expressionRoot;
+boolean  moved = false;
+ Node parent = expressionRoot; boolean unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean expressionRoot.mayHaveSideEffects(subExpression);
+ if (subExpression) { boolean isUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node expressionRoot = expression;
+ Node parent = expressionRoot;NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = new(null);
+boolean seenSideEffects =  [ ] ; Node parent = getFirstChildOfStatement(subExpression);
+ Node parent = this.mayHaveSideEffects(subExpression);
+ Node parent = node(this);
+ if (subExpression) { boolean allUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  false ; if (isConditionalOp) { inlineCall(subExpression);
+boolean seenSideEffects  = 0;
+ boolean isConditionalOp().mayHaveSideEffects(subExpression);
+ Node expressionRoot = expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpressionNode);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, true); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, false); final
+boolean seenSideEffects = NodeUtil.isSideEffects(subExpression); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot));
+ if(subExpression);
+ boolean inline = false;
+boolean seenSideEffects =  getSideEffects(subExpression);
+ Node parent = expressionRoot ; Node child = expressionRoot ; try { final
+ Node expression = (subExpression);
+ Node node = null;
+boolean seenSideEffects =  findSideEffects(subExpression);
+ boolean hasSideEffects = ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ Node expression = expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = !isConditionalOp(subExpression);
+ boolean hasDecomposed= NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression) { *= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; Node child = subExpression; final
+ boolean isConditionalOp *= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp ::= NodeUtil.mayHaveSideEffects(subExpression);
+ ExpressionExpression.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  seenSideEffects. contains(subExpression);
+boolean seenSideEffects = NodeUtil.seenSideEffects(subExpression); final
+ int parentType;
+ expression.mayHaveSideEffects(subExpression);
+ if (isConditionalOp()) ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ final NodeUtil _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, 0); final
+ Node parent = expressionRoot ; final
+ boolean seenSideEffects = true;seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ ExpressionImpl.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; _mayHaveSideEffects(subExpression);
+ boolean mayHaveSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression) expression.mayHaveSideEffects(subExpression);
+ Node expressionNode;
+ boolean hasDecomposition |= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean needsDecomposition |= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = null; this.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpression); final
+ Node parent = expressionRoot ; Node parent = subExpression ; final
+ Node parent = find(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot); { final
+boolean seenSideEffects = NodeUtil.hasSideEffects(subExpression); {
+ Node parent = expressionRoot; Node child = parent. next; final
+boolean  isConditionalOp(expression); final
+ Node parent = root.mayHaveSideEffects(subExpression);
+ if (subExpression) { ||= NodeUtil.mayHaveSideEffects(subExpression);
+boolean  isConditionalOp = false; final
+ if (isConditionalOp) { _mayHaveSideEffects(subExpression);
+ boolean hasSideEffects |= NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression!= null).NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = subExpression; Node child = parent. next; final
+ boolean hasUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node expressionRoot;
+ boolean isConditionalOp();!= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  seenSideEffectsOf(subExpression);
+ Node parent = expressionRoot; Node child = parent. nextChild(); final
+boolean seenSideEffects =  hasSideEffects(subExpression);
+boolean seenSideEffects =  seenSideEffects.get(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot.getParent();) ;
+boolean seenSideEffects =  seenSideEffectsIn(subExpression);
+ boolean isConditionalOp = false ; final
+ final NodeUtil.seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; boolean _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getParent()); final
+ boolean subExpression.mayHaveSideEffects(subExpression);
+boolean  isConditionalOp(null); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, true); {
+boolean seenSideEffects =  isAllSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.hasSideEffects(expressionRoot); final
+ boolean isConditionalOp;!= NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent; expressionRoot.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.isSideEffects(subExpression); {
+boolean seenSideEffects = NodeUtil.hasSideEffects(subExpression));
+ ExpressionHelper.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot; Node child = parent. next; }
+ this.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, seenSideEffects); final
+boolean seenSideEffects =  [ ] ; seenSideEffects. push ( "void inline(subExpression);
+boolean seenSideEffects = NodeUtil.seenSideEffects(expressionRoot); final
+boolean  isConditionalOp(root); final
+ Node parent = subExpression ; final
+boolean  block = false;
+boolean seenSideEffects = NodeUtil.hasSideEffects(subExpression); { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, 0); {
+ Node parent = null.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = !hasSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression); {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression));
+ boolean isConditionalOp(expressionRoot); final
+ Expression root.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  [ ] ; seenSideEffects. add ( ) ; "$(subExpression);
+boolean seenSideEffects = NodeUtil. seenSideEffects ( ) ; final
+ if (isConditionalOp()) { _mayHaveSideEffects(subExpression);
+ boolean isConditionalOp = isConditionalOp ; final
+ int parentType = 0);
+ super.mayHaveSideEffects(subExpression);
+ boolean hasEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ if (subExpression) { #seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp(); ||= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  [ ] ; seenSideEffects. push ( "void x(subExpression);
+ Node parent = null; final
+ Node parent = expression.mayHaveSideEffects(subExpression);
+ Node parent = expressionRoot ; try { final
+boolean seenSideEffects  = false; boolean decomposed = false();
+boolean  isConditionalOp(expression); {
+ Node(subExpression);
+ inline(subExpression);
+ NodeUtil.mayUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  hasEffects(subExpression);
+ Node node = expressionRoot.mayHaveSideEffects(subExpression);
+ Node node = null;
+ boolean isConditionalOp(parent= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, seenSideEffects); {
+boolean seenSideEffects  = [ ] ;
+boolean  inline = true;
+ Node parent = null);
+ traverse(subExpression);
+ boolean seenSideEffects = 0;seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node parent = expression;
+ NodeUtil.preseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) &&! seenSideEffects();
+ boolean isConditionalOp(); |= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean isConditionalOp = true ; final
+boolean seenSideEffects =  false; Node parent = get(subExpression);
+ NodeUtil.everseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) &&! seenSideEffects; final
+ Node parent = examine(subExpression);
+ Node parent = expressionRoot ; Node child = expressionRoot();
+ boolean hasDecomposedUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.isSideEffects(subExpression); { final
+ Node node = expressionRoot ; Node parent = node ; final
+boolean  isConditionalOp(); final
+ Node parent = expressionRoot. nextChild ; final
+boolean seenSideEffects = NodeUtil.hasSideEffects(subExpression) { final
+ Node parent = expressionRoot. firstChild ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(this);
+boolean seenSideEffects = NodeUtil.hasSideEffects(expression); final
+ Node expressionRoot = ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ||! seenSideEffects; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(SubExpression) ; final
+boolean seenSideEffects  = false ; boolean inlineCall = false ; final
+ checkExpression(subExpression);
+boolean seenSideEffects =  false ; boolean isConditionalOp = false();
+ Node parent = expressionRoot ; Node child ; final
+ SubExpressionExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? true : false; final
+ Node parent = null;NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getParent()); { final
+ SubExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil. FALSE ; try {
+boolean seenSideEffects = NodeUtil.seenSideEffects(expression); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, subExpression); { final
+boolean seenSideEffects =  false; Node parent = parse(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || seenSideEffects; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || false;
+ NodeUtil#seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot).length;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getFirstChild(), expression) ;
+ boolean inline = false);
+boolean  isConditionalOp; final
+boolean seenSideEffects =  false; Node parent = find(subExpression);
+ boolean result= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression); { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffectsInExpression(expression); final
+boolean seenSideEffects  = false ; boolean isComposed = false();
+ boolean _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ Node node = expressionRoot ; try { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(SubExpression);
+boolean seenSideEffects = NodeUtil.seenSideEffects(...) ;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? false : seenSideEffects == true; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot.getFirstChild()); final
+ int parentType = 0 ; final
+boolean  isConditionalOp(); {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot)); { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ; boolean isConditionalOp = false ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getFirstChild(), expressionRoot));
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot.getFirstChild()); {
+ NodeUtil.canUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot).*;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? false : seenSideEffects || true; final
+ NodeUtil _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil. empty ( ) ; final
+boolean  decomposed = false; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, seenSideEffects); { final
+ Node parent = ExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.isSideEffects(expression); final
+ Boolean hasSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+ Node node = expressionRoot ; final
+boolean seenSideEffects = NodeUtil. seenSideEffects ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot, expression); final
+boolean  moveable;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)? false : seenSideEffects == false; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot).*();
+ NodeUtil.Node unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ boolean inlineCall = false ; final
+ NodeDescriptor.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = [ ] ; boolean inline = false ; final
+ boolean inline(false);
+boolean seenSideEffects  = [ ] ; try { final
+ NodeUtil.mayInseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = false; try { final
+boolean seenSideEffects =  false; int seenCallCount = 0 ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot.getFirstChild()); { final
+ Node parent = root; final
+boolean seenSideEffects  = [ ] ; final
+ inlineCall(subExpression);
+boolean seenSideEffects =  false ; boolean isComposed = false ; final
+boolean seenSideEffects  = true;
+boolean seenSideEffects = NodeUtil.NULL;
+boolean seenSideEffects  = 0 ; try { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(...) ;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ; boolean isConditionalOp = true ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression.getFirstChild(), expressionRoot;
+ Node expressionRoot = expression.mayHaveSideEffects(subExpression);
+ Node expressionRoot=NodeUtil.mayHaveSideEffects(subExpression);
+ SubexpressionExpressionNodeUtil.mayHaveSideEffects(subExpression);
+boolean  inlineCall = false; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression).
+ subExpressionNodeUtil.mayHaveSideEffects(subExpression);
+ assert(subExpression);
+ NodeUtils.seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  getEffects(subExpression);
+ checkParent(subExpression);
+ assertNull(subExpression);
+ assertNode(subExpression);
+boolean seenSideEffects  = false; final
+ boolean isSideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot.getNextChild()); { final
+ Node parent = this);
+boolean seenSideEffects = NodeUtil.hasSideEffects() ; final
+boolean seenSideEffects = NodeUtil.isSideEffects(); final
+ boolean composed= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot, seenSideEffects)); { final
+ assertTrue(subExpression);
+ boolean maySideEffects= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(SubExpression); {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expression); final
+ boolean mayHaveEffects= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = [ ] ; do { final
+boolean seenSideEffects  = 0 ; do { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ; boolean inlineCall = false ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(x);
+ boolean alreadyUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.all;
+boolean seenSideEffects = NodeUtil. FALSE ; final
+ assertNotRoot(subExpression);
+ synchronized(subExpression);
+boolean seenSideEffects =  seenEffects(subExpression);
+ boolean hasEffect= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.seenSideEffects(...));
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) { final
+ assertNotEmpty(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) == false; final
+ boolean parentRoot.mayHaveSideEffects(subExpression);
+ ExpressionUtils.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil. TRUE ; final
+boolean seenSideEffects = NodeUtil.IS_NULL; final
+ ExpressionImplImpl.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || false; final
+ int i;
+boolean seenSideEffects = NodeUtil. EMPTY ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressionRoot));
+boolean seenSideEffects  = false ; boolean inline ; final
+boolean seenSideEffects =  isOperation(subExpression);
+ boolean previouslyUnseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ ExpressionUtil.mayHaveSideEffects(subExpression);
+ assert(true);
+boolean seenSideEffects =  isRemoved(subExpression);
+boolean seenSideEffects = NodeUtil.empty;
+boolean seenSideEffects = NodeUtil.isSideEffects(); {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression), expressionRoot; final
+boolean seenSideEffects = NodeUtil.seenSideEffects(); {
+boolean  result;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) == true; final
+boolean seenSideEffects  = false ; boolean visited ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expression); {
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expression); final
+ ExprNodeUtil.mayHaveSideEffects(subExpression);
+ boolean composes= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.all();
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || true;
+boolean seenSideEffects =  contains(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) || 0;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression, expressionRoot).
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) &&! seenSideEffects; { final
+boolean seenSideEffects  = false; {
+boolean seenSideEffects = NodeUtil. ISNULL ; final
+boolean seenSideEffects  = [ ] ; { final
+ boolean misseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean  moveable();
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) ||! seenSideEffects ; { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)!= null; final
+ boolean *seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = false ; boolean seen ; final
+ try { final
+ boolean implicit= NodeUtil.mayHaveSideEffects(subExpression);
+ boolean reversed= NodeUtil.mayHaveSideEffects(subExpression);
+ int index;
+ boolean b= NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(node);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(this); final
+boolean seenSideEffects  = false; { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)!= false; final
+ assert (!root);
+boolean  ignored;
+ if (true);
+boolean seenSideEffects = NodeUtil.INLINE; final
+ NodeList unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(); final
+boolean seenSideEffects = NodeUtil.NONE; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(expressions);
+ assert(false);
+boolean seenSideEffects = NodeUtil.NODE; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression).*;
+boolean seenSideEffects = NodeUtil. ALL ; final
+ NodeInfo _seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects = NodeUtil.NULL; final
+ if (debug);
+ boolean op= NodeUtil.mayHaveSideEffects(subExpression);
+ Subexpression.NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects  = 0 ; { final
+boolean seenSideEffects = NodeUtil. false ; final
+ int depth;
+boolean seenSideEffects = NodeUtil.NEW; final
+boolean seenSideEffects = NodeUtil.empty; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(superExpression);
+ Boolean unseenSideEffects = NodeUtil.mayHaveSideEffects(subExpression);
+ checkRoot(subExpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression).*();
+ super().mayHaveSideEffects(subExpression);
+ boolean inline;
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(Expression);
+boolean  moved; final
+boolean seenSideEffects = NodeUtil ; final
+ checkInit(subExpression);
+boolean seenSideEffects ; final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(self, expression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression)) { final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(root);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subexpression);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(); {
+boolean seenSideEffects =  remove(subExpression);
+boolean  moved; {
+ ExpressionTreeNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects =  ignore(subExpression);
+boolean seenSideEffects = NodeUtil;";
+boolean seenSideEffects = NodeUtil;"();
+boolean seenSideEffects =  apply(subExpression);
+boolean seenSideEffects =  add(subExpression);
+ Expression.NodeUtil.mayHaveSideEffects(subExpression);
+ ExpressionRootNodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects ; {
+boolean seenSideEffects = NodeUtilList();
+boolean seenSideEffects (); final
+boolean  ignored();
+boolean seenSideEffects (); {
+ final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects; final
+ ExpressionLikeNodeUtil.mayHaveSideEffects(subExpression);
+ (;;);
+ (loop);
+ (true);
+ (false);
+ (++);
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects()); final
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects(subExpression) { }
+boolean seenSideEffects = NodeUtil.mayHaveSideEffects()); {
+ { final
+boolean seenSideEffects; NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects(); NodeUtil.mayHaveSideEffects(subExpression);
+boolean seenSideEffects := NodeUtil.mayHaveSideEffects(subExpression);

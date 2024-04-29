@@ -1,0 +1,180 @@
+ break;
+ if ( rule!= null ) { rule = rule ; }
+ if ( rule!= null ) { rule = rule ;
+ if ( rule == null ) { break ; }
+ if ( rule!= null ) { rules. add ( rule )
+ else { rule = new CharLiteral(sub.charAt(0)); }
+ else { rule = new CharLiteral(sub); }
+ if ( rule!= null ) { break ; }
+ if ( rule!= null ) { rules. add ( rule ) ;
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } rule. append ( sub ) ;
+ else { rule = new CharLiteral(sub.charAt(0)); } }
+ else { rule = new CharacterLiteral ( sub. substring ( 1 ) ) ; }
+ else { rule = new CharacterLiteral(sub.charAt(0)); } }
+ rule = rule ; break;
+ if ( rule!= null ) rule = rule ;
+ else { rule = new StringLiteral(sub.charAt(0)); } if ( rule == null ) { break;
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } rule. append ( ' ' ) ;
+ if ( rule == null ) { rule = '\'' ; }
+ if ( rule == null ) { rule = token ; }
+ rule. append ( token ) ;
+ else { rule = new StringLiteral(sub.charAt(0)); } break; default:
+ else { rule = new CharLiteral(sub); } }
+ if ( rule ) { rule = rule ; }
+ rule. append ( sub ) ;
+ if ( rule == null ) { break ;
+ break; break;
+ if ( rule == null ) { rule = "" ; }
+ if ( rule == null ) { rule = new StringRule ( ) ;
+ else { rule = new StringLiteral(sub.charAt(0)) ; } } break;
+ } break;
+ break; default : rule = new StringLiteral ( token ) ; break ; case '\\' : rule = new Character ( ) ;
+ break; default : rule = new StringLiteral ( token ) ; break ; case '\\' : rule = new Pattern ( ) ;
+ else { rule = new StringLiteral(sub.charAt(0)); } rule = rule ; }
+ break ; default:
+ break; default : rule = new StringLiteral ( token ) ; break ; default : rule = new String ( ) ;
+ if ( rule == null ) { break ; } }
+ rule. append ( ) ;
+ if ( rule == null ) { rule = new Char ( token ) ; }
+ else { rule = new CharLiteral(sub.charAt(0)); } } break;
+ else { rule = new CharacterLiteral(sub.charAt(0)); } } break;
+ else { rule = new CharacterLiteral(sub.charAt(1)); } }
+ break; default : rule = new StringLiteral ( token. substring ( 1, token. charAt ( 0 ) ) ) ;
+ else { rule = new CharLiteral(sub.charAt(1)); } }
+ break; default : rule = new StringLiteral ( token ) ; break ; default : rule = new Pattern ( ) ;
+ if ( rule!= null ) { rule. setValue ( value ) ;
+ break; default : rule = new StringLiteral ( token ) ; break ; case '\\' : rule = new String ( ) ;
+ else { rule = new CharLiteral ( sub ) ; } rule = rule ; }
+ if ( rule == null ) {
+ if ( rule == null ) { rule = new Rule ( ) ;
+ if ( rule == null ) { return null ; }
+ break; default : rule = new StringLiteral ( token ) ; break ; default : rule = new String ( token );
+ if ( rule!= null ) {
+ if ( rule!= null ) break ; }
+ if ( rule == null ) { rule = new String ( ) ; }
+ if ( rule!= null ) rule = rule ; }
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } } break ; case '"' :
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } break ; default:
+ if ( rule == null ) { rule = '\\'' ; }
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } rule = rule ; }
+ else { rule = new CharLiteral ( sub, tokenLen ) ; }
+ break; default:
+ else { rule = new StringLiteral(sub.charAt(0)); } if ( rule == null ) break ; }
+ if ( rule == null ) { rule = '\'' ;
+ if ( rule == null ) { return null;
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } rule = rule ; }
+ break; default : rule = new StringLiteral ( token. substring ( 1, token. charAt(0)) ) ; }
+ else { rule = new CharLiteral(sub.charAt(0)); } } }
+ if ( rule == null ) { rule = "" ;
+ if ( rule == null ) { rule = new String ( token ) ;
+ rule. setValue ( value ) ;
+ else { rule = new CharacterLiteral(sub.charAt(0)); } } }
+ if ( rule == null ) { rule = '\\'; }
+ if ( rule == null ) return null ;
+ else { rule = new CharLiteral(sub.length()); } }
+ else { rule = new CharLiteral(sub, token); } }
+ if ( rule == null ) { break ; break;
+ break; default : rule = new StringLiteral ( token ) ; break ; default : rule = new String ( token )
+ else { rule = new CharLiteral ( sub ) ; } break ; }
+break ; case '\\' : break;
+ rule. append ( tokenLen ) ;
+ else { rule = new CharacterLiteral ( sub ) ; } } break ; case '\n' :
+ if (rule!= null) return rule;
+ rule. append ( text ) ;
+break ; case '\n' : break;
+ if ( rule == null ) { } } break;
+ if ( rule!= null ) { break ;
+ else { rule = new CharLiteral(sub); } } }
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } } break ; }
+ rule. literal = true ;
+ break ; default : break;
+ break ; case '"' : break;
+ else { rule = new CharLiteral ( sub ) ; } } break ; }
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } } break ; case ' ' : }
+ break; default: break; break;
+ else { rule = new StringLiteral(sub.charAt(0)); } } break; case '\n' : }
+ else { rule = new CharacterLiteral ( sub ) ; } } break ; }
+ if ( rule!= null ) { }
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } } break ; case '"' : }
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } break ; } }
+ if ( rule == null ) { break ; } } }
+ break; } break;
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } } break ; case ' ' : {
+ if (rule == null) return null;
+ if ( rule == null ) { return ; break;
+ else { rule = new CharLiteral ( sub ) ; } break ; } }
+ if (rule == null) { break;
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } break ; default ;
+ else { rule = new CharacterLiteral ( sub ) ; } break ; } }
+ break; default: rule = null;
+ else { rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break ; default : }
+ if ( rule == null ) { return null ; } }
+ break; default: } break;
+ else { rule = new CharLiteral ( sub. charAt ( 0 ) ) ; } break ; default : }
+ rule. append ( ) ;
+ else { rule = new CharacterLiteral ( sub ) ; } break ; case '\n' : }
+ rule. append ( token )
+ else { rule = new CharLiteral(sub[0]); } } }
+ else { rule = new CharacterLiteral ( sub ) ; } } break ; case '\\' : }
+ if ( rule == null ) { return break;
+ break; case '\'': break;
+ if ( rule == null ) { return rule;
+ if ( rule == null ) { break break;
+ rule. add ( ) ;
+ else { rule = new CharLiteral ( sub ) ; } } } }
+ rule. text = token ;
+ break; case '\n': break break;
+ break; case '\n' : { break;
+ if ( rule!= null ) break ; } }
+ if ( rule == null ) { return nullRule;
+ rule. literal = true ;
+break; case '"' :
+break; case '\n': break; break;
+ rule. append ( token )
+break; case ' ':
+ break ; default : { break;
+break; case '^' : { break;
+ rule. append ( token ) ; }
+ break; default: break break;
+ if ( rule == null ) { }
+ break; }
+ break; default: return rule;
+ break; } } break;
+ rule = rule ; }
+break; case '\n': case ' ':
+ rule = rule ; }
+break; case '\n': case ' '':
+break; case '\'":
+ break; default: }
+break; } break; }
+ break; break; }
+break; case '\\': break; }
+break; case '\n': {
+ rule = null ; }
+break ; case '\\' : break,
+ break; } }
+break ; case '\\' : }
+ } } break;
+ rule = rule break;
+break ; case '\\' : {
+ rule += " break;
+ break;
+ break; default: {
+break; case '\'"':
+ } break;
+ rule = rule;
+ break ; }
+ } else {
+ return rule;
+ }
+ } }
+ ; break;
+ break break;
+ break,
+ break();
+ ; }
+ break();
+ }
+ break ";
+break: }
+break(); }

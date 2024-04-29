@@ -1,0 +1,712 @@
+ node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart));
+ return node;
+ node.addToBack(transformBlock(statementNode.getElsePart()));
+ node.addChild(transformBlock(statementNode.getElsePart()));
+ transform(getElsePart()));
+ transform(statementNode.getElsePart()));
+ node.addChild(statementNode.getElsePart()));
+ node.addChildToBack(transform(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.elsePart));
+ node.addChildToBack(statement.getElsePart()));
+ node.addChildToBack(elsePart));
+ node.addChildToBack(node.getElsePart()));
+ node.addChildToBack(transform(node.getElsePart()));
+ node.addChildToBack(elsePart);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else {
+ node.addElsePart(statementNode.getElsePart()));
+ node. addChildToBack(transformBlock(statementNode.getElsePart())); }
+ node.addChildToBack(transformBlock()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); }
+node.addChildToBack(transformBlock(elsePart));
+ node.addChildToBack(transformElsePart()));
+ node. addChildToBack ( statementNode. getElsePart ) ;
+ node.addChildToBack transform(statementNode.getElsePart()));
+ node.append(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); return node ;
+node.addChildToBack(statementNode.getElsePart());
+ node.addChildToBack(transform()));
+ node. addChildToBack(transformBlock(statementNode.getElsePart())); } else
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } } else {
+ node. addChildToBack(transformBlock(statementNode.getThenPart()));
+ transform(node.getElsePart()));
+ node = newNode(Token.EOF);
+ node. addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if ( node!= null ) {
+ node.addChildToBack()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node = node ;
+ return node);
+ node. addChildToBack(transformBlock(statementNode.getElsePart));
+ node.addChild(elsePart);
+ node = node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack(transformBlock(statementNode.getPart()));
+ node. addChildToBack(transformBlock(statementNode.getPart));
+node.addChildToBack(elsePartNode);
+ node.append(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } }
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node = statementNode ;
+ node.append(statement.getElsePart()));
+ node(statementNode.getElsePart()));
+ node. addChildToBack ( statementNode. getElsePart ( ) )
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if (else) {
+ node.append(node.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); node = null ;
+node = statementNode ;
+ node. addChildToBack(elsePart;
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = newNode(null);
+ node.addChildToBack(untransformBlock(statementNode.getElsePart()));
+ node. addChildToBack(transformBlock(statementNode.getThenPart));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if ( node. isBlock ( ) )
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } } } else {
+ node. addChildToBack ( transformBlock ( statementNode. getElsePart ( ) ) )
+ node.addChildToBack(node);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); if (node!= null) {
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { if ( node!= null ) {
+ node. addChildToBack(transformBlock(getElsePart()));
+ node. addChildToBack(transformBlock(statementNode.nextPart));
+node.addChildToBack(elsePart());
+ node. addChildToBack(transformBlock(statementNode.getThenPart())); }
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if ( node instanceof Block ) {
+ node. addChildToBack(elsePart);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart()), node ) ;
+ node.addChildToBack(transformBlockPart(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = new Node ( ) ;
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = newNode(block);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = Token.IF ;
+ node.addChildToBack(this.transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = null ;
+ node.addChildToBack(block()));
+ node.addChild(statement.getElsePart()));
+ node = newNode(Token.END); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if (block) {
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { if (node.isBlock()) {
+ node.addChildToBack(getElsePart()));
+ node. addChildToBack(transformBlock(statementNode.elsePart));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = (Node)
+ node.addChild(elsePart));
+ node. addChildToBack(transformBlock(statementNode.part));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { if ( node instanceof Block ) {
+ node = newNode(Token.END);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = Node. IF ;
+ node. addChildToBack ( statementNode. getElsePart ( ) ) ; }
+ node. addChildToBack ( transformBlock(statementNode.part()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = newNode(.IF);
+ node = newNode();
+ node = newNode(Token.OR); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock ( statementNode. getElsePart ( ), true ) )
+ node = newNode(Token.IF); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( statementNode. getElsePart ( ) ;
+ node. addChildToBack(transformBlock(statementNode.thenPart));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if ( node instanceof Node ) {
+ node.addChildToBack(null));
+ node. addChildToBack ( statementNode. elsePart ) ;
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = newNode(BlockStatement);
+ node.addChildToBack(node));
+node.appendElsePart();
+ node = (Node) node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.appendElsePart;
+ node. addChildToBack(statementNode.getElsePart());
+node = newNode(Token.EOF);
+ node. addChildToBack(transform(elsePart));
+ node. addChildToBack(transform(otherPart));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node = node ;
+ node.addChildToBack(transformStatementNode.getElsePart()));
+ node. addChildToBack(statementNode.elsePart());
+node.addChildToBack(transformBlock(statementNode.getElsePart())) return node;
+ node.addElsePart());
+ node.addChildToBack(elseNode);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChildToBack(node);
+ node.addChildToBack(transform(block));
+ node.addChildToBack(transformBlock(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(transform(statement.getElsePart()));
+ node = null;
+ node.addChildToBack(otherElsePart);
+ node = newNode(Token.OR);
+ node.addChildToBack(newBlock()));
+ node.addChildToBack(getElsePart));
+ node.addChildToBack(null);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } if (blockMode) {
+ node = newNode(); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack(elsePartNode;
+ node.addChildToBack(transformBlock());
+ node = newNode(node.addToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack());
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = newNode(blockStatement);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( statementNode);
+node.addChildToBack(transformBlock(statementNode.getElsePart())) }
+ node += (transformBlock(statementNode.getElsePart()));
+ node.addChild(node.getElsePart()));
+ node. addChildToBack(node;
+ node = node ; node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node = newNode(Token.NE);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( statementNode )
+ node = newNode(node).addChild(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. removeChild();
+ node. addElsePart ( );
+ node.addChildToBack(transformTokenType(statementNode.getElsePart()));
+ node.setElsePart());
+ node.addChildToBack((statementNode.getElsePart()));
+ node. addChildToBack(transformBlock(theElsePart()));
+ node = newNode(Token.EXCEPTION);
+ node. addChildToBack(transformTokenType(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); break ;
+ node.addChildToBack(newElsePart()));
+ node. addChildToBack(transformBlock(elsePart()));
+ node = newNode(Token.EXCEPT);
+ transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node = statementNode ;
+ node. addChildToBack(null); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(transformElsePart));
+ node. addChildToBack(transformBlock(elsePart)));
+ node = newNode(Token.IF, transform(statementNode.getElsePart()));
+ node = newNode(statementNode.elsePart);
+ node. addChildToBack(transformBlock(otherPart)));
+ node.addChildToBackTransform(statementNode.getElsePart()));
+ node.addChildToBack(other)));
+ node = newNode(Token.NE); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack()(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); if (node!= null) {}
+ node.addChildToBack(transform(block()));
+ node.add(statementNode.getElsePart()));
+ node. addChildToBack(newStringNode(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { node = new Node ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(elseNode);
+ node.addChildToBackBlock(statementNode.getElsePart()));
+ node. setElsePart ( );
+ node.addChildToBack(this));
+ node.addChildToBack(parseElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(node);
+ node(transformBlock(statementNode.getElsePart()));
+ node.setElsePart()));
+ node.addChild((block()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node = node ;
+ node. addChildToBack(transform(elsePart()));
+ node.addChildToBack(());
+ node. addChildToBack ( transformBlock ( statementNode. getElsePart ( ) ) ) ; } }
+ node.addChildToBack(transform(transformBlock(statementNode.getElsePart()));
+ node = newNode(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack(transformBlock(otherPart));
+node.addChildToBack(transformBlock(statementNode.ElsePart));
+ node = newNode(.IF); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node = newNode(null); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(else)));
+ node.addChildToBack((block)));
+node.addChildToBack(otherElsePart());
+ node = Node.IF; node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node. addChild ( elseNode )
+ node.setElsePart(statementNode.getElsePart()));
+ node = newNode(Token.EO);
+ node.addChildToBack(getElsePart);
+ node = newNode(Token.EXCEPTION_PART);
+node = null
+ node.addChildToBack(transformBlock(()));
+ node = newNode(Token.EOF,transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node = statementNode ;
+ node. addChildToBack(transform(otherPart()));
+ node.addChildToBack(transform(null));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(statementNode);
+ node.addChildToBack(this);
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. addChildToBack(node);
+ node. addChildToBack(otherElsePart;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node = null ;
+ node. addChildToBack(null);
+ node = node;
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. remove ( ) ;
+ node.addChildToBack(transformElseBlock(statementNode.getElsePart()));
+ node. addChildToBack(elseNode;
+node.addChildToBack(transformBlock(statementNode)) ;
+ node. setElsePart ( null );
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. addChild ( statementNode);
+node.addChildToBack(expressionNode.getElsePart());
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { } }
+ node = newNode(null);
+ node = newNode(String); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChild(block()));
+ node.addChildToBack(empty()));
+node.addChildToBack(transform(elsePart));
+node. addChildToBack ( node )
+ node.append()));
+node.addChildToBack(transformBlock(elsePart)));
+ node.addChildToBack((transform()));
+node.addChildToBack(otherElsePartNode);
+ node.add(statement.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. popChild();
+ node.elsePart = null;
+ node = newNode(Token.EOF;
+node.addChildToBack(getElsePart());
+ node = (Node)
+ node. addChildToBack ( node ).addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(getPart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( statementNode);
+ node = newNode(node.addChild(transformBlock(statementNode.getElsePart()));
+ node = newNode(transformTokenType(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(bodyNode);
+ node. addChildToBack(elseNode).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())));
+ node.addChildToBackArray(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. append ( ) ;
+ node.addChild(transform()));
+ node. addChildToBack(otherElsePart);
+ node.addChildToBack(newNode()));
+ node. addChildToBack(transform('else'));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( statementNode )
+ node.appendChild(statementNode.getElsePart()));
+node.addChildToBack(ElsePartNode);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( ) ;
+ node. addChildToBack(newBlockNode(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(ifElsePart);
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } else { node = statementNode ;
+ node.addChildToBack(()));
+ node. addChildToBack(elsePart());
+ node = newNode(node); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node. addElsePart ( )
+ node = newNode(ElsePart); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChild(transformBlock()));
+ node.addChildToBack(true));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. addChild ( statementNode )
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } node = statementNode ;
+ node.addChildToBack(otherPart));
+ node = newNode(Token.END_IF);
+node.addChildToBack(transformBlock(statementNode.elsePart()));
+ node = newNode(.else); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } else { node = statementNode ;
+ node.addChildToBack(elseNode));
+ node. addChildToBack((Node)transformBlock(statementNode.getElsePart()));
+ node.addChildToBackToBack(transformBlock(statementNode.getElsePart()));
+ node.addChild(newBlock()));
+ node.addChildToBack((transform(block)));
+ node = node. addChildToBack(untransformBlock(statementNode.getElsePart()));
+ node = newNode(Node); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. push ( ) ;
+node. setElsePart ( )
+node.addChildToBack(transformBlock(statementNode.getElse());
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( node);
+ node. addChildToBack ( transformBlock(statementNode.getElsePart())); } else { return
+ node.addChildToBackNode(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node = null ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } else { node. addChild ( null )
+ node.addChild()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(elsePart);
+ node. addChildToBack(bodyNode).addChildToBack(transformBlock(statementNode.getElsePart()));
+ node = newNode(Node.IF); transform(transformBlock(statementNode.getElsePart()));
+ node.addElsePart(());
+node.addChildToBack(transformBlock(statementNode.getElsePart())); return node
+ node.addChildToBack(block));
+ node. getElsePart ( ).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChildToBack(lp);
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } node = statementNode ;
+ node = node. clone ( ) node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. setElsePart ( null )
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); return node ;
+ node.addChildToBack(expression()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. pop ( ) ;
+ node.addChild(null);
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( node);
+ node.addChildToBack(getElse()));
+ node.addChildToBack(_);
+ node.addChildToBack(break()));
+ node.addChildToBack(end()));
+ node.setElsePart(null));
+ node = newNode(ElsePart);
+ node. addChildToBack(otherNode).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node. addChildToBack(node);
+ node. addChildToBack("");
+ node = node. addChildToBack(statementNode.getElsePart()));
+ node.addChildToBack(transform(block)));
+ node = newNode(Node);
+ node = newNode(Token.END);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. detach ( )
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. pop ( )
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( statementNode ;
+ node = newNode(NULL); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node. setElsePart = null;
+node. appendElsePart ( )
+ node.addChildToBack((()));
+ node = newNode(Token.NEVER_NE);
+ node.addChildToBack(null;
+ node = newNode(NULL);
+node.addChildToBack(transformBlock(statementNode.getElsePart)));
+node.addChildToBack(getElsePart()); }
+ node = newNode(Token.EOFStatement);
+ node = newNode(transform(statementNode.getElsePart()));
+ node.addChildToBack(block);
+ node.addChildToBack(ElsePart));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } node. addChild ( statementNode )
+ node = Node.IF(); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(true);
+node.addChild ( elsePart )
+ node = newNode(.END);
+ node.addChild(else)));
+ node.appendChildToBack(elsePart));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } else { node = null ;
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); } node = statementNode ;
+node.addChildToBack(transformBlock(statementNode.getElsePart()); }
+ return newNode(transform(node)));
+ node = newNode(.OR);
+ node. addChildToBack ( ).addChildToBack(transformBlock(statementNode.getElsePart()));
+ node = Node.block(); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildToBack(transform(()));
+ node.addElseBlock(statementNode.getElsePart()));
+ node = newNode(Token.EOF)(transformBlock(statementNode.getElsePart()));
+ node.(statementNode.getElsePart()));
+ node.addChildToBack((block()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( node )
+ node = node + node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. remove ( ) ;
+node.addChildToBack(transformBlock(statementNode.getElsePart());
+node. setElsePart ( null )
+ node.setElse(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node = statementNode ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. removeChild();
+ node.setElse()));
+ node. addChildToBack(bodyNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChild(other)));
+ node.appendElsePart());
+node.addChildToBack(ElsePart);
+ node.addChild(getElse()));
+ node.add(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } node. addChild ( statementNode )
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChildToBack(lp);
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node. addChild ( statementNode);
+ node.addChildToBackArray(transformBlock(statementNode.getElsePart()));
+ node.addChild(elseNode);
+ node.setElsePart(());
+ node = newNode(node);
+ node.add(node.getElsePart()));
+ node.setChildToBack(statementNode.getElsePart()));
+ node.addChildToBackReplace(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(expressionNode.elsePart());
+ node = elseNode;
+node.addChildToBack(transformBlock(statementNode.nextPart));
+ node.addChildToBack((function()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. append ( ) ;
+ node.transformBlock(statementNode.getElsePart()));
+node.append();
+node. next ( ) ;
+ node.addElsePart(_);
+ node = elsePart;
+ node.addChild(getElsePart()));
+ node.append(block()));
+ node.addBlock(statementNode.getElsePart()));
+ node. addChildToBack();
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( elseNode);
+ node. addChildToBack ( node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.push(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( node )
+ node.addChildToBack(1+transformBlock(statementNode.getElsePart()));
+ node.push(statementNode.getElsePart()));
+ transformBlock(getElsePart()));
+node.addChildToBack(otherPart);
+node.addChildToBack(transformBlock(statementNode.otherPart));
+ node.addChild(node);
+ node.setBody(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node = node ;
+ node.addChild((statementNode.getElsePart()));
+ node.addChildToBack(_));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. remove ( ) ;
+ node.append(transform(statementNode.getElsePart()));
+ node.addChild((null)));
+ node.appendElse(_);
+ node.addChildToBack(" "+transformBlock(statementNode.getElsePart()));
+ node. addChildToBack(otherElsePart());
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. push ( ) ;
+node.addChildToBack(elsePart(statementNode));
+node. addElse ( ) ;
+node. remove ( ) ;
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. addChild ( ) ;
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node. addChild ( statementNode));
+ node = node.addElsePart(transformBlock(statementNode.getElsePart()));
+ node.addChild(newNode()));
+ node.setElsePart(null;
+ node.addChildToBack2(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. addChild ( node);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node. addChild ( this);
+node.addChild(elsePart());
+ node = node. addChildToBack((statementNode.getElsePart()));
+node.setElsePart ( statementNode);
+ node. setElsePart ( ).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.part));
+ node = newNode(node).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(elsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()); return node ;
+ node.appendElsePart()));
+ node.push(node.getElsePart()));
+node = newNode ( ) ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } node. remove ( ) ;
+ node.addChild(this);
+ node.addChild(block);
+ node = Node.else(); node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.append(_);
+ node = newNode(Token.END).addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. appendElsePart();
+node.addChildToBack(transformBlock(elsePartNode)) ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. append ( ) ;
+node.addChildToBack(transformBlock(statementNode.else));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. removeChild();
+ node = newNode(Token.IFPart(statementNode.getElsePart()));
+ node = node.addToBack(transformBlock(statementNode.getElsePart()));
+ node. addChildToBack()();
+node.addChildToBack(blockNode.getElsePart());
+ statementNode.getElsePart()));
+ node.elsePart = true;
+ node.setElse());
+ node.addPart(statementNode.getElsePart()));
+ node.addChild((empty()));
+ node = (NewNode)
+ node.then(statementNode.getElsePart()));
+ node.switch()));
+ processBlock(statementNode.getElsePart()));
+ node.elsePart ++;
+node.addChildToBack(transformBlock(statementNode.getElsePart()); node = null ;
+ node = node || node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(otherPart));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } node = node ;
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); } return node ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())); node.appendChild();
+ node.appendToBack(transformBlock(statementNode.getElsePart()));
+ node.append(' '));
+ node.appendChild(transformBlock(statementNode.getElsePart()));
+ node.append(Node.getElsePart()));
+ node = Node.IF;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. addChild ( this);
+ return transform(transformBlock(statementNode.getElsePart()));
+ node.append(else);
+ node.next = node;
+ node = node.addChild(transformBlock(statementNode.getElsePart()));
+ node.appendElsePart(statementNode.getElsePart()));
+ node = Token.END;
+ node.append(" "));
+node.addChildToBack(transformBlock(elsePart())); }
+ parseBlock(getElsePart()));
+ node = Node.END;
+ node.addChildToBack*(transformBlock(statementNode.getElsePart()));
+ node.setElsePart((null)));
+ node = Node.OR;
+ node = (transformBlock(statementNode.getElsePart()));
+ node.addChild(empty()));
+node.addChildToBack(transformBlock(otherElsePart)) ;
+ node.childToBack(transformBlock(statementNode.getElsePart()));
+ node.elsePart());
+ node.addChild((expression()));
+ node.add(block()));
+node.break();
+node.removeElsePart() ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } node = null ;
+ node.addElse(_);
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } return node ;
+ process(node.getElsePart()));
+ node.append(null));
+ node(node);
+node.addChildToBack(transformBlock(null));
+node.addChildToBack(transformBlock(node));
+ n.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.addChildBack(transformBlock(statementNode.getElsePart()));
+ node.untransformBlock(statementNode.getElsePart()));
+ if (else) node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.else = true;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node. popChild();
+ return newNode()));
+ node.then().addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.append());
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); node. popChild();
+ node.append(null);
+ node = node.then().addChildToBack(transformBlock(statementNode.getElsePart()));
+ transform()));
+ node(elsePart);
+ transform(block()));
+ node.switch());
+ node = bodyNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.appendChild(getElsePart()));
+ node.elsePart.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(ElsePart));
+ return newNode(getElsePart()));
+ node.append('else()));
+ return newNode());
+ node.append(()));
+node.addChildToBack(transformBlock(statementNodeElsePart));
+ processBlock(getElsePart()));
+ node += elsePart;
+ node.addChildToFront(statementNode.getElsePart()));
+ node.switch(_);
+ node.push(block()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); } }
+ node.setBody(transformBlock(statementNode.getElsePart()));
+ node.break(_);
+ node.appendElse(();
+ node.pushBack(transformBlock(statementNode.getElsePart()));
+ node = node && node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlockPart());
+node.switchElsePart();
+ node = node ;
+ node.append(other)));
+node.addChildToBack(transformBlock(statementNode.Else));
+ node = node. parent().addChildToBack(transformBlock(statementNode.getElsePart()));
+node.appendChild();
+ node.then()));
+ parseBlock(statementNode.getElsePart()));
+ return node.else;
+ node.set(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(part));
+ node.else()));
+ node.appendChildToBack(statementNode.getElsePart()));
+ node.addChild((getElsePart()));
+ node.append(" ()));
+ node.break());
+ if (else)
+ parseBlock(node.getElsePart()));
+node.addChildToBack(transformBlock(block));
+ node = nodeNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+node. elsePart ;
+ node.append('));
+ node.addChild(transform(statementNode.getElsePart()));
+ transform(statement.getElsePart()));
+ node.elsePart().addChildToBack(transformBlock(statementNode.getElsePart()));
+ bodyNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.setElsePart(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart()), statementNode);
+node.addChildToBack(...)
+ if (else node).addChildToBack(transformBlock(statementNode.getElsePart()));
+ transform(node));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } return node ;
+ node.appendChild();
+ node.addBody(transformBlock(statementNode.getElsePart()));
+ if (else node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ switch(node);
+ node.next(_);
+ node.append();
+ node.append('()));
+ return transform(statementNode.getElsePart()));
+ node((statementNode.getElsePart()));
+ node.then.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node(node));
+node.addChildToBack(transformBlock(expressionNode));
+ node.then(transformBlock(statementNode.getElsePart()));
+ node += ";"
+ node.set(transformBlock(statementNode.getElsePart()));
+ node(node.getElsePart()));
+ node.removeChildToBack(transformBlock(statementNode.getElsePart()));
+ node.switchCase()));
+node.addChildToBack(transformBlock(...));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) return node ; }
+node.addChildToBack() ;
+ if () node.addChildToBack(transformBlock(statementNode.getElsePart()));
+(node.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())); } } }
+ node += ' ' ;
+ node.setElse(transformBlock(statementNode.getElsePart()));
+ transform(node);
+node.elsePart();
+node.nextPartPart();
+node.addChildToBack(transformBlock(statementNode.getElsePart(...))); }
+ node.then();
+ node += " node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node += node.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(); }
+ node(transform(statementNode.getElsePart()));
+ addBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode)));
+ addChild(transformBlock(statementNode.getElsePart()));
+node.appendPart();
+node.addChildToBack(transformBlockNode());
+node.appendElse();
+ transform({node.getElsePart()));
+ node = child;
+node ++ ;
+ node.subtransformBlock(statementNode.getElsePart()));
+ } else {
+node.addChildToBack(transformBlock(statementNode.getElsePart()); } }
+ return (node);
+ parse(node.getElsePart()));
+node += ;
+ parseNode.getElsePart()));
+ node.next(transformBlock(statementNode.getElsePart()));
+ switch()));
+node.addChildToBack()();
+ else node.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node += 1;
+ node = this;
+ setBlock(getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) break;
+ if()));
+node.addChildToBack(transformBlock(statementNode)); }
+node.switch();
+ transform({Node.getElsePart()));
+ node.break()));
+ return node()));
+ assert()));
+ return node));
+ node());
+ translate(node.getElsePart()));
+ throw exception()));
+ node(block()));
+node.addChildToBack(transformBlock(statementNode.body));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) return n ;
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } }
+ if(node)));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) node = null
+ parseBlock((getElsePart()));
+ return node());
+ throw exception());
+node = ;
+ node.body.addChildToBack(transformBlock(statementNode.getElsePart()));
+ if (else
+node.addChildToBack(transformBlock()); }
+node = node
+ node.else.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart())) } } }
+node.addChildToBack(transformBlock(statementNode.append));
+ node.(transformBlock(statementNode.getElsePart()));
+ throw exception("));
+ nodeBody(transformBlock(statementNode.getElsePart()));
+node.then();
+ newNode()));
+ node.parent.addChildToBack(transformBlock(statementNode.getElsePart()));
+ } }));
+ processBlock(transformBlock(statementNode.getElsePart()));
+ return n;
+ assert(false)));
+ debug(()));
+ switch());
+node.addChildToBack(transformBlock(statementNode.getElsePart()))); }
+ node =
+ nodeNode.getElsePart()));
+ nodeElse(transformBlock(statementNode.getElsePart()));
+ if (...)
+ add(transformBlock(statementNode.getElsePart()));
+ if ()
+ return null;
+ debug(node)));
+ append(transformBlock(statementNode.getElsePart()));
+ if else part
+ return null);
+ throwException()));
+ return (()));
+ return n);
+ transform((getElsePart()));
+ translate(statementNode.getElsePart()));
+ parse(statementNode.getElsePart()));
+ (break);
+ nodeNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+node.addChildToBack(transformBlock(statementNode.getElsePart(")));
+ elseNode.addChildToBack(transformBlock(statementNode.getElsePart()));
+ switch('));
+ add(statementNode.getElsePart()));
+ translate(getElsePart()));
+ node.__addChildToBack(transformBlock(statementNode.getElsePart()));
+ append(statementNode.getElsePart()));
+ transform({getElsePart()));
+ assert(')));
+ } else
+ throw node;
+ return false;
+ nodeBuilder.addChildToBack(transformBlock(statementNode.getElsePart()));
+ node.
+ } }
+ root.addChildToBack(transformBlock(statementNode.getElsePart()));
+ } {
+ node().addChildToBack(transformBlock(statementNode.getElsePart()));
+ parent.addChildToBack(transformBlock(statementNode.getElsePart()));
+ return
+...
+ }

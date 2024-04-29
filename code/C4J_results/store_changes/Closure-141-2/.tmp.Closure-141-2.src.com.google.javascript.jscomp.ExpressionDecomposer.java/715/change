@@ -1,0 +1,343 @@
+if (isSafeAssign(
+ if (isExpressionTreeUnsafe(
+if (isSafeAssign(parent,
+if (isExpressionTreeUnsafeAssign(
+ } if (isExpressionTreeUnsafe(
+ } if (isSafeAssign(
+if  (isSafeAssign(next().x,
+ } else if (isSafeAssign(
+if  (isSafeAssign(parent.x,
+if (isExpressionTreeUnsafe(n) && isSafeAssign(
+if  (isSafeAssign(n.x,
+if  (isSafeAssign(child,
+if  (isSafeAssign(parent, child,
+ } } else if (isSafeAssign(
+if (isExpressionTreeUnsafe(n) || isSafeAssign(
+ } if (isSafeAssign(parent,
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { seenSideEffects = false;
+ } else if (isExpressionTreeUnsafe(
+if  (!isSafeAssign(parent,
+ else if (isSafeAssign(parent,
+ } else if (isSafeAssign(parent,
+ } } else if (isExpressionTreeUnsafe(
+if (isSafeAssign(parent.firstChild,
+if (isExpressionTreeUnsafe(n).isSafeAssign(
+if  (isSafeAssign(n.parent,
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { seenSideEffects = true;
+if  (isSafeAssign()(
+if  (isSafeAssignParent(
+if  (isSafeAssign(childNode,
+ } } else { if (isExpressionTreeUnsafe(
+if  (!isSafeAssign(
+ if (isSafeAssign(n, seenSideEffects,
+if (isExpressionTreeUnsafe(n) && isSafeAssignTo(
+ } if (isExpressionTreeUnsafe( parent, seenSideEffects)) { seenSideEffects = false;
+if  (isSafeAssign(n,
+ else if (isSafeAssign(
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) { } else
+ } } else { if (isSafeAssign(
+if (isSafeAssign(n, childName,
+if  (isSafeAssign(parent
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } else
+if  (isSafeAssign((parent),
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { break; }
+ } if (isSafeDecomposition(
+if  (isSafeAssignChild(
+ } else if (isSafeAssignTo(
+if (isExpressionTreeUnsafe(n).isSafeAssign(parent,
+if  (isSafeAssign(node
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { break; } else
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { continue; }
+ } else if (isSafeAssign(parent, child,
+ } if (isSafeAssign(parent.x,
+if (isExpressionTreeUnsafe(parent, child,
+ } if (isSafeAssign(parent, child,
+if  (isSafeAssign(next(),
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { continue; } else
+ if (isSafeDecomposition(
+if (isSafeAssign(parent, "foo",
+ if (isSafeAssign(n, next().x =
+if  (isAssign(
+ else if (isSafeAssign(parent.x,
+ } if (isExpressionTreeUnsafe( parent, seenSideEffects)) { } else
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { continue; } } else
+ else if (isSafeAssign(child,
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { parent = n; }
+if (isSafeAssign(parent.firstChild(),
+if (isSafeAssign(n, "x",
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { return ; } } else
+ } else { if (isExpressionTreeUnsafe(
+ if (isSafeAssign(n, next().x,
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } } else
+ } if (isAssign(
+ } if (isSafeDecompose(
+ } else if (isSafeDecompose(
+ else if (isSafeAssign(parent, child,
+if (isExpressionTreeUnsafe(n) || isSafeAssignTo(
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { return ; } else
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } else {
+ } else if (isSafeDecomposition(
+ } if (isExpressionTreeUnsafe(parent, seenSideEffects)) {
+ } else if (isSafeAssign(parent.x,
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) { }
+if (isSafeAssign(this,
+if (isExpressionTreeUnsafe(n) && isSafeAssignParent(
+ } if (isExpressionTreeUnsafe(parent, seenSideEffects))
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) { } }
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { break; } } else
+ } else if (isSafeAssign(parent
+if (isExpressionTreeUnsafe(n) && isSafeAssignChild(
+ } if (isExpressionTreeUnsafe( parent, seenSideEffects)) { } else {
+ if (isSafeDecompose(
+ if (check(
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { break; } }
+if  (assign(
+if  (isSafeAssign((n,
+if  (isSafeAssign((n),
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) break; }
+ else if (isSafeDecomposition(
+if (isSafeAssign(node,
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) {
+if (isExpressionTreeUnsafe(n).assign(
+ if (isSafeAssignTo(
+ else if (NodeUtil.isExpressionTreeUnsafe(
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) break; else
+if (isExpressionTreeUnsafe(parent,
+ } else if (NodeUtil.isExpressionTreeUnsafe(
+ } } else if (isSafeDecompose(
+ if (n == parent) { continue; } if (n == child) { continue; } if (n!= parent) {
+ else if (isSafeDecompose(
+ if ( n == parent ) { continue ; } if ( n == child ) { continue ; } if ( n == parent ) { } else
+ if (isExpressionTreeUnsafe.isExpressionTreeUnsafe(
+ } if (isExpressionTreeUnsafe.isExpressionTreeUnsafe(
+ if ( n == parent ) { continue ; } if ( n == child ) { continue ; } if ( n == next ) { } else
+ if (isExpressionTreeUnsafe( n, seenSideEffects)) { else
+ } } else if (isSafeDecomposition(
+ if ( n == parent ) { continue ; } if ( n == child ) { continue ; } if ( n!= parent ) { } else
+ if (n == parent).getFirstChild()) { break; } }
+ if (isSafeAssign(parent).call(
+ } if (isSafeCall(
+ if (n == parent).getFirstChild()) { continue; }
+ if ( n == parent ) { return ; } if ( n == child ) { return ; } if ( n == parent ) { } else
+ if (isSafe(
+ } if (isExpressionTreeUnsafe(n, seenSideEffects))
+ if ( n == parent ) { continue ; } if ( n == child ) { continue ; } if ( n!= parent ) { } }
+ if (isSafeAssign(n).call(
+if  (isSafeCall(
+ } if (assign(
+ if (isCall(
+ } if (isSafeAssign(parent
+ } } else { if (!isExpressionTreeUnsafe(
+ } if (isExpressionTreeUnsafe( n, seenSideEffects)) { } }
+ if (n == parent) { continue; } if (n == child) { continue; } if (n == parent) {
+if (isExpressionTreeUnsafeAssignable(
+ if (n == parent) { continue; } if (n == child) { continue; } if (n!= node) {
+ if (n == parent) { continue; } if (n == child) { continue; } if (n!= parent) { }
+ if (n == parent) { continue; } if (n == child) { continue; } if (n == parent) { }
+ if (n == parent).getFirstChild()) { continue; } }
+ } } else { if (isAssign(
+ if (n == parent) { continue; } if (n == child) { continue; } if (n!= n) {
+if (isExpressionTreeUnsafe(n) && isAssign(
+ if (n == parent).getFirstChild()) { continue; } } else
+ if (NodeUtil.isExpressionTreeUnsafe(
+ if (isExpressionTreeUnsafe().isExpressionTreeUnsafe(
+ } if (isExpressionTreeUnsafe( n, seenChildren)) { } else {
+if (isExpressionTreeUnsafeInline(parent,
+if (isExpressionTreeUnsafe(n, seenSideEffects) ||!
+ if (n == parent).getFirstChild()) break; }
+ } if (isExpressionTreeSafe( n)) {
+ if (n == parent) { continue; } if (n == next().x) { continue; } } } else {
+ } } else
+ } if (isCall(
+ if (n!= parent) {
+ if (n == parent) { continue; } if (n == next().x) { continue; } } } } else
+if (isExpressionTreeUnsafe(parent, "foo",
+ } if (isExpressionTreeUnsafe().isExpressionTreeUnsafe(
+ } } else { } else if (isExpressionTreeUnsafe(
+ if (n!= parent.firstChild) if(isExpressionTreeUnsafe(
+ if (n == parent) { continue; } if (n == child) { continue; } } } } else
+ } } else if (!isExpressionTreeUnsafe(
+ if (n == parent.getFirstChild()) { } }
+ if ( n == parent ) { return ; } if ( n == child ) { return ; } if ( n!= parent ) { }
+ if (isExpressionTreeSafe(n).isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafe(n)) { if (isSafe(
+ if (n == parent) { return ; } if (n == child) { return ; } } } } else
+ if (isInline(
+ if (n == parent).getFirstChild()) { } else
+if (isExpressionTreeUnsafe(n).isSafeAssign(),
+ if (n == parent.getFirstChild()) { } else
+ if ( n == parent ) { return ; } if ( n == child ) { return ; } if ( n == parent ) { }
+ if (n!= parent) { } if (isExpressionTreeUnsafe(
+ if (n == parent).getFirstChild()) { } }
+ } if (check(
+ } } else { } else { if (isExpressionTreeUnsafe(
+ } if (isInline(
+ } if (isSafe(
+ if (n == parent).getFirstChild()) { break; } } else
+ if (n == parent).getFirstChild()) { continue; } else
+ if (evaluate(
+ } if (isExpressionTreeUnsafe(parent, seenSideEffects)))
+if (isExpressionTreeUnsafe(n, parent).assign(
+ if (n == parent).getFirstChild()) break; } else
+if (isExpressionTreeUnsafe(n, parent.parent(),
+ } if (isExpressionTreeUnsafe=isExpressionTreeUnsafe(
+ if (n == parent).getFirstChild()) continue; } else
+ if (n == parent) { continue; } if (n == child) { continue; } } else { } } else
+if (isExpressionTreeUnsafe(n) || isAssign(
+ if (n == parent) { continue; } if (n == child) { continue; } if (n!= parent) { else
+ if (n == parent) { return ; } if ( n == child ) { return ; } } else { } } else
+ if (n == parent.firstChild()) { continue; } } else
+ }
+ if (n == parent) { return ; } if (n == child) { continue ; } } } } else
+if  (isSafeAssign
+ if (n == parent).getFirstChild()) { } } else
+ if (n == parent.firstChild()) {
+ if (n == parent) { continue; } if (n == child) { continue; } } else { } else
+ } } if (isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafe(n)) { if (isCall(
+if (isExpressionTreeUnsafe(n, seenSideEffects,
+ else if (isExpressionTreeUnsafe(
+ if (n == parent.firstChild()) { }
+ } if (isSafeBind(
+ if (n == parent).getFirstChild()) { break; } else
+ } if (!isExpressionTreeUnsafe(
+if  (isSafeBind(
+ } if (isExpressionTreeSafe.isExpressionTreeUnsafe(
+ if (n!= parent.firstChild()) { }
+ } if (isExpressionTreeUnsafe(isExpressionTreeUnsafe(
+ if (n == parent) { continue; } if (n == next().x) { continue; } } } } }
+ } if (isExpressionTreeSafe().isExpressionTreeUnsafe(
+ if (n == parent).getFirstChild()) { }
+ if (isExpressionTreeSafe().isExpressionTreeUnsafe(
+ if (n == parent) { return ; } if ( n == child ) { return ; } } } } } else
+ if (n == parent) { break; } }
+ if (n == parent) { continue; }
+ if (apply(
+ if (n == parent) { continue; } if (n == child) { continue; } } else { } }
+if (isExpressionTreeUnsafe(n, parent.parents(),
+ if (n!= parent) { } } if(isExpressionTreeUnsafe(
+ if (n!= parent.firstChild()) {
+if (isExpressionTreeUnsafe(n) || isCall(
+ if (n == parent) { continue; } } else
+ if (n == parent.getFirstChild()) { } } else
+if (isExpressionTreeUnsafe(n.excl.,
+ if (n!= parent).getFirstChildIf(isExpressionTreeUnsafe(
+ } else { if (!isExpressionTreeUnsafe(
+ } else if (!isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafeCall(
+ if (n == parent.firstChild) {
+ } else { } } else if (isExpressionTreeUnsafe(
+ if (assert(
+ if (isExpressionTreeSafe.isExpressionTreeUnsafe(
+ } else if (Util.isExpressionTreeUnsafe(
+ } } } else if(isExpressionTreeUnsafe(
+ } else if (isSafeAssign(isExpressionTreeUnsafe(
+ } if (evaluate(
+ if (n == parent) { continue; } }
+ if (isExpressionTreeUnsafe(isExpressionTreeUnsafe(
+ } if (isExpr(
+if (isExpressionTreeUnsafe(n.expr,
+ if (n == parent).getFirstChild(); } else
+ if (n == parent.firstChild) { }
+if (isExpressionTreeUnsafe(n, parent,
+ if (n == parent).getFirstChild()); } else
+ if (n!= parent) { }
+ if (n!= parent.firstChild); if(isExpressionTreeUnsafe(
+ if (n == parent) { return ; } if (n == child) { return ; } } } } } }
+if (isExpressionTreeUnsafe(n.parent(),
+ } else { } else if (isExpressionTreeUnsafe(
+ } } else { } if (isExpressionTreeUnsafe(
+ if (n!= parent).getFirstChild if(isExpressionTreeUnsafe(
+ if (block(
+ if (n!= parent).children(); if(isExpressionTreeUnsafe(
+ if (n!= parent.parent) if(isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafe(n.parent.parent,
+ else if (Util.isExpressionTreeUnsafe(
+ if (isExpressionTree.isExpressionTreeUnsafe(
+if  (_isSafeAssign(
+ if (isExpr(
+if (isExpressionTreeUnsafe(n, child,
+ if (n!= parent)
+ if (isGet(
+ if (!(
+ if (n!= parent.parent()) {
+if (isExpressionTreeUnsafe(parent.expr(),
+ if (n!= parent) { } else
+ if (n!= parent.next); if(isExpressionTreeUnsafe(
+if  (!assign(
+ if (n == parent).x) {
+ if (n!= parent) { } }
+ if (n == parent) { } else
+if  (isSpecial(
+ if (n == parent) { } } else
+ } if (isDecomposition(isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafeByAssignment(
+ } if (isExpressionTreeSafe(isExpressionTreeUnsafe(
+ if (n == parent) { }
+ else { if (isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafeChild(
+if (isExpressionTreeUnsafeAssignTo(
+ } } else {
+ } if (isDecomposed(isExpressionTreeUnsafe(
+ if (n!= parent)) { }
+ if (!isExpressionTreeUnsafe(
+ } } else { } } else if(isExpressionTreeUnsafe(
+ } if (isDecomputed(isExpressionTreeUnsafe(
+ } } } else
+ n. next ( ) ; } else
+if  (!check(
+ if (n!= child)
+ } if (isExpressionTreeEmpty(isExpressionTreeUnsafe(
+ } } } else { if(isExpressionTreeUnsafe(
+ if (n!= parent) { else
+if (isExpressionTreeUnsafeAssignChild(
+if (isExpressionTreeUnsafeAssignments(
+ } } if (!isExpressionTreeUnsafe(
+ } else
+if (isExpressionTreeUnsafeAssignment(
+ } } } if(isExpressionTreeUnsafe(
+ n = n. parent ; }
+ n = n. next ; }
+ } else { } if(isExpressionTreeUnsafe(
+if (isSafeAssign(-
+ } else { } } if(isExpressionTreeUnsafe(
+ } } } } if(isExpressionTreeUnsafe(
+ } } } } else if(isExpressionTreeUnsafe(
+if (isExpressionTreeUnsafeNode(
+ } } else if (!(isExpressionTreeUnsafe(
+if (isSafeInject(
+if (isSet(
+ } else { } } } else
+ } } else { } else
+ } else { } else
+ } else {
+if (isExpressionTreeUnsafe(child,
+if (isExpressionTreeUnsafeName(
+ if ((
+ } else { } } else
+ } } } else {
+ else { } if(isExpressionTreeUnsafe(
+ else if (!isExpressionTreeUnsafe(
+ } } } } else
+ } assign(
+ } else if (!(isExpressionTreeUnsafe(
+ } } } }
+ } if(
+ } else { } }
+ } } }
+if (isExpressionTreeUnsafeAssign
+if  (!
+ } } else { }
+if  (not
+ } }
+if (is(
+ else { } }
+ } else { }
+ if ((isExpressionTreeUnsafe(
+ break; }
+ while (isExpressionTreeUnsafe(
+ else if (!(isExpressionTreeUnsafe(
+ else
+ } while(isExpressionTreeUnsafe(
+ else {
+ } assert(isExpressionTreeUnsafe(

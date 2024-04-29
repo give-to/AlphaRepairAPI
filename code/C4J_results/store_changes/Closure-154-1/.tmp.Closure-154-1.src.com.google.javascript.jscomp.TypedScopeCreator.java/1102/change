@@ -1,0 +1,677 @@
+Node root = NodeUtil.getRootOfQualifiedName(n);
+ Node root = scope.getRootOfQualifiedName(n);
+Node  root = n;
+ Node root=getRootOfQualifiedName(n);
+Node root =  scope.getFirstChild(n);
+ Node root = NameNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil. getRoot ( n ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!= null) {
+Node root =  scope.getRoot(n);
+ Node root = getRoot(n);
+Node root = NodeUtil.getRootOfQualifiedName(n.getString());
+ Node root = _getRootOfQualifiedName(n);
+Node root = NodeUtil. getRootNode ( n ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!= null)
+Node root = NodeUtil. getFirstChild ( n ) ;
+Node root = NodeUtil ( n ) ;
+Node  root = n. parent;
+Node root = NodeUtil. get ( n ) ;
+ Node root = scope.get(n);
+ root=NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root instanceof Name) {
+ final Node root = scope.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!= null) return true;
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild(0);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root) {
+ Node root = scope.getNode(n);
+Node  root = n. getFirstChild ( ) ;
+Node  root = n. firstChild;
+ Node root = scope.getRootNode(n);
+ final Node root = scope.getRoot(n);
+Node  root = n. next ( ) ;
+Node  root = IR. parse ( n ) ;
+Node root = NodeUtil. getFirstChild ( n, 0 ) ;
+ Node root = n. getNextChild ( ) ; if (root!= null) {
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal() {
+ Node root = new Node(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal(n) {
+ final Node root = NameNodeUtil.getRootOfQualifiedName(n);
+ final Node root = scope.getFirstChild(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal() {
+Node  root = n. getParent ( ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!== null) {
+ final Node root = n. getFirstChild ( ) ;
+ Node root = context. getFirstChild ( n ) ; if (root!= null) {
+ return isQnameRootedInGlobalScope(n) ; } private boolean isGlobal(Node n) {
+Node root = NodeUtil.root();
+ Node root = (Node) n);
+Node  root = IR. getRoot ( n ) ;
+ final Node root = scope.get(n);
+Node  root = n. getNext ( ) ;
+Node  root = (Node) n;
+ Scope scope = getScope ( ) ;
+Node root = NodeUtil. getNode ( n ) ;
+Node  root = getRoot ( ) ;
+ Node root = n. getNextChild ( ) ; if (root!= null) return true;
+Node root =  scope.getFirstChild(n); root = scope.getParent(n);
+ root.getRootOfQualifiedName(n);
+Node root = NodeUtil. getFirstNode ( n ) ;
+ Node root = getFirstChild(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal();
+Node  root;
+ Node root = (Node) n; Node scope= NodeUtil.getRootOfQualifiedName(n);
+ Node root = n. getNextChild ( ) ; if (root) {
+Node  root = IR. parseTree ( n ) ;
+ Node scope = getScope ( ) ;
+Node  root = n. firstChild();
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal();
+Node root  = context. getFirstChild ( n ) ;
+ return isQnameRootedInGlobalScope ( n ) ;
+ Node root = scope.getFirstNode(n);
+Node root = NodeUtil. getFirstChild ( n, true ) ;
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal(Node) {
+ Node root = n. getNextChild ( ) ; if (root instanceof Name) {
+ Node root = scope.getRoot(();
+ final Node root = n. getParent ( ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root instanceof Var) {
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root.isName()) {
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal (...) {
+Node root = NodeUtil. getFirstChild ( n, false ) ;
+Node root = NodeUtil. parse ( n ) ;
+ final Node root = getRoot(n);
+Node root =  scope.getFirstChild(n); root.setFirstChild(n);
+ Node root = scope.getRootNode(n).getFirstChild(0);
+ Root = scope.getRootOfQualifiedName(n);
+ var var;
+ Node root = n. getNextChild ( ) ; if (root!= null)
+Node root  = IR. getRootNode ( n ) ;
+ Node root = root(n);
+ Node root = globalScope.getRootOfQualifiedName(n);
+ Scope scope = (Scope) n;
+ Node root = context. getFirstChild ( n ) ; if (root) {
+ final Node root = scope.getNode(n);
+ Node root = scope.getFirstInScope(n);
+Node root =  scope.getScope().getFirstChild(n);
+ final Node root = globalScope.getRootOfQualifiedName(n);
+Node root = NodeUtil. n ( n);
+Node root = NodeUtil. examine ( n ) ;
+ Node root = scope.getFirstSibling(n);
+Node root =  scope.getFirstChild(n); root.removeFirstChild(n);
+ Node root = n. getFirstChildSibling ( ) ;
+ Scope scope = getGlobalScope ( ) ;
+ if (n instanceof Name) {
+Node root = NodeUtil. getFirstChild ( n, 1 ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n, sourceName);
+Node root = NodeUtil. current ( ) ;
+ return isQnameRootedInGlobalScope(n.getString()); } private boolean isGlobal(n) {
+ final Node root = getFirstChild(n);
+ Node scope = getGlobalScope ( ) ;
+ NodeScope scope = NodeScope. getCurrentScope ( ) ;
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } public boolean isGlobal() {
+Node root = NodeUtil.getRootOfQualifiedName(n, scope);
+ Node root = getRootNode(n);
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild(1);
+ root = scope.getRootOfQualifiedName(n);
+ Node root = context. getFirstChild ( n ) ; if (root!= null)
+ Node root = (n);
+ Node root = scope.getRootNode(n.getString());
+ Node root = GlobalScope.getRootOfQualifiedName(n);
+ final Node root = GlobalScope.getRootOfQualifiedName(n);
+Node root = NodeUtil. getFirstChild ( n ) ; } else
+ Node scope = IR. getScope ( n ) ;
+Node root =  scope.getRootNode(n); root.setParentNode(n);
+ if (n!= null) {
+ Node root = scope.getNode(();
+ final Scope scope = (Scope) n;
+ return isQnameRootedInGlobalScope(n) || isQnameRootedInLocalScope(n) ; } private boolean isGlobal();
+ return isQnameRootedInGlobalScope ( ) ;
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } private boolean isGlobal(n);
+ if (n.getType() == Token.NS)
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } private boolean isGlobal() {
+ if (n instanceof QualifiedName) {
+ Node root = IR. getFirstChild ( n, 0 ) ;
+Node root = NodeUtil.getRootOfQualifiedName(n.getString);
+ return isQnameRootedInGlobalScope(n) || isQnameRootedInLocalScope(n) ; } public boolean isGlobal();
+Node root = NodeUtil. getFirst ( n ) ;
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal()
+ Node root = get(n);
+ Node root = scope.getRoot(n.getString());
+ Node root = scope.getRoot();
+Node root =  scope.getFirstChildOf(n);
+ return isQnameRootedInGlobalScope(n) || isQnameRootedInLocalScope(n) ; } public boolean isGlobal()
+Node root = NodeUtil. getLastChild ( n ) ;
+ Node root = getRoot(();
+Node root =  scope.getFirstChild(n); root = root.getNext(n);
+Node  root = n. parent();
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (!root) {
+Node root =  scope.getFirstFirstChild(n);
+ NodeScope scope = getNodeScope ( n ) ;
+ Node root = scope.getRootNamed(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } private boolean isGlobal(n)
+Node root = NodeUtil. parseNode ( n ) ;
+Node root =  scope.getRootNode(n); root = scope.getParent(n);
+ return isQnameRootedInGlobalScope(n); }
+ Node root = parse(n);
+ Node root = context. getFirstChild ( n ) ; if (root)
+Node root =  scope.getFirstChild(n); root.removeChild(n);
+ Node root = scope.getRoot(n;
+Node root = NodeUtil.getRootOfQualifiedName(n, globalScope);
+ return isQnameRootedInGlobalScope ( n ) ; } else {
+Node root =  scope.getRoot(n); root = scope.getParent(n);
+Node  root = scope.getRoot(n); }
+ var root = scope.getRoot(n;
+ root=getRootOfQualifiedName(n);
+Node root =  scope.getRootNode(n); root.setParent(n);
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal ( Node n ) { return n instanceof Name ;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!= null) return false;
+ Scope scope = GlobalScope. getGlobalScope ( n ) ;
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal():
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild ( ) ;
+ return isQnameRootedInGlobalScope(n.getString()) && scope.isVar(n.getString()); }
+Node root = NodeUtil.getRootOfQualifiedName(n.getString(), sourceName);
+ Node root = n. getNextChild ( ) ; if (root)
+ Node root = IR. getFirstChild ( n ) ; if (root)
+ if (n!= null) { Noderoot = NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getRoot(globalScope).getNext(n);
+ Node root = n. getFirstChild ( ) ; } else
+ final Node root = scope.getRoot(();
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal ( Node n ) { return true ; }
+ return isQnameRootedInGlobalScope(n.getString()); } else {
+ Node root = n. getFirstChild ( ) ; if (root)
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal ( Node n ) { return true ; } public static
+Node root =  scope.getFirstChild(n); root.removeFirstSibling(n);
+ Node root = $(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root)
+ Node root = getRoot (n); Node scope= NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getFirstParentNode(n);
+ Node root = n.getFirstChild(?);
+ Node root = scope.getVar(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal;
+ return isQnameRootedInGlobalScope(n).isGlobal(); } private
+ Node root = node(n);
+Node root =  scope.getRootNode(n); root = scope.getScope(n);
+ return isQnameRootedInGlobalScope(n.getString()) && scope.isVar(n).isGlobal(); }
+Node root =  scope.getRoot(globalScope).getFirstChild(n);
+ Node root = examine(n);
+ return scope.getRootOfQualifiedName(n);
+Node root =  scope.getFirstChild(n).getFirstChild(n);
+Node root = NodeUtil.getRootOfQualifiedName(n); }
+Node root =  scope.getRoot(n); root.setParentNode(n);
+ Node root = n. getNext ( ) ; if ( root!= null ) return true ; else
+Node root =  scope.getRoot().getFirstChild(n);
+Node root =  scope.getRootNode(); root.setFirstChild(n);
+Node root  = scope.getRoot(n); } else
+Node root = NodeUtil.getRootOfQualifiedName(n.getString()); }
+ return isQnameRootedInGlobalScope ( n ) ; } private static
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } private
+Node root =  scope.getFirstChild(n); root.setParent(n);
+ Node root = scope.getRootNode(n.getString()); }
+ final Node root = n. getFirstChild ( ) ; } else
+ final Node root = scope.getVar(n);
+ Node scope = getScope ( n ) ;
+ Node root = IR. getFirstChild ( n, 1 ) ;
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal ( Node n ) { return true ; }
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal ( Node n ) { return n instanceof Name }
+ Node root = scope.getRoot(n).getFirstChild(0); }
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal() {}
+ return isQnameRootedInGlobalScope(scope.getRootOfQualifiedName(n);
+ Node <? extends Name> root= NodeUtil.getRootOfQualifiedName(n);
+ Node root = n. getNextChild ( ) ; if (root!= null) { }
+ return isQnameRootedInGlobalScope(); scope.getRootOfQualifiedName(n);
+ return true ; } private Node root = scope.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal(n) {}
+ Node root = scope.getRootNode(n).getFirstChild(0); }
+Node root = NodeUtil n;
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } } else {
+ Node root = findRoot(n);
+ return isQnameRootedInGlobalScope().scope.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal(); final
+ final Node root = scope.getNode(();
+ var root = scope.getRoot(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (!root) return false;
+Node root = NodeUtil.getRootOfQualifiedName(sourceName);
+ if (scope!= null) {
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal() {}
+Node root =  scope.getRoot(globalScope).getChild(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } } else {
+Node root = NodeUtil.getRootOfQualifiedName(n, "name");
+ final Node root = n;
+ return isQnameRootedInGlobalScope ( n ) ; } private boolean isGlobal() { final
+ Namespace root = scope.getRootOfQualifiedName(n);
+ Node root = IR.(n);
+ return isQnameRootedInGlobalScope ( n ) }
+Node root =  scope.getRootNode(n); root.setFirstChild(n);
+Node root =  scope.getRootNode().getFirstChild(n);
+Node root =  scope.getRoot(n); root.setParent(n);
+ Node root = getNode(n);
+ return isQnameRootedInGlobalScope(n) ; } private boolean isGlobal(Node n) {}
+ return isQnameRootedInGlobalScope ( n ) ; } private final
+ return isQnameRootedInGlobalScope(n.getString()) && scope.isVar(n.getString()); final
+ Node root = find(n);
+Node root =  scope.getFirstChild(n); root.setNext(n);
+ Node root = n. getNextChild ( ) ; if (root) { }
+Node root = NodeUtil.getFirstChild(n.getParent());
+ final Node root = scope.getFirstInScope(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(root.getString()); } } else {
+Node root =  scope.getFirstSymbolBefore(n);
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild(0); }
+ Node root = n. getNextChild ( ) ; if (root!= null) { else
+ final Node <? extends Name> root= NodeUtil.getRootOfQualifiedName(n);
+ Scope scope = globalScope;
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString())); } private
+ return isQnameRootedInGlobalScope() scope.getRootOfQualifiedName(n);
+Node root =  scope.getRootNodeInGlobalScope(n);
+ Node root = scope.getRoot(n.getString()); }
+ return n. isName ( ) ;
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } final
+Node root = NodeUtil.getRootOfQualifiedName(n). next ( ) ;
+ Node root = (Node) n; Node root= NodeUtil.getRootOfQualifiedName(n);
+ Node root = scope.getRootNode(n); } else
+ return isQnameRootedInGlobalScope(n.getString()); } private
+ return isQnameRootedInGlobalScope(n); } private
+ return isQnameRootedInGlobalScope(); } private
+ boolean isGlobal = false;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; Scope scope = globalScope ;
+ Node root = getRoot (n); Node root= NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getRootNode(globalScope).getNext(n);
+ Node root = scope.getFirstInGlobalScope(n);
+ var root = scope.getRoot(n); }
+ final Scope scope = n.scope;
+Node root =  scope.getRoot(globalScope).getParent(n);
+Node root = NodeUtil.getFirstChild(n.firstChild);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString())); } final
+ return isQnameRootedInGlobalScope(); }
+ final Node root = getRootNode(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root!= null) { }
+Node root = NodeUtil. current ( n);
+ final Node root = new Node(n);
+ if (n!= null) { Node _root = NodeUtil.getRootOfQualifiedName(n);
+ Node root = scope.getFirstSymbolNode(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root instanceof Name) { }
+ return true ; } private Node root = NameNodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getRoot(globalScope).getNode(n);
+ Node root = scope.get();
+ final Scope scope = globalScope;
+ return isQnameRootedInGlobalScope ( n ) ; } } else {
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (!root)
+ Node root = context. getFirstChild ( n ) ; if (root) { }
+ if (n!= null) { Node nroot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (root.isNull()) { }
+ Node root = GlobalScopeUtils.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(n.getString()); } private boolean isGlobal(n) {}
+Node root = NodeUtil.getRootOfQualifiedName(n) ; if (!root) { }
+ final Node root = n.parent;
+Node root = NodeUtil.getRootOfQualifiedName(n) ; return root!= null;
+Node root =  scope.getRoot(scope).getNode(n);
+Node root =  scope.getRootNode(); root.setParent(n);
+Node root = NodeUtil.getFirstChild(n, "root");
+Node root = NodeUtil.getRootOfQualifiedName(n, ".");
+ final Node root = scope.getFirstChildOf(n);
+ var root = scope.getVar(n;
+ Node root = scope.getRootNode(n).getFirstChild(1); }
+ return isQnameRootedInGlobalScope(n).isGlobal(); } final
+Node root = NodeUtil.getFirstChild(n).firstChild();
+ var root = n.parent;
+Node root = NodeUtil.getRootOfQualifiedName(n).getNextChild(); }
+Node root =  scope.getRootNodeForQname(n);
+Node root =  scope.getRoot().getFirstChildAfter(n);
+ var root = (Node) n;
+ var root = n;
+Node root = NodeUtil.getRootOfQualifiedName(n).getParentNode(); }
+ NameRoot root = NameNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootNode(n); } else
+Node root =  scope.getRoot(scope).getNext(n);
+ return isQnameRootedInGlobalScope()||NodeUtil.getRootOfQualifiedName(n);
+ if (n instanceof Name) { Node _root = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(node.getString());
+Node root = NodeUtil. n ; } else
+Node root = NodeUtil.getRootOfQualifiedName(n); if (root.isName() { }
+ return isQnameRootedInGlobalScope(n) ; } private boolean isGlobal(Node n) { final
+Node root = NodeUtil.getFirstChild(n.firstChild());
+ Node root = null; Node root= NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getRoot().getFirstChildBefore(n);
+ return isQnameRootedInGlobalScope(n.getString()); } final
+ AstNode root = AstNodeUtil.getRootOfQualifiedName(n);
+ Node root = n. getFirstChild ( ). parent;
+ return isQnameRootedInGlobalScope(n, scope); } private
+Node root = NodeUtil.getFirstChild(n); }
+Node root = NodeUtil.getFirstChild(n).firstChild;
+ boolean isGlobal = true;
+Node root = NodeUtil.getFirstChild(n).parent();
+ if (n!= null) { Node rroot = NodeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(n).isGlobal(); } public
+ Scope scope = n.scope;
+ Node root = toNode(n);
+Node root = NodeUtil.getRootOfQualifiedName(n); if (root.isName()) { }
+ return isQnameRootedInGlobalScope ( n ) ; } public boolean isGlobal ( Node n ) { return true ; } final
+ Node root = NodeUtil.getRoot()NodeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } return false ; } }
+ Node root = scope.getRootNode(n.getPath()); }
+Node root =  scope.getRootNodeForSymbol(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } } {
+Node  root = getRoot(n); }
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } } private
+ Node root = scope.getScope( ).getRootOfQualifiedName(n);
+ if (n instanceof Name) { Node nroot = NodeUtil.getRootOfQualifiedName(n);
+ Node root = (NameNode) n;
+ Node root = GlobalScopeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } return false ; } }
+ synchronized(n);
+Node root = NodeUtil.eval(n);
+Node root = NodeUtil.getRootOfQualifiedName(n.firstChild);
+ return isQnameRootedInGlobalScope(n, scope.getVar(root.getString()); } } {
+Node root =  scope.getFirstExternNode(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; Scope scope = this ;
+ Node root = scope.getRootNode();
+ Node root = scope.getScope(...).getRootOfQualifiedName(n);
+ String root = $(n);
+Node root = NodeUtil.getRoot(n); }
+ Node root = NodeUtil.getRoot();NodeUtil.getRootOfQualifiedName(n);
+ final AstNode root = AstNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getFirstNode(n); } else
+ Name root = GlobalScope.getRootOfQualifiedName(n);
+ Node root = NodeUtil.getRoot().NodeUtil.getRootOfQualifiedName(n);
+ Node root = n. getFirstChild ( ) ; }
+ Scope scope = GlobalScope.get(n;
+ Node root =.getRootOfQualifiedName(n);
+ Name root = globalScope.getRootOfQualifiedName(n);
+ Node root = NodeUtil.getNode()NodeUtil.getRootOfQualifiedName(n);
+ NameRoot root = scope.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope ; }
+ final Node root = GlobalScopeUtils.getRootOfQualifiedName(n);
+Node root =  scope.getFirstChildOfStatement(n);
+Node root = NodeUtil.getFirstChild(n).nextChild(); }
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString())) ; } else { final
+ Node root = firstChild(n);
+ Node root = lookup(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString())); } return false ; }
+ final Scope scope = this;
+Node root = NodeUtil.getRootOfQualifiedName(n.nextChild());
+Node root = NodeUtil.getRootNode(n); }
+ final NameRoot root = scope.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n.name);
+Node  root = (Node) n; }
+ return isQnameRootedInGlobalScope(n, scope.getVar(n.getString()); } } else }
+ if (n!= null) { Node croot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild(); }
+Node root = NodeUtil.getRootOfQualifiedName(n).getFirstChild(1); }
+ if (n instanceof Name) { Node rroot = NodeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(n, scope.getVar(n).getString()); } } else }
+Node root = NodeUtil.getRootOfQualifiedName(n); } else
+ Node root = scope.getScope(?).getRootOfQualifiedName(n);
+ final Name root = GlobalScope.getRootOfQualifiedName(n);
+ NodeUtil _root = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n).parent();
+Node root = NodeUtil.getFirstChild(n).parent;
+Node root = NodeUtil.getRootOfQualifiedName(n, false);
+Node root = NodeUtil.evalNode(n); } else
+ return isQnameRootedInGlobalScope(n) ; } final
+ String root = (n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; return root instanceof Name ; }
+Node root =  scope.findFirstChild(n);
+ Node root = n. getFirstChild ( ) ; else
+ return true ; } Node root = NameNodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getFirstToken(n);
+Node root = NodeUtil.getRootOfQualifiedName(n.getString()));
+ Node root = (Node) GlobalScope.getRootOfQualifiedName(n);
+ Scope scope = globalScope;
+ Node root = (Node) globalScope.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n.getName());
+ if (n!= null) { Node troot = NodeUtil.getRootOfQualifiedName(n);
+ Name root = scope.getRootOfQualifiedName(n);
+Node root = NodeUtil.getFirstChild(n.getParent()); }
+ Node root = scope.getRoot(Scope.getRootOfQualifiedName(n);
+ Node root = JSDocNodeUtil.getRootOfQualifiedName(n);
+ Node root = n.root;
+ final Node _root = NodeUtil.getRootOfQualifiedName(n);
+ return n instanceof Name;
+ final Node root = GlobalScopeUtil.getRootOfQualifiedName(n);
+ final NodeUtil _root = NodeUtil.getRootOfQualifiedName(n);
+ root.init(n);
+ String root = scope.getRootOfQualifiedName(n);
+Node root = NodeUtil. n ;
+Node root = NodeUtil.getRootOfQualifiedName(n, true);
+Node  root = (Node) n; else
+ Name root = NamespaceNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil. getFirstChild ( n ) ; else
+Node root = NodeUtil.getFirstChild(n, 0); }
+ if (n instanceof Name) { Node croot = NodeUtil.getRootOfQualifiedName(n);
+ final Node root = JSDocNodeUtil.getRootOfQualifiedName(n);
+ final NodeRoot root= NodeUtil.getRootOfQualifiedName(n);
+ Name root = JSDocNodeUtil.getRootOfQualifiedName(n);
+ Scope scope = (Scope) * n;
+ if (n instanceof Name) { Node $root = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) - 1;
+Node root = NodeUtil.evalNode(n); }
+ Node root = globalScopeNodes.getRootOfQualifiedName(n);
+ Node root = n; Node scope; root= NodeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(); final
+ final Node root = gc.getRootOfQualifiedName(n);
+ Node root = ASTNodeUtil.getRootOfQualifiedName(n);
+ final Node root = GlobalUtils.getRootOfQualifiedName(n);
+ Node root = (Node);
+ Node root = (Node) JSDocNodeUtil.getRootOfQualifiedName(n);
+ Node root = (NodeUtil)NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getFirstNode(n); }
+Node root = NodeUtil.getRootOfQualifiedName(n.name());
+ return isQnameRootedInGlobalScope ( n ) ; } else { final
+ final Node <? > _root = NodeUtil.getRootOfQualifiedName(n);
+ NodeScope scope = this; Noderoot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n). firstChild;
+ Node root = AstNodeUtil.getRootOfQualifiedName(n);
+ final Node root = GlobalNamespace.getRootOfQualifiedName(n);
+ if (n == null) { return false; } else { final
+ final Node <? > rootNode= NodeUtil.getRootOfQualifiedName(n);
+ return isQnameRootedInGlobalScope(); };
+ return true ; } private Node _root = NodeUtil.getRootOfQualifiedName(n);
+ final Name root = NamespaceNodeUtil.getRootOfQualifiedName(n);
+ if (scope) {
+Node root = NodeUtil.getRootOfQualifiedName(n).getParent(*);
+ return true ; } private Node root = ASTNodeUtil.getRootOfQualifiedName(n);
+ Node root(n);
+ Node root = scope.scope.getRootOfQualifiedName(n);
+ Node root = this; final Node scope root= NodeUtil.getRootOfQualifiedName(n);
+ String root(n);
+ NodeUtil $root = NodeUtil.getRootOfQualifiedName(n);
+ Node root = GlobalScopeUtil.NodeUtil.getRootOfQualifiedName(n);
+ final Name root = JSDocNodeUtil.getRootOfQualifiedName(n);
+ return true ; } private Node root = AstNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil. getRootNode ( n ) ; else
+ Node root = NodeUtil.getNameNodeUtil.getRootOfQualifiedName(n);
+ NodeUtil.Node root= NodeUtil.getRootOfQualifiedName(n);
+ NodeScope scope = nodeScope; Noderoot = NodeUtil.getRootOfQualifiedName(n);
+ final Node root = _getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; return true ; }
+Node  root = n
+ Node root = JSDocInfo.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) ; return true;
+ NodeUtil nroot = NodeUtil.getRootOfQualifiedName(n);
+ Node root = newNode;
+ final Node root = NamespaceNodeUtil.getRootOfQualifiedName(n);
+ Node root = JSDocInfoNodeUtil.getRootOfQualifiedName(n);
+ Node root = n; final Node scope root= NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.getParent(n);
+ Node _root = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.eval(n); }
+ final Node root = AstNodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getNode(n); }
+Node root = NodeUtil.getRootOfQualifiedName(n, null);
+ Node root = this; final Node var root= NodeUtil.getRootOfQualifiedName(n);
+ NodeScope scope; NodeScoperoot = NodeUtil.getRootOfQualifiedName(n);
+ Node root = n);
+ NodeUtil Node root= NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n, scope); }
+ final Scope scope = root;
+ Node root = this; final Node varRoot= NodeUtil.getRootOfQualifiedName(n);
+ final Node <? > qroot = NodeUtil.getRootOfQualifiedName(n);
+ Node root = null; root = n= NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRoot();
+ final Name root = Namespace.getRootOfQualifiedName(n);
+ final NodeUtil root= NodeUtil.getRootOfQualifiedName(n);
+Node  root = n; }
+Node root = NodeUtil.getRootOfQualifiedName(n) || n;
+Node root = NodeUtil.getRootOfQualifiedName(n, info);
+ NodeScope scope = nodeScope(); Noderoot = NodeUtil.getRootOfQualifiedName(n);
+ NodeRoot root= NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.findRoot(n);
+ String root = _getRootOfQualifiedName(n);
+Node root = NodeUtil.getRoot(n); else
+ final NodeUtil nroot = NodeUtil.getRootOfQualifiedName(n);
+Node  root = n();
+ Node root = GlobalScope.Nodes.getRootOfQualifiedName(n);
+ Node root = null; root = root= NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName() ;
+ Node <? > rootNode= NodeUtil.getRootOfQualifiedName(n);
+ final NodeUtil $root = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) || null;
+ return true ; } private Node nroot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.get (n); }
+Node root = NodeUtil.parse(n); }
+ NodeUtil var root= NodeUtil.getRootOfQualifiedName(n);
+ Node root = GlobalScopeNodes.getRootOfQualifiedName(n);
+ Node = scope.getRootOfQualifiedName(n);
+ if (n!= null) { Stringroot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.findRoot(n); }
+ return true ; } Node root = ASTNodeUtil.getRootOfQualifiedName(n);
+ NodeUtil rootNode= NodeUtil.getRootOfQualifiedName(n);
+ if (n!= null) { Rootroot = NodeUtil.getRootOfQualifiedName(n);
+ Node root = astNodeUtil.getRootOfQualifiedName(n);
+ return true ; } private Node rroot = NodeUtil.getRootOfQualifiedName(n);
+ Scope scope = this;
+ Node root = (Node) NamespaceNodeUtil.getRootOfQualifiedName(n);
+ final NodeUtil __root = NodeUtil.getRootOfQualifiedName(n);
+ Node <? > _root = NodeUtil.getRootOfQualifiedName(n);
+ return false ; }
+ Node root = JSDocTreeNodeUtil.getRootOfQualifiedName(n);
+ Node root == NodeUtil.getRootOfQualifiedName(n);
+ boolean isGlobal();
+ NodeUtil node root= NodeUtil.getRootOfQualifiedName(n);
+Node  node = n;
+ NodeUtil __root = NodeUtil.getRootOfQualifiedName(n);
+ Node rootNode= NodeUtil.getRootOfQualifiedName(n);
+ return true ; } private Node $root = NodeUtil.getRootOfQualifiedName(n);
+ if (n);
+ root = root(n);
+Node root = NodeUtil.NODE();
+Node  root = node;
+Node  root = n; else
+ final Node nroot = NodeUtil.getRootOfQualifiedName(n);
+ root = parse(n);
+ final Node <? > nroot = NodeUtil.getRootOfQualifiedName(n);
+ return true; }
+ Node root = JSCollectionNodeUtil.getRootOfQualifiedName(n);
+ final Node rootNode= NodeUtil.getRootOfQualifiedName(n);
+ Node root = SourceNodeUtil.getRootOfQualifiedName(n);
+ Node root = null; Node root |= NodeUtil.getRootOfQualifiedName(n);
+ Node <?> root>= NodeUtil.getRootOfQualifiedName(n);
+ Node<String> rootNode= NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.NODE;
+ assert n!= null);
+ return n instanceof Name ; }
+ String root=getRootOfQualifiedName(n);
+ debug(n);
+ if(root);
+ Scope scope = globalScope; final
+ NodeUtil root= NodeUtil.getRootOfQualifiedName(n);
+ root = get(n);
+ Node n root= NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(n) || n; }
+ final NameNode root= NodeUtil.getRootOfQualifiedName(n);
+ Scope scope = root;
+ if (n!= null) {}
+Node root = NodeUtil.getRootOfQualifiedName(n); else
+Node root = NodeUtil (n); }
+Node root = NodeUtil.getRootOfQualifiedName(n). firstChild();
+ root = $(n);
+ Node scope.getRootOfQualifiedName(n);
+ checkRoot(n);
+ if(scope);
+ final NameNode _root = NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.find(n);
+ if (!root);
+ checkNode(n);
+Node root = NodeUtil.root;
+Node root = NodeUtil.getRootOfQualifiedName(nName);
+ Node varNode;
+Node root = NodeUtil.getRootOfQualifiedName(n) || null; }
+ Scope var scope;
+ Node root = Scope.getRootOfQualifiedName(n);
+ Tree root = scope.getRootOfQualifiedName(n);
+ Root root =NodeUtil.getRootOfQualifiedName(n);
+ final Node __root = NodeUtil.getRootOfQualifiedName(n);
+Node root =  scope.parent(n);
+ String root =NodeUtil.getRootOfQualifiedName(n);
+ return true; } private
+Node root = NodeUtil.getRootOfQualifiedName n;
+Node  root();
+Node root = NodeUtil. n ; }
+ Node root = context.getRootOfQualifiedName(n);
+ final Node croot = NodeUtil.getRootOfQualifiedName(n);
+ Node root.getRootOfQualifiedName(n);
+ assertRoot(n);
+ checkName(n);
+ scope.getRootOfQualifiedName(n);
+ final Node $root = NodeUtil.getRootOfQualifiedName(n);
+ Node var;
+Node root = NodeUtil.null();
+ validateNode(n);
+Node root = NodeUtil.this;
+Node root = NodeUtil.global();
+Node root = NodeUtil() ;
+ ScopeImpl scope;
+ Scope varScope;
+Node  root = null
+ final Noderoot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil.root(); }
+Node root = NodeUtil.getRootOfQualifiedName(newVar);
+ Symbol root=getRootOfQualifiedName(n);
+ Scope scope.getRootOfQualifiedName(n);
+Node root = NodeUtil.getRootOfQualifiedName(node); }
+ return true ; } final
+Node root = NodeUtil.getRootOfQualifiedName(node);
+Node root = NodeUtil.getRootOfQualifiedName(); }
+Node root = NodeUtil (n); else
+ boolean result;
+ return false ; } private
+Node root = NodeUtil.currentNode(); }
+Node root = NodeUtil.getRootOfQualifiedName(nsName);
+Node root = NodeUtil.getRootOfQualifiedName(ns);
+Node  root = [];
+Node  root; }
+ assert scope.getRootOfQualifiedName(n);
+ Node $root = NodeUtil.getRootOfQualifiedName(n);
+ return true;
+ Node varRoot;
+ Node rroot = NodeUtil.getRootOfQualifiedName(n);
+Node root = NodeUtil n();
+Node root = NodeUtil.getRootOfQualifiedNameNode();
+Node  root; else
+ Tree root =NodeUtil.getRootOfQualifiedName(n);
+ Node root);
+Node root = NodeUtil n);
+Node root = NodeUtil.getRootOfQualifiedName(nsNode);
+Node root = NodeUtil.n(); }
+ Root.getRootOfQualifiedName(n);
+Node  root++;
+ var root);
+Node root = NodeUtil.getRootOfQualifiedName(ns); }
+ debugNode(n);
+Node root =  this;
+ checkParent(n);
+ try { final
+Node root =  node; }
+ node =NodeUtil.getRootOfQualifiedName(n);
+Node  node;
+ root :=NodeUtil.getRootOfQualifiedName(n);
+ var ();
+ var var);
+Node root = NodeUtil.getRootOfQualifiedName(n());
+ try catch final
+Node root = NodeUtil.getRootOfQualifiedName(n)); }
+ try: final
+ } private
+ Node node= NodeUtil.getRootOfQualifiedName(n);
+ final
+Node root = NodeUtil.getRootOfQualifiedName(N);
+Node root := NodeUtil.getRootOfQualifiedName(n);
+Node root: NodeUtil.getRootOfQualifiedName(n);

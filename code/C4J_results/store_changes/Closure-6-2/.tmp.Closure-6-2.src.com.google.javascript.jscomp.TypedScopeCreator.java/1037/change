@@ -1,0 +1,546 @@
+key = key.getNext();
+key = key.getNextChild();
+ key.getNext();
+ rValue = key.getNext();
+key = key.getNext() ; }
+key = key.nextChild();
+ rValue.getNext();
+key = key. nextChild ;
+ } }
+ } else {
+ rValue = rValue.getNext();
+key = key.getNextSibling ( ) ;
+key = key. nextSibling ;
+ } } else {
+ key.next();
+ } else { enumType.defineElement(key);
+ } else { rValue = key.getNext();
+key  = rValue. getNextChild ( ) ;
+ rValue = rkey.getNext();
+ } } }
+ } rValue = rValue.getNext();
+key  = rValue. getNext ( ) ;
+ } else { enumType = rValue;
+key =  rValue. getNextChild ( ) ; }
+ } else { enumType.defineElement(keyName, key);
+ } else { enumType.defineElement(keyName, key); }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTANT));
+ } rValue = rkey.getNext();
+ } else { enumType. defineElement ( key ) ;
+ } else { enumType. defineElement ( keyName ) ;
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTANT)); }
+ } else { enumType = rValue. next();
+key = key.next();
+key = key. getNextSibling ( ) ; }
+key = key.nextSibling();
+ } else { compiler.report( JSError.make(sourceName, key));
+key = key.getNext(). getNext ( ) ;
+key = key.getNext( ) ; } } }
+ } else { enumType = rValue.getNext();
+ } } else { enumType = rValue ;
+ } } else { enumType = rValue.getNext();
+ } else { enumType.defineElement(keyName, key); } } else {
+ } else { enumType.defineElement(keyName); }
+ } else { compiler.report( JSError.make(sourceName, keyName)); }
+ } } else { enumType = rValue ; }
+ } else { compiler.report( JSError.make(sourceName, key, keyName)); }
+ } else { compiler.report( JSError.make(sourceName, key)); }
+key = key.getNext(). getNextChild ( ) ;
+ } else { enumType.defineElement(keyName, key); } } }
+key  = rValue. nextChild ;
+ } rValue = key.getNext();
+key  = null ;
+ } else { enumType = (Node) key.getNext();
+ } else { compiler.report( JSError.make(sourceName)); }
+ } else { enumType [ keyName ]= key.getNext();
+ } else { enumType.defineElement(keyName, key); } }
+ } } } else {
+ } else { enumType.defineElement(keyName, rValue); }
+key = key.getNext( ) ; } } } }
+key = key.getNext( ) ; } }
+key = key. getNextChild ( ) ; } } }
+key = key. next ;
+ } else { enumType. defineElement ( rValue ) ;
+ } } else { enumType = info ;
+ } else { enumType.defineElement(keyName, key); } } } else {
+key = key. getNextChild ( ) ; } }
+key = key. getNextChild ( ). nextChild ;
+ }
+ } } else { key = key.getNext();
+ } else { enumType.defineElement(key); }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_STRING));
+ } else { key = key.getNext();
+ } else { compiler.report( JSError.make(sourceName, key, key); );
+ } else { compiler.report( JSError.make(sourceName, key); );
+key = key.getNext( ) ; } } } } }
+ } else { compiler.report( JSError.make(sourceName, key, key)); }
+ } else { compiler.report( JSError.make(sourceName));
+key = key.getNextChild(); }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTRUCTED));
+ } else { enumType. add ( key ) ;
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_CONSTANT)); }
+key  = rValue. nextSibling ;
+ } else { enumType.define(key);
+ } else { rValue |= key.getNext();
+ } else { compiler.report( JSError.make(sourceName, key, null)); }
+ } else { compiler.report( JSError.make(sourceName, key, keyName)); } }
+ } else { enumType = (Enum)key.getNext();
+ else { enumType.defineElement(keyName, key); }
+ } else { enumType.defineElement(key.getNext()); } } else { enumType.defineElement(key);
+ else { enumType.defineElement(keyName, key);
+ } else { enumType.defineElement(keyName, key); break ; }
+ } else { enumType. rValue |= key.getNext();
+ } else { rValue = rValue.getNext();
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTANT); );
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_INVALID));
+ } else { enumType. add ( key ) ;
+ } else { enumType.defineElement(keyName, key); break ; } }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_CONSTANT));
+ } else { enumType. defineElement ( keyName, key )
+ } else { compiler.report( JSError.make(key));
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_SET));
+ } } else { rValue = key.getNext();
+ } else { enumType = rValue ; }
+key = key. nextSibling ( ) ; }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_INVALID)); }
+key  = key. nextNext ( ) ;
+ } else { enumType.defineElement(keyName, key); } } else { enumType.defineElement(keyName); }
+ } else { compiler.report( JSError.make(sourceName, key, keyName));
+key  = rValue. next ;
+key = key.getNext( ) ; } } } } } }
+key = key.getNext() ; } } else { enumType = info ;
+ else { enumType.defineElement(keyName); }
+key  = key. getNextChild ( )
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTRUCTANT));
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_SET)); }
+key = key.nextNextChild ( ) ;
+key = key.getNext(). nextChild ;
+ } else { enumType. addElement ( key ) ;
+ } else { enumType.defineElement(keyName, key); } } } } else {
+ } else { enumType.defineElement(keyName, key); } else {
+ } else { enumType.defineElement(key.getNext()); } } else { enumType.defineElement(key); }
+key = key.getNext( ) ; } } else { break ; }
+ } else { compiler.report( JSError.make(sourceName, key)); } }
+key = key.getNext(). getNextChild ( ) ; }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTRUCTURE));
+ } else { enumType. add ( key )
+ } else { rValue = rkey.getNext();
+key =  rValue. getNextSibling ( ) ;
+key = key. getNextChild ; } } } } }
+key  = rValue. getFirstChild ( ) ;
+ } else { enumType. enumKey |= key.getNext();
+ if ( key!= null ) { compiler. report ( key ) ; }
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NONCONSTANT)); }
+ } else { compiler.report( JSError.make(sourceName, key, keyName); );
+ } else { compiler.report( JSError.make(sourceName, key, ENUM_NOT_CONSTRUCTED)); }
+ } else { enumType. defineElement ( key )
+ } else { compiler.report( JSError.make(sourceName, key), key); }
+ } else { enumType = key;
+ } else { enumType. push ( key ) ;
+key = key. getNextChild ( ). parent ;
+key = key. nextNextSibling ( ) ;
+key = key. nextSibling ; } } } }
+key = key.getNext( ) ; } else { key = null ;
+key = key.getNext( ). nextSibling ;
+ } else { enumType. push ( key ) ;
+key  = key. getFirstChild ( ) ;
+key = key.getNext( ) ; } } else { key = null ;
+ } } } } } }
+ else { enumType.defineElement(keyName, key); } }
+key = key.getNextChild(); } else { key = null ;
+key = key. getNextChild ( ). next ;
+ } } } } }
+key = key. nextSibling ; } } } } }
+key = key.nextChild(); } else { key = null ;
+key = key.getNextChild ( ). getNextChild ( ) ;
+ } else { compiler.report( JSError.make(sourceName, key, KEYNAME)); }
+ key = (Node) key.getNext();
+ } } } else { enumType = info ;
+ } else { compiler.report( JSError.make(sourceName, key); ); }
+ } else { compiler.report( JSError.make(sourceName, key, keyName)); break;
+ } else { enumType. defineElement ( );
+ break ; } rValue = key.getNext();
+ } else { compiler.report( JSError.make(sourceName, key, "Unknown key") );
+ } else { enumType. elements [ name ]= key.getNext();
+ } else { enumType.defineElement(key.getNext();
+key = key.getNext(). next ;
+ } else { compiler.report( JSError.make(sourceName, key, KEY_STRING)); }
+key = key.getNext() ; } } else { enumType = null ;
+ } else { enumType.defineElement(key.getNext()); } } else { enumType.defineElement(); }
+ } else { compiler.report( key);
+key = key.getNext( ) ; key. getNext ( ) ;
+ } else { key = rValue.getNext();
+ if ( key!= null ) {
+ } else { key = null ;
+ } else { compiler.report( JSError.make(sourceName, key, KEY_NAME)); }
+ } else { compiler.report( JSError.make(sourceName, key, KEY_UNKNOWN)); }
+ } } } }
+ } else { enumType = null;
+ } else { enumType.defineKey(key);
+ if ( key. hasNext ( ) )
+key  = rValue ;
+ else { enumType. defineElement(key); }
+key = key.getNext( ) ; } } else { break ; } }
+key = key.getNext( ) ; key. remove ( ) ;
+key = key.getNextChild(); key = null ;
+key  = rValue. getNextChild ; }
+ } else { rValue &= key.getNext();
+ } } else { rValue = node.getNext();
+ } else { enumType. push ( key )
+key = key.getNext( ) ; } else { break ; }
+key = key.getNext( ). parent ;
+key = key.getNext(). getNextChild ; } } } }
+ } else { if ( key!= null ) {
+ } else { keyName = rValue.getNext();
+ if (key!= null) { rValue=key.getNext();
+ } } rValue = rValue.getNext();
+key = key. getNextChild ( ) ; break ; }
+ } else { compiler.report( JSError.make(sourceName, key, null)); } }
+key = key. getNextChild ; }
+key = key.getNextChild(); } } else { break ; }
+ } else { enumType. defineElement = true;
+ } else { keyName = rkey.getNext();
+ } else { break ; key = key.getNext();
+ } else { enumType. define ( key ) ;
+ } else { enumType. ignore ( );
+ } else { compiler.report( JSError.make(sourceName, key, null); } } }
+ } else { enumType. getKeyName |= key.getNext();
+ } else { break ; } rValue = key.getNext();
+ } else { break ; } } }
+key = key.getNext( ) ; } } } } } } }
+key = key.getNext( ) ; } else { key = rValue ;
+ } else { enumType = (Type) key.getNext();
+ } else { enumType. next ( ) |= key.getNext();
+ } } else { enumType = rValueType;
+key = key.getNextChild(); } } } } }
+ if (key!= null) { key=key.getNext();
+key = key.getNextChild(); } else { break ; } } }
+ } else { enumType. ignore = true;
+ } else { break ; rValue = key.getNext();
+key = key.nextChild ( ). nextNext ( ) ;
+ } else { enumType. enumName |= key.getNext();
+ } else { enumType = (enumType)key.getNext();
+key = key.getNext( ) ; } } else { break ;
+key = key.getNextChild(); key. remove ( ) ;
+key = key.getNext() ; } else { key = rValue ; }
+key = key.getNext( ) ; } } } else { break ; }
+ } else { enumType. get ( ) |= key.getNext();
+key = key.getNextChild(); } } } } } }
+ } else { key = key.next();
+ } else { enumType.defineElement(key.getNext()); } } else { enumType.defineElement() ;
+ } else { rValue *= key.getNext();
+key = key.getNext( ) ; key. setNext ( ) ; }
+key = key.getNextChild(); break ; } } } } } }
+key = key.getNext(). getNextChild ; } } } } }
+ else { enumType.defineElement(key);
+key = key.getNextChild ( ). nextSibling ;
+ } else { enumType. push ( ) ;
+key  = ( Node ) key ;
+key = key.getNextChild(); break ; } } } } }
+key = key.getNext( ) ; key = null ;
+key = key.nextChild ( ) ; } } } }
+ } else { enumType. elementsTypeName |= key.getNext();
+key = key.nextChild ( ) ; } } } } }
+ } else { enumType. pushRValue.getNext();
+key = key.nextChild(); } } else { break ; }
+key = key.nextChild ( ). nextChild ;
+key = key.nextChild(); } } } } } }
+ } else { break ; }
+ } } else { break ; }
+ } } } } } } }
+ } else { enumType = (rValue).getNext();
+key = key.nextChild ; } } } }
+ if ( key. hasNext ) {
+key = key.nextChild ( ). nextSibling ;
+ } } else { break ; } }
+key = key.getNext( ) ; } key = null ;
+ } } else { enumType = null ;
+ } else { enumType. defineElement = false;
+key = key.nextChild ; } } } } }
+ break ; } rValue = rkey.getNext();
+key = key.getNextChild(); } else { break ; }
+ } else { enumType = (RValue).getNext();
+key = key.nextChild ; } key = null ;
+key = keyName ;
+key = key.getNextChild ( ) ; } } } }
+ else { enumType. add ( key ) ;
+key = key.getNextChild(); } } else { break ; } }
+key = key.getNextChild(); } else { break ; } }
+ } else { enumType.defineElement(key;
+key = key.nextChild ( ) ; } } }
+key = key.nextChild ; } } else { break ; }
+ } rValue &= key.getNext();
+ } else { enumType = rValueType;
+key = key.nextChild(); key. remove ( ) ;
+key = key.getNextChild ; } } } }
+ } else { enumType. name = name;
+ rValue |= key.getNext();
+ } else { enumType = rValue. nextgetNext();
+ } } else { rValue |= key.getNext();
+ rValue &= key.getNext();
+key = key.getNext(). getNextChild ; } } }
+ compiler.report( JSError.END);
+ } else { enumType. name |= key.getNext();
+ } else { break ; } }
+ } } else { rValue = rkey.getNext();
+key  = nextKey ;
+key = key.getNext( ) ; break ; }
+key = key.nextChild(); key = null ;
+ } } } } else {
+key = key.nextChild ; } } } } } }
+ } else { enumType. enumElement |= key.getNext();
+key = key.getNext(). getNextChild ; } key = null ;
+key = key. nextNextSibling ;
+ } rValue |= key.getNext();
+ } else { compiler.report( null);
+ compiler.exit(1);
+ } else { continue ; rValue=key.getNext();
+ if ( key!= null )
+ } key = null ;
+key  = key. nextChild ; }
+ if (key!= null) key=key.getNext();
+key = key.getNext(). nextChild();
+key  = nextChild ( ) ;
+ } } rValue = rkey.getNext();
+ break ; } } } } } }
+key  = getNextChild();
+ compiler.report( JSError.OK);
+ } } else { enumType = new Enum();
+ } } } else { rValue = node.getNext();
+ } if ( key!= null ) {
+ else { enumType [ keyName ]= key.getNext();
+ } else { rValue next= key.getNext();
+key = keyNext ;
+ else { enumType. push ( ) ;
+key = key.getNext(). getNextChild ; }
+key = key.nextChild ; key = null ;
+key = key.getNext( ). next ( ) ;
+ } else { keyName= key.getNext();
+ else { enumType = key. getParent();
+ compiler.exit(0);
+key = key. parent ;
+ compiler.report( null);
+ else { enumType.add(key);
+ if (key!= null) { rKey=key.getNext();
+ break ; } } } } } } }
+ } else { key = rValue ; }
+ } else { enumType.addEnum();
+ if ( key!= null ) break ;
+ } } else { enumType = getDefaultType();
+key  = nextNode ( ) ;
+ } } else { enumType = rValueNode.getNext();
+ } else { enumType = info;
+ } }
+ } } else { enumType.report();
+ } else { keyName = null
+ else { enumType. add ( key )
+ if ( key!= null ) { }
+ } key = rValue ;
+ } } else { enumType = info.type();
+ } else { key. next ( ) ;
+ } else { compiler.report( error);
+ } rValue next= key.getNext();
+ } else { key = rValue ;
+ } } rValue = node.getNext();
+ } } } else { rValue = value.getNext();
+ } } else { rValue &= key.getNext();
+ } else { enumType = new EmptyType();
+ key.nextSibling();
+ compiler.endNode(key);
+ } else { enumType = elementsType;
+ } else { key = getNext();
+ key = next ;
+ break ; } } } }
+ } } rValue = key.getNext();
+key = key.getNextChild(); key = nextKey ;
+ } key = key.next();
+ rValue = key.key.getNext();
+ else { enumType = key. getType();
+key = key.nextChild(); }
+ } else { break ; }
+ } else { enumType. value |= key.getNext();
+key = keyName. getNext ( ) ;
+ } } else { enumType = rValueType.getNext();
+ } } else { enumType. addElement();
+ key = rValue.nextChild();
+ } key = key.getNext();
+ } } else { rValue *= key.getNext();
+key = key.getNext( ) ; key. removeChild();
+key = key.getNextNextChild ( ) ;
+ } else { break ; } key= key.getNext();
+ } } } else { rValue = r.getNext();
+ key = keySibling.getNext();
+ } else { key. removeChild();
+ key. remove ( ) ;
+ key. removeChild();
+ rValue. next ( ) |= key.getNext();
+ } else { break ; } }
+ else { enumType. rValue |= key.getNext();
+ rValue. next |= key.getNext();
+ key = key ;
+key  = parent. next ;
+key = key.getNext( ) ; break ;
+ else { enumType. ignore = true;
+key = key. nextNextChild ;
+key = key.nextNextSibling(); }
+ } } rValue = value.getNext();
+key  = nextKey ; }
+key Name ;
+key  = "value" ;
+ break ; }
+key = keyNextChild ;
+key = key.nextSibling(); } }
+key  ++ ;
+ rValue = key ;
+ } } } rValue = node.getNext();
+ compiler.report( enumType);
+ } compiler.exit(enumType);
+ } else { enumType. push ( key )
+ } else { enumType.addElement();
+ key = key. next.getNext();
+ } else { key = nextChild();
+ } compiler.exit(1);
+ } else { enumType = undefined;
+ compiler.end(key);
+ } compiler.report(enumType);
+ } } rValue &= key.getNext();
+key = key.getNext( ). parent ; }
+ } rValue *= key.getNext();
+ } compiler.exit(0);
+ rValue = key next= key.getNext();
+ rKey = rkey.getNext();
+ key. nextChild();
+key = key.nextParent(); }
+key  = nextChild ;
+ } } else { return rValue;
+ } } } } }
+ } break;
+ } else { break compiler.exit();
+key = key.getNextChildN ( ) ;
+ key. removeNext();
+ rValue *= key.getNext();
+ if ( key!= null ) { break ;
+ compiler.report( error);
+ key = key. next().getNext();
+ } else { continue ; } }
+ key. popChild();
+ } } } } } }
+ } else { keyName ;
+key  ; }
+ key |= key.getNext();
+ break ; } } } else {
+ key = parent ;
+ break ; } else {
+ } } else { break ; }
+ } } } } } break;
+ compiler.exit(_);
+ compiler.report( "end");
+key  = kNext ;
+ rValue next= key.getNext();
+ break ; default :
+ compiler.end();
+ key = key.key.getNext();
+ key = key. parent.getNext();
+key  = nextNode ;
+ } } } break;
+ if (key) {
+key = key.getNextNext ( ) ;
+ key = keyNextChild.getNext();
+ compiler.report( ".");
+ } } } } break;
+ } } else { return null;
+ } break ; } } break;
+key = key. parent ; }
+ key = nextKey);
+ compiler.exit(););
+ compiler.exit();
+ } key. nextChild();
+ } } } }
+ } compiler.exit(eof);
+ } else { key = value;
+key = key.getNextParent ( ) ;
+key  = value ;
+key = keyNext ; }
+ } } }
+ keyName = null;
+ } key. removeNext();
+ else { keyName= key.getNext();
+ } key. removeChild();
+ } } return enumType;
+ keyName= key.getNext();
+key = keyParent ; }
+ break ; } } break;
+ key.pop();
+ } break ; } break;
+ k = rValue.getNext();
+ key.remove();
+ rValue = value.getNext();
+ } } } } else
+ keyName = key;
+ key &= key.getNext();
+ rKey=key.getNext();
+ key.prev();
+key = keyParent ;
+key = key.getNext(keyName);
+ } } break;
+key  = null
+ } key.getNext();
+key  -- ;
+ key = rkey.getNext();
+ key = keygetNext();
+ } } } else
+key = keyNode ;
+ key =.getNext();
+key = keyValue ;
+ return key.getNext();
+ continue ; } }
+ compiler(key);
+key = key.getNext(parent); }
+ } } else
+ } rValue.getNext();
+key = key.getNext(node); }
+ break ; }
+ break ;
+ else {
+ } else
+key = key.NextChild();
+ key = node.getNext();
+ key = null);
+Key = key.getNext();
+ continue ; }
+ rValue =.getNext();
+ key = key);
+ } (break);
+ compiler.end);
+ cValue.getNext();
+ break outer();
+ } });
+key = key.getNext() break ;
+key = key.getNext(parent);
+ } while();
+key = key.getNextChild());
+ value = value.getNext();
+ (break);
+ }, scope);
+ ctx.getNext();
+ break;
+ } continue();
+key = key.getNext(child);
+ break loop();
+key = key.getNext() } }
+ } break();
+key = key.getNext(key);
+ (key);
+ }, null);
+ node.getNext();
+ key.key.getNext();
+ continue ;
+key = key.getNextChild;
+ value.getNext();
+ } ;
+key = key.getNextNode();
+key = key.getNext() ; break
+ else
+key += key.getNext();
+key := key.getNext();
+key && key.getNext();

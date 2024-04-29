@@ -1,0 +1,887 @@
+jsdocBuilder.markText(line,
+jsdocBuilder.markText(line, lineno,
+jsdocBuilder.markText(line, lineno,  charno,
+jsdocBuilder.markText(line, lineno, charno,  line.length(),
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(),
+jsdocBuilder.markText(lineno,
+jsdocBuilder.markText(line, lineno + 1,
+jsdocBuilder.markText(line, lineno, charno,  line.length() -
+jsdocBuilder.markText(line, lineno + charno,
+jsdocBuilder.markText(line, lineno, charno, lineno + charno,
+jsdocBuilder.markText(line, lineno + line.length(),
+jsdocBuilder.markText(line, lineno, charno, lineno + 1,
+jsdocBuilder.markText(line, lineno,  line.length(),
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), charno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() - charno,
+ record(charno, lineno,
+ record(lineno,
+jsdocBuilder.record(line,
+jsdocBuilder.markText(line, lineno, charno + 1,
+ record(line, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), line.length(),
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() - 1,
+ record(line,
+jsdocBuilder.markText(line, line.length(),
+jsdocBuilder.markText(line, 0,
+jsdocBuilder.markText(line, lineno + line.length() +
+ record(lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length(), lineno,
+jsdocBuilder.markText(line, lineno + line.length(), charno,
+jsdocBuilder.markText(line, lineno,  line.length(), charno,
+jsdocBuilder.markText(line, lineno, charno); } else { jsdocBuilder.markText
+ record(line, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  charno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), 0,
+ stream.update(lineno,
+ stream.record(line, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() + 1,
+jsdocBuilder.markText(line, lineno, charno); } else { jsdocBuilder.mark(
+jsdocBuilder.markText(line, lineno,  line.length() -
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), line.length() -
+jsdocBuilder.record(lineno,
+jsdocBuilder.markText(line, lineno, charno,  0,
+jsdocBuilder.markText(line, stream.getCharno ( ) +
+jsdocBuilder.markText(line, lineno + line.length(), line.length(),
+jsdocBuilder.markText(line, line.length() -
+jsdocBuilder.markText(line, lineno, charno,  line.length() - charno,
+ return new ExtractionInfo(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, line.length(), lineno,
+ stream.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno + line.length(), 0,
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(
+jsdocBuilder.markText(line, lineno,  stream.getCharno() +
+jsdocBuilder.markText(line, lineno + line.length() + 1,
+jsdocBuilder.markTextDescription(line, lineno,
+jsdocBuilder.recordText(lineno,
+ record(line, lineno, charno, lineno,
+ line = line.substring(lineno,
+jsdocBuilder.markText(line,  stream.getCharno() + 1,
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(
+ stream.record(line,
+jsdocBuilder.markText(line, lineno, charno); } else { jsdocBuilder.markLine
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() - 1, 0,
+jsdocBuilder.markText(line, line.length() +
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), line,
+jsdocBuilder.markText(line, lineno, charno); } else { line = new String(
+jsdocBuilder.markText(line, lineno,  stream.getCharno() + 1,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line += " " ;
+ return new ExtractionInfo(line, next()); } else { if (line.length() > 0) {
+jsdocBuilder.markText(line, lineno, charno,  line.length(), line.length(),
+ next = line. trim ( ) ; } else { next = line. trim ( ) ; line = (
+jsdocBuilder.markText(line, lineno,  line.length(), 0,
+ line = line.replace(charno,
+jsdocBuilder.markText(line, lineno, charno,  line.length() - line.length(),
+ stream.record(lineno,
+jsdocBuilder.markText(line, lineno,  line.length() - charno,
+jsdocBuilder.recordText(line, lineno,
+ line = line.replace(charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length()); line = new String(
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() -
+jsdocBuilder.markText(line, lineno, charno,  line.length() - 1,
+jsdocBuilder.markText(line, lineno, charno,  line.length()); line = new String(
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() * 2,
+jsdocBuilder.markText(line, line.length() + 1,
+jsdocBuilder.markText(line, lineno,  line.length() - 1,
+ next = nextLine ( line ) ; } else { next = nextLine ( line ) ; line = (
+ return new ExtractionInfo(line, next()); } else if ( line. length ( ) > 0 ) { line += " " ;
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(
+ next = line. trim ( ) ; } else { next = line. trim ( ) ; line += "+
+jsdocBuilder.markText(line, lineno +
+ next = line. trim ( ) ; } else { next = line. trim ( ) ; line = "+
+jsdocBuilder.markText(line, stream.getLine ( ) +
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() + charno,
+jsdocBuilder.markText(line, lineno, charno); } else { jsdocBuilder.markEnd
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line += ' ' ;
+jsdocBuilder.add(line,
+jsdocBuilder.markText(line, lineno,  line.length() * charno,
+jsdocBuilder.markText(line, lineno + line.length() + charno,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line = " " +
+jsdocBuilder.markText(line, line.length() + line.length(),
+ line = new String(charno, lineno,
+jsdocBuilder.markText(line, lineno,  line.length() + 1,
+ next = nextLine ( line ) ; } else { next = nextLine ( line ) ; next (
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length(), lineno,
+ console.log(line, charno, lineno,
+ next = line. trim ( ) ; } else { next = line. trim ( ) ; line += ",
+jsdocBuilder.markTextDescription(line, line.length(),
+jsdocBuilder.markText(line, lineno + line.length() -
+jsdocBuilder.recordText(line,
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line, next()); } } else {
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) {
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line); }
+jsdocBuilder.markText(line, lineno, charno,  lineno +
+ next = new ExtractionInfo(line, next, charno, lineno,
+ line = new String(lineno,
+ next = stream.getCharno() + 1 ; } else { next = (lineno +
+ next = stream.getCharno() + 1 ; } else { next = (int)
+ line.replace(charno, lineno,
+ return new ExtractionInfo(line, next()); } else if ( line. length ( ) > 0 ) { line += " " +
+jsdocBuilder.markText(line,  line.length() + line.length() +
+jsdocBuilder.markText(line, stream.getCharno() -
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(),
+ next = stream.getCharno() + 1 ; } else { next = lineno +
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() - 1, line,
+jsdocBuilder.recordTextualDescription(line, lineno,
+jsdocBuilder.markText(line, line.length() * charno,
+jsdocBuilder.markText(line, lineno,  line.length(), line.length(),
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCase(
+ stream.record(lineno, charno, lineno,
+ next = nextLine ( line ) ; } else { next = nextLine ( line ) ; next =
+ nextLineLine ( line, next); } else { nextLineLine ( line, lineno +
+jsdocBuilder.addText(line, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() * charno,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line += " " +
+jsdocBuilder.markText(line, lineno,  stream.getCharno() -
+jsdocBuilder.markText(line, lineno, charno,  line.length()); line.length(
+jsdocBuilder.addText(lineno,
+jsdocBuilder.markText(line, stream.getLine (line,
+ jsdocBuilder.markText(line, 0); } else {
+jsdocBuilder.markText(line, line.length(), lineno +
+jsdocBuilder.markText(line,  stream.getCharno(line) +
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(),
+ line = new String(lineno, charno, lineno,
+ line.replace(lineno, charno, lineno,
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line = "";
+jsdocBuilder.markText(line, line.length(), line.length(),
+jsdocBuilder.markText(line, stream.getLineNumber ( ) +
+ return new ExtractionInfo(line, next()); } else { line = line. trim ( ) ; } else { line =
+ console.log(line, lineno, charno, lineno,
+jsdocBuilder.record(line, lineno,
+jsdocBuilder.markText(line, line.length(), 0,
+jsdocBuilder.markTextualDescription(line, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length()); line = (String)
+ next = new ExtractionInfo(line, next(), lineno,
+ stream.record(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, stream.getLineNumber(),
+jsdocBuilder.markText(line, stream.getCharno ( ),
+ nextLineLine ( line, next); } else { nextLineLine ( line, lineno,
+jsdocBuilder.recordTextualDescription(lineno,
+ nextLine ( stream. getLineNumber ( ), stream. getColumnNumber ( ),
+jsdocBuilder.markTextDescription(lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length()); line = (String)
+jsdocBuilder.markText(line, lineno + line.length()); next(
+ line = line.toLowerCase() + line.toUpperCase() +
+ line = line.toLowerCase() + line.toLowerCase() +
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line += "";
+ return new ExtractionInfo(line, next()); } else if (line.length() < 1) { line = "";
+ nextLine ( stream. getLineNumber ( ), stream. getColNumber ( ),
+ print(line, lineno, charno, lineno,
+ line = line.replace(charno-lineno,
+jsdocBuilder.recordText(line, line.length(),
+jsdocBuilder.addText(line,
+jsdocBuilder.markText(line, lineno,  line.length() +
+ line = line.replace(lineno,
+ stream.update(line, lineno,
+jsdocBuilder.markText(line, lineno, charno + line.position,
+jsdocBuilder.markText(line, lineno + line.length(), line.length() -
+jsdocBuilder.markText(line, lineno, charno,  line.length(), lineno +
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCase().replace(
+jsdocBuilder.markText(line, lineno, charno + line.length,
+ line = new String(line,
+ line = line.replace(0,
+jsdocBuilder.addText(line, line.length(),
+ next = new ExtractionInfo(line, next, lineno,
+jsdocBuilder.markText(line, lineno + line.length(), token,
+ next = new ExtractionInfo(charno,
+ next = new ExtractionInfo(line, nextCharno,
+ return new ExtractionInfo(line, next()); } else { line = line. trim ( ) ; } } else {
+ next = new ExtractionInfo(charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length(), charno,
+ next = new ExtractionInfo(line, next,
+ console.log(line, lineno,
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCase(),
+jsdocBuilder.markText(line, lineno, charno,  line.length()); } else { lineno =
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line, next()); } } else { line =
+jsdocBuilder.markText(line, lineno,  0,
+jsdocBuilder.markTextDescription(line, line.length( ) +
+jsdocBuilder.recordString(lineno,
+ next = new ExtractionInfo(line, next(lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length(), 0,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line += ";"
+ stream.record(charno, lineno,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { line += ";
+jsdocBuilder.markText(line, lineno, charno + line.offset,
+jsdocBuilder.record(
+jsdocBuilder.markText(line, lineno, charno + line.length(),
+ line = new String(line, lineno, charno, lineno,
+ line = line.toLowerCaseCase() + line.toUpperCase() +
+jsdocBuilder.markText(line, lineno, charno,  line.length()); line = (string)
+ next = new ExtractionInfo(line, nextCharno =
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line, next()); } else { return
+jsdocBuilder.markTextDescription(line, line.length() -
+jsdocBuilder.markText(line, lineno, charno,  line.length() - lineno,
+jsdocBuilder.addDescription(line,
+ stream.record(line, charno, lineno,
+ next = line.length(); } else { next = line.fill(0,
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line =
+ line = line.toLowerCase() + line.substring(
+ line = line.replace(info.charno, lineno,
+ line = line.toLowerCase() + line.toLowerCase(),
+ next = new ExtractionInfo(next, line.length(),
+jsdocBuilder.recordText(line, 0,
+ next = new ExtractionInfo(line, next()); } else { next = (
+jsdocBuilder.recordTextualDescription(line,
+ line = line.replace(token,
+ next = stream.getCharno() + 1 ; } else { next = (lineno -
+ return new ExtractionInfo(line, next()); } else { line = line. trim ( ) ; } else {
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCase().replace(
+ line = format(charno, lineno,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) { return
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCase(
+ line = line.replaceFirst(charno, lineno,
+ next = new ExtractionInfo(line, token, charno, lineno,
+jsdocBuilder.record(line, line.length(),
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCaseCaseCase();
+jsdocBuilder.markText(line, lineno,  line.length() + line.length(),
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { return
+ return new ExtractionInfo(line, next()); } else if (line.length() < 1) { return null; } return
+jsdocBuilder.markText(line, lineno, charno,  line.length() - line.length() -
+jsdocBuilder.markText(line, lineno, charno,  line.length() + 1,
+ line = line. trim ( ) ;
+ next = new ExtractionInfo(lineno,
+ line. append ( ' ' ) ;
+jsdocBuilder.markText(line, lineno,  stream.getCharno(),
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line, next()); } else { }
+jsdocBuilder.markText(line, lineno, charno + line.width(),
+ console.log(line,
+ line = new String(line, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length() - line.length() +
+ line = formatTextualBlock(line, lineno, charno, lineno,
+jsdocBuilder.addText(line, 0,
+jsdocBuilder.markText(line, lineno, charno,  line.length - 1,
+ next = new ExtractionInfo(line, nextLineNo +
+ next = new ExtractionInfo(line, line.length(),
+jsdocBuilder.markText(line, line.lineNumber(),
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseCase(),
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line, next(); } else { return
+jsdocBuilder.markText(line,  line.length() + line.length() -
+jsdocBuilder.recordText (line, line.length() -
+ line = line.toLowerCase() + line.toLowerCase(
+ return new ExtractionInfoImpl(line, lineno, charno, lineno,
+ next = new ExtractionInfo(charno-lineno,
+jsdocBuilder.markText(line, lineno,  line.length() + line.length() +
+ recordDescription(line, lineno,
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCase().replace(
+ jsdocBuilder.markText(line, lineno); } else
+jsdocBuilder.markText(line,  stream.getCharno(lineno),
+jsdocBuilder.markText(line, lineno, charno); } else { line = (String)
+ next = new ExtractionInfo(line, next(), lineno +
+jsdocBuilder.markText(line, lineno + line.length(), line.length() +
+jsdocBuilder.markText(line, lineno, charno + line.length(), lineno,
+jsdocBuilder.markTextualDescription(lineno,
+ stream.replace(line,
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCaseString(
+ return new ExtractionInfo(line, next()); } else if (line.length() > 0) { return
+ stream.setLine(lineno,
+ print(line, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.width(),
+ next = new ExtractionInfo(line,
+ line = new String(line, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno); } else { next().markText(
+jsdocBuilder.addText(line, line.length() -
+jsdocBuilder.markText(line, lineno,  line.charno,
+ next().markText(line); } else next.markText(line, lineno, charno, lineno,
+ line. append ( '\n' ) ;
+ stream.update(line,
+ line = formatTextualBlock(lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno + " " +
+ return new ExtractionInfo(line, record(line, lineno, charno, lineno,
+ line = formatLine(charno, lineno,
+jsdocBuilder.addChar(
+ next = new ExtractionInfo(line, token, lineno,
+jsdocBuilder.record(line, line.length() -
+jsdocBuilder.recordText(
+jsdocBuilder.recordTextualDescription(line, token,
+ line = format(line, lineno, charno, lineno,
+ recordDescription(line, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno - lineno,
+ next = new ExtractionInfo(line, lineno, charno, lineno,
+ next = new ExtractionInfo(new String(line, lineno, charno, lineno,
+ return new ExtractionInfo(line, next()); } else { line = line. trim ( ) ; } return
+ line = line.replace(this.charno, lineno,
+jsdocBuilder.markTextDescription(line, 0,
+jsdocBuilder.markText(line, lineno, charno); } else { lineno =
+jsdocBuilder.markTextDescription(line, lineno +
+jsdocBuilder.recordText(line, token,
+ stream.replace(lineno, charno, lineno,
+ line = extractSingleLineTextualBlock(line, lineno, charno, lineno,
+ line = line.replace(charno + 1,
+jsdocBuilder.markText(line, lineno,  line.length() + line.length() -
+jsdocBuilder.record(line, 0,
+ stream.recordTextualBlock(line, lineno, charno, lineno,
+ if (line.length() > 0) { line = (String)
+ stream.add(line, lineno,
+ return new ExtractionInfo(line, format(line, lineno, charno, lineno,
+ line += " " +
+ line. append ( ' ' ) ; stream.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length() +
+ next = new ExtractionInfo(line, line.length() +
+jsdocBuilder.markText(line, lineno, charno,  line.length()); line.length =
+jsdocBuilder.markText(line, token,
+ stream.recordText(line, charno, lineno,
+jsdocBuilder.append(
+jsdocBuilder().record(line,
+ line = formatTextualBlock(line, charno, lineno,
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line = new
+ recordText(line, lineno,
+ line = line.replace(token.charno, lineno,
+ next = new ExtractionInfo(next, line.length( ) +
+jsdocBuilder.record(line, line.length( ) +
+ next().recordTextualBlock(line,
+ line = line.replaceAll(charno, lineno,
+jsdocBuilder.markText(line, lineno + line.length()); line = (String)
+jsdocBuilder.markText(line, lineno, charno - 1,
+jsdocBuilder.markText(line, lineno,  stream.getLine ( ) +
+jsdocBuilder.markText(line, lineno,  charno); } else { line = line +
+jsdocBuilder.markText(line, lineno, charno,  line.length()); } else { next(
+ line = line.toLowerCaseCaseCaseCaseCaseCaseCaseCase(),
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line = +
+ line = format(line.charno, lineno,
+ next = new ExtractionInfo(charno+line, lineno, charno, lineno,
+jsdocBuilder.write(line,
+ next = new ExtractionInfo(lineno, charno, lineno,
+ return new ExtractionInfo(line, next()); } else { return new ExtractionInfo(line); return
+jsdocBuilder.markText(line, lineno,  line.length()); } else { line = (
+ line. append ( " " ) ;
+ stream.recordText(line, lineno,
+ next = new ExtractionInfo(charno+lineno,
+jsdocBuilder.markText(line, lineno,  line.charno(),
+ if (line.length() > 0) { line += " " +
+ next = new ExtractionInfo(next,
+jsdocBuilder.markText(line, lineno, charno, lineno + line.length,
+ line = line.substring(0,
+ stream.recordTextualBlock(line, charno, lineno,
+ line = formatTextual(line, lineno, charno, lineno,
+ next = new ExtractionInfo(line, null, charno, lineno,
+ line = format(line, charno, lineno,
+ line = formatTextualBlock(line, lineno,
+ return new ExtractionInfo(line, next()); } else if (line.length() < 0) { line = *
+jsdocBuilder.markText(line, lineno, charno, lineno + line.cols(),
+ return new ExtractionInfo(line, next()); } else { if (line.length() > 0) {}
+ jsdocBuilder.recordText(line, lineno); } else
+ return new ExtractionInfo(new String(line, lineno, charno, lineno,
+ line.setText(lineno,
+jsdocBuilder.markText(line, lineno + line.length()); line = (string)
+jsdocBuilder.markText(line, lineno, charno); } else { line = (string)
+ line = line.replace(\"\n\",
+ next = new ExtractionInfo(line); record(line, lineno, charno, lineno,
+ line = new StringBuilder(lineno, charno, lineno,
+ next = new ExtractionInfo(String.copy(line, lineno, charno, lineno,
+ line = line.toLowerCase() + line.toLowerCase() + "";
+ next().recordTextualBlock(line, charno, lineno,
+ line = line.replace(charno+lineno,
+ return new ExtractionInfo(line, next()); } else { if ( line. length ( ) > 0 ) return
+ line = line + " " +
+ next = new ExtractionInfo(next, line, lineno,
+jsdocBuilder.markText(line, lineno,  line.characterNo(),
+ line = formatLine(line, lineno, charno, lineno,
+ line = line.replace(0,lineno,
+jsdocBuilder.markText(line, lineno, charno); } else { line = (
+ line = line.replaceString(charno, lineno,
+ line = line.replaceFirst(charno,
+ line = line.substring(charno,
+ stream.recordText(line, lineno, charno, lineno,
+ next().recordTextualBlock(line, lineno,
+ next = new ExtractionInfo(line, null, lineno,
+jsdocBuilder.markText(lines, lineno,
+ recordDescription(line,
+ if (line.length() > 0) { line = line + " " +
+ line.replace(info.charno, lineno,
+ console.log(lineno, charno, lineno,
+ stream.update(lineno, charno, lineno,
+ line = line.replace(charno, lineno, charno, lineno,
+ if (line.length() == 0) { return null; } } else { line =
+ recordText(line,
+ stream.setText(line,
+ line = line. trim ( ) ; stream.markText(line, lineno, charno, lineno,
+ recordText(charno, lineno,
+ if ( line. length ( ) > 0 ) { line. length ( ) = 0 ; }
+ line = new String(line, charno, lineno, charno, lineno,
+ line = line.replace(\"\n\",lineno,
+ line = formatTextualBlock(line.charno, lineno,
+jsdocBuilder.markText(line, lineno, charno); } else { line. append (
+ if (line.length() > 1) { line = (String)
+ line = formatText(line, lineno, charno, lineno,
+ line = (line,
+ recordText(lineno,
+ next = new ExtractionInfo(next); record(line, lineno, charno, lineno,
+ line. append ( " " ) ; stream.markText(line, lineno, charno, lineno,
+ line = line.replace(charno.lineno,
+ if (line.length() > 0) { line = line + "";
+ stream.write(line, lineno,
+ stream.recordTextualDescription(line.lineno, charno, lineno,
+ stream.replace(lineno,
+ if (line.length() > 0) { line = line + ' ' +
+ line = line.toLowerCase() + line.toLowerCase(); } else {
+ stream.recordText(lineno, charno, lineno,
+ next = new ExtractionInfo(line.length, lineno,
+ stream.setText(lineno,
+ line = formatTextual(line, charno, lineno,
+ if (line.length() > 0) { line = line.toString() + ""; }
+ return new ExtractionInfo(line, next()); } else { line. length ( ) = 0 ; }
+ return new ExtractionInfo(line, next()); } else { line = line. trim ( ) ; }
+ stream.set(lineno,
+ if (line.length() > 0) { line = line.toString(); } else {
+ line.setText(lineno, charno, lineno,
+ stream.recordText(lineno,
+ recordDescription(lineno, charno, lineno,
+ line = line.toLowerCase() + line.toLowerCase()); } else {
+jsdocBuilder.markText ( lineno +
+ print(line, lineno,
+ next().markText(line); } next.markText(line, lineno, charno, lineno,
+ stream.recordTextualBlock(lineno, charno, lineno,
+jsdocBuilder.markText(line.length(),
+ recordText(line, charno, lineno,
+ recordDescription(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno - line.length(),
+ next().markText(line); } { next.markText(line, lineno, charno, lineno,
+ line += ": " +
+ stream.add(lineno,
+ if (line.length() > 0) { line = line.strip();
+jsdocBuilder.recordDescription(
+ stream.recordTextualDescription(line, 0,
+ line = line.replace(1,
+ stream.addText(line,
+ if (line.length() > 0) { line += " ";
+ if ( line. length ( ) > 0 ) { line. append ( ' ' ) ; }
+ line = formatTextual(line.charno, lineno,
+ line = line.replace(line.lineno,
+ line = new TextLine(lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length (line,
+ line = line.replaceFirst(info.charno, lineno,
+ if (line.length() > 0) { line += ' ' +
+ next = new ExtractionInfo(line.length,
+jsdocBuilder.markTextual (lineno,
+jsdocBuilder.markText(line, -
+ recordDescription(charno, lineno,
+jsdocBuilder.markTextualDescription(line, 0,
+ next = new ExtractionInfo(line, 0, charno, lineno,
+ next = new ExtractionInfo(line, _charno, lineno,
+ if ( line. length ( ) > 0 ) { line. length ( ) -= 1 ; }
+ stream.recordTextualDescription(line, charno, lineno,
+ stream.addText(line, lineno,
+ stream.addTextualBlock(line, lineno, charno, lineno,
+ line = line.toLowerCase() + line.toLowerCase() + NL;
+ next = new ExtractionInfo(next()); record(line, lineno, charno, lineno,
+ next = new ExtractionInfo(charno,line, lineno, charno, lineno,
+ stream.update(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno, charno,
+ line = line.replace(" "+charno, lineno,
+jsdocBuilder.markText(lineno + 1,
+ line += line.length();
+ stream.recordDescription(line, charno, lineno,
+ line = line.replaceFirst(lineno,
+ stream.setLine(line,
+ return new ExtractionInfo(line, replace(line, lineno, charno, lineno,
+ line.setText(charno, lineno,
+ line = new String(charno, lineno, charno, lineno,
+ stream.recordDescription(line, lineno,
+ if (line.length() > 0) { line = line.strip(); }
+ line = replace(charno, lineno,
+ line = formatDescription(line, charno, lineno,
+ if (line.length() > 0) { line += ": " +
+ if (line.length() > 0) { line = line.strip(" "); }
+jsdocBuilder.markText(line, lineno, charno + line.length(), 0,
+ return new ExtractionInfo(charno, lineno,
+ next = new ExtractionInfo(charno+charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno - charno,
+ return new ExtractionInfoInternal(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length,
+ if (line.length() > 0) { line = line.replace();
+ stream.addDescription(line,
+ line = formatLine(line, charno, lineno,
+ next = new ExtractionInfo(charno-charno, lineno,
+ jsdocBuilder.markText(line, line.length()); else
+ next = new ExtractionInfo(next.line, lineno, charno, lineno,
+ next = new ExtractionInfo(lineNo, charno, lineno,
+ next = new ExtractionInfo(line, line, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.length -
+ line = line.replace("\"\n",lineno,
+ line = line.replaceAll(info.charno, lineno,
+ line = line.sub(0,lineno,
+jsdocBuilder.markText(line, lineno + -
+ stream.addDescription(line, lineno,
+ if (line.length() > 0) { line = line + NL +
+ line = line.sub(charno-lineno,
+ return new ExtractionInfo(line), format(line, lineno, charno, lineno,
+ line = line.replaceRange(lineno, charno, lineno,
+ line = line.substring(lineno, charno, lineno,
+ line = formatTextual(line, lineno,
+jsdocBuilder.add(
+ console.log(charno, lineno, charno, lineno,
+ if (line.length() > 0) { line = line + ' ' ;
+ line = formatLine(lineno, charno, lineno,
+ log(line, lineno, charno, lineno,
+ line = line.slice(0,lineno,
+ line = line.replaceAll("\\n",lineno,
+ next = new ExtractionInfo(lineNumber, charno, lineno,
+ line = formatTextualBlock(line.lineno, charno, lineno,
+ if (line.length() > 0) { line = line.strip( " ); }
+ return new ExtractionInfoWithDescription(line, lineno, charno, lineno,
+ next = new ExtractionInfo(line); print(line, lineno, charno, lineno,
+ if ( line. length ( ) > 0 ) { line. length ( ) = 0 ; } else
+ stream.recordTextualDescription(line, lineno, charno, lineno,
+ line = record(charno, lineno,
+ return new ExtractionInfo(record(line, lineno, charno, lineno,
+ line = new StringBuilder(line, lineno, charno, lineno,
+ stream.recordDescription(lineno, charno, lineno,
+ line = formatText(charno, lineno,
+jsdocBuilder.markText(line, lineno, charno + line.cols(),
+jsdocBuilder.addLine(
+ jsdocBuilder.markText(line, line.length()); }
+jsdocBuilder.markText(line, lineno, charno,  line.length() +
+ line = line.toString(); } else {
+ line = formatString(charno, lineno,
+ line = new TextLine(line, lineno,
+jsdocBuilder.markTextualDescription(line,
+jsdocBuilder.markText(line, lineno, charno + ":" +
+ next = new ExtractionInfo(line, newline, lineno, charno, lineno,
+ next(line, charno); record(line, lineno, charno, lineno,
+ stream.recordTextualDescriptions(line, lineno, charno, lineno,
+ stream.recordTextualDescription(line, 0, lineno, charno, lineno,
+ line = line + ' ' +
+ line = line.replaceAll(" "); stream.markText(line, lineno, charno, lineno,
+ line = line.replaceAll("\\n",lineno, charno, lineno,
+ next = new ExtractionInfo.Line(line, lineno, charno, lineno,
+ stream.recordTextualDescription(line.length, lineno, charno, lineno,
+ line = line.toLowerCase() + line.toLowerCase() + ";"
+jsdocBuilder.markText(line, line.position(),
+ line = line.replace(\"\",lineno,
+ line = line.replaceFirst(token.charno, lineno,
+ line = line.replace(info.lineno, charno, lineno,
+ line = new String(line, 0, lineno, charno, lineno,
+ if ( line. length ( ) > 0 ) { line. length ( ) = 0 ; } return
+ return new ExtractionInfoLine(line, lineno, charno, lineno,
+ stream.recordDescription(line, lineno, charno, lineno,
+ recordText(lineno, charno, lineno,
+ stream.recordTextualDescription(charno-charno, lineno,
+ return new ExtractInfo(line, lineno, charno, lineno,
+ if (line.length() > 0) { line = line.strip(")"; }
+ nextLine ( ) ; next ( ) ;markText(line, lineno, charno, lineno,
+ log(line, charno, lineno,
+ stream.recordTextual(line, charno, lineno,
+ if ( line. length ( ) > 0 ) { line. append ( ' ' ) ; } return
+ recordText(line, lineno, charno, lineno,
+jsdocBuilder.recordChar(
+ if (line.length() > 0) { line +=
+ stream.addTextLine(line,
+ line = line.replace(line.lineno, charno, lineno,
+ stream.recordTextual(line.length, charno, lineno,
+jsdocBuilder.markText(line, lineno + *
+ line = line.replaceAll("\n", lineno, charno, lineno,
+ stream.update(line, charno, lineno,
+ line = line.replace(\"\n\", lineno, charno, lineno,
+ printDescription(line, charno, lineno,
+ if ( line. length ( ) > 0 ) { line. append ( ' ' ) ; } else
+ line += line.length(); } else {
+ line = new String(line, 0, charno, lineno,
+ next = new ExtractionInfo(lineNo, lineno,
+jsdocBuilder.markText(line, lines.length -
+ stream.recordTextualBlock(lineno,
+ line.replace(string, lineno, charno, lineno,
+ line = formatTextual(lineno, charno, lineno,
+ stream.recordTextualBlock(charno+line, lineno, charno, lineno,
+ line = (String)
+ log(line, lineno,
+ line = TextUtils.markText(line, lineno, charno, lineno,
+ stream.recordTextual(line, lineno, charno, lineno,
+ stream.setJSDoc(line, lineno, charno, lineno,
+ line += " " ;
+ next = new ExtractionInfo(characterno, lineno,
+ return new ExtractionInfo(new Text(line, lineno, charno, lineno,
+ printLine(line, lineno,
+ line. append ( ' ' ) ; line.markText(line, lineno, charno, lineno,
+ line = extractSingleLineTextual(line, lineno, charno, lineno,
+ line = line.replace(:charno, lineno,
+ stream.addText(line, lineno, charno, lineno,
+ if ( line. length ( ) > 0 ) { line. length ( ) -- ; } else
+ printLine(line, charno, lineno,
+ logTextualBlock(line, lineno, charno, lineno,
+ stream.recordTextual(line, 0, lineno, charno, lineno,
+ line.replace(this.charno, lineno,
+jsdocBuilder.write(
+ stream.recordTextDescription(line, lineno, charno, lineno,
+ line. append ( " " +
+ log(lineno,
+ recordTextDescription(line, lineno, charno, lineno,
+ stream.recordTextual(line.length, lineno, charno, lineno,
+ line = line.replaceRange(lineno,
+ line = line.replace("\\n",charno, lineno,
+ addDescription(line, lineno,
+ line = TextUtils.unmarkText(line, lineno, charno, lineno,
+ stream.recordTextualDescription(charno+line, lineno, charno, lineno,
+ line.replace(token.charno, lineno,
+ next = new ExtractionInfoImpl(line, lineno, charno, lineno,
+ line = line + "";
+ if (line.length() < charno) return null;
+jsdocBuilder.markTextLine(
+ stream.recordTextual(line, 0, charno, lineno,
+ stream.recordTextualDescription(charno+charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  charno -
+ next = new ExtractionInfo(token.line, lineno, charno, lineno,
+ line = line.replace(0,lineno, charno, lineno,
+ line = line.replaceString(lineno,
+ if (line.length() > 0) { return
+ recordDescription(lineno,
+ printDescription(line, lineno, charno, lineno,
+ stream.recordTextualDescription(this.line, lineno, charno, lineno,
+ line = new StringBuilder(line, charno, lineno,
+ next = new ExtractionInfo(lineno, lineno,
+ printText(line, charno, lineno,
+ line += ' ' ;
+ line.replace(string, charno, lineno,
+ printLine(line, lineno, charno, lineno,
+ next = new ExtractionInfo(lineNumber, lineno,
+ stream.addTextLine(lineno,
+ line = line.replaceAll(charno, lineno, charno, lineno,
+ stream.addTextLine(line, lineno,
+ line. append ( ' ' ) stream.markText(line, lineno, charno, lineno,
+ next = new ExtractionInfo(string,line, lineno, charno, lineno,
+ stream.recordTextLine(lineno,
+ stream.recordTextualExcerpt(line, lineno, charno, lineno,
+ stream.recordTextualDescr(line, lineno, charno, lineno,
+ return new TextInfo(line, lineno, charno, lineno,
+ line = new StringBuilder(lineno,
+ printText(line, lineno,
+ line = line.replaceAll(info.lineno, charno, lineno,
+ return new ExtractionInfo(lineNo, lineno,
+ line = formatTextual(line.lineno, charno, lineno,
+ if (line.length() < charno) { return
+ line. append ( ' ' ) ; parser.markText(line, lineno, charno, lineno,
+ stream.markLine(line); } else stream.markText(line, lineno, charno, lineno,
+ line = formatTextLine(lineno, charno, lineno,
+ line = TextUtils.bookmarkText(line, lineno, charno, lineno,
+ stream.recordText (charno, lineno,
+ stream.addTextRange(lineno,
+ stream.addTextLine(line, lineno, charno, lineno,
+ line = line + ""; stream.markText(line, lineno, charno, lineno,
+ line += "\n";
+ nextLine = nextLine ; stream.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno + 1 -
+ stream.recordTextualDescriptionLine(line, lineno, charno, lineno,
+ nextLine ( line ) ; return new BenchmarkText(line, lineno, charno, lineno,
+ stream.recordTextual(line, token, lineno, charno, lineno,
+ stream.addTextLine(lineno, charno, lineno,
+ print(line,
+jsdocBuilder.markText(lineeno,
+ nextLine ( line ) ; } else {markText(line, lineno, charno, lineno,
+ line = line + NL +
+ line = unmarkText(line, lineno, charno, lineno,
+ line = line. trim ( ) +
+ nextLine = nextLine + stream.markText(line, lineno, charno, lineno,
+ printText(line, lineno, charno, lineno,
+ return new ExtractionInfo.Line(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno + ": " +
+ printLine(lineno, charno, lineno,
+ line. append ( ' ' ) ; writer.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, line,
+ format(line, charno, lineno,
+ line = line.replaceAll("\n")lineno, charno, lineno,
+ line += "\n"; stream.markText(line, lineno, charno, lineno,
+ line = line.replace(\"\n\"lineno, charno, lineno,
+ if (line.length() > 0) { line += "
+jsdocBuilder.markText(line, lineno - charno,
+ addDescription(charno, lineno,
+ nextLine ( ) ; next ( ).markText(line, lineno, charno, lineno,
+ recordString(charno, lineno,
+ if (line.length() > 1) { return
+ line = new String(line, _charno, lineno,
+ nextLine ( ) ; return new BenchmarkText(line, lineno, charno, lineno,
+ line = line.replaceAll("")(); stream.markText(line, lineno, charno, lineno,
+ line = line + " " + stream.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(lineNo,
+ addDescription(lineno,
+ next = new TextDescription(line, lineno, charno, lineno,
+ if (line.length() > 0) { line += "+
+ printLine(lineno,
+ nextLine = nextLine + formatBookmarkText(line, lineno, charno, lineno,
+ line = Parser.markText(line, lineno, charno, lineno,
+ line += line.length(); } else { unmarkText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  lineno,
+ stream.write(line, lineno, charno, lineno,
+ nextLine = nextLine + Utility.markText(line, lineno, charno, lineno,
+ line. append ( ' ' ) ; #markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, line +
+ nextLine = nextLine + String.markText(line, lineno, charno, lineno,
+ stream.add(line, lineno, charno, lineno,
+ nextLine = nextLine + unmarkText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno.length(),
+ if (line.length() > 0) { line += *
+ line += " " ; stream.markText(line, lineno, charno, lineno,
+ line. append ( " " ) stream.markText(line, lineno, charno, lineno,
+ line. append ( '\n' ) ; } return
+ stream.recordTextual(this.line, lineno, charno, lineno,
+ line = line. trim ( ) ; } return
+ line = new String(lineString, charno, lineno,
+ recordLine(lineno,
+ format(line, lineno, charno, lineno,
+ line = formatBookmarkText(line, lineno, charno, lineno,
+ line. append ( '\n' ) +
+ line = Trimmer.markText(line, lineno, charno, lineno,
+ line = Utils.markText(line, lineno, charno, lineno,
+ nextLine = nextLine + _markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, line.position(),
+jsdocBuilder.markText(line, lineno - 1,
+jsdocBuilder.markText(line, lineno,  1 +
+jsdocBuilder.markText(line, lineno,  lineno,
+ next = new TextInfo(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno,  line.position(),
+ line = new TextLine(line, lineno, charno, lineno,
+ printLine, charno, lineno,
+ addDescription(lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno - 1,
+ line. append ( '\n' ) ; } else
+jsdocBuilder.markText(line, lineno + line.length,
+jsdocBuilder.markText(line, lineno -
+ recordLine(charno, lineno,
+ stream.recordTextual(0,line, lineno, charno, lineno,
+ stream.update(,
+ if (line.length() < charno) { throw
+ printLine, lineno, charno, lineno,
+ add(line,
+ nextLine = nextLine + parser.markText(line, lineno, charno, lineno,
+ line = line. trim ( ) ; } else
+ nextLine = nextLine + writer.markText(line, lineno, charno, lineno,
+ line = new String(lineString, lineno, charno, lineno,
+ nextLine ( ) ; stream.markText(line, lineno, charno, lineno,
+ line = line.toString(); } else
+ line = line.replaceAll(" ", ""); }
+ printDescription(lineno, charno, lineno,
+ if (line.length() > 0) { throw
+jsdocBuilder.markText(line, lineno + 1 +
+ log(line,
+ line = StringHelper.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno * 2,
+ line = _markText(line, lineno, charno, lineno,
+ stream.recordText (lineNo, charno, lineno,
+ stream.bookmarkText(line, lineno, charno, lineno,
+ trace(line, lineno, charno, lineno,
+ recordLine, lineno,
+jsdocBuilder.markText(line, lineno,  line.offset(),
+ line += ": " ;
+jsdocBuilder.markText(line, lineno, charno,  line,
+ printLine, lineno,
+jsdocBuilder.insert(
+ recordLine, lineno, charno, lineno,
+ format(line, lineno,
+ logTextDescription(line, lineno, charno, lineno,
+ line = new String(lineString, lineno,
+jsdocBuilder.markText(line, lineno,  line.length,
+jsdocBuilder.markText(line, lineno, charno,  1,
+ nextLine = line ; stream.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno,  token,
+ this.recordBookmarkText(line, lineno, charno, lineno,
+ line = TextUtil.markText(line, lineno, charno, lineno,
+ add(line, lineno,
+jsdocBuilder.markText(line, lineno,  lineno +
+jsdocBuilder.append
+ line = JSDoc.markText(line, lineno, charno, lineno,
+ line += " " + stream.markText(line, lineno, charno, lineno,
+ line = TrimmerHelper.markText(line, lineno, charno, lineno,
+ print(lineno, charno, lineno,
+ line. append ( '\n' ) ; }
+ if (line.length() > 1) { throw
+jsdocBuilder.markText(line, lineno,  line.length -
+ line = Util.markText(line, lineno, charno, lineno,
+ recordTextual(line, lineno, charno, lineno,
+ (line,
+ line = parser.markText(line, lineno, charno, lineno,
+ line = line.toString(); } return
+jsdocBuilder.markText(token,
+ trace(line, charno, lineno,
+ line = new BenchmarkText(line, lineno, charno, lineno,
+ line = line. trim ( ) ; }
+ recordLine, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, lineno*=
+ line = line.toString()); } else
+ this.recordBenchmarkText(line, lineno, charno, lineno,
+ line += " "
+ line = JsDoc.markText(line, lineno, charno, lineno,
+ record (, lineno,
+ line += " +
+ print(", charno, lineno,
+ line = Trimmed.markText(line, lineno, charno, lineno,
+jsdocBuilderRecord(
+ line = TrimmedBookmarkText(line, lineno, charno, lineno,
+ (line, lineno,
+jsdocBuilder.record(token,
+ line += this.
+ line = line +
+jsdocBuilder.markTextLength(
+ log(lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno, -
+jsdocBuilderString(
+ print(", lineno, charno, lineno,
+ this.writer.markText(line, lineno, charno, lineno,
+ lineno,
+jsdocBuilder.markText(line, lineno, charno,  1 -
+ line = m_parser.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno,  " " +
+ record(, charno, lineno,
+ record(, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno + 1 -
+jsdocBuilder.markText(line, lineno,  1,
+ line = stream.markText(line, lineno, charno, lineno,
+ console.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno,  charno -
+ line = m_writer.markText(line, lineno, charno, lineno,
+ addDescription(line, lineno, charno, lineno,
+ record(", charno, lineno,
+ line +=
+ lineNo,
+ add(lineno,
+ log(charno, lineno,
+jsdocBuilder.markTextStart(
+jsdocBuilder.markText({ line,
+ print(", lineno,
+ line(,
+ add(charno, lineno,
+ increment(lineno,
+ format(lineno, charno, lineno,
+jsdocBuilder.markTextEnd(
+ stream.writer.markText(line, lineno, charno, lineno,
+ print(lineno,
+jsdocBuilder.markText(line, lineno,  line,
+jsdocBuilder.markText(line, lineno, charno,  token,
+ this.parser.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, -
+jsdocBuilder.markText(line, lineno + +
+jsdocBuilderLine(
+jsdocBuilder.markText(line, +
+ line = bookmarkText(line, lineno, charno, lineno,
+ update(lineno,
+ return extractBookmarkText(line, lineno, charno, lineno,
+ line.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno) +
+jsdocBuilderString +=
+ add(lineno, charno, lineno,
+jsdocBuilder.markText(line,  1,
+jsdocBuilder.markText(line, lineno, charno, lineno * 2
+jsdocBuilder.markText ( +
+ append(charno, lineno,
+ print(charno, lineno,
+jsdocBuilder.markText(line, lineno, charno *,
+ line = Parsing.markText(line, lineno, charno, lineno,
+ line = Marker.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(line, lineno, charno * =
+ line =
+jsdocBuilder.markText(line, lineno, charno, +
+jsdocBuilder.markText(line, lineno, charno, lineno + *
+ final line =
+jsdocBuilder.markText(line, lineno, charno, lineno + -
+jsdocBuilder.markText(line, lineno, charno, lineno + 1
+jsdocBuilder.markText(line, lineno * +
+jsdocBuilder.markText(lines,
+ traceback.markText(line, lineno, charno, lineno,
+ line += *
+ line += "
+jsdocBuilder.markText(string,
+ mapper.markText(line, lineno, charno, lineno,
+jsdocBuilder.markText(Line,
+ line =markText(line, lineno, charno, lineno,
+ mf.markText(line, lineno, charno, lineno,
+ mb.markText(line, lineno, charno, lineno,
+ textWriter.markText(line, lineno, charno, lineno,
+ this.
+ return
+ *

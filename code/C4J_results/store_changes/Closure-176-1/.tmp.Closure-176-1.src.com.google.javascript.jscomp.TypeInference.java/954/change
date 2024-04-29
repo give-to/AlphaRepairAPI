@@ -1,0 +1,634 @@
+redeclareSimpleVar(scope, node, narrowed);
+ scope =
+ narrowScope(scope, node, narrowed);
+ return scope;
+redeclareSimpleVar(scope, node);
+ scope = narrowScope(scope, node, narrowed);
+redeclareSimpleVar(scope, scope, node, narrowed);
+ narrowScope(node, narrowed);
+ scope.inferQualifiedSlot(scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ;
+redeclareSimpleVar ( scope, node, narrowed ) ; }
+redeclareSimpleVar(scope, node, narrowed, scope);
+redeclareSimpleVar ( scope, node, narrowed )
+ scope.inferQualifiedSlot( node,narrowed);
+ scope = scope.createChildFlowScope(narrowed);
+ scope.inferQualifiedSlot(narrowed);
+ scope = scope. createChildFlowScope ( ) ;
+redeclareSimpleVar(scope, node, assertedNode, narrowed);
+redeclareSimpleVar(scope, node, scope, narrowed);
+ scope = scope. createChildFlowScope ( node ) ;
+ scope = scope. createChildFlowScope ( ) ; scope =
+ scope = narrowScope(scope, assertedNode, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed )
+ scope = scope.inferQualifiedSlot(scope, node, narrowed);
+redeclareSimpleVar ( node ) ;
+ scope = scope. createChildFlowScope ( ) ;
+ scope = narrowScope(scope, node, scope, narrowed);
+redeclareSimpleVar(scope, node, scope, narrowed, true);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; }
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope =
+redeclareSimpleVar(scope, node, narrowed) ; return scope ;
+ scope = scope. createChildScope ( ) ;
+ scope.inferQualifiedSlot( node, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ( ) ;
+ scope.setJSType(narrowed);
+redeclareSimpleVar ( scope, node, narrowed, true ) ;
+ scope = scope. createChildFlowScope(); } scope =
+ scope.inferSlot( node, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; scope =
+ scope.add(node);
+ scope = narrowed;
+ scope.inferType( node, narrowed);
+ scope = scope.inferQualifiedSlot(node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope.
+ scope = scope. createChildFlowScope(); } else { scope = scope.
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } } else { scope =
+redeclareSimpleVar(scope, node, narrowed) ; scope = narrowed ;
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope(); scope =
+ scope = scope. createChildFlowScope ( node ) ; scope =
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ( node ) ;
+ scope. inferQualifiedSlot ( node, narrowed )
+ scope = scope. createChildFlowScope ( node, narrowed, true ) ;
+ scope = scope. createChildFlowScope(); } else { scope =
+redeclareSimpleVar(scope, node, narrowed) ; scope = scope. createChildFlowScope();
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } scope =
+ scope = scope. createChildFlowScope ( node, narrowed, scope ) ;
+ scope = scope. createChildScope ( );
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); scope =
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } else { scope =
+ scope = scope. createChildFlowScope ( node, narrowed, false ) ;
+ scope = scope. createChildFlowScope ( node ) ;
+ scope.inferSlot( node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildScope ( ) ;
+redeclareSimpleVar(scope, assertedNode, narrowed);
+ scope. inferQualifiedSlot ( node ) ;
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope =
+ scope.inferQualifiedSlot( node, node.getName(), narrowed);
+redeclareSimpleVarScope ( scope, node, narrowed ) ;
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } else { scope = scope.
+redeclareSimpleVar(scope, node, narrowed) ; scope = node ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( node instanceof SimpleVar ) { scope =
+ scope = node;
+ scope = scope.createChildFlowScopeImpl(narrowed);
+ scope = scope. createChildFlowScope ( )
+redeclareSimpleVar(scope, node, narrowed); scope = node ; }
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ( ).
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } } else { scope =
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope(); } scope =
+ scope = narrowScope(scope, scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } scope =
+ scope.inferSlot(scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } } else { scope = scope.
+ scope = scope. createChildScope(); scope =
+ scope = scope. createChildFlowScope ( node, narrowed ) ; return scope ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ( node ).
+redeclareSimpleVarScope ( scope, node, narrowed ) ; }
+redeclareSimpleVar ( scope, node )
+redeclareSimpleVar(scope, callNode, node, narrowed);
+ scope = scope. createChildFlowScope ( ) ; scope. narrowed = narrowed ;
+redeclareSimpleVar(scope, node, narrowed, callNode);
+ scope.inferTyped( node, narrowed);
+ scope. addChildFlowScope ( node, narrowed ) ;
+ scope = scope ; scope =
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( node instanceof SimpleVar ) { scope = scope.
+redeclareSimpleVar(scope, node, narrowed) ; scope = narrowed ; }
+redeclareSimpleVar(scope,  scope, node, narrowed); scope = narrowed ;
+ scope. inferQualifiedSlot ( node, narrowed ) ; }
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ( narrowed ) ;
+ scope = scope. createChildFlowScope ( ) ; scope.
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( node instanceof SimpleVar ) { scope = SimpleVar.
+ scope.inferTypedSlot( node, narrowed);
+ scope = scope. createScope ( );
+ scope = scope. parent ; scope =
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope = scope.
+ scope = scope. createScope ( ) ;
+redeclareSimpleVar(scope, node, scope, narrowed, false);
+ scope = scope. createChildFlowScope ( ).
+ scope = scope. createChildFlowScope(); } else { scope = scope. parent.
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) {
+redeclareSimpleVar ( scope, node, narrowed, false ) ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. clone ( ) ;
+redeclareSimpleVar(scope, node, narrowed) ; scope. createChildFlowScope ( ) ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. parent ; scope =
+ scope = scope. createChildFlowScope ( narrowed ) ; scope =
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( node instanceof SimpleVar ) { scope = this.
+ scope = scope. createChildFlowScope ( narrowed ) ;
+ scope = scope. createChildFlowScope ( node, narrowed, true )
+ scope = scope. createInferQualifiedSlot(scope, node, narrowed);
+ scope. addChildFlowScope ( narrowed )
+redeclareSimpleVarScope ( scope, node, narrowed )
+ scope. addChildFlowScope ( node, narrowed )
+ scope = scope. createChildFlowScope(); if (node!= null) {
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope = SimpleVar.
+ scope = scope. createChildFlowScope ( node, narrowed, scope )
+redeclareSimpleVar(node, scope, narrowed);
+ scope.inferQualified( node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( node instanceof SimpleVariable ) { scope = SimpleVariable.
+redeclareSimpleVarScope ( scope ) ;
+ scope = narrowScope(scope, node, node, narrowed);
+ scope = scope. createChildFlowScope(); } else { scope = scope. compiler.
+redeclareSimpleVar(scope, scope, node, narrowed, true);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildScope ( ).
+redeclareSimpleVar(node, narrowed);
+redeclareSimpleVar ( ) ;
+redeclareSimpleVar(scope, node, narrowed, scope, narrowed);
+ scope = scope. createChildFlowScope ( narrowed )
+redeclareSimpleVar(scope, node, scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else {
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope = FlowScope.
+ scope. addChild ( node ) ;
+ scope = scope.inferQualifiedSlot(narrowed);
+redeclareSimpleVar ( scope ) ;
+ scope = scope. createChildFlowScope;
+ scope = scope. createChildFlowScope(); } else { scope. createChildFlowScope(); scope =
+ scope = narrowScope(scope, assertedNode, node, narrowed);
+ scope.inferEmptySlot( node);
+ scope.add(narrowed);
+ scope. addChildFlowScope ( node ) ;
+redeclareSimpleVarScope ( scope, node ) ;
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope();
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = FlowScope.
+redeclareSimpleVar(node, scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node ) ; } scope =
+ scope. addChildFlowScope ( narrowed ) ;
+ scope.inferType( node, node, narrowed);
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope(); scope.
+redeclareSimpleVar ( node, scope, narrowed )
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope
+ scope = scope. createChildFlowScope(); } else { scope. createChildFlowScope();
+ scope = scope. createChildScope ( ).
+ scope.inferTypedSlot( node);
+ scope = scope ; } scope =
+ scope.inferTypedSlot( node, node, narrowed);
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVariable ) { scope = SimpleVariable.
+ scope = scope. clone ( ) ;
+ scope = scope. createChildFlowScope(); if (node.isVar()) {
+redeclareSimpleVar(scope, scope, node, node, narrowed);
+ scope = scope.createChildFlowScope(scope, node, narrowed);
+redeclareSimpleVar ( node )
+ scope.inferQualifiedSlot( node, node, narrowed); }
+ scope = scope.createFlowScope(narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope.
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope(); }
+redeclareSimpleVarScope();
+ scope. inferQualifiedSlot( node, narrowed;
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); scope.
+redeclareSimpleVar(scope,  scope, node, narrowed); scope = node ;
+ scope = narrowScope(scope, node, true, narrowed);
+ scope = scope. createChildFlowScope ( node, narrowed, true ) ; } scope =
+redeclareSimpleVar(callNode);
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope = SimpleVarScope.
+redeclareSimpleVar(scope, node, scope, narrowed, node);
+redeclareSimpleVar ( scope, node, narrowed, true )
+redeclareSimpleVar(scope, node, narrowed); scope = undefined ; }
+redeclareSimpleVar(scope, node, narrowed) ; scope. addChild ( node ) ;
+ scope = scope.
+redeclareSimpleVar(node, scope, node, narrowed, scope);
+ scope = scope. createNewFlowScope ( ) ; scope =
+ scope = scope. createChildFlowScope(); } else { scope. createChildFlowScope(); }
+ scope = scope. createChildFlowScope ( node, narrowed, false ) ; }
+ scope = narrowScope(callNode, narrowed);
+redeclareSimpleVar(scope,  node, narrowed); scope = scope. parent ;
+ scope.apply(scope, node, narrowed);
+ scope = scope. createChildFlowScope(); } else { scope = scope. createScope(); }
+redeclareSimpleVar(callNode, scope, node, narrowed);
+ scope = scope. createChildFlowScope(); } if ( node instanceof SimpleVar ) { scope = scope =
+ scope = scope. createChildFlowScope(); } else { scope. createChildFlowScope(); scope.
+redeclareSimpleVar(scope, node, narrowedType);
+ scope.inferGenericType( node, narrowed);
+ scope.inferQualifiedSlots(narrowed);
+redeclareSimpleVar(scope, assertedNode, node, narrowed);
+ scope.inferType(scope, node, narrowed);
+ scope = scope.createFlowScope(node, narrowed);
+ scope = scope. createNewScope ( );
+redeclareSimpleVar(scope, node, narrowedNode);
+redeclareSimpleVar ( node, scope, narrowed ) ; }
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } scope.
+ scope = scope. createChildFlowScope ( ) ; } else { scope = scope ;
+ scope = scope.addChildFlowScope(narrowed);
+ scope.inferJSType(narrowed);
+ scope = scope. parentFlowScope;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. clone ( ).
+ scope.inferQualifiedExpression( node, node, narrowed);
+ scope = scope. createChildFlowScope ; } scope =
+ scope = scope.inferSlot( node, node, narrowed);
+ scope.inferVariable( node, narrowed);
+ scope.createChildFlowScope = narrowed;
+ scope = scope. createChildFlowScope(); } else { scope = scope. parent ;
+ scope.inferUnknownSlot( node);
+ scope = scope.createChildFlowScopeImpl(node, narrowed);
+ scope = scope.createChildFlowExpression(narrowed);
+ scope = scope. createScope ( ).
+ scope = scope. createParentScope ( );
+ scope.inferVariable( node, node, narrowed);
+ scope = scope. childFlowScope;
+redeclareSimpleVar(scope, node, narrowed, scope, true);
+ scope = narrowScope(scope, node, false, narrowed);
+redeclareSimpleVar(scope, node.getName(), narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope. addChildFlowScope ( ) ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } } else { scope = scope ;
+redeclareSimpleVar(scope, node, narrowed) ; scope. createChildScope ( ) ;
+ scope = scope. createChildFlowScope ; scope =
+ scope.inferType( node, narrowed;
+ narrowScope(scope, narrowed);
+ scope.inferQualified( node, narrowed;
+redeclareSimpleVar ( node, narrowed )
+ scope. createChildFlowScope ( ).
+redeclareSimpleVar ( scope, node ) ; }
+ scope = narrowScope(flowScope, node, narrowed);
+ scope.add( node, narrowed);
+ scope = scope. createParentFlowScope();
+ scope.inferUnnamedSlot( node, narrowed);
+ scope.push(node);
+ scope = scope. clone ( ) ;
+ scope.inferQualifiedSlot( node.scope, node, narrowed);
+redeclareSimpleVar(scope, node,  narrowed); scope = scope. createChildScope();
+ scope = scope.createChildFlowScopeFor(narrowed);
+ scope = scope. createChildScope(); scope.
+ scope = scope.createChildFlowScope( node, node, narrowed);
+ scope = scope. createNewScope ( ) ;
+ scope.inferUnnamedSlot( node);
+ scope = scope. createChildFlowScopeForNode(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope = scope. clone ( ) ;
+redeclareSimpleVar(callNode, node, narrowed);
+ scope = scope. createChildFlowScope ( ) ; } } else {
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } scope.
+redeclareSimpleVar(scope, node, narrowed) ; scope. createChildFlowScope ( )
+ scope = scope. createNode ( ) ;
+redeclareSimpleVar(scope, node, expandedNode, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope. addChildFlowScope ( node )
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildScope ;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; } else { scope = scope. createChildFlowScope(); }
+redeclareSimpleVar(scope, node, narrowed); scope. addChildFlowScope ( narrowed )
+ scope = getJSType(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowedScope);
+ scope.inferTypedSlot(scope, node, narrowed);
+ scope.inferDefaultSlot( node, narrowed);
+redeclareSimpleVar(scope, node, narrowed); scope = node. parent ;
+redeclareSimpleVar(scope, node, narrowed); scope. add ( node ) ;
+ scope.inferQualifiedExpression(scope, node, narrowed);
+ scope = scope. createChildFlowScope ( node ).
+redeclareSimpleVar(scope, node, narrowed); scope = scope. parentScope ;
+ scope. addNode ( node ) ;
+ scope.inferDefaultSlot( node);
+ scope = scope. createChildFlowScope(); } else { scope = scope. createChildFlowScope(); } } else { scope.
+ scope = narrowScope(scope, narrowed);
+ scope.inferGenericSlot( node, node, narrowed);
+ scope = FlowScope.
+redeclareSimpleVar(scope, node, narrowed, scope); }
+ scope. inferType ( node, narrowed )
+ scope = scope.createChildScope(node);
+ scope = scope.createNewFlowScope(narrowed);
+ scope.inferQualifiedType(node, narrowed);
+ scope = scope. compiler.
+ scope.apply( node, narrowed);
+ scope.inferQualifiedType( scope,node, narrowed);
+ scope.inferSingleSlot( node, node, narrowed);
+ scope.inferType(narrowed);
+ scope = scope.createChild(node);
+redeclareSimpleVar(scope, node, narrowed, scope.createChildFlowScope());
+ scope.inferSlot( node);
+ scope = scope ; } else {
+ scope = scope. createParentFlowScope;
+ scope = scope. parent;
+ scope.inferQualifiedType( node.node, narrowed);
+ scope.inferSingleSlot(scope, node, narrowed);
+ scope = scope. parent ( ).
+redeclareSimpleVar(scope, node, narrowed, true); }
+ scope.inferGenericType( node, node, narrowed);
+ scope.inferValue( node, narrowed);
+ scope = scope.createScope(node, narrowed);
+ scope = scope. createChildFlowScopeFromNode(scope, node, narrowed);
+ scope = scope.createChildScope(narrowed);
+redeclareSimpleVar(scope, node, narrowed); } else { scope = node. parent ;
+ scope = scope.inferSingleSlot(scope, node, narrowed);
+ scope = node. parent;
+ scope.super(narrowed);
+ scope.inferVariableType( node, narrowed);
+ scope.inferVariable(scope, node, narrowed);
+redeclareSimpleVar(scope, scope, node, narrowed, true); }
+redeclareSimpleVarScope ( scope, node )
+ scope = scope. createNewFlowScope ( ) ; scope.
+ scope.inferNode( node);
+redeclareSimpleVar(scope, node, narrowed) ; scope. detach ( ) ;
+redeclareSimpleVar ( scope, node, narrowed ) ; } }
+ scope.inferTypeVariable( node, narrowed);
+ scope. createChildScope ( ).
+ scope.inferQualifiedExpression(node, narrowed);
+redeclareSimpleVar(scope, node,  narrowed); scope. addChildScope ( narrowed )
+ scope = scope. create ( ) ;
+ scope = scope.inferQualifiedType(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed); scope = scope. childScope ;
+ scope = narrowExpression(scope, node, narrowed);
+ scope.inferQualifiedVariable(scope, node, narrowed);
+ scope = scope.createNewScope(narrowed);
+ scope.addJSType(narrowed);
+ scope = scope || narrowed;
+redeclareSimpleVarScope ( scope )
+ scope.super(node);
+redeclareSimpleVar(scope,  node, narrowed); scope = node ; } }
+ scope.addChildScope(node);
+redeclareSimpleVar(scope, node, callNode, narrowed);
+ scope. createChildFlowScope ( ) ;
+ scope = scope. createChildFlowExpression(scope, node, narrowed);
+ narrowed(node);
+ scope.inferSimpleSlot(node, narrowed);
+redeclareSimpleVar ( scope )
+redeclareSimpleVar(scope, scope, node, narrowed); }
+redeclareSimpleVar(scope, node, narrowed) ; scope = origScope ;
+redeclareSimpleVar(scope, node, narrowed) ; scope = node ; break ;
+ scope = scope ( ).
+ scope.inferType( node);
+ scope = scope. createChildFlowScopeImpl(scope, node, narrowed);
+ scope.inferQualifiedSlots(node, narrowed);
+ scope.append(node);
+ scope.infer( node, narrowed);
+ scope. narrowScope(scope, node, narrowed);
+redeclareSimpleVar(scope, node,  scope, narrowed); scope = scope. parent ;
+redeclareSimpleVar(scope, node, narrowed, scope, node, narrowed);
+redeclareSimpleVar(scope, callNode);
+ scope.add( node, node, narrowed);
+redeclareSimpleVar ( node, scope ) ;
+ scope.inferDefaultValue(node, narrowed);
+ scope.push(narrowed);
+ scope.inferVariableType(scope, node, narrowed);
+ scope. createChildScope ( ) ;
+ scope.inferGenericType(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope. removeChild ( ) ;
+ scope.createChildScope = narrowed;
+ scope = scope. createChildFlowScope ( node ) ; } scope.
+ scope.define( node, narrowed);
+ scope = scope.inferGenericType(node, narrowed);
+ scope.inferNode(node, narrowed);
+ scope.addScope(node);
+ scope = scope. createChildFlowScope ( _scope, node, narrowed);
+ scope.initialize( node, narrowed);
+redeclareSimpleVar(scope.childFlowScope, node, narrowed);
+ scope = inferQualifiedSlot(scope, node, narrowed);
+ scope = scope. createChildFlowScopeWithNode(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope. createScope ( ) ;
+ scope = narrow(scope, node, narrowed);
+redeclareSimpleVar(scope, scope. scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, false); }
+ scope = callNode;
+ scope.createNewScope( );
+ scope.inferValue(scope, node, narrowed);
+ scope = scope. parent.
+redeclareSimpleVar(scope, node, narrowScope);
+ scope.inferDefaultValue( node);
+redeclareSimpleVar(scope, node, narrowed) return scope;
+ scope = scope. createChildFlowScopeWithParent(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope = undefined ;
+ scope.scope = narrowed;
+ scope.inferQualifiedPropertyValue(scope, node, narrowed);
+ scope.addNode( node, narrowed);
+ scope = scope.parentScope;
+redeclareSimpleVar(scope, scope, node, narrowedType);
+ scope = scope.inferQualifiedVariable(scope, node, narrowed);
+ narrowed(narrowed);
+ scope.infer( node, node, narrowed);
+redeclareSimpleVar ( scope, narrowed )
+ scope.node = node;
+redeclareSimpleVar(scope, calledNode, node, narrowed);
+ scope.addChild( node, narrowed);
+redeclareSimpleVar(scope, assertedNode);
+redeclareSimpleVar(scope, node, narrowed) ; scope. addChild ( node )
+redeclareSimpleVar(scope, node, narrowed) ; scope = expandedScope ;
+ scope.inferQualifiedSlot(callNode, node, narrowed);
+ scope.inferSlot(narrowed);
+ scope.include( node, narrowed);
+ scope.inferQualifiedSlotImpl(scope, node, narrowed);
+ scope.apply(node);
+redeclareSimpleVar(scope, node, narrowed, ".");
+ scope.addChild(narrowed);
+redeclareSimpleVar(scope, node, narrowed, scope.createChildFlowScope()); }
+ scope = narrowScope(this.scope, node, narrowed);
+ scope.inferDefaultValue(narrowed);
+redeclareSimpleVar(scope, node), narrowed);
+ scope.addChildScope(narrowed);
+ scope = scope.inferTypeVariable(node, narrowed);
+redeclareSimpleVar(scope, node, scope.scope, narrowed);
+ scope.include( node, node, narrowed);
+ scope.innerScope( scope, node, narrowed);
+ scope.createChildScope( );
+redeclareSimpleVar(scope, node, scope, narrowed, narrowed);
+ scope = (Scope) node;
+redeclareSimpleVar(scope, callNode, narrowed);
+redeclareSimpleVarNode ( node ) ;
+ scope.define( node, node, narrowed);
+ scope.inferDefault(narrowed);
+ scope.super(node, narrowed);
+ scope.addNode( node, node, narrowed);
+ scope = - 1;
+ scope = scope. createChildFlowScope ( node, narrowed ) ; }
+ scope.append(narrowed);
+ scope.addChild(node;
+ scope.bind(node, narrowed);
+ scope.addNode(narrowed);
+ scope.setType(narrowed);
+ scope.inferDefaultSlot(narrowed);
+redeclareSimpleVar(scope, node, narrowed, scope.parentFlowScope);
+ scope.super(scope, node, narrowed);
+ scope.inferQualifiedSlot(unnarrowed);
+ scope.inferGenericSlot(scope, node, narrowed);
+redeclareSimpleVar(narrowedNodeName, scope, node, narrowed);
+ scope.switchTo(narrowed);
+ scope.inferThis(narrowed);
+ scope.addScope(narrowed);
+ scope.createScope = narrowed;
+redeclareSimpleVar(scope, node, narrowed, scope.childFlowScope);
+ scope = (Scope) scope;
+ scope. createChildFlowScope.
+ scope.add(_);
+redeclareSimpleVar ( )
+redeclareSimpleVar(scope, node, narrowed, scope, node);
+redeclareSimpleVar(scope, node, narrowed) scope = narrowed ;
+ scope.arrowScope(scope, node, narrowed);
+ extend(scope, node, narrowed);
+ narrowed(scope);
+redeclareSimpleVar(scope, scope, node, narrowed, narrowed);
+ merge(scope, node, narrowed);
+redeclareSimpleVar(scope, narrowed);
+ scope = scope. createChildFlowScope ( node ) ; } scope {
+redeclareSimpleVar(scope, node, calledNode, narrowed);
+ scope. createChildFlowScope =
+ scope.walk(scope, node, narrowed);
+ scope.set(narrowed);
+ scope.add(scope, node, narrowed);
+ scope = newScope;
+ scope = astHelper.
+ extend(node, narrowed);
+redeclareSimpleVar(scope, scope, narrowed);
+redeclareSimpleVar(node.get ( ), scope, node, narrowed);
+ return scope);
+redeclareSimpleVar(node, narrowed, scope, node, narrowed);
+ merge(node, narrowed);
+ scope.adjustScope(node, narrowed);
+redeclareSimpleVar(flowScope, node, narrowed);
+ scope = scope ; scope.
+ scope.createScope(node, narrowed);
+ assign(node, narrowed);
+redeclareSimpleVar(scope, node, narrowed
+ extend(scope, narrowed);
+redeclareSimpleVar(node, & narrowed);
+ scope = originalScope;
+redeclareSimpleVar(scope, node, narrowed, scope, false);
+ scope(node);
+ return scope, node, narrowed);
+ scope(node, narrowed);
+redeclareSimpleVar(scope, node, assertNode, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope = null ;
+ scope = astFactory.
+redeclareSimpleVar(scope, node, narrowed, node.getName());
+redeclareSimpleVar(scope, assertNode, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; scope = orig ;
+redeclareSimpleVar(scope, node, narrowed) scope = node ;
+redeclareSimpleVar(node, scope, narrowed, scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, "getProp");
+redeclareSimpleVar(node, narrowed); }
+redeclareSimpleVar(scope, nodeName);
+ (scope, node, narrowed);
+ scope = cloneScope;
+redeclareSimpleVar(node, scope); }
+ scope = scope ;
+ scope.push(_);
+redeclareSimpleVar(scope, node.getName, narrowed);
+redeclareSimpleVar(narrowedNode, scope, node, narrowed);
+ scope = flowScope.
+redeclareSimpleVar(scope, node, narrowed, node.get ()));
+ scope.clone(_);
+ assign(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, "getprop");
+redeclareSimpleVar(scope, node, narrowed, calledNode);
+redeclareSimpleVarScope ( node )
+redeclareSimpleVar(scope, node, node, narrowed);
+ scope.append(_);
+redeclareSimpleVar(scope), node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; break ; }
+ scope = (narrowed);
+ scope.addNode, narrowed);
+redeclareSimpleVar(node); }
+redeclareSimpleVar(scope, assertionNode, node, narrowed);
+ expanded(node);
+redeclareSimpleVar(scope, scope, narrowed); }
+redeclareSimpleVar(node, narrowedScope);
+ return node, narrowed);
+redeclareSimpleVar(narrowed, scope, node, narrowed);
+ scope.super(_);
+ infer( scope, node, narrowed);
+ scope = undefined;
+ extendScope(scope, narrowed);
+ scope.bind(scope, node, narrowed);
+redeclareSimpleVar(scope, scope, node); }
+redeclareSimpleVar(node, callNode, scope, node, narrowed);
+ scope.addNode(scope, node, narrowed);
+redeclareSimpleVar(flowScope, scope, node, narrowed);
+ breakScope(scope, node, narrowed);
+ extendScope( scope, node, narrowed);
+redeclareSimpleVar(scope, node), narrowed
+ scope = scope =
+ scope.switch(scope, node, narrowed);
+redeclareSimpleVar(narrowedType, scope, node, narrowed);
+redeclareSimpleVar(scope, narrowed, scope, node, narrowed);
+ ( node, narrowed);
+redeclareSimpleVar(scope, node), narrowed); }
+redeclareSimpleVar(scope, calledNode, narrowed);
+redeclareSimpleVar(scope, node, narrowed) ; break ;
+redeclareSimpleVar(scope, node, expanded, narrowed);
+redeclareSimpleVar(scope, node, narrowed) break ; }
+redeclareSimpleVar(scope); }
+ scope = Scope.
+redeclareSimpleVar(scope, node, narrowed, scope, expanded);
+redeclareSimpleVar(scope, node, narrowed, origScope);
+redeclareSimpleVar(node.getProp, scope, node, narrowed);
+redeclareSimpleVar(node, assertedNode, scope, node, narrowed);
+ scope.adjustScope(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, node.getType);
+ scope. compiler.
+redeclareSimpleVar(scope.scope, node, narrowed);
+ breakScope(narrowed);
+redeclareSimpleVar(scope, expanded);
+redeclareSimpleVarNode();
+ scope = orig;
+ return scope, narrowed);
+ apply(scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, node.getName);
+ return (narrowed);
+ scope = narrow;
+ extend node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, node.getProp);
+ narrow(scope, node, narrowed);
+ traverse(node, narrowed);
+ apply(node, narrowed);
+redeclareSimpleVar(scope, assertNode, narrowed);
+ extendScope(node, narrowed);
+redeclareSimpleVar(scope,  node), narrowed;
+ setScope(narrowed);
+redeclareSimpleVar(scope, scope);
+ return g(narrowed);
+ scope.addnarrowed);
+redeclareSimpleVar(CallNode, scope, node, narrowed);
+ break(narrowed);
+ expand(narrowed);
+ return scope =
+ scope = scope ; }
+redeclareSimpleVarName();
+ assign scope, node, narrowed);
+redeclareSimpleVar(nodeScope);
+redeclareSimpleVar(scope, nodes);
+ addScope(node, narrowed);
+redeclareSimpleVar(scope, node, narrowedVar);
+ addNode(node, narrowed);
+redeclareSimpleVar(expression, node, narrowed);
+redeclareSimpleVar(node narrowed);
+ return null;
+redeclareSimpleVar(scope, assertionNode, narrowed);
+redeclareSimpleVar(scope, node, narrowed, flowScope);
+redeclareSimpleVar(scopeNode);
+ narrowNode(scope, node, narrowed);
+ narrowNode(node, narrowed);
+ widenScope(scope, node, narrowed);
+ return scope.
+ scope.
+ expandScope(scope, node, narrowed);
+redeclareSimpleVar(assertor, scope, node, narrowed);
+redeclareSimpleVar(scopeNode, node, narrowed);
+ return narrowed;
+ return undefined;
+ return false;
+redeclareSimpleVar(, narrowed);
+ addScope(scope, node, narrowed);
+redeclareSimpleVar(scopeImpl, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed) break;
+redeclareSimpleVar(scope), narrowed
+ return this.
+ return scope ;
+redeclareSimpleVar(scope, node,  narrowed) }
+ return Scope.
+ (scope);
+redeclareSimpleVar(scope, node
+redeclareSimpleVar(scope,);
+ return null);
+ return false);
+redeclareSimpleVar(scope, node, narrowed) { }
+redeclareSimpleVar(scope, node,  widened);
+ Scope.
+redeclareSimpleVar(scope, node, narrowed, node);
+redeclareSimpleVar(scope, node,  narrow);
+redeclareSimpleVar(scope, node, narrowed) ;...
+ this.
+redeclareSimpleVar(Scope, scope, node, narrowed);
+redeclareSimpleVar(scope, node, narrowed, expanded);
+redeclareSimpleVar(ctx);
+redeclareSimpleVar(Scope, node, narrowed);
+redeclareSimpleVar( node, node, narrowed);
+ return
+redeclareSimpleVar(scope, node, expanded);
+redeclareSimpleVar(scope, node, slim);
+redeclareSimpleVar(scope, nodes, narrowed);
+ #
+redeclareSimpleVar(scope, Node, narrowed);
+redeclareSimpleVar(scope, root, narrowed);

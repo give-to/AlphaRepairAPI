@@ -1,0 +1,1015 @@
+scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName,  origType);
+scope.inferQualifiedSlot(node,  type);
+scope.inferQualifiedSlot(node, qualifiedName,  type);
+scope.inferQualifiedSlot(qualifiedName);
+scope.inferQualifiedSlot(node,  qualifiedName);
+ scope.inferSlotType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(qualifiedName, type);
+ scope.inferSlotType(origType, type);
+ scope.inferSlotType(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), qualifiedName);
+scope.inferQualifiedSlot(qualifiedName, origType);
+scope.inferQualifiedSlot(node.getString(), type);
+scope.inferQualifiedSlotType(qualifiedName);
+scope.inferQualifiedSlot(node.getString, qualifiedName, origType, type);
+scope.inferQualifiedSlotType();
+scope.inferQualifiedSlotType(type);
+scope.inferQualifiedSlot(node.getString(), origType, qualifiedName);
+scope.inferQualifiedSlotType(qualifiedName, type);
+scope.inferQualifiedSlot(node.getString(), qualifiedName, type);
+ scope.inferSlotType(node, type);
+ scope.inferSlotType(qualifiedName, type);
+scope.inferSlotType(type);
+scope = node ;
+scope.inferQualifiedSlot(node,  origType, qualifiedName, type);
+scope.inferQualifiedSlotType(qualifiedName, origType);
+scope.inferSlotType(origType);
+scope.inferType(type);
+ scope.inferType(node, type);
+scope.inferQualifiedSlot(qualifiedName, origType, type);
+ scope.inferSlotType(node, origType, type);
+scope.inferQualifiedSlot(node.getString(), qualifiedName, origType, type);
+scope.inferQualifiedSlot(type);
+ declareType(qualifiedName, origType, type);
+ scope.inferType(origType, type);
+ declareType(origType, type);
+scope.inferQualifiedSlot(node.getString, node, qualifiedName, origType, type);
+ scope.addType(type);
+scope.inferQualifiedSlot(scope, node, qualifiedName, origType, type);
+ scope.defineType(qualifiedName, origType, type);
+scope.inferQualifiedSlotType(node.getString(), origType);
+scope.inferQualifiedSlot(node.getString(), origType, type);
+ scope.inferType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(nodeName);
+ scope.inferSlotType((qualifiedName, origType, type);
+ scope.defineType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), qualifiedName, origType);
+scope.inferQualifiedSlot(node.getString(), origType, qualifiedName, type);
+ if ( origType == null ) { origType = type ;
+scope.inferSlotType(node, origType);
+ scope.defineSlotType(qualifiedName, origType, type);
+scope.inferSlotType(name, type);
+scope.inferQualifiedSlotType(node.getString(), type);
+ declareType(node, qualifiedName, origType, type);
+ if ( origType == null ) { origType = qualifiedName ;
+ scope.defineType(node, type);
+scope.inferQualifiedSlotType(name, type);
+scope.inferSlotType(name, origType);
+scope.inferQualifiedSlotType(qualifiedName, origType, type);
+ scope.defineType(origType, type);
+ } default: scope.inferSlotType(node, qualifiedName, origType, type);
+ scope.inferType(qualifiedName, origType, type);
+ scope.inferNameInScope(node, qualifiedName, origType, type);
+ scope.define(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.getString(), type);
+ scope.define(node, qualifiedName, origType, type);
+ scope.defineSlotType(origType, type);
+ scope.addType(origType, type);
+ scope.defineType(node, origType, type);
+scope.inferQualifiedSlot(node.getString());
+scope. inferSlotType ( qualifiedName ) ;
+ scope.defineSlotType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(qualifiedName, node, type);
+ case Token.USE:
+ if ( origType!= null ) { scope. inferSlotType ( origType ) ;
+ scope.addSlotType(qualifiedName, origType, type);
+ scope.addSlotType(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, node.getString ( ), type);
+scope.inferQualifiedSlot(node.getString(), null, qualifiedName, origType, type);
+ scope.inferSlotType(node.qualifiedName, origType, type);
+scope.inferQualifiedSlotType(name, origType, qualifiedName);
+scope.inferSlotType(originalType);
+scope.inferQualifiedSlotType(node.getString(), qualifiedName);
+ if ( origType == null ) { break ; } switch (node.getType()) {
+scope.inferQualifiedSlot(node, qualifiedName,  origType); if (origType == null)
+ case Token.USE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ declareType(type);
+scope. inferType ( origType);
+ if ( origType == null ) { break ; } case Token.TYPE:
+ scope.inferSlotType(name,origType, type);
+ if ( origType == null ) { return null ; } switch ( node. getType()) {
+ scope.inferSlotType(node.name, type);
+ if (origType!= null) scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.inferSlotTypeImpl(origType, type);
+scope.inferQualifiedSlot(node.getString(), origType.getType(), type);
+ if ( origType == null ) { return null ; } case Token.USE:
+ scope.defineSlotType(node, type);
+ if ( origType == null ) { break ; } case Token.USE:
+ if ( origType == null ) { break ; } case Token.USE:
+ sc.inferSlotType(qualifiedName, type);
+ if ( origType == null ) { return null;
+ if ( origType == null ) { return null ; } switch ( origType ) { case NAME:
+ if ( origType == null ) { origType = qualifiedName }
+ scope.inferSlotTypeInScope(qualifiedName, origType, type);
+ scope.inferSlotTypeImpl(qualifiedName, origType, type);
+ if (origType!= null) scope.defineType(node, qualifiedName, origType, type);
+ scope.inferSlotInScope(node, qualifiedName, origType, type);
+ if ( origType == null ) { return origType ; }
+scope.inferQualifiedSlot(node.getString(), origType.toString(), qualifiedName);
+ if ( origType == null ) { return null ; } switch (node.getType())
+ scope.inferSlotType(node qualifiedName, type);
+scope.inferQualifiedSlot(node.getString(), origType);
+ scope.inferSlotType(qualifiedNameString, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType), qualifiedName);
+scope.inferQualifiedSlotType(node, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, origType);
+ if ( origType!= null ) { scope. inferType ( origType);
+scope.inferQualifiedSlot(node, qualifiedName, origType.name ( ), type);
+ if ( origType == null ) { break ; } case Token.STRING:
+ if ( origType == null ) { break ; } if ( type == null ) {
+scope.inferQualifiedSlot(node.getString(), node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType); if (origType == origType)
+ scope.defineSlotType(node, origType, type);
+ scope.addType(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType.getType(), qualifiedName);
+ scope.addType(node, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType()) {
+ if ( origType!= null ) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ if ( origType == null ) { return undefinedType ; }
+scope.inferQualifiedSlot(name, origType, node.getString(), type);
+scope.inferQualifiedSlot(node, qualifiedName, null, origType, type);
+scope.inferQualifiedSlot(node.getString(), expandedName, origType);
+ scope.inferSlotType(:qualifiedName, origType, type);
+ if ( origType == null ) { break ; } case Token.THIS:
+ switch (origType) scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.add(node);
+scope.inferQualifiedSlotType(name, origType, type);
+ scope.inferSlotType(node.name, qualifiedName, origType, type);
+ if ( origType == null ) { return null ; } case Token.GET:
+ } else { scope.inferSlotType(node, qualifiedName, origType, type);
+ } else { switch ( node. getType ( ) ) { case Token.NAME:
+scope.inferQualifiedSlot(node.getString(), origType.toString(), type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); break; default:
+ if ( origType == null ) { break ; } case Token.GET:
+scope.inferQualifiedSlot(node.getString(), name, type);
+ scope.add(type);
+ if ( origType == null ) { return null ; } case Token.THIS:
+ Scope.inferSlotType(qualifiedName, type);
+ } default: scope.inferSlotType(type);
+ switch (node.getType()) { case Token.NAME:
+ scope.inferSlotType(node qualifiedName, origType, type);
+scope.inferQualifiedSlot(name, origType, qualifiedName);
+scope.inferQualifiedSlot(node, qualifiedName, origType, origType, type);
+ scope.inferSlotInScope(qualifiedName, origType, type);
+ scope.push(type);
+ scope.inferTypeInScope(origType, type);
+ if (origType!= null) scope.addType(node, qualifiedName, origType, type);
+ switch (node.getType()) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString(), type);
+ switch ( node. getType ( ) ) { case Token.NAME: case Token.GETPROP:
+ scope.inferTypeInScope(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(name, type);
+scope.inferQualifiedSlot(node.getString(), expandedName, type);
+ if (origType == null) return null;
+scope.inferSlotType(name(), type);
+scope.inferQualifiedSlot(node.getString(), 0, qualifiedName, origType, type);
+ scope.addType(node, qualifiedName, origType, type);
+ scope.inferType(node, origType, type);
+ } else { switch ( node. getType ( ) ) { case NAME:
+ if ( origType == null ) { return null ; } switch ( origType ) { case STRING:
+scope.inferQualifiedSlot(node, qualifiedName, origType, 0, type);
+ if ( origType == null ) { break ; } switch ( node. getType ( ) ) { case Token.STRING:
+ switch (node.getType()) { case Token.STRING:
+ if ( origType!= null ) { scope. inferType ( ) ;
+ if ( origType == null ) { break ; } case Token.VALUE:
+scope.inferQualifiedSlot(node, qualifiedName, origType), type);
+ define(node, qualifiedName, origType, type);
+ break; default: scope.inferSlotType(node, qualifiedName, origType, type);
+ if ( origType == null ) { break ; } if ( origType!= origType ) {
+ if ( origType == null ) { origType = type }
+ if ( origType == null ) { break ; } case Token.NEW:
+ } else { scope.inferSlotType(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getType(), qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType.getName(), type);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.OBJECT : case Token.NUMBER:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (origType == null)
+ sc.inferSlotType(node, type);
+ sc.inferSlotType(node, qualifiedName, origType, type);
+ if ( origType == null ) { break ; } case Token.REFERENCE:
+ scope.inferNameInScope(qualifiedName, origType, type);
+ if ( origType == null ) { continue ; } case Token.USE:
+ } else { scope.inferSlotType(type);
+scope.inferSlotType(string(qualifiedName));
+ if ( origType == null ) { break ; } case Token.OBJECT:
+ scope.define(node, type);
+ case Token.TYPE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.inferTypeInScope(qualifiedName, origType, type);
+scope.inferQualifiedSlot(qualifiedName, origType), type);
+ } else: scope.inferSlotType(type);
+ } else: scope.inferSlotType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType.type ( ), type);
+ if ( origType == null ) { break ; } case Token.NODE:
+ define(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType.name(), type);
+ if ( origType == null ) { origType = undefined ; }
+ switch (origType) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ return scope.inferSlotType(type);
+ case Token.TYPE:
+scope.inferSlotType(null, type);
+ scope.inferType(name,type);
+scope.inferQualifiedSlot(node.getString(), origType, qualifiedName, origType);
+ scope.inferSlotType(node.value, type);
+ scope.inferSlotType(Node.NAME, qualifiedName, origType, type);
+ scope.addSlotType(node, type);
+ } else { switch ( node. getType ( ) ) { case Token.STRING:
+scope.inferQualifiedSlot(node, qualifiedName, origType); if (origType)
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (type == null)
+scope.inferQualifiedSlot(node.getString(), scope, node, qualifiedName, origType, type);
+ scope.inferSlotType((qualifiedName, type);
+ if ( origType == null ) { return null ; } case Token.CONSTRUCTOR:
+scope.inferQualifiedSlot(qualifiedName, origType, node, type);
+ } default: scope.inferSlotType(qualifiedName, origType, type);
+ scope.inferSlotType(compound, qualifiedName, origType, type);
+ if ( origType == null ) { break ; } switch (node.getType()) {
+scope.inferQualifiedSlot(node.getString(), name, origType);
+scope.inferQualifiedSlot(node.get ( ), qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType())
+scope.inferQualifiedSlot(node, qualifiedName,  origType, type); if (origType)
+ case Token.OBJECT: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType); if ( origType == null) {
+ if ( origType == null ) { break ; } switch ( origType ) { case Token.NAME: case Token.THIS:
+ if (origType!= null) scope.define(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType), type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); } switch (node.getType()) {
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NUMBER : case Token.OBJECT:
+ if ( origType == null ) { break ; } if ( origType == type ) { }
+ if ( origType == null ) { break ; } switch ( node. getType ( ) ) { case Token.NODE:
+ if ( origType == null ) { return null ; } case Token.SETPROP:
+ } default: scope.inferType(node, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, "this");
+ if ( origType == null ) { return null ; } case Token.CONSTRUCT:
+scope.inferQualifiedSlotType(name, origType);
+scope.inferQualifiedSlot(node.getString(), type, qualifiedName, origType, type);
+ if ( origType!= null ) { scope. inferSlotType ( origType ) }
+ if ( origType == null ) { break ; } switch ( node. getType ( ) )
+ if ( origType == null ) { return null ; } switch (node.getName())
+ if ( origType == null ) { break ; } if ( origType == qualifiedName ) {
+ if (origType) scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ if ( origType == null ) { return null ; } case Token.NODE:
+ if ( origType == null ) { break ; } case Token.CONSTRUCT:
+ if ( origType == null || origType == undefined ) { break ; } case Token.USE:
+ if ( origType == null ) { break ; } case Token.INFERENCES:
+scope.inferQualifiedSlot(node.getString(), null, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, false, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, null, type);
+ if ( origType == null ) { break ; } case Token.CONST:
+scope.inferQualifiedSlot(name, node.getString(), type);
+ } else { switch ( node. getType ( ) ) { case Token.QNAME:
+scope.inferQualifiedSlot(node, qualifiedName, 0, origType, type);
+ return scope.inferSlotType(node,type);
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING:
+ scope.inferSlotType(type;
+ scope.reference(origType, type);
+ scope.inferSlotType(origType;
+scope.inferQualifiedSlot(node, qualifiedName, origType), origType);
+scope.inferQualifiedSlot(node, qualifiedName, "this", origType, type);
+ if ( origType == null ) { return null ; } switch ( origType ) { case ' ' :
+ if ( origType == null ) { break ; } case Token.CONSTRUCTOR:
+scope.inferQualifiedSlot(node, qualifiedName,  origType); if (origType!= null)
+ if ( origType == null || origType == undefined ) { break ; } case Token.TYPE:
+ if ( origType == null ) { break ; } case Token.INFERENCED:
+scope.infer ( origType);
+ scope.inferSlotTypeInScope(node, qualifiedName, origType, type);
+ scope.includeSlotType(node, type);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NODES:
+ scope.inferRefinedType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, - 1);
+ return null;
+ scope.includeSlotType(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType) ; case Token.USE:
+scope.inferQualifiedSlot(node,  origType, qualifiedName, "this");
+ if ( origType == null ) { break ; } switch ( origType ) { case Token.NAME: case Token.TYPE:
+ if ( origType == null ) { break ; } switch ( node. getType ( ) ) { case Token.STOP:
+ scope.inferSlotType(0,origType, type);
+scope.inferQualifiedSlot(node.getString(), origType.getType());
+ scope.includeSlotType(qualifiedName, origType, type);
+ return scope.inferSlotType(name,type);
+ scope.inferSlotType(Node, origType, type);
+ sc.inferSlotType(qualifiedName, origType, type);
+ if ( origType == null ) { return null ; } switch ( origType ) { case ":" :
+ scope.addType(node, origType, type);
+ case Token.STRING: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getName(), qualifiedName, origType, type);
+ if ( origType == null ) break ; case Token.USE:
+ scope.inferSlotType(this.qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  origType), qualifiedName, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; case Token.USE:
+scope.inferSlotType(string(), type);
+ Scope.inferSlotType(qualifiedName,origType, type);
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: default:
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NAMESPACE:
+ if ( origType!= null ) { scope. inferType ( type);
+ } else { switch ( node. getType ( ) ) { case Token.NEW:
+ if (origType!= null) declareType(node, qualifiedName, origType, type);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NAMED:
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NODE:
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NODESET:
+ switch (node.getType()) { case Token.NODE:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); break; }
+ scope.define(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (origType == origType)
+ scope.inferSlotType(Node, qualifiedName, origType, type);
+ scope.inferSlotType(node.type, qualifiedName, origType, type);
+ } default: scope.inferNameInScope(node, qualifiedName, origType, type);
+ scope.push(node);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NODE : case Token.OBJECT:
+scope.inferQualifiedSlot(node, qualifiedName, origType); if (origType!= origType)
+ scope.includeType(node, type);
+ } default: scope.inferNameInSlotType(node, qualifiedName, origType, type);
+ scope.inferSlotType(null, qualifiedName, origType, type);
+ scope.inferSlotType(this.node, qualifiedName, origType, type);
+ if ( origType == null ) { return null ; } case Token.STRING:
+scope.inferQualifiedSlot(node.getString(), origType, qualifiedName + ' ');
+ if (origType == origType) return null;
+scope.inferQualifiedSlot(node,  origType, qualifiedName, type, false);
+scope.inferQualifiedSlot(node, qualifiedName, qualifiedName, origType, type);
+ scope.add (qualifiedName, origType, type);
+scope.infer (node);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString());
+ origType = type;
+ scope.declareType(node, origType, type);
+ if ( origType == null ) { break ; } switch ( node. getType() ) :
+ scope.refineType(qualifiedName, origType, type);
+ scope.defineType(type);
+scope.inferQualifiedSlot(node, qualifiedName, origType); if (origType == null) break;
+scope.inferQualifiedSlot(qualifiedName, node.getString());
+ switch (node.getType()) case Token.NAME:
+scope.inferQualifiedSlot(node.getString(), qualifiedName); }
+ if ( origType == null ) break ; case Token.THIS:
+ scope.inferSlotInScope(origType, type);
+ return scope.inferSlotType(node,origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, true, type);
+ scope.addSlotType(node, qualifiedName, origType, type);
+ scope.defineSlotType(type);
+scope.inferQualifiedSlot(node.getType(), node, qualifiedName, origType, type);
+ if (origType!= null) scope.reference(node, qualifiedName, origType, type);
+ scope.reference(node, qualifiedName, origType, type);
+ scope.addSlotType(type);
+ switch (node.getType()) { case Token.CONSTRUCTOR:
+scope.add ( origType);
+ if ( origType == null || origType == undefined ) { break ; } case Token.GET:
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: origType =
+ scope.declareType(node, qualifiedName, origType, type);
+ sc.inferSlotType(origType, type);
+ if ( origType == null || origType == undefined ) { break ; } case Token.ADD:
+ scope.reference(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, ' ', origType, type);
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING: case Token.NODES:
+ } switch ( node. getType ) { case Token.STRING:
+ scope.inferTypeOrigType;
+ case Token.GET: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType() {})
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString(), null);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); } switch (node.getType())
+scope.inferQualifiedSlot(node, qualifiedName, node.get ( ), type);
+ case Token.INTERFACE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, false, origType, type);
+ if ( origType == null || origType == undefined ) { break ; } case Token.SET:
+scope.inferQualifiedSlot(node,  origType, qualifiedName, type, true);
+ switch (node.getType() { case Token.NAME:
+ scope.inferGetPropType(node, qualifiedName, origType, type);
+ scope.includeSlotType(node, qualifiedName, origType, type);
+ } else { switch ( node. getType ( ) ) { default:
+ switch (node.getType()) { case Token.COMMENT:
+ } else { switch ( node. getType ( ) ) case NAME:
+ case Token.REFERENCE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType) ; case Token.GET:
+ if ( origType == null ) { return type;
+ scope.inferRefinedType(origType, type);
+scope.inferQualifiedSlot(name, origType, type);
+ scope.define(node, origType, type);
+scope.inferQualifiedSlot(node,  origType, qualifiedName, type); break;
+ qualifiedName, origType, type);
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: String qualifiedName;
+scope.inferQualifiedSlot(qualifiedName, origType, origType);
+scope.inferQualifiedSlot(node.getString(), origType.getName());
+ scope.registerType(node, type);
+ sc.inferSlotType(type);
+ scope.inferNameTypeInScope(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(name, origType, node.getString());
+ case Token.STRING:
+ switch (node.getType()) { case Token.NEW:
+scope.infer (type);
+ if ( origType == origType ) return type;
+ if ( origType == null ) { return null ; } switch ( node. getType ( ) ):
+ scope.inferSlotTypeOrigType;
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: break;
+ switch (node.getType()) { case Token.TYPE:
+scope. inferSlotType ( ) ;
+scope.inferQualifiedSlot(node,  origType, qualifiedName, type); }
+scope.inferQualifiedSlot(node.getString(), 0, node, qualifiedName, origType, type);
+scope.inferQualifiedSlotType(node.getString());
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString(), scope);
+scope.inferTypeType(origType);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getType());
+ if (origType) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.includeType(origType, type);
+ scope.pushType(type);
+scope.inferQualifiedSlot(node, qualifiedName, origType); if (origType == null) return;
+ scope.inferType(); break;
+ Scope.inferSlotType(node, type);
+scope.inferQualifiedSlotType(name(), type);
+ scope.inferSlotTypeImpl(node, qualifiedName, origType, type);
+ return scope.inferSlotTypeInScope(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType() {});
+scope.inferQualifiedSlot(node, qualifiedName, true, origType, type);
+ scope.inferSlotType(node.string, qualifiedName, origType, type);
+ scope.inferSlotType0(origType, type);
+scope.inferQualifiedSlot(nodeName, origType);
+ scope.inferSlotType(node.id, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), type, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), origType, qualifiedNameString);
+ scope.inferSlotType(this, qualifiedName, origType, type);
+ if (origType == null) break;
+ resolve(scope, type);
+ declareType(scope, origType, type);
+scope.inferQualifiedSlot(node, "name", origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); break;
+scope.inferQualifiedSlot(node,  origType, qualifiedName, ".");
+ scope.push ( origType);
+ Scope.inferSlotType(node, qualifiedName, origType, type);
+ scope.inferType(qualifiedName, type);
+scope.inferQualifiedSlot(node.getString(), origType), qualifiedName;
+scope.inferQualifiedSlot(node, qualifiedName, origType, "getProperty");
+scope.inferQualifiedSlot(node, qualifiedName, origType.get ( ), type);
+scope.inferQualifiedSlot(node, qualifiedName, 0, 0, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; case Token.GET:
+ case Token.REFERENCES: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: String qualifiedName =
+ } else { switch (node.getType()) {
+ switch (node.getType()) : scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ if (origType!= null scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(qualifiedName, origType, - 1);
+ scope.includeType(type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if ( origType == null ) {
+ if (origType!= null) scope.add(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(Node.getString(), qualifiedName);
+scope.inferQualifiedSlot(qualifiedName, type, node);
+ if ( origType!= null ) { scope. inferType ( type )
+ scope.addType(origType);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType() {
+ switch (node.getType()) { case Token.CONST:
+ scope.reference(node, type);
+scope.inferQualifiedSlot(name, node.getString(), origType);
+scope.inferQualifiedSlotType(string(qualifiedName));
+scope.inferQualifiedSlot(Node.getString(), type);
+ case Token.SET: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ define (scope, qualifiedName, origType, type);
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: case NAME:
+ scope.includeType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origName, origType, type);
+ scope.addType(node);
+ scope.inferSlotType(parentScope, qualifiedName, origType, type);
+ Scope.inferSlotType(origType, type);
+ scope.includeSlotType(type);
+ scope.inferSlotType((qualifiedName),origType, type);
+ scope.inferType(type;
+ scope.inferSlotType(localName, qualifiedName, origType, type);
+ scope.include(node, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString(), false);
+scope.inferQualifiedSlot(node.getName(), origType, type);
+ return scope.inferSlotTypeInScope(node, qualifiedName, origType, type);
+ } else { scope.inferType(type);
+scope.inferQualifiedSlot(node.getString(), false, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, false);
+scope.inferQualifiedSlot(node.getString(qualifiedName), type);
+ return scope.inferSlotType(node.qualifiedName, origType, type);
+ scope.inferSlotTypeAST(qualifiedName, origType, type);
+ scope.inferRefinableType(node, qualifiedName, origType, type);
+ case Token.SETPROP: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.string(), type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (type == origType)
+ scope.reference(node, origType, type);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.NODE: case NAME:
+scope.inferQualifiedSlot(node.name(), type);
+ switch (node.getType()) case Token.TYPE:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (node == null)
+scope.inferQualifiedSlot(node.getName(), origType);
+ qualifiedName, type);
+scope.inferQualifiedSlot(qualifiedName, origType, type); break;
+scope.inferQualifiedSlotType(origType);
+ return scope.inferSlotType(this.node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getString(), type, node);
+scope.inferQualifiedSlot(qualifiedName, (origType));
+scope.inferQualifiedSlot(node, qualifiedName, origType,  origType); if (origType == null)
+ } else { scope.inferType(node, qualifiedName, origType, type);
+ } else: scope.inferType(type);
+ scope.inferSlotType(namedName, qualifiedName, origType, type);
+ defineType(node, qualifiedName, origType, type);
+ scope.add(node, type);
+ return origType;
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.get ( ));
+ case Token.GET:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (origType!= null)
+ origType = null;
+scope.inferQualifiedSlot(node,  origType, qualifiedName);
+ defineType(qualifiedName, origType, type);
+scope.inferQualifiedSlotType(string, type);
+ scope.name = name;
+ } switch ( node. getType ( ) ) {
+scope.inferQualifiedSlot(node, qualifiedName, 0.0, origType, type);
+ scope.inferSlotType(nodeName, qualifiedName, origType, type);
+scope.inferSlotType(node);
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING: case NAME:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType()):
+scope.inferQualifiedSlot(node.getName(), node, qualifiedName, origType, type);
+ if ( origType == null ) { return null ; } else { }
+scope.inferQualifiedSlotType(name, name, type);
+scope.inferQualifiedSlotType(originalType);
+scope.inferQualifiedSlot(node.name, qualifiedName, origType, type);
+ scope.includeType(qualifiedName, origType, type);
+ case Token.VALUE:
+ scope.include(node);
+ scope.inferSlotType(node.unqualifiedName, origType, type);
+ case Token.SET:
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING: case NULL:
+ } default: scope.inferType(node, qualifiedName, origType, type);
+ switch (node.getType()) case Token.CLASS:
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: case "this":
+ if (origType!= null) defineType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.get (name));
+ scope.refineTypeInScope(node, origType, type);
+ scope.define(type);
+ scope.declare(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.toString(), qualifiedName);
+scope.inferType(node);
+ scope.registerType(type);
+ switch ( node. getType ( ) ) { case Token.NAME : case Token.GETPROP: String qualifiedName();
+ } default: scope.inferType(type);
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING: case "this":
+ case Token.NODE:
+ scope.registerType(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (origType) {
+ scope.infer (node, type);
+ defineType(scope, origType, type);
+ case Token.REFERENCE:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type.getType ( ));
+ scope.declareType(type);
+scope.inferQualifiedSlot(node, qualifiedName, origType. type, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.getType(), type);
+scope.inferQualifiedSlot(node.getString(), type, true);
+ return scope.inferNameInScope(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } case Token.USE:
+scope.inferQualifiedSlot(name, origType, node.getType());
+ return scope.inferType(type);
+ scope.inferPropInScope(node, qualifiedName, origType, type);
+ resolve(scope, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType.getType, type);
+scope.inferQualifiedSlot(node,  name, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getType( )))
+ switch (node.getType())) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.get ( ), node, qualifiedName, origType, type);
+ case Token.PROP:
+scope.inferQualifiedSlot(node,  qualifiedName, origType); }
+ scope.defineProperty(node, qualifiedName, origType, type);
+ switch (type) scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, origName);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); } switch ( node. getType ) {
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (type!= null)
+ define(scope, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, 0, 1, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.getString());
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.getName(), type);
+scope.inferQualifiedSlot(node, qualifiedName, "this", type);
+ scope.addPropertyType(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if ( origType == null ) break;
+ scope(qualifiedName, type);
+scope.inferQualifiedSlot(node.getString(), expandedName);
+scope.inferQualifiedSlot(node.getString(), escapedName);
+scope.inferQualifiedSlot(qualifiedName, origType, type); }
+ scope.inferNameInSlotType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, true);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getToken())
+scope.inferQualifiedSlot(node.getParent(), node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); }
+ } else { case Token.STRING:
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.getType());
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (origType)
+ } switch ( node. getType ( ) ) :
+ scope.define(node);
+scope.inferQualifiedSlotType(qualifiedName, origType); }
+ scope.define (Node, origType, type);
+ } else { case Token.REFERENCE:
+ scope.addDynamicType(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if ( origType == null ) return;
+ scope.defineProperty(qualifiedName, origType, type);
+ switch ( node. getType ( ) ) { case Token.STRING: case Token.STRING: case Token.NODES():
+ } else { scope.defineSlotType(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getParent(), qualifiedName, origType, type);
+ scope.inferTypeType(qualifiedName, origType, type);
+ scope.inferSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type.toString ( ));
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } case Token.GET:
+scope.inferQualifiedSlot(qualifiedName, type, false);
+ switch (node.getType()) case: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.createType(origType, type);
+scope.inferQualifiedSlot(node.getName(), type);
+ switch (node.getType()) case NAME:
+ resolve (qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; case Token.SET:
+ scope.register(type);
+ switch ( node. getType ( ) ) { case Token.STRING : case Token.OBJECT : case Token.NUMBER : *
+ scope.createType(qualifiedName, origType, type);
+ switch (token.TYPE) { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.defineType(Node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  qualifiedName(), type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); if (origType == type)
+scope.inferQualifiedSlot(node,  qualifiedName, "this");
+ scope.ref(qualifiedName, origType, type);
+ scope.inferType(Node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(nodeType);
+scope.include ( origType);
+ resolveType(scope, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; case Token.SETPROP:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getName());
+ resolve(type);
+scope.inferQualifiedSlot(name, origType, node.get ( ));
+ scope.inferName(node;
+ case Token.SETNODE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.inferType(node;
+ inferType(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } case Token.DELETE:
+ scope.ref(origType, type);
+ scope.add(node, qualifiedName, origType, type);
+ scope.addRefinement(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  qualifiedName, type, false);
+ declareType(scope, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  qualifiedName, type, true);
+ scope.add(origType, type);
+ scope.inferSlotType(); break;
+ declareName(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, "getProp");
+ case Token.SETPROP:
+ scope.infer ( );
+scope.inferQualifiedSlot(node, qualifiedName, origType, node.get ( ));
+ defineType(scope, qualifiedName, origType, type);
+ } else { case Token.INFERENCES:
+ switch (token.STRING): scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ switch (node.getType().getKind())
+scope.inferQualifiedSlot(node, qualifiedName, - 1, origType, type);
+ } else { case Token.NODE:
+ inferType(type);
+ switch (node.getType()) { } scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ case Token.INFERENCES:
+scope.inferQualifiedSlot(node.getName, qualifiedName, origType, type);
+ scope.infer origType;
+scope.inferQualifiedSlot(node,  origType, qualifiedName); }
+ scope.inferSlotTypeForName(node, qualifiedName, origType, type);
+scope.continue();
+scope.inferQualifiedSlot(node.getString(), name);
+ scope.include(type);
+ scope.ref(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.get ( ));
+scope.inferQualifiedSlot(qualifiedName(), type);
+ switch (node.getType().getName())
+scope.inferQualifiedSlot(node, qualifiedName, node.type, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; switch (node.getName())
+ scope.register(node);
+scope.inferQualifiedSlot(node, qualifiedName, origType, false);
+ switch (node.getType())
+ scope.inferType($name,type);
+ scope.inferOriginalType;
+ case Token.SETTYPE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getString);
+scope.inferQualifiedSlot(node,  expandedName, origType);
+ scope.add (node, origType, type);
+ declare (scope, qualifiedName, origType, type);
+ scope.include(origType, type);
+scope.inferQualifiedSlot(node.getName, node, qualifiedName, origType, type);
+ defineType(origType, type);
+ declare(scope, origType, type);
+ } else { switch (node.getType()) { }
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) break; default:
+scope.inferQualifiedSlot(node, qualifiedName, origType.typeName, type);
+ scope.addTypeOrigType;
+ resolveType(scope, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getType, node, qualifiedName, origType, type);
+scope.pushNode();
+ } else { case Token.TYPE:
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) return origType;
+ } else { switch (node.getType()):
+ scope.defineName, type);
+scope.inferQualifiedSlot(qualifiedName, origType); }
+scope.inferQualifiedSlot(node, qualifiedName, origType, type.name(), type);
+ scope.defineNameInScope(node, qualifiedName, origType, type);
+scope = null;
+ return type;
+ case Token.SETTYPE:
+ scope.inferSlotTypeImpl(type);
+scope.inferQualifiedSlot(node, qualifiedName, origType,  type); if (debug)
+ switch (case: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.defineNameInScope(qualifiedName, origType, type);
+scope.inferQualifiedSlot(declaredName, type);
+ case Token.INFERENCED:
+scope.inferQualifiedSlot(node,  escapedName, origType);
+ scope.addOrigType;
+ } else { case Token.USE:
+ scope.pushOrigType;
+ scope.super = node;
+scope.inferQualifiedSlot(node.getString(), origType); }
+ define(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, "getProperty(), type);
+scope.inferQualifiedSlot(Node.NAME, qualifiedName, origType, type);
+scope.inferQualifiedSlot(flowScope, node, qualifiedName, origType, type);
+ scope.get(qualifiedName, origType, type);
+scope.inferQualifiedSlot (node);
+ scope.type(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, 0, 0, 0);
+ scope.add origType;
+scope.inferQualifiedSlot (name);
+ scope.register(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(name, origType);
+ switch (node.getType().getKind());
+scope.inferQualifiedSlot(name(), type);
+ resolve(scope, qualifiedName, origType, type);
+scope.inferQualifiedSlot(compiledName, type);
+scope.inferQualifiedSlotName(qualifiedName);
+scope.inferQualifiedSlot(node, qualifiedName, origType, "getProp");
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, true);
+ switch (token.TYPE) : scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, "getProperty");
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, "getprop");
+ extend(scope, type);
+scope.inferQualifiedSlotType(node);
+ case Token.SETNODE:
+ resolve(scope);
+scope.inferQualifiedSlot(node, "this", origType, type);
+scope.inferQualifiedSlot(node,  origType, qualifiedName, true); }
+scope.inferQualifiedSlot(node.getParent, node, qualifiedName, origType, type);
+ } switch (node.getType() {
+scope.inferQualifiedSlot(node, qualifiedName, origType, 0, 0);
+ switch (token.STRING):
+scope.inferQualifiedSlot(node.getType, qualifiedName, origType, type);
+ scope.addRefinedType(qualifiedName, origType, type);
+ define(scope, type);
+ infer(scope, type);
+ extend(scope, origType, type);
+ case Token.NOP:
+ declare(qualifiedName, origType, type);
+ switch (node.getType() { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(string, type);
+scope.inferQualifiedSlot(node, origType);
+ declareName, qualifiedName, origType, type);
+ refine(origType, type);
+scope.inferQualifiedSlot(string(qualifiedName)) ;
+scope.inferQualifiedSlot(node, 'name', origType, type);
+ infer(origType, type);
+scope.inferQualifiedSlot(node,  qualifiedName), type);
+ scope.addRefinedType(node, qualifiedName, origType, type);
+ case ":": scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ inferType(node, qualifiedName, origType, type);
+ type = null;
+ case ".": scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, node.getType);
+scope.inferQualifiedSlotType(name);
+ declare(scope, type);
+ resolve(node);
+ refine(type);
+ setType(type);
+ scope.addName, type);
+ scope.inferDynamicType(type);
+ scope.inferslotType(origType, type);
+scope.inferQualifiedSlot(node.type, qualifiedName, origType, type);
+ inferType(qualifiedName, origType, type);
+scope.addType();
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, "this");
+ scope.includeName, type);
+ scope.registerName, type);
+scope.addNode();
+ case Token.SETSET:inferQualifiedSlot(node, qualifiedName, origType, type);
+ scope.defineType, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, "getprop");
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, 0.0);
+scope.inferQualifiedSlot(node, qualifiedName, origTypeName, type);
+scope.inferQualifiedSlotType(qualifiedName); }
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, 0, 0);
+ refine(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, true, true);
+scope.importType();
+scope.inferQualifiedSlot(node, qualifiedNameString, origType, type);
+ case ':': scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ resolveType(type);
+scope.ignoreNode();
+scope.inferQualifiedSlot(node,  name(), type);
+ declareName(qualifiedName, origType, type);
+ refine(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.string, qualifiedName, origType, type);
+ resolveType(origType, type);
+scope.inferQualifiedSlot(compound, qualifiedName, origType, type);
+scope.inferQualifiedSlot(Node.STRING, node, qualifiedName, origType, type);
+ declare(node, qualifiedName, origType, type);
+ switch this case scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  origType, type);
+ defineName(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, true, false);
+ extend(origType, type);
+scope.inferQualifiedSlot(node.id, qualifiedName, origType, type);
+scope ++ ;
+ declareName(origType, type);
+ infer(qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType,  type); return origType ; } }
+scope.inferQualifiedSlot(node, qualifiedName, origType,  type); return origType; }
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) break;
+ type = node;
+ scope.inferslotType(node, qualifiedName, origType, type);
+ break; } scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ return origType);
+scope.inferQualifiedSlot(node,  qualifiedName); }
+ resolve(origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, false, false);
+scope.inferQualifiedSlot(node, qualifiedName, origType,  type); if (origType))
+scope.inferQualifiedSlot(node, (string), origType, type);
+ return true;
+scope.inferQualifiedSlot(node, qualifiedName, [0], type);
+ resolveType(node);
+ resolveType(qualifiedName, origType, type);
+scope.inferQualifiedSlot(Node.NAME, node, qualifiedName, origType, type);
+ return false;
+scope.inferQualifiedSlot(node.getValue, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node.getParent, qualifiedName, origType, type);
+scope.inferQualifiedSlotName();
+scope.inferQualifiedSlot(qualifiedName, node);
+scope.inferQualifiedSlot(node, qualifiedName, 0, type);
+scope.inferQualifiedSlot(node, qualifiedName(), origType);
+scope.inferQualifiedSlot(qualifiedName); }
+ infer(type);
+scope.inferQualifiedSlot(Scope.NAME, node, qualifiedName, origType, type);
+ resolve(origType);
+scope.inferQualifiedSlot(null, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } else {
+scope.inferQualifiedSlot(node, qualifiedName, 0, 0, type);
+scope.inferQualifiedSlot(node, escapedName);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } else:
+scope.inferQualifiedSlot(node, qualifiedName, origType,  type); return origType; } else
+scope.inferQualifiedSlot(node, qualifiedName), origType);
+ return "unknown";
+ JSType.inferQualifiedSlot(node, qualifiedName, origType, type);
+ case NAME:
+scope.inferQualifiedSlot(qualName, type);
+scope.inferQualifiedSlot(type, node);
+scope --;
+scope.inferQualifiedSlot(node, qualifiedName + origType);
+ assert(true);
+ resolve(node, qualifiedName, origType, type);
+ infer(node, qualifiedName, origType, type);
+scope.super();
+ declare (, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) return null;
+ return "this";
+ origType = undefined;
+ case TYPE: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origTypeString, type);
+ case Token.USE: _inferQualifiedSlot(node, qualifiedName, origType, type);
+ case CALL: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, - 1);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) break; }
+ declareScope, qualifiedName, origType, type);
+ case Token.: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ return resolve(node);
+ switch() { scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlotTypes();
+ return resolve(scope);
+scope(node);
+scope.inferQualifiedSlot(scope, scope, node, qualifiedName, origType, type);
+ qualifyName, origType, type);
+ case CLASS: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, origType);
+ case ':':
+ define(type);
+ defineScope, qualifiedName, origType, type);
+ case Token.USE: #inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) return false;
+ case "this":
+ type = undefined;
+ declareName(type);
+ case ":":
+ declaredName, type);
+scope.inferQualifiedSlot(node, qualifiedName, null, type);
+ return node;
+scope.inferQualifiedSlot(FlowScope, node, qualifiedName, origType, type);
+ defineName, qualifiedName, origType, type);
+ JSTypes.inferQualifiedSlot(node, qualifiedName, origType, type);
+ switch this: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ CoreUtils.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, scope, origType, type);
+ qualifyName, type);
+scope.inferQualifiedSlot(this.name, node, qualifiedName, origType, type);
+scope.push();
+scope.inferQualifiedSlot(Scope.Name, node, qualifiedName, origType, type);
+scope.debug();
+scope.inferQualifiedSlot(node(), type);
+ declared scope, origType, type);
+ extend scope, origType, type);
+scope.inferQualifiedSlot(qualifiedName, qualifiedName, origType, type);
+scope.block();
+scope.inferQualifiedSlot(node, 0, origType, type);
+scope.inferQualifiedSlot(parentScope, node, qualifiedName, origType, type);
+ CfgScope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ resolveName, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, 0); }
+scope.inferQualifiedSlot(node, qualifiedName, false, type);
+ extend node, type);
+scope.inferQualifiedSlot(node, qualifiedName, true, type);
+scope.inferQualifiedSlot(originalType);
+scope.inferQualifiedSlot(currentScope, node, qualifiedName, origType, type);
+ JSTree.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, false, origType, type);
+ return (type);
+scope.inferQualifiedSlot(localName, qualifiedName, origType, type);
+ Default: scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ case Token.:
+scope.inferQualifiedSlot(node, null, origType, type);
+ case CALL:
+scope.inferQualifiedSlot(compiler, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, name);
+scope.inferQualifiedSlot(node,  expandedType);
+ case TYPE:
+ case Token.SET
+scope.inferQualifiedSlot(node, qualifiedName, null);
+ (break);
+ return scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  extendedType);
+scope.inferQualifiedSlot(node, qualifiedName, origType, originalType);
+scope.inferQualifiedSlot(compiled, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node", type);
+ declaredScope, origType, type);
+scope.inferQualifiedSlot(node, true, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, defaultValue);
+scope.inferQualifiedSlot(node,  qualifiedName; });
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) ; } }
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, null);
+scope.inferQualifiedSlot(node, qualifiedName, origType, defaultType);
+scope.inferQualifiedSlot(localName, node, qualifiedName, origType, type);
+scope; }
+scope.inferQualifiedSlot(signedName);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type); } else
+scope.inferQualifiedSlot(node, qualifiedName, origType,  true); }
+scope.inferQualifiedSlot(origType);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, ".");
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, 0);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, defaultType);
+scope.inferQualifiedSlot(nodeName());
+scope.inferQualifiedSlot(this);
+scope.inferQualifiedSlot(node, qualifiedName, origType,  null);
+scope.inferQualifiedSlot(origin);
+ clear();
+scope.inferQualifiedSlot type();
+ newScope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ break; }
+scope.inferQualifiedSlot(node, qualifiedName,  origType());
+scope.inferQualifiedSlot(namedName);
+ clear(_);
+ clear($);
+scope.inferQualifiedSlot(this, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType,  0);
+scope.inferQualifiedSlot(node, qualifiedName,  origType;
+scope.inferQualifiedSlot(node, qualifiedName, origType, type) break();
+scope.inferQualifiedSlot(node, qualifiedName, '', type);
+scope.inferQualifiedSlot(node, qualifiedName, origType, type, scope);
+scope.inferQualifiedSlot(node, qualifiedName,  originalType);
+scope.inferQualifiedSlot(node); }
+scope.inferQualifiedSlot(Scope, node, qualifiedName, origType, type);
+scope.inferQualifiedSlotNames();
+scope.inferQualifiedSlot(node, qualifiedName,  origType)
+ break;
+scope.inferQualifiedSlot(node, qualifiedName,);
+scope.inferQualifiedSlot(node, qualifiedName,  true);
+scope.inferQualifiedSlot(node,);
+scope.inferQualifiedSlot(0, qualifiedName, origType, type);
+scope.inferQualifiedSlot(Node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  null);
+scope.inferQualifiedSlot(0, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(this, qualifiedName, origType, type);
+scope.inferQualifiedSlot(null, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName,  false);
+scope.inferQualifiedSlot(node,  true);
+ Default(): scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName,  0);
+ newInstance.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node,  this);
+ newContext.inferQualifiedSlot(node, qualifiedName, origType, type);
+ newScope().inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, originalType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origType,);
+scope.inferQualifiedSlot(node, qualifiedName, OrigType, type);
+ Default::Scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, origName, type);
+ Default::scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(null, node, qualifiedName, origType, type);
+scope.inferQualifiedSlot(node, qualifiedName, destType, type);
+ sc.inferQualifiedSlot(node, qualifiedName, origType, type);
+ node.inferQualifiedSlot(node, qualifiedName, origType, type);
+ this.inferQualifiedSlot(node, qualifiedName, origType, type);
+ break();
+scope.inferQualifiedSlot(node, resolvedName, origType, type);
+scope.inferQualifiedSlot(node, declaredName, origType, type);
+scope.inferQualifiedSlot(null);
+scope.inferQualifiedSlot(node, escapedName, origType, type);
+ break:
+ return
+ return sc.inferQualifiedSlot(node, qualifiedName, origType, type);
+ return Scope.inferQualifiedSlot(node, qualifiedName, origType, type);
+ return this.inferQualifiedSlot(node, qualifiedName, origType, type);
+ *
+ return provider.inferQualifiedSlot(node, qualifiedName, origType, type);

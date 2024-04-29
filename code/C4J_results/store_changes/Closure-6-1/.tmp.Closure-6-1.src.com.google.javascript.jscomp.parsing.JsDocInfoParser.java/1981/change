@@ -1,0 +1,525 @@
+return  newNode(Token.EMPTY);
+ return newNode(EMPTY);
+ next();
+ return null;
+ next(); returnnewNode(Token.EMPTY);
+ return newNode(JsDocToken.EMPTY);
+ return newNode.EMPTY);
+ skipEOLs();
+ return Node.EMPTY);
+ return null);
+ skipEOLs(); next();
+ return (EMPTY);
+ skipEOLs(); returnnewNode(Token.EMPTY);
+ skipEOL();
+ skipEOLs();newNode(Token.EMPTY);
+ return newNode(Token.PREFIX);
+ return newNode(null);
+ return newNode(Token.NEMPTY);
+ skipEOLs(); }
+ next(); }
+return  newNode(Token.COLON);
+ skipEOLs(); next(); } else {
+ skipEOLs(); next(); returnnewNode(Token.EMPTY);
+ return newNode(Token.NONCOLON);
+return  newNode(Token.empty);
+ return newNode(Token.PIPE);
+ skipEOLs(newNode(Token.EMPTY);
+ skipEOLs(); next(); }
+ token = next(); skipEOLs();
+ return newNode(empty);
+return  newNode(Token.NULL);
+ return (Token.EMPTY);
+return  newNode(Token.VOID);
+ return new(Token.EMPTY);
+ return newNode(Token.NONEMPTY);
+ skipEOLs(); next(); } else { skipEOLs(); }
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); next();
+ skipEOLs(); } else {
+ return newNode(Token.JsDocToken.EMPTY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs();
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.STRING)) {
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); }
+ token = next(); skipEOLs(); }
+ return newNode(Token.EMPTY); } if (match(JsDocToken.STRING)) {
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } else {
+ skipEOLs(); next(); } else { skipEOLs();
+return newNode(Token.EMPTY); } else { return parseResultType(); }
+ return newNode(Token.empty;
+ return newNode(Token.EMPTY); } if (token == null) { skipEOLs(); next();
+return  newNode(Token.Empty);
+ return newNodeToken(EMPTY);
+ return newNode(Token.EMPTY); } if (match(JsDocToken.COMMA)) {
+ return new NewNode(Token.EMPTY);
+ return newNode(Token.PREFIX;
+ skipEOLs(); token=newNode(Token.EMPTY);
+ skipEOLs(); next(); resultType=newNode(Token.EMPTY);
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.COMMA)) {
+ return newNode(Token.EMPTY); } if (token == null) { skipEOLs(); } else {
+ return node(Token.EMPTY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); next(); } else {
+ skipEOLs(); token = null;
+return newNode(Token.EMPTY) ; } return parseResultType(token);
+ skipEOLs(); next(); } if (token == null) {
+ skipEOLs(); return null;
+ return newNode(Token.IS_EMPTY);
+ return newNode(token, JsDocToken.EMPTY);
+ return newNode(Token.EMPTY); } if (!match(JsDocToken)) {
+ skipEOLs(); next(); } else { skipEOLs(); next();
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (empty) {
+ return newNode(Token.PREFIX_EMPTY);
+ token = next(); } else {
+ skipEOLs(); next(); } if (token == null) { next();
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); if (stream == null) {
+ return newNode(Token.NODE_EMPTY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } else { next();
+ return newNode(Token.EMPTY); } if (token == null) { skipEOLs(); }
+ return newNode(NewToken.EMPTY);
+ return newNode(Token.COLON); } if (match(JsDocToken.NULL)) {
+ skipEOLs(); next(); } if (token == null) { skipEOL();
+ return newNode(Token.PREFIX.EMPTY);
+return  newNode(Token.PREFIX); }
+ skipEOLs(); token = next(); }
+ skipEOL(); next();
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (token == null) {
+ return newNode(Token.EMPTY); } if (match(JsDocToken)) {
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (stream == null) {
+ return newNode(Token.COLON); } if (match(JsDocToken.NULL))
+ skipEOLs(); next(); } else { next();
+ return newNode(Token.NP_EMPTY);
+ return newNode(Token.EMPTY); } if (match(JsDocToken.NL)) {
+ return newNode(Token.COLON); } if (token == null) { skipEOLs(); if (stream == null) {
+ skipEOLs(); } if (token == null) {
+ skipEOLs(); next(); if (token == null) {
+ return newNode(Token.EMPTY); } if (token!= null) { skipEOLs(); next();
+ return newNode(Token.EMPTY); } if (match(JsDocToken.STRING))
+ return newNode(Token.EMPTY); } if (token == null) { skipEOLs(); next(); } else {
+ return newNode(Token.NODE_TYPE.EMPTY);
+ return newNode(Token.NONJsDocToken.EMPTY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); next(); }
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.PIPE)) {
+ token = next(); return null;
+ return newNode(Token.STRING);
+ skipEOLs(); next(); } if (token!= null) { skipEOLs(); if (token == null) {
+ skipEOLs(); next(); } returnnewNode(Token.EMPTY);
+ return Token.EMPTY);
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.SINGLE)) {
+ skipEOLs(); } else { skipEOLs(); }
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.NONSTRING)) {
+ return newNode(Token.COLON); } else { skipEOLs(); }
+ skipEOLs(); } if (token == null) { next();
+ return newNode(Token.COLON); } if (match(JsDocEmpty)) {
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (token == null)
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.STRING)) { next(); }
+ return newNode(Token.NULL;
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } } else {
+ skipEOLs(); if (token == null) {
+ skipEOLs(); next(); } if (empty) {
+ return newNode(Token.COLON); } if (token == null) {
+ skipEOLs(); next(); } else { skipEOL();
+ return newNode(Token.NONCOLON;
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } else { next(); }
+ return newNode(Token.NODE.EMPTY);
+ skipEOLs(); } if (token == null) { skipEOL();
+ return newNode(Token.EMPTY); } if (match(JsDocToken.NL))
+ return newNode(null;
+ skipEOLs(); token = VOID;
+ return newNode(Token.Empty;
+ token = next(); skipEOLs(); next();
+ return newNode(Token.STRING_EMPTY);
+ return newNode(Token.COLON, Token.EMPTY);
+return  newNode(Token.PIPE); }
+ skipEOLs(); next(); } if (token == EMPTY) {
+ return newNode(Token.VAREMPTY);
+ return newNode(Token.NOPOS,Token.EMPTY);
+ return newNode(token);
+return newNode(Token.EMPTY); }
+return newNode(Token.EMPTY); } else { return parseResultType();
+ return newNode(Token.EMPTY); } if (!match(JsDocToken.TEXT))
+ return newNode(Token.EMPTY); } if (match(JsDocToken.TEXT))
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (empty == null)
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); next(); } } else {
+ return newNode(Token.COLON); } if (match(JsDocToken)) {
+ return newNode(Token.PREFIX,Token.EMPTY);
+ skipEOLs(); return new NewNode(Token.EMPTY);
+ skipEOLs(); } return newNode(Token.EMPTY);
+ skipEOLs(); next(); } else { next(); }
+ skipEOLs(); } else { next(); }
+ token = next(); skipEOL();
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); if (empty == null)
+ return newNode(Token.NODE, Token.EMPTY);
+ skipEOLs(); token = next(); next();
+ skipEOLs(); next(); if (empty) {
+ skipEOLs(); next(); } if (token == null) { next(); }
+ return newNode(Token.COLON); } if (token == EMPTY) {
+ return newNode(Token.RETURN_EMPTY);
+ return newNode(Token.PIPE;
+ skipEOLs(); } if (empty) {
+return newNode(Token.EMPTY); } if (token == null) {
+ skipEOLs(); next(); token=newNode(Token.EMPTY);
+ skipEOLs(); token = next(); return null;
+ return newNode(Token.NOT_EMPTY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (token == ':') {
+ return newNode(Token.SINGLE_EMPTY);
+ skipEOLs(); next;
+ skipEOLs(); next(); } if (token == null) { return null;
+return  newNode(Token.FULLTEXT);
+ return newNode(Token.NONE);
+ skipEOLs(); next(); } } else {
+ skipEOLs(); next(); stream=newNode(Token.EMPTY);
+ return newNode(Token.VAR_EMPTY);
+ return newNode(Token.NULL, JSDocToken.EMPTY);
+ skipEOLs(); next(); } if (token == null)
+return  newNode(Token.COLON); }
+ return newNode(Token.COLON); }
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (token == "empty") {
+ skipEOLs(); } else { next();
+ return newNode(EmptyType);
+ skipEOLs(); next(); return newNode(empty);
+ return newNode(Token.EMPTY); } if (token == null) { skipEOLs(); next(); } else
+ return newNode(Token.PREFIX, token);
+ return newNode(Token.NOSCRIPTToken.EMPTY);
+ return newNode(Token.PREFIXToken.EMPTY);
+ return newNode(Token.COLON); } if (token == null) { skipEOLs(); if (token == null) {
+ return newNode(Token.PREFIX, token); }
+ return newNode(Token.PREFIXES);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); if (stream == null) return;
+ return newNode(Token.REPLACE_EMPTY);
+ return newNode(Token.EQUALS.EMPTY);
+ skipEOLs(); } if (token == null) { next(); }
+return newNode(Token.EQUALS, resultType);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (token == undefined) {
+ return newNode(Token.FULLY_EMPTY);
+ return newNode(null); return newNode(Token.EMPTY);
+ skipEOLs(); next(); return null;
+ return newNode(Token.NAMESPACE);
+ return newNode(Token.PARAMETER);
+ return null; }
+ return newNode(.EMPTY);
+ next(); return new NewNode(Token.EMPTY);
+return newNode(Token.EMPTY) + parseTypeExpression(token);
+return  null; } return newNode(Token.EMPTY);
+return newNode(Token.PREFIX, resultType);
+ skipEOLs(); next(); return resultType;
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); if (stream == null) { }
+ skipEOLs(); next(); } else { } else {
+ skipEOLs(); token = next(); return token;
+ skipEOLs(); } else { returnnewNode(Token.EMPTY);
+ return parseResultType);
+ return newNode(Token.STRING;
+ skipEOLs(); next();
+ skipEOLs(); next(); } if (token == null) { } else {
+ skipEOLs(); next(); } if (token == ':') {
+ return newNode(Token.ANY);
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); next(); } else
+ token = next(); skipEOLs(); returnnewNode(Token.EMPTY);
+ return newNode(Token.VARIABLE.EMPTY);
+ skipEOLs(); } else { skipEOL();
+ skipEOLs(); token = next(); return ;
+ return VOID;
+return  newNode(Token.NL);
+ token = next(); return newNode(Token.EMPTY);
+ skipEOLs(); token = next;
+ skipEOLs(); } next(); returnnewNode(Token.EMPTY);
+ return newNode(NEMPTY);
+ skipEOLs(); next(); } if (empty == null)
+ return newNode(Tuple.EMPTY);
+ return newNode(Token.VOID;
+return newNode(Token.EMPTY); } else { return parseTypeExpression();
+ skipEOLs(); next(); return newNode(Empty);
+ skipEOLs(); next(); } return null;
+ return newNode(Token);
+return  next(); return newNode(Token.EMPTY);
+ skipEOLs(); next(); if (token == null) return;
+ return newNode(Token.NONCOLON); }
+ return newNode(Token.COLON, token); }
+ skipEOLs(); if (token == null) return;
+return newNode(Token.EMPTY, token); }
+ return newNode(Token.JSDocToken.EMPTY);
+ return newNode(NODE.EMPTY);
+ return newToken.EMPTY);
+return newNode(Token.PREFIX, token, null);
+ return newNode(Token.COLON);
+ return newNode(Token.PREFIX, stream); }
+ token = null;
+return newNode(Token.EMPTY) + parseTypeExpression(next()); }
+ return newNode(Token.STRING.EMPTY);
+ return newNode(Token.NOEMPTY);
+ skipEOLs(); }
+ return newNode(Token.$EMPTY);
+ return newNode(Token.NULL); newNode(Token.EMPTY);
+ token=newNode(Token.EMPTY);
+ return newNode(Token.Semicolon.EMPTY);
+ skipEOLs(); } if (empty == null)
+ return newNode(NewNode.EMPTY);
+ skipEOLs(next(); }
+ token = newNode(JsDocToken.EMPTY);
+ return newNode(Token.SOLON);
+ return newNode(Token.COLON, Node.EMPTY);
+ skipEOLs(); next(); } else returnnewNode(Token.EMPTY);
+ skipEOLs(); return node(Token.EMPTY);
+return  newNode(null); }
+return newNode(Token.EMPTY); } else { return parseResultType() }
+return newNode(Token.EMPTY); } if (token!= null) {
+return newNode(Token.EMPTY); } if (token == null) { return
+ token = next(); next();
+return newNode(Token.EMPTY); } if (token == null) { }
+ skipEOLs(); next(); } if (token == null) { skipEOLs(); } if (stream == null) { {
+return newNode(Token.EMPTY) ; } return parseResultType();
+return newNode(Token.EMPTY) ; } if (token == null)
+ return newNode(Token.NOP);
+return newNode(Token.EMPTY) ; } return null;
+ return newNode(Token.NODE_NEMPTY);
+return newNode(Token.PREFIX, null);
+ skipEOLs(); token = next();;
+ return newNode(Token.Parens.EMPTY);
+ token = VOID;
+ return new NodeImpl(Token.EMPTY);
+ return newNode(Token.NamedNode.EMPTY);
+return newNode(Token.PREFIX, token, stream);
+ return newNode(Nodes.EMPTY);
+ token = next(); return newNode(newNode(Token.EMPTY);
+ return newNode(Empty) ;
+ return Node(Token.EMPTY);
+ skipEOLs(); } if (token == null) { skipEOL;
+ return newNode(Token, Token.EMPTY);
+return  newNode(Token.NULL, token); }
+ return newNode(Token.PREFIX, null); }
+return  newNode(Token.NOSON);
+ token = next(); return newNode(Token);
+return newNode(Token.PREFIX, stream);
+ return newNode(Token.JsonToken.EMPTY);
+ token = next(); return new NewNode(Token.EMPTY);
+ return newNode(Token.NULL); return node(Token.EMPTY);
+ return newNode(null));
+return newNode(Token.VARIABLE, token); }
+ return newNode(TypeToken.EMPTY);
+return newNode(Token.EMPTY); } if (isVarArgs) {
+ return newNode(Token.NULL);
+return newNode(Token.EMPTY) + parseResultType(token);
+return  parseResultTypeWithAlternate(Token.EMPTY);
+ return newNode(Token.NULL, token);
+return newNode(Token.EMPTY, token, null);
+return newNode(Token.PREFIX, token, next()); }
+ return (Node)newNode(Token.EMPTY);
+ return newNode(empty>);
+ return newNode(Token.EQUALES);
+ return newNode(...);
+ token = next(); return ;
+return  newNode(newNode(Token.EMPTY);
+ next(); skipEOLs();
+ skipEOLs();
+ skipEOLs(); next(); return null||newNode(Token.EMPTY);
+return newNode(Token.EQUALS, null);
+return newNode(Token.EMPTY) + parseResultType(token); }
+return newNode(Token.COLON, token, null);
+return newNode(Token.EQUALS, token);
+ return newNode(:EMPTY);
+return newNode(Token.EMPTY); } while (true) {
+return  newNode(Token.NULL); }
+return newNode(Token.NONNULL, token, null);
+ return newNode(Token.Type.EMPTY);
+ return newNode(null); newNode(Token.EMPTY);
+ return newNode(Token).empty;
+return newNode(Token.EMPTY) + parseTypeExpression(next(); }
+return  newNode(Empty>);
+return  parseTypeExpression(Token.EMPTY);
+return newNode(Token.SINGLE_COLON);
+ skipEOLs(); next(); } else
+ skipEOL(token);
+ next(); return newNode(Token).replaceWith(Token.EMPTY);
+ token = next(); skipEOLs()); }
+ return newNode(Cursor.EMPTY);
+return newNode(Token.VARIABLE, token, null);
+ token = next(token);
+ next(); return newNode(NewToken.EMPTY);
+ return newNode(JsonDocToken.EMPTY);
+return newNode(Token.SINGLECOLON);
+ skipEOLs(); return Node(Token.EMPTY);
+ return newNode(Token.Token.EMPTY);
+ return newNode(JsDoc.Token.EMPTY);
+ return newNode(EmptyNode);
+ return return newNode(Token.EMPTY);
+return newNode(Token.EMPTY, token);
+ return null; } next(); returnnewNode(Token.EMPTY);
+ return newNode(Token.NamedTypeToken.EMPTY);
+return newNode(Token.COLON); } else { return null; }
+ token = next(); return (Node)newNode(Token.EMPTY);
+return newNode(Token.EMPTY); } if (token) {
+return  null; return newNode(Token.EMPTY);
+return newNode(Token.EMPTY); } if (isVarArgs)
+ skipEOL(); next;
+return newNode(Token.PREFIX, ":");
+ next(); return new NodeImpl(Token.EMPTY);
+return newNode(Token.PREFIX, ':');
+ skipEOLs(next());
+return newNode(Token.VARIABLE, token, stream);
+ return newNode(TokenToken.EMPTY);
+return newNode(Token.);
+return newNode(Token.EMPTY, null);
+return newNode(Token.EMPTY); } else { return null; }
+return newNode(Token.EMPTY) ; } while (token!= null)
+ return newNode(TagToken.EMPTY);
+return newNode(Token.PREFIX, token, null); }
+ skipEOLs(); stream=newNode(Token.EMPTY);
+ return newNode(EmptyStatement);
+return newNode(Token.PREFIX, token, next(); }
+ return newNode(Token).replaceWith(Token.EMPTY);
+return newNode(Token.COLON), token, null);
+return newNode(Token.EMPTY) ; } stream = token ;
+return newNode(Token.EMPTY); } if (token!= null)
+ return newNode(empty;
+ return node.empty);
+ return VOID);
+ return empty(token);
+return  emptyNode(token);
+return newNode(Token.EMPTY) ; } while (token!= null){
+ return newNode(CurrentToken.EMPTY);
+return newNode(Token.VARIABLE, token, next()); }
+ return newNode(Token.NULL); skip(Token.EMPTY);
+ skipEOL(); returnnewNode(Token.EMPTY);
+ token = next(); return (void)newNode(Token.EMPTY);
+ next(); return newSyntaxError(Token.EMPTY);
+ return newNode( );
+ next(); } else {
+ current(); return newNode(Token.EMPTY);
+ token = next(); } else { returnnewNode(Token.EMPTY);
+return newNode(Token.EMPTY) ; } else {
+return newNode(Token.EMPTY, token, next()); }
+return newNode(Token.EMPTY); } if (token)
+return newNode(Token.EMPTY); } while (true)
+return  null; return node(Token.EMPTY);
+ skipEOLs(next();
+return  newNode(Null); }
+ return newNode(emptyType);
+ return (void)newNode(Token.EMPTY);
+ next(token);
+return  parseTypeExpressionNewNode(Token.EMPTY);
+return newNode(Token.EMPTY), token, next(); }
+ return newNode(JsDocParserToken.EMPTY);
+return newNode(Token.EMPTY, token, stream);
+return newNode(Token.EMPTY) ; token = next(); }
+ return parseResultType;
+ next(); } else { returnnewNode(Token.EMPTY);
+return newNode(Token.EMPTY) ; } return resultType;
+return newNode(); }
+return newNode(Token.EMPTY); } while (token) {
+return newNode(Token.EMPTY) + token.getString();
+return  newNode().newNode(Token.EMPTY);
+return newNode(Token.EMPTY), token, null);
+ return resultType;
+ throw newNode(JsDocToken.EMPTY);
+return newNode(Token.EMPTY); } if (stream) {
+return newNode(Token.EMPTY, stream); }
+return newNode(Token.EMPTY, null); }
+ next() }
+return newNode(Token.VARIABLE, token, next(); });
+return newNode(Token.VARIABLE, token, next(); }
+ skipEOL; returnnewNode(Token.EMPTY);
+ token = next(); }
+ next(); token=newNode(Token.EMPTY);
+return  newSyntaxError(Token.EMPTY);
+ skipEOLs(); next(); } }
+ return "(EMPTY);
+return newNode(Token.VARIABLE, token, next(););
+ return null; break;
+return  null; return Node(Token.EMPTY);
+return  null; newNode(Token.EMPTY);
+ next(); return (Node)newNode(Token.EMPTY);
+ return Node.empty);
+ return null; next;
+ return (empty);
+ return null; next();
+ return (null);
+ skipEOS();
+ return emptyResultType;
+ token = next(); }
+return  newNode(...) newNode(Token.EMPTY);
+return newNode(Token.EMPTY), token); }
+ throw newNode(Token.EMPTY);
+ return emptyType;
+ skip(token);
+ return parse(Token.EMPTY);
+return newNode(Token.EMPTY) ; return null;
+ token = next() ;
+ skipEOLs()newNode(Token.EMPTY);
+ skipEOLs; returnnewNode(Token.EMPTY);
+return newNode(Token.EMPTY) ; next();
+return newNode(Token.EMPTY) ; } return token;
+return newNode(Token.EMPTY), token, null;
+ skipEOL;
+return  new AstNode(Token.EMPTY);
+ token = next;
+return  node.NULL;
+ return null; return;
+return newNode(Token.EMPTY) + token.value;
+ return empty(Token.EMPTY);
+ skip(); next();
+ token = newNode(NewToken.EMPTY);
+ return undefined; }
+ return (Node.EMPTY);
+return  newNode(new)Node(Token.EMPTY);
+ next(token) ;
+ return null(_);
+ return newNode(Tag.EMPTY);
+return newNode(Token.EMPTY), null);
+return newNode(Token.EMPTY) + ':';
+return newNode(Token.EMPTY), null;
+return newNode(Token.EMPTY) + token;
+return newNode(Token.EMPTY) ; } return ;
+ return node.EMPTY);
+ return Node(EMPTY);
+return  emptyType; }
+ next();
+ return newNode(Node.EMPTY);
+ next(newNode(Token.EMPTY);
+ } else {
+return newNode(Token.EMPTY) ; break;
+return newNode(Token); }
+return newNode(NULL);
+return newNode(Token.EMPTY) ; return;
+return newNode(Token).empty
+return newNode() }
+return newNode(...)
+ newNode(Token.EMPTY);
+ return NewNode(EMPTY);
+ return token.EMPTY);
+ return NewNode(Token.EMPTY);
+ currentToken=newNode(Token.EMPTY);
+ next();newNode(Token.EMPTY);
+ return newNode((EMPTY);
+ stream=newNode(Token.EMPTY);
+return newNode(Token).;
+ next() returnnewNode(Token.EMPTY);
+ return New(Token.EMPTY);
+ throw newNode(EMPTY);
+ currentNode=newNode(Token.EMPTY);
+ return NewNode.EMPTY);
+ return newNode((Token.EMPTY);
+ return '(EMPTY);
+ return ^newNode(Token.EMPTY);
+ next(););
+ next(_);
+ return Type.EMPTY);
+ return $(EMPTY);
+return newNode(Token.EMPTY>);
+ return NewToken.EMPTY);
+return  null();
+ return Symbol.EMPTY);
+return  nil;
+ return token;
+ return IR.EMPTY);
+return newNode(Token.EMPTY; }
+ throw(Token.EMPTY);
+ returns newNode(Token.EMPTY);
+ return undefined;
+ return node;
+return newNode(Token.EMPTY) + ;
+ current();
+ first();
+return newNode(Token.EMPTY) + ''
+ next;
+ skip();
+ }
+ {
+return  oldNode(Token.EMPTY);

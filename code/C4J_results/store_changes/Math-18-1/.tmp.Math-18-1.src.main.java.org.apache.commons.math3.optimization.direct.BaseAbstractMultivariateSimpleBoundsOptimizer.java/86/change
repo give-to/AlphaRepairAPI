@@ -1,0 +1,1239 @@
+return optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType,  startPoint);
+return optimize(int maxEval, f, goalType, startPoint, null, null);
+return optimize(startPoint);
+return optimize(maxEval,  f);
+return optimize(maxEval, f, goalType);
+return optimize(f);
+ optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null);
+ return null, null, null);
+ super(f);
+return  startPoint ;
+ return f(null, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, null);
+ return f(startPoint, null, null);
+ return null, null);
+ super(null);
+ super(maxEval);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, null, null);
+ optimize(f, goalType, startPoint, null, null);
+return optimize ( f, goalType ) ;
+return optimize(maxEval, FUNC, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, upper, null);
+return optimize ( f, goalType, startPoint )
+return optimize ( f )
+return optimize(maxEval, FUNC, goalType, startPoint, null, null);
+return optimize ( f, goalType, startPoint ) ;
+ return PointValuePair.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize ( startPoint )
+return optimize(maxEval, f, goalType, null, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null);
+ return f. optimize(goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upperBound, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null);
+ return optimize(f, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper);
+ return _optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, double[] upper);
+return optimize(maxEval, f, goalType, startPoint,  lowerBound, upperBound);
+return optimize(maxEval, FUNC f, goalType, startPoint, null, null);
+ super(startPoint);
+return optimize(maxEval, goalType);
+return optimize(maxEval, FUNC f, GoalType, double[] startPoint, double[] upper);
+return optimize(maxEval, f, goalType, double[] startPoint, double[] upper);
+ return f(null);
+return optimize(maxEval, F, goalType, startPoint);
+return optimize(maxEval, f, goalType, startPoint, upperBound, null);
+ return optimize(maxEval, f, goalType, startPoint, null, null); }
+ return f, startPoint, null, null);
+return optimize ( f, goalType )
+return optimize(f, goalType, startPoint, lower, upper);
+return optimize(f, goalType, startPoint, lowerBound, upper);
+ return optimize(goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, startPoint, null, null); } else {
+ return new Point(null, null);
+ return optimize(maxEval, f, goalType, null, startPoint, null, null); }
+ return optimize(maxEval, f, goalType, startPoint, null, null);
+ return f(null, null);
+ return f.apply(null, null);
+ return PointValuePairMath.optimize(maxEval, f, goalType, startPoint, null, null);
+ super(f, null);
+return  f. optimize ( startPoint )
+return optimize(maxEval, f, goalType, startPoint, lower);
+ super(f, goalType, startPoint);
+ return f (maxEval, goalType,startPoint, null, null);
+return optimize(maxEval, FUNC f, null, goalType, startPoint, null, null);
+return optimize(f, goalType, startPoint, lower);
+return optimize(f, goalType, lower, upper);
+ return f ( goalType, null, null, null);
+ return optimize(maxEval, f, goalType, startPoint, null); }
+return optimize(maxEval,  FUNC f, goalType, startPoint);
+ return optimize(maxEval, f, goalType, startPoint); }
+ return f (maxEval,startPoint, null, null);
+ f(startPoint, null, null);
+return optimize(maxEval, FUNC f, goalType, startPoint, lower, upper);
+return optimize(f, goalType, double[] startPoint, double[] lower, double[] upper);
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, double[] lower);
+return  f. optimize ( startPoint ) ;
+return optimize(maxEval, f, goalType, startPoint, lower, upper, null, null, null);
+ return f. optimize ( maxEval, goalType, startPoint ) ;
+return  f. apply ( startPoint ) ;
+ return f. optimize ( maxEval, goalType, startPoint ) ; }
+return optimize(maxEval, FUNC f, GoalType, double[] startPoint, double[] lower);
+return optimize(f, goalType, double[] startPoint, double[] lower, double[] upperBound);
+ super(null, null);
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, -1);
+return  f ( startPoint )
+return optimize(f, goalType, double[] startPoint, double[] upperBound);
+return optimize(maxEval, 0, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, startPoint, null, null); } else {
+ return optimize(maxEval, f, goalType, startPoint, null, null); } else
+return optimize(int maxEval, 0, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, startPoint, null); }
+return optimize(f, goalType, startPoint, upper);
+return optimize(f, maxEval);
+ super(f, startPoint);
+ return f (goalType, null, null);
+ return f.apply(null);
+return  f. apply ( goalType, startPoint )
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, upperBound);
+return optimize(maxEval,  FUNC f, GoalType, startPoint);
+ return optimize(maxEval, f, goalType, null, startPoint, null, null); } else
+ return f, goalType, startPoint, null, null);
+return optimize(maxEval, FUNC f, GoalType goalType);
+ return optimize(maxEval, f, goalType, null, startPoint, null); } else {
+return optimize(maxEval, f, GoalType, startPoint);
+return optimize(maxEval, f, goalType, startPoint, upperBound);
+return optimize(f, GoalType, double[] startPoint, double[] upperBound);
+ f(null, null, null);
+return optimize(maxEval, FUNC f, GoalType, double[] startPoint, -1);
+ return f (maxEval, null, null, null);
+return optimize(f, goalType, start);
+return optimize(f, startPoint);
+return optimize(MaxEval, FUNC f, goalType, double[] startPoint, double[] upper);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return startPoint ;
+ return f. optimize ( maxEval, goalType, startPoint )
+return  f ( goalType, startPoint ) ;
+return optimize(f, goalType, startPoint, maxEval);
+return optimize(maxEval);
+ return new PointValuePair ( maxEval, f, goalType, startPoint ) ;
+return optimize(f, goalType, double[] startPoint, double[] lower, upper);
+return optimize(maxEval, f, goalType, [startPoint], null, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upperBound, upperBound);
+return optimize ( f, goalType ) ; }
+ return new PointValuePair ( maxEval, f, goalType, startPoint ) ; }
+return optimize(f, GoalType, double[] startPoint, double[] lower, upper);
+return optimize(maxEval, f, goalType, startPoint, lowerBound);
+ return super.optimize(maxEval, f, goalType, startPoint, null, null);
+return  f ( startPoint ) ;
+ return optimize(maxEval, f, goalType, null); }
+return optimize(f, goalType, double[] startPoint, double[] lower, [] upper);
+return optimize(f, goalType, startPoint, lower, upper, false);
+return optimize(maxEval, FUNC f, goalType, double[] lower, upper);
+return optimize(maxEval, f, goalType, null, null, null, null);
+ return f. optimize ( maxEval, goalType, startPoint, lower ) ;
+ return optimize(null, null);
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, null);
+return optimize(maxEval, f, goalType, startPoint, upper);
+ return f. optimize ( maxEval, goalType, startPoint, lower, upper ) ;
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, false);
+ return optimize(maxEval, f, goalType, null, null); }
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, []));
+return optimize(maxEval, FUNC f, goalType, startPoint, upperBound);
+return optimize ( f, goalType, ) ;
+return optimize(maxEval, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, double[] startPoint, -1, null, null);
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair() {
+return  f ( goalType, startPoint ) ; }
+ return optimize(maxEval, f, goalType, null, startPoint, null); } else
+return optimize(f, GoalType, double[] startPoint, double[] lower, [] upper);
+return optimize(F, goalType, startPoint, lowerBound, upper);
+ return optimize(maxEval, f, goalType, null, null); } else {
+return  f. apply ( startPoint ) ; }
+return optimize(maxEval, FUNC f, goalType, startPoint, upper);
+ return new PointValuePair ( f, goalType, startPoint, maxEval )
+return optimize(f, goalType, double[] startPoint, lower, upper);
+ return f.call(null, null);
+ return new PointValuePair ( maxEval, f, goalType, startPoint, lower ) ;
+ return f. optimize ( maxEval, f, goalType, startPoint ) ;
+return optimize(maxEval, FUNC f, goalType, [startPoint], upper);
+return optimize(maxEval, FUNC f, goalType, double[] startPoint, 0);
+ return optimize(maxEval, f, goalType, null, startPoint, null, null); } {
+ return new PointValuePair ( maxEval, f, goalType, startPoint, lowerBound ) ;
+ return optimize(maxEval, f, goalType, startPoint, null, null); } {
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair optimize() {
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, -1);
+ return f (maxEval, null, null);
+return optimize(f, GoalType, double[] startPoint, lower, upper);
+ super(f, maxEval);
+ return new PointValuePair ( maxEval, f, goalType, startPoint, upper ) ;
+ return f (goalType, goalType,startPoint, null, null);
+ return PointValuePairUtils.optimize(maxEval, f, goalType, startPoint, null, null);
+ return f ( maxEval, goalType, startPoint, lower, upper ) ;
+return optimize(maxEval, f, GoalType, double[] startPoint);
+ return f (goalType,startPoint, null, null);
+ return new PointValuePair(maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePair ( maxEval, f, goalType, startPoint, upperBound ) ;
+return optimize(int maxEval, maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePair ( f, goalType, startPoint ) ; }
+ return new PointValuePair ( f, goalType, startPoint, maxEval ) ;
+return optimize(maxEval, f, goalType, double[] startPoint, double[] lower);
+ return optimize(maxEval, f, goalType, null, startPoint, null, null);
+ return f ( goalType, startPoint, lower, upper ) ;
+return optimize(f, goalType, [startPoint, lower, upper]);
+return optimize(maxEval, f, goalType, null);
+ super(f, goalType, lower, upper);
+ return f. optimize ( maxEval, null, null, null);
+ return new PointValuePair ( f, goalType, startPoint ) ;
+return optimize(f, goalType, lower, startPoint);
+ return optimize(maxEval, f, goalType, null, startPoint); } else {
+return optimize(maxEval,  F, goalType, startPoint, lower);
+ return f ( maxEval, goalType, startPoint, lower, upper ) ; }
+ return new PointValuePair ( f ( maxEval, goalType, startPoint ) ) ;
+ return f. optimize ( maxEval, goalType, startPoint, lowerBound ) ;
+return optimize(int maxEval, -1, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, startPoint, null); } else
+ return optimize(maxEval, f, goalType, null, null); } else if (lower!= null) {
+return optimize(f, goalType, startPoint, lower, upper, true);
+ return new PointValuePair ( f, goalType, startPoint, lower, upperBound ) ;
+ return f (goalType, null,startPoint, null, null);
+ return new PointValuePair ( maxEval, F, goalType, startPoint, lower ) ;
+return  f. optimize ( maxEval ) ;
+return optimize(maxEval, maxEval, maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePair ( maxEval, F, goalType, startPoint, lowerBound ) ;
+ super(f, goalType, startPoint;
+return optimize(f, goalType, null);
+return optimize(F, goalType, startPoint, lower, upper);
+ return optimize(maxEval, f, goalType, null, null); } else
+return optimize(f, goalType, startPoint, lower, upperBound);
+ super ( f, goalType, startPoint, lower, upper ) ;
+ return new PointValuePair ( f, goalType, startPoint, lower ) ;
+return optimize(maxEval, FUNC f, goalType, startPoint, null);
+return optimize(maxEval, f, goalType, 0);
+return optimize(maxEval, f, goalType, false);
+ return f. optimize ( maxEval, goalType, startPoint ) ; } return null ;
+ super ( f, goalType, startPoint, maxEval )
+ return f. optimize ( maxEval, GoalType, startPoint ) ; }
+ return new PointValuePair(maxEval, goalType, startPoint, null, null);
+return optimize(int maxEval, null, f, goalType, startPoint, null, null);
+ return new PointValuePair ( f, goalType, startPoint, lowerBound, upperBound )
+ super(f, goalType, startPoint,null);
+return optimize(maxEval, FUNC f, 0.5, goalType, startPoint, null, null);
+return optimize(f, goalType, double[] startPoint, double[] upper, lower);
+return  f. optimize ( ) ;
+return optimize(maxEval, f,  GoalType, startPoint, lower, upper);
+ return f. minimize(startPoint, null, null);
+return optimize(maxEval, f, goalType, null, startPoint, null, null);
+ return f. optimize ( maxEval, goalType, startPoint, lower ) ; }
+return  f ( goalType, startPoint )
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval!= null) {
+return optimize(f, goalType, 0);
+ return f. optimize ( maxEval, goalType ) ; }
+ return f (goalType, maxEval,startPoint, null, null);
+ return new PointValuePair ( maxEval, f, goalType, lower, startPoint ) ;
+return optimize(int maxEval, 0, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null,  lowerBound, upperBound);
+ return PointValuePairUtil.optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType);
+ return optimize(maxEval, f, goalType, null, startPoint, null); } {
+return optimize(maxEval, startPoint);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < 0) {
+ return new PointValuePair(startPoint,null, null);
+ return f. optimize ( maxEval, GoalType, startPoint ) ;
+return  f ( startPoint, goalType )
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < startPoint) {
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair f() {
+ return f (maxEval, f, goalType, startPoint);
+ return optimize(maxEval, f, goalType, null, null); } else if (upper!= null) {
+ return optimize(maxEval, f, goalType, startPoint, null, null); } } else {
+ return optimize(maxEval, f, goalType, null, null); } else if (startPoint!= null) {
+return  f. clone ( ) ;
+return optimize(maxEval, f, goalType, start);
+ return optimize(maxEval, f, goalType, startPoint); } else
+return optimize(maxEval, FUNC f, goalType, lower, upper);
+return optimize(maxEval, 0.5, f, goalType, startPoint, null, null);
+ super(f, goalType,null);
+ return optimize(maxEval, f, goalType, null, null); } else if (f!= null) {
+return optimize(f, GoalType, startPoint, lower, upper);
+return optimize(maxEval, F, GoalType, startPoint);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval > f.length) {
+ return new PointValuePair ( ). optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval > 0) {
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return startPoint ;
+return optimize(f, goalType, point);
+ return new PointValuePair ( maxEval, f, goalType, startPoint, lower, upper )
+ return new PointValuePair ( f ( maxEval, goalType, startPoint, ) ) ;
+ return null;
+ return f.evaluate(startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, -1);
+ return f ( goalType, startPoint, lower, upper ) ; }
+return optimize(f, goalType, startPoint, lower, upperBound, upper);
+ return optimize(f, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return maxEval ;
+ if (maxEval > 0) {
+ return PointValuePair.create(maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval >= f.length) {
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < f.length) {
+ super ( f, goalType, startPoint ) ; return startPoint ;
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval == 0) {
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval > startPoint) {
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, null);
+return optimize(maxEval, 0, maxEval, f, goalType, startPoint, null, null);
+return optimize(f, goalType, startPoint, upperBound);
+return  f. minimize ( startPoint ) ;
+return  f ( startPoint, goalType ) ;
+return optimize(maxEval, f, GoalType, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval == -1) {
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < 0.0) {
+ return optimize(maxEval, f, goalType, startPoint);
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair else {
+ return new PointValuePairImpl(maxEval, f, goalType, startPoint, null, null);
+ return f ( goalType, startPoint, lowerBound, upperBound )
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return null ;
+ return new PointValuePair ( f, goalType, startPoint, lower, upper ) ; }
+return optimize(f, goalType, false);
+return optimizeInternal ( f, goalType, startPoint )
+ return optimize(maxEval, f, goalType, null, null, startPoint, null); } else
+ return f.optimize(startPoint, null, null);
+return optimize(maxEval, f, GoalType, null, null, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper) ; } return startPoint ;
+return optimize(maxEval, f, goal);
+return optimize(maxEval, FUNC f, null, null, goalType, startPoint, null, null);
+ return f(maxEval, null);
+ return f. optimize ( maxEval,goalType, startPoint, null, null);
+return optimize(F, goalType, startPoint);
+ return optimize(maxEval, f, goalType); }
+return optimize ( maxEval, f, goalType )
+ return optimize(maxEval, f, goalType, startPoint, null); } {
+ return f ( goalType, startPoint, lower, upper, maxEval )
+ return f. apply ( goalType, null, null);
+return optimize(f, goalType, [startPoint], upper);
+ return f (goalType, startPoint,null);
+ return f (maxEval, f, goalType); }
+return optimize(maxEval, f, goalType, true);
+ return f ( maxEval, goalType, startPoint, lower, upper, false ) ;
+return optimize(maxEval, -1, f, goalType, startPoint, null, null);
+ super(f, goalType, true);
+return  f. apply ( startPoint, goalType )
+ return new PointValuePair(null,null, null);
+ return optimize(maxEval, f, goalType, null, null); } {
+ return f (maxEval, f, goalType, null); }
+ return optimize(maxEval, f, goalType, null, null); } else { if (f!= null) {
+return optimize(f, goalType, [startPoint]) ;
+ return optimize(maxEval, f, goalType, null, startPoint); } else
+ return f. optimize ( maxEval,startPoint, null, null);
+return optimize(f, GoalType, startPoint);
+ super(f, goalType, false);
+ return f (goalType, 0,startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null,  lower, upperBound, upperBound);
+return optimize(f, goalType, true);
+ return optimize(maxEval, f, goalType, startPoint, null);
+return optimize(maxEval, f, goalType, startPoint); }
+return optimize(maxEval, 0.0, f, goalType, startPoint, null, null);
+return  maxEval ;
+ return f(goalType, point);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upperBound, null);
+return  f ( goalType, lower, upper ) ;
+ return optimize(maxEval, f); }
+return optimize(maxEval, f, goalType,  double[] startPoint) ; return startPoint ;
+return optimize(int maxEval, 1, f, goalType, startPoint, null, null);
+ return new PointValuePair(maxEvalf, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair optimize() {
+return optimize(maxEval, f, GoalType goalType, startPoint, null, null);
+ return PointValuePairImpl.optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < 0.0)
+ return optimize(maxEval, f, goalType, startPoint, null, null); };
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval > 0)
+ return f. minimize ( maxEval, null, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upperBound, lowerBound);
+return optimize(F, goalType, startPoint, lower);
+ return f.call(null);
+return optimize(maxEval, f, goalType, double[] startPoint, null, null, null);
+return optimize(maxEval, FUNC f, 0.0, goalType, startPoint, null, null);
+ return f (goalType, startPoint, upper);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ;
+ return PointValuePair. super().optimize(maxEval, f, goalType, startPoint, null, null);
+return  f. apply ( startPoint )
+ return f. optimize ( maxEval, null, startPoint, null, null);
+ return optimize(maxEval, f, goalType, null, startPoint); }
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null, null); }
+ return f (goalType, startPoint, lower);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, 0, 0, null);
+ return f(null, null, null, null);
+ return f (startPoint, lower,null, null);
+ return new Point(null, null, null);
+ return optimize(maxEval, f, goalType, endPoint, null); }
+return optimize(maxEval, FUNC f, maxEval, goalType, startPoint, null, null);
+ return f(startPoint,null);
+ super(f, GoalType, startPoint);
+ return startPoint.length;
+ return f ( maxEval, startPoint, null);
+ return f (maxEval, goalType,null);
+return optimize(maxEval, F, goalType, startPoint); }
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval!= null)
+ super(maxEval, startPoint, null, null);
+ return f. optimize ( maxEval, goalType, startPoint, ) ;
+ return super.optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null), null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, null, null);
+ return optimize(maxEval, f, goalType, null, null); } else if (maxEval < 0)
+ super ( f, goalType, startPoint ) ; return this ;
+return optimize(maxEval, f, goalType, startPoint, null, null, null), null, null, null);
+ super(f, goalType, null, null);
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair do {
+ return optimize(maxEval, goalType, startPoint, null, null);
+ return new PointValuePair(this,maxEval, f, goalType, startPoint, null, null);
+ return optimize(f, null);
+ super(f, goalType) return;
+ return new PointValuePair(0,maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, null, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, lowerBound, startPoint, null, null);
+return optimize(maxEval, f, goalType, [startPoint]) ;
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upper, null, null);
+return optimize ( f, goalType, start )
+ return f(this, null, null);
+return optimize ( f, GoalType, startPoint )
+ return f (maxEval, goalType,null, null);
+return optimize(f, goalType, startPoint, null);
+ return new PointValuePairImpl(null, null);
+ return optimize(maxEval, f, goalType, startPoint); } {
+return optimize(maxEval, 1, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, null, startPoint, null, null);
+ return new PointValuePair ( maxEval, f, goalType, startPoint ) ; } } ;
+return optimize(f, goalType, startPoint, maxIter);
+ return f. optimize ( maxEval, goalType, ) ;
+ return f ( maxEval, null, null, null, null);
+return optimize(maxEval, FUNC f, goalType, null);
+ return optimize(maxEval, f, goalType, null, null); } public PointValuePair() {}
+ return new PointValuePairImpl <>(maxEval, f, goalType, startPoint, null, null);
+ return f. apply ( startPoint, null,null, null);
+ if (maxEval > 0)
+ super(f, goalType); return;
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upperBound, null);
+return  f ( goalType, startPoint, ) ;
+return optimize(f, GoalType, double[] startPoint, -1);
+return optimize(maxEval, FUNC f, goalType, 0.0);
+ return (null, null, null);
+ super(f, goalType, 0);
+ return f (maxEval, f, goalType);
+ return f. optimize ( maxEval, goalType, startPoint ) ; } } ;
+ super(f, goalType, point);
+ return f ( goalType, startPoint, lower, upper, false ) ;
+ f.evaluate(goalType, startPoint, null, null);
+ return PointValuePairFactory.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, double[] lower, double[] upper, null);
+ optimize(goalType, startPoint, null, null);
+return optimize(maxEval, FUNC, FUNC, goalType, startPoint, null, null);
+ return f (maxEval, _goalType, startPoint, null, null);
+return optimize ( f, goalType, 0 )
+return optimize(maxEval, F, goalType) ;
+return optimize ( f, startPoint )
+ return optimize(maxEval, f, null); }
+ super(maxEval, goalType, startPoint, null, null);
+ return f (goalType, this,startPoint, null, null);
+ return f (maxEval, null,startPoint, null, null);
+ return f (maxEval, f,goalType, startPoint, null, null);
+ return super(f, maxEval,goalType, startPoint, null, null);
+return optimize(maxEval, f, null);
+return optimize(maxEval, FUNC f, 1.0, goalType, startPoint, null, null);
+ return f. minimize(goalType, startPoint, null, null);
+ f(goalType, startPoint, null, null);
+return optimize(maxEval, 1.0, f, goalType, startPoint, null, null);
+ return f. optimize ( goalType, null, startPoint, null, null);
+return optimize(f, goalType, startPoint, false);
+ return optimizeInternal(maxEval, f, goalType, startPoint, null, null);
+ return f ( maxEval, 0.0, null, null);
+ return f. optimize(maxEval, f, goalType, startPoint, null, null);
+ super(f, goalType, startPoint||null);
+ return f (goalType), null,startPoint, null, null);
+ return optimize(maxEval, f, goalType, startPoint) }
+return  f. minimize ( startPoint )
+ super(f, maxEval, null);
+return optimize(maxEval, f,  goalType, startPoint) ; return null ;
+ return f. optimize ( goalType, null, null, null);
+ return this.optimize(maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePairImpl(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, 0.0, startPoint, null, null);
+return optimize(maxEval, FUNC f, -1, goalType, startPoint, null, null);
+return optimize(int maxEval, -1, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lowerBound, upperBound, null);
+ return f. optimize ( maxEval, 0, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint) ; } return maxEval ;
+ return f (startPoint, lower,null);
+return optimize(maxEval, f, true);
+ return f ( maxEval, maxEval, startPoint, null, null);
+ return f.optimize(null, null);
+return optimize(maxEval, f, GoalType, double[] lowerBound, startPoint, null, null);
+return optimize ( maxEval )
+return optimize(maxEval, f, goalType, startPoint, lower, upper, 0.0, null);
+ return optimize(maxEval, f, goalType); } else
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null), null);
+ super(f, goalType, null, null, null);
+return optimize(f, goalType, [startPoint], null);
+ if (maxEval!= 0) {
+return optimize(f, goalType, [startPoint], false);
+ return PointValuePairHelper.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, false);
+ return new PointValuePairImpl(this,maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair optimize()
+return  f ( startPoint ) ; }
+ return this.optimize(f, goalType, startPoint, null, null);
+ return f. optimize(maxEval, _goalType, startPoint, null, null);
+return optimize(f, goalType, 0, 0);
+return optimize(maxEval, f, goalType, startPoint, upperBound, null, null);
+ return PointValuePair optimize(maxEval, f, goalType, startPoint, null, null);
+ if (maxEval > 0) { return null; }
+return optimize(maxEval, f, GoalType, 0.5, startPoint, null, null);
+ return f(point);
+return optimize(maxEval, f, false);
+ return f (maxEval, 0,startPoint, null, null);
+ return f. optimize ( maxEval, null, null);
+ return FUNC. optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, double[] startPoint, []), null, null);
+ if (maxEval < 0) { return null; }
+return optimize(maxEval, FUNC f, 0, goalType, startPoint, null, null);
+ return PointValuePair. super.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper) ;
+ if (maxEval!= -1) {
+ return super().optimize(maxEval, f, goalType, startPoint, null, null);
+ super(maxEval, f, goalType;
+return optimize(maxEval, f, goalType, startPoint, null, lowerBound, upper);
+ return f. optimize ( startPoint, null, null, null);
+return optimize(maxEval, f, goalType, null, null, null, null, null, null);
+ return f.apply(startPoint,null);
+ return f.evaluate(goalType, startPoint, null, null);
+ return new PointValuePair(this.maxEval, f, goalType, startPoint, null, null);
+ return f. apply ( goalType, null, null, null);
+ f. optimize(goalType, startPoint, null, null);
+ return f (0, 0, null, null);
+return optimize(maxEval, f, goalType,  double[] startPoint, double[] upper); }
+ if (f!= null) {
+return optimize(maxEval, f, goalType, startPoint) ; } return startPoint ;
+return optimize(maxEval, f, goalType, startPoint) ; } return null ;
+ return f(maxEval);
+return optimize(f, goalType, 0.0);
+ if(maxEval) {
+ return f. optimize ( maxEval, goalType, startPoint ) ; } }
+return optimize(maxEval, f, goalType, [startPoint, lower, upper]) ;
+return optimize(int maxEval, null, maxEval, f, goalType, startPoint, null, null);
+return optimize(f, GoalType, double[] startPoint, 0);
+return optimize(maxEval, f, GoalType, lower, upper, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upperBound, null);
+ return f. optimizeMaxEval(goalType, startPoint, null, null);
+ return f ( startPoint, );
+return optimize(maxEval, f, goalType, startPoint, null,  lower, upper, null, null, null);
+return optimize(maxEval, f, goalType, startPoint) ; return startPoint ;
+return optimize(f, goalType, null, null);
+ return new Point(null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, false);
+ return f (goalType, this.startPoint, null, null);
+return optimize(maxEval, f, goalType); }
+ return f. apply ( null, null, null);
+ return optimize(maxEval, f,f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null); }
+ return f. apply ( startPoint, lower,null);
+ super(f); return this;
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upper, null);
+ return super ( maxEval, f,f, goalType, startPoint, null, null);
+ return new PointValuePair(maxval, f, goalType, startPoint, null, null);
+ return new PointValuePair(startPoint,maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType, startPoint); };
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public double[] getUpperBound()
+return optimize(maxEval, f, goalType, startPoint, lower, upper, false, false, null);
+ return f.apply(this,null);
+return  f. apply ( startPoint, ) ;
+return optimize(f, goalType, startPoint); }
+ return f ( maxEval, null,goalType, startPoint, null, null);
+ return Math. exp ( maxEval, -f, goalType, startPoint, null, null);
+ if (maxEval < 0) return null; else
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upperBound, upper);
+ return f ( goalType, startPoint;
+ return optimize(maxEval, 0.f, goalType, startPoint, null, null);
+ return f ( startPoint, null, null, null);
+ return f. optimize ( goalType, 0, startPoint, null, null);
+ if (maxEval > 0) { return null; } else {
+ if (maxEval > 0) return null;
+ return F.optimize(goalType, startPoint, null, null);
+ return f ( maxEval, -1,goalType, startPoint, null, null);
+ return (int) null, null, null);
+ return f.evaluate(null);
+return optimize(int maxEval, f, f, goalType, startPoint, null, null);
+return optimize(maxEval, f,  goalType, [startPoint, lower]));
+ return f. apply ( startPoint,null, null);
+return optimize(maxEval, f, goalType, startPoint,  double[] lower, double[] upper) ; }
+return optimize(maxEval, null, maxEval, f, goalType, startPoint, null, null);
+ return f (maxEval, 0,null, null);
+return optimize(maxEval, f, goalType, null, startPoint, null, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return null ; }
+return optimize(maxEval, f, GoalType, double[] startPoint, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, 0.0);
+ return f (maxEval, goalType); }
+ return f.apply(this, null,null);
+ return MathUtils.optimize(maxEval, f, goalType, startPoint, null, null);
+ f(this, startPoint, null, null);
+return optimize(maxEval, f, goalType, null, null, startPoint, null, null);
+ return this.optimize(null, null);
+ f.evaluate(startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lowerBound, upperBound, false);
+return optimize(maxEval, f, goalType, startPoint, lower, upper); }
+ return f. minimize(this, startPoint, null, null);
+ return FUNC. optimize (maxEval, goalType, startPoint, null, null);
+ super(f, startPoint,null);
+return optimize(maxEval, f, goalType, startPoint, lower); }
+ if (maxEval < 0) return;
+ return startPoint * f;
+return optimize(maxEval, f, GoalType, -1, startPoint, null, null);
+ if (maxEval > 0) return;
+ return PointValuePair.Math.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, null, null, null, null, null);
+return optimize(maxEval, f, goalType, upperBound, startPoint, null, null);
+ return optimizeInternal(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, lowerBound, upperBound, null);
+ return f ( maxEval, 0.0, null);
+ return f. optimize(maxEval, -startPoint, null, null);
+ if (maxEval < 0) return null;
+ return maxEval * FUNC(f, goalType, startPoint, null, null);
+ super(f, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return new PointValuePair ( {
+return optimize(maxEval, FUNC f, false, goalType, startPoint, null, null);
+return optimize(maxEval, f,  goalType, [startPoint, lower]) ;
+return optimizeInternal ( f, goalType ) ; }
+ return PointValuePair. createOptimize(maxEval, f, goalType, startPoint, null, null);
+ return f. optimize ( maxEval, this, startPoint, null, null);
+ super(f, goalType);
+ return PointValuePair. class + ".optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, [int[] startPoint], null, null, null);
+ return f (maxEval, false,null, null);
+ return super ( f ). optimize(f, goalType, startPoint, null, null);
+ return f ( maxEval, 0.0, startPoint, null, null);
+ if (maxEval > 0) return null; else
+ return new PointValuePair <>() optimize(maxEval, f, goalType, startPoint, null, null);
+ optimize(f, startPoint, null, null);
+return optimizeInternal ( f, goalType, ) ;
+ return f.call(startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, goalType, null);
+ return PointValuePairImpl. super().optimize(maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePair ( "optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, double[0], startPoint, null, null);
+return optimize(maxEval, FUNC, f, null, goalType, startPoint, null, null);
+ return new PointValuePair(optimize(maxEval, f, goalType, startPoint, null, null);
+ return f (startPoint,));
+return optimize(maxEval, f, goalType, startPoint, lower, upper, false, null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, upper, null, null);
+ super(f, goalType, 0, 0);
+ if (maxEval!= 0)
+return optimize(maxEval, FUNC f, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, startPoint); }
+return optimize(maxEval, f, goalType, startPoint, [ ], null, null);
+return optimize(maxEval, f, goalType, startPoint, null, maxEval);
+return optimize(maxEval - 1, maxEval, f, goalType, startPoint, null, null);
+ return f.evaluate(null, null);
+return optimize(maxEval, f, GoalType, double[] []), startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair {
+ super(f, goalType, startPoint);;
+ return new Double(null, null);
+ return optimize(maxEval, -f, goalType, startPoint, null, null);
+return optimize(maxEval, -1, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null), null);
+ return PointValuePairUtilization.optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, FUNC::f, goalType, startPoint, null, null);
+ return Utils.optimize(maxEval, f, goalType, startPoint, null, null);
+ return f. optimize(this, startPoint, null, null);
+ return PointValuePair. create ( "optimize(maxEval, f, goalType, startPoint, null, null);
+return  super(startPoint);
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upper, false, false);
+return  f. apply ( ) ;
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null, false);
+return optimize(maxEval, f, goalType,  double[] startPoint, double[] lower); }
+ return super(maxEval, -f, goalType, startPoint, null, null);
+ return new PointValuePair(, f, goalType, startPoint, null, null);
+ return optimize(maxEval, f, goalType); } {
+return optimize(maxEval, f, goalType, startPoint, null, lowerBound, upperBound2);
+ return (null, null);
+ return optimize(maxEval, FUNC>f, goalType, startPoint, null, null);
+return optimizeInternal ( f, goalType )
+ return f (maxEval, -goalType, startPoint, null, null);
+ return super ( maxEval, 0.f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return new PointValuePair {
+return optimize(maxEval, f, null, startPoint, null, null);
+ return f (goalType, startPoint||null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper, true);
+ return new PointValuePair < Double >(maxEval, f, goalType, startPoint, null, null);
+ return f.evaluate(this,startPoint, null, null);
+ return new PointValuePair(this, f, goalType, startPoint, null, null);
+ return new Pair(null, null);
+return optimize(maxEval + 1, maxEval, f, goalType, startPoint, null, null);
+ return super(maxEval, _f, goalType, startPoint, null, null);
+ return f (maxEval, f, goalType); } else
+ return PointValuePair_F64.optimize(maxEval, f, goalType, startPoint, null, null);
+ return new PointValuePair(null,maxEval, f, goalType, startPoint, null, null);
+ return optimize(maxEval, funC f, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, Double[].class, startPoint, null, null);
+ return optimize(maxEval, _f, goalType, startPoint, null, null);
+return optimize(f, minEval);
+return optimize(maxEval, startPoint, maxEval, f, goalType, startPoint, null, null);
+ super(f, null, null, null);
+ return f.evaluate(this.goalType, startPoint, null, null);
+ return Math. maxEval(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, startPoint);
+ return new PointValuePair(null, f, goalType, startPoint, null, null);
+ return f. optimize(maxEval,!startPoint, null, null);
+ return new Point(startPoint, null, null);
+ return startPoint + f;
+ return f (maxEval, $goalType, startPoint, null, null);
+ return startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null); } return startPoint ;
+ return new PointValuePairImpl(0,maxEval, f, goalType, startPoint, null, null);
+ return f. optimize(this, goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, double[] startPoint); }
+return optimize(maxEval + 1, f, goalType, startPoint, null, null);
+return  this. clone ( ) ;
+ return optimize(maxEval, f); } else
+ return f ( goalType, startPoint, lower, upper ) ; } }
+ super(f, goalType, );
+return optimize(maxEval, F, startPoint);
+return optimize(int maxEval, startPoint, maxEval, f, goalType, startPoint, null, null);
+ return f.optimize(null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, upperBound) ; }
+return optimize(maxEval, f, goalType, startPoint, null, null, lowerBound, upperBound2);
+return optimize(maxEval, f, goalType, startPoint, null, 0.0);
+ return super ( f ). optimize ( maxVal, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, false) ;
+ super(optimize(f);
+ return FactoryUtils.optimize(maxEval, f, goalType, startPoint, null, null);
+ return optimize(max,f, goalType, startPoint, null, null);
+return optimize ( f, goalType ) ; return null ;
+ return maxEval * optimize(f, goalType, startPoint, null, null);
+ super(f, maxEval, true);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return - 1 ;
+return optimize(maxEval, f, goalType, startPoint, null, null, -1);
+ return f.evaluate(null,goalType, startPoint, null, null);
+ super(startPoint,null);
+ return PointValuePair. createInstance(maxEval, f, goalType, startPoint, null, null);
+ return new Point(f, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, upperBound, null);
+ return PointValuePair. fromFunction(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upperBound, false, null);
+ return f. optimize(maxEval, nonnull, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upperBound, upperBound) ; }
+ return maxEval + optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, 0, 0, null, null);
+return  f ( ) ;
+return optimize(int maxEval, 1, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper, upperBound.clone()); }
+ return BaseAbstractMultivariateMath.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair optimize() {}
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair optimize();
+ super. optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, upperBound, lower, upper, null);
+ super(f, maxEval, false);
+ return maxEval(f, goalType, startPoint, null, null);
+ return super(startPoint,null);
+ return new PointValuePair(maxval, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return maxEval ;
+ return f(this, startPoint, null, null);
+ return (int) 0, null, null);
+return optimize(maxEval, f, 0);
+ return optimize(maxEval, 1.f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, -1, null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, true);
+ super. optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upperBound, upper);
+return optimize(f, maxEval, f);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ; }
+return optimize(maxEval, f, goalType, startPoint, null, null, false) ;
+return optimize() ;
+ return super ( maxEval, f, goalType, startPoint, null, null);
+return optimize ( minEval ) ;
+ return optimizeImpl(maxEval, f, goalType, startPoint, null, null);
+ return PointValuePair. createInstance ( "optimize(maxEval, f, goalType, startPoint, null, null);
+ return PointValuePair. ofFloat(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, 0.0, maxEval, f, goalType, startPoint, null, null);
+return optimize(0, maxEval, 0, maxEval, f, goalType, startPoint, null, null);
+ return f.evaluate(null,startPoint, null, null);
+ return new PointValuePair(f).evaluate(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upperBound, lowerBound); }
+return optimize(maxEval, f, goalType, startPoint, null, lower, upperBound, false);
+ return f. optimize(maxEval, _startPoint, null, null);
+ return this. optimize ( startPoint,maxEval, f, goalType, startPoint, null, null);
+ optimize(f, f, goalType, startPoint, null, null);
+return optimize(f, maxEval, false);
+ return 0.0;
+ return this.valuePair;
+ return this.optimize(null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return new PointValuePair ( )
+ return this. optimizeImpl(maxEval, f, goalType, startPoint, null, null);
+ return f.evaluate(point);
+ super(maxEval); }
+ return optimize(Func, f, goalType, startPoint, null, null);
+ return new PointValuePairImpl(this.maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, FUNC f, goalType); }
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public int maxEval() {
+return optimize(maxEval, f, goalType, startPoint, []), null, null);
+ return f. optimize(maxVal,goalType, startPoint, null, null);
+return  this. startPoint ;
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, false);
+return optimize(maxEval, f, goalType, 0, startPoint, null, null);
+ return f.optimizePoint(goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upper, false);
+return optimize(maxEval, f, goalType, startPoint, null, null, null), null, null, null); }
+ return PointValuePair. createFromFunction(maxEval, f, goalType, startPoint, null, null);
+ return optimize(this, f, goalType, startPoint, null, null);
+ return PointValuePair. createOptimal(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, 1, maxEval, f, goalType, startPoint, null, null);
+ return PointValuePair create(maxEval, f, goalType, startPoint, null, null);
+ f(null, startPoint, null, null);
+ return BaseAbstractMultivariate.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null,  null, null, null, null), null;
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null); }
+ return new PointValuePair <>().evaluate(maxEval, f, goalType, startPoint, null, null);
+ return this. optimize(max,f, goalType, startPoint, null, null);
+ return FUNC. minimize(f, goalType, startPoint, null, null);
+ return new PointValueP(null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return new PointValuePair
+ return PointValuePair. super ( )#optimize(maxEval, f, goalType, startPoint, null, null);
+ return new Point(f, goalType, startPoint, null, null);
+ super(maxEval, f, goalType, startPoint, null, null);
+return optimize(F, goalType);
+ return f.optimize(this);
+ return f(startPoint, lower);
+ return optimize(int)maxEval, f, goalType, startPoint, null, null);
+ return optimize(0, f, goalType, startPoint, null, null);
+ return f(this, point);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null, null); };
+return optimize(maxEval, f, GoalType, []), startPoint, null, null);
+ return f.evaluate(this.startPoint, null, null);
+ return super.optimizeImpl(f, goalType, startPoint, null, null);
+ return Util.optimize(maxEval, f, goalType, startPoint, null, null);
+ return this;
+ return optimize(maxEval, f); } {
+ return f.complete(null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public PointValuePair()
+return optimize(maxEval, F, goalType); }
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upperBound, false);
+return optimize(maxEval, f, goalType, startPoint, null, null, false, false, false);
+return optimize(maxEval, f, goalType, startPoint, upper, lower);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null, false); }
+return optimize(maxEval, f, goalType, startPoint, null,  lower, upperBound, upperBound); }
+return optimize(maxEval, f, goalType, startPoint, lower, upper, 0, null);
+return optimize(maxEval, f, goalType, startPoint, null,  false);
+ return this. optimizeInternal(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, upperBound, lowerBound, null);
+return  f ( startPoint, null )
+return optimize(maxEval, f, goalType, startPoint, null); return null;
+return optimize(maxEval, f, goalType, startPoint, null, -1);
+return optimize(maxEval), f, goalType);
+return optimize(f, true);
+ return new Double(null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, upperBound, null);
+return optimize(F, goalType, startPoint); }
+ f.call(startPoint, null, null);
+ return new PointValuePair(_, f, goalType, startPoint, null, null);
+return optimize(maxEval, func, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return new PointValue ( {
+ return startPoint(null);
+ super(f,startPoint, null, null);
+return optimize(startPoint, f);
+ return optimize(maxEvalf, goalType, startPoint, null, null);
+ return maxEval(f, f, goalType, startPoint, null, null);
+ return startPoint, null);
+ return optimizeInternal(f, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public double[] get() {
+(f, goalType, startPoint, null, null);
+return optimize(maxEval, FUNC, f, 0, goalType, startPoint, null, null);
+ return startPoint.values;
+return optimize(maxEval, FUNC f, 0., goalType, startPoint, null, null);
+ return this. optimize (0,maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval f);
+return optimize(maxEval, FunC, f, goalType, startPoint, null, null);
+ super(f,goalType, startPoint, null, null);
+ super(maxEval) ;
+return optimize(maxEval, f, goalType), startPoint;
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public double[] getEnd() {
+return optimize(maxEval, f, goalType, startPoint, lower, upperBound.clone()); }
+ f(null, null);
+return optimize(maxEval, f, goalType, startPoint, 0, null, null);
+return optimize(f, false);
+return optimize(maxEval, f, goalType, startPoint, null, null, -1, null);
+ return (int)0, null);
+ return PointValuePair. create ( ).optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint); };
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, null, null); }
+ return optimize(func, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, false, true);
+return optimize(this, goalType);
+return optimize(maxEval, f, goalType, startPoint, null, null, lower, upper, null); }
+return optimize(maxEval, f, goalType, startPoint, null, -1, null);
+ return optimize(int,f, goalType, startPoint, null, null);
+return optimize(f, 0, 0);
+ return super.optimizeImpl(maxEval, f, goalType, startPoint, null, null);
+ return maxEvalimize(f, goalType, startPoint, null, null);
+ return minimize(f, startPoint, null, null);
+ return f(null, startPoint, null, null);
+ f.go(goalType, startPoint, null, null);
+return optimize(maxEval, f, GoalType, 0, startPoint, null, null);
+ return (int) null, null);
+ return super().optimizeImpl(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lowerBound, upper);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, false); }
+ return MathUtil.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType), startPoint);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, null); }
+return optimize(this, f);
+return optimize(maxEval, f, GoalType null, startPoint, null, null);
+ return (, f, goalType, startPoint, null, null);
+ return optimizeInternal(f, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, [startPoint]));
+ return optimizeInternal(startPoint, null, null);
+ return score(f, null);
+ return f.getValue(startPoint, null, null);
+return optimize(maxEval, FUNC, f, false, goalType, startPoint, null, null);
+ return f.getValue(goalType, startPoint, null, null);
+return optimize(maxEval,  function, startPoint);
+ return optimize(maxEval); } else
+ return super.optimize(f, f, goalType, startPoint, null, null);
+ return f.optimise(goalType, startPoint, null, null);
+ f.call(goalType, startPoint, null, null);
+ return optimize(null, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null), null;
+ return f.func(startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  double[] lower, double[] upper) ;...
+ return optimize(startPoint, null, null);
+ return optimize(0,maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null) ;
+return optimize(maxEval, f, goalType, 0.0, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return - 1 ;
+ return super. optimize(int, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) - maxEval ;
+return optimizeInternal ( f ) ;
+ return optimizeImpl(f, goalType, startPoint, null, null);
+ return super(f);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; return this ;
+ return f.getPoint(goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper, false); }
+ return (f, startPoint, null, null);
+ return optimize(null);
+return optimize(maxEval, f, goalType, startPoint, null, null, 0, -1);
+ return f.call(goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper, false); }
+return optimize(maxEval, f, goalType, startPoint, null, null, null, null, null); };
+return optimize(f, 0);
+return optimize(goalType, f);
+return optimize(f, f);
+ return f(this);
+return optimize(maxEval, func f, goalType, startPoint, null, null);
+ return optimizeMax(max, f, goalType, startPoint, null, null);
+ return this.value;
+return  this + f ;
+ return minimize(f, null);
+ return optimize(maxVal,f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  maxEval);
+return optimize(maxEval, f, goalType, startPoint, false, null, null);
+ return doFunction(f, goalType, startPoint, null, null);
+ return minimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, 0, 0, null, null);
+ return f;
+return optimize(int minEval, maxEval, f, goalType, startPoint, null, null);
+ return this. super.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint());
+return optimize(maxEval, f, goalType, startPoint, lowerBound());
+ return new Point(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } public void close() {
+return  this. p ;
+return optimize(maxEval, funC, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null); }
+return optimize(maxEval, f, goalType);...
+ return f(this, null);
+ return optimize(f, null, null);
+return optimize(maxEval, f, goalType, startPoint,  upperBound, lower);
+return optimize(maxEval, f, GoalType) ;
+ super(maxEval); } }
+ f(f, goalType, startPoint, null, null);
+ super(). optimize(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, null);
+return optimize(maxval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null), null);
+ super(f=null);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upper); }
+ super(maxEval); } else
+ return PointValueMath.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper, true); }
+return optimize(maxEval, FunC f, goalType, startPoint, null, null);
+return optimize(f, point);
+return optimize(maxEval, f, goalType, startPoint, null, lower, upperBound, upperBound));
+return optimize(maxEval, f, null, null, startPoint, null, null);
+return optimize(minEval, maxEval, f, goalType, startPoint, null, null);
+ optimize(startPoint, null, null);
+ return optimizeMax(f, f, goalType, startPoint, null, null);
+ return UtilMath.optimize(maxEval, f, goalType, startPoint, null, null);
+ return score(f, startPoint, null, null);
+ super(min, max);
+ optimize(this, f, goalType, startPoint, null, null);
+return optimize(maxEval, FUNC) f, goalType, startPoint, null, null);
+ return doSim(maxEval, f, goalType, startPoint, null, null);
+ if (f!= null)
+ super(checker); }
+ return optimize(int+maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ; } ;
+ return new Point(this, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, false, false);
+return optimize(Eval, f, goalType, startPoint, null, null);
+ return this, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, -1, 0);
+return optimize(maxEval, f, goalType, startPoint, null, -1, false);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ; } }
+ return PointValuePair::optimize(maxEval, f, goalType, startPoint, null, null);
+ super(checker);
+return optimize(maxEval, f, goalType, startPoint, null,  true);
+return optimize(maxEval, f, goalType, 0.5, null, null);
+ return MathMath.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, upper) ; } public
+return optimize(maxEval, f, goalType, startPoint, lowerBound, upperBound());
+ return PointValuePair_optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType(), startPoint, null, null);
+return optimize(maxEval, func, goalType, startPoint, null, null);
+ super(optimize());
+return optimize(maxEval, f, goalType, startPoint, null, null) - 1 ;
+ return null);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, false); }
+return optimize(maxEval, f, goalType, startPoint, null, null, true);
+return optimize(f, goalType());
+ return Math3.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) + 1;
+ super();
+ return minimize(null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ; default :
+ return f(point, null, null);
+return optimize(maxEval, fun, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; }
+ return f(0, null, null);
+ return (f, goalType, startPoint, null, null);
+return optimize(1.0, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, lowerBound, null, null);
+ return null, f, goalType, startPoint, null, null);
+ score(f, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, false, false);
+ return _core.optimize(maxEval, f, goalType, startPoint, null, null);
+ return null, startPoint, null, null);
+return optimize(0, -1, maxEval, f, goalType, startPoint, null, null);
+ return (f, f, goalType, startPoint, null, null);
+ super(). optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(f, goalType,...);
+return optimize(maxEval), goalType);
+return optimize(maxEval, f, goalType, startPoint, null, null, null, true);
+return optimize(maxEval, f, goalType,, startPoint, null, null);
+return optimize(0, 0, maxEval, f, goalType, startPoint, null, null);
+ optimize(0, f, goalType, startPoint, null, null);
+return optimize(0.0, maxEval, f, goalType, startPoint, null, null);
+ super(f, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) + startPoint ;
+return optimize(maxIter, f, goalType, startPoint, null, null);
+ return score(f, goalType, startPoint, null, null);
+ return minimize(goalType, startPoint, null, null);
+ return getResult(null, null);
+ return super(null);
+return optimize(maxEval, f, goalType, startPoint, null, null, false, false); }
+return optimize(maxEval, f, goalType, startPoint, [null], null, null);
+return optimize(maxEval0, maxEval, f, goalType, startPoint, null, null);
+return optimize(eval, f, goalType, startPoint, null, null);
+return optimize(maxEval); }
+return optimize(f, goalType);...
+ score(f, goalType, startPoint, null, null);
+ return score(null, null);
+ return score(goalType, startPoint, null, null);
+ if (compact) {
+return optimize(maxEval, f, goalType, startPoint, true, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } return null ; {
+return optimize(maxEval, f, goalType, startPoint, null, null) ; } } ;
+return optimize(maxEval, f, goalType, startPoint, null) ; }
+ return createPoint(null, null);
+return optimize(maxEval, f, goalType, startPoint, null, lowerBound, upperBound());
+return optimize(maxEval0, f, goalType, startPoint, null, null);
+ super(f, true);
+ super(startPoint, null, null);
+ return converge(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  lower, upper); ;
+return optimize ( )
+return optimize(maxEval, f, goalType, startPoint, 0, 0, null);
+ return reduce(null, null);
+return optimize(maxEval), f);
+return optimize(maxEval(), f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, upper, lower, null);
+return optimize(startPoint, maxEval, f, goalType, startPoint, null, null);
+ return converge(goalType, startPoint, null, null);
+ return this);
+return optimize(maxEval, f, goalType, startPoint, null, null, null), null;
+ return inner.optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(int maxFunc, maxEval, f, goalType, startPoint, null, null);
+ return f(f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null,  null, false); }
+ f(point);
+return optimize(maxEval, f, goalType, startPoint) {}
+return optimize(maxEval, f, goalType, startPoint,  false);
+return optimize(maxEval, f, goalType, startPoint,  upperBound); }
+ return minimize(null);
+return optimize(maxEval, f, goalType, startPoint, 0.0, null);
+ f(this, null, null);
+ super(f); }
+return optimize(maxEval, f, goalType, startPoint, null, null) + 0;
+ return minimize(maxEval, f, goalType, startPoint, null, null);
+ return (null);
+return optimize(maxEval1, f, goalType, startPoint, null, null);
+ return p(null);
+ f(this);
+ return null; }
+ return score(startPoint, null, null);
+ super(checker) {
+return optimize(maxEval, f, goalType, startPoint, null,  0);
+ return minimize(startPoint, null, null);
+return  startPoint();
+return optimize(maxEval, f, goalType) {}
+return optimize(maxEval), f;
+return optimize(maxEval, f, goalType, startPoint, null, maxEval());
+ return -1;
+ return converge(startPoint, null, null);
+ score(goalType, startPoint, null, null);
+return optimize(maxEval, f), startPoint);
+return optimize(maxEval,  function) ;
+return optimize(startPoint); }
+return optimize(maxEval, f, goalType());
+return optimize(maxEval, Func, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint,  true);
+return optimize(maxEval, f), startPoint;
+ return p;
+ return (, startPoint, null, null);
+ return solve(f, goalType, startPoint, null, null);
+return optimize(maxEval), goalType;
+ return optimize, f, goalType, startPoint, null, null);
+ return null; } {
+ return (f);
+return optimize(maxEval, f, goalType, startPoint, null,  false); }
+ return f, f, goalType, startPoint, null, null);
+ optimize(null, null);
+ return 0, startPoint, null, null);
+ return true;
+return optimize(maxEval(), f);
+return optimize(maxEval, f, goalType, startPoint, null, null, true); }
+ return evaluate(f, goalType, startPoint, null, null);
+return optimize(maxEval, goalType());
+return optimize(endPoint);
+(f, startPoint, null, null);
+ converge(goalType, startPoint, null, null);
+ return 0, null, null);
+return optimize(maxEval, f, goalType, startPoint, []), null);
+ super(_);
+ minimize(f, goalType, startPoint, null, null);
+return optimize(startPoint());
+ super(f;
+return optimize(maxEval, f, goalType, startPoint, null, []));
+ super(this); }
+return optimize(StartPoint, maxEval, f, goalType, startPoint, null, null);
+ return endPoint;
+return optimize(maxEval, f); }
+return optimize(this, maxEval, f, goalType, startPoint, null, null);
+ minimize(goalType, startPoint, null, null);
+ f(null);
+return optimize(MaxEval, f, goalType, startPoint, null, null);
+ score(startPoint, null, null);
+ return solve(maxEval, f, goalType, startPoint, null, null);
+ super(*);
+return optimize(maxEval, f, goalType, startPoint, null,  true); }
+ return "optimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, []));
+ return (, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, - 1, null);
+ return converge(maxEval, f, goalType, startPoint, null, null);
+ return 0, null);
+ return evaluate(maxEval, f, goalType, startPoint, null, null);
+(null, null);
+ converge(f, goalType, startPoint, null, null);
+ return (, null);
+return optimize(maxEval, f, goalType, startPoint, null, null), null;
+return optimize(maxEval, f, goalType, startPoint, lower));
+return optimize(maxEval, funcs, goalType, startPoint, null, null);
+return optimize(int 0, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, funC, goalType, startPoint, null, null);
+ return(startPoint, null, null);
+ return null; };
+ minimize(maxEval, f, goalType, startPoint, null, null);
+return optimize(components, maxEval, f, goalType, startPoint, null, null);
+ return defaultValue;
+return  doFit(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, 0d);
+return optimize(f, maxEval, f, goalType, startPoint, null, null);
+ return {}; }
+return optimize(maxEval, f, goalType, startPoint, null, null, 0D);
+return optimize(cbc, maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null); } }
+(null, null, null);
+return optimize(); }
+return optimize ( ;
+return optimize(maxEval, f, goalType,  startPoint)
+return optimize(maxEval, f, goalType, startPoint, null, 0d);
+return optimize(maxEval, f, goalType,  startPoint));
+return optimize(maxEval, f, goalType, startPoint, null,  1);
+return optimize(maxEval, f, goalType, startPoint, null, 0D);
+return optimize(maxEval, f, goal, startPoint, null, null);
+ return (, null, null);
+return optimize(maxEval, f, goalType, startPoint, lower, null);
+return optimize(maxEval, f, 0, startPoint, null, null);
+return optimize(fp);
+ } else {
+return optimize(null, maxEval, f, goalType, startPoint, null, null);
+return optimize(0.0, f, goalType, startPoint, null, null);
+ converge(maxEval, f, goalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, false, null);
+return optimize(maxEval), f
+return optimize(maxEval, f, goalType, startPoint, 0, null);
+return optimize(maxEval, f
+ return (!null);
+return optimize(maxEval, f, false, startPoint, null, null);
+return optimize(int, maxEval, f, goalType, startPoint, null, null);
+return optimize(0, 0, f, goalType, startPoint, null, null);
+ initialize(maxEval, f, goalType, startPoint, null, null);
+ score(maxEval, f, goalType, startPoint, null, null);
+return optimize(func);
+return optimize(f());
+return optimize(maxEval, f, goalType,  startPoint});
+return optimize(maxEval,);
+return optimize(F);
+return optimize(maxEval, f, true, startPoint, null, null);
+return optimize(maxEval, f, goalType, 0, null, null);
+return optimize(maxEval,  func);
+return optimize(maxEval, f, goalType)) ;
+return optimize(maxEval, f, goalType, startPoint, null, null) ;...
+return optimize(maxEval, f, goalType, startPoint, null); };
+return optimize(goalType);
+return optimize(maxEval, f, goalType, startPoint, null, null); ;
+return optimize(maxEval,  F);
+return optimize(maxEval, f);...
+return optimize(maxEval, f)) ;
+return optimize(maxEval, f, goalType, startPoint, null, null, 0);
+return optimize(StartPoint);
+return optimize(maxEval, f, goalType, false, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null); };
+return optimize(maxEval, f, goalType, startPoint, null, null) return ;
+return optimize(maxEval, f, goalType, startPoint, upper, null);
+ } { }
+return optimize(maxEval, f, GoalType, startPoint, null, null);
+return optimize(maxEval, f, goalType, startPoint, null). }
+return optimize(maxEval, f, goalType, true, null, null);
+return optimize(maxEval, f,);
+return optimize(maxEval, f, goalType, startPoint, null, null) return();
+return optimize(maxEval, f, goalType, startingPoint, null, null);
+ } else,
+return optimize(maxEval, f, goalType, startPoints, null, null);
+return optimize(maxEval, f, goalType, endPoint, null, null);
+return optimize(maxEval, f, goalType, startpoint, null, null);
+return optimize(maxEval, f, goalType, 1, null, null);
+return optimize(maxEval, f, goalType, startPoint, null, null, 1);
+return optimize(maxEval, f, targetType, startPoint, null, null);
+return optimize(maxEval, f, goalsType, startPoint, null, null);
+return optimize(function);
+return optimize(maxEval, fs, goalType, startPoint, null, null);
+return optimize(maxEval, g, goalType, startPoint, null, null);
+return optimize(maxEval, fn, goalType, startPoint, null, null);
+return optimize(maxEval, F, goalType, startPoint, null, null);

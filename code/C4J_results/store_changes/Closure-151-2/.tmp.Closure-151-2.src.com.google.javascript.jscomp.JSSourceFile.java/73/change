@@ -1,0 +1,138 @@
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) )
+ return new JSSourceFile ( referenced. getName ( ), referenced ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), referenced ) ;
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. getCode ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getVersion ( ), referenced. getCode ( ) ) ;
+ this.clearCachedSource(); this.getCodeNoCache();
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ), referenced. getCode ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } }
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. getType ( ) ) ;
+ this.generator = generator;
+ return referenced.getName();
+ return referenced ;
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. getDescription ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ), referenced ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getLocation ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } return referenced ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getLocation ( ) ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getLocation ( ), referenced ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getSource ( ) ) ;
+ this.cachedSource = referenced.getCachedSource(); return referenced ; }
+ return new SourceFile ( referenced ) ;
+ this.cachedSource = referenced.getSource();
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ) ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ) ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), referenced ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ), referenced ) ; }
+ this.cachedSource = referenced.getCachedSource(); return referenced ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getSource ( ) ) ; }
+ return this ; } public static JSSourceFile(SourceFile referenced) { super(referenced.getName()); return referenced ; }
+ this.cachedSource = cachedSource;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getLocation ( ), referenced ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getLocation ( ) )
+ return this ; } public static JSSourceFile(SourceFile referenced) { super(referenced.getName()); this = referenced ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ) )
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. code ) ;
+ this.clearCachedSource(); this.getCodeNoCache(); }
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. getCode ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ), referenced. getCode ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getSource ( ) )
+ return referenced ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), referenced. getType ) ;
+ this.generated = generated;
+ return this ; } public static JSSourceFile fromCode(String fileName, String code) { return new SourceFile ( code )
+ return new JSSourceFile ( referenced. getName ( ), referenced. getType ( ), referenced. code ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } } ;
+ this.generated = generator;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } return referenced ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. read ( ) )
+ this.cachedSource = referenced.getCachedSource(); return referenced ; } }
+ this.cachedSource = cachedSource ; this. clearCachedSource = clearSource ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. sourceFile ) ;
+ return new JSSourceFile ( referenced. getName ( ), referenced. source ) ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ;
+ return new JSSourceFile(SourceFile.fromSource(fileName, referenced); });
+ this.cachedSource = referenced.getCachedSource(); return referenced.source;
+ this.cachedSource = referenced.getCachedSource(fileName);
+ return new JSSourceFile(SourceFile.fromSource(fileName, referenced)); }
+ this.clearCachedSource(); return referenced. getSource ( ) ;
+ this.cachedSource = referenced.getCachedSource(); return this ;
+ this.cachedSource = referenced.getCacheSource();
+ this.cachedSource = referenced.getCachedSource(); return referenced. getName();
+ this.cachedSource = referenced.getCachedSource(); return referenced. getSourceFile();
+ this.cachedSource = referenced.getCode();
+ return new JSSourceFile ( referenced. getPath ( ), referenced. getName ( ), referenced. getCode()); }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), referenced. flags )
+ this.clearCachedSource ( ) ; return referenced ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } } ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ) ) ; } } } ;
+ this.clearCachedSource(); return referenced. getSourceFile ( ) ;
+ this.clearCachedSource(); return referenced.getName();
+ return this. fromSource ( referenced ) ; }
+ this.cachedSource = references.getSource();
+ this.cachedSource = referenced.getCachedSource; return referenced ; }
+ return new JSSourceFile ( referenced. getName ( ), referenced. getCode ( ), {
+ this.clearCachedSource(); return referenced. getName(); }
+ this.cachedSource = referenced.cache();
+ this.cachedSource = null ; this. clearCachedSource ( ) ; } }
+ this.cachedSource = null;
+ this.isCachedSource = true; return referenced ; }
+ this.clearCachedSource(); this.setCodeNoCache(); }
+ this.cachedSource = referenced.cacheSource();
+ this.cachedSource = referenced.cacheSource;
+ this.clearCachedSource(); return referenced. getSource(); }
+ this.cachedSource = referenced.cache;
+ this.cachedSource = referenced.getCachedSource(); return referenced ; };
+ return this.referenced
+ this.clearCachedSource(); return referenced. getName()); }
+ this.cachedSource = referenced.source;
+ this.cachedSource = cachedSource ; }
+ this.cachedSource = cachedSource();
+ return this;
+ return this.reference;
+ this.isCached = isCache ;
+ return referenced.getName(); }
+ this.clearCachedSource(); this.getCode(); }
+ this.cachedSource = referenced ;
+ this.isCachedSource = true;
+ this.cachedSource = referenced.getSource(); }
+ return this.source;
+ this.cachedSource = referenced.getCode(); }
+ this.generated = generator ; }
+ this.generated = generated ; }
+ return referenced.source;
+ return referenced ; } }
+ return this ; }
+ return referenced ; }
+ return referenced ; } {
+ return reference ; }
+ return this ; } {
+ return reference ;
+ return referenced ; };
+ return referenced ; } }
+ return this ; }
+ return referenced ; {
+ return this ; } }
+ return referenced
+ this;
+ return this ; {
+ } } {
+ this.
+ return this
+ }
+ return referenced {
+ return this {
+ } static {
+ return this }
+ }
+ } }
+ } {
+ return
+...
+ }; {
+ {

@@ -1,0 +1,279 @@
+return  false ;
+return  false ; }
+ else { return false ; }
+return ! isSafeAssign ( n ) ;
+return ! isSafeAssign ( n ) ; }
+return  isSafeAssign ( n ) ; }
+return ! seenSideEffects ;
+return  isSafeAssign ( n ) ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } else {
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects);
+return  n. getFirstChild ( )!= null ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); }
+return  isSafeAssign ( n, true ) ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isExpressionTreeSafe();
+return  isSafeAssign ( n ) ; } }
+return ! seenSideEffects ; }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isSafeAssign();
+ else { return false ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } else {
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isSafe(n); }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects
+return  n. getFirstChild ( ) ; }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) ||!isSafeAssign();
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isExpressionTreeSafe;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) ||!isSafeAssign;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isSafeAssign;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } }
+ else { return false ; } }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isSafe(n);
+ else { return!isExpressionTreeUnsafe(n.getNextChild(), seenSideEffects); } } else {
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } else {
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) ||!isSafe(n); }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects) &&!isSafeAssign(); }
+return  n. isCall ( ) ;
+return  n. getLastChild ( ) ; }
+return  isSafeAssign(n, seenSideEffects
+return !! seenSideEffects ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } }
+ else { return!isExpressionTreeUnsafe(n, this.knownConstants); }
+ else { return true ; }
+ else { return!isExpressionTreeUnsafe(n.getLastChild(), seenSideEffects); }
+return  n. isCall ( ) ; }
+return !! seenSideEffects ; }
+ else { return n. getType ( ) == Token.ASSIGN;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } else
+return  seenSideEffects ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSide });
+return ! isSafeAssign ; }
+ else { return!isExpressionTreeUnsafe(n, followingSideEffectsExist); }
+ else { return false ; } return true;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } } }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } else
+ else { return!isExpressionTreeUnsafe(n, this.knownConstants); } }
+return  n. isName ( ) ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } return false ; } }
+ else { return!isExpressionTreeUnsafe(n.getLastChild(), seenSideEffects); } }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } return false ; } else
+return  false ; } }
+return ! isSafeAssign ( n )
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects)
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } else
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } } else
+ else { return!isExpressionTreeUnsafe(n, seenSideEffects); } } else {
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } else { } }
+ else {
+ else { return false ; } return false;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } } ;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } else { }
+ else if (n.getType() == Token.DELETE)
+ else { return true ; } return false;
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } } } } }
+ else { return n. getType ( ) == Token.FUNCTION;
+ else { return!isExpressionTreeUnsafe(n.getLastChild(), seenSideEffects); } } }
+ else { return!isExpressionTreeUnsafe(n.getFirstChild(), seenSideEffects); } } else { } else
+ else if ( n instanceof Call ) { return true ; } else if ( ignore ) {
+ else { return!isExpressionTreeUnsafe(n, this.knownConstants); } } }
+ else { return!isExpressionTreeUnsafe(n, followingSideEffectsExist); } } }
+return  seenSideEffects ; }
+ else { return false ; } } return true;
+ else if ( n instanceof Call ) { return true ; } else if ( n ) {
+ else { return!isExpressionTreeUnsafe(n.getLastChild(), seenSideEffects); } } else
+ else { return!isExpressionTreeUnsafe(n, this.knownConstants); } } } }
+ else { return n. getType ( ) == Token.NAME;
+ else { return n. getType ( ) == Token.ACCESS;
+ else { if (n.getType() == Token.NAME)
+ else { if (n.getType() == Token.USE)
+return false ; } return true ; }
+ else { return n. getType ( ) == Token.IGNORE;
+ else { return n. getType ( ) == Token.USE;
+ else { return!isSafeAssign(n;
+ else { return true ; } }
+ else { return n. getType ( ) == Token.NEW;
+return false ; return n. isCall ( ) ;
+ return n. getNextChild ( )!= null;
+ else { return false ; } } return false;
+return false ; return n. isCall ( ) ; }
+ else { return true ; } } return false;
+ else { return true ;
+ else { return n. getType ( ) == Token.ASSIGN ; }
+ else { return n. getFirstChild!= null;
+return false ; return n. isName ( ) ; }
+ return n. getNextChild ( )!= n;
+ return n. getNextChild ( ) == n;
+ } else { return false;
+ else { if (n.getType() == Token....)
+ } else { return false ; } return true;
+return  isSafeAssign ; }
+return false ; } return false ; }
+ else { return n. getType ( ) == Token.ASSIGN ; } }
+return false ; } } ; return true ; } ;
+ else { return n. getType ( ) == Token.IGNORE ; }
+ return true ; }
+return false ; } } ; return true ; }
+ else { return n. getType ( ) == Token.ASSIGNMENT ; }
+ else if (n.getType() == Token....)
+ else { if (n.getType() == "call")
+ else { if (n.getType() == Token.)
+return false ; } return false ; } }
+ else { if (n.getType() == Node....)
+return false ; } return true ; } }
+ } else { return true ; } return false;
+return  false ; } } ;
+return false ; } return false ; } return true ; }
+ else if ( n instanceof Call ) { return true ; } else { return false ; }
+ else if ( n instanceof Call ) { return true ; } else { return false ;
+ else { return false ; } return n;
+ else { return n. getType ( ) == Token.IGNORE ; } }
+return false ; } return false ; } } ;
+ else if (n.getType() == Node....)
+return false ; return true ; }
+ else { return n. getType ( ) == Token.ASSIGN ; } } else
+ } else { return true;
+return  false ; return true ;
+return false ; } return false ; } ;
+ else { return n. getType ( ) == Token.ASSIGN ; } } }
+ else { if (n.getType() == Token.NAME
+return false ; } return false ; } return true ;
+return false ; } return true ; } ;
+ else { return n. getType ( ) == Token.UNKNOWN ; } }
+return false ; } return true ; } } ;
+ else { return true ; } return true;
+ else if (n.getType()!= Token....)
+ else { return n. getType ( ) == Token.ASSIGNMENT ; } }
+ else if (n.getType() == "call")
+return false ; } return false ; } } ; }
+ else { } return false;
+ else if (n.getType() == Token.)
+return  false ; } } ; }
+return false ; } return true ; } } ; }
+ else { return n. getType ( ) == Token.ASSIGN ; } } } else
+ else { return n. getType ( ) == Token.ASSIGN ; } } } }
+ else { n = n. next ; } returnfalse;
+ else if (n instanceof CallNode) {
+return false ; } } ; } } ; }
+return  false ; } } } ;
+return false ; } return false ; } ; }
+return  false ; } } }
+return false ; return false ; } }
+return false ; } } ; } } ;
+return  true ; } }
+return false ; } return false ; } } ; } ;
+return false ; return false ; }
+ else { return!isSafeAssign(n);
+ else, n.getFirstChild(n);
+return false ; } } ; } ;
+ else { return false ; } } else { returnfalse;
+ return!seenSideEffects||false;
+return false ; } return false ; } } } ; }
+ else { return false ; };
+ else { return n. isFunction ( ) #false;
+ else { return false ; return true;
+return false ; } } } ; }
+ else { return n. isName ( )||false;
+ return seenSideEffects==false;
+ return true ;
+ else { return n. isCall ( ) #false;
+ else { return false ; } };
+ } }
+return false ; } } } }
+ else { return false ; } break;
+ else { } return true;
+ return!seenSideEffects==false;
+ } else { return false ; };
+ else { return ;
+ else { return false ; return false;
+ else { return n. isCall ( ) ; }
+ else, if (n == null) {
+ else { return false ; } } } returnfalse;
+return false ; return false ;
+ return!seenSideEffects*false;
+ }
+ return!seenSideEffects&&false;
+ return!seenSideEffects=false;
+ else { return false.0;
+ } return false;
+ else { return!isSafeAssign(); } }
+return  true ; } ;
+ else { return false ; } } } #false;
+ else { return n == null ; } returnfalse;
+ else, n = next().x;
+ else { return false ; } } #false;
+ else { return false
+return ! seenEffects ;
+ else { } }
+ } else {
+ } } ;
+ return n. isCall ( ) ; #false;
+ else { return false ; break;
+ else, n.getFirstChild(n)
+ else { return true ; } } } returnfalse;
+ else return false;
+ else, n = next().x();
+ } } }
+ else { return true ; } } #false;
+ else { return false ; } } else { } else
+ else { return!isSafeAssign(); } else
+ return n. isFunction ( ) #false;
+ else, n.getFirstChild(n).
+ else, n.getFirstChild(n));
+ return seenSideEffects=false;
+ } ;
+ else { return false ; } } else {
+ else, n = next().next();
+ else { return false ; } #false;
+ else { return true|false;
+ } else return false;
+ return n!= null ; } returnfalse;
+ return seenSideEffects===false;
+ return seenSideEffects>false;
+ } return true;
+ return true;
+ } } return false;
+ else, n = next().next;
+ } } return true;
+ else { return false ; } } else
+ else { return false ; } } } else
+ else { return false ; } }
+ else { return false ; } } } }
+ else, if (n == null) {}
+ return false ; } }
+ else { return false ; }
+return false ; return null ;
+ return false;
+ else return true;
+ return false ; } else
+ return true ; } }
+ else { return true ; } }
+ else { return true ; }
+ else, return false; }
+ return true ; } else
+ else, return false; } }
+ else, return false; } else
+ else, return false; else
+ } else { #false;
+ return false ; }
+ else { } } } }
+ else { } }
+return  null ; }
+ else { #false;
+ } } } }
+ return true ; }
+ } else
+ } } } else
+ } }
+ else,
+ else:
+return false.0 ;
+ else
+return  0 ;
+ return null;
+ } #false;
+return false. } }
+ }
+ else #false;
+return false; *
+return false. *
+return false. }

@@ -1,0 +1,198 @@
+ break;
+ break; break;
+ break;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, rule);
+ rule = selectNumberRule(Calendar.DAY, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); }
+ rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, hour, tokenLen);
+ rule = selectNumberRule(Calendar.DAY_OF_DAY, rule);
+ rule = selectNumberRule(Calendar.OUR_OF_DAY, tokenLen);
+ rule = selectNumberRule(Calendar.PM, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR, hour, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_MONTH);
+ rule = selectNumberRule(Calendar.HOUR, tokenLen);
+ rule = selectNumberRule(Calendar.DAY_OF_DAY);
+ rule = selectNumberRule(Calendar.OUR_OF_DAY, rule);
+ rule = selectNumberRule(Calendar.DAY_OF_MONTH, tokenLen);
+ rule = selectNumberRule(Calendar.DAY_OF_AM, tokenLen);
+ rule = selectNumberRule(Calendar.DAY_OF_MONTH);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM_PM, tokenLen);
+ rule = selectNumberRule(Calendar.OUR_OF_DAY, hour, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, hour, tokenLen);
+ rule = selectNumberRule(Calendar.OUR_OF_DAY, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = rule ;
+ rule = selectNumberRule(Calendar.HOUR_OF_AM_PM, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR, tokenLen, weekdays);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); rule = rule ;
+ rule = selectNumberRule(Calendar.DAY_OF_HOUR, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = rule ;
+ rule = selectNumberRule(Calendar.AM, tokenLen);
+ rule = selectNumberRule(Calendar.DAY, rule);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, hourLen, tokenLen);
+ rule = selectNumberRule(Calendar.MONDAY, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY,);
+ rule = selectNumberRule(Calendar.AMPM, tokenLen);
+ rule = selectNumberRule(Calendar.MINUTE, tokenLen);
+ rule = tokenLen ;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY);
+ rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen); }
+ rule = selectNumberRule(Calendar.OUR, tokenLen);
+ rule = selectNumberRule(hour, tokenLen);
+ rule. setHour ( tokenLen ) ;
+ break; } break;
+ break; }
+ rule. setHour ( tokenLen ) ; break;
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule += tokenLen ;
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = selectNumberRule(Calendar.DAY, rule);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); break; }
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = hourRule ;
+ rule = selectNumberRule(Calendar.OUR_OF_MONTH);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen) rule = rule ;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen) rule = rule ;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen, weekdays);
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = selectNumberRule(Calendar.PM, rule);
+ rule = selectNumberRule(Calendar.HOUR, 1..12) rule = selectNumberRule(Calendar.HOUR);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = rule. hour ( ) ;
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule. hour = tokenLen ;
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = hourField ;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); rule = hourRule ;
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = selectNumberRule(Calendar.AM, rule);
+ rule = rule ; break;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); else
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = rule. hour ; }
+ rule. hour = hour ;
+ rule = selectNumberRule(12Hour, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule. setHour ( hour ) ;
+ rule = selectNumberRule(Calendar.DAY_OF_HOUR, dayOfMonthLen);
+ rule = selectNumberRule(Calendar.OUR, tokenLen); }
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); rule = null ;
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); rule. setHour ( hour ) ;
+ rule = selectNumberRule(Calendar.HOUR, tokenLen); rule = selectNumberRule(Calendar.PM, 12);
+break; default: rule = null ; break;
+ rule = selectNumberRule(tokenLen); break;
+ rule = selectNumberRule(calendar.DAY, rule);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = rule. hour ; }
+ rule. hour = tokenLen ;
+ rule = selectNumberRule(24Hour, tokenLen);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, 1..12) rule = rule ( tokenLen);
+ rule = selectNumberRule(Calendar.AM, 12);
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule. hour ( tokenLen);
+ rule = selectNumberRule(Calendar.PM, 12);
+ rule = selectNumberRule(Calendar.HOUR_OF_DAY, 1..12) rule = rule. hour ; }
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule. hour ( tokenLen )
+ rule = selectNumberRule(Calendar.HOUR_OF_AM, tokenLen); rule = rule ( tokenLen);
+ rule += tokenLen ; break;
+ rule = selectNumberRule (, tokenLen);
+ rule = selectNumberRule(Calendar.AM_PM);
+ rule. setHour ( tokenLen ) break;
+ rule = selectNumberRule(24, tokenLen);
+ rule. setDay ( tokenLen ) ;
+break; default: break; break;
+ rule = selectNumberRule(Calendar.HOUR);
+ rule = parseInt ( tokenLen ) ; break;
+ rule = hour (tokenLen); break;
+ rule. setTime ( tokenLen ) ; break;
+break; default: break;
+break; case 'H':
+break; case 'M': break;
+break; case 'h':
+ break ; case 'd': { rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen);
+ rule = tokenLen ; break;
+ rule += tokenLen ;
+ break ; case 'H': { rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); break; }
+ rule. hour ( ) ; break;
+ break ; case 'd': { rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen); break; } }
+ rule. setHour ( tokenLen )
+ rule = selectNumberRule ( tokenLen);
+ rule. setTime ( tokenLen ) ;
+ break ; case 'G': { rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); break; }
+ rule. set ( tokenLen ) ; break;
+ rule. hour = tokenLen;
+ rule = selectNumberRule(Calendar.DAYS);
+ rule = rule. hour ( ) ; break;
+ rule = parseInt ( tokenLen, 10 ) ;
+ rule. day = tokenLen ;
+ rule. setHour ( 1, tokenLen);
+ break ; case 'H': { rule = selectNumberRule(Calendar.HOUR_OF_DAY, tokenLen); } break;
+ rule. hour = hour ; break;
+break; case 'd': break;
+ rule. setHour ( ) ; break;
+ break ; case 'd': { rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen); } break ; }
+ rule = rule. hour ( tokenLen); break;
+ rule. setHour ( token ) ; break;
+ rule = rule. hour ; break;
+break; case 'd':
+ rule = selectNumberRule(Calendar.DAY1);
+ rule. hour ( tokenLen ) ;
+ rule = rule ;
+ rule. hour ( ) ;
+break; default: rule = null ; }
+ break ; case 'G': { rule = selectNumberRule(Calendar.GIVE_DAY, tokenLen); }
+break; case 'i' :
+break; case 'h: break;
+ break; default:
+ rule. hour ( tokenLen )
+ rule = selectNumberRule ( tokenLen )
+ rule = rule ( tokenLen);
+break; case 'dW':
+ rule. day = tokenLen;
+ break ; case 'd': { rule = selectNumberRule(Calendar.DAY_OF_DAY, tokenLen});
+ rule. setHour ( 1, tokenLen )
+ break ; case 'G': { rule = selectNumberRule(Calendar.GOUR_OF_DAY, 0);
+ break ; case 'G': { rule = selectNumberRule(Calendar.HOUR_OF_DAY, 0);
+break; case 'H: break;
+ rule. year = year ;
+ rule = 1..12; break;
+ rule = 0 ; break;
+ rule = rule. hour ( ) ;
+break; case 'g':
+ rule. add ( token ) ; break;
+break; default: rule = undefined; break;
+ rule. day = day ;
+break; case 'HW':
+ rule. tokenLen = 1;
+ rule. setHour ( tokenLen ) ; }
+break; case 'hW':
+ } break;
+break; case 'D' :
+ rule = tokenLen;
+break; default: rule = '' ; break;
+ rule. hour = 0 ; break;
+ break; case 0:
+ rule. hour = 1 ;
+break; default: rule = { break;
+break; default: rule = null break;
+ rule. hour = hour;
+ rule = rule. hour ; } break;
+ rule. setHour ( hour ) break;
+break; default: rule = undefined break;
+ break; case '':
+ rule = hourField ;
+ return rule ; break;
+ rule = null ;
+ tokenLen = 12;
+ break; else
+break; case 'd': default : break ; }
+ break; switch;
+break; case 'd': break; } break;
+ break. break;
+ break break;
+break; case 'g': break; case '':
+ } break;
+ break; }
+ break;;
+ break; else
+ }
+; break;
+ break(); break;
+ break 2;
+ default:
+ break
+ break();
+ break,
+ break.
+ or

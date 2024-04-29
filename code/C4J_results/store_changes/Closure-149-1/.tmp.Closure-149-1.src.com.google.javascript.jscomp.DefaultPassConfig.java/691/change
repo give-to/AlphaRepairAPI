@@ -1,0 +1,155 @@
+ }
+ }
+ } }
+ } }
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( pass ) ;
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( ) ;
+ if (! pass. isLoopable ( ) ) { pass. setLoopable ( ) ;
+ if (! pass. isMultiRunPass ( ) ) { throw new IllegalArgumentException ( ) ;
+ if (! pass. isLoopable ( ) ) { pass. setLoopable ( true ) ;
+ if (! pass. isMultiRunPass ( ) ) { throw new IllegalArgumentException ( pass ) ; }
+ if (! pass. isLoopable ( ) ) { pass. isLoopable ( ) ;
+ if (! pass. isLoopable ( ) ) { throw new IllegalStateException ( ) ;
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( )
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( ) ; }
+ if (! pass. isLoopable ( ) ) { pass. setLoopable ( true ) ; }
+ } else { throw new IllegalArgumentException ( ) ;
+ if (! pass. isLoopable ( ) ) { pass. setLoopable ( true )
+ } } else { throw new IllegalArgumentException ( ) ;
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( pass ) ; } }
+ } return combineChecks(compiler, passes);
+ if (! pass. isLoopable ( ) ) { pass. isLoopable ( ) ; }
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( "Loopable" )
+ } else { throw new IllegalArgumentException ( pass ) ;
+ if (! pass. isLoopable ( ) ) { } }
+ } else { throw new IllegalArgumentException ( )
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( "Invalid pass" )
+ if (! pass. isMultiRunPass ( ) ) { pass. setLoopable ( true ) ;
+ if (! pass. isLoopable ( ) ) {
+ } else { assertAllLoopablePasses ( pass ) ; } else { assertAllPass ( pass ) ;
+ if ( pass. isLoopable ( ) ) { pass. checkLoopable ( ) ;
+ if (! pass. isLoopable ( ) ) { throw new IllegalArgumentException ( "Loopable." )
+ if (! pass. isLoopable ( ) ) { pass. setLoopable ( false ) ;
+ } else { assertAllLoopablePasses ( passes, pass ) ;
+ } } else { throw new IllegalArgumentException ( )
+ if ( pass. isLoopable ( ) ) { pass. setLoopable ( ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } else { assertAllPass ( passes ) ;
+ } else { assertAllLoopablePasses ( pass ) ; } } else { assertAllPass ( ) ;
+ if (! pass. isLoopable ( ) ) { }
+ } else { assertAllLoopablePasses ( passes ) ; } } else { assertAllPass ( ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } else { assertAllPasses ( ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } }
+ if ( pass. isLoopable ( ) ) { pass. check ( ) ; }
+ } else { throw new IllegalArgumentException ( "Invalid pass" )
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new LoopablePassCheck(compiler);
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { assertAllLoopablePasses(pass); }
+ if ( pass. isLoopable ( ) ) {
+ } else { throw new IllegalArgumentException ( "Invalid pass." )
+ } return combineChecks ( compiler, passes )
+ } return combineChecks ( compiler ) ;
+ if ( pass. isLoopable ( ) ) { pass. run ( ) ; }
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new MultiRunPass(compiler);
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { assertAllLoopablePasses(pass);
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { assertAllLoopablePasses(compiler);
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } } } ;
+ if (! pass. isLoopable ( ) ) { return ;
+ if ( pass. isLoopable ( ) ) { pass. setLoopable ( false )
+ if (! pass. isMultiRunPass ( ) ) { }
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } } return compiler ;
+ if (! pass. isMultiRunPass ( ) ) {
+ } else { return new LoopablePass ( pass ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new LoopableCheck(compiler);
+ } else { throw new IllegalArgumentException ( "Unknown pass." )
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } } } ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new MultiRunPass(compiler); }
+ if ( pass. isLoopable ( ) ) { pass. check ( compiler ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new LoopablePass(compiler);
+ if ( pass. isLoopable ( ) ) { pass. setLoopable ( true )
+ } else { throw new IllegalArgumentException ( "Unsupported pass factory" ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { assertAllLoopable ( passes ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } } return compiler ; }
+ if ( pass. isLoopable ( ) ) { pass. checkLoop ( ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } } ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new LoopCheck(compiler);
+ } else { throw new IllegalArgumentException ( "Pass" )
+ } return combineChecks ( compiler, pass ) ;
+ } else { Preconditions. checkState(pass.isOneTimePass()); } else { throw new IllegalStateException();
+ } else { assertAllLoopablePasses ( passes ) ; } } else { return null ; }
+ } } else { assertAllLoopablePasses ( ) ;
+ } else { assertAllLoopablePasses ( pass. getPass ( ) )
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new MultiRunPass ( pass ) ; }
+ } } else { throw new IllegalArgumentException ( name ) ;
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } return this ; }
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { } else { assertAllPass ( ) ;
+ } else { Preconditions. checkState(pass.isOneTimePass()); } } else { return null ; }
+ if (! pass. isLoopablePass ( ) )
+ } else { assertAllLoopablePasses ( passes, options. check ) ;
+ } else { assertAllLoopablePasses ( passes ) ; } } } ;
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } } ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { assertAllLoopable(compiler);
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ). isOn ( ) )
+ } } else { throw new IllegalArgumentException ( "Invalid options." )
+ } return combineChecks(compiler, {
+ } else { assertAllLoopablePasses ( passes, options ) ; } }
+ } return this ; }
+ } else { assertAllLoopablePasses ( passes ) ; } } ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { checkAllLoopable ( passes ) ;
+ } } else { assertAllLoopablePasses(List<PassFactory> passes) { return new LoopablePass ( passes )
+ } else { assertAllLoopablePasses ( passes ) ; } } }
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } return pass ;
+ } } else { throw new IllegalArgumentException ( "Invalid options" )
+ } else { throw new IllegalArgumentException ( "Unknown pass" ) ;
+ } else { Preconditions. checkState (!pass. isMultiRunPass ( ) ) ; } } } } ;
+ if ( pass. isLoopable ) {
+ } } }
+ } return allLoopablePass ;
+ } if ( passes == null ) {
+ } } return compiler ;
+ } if ( passes!= null ) {
+ } } else { assertAll ( ) ;
+ } } else { return null ;
+ } return combineChecks(compiler); }
+ } } else { return null ; }
+ } return this ; }
+ } return combineChecks ( compiler )
+ if ( pass. multiRun ) {
+ } } } ;
+ } } return this ;
+ } return this ;
+ } return new Loopable ( ) ;
+ } } else { return false ;
+ } return true ; }
+ } return true ;
+ if ( pass!= null ) {
+ } } return compiler ;
+ } return true ; }
+ } return this ; } ;
+ } } ;
+ } } } ) ;
+ } } return compiler ; }
+ } if ( passes ) { }
+ } return pass ; }
+ } return true ; } }
+ } return this ; } }
+ } return true ;
+ } return true ; } ;
+ } return this ;
+ } return false ;
+ } } } }
+ } } } ;
+ } return false ;
+ } } } } ;
+ } return pass ;
+ } return ;
+ return ; }
+ } } }
+ } return ;
+ } } ;
+ return pass ;
+ return } }
+ return }
+ return ;
+ } return
+ return }
+};
+};

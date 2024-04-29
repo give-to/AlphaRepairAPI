@@ -1,0 +1,489 @@
+current = current.getNext();
+ current.getNext();
+ return thisType;
+current = current.next();
+current = current.getNext(); return thisType;
+ return isConstructor;
+current  = contextNode;
+current = current.getNext(); return isConstructor;
+current =  n.getNext();
+ return createDefaultObjectUnion(thisType);
+current =  n.getNext(); return isConstructor;
+current =  n.getNext(); return thisType;
+ return createDefaultObjectUnion(isConstructor);
+ thisType = isConstructor;
+ return current.getNext();
+ thisType = null;
+ return createFunction(thisType);
+ return thisType);
+current = current.getNext(); break;
+current = current.getNext(); thisType = isConstructor ;
+ return createDefaultObjectUnion(isConstructor;
+ thisType = (ObjectType)current.getNext();
+current = current.getNext(); return createDefaultObjectUnion(thisType);
+current = current.getNext(); return null;
+current = current.getNext(); return this;
+current =  n.getFirstChild();
+ thisType = contextNode;
+ thisType=current.getNext();
+ return createDefaultObjectUnion(thisType, scope);
+ return createDefaultObjectUnion(thisType;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope));
+ thisType = null; current= current.getNext();
+current =  n.getNext(); return null;
+current = current.getNext(); return createDefaultObjectUnion();
+ return createDefaultObjectUnion(current);
+ thisType = ObjectType.cast(current.getNext();
+current =  n.getNext(); return this;
+ } else { return isConstructor;
+ current = isConstructor.getNext();
+current = current.getNext(); thisType = contextNode;
+ return createDefaultObjectUnion(this);
+ contextNode = current.getNext();
+ thisType = (Type) current.getNext();
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("msg.jsdoc.function"))
+current =  n.getNext(); break;
+ return null;
+ current = contextNode.getNext();
+ } else { return thisType;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope)); } else {
+ if ( isConstructor ) { thisType = contextNode ;
+ if ( isConstructor ) { reporter.info( ScriptRuntime.getMessage0("msg.jsdoc.function") );
+ thisType = (JSType)current.getNext();
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope).restrictByNew());
+ current = n.getNextSibling();
+ current = n.getNext().getNext();
+ current = n.getFirstChild(); current.getNext();
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("msg.jsdoc.function"),
+ if (current.getType() == Token.NEW) { thisType = isConstructor ;
+ thisType = contextNode ; contextNode= current.getNext();
+current = current ; }
+ thisType = contextNode ; current= current.getNext();
+ if (isConstructor) { thisType= current.getNext();
+ thisType = thisType ; contextNode = current.getNext();
+current = current.getNext(); return createFunction(thisType);
+ if (isConstructor) { thisType = null;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope).restrict());
+current = current.getFirstChild(); return isConstructor;
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("new"))
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName ) );
+ thisType = current.getFirstChild();
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope));
+ if ( isConstructor ) { thisType = current. getNext ( ) ;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope).restrictByNull());
+ current = current.getFirstChild();
+ if (current.getType() == Token.NEW) { thisType = contextNode;
+ return createDefaultObjectUnion;
+current = current.getNext() ; } else { return thisType ; }
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope) ).constructor();
+ return createDefaultFunctionUnion(thisType);
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope).restrictByFunction());
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope).constructor());
+ return createDefaultObjectUnion(thisType, current);
+ return createDefaultObjectUnion(isConstructor();
+ if (isConstructor) { current= current.getNext();
+ if (current.getType() == Token.NEW) { thisType = null;
+current =  n.getFirstChild(); break;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope)); } else
+ thisType = ContextType.cast(contextNode);
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope).constructor );
+ thisType = current.getType();
+ thisType = ObjectType.cast(contextNode.getNext();
+ return this;
+current = current.getNext(); return createFunctionUnion(thisType);
+ if ( isConstructor ) { reporter.info( ScriptRuntime.getMessage0("msg.jsdoc.function"); );
+ thisType = (ObjectType) current.getNext(); if ( isConstructor ) { thisType = (ObjectType) thisType ;
+current = current.getNext(); break ; }
+current = current.getNext(); return createFunction ( this ) ;
+ return createDefaultObjectUnion(thisType, );
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("msg.jsdoc.function");
+ return createDefaultFunctionUnion(isConstructor);
+current = current.getFirstChild(); return thisType;
+ if (isConstructor) { thisType = current.getType();
+ thisType = (ObjectType) current.getNext(); if ( isConstructor ) { thisType = (ObjectType) current ; }
+current = current.getNext(isConstructor);
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("new") );
+ if ( isConstructor ) { thisType = contextNode ; }
+ return createDefaultFunction(thisType);
+ current = n.next(); current = current.getNext();
+ else { isConstructor=current.getNext();
+current =  n.getNext(); break ; }
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current.getFirstChild(), sourceName, scope)); } else
+ } else { isConstructor = current.getNext();
+ else { isConstructor =!current.getNext();
+ thisType = ContextType.cast( isConstructor );
+ current = current.getFirstChild().getNext();
+ current = current.getNext(); current = current.getNext();
+ return createDefaultObjectUnion(thisType, null);
+ return create(thisType);
+ current = n.getNext(); n.next();
+current =  contextNode ; }
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope) ).constructor;
+ return createFunctionUnion(thisType);
+ if ( isConstructor ) { thisType = current. getFirstChild ; } else {
+ if (isConstructor) { thisType = current.type;
+current = current.getNext(); current. setNext ( thisType ) ;
+current .setFirstChild(thisType);
+current = current.getNext(); thisType = ( ObjectType ) current ;
+ thisType = ObjectType.cast(current).getNext();
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope)); } default:
+ if (isConstructor) {
+ current = n.getNext(); current.getNext();
+ current = current.getNext(); current.getNext();
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current.getFirstChild(), sourceName, scope)); } }
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope)); } }
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, scope)) ;
+ thisType = thisType;
+ return createDefaultObjectUnion(thisType, false);
+ if (isConstructor) { thisType = current.getFirstChild();
+ current = current.getFirstChild(); current.getNext();
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("new");
+ thisType = contextNode;
+ if (current.getType() == Token.NEW) { isConstructor =
+current = current.getNext(); return thisType ; } }
+ thisType = (ObjectType) current;
+ thisType = isConstructor;
+ else { isConstructor = contextNode.getNext();
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope );
+ thisType = current.getNext();
+current = current.getNext(); } else { return thisType ;
+ } else { thisType = current.getNext();
+ if (isConstructor) current= current.getNext();
+ if ( isConstructor ) { thisType = current. getNextChild ; } else {
+ thisType = current.getType();
+ if ( isConstructor ) { thisType = current. next ( ) ;
+ return createDefaultObjectUnion();
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0()); }
+ current = n.getFirstChild(); return current.getNext();
+ thisType = (ObjectType) current.getNext(); if ( isConstructor ) { thisType = (FunctionType) thisType ;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope)); } else
+ thisType = contextNode.getType();
+ return createDefaultObjectUnion(thisType();
+ } else {
+ if (isConstructor) { thisType = contextNode.type;
+ current = contextNode.next().getNext();
+ else { isConstructor = true ; current= current.getNext();
+current .setFirstChild(null);
+ current = (Node) current.getNext();
+ current = current.next().getNext();
+ thisType = new ObjectType(thisType);
+ current = n.getNext().getFirstChild();
+ thisType = (ObjectType) contextNode;
+ if ( isConstructor ) { thisType = current. nextChild ; }
+ if (isConstructor) { thisType = current.getFirstChild(); }
+ if (current.getType() == Token.NEW) { thisType = current.type;
+ thisType = (ObjectType) thisType current= current.getNext();
+ } else { isConstructor = isConstructor;
+current = current.getNext() ; if ( isConstructor ) { break ;
+ return createDefaultObjectUnion(thisType, source);
+ contextNode.getNext();
+ thisType = thisType. cast ( isConstructor ) ;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( contextNode, sourceName, scope)); }
+ current = current.getNext().getNext();
+ if ( isConstructor ) { thisType = current ;
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("new"); );
+ thisType = (ObjectType) isConstructor;
+ thisType = (ObjectType) current;
+ } else { isConstructor = thisType;
+ return createDefaultObjectUnion(thisType, null;
+ thisType = ObjectType.cast(contextNode);
+ thisType = ObjectType.cast( thisType );
+ return createDefaultObjectUnion(thisType).build();
+ current.getFirstChild();
+ current = n.getNext(); contextNode=current.getNext();
+ current = n.getNext(); n.getNext();
+ current = contextNode.parent().getNext();
+ thisType = contextNode.getNext();
+current  = null
+current = current.getNext(); } }
+ current = contextNode.parent.getNext();
+current  = n;
+ if (isConstructor) { thisType = current.getSecondChild();
+ thisType = current.getSecondChild();
+current .setNext(null);
+ return createDefaultObjectUnion(thisType, false;
+ thisType = ObjectType.cast( createFromTypeNodesInternal( current, sourceName, scope)); } }
+ if ( isConstructor ) { thisType = current. getFirstChild ; }
+ current = current.prev().getNext();
+ thisType = contextNode.getNextChild(); } else {
+ current = n.getFirstChild().getNext();
+ thisType = ObjectType.cast(current);
+ thisType = (Object) current.getNext();
+current = current.getNext() ; } else { return thisType ; } }
+current = current.getNext() ; } return isConstructor ;
+ if ( isConstructor ) { thisType = current. getFirstChild ;
+ else { isConstructor = (ObjectType)current.getNext();
+ else { isConstructor = thisType == current.getNext();
+ } return createDefaultObjectUnion(thisType);
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("isConstructor"); );
+ else { isConstructor |= current.getNext();
+ current = current.getNextChild();
+ else { isConstructor = true ; } current= current.getNext();
+current = current.getNext() ; } else { return isConstructor ;
+ thisType = null; contextNode= current.getNext();
+current = current.getNext() if (isConstructor) { return null;
+ current = thisType = current.getNext();
+current = current.getNext(contextNode);
+ return createConstructor);
+ current = current.parent().getNext();
+ return createFunction(thisType;
+ if ( isConstructor ) { thisType = current. getNextChild ; }
+current =  next.next();
+ return createDefaultObjectUnion(null);
+ if ( isConstructor ) { reporter.warning( ScriptRuntime.getMessage0("new"); }
+ return createFunctionUnion(thisType;
+ current = n.getNext(); current.next();
+ thisType = contextNode.type;
+current = current.getNext(); thisType = ( ObjectType ) current
+ if ( isConstructor ) { thisType = current. getFirstChild ; } }
+ thisType = contextNode.getObjectType();
+ else { isConstructor = true ; thisType= current.getNext();
+ return createDefaultObjectUnion(thisConstructor);
+ if (isConstructor)
+ if (isConstructor) { thisType = current.type();
+ thisType = contextNode.next(); contextNode= current.getNext();
+ else { isConstructor = thisType=current.getNext();
+ return createDefaultObjectUnion(thisType); }
+current = current.getNext() ; if ( isConstructor ) {
+current =  n.getNext(); } }
+ thisType = contextType;
+current = current.getNext() ; } else { return null ; } } }
+ if (isConstructor) { thisType =
+current = current.getNext( ) ; return createDefaultObjectUnion(current);
+current = current.getNext( ) ; return ( Function ) current ;
+current = current.getNext(); return thisType ; }
+ thisType = (ObjectType) thisType.current.getNext();
+current = current.getNext(); thisType = current. getType();
+ thisType = (ObjectType) thisType=current.getNext();
+ current = n.getNext(); current=current.getNext();
+ thisType = ObjectType.cast(null);
+current = current.getNext(); return new Function ( ) ;
+ if ( isConstructor ) { thisType = contextNode ; } }
+current = current.getNext(); return isConstructor();
+ if ( isConstructor ) { thisType = current. getFirstChild(); } }
+ return thisType ; } }
+ else { thisType=current.getNext();
+ return createDefaultFunctionUnion(thisType;
+ thisType = current;
+current =  n.getSecondChild();
+ } else { thisType = contextNode;
+ thisType = thisType ; current= current.getNext();
+current = current.getNext() ; } else { return null ; }
+ current = contextNode.next.getNext();
+ return createDefaultObjectUnion(n);
+ thisType = contextNode= current.getNext();
+ else { isConstructor = true;current.getNext();
+ current = n.getNext(); n=current.getNext();
+current = current.getFirstChild(); break;
+ if ( isConstructor ) { thisType = current. getNextChild ; } }
+current = current.getNext() ; } else { return null ; } }
+current .getNext(); break;
+ return thisType.newInstance();
+ else { thisType = null;
+current = current.getNext() if (isConstructor) { break;
+ thisType = (ObjectType) current; current= current.getNext();
+current = current.next(); return isConstructor;
+ thisType = current.nextChild();
+ thisType = contextNode.getNativeType();
+ } else { current = current.getNext();
+current  = next;
+current = current.getNext() ; return this ; }
+ thisType = new ObjectType(this);
+ thisType = contextNode ; contextNode *= current.getNext();
+current = current.getNext( ) ; if ( isConstructor ) { }
+current = current.getNext( ) ; return ( Object ) current ;
+ thisType = this ; current= current.getNext();
+ else { isConstructor = false;current.getNext();
+ current = current.parent.getNext();
+ thisType = (Type) current;
+ return createNew(thisType);
+ contextNode = contextNode.getNext();
+current =  n.getNextChild(); }
+ return (Object) thisType;
+ current = n.getFirstChild().current.getNext();
+ current = current.next.getNext();
+ thisType = new ObjectType(current);
+ return new isConstructor;
+ thisNode = current.getNext();
+ } else { return current isConstructor;
+current = current.getNext( ) ; return createFunction ( ) ; }
+ current = n; n = current.getNext();
+current = current. next;
+ current = n.getNext(); n.remove();
+ thisType = type;
+current = current.getNext(this); return isConstructor;
+current = current.getNext(this); return thisType;
+current = current.getNext(); }
+current =  n.nextChild();
+ } else { return null;
+current = current.getFirstChild(); return this;
+ thisType = (ObjectType) current);
+current =  n.getNext(); }
+ thisType = isConstructor();
+current  = current;
+ current.getNextChild();
+ thisType = current.next();
+current .getFirstChild(); break;
+current = current.getFirstChild(); return null;
+ thisType = current.getType;
+ thisType = contextNode.type();
+ thisType = ObjectType.newObject();
+ } return createDefaultObjectUnion(this);
+ return (thisType);
+ thisType = thisType ; contextNode *= current.getNext();
+ else { thisType |= current.getNext();
+ node current = current.getNext();
+ } else { thisType |= current.getNext();
+ return new Function ( ) ;
+ break;
+ current.next();
+current  = node;
+ return thisType.toString();
+current = current.getNext(); } return thisType ;
+ thisType = null current= current.getNext();
+ return createDefaultFunction(current);
+ return createThisType);
+ thisType = null
+ } return thisType ;
+current = current.getNext(); return ;
+ thisType = current current= current.getNext();
+ return thisType.getType();
+ thisType = null;
+ break; }
+ return createFunction(current);
+ thisType = null;current.getNext();
+current  = null;
+ return createNewObject(current);
+ return current;
+ else { current=current.getNext();
+ else thisType=current.getNext();
+ return createDefaultObject();
+ thisType.init(current.getNext();
+ return thisType == null;
+ thisBuilder = (ObjectType)current.getNext();
+ return createObjectUnion(current);
+ return createDefaultObjectUnion);
+ thisType = (Object) current;
+ thisType = true;
+ thisType =
+ return null);
+ thisType |= current.getNext();
+ return create(current);
+current = current.getSecondChild();
+ return createFunctionUnion();
+current  = next.next;
+ current.setNext();
+ return current.getParent();
+current .getNext(); } }
+current .getFirstChild(); }
+ return thisType.build();
+current = current.getLastChild();
+ current isConstructor |= current.getNext();
+ thisType = contextNode ; current.= current.getNext();
+ return this);
+ thisType = typeofcurrent.getNext();
+ return create(this);
+current = current.getFirstChild(); }
+current = current.getNext(); return current;
+ } thisType=current.getNext();
+current  = contextNode();
+current =  n ; break ;
+ thisType = current;
+current = current.getNext; return thisType;
+ current.popNode();
+current = current.getNext() ; } return null ;
+ return n.getNext();
+current .getNext(); }
+ } default:
+current = current.getNext(); break ; } }
+current  = n
+current  = next ; }
+current  = thisType;
+ return thisType.objectType;
+ break ; }
+current =  n.getNext;
+ } } else {
+ reporter(current);
+ return create();
+ thisType &= current.getNext();
+ if (current)
+ thisType *= current.getNext();
+ else { contextNode= current.getNext();
+current  = {
+current =  n.nextChild;
+ current.remove();
+ thisType =;
+current = current. next ; }
+ thisType =!current.getNext();
+current = current.getNext(true);
+current .setNext(); }
+ thisType.init();
+current = current.getNext;
+ return thisType();
+current = current.getNext() ; continue;
+ thisType = [];
+ thisType =
+current = current.getNext(isConstructor());
+current =  next; } }
+ report(current);
+ } thisType |= current.getNext();
+ thisType = type;
+ return (this);
+ n = current.getNext();
+ reporter.pass();
+current = current.getNext(); break
+ thisType ||= current.getNext();
+ current =.getNext();
+ n = n.getNext();
+ reporter(this);
+current  = current
+ return constructor();
+current  = ;
+ newConstructor();
+ break;
+current = current.getNext(...) ; }
+ thisType.new= current.getNext();
+ return build();
+ return current);
+ thisType = null
+ return this();
+ } return null;
+ } else
+ } } current= current.getNext();
+current = current.getNext(...) ;
+current = current.getNext(this); }
+current = current. next(); }
+ } current= current.getNext();
+ return n;
+current = current.getParent();
+ return n();
+ } }
+current = currentNode;
+ } }
+ return ;
+ else {
+current = current.getPrevious();
+ return false);
+ return true;
+ return ();
+ } return this;
+ continue current.getNext();
+ n.getNext();
+current = currentNext();
+ } return n;
+ node.getNext();
+current = current.prev();
+current = current.getNext() } }
+ node=current.getNext();
+ return node.getNext();
+ } Node
+current = current.prev;
+current = current.parent();
+ context.getNext();
+ }
+current = current.getNext; }
+ Node
+ else
+current: current.getNext();
+current. current.getNext();
+current, current.getNext();

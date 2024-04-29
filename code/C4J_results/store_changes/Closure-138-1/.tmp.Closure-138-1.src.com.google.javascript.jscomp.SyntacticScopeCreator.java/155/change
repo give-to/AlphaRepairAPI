@@ -1,0 +1,1046 @@
+ String
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT);
+ n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n);
+sourceName = (String) n;
+sourceName =  n.getFirstChild().getString();
+ scanVars(n,SOURCENAME_PROP);
+ scanVars(n, n);
+ scan(n);
+sourceName = (String) n.getFirstChild().getString();
+ scanVars(Node.SOURCENAME_PROP);
+sourceName =  n.getString();
+sourceName = (String) n.getFirstChild();
+sourceName = (String)  n.getFirstChild().getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.get(Node.SOURCENAME_PROP);
+ scanVars(n, parent, n);
+sourceName = (String)  n.getFirstChild().get(Node.SOURCENAME_PROP);
+ declareVar(SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.NAME);
+sourceName = (String) n.getFirstChild().getNext().getString();
+ { final String
+ scanScript(n);
+sourceName = (String) n.getString();
+ scanVars(n, _SOURCENAME_PROP);
+ final String
+ scanVars(n, parent, gramps);
+ if (n!= null) n.getProp(Node.SOURCENAME_PROP);
+ n = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getFirstChild(Node.SOURCENAME_PROP);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock(n)) {
+ name = (String) n.getProp(Node.SOURCENAME_PROP);
+ scan(Node.SOURCENAME_PROP);
+ return (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild(); if (sourceName) {
+sourceName = (String) n.getNext().getString();
+sourceName  = n;
+sourceName = (String)  n.getNext().get(Node.SOURCENAME_PROP);
+sourceName =  n.getNext().getString();
+ if (n instanceof Script) { String
+ n = (Node) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getFirstChild().getAttribute(Node.SOURCENAME_PROP);
+sourceName =  n.getFirstChild().String();
+ if (NodeUtil.isScriptAnonymous(n)) { child = n ;
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock(n))
+sourceName = (String) n.getProp(Node.SCRIPT_NAME);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP); if ( sourceName == null ) {
+sourceName = (String) n.getSecondChild();
+ for (Node child = n.getFirstChild(); child!= null;) { child = child. getNext ( ) ;
+ scanVars(n, Constants.SOURCENAME_PROP);
+sourceName = (String)  n.getNext().getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropName(); if (sourceName == null) {
+sourceName =  n.getFirstChild().string();
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock)) {
+ scanVars(scriptNode, n);
+ scanVars(n, Scope.SOURCENAME_PROP);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock()) {
+sourceName = (String) n.getFirstChild().value;
+ if (n instanceof Script) {
+sourceName = (String) n.getProp(0); scanVars(sourceName, n);
+sourceName = (String)  n.getFirstChildProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getSecondChild().getString();
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (sourceName) {
+sourceName = (String) n.getNext();
+ n.setFirstChild(Node.SOURCENAME_PROP);
+ for (Node child = n.getFirstChild(); child!= null;) { Node next = child. getNext(); }
+sourceName = (String)  n.getFirstChild().getProperty(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); if (sourceName == null) {
+ scanVars(, n);
+ if (NodeUtil.isScriptAnonymous(n)) { child = n ; }
+ if (n.isScriptAnonymous(n)) { return; } String
+ n.getFirstChild().getString()= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) {
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatement(n)) {
+ n.getFirstChild().getString= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScript(n)) { String
+sourceName = (String) n.value;
+sourceName = (String) n.getProp(Node.SCRIPT); if ( sourceName == null)
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock(n))) {
+ if (n instanceof Script) n.getProp(Node.SOURCENAME_PROP);
+sourceName =  n.getFirstChild().value;
+ scanVars(n, parent, Constants.SOURCENAME_PROP);
+sourceName = (String) n.getProp(null); scanVars(sourceName, n);
+sourceName = (String) n.getFirstChild().getNext() ;
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isScript()) {
+sourceName = (String)  n.getSecondChild().getProp(Node.SOURCENAME_PROP);
+sourceName =  n.getFirstChild().name;
+sourceName = (String) n.getProp(0); scanVars(n, n);
+ scanVars(n, Node.SOURCENAME_PROP);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock(n)))
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if ( sourceName == null)
+sourceName = (String) n.getFirstChild.getNext().getString();
+sourceName = (String) n.getFirstChild(); default:
+sourceName = (String) n.getProp(Node.SCRIPT) ; if ( sourceName ) {
+ scanVars(n, parent,Node.SOURCENAME_PROP);
+sourceName =  n.getLastChild().getString();
+sourceName = (String) n.getPropName(); if (sourceName) {
+ if (NodeUtil.isScriptAnonymous(n)) { n = null; }
+ for (Node child = n.getFirstChild(); child!= null;) { child = child. getNextChild(); }
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isScriptBlock(n)) {
+ { return;
+ scanVars(n, ScriptNode.SOURCENAME_PROP);
+sourceName = (string) n.getFirstChild();
+ scanVars(n, parent, Scope.SOURCENAME_PROP);
+ scanVars(n, parent, null,Node.SOURCENAME_PROP);
+sourceName = (String)  n.getChild(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NAME);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock())
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isBlock(n)) {
+ if (n!= null) { String
+sourceName = (String) n.getPropName(); if (sourceName == null)
+ scanVars(n;
+sourceName = (String) n.getProp(true); scanVars(sourceName, n);
+ if (NodeUtil.isScriptAnonymous(n)) { n = n. getNext ( ) ;
+ if (NodeUtil.isScriptAnonymous(n)) { n = null;
+ scanVars(script, n, parent);
+ if (NodeUtil.isScriptAnonymous(n)) { parent = n ;
+ if (n!= null) { name=n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent, ScriptNode.SOURCENAME_PROP);
+sourceName = (String)
+ if (NodeUtil.isControlStructure(n) || NodeUtil(n)) {
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isScriptBlock())
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isBlock()) {
+ if (n instanceof Script) { final String
+ if (NodeUtil.isScriptAnonymous(n)) { if (child == null) {
+sourceName = (String) n.getProp(null); scanVars(n, n);
+sourceName =  n.getNext().getString(); default:
+sourceName = (String) n.getFirstChild().getNext(n);
+ if (NodeUtil.isScriptAnonymous(n)) { for (Node child = n.getFirstChild();)
+ for (Node child = n.getFirstChild(); child!= null;) { child = child.getNext(); } }
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isScript(n)) {
+ if (NodeUtil.isScriptAnonymous(n)) { if (child == null) return;
+sourceName = (String) n.getFirstChild().getFirstChild();
+ if (NodeUtil.isScriptAnonymous(n)) { n = n. next ; }
+ if (NodeUtil.isControlStructure(n) || NodeUtil.script) {
+ scanVars(n, n;
+ if (n == null) { n = parent;
+ if (NodeUtil.isScriptAnonymous(n)) { n = parent ; }
+ if (NodeUtil.isScriptAnonymous(n)) { n = parent;
+sourceName = (String) n.getProp(0); if (sourceName == null)
+sourceName = (String) n.getPropValue(); if (sourceName == null) {
+sourceName = (String) n.getProp(true); scanVars(n, n);
+sourceName = (String) n.getFirstChild().getNext(null);
+sourceName = (String)  n.getNextChild(Node.SOURCENAME_PROP);
+ scanVars(n, NodeUtil.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getValue();
+ if (n!= null) { n = n.getProp(Node.SOURCENAME_PROP);
+ if (NodeUtil.isScriptAnonymous(n)) { node = n ; }
+sourceName = (String) n.getProp(1); scanVars(sourceName, n);
+sourceName = (String) n.getProp(NodeUtil.SCRIPT_NAME);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.script)) {
+sourceName = (String) n.getProp(null); scanVars(n, parent, null, n);
+ scanVars(n.getNext(), n);
+ if (n.isScriptNode(n)) { String
+ if (NodeUtil.isScriptAnonymous(n)) { if (child!= null) {
+ if (NodeUtil.isControlStructure(n)) { for (Node child = n.getFirstChild());
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock(n)) { }
+ scanVars(n.getFirstChild(),Node.SOURCENAME_PROP);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isStatementBlock) {
+ return n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().data;
+ if (NodeUtil.isScriptAnonymous(n)) { if (n == null) { return; }
+ scanVars(n, block, n);
+ if (NodeUtil.isScript(n) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (string) n;
+ scanVars(n, Token.SOURCENAME_PROP);
+ if (NodeUtil.isScriptAnonymous(n)) { n = n. next ;
+ scanVars(n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScript(n)) { final String
+ if (NodeUtil.isScriptAnonymous(n)) { n = n. nextChild ; }
+ if (n.isScriptAnonymous(n)) { final String
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if ( sourceName == "." ) {
+ if (n.isScript()) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); if (sourceName) {
+ if (n!= null) { declareName(n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getSecondChild().get(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getFirstChild().Prop(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0)); if (sourceName == null) {
+ scanVars(scriptBlock, n);
+ if (n == null) { return;
+ if (n!= null) { declareVar(n.getProp(Node.SOURCENAME_PROP);
+ if (NodeUtil.isControlStructure(n) || NodeUtil.isBlock(n))
+ if (NodeUtil.isScriptAnonymous(n)) { n = parent. next ; }
+sourceName = (String) n.getProp(true); scanVars(n, parent, null, n);
+ scanVars(n, n, parent);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getFirstChild(); final String
+ if (n.isScriptAnonymous(n)) { return; } final String
+ scanVars(n, n); return n;
+sourceName = (String) n.getPropValue(); if (sourceName) {
+sourceName = (String) n.getProp(0); scanVars(n, parent, null, n);
+ if (n == null) { n = null;
+ scanVars(block, n, parent);
+sourceName = (string) n.getString();
+ varName= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, n); } return;
+ scanVars(n, parent, - 1);
+ if (n.isScriptAnonymous(n)) { break; } String
+sourceName = (String) n.getProp()); if (n == null) {
+sourceName = (String) n.next;
+sourceName =  n.getFirstChild().getString(); }
+sourceName =  n.getString(); default:
+sourceName = (String) n.getPropName(); if (n == null) {
+sourceName = (String) n.getFirstChild().next();
+ scanVars(n, n, Constants.SOURCENAME_PROP);
+ scanVars(scoped, n);
+sourceName  = n.value;
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. getFirstChild(); final String
+sourceName = (String) n.getValue();
+ scanVars(n, Const.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getString;
+sourceName = (String) n.getProp(null); scanVars(sourceName, n, parent, n);
+sourceName = (String) n.getFirstChild().getNext(true);
+ if (n == null) { name = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(1); scanVars(n, n);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NAME); if ( sourceName ) {
+sourceName = (String) n.getProp(null); scanVars(n, sourceName, n);
+ if (NodeUtil.isScriptAnonymous(n)) { n = parent ; } }
+sourceName = (String) n.getProp(1); if (sourceName == null) {
+ scanVars(n, n, Scope.SOURCENAME_PROP);
+ scanChildren(n, n);
+sourceName = (String) n.getProp ( ) ;
+sourceName = (String) n.getLastChild();
+sourceName = (String) n.getProp(null); scanVars(n, parent, sourceName, n);
+sourceName = (String) n.getProp(0); scanVars(n, sourceName, n);
+ scanVars(n, n.getNext);
+sourceName = (String)  n.getPropValue(Node.SOURCENAME_PROP);
+ if (n.isScriptNode(n)) { final String
+ if (n.isScript(n)) {
+ if (n == null) { n = block;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NAME); if ( sourceName == null )
+ scanVars(n, parent, n;
+ n.getFirstChild().getString() += (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) { name = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp()); if (sourceName) {
+sourceName = (String) n.next();
+ switch (n.getType() { case Token.NAME: String
+sourceName = (String) n.getFirstChild().getNext(); break; }
+sourceName = (String) n.getFirstChild(); }
+ if (n.isScriptName(n)) { String
+sourceName =  n.getFirstChild();
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; case Token.END:
+ n = n. getFirstChild ( );
+ n.setType(Node.SOURCENAME_PROP);
+ if (n == null) { n = parent.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent, NameNode.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { final String
+sourceName = (String) n.getProp(null); scanVars(n, sourceName, block, n);
+ n.getFirstChild().getString() *= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent);
+sourceName = (String) n.getProp(0);
+ if (n instanceof ScriptNode) { String
+sourceName =  n.getFirstChild().getString;
+ scanVars(n, CATCH_SOURCENAME_PROP);
+sourceName = (String) n.getProp(0)); scanVars(n, n);
+sourceName = (String) n.getProp(true); scanVars(n, sourceName, n);
+ n.setAttribute(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(true); scanVars(n, sourceName, block, n);
+sourceName = (String) sourceNode;
+ if (n == null) { return; } String
+sourceName = (String)  n.getChild().get(Node.SOURCENAME_PROP);
+ scan(SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getSecondChild(); final String
+ if (NodeUtil.isScriptAnonymous(n)) { child = n ; } }
+sourceName = (String) n.getProp(0)); if (sourceName) {
+sourceName = (String) n.getText();
+sourceName = (String) n.getProp(Node.SCRIPT_NODE);
+ if (NodeUtil.isScriptAnonymous(n)) { n = null ; } }
+ scanVars(n, n); return;
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getNext(); final String
+sourceName = (String) n.getProp(0); if (sourceName == "") {
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. getFirstChild(); } final String
+ if (n == null) { n = (String) n.getProp(Node.SOURCENAME_PROP);
+ n.getFirstChild().name= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropName(); if (sourceName == "") {
+ switch (n.getType() { case Token.STRING: String
+ if (n.isScriptAnonymous(n)) { return; } this.
+ if (n.isScriptAnonymous(n)) { return; } default : { final String
+ if (n instanceof Node) { String
+ if (n instanceof Node) {
+ if (n.isScriptAnonymous(n)) { break; } else { final String
+ scanVars(n, __SOURCENAME_PROP);
+sourceName = (String) n.getPropValue(); if (sourceName == null)
+ n.addChild(Node.SOURCENAME_PROP);
+ if (n == null) { return (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { break; }
+ if (n.getProp == null) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else if (n.isSourceAnonymous(n)) { final String
+ scanChildren(n);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getFirstChild(); } final String
+sourceName  += n.getString();
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. getFirstChild(); } String
+ n.getString() += (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) sourceName;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (sourceName!= null) {
+sourceName = (String) n.getProp(0)); if (n == null) {
+ scanVars(n, Context.SOURCENAME_PROP);
+ scanVars(block, n);
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. getNext(); final String
+ n.setName(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp()); if (sourceName == null) {
+ scanVars(n, Symbol.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getNext().getValue();
+ scanChildren(n,SOURCENAME_PROP);
+ if (n.isScript() ) { String
+ if (n!= null) { final String
+ scanVars(n, parent, Const.SOURCENAME_PROP);
+ name=n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent, Token.SOURCENAME_PROP);
+ declareVar(Node.SOURCENAME_PROP);
+ scanVars(n, NameNode.SOURCENAME_PROP);
+ scanVars(n, nodeUtil.SOURCENAME_PROP);
+sourceName = (String) n; default:
+ if (n == null) { return false;
+sourceName = (String) n.getProp(0); scanVars(n, sourceName, block, n);
+sourceName = (String) n.getProp(1); if (sourceName == null)
+sourceName = (String) n.getProp(null); scanVars(n);
+ scanVars(script, n);
+sourceName = (String)  n.getAttribute(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); scanVars(n, parent, n);
+sourceName = (String) n.getProp(Node.SCRIPT); if ( sourceName!= null )
+sourceName = (String) n.getFirstChild;
+ if (NODE.SCRIPT) { final String
+ scanVars(n, $SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); scanVars(n);
+ if (n!= null) { return n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, n, ScriptNode.SOURCENAME_PROP);
+ n.setToken(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; }
+ n.setNextChild(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(null); scanVars(n, parent, n);
+sourceName = (String)  n.getProperty(Node.SOURCENAME_PROP);
+ n = n. getNext ( );
+sourceName = (String) n.getProp(true); scanVars(n);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if ( sourceName == "null") {
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. getFirstChild ( ) ; String
+ switch (n.getType() { case Token.STRING: if (n.isString(n)) { n.getNext();
+ if (n!= null) { delete n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) { return (String) n.getProp(Node.SOURCENAME_PROP);
+ scanScript(n, n);
+ scanVars(n, parent, Context.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. next ; } n.
+sourceName = (String)  n.getFirstChild().getString(); }
+ if (n.getFirstChild().isName) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getNextChild(); }
+ if (n!= null) { namespace=n.getProp(Node.SOURCENAME_PROP);
+ if (n.getProp!= null) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT.NAME);
+ if (n == null) { declareVar(n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getFirstChild ( ) ; String
+sourceName = (String) n.getProp(null); scanVars(sourceName);
+ scanVars(n, ctx);
+ if (NodeUtil.isScriptAnonymous) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(node, n);
+ scanVars(Const.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getFirstChild;
+ scanVars(n, parent, AstNode.SOURCENAME_PROP);
+sourceName = (String) (Prop) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if ( sourceName!= sourceName ) {
+ n.setLastChild(Node.SOURCENAME_PROP);
+ n.getNext().getString()= (String) n.getProp(Node.SOURCENAME_PROP);
+ switch (n.getType() { case Token.STRING: if (n.isString(n)) { n.getNext().
+ switch (n.getType() { case Token.STRING: if (n instanceof String) { n = n.getNext();
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. nextChild ; } String
+ if (n.getFirstChild().isString) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) {n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); scanVars(sourceName, n, parent);
+ if (n == null) { n = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getPropNode(Node.SOURCENAME_PROP);
+ if (n!= null) { declareScope(n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n.getNext(),Node.SOURCENAME_PROP);
+ n.getString() *= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) { varName=(String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default : return ; } final String
+ scanVars(n, n,Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { break; } final String
+ scannerVars(n,SOURCENAME_PROP);
+ n.getFirstChild().value= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, INSOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { break; } else { n = n. nextChild ; } String
+ switch (n.getType() { case Token.STRING: final String
+sourceName = (String) n.getProp(0); scanVars(sourceName);
+sourceName = (String) n.getProp(true); scanVars(sourceName);
+sourceName = (string) n.value;
+ if (n instanceof ScriptNode) { final String
+ scanVars(n, child,Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { break ; } default : { final String
+ if (n.isScriptAnonymous(n)) { break; } else { break; } final String
+ if (n.isScriptAnonymous(n)) { return; final String
+ switch (n.getType() { case Token.STRING: if (n.isString(n)) { n.parent.
+ scanChildren(n, Scope.SOURCENAME_PROP);
+ scanVars(CONSOURCENAME_PROP);
+sourceName = (String) n.getProp(Token.SCRIPT);
+ if (n == null) { n = node.getProp(Node.SOURCENAME_PROP);
+ n.getSecondChild().getString()= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(NodeUtil.SCRIPT);
+ switch (n.getType() { case Token.STRING: if (n instanceof String) { n = n. next; String
+ { String name = (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default: final String
+ n.getFirstChild().getString() |= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { break; } final String
+ scanVars(n, UNSOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { String
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. next ; } String
+ switch (n.getType() { case Token.STRING: case Token.OBJECT: final String
+sourceName = (String) n.getProp(Node.SCRIPT).getString();
+ case Token.STRING: String
+sourceName = (String)  n.getPropProp(Node.SOURCENAME_PROP);
+ scanVars(n).getProp(Node.SOURCENAME_PROP);
+ if (n.isScript(n)); { String
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. getNext ( ) ; String
+sourceName =  n.getText() ;
+ scanVars(n, AstNode.SOURCENAME_PROP);
+ switch (n.getType() { case Token.STRING: if (n.isString(n)) { n.next().
+sourceName  = n.String();
+ if (n == null) { declareName(n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(true); scanVars(n, parent, n);
+sourceName = (String) n.getProp(0); scanVars(script, n, parent);
+ switch (n.getType() { case Token.STRING: if (n instanceof String) { n = n. next(); String
+ declareVar(n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, NODE.SOURCENAME_PROP);
+ scanVars(n);;
+ n.getFirstChild = null;
+ switch (n.getType() { case Token.STRING: if (n instanceof String) { n = n.next();
+ if (n.getFirstChild == n) n.getProp(Node.SOURCENAME_PROP);
+ n.getNext().getString() += (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n == null) { return null;
+ if (n.isScriptAnonymous(n)) { final final String
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if ( sourceName!= null )
+ if (n.getFirstChild!= null) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NODE);
+ scanVars(Scope.SOURCENAME_PROP);
+sourceName = (String) n.data;
+sourceName = (String) n.getProp(null); scanVars(sourceName, n.getNext);
+ if (n!= null) { n = (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. next ; final String
+ switch (n.getType() { case Token.STRING: if (n instanceof String) { n = n.next;
+ n = parent;
+sourceName = (String) n.getProp(Node.NODE_SCRIPT);
+ scanVars(n, NODE_SOURCENAME_PROP);
+ scan(Token.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT) ; if (skip) {
+ scanVars(n, n);;
+ declareName(n.getProp(Node.SOURCENAME_PROP);
+ n = node.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, SCRIPT_SOURCENAME_PROP);
+ if (n == null) { return n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent, ScopedNode.SOURCENAME_PROP);
+ scanChildren(n, Node.SOURCENAME_PROP);
+ n.getLastChild().getString()= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); scanVars(sourceName, n, n);
+ if (n.isScriptNode(n)) { this.
+ if (n == null) { n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScript(n)) { this.
+sourceName = (String) n.getProp(Node.SCRIPT) ; child = n ;
+sourceName = (String) n.getProp(Node) ;
+sourceName = (String) n.getProp(Node.SCRIPT_NAME_PROP);
+sourceName = (String) n.getProp(Token.SCRIPT_NAME);
+sourceName = (String) n.getProp(Node.SCRIPT) ; if (ignore) {
+sourceName  = n.getNext().getString(); }
+ scanVars(n.getFirstChild,Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + name;
+ if (n.isScriptAnonymous(n)) { return; } else { break; } default: final String
+ if (n.isScriptAnonymous(n)) { return; } else { final final String
+ n.getLastChild().getString= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n == null) { namespace = (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { this.
+ if (n.isScriptAnonymous(n)) { break; } else { String
+sourceName = (String) n.getProp(NodeName);
+ scanVars(n, n).removeProp(Node.SOURCENAME_PROP);
+ scanChildren(n, Token.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { final SourceName
+ scanVars(n, block,Node.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getFirstChild(); }
+ if (n!= null) { assert n.getProp(Node.SOURCENAME_PROP);
+ n.getSecondChild().getString= (String) n.getProp(Node.SOURCENAME_PROP);
+ n.getFirstChild() = null;
+ if (n == null) { String
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (n == null) {
+sourceName = (String) n.getProp().getString(); child = n ;
+ scanVars(n.getNext(), ScriptNode.SOURCENAME_PROP);
+ if (n.isScriptName()) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT).value;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (skip) {
+ if (n.isScriptAnonymous(n)) { return ; } default : { String
+sourceName = (String) n.getProp(NodeUtil.getName(n)) ;
+ if (n.getNext().isScript()) n.getProp(Node.SOURCENAME_PROP);
+ n.getFirstChild = n;
+sourceName = (String) n.getProp(Token.SCRIPTNAME);
+ if (n.isScriptAnonymous(n)) { return; } else { return; } default: final String
+ scanVars(n, FunctionNode.SOURCENAME_PROP);
+sourceName  = n.getFirstChild(); }
+ n.getFirstChild().getString()||= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.getNext().prop(Node.SOURCENAME_PROP);
+ if (n.getNext().isName) n.getProp(Node.SOURCENAME_PROP);
+ n.getNext().getString() *= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild(); {
+ ScanVars(n,SOURCENAME_PROP);
+ scanVars(Names.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } break; default: final String
+sourceName = (String) n.getProp(0).getString(); child = n ;
+ if (n.getProp(null) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(token.SCRIPT);
+ switch (n.getType() { case Token.NAME): String
+ scanVars(*SOURCENAME_PROP);
+sourceName = (String) n.getProp(1); scanVars(sourceName);
+ case Token.COMMENT: String
+ scanVars(n, Scopes.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT).getString(true);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP); child = n ; default :
+ n.getNextChild(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropositionedChild().getString();
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; case Token.NAME:
+ if (n instanceof Node) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getNextChild(); }
+ if (n.isScriptAnonymous(n)) { return; } default : { return ; } String
+ if (n.isScriptAnonymous(n)) { return; } else { break; } String
+ scanVars(scriptNode);
+ if (n.getFirstChild == null) n.getProp(Node.SOURCENAME_PROP);
+ n.getNextChild().getString= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default : { return ; } } final String
+sourceName = (String) n.getProp(0).getString() ;
+sourceName = (String) n.getProp(0)); scanVars(sourceName);
+sourceName = (string) n.getFirstChild(); }
+ switch (n.getType() { case Token.STRING: case Token.OBJECT: { String
+ scanVars(n.getNext(), Scope.SOURCENAME_PROP);
+sourceName = (String) n.getProp().getString() ;
+sourceName = (String) n.getProp(Node.SCRIPT_NAME_KEY);
+ if (n.getString().isString) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; case Token.STRING:
+ scanVars(script, n);;
+ if (n!= null) { namespaceName=(String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default : break ; } String
+ scanVars(Token.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT) ; if (break) {
+ if (n == null) { declareName=(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SRC_NAME);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + "." + sourceName;
+ scanVars(n, n); declareProp(Node.SOURCENAME_PROP);
+ (break);
+ if (n.isScriptAnonymous(n)) { return; } else { break ; } default : { String
+sourceName = (String) n.getProp(Node.SCRIPT); }
+ scanVars(n, ConstNode.SOURCENAME_PROP);
+sourceName = (String) n.getFirstChild().getValue;
+ if (n == null) return (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, n); declareProperty(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (ignore) {
+sourceName  = "script";
+ scanVars(block, n;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; default:
+ n = n.getNext(Node.SOURCENAME_PROP);
+ scanVars(node,SOURCENAME_PROP);
+ switch (n.getType() { case Token.STRING: case Token.OBJECT: } String
+sourceName = (String) n.getProp(0) ; child = n ;
+ if (n!= null) { declareName=(String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, parent, ScriptScope.SOURCENAME_PROP);
+ scannerVars(Node.SOURCENAME_PROP);
+ n.getSecondChild().getString() += (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } break; default : { String
+ n.getNextChild().name= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n.getNext(), Token.SOURCENAME_PROP);
+sourceName = (String) n.getPropName(); if (skip) {
+ n.getNext().setString(Node.SOURCENAME_PROP);
+ scanCalls(n);
+ scanVars(script, n;
+ if (n.isScriptNode(n)) { NodeName
+sourceName  = n.value();
+ if (n == null) { declareProperty(Node.SOURCENAME_PROP);
+ if (n.isScript(n)) { NodeName
+ if (n!= null) name=n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); child = n ; default :
+ if (n.isScriptAnonymous(n)) { return; } else { n = n. nextChild ; String
+ break; default: n = n.next(Node.SOURCENAME_PROP);
+sourceName  = n.content;
+sourceName = (String) n.getProp(Node.SRCNAME);
+ if (n.getName().isString) n.getProp(Node.SOURCENAME_PROP);
+ scanVars($SOURCENAME_PROP);
+ n.setNextToken(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); child = n ; }
+ { varName = (String) n.getProp(Node.SOURCENAME_PROP);
+ namespace = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) (Object) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default: String
+sourceName = (String) n.getPropValue(); if (skip) {
+ if (n instanceof Scope) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; }
+ if (n) { String
+ scanVars(n, ScriptScope.SOURCENAME_PROP);
+sourceName = (String)  getProp(Node.SOURCENAME_PROP);
+ n = (ScriptNode) n.getProp(Node.SOURCENAME_PROP);
+ if (n.getParent().isString) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0).getString(0);
+sourceName = (String) n.getProp(Node.SCRIPT).getString(0);
+sourceName = (String) n.getProposal().getString();
+sourceName = (String) ;
+ if (n!= null) n=n.getProp(Node.SOURCENAME_PROP);
+ if (n == null) { return node.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, n); declareName(Node.SOURCENAME_PROP);
+ if (n == null) { declareProp(Node.SOURCENAME_PROP);
+ if (n!= null) return (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName  = n.string();
+ scanVars(n, n1);
+ n = n.getNextChild(Node.SOURCENAME_PROP);
+ if (n.getString()) return (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(n, n).removeProperty(Node.SOURCENAME_PROP);
+sourceName = (String)  node.get(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropositionedNode();
+sourceName = (String) n.getPropValue(); child = n;
+ if (n instanceof Script): String
+ if (n instanceof Script): { String
+ if (n.isScriptAnonymous(n)) { return; } default : return ; } } String
+ declareScript(n.getProp(Node.SOURCENAME_PROP);
+ namespaceName = (String) n.getProp(Node.SOURCENAME_PROP);
+ n.getNextChild().value= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(true); child = n;
+ scanChildren(n, parent);
+ if (n == null) { declareName(Node.SOURCENAME_PROP);
+ if (n == null) { delete n.getProp(Node.SOURCENAME_PROP);
+ n = n.nextChild;
+ n.getLastChild().name= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp().getString(true);
+ String name= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) { --n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(NodeType.SCRIPT);
+ n = n.getFirstChild(Node.SOURCENAME_PROP);
+ scanVars(n, node,Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropositionedFirstChild();
+ scanVars(n, ScriptKind.SOURCENAME_PROP);
+ if (script) { script = n.getProp(Node.SOURCENAME_PROP);
+ if (n == null) { declareVar(Node.SOURCENAME_PROP);
+ n.getString()||= (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default : { return ; } } } String
+ n.addExtraContext(Node.SOURCENAME_PROP);
+ case Node.NAME: String
+ scanVars(block,SOURCENAME_PROP);
+ if (n.isScriptNode) n.getProp(Node.SOURCENAME_PROP);
+sourceName  = n.getString(); }
+ n.setNameProperty(Node.SOURCENAME_PROP);
+ if (n instanceof ScriptNode) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(__SOURCENAME_PROP);
+ scanVars(n, Consts.SOURCENAME_PROP);
+ switch (n) { final String
+ if (n == null) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } default : break ; } }
+ if (n.getProp()) n.getProp(Node.SOURCENAME_PROP);
+ scannerVars(SOURCENAME_PROP);
+ if (n.getString() == (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) { namespace=(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT).getValue();
+ if (n.isName()) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  node.getProp(Node.SOURCENAME_PROP);
+ var.setString(String) n.getProp(Node.SOURCENAME_PROP);
+ if (n!= null) {!n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropName();
+ child = n;
+ { final String name = (String) n.getProp(Node.SOURCENAME_PROP);
+ if (script) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0); child = null; }
+ switch (n.getType() { case Token.STRING: case Token.OBJECT: })
+ if (n.getName() == (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n) { return (String) n.getProp(Node.SOURCENAME_PROP);
+ { n = n.getProp(Node.SOURCENAME_PROP);
+sourceName  = fnName;
+ scanChildren(Node.SOURCENAME_PROP);
+sourceName = (String) n; child = n ;
+ var = n.next().getProp(Node.SOURCENAME_PROP);
+ n.getString() |= (String) n.getProp(Node.SOURCENAME_PROP);
+ { n = n.getNext(Node.SOURCENAME_PROP);
+ switch (n.getType() { case Token.STRING: case Token.OBJECT: } var
+sourceName  = null;
+ scanChildren(n, Const.SOURCENAME_PROP);
+ break; default: n.setToken(Node.SOURCENAME_PROP);
+ n.setString(String) n.getProp(Node.SOURCENAME_PROP);
+ n = null;
+ if (n.isScript(n) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(scriptNode).getProp(Node.SOURCENAME_PROP);
+sourceName  = n.nextString();
+ { var.setString(String) n.getProp(Node.SOURCENAME_PROP);
+ n.setProp(Node.SOURCENAME_PROP);
+ n.getStringName()= (String) n.getProp(Node.SOURCENAME_PROP);
+ declareName(Node.SOURCENAME_PROP);
+ scanVars(Constants.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + "." + name;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NAMED);
+ scanSrc(n);
+ n = node;
+sourceName = (String) n.getProp(NodeUtil.SCRIPT); }
+ n = block;
+ if (n instanceof Symbol) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp().getString(); default:
+ declareScope(n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) (Node) n.getProp(Node.SOURCENAME_PROP);
+ break; default: n.setType(Node.SOURCENAME_PROP);
+ if (true) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Token.SRCNAME);
+ ignoreVars(n;
+sourceName = (String) n.getProp(token.SCRIPTNAME);
+ n.getNext(); return;
+ scannerVars(n);
+ (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPNAME);
+ case Token.SOURCE: String
+ { break; } String
+ n.getNext().setName(Node.SOURCENAME_PROP);
+ scanScripts(n);
+sourceName  = n ; }
+ { String src = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName  = sourceNode;
+ root = n.getProp(Node.SOURCENAME_PROP);
+ n.append(Node.SOURCENAME_PROP);
+ node = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropositionedText();
+ scanNode(n);
+sourceName  = n.getString());
+sourceName = (String) n.getProp(0).getString(true);
+ n.setFirstChildType(Node.SOURCENAME_PROP);
+sourceName = (ScriptName) n.getProp(Node.SOURCENAME_PROP);
+ var = n.parent().getProp(Node.SOURCENAME_PROP);
+ if (n == null) { node.getProp(Node.SOURCENAME_PROP);
+ namespace = n.getProp(Node.SOURCENAME_PROP);
+ if (script) { delete script.getProp(Node.SOURCENAME_PROP);
+ if (n.isScriptAnonymous(n)) { return; } else { var
+ if (n == null) { parent.getProp(Node.SOURCENAME_PROP);
+ { Node srcName = n.getProp(Node.SOURCENAME_PROP);
+ varName = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPNAME_KEY);
+sourceName = (String) n.getProp(0).getFirstChild(0);
+ n.setFirstChildToken(Node.SOURCENAME_PROP);
+ n = (Scope) n.getProp(Node.SOURCENAME_PROP);
+ default: final String
+ { String srcName = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0).getString(1);
+ n.getNext() return;
+sourceName = (UTF-8-String) n.getProp(Node.SOURCENAME_PROP);
+sourceName  = sourceName;
+sourceName = (String) n.getPropName(n);
+sourceName = (String) n.getProp(Node.SCRIPTNAME);
+ { name: (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n
+ n = n.nextChild(Node.SOURCENAME_PROP);
+ if (n == null) ((String) n.getProp(Node.SOURCENAME_PROP);
+ { n.setFirstChild(Node.SOURCENAME_PROP);
+ declareProp(SOURCENAME_PROP);
+ case Node.NAME: n = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(String.valueOfSourceName);
+sourceName = (String) n.getProp(Node.SCRIPT).getString(); }
+sourceName = (String) n.getProp(Node.TYPE);
+ declareName(SOURCENAME_PROP);
+ if (n.getStringAsString) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(String.class.NAME);
+ scannerVars(n.getProp(Node.SOURCENAME_PROP);
+ default: { final String
+sourceName = (String) node;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; break; }
+ n.scriptName= (String) n.getProp(Node.SOURCENAME_PROP);
+ { n = (Node) n.getProp(Node.SOURCENAME_PROP);
+ declareScriptName(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(sourceName);
+ if (n.getType().String) n.getProp(Node.SOURCENAME_PROP);
+ n.push(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0) + name;
+ scanSrc(n.getProp(Node.SOURCENAME_PROP);
+ scanScript(Node.SOURCENAME_PROP);
+sourceName = (String) n.getPropositionedChild();
+sourceName = (String) n.getProp(0).getFirstChild(1);
+ var.name= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(scriptNode.getProp(Node.SOURCENAME_PROP);
+sourceName  = name;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPNAME_NAME);
+ var = ctx.getProp(Node.SOURCENAME_PROP);
+ scanChildren(Token.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + prefix;
+ break; default: n.setAttribute(Node.SOURCENAME_PROP);
+ if (n) { return n.getProp(Node.SOURCENAME_PROP);
+ scanJs(n);
+ break; default: n.setName(Node.SOURCENAME_PROP);
+ { final String src = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(SourceName.NAME);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP_NAME_KEY);
+ if (n == null) (String) n.getProp(Node.SOURCENAME_PROP);
+ scan(Const.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.NODE_SCRIPT); }
+sourceName = (String) n; }
+ scanVars(scoped).getProp(Node.SOURCENAME_PROP);
+ n = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; case null : {
+ n = (Program) n.getProp(Node.SOURCENAME_PROP);
+ if (scoped) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (break)
+ declareVariable(SOURCENAME_PROP);
+ n.getString()= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) (Property) n.getProp(Node.SOURCENAME_PROP);
+ declareProperty(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(1);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; } default:
+sourceName = (String[ ]) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) ( (Prop) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.name);
+ if (!n) { n=n.getProp(Node.SOURCENAME_PROP);
+ if (script) { return script.getProp(Node.SOURCENAME_PROP);
+ { String path = (String) n.getProp(Node.SOURCENAME_PROP);
+ declareVar(Const.SOURCENAME_PROP);
+ break; default: n.setNext(Node.SOURCENAME_PROP);
+ n.getString =(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPNAME) + name;
+sourceName = (String) n.getProp(Node::SCRIPT);
+ n.scriptName||= (String) n.getProp(Node.SOURCENAME_PROP);
+ declareVar(Token.SOURCENAME_PROP);
+ case Node.NAME: return n.getProp(Node.SOURCENAME_PROP);
+ { Node src = n.getProp(Node.SOURCENAME_PROP);
+ scanScriptName(n.getProp(Node.SOURCENAME_PROP);
+ break; default: final String
+ break ; default: n = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(LANGUAGE);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; default : {
+ { String script = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (string);
+sourceName = (String) n.getProposalNode() ;
+sourceName = (String)  n.prop(Node.SOURCENAME_PROP);
+ n.setString((String) n.getProp(Node.SOURCENAME_PROP);
+ scanScript(n,n.getProp(Node.SOURCENAME_PROP);
+ n.ungetProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp().getString(); default: {
+ declareVariable(Node.SOURCENAME_PROP);
+ n.parent = n;
+ scanCalls(n.getProp(Node.SOURCENAME_PROP);
+ if (n) { name=n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT).getValue;
+ scan(token.SOURCENAME_PROP);
+ declareProperty(SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node).getString();
+sourceName = (String) n.getProp(String. class);
+ if (!n) { name=n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + suffix;
+ { n = node.getProp(Node.SOURCENAME_PROP);
+ break; final String
+sourceName = (string) (Prop) n.getProp(Node.SOURCENAME_PROP);
+ { final String name = n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCE);
+sourceName  ++ ;
+ { return; } name=(String) n.getProp(Node.SOURCENAME_PROP);
+ (Node) n.getProp(Node.SOURCENAME_PROP);
+ ScanVars(SOURCENAME_PROP);
+sourceName = (String)  getProperty(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.Name);
+ var.getNext().getProp(Node.SOURCENAME_PROP);
+ scan(Context.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP); if (skip)) {
+ { return; } return(String) n.getProp(Node.SOURCENAME_PROP);
+ script = (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) + '.' ;
+sourceName = (String|Node) n.getProp(Node.SOURCENAME_PROP);
+ n = parent.next;
+ var = rootNode.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  n.next(Node.SOURCENAME_PROP);
+ final String name= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) ( (Object) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp( 'name' );
+ case Node.NAME: name=(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) ( (Property) n.getProp(Node.SOURCENAME_PROP);
+ { var.getString =(String) n.getProp(Node.SOURCENAME_PROP);
+ { n.getProp(Node.SOURCENAME_PROP);
+ scanCalls(Node.SOURCENAME_PROP);
+sourceName = (String|Null) n.getProp(Node.SOURCENAME_PROP);
+ scansVars(SOURCENAME_PROP);
+ { var.setString((String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) ( (Node) n.getProp(Node.SOURCENAME_PROP);
+ break ; default: name = n.getProp(Node.SOURCENAME_PROP);
+ declareProp(Node.SOURCENAME_PROP);
+ { varName = n.getProp(Node.SOURCENAME_PROP);
+ { Node srcename=n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0).value;
+ return (Node) n.getProp(Node.SOURCENAME_PROP);
+ final String srcName= (String) n.getProp(Node.SOURCENAME_PROP);
+ break; } else { name=(String) n.getProp(Node.SOURCENAME_PROP);
+ scanVars(); return;
+ if (n.isNameString) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; default: return;
+sourceName = (string) n
+ n = (Statement) n.getProp(Node.SOURCENAME_PROP);
+ n.scriptName *= (String) n.getProp(Node.SOURCENAME_PROP);
+ return n;
+ return node.getProp(Node.SOURCENAME_PROP);
+ { Node scopedName=n.getProp(Node.SOURCENAME_PROP);
+sourceName = (SrcName) n.getProp(Node.SOURCENAME_PROP);
+ { Node scName = n.getProp(Node.SOURCENAME_PROP);
+ { child = n;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; if (debug)
+ { final Node src = n.getProp(Node.SOURCENAME_PROP);
+ case 1: { varName=(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(NodeType.NAME);
+ case Token.STRING: name=(String) n.getProp(Node.SOURCENAME_PROP);
+ var name = (String) n.getProp(Node.SOURCENAME_PROP);
+ if (n.isEmptyString) n.getProp(Node.SOURCENAME_PROP);
+ n.scriptName |= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp().getString(); }
+ n.scriptName += (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT));
+sourceName = (String) {
+ case Node.STRING: name=(String) n.getProp(Node.SOURCENAME_PROP);
+ { Node scname = n.getProp(Node.SOURCENAME_PROP);
+ break ; default : { String
+ { String name = n.getProp(Node.SOURCENAME_PROP);
+sourceName  = null
+ { name = (String) n.getProp(Node.SOURCENAME_PROP);
+ { Node name = n.getProp(Node.SOURCENAME_PROP);
+ case Token.STRING: namespace =(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0) ; }
+ { n = parent;
+ case Token.STRING: var=(String) n.getProp(Node.SOURCENAME_PROP);
+ varNode = n;
+sourceName = (String)String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(name);
+sourceName =  n; default: {
+ case Node.NAME: namespace =(String) n.getProp(Node.SOURCENAME_PROP);
+ final String scriptName= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(name); default:
+ if (all) n.getProp(Node.SOURCENAME_PROP);
+ break; } String
+ final String sourceName= (String) n.getProp(Node.SOURCENAME_PROP);
+ scanSrcName(n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getNext;
+ n.setName(String) n.getProp(Node.SOURCENAME_PROP);
+ (Script) n.getProp(Node.SOURCENAME_PROP);
+ var.getNext.getProp(Node.SOURCENAME_PROP);
+ varNode = n.getProp(Node.SOURCENAME_PROP);
+ n.setString()(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPNAME); }
+sourceName = (String) n.getProp(SourceName. class);
+ (Program) n.getProp(Node.SOURCENAME_PROP);
+ { return; } namespace =(String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.content;
+ var = n.ungetProp(Node.SOURCENAME_PROP);
+sourceName = (string)
+sourceName = (String) n.getProp(true);
+sourceName = (String) n.getProp(name, sourceName);
+ { n = null;
+sourceName = (String) n.getPropage();
+sourceName = (String) getChild(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SCRIPT); {
+ String src= (String) n.getProp(Node.SOURCENAME_PROP);
+ n.skip(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(name, false);
+ break ; default: String
+sourceName = (String) n.getProp(string.class);
+sourceName = (String) n.getProp(Node.STRIPT);
+sourceName = (String) n.getProp(0, 1);
+ case Node.NAME: delete n.getProp(Node.SOURCENAME_PROP);
+ String srcName= (String) n.getProp(Node.SOURCENAME_PROP);
+ break ; default : n = node.getProp(Node.SOURCENAME_PROP);
+ var = nextChild;
+ (Scope) n.getProp(Node.SOURCENAME_PROP);
+ scanCallee(n.getProp(Node.SOURCENAME_PROP);
+ return Token.SOURCENAME_PROP);
+sourceName = (VariableName) n.getProp(Node.SOURCENAME_PROP);
+ ignore(n);
+ scanScript(node);
+ src=n.getProp(Node.SOURCENAME_PROP);
+sourceName  = n
+ scanSrcName=n.getProp(Node.SOURCENAME_PROP);
+ (return);
+ final String src= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(0).value();
+sourceName = (String)  eat(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; default : { }
+ String scriptName= (String) n.getProp(Node.SOURCENAME_PROP);
+ (Token.SOURCENAME_PROP);
+ node.getProp(Node.SOURCENAME_PROP);
+ parse(n);
+ n.forgetProp(Node.SOURCENAME_PROP);
+ assert n.getProp(Node.SOURCENAME_PROP);
+ scan($n);
+ warn(SOURCENAME_PROP);
+ break; String
+ } return;
+sourceName = (String) n.getProp(Node name);
+ scanVars(-SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SRC);
+ return n);
+ declare(SOURCENAME_PROP);
+sourceName = (String) {}
+ return();
+sourceName = (String) n.getProp(null);
+sourceName = (LocalName) n.getProp(Node.SOURCENAME_PROP);
+ name += (String) n.getProp(Node.SOURCENAME_PROP);
+ { String
+sourceName = (VariableNode) n.getProp(Node.SOURCENAME_PROP);
+ path=n.getProp(Node.SOURCENAME_PROP);
+sourceName  = ;
+sourceName = (String) n.getProp(namespace);
+sourceName = (name);
+sourceName = (String) n.getProp(1); }
+sourceName = (String)  get(Node.SOURCENAME_PROP);
+sourceName = (StringImpl) n.getProp(Node.SOURCENAME_PROP);
+ case: String
+ if ((String) n.getProp(Node.SOURCENAME_PROP);
+ parse(SOURCENAME_PROP);
+ visit(Node.SOURCENAME_PROP);
+ { break; } var
+sourceName = (String) n.getProp(0); {
+ throw Error.SOURCENAME_PROP);
+ String script= (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(nameProp);
+ declare(Node.SOURCENAME_PROP);
+ ${ (String) n.getProp(Node.SOURCENAME_PROP);
+ skip(Node.SOURCENAME_PROP);
+ visit(SOURCENAME_PROP);
+ if (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) name;
+sourceName = (String) n.getProp(Node.SOURCENAME_PROPKEY);
+sourceName = (String) n.getProp(0..);
+ parse(Node.SOURCENAME_PROP);
+ (Node.SOURCENAME_PROP);
+ return true;
+ { static String
+ return false;
+sourceName = (String) n.getProp( ".");
+sourceName = (String) n.getProp(Node()) ;
+ return ((String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node); }
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) break;
+ nn.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  peek(Node.SOURCENAME_PROP);
+ parent.getProp(Node.SOURCENAME_PROP);
+ child.getProp(Node.SOURCENAME_PROP);
+sourceName = (String)  read(Node.SOURCENAME_PROP);
+ c.getProp(Node.SOURCENAME_PROP);
+ break; }
+sourceName = (String)  lookup(Node.SOURCENAME_PROP);
+ nt.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ; else
+sourceName = (String) n.getProp(Node.SOURCENAME_PROP) ;;
+sourceName = (String) n; {
+sourceName = (String)) {
+sourceName = (String) n; else
+ NodeName
+ Node String
+sourceName += (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (String) n.getProp(2);
+sourceName = (string) n.getProp(Node.SOURCENAME_PROP);
+ string
+sourceName := (String) n.getProp(Node.SOURCENAME_PROP);
+sourceName = (Name) n.getProp(Node.SOURCENAME_PROP);
+sourceName -= (String) n.getProp(Node.SOURCENAME_PROP);
+ var
+sourceName = (Node) n.getProp(Node.SOURCENAME_PROP);

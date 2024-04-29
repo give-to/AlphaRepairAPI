@@ -1,0 +1,957 @@
+if (assign.getLastChild()!= null
+if (assign!= null
+if (assign
+ else if(assign.getLastChild().getType() == Token.FUNCTION
+ if (Token.FUNCTION
+ if (object.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isBlock()
+ else if (assign.getType() == Token.FUNCTION
+ if (getType() == Token.FUNCTION
+ if (assign.getLastChild().getType() == Token.FUNCTION
+ else
+ if (().getType() == Token.FUNCTION
+if (foundInterfaceProperty
+ if (getLastChild().getType() == Token.FUNCTION
+ else if (rvalueType.getType() == Token.FUNCTION
+ if (assign.getType() == Token.FUNCTION
+if  (!foundInterfaceProperty
+if (assign.getLastChild().isBlock
+ if (assign().getType() == Token.FUNCTION
+ if (object.getType() == Token.FUNCTION
+ if (() == Token.FUNCTION
+ else if (assign.getFirstToken() == Token.FUNCTION
+ else if (assign.getFirstChild().getType() == Token.FUNCTION
+ else { compiler. report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName); }
+ else if (assign.parent().getType() == Token.FUNCTION
+ if (assign).getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName);
+ else if (INTERFACE_FUNCTION
+if (assign.getLastChild(isEmptyBlock())
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, property); }
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY); }
+ if (.getType() == Token.FUNCTION
+ if (== Token.FUNCTION
+ } else if(assign.getLastChild().getType() == Token.FUNCTION
+ if (INTERFACE_FUNCTION
+ else { compiler. report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName)); } } else
+ else if (assign.getNext().getType() == Token.FUNCTION
+ else { compiler. report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName); } } else
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS); }
+ else { compiler. report(T, object, INTERFACE_FUNCTION_MEMBERS_ONLY, property); }
+ } else if (assign.getFirstChild().getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS_ONLY); }
+ if (object).getType() == Token.FUNCTION
+ else if (assign.getParent().getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS_OFFLY); }
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName); } else
+ else { compiler. report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName)); } else
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS); } else
+ } else if (assign.getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY); } else
+ if (type!== Token.FUNCTION
+if (assign.isLastChild(...)
+ if (type== Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS_OFFLY);
+ else if (!foundInterfaceProperty) { if(assign.getLastChild().getType() == Token.FUNCTION
+ else if (getToken(object) == Token.FUNCTION
+ else if (object.getLastChild().getType() == Token.FUNCTION
+ if () == Token.FUNCTION
+ else if (getFirstChild(object).getType() == Token.FUNCTION
+ else if ((assign.getLastChild().getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NOT_EMPTY);
+if (assign.getLastChild().getType() ==  "block"
+if (assign.isEmpty()
+ } else if (assign.getFirstToken() == Token.FUNCTION
+ else if (assign.getTokenType() == Token.FUNCTION
+ else { compiler. report(T, object, INTERFACE_FUNCTION_MEMBERS_ONLY, property); } else
+if (assign.getLastChild() &&!(assign.getLastChild()
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS_ONLY); } else
+ else { compiler. report(T, object, INTERFACE_FUNCTION_NOT_EMPTY, property); } else
+ else if (assign.getFirstTokenType() == Token.FUNCTION
+if (assign.isLastChild()
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS); } }
+ if (object().getType() == Token.FUNCTION
+ else if (assign.getToken() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBERS);
+if (assign.hasLastChild()
+ else if (!foundInterfaceProperty) if(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (object instanceof INTERFACE_FUNCTION
+ } else if (rvalueType.getType() == Token.FUNCTION
+ if (assign.parent().getType() == Token.FUNCTION
+ } else if (INTERFACE_FUNCTION
+ else if (type == Node.FUNCTION
+ else if (type == INTERFACE_FUNCTION
+ else { compiler. report(T, object, INTERFACE_FUNCTION_MEMBERS_ONLY, property); } }
+ } else if (assign.getTokenType() == Token.FUNCTION
+ else if (assign.getFirstType() == Token.FUNCTION
+ } else if (assign.getParent().getType() == Token.FUNCTION
+ if (token!== Token.FUNCTION
+ else if (assign.getKind() == Token.FUNCTION
+ else if (lvalue!== Token.FUNCTION
+ else if (object.getType() == Token.FUNCTION
+ } else if (type == INTERFACE_FUNCTION
+ else if (assign.getToken().getType() == Token.FUNCTION
+ else if (rvalueType.getLastChild().getType() == Token.FUNCTION
+ if (assign.getLastChild().getType() == Token.CLASS)
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NONE); }
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MISSING); }
+ if ((().getType() == Token.FUNCTION
+ else if (assign.next().getType() == Token.FUNCTION
+if (assign.isBlock()
+ else if (assign.getLastChild().getType() == Token.CLASS)
+ } else if (assign.getNext().getType() == Token.FUNCTION
+if (assign.getLastChild().isEmptyBlock()
+ if (.getLastChild().getType() == Token.FUNCTION
+ else if (getLastChild().getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_ANY); }
+if (assign.hasChildren()
+ else { compiler.report(T, object, INTERFACE_FUNCTION_ALL); }
+ else { compiler.report(T, object, INTERFACE_FUNCTION_EMPTY); }
+ else if (assign.getLastToken() == Token.FUNCTION
+if (assign.getLastChild().getType().isBlock()
+if (assign.getLastChild() &&!(assign.isBlock()
+ if (assign.getLastChild().getType() == Token.CLASS) {
+ if (assign.getLastChild().getType() == Token.FUNCTION) {
+ } else if (! foundInterfaceProperty && (assign!= null)
+ if assign.getLastChild().getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty || (assign!= null
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NONNULL); }
+ if (assign.getLastChild().getType() == Token) {
+if (assign.getLastChild() &&!(assign.isEmptyBlock()
+if (assign.hasLastChild
+ } else if (assign.firstToken!== Token.FUNCTION
+ } else if (! foundInterfaceProperty || (assign!= null)
+ else if (rvalueType!== Token.FUNCTION
+ else if (assign.getLastTokenType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION); }
+ if ((assign).getType() == Token.FUNCTION
+ else if ((assign.getFirstChild().getType() == Token.FUNCTION
+if  (!assign.isEmpty()
+ else if (token!== Token.FUNCTION
+ else if (assign.getType()!== Token.FUNCTION
+if (assign.isFirstChild().isEmptyBlock()
+ } else if (!foundInterfaceProperty) { if(assign.getLastChild().getType() == Token.FUNCTION
+ } else
+ else if (assign.getFirstTick().getType() == Token.FUNCTION
+if  (assign.isLastChild(object)
+ else if (assign.type() == Token.FUNCTION
+ else if (getFirstChild().getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_NAME); }
+ else if (node.getType() == Token.FUNCTION
+ else { compiler.report(T, object, INTERFACE_FUNCTION_MEMBER); }
+ else if (assign.getTokenKind() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isEmpty()
+ else if (object instanceof INTERFACE_FUNCTION
+ else if (assign.getNextTokenType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isBlock()
+ } else if (assign.parent().getType() == Token.FUNCTION
+if (assign.isEmptyBlock()
+ } else if (! foundInterfaceProperty ) { if (assign.hasLastChild()
+ } else if (! foundInterfaceProperty && assign. isBlock ( )
+ } else if (! foundInterfaceProperty ) { if (assign!= null
+ else if (assign.getLastChild().getType() == Token.FUNCTION) {
+ else if (assign.last().getType() == Token.FUNCTION
+if (assign.isEmpty (...)
+ if (getToken(object) == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isLastChild()
+ else if ( (assign.getLastChild().isBlock())
+ else if (getLastChild(object).getType() == Token.FUNCTION
+ else if (assign.getLastChild().getType() == Token.CLASS) {
+ if (node.type() == Token.FUNCTION
+ } else if (lvalue!== Token.FUNCTION
+ else if (getToken(object).getType() == Token.FUNCTION
+if (assign.getLastChild() && (assign.getLastChild()
+ } else if (! foundInterfaceProperty ) { if (assign.isEmptyBlock()
+ else { compiler.report(T, object, INTERFACE_FUNCTION); } else
+ } else if ((assign.getLastChild().getType() == Token.FUNCTION
+ else if (assign.firstToken!== Token.FUNCTION
+ else if (assign.getLastChild().getType() == Token) {
+if (assign.isBlock
+if (assign.isLastChild().isBlock()
+ if (rvalueType.getType() == Token.FUNCTION
+if (assign.isEmptyFunction()
+ if (!FUNCTION
+if (assign.isLastChild().isEmptyBlock()
+ } else if (null==assign.getLastChild().getType() == Token.FUNCTION
+ if (assign.getFirstChild().getType() == Token.CLASS)
+ else if (object.getToken ( )!== Token.FUNCTION
+ } else if (! foundInterfaceProperty &&! foundSuperClass &&! foundInterface
+if  (assign.isFirstChild(object)
+ else if ((assign).getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isEmptyFunction()
+if (assign.getLastChild().getType() != null
+ if (assign.getLastChild().getType() == Token.FUNCTION)
+ else if (getTokenType(object) == Token.FUNCTION
+ else if (assign.getLastChild().getType() == Token)
+ else if (! foundInterfaceProperty && lvalue.getType() == Token.FUNCTION
+ } else if (type == Node.FUNCTION
+ } else if (! foundInterfaceProperty &&! foundSuperclass &&! foundInterface
+ } else if (! foundInterfaceProperty || (assign.isBlock()
+ else if (!foundInterfaceProperty && (assign.getLastChild().getType() == Token.FUNCTION
+if  (assign.hasLastChild(...)
+ } else if (! foundInterfaceProperty ) { if (assign.isLastChild(...)
+ } else if (getFirstChild(object).getType() == Token.FUNCTION
+ else if (assign.next ( )!== Token.FUNCTION
+ if (! foundInterfaceProperty && rvalueType.getType() == Token.FUNCTION
+ } else if (assign.type!== Token.FUNCTION
+ else if (object.getToken() == Token.FUNCTION
+ if (assign.getLastChild().isEmptyBlock()) {
+ else { if (assign.getLastChild().getType() == Token.FUNCTION
+ else if (type!== Token.FUNCTION
+ else if (type == NodeType.FUNCTION
+ else if (assign.type!== Token.FUNCTION
+ if (assign.getFirstChild().getType() == Token.CLASS) {
+ } else if (! foundInterfaceProperty ) { if (assign.hasChildren()
+ else if (type!= INTERFACE_FUNCTION
+ else if (assign.getFirstChildToken().getType() == Token.FUNCTION
+ else if (null==assign.getLastChild().getType() == Token.FUNCTION
+ } else if (type!= INTERFACE_FUNCTION
+ } else if (! foundInterfaceProperty &&! foundSuperClass &&! foundInterfaceInterface
+ if (token(object) == Token.FUNCTION
+if (assign.getLastChild() && (assign.getLastChild!= null
+ else if (assign.isLastChild().isBlock()
+ } else if (! foundInterfaceProperty || (assign.isEmpty()
+ } else if (! foundInterfaceProperty ) { if (assign.hasLastChild(...)
+ if (getToken() == Token.FUNCTION
+ if (assign.getFirstChild().getType() == Token) {
+ } else if (! foundInterfaceProperty || (assign.isEmptyBlock()
+ else if (assign.getFirstChild().getType() == Token.CLASS) {
+ } else if (! foundInterfaceProperty ) { throw new RuntimeException ( "if (!foundInterfaceProperty)
+ else if (node.type() == Token.FUNCTION
+if  (assign.isFirstChild(...)
+ else if (assign.getLastChild().getType() == Token.CLASS ||
+ } else if (type == NodeType.FUNCTION
+ else if (!foundInterfaceProperty && rvalueType.getType() == Token.FUNCTION
+ else if (assign.token().getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isBlock
+ else if (assign.pop ( )!== Token.FUNCTION
+if (assign.getLastChild().getType() ==  'block'
+ } else if (!foundInterfaceProperty) if(assign.getLastChild().getType() == Token.FUNCTION
+ else { assign. setLastChild ( rvalue ) ; }
+if (assign.getLastChild(getLastChild()!= null
+ if (current() == Token.FUNCTION
+ } else if (! foundInterfaceProperty && assign instanceof Block
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign.hasChildren()
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign.isEmpty()
+ if (assign.getLastChild!= null) {
+if (assign.getLastChild().isBlockStatement()
+ else if (!INTERFACE_FUNCTION
+ if (assign.getFirstToken() == Token.FUNCTION
+ } else if (! foundInterfaceProperty || (assign.hasChildren()
+ } else if (object.kind == NodeKind.FUNCTION
+ } else if (! foundInterfaceProperty &&! foundSuperClass &&! foundInterfaceMethod
+if (assign.getLastChild(isEmptyBlock)
+ else if (type == CLASS_FUNCTION
+ if (assign.getLastChild().getType() == Token.METHOD)
+if (assign.getLastChild() &&!(assign.isEmptyFunction()
+ else if (null!= assign && assign.getLastChild().getType() == Token.FUNCTION
+if (isEmptyBlock(assign, object)
+ else { compiler.report(T, object, INTERFACE_FUNCTION); } }
+ } else if (! foundInterfaceProperty || (assign.isBlock
+ else if (getTokenKind(object) == Token.FUNCTION
+ } else if (lvalueType.getType() == Token.FUNCTION
+if (assign.getLastChild() &&!(assign.isEmpty()
+ if (node.code() == Token.FUNCTION
+ } else if (! foundInterfaceProperty || (assign is not null
+ else { assign. addChild ( lvalue ) ; }
+ if (!INTERFACE_FUNCTION
+ if (assign.getLastChild().isEmpty() ) {
+ else if (assign.getFirstChild().getType() == Token) {
+ } else if (! foundInterfaceProperty ) { throw new RuntimeException ( "If (!foundInterfaceProperty)
+ } else if (! foundInterfaceProperty || (assign.isEmpty (...)
+ else if ((rvalueType.getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign.isBlock()
+ } else if (!(rvalueType.getType() == Token.FUNCTION
+ } else if ( (assign.isLastChild() )
+ else if (lvalue.getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign instanceof Block
+ else if (node.code() == Token.FUNCTION
+if (assign.getLastChild().isEmptyBlock() &&!foundInterfaceProperty
+if (assign.getLastChild() &&!(assign.getLastChild
+ if (object.getToken() == Token.FUNCTION
+ if (getFirstChild().getType() == Token.FUNCTION
+ } else if (assign.isLastChild(object)
+ else { assign. setLastChild ( lvalue ) ; }
+if (isEmptyBlock(assign.lastChild())
+ } else if (! foundInterfaceProperty || (assign.hasNextChild
+if (assign.isFirstChild().isBlock()
+ if (assign!= null) {
+ } else if (object.kind == Node.FUNCTION
+if (assign.getLastChild(isBlock())
+ else if (assign.getFirstChild().getType() == Token)
+if (assign.getLastChild().getType ( )
+if (assign.getLastChild(isBlock
+if (assign.isEmptyBlock(object.getLastChild())
+ else if ( (assign.getLastChild().isBlock()
+if (assign.isLastChild() &&!foundInterfaceProperty
+if (assign.isLastChild(getLastChild())
+ } else if (object.kind == Kind.FUNCTION
+ if (type == Node.FUNCTION
+ if (assign.next().getType() == Token.FUNCTION
+ else if (type == NodeToken.FUNCTION
+ if (assign.getLastChild().getType()!= Token) {
+ if (assign.getLastChild().isBlock() ) {
+ else { assign. setLastChild ( rvalue ) ; } } else
+ if (node.getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if ( (assign.isEmptyBlock()
+ else { assign. addChild ( rvalue ) ; }
+ else if (null==(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isLastChild(object)
+ if (IS_FUNCTION
+if (isEmptyBlock(assign.lastChild)
+ else if (assign.getLastChild().isBlock()) {
+ } else if (getToken(n) == Token.FUNCTION
+ else if (! foundInterfaceProperty && lvalue.getLastChild().getType() == Token.FUNCTION
+ if (getFirstChild(object).getType() == Token.FUNCTION
+ else if (getTokenKind(node) == Token.FUNCTION
+ if (assign.getLastChild().getType() == Token)
+ if (lvalue!== Token.FUNCTION
+if (assign.getLastChild().getType() == TokenKind.INTERFACE_FUNCTION
+ else if (null!= assign.getLastChild().getType() == Token.FUNCTION
+ else if (token.getType() == Token.FUNCTION
+ } else if (null!= assign && assign.getLastChild().getType() == Token.FUNCTION
+if  (assign.hasChildren
+if (assign.getLastChild().isEmptyBlock()) { if (!foundInterfaceProperty
+ else if (!foundInterfaceProperty && (assign.getType() == Token.FUNCTION
+if  (assign instanceof Block
+if (assign.isLastChild().isBlockStatement()
+if (assign.getLastChild().getType() ==  'block' &&!foundInterfaceProperty
+if (assign.getLastChild(isEmptyBlock()
+if (assign.getLastChild().isEmptyFunction()
+if (assign.getLastChild(getLastChild().getLastChild())
+ if (!foundInterfaceProperty) { if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild().isBlock()
+ } else if (object.isINTERFACE_FUNCTION
+ if (!foundInterfaceFUNCTION
+ else if (object.kind == Kind.FUNCTION
+ } else if (! foundInterfaceProperty &&! foundSuperClassProperty
+ else if (t.type!== Token.FUNCTION
+ } else if (null!= assign && assign.getType() == Token.FUNCTION
+ } else if (object.kind == NodeToken.FUNCTION
+if (assign.getLastChild() && isEmptyBlock(assign)
+ else if ((assign.parent).getType() == Token.FUNCTION
+if (assign.getLastChild() && (assign.getLastChild())
+if (assign.hasNextChild
+ else if (assign.getFirstChild(().getType() == Token.FUNCTION
+ } else if (getFirstChild().getType() == Token.FUNCTION
+ else if (!foundInterfaceProperty) && (object.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild().isBlock())
+ else if (rvalueType == NodeType.FUNCTION
+ } else if (type == CLASS_FUNCTION
+ else if (assign.getType!== Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign.isBlock
+if (assign.getLastChild().getType() == Token.STRING) { if (!foundInterfaceProperty
+ } else if (! foundInterfaceProperty &&! foundSuperclassProperty
+ } else if (getJSType(object).getType() == Token.FUNCTION
+ else if (!rvalueType.getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { if ( (assign.isEmptyBlock())
+ else if (getToken(n) == Token.FUNCTION
+ else if (token(object) == Token.FUNCTION
+ else if (getToken(node) == Token.FUNCTION
+ else if (!foundInterfaceProperty && rvalue.getType() == Token.FUNCTION
+if (assign.getLastChild().getType( )!= "block"
+ else if (getNextChild().getType() == Token.FUNCTION
+ } else if (null == assign || assign.getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild().getLastChild()!= null
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign.hasChildren
+ } else { if(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (assign.kind == NodeToken.FUNCTION
+ } else if (null!= assign.getLastChild().getType() == Token.FUNCTION
+ } else if (getLastChild(object).getType() == Token.FUNCTION
+ if ((object).getType() == Token.FUNCTION
+ } else if (assignType!== Token.FUNCTION
+ else if (type!= NodeType.FUNCTION
+ if (node().getType() == Token.FUNCTION
+ } else if (assign.kind ==Token.FUNCTION
+ else if (null == lvalue.getLastChild().getType() == Token.FUNCTION
+ } else { if (rvalueType.getType() == Token.FUNCTION
+if (assign.getLastChild(getFirstChild().getLastChild())
+ else if (rvalueType.isFunctionToken.FUNCTION
+if (assign.getLastChild()!= null &&!foundInterfaceProperty
+ } else if (lvalue.getType() == Token.FUNCTION
+ if (FUNCTION
+ else { assign. addChild ( object ) ; }
+if (assign.getLastChild().isEmpty()
+ } else if (! foundInterfaceProperty ) { if (assign.hasLastChild(?)
+ else if (object.kind ==Token.FUNCTION
+ else if (object.type!== Token.FUNCTION
+ } else if (token!== Token.FUNCTION
+ } else if (type!= NodeType.FUNCTION
+if (assign.getLastChild(getLastChild().isBlock
+ else if ( (lvalueType!== Token.FUNCTION
+ } else if (object.type!== Token.FUNCTION
+ else if (assign.isInterfaces.FUNCTION
+ else { assign. setLastChild ( object ) ;
+ } else if (null == assign || assign.getLastChild().getType() == Token.FUNCTION
+ else if (!foundInterfaceProperty) || (object.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() ==  'Block' &&!foundInterfaceProperty
+ if (object.code() == Token.FUNCTION
+ else if (type!= Node.FUNCTION
+ } else if (object.kind ==Token.FUNCTION
+if (assign.getLastChild(getFirstChild().getLastChild()!= null
+ else if (object.kind == Node.FUNCTION
+ } else if ( (rvalueType.getType() == Token.FUNCTION
+ if (assign.getLastChild()!= null)
+ else if (!foundInterfaceProperty) { if (!assign.getLastChild().getType() == Token.FUNCTION
+ } else if (getFirstChild(assign).getType() == Token.FUNCTION
+ else if (null == assign ||assign.getLastChild().getType() == Token.FUNCTION
+ else { assign. appendChild ( object ) ; }
+ } else if (!foundInterfaceProperty && (assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isBlock (...)
+ else if (assign.kind!== Token.FUNCTION
+ } else if (object.firstToken!== Token.FUNCTION
+ if (assign.last().getType() == Token.FUNCTION
+ } else if (assign.kind!== Token.FUNCTION
+ } else if (null==(assign.getLastChild().getType() == Token.FUNCTION
+ else if (object.kind == NodeKind.FUNCTION
+if (assign.getLastChild() is not null
+ else { assign. setLastChild ( rvalue ) ; } else
+ } else if (type == NodeToken.FUNCTION
+ else if (null == assign || assign.getType() == Token.FUNCTION
+ } else if (object.getLastChild().getType() == Token.FUNCTION
+ } else if (null == lvalue.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType ( ) == "blockStatement"
+ else if (!foundInterfaceProperty) { } if(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (foundInterfaceFUNCTION
+ else if (assign.kind ==Token.FUNCTION
+if (assign.getLastChild().getType() ==  'block' && (assign!= null)
+ else if(if(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (assign.type == NodeToken.FUNCTION
+if (assign.getLastChild() && (assign.isBlock() )
+if (assign.getLastChild(getFirstChild().isEmptyBlock()
+ if (rvalueType().getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild())
+if  (assign.isLastChild(n)
+if (assign.getLastChild().getType( )!= 'block'
+ if (getToken(object).getType() == Token.FUNCTION
+ } else if (! foundInterfaceProperty ) { return ; } else if (assign instanceof Node
+if (assign.getLastChild().getType() == Token.IDENTIFIER) { if (!foundInterfaceProperty
+ if (switch() == Token.FUNCTION
+ else if (!foundInterfaceMethod) { if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild().isEmptyBlock()
+ else if (object.kind == NodeToken.FUNCTION
+ if assign.getType() == Token.FUNCTION
+ else if (!(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (null==assign.getType() == Token.FUNCTION
+ else if (isEmptyBlock && assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild() && (assign.isBlock()
+if (assign.getLastChild().isEmptyBlock() &&!foundInterfaceProperty()
+if (assign.isFirstChild().isEmpty()
+if (assign.getLastChild().getType(object)
+ } else if ( (lvalueType.getType() == Token.FUNCTION
+if (assign.isFirstChild().isEmptyBlock(...)
+if  (assign is not null
+ } else {
+if (assign.getLastChild().getType() ==  "block" &&!foundInterfaceProperty
+ } else if (object!= null && object.getType() == Token.FUNCTION
+ else if (!isEmptyIf(assign.getLastChild().getType() == Token.FUNCTION
+ if (token() == Token.FUNCTION
+if (assign.getLastChild().getType().isBlock (...)
+if (assign.getLastChild().isEmpty (...)
+ } else if (type!= Node.FUNCTION
+ else if (!foundInterfaceProperty && assign.getLastChild().getType() == Token.FUNCTION
+ else if (assign.isOrdinaryFUNCTION
+ } else if (type.kind == NodeKind.FUNCTION
+ else if (rvalueType.isBlockToken.FUNCTION
+if (assign.getLastChild().getType ( ) == 'blockStatement'
+if (assign.getLastChild().getType() == Token.STRING &&!foundInterfaceProperty
+ if (lvalueType().getType() == Token.FUNCTION
+ else if (null!= assign && assign.getType() == Token.FUNCTION
+if (assign.getLastChild(isEmptyBlock(object, property))
+ if (object.type() == Token.FUNCTION
+ if (type(object) == Token.FUNCTION
+ if (token== Token.FUNCTION
+ else if (!foundInterfaceProperty) { else if(assign.getLastChild().getType() == Token.FUNCTION
+ else if (type!= CLASS_FUNCTION
+ else if (!foundInterfaceFunction) { if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() ==  'function' &&!foundInterfaceProperty
+ else if (rvalueType.isCodingToken.FUNCTION
+ } else if (! foundInterfaceProperty ) { if (assign.isBlock()*
+if (assign.getLastChild().getType() != 'block' &&!foundInterfaceProperty
+if (assign.isLastChild().isEmptyBlock(...)
+if (assign.getLastChild(getFirstChild().isBlock()
+ else if (!(null)assign.getLastChild().getType() == Token.FUNCTION
+ if (getTokenKind () == Token.FUNCTION
+if (assign.getLastChild(isBlock)
+if (assign.getLastChild().getType() == TokenType.INTERNAL_FUNCTION
+ if (assign.hasLastChild()) {
+if (assign.getLastChild() &&!(assign.emptyBlock
+if (assign.getLastChild().isNotEmptyBlock()
+if (assign.getLastChild().isBlock() &&!foundInterfaceProperty
+if (assign.getLastChild().isEmptyBlock() || (assign!= null
+if (assign.getLastChild().getType() == TokenKind.INTERNAL_FUNCTION
+if (assign.getLastChild().isNamedBlock()
+ else if (null!= lvalue.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.STRING && (assign!= null)
+ else if (assign!= null) {
+ } else if (assign.token == AssignmentToken.FUNCTION
+if (assign.getLastChild() &&!assign.isEmpty()
+ if (!(assign).getType() == Token.FUNCTION
+ else if (type == Type.FUNCTION
+ else if (argType!== Token.FUNCTION
+if (assign.getLastChild(getLastChild().getFirstChild()!= null
+if (assign.getLastChild().getType() ==  'Block' && (assign!= null)
+if (assign.getLastChild().getType() == TokenType.INTERNAL_ERROR
+ else if (!(assign.getType() == Token.FUNCTION
+ else if (assign().getType() == Token.FUNCTION
+if (assign.isEmptyBlock(object.getParent())
+ if (type() == Token.FUNCTION
+ if (rvalueType!== Token.FUNCTION
+ } else if (!(lvalueType.getType() == Token.FUNCTION
+if (assign.getLastChild().isEmptyBlock(...)
+ } else if (node.getType() == Token.FUNCTION
+ } else if (null === assign || assign.getType() == Token.FUNCTION
+if (assign.isEmptyBlock(object.getParent()))
+ else if (!foundInterfaceMethod) if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild(getFirstChild().getFirstChild()!= null
+ if ((lvalue).getType() == Token.FUNCTION
+ if (type == NodeToken.FUNCTION
+ } else if (assign.type ==Token.FUNCTION
+ else if (!foundInterfaceFUNCTION
+ else if (!foundInterfaceProperty && rvalue.getLastChild().getType() == Token.FUNCTION
+ else { assign. push ( object ) ; }
+if (assign.getLastChild().getType ( ). isPrimitive ( )
+ else if (type == StatementToken.FUNCTION
+ if (getCurrentToken() == Token.FUNCTION
+ else if (!foundInterfaceProperty) ||(assign.getLastChild().getType() == Token.FUNCTION
+ else if (null == object || object.getLastChild().getType() == Token.FUNCTION
+ else if (isINTERFACE_FUNCTION
+if (assign.isLastChild() && (object!= null)
+ if (assign.isEmpty() ) {
+if  ((assign!= null
+ else if (null === assign || assign.getType() == Token.FUNCTION
+ else if (rvalueType.isAnnotation.FUNCTION
+ else if (!foundInterfaceProperty ||(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild(getLastChild().getLastChild())!= null
+ } else if (interface.property2.type.FUNCTION
+ if (type == CLASS_FUNCTION
+ else if (!foundInterfaceProperty &&!(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == TokenType.NAMESPACE
+if (assign.getLastChild().getType ( ) == "BlockStatement"
+if (assign.isEmptyBlock(object.getFirstChild())
+ if (rvalueType.getLastChild().getType() == Token.FUNCTION
+ } else if (type!= CLASS_FUNCTION
+if (assign.getLastChild(getLastChild().isEmptyBlock())
+if (assign.getLastChild(getFirstChild().isBlock())
+ if (node!== Token.FUNCTION
+ else if (assign.isEmpty() ) {
+ if (assign.getLastChild().getType() == Token &&
+ } else if (object.kind!= Kind.FUNCTION
+if (assign.getLastChild().getType() ==  'block' || (assign!= null)
+ } else if (null!= lvalue.getType() == Token.FUNCTION
+ } else if (assign instanceof Interface_FUNCTION
+ } else if (object == NodeToken.FUNCTION
+ } else if (!(assign.getLastChild().getType() == Token.FUNCTION
+ } else if (interface.property2.is.FUNCTION
+ else if (null == object && assign.getLastChild().getType() == Token.FUNCTION
+ if ((assign.getLastChild().getType() == Token.FUNCTION
+ if (node(object).getType() == Token.FUNCTION
+ if (getTokenType () == Token.FUNCTION
+if  (assign.isEmpty
+if (assign.getLastChild().getType() ==  'block' || (assign.emptyBlock
+ } else if (assign instanceof T_FUNCTION
+ else if if (assign.getLastChild().getType() == Token.FUNCTION
+ else if (assign.isBlock() ) {
+ } else if (type == Node.Token.FUNCTION
+ else if (object == Node.FUNCTION
+if (assign.getLastChild().getType() == TokenKind.INTERNAL &&!foundInterfaceProperty
+if  (object
+ else if (!foundInterfaceProperty) if (!assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType ( ). isIdentifier ( )
+if (assign.getLastChild().getType() == Token.STRING) { if (!foundInterfaceProperty()
+if (assign.getLastChild().getType() == TokenType.INTERNAL_FUNCTION*
+if (assign.getLastChild(getFirstChild()!= null
+if (assign.getLastChild().getType() ==  'block' || (assign.isEmpty
+ if (next() == Token.FUNCTION
+ if (switch(token) == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.INTERNAL_FUNCTION
+if (assign.getLastChild(isNotEmptyBlock())
+ if (object.type!== Token.FUNCTION
+if (assign.getLastChild() && (assign.hasChildren()
+if (assign.getLastChild().getType() == TokenType.NODE_NAMESPACE
+if (assign.getLastChild().getType() == TokenType.INCLUDE
+if (assign.getLastChild()!= - 1
+ if (isToken.FUNCTION
+ else if (object == NodeToken.FUNCTION
+ else if (!foundInterfaceProperty && (object.getLastChild().getType() == Token.FUNCTION
+ } else if (type == StatementToken.FUNCTION
+ } else if(if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.NODE_NODE_NAMESPACE
+ if (assign instanceof Block) {
+ else { assign. push ( ) ; }
+if (assign.getLastChild().getType() == TokenType.INTERNAL_NAME
+ if (assign!= null)
+ } else if (type == TYPE_FUNCTION
+ if (node(object) == Token.FUNCTION
+if (assign.getLastChild().getTypeName ( )
+ else if (!isEmptyBlock &&assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.STRING) { if (foundInterfaceProperty
+if (assign.getLastChild(getLastChild())!= null
+ } else if (type == NodeKind.FUNCTION
+ if (lvalue().getType() == Token.FUNCTION
+if (assign.getLastChild().isEmptyBlock() || (isEmptyBlock()
+if (assign.getLastChild().getType() == TokenType.NODE_NODE_EMPTY
+if (assign.getLastChild().isExprBlock()
+ else if (rvalueLhs.getType() == Token.FUNCTION
+ if (interfaceFUNCTION
+if (assign.getLastChild().getType() == TokenKind.INTERNAL_NAME
+if (assign.getLastChild(getLastChild().isEmpty()
+if (assign.getLastChild().getType() == TokenKind.INTERNAL_FUNCTION*
+ } else if (!foundInterfaceProperty) ||(assign.getLastChild().getType() == Token.FUNCTION
+ else { assign. addChild ( rvalue ) ; } else
+ else if (null == object || object.getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.INTERNAL_FUNCTION*
+ if (type!= Node.FUNCTION
+if (assign.getLastChild().getType() == TokenType.FUNCTION
+if (assign.getLastChild().getType ( ) == 'BlockStatement'
+if (assign.getLastChild().isEmptyBlock() &&!foundInterfaceProperty2
+ else if (IS_FUNCTION
+ if (interface.FUNCTION
+if (assign.getLastChild().getType( ) == "Block"
+ if (!assign).getType() == Token.FUNCTION
+if (assign.getLastChild().getType() ==  'block' && foundInterfaceProperty
+if (assign.getLastChild().getType() == TokenKind.NODE_NAMESPACE
+if (assign.getLastChild().getType() == Token.STRING && (assign.hasChildren()
+if (assign.getLastChild().getType ( ). isOrdinaryFunction ( )
+ else if (!isEmptyBlock(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.NAMESPACE
+if (assign.getLastChild().getType ( ). isOrdinaryBlock ( )
+ if (assign.hasChildren()) {
+ else { assign. appendChild ( lvalue ) ; } else
+if (assign.getLastChild(isEmpty())
+if (assign.getLastChild().getType() == TokenType.STRING
+ else { assign. addChild ( rvalue ) ; } }
+if (assign.getLastChild().getType() == TokenType.INTERNAL_EOF
+if (assign.getLastChild().getType() == Token.STRING) { if (!foundInterfaceProperty)
+if (assign.getLastChild().getType() == TokenType.NODESET
+ else if (type!= NodeToken.FUNCTION
+ else if (assign instanceof Block) {
+ else if (!foundFunction) if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild() is not empty block
+if (assign.getLastChild().getType( )!= NodeUtil.NODESET
+if (assign.getLastChild(getLastChild().isEmptyBlock()))
+if (assign.getLastChild() &&!(assign.empty()
+if (assign.getLastChild().getType() == Token.NODE_NODE_EMPTY
+ if (object!== Token.FUNCTION
+if (assign.getLastChild().getType() == Token.NODE_NAMESPACE
+ if (getKind() == Token.FUNCTION
+if (assign.getLastChild().getType ( ). isSymbol ( )
+if (assign.getLastChild().getType() .isPrimitive (...)
+if (assign.getLastChild().getTypeName()!= null
+if (assign.getLastChild().isBlock() &&!foundInterfaceProperty()
+if (assign.getLastChild(getLastChild().getLastChild()))
+if (assign.getLastChild().getType() == TokenType.INTERNAL_ARRAY
+ else if (assign!= null)
+if (assign.getLastChild().getType() == TokenKind.INTERNAL_ERROR
+if (assign.getLastChild().getType() == TokenType.NODE_EMPTY
+if (assign.getLastChild(...)
+if (assign.getLastChild() is not emptyBlock
+ if (!IS_FUNCTION
+ else if (assignToken.FUNCTION
+ } else if (!isEmptyIf(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild() &&!(isEmptyBlock()
+ else if (object!= null) {
+if  (!foundInterfaceProperty)
+if (assign.getLastChild().getType ( )!= 'block' && foundInterfaceProperty
+ else if (rvalue.parent.getType() == Token.FUNCTION
+if (assign.getLastChild().getType ( ). isAnnotated ( )
+if (assign.getLastChild().getType() == TokenKind.INTERNAL_WILD
+if (assign.getLastChild().getType() == TokenType.INTERNAL_WILD
+if (assign.getLastChild().getType() == Token.NODE_NODESET
+if (assign.getLastChild().getType() ==  'block' &&!foundInterfaceProperty()
+if (assign.getLastChild().getType() == Token.NODE_EMPTY
+ if (!assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() ==  'Block' && foundInterfaceProperty
+if (assign.getLastChild().getType() == Token.OPEN_BRACE
+ else if (!isEmptyFunction(assign.getLastChild().getType() == Token.FUNCTION
+ else if (!((EmptyBlock)assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isEmptyBlock()!== '()'
+if (assign.getLastChild().getType() == TokenType.NOSORT
+ else if (!null&&assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.STRING && (assign.emptyBlock
+if (assign.getLastChild().getType() != 'block' || foundInterfaceProperty
+ if (Interface.FUNCTION
+ if (object == NodeToken.FUNCTION
+if (assign.getLastChild().getType() .isAnnotatedBlock()
+if (assign.getLastChild().getType() == Token.INTERNAL_PARAMETER
+ else if (!(int)assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isFunction()
+ if (type == Type.FUNCTION
+if (assign.getLastChild().isAnnotatedWithBlock()
+ if (interface_FUNCTION
+ if ((.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType ( ) == 'inheritBlock'
+if (assign.getLastChild().isNotEmptyBlock(object)
+ if (assignToken.FUNCTION
+if (assign.getLastChild().getType() == TokenType.INTERNAL_FUNCTION()
+if (assign.getLastChild().getType() == TokenType.INTERNAL*
+if (assign.getLastChild().getType() == TokenType.Block
+if (assign.getLastChild().getType() == Token.STRING
+if (assign.getLastChild().getType() ==  'Block' &&!foundInterfaceProperty()
+if (assign.getLastChild().getType() == TokenKind.Block
+if (assign.getLastChild().getType() ==  'inherit-block'
+ else if (interface.isInterfaceFUNCTION
+if  (!foundInterface
+if (assign.getLastChild(isEmptyBlock
+if (assign.getLastChild().equals(object.getParent())
+ if (assign) {
+ if (!interfaces.FUNCTION
+if (assign.getLastChild(isEmpty()
+ else if (!isEmpty(object)assign.getLastChild().getType() == Token.FUNCTION
+ else if (!isEmptyFunction &&assign.getLastChild().getType() == Token.FUNCTION
+ if (!isFUNCTION
+if (assign.getLastChild().isEmptyBlock() || (assignBlock
+ else if (!emptyBlock &&assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.STRING &&!foundInterfaceProperty()
+ else if (!foundInterfaceMethod) { } if(assign.getLastChild().getType() == Token.FUNCTION
+ if ((type== Token.FUNCTION
+if (assign.getLastChild().getType() == Token.INTERNAL_ERROR
+if (assign.getLastChild().isEmptyBlock()!== "()"
+ else if (assign.isInterface_FUNCTION
+if (assign.getLastChild().getType() .isNamedBlock()
+ else if (!emptyBlock(assign.getLastChild().getType() == Token.FUNCTION
+ if (ISFUNCTION
+if (assign.getLastChild().isNotEmptyBlock(...)
+if (assign.getLastChild().getType() != 'block' &&!foundInterfaceProperty()
+if  (!foundInterfaceProperty2
+if (assign.getLastChild().isEmptyBlock(?)
+if (assign.getLastChild().getType() == Token.OPEN_BRACKET
+ else if (!foundInterfaceProperty)) { } if(assign.getLastChild().getType() == Token.FUNCTION
+ else if (!assign.getLastChild().getType() == Token.FUNCTION
+ if ((assign().getType() == Token.FUNCTION
+ if ((.getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == TokenType.EMPTY
+if (assign.getLastChild().getType() ==  'function' &&!foundInterfaceProperty()
+if (assign.getLastChild().getType ( ) == 'NODE_NAME'
+ if (type == StatementToken.FUNCTION
+if (assign.getLastChild().isNotEmpty (...)
+ if (isInterfaceFUNCTION
+if (assign.getLastChild().getType() .isOrdinaryFunction(...)
+if (assign.getLastChild().getType(type)!= null
+if (assign.getLastChild().getType( )!= NodeUtil.NODE_NAME
+if (assign.getLastChild().getType() ==  'block' || foundInterfaceProperty
+if (assign.getLastChild().getType() .isIdentifier (...)
+ else { return ; } } else
+if (assign.getLastChild().getType() ==  'Block'
+if (assign.getLastChild().isNotEmpty ( )
+if (assign.getLastChild().getType() ==  "block" &&!foundInterfaceProperty()
+if (assign.getLastChild().getType() == Token.INTERNAL_FUNCTION()
+ if (assign.getLastChild!= null) {}
+if (assign.getLastChild().getType() == TokenType.UNKNOWN_TYPE
+if (assign.getLastChild().getType() == Token.INTERNAL_ARRAY
+if (assign.getLastChild().getType() == Token.NODESET
+if (assign.getLastChild()!== null
+if (assign.getLastChild().getType() ==  'block' &&!foundInterfaceMethod()
+if (assign.getLastChild().getType() .isEmpty (...)
+if (assign.getLastChild().getType() .isAnnotatedWithBlock()
+ if (!assign) {
+if (assign.getLastChild().getType() .isOrdinaryBlock (...)
+if (assign.getLastChild().getType() == Token. NAME
+ if ((token) == Token.FUNCTION
+ else if (!isEmpty(object).assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.INTERNAL_NAME
+if (assign.getLastChild().getType() .isAnnotatedBlock (...)
+ else if (!!(assign.getLastChild().getType() == Token.FUNCTION
+ else if (node().getType() == Token.FUNCTION
+ else if (assumeToken.FUNCTION
+ else if (!null ||(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType ( ) == 'NODET'
+if (assign.getLastChild().getType( )!= ' '
+ if (assumeToken.FUNCTION
+ else if (!isEmpty &&(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == TokenKind.STRING
+if (assign.getLastChild().isOrdinaryFunction(...)
+ else if (!isEmptyFunctionNode(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.NODE_NODE_NAME
+if (assign.getLastChild().getType() ==  'instructor'
+if (assign.getLastChild().getType() .isUnnamedBlock()
+if (assign.getLastChild(isBlockStatement())
+if  (!emptyBlock
+if (assign.getLastChild().getType() == TokenType.INTERNAL
+ if (!getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isAnnotatedBlock (...)
+ if (!.getLastChild().getType() == Token.FUNCTION
+ if (type!= Type.FUNCTION
+if (assign.getLastChild().getType() == Token.STRING) { if (!foundInterfaceMethod
+if (assign.getLastChild().getType() ==  'NODESET'
+ if (UseToken.FUNCTION
+ else if (getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token.CONSTRUCTOR_NAME
+if  ((assign)
+ else if (!emptyIf(assign.getLastChild().getType() == Token.FUNCTION
+ if ((object.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getTypeCode ( )
+if (assign.getLastChild().hasChildren()
+if (assign.getLastChild().getType() == Token.INTERNAL_WILD
+ if (ass.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType( ) == 'NODE_Statement'
+if (assign.getLastChild().getType() == Token.NODE_NOSORT
+if (assign.getLastChild().getType() ==  'inheritblock'
+if (assign.getLastChild().getType ( ) == 'NODOC'
+ } else if (Interface.FUNCTION
+if (assign.getLastChild().getType() == Token.NOSORT
+ else { assign = rvalue ; } else
+if (assign.getLastChild().getType( )!= "{"
+ if (t== Token.FUNCTION
+ if (assign!= null &&
+ if (interfaceProperty.FUNCTION
+ if (IsToken.FUNCTION
+if (assign.getLastChild(isEmptyFunction())
+ if (.FUNCTION
+if (assign.getLastChild().isOrdinaryBlock (...)
+if (assign.getLastChild().isOrdinaryBlock ( )
+if  (!empty
+ if (!getType() == Token.FUNCTION
+ if ().getType() == Token.FUNCTION
+if (assign.getLastChild().getType( ) == "{"
+ if (isFUNCTION
+if (assign.getLastChild().getType ( )!= Node. TYPE_NOSORT
+ if (T.Token.FUNCTION
+ if (!ISFUNCTION
+if (assign.getLastChild().getType() == "."
+if (assign.getLastChild().getType() == TokenKind.NOSORT
+if (assign.getLastChild().isNamedBlock(...)
+if (assign.getLastChild().getType( ) == ' '
+ if (object ==Token.FUNCTION
+ if ((type) == Token.FUNCTION
+if (assign.getLastChild().getType() == TokenType.NOSUB
+ else if (assign!= null &&
+ else if (!isEmpty if(assign.getLastChild().getType() == Token.FUNCTION
+ else if (!isEmptyOr(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isNotEmptyBlock(?)
+if (assign.getLastChild!= null
+ } if (object.getLastChild().getType() == Token.FUNCTION
+ else { assert assign!= null ; }
+if (assign.getLastChild().getType() == Token.NODE_NAME
+if (assign.getLastChild().equals(object.getParent()
+if (assign.getLastChild().getType(string)
+if (assign.getLastChild().getType() ==  'block' &&!foundInterfaceMethod
+if (assign.getLastChild().getType() == Token.OPEN_BRACE,
+ if (EXT.FUNCTION
+ else if (Interface.FUNCTION
+if (assign.getLastChild().getType() == Token.PARENARRAY
+if (assign.getLastChild().getType() == Token.Block
+ if (TARGET.FUNCTION
+ if (TREE.FUNCTION
+ if (TEST.FUNCTION
+ if (FunctionToken.FUNCTION
+if (assign.getLastChildIsBlock()
+if (assign.getLastChild is not null
+ else {
+ if (TYPE.FUNCTION
+ if (Type.FUNCTION
+ if (token().getType() == Token.FUNCTION
+ } } else
+if (assign.getLastChild().getType( ) == 1
+ if (NameToken.FUNCTION
+if (assign.lastChild
+ if (!object).getType() == Token.FUNCTION
+if (assign.getLastChild().isCall()
+if (assign.getLastChild().isAnnotatedBlock ( )
+if (assign.getLastChild().isEmptyBlock()!== null,
+ if (!== Token.FUNCTION
+if  (!assign
+ if (!.getType() == Token.FUNCTION
+ if (assignmentToken.FUNCTION
+if (assign.getLastChild().getType( ) == 'block' &&!emptyBlock
+if (assign.getLastChild().isEmptyBlock()!== null)
+if (assign.getLastChild().getType() == Token.BlockStatement
+ if ((() == Token.FUNCTION
+assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() ==  "NODET"
+if  (!foundInterfaceMethod
+if (assign!= object
+if (assign.getLastChild().getType( )!= Object
+if (assign.getLastChild().getType(null)
+if (assign.getLastChild().getType() == Token.SHORT
+if (assign.getLastChild().getType( )!= object
+if (assign.getLastChild(isEmpty
+if (assign.getLastChild().getType() ==  'innerBlock'
+ else { } } else
+if (assign.getLastChild().getType(String.class
+ if (!().getType() == Token.FUNCTION
+ return ; } } else
+if (assign.getLastChild().isOrdinaryBlock(?)
+if (assign.block
+if (assignBlock
+ } } else {
+if  (!object
+ else { return ; } else
+ } if (assign.getLastChild().getType() == Token.FUNCTION
+if (assign.emptyBlock
+ if (!.FUNCTION
+if (assign.getLastChild().isNamedBlock(?)
+ else { } else
+if (assign.getLastChild().getType() == Token.NODE_Block
+if  (!ignore
+if (assign.getLastChild(n)
+if (assign.getLastChild().getType() ==  '['
+if (assign.getLastChild().getType() == Token.NOSIDE
+if (newInterfaceProperty
+ return ; } else
+if (assign.getLastChild().getType() == Token.NOSUB
+if  (ignore
+ if (assign!= null);
+if (assign.empty
+if (assign.getLastChild().getType(Object)
+if (assign.getLastChild().length
+if (assign.getLastChild().getType(int)
+ if (!Token.FUNCTION
+if (assign.getLastChild(== null
+ return false ; } else
+if (assignNode
+ } else { } else
+if (assign.getLastChild().getType() ==  "function"
+ if (!assign) else
+ Ass assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() == Token. OP
+if (assign.getLastChild().getType() ==  ":"
+if (assign.getLastChild().getType()!= Token.FUNCTION
+if (assign.getLastChild()
+if (assign.getLastChild().empty()
+if (assign.getLastChild().getType() == Token.NODES
+if (assign.getLastChild().getType()  == Object
+if (assign.getLastChild().getType() == Token.NODE
+if  (!emptyBody
+if (assign.getLastChild().hasChildren
+ } else { else
+if (assign.getLastChild().getType() == Token.SCRIPT
+if (assign.getLastChild().getType() == TokenBlockStatement
+ if ((getLastChild().getType() == Token.FUNCTION
+ else if!(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType (...)
+ else (!== Token.FUNCTION
+ } else,
+if (assign.getLastChild().length()
+ else, if(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().isEmpty
+ } else { }
+if (assign.getLastChild().getType() ==  'blockStatement')
+ else { else
+ if ((getType() == Token.FUNCTION
+ switch (== Token.FUNCTION
+ else { } } }
+ if (_getLastChild().getType() == Token.FUNCTION
+ else { }
+ if (_FUNCTION
+ if (!).getType() == Token.FUNCTION
+ if (_.FUNCTION
+ if (_getType() == Token.FUNCTION
+ if (!() == Token.FUNCTION
+ else if() == Token.FUNCTION
+ switch (() == Token.FUNCTION
+ if (_Token.FUNCTION
+ interface(FUNCTION
+if (assignment
+ else,
+ switch (Token.FUNCTION
+if (assign.getLastChild()==null
+if (ASSIGN
+if (assigned
+if (assign.getLastChild().getType() === Token.FUNCTION
+ } }
+if (inspect
+if (assign.getLastChild()!= undefined
+ }
+ else unless(assign.getLastChild().getType() == Token.FUNCTION
+if (assign.getLastChild().getType() is Token.FUNCTION

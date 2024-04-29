@@ -1,0 +1,933 @@
+ newVar = s.make(sourceName, n, DUP_VAR_DECLARATION,
+ report(JSError.make(sourceName, n, DUP_VAR_DECLARATION));
+ report(JSError.make(sourceName, n, DUP_VAR_DECLARATION)); } else
+ report(JSError.make(sourceName, n, DUP_VAR_DECLARATION)) } else
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION);
+ reportWarning(n, DUP_VAR_DECLARATION,
+ newVar.make(sourceName, n, DUP_VAR_DECLARATION,
+ report(JSError.make(sourceName, n, DUP_VAR_DECLARATION)) ; }
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION); }
+report(JSError.makeDuplicate(
+ newVar = TypedScope.make(sourceName, n, DUP_VAR_DECLARATION,
+reportDuplicate(
+ reportWarning(sourceName, n, DUP_VAR_DECLARATION,
+ compiler.
+ reportWarning(t, n, DUP_VAR_DECLARATION,
+ newVar = TypedScopeCreator.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION
+reportWarning(
+reportDuplicate(n,
+ throw JSError.make(sourceName, n, DUP_VAR_WARNING);
+report(JSError.create(
+report(newVar,
+reportDuplicate(newVar,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings,
+ throw JSError.make(SourceName, n, DUP_VAR_DECLARATION);
+report(JSError.make(sourceName, n,  var.nameNode.getLineNumber(),
+reportDupe(
+report(var.nameNode.getLineno(),
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARE);
+ newVar = s.declare(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  varType.toString(),
+ throw JSError.make(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError. make ( n, DUP_VAR_DECLARATION, variableName, varType ) ; }
+report(var.nameNode.getLineNumber(),
+ report(JSError.make(sourceName, n, NEW_VAR_DECLARATION));
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION, var);
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING,
+ report(JSError.make(sourceName, n, DUP_VAR_DEPRECATED)); }
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } newVar. addProperty (
+ reportDuplicate(n, DUP_VAR_DECLARATION,
+ throw JSError. make ( n, DUP_VAR_DECLARATION, variableName, newType ) ; }
+ throw JSError. make ( sourceName, n, DUP_VAR_DECLARATION, variableName ) ; }
+ throw JSError.make(SourceName, n, DUP_VAR_DECLARATION
+ throw JSError. make ( n, DUP_VAR_DECLARATION, varName, newType ) ; }
+ report(JSError.make(sourceName, n, DUP_VAR_DECLAR));
+report(JSError.makeDuplicateWarning(
+ report(JSError.make(sourceName, n, DUP_VAR_DEPRECATED));
+report(JSError.make(sourceName, n,  var.getParentNode().getLineNumber(),
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING, var.getParentNode(),
+ throw JSError.make(sourceName, n, DUP_VAR_WARN);
+report(JSError.make(sourceName, nName,
+ report(JSError.make(sourceName, n, DUP_VAR_DECLARATION))
+reportDupe(newVar,
+ newVar = s.declare(var.sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.dup,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } logger.warn(
+report(JSError.make(newVar,
+ report(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION),
+ throw JSError.make(sourceName, n);
+ report(JSError.make(sourceName, n, DUP_VAR_WARNING)); }
+ throw JSErrorException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(n,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } newVar. addChild (
+ throw JSError. make(sourceName, n, DUP_VAR_DECLARATION, variableName); } else
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } logger.warning(
+report(JSError.make(sourceName, n.getParentNode().getLineNumber(),
+ throw JSError.make(sourceName, n); }
+reportDuplicateWarning(
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } newVar. setProperty (
+report(JSError.make(sourceName,  var.nameNode.getLineNumber(),
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } logger.debug(
+report(var.name,
+report(var.nameNode,
+ newVar = TypedScope#make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n, DUP_VAR_ERROR);
+report(var.nameNode.toString(),
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } console.log(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.dupe,
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION); } else
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATIONS
+ reportDuplicate(t, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(n, DUP_VAR_DECLARATION,
+ newVar = TypedDeclaration.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } newVar. addVariable (
+report(JSError.make(sourceName, n,  parent,
+report(JSError.make(sourceName, n, var.getParentNode(),
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } logger.debug("",
+ throw JSError.make(sourceName, n, DUP_VAR_WARNING));
+reportDupe(n,
+ warning(t, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  var.nameNode.getLineno(),
+ var = var. getParentNode ( ) ; } else { var = var. getParentNode ( ) ; } logger.warn(
+report(JSError.make(var.nameNode.getLineNumber(),
+ report(t, n, DUP_VAR_DECLARATION,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } logger.warn("",
+ warning(n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName); }
+ throw JSError.make(sourceName, n, DUP_VAR_DECLARATION); } throw
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } console. log("",
+report(JSError.make(sourceName, n.getPath ( ),
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } warnings. put (
+ newVar = var. clone ( ) ; } else { newVar = s.declare(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING, var.nameNode,
+report(JSError.make(sourceName, n, varType,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; newVar. addProperty (
+report(JSError.make(sourceName, n, var.getParentNode().getPath(),
+reportDuplicate(var.nameNode,
+ throw JSError. make ( sourceName, n ).
+report(JSError.make(sourceName, n,  var.nameNode,
+ report(n, DUP_VAR_DECLARATION,
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } logger.warn(
+report(JSError.make(sourceName, n, varName, var.getParentNode(),
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.make(
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } log(
+report(JSError.make(sourceName, n, varType, var.getParentNode(),
+ throw new RuntimeException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n, DUP_Warn);
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; } warn(
+reportDupe(var.nameNode,
+ newVar = s.declare(variableName,
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } logger.warning(
+report(JSError.makeError(
+ throw JSError. make ( sourceName, n, variableName ).
+reportDuplicate(parent,
+ newVar = s.warn(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(var.nameNode.getLineno(),
+reportDuplicate(t, n,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ). declare (
+report(var.nameNode.replace(
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; logger.warn(
+ throw new BugInstance(this, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } console.log(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING, varType.toString(),
+report(var.nameNode.getString(),
+ var = var. getParentNode ( ) ; } else { var = var. getParentNode ( ) ; warn(
+report(JSError.make(sourceName, n.getParentNode().getPath(),
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ). replace(
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; logger.warning(
+ return newVar ; } if (! allowDupe && var. isExprResult ( ) ) { JSError.
+ newVar = IR.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_ERROR, var.getParentNode(),
+ JSError.
+report(JSError.make(sourceName,  var.getParentNode().getLineNumber(),
+ throw new Error(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } logger.debug(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.make(),
+ throw JSError.make(sourceName, n, error); }
+ throw new BugError(this, DUP_VAR_DECLARATION,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ). concat(
+report(var.nameNode.setLineno(),
+reportDuplicateWarning(newVar,
+ newVar = s.declare(variableName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n, warning); }
+ newVar = s.declare(,
+ newVar = TypedScopeFactory.make(sourceName, n, DUP_VAR_DECLARATION,
+ suppressWarning(t, n, DUP_VAR_DECLARATION,
+ throw JSError. make ( sourceName, n, varType ).
+reportDupe(var.getParentNode(),
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.create(sourceName,
+ throw new DuplicateWarning(t, n, DUP_VAR_DECLARATION,
+report(var.nameNode.getLineNo(),
+ throw JSError.make(sourceName, n, duplicateWarning); }
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.create(
+ newVar = var. clone ( ) ; } else { newVar = s.create(
+ throw JSError.
+ throw JSErrorFactory.
+report(var.nameNode, n,
+report(JSError.make(sourceName, n, varType, var.nameNode,
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } warn(
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( ) ; warn(
+ throw JSError.make(sourceName, n, DUP_WARNING); }
+ throw JSError. make ( sourceName, n, varName ).
+reportDuplicate(var.getParentNode(),
+ reportDuplicate(sourceName, n, DUP_VAR_DECLARATION,
+ return newVar ; } if (! allowDupe && var. isExprResult ( ) ) { if ( report ) { report.
+ return newVar ; } if ( var. isExprResult ( ) ) { reporter. report ( newVar ) ; reporter.
+report(JSError.make(var.getParentNode(),
+ var = var. getParentNode ( ) ; } else { var = var. parentNode ; } log(
+ throw TypedScopeCreator.make(sourceName, n, DUP_VAR_DECLARATION,
+ return newVar ; } if (! allowDupe ) { throw JSError.
+report(JSError.make(sourceName, n,  varName, varType.toString(),
+ return newVar ; } if (! allowDupe && varType. isEquivalentTo ( var ) ) { JSError.
+ throw JSError.make(sourceName, n)); }
+report(var.getParentNode(),
+reportDuplicate(var,
+ newVar = var. clone ( ) ; } else { newVar = var.declare(
+ throw JSError.make(sourceName, n, DUP_Warn));
+ newVar = TypedVariable.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(n, sourceName); }
+report(JSError.DuplicateType,
+report(JSError.make(sourceName, "Duplicate",
+ newVar = TypedScopeCreator#make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.newInstance(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ return newVar ; } else if (! allowDupe ) { JSError.
+report(JSError.make(sourceName, n,  varType.toString(), parent,
+ newVar = s.declare(variableScope,
+ throw JSError.make(sourceName, n, var); }
+report(JSError.make(sourceName, n, var.getParentNode(), parent,
+ newVar = newScope.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicateWarning(),
+ newVar = var. clone ( ) ; } else { newVar = s.replace(
+report(var.nameNode, newVar,
+ throw new BugInstance(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName);
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings, var.nameNode,
+ return newVar ; } if (! allowDupe ) { JSError compiler.
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WITH_TYPE,
+report(JSError.make(var.nameNode,
+ throw JSError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(UNDUP_VAR_DECLARATION,
+reportDupeWarning(var.nameNode,
+ newVar = var. clone ( ) ; } else { newVar = s.decl(
+ throw JSError.make(sourceName, n, sourceName);
+ warning(,
+report(JSError.make(sourceName, n, newVar,
+report(JSError.make(sourceName, sourceLocation,
+ return newVar ; } if (! allowDupe && var. isExprResult ( ) ) { if ( report ) { reporter.
+ newVar = new VarImpl ( var. nameNode. getLineNumber ( ), variableName,
+ newVar = var. clone ( ) ; } else { newVar = var.replace(
+ return newVar ; } if ( var. isExprResult ( ) ) { if (! allowDupe ) { compiler.
+report(JSError.make(var.nameNode.getString(),
+reportDuplicateWarning(n,
+report(JSError.makeDuplicateError(
+ return newVar ; } if (! allowDupe && varType. isEquivalentTo ( varType ) ) { JSEvent.
+ return newVar ; } else { if (! allowDupe ) { throw JSError.
+ throw JSError.make(sourceName, n, "Dupe"); }
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_ERROR, var.nameNode,
+report(JSError.dupe,
+ newVar = s.declare(var, n, DUP_VAR_DECLARATION,
+ return newVar ; } if ( var. isExprResult ( ) ) { reporter. report ( var ) ; } reporter.
+ throw new BugInstance(n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n,
+reportDupe(var.nameNode, n,
+report(JSError.make(sourceName, n.getLineNumber(),
+ newVar = var. clone ( ) ; } else { newVar = new Scope(newVar,
+ return newVar ; } else { if (! allowDupe ) { JSError compiler.
+report(var.nameNode.getText(),
+ newVar = new VarImpl ( var. nameNode. getLineNumber ( ) + 1,
+report(JSError.duplicateType,
+ newVar=JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName,  var.nameNode.getLineno(),
+report(JSError.make(sourceName, n, var.getParentNode().name(),
+ if (var.nameNode.isExprResult()) { newVar = s.declareVariable(
+ newVar = var. clone ( ) ; } else { newVar = s.define(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING, sourceName,
+ throw JSError.make(var.nameNode); }
+ newVar = var. clone ( ) ; } else { newVar = new Scope(n,
+ reportDupe(t, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName)); }
+ throw new BugInstance(this, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING, var.getName(),
+report(JSError.make(var.nameNode.getLine(),
+report(JSError.Warnings.duplicateType,
+report(JSError.make(sourceName, n.getParentNode(),
+ throw JSError.make(sourceName, n));
+report(JSError.make(sourceName, var.nameNode.getLine(),
+ throw new IllegalArgumentException ( ERR_DUP_VAR_DECLARATION,
+ throw new RuntimeException ( "Unexpected type: " + varType + ": " + format(
+reportDuplicateVariable(
+ return newVar ; } else if (! allowDupe ) { throw JSErrorFactory.
+ throw new DuplicateDeclaration(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.create(),
+ newVar = s.declareVariable(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, var.getParentNode().getPath(),
+report(JSError.makeDuplicateWarning,
+reportDuplicate(var.parentNode,
+ warnings.add(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+reportDuplicateWarning(var.nameNode,
+ newVar = s.declare(null, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(this, DUP_VAR_DECLARATION,
+ throw new DuplicateTypeWarning(n, DUP_VAR_DECLARATION,
+report(var.nameNode.getLocation(),
+ throw new IllegalArgumentException ( "WARNING_DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName).
+ throw new IllegalArgumentException ( "WARN_DUP_VAR_DECLARATION,
+ return newVar ; } if (! allowDupe ) { JSError compiler =
+report(JSError.make(sourceName, n, varType, parent,
+ newVar = var. clone ( ) ; } else { newVar = new Scope(var.input,
+ return newVar ; } if (! allowDupe ) { JSError reporter =
+report(JSError.make(var.nameNode.getTagName(),
+ throw new IllegalArgumentException(format(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = var. clone ( ) ; } else { newVar = new Scope(null,
+ newVar = TypedNode.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = var. clone ( ) ; } else { newVar = var. clone ( new Scope(
+ if (var.nameNode.isExprResult()) { newVar = s.declareVar(
+reportDuplicate(var.name,
+report(JSError.make(var.nameNode.getPath(),
+report(JSError.make(sourceName, n.getPath ( ) +
+ throw new IllegalArgumentException("DuplicateJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ return newVar ; } else { if (! allowDupe ) { JSError compiler =
+report(JSError.make(sourceName, n, var.getParentNode(n),
+ throw new IllegalArgumentException(var.sourceName, n, DUP_VAR_DECLARATION,
+ newVar = t.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, var.nameNode.getString(),
+ return newVar ; } else { if (! allowDupe ) { JSError reporter =
+ throw JSError.make(sourceName, n, source); }
+report(JSError.duplicateVariable,
+report(JSError.make(sourceName,  variableName, varType.toString(),
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.new(),
+ newVar = CJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+reportDupe(parent,
+ throw new IllegalArgumentException(this, n, DUP_VAR_DECLARATION,
+ newVar = S.declare(sourceName, n, DUP_VAR_DECLARATION,
+ reportWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n),
+ throw JSErrorUtils.
+report(JSError.make(sourceName, n,  varType.toString() +
+ reportError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateVariableWarning(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WILDCARD,
+ throw new IllegalArgumentException(variableName, n, DUP_VAR_DECLARATION,
+ reportDuplicateWarning(n, DUP_VAR_DECLARATION,
+report(JSError.make(var.nameNode.getFileName(),
+ throw new BugInstance(t, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(IDDUP_VAR_DECLARATION,
+report(JSError.make(sourceName, var.nameNode,
+report(JSError.make(var.nameNode, n,
+ newVar = s.declare(WARNING_DUP_VAR_DECLARATION,
+ if (var.nameNode.isExprResult()) { newVar = s.declareImpl(
+report(JSError.make(sourceName, sourceName, var.getParentNode(),
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_ERROR,
+ return newVar ; } else { compiler.
+ newVar = s.declare(newVar,
+ newVar = newVar ; } else { throwJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n); } else
+report(JSError.make(sourceName, n,  parent.getParentNode(),
+ throw JSErrorManager.
+ newVar = s.declare(var,
+ throw JSError.make(sourceName) &&
+ newVar = newVar. replaceWith( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName.toString(), var.getParentNode(),
+report(JSError.Warnings.duplicate,
+ newVar = new Node(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = new VarImpl ( var. nameNode. getLineNumber ( ), varType,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.create(null,
+ reportDuplicateWarning(t, n, DUP_VAR_DECLARATION,
+ throw new DuplicateWarning(n, DUP_VAR_DECLARATION,
+ throw new BugError(BUG_DUP_VAR_DECLARATION,
+ warn(t, n, DUP_VAR_DECLARATION,
+ newVar = s.warn(n, DUP_VAR_DECLARATION,
+ throw new IllegalStateException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugInstanceException(this, DUP_VAR_DECLARATION,
+ reportWarning, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName,  variableName, var.getParentNode(),
+ newVar = new Scope().make(sourceName, n, DUP_VAR_DECLARATION,
+ warnAboutDuplicate(newVar,
+ warn(,
+ throw new RuntimeException("UNDUP_VAR_DECLARATION,
+reportDuplicateType(n,
+ newVar = s.declare(varName,
+ throw new BugError(n, DUP_VAR_DECLARATION,
+ throw new DuplicateVariableWarning(n, DUP_VAR_DECLARATION,
+ throw JSError.make(parent); }
+ newVar = TypedExpression.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(null,
+report(JSError.make(var.nameNode.getName(),
+ throw JSError.make(sourceName, n); } throw
+ newVar = s.report(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(parent,
+ throw JSError.make(n).
+ reportDuplicate(var.sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_Warnings.dup(
+report(JSError.make(var.nameNode.getName() +
+ newVar = newVar. replace ( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = scope.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName) ||
+ newVar = s.declare(parent, n, DUP_VAR_DECLARATION,
+ throw new Error(UNDUP_VAR_DECLARATION,
+ var.setParentNode(ParentNode.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.throw(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declareImpl(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSErrorHelper.
+ suppressWarning(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, var.nameNode.getPath(),
+ newVar = NewVar.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceWith(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar.error(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(var.name,
+report(JSError.make(var.nameNode.getLineNo(),
+ warning(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATIONWARNING,
+report(JSError.make(var.nameNode.getParentNode(),
+ throw JSError.make(sourceName, n, error);
+report(JSError.make(sourceName, "Invalid type: " +
+ newVar = newVar.replace(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+reportDuplicateWarning(parent,
+ reportDuplicateVariable(n, DUP_VAR_DECLARATION,
+ throw JSError.make(n,JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateException(t, n, DUP_VAR_DECLARATION,
+report(JSError.new(
+report(var, n,
+reportDupeWarning(n,
+ newVar = s.createInitialScope(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugError(this, n, DUP_VAR_DECLARATION,
+report(JSError.Warnings.duplicateVariable,
+report(JSError.make(sourceName, sourceLine,
+ throw new TypeErrorException ( "Duplicate, DUP_VAR_DECLARATION,
+ throw new BugInstanceException(bugInstance, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n.line,
+ return newVar ; } compiler.
+ throw new IllegalArgumentException(variableName,
+report(JSError.make(var.nameNode.toString(),
+ throw new DuplicateWarning(this, n, DUP_VAR_DECLARATION,
+report(JSError.Warnings.DuplicateType,
+ throw new IllegalArgumentException ( "UNDUP_VAR_DECLARATION,
+ throw new DuplicateTypeWarning(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateTypeException(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, sourceName, var.nameNode,
+reportDupe(var,
+ throw new IllegalArgumentException ( "expected(n, DUP_VAR_DECLARATION,
+ throw new BugError(BUG_UDUP_VAR_DECLARATION,
+ newVar = new Scope(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException ( "UDUP_VAR_DECLARATION,
+ throw JSError.noSupport(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateDeclarationException(sourceName, n, DUP_VAR_DECLARATION,
+report(var.parentNode,
+ throw new DuplicateWarning(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException ( "DuDUP_VAR_DECLARATION,
+ throw new DuplicateException(this, n, DUP_VAR_DECLARATION,
+ if (allowDupe) { newVar=JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(this).
+report(JSError.make(sourceName.toString(), n,
+ newVar = newVar. concat(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar. addWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WITH_SOURCE,
+report(JSError.Warnings.Duplicate,
+ throw new IllegalArgumentException(var.name,
+ throw new IllegalArgumentException(); }
+report(JSError.make(sourceName, "Duplicate: " +
+report(JSError.make(sourceName, n, var.getName(),
+ JSError reporter =
+ throw new DuplicateDeclarationException(n, DUP_VAR_DECLARATION,
+ newVar = s.declare((,
+report(JSError.make(sourceName, sourceName, sourceName,
+ throw new IllegalArgumentException("Duplicate(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new RuntimeException("UDUP_VAR_DECLARATION,
+ throw new JSError.Error(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicateTypeWarning(
+ reportWarning("DUP_VAR_DECLARATION,
+ throw JSError wrap(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportDupe(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.DuplicateVariable,
+ throw new BugError(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName.toString(), var.getName(),
+ throw new DuplicateDeclarationWarning(n, DUP_VAR_DECLARATION,
+ newVar = newVar. append ( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(null,JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(sourceName, n)); } else
+ throw JSError.createInternalError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ warn(DUP_VAR_DECLARATION,
+ newVar = s.warning(sourceName, n, DUP_VAR_DECLARATION,
+report(varType.toString(),
+ throw JSError.make(sourceName),
+ reportDupeWarning(t, n, DUP_VAR_DECLARATION,
+ JSError compiler.
+ throw new TypeErrorException ( "Dupe", DUP_VAR_DECLARATION,
+ throw JSError.getException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateVariableDeclaration(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WORD,
+report(JSError.make(sourceName, var.getParentNode(),
+ throw JSError.error(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(var.nameNode.name(),
+ throw new JSError.RuntimeException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeUnknownType(
+ newVar = s.declare(var, DUP_VAR_DECLARATION,
+ throw new IOException(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare($,
+ newVar = TypedDecls.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(this.sourceName, n, DUP_VAR_DECLARATION,
+ reportWarning(UNDUP_VAR_DECLARATION,
+ throw new RuntimeException ( "Duplicate declaration, DUP_VAR_DECLARATION,
+report(var.input,
+report(JSError.make(sourceName, "Duplicate type: " +
+report(var.nameNode.replace(),
+ reportWarning(DUP_VAR_DECLARATION,
+ throw new DuplicateVariableException(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_FAIL,
+ throw new IllegalArgumentException ( MSG_UDUP_VAR_DECLARATION,
+ reportWarning(n,
+ warn(n,
+ newVar = newVar. replace ( s.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.createDuplicate(
+ throw JSError.newError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportDupe(n, DUP_VAR_DECLARATION,
+report(JSError.DuplicateDeclaration,
+ throw new DuplicateVariableDeclaration(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.unknownType,
+ throw new BugError("UNDUP_VAR_DECLARATION,
+ throw JSError.SatisfiedBy(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = TypedScopeBuilder.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateException(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WITH_ERROR,
+ newVar = newVar. concat(make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, var.name,
+ JSError t =
+ throw new IllegalStateException(this, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName.toString(), var.name(),
+ throw new BugInstance("DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException ( "expected(sourceName, n, DUP_VAR_DECLARATION,
+ newVar.report(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(var, newVar,
+ throw new RuntimeException("Duplicate declaration "+n, DUP_VAR_DECLARATION,
+ JSError.reportError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = builder.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, varName,
+ newVar = newVar. union( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make().
+ throw new RuntimeException ( "Dupe", DUP_VAR_DECLARATION,
+ warn(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.warn(t, n, DUP_VAR_DECLARATION,
+ throw new RuntimeException(this, DUP_VAR_DECLARATION,
+ reportDuplicate(t, parent, n, DUP_VAR_DECLARATION,
+report(JSError.make(var.nameNode.name(),
+ reportWarning(t, DUP_VAR_DECLARATION,
+ throw JSError.noSuchVariable(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(n,
+ throw new DuplicateWarning(n,
+ if (allowDupe) { throw LWJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = LJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare((var.sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar ; } else { report(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(newVar, DUP_VAR_DECLARATION,
+report(JSError.DuplicateTypeWarning,
+ newVar = newVar. concat( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(
+report(JSError.make(varType.toString(),
+ throw new DuplicateDeclarationWarning(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(null, DUP_VAR_DECLARATION,
+ newVar. addError(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateWarning(parent,
+ throw new BugInstanceException(BUG_DUP_VAR_DECLARATION,
+ throw new DuplicateVariable(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceWith(Node.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declareVar(n, DUP_VAR_DECLARATION,
+reportSameType(
+ newVar = new Var(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceFirst ( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName,  "Unknown type: " +
+ newVar = TypedScopeImpl.make(sourceName, n, DUP_VAR_DECLARATION,
+ warning(t, DUP_VAR_DECLARATION,
+ suppressWarning(n,
+ throw new DuplicateException(parent,
+ throw new RuntimeException ( "Unknown duplicate declaration", DUP_VAR_DECLARATION,
+ throw new BugInstanceException ( "Duplicate, DUP_VAR_DECLARATION,
+ newVar = newVar(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new RuntimeException ( "Dupe: ", n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(t, n, DUP_VAR_DECLARATION,
+ newVar = newVar ; } else { warn(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicateError,
+ newVar = s.declare(parent.sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicate(n,
+ throw new BugInstanceException(BugInstance, DUP_VAR_DECLARATION,
+ compilerContext.
+ if (allowDupe) { throw LJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+reportDupe(var.nameNode.name(),
+ newVar = newVar. cons ( IR.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugError("UDUP_VAR_DECLARATION,
+ newVar = newVar. reject(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declareVariable(n, DUP_VAR_DECLARATION,
+report(JSError.Warnings.duplicateVar,
+ throw JSError.il.
+report(JSError.make(sourceName, n,  varName, parent,
+ newVar = newVar ; } else {JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDupe(
+report(JSError.makeBadDeclaration(var.nameNode,
+report(JSError.make(sourceName, sourceFile,
+ throw new Error(sourceName, n, DUP_VAR_DECLARATION,
+ warning(n,
+ throw JSError.make(parent);
+ throw new IllegalArgumentTypeException(sourceName, n, DUP_VAR_DECLARATION,
+ warnings.warn(W_DUP_VAR_DECLARATION,
+report(JSError.UnknownType,
+ newVar = newVar. replaceWith(Builder.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.Warnings.DuplicateVariable,
+ throw new BugError(BUG_UNDUP_VAR_DECLARATION,
+report(JSError.make(sourceName, "Duplicate type",
+ newVar = s.declare((sourceName, n, DUP_VAR_DECLARATION,
+ throw new RuntimeException ( "Duplicate", n, DUP_VAR_DECLARATION,
+ throw new BugInstanceException("Dupe: ", n, DUP_VAR_DECLARATION,
+report(JSError::dupe,
+report(JSError.make(sourceName, n,  var.getNameNode(),
+ newVar = newVar. replaceWith(make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicateWarning(n,
+ throw new BugInstance(DUP_VAR_DECLARATION,
+ throw new BugError("DUP_VAR_DECLARATION,
+ reportError(n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(msg(n, DUP_VAR_DECLARATION,
+ throw new DuplicateVariable(n, DUP_VAR_DECLARATION,
+report(JSError.createDuplicateWarning(
+ throw new IllegalArgumentException(error(n, DUP_VAR_DECLARATION,
+report(JSError.createUnknownTypeException(var.nameNode,
+report(JSError.make ( "invalid type: " +
+ throw JSError.noSuchElement(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportWarning("UNDUP_VAR_DECLARATION,
+ throw JSError.make(n),
+ throw JSError.createUnknown
+ throw new IllegalArgumentException(LJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ warnings.addWarning(n,
+ newVar = newVar. dup ( s.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_TRG,
+ warning(, DUP_VAR_DECLARATION,
+ throw JSError.make(report ->
+report(JSError.createDuplicateTypeWarning(
+report(JSError.make(sourceName, var.getName ( ),
+ newVar = newVar. dup ( Scope.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = new Variable(sourceName, n, DUP_VAR_DECLARATION,
+ warnings.addWarning(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.make(n);
+report(var.scope,
+ warnDupe(n,
+ newVar = s.addDeclaration(sourceName, n, DUP_VAR_DECLARATION,
+ throw new SourceWarning(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceInline(sourceName, n, DUP_VAR_DECLARATION,
+ reportWarning(parent, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceWith ( warning(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(message(sourceName, n, DUP_VAR_DECLARATION,
+ reportSameType(n, DUP_VAR_DECLARATION,
+report(JSError.createDuplicateTypeWarning(newVar,
+ newVar = newVar. report(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(null, DUP_VAR_DECLARATION,
+ newVar = c.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar.replaceDeclaration(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.createDuplicateDeclaration(
+report(JSError.make(var.nameNode.location,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARNING_1,
+report(JSError.make(sourceName, sourcePath,
+report(JSError.make(var.parentNode,
+ throw new IllegalArgumentException("Invalid declaration "+n, DUP_VAR_DECLARATION,
+ newVar = SourceInfo.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new Error(this, DUP_VAR_DECLARATION,
+ throw new BugInstanceException("UNDUP_VAR_DECLARATION,
+report(JSError.make(var.getName(),
+report(JSError.make ( "invalid type: %s",
+ throw new RuntimeException ( "Unknown duplicate: ", n, DUP_VAR_DECLARATION,
+report(varType, n,
+ throw new IllegalArgumentException("Dupe "+n, DUP_VAR_DECLARATION,
+ reportSameType(t, n, DUP_VAR_DECLARATION,
+ throw new DuplicateVariableWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = LWJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError.createUnknownType(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.dup,
+report(JSError.make(sourceName, parent,
+ throw new BugError(DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(InternalJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = super.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSErrorImpl(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw JSError2(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = s.declare(var.n, DUP_VAR_DECLARATION,
+ warn(n, DUP_VAR_DECLARATION,
+report(JSError.makeBadTypeWarning(var.nameNode,
+ warn("DUP_VAR_DECLARATION,
+ t.reportWarning(n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(Fn, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceInlineNode(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugInstanceException ( "UDUP_VAR_DECLARATION,
+ reportError(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar ; } else { error(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicate(parent,
+report(JSError.createDuplicateWarning(n,
+ newVar = newVar.JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeBadDeclaration(var.getParentNode(),
+ reportError(t, n, DUP_VAR_DECLARATION,
+ newVar. reportWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make ( "Duplicate: " +
+report(JSError.make(sourceName, n, type,
+ log.warning(sourceName, n, DUP_VAR_DECLARATION,
+ System.err.
+report(JSError.make(sourceName, var.name(),
+ newVar = newVar. replace ( new Node(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replace ( new Declaration(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateDeclaration(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = newVar. replace ( new Replace(sourceName, n, DUP_VAR_DECLARATION,
+report(newVar, n,
+ warnings.addWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError1,
+report(JSError.makeBadTypeWarning(var.getParentNode(),
+ reportWarning(newVar, DUP_VAR_DECLARATION,
+ throw new TypeErrorException(this, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException("",sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(parent, n,
+ newVar = TypedScopeConstructor.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.newDuplicateTypeWarning(
+report(JSError.createDuplicateWarning(var.name,
+ newVar = TypedVar.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicateWarning(parent,
+report(JSError.make(null,
+ suppressWarning(t,
+ warning(, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  varType, input,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_ERROR_1,
+report(JSError.createDuplicateTypeWarning,
+ throw new Error("DUP_VAR_DECLARATION,
+report(var.name.replace(
+ newVar. reportIgnore(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw warning(UNDUP_VAR_DECLARATION,
+report(var,
+report(JSError.make(parent,
+report(JSError.createDuplicateWarning(),
+ newVar = newVar. replaceWithSource(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugInstanceException(UNDUP_VAR_DECLARATION,
+ newVar = s.report(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw DuplicateVariableWarning.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError2,
+ warn(, DUP_VAR_DECLARATION,
+report(JSError.Warnings.duplicate",
+report(JSError.createDuplicateWarning(parent,
+ throw LWJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.createDuplicateWarning,
+ addWarning(t, n, DUP_VAR_DECLARATION,
+ reportSameType(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = TypedType.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new BugInstanceException(DuDUP_VAR_DECLARATION,
+report(JSError.make(n,
+ warnings.addWarning(n, DUP_VAR_DECLARATION,
+report(JSError.make(var.getName() +
+ suppressWarning(sourceName, n, DUP_VAR_DECLARATION,
+ reportWarning(DuDUP_VAR_DECLARATION,
+ throw BugInstance.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make ( "invalid type: {} {}",
+ report.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  var.name(),
+report(JSError.makeError("Invalid type: {} {} {}",
+report(JSError.make("Duplicate type",
+ reportWarning(node, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(.sourceName, n, DUP_VAR_DECLARATION,
+ reportDuplicate(node,
+report(JSError.createDuplicateTypeWarning(),
+reportError(
+ newVar = newVar. replaceWithNode(sourceName, n, DUP_VAR_DECLARATION,
+report(var.parent,
+report(JSError.make ( "invalid type declaration: " +
+report(JSError.UnknownDeclaration,
+ newVar = EJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportDuplicates(n, DUP_VAR_DECLARATION,
+ addWarning(n, DUP_VAR_DECLARATION,
+ newVar = newVar. replaceWith ( _make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(newVar, n,
+report(JSError.make ( "Duplicate",
+report(JSError.make(sourceName, sourceName,
+ report(n,
+report(JSError.make(sourceName, n,  varType, n,
+ throw new Error(this, n, DUP_VAR_DECLARATION,
+report(JSError.createUnknownType(
+report(var.name, n,
+report("Dupe",
+report(JSError.make(sourceName.toString(), parent,
+ throw new Bug(this, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, "Unknown type",
+ throw new Warning(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeDuplicate(),
+report(JSError.make(sourceName, node,
+report(JSError.makeError("Invalid type: {} {} {}"",
+ report(, n, DUP_VAR_DECLARATION,
+report(JSError.make(n, parent,
+report(JSError.UnknownTypeWarning,
+ throw new DeclarationWarning(sourceName, n, DUP_VAR_DECLARATION,
+ newVar = FJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new Error(n, DUP_VAR_DECLARATION,
+report(JSError.make(parent, newVar,
+ var.setParentNode(Nodes.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.createUnexpectedTypeWarning(var.name,
+ reportWarning(this, n, DUP_VAR_DECLARATION,
+ throw newWarning(n, DUP_VAR_DECLARATION,
+report(JSError.makeUnknown(
+report(JSError.createDuplicateError(var.name,
+ warn(, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException(report ->
+ throw duplicateWarning(n,
+ report("DUP_VAR_DECLARATION,
+ throw new BugInstanceException(null, DUP_VAR_DECLARATION,
+ reportWarning, n, DUP_VAR_DECLARATION,
+ compiler.context.
+ reportWarning(parent,
+ throw new Warning(t, n, DUP_VAR_DECLARATION,
+ throw new RuntimeException(warnings, DUP_VAR_DECLARATION,
+ reportWarning((DUP_VAR_DECLARATION,
+report(JSError.makeDuplicate,
+report(JSError.make(sourceName, "expected",
+ newVar = sourceFactory.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw CJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.noSuchVariable,
+ warning.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new IllegalArgumentException ( "\\n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, var.name,
+reportBug(
+ warn.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new Bug(this, n, DUP_VAR_DECLARATION,
+ throw LJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new DuplicateWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, "new",
+ newVar = CodeBlock.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeInvalid(
+ warn(newVar,
+reportDupeWarning(
+ warn(t, DUP_VAR_DECLARATION,
+report(JSError.UnknownVariableType,
+report(JSError.make(sourceName, nNode,
+report(JSError.make(sourceName, n.path,
+report(JSError.makeBadDeclaration(var.name,
+report(JSError.make(sourceName, name,
+ reportNewVar(n, DUP_VAR_DECLARATION,
+report(JSError.makeDupeWarning(
+ throw DuplicateType(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeUnknownTypeWarning(var.name,
+report(var.nameNodeName,
+ addWarning(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(var.name(),
+ System.errout.
+ throw DuplicateVariable(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.makeUnknownVariable(
+ warning(t,
+ reportIssue(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(this,
+report(JSError.make(var.input,
+report(JSError.make(sourceName, n.location,
+ warn(parent,
+report(JSError.makeWarning(
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_WARN,
+report(parent,
+ newVar = newVar ; throwJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportSameVariable(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName() +
+report(JSError.make(sourceName,  "Invalid type",
+ throw Duplicate.make(sourceName, n, DUP_VAR_DECLARATION,
+ fail("DUP_VAR_DECLARATION,
+ newVar = newVar || CJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ warnings.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportIssue(n, DUP_VAR_DECLARATION,
+ warning(DUP_VAR_DECLARATION,
+report(JSError.Unknown,
+ error(t, n, DUP_VAR_DECLARATION,
+ JSError throw
+ compiler.exceptions.
+report(JSError.makeInvalidType(
+reportDup(
+report(JSError.make(sourceName, nname,
+reportSameVariable(
+report(JSError.makeUnknownTypeWarning(
+report(JSError.make(sourceName,  "Duplicate.",
+ reportSameVariable(n, DUP_VAR_DECLARATION,
+ report(tc, n, DUP_VAR_DECLARATION,
+ reportMissingType(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  parent, n,
+reportDuicate(
+report(JSError.makeTypeError(
+ newVar = CodingJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw DuplicateVar(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  type, parent,
+ throw warn("DUP_VAR_DECLARATION,
+report(JSError.type,
+ throw warn(DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  "Invalid type",
+report(JSError.make(sourceName, n,  " " +
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATIONERROR,
+report(JSError.make(parentNode,
+ throw DeclarationJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(null, " " +
+ throw EJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError message,
+report(JSError.typeError,
+ warnDupe(sourceName, n, DUP_VAR_DECLARATION,
+report(warnings,
+ throw FJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  var,
+ reporter.make(sourceName, n, DUP_VAR_DECLARATION,
+report(null,
+ newVar =
+ warnings.push(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError4,
+ throw Error.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVar.JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw new Exception(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(parentNode,
+ n.warning(sourceName, n, DUP_VAR_DECLARATION,
+ log.warn(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(badType,
+report(JSError.make(newType,
+ throw new Bug.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(var,
+report(JSError.make(sourceNameContext,
+ throw DependencyJSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ compiler.errors.
+ warning(c.make(sourceName, n, DUP_VAR_DECLARATION,
+ reportContext.
+ warning(_,
+report(JSError.make(unknownType,
+report(JSError.make(sourceNameProvider,
+report(JSError.make(sourceNameString,
+ fail(n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceNameImpl,
+ warning(Source.make(sourceName, n, DUP_VAR_DECLARATION,
+report(newVariable,
+ throw reporter.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw report.make(sourceName, n, DUP_VAR_DECLARATION,
+ warning((,
+ warning(_, n, DUP_VAR_DECLARATION,
+report(JSError.makeBug(
+ warning(",
+ newVar.
+report(newWarning(
+report(JSError.make(sourceName, n,  null,
+ report(, DUP_VAR_DECLARATION,
+report(1,
+ newVar=make(sourceName, n, DUP_VAR_DECLARATION,
+ addWarning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ newVarBuilder.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw SourceException.make(sourceName, n, DUP_VAR_DECLARATION,
+ warning(Context.make(sourceName, n, DUP_VAR_DECLARATION,
+ logWarning, DUP_VAR_DECLARATION,
+reportIssue(
+ throw ErrorFactory.make(sourceName, n, DUP_VAR_DECLARATION,
+report(JSError.make(sourceName, n,  input,
+report(JSError.make(sourceName, n, DUP_VAR_DECLARATION_,
+ fail(sourceName, n, DUP_VAR_DECLARATION,
+ error(n, DUP_VAR_DECLARATION,
+report(JSError.new
+ t.
+reportMissing(
+report(JSError.make(sourceName, nName(),
+ context.
+ return IR.make(sourceName, n, DUP_VAR_DECLARATION,
+ error(sourceName, n, DUP_VAR_DECLARATION,
+ throw Messages.make(sourceName, n, DUP_VAR_DECLARATION,
+ reporter.
+ throw warn(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ throw warning(JSError.make(sourceName, n, DUP_VAR_DECLARATION,
+ return
+ throw
+ assert

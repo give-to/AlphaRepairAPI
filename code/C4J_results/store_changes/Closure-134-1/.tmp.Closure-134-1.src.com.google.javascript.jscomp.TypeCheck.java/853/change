@@ -1,0 +1,1147 @@
+visitInterfaceGetprop(t, assign, object, jsType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, rvalue);
+visitInterfaceGetprop(t, assign, object,  property);
+visitInterfaceGetprop(t, assign, object, property,  rvalue);
+visitInterfaceGetprop(t, jsType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(jsType, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(jsType);
+visitInterfaceGetprop(t, assign, object, jsType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return;
+visitInterfaceGetprop(t, assign,  object);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, objectJsType);
+visitInterfaceGetprop(t, assign, object,  property, rvalue); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return;
+visitInterfaceGetprop(t, assign, objectJsType, property, lvalue, rvalue);
+visitInterfaceGetprop(object);
+visitInterfaceGetprop(t, assign, object, property); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, objectJsType);
+visitInterfaceGetprop(t, assign, objectJsType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, info);
+visitInterfaceGetprop(t, assign, object, property, objectJsType);
+visitInterfaceGetprop(t, assign, object, property, objectJsType, rvalue);
+visitInterfaceGetprop(t, assign, jsType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, object, rvalue);
+visitInterfaceGetprop(t, assign, object, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType, objectJsType);
+visitInterfaceGetprop(t, assign, object, property, rvalue); }
+visitInterfaceGetprop(t, object, property); return;
+visitInterfaceGetprop(t, assign, object, property, jsType, objectJsType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info);
+visitInterfaceGetprop(t, assign, object, property, rvalue); return; }
+visitInterfaceGetprop(t, assign, info, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType, rvalue);
+ visitAnnotatedAssignGetprop(assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property); }
+ checkInterface( t, rvalue);
+visitInterfaceGetprop(t, info, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, info);
+visitInterfaceGetprop(t, assign, object, property, object);
+ checkInterface( t, lvalue, rvalue);
+visitInterfaceGetprop(t, jsType, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object, property, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; }
+ objectJsType = object;
+visitInterfaceGetprop(t, assign, object, property, objectJsType, object, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType, info);
+ visitAnnotatedAssignGetprop(t, object, property, lvalue, rvalue);
+ checkInterface(lvalue, rvalue);
+visitInterfaceGetprop(t, objectJsType, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, objectJsType);
+visitInterfaceGetprop(t, assign, object, property, info);
+visitInterfaceGetprop(object, property);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); return;
+visitInterfaceGetprop(t, object, property, assign);
+ object.prototype = jsType;
+visitInterfaceGetprop(t, object, property); }
+visitInterfaceGetprop(t, object); return;
+ checkInterface( t, property, lvalue, rvalue);
+ visitAnnotatedAssign(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object, property, rvalue); return;
+visitInterfaceGetprop(t, assign, info.getType(), object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType, info, object, property, lvalue, rvalue);
+ checkInterface(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, info);
+ visitAnnotatedAssignGetprops(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, objectJsType); return);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; }
+ checkInterface(object, property, lvalue, rvalue);
+ if (info!= null && info.hasInterface()) {
+ visitAnnotatedAssignGetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(object); return;
+visitInterfaceGetprop(object, property); return;
+visitInterfaceGetprop(info, t, assign, object, property, lvalue, rvalue);
+ assign(object, rvalue);
+ check(property, lvalue, rvalue);
+visitInterfaceGetprop(t, jsType);
+visitInterfaceGetprop(object, property, rvalue);
+ checkInterface( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } else { return ; }
+visitInterfaceGetprop(t, assign, object, property, jsType, objectJsType, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { return ; }
+ visitGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } else { return ;
+visitInterfaceGetprop(t, assign, object, property, rvalue); return);
+ if (info!= null) {
+visitInterfaceGetprop(t, assign, object, property, object.getLastChild().getString());
+visitInterfaceGetprop(t, object, property, rvalue); }
+visitInterfaceGetprop(jsType, info, t, assign, object, property, lvalue, rvalue);
+ if (info!= null && info.hasInterface())
+ checkAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, info.getType().evaluate(t.getScope()));
+visitInterfaceGetprop(t, assign, object, property,  return);
+ if (object.getLastChild().getString().equals("interface")) {
+visitInterfaceGetprop(t, assign); return;
+visitInterfaceGetprop(t, object, property);
+visitInterfaceGetprop(t, assign, object.getLastChild().getString(), rvalue);
+visitInterfaceGetprop(t, jsType, info, assign, object, property, lvalue, rvalue);
+ visitInterface(assign, object, property, lvalue, rvalue);
+ return; }
+visitInterfaceGetprop(t, assign, jsType, object, property, rvalue, lvalue);
+visitInterfaceGetprop(t, assign, jsType, object, property, objectJsType);
+visitInterfaceGetprop(t, assign, object, property, jsType, object, lvalue, rvalue);
+ checkPrototypeInitializer( t, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, objectJsType, info);
+visitInterfaceGetprop(t, assign, info.getType().evaluate(t.getScope())));
+visitInterfaceGetprop(t, assign, jsType, object, property, rvalue); return);
+ if (info!= null && info.hasInterfaceType()) {
+visitInterfaceGetprop(t, assign, jsType, object, property, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } else { return ; }
+visitInterfaceGetprop(t, assign, object, property, lvalue); }
+ check( t, lvalue, rvalue);
+visitInterfaceGetprop(t, object, rvalue);
+visitInterfaceGetprop(t, assign, object,  property, rvalue); return; } return;
+ object.prototype = jsType; return;
+visitInterfaceGetprop(object, jsType);
+ visitAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { assign = objectJsType ;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return ; }
+visitInterfaceGetprop(t, objectJsType);
+ visitInterface(t, assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignInterface(t, assign, object, property, lvalue, rvalue);
+ checkPrototypeInitializer(lvalue, rvalue);
+ visitAnnotatedAssignProp(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, objectJsType, rvalue); return;
+visitInterfaceGetprop(t, assign, object); }
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); return; }
+ if (object.getLastChild().getString().equals("interface"))
+visitInterfaceGetprop(t, assign, object, property, jsType, object);
+visitInterfaceGetprop(t, assign, object, property, jsType); return);
+ visitGetprop(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, obj, rvalue);
+ visitAnnotatedAssignGetpropImpl(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object.getLastChild().getString(), property);
+ if (objectJsType instanceof InterfaceType) { if (info!= null) {
+visitInterfaceGetprop(jsType, assign, object, property, lvalue, rvalue);
+ object.getLastChild().setString(property);
+visitInterfaceGetprop(t,  assign, object, property, rvalue); return
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { assign = objectJsType ;
+visitInterfaceGetprop(t, assign, object, property,  objectJsType, rvalue); return; }
+ object = null;
+visitInterfaceGetprop(t, assign, object, property, jsType, rvalue); return; }
+visitInterfaceGetprop(t, assign, object.getLastChild(), objectJsType);
+ if (info!= null && hasInterface()) {
+visitInterfaceGetprop(t, assign, object, property, jsType, rvalue); return);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); }
+ visitAnnotatedAssignGetpropPrototype(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, objectJsType, property, rvalue);
+ check( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, rvalue); } else { return ; }
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } else { return ;
+visitInterfaceGetprop(t, assign, object, property, objType, rvalue);
+ visitAnnotatedAssignGetpropInterface(t, assign, object, property, lvalue, rvalue);
+ visitGetprop(t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, objJsType, rvalue);
+visitInterfaceGetprop(t, assign, object, property, rvalue); return; } }
+ check(object, property, lvalue, rvalue);
+ if (info!= null && info.hasInterface(object)) {
+visitInterfaceGetprop(object, property, rvalue); return;
+ checkConstructor( t, lvalue, rvalue);
+visitInterfaceGetprop(object, property); }
+ rvalue = object;
+visitInterfaceGetprop(object, property, rvalue); }
+visitInterfaceGetprop(t, assign, object.getLastChild().getString(), object);
+ if (info!= null && info.hasInterfaceInitializer()) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } } return ;
+visitInterfaceGetprop(t, object, property, objectJsType);
+ if (info!= null && info.hasType()) { if (object!= null) {
+ visitAnnotatedGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, rvalue);
+visitInterfaceGetprop(t, assign, jsType);
+visitInterfaceGetprop(t, assign, object,  property, rvalue); } else { return ;
+visitInterfaceGetprop(t,  object, property, rvalue); return; }
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } else { return ; }
+ if (object.getLastChild().getString().equals("prototype")) { if (info!= null && info.hasInterface()) {
+ visitAnnotatedAssignGetpropWrapper(t, assign, object, property, lvalue, rvalue);
+ if (object.getFirstChild().getString().equals("interface"))
+visitInterfaceGetprop(t, object); }
+visitInterfaceGetprop(object); }
+ return; } return;
+visitInterfaceGetprop(t, assign, object, property, objJsType);
+ if (objectJsType instanceof Interface) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } return ;
+ checkConstructor( t, property, lvalue, rvalue);
+visitInterfaceGetprop(T, assign, object, property); return;
+visitInterfaceGetprop(t, assign, object, property, objectJsType, rvalue); return);
+visitInterfaceGetprop(t, assign,  object, property, rvalue); } return;
+ if (object.getLastChild().getString().equals("prototype")) { if (object.getLastChild().isInterface()) {
+visitInterfaceGetprop(t, assign, object, property); return
+visitInterfaceGetprop(t, assign, object.getLastChild().getString());
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return ; } }
+ assign.setFirstChild(rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { return ;
+ visitAnnotatedAssignGetprop(tassign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { return ; } }
+visitInterfaceGetprop(t, assign, object, property, jsType); } else { return ; }
+ checkInterface( t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property,  rvalue); return; } else { return;
+ check(assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignProperty(t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface") { if (info!= null) {
+ if (objectJsType instanceof InterfaceType) {
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } return;
+ if (objectJsType instanceof InterfaceType) { if (info!= null)
+ objectJsType = getJSType(object.getLastChild()); return;
+ if (object.getLastChild().getString().equals("prototype") { if (object.getLastChild().isInterface()) {
+visitInterfaceGetprop(t, assign, object, property, jsType, objectJSType); return);
+ if (object.getFirstChild().getString().equals("interface")) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } else { return ;
+ if (object.getLastChild().getString().equals("interface_getprop")) {
+ visitAnnotatedAssignProp(assign, object, property, lvalue, rvalue);
+ check( t, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object, jsType);
+ if (object.getLastChild().getString().equals("interface") { if (object.getLastChild().isInterface()) {
+ visitAnnotatedAssignGetpropInner(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object) return;
+ objectJsType = getJSType(object.getLastChild()); }
+visitInterfaceGetprop(T, object, property); return;
+ visitAnnotatedAssignGetprops(object, property, lvalue, rvalue);
+ objectJsType = getJsType(object.getLastChild()); return;
+ if (object.getLastChild().getString().equals("prototype")) { if (info!= null && info.hasInterface())
+ checkPrototypeInitializer(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, object, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("prototype")) { if (object.getFirstChild().isInterface()) {
+ if (object.getLastChild().getString().equals("interface")
+visitInterfaceGetprop(t, assign, obj, property, objectJsType);
+ assign(object, property, rvalue);
+visitInterfaceGetprop(t, assign, object,  property, jsType); return; } return;
+visitInterfaceGetprop(T, assign, object, property); }
+ object.getLastChild().getString().equals("prototype")) { objectJsType = jsType ; }
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { assign = object ; }
+ visitAnnotatedAssignInterface(assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("getprop")) {
+ if (info == null && info.hasInterface()) {
+ if (object.getLastChild().getString().equals("prototype"))
+ if (object.getLastChild().getString().equals("Interface")) {
+ object.setInterface(rvalue);
+visitInterfaceGetprop(t, assign, object, property, property);
+ visitAnnotatedAssignGetpropImpl(object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { if (info!= null) {
+ object.getLastChild().getString().equals("prototype")) { objectJsType = jsType ; return ;
+ checkInterfaceInitializer( t, lvalue, rvalue);
+ checkInterfaceInitializer(object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { return; }
+ visitAnnotatedAssignGetProps(t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface") {
+ visitAnnotatedAssignGetpropInterfaces(t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface") { if (object!= null) {
+ return; } else { object.getLastChild().getString().equals("prototype"); return;
+ object.prototype = jsType; } return;
+ visitAnnotatedAssign(t, assign, object, property, lvalue, rvalue);
+ return; } else { object.getLastChild().getString().equals("prototype") { return;
+visitInterfaceGetprop(t, assign); }
+ object.getLastChild().getString().equals("prototype"); } else { object. push ( property ) ;
+ checkPrototypeInitializer( t, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("prototype") { if (info!= null) {
+ if (object.getLastChild().getString().equals("prototype") { return; } }
+ if (info!= null && info.hasInterfaceClass()) {
+visitInterfaceGetprop(t, assign, object, property, rvalue); return; } } return ;
+ if (object.getLastChild().getString().equals("InterfaceGetprop")) {
+ object.getLastChild().getString().equals("prototype"); objectJsType = jsType ; }
+visitInterfaceGetprop(T, assign, object, property, rvalue);
+ visitAnnotatedAssignGetprop(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { assign = object ; }
+ if (object.getLastChild().getString().equals("prototype") { return; }
+ checkInitializer( t, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType, object);
+ object.getLastChild().getString().equals("prototype"); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { return false ; }
+ if (object.getLastChild().getString().equals("prototype")) { if (object.getLastChild!= null) {
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } else { return false ; }
+ check(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, obj); }
+ if (object.getLastChild().getString().equals("interface") { if (info!= null) { info.
+visitInterfaceGetprop(t, assign, object, property, null);
+ if (object.getLastChild().getString().equals("interface") { if (object.getLastChild!= null) {
+ if (info == null && info!= null) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { objectJsType = object ;
+ object.getLastChild().getString().equals("prototype")) { object.prototype = jsType;
+ visitAssignGetprop(t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, info, jsType, object, property, lvalue, rvalue);
+ return; } else { object.getLastChild().getString().equals("prototype")) { return;
+ if (objectJsType!= null) {
+ if (object.getLastChild().getString().equals("interface")) { return; } }
+ visitAnnotatedAssignGetprotos(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); } else { return ; }
+ objectJsType = getJsType(object.getLastChild()); }
+ if (object.getLastChild().getString().equals("interface") { return; } }
+ visitInterface( t, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("object.prototype")) {
+ if (object.getLastChild().getString().equals("interface") { if (info!= null)
+ object.getLastChild().getString().equals("prototype"); } else { return ; }
+ if (info!= null && info.hasInterface()) { return; }
+visitInterfaceGetprop(t, assign, object, property,  rvalue); } else { return ; } }
+ if (object.getLastChild().getString().equals("prototype") { if (object.getLastChild!= null) {
+ visitAnnotatedAssignProperty(assign, object, property, lvalue, rvalue);
+ checkInitializer( t, lvalue, rvalue);
+ if (object.getLastChild().getString()!= null)
+ if (object.getLastChild().getString().equals("object.name")) {
+ visitAnnotatedAssignProp(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); return; } return ;
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rvalue); return; } }
+visitInterfaceGetprop(t, assign, obj, property, rvalue);
+visitInterfaceGetprop(t, object, property); return
+ checkConstructor(object, property, lvalue, rvalue);
+ visitAnnotatedAssignProp(t, object, property, lvalue, rvalue);
+ checkConstructor(lvalue, rvalue);
+ if (object.getFirstChild().getString().equals("prototype"))
+visitInterfaceGetprop(t, assign, object, property, objectJsType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, obj, property, rvalue); return;
+ if (info!= null && info) {
+ if (object.getLastChild().getString().equals("prototype")) { if (object.getFirstChild!= null) {
+ checkPrototypeInitializer( t, object, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, objectJsType);
+ checkAnnotatedAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object.getLastChild(), object);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } } return ;
+ if (info.hasInterface()) {
+visitInterfaceGetprop(t, assign, object, objectJsType, property, lvalue, rvalue);
+ checkPrototypeInitializer( t, jsType, rvalue);
+ object.getLastChild().getString().equals("prototype"); return; }
+ return; } else { objectJsType = object;
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { objectJsType = object ;
+ if (objJsType instanceof Interface) {
+ checkInterfaceInitializer( t, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign,  object, property, jsType); return; }
+ if (objectJsType instanceof InterfaceType) { if (isInterface) {
+visitInterfaceGetprop(t, assign, object, property) return;
+visitInterfaceGetprop(t, assign, object, property, objectJsType); return; }
+ object.getLastChild().getString().equals("prototype"); } else { return;
+ object.getLastChild().getString().equals("prototype"); } else { object. push ( ) ;
+ visitAnnotatedAssignGetpropConstructor(t, assign, object, property, lvalue, rvalue);
+ object.getLastChild().getString().equals("prototype")) { objectJsType = jsType ; } }
+ object.getLastChild().getString().equals("prototype")) { object.getLastChild(); } return;
+ checkInterfaceInitializer(property, lvalue, rvalue);
+ checkPrototypeInitializer( t, object, rvalue);
+ objectJsType = getJSType(object.getLastChild()); } return ;
+visitInterfaceGetprop(t,  assign, object, property, obj); return;
+ objectJsType = getJSType(object.getLastChild());
+ object.getLastChild().getString().equals("prototype")) { object.prototype = property ;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info, objectJsType);
+ if (objectJsType instanceof InterfaceType) { return; }
+ object.prototype = property ; return;
+ if (object.getLastChild().getString().isInterface()) {
+visitInterfaceGetprop(t, assign, obj, rvalue);
+ object.getLastChild().getString().equals("prototype"); } else { objectJsType = object ;
+visitInterfaceGetprop(object, property, assign);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return ;
+ return; } else { object.getLastChild().getString().equals("prototype"); } return;
+ visitAssignGetprop(object, property, lvalue, rvalue);
+ checkConstructor( t, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals")) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return false ; }
+ object.getLastChild().getString().equals("prototype"); } } return ;
+visitInterfaceGetprop(t, obj, property); }
+ object.getLastChild().getString() return;
+visitInterfaceGetprop(t, object, property, jsType, assign);
+ object.getLastChild().getString().equals("prototype")) { object. removeFirstChild ( ) ;
+ object.getLastChild().getString().equals("prototype"); } return;
+ if (object.getFirstChild().getString()!= null)
+ if (object.getLastChild().getString().equals("interface") { if (object.isInterface()) {
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } } else { return ;
+ checkPrototypeInitializer( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object) return;
+ object.getLastChild().getString(); return;
+ checkConstructor(property, lvalue, rvalue);
+ return; } else { object.getLastChild().getString().equals("prototype"); }
+ object.getLastChild().getString().equals("prototype")) { object.prototype = jsType; }
+ if (info!= null && info.hasType()) {
+ checkPrototype( t, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  objectJsType, jsType); return; }
+ visitAnnotatedAssignGetpropInternal(t, assign, object, property, lvalue, rvalue);
+ return; } else { object.getLastChild().getString().equals("prototype");
+ object.getLastChild().getString().equals("prototype"); objectJsType = object ;
+ if (object.getLastChild().getString().equals("interface")) { if (info!= null)
+ objectJsType = getJSType(object.getFirstChild());
+ visit(t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("prototype") { if (info!= null)
+ if (object.getLastChild().getString().equals()) {
+ object.getLastChild().getString().equals("prototype"); return; } return;
+visitInterfaceGetprop(t, obj, property); return;
+visitInterfaceGetprop(object) return;
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } else { return ; } }
+ object.getLastChild().getString().equals("prototype"); } else { object = null ;
+ objectJsType = getJSType(object.getLastChild()); return; }
+ if (object.getLastChild().getString().equals("prototype") { if (object.prototype!= null) {
+ if (object.getLastChild().getString().equals("interface") { if (info!= null && info) {
+ if (object.getLastChild().isInterface()) {
+ if (object.getLastChild().getString().equals("prototype") { if (object.isInterface(object)) {
+ visitAnnotatedAssignSetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(objectJsType, t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("prototype")) { if (object.prototype!= null) {
+ if (object.getLastChild().getString().equals("interface")) { if (info!= null) info.
+ if (object.getLastChild().getString().equals("interface")) { } }
+ if (object.getLastChild().getString().equals("interface") { if (object.isInterface(object)) {
+visitInterfaceGetprop(t, object, property, rvalue); return
+ if (object!= null) {
+ return; } else { rvalue = object;
+ visitAnnotatedGetprop(t, object, property, lvalue, rvalue);
+ checkPrototypeInitializer(object, property, lvalue, rvalue);
+ checkInheritedAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, obj, property, rvalue); return;
+ if (object.getLastChild().getString().equals("interface") { return
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } else { return ; } }
+ return; } else { object.getLastChild().getString().equals("property"); }
+visitInterfaceGetprop(t, assign, object, property, objJsType); return; }
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } else { return false ; }
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); return; } }
+ object.prototype = objectJsType;
+ if (object.getLastChild().getString().equals("interface")) { } else {
+ objectJsType = getJsType(object.getFirstChild()); }
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, lvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return ; } } return ;
+visitInterfaceGetprop(t, assign, object, jsType, objectJsType, lvalue, rvalue);
+ visitAnnotatedAssignGet(t, assign, object, property, lvalue, rvalue);
+ checkPrototypeInitializer( t, jsType, lvalue, rvalue);
+ object.getLastChild().getString().equals("prototype")) { object.prototype = object;
+ visitAnnotatedAssignInterface(t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property,  jsType, rvalue); return; } }
+ checkAssignGetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t,  object, property, rvalue); } return ;
+ visitAnnotatedGetprop(assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignGetprotop(t, assign, object, property, lvalue, rvalue);
+ checkPrototypeInitializer(jsType,lvalue, rvalue);
+ checkInterfaceInitializer( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, objType, property);
+ return false;
+ checkInterface(rvalue);
+ if (object.getLastChild().getString().equals("interface") { if (info!= null && info!= object)
+visitInterfaceGetprop(t, obj, property, rvalue);
+ if (object.getLastChild().getString().equals("interface") { if (isInterface) {
+ visitAnnotatedAssignGetpropInternal(object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { } } else {
+ checkInheritedAssignGetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType); return;
+visitInterfaceGetprop(); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) } else { assign = objectJsType ;
+ checkPrototypeInitializer( t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType.name, object, property, lvalue, rvalue);
+ checkInterfaceInitializer( t, object, property, rvalue);
+visitInterfaceGetprop(t); }
+ visitAnnotatedAssignProperty(t, object, property, lvalue, rvalue);
+ checkInterfaceInitializer(t, assign, object, property, lvalue, rvalue);
+ if (object.getLastChild!= null) {
+ if (object.getLastChild().getString().equals("interface") { if (info!= null) { return
+ object.getLastChild().setString(rvalue);
+ object.prototype = objJsType;
+ if (object.getLastChild().getString().equals("interface") { if (isInterface()) {
+ if (object.getLastChild().getString().equals("interface") { if (debug) {
+ return false);
+ object.getLastChild().getString().equals("prototype"); return; } }
+ if (object.getLastChild().getString().equals("prototype") { if (object.isInterface() == true)
+ object.set(property, rvalue);
+ if (object.getLastChild().getString().equals("interface") { if (object.isInterface() == true)
+ checkPrototypeInitializer( objectJsType, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  objectJsType); return; } return ;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) ; } else { objectJsType = null ;
+visitInterfaceGetprop(t, assign, object, property, lvalue); } else { return ; } } return ;
+ if (info == null && hasInterface()) {
+ checkPrototype(lvalue, rvalue);
+visitInterfaceGetprop(T, assign, object, property);
+ if (object.getLastChild().getString().equals("interface")) return; } else
+ checkTypeInitializer( t, object, property, rvalue);
+ checkConstructorInitializer( t, jsType, lvalue, rvalue);
+ object.setLastChild(jsType);
+ object.prototype = jsType(rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); } else { return ; } } }
+visitInterfaceGetprop(t, assign, "getprop", object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  objectJsType); return; } } return ;
+ checkPrototypeInit( t, object, rvalue);
+ visitAnnotatedAssignGetprop(t, property, lvalue, rvalue);
+ checkPrototype( t, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { if (info!= null) { return
+visitInterfaceGetprop(t, assign, object, property, jsType); return; } }
+visitInterfaceGetprop(t, assign, property, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } } return ;
+ visitAnnotatedAssignInterface(object, property, lvalue, rvalue);
+ visitAnnotatedAssignGetProps(object, property, lvalue, rvalue);
+ if (info!= null) { info.
+ check(lvalue, rvalue);
+ object.prototype = jsType;;
+visitInterfaceGetprop(t, objType, property);
+ checkInitializer(object, property, lvalue, rvalue);
+ if (info!= null && info.getInterface())
+ checkInterfaceInitializer( t, jsType, rvalue);
+ checkConstructorInitializer( t, object, lvalue, rvalue);
+ checkConstructor( t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, info, lvalue, rvalue);
+visitInterfaceGetprop(objectJsType, info, t, assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignSetprop(t, object, property, lvalue, rvalue);
+ visitAnnotatedAssignObject(t, assign, object, property, lvalue, rvalue);
+ checkInterfaceInitializer(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, obj); }
+ visitConstructorGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType, objectJsType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign) return;
+visitInterfaceGetprop(t, assign, object.getParent ( ), property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { return
+ checkInitializer(lvalue, rvalue);
+ visitAnnotatedAssign(t, object, property, lvalue, rvalue);
+ Object objectJsType = jsType ; return;
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } }
+ visitAnnotatedAssignSetprop(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, property, rvalue);
+ checkPrototype( t, object, property, lvalue, rvalue);
+ visitAnnotatedAssignprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rvalue); } return;
+ checkInheritedAssignGetprop( t, object, property, lvalue, rvalue);
+ checkGetprop( t, assign, object, property, lvalue, rvalue);
+ object.getLastChild().set(property);
+ visitAnnotatedAssignGetpropImpl(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType, null, object, property, lvalue, rvalue);
+ if (object.getLastChild().getString().equals("interface")) { return; } else
+visitInterfaceGetprop(t, assign, object, property, jsType); }
+ checkTypeInitializer( t, lvalue, rvalue);
+ checkInterfaceInitializer( t, object, rvalue);
+ visitInheritedAssignGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } else { return ; } }
+ checkInterfaceInitializer( t, object, lvalue, rvalue);
+ visitAnnotatedAssignProperty(object, property, lvalue, rvalue);
+visitInterfaceGetprop(obj); }
+ checkPrototype(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, objectJsType, info);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) } else { return ; }
+ object.getLastChild().setString()(rvalue);
+ visitAnnotatedAssignGetprop($assign, object, property, lvalue, rvalue);
+ if (info!= null) { return
+ if (info!= null) { info =
+ return true;
+ visitAnnotatedAssignProp(property, lvalue, rvalue);
+ visitAnnotatedAssignGetprotos(object, property, lvalue, rvalue);
+ visitAssignGetprop(assign, object, property, lvalue, rvalue);
+ return; } else { checkInterface( t, rvalue);
+ if (object.getLastChild().getString().equals("interface") { return; } } else
+ objectJsType = null;
+ visitAnnotatedAssignGetprop(jassign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property), rvalue);
+visitInterfaceGetprop(t, jsType, info, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } return;
+ return; } else { assign.push(object);
+visitInterfaceGetprop(jsType, rvalue, t, assign, object, property, lvalue, rvalue);
+ object.prototype = jsType);
+ return(true);
+ checkTypeInitializer( t, jsType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  objectJsType); return; }
+ visitAnnotatedAssignObject(object, property, lvalue, rvalue);
+ checkPrototypeInitializer( t, jsType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, objectJsType, jsType, rvalue);
+ assign.setFirstChild(object);
+ object.add(rvalue);
+ visitAnnotatedAssignPutprop(t, assign, object, property, lvalue, rvalue);
+ checkAssignGetprop(property, lvalue, rvalue);
+ checkPrototypeInit( t,lvalue, rvalue);
+ object.prototype.add(rvalue);
+ checkAssignGetprop( t, object, property, lvalue, rvalue);
+ checkPrototypeInitializer( t, rvalue);
+visitInterfaceGetprop(t, object, property, object);
+ checkInterface(assign, object, property, lvalue, rvalue);
+ checkGetprop( t, object, property, lvalue, rvalue);
+ checkInheritedAssignGetprop(property, lvalue, rvalue);
+ visitAnnotatedProperty(assign, object, property, lvalue, rvalue);
+ if (info!= null && hasInterface) {
+ checkGetprop(t, jsType, object, lvalue, rvalue);
+ visitInterface( t, property, lvalue, rvalue);
+ return(object);
+ visitConstructor(t,assign, object, property, lvalue, rvalue);
+ visit(rvalue);
+ checkInitializer(property, lvalue, rvalue);
+ checkTypeInitializer( t, property, lvalue, rvalue);
+ visitAnnotatedAssignGet(t, object, property, lvalue, rvalue);
+ Object objectJsType = getObjectType(object);
+ object.getLastChild().setString(_);
+ checkPrototypeInit( t, object, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } } }
+ if (objectJsType instanceof InterfaceType) { return; } }
+visitInterfaceGetprop(t, objectJsType, t, assign, object, property, lvalue, rvalue);
+( t, assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignGetprop assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object); return
+ checkTypeInitializer( t, object, lvalue, rvalue);
+ visitAnnotatedAssignInterface(property, lvalue, rvalue);
+ checkPrototypeInitializer(jsType, rvalue);
+ checkPrototype( t, object, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, object, property, rvalue);
+ checkInheritedAssignGetprop( t, property, lvalue, rvalue);
+ checkPrototype( t, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) } else { return ; } }
+ object.prototype = array(object);
+ checkPrototypeInitizer( t,lvalue, rvalue);
+ object.push(rvalue);
+ obj.prototype = jsType;
+ if (info == null) return;
+ return; } else {
+visitInterfaceGetprop(t, jsType.name, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info.getType(), info);
+ visitAnnotatedAssignprop(object, property, lvalue, rvalue);
+ object.super(rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objType, objectJsType);
+ return; } } else {
+visitInterfaceGetprop(t, assign, property, object); return;
+ checkTypeInitializer( t, object, rvalue);
+visitInterfaceGetprop(objJsType, info, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t.getScope(), info, assign, object, property, lvalue, rvalue);
+ checkPrototype( t, assign, object, property, lvalue, rvalue);
+ if (obj!= null) {
+visitInterfaceGetprop(jsType, objectJsType, t, assign, object, property, lvalue, rvalue);
+ object.getLastChild() = null;
+ assign = jsType ; return;
+ checkConstructorInitializer( t, lvalue, rvalue);
+ object.prototype(rvalue);
+ checkPrototypeModification(t, object,lvalue, rvalue);
+ checkTypeInitializer( t, rvalue);
+ checkPrototypeInitizer( t, object, lvalue, rvalue);
+ assign.push(object);
+ checkPrototypeInit( t, object, property, lvalue, rvalue);
+ checkPrototypeModification( t, object, property, lvalue, rvalue);
+ checkProtoInitializer(lvalue, rvalue);
+ checkPrototypeModification(objectJsType,property, lvalue, rvalue);
+ object.prototype.set(rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, info, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, "getprop", property, lvalue, rvalue);
+ checkConstructorInitializer(object, property, lvalue, rvalue);
+ checkInitializer( t, object, property, lvalue, rvalue);
+ return; } else { assign.addChild(rvalue);
+ visitAnnotatedGetprop(tassign, object, property, lvalue, rvalue);
+ checkConstructor( t, rvalue);
+ visitGetprop(t, info, assign, object, property, lvalue, rvalue);
+ visitAnnotatedInterface(assign, object, property, lvalue, rvalue);
+ visitInnerAssignGetprop(t, assign, object, property, lvalue, rvalue);
+ return; } else { assign.setParent(rvalue);
+ object.getLastChild().remove());
+ checkPrototype(object, jsType,rvalue);
+ assign.setLastChild(rvalue);
+ object.prototype = property(object);
+ visitAnnotatedAssignGetprop(it, object, property, lvalue, rvalue);
+ checkAssignGetprop( t, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; } break;
+ checkConstructor(t, jsType, object, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, obj, property); return;
+ checkPrototypeInitizer(jsType,lvalue, rvalue);
+ visitAnnotatedAssignSetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; } } } }
+ assign.setFirstChild(object,rvalue);
+ visitAnnotatedAssignConstructor(assign, object, property, lvalue, rvalue);
+ checkInterfaceInitializer( t, rvalue);
+ if (info == null) {
+ object.prototype.push(rvalue);
+ setInterface(rvalue);
+ checkPrototype(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, rvalue) return;
+ checkPropertyInitializer(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objectJsType, info);
+ visitGetProps(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, objectJsType); return);
+ visitAnnotatedAssignProps(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(object.getFirstChild(), t, assign, object, property, lvalue, rvalue);
+ object.getLastChild().setString(Property);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) } else { return;
+ object.getLastChild(); } return;
+ visitAnnotatedAssignGetprops(property, lvalue, rvalue);
+ checkMemberAssignGetprop(t, assign, object, property, lvalue, rvalue);
+ object.getLastChild().remove(");
+ object.prototype = object;
+ visitGetProp(t, info, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, object.getParent ( ), rvalue);
+ visitGetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType);
+ visitAnnotatedAssignProperty(property, lvalue, rvalue);
+ assign.setChild(object,rvalue);
+ checkConstructor(objectJsType, rvalue);
+ checkPrototypeMember( t, lvalue, rvalue);
+ assign.setInterface(rvalue);
+ checkPrototype( objectJsType, rvalue);
+ assign.set (jsType,rvalue);
+visitInterfaceGetprop(t, assign, object.get ( ), property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, info.getType() object, property, lvalue, rvalue);
+ object.getLastChild().addChild(property);
+ checkInterface(object);
+ checkPrototypeModification ( t, jsType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jsType), object, property, lvalue, rvalue);
+ if (obj!= null)
+ object.getLastChild().set(rvalue);
+ assign.setLastChild().setString(rvalue);
+ visitProperty(t,assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object); return
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, rvalue);
+ checkPrototypeInitializer( object.property, lvalue, rvalue);
+ checkConstructorInitializer(t, assign, object, property, lvalue, rvalue);
+ checkInheritedAssignGetprop(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info, jsType, object);
+ return; } object.prototype(rvalue);
+ if (info == null) { return
+ assign.setLastChild(object,rvalue);
+visitInterfaceGetprop(t, assign, object, property); return; }
+visitInterfaceGetprop(t, assign, property); return;
+ visitAssignGetprop(t, property, lvalue, rvalue);
+ if (jsType)
+visitInterfaceGetprop(t, assign, objectJSType, object, property, lvalue, rvalue);
+ object.getLastChild().getString());
+visitInterfaceGetprop(t, assign, object, property, lvalue, objectJsType, rvalue);
+ visitInterface(object, property, lvalue, rvalue);
+ checkGetprop(object, property, rvalue);
+ checkAnnotatedAssignInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  obj); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue,  jsType); }
+ checkProtoInitializer(property, lvalue, rvalue);
+ checkTypeInitializer(object, property, lvalue, rvalue);
+ assign.push(rvalue);
+ visitAssignGetprop(property, lvalue, rvalue);
+ object.getLastChild().set("prototype);
+ object.addInterface(rvalue);
+ checkInterface( t, object, rvalue);
+ object.getLastChild().remove(_);
+ object.setLastChild(rvalue);
+ if (objectJsType instanceof InterfaceType) { return
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return);
+ object.setLastChild(null);
+ assign.addChild(rvalue);
+ if (jsType) {
+ checkPrototypeInitializer(jsType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, rvalue, info, assign, object, property, lvalue, rvalue);
+ checkPrototypeModification(objectJsType,lvalue, rvalue);
+ object.prototype = property);
+visitInterfaceGetprop(info.getType(), info, t, assign, object, property, lvalue, rvalue);
+ checkPrototypeModifications(t, object,lvalue, rvalue);
+ object.getLastChild() = property;
+ checkPropertyInitializer(property, lvalue, rvalue);
+ assign.setJSType(lvalue, rvalue);
+ checkTypeInitializer(property, lvalue, rvalue);
+ checkConstructor( t, object, lvalue, rvalue);
+visitInterfaceGetprop(t.getScope( ), assign, object, property, lvalue, rvalue);
+ visitAnnotatedGetProp(tassign, object, property, lvalue, rvalue);
+ visitMember(t,assign, object, property, lvalue, rvalue);
+ checkPrototypeModification(t, object.property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info.getType(...));
+visitInterfaceGetprop(obj); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info, jsType, assign);
+ assign.set(object, rvalue);
+( t, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; }
+visitInterfaceGetprop(t, objectJSType);
+ object.getLastChild().append(rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType.evaluate( ));
+ checkTypeInitializer(lvalue, rvalue);
+ checkAssignGetprop(jsType,property, lvalue, rvalue);
+ visit(assign, object, property, lvalue, rvalue);
+ checkPrototypeInitializer(jsType, object, property, lvalue, rvalue);
+ object.prototype = null);
+ obj = jsType;
+ return; } else { object.add(rvalue);
+ checkPrototypeMember( t, property, lvalue, rvalue);
+ return; } object.setInterface(rvalue);
+ object.prototype = object);
+ object.prototype = property;
+ return; } object.push(rvalue);
+ visitAnnotated(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, info.getType(), object, rvalue);
+ return; } else { object.push(rvalue);
+ visitAnnotatedGetProp(t, assign, object, property, lvalue, rvalue);
+ return; } else { object.addChild(rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objJsType, info);
+ return object, rvalue);
+ object.addChild(rvalue);
+ checkPrototypeModification( t,lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) ; } } return ;
+ return; } else { return;
+ checkPrototypeInit( object,property, lvalue, rvalue);
+ checkAssignGetprop(lvalue, rvalue);
+visitInterfaceGetprop(t, rvalue);
+ return; } else { checkInitializer(lvalue, rvalue);
+ checkPrototypeMember( t, object, property, lvalue, rvalue);
+ visitInterface( t, lvalue, rvalue);
+ checkConstructorInitializer(lvalue, rvalue);
+ checkInterface( objectJsType, rvalue);
+ checkGetprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, obj, property); }
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType); return);
+ checkPrototypeConstructor( t,lvalue, rvalue);
+visitInterfaceGetprop(t, objJsType, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objectJsType); return);
+ if (isInterface) {
+ visitGetPropImpl(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, lvalue, rvalue);
+ visitAnnotatedAssignSetprop(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } return ;
+visitInterfaceGetprop(obj, jsType);
+ checkPrototypeMember( t, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  return);
+ object.setLastChild(object);
+ visitAssignGetprop(jsType, object, property, lvalue, rvalue);
+ if (object!= null) { return
+ checkPrototypeInitializer(jType,lvalue, rvalue);
+ checkPrototypeModification(object, property, lvalue, rvalue);
+ visitGetProp(t, assign, object, property, lvalue, rvalue);
+ visitAssignGetpropImpl(t, assign, object, property, lvalue, rvalue);
+ checkGetprop( t, object, lvalue, rvalue);
+ object.prototype = true);
+ object.setInterface(object);
+visitInterfaceGetprop(t, assign, object, property, objJsType, object, rvalue);
+visitInterfaceGetprop(t, assign, object, property); break
+ checkPrototypeChange( t, property, lvalue, rvalue);
+visitInterfaceGetprop(T, objectJsType, assign, object, property, lvalue, rvalue);
+ assign.addChild(object);
+ object.setInterface(true);
+ checkPrototypeMod( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, objectJsType, info, rvalue);
+ checkConstructor(jsType,property, lvalue, rvalue);
+ checkPrototypeChange(lvalue, rvalue);
+ checkPrototypeMod(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsType, object);
+ checkGetprop(assign, object, property, lvalue, rvalue);
+ checkPrototypeModification ( jsType,property, lvalue, rvalue);
+ visitInnerProperty(t,assign, object, property, lvalue, rvalue);
+ checkPrototypeChange( t, lvalue, rvalue);
+ checkGetprop( t, lvalue, rvalue);
+ visitGetprop(t, property, lvalue, rvalue);
+ visitConstructorAssignProp(t, assign, object, property, lvalue, rvalue);
+ checkPrototypeInit( object.property, lvalue, rvalue);
+visitInterfaceGetprop(jsType.prototype, t, assign, object, property, lvalue, rvalue);
+ checkPrototypeMod( t, lvalue, rvalue);
+ visitAnnotatedAssignPutprop(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, objJsType, object, property, lvalue, rvalue);
+ checkAssignGetprop(jsType, object, property, lvalue, rvalue);
+ return; } return);
+ return true);
+ object.prototype = true;
+ visitGetprop(t, _assign, object, property, lvalue, rvalue);
+ visitAnnotatedAssignProps(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); } } return ;
+ checkPrototypeMember( t, assign, object, property, lvalue, rvalue);
+ checkPrototypeChange( t, object, property, lvalue, rvalue);
+ check( t, rvalue);
+ checkPrototypeChange(object, property, lvalue, rvalue);
+ object = property;
+visitInterfaceGetprop(t, objectJsType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, "getprop" + property, lvalue, rvalue);
+ visitAssign(assign, object, property, lvalue, rvalue);
+ object.prototype = rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; } }
+ (object, property, lvalue, rvalue);
+ checkPrototypeChange(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return; return;
+ visitGetProp(assign, object, property, lvalue, rvalue);
+ check( object, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue);
+visitInterfaceGetprop(t, assign, object, property, jsType, info, rvalue);
+ checkGetprop(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign);
+ checkGetProps(object, property, lvalue, rvalue);
+ checkAssignmentGetprop(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); return; return;
+ checkInterface( object, rvalue);
+ checkObjectInitializer(t, assign, object, property, lvalue, rvalue);
+ continue; }
+ checkPrototypeInit( t,property, lvalue, rvalue);
+ visitAssignGetpropInternal(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, jsType.name, t, assign, object, property, lvalue, rvalue);
+ check(object);
+ visitGetprop(t, lvalue, rvalue);
+ checkPrototypeMod( t, assign, object, property, lvalue, rvalue);
+ visit(t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, objectJsType, lvalue, rvalue);
+ return; } else { checkInterface(lvalue, rvalue);
+ visitGetPropInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop() ;
+ visitGetPropImpl(t, object, property, lvalue, rvalue);
+ object = jsType;
+visitInterfaceGetprop(object, rvalue);
+ return(false);
+( t, object, property, lvalue, rvalue);
+ object = assign;
+ checkPrototypeMember(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, jsType, propertyName, lvalue, rvalue);
+visitInterfaceGetprop(jsType.getName, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(objJsType, t, assign, object, property, lvalue, rvalue);
+ visitConstructorAssignProperty(t, assign, object, property, lvalue, rvalue);
+ checkPrototypeMod(property, lvalue, rvalue);
+ check(rvalue);
+ assign(jsType);
+ visitConstructor(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) } return;
+ visitGetpropInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(jsType.name, t, assign, object, property, lvalue, rvalue);
+ visitAssignGetpropImpl(object, property, lvalue, rvalue);
+ visitAssignGetpropInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(object); return
+visitInterfaceGetprop(t, assign, object, property, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, property, rvalue);
+ checkAssignGetpropImpl(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return; return;
+visitInterfaceGetprop(t, assign, object, property, object, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rvalue); return
+visitInterfaceGetprop(jType, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(T, jsType, assign, object, property, lvalue, rvalue);
+ visitInterface(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType); return);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, object);
+visitInterfaceGetprop(t, assign, property); }
+ checkAssignGetpropInternal(object, property, lvalue, rvalue);
+ object = object;
+ return; } else
+visitInterfaceGetprop(t, assign, object, property, jsType, null, rvalue);
+ visitInterface(rvalue);
+ checkPrototypeModificationOf(object, property, lvalue, rvalue);
+visitInterfaceGetprop(T, info, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, jsType, ".", lvalue, rvalue);
+ visitInterface( t, rvalue);
+ checkPrototypeModificationInfo(object, property, lvalue, rvalue);
+visitInterfaceGetprop(); }
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rsValue); return;
+ checkProperties(property, lvalue, rvalue);
+ checkGetprop(lvalue, rvalue);
+ assign = object;
+visitInterfaceGetprop(jType, assign, object, property, lvalue, rvalue);
+ assign( t, lvalue, rvalue);
+visitInterfaceGetprop() }
+visitInterfaceGetprop(t, objType, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  object);
+visitInterfaceGetprop(jtype, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(obj, jsType, t, assign, object, property, lvalue, rvalue);
+ checkPrototypeModificationInfo(lvalue, rvalue);
+ return; } });
+ checkPrototypeModifyInfo(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  false);
+visitInterfaceGetprop(t, assign, object, property, jsType, true, rvalue);
+ setInterface(object, rvalue);
+ traverse( t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objJsType);
+ return object, property, lvalue, rvalue);
+ if (debug) {
+ } else {
+ return ();
+visitInterfaceGetprop(t, assign); return
+ checkConstructors(lvalue, rvalue);
+ checkPrototypeChange(t, assign, object, property, lvalue, rvalue);
+( object, rvalue);
+ checkType( t, lvalue, rvalue);
+ assign(jsType, rvalue);
+ processInterface( t, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType.prototype);
+ returnObject(rvalue);
+ setInterface(lvalue, rvalue);
+ visitAnnotatedGetassign, object, property, lvalue, rvalue);
+ visitProperty(assign, object, property, lvalue, rvalue);
+ checkProperty( t, assign, object, property, lvalue, rvalue);
+ checkProperty( t, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsType, false);
+ visit (, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, null, lvalue, rvalue);
+ return(null);
+ checkGetProp(t, assign, object, property, lvalue, rvalue);
+ checkInterface( object, lvalue, rvalue);
+ processInterface( t, object, property, lvalue, rvalue);
+ return null, rvalue);
+ visit (, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign), object;
+ visitInterface(lvalue, rvalue);
+ return object, lvalue, rvalue);
+ visit(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  true);
+ bind( t, object, property, lvalue, rvalue);
+ return;
+ init( t, lvalue, rvalue);
+ bind( t, assign, object, property, lvalue, rvalue);
+ visit( t, lvalue, rvalue);
+visitInterfaceGetprop(jsType, info, assign, object, property, lvalue, rvalue);
+ check (, object, property, lvalue, rvalue);
+visitInterfaceGetprop() return;
+ assign(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, JSType, object, property, lvalue, rvalue);
+ bind(lvalue, rvalue);
+visitInterfaceGetprop(obj);
+ set(object, rvalue);
+ returnInterface(rvalue);
+ doCheck(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(info, null, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(info!= null, t, assign, object, property, lvalue, rvalue);
+ return assign, lvalue, rvalue);
+ return; } }
+ checkProperty(property, lvalue, rvalue);
+ if (info!= null) return
+visitInterfaceGetprop(t) return;
+visitInterfaceGetprop(t, assign, object), property;
+ return null);
+visitInterfaceGetprop(this, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(obj, property);
+ return assign, object, property, lvalue, rvalue);
+ processInterface(property, lvalue, rvalue);
+ return (, rvalue);
+visitInterfaceGetprop(t, assign, object, property, info, object, rvalue);
+( t, property, lvalue, rvalue);
+ updateInterface(lvalue, rvalue);
+ assignInterface(lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, objJsType);
+ addInterface(property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue); return
+ setInterface(object, property, lvalue, rvalue);
+ processInterface(object, property, lvalue, rvalue);
+ addInterface(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, jsType(), property, lvalue, rvalue);
+ assign(rvalue);
+visitInterfaceGetprop(t, assign, object, jsType.name, lvalue, rvalue);
+ return(rvalue);
+visitInterfaceGetprop(t, assign, null, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object,  property), return;
+ handleInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(it, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, object
+ validate(lvalue, rvalue);
+visitInterfaceGetprop(T, object);
+visitInterfaceGetprop(t, assign, object, property, objectJSType, rvalue);
+visitInterfaceGetprop(t); return
+ visit(property, lvalue, rvalue);
+ visitMember(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue) return;
+ return; } } else
+visitInterfaceGetprop(t, assign, objectJSType, property, lvalue, rvalue);
+visitInterfaceGetprop(t), object);
+ if (jsType) return
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalueType);
+visitInterfaceGetprop(object); break
+ processInterface(t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, objJsType, property, lvalue, rvalue);
+ interfaces(lvalue, rvalue);
+ return; } return
+ interfaces(t, assign, object, property, lvalue, rvalue);
+ assert(rvalue);
+ } return;
+ bind(property, lvalue, rvalue);
+ return null, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rsValue);
+visitInterfaceGetprop(jsTypeName, t, assign, object, property, lvalue, rvalue);
+ bind(object, property, lvalue, rvalue);
+ validate(t, assign, object, property, lvalue, rvalue);
+ return null;
+ validate(object, property, lvalue, rvalue);
+visitInterfaceGetprop return;
+visitInterfaceGetprop(t, assign, object, property, null, null, rvalue);
+visitInterfaceGetprop(t, assign + info, object, property, lvalue, rvalue);
+ validate(property, lvalue, rvalue);
+visitInterfaceGetprop(t, obj);
+visitInterfaceGetprop(t, assign, object, property,  true);
+ break; } }
+ traverse(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property,  value);
+visitInterfaceGetprop(t, assign, object, property, lvalue,  rsvalue);
+ continue; } else
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, objectJSType);
+ interfaces(object, property, lvalue, rvalue);
+visitInterfaceGetprop(t) }
+ } else
+visitInterfaceGetprop(t, assign,  property);
+visitInterfaceGetprop(t, assign, object,  prop); }
+ assign(property, lvalue, rvalue);
+ validate(assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object,  property) }
+visitInterfaceGetprop(t, assign); break
+visitInterfaceGetprop(t, assign, object, property, lvalue)); return;
+visitInterfaceGetprop(t, assign, object, property, lvalue, jsJsType);
+visitInterfaceGetprop(t, assign, object); break
+visitInterfaceGetprop(sType, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, objectJSType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue)); return;
+visitInterfaceGetprop(t, assign, object) }
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jsJsType);
+visitInterfaceGetprop(t, assign, object, property, info, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, info, assign);
+visitInterfaceGetprop(t); break
+visitInterfaceGetprop(t, assign, object, property,  jsType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); break;
+visitInterfaceGetprop(Info, t, assign, object, property, lvalue, rvalue);
+ report(assign, object, property, lvalue, rvalue);
+ return 1;
+visitInterfaceGetprop(t, assign, object, property, lvalue); break;
+visitInterfaceGetprop(t, assign) }
+ continue;
+visitInterfaceGetprop(t, assign, object, property, lvalue,  obj); }
+visitInterfaceGetprop(objType);
+visitInterfaceGetprop()();
+ } }
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue); break
+visitInterfaceGetprop(t, assign, object, property, lvalue); break
+visitInterfaceGetprop(t, assign, object, property,  cvalue);
+visitInterfaceGetprop(t, assign, object, property,  obj); }
+visitInterfaceGetprop(t);
+visitInterfaceGetprop(jt, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(sType, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, rvalue, object, property, lvalue, rvalue);
+visitInterfaceGetprop(sType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, object);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) }
+visitInterfaceGetprop(JsType, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, jtype, object, property, lvalue, rvalue);
+visitInterfaceGetprop(Object);
+visitInterfaceGetprop(jtype);
+visitInterfaceGetprop(t, assign, object, property, lvalue) }
+visitInterfaceGetprop(jType);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) break;
+visitInterfaceGetprop(t,  property);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue) return();
+visitInterfaceGetprop(t, assign, object, property, null, rvalue);
+visitInterfaceGetprop(t, assign,  obj);
+visitInterfaceGetprop(t, assign, object,  properties);
+visitInterfaceGetprop(t, sType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(info);
+ return
+visitInterfaceGetprop(t, assign, object, property, lvalue, svalue);
+visitInterfaceGetprop(t, jType, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object,  prop);
+visitInterfaceGetprop(t, assign, JSType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign,  info);
+visitInterfaceGetprop(t, assign, object, property, jtype, rvalue);
+visitInterfaceGetprop(t, assign, object, property, true, rvalue);
+visitInterfaceGetprop(t, assign, object, property, svalue, rvalue);
+visitInterfaceGetprop(t, assign, jType, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, jtype, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, JSType);
+visitInterfaceGetprop(i, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, JSType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, sType, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jvalue);
+visitInterfaceGetprop(t, assign, object, jstype, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, jstype);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, false);
+visitInterfaceGetprop(f, t, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, property, lvalue, property);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, error);
+visitInterfaceGetprop(t, assign, object, property, lvalue, rvalue, true);
+ }
+visitInterfaceGetprop(T, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(it, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assignment, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, null, property, lvalue, rvalue);
+visitInterfaceGetprop(f, assign, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, prop, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, properties, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, obj, property, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, object, name, lvalue, rvalue);
+visitInterfaceGetprop(t, assign, objects, property, lvalue, rvalue);
+visitInterfaceGetprop(t, info, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, ignore, object, property, lvalue, rvalue);
+visitInterfaceGetprop(t, update, object, property, lvalue, rvalue);

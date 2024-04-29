@@ -1,0 +1,328 @@
+requiresDecomposition = true;
+requiresDecomposition = true ; } }
+requiresDecomposition = true ; }
+requiresDecomposition  = true ; } } } }
+requiresDecomposition  = true ; break ; }
+requiresDecomposition  = true ; } } }
+requiresDecomposition  = true ; } } } } }
+ } }
+requiresDecomposition  = true
+requiresDecomposition  = true ; break ; } }
+ } break;
+requiresDecomposition  = true ; } } } } } }
+ } else { seenSideEffects=true;
+requiresDecomposition  = true ; break ; } } }
+ } } else { seenSideEffects=true;
+requiresDecomposition  = false ; } } } }
+requiresDecomposition  = false ; } }
+requiresDecomposition  = false ; } } } } }
+requiresDecomposition  = true ; break ; } } } }
+ } } else { seenSideEffects = false;
+requiresDecomposition  = true ; } } } } } } }
+requiresDecomposition  = false ; } } }
+requiresDecomposition  = false ; } } } } } }
+requiresDecomposition  = false ; break ; }
+ } } } } }
+ } } } } } } }
+ } } } } } }
+requiresDecomposition  = true ; } else { break ; }
+ break ; } } } }
+requiresDecomposition  = true ; return n ; } }
+requiresDecomposition  = true ; break ; } } } } }
+requiresDecomposition =  true ; } } } else { return null ;
+requiresDecomposition  = false ; break ; } }
+ break ; } } } } }
+ } } else { parent = child ; } }
+ } } } } } } } }
+ } } else { parent. removeChild ( ) ;
+ break; } }
+ } } parent. remove ( ) ;
+ } } parent = child ; }
+requiresDecomposition  = false ; }
+requiresDecomposition = true ; break ; } } } } } } }
+ break ; } } } } } } }
+ } } parent. detach ( ) ;
+ break ; } } } } } }
+ } } break;
+ break ; } } }
+ } else { seenSideEffects = false;
+ } } } } } } } } }
+ break ; } } } } } } } }
+ } } parent. removeChild ( ) ;
+requiresDecomposition =  true ; } } } } } } } }
+requiresDecomposition  = true ; } } } else { break ;
+ break; }
+ } } else { if (isExternMethod(parent, seenSideEffects)) { return DecompositionType.UNKNOWN;
+requiresDecomposition  = false ; } } } } } } }
+ } } } }
+requiresDecomposition = true ; } } } } } } } } }
+ break; } else { seenSideEffects=true;
+ } } } else { seenSideEffects= true;
+requiresDecomposition = true ; break ; } } } } } }
+requiresDecomposition = true ; parent = n ; } }
+requiresDecomposition  = true ; } } } else { } }
+ } } else { parent. next ( ) ; }
+ break ; } } } } } } } } }
+ } } else { parent. remove ( ) ; }
+requiresDecomposition =  true ; } } } else { return parent ;
+ } else { if (isExternNode(n, seenSideEffects)) { return DecompositionType.UNKNOWN;
+ } else { n = child ; seenSideEffects= true;
+ break; } } else { seenSideEffects=true;
+ } else { n = n. nextChild ; n. nextChild = null ;
+requiresDecomposition =  true ; } } } else { break ; }
+ } } } } else { return null ;
+requiresDecomposition = true ; } } } else { return null ; }
+ } else { n = n. nextChild ; n. nextChild = n ;
+requiresDecomposition = true ; return n ; }
+ } } else { if (isExternMethod(parent, seenSideEffects)) { return DecompositionType.NONE;
+ } } else { parent. next ( child ) ;
+requiresDecomposition = true ; } } } else { return - 1 ;
+ } } else { if (isExternMethod(parent, seenSideEffects)) { return DecompositionType.INLINE;
+ } } else { if (isExternMethod(parent, seenSideEffects)) { return DecomppositionType.UNKNOWN;
+ } else { parent. removeChild ( n ) ;
+ } } } else { return null ;
+ } else { if (isExternNode(n, seenSideEffects)) { return DecompositionType.ANY;
+requiresDecomposition = true ; } else { return null ; }
+ } else { break ; } } } if (requiresDecomposition &&! hasDecomposition) {
+requiresDecomposition =  false ; } } } } } } } }
+ } else { n = n. nextChild ( ) ; n. removeChild ( ) ;
+ } else { if (isExternNode(n, seenSideEffects)) { return DecompositionType.ERROR;
+ } } }
+ } } parent = child ;
+ } else { if (isExternNode(n, seenSideEffects)) { return DecomppositionType.UNKNOWN;
+ } else { if (isExternNode(n, seenSideEffects)) { seenSideEffects = false; } }
+ } else { break ; } } } if (requiresDecomposition &&! seenDecomposition) {
+ } } else { if (isExternMethod(parent, seenSideEffects)) { return DecompositionType.NODE;
+ break ; } } } else { return null ;
+ } } } } else { return null ; }
+ } else { parent. remove ( n ) ;
+ } } } } else { break ; }
+requiresDecomposition = true ; } } } else { return parent ; }
+requiresDecomposition  = true ; break ;
+ } else { n = n. nextChild ; n. next = n ;
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.UNKNOWN;
+ } else { n = n. nextChild ; } if ( n == parent. firstChild ) {
+ } else { break ; }
+ } else { parent. next ( n ) ;
+ } else { n = n. nextChild ; } if ( n!= parent. firstChild ) {
+ } } } } else { return parent ; }
+requiresDecomposition  = false;
+ } } } } } ) ;
+ } else { if (isExternNode(n, seenSideEffects)) { seenSideEffects = n ; } }
+ } else { break ; } } } if (requiresDecomposition &&! isDecomposed) {
+ } else { n = n. next ( ) ; n. next ( ). parent.
+ } else { n = n ; seenSideEffects= true;
+ } else { n = n. next ( ) ; n. next ( ). parent ;
+ } else { n = n. nextChild ( ) ; n. nextParent ( n ) ;
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.ANY;
+ } else { break ; } } } if (requiresDecomposition &&! seenDecomposed) {
+ } else { if (isExternNode(n, seenSideEffects)) { return DecompositionType.UNKNOWN};
+ } } } else { seenSideEffects = false;
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.NONE;
+ } else { if (isExternNode(n, seenSideEffects)) { return DecompositionType.UNKNOWN;}
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.ERROR;
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.OTHER;
+ } else { break ; } } } if (requiresDecomposition &&! hasDecomposed) {
+ } else { if (n == parent) { continue; } if (n == child) { continue; } if (n == parent)
+ } else { parent. children ( n ) ||= true;
+ } else { n = n. next ( ) ; n. next ( ). parent =
+ } else { parent = n. next ( ) ;
+ } } } else { } }
+ } else { n = n. nextChild ( ) ; n. nextChild ( ). parent ;
+ } else { n = n. nextChild ( ) ; n. nextChild ( ). parent.
+ return n ; } }
+ } else { parent. children ( n ) |= true;
+ } else { parent. removeChild ( n ) ; break ; } }
+ } else { parent. removeChild ( n ) ; break ; }
+ } else { parent. removeChild ( n ) ; } } } } }
+ } else { n = n. nextChild ( ) ; n = child ; }
+ } else { n = n. nextChild ( ) ; n. nextChild ( ) ; }
+ } else { n = n. nextChild ( ) ; n = n ; } }
+ } else { parent. detach ( n ) ;
+ } else { parent. next ( ) ;
+ } else { break ; } } } if (! requiresDecomposition ) { return DecompositionType ; }
+ } else { parent. children ( n ) *= true;
+ } else { n = n. nextChild ( ) ; n. nextChild ( ). parent =
+ } else { n = n. nextChild ( ) ; n. detach ( ) ; }
+ } else { parent. removeChild ( n ) ; } } } }
+ } else { n = parent. getNextChild ( ) ; n = child ; }
+ } else { n = n. nextChild ( ) ; n. nextParent ( ) ; }
+ } else { break ; }
+ } else { break ; } } } if (! hasDecomposition ) { return DecompositionType ; }
+ } else { n = n. nextChild ( ) ; n. removeChild ( ) ; }
+ } else { parent. removeChild ( n ) ; break ; } } }
+ } else { parent = n ; break ; }
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.ANY};
+ } else { if (n == parent) { continue; } if (n == child) { return DecompositionType.ANY }
+ } else { n = parent. getNextChild ( n ) ; } } }
+ } else { n. hasSideEffects= true;
+ } else { n = parent. getNextChild ( n ) ; } } } }
+ } else { n = n. nextChild ( ) ; n. detach ( ) ; } }
+ } else { n. sideEffects |= true;
+ } else { n = n. nextChild ; n = n ; }
+ } else { n [ 'x']= true;
+ n = child ; }
+ } else { break ; } } if (requiresDecomp)
+ } else { parent. removeChild ( n ) ; } } }
+ break; } }
+ } else { n. isUnsafe= true;
+ } else { n = n. nextChild ( ) ; } } } }
+ } else { parent = n ; } }
+ } } } break;
+ break ; } } } break;
+ } else { n = parent. getNextChild ( ) ; } } } } }
+ } else { n = n. nextChild ( ) ; } } } } } }
+ } else { n = child ; } done= true;
+ } } else { seenSideEffects = null;
+ } else { break ; } } } if (requiresDecomposition &&! needsDecomposition ) { } }
+ } else { } } break;
+ } else { parent. removeChild ( n ) ; } } } } else
+ } else { break ; } }
+ } } else { parent. isUnsafe= true;
+ break; } } else { parent. remove ( child ) ;
+ return n ; }
+ } else { break ; } } } if (requiresDecomposition &&! hasDecomposition ) { } }
+ } else { n = n. nextChild ( ) ; } } }
+ } else { parent. addChild ( n ) ; } } }
+ } else { n = n. nextChild ; } } } } }
+ } else { parent. remove ( n ) ; }
+ break ; } } } } break;
+ } else { n = child ; } }= true;
+ break ; } } } } } break;
+ } } } } break;
+ } else { seenSideEffects = n;
+ } else { break ; } } } if (requiresDecomposition &&! hasDecomposition) { }
+ } else { parent. addChild ( n, child ) ; }
+ } else { break ; } } } if (requiresDecomposition &&! needsDecomposition ) { }
+ } else { break ; } } if (requiresDecompposition
+requiresDecomposition  = false
+ } else { parent. next ( n ) ; }
+ } else { break ; } } } if (requiresDecomposition &&! requiresDecomposition ) { }
+ } else { parent. remove ( n ) ; } } } }
+ } } } } } break;
+ break ; } } break;
+ } else { n = child ; seenChildren= true;
+ } } else { parent. hasChild |= true;
+ } } } } } } } break;
+ } else { seenSideEffects = null;
+ } else { parent = n ; } } }
+ } else { parent. removeChild ( n ) }
+ } } else { seenSideEffects = undefined;
+ } else { seenInline= true;
+requiresDecomposition  } }
+ break ; } } } } } } break;
+ } } else { } } break;
+ } } } } } } break;
+ } } parent. isUnsafe= true;
+ } else { seenSideEffects==true;
+ } else { break ; } } if (requiresDecomp))
+ } else { n = child ; }
+ } else { break ; } } if (requiresDecomp).
+ } } } else { seenSideEffects = null;
+ n.unsafe=true;
+ } else { } break;
+ } else { seenChildren |= true;
+ } else { break ; } } } } } } }
+ break; }
+ } else { seenSideEffects_true;
+ } } parent. isInlined= true;
+ } } } else { return parent;
+ break; } break;
+ } } else { seenSideEffects==true;
+ } else { } } } } } } break;
+ } else { seenSideEffects.true;
+ break; } } } } }
+ break ; } } else { } } } break;
+ } else { seenNode |= true;
+ } } parent. hasChild |= true;
+ } n = child;
+ break; } } else { seenSideEffects==true;
+ } }
+ } } } } } }
+ } else { seenChildren ||= true;
+ break; } else { seenSideEffects==true;
+ break; } } } }
+ break; } } else { parent = child ; } }
+ } } else { seenSideEffects.true;
+ } } else { seenSideEffects_true;
+ } } } else { parent = child ; } } }
+ } } parent. isInline= true;
+ break; } else { seenSideEffects.true;
+ } else { } } } }
+ } } } } } } }
+ } } continue;
+ } else { } } } } } }
+ } else { break ; } } } } } } else
+ } } parent.x= true;
+ break; } else { seenSideEffects_true;
+requiresDecomposition  = true } }
+ n = child;
+ break; } } } } } }
+ break ; } } } } } } }
+requiresDecomposition  ++ ;
+ } else { } } } } }
+ } break; }
+ } parent. modified |= true;
+ } parent.leaf=true;
+ } } seenChildren |= true;
+ } else { } } }
+ return ; }
+ } } parent.modified= true;
+ } } parent.dirty= true;
+ } } exit;
+ } parent.dirty= true;
+ } } } }
+ break; } } } returntrue;
+ } parent.x= true;
+ break; } } }
+ } parent.modified= true;
+ continue; } } } } } }
+requiresDecomposition  = true }
+ } continue;
+ } else { } }true;
+ nodeUnsafe= true;
+ node.modified=true;
+ parent.modified=true;
+ } }= true;
+ } else { }= true;
+ break; } } returntrue;
+ } } } } }
+ parent.dirty=true;
+ } else { } } }true;
+ continue; } }
+ break;
+ } } } returntrue;
+ } } }= true;
+ } else { } } returntrue;
+ } } }
+ break; } } } }true;
+ } done= true;
+requiresDecomposition  ; }
+ continue ; }
+ return n ; } }
+ } } } }true;
+ } } } } else
+ continue; }
+ n.dirty= true;
+ } } returntrue;
+ } } }true;
+ } else {
+ return n;
+ } } } else
+ } parent= true;
+ } child=true;
+ } n=true;
+ found=true;
+ } }true;
+ break outer;
+ child=true;
+ break;
+ }
+ } returntrue;
+ foundChildren= true;
+ node |= true;
+ } });
+ } else
+requiresDecomposition = true. }
+requiresDecomposition += true;
+requiresDecomposition <- true;

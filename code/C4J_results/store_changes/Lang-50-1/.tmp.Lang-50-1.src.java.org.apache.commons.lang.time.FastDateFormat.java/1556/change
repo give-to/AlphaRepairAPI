@@ -1,0 +1,406 @@
+if (mTimeZoneForced) {
+if (mTimeZoneForced && mStandard!= null) {
+if (mTimeZoneForced && mDaylight) {
+if (mTimeZoneForced || mDaylight) {
+if (mTimeZoneForced && mStandard) {
+if (mTimeZoneForced || mStandard!= null) {
+if (mTimeZoneForced && mDaylight!= null) {
+ return Math.max(mStandard.length(), mDaylight.length()); } else
+ if (mStyle == TimeZone) {
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateStyle() {
+ return Math.min(mStandard, mDaylight.length()); } else
+ return Math.max(mStandard, mDaylight.length()); } else
+ if (mStyle == TimeZone.SHORT) { return Math.max(mStandard.length(), mDaylight.length()); }
+ if (mTimeZoneForced) { return Math.max(mStandard.length(), mDaylight.length()); } } else
+ if (mStyle == TimeZone.RAW)
+ if (mTimeZoneForced) { return Math.max(mStandard.length(), mDaylight.length()); } else
+ return Math.min(mStandard.length(), mDaylight.length()); } else
+ if (mTimeZoneForced) { return Math.max(mStandard.length(), mDaylight.length()); }
+ return Math.max(mStandard, mDaylight.length()); }
+ if (mStyle == TimeZone.RAW){
+ return Math.min(mStandard, mDaylight); } else
+ return Math.max(mStandard.length(), mDaylight.length()); }
+ return Math.min(mStandard, mDaylight.length()); }
+ return Math.max(mStandard, mDaylight); } else
+ return Math.min(mStandard, mDaylight); }
+ return Math.min(mStandard.length(), mDaylight.length()); } public int estimateStyle() {
+ return Math.max(mStandard.length(), mDaylight.length()); } else {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { } else
+ if (mTimeZoneForced) { return Math. max(mStandard.length(), mDaylight.length()); } } else {
+ return Math. max(mStandard.length(), mDaylight.length()); } else { return 0 ; } public int estimateStyle() {
+ if (mStyle == TIMEZone) {
+ if (mStyle == LONG) {
+ return 0; } else if (mTimeZoneForced) {
+ if (mStyle == TimeZone.STANDARD) {
+ if (mStandard!= null)
+if (mTimeZoneForced || mStandard) {
+if (mTimeZoneForced) { if (mStandard!= null) {
+ return Math.max(mStandard.length(), mDaylight.length()); } } else
+ if (mStandard) {
+ if (mStyle == TimeZone.LONG) {
+ if (mTimeZoneForced) { return Math.max(mStandard.length(), mStandard.length()); } } else
+ return Math.min(mStandard.length(), mDaylight.length()); }
+if (mTimeZoneForced)  { if (mStyle == TimeZone) {
+if (mStyle == TimeZone.DOUBLE) {
+ if (style) {
+ if (mTimeZoneForced) { return Math. max(mStandard.length(), mDaylight.length()); } else { }
+ return Math.max(mStandard.length(), mDaylight.length()); } private int estimateStyle() {
+ if (mStyle == TimeZone.INT) {
+ return Math.max(mStandard.length(), mDaylight); } else
+if (mTimeZoneForced || mStyle == TimeZone.STANDARD) {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 0 ; } } else
+ if (mStyle == TimeZone.INT)
+ return Math.min(mStandard.length(), mDaylight); } else
+ return Math.max(mStandard, mDaylight); }
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 40 ; } } else
+ return Math. max(mStandard.length(), mDaylight.length()); } else { return 0 ; } public int length() {
+ if (mTimeZoneForced) { return Math.max(mStandard.length(), mDaylight.length()); } else {
+ return Math.max(mStandard.length(), mDaylight.length()); } public int length() {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 0 ; } } else {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 0 ; }
+ if (mStyle == TimeZone.FULL) {
+ if (mStyle == TimeZoneStandard) {
+if (mTimeZoneForced || mStyle == TimeZone.RAW) {
+if (mTimeZoneForced && mStyle == TimeZone.RAW) {
+ return Math.min(mStandard.length(), mDaylight.length()); } else { } else
+ return Math.min(mStandard.length(), mDaylight.length()); } else {
+ return Math.min(mStandard.length(), mDaylight.length()); } else { return 0 ; }
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return } else
+ if (mStyle == FULL) {
+ return Math.min(mStandard.length(), mDaylight.length()); } } else
+ return Math.min(mStandard, mStyle); }
+ if (mStyle == TimeZone.STRING) {
+if (mTimeZoneForced && mStyle == TimeZone.STANDARD) {
+ return 0; } if (mTimeZoneForced) {
+ return Math.min(mStandard.length(), mDaylight.length()); } public int length() {
+ if (mStyle == TimeZone.NONE) {
+ return Math.max(mStandard.length(), mDaylight.length()); } } else {
+ return Math.max(mStandard, mDaylight.length()); } else {
+ if (mStandard!= null){
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 40 ; } } else {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 36 ; } } else
+ return Math.min(mStandard.length(), mDaylight.length()); } else { return 0 ; } } else
+ return Math.max(mStandard.length(), mDaylight.length()); } else { else
+ if (mStyle == TimeZone.NORMAL) {
+ return Math.min(mStandard.length(), mDaylight.length()); } else { return 0 ; } } else {
+if (mTimeZoneForced && mStandard!= mDaylight) {
+ return Math.min(mStandard, mDaylight.length()); } else {
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateStyle(int) {
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 0 ;
+ return 0; } else { if (mTimeZoneForced) {
+ return Math.max(mStandard, mDaylight.length()); } } else
+ if (mStyle == TimeZone.CHAR){
+ return Math.min(mStandard.length(), mDaylight); }
+if (mTimeZoneForced || mStandard!= mDaylight) {
+ return Math. max(mStandard.length(), mDaylight.length()); } else { estimateLength (mStyle); } else
+ if (mStyle == TimeZone.NUM) {
+if (mTimeZoneForced == true) {
+ return Math.min(mStandard.length(), mDaylight.length()); } } else {
+ if (mStyle == TimeZone.CHAR)
+ if (mStyle == TimeZone.ALL)
+ if (mStyle == TimeZoneStyle){
+ return Math.min(mStandard, mDaylight).length(); }
+ if (mStyle!= 0) {
+if (mTimeZoneForced) { return 4; } else {
+ return Math.max(mStandard, mDaylight).length(); }
+ if (mStyle == TimeZone.STRING)
+ return Math.min(mStandard.length(), mDaylight.length()); } else { else
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateLength() { else
+ return Math.max(mStandard.length(), mDaylight.length()); } } { else
+ return Math.min(mStandard, mDaylight.length()); } else { } else
+ if (mStyle == TimeZone.ALL){
+ if (mStyle == TimeZone.INTERNAL) {
+ return Math.sum(mStandard); } if(mTimeZoneForced) {
+if (mTimeZoneForced) { return 0; } else {
+if (mTimeZoneForced) { if (mStandard!= null)
+if (mTimeZoneForced && mStyle == TimeZone.DOUBLE) {
+if (mTimeZoneForced || mStyle == TimeZone.DOUBLE) {
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateStyle() { else
+ if (+) {
+ return Math.min(mStandard, mDaylight.length()); } } else {
+if (mTimeZoneForced || mStyle == TimeZone.DEFAULT) {
+ return 40; } else if (mTimeZoneForced) {
+ return Math.max(mStandard, mStyle); }
+ return Math.max(mStandard.length(), mDaylight.length()); } else { return 0 ; } } else { else
+ return Math.min(mStandard, style); }
+ return Math.max(mStandard.length(), mDaylight.length()); } else return 0;
+ return Math.max(mStandard, mDaylight.length()); } else { else
+if (mTimeZoneForced || mDaylight!= null) {
+ if (mStyle == Style.RAW) {
+ if (style == 0){
+ return Math.abs(length()); } if(mTimeZoneForced) {
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateLength() { }
+ return Math.max(mStyle, estimateLength()); }
+ return Math.max(mStandard.length(), mDaylight.length()); } public int estimateStyle() { }
+ if (mStyle == ALL) {
+if (mTimeZoneForced || mStyle == TimeZone.DAY) {
+if (mTimeZoneForced)  { if (mStyle == TIMEZone) {
+if (mTimeZoneForced && mStyle == TimeZone.STRING) {
+ return Math.min(mStandard, mDaylight.length()); } else { else
+ return Math.min(mStandard.length(), mStyle); }
+ if (mStyle == NONE) {
+ return Math.max(mStandard.length(), mDaylight.length()); } } else { else
+if (mTimeZoneForced) { return 40; } else {
+ return 40; } if (mTimeZoneForced) {
+ return Math.max(mStandard.length(), 0); }
+ return Math.min(mStandard, mDaylight.length(); } else
+if (mTimeZoneForced || (mStyle == TimeZone.STANDARD) {
+ return Math.max(mStandard.length(), 0); } else
+if (mTimeZoneForced && mStandard!= -1) {
+ return Math.abs(length()); }
+ return Math.min(mStandard.length(), 0); }
+ if (mStyle == TimeZone.ZONE) {
+if (mTimeZoneForced) { return 3; } else {
+if (mTimeZoneForced) { if (mStandard) {
+if (mTimeZoneForced)  { if (mStandard!= -1) {
+ return Math.min(mStandard.length(), 0); } else
+if (mTimeZoneForced && mStyle == TimeZone.INT) {
+ return Math.min(mStandard, 0); }
+if (mTimeZoneForced && mStyle == TimeZone.NORMAL) {
+ if (mStyle == DEFAULT) {
+ return 0; if (mTimeZoneForced) {
+ return Math.min(mStandard.length(), mDaylight.length()); } } else { else
+if (mTimeZoneForced || mStyle == Style.Standard) {
+if (mTimeZoneForced) { return 4; } else
+ if (mStyle == TimeZone.LONGL) {
+if (mTimeZoneForced || mDaylightForced) {
+ return 36; } else if (mTimeZoneForced) {
+if (mTimeZoneForced || mStyle == TimeZone.STANDALONE) {
+if (mTimeZoneForced || mStyle == TimeZone.INT) {
+if (mTimeZoneForced && mStyle == TimeZone.DAY) {
+ if (mStyle == TimeZone.LONGN) {
+if (mTimeZoneForced) { return 4;
+ return 12; } else { if (mTimeZoneForced) {
+ if (mDaylight) {
+ return Math.min(mStyle); } if(mTimeZoneForced) {
+ if (standard) {
+ if (style!= 0){
+ return estimateLength(); } else { if (mTimeZoneForced) {
+ return Math.round(length()); } if (mTimeZoneForced) {
+ if (mStyle == Style.INT) {
+ if (mStyle == Style.DAY){
+ return Math.sum(mStandard); } else
+ return Math.sum(mStandard, mStyle); }
+if (mTimeZoneForced || mStyle == TimeZone.STORT) {
+ return Math.sum(mStandard); }
+if (mTimeZoneForced || mStyle == TimeZone.ZONE) {
+if (mTimeZoneForced && mStyle == TimeZone.STORT) {
+if (mTimeZoneForced &&! mStyle == TimeZone.SHORT) {
+ return Math.min(length()); } else if(mTimeZoneForced) {
+ return Math.min(mStyle, 0); }
+ return 12; } else if (mTimeZoneForced) {
+ if (mStyle == Style.TIME) {
+ return 4; } else if (mTimeZoneForced) {
+ return 4; } else { if (mTimeZoneForced) {
+if (mTimeZoneForced || (mStyle == TimeZone.RAW) {
+ return Math.min(mStyle, style); }
+ if (useStandard) {
+ return Math.max(mStyle, style); }
+if (mTimeZoneForced ||! mStyle == TimeZone.SHORT) {
+ return Math.abs(length); }
+ if (mStyle == 0) {
+if (mTimeZoneForced &&! mStyle == TimeZone.STANDARD) {
+ return Math.min(length()); } else
+if (mTimeZoneForced || mStyle == TimeZone.Standard) {
+if (mTimeZoneForced && mStyle == TimeZone.STANDALONE) {
+ return Math.abs(mLength); } if(mTimeZoneForced) {
+ return Math.min(0); } if (mTimeZoneForced) {
+ return -1; } else if (mTimeZoneForced) {
+if (mTimeZoneForced && mStandard && mDaylight) {
+ return Math.round(mStandard); } if(mTimeZoneForced) {
+ return 36; } if (mTimeZoneForced) {
+if (mTimeZoneForced && mStandard!= mStyle) {
+ if (style == 3){
+if (mTimeZoneForced && mStyle == TimeZone.CHAR) {
+if (mTimeZoneForced || mStyle == TimeZone.ALL) {
+if (mTimeZoneForced && mStyle == TimeZone.ALL) {
+if (mTimeZoneForced) { if (mStyle == LONG) {
+if (mTimeZoneForced || mStyle == Style.standard) {
+if (mTimeZoneForced || mStandard!= mStyle) {
+if (mTimeZoneForced && mStyle == TimeZone.ZONE) {
+ return 0; } else
+ return 0; }
+if (mTimeZoneForced || mStandard || mDaylight) {
+if (mTimeZoneForced || mStyle == TimeZone.STANDARIAN) {
+if (mTimeZoneForced) { return 2;
+ return -1; } else { if (mTimeZoneForced) {
+ if (mStyle) {
+ return 1; } else { if (mTimeZoneForced) {
+if (mTimeZoneForced || mStandard!= -1) {
+if (mTimeZoneForced || mStyle == TimeZone.DST_ALL) {
+ return Math.round(this); } if(mTimeZoneForced) {
+if (mTimeZoneForced || mStyle == TimeZone.STABLE) {
+ if (mStyle == DST){
+ return Math.abs(mLength); }
+if (mStyle == TimeZone.NONNULL) {
+if (mTimeZoneForced) { return 0; } else
+if (mTimeZoneForced || mStyle == TimeZone.STANDARDONE) {
+if (mStyle == TimeZone.STRINGED) {
+if (mTimeZoneForced && mStyle == TimeZone.STABLE) {
+if (mTimeZoneForced && mStyle == TimeZone.STANDARIAN) {
+if (mTimeZoneForced) { return 40; } else
+ return Math.sum(this); } if(mTimeZoneForced) {
+if (mTimeZoneForced)  { if (mStyle == TimeZone)) {
+if (mTimeZoneForced) { return 3;
+if (mStyle == TIMEONE) {
+ return Math.abs(style); } if(mTimeZoneForced) {
+if (mTimeZoneForced) { return 2; } else
+if (mTimeZoneForced && mStyle == Style.Standard) {
+if (mTimeZoneForced && mStyle == TimeZone.DST_ALL) {
+ return 1; } else if(mTimeZoneForced) {
+if (mTimeZoneForced)  { return 3; } else
+ return Math.abs(mStyle); }
+if (mTimeZoneForced == false) {
+if (mTimeZoneForced) { return 4; }
+ return Math.randomInt(); }
+ return 40; } else
+ if (mStyle == FULL)
+if (mTimeZoneForced!= null) {
+ return 40; if (mTimeZoneForced) {
+ return 1; } if (mTimeZoneForced) {
+if (mTimeZoneForced || mStyle == TimeZone.DOWST) {
+ return Math.random(1000); }
+ return Math.round(length()); }
+ return Math.min(length(), 0); }
+if (mStyle == TimeZone.STRINGLE) {
+ if (style == 1){
+if (mTimeZoneForced || mStyle == TimeZone.DOWEST) {
+ return Math.abs(style); }
+ return 4; } if (mTimeZoneForced) {
+if (mTimeZoneForced) { return 5;
+if (mTimeZoneForced && mDaylight!= -1) {
+if (mTimeZoneForced && mStyle == Style.RAW) {
+if (mTimeZoneForced && mStyle == TimeZone.STANDARDONE) {
+if (mTimeZoneForced || mStyle == Style.wide) {
+if (mTimeZoneForced && mStyle == TimeZone.DOWEST) {
+ return 36; } else
+if (mTimeZoneForced && mStyle == TimeZone.DOWST) {
+ if (mStyle == TimeZone.RAW{
+ if (useMax){
+ return Math.abs(mLength()); }
+ if (force) {
+ return Math.min(0, 12); }
+ return Math.min(0, 40); }
+ return Math.abs(0); if (mTimeZoneForced) {
+if (mTimeZoneForced) { mStandard = mDaylight; }
+ if (mStyle == LONG)
+if (mTimeZoneForced)  { return 0; } else { return 1;
+ return 0; } } else if(mTimeZoneForced) {
+ if (mStyle == TimeZone.RAW&&mTimeZoneForced) {
+ if (custom) {
+ if (style == 2){
+ if (isStandard) {
+ return Math.random() ; }
+if (mTimeZoneForced) { return 2; }
+if (mTimeZoneForced) { return 3; }
+if (mTimeZoneForced) { return 0; }
+ return Math.random(1000);
+if (mTimeZoneForced || mStyle!= 0) {
+ return 4; } else
+ return 12; } else
+ return 40; }
+ if () {
+ return 1; if (mTimeZoneForced) {
+if (mTimeZoneForced)  { return 6;
+if (mTimeZoneForced || mStandard == null) {
+ return 0; } else { } if (mTimeZoneForced) {
+ return 4; if (mTimeZoneForced) {
+ return Math.randomLength(); }
+ return Math.random(); } else
+ return 36; if (mTimeZoneForced) {
+ if (style)
+ return 0;
+ if (customMode) {
+if (mTimeZoneForced)  { return 5; }
+ if (standard)
+ return 12; } else { } if (mTimeZoneForced) {
+ if (!style)
+if  ( {
+if (mTimeZoneForced)  return 4;
+ return 4; }
+ if (debug){
+ return -1; } } else if(mTimeZoneForced) {
+ if(.){
+ if (!style){
+ } else if (mTimeZoneForced) {
+ return 0; } else {
+ if (enabled){
+ return 0; } else { else if(mTimeZoneForced) {
+if (mTimeZoneForced || mStyle == 0) {
+if (mTimeZoneForced && mStyle!= 0) {
+if (mTimeZoneForced || mStyle == TIMEZ) {
+if (mTimeZoneForced && mStandard!= "...") {
+ return 4; } else {
+if (mTimeZoneForced && mStandard!= "-") {
+ return 1; }
+ return - 1; } else
+if (mTimeZoneForced) { return 0; } else { } else
+if (mTimeZoneForced || mStyle == style) {
+ return 40; } else {
+if (mTimeZoneForced == true)
+if (mTimeZoneForced) { return 0; } else { } }
+ if (debug)
+ return -1; } } { if(mTimeZoneForced) {
+if (mTimeZoneForced) return 3;
+if (mTimeZoneForced)  return 0;
+if (mTimeZoneForced)  return 2;
+ if (enabled)
+ return 4;
+if (mTimeZoneForced || mStyle) {
+if (mTimeZoneForced) { if (mStandard!= null))
+ if (!){
+if (mTimeZoneForced) { return 4; } else { }
+if (mTimeZoneForced)  return 5;
+ return 40;
+if (mTimeZoneForced) { return 0; } else { }
+if (mTimeZoneForced && mStandard > 0) {
+ if (inclusive) {
+if (mTimeZoneForced) { if (mStandard!= null).
+if  ()
+ if (!mTimeZoneForced) {
+ if strict){
+ return 1;
+ } { if (mTimeZoneForced) {
+if (mTimeZoneForced && mStyle!= style) {
+if  (...)
+ return 2;
+if  (! {
+if (mTimeZoneForced && mDaylightEnabled) {
+ if (*) {
+ if (-) {
+if (mTimeZoneForced == false)
+if (mTimeZoneForced || mStandardOnly) {
+if (mTimeZoneForced || mStandardStyle) {
+ if (style==mTimeZoneForced) {
+ return 0; } { else
+ if (this.mTimeZoneForced) {
+ } else if (!mTimeZoneForced) {
+if (mTimeZoneForced!= null)
+if (mTimeZoneForced || mDlight) {
+ }else{
+if (mTimeZoneForced || mStandardMode) {
+if (mTimeZoneForced && mDlight) {
+if (mTimeZoneForced && mDST) {
+if (force)
+if (mTimeZoneForced && mStandardOnly) {
+if (mTimeZoneForced && mDst) {
+if (mTimeZoneForced || isStandard) {
+ } else
+if (mTimeZoneForced && isStandard) {
+if (mTimeZoneForced && mStyle) {
+if (mTimeZoneForced ||!style) {
+if (mTimeZoneForced && timeZone) {
+if (mTimeZoneForced || hasStandard) {
+ } if(mTimeZoneForced) {
+if (mTimeZoneForced && hasStandard) {
+ else if(mTimeZoneForced) {
+ if (!!mTimeZoneForced) {
+ if if (mTimeZoneForced) {
+if (mTimeZoneForced)) {
+} {
+ if ($mTimeZoneForced) {
+if (mTimeZoneForced()) {
+ else
+ }
+ }If(mTimeZoneForced) {
+if (mTimeZoneForced) { }

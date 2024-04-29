@@ -1,0 +1,689 @@
+JSType altPropertyType = alternate.findPropertyType(propertyName);
+ alternate.findPropertyType(propertyName);
+ altPropertyType=findPropertyType(propertyName);
+JSType altPropertyType =  alternate.getLeastSupertype(propertyName);
+JSType  altPropertyType = alternate;
+ altPropertyType.findPropertyType(propertyName);
+ altPropertyType=alternate.findPropertyType(propertyName);
+JSType altPropertyType =  alternate.getProperty(propertyName);
+JSType  altPropertyType;
+JSType altPropertyType =  alternate.get(propertyName);
+JSType altPropertyType  = alternate. getPropertyType ( ) ;
+JSType altPropertyType  = alternate. getType ( ) ;
+JSType  propertyType;
+JSType altPropertyType =  (JSType) alternate.getProperty(propertyName);
+JSType  altPropertyType = alternate.propertyType;
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else {
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType) {
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType!= null) {
+JSType  altPropertyType = alternate. type ;
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } } else {
+JSType altPropertyType =  (JSType) alternate.getPropertyType(propertyName);
+JSType altPropertyType =  (JSType) alternate.findPropertyType(propertyName);
+JSType altPropertyType =  (JSType) alternate.get(propertyName);
+ for (JSType altPropertyType : alternates) {
+ for (JSType altPropertyType : alternate) {
+JSType altPropertyType =  alternate. getPropertyType ( propertyName ) ;
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else {
+ propertyType &= alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); }
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType ( propertyName ) ;
+JSType altPropertyType =  (JSType) alternate.findProperty(propertyName);
+ for (JSType altPropertyType : alternate.getPropertyTypes()) {
+ for (JSType altPropertyType : alternate)
+JSType altPropertyType =  alternate. getOwnProperty ( propertyName ) ;
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(); } else {
+ if (propertyName!= null) {
+ for (JSType altPropertyType : alternate.properties()) {
+ for (JSType altPropertyType : alternate.propertyTypes()) {
+JSType altPropertyType =  findProperty(propertyName);
+JSType altPropertyType =  alternate.getOwnPropertyType(propertyName);
+ for (JSType alternate : alternates) { propertyType = alternate. findPropertyType(propertyName); } } else {
+ for (JSType alternate : alternates) { propertyType = alternate. findPropertyType(propertyName); }
+ for (JSType altPropertyType : alternate.getTypes()) {
+JSType altPropertyType  = alternate. getType ( propertyName ) ;
+JSType  altPropertyType = alternate.propertyType();
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else { propertyType = null ; }
+JSType altPropertyType =  alternate.findProperty(propertyName);
+ else { propertyType = alternate. findPropertyType ( propertyName ) ;
+JSType altPropertyType  = alternate. getDefaultType ( ) ;
+ for (JSType t : alternates) {
+ if ( alternate. isUnknownType()) { continue; } if (propertyName!= null) {
+ altPropertyType;
+ if (alternate.isUnknownType()) { continue; }
+JSType altPropertyType =  JSType. getLeastSupertype(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName); if (altPropertyType) {
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findUnknownType(); } else {
+ for (JSType altPropertyType : alternates) { if (altPropertyType) {
+JSType altPropertyType  = alternate. getDefaultPropertyType ( ) ;
+ for (JSType altPropertyType : alternate.getProperties()) {
+JSType altPropertyType = alternate.findPropertyType(name);
+ if (altPropertyType!= null) { propertyType = alternate ; } else
+ if ( alternate. isUnknownType()) { continue; } if (propertyType == null) {
+ if (alternate!= null) { propertyType= alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. getPropertyType(); } else {
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } }
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType)
+ if (altPropertyType!= null) { propertyType = alternate ; }
+JSType altPropertyType =  alternate. getType ( ). findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. getType ; } else {
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else
+JSType altPropertyType =  alternate. getLeastSupertype ( ) ;
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType ( propertyName ) }
+JSType  altPropertyType = alternate. type ( ) ;
+JSType altPropertyType = alternate. getOtherPropertyType ( propertyName ) ;
+ for (JSType altPropertyType : alternatePropertyTypes) {
+ if (alternate.isUnknownType()) { continue; }
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!altPropertyType) {
+ for (JSType altPropertyType : alternates) { var propertyType = alternate;
+ else { propertyType = alternate. findPropertyType ( ) ;
+JSType altPropertyType  = alternate. getProperty ( ) ;
+JSType  altPropertyType = alternate
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; continue ; }
+ if ( alternate. isUnknownType()) { continue; } if (altPropertyType) {
+ if (altPropertyType == null) propertyType= alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else { continue; } }
+ if ( alternate. isUnknownType() ) { propertyType = null ; } else {
+JSType altPropertyType  = alternate. getDefaultProperty ( ) ;
+ if ( alternate. isUnknownType()) { continue; } if (propertyName == null) {
+ for (JSType altPropertyType : alternates) { if (altPropertyType)
+JSType  altPropertyType = alternate.property;
+ for (JSType altPropertyType : alternates) { continue; }
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else { propertyType = null ; } }
+ if ( alternate. isUnknownType()) { continue; } if (propertyName) {
+ if (propertyName == null) { continue; }
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType ( ) ; }
+JSType altPropertyType =  (JSType) alternate.find(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else { continue ; }
+ if ( alternate. isUnknownType()) { continue; } if (propertyName!= null) {
+ if (alternate.isUnknownType()) { continue; } else
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } } else { }
+ for (JSType altPropertyType : alternates) { if (alternate) {
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else { break ; } }
+ else { propertyType = alternate. findPropertyType ( propertyName); }
+ if ( alternate!= null ) {
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; continue ; } else {
+JSType altPropertyType  = alternate. getOwnProperty ( ) ;
+ else { JSType altPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else { }
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } } else {
+JSType altPropertyType = alternate. getOwnProperty ( "type" ) ;
+JSType  type;
+ if (alternate.isUnknownType()) { continue; } }
+ else { JSType altPropertyType &= alternate.findPropertyType(propertyName);
+ propertyType =alternate.findPropertyType(propertyName);
+ if (altPropertyType) altPropertyType.findPropertyType(propertyName);
+JSType altPropertyType = alternate. getType ( propertyName, false ) ;
+ for (JSType type : alternates) {
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType!= null)
+ alternate.remove(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } } else { final
+JSType altPropertyType =  find(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else { final
+ for (JSType altPropertyType : alternates) { if (true) {
+ const altPropertyType.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(String altPropertyName);
+ if (alternate!= null)
+ for (JSType altPropertyType : alternates) { if (assign) {
+ if (propertyType == null) {
+ if (propertyName) {
+ for (JSType altPropertyType : alternatePropertyTypes()) {
+ if (alternate) { altPropertyType= alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(propertyName); } else { continue; } final
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (AltPropertyType!= null) {
+JSType altPropertyType =  JSType. findLeastSupertype(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findPropertyType(); } }
+ const altPropertyType=(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName); if (altPropertyType)
+ for (JSType altPropertyType : alternate)) {
+ if ( alternate!= null ) { altPropertyType= alternate.findPropertyType(propertyName);
+ for (JSType altPropertyType : alternates) { if (altPropertyType) {}
+JSType altPropertyType = alternate.getOtherPropertyType ( ) ;
+ alt &= alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else { continue ; } }
+ if ( alternate. isUnknownType() ) { propertyType = alternate. findUnknownType(); } }
+ else { propertyType = alternate. getType ( ) ;
+ for (JSType alternate : alternates) { propertyType = alternate. findPropertyType(propertyName); } } else { }
+ else { propertyType = alternate. findType ( ) ;
+JSType altPropertyType =  alternate. getPropertyType ( ). findProperty(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!altPropertyType) continue;
+ for (JSType alternate : alternates) { propertyType = alternate. findPropertyType(propertyName); } } else { final
+JSType altPropertyType =  alternate. getType ( ). getPropertyType(propertyName);
+ if (alternate!= null) { alt=alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (alternate) {
+JSType altPropertyType =  alternate.getLeastConcreteType(propertyName);
+ alternate.findProperty(propertyName);
+JSType altPropertyType =  alternate.getLeastGenericPropertyType(propertyName);
+ if (altPropertyType) { altPropertyType.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType == null) {
+JSType altPropertyType =  alternate.getMostSupertype(propertyName);
+ else { propertyType = alternate. findPropertyType ( ) ; }
+JSType altPropertyType = alternate.findPropertyType(propertyName); if (null == altPropertyType) {
+ else { JSType altType = alternate.findPropertyType(propertyName);
+ else { JSType altPropertyType = _alternate.findPropertyType(propertyName);
+JSType altPropertyType =  (JSType) alternate.property(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; continue ; } }
+ else { propertyType = alternate ; }
+JSType altPropertyType = alternate.getLeastSupertype(this);
+ const altPropertyType=findPropertyType(propertyName);
+JSType altPropertyType = alternate.getLeastSupertype(PropertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } }
+ else { propertyType = alternate. findPropertyType ( propertyName ) ; } }
+ if (alternate.isPropertyType() ) {
+JSType altPropertyType = alternate.findPropertyType(PropertyName); if (alternate) {
+ if (alternate == null) { return false;
+JSType altPropertyType =  alternative.getLeastSupertype(propertyName);
+ alternate.getProperty(propertyName);
+ if (alternate.isUnknownType()) { continue; } } else
+ JSType altPropertyType = getProperty(propertyName);
+ const altPropertyType = find(propertyName);
+ final JSType altPropertyType = find(propertyName);
+JSType altPropertyType =  alternate.getPropertyTypeFor(propertyName);
+ if (alternate.isObjectType()) {
+ JSType altPropertyType = alternate.find(propertyName);
+ else { JSType altPropertyType = *alternate.findPropertyType(propertyName);
+ const propertyType= alternate.findPropertyType(propertyName);
+ if (propertyType == null) continue;
+JSType altPropertyType = alternate.getLeastSupertype(...) ;
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!altPropertyType)
+ if ( alternate. isUnknownType() ) { propertyType = alternate. type ; } }
+ if (propertyName!= null) { ObjectaltPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; break ; } }
+ JSType _altPropertyType = alternate.findPropertyType(propertyName);
+ final JSType altPropertyType = findProperty(propertyName);
+ if (propertyName!= null) { StringaltPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType()) { return true; } } else {
+ for (JSType altPropertyType) type= alternate.findPropertyType(propertyName);
+ else { JSType altPropertyType=findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate. getType ; } }
+ if ( alternate instanceof JSType ) {
+JSType altPropertyType = alternate.findPropertyType(propertyName); if (null == propertyType) {
+JSType altPropertyType = alternate.getLeastSuperclass ( ) ;
+ alternate.get(propertyName);
+ if ( alternate. isUnknownType()) { return false; } } else {
+ JSType altPropertyType = propertyType;
+ if (alternate) {
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } else { final
+ for (JSType altPropertyType : alternate {
+ if (alternate.isUnknownType()) { } else
+ const altPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!alt) {
+ else { propertyType = alternate. findPropertyType ( propertyName ) }
+ else { propertyType = alternate. findPropertyType ( propertyName ) ; } } }
+ if ( alternate. isUnknownType() ) { return null ; } } else {
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (alt) {
+ const altPropertyTypeOf(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!propertyType) {
+ if (alternate == null) { } continue;
+ for (JSType altPropertyType : alternate.getPropertyTypes() { }
+ if (propertyName!= null) { TypealtPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; continue ; } } }
+ if (alternate!= null) { ObjectaltPropertyType = alternate.findPropertyType(propertyName);
+ alt = alternate.findPropertyType(propertyName);
+ altPropertyType = (propertyName);
+JSType altPropertyType = alternate.findPropertyType(altPropertyName);
+ else { JSType altPropertyType = _findPropertyType(propertyName);
+ if (alternate!= null) { } continue;
+ if (propertyName) { altPropertyType=alternate.findPropertyType(propertyName);
+ if (altPropertyType == alternate) { continue;
+ if (propertyName!= null) { PropertyTypealtPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { propertyType = alternate ; } final
+ if ( alternate. isUnknownType()) { continue; } if (propertyName!= null) {}
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (null) {
+ if (alternate!= null) alt = alternate.findPropertyType(propertyName);
+ if (altPropertyType) propertyType &= alternate.findPropertyType(propertyName);
+ if (alternate.isUndefinedType());
+ String altPropertyType = (propertyName);
+ JSType altPropertyType = propertyName);
+ if (propertyName!= null)
+ final JSType altPropertyType = getProperty(propertyName);
+ final JSType altPropertyType = get(propertyName);
+JSType altPropertyType =  alternate.getLeastSuperclass(propertyName);
+ else { propertyType = alternate. findPropertyType(); } }
+JSType altPropertyType = alternate.findPropertyType(this, propertyName);
+ if (alternate.isUnknownType()) { } }
+ for (JSType altPropertyType : alternate.getPropertyTypes()) { }
+ const altPropertyType = get(propertyName);
+ if (propertyName!= null) { final TypealtPropertyType = alternate.findPropertyType(propertyName);
+ JSType altPropertyType = propertyName;
+JSType altPropertyType = alternate.findPropertyType(int propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName) ; if (alt) {
+JSType altPropertyType = alternate.findPropertyType(PropertyName) ; if (!alt) {
+ if (alternate!= null) { StringaltPropertyType = alternate.findPropertyType(propertyName);
+ const altPropertyType = getProperty(propertyName);
+ const altPropertyType = findProperty(propertyName);
+ if (altPropertyType) return alternate;
+ altPropertyType = find(propertyName);
+ JSType altPropertyType = alternate.property(propertyName);
+JSType altPropertyType =  alternate.getFirstPropertyType(propertyName);
+ if (alternate.isUndefinedType();
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (true) {
+ for (JSType t : alternates) { } }
+ if (alternate == null) { continue;
+ const altPropertyType = alternate.get(propertyName);
+ JSType altPropertyType = alternateType;
+JSType altPropertyType = alternate.findPropertyType(String propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!altPropertyType) continue; else
+ if (propertyType == null) { final
+JSType altPropertyType =  propertyType.getMostSupertype(propertyName);
+ final JSType altPropertyType = (propertyName);
+ if ( alternate. isUnknownType()) { continue; } if (propertyName) {}
+ else { JSType altPropertyType |= alternate.findPropertyType(propertyName);
+ if (propertyName!= null) { final StringaltPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName).getType ( ) ;
+ var altPropertyType;
+ if (altPropertyType == null)altPropertyType = alternate.findPropertyType(propertyName);
+ JSType altPropertyType = getType(propertyName);
+ for (JSType propertyType) { ObjectaltPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (other) {
+ if (alternate.isUnknownType()) { return false; } }
+ if (alternate.isUnknownType()) { continue; } final
+ if (alternate) { propertyType= alternate.findPropertyType(propertyName);
+ int altPropertyType;
+ for (JSType altPropertyType) ^= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (assignment) {
+ if (propertyName!= null) { final
+JSType altPropertyType =  alternate.getAssignedProperty(propertyName);
+ JSType altPropertyType = get(propertyName);
+ if ( alternate. isUnknownType()) { return false; } final
+ if (alternate.isUnknownType()) { continue; } }
+ for (JSType propertyType) { StringaltPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate instanceof Object ) {
+ JSType altPropertyType = findType(propertyName);
+ const alt=alternate.findPropertyType(propertyName);
+ if (altPropertyType) { return alternate;
+ var altPropertyType.findPropertyType(propertyName);
+ if (!altPropertyType) altPropertyType=findPropertyType(propertyName);
+ if (altPropertyType = alternateType.findPropertyType(propertyName);
+ let altPropertyType(propertyName);
+ else { altPropertyType = propertyName);
+ if (alternate.isUnknownType());
+ else { JSType altPropertyType.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (alt propertyType) {
+ JSType altType = alternate.findPropertyType(propertyName);
+ if (propertyName == null) { continue; } final
+ JSType altPropertyType.findPropertyType(propertyName);
+JSType  altPropertyType = alternate.getType(); }
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType) { }
+ const altPropertyType alternate.findPropertyType(propertyName);
+ else { propertyType = alternate. getType ; } }
+ if (altPropertyType) { propertyType= alternate.findPropertyType(propertyName);
+ alternate &= alternate.findPropertyType(propertyName);
+ altPropertyType = alternate.get(propertyName);
+ JSType &altPropertyType = alternate.findPropertyType(propertyName);
+ else { propertyType = alternate ; } }
+ if (propertyName == null) { return null; } final
+ AltPropertyType=alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType()) { return false; } } else { final
+ if (alternate.isPropertyType() ) { final
+ var altPropertyType = (propertyName);
+ JSType altPropertyType &= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(null, propertyName);
+ if (alternate == alternate);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (!altPropertyType) { }
+ if (altPropertyType) altPropertyType=findPropertyType(propertyName);
+ JSType>altPropertyType = alternate.findPropertyType(propertyName);
+ JSType altPropertyType = get ( alternate);
+ var altPropertyType = find(propertyName);
+ const altPropertyType = resolve(propertyName);
+JSType altPropertyType = alternate.findPropertyType(string propertyName);
+ if (altPropertyType!= null);
+ else { propertyType = alternate. type ; } }
+ else { altPropertyType = getType( alternate);
+ getPropertyType(propertyName);
+ if (assigned) {
+ JSType altPropertyType = _findPropertyType(propertyName);
+ if (altPropertyType!= alternate);
+ if (!altPropertyType) { alt = alternate.findPropertyType(propertyName);
+JSType  altPropertyType = alternate();
+ final JSType altPropertyType= alternate.findPropertyType(propertyName);
+ if (alternate)
+ final Object altPropertyType = getProperty(propertyName);
+ const altPropertyType = lookup(propertyName);
+ alternate.find(propertyName);
+ if (altPropertyType = propertyType);
+ String altPropertyType = get(propertyName);
+ if (assign) {
+ altPropertyType(propertyName);
+ else { JSType[][]altPropertyType = alternate.findPropertyType(propertyName);
+ else { altPropertyType = alternate;
+ if (alternate!= null);
+ final Type altPropertyType = findProperty(propertyName);
+ if (altPropertyType = find(propertyName);
+ const propertyType = find(propertyName);
+ const altPropertyType = alternate.find(propertyName);
+ let altPropertyTypeOf(propertyName);
+ JSType altPropertyType = lookup(propertyName);
+JSType altPropertyType = alternate.getDefault ( ) ;
+JSType  altPropertyType = alternate; }
+ if (!propertyType) {
+JSType altPropertyType = alternate.findPropertyType(propertyName); if (altPropertyType!= null) {}
+ if (alternate.isPropertyType() { final
+JSType altPropertyType = alternate.findPropertyType(PropertyName) ; if (altPropertyType);
+ if (propertyName) { propertyType=alternate.findPropertyType(propertyName);
+ final JSType altPropertyTypeOf(propertyName);
+JSType  altPropertyType = alternate.getType(); else
+JSType altPropertyType = alternate.getLeastSupertype(propertyName); }
+ var altPropertyType = get(propertyName);
+ else { const altPropertyType = alternate;
+ if (alternate == null) {altPropertyType = alternate.findPropertyType(propertyName);
+ var altType = alternate;
+ else { JSType altPropertyType alternate.findPropertyType(propertyName);
+ let altPropertyType;
+JSType altPropertyType = alternate.findPropertyType(propertyName); if (altPropertyType) { else
+ if (altPropertyType) propertyType= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(String.valueOf propertyName);
+ if (alternate.isUnknownType();
+ else { propertyType = alternate. property ; } }
+ else { JSType propertyType=alternate.findPropertyType(propertyName);
+ if (alternate.isObject());
+ if (alternate == null)
+ let altPropertyType.findPropertyType(propertyName);
+JSType  altPropertyType = alternate; else
+ var altPropertyType=findPropertyType(propertyName);
+ String altPropertyType.findPropertyType(propertyName);
+ var altPropertyType = alternate;
+ altPropertyType = alternate.find(propertyName);
+ if (altPropertyType) { alternate.findPropertyType(propertyName);
+ final Object altPropertyType = find(propertyName);
+ const altType = alternate.findPropertyType(propertyName);
+JSType  altPropertyType = alternate. propertyType ; }
+ if ((altPropertyType = propertyType);
+ alt propertyType;
+ JSType altType = alternate;
+ if (altPropertyType) { continue;
+ if ((altPropertyType = alternate);
+ validate(propertyName);
+JSType altPropertyType =  alternate.findType(propertyName);
+ if (alternate) { ObjectaltPropertyType = alternate.findPropertyType(propertyName);
+ if ( alternate. isUnknownType() ) { return null ; } } }
+ int altType = alternate;
+ final Object altPropertyType = get(propertyName);
+ if (!altPropertyType) return false;
+JSType  altPropertyType();
+ if (alternate!= alternate);
+ if ( alternate. isUnknownType() ) { return null ; } } final
+ JSType altPropertyType = (altern);
+ final JSType propertyType= alternate.findPropertyType(propertyName);
+ alternate.setName(propertyName);
+ else { JSType propertyType=findPropertyType(propertyName);
+ else { altPropertyType = alternate(this);
+ final Type altPropertyType = find(propertyName);
+JSType altPropertyType = alternate.getLeastSupertype(propertyName));
+JSType altPropertyType = alternate.findPropertyType(getName(propertyName);
+ int altPropertyType=( alternate);
+ alt propertyType = (propertyName);
+ if (altPropertyType = alternate.findPropertyType(propertyName);
+ if (null == alternate);
+ if (alternate.isObject();
+ validateProperty(propertyName);
+ const altPropertyType = _findPropertyType(propertyName);
+ final String altPropertyType.findPropertyType(propertyName);
+ if (alternate == null);
+JSType altPropertyType = alternate.getLeastSupertype(propertyName());
+ if (altPropertyType) continue;
+ else { JSType altPropertyType super.findPropertyType(propertyName);
+ alternate.name(propertyName);
+ else { JSType altPropertyTypeImpl.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(this);
+ if (altPropertyType = alternate;
+ else { propertyType = alternate ; } } }
+ if (alternate) { StringaltPropertyType = alternate.findPropertyType(propertyName);
+ JSType alt (Type) &= alternate.findPropertyType(propertyName);
+ altType &= alternate.findPropertyType(propertyName);
+ setProperty(propertyName);
+ JSType altPropertyType = superfindPropertyType(propertyName);
+ String alternatePropertyType = (propertyName);
+ String alt=alternate.findPropertyType(propertyName);
+ if ((altPropertyType!= null);
+ if (alternate instanceof Object);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (altPropertyType);
+ if (alternate) { TypealtPropertyType = alternate.findPropertyType(propertyName);
+ checkProperty(propertyName);
+ alternate.delete(propertyName);
+ if (alternate!= null) _altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName, "null") ;
+ else { const altPropertyType = _findPropertyType(propertyName);
+ else { const altPropertyType=findPropertyType(propertyName);
+ JSType alt=alternate.findPropertyType(propertyName);
+ final JSType propertyType=findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(property);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.NONE);
+ if (other) {
+ propertyType |= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(this.getName ( ));
+ Property type=alternate.findPropertyType(propertyName);
+ propertyType=findPropertyType(propertyName);
+ if (altPropertyType, _=alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.UNKNOWN);
+ else { JSType[ ]altPropertyType = alternate.findPropertyType(propertyName);
+ alternate = alternate;
+JSType  propertyType();
+ if (altPropertyType = this.alternate.findPropertyType(propertyName);
+ else { final JSType _altPropertyType = alternate.findPropertyType(propertyName);
+ else { JSType _altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName.length ( ));
+ JSType altPropertyType alternate;
+ else { JSType alt=alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.STRING);
+JSType altPropertyType = alternate.getOtherPropertyType(propertyName); }
+ final String altPropertyType=findPropertyType(propertyName);
+JSType altPropertyType =  alternative.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType($propertyName);
+ if (optional) {
+ if (alternate);
+ final JSType _altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName, propertyType);
+ altPropertyType( alternate);
+ else { altPropertyType = alternate.findPropertyType(propertyName);
+ JSType altPropertyType |= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName); }
+ if (alt!= null);
+ alternative = alternate;
+JSType altPropertyType = alternate.findPropertyType(propertyName) + ".";
+ else { propertyType = alternate.findPropertyType(propertyName);
+ final Type altPropertyType = _findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.class);
+ altType= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.TYPE_NAME);
+JSType altPropertyType = alternate.getOtherPropertyType(propertyName); } else
+ final JSType propertyType.findPropertyType(propertyName);
+JSType altPropertyType =  alt.findPropertyType(propertyName);
+ JSType propertyType =alternate.findPropertyType(propertyName);
+ if (optional);
+ else { final Type altPropertyType= alternate.findPropertyType(propertyName);
+ final Type altType = alternate.findPropertyType(propertyName);
+ else { AltPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (null)
+ else { final Type altType = alternate.findPropertyType(propertyName);
+ else { final JSType propertyType.findPropertyType(propertyName);
+ if (null altPropertyType = _alternate.findPropertyType(propertyName);
+ final String altPropertyType = _findPropertyType(propertyName);
+ altPropertyType alternate.findPropertyType(propertyName);
+ debug(propertyName);
+JSType altPropertyType =  alternates.getProperty(propertyName);
+ final String altPropertyType=alternate.findPropertyType(propertyName);
+ var altPropertyType alternate;
+ final Type altPropertyType=findPropertyType(propertyName);
+ else { const altPropertyType;
+ int altPropertyType= alternate.findPropertyType(propertyName);
+ const altPropertyType = superfindPropertyType(propertyName);
+ if (true);
+ else { Object altPropertyType=alternate.findPropertyType(propertyName);
+ var altPropertyType =;
+JSType altPropertyType = alternate.findPropertyType(propertyNameString);
+ const altPropertyType=alternate.findPropertyType(propertyName);
+ else { var altPropertyType;
+JSType altPropertyType = alternate.findPropertyType(PropertyName.length(?));
+JSType altPropertyType = alternate.getPropertyType(propertyName, false); }
+JSType  altPropertyType = Alternate
+ else { propertyType = alternate;
+ var altPropertyType= alternate.findPropertyType(propertyName);
+ final JSType alt=alternate.findPropertyType(propertyName);
+ JSType altPropertyTypeImpl.findPropertyType(propertyName);
+JSType  type();
+JSType  altPropertyType; {
+ JSType altPropertyType super.findPropertyType(propertyName);
+JSType altPropertyType =  alternate.getField(propertyName);
+ final Type altPropertyType=alternate.findPropertyType(propertyName);
+ else { JSType $altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.getPropertyType(propertyName, null); }
+ JSType[ ]altPropertyType = alternate.findPropertyType(propertyName);
+ final Object altPropertyType= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.getPropertyType(propertyName, true); }
+ final JSType [ ]altPropertyType = alternate.findPropertyType(propertyName);
+ else { Type altPropertyType=alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType propertyName); }
+ else { JSType *altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName, false); }
+JSType altPropertyType = alternate.findPropertyType(propertyName); else
+JSType altPropertyType = alternate.findPropertyType(PropertyName, propertyType); }
+JSType altPropertyType = alternate.findPropertyType(propertyName); } else
+JSType altPropertyType = alternate.findPropertyType(String propertyName); }
+JSType  propertyType++;
+JSType altPropertyType = alternate.getPropertyType(); }
+JSType altPropertyType = alternate.findPropertyType(PropertyName, "null"); }
+ final JSType.altPropertyType = alternate.findPropertyType(propertyName);
+ log(propertyName);
+JSType altPropertyType = alternate.findPropertyType(string(propertyName)) ; }
+JSType altPropertyType = alternate.findPropertyType(PropertyName.class);
+JSType altPropertyType = alternate.findPropertyType(String propertyName, propertyType); }
+JSType  altPropertyType = alternative
+ final Object altPropertyTypeImpl.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(String propertyName, false); }
+ else { final Object altPropertyTypeImpl.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName, true); }
+ alt propertyType=findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyType.class); }
+JSType  altPropertyType = alternate);
+JSType  type = alternate ; } else
+ altProperties.findPropertyType(propertyName);
+ final Type altPropertyTypeImpl.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(string propertyName); }
+ assert(true);
+JSType  altPropertyType = alt
+ const property.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(String propertyName, true); }
+ if (assign);
+ const propertyType=findPropertyType(propertyName);
+ alt propertyType.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(true);
+ if (assigned);
+JSType altPropertyType = alternate.findPropertyType(string(propertyName)) ; else
+ final Type altPropertyType &= alternate.findPropertyType(propertyName);
+JSType  altPropertyType := alternate; }
+ else { Element altPropertyType= alternate.findPropertyType(propertyName);
+ final T altPropertyType= alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) + 1;
+ addProperty(propertyName);
+ type &= alternate.findPropertyType(propertyName);
+ check( alternate);
+JSType  target;
+ } ();
+ final altPropertyType=alternate.findPropertyType(propertyName);
+ validateName(propertyName);
+JSType altPropertyType = alternate.findPropertyType(PropertyName); } else
+JSType altPropertyType = alternate.findPropertyType(Name);
+ final Object propertyType=alternate.findPropertyType(propertyName);
+ if (false);
+JSType altPropertyType = alternate.prototype;
+ checkName(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) + ";";
+JSType altPropertyType = alternate.findPropertyType(propertyName).getType ( ));
+JSType  altPropertyType
+ const type=findPropertyType(propertyName);
+JSType altPropertyType =  alternatePropertyType(propertyName);
+ alt property type;
+JSType altPropertyType = alternate.value;
+ if (propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) - 1;
+ const alt=findPropertyType(propertyName);
+ } });
+JSType altPropertyType =  alternate.attribute(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName, "null"));
+JSType altPropertyType = alternate.findPropertyType(propertyName, propertyType); }
+JSType  refPropertyType;
+JSType  alternatePropertyType;
+JSType  propertyType
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (null).
+JSType altPropertyType = alternate.findPropertyType(property));
+JSType altPropertyType = alternate.findPropertyType(propertyName, null); }
+ jSType _altPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName());
+ if (!propertyName);
+JSType altPropertyType  := alternate;
+JSType altPropertyType = alternate.findPropertyType(propertyName) ; if (null);
+JSType altPropertyType = alternate.findPropertyType(propertyName). getType(); }
+ jSType>altPropertyType = alternate.findPropertyType(propertyName);
+ const altProperties.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) + "";
+JSType altPropertyType = alternate.findPropertyType(propertyName) + ".");
+JSType altPropertyType =  propertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) + type;
+JSType altPropertyType = alternate.findPropertyType(propertyName, this); }
+ final JSTaltPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) || propertyType; else
+JSType altPropertyType = alternate.findPropertyType() ;
+JSType altPropertyType = alternate.findPropertyType(propertyName, false); else
+ }, false);
+ }, ();
+ setName(propertyName);
+ alternateType.findPropertyType(propertyName);
+ }, null);
+ alternate=alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.getPropertyType());
+JSType altPropertyType = alternate.getProperty(); }
+ } else { final
+ else { final
+ alternative.findPropertyType(propertyName);
+ } } else {
+ else alternate.findPropertyType(propertyName);
+ int i;
+ } alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName).class;
+ } else {
+ var refPropertyType;
+JSType altPropertyType = alternate.findPropertyType(null);
+ alternateImpl.findPropertyType(propertyName);
+JSType altPropertyType =  resolve(propertyName);
+ } continue;
+JSType altPropertyType = alternate.findPropertyType(propertyName).*();
+ alt.findPropertyType(propertyName);
+ var ret = alternate;
+ final Type>altPropertyType = alternate.findPropertyType(propertyName);
+ boolean result;
+ boolean found;
+JSType altPropertyType = alternate.findPropertyType(propertyName).*;
+ final Type.altPropertyType = alternate.findPropertyType(propertyName);
+ int alternatePropertyType= alternate.findPropertyType(propertyName);
+ } else { }
+ int index;
+ final JTypealtPropertyType = alternate.findPropertyType(propertyName);
+ var alternatePropertyType= alternate.findPropertyType(propertyName);
+ const =alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propName);
+ else { }
+JSType altPropertyType = alternate.findPropertyType(); }
+ else { } }
+ alternateObject.findPropertyType(propertyName);
+ other.findPropertyType(propertyName);
+ Object typealtPropertyType = alternate.findPropertyType(propertyName);
+JSType altPropertyType =  alternative;
+ else {
+ final ClassaltPropertyType = alternate.findPropertyType(propertyName);
+ alternate#findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(); else
+JSType altPropertyType = alternate.findPropertyType()) ;
+ } { final
+JSType altPropertyType =  property(propertyName);
+JSType altPropertyType = alternate.findPropertyType(attributeName);
+ final
+JSType altPropertyType := alternate.findPropertyType(propertyName);
+JSType altPropertyType = alternate.findPropertyType(propertyName) { }
+JSType altPropertyType = alternate.findPropertyType(propertyName)();
+ } final
+ } {
+ }
+JSType altPropertyType = alternate(); }
+JSType altPropertyType: alternate.findPropertyType(propertyName);

@@ -1,0 +1,224 @@
+ position++;
+ position += 2;
+ position++; } else { expectSeparators = false; limit--;
+ position++; } else { expectSeparators = false;
+ position++; } else if (c == '+') { expectSeparators = false; limit--;
+ position++; } else if (c == '+') { expectSeparators = false;
+ position++; } else { break parse;
+ position++; } else { expectSeparators = true; limit--;
+ position++; } else { expectSeparators = false ; } else { break parse; limit--;
+ position++; } else if (c == '9') { expectSeparators = true; limit--; position--;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = true; limit--;
+ position++; } else if (c == '9') { expectSeparators = false; limit--; position--;
+ position++; } else { expectSeparators --;
+ position++; } else { expectSeparators = false; limit--; position--;
+ position++; } else if (c == '9') { expectSeparators = false; } else { break parse; limit--;
+ position++; } else if (c == '9') { expectSeparators = true; limit--; offset;
+ position++; } else if (c == '9') { expectSeparators = true; } else { break parse; } limit--;
+ position++; } else if (c == '+') { expectSeparators = true; limit--;
+ position++; } else { expectSeparators = false ; } else { break parse; } limit--;
+ position++; } else { break parse; position++;
+ position++; } else if (c == '9') { expectSeparators = true; } else { break parse; limit--;
+ position++; } else if (c == '9') { expectSeparators = false; } else { break parse; } limit--;
+ position++; } else if (c == '9') { expectSeparators = false; limit--; offset;
+ position++; } else { break parse; limit--;
+ position++; } else if (c == '+') { expectSeparators --;
+ position++; } else if (c == '9' || c == 'A' ) { expectSeparators = false;
+ position++; } else { break parse;
+ position++ } else { expectSeparators = false; limit--;
+ position++; } else { expectSeparators = true; limit--; position--;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = false; limit--;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = false;
+ position; position++;
+ position += 2; break;
+ position++; } else { expectSeparators = false; limit-2;
+ limit -= 2;
+position += 2; break parse;
+ position++; } else if (c == '+') { expectSeparators = false; break;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = true;
+ position++; } else if (c == '9' && c <= 'Z') { expectSeparators = false;
+ position++; } else { expectSeparators = true ; } else { break parse; limit--;
+ position++; } else { expectSeparators = false; } else { expectSeparators = true;
+position++; } else { expectSeparators = false
+ position++; } else { break parse; } position++;
+ position++; } else { expectSeparators = false; limit-2--;
+ position++; } else if (c == '+') { expectSeparators = false; limit-2;
+ position++; } else if (c == '9') { expectSeparators = true; limit-2--;
+ position++; } else { expectSeparators = true; limit-2--;
+ position++; } else { expectSeparators --;
+ position++ } else { expectSeparators = true; limit--;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = true ; break;
+ position++; } else { expectSeparators = false; } if (c == '+') { expectSeparators;
+ position++; } else if (c == '9' || c == '0' ) { expectSeparators = false;
+ position++; } else if (c == '+') { expectSeparators = true;
+ position++; } else { expectSeparators = false; break;
+ position++; } else { expectSeparators;
+ position++; } else { expectSeparators = false ; } else { break parse; }
+ position++; } else { expectSeparators = false; } else { expectSeparators = false;
+ position++ } else { expectSeparators = false;
+position++ } else { expectSeparators = false;
+ position++; } else if (c == '9') { expectSeparators = false; limit--; 0;
+ position++; } else { break parse; } limit--;
+ position += 2; } else { break parse;
+ position++; } else { break parse; break;
+ position++; } else if (c == '9') { expectSeparators = true; limit--; offset++;
+ position--;
+position++; break parse;
+position++ } else { expectSeparators = true;
+ position++; } else { expectSeparators = true;
+ position++; } else { expectSeparators = true; } else { break parse; }
+position++ } else { expectSeparators = false
+ position++; } else { expectSeparators = false; limit--; offset;
+ position++; } else if (c == '+') {
+position++; } else { expectSeparators = true
+ position++; } else { expectSeparators = false; } else { expectSeparators = true; }
+ limit--;
+ position++; } else { expectSeparators ++;
+ position += 2; limit--;
+ position += 2; position++;
+ position += 2; limit--; position++;
+ position++; } else if (c == '9') { expectSeparators = false; } else { break parse; } else
+ position++; } else { return ~position; }
+ position++;; position++;
+ position++;; offset++;
+ position++; } else { break parse; }
+ position++; } else { break parse;;
+ position++; } else if (c == '9') { expectSeparators = true; } else { break parse; } else
+ position++; } else if (c == '9') { expectSeparators = false; } else { break parse; };
+ position++; } else { break;
+position++ } else { expectSeparators;
+ position++; } else if (c == '+') { expectSeparators = false; } else
+position++ } else { expectSeparators = true
+ position += 2; position += 2;
+ position++; } else if (c == '9') { expectSeparators = true; } else { break parse; };
+position++; } else { expectSeparators();
+ position -= 2; limit--;
+position++ } else { break parse;
+ position++; } else if (c == '.')
+ position++; } else { expectSeparators = false; }
+ position++; } else { return ~position;
+ position++; } else { limit--; position++;
+ position += 2; } else { return ~position;
+ position += 2; break parse; position++;
+ position++; } else { limit--; position--;
+position++ } else { expectSeparators++;
+ position++; } else if (c == '9' && c <= 'A' ) { expectSeparators = true; }
+ position += 2; } else { break parse;;
+ position++; } else if (c == '+') { expectSeparators = false; limit--;;
+ position += 2; break parse; break;
+ position += 2; break parse; limit--;
+ position++; } else { break parse2;
+ position++; } else if (c == '+') { expectSeparators = false; limit--; }
+ position += 2; } else { position++;
+ position++; } else if (c == '+') { expectSeparators = false; else
+ position++; } else { break parse; } offset++;
+ position += 1; break;
+ position++; } else { expectSeparators = false ; } else { break parse; };
+ position++; } else if (c == '+') { expectSeparators = false; }
+ position += 2; continue;
+ position++; } else { break;
+ position += 2; position--; position++;
+ position++; } else { break parse1;
+position++ } else { expectSeparators();
+ position++; } else { break parse; continue;
+ position++; } else { expectSeparators = false ; } else { break parse; } }
+ position++; } else { break; position++;
+ position++; } if (c == '.' position++;
+ position++; position++;
+ position -= 2;
+ position++; } else { expectSeparators = false; limit--; }
+ position += 2; return ~position;
+position++; position += 2;
+ position++; } else { expectSeparators = true; }
+ position++; ; break parse;
+ position += 2; } else { break; position++;
+ position++; } if (c == ')' position++;
+ position++; } else { expectSeparators = false; limit-2++;
+ position++ } else { expectSeparators = false; }
+ position++; } else { expectSeparators = false; break }
+ position -= 2; break;
+ position++; } else break parse;
+ position += 2; position += 2; position++;
+ position += 2;
+position += 1; break parse;
+ position += 2; position += 2; offset++;
+ position += -1;
+ position += 2; limit += 2;
+ position --;
+ position++; } else { break parse } position++;
+position += 2; } else { break;
+ position++ } else { break parse; }
+ position += 2; offset++;
+position++; } else { break parse; }
+position++ } else { expectSeparators =
+ position++; } else { break parse; };
+ position += 1;
+ position += -2;
+position++ ; break parse; position++;
+position++ ; offset += 2;
+ limit += 2;
+ position++; } else { break parse; } else
+ position++; } else { break parse();
+ position += 2; position+2++;
+ position += 2; break;
+ position += 2; position-offset++;
+position++ ; break parse; position --;
+position++ } if (c == ')'
+ position++; } else { break parse};
+ position += 2; position+offset++;
+ offset;
+ position += 2; offset; position++;
+position++ } else { break parse; }
+ position++; } { break parse;
+ position++; offset++;
+position++ ; break parse; break;
+position += 2; } else { break parse
+ position += 4;
+ position += 2; } position++;
+ position++; break;
+ position++ offset++;
+ limit++;
+ position += 3;
+ offset--;
+ position -= 2;
+position++; } else { break parse();
+ position+offset++;
+ position += 2; break parse; } else
+ position += 2^;
+position++ ; break parse; break parse
+ position++; } else { #
+position++; return position;
+ position++; } else { break
+ position += 2; } else
+position++ + 2;
+ position += 2; }
+ position += 2; }
+ position++;
+ position += 2; break
+ position += 2; else
+ position -= 2; }
+ break parse;
+ limit -= 2; }
+ position += 1; }
+ offset++;
+ position;
+ position++
+ offset =
+ } position++;
+ Position++;
+ posi++;
+ position count++;
+ position++)
+ position++++;
+ positon++;
+position++ } {
+position++ ; }
+position++ ; break
+position++ };
+position++;;
+ }
+ }
+...
+;
+ break
+ while

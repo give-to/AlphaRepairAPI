@@ -1,0 +1,443 @@
+} else if (options.inlineLocalVariables) {
+ } else{
+ } if(options.inlineLocalVariables) {
+} else if (options) {
+ if (options.inlineLocalVariables) {
+ } if (inlineLocalVariables) {
+} else if (options.inlineLocalVariablesOnly) {
+ if (inlineLocalVariables) {
+} else if (options.locals) {
+ } else { mode = InlineVariables.Mode.ONLY;
+ } else { if (options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.INLINE_ONLY;
+ } else { mode = InlineVariables.Mode.ALL;
+ } } else{
+ } else { mode = InlineVariables.Mode.NONE;
+ } else if (options.inlineLocals) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ALL;
+ } else { mode = InlineVariables.Mode.ALL_ONLY;
+ } else if (inlineVariables && options.inlineLocalVariables) {
+ } else if (options.inlineVariables.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.ANY;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ONLY;
+} else if  (options.local) {
+ } if (options.local) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineVariables.Mode.ALL;
+ } if (options.locals) {
+ } else { mode = InlineVariables.ALL;
+ } else { mode = InlineVariables.MODE;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCAL_ALL;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ONLY.ALL;
+ } else { mode = InlineVariables.Mode.INSIDE_ONLY;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_NONE;
+} else if (options.inlineVariables.locals) {
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ALL_LOC;
+ } else { mode = InlineVariables.Mode.INLINE_LOCAL_ONLY;
+ } else { mode = InlineVariables.NONE;
+ } else if (inlineVariables &&! options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineVariables.ALL;
+ } else { mode = InlineVariables.Mode.NONE; }
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_INLINE_ALL;
+ } else { mode = InlineVariables.Mode.NONE_ALL;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCAL_ONLY;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ALL_LOCAL;
+} else if (options.inlineLocalVariables)  { mode = InlineVariables.MODE;
+ } if (options){
+ } else { mode = InlineVariables.Mode.INLINE_ALL_ONLY;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_NONLY;
+ } else { mode = InlineVariables.Mode.ONLY_ALL;
+ } else { mode = InlineVariables.Mode.NONE_ONLY;
+ } else { mode = InlineVariables.Mode.INLINE_LOCAL_ALL;
+ } else { mode = InlineVariablesMode.ALL;
+ } else { mode = InlineMode.ALL;
+ } else { mode = InlineVariables.Mode.INSIDE_ALL;
+ } else { mode = InlineVariables.Mode.INLINE_NONE;
+ } else { mode = InlineVariables.ANY;
+ } else { mode = InlineVariables.Mode.ALL_ONLY; }
+ } else { mode = InlineVariables.Mode.ONLY; } if (options.inlineLocalVariables)
+ } else { mode = InlineVariables.Mode.UNKNOWN;
+} else if (options.inlineVariables && options.locals) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineVariables.MODE;
+} else if (options.inlineLocalVariables)  { mode = InlineVariables.Mode;
+ } else { mode = InlineVariables.Mode.INLINE;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_INLINES;
+ } else { mode = InlineVariables.Mode.INLINE_ONLY_ALL;
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_NONNULL;
+ } else { mode = InlineVariables.Mode.ALL ; } if (options.inlineLocalVariables)
+ } else { mode = null ;
+ } else { mode = InlineVariables.Mode.ONE;
+ } else { if (options.locals) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineMode.ALL;
+ } else { mode = InlineVariables.Mode.READ;
+ } else { mode = InlineVariables.Mode.ALL_ON;
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; }
+ } else { mode = InlineVariablesMode.ANY;
+ } else { mode = InlineVariables.Mode.ALL_ONLY
+ } else { mode = null; } if(options.inlineLocalVariables) {
+ } else if (options.inlineLocations){
+ } else if (options.localOnly){
+ } else if (options.inlineVariables){
+ } else if (options.inlineVariables!= null) {
+ } else { mode = InlineVariables.Mode.ONLY; }
+ } else if (options.inlineVariables.local) {
+ } else if (options.inlineLocalVariables) { mode = InlineVariables.Mode.LOCALS_ONLY; }
+ } else { mode = InlineVariables.Mode.INLINE; }
+ } else if (options.inlineVariableLocations) {
+ } else { } if (options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineVariable.ALL;
+ } else { mode = InlineVariables.None;
+ } else { mode = InlineVariables.Mode.ONLY; } mode = mode ;
+ } else if (options.inlineVariablesLocal) {
+ } else if (options.inlineVariables&&options.inlineLocalVariables) {
+ } else if (options.inlineVariablesOnly) {
+ } else if (options.config.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (options.localOnly) {
+ } else { mode = InlineVariables.Mode.ONLY; } if (options.inlineLocal) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL ; } mode = mode ;
+ } else { mode = InlineVariables.Mode.ONLY; } if (mode == null) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL_ON;
+ } else { mode = ALL; } if(options.inlineLocalVariables) {
+ } else { if (options.inlineLocals) {
+ } else if (options.inlineVariables == -1) {
+ } else if (options.inlineVariableLocals) {
+ } else { mode = InlineMode.ANY;
+ } else { mode = InlineVariables.Mode.NONE ; } mode = options. mode ;
+ } else { mode = 0; } if(options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; } if (mode == null)
+} else if (options.inlineLocalVariables) { if (options.locals) {
+ } else { mode = InlineVariables.Mode.ALL ; } if (options.inlineLocal) {
+ } else if (options.global) {
+ } else { if (options.local) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL_MODE;
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; } mode = mode ;
+ } else { mode = "all" ;
+ } else if (options.inlineVariables|inlineLocalVariables) {
+ } else if (options.inlineVariables.all) {
+ } else { mode = InlineVariables.ONE;
+ } else { mode = InlineVariables.Mode.INLINE_ALL_ONLY; }
+ } else if (options.location) {
+ } else { mode = InlineVariables. Mode.ALL
+ } else { mode = InlineVariables.Mode.ONLY; } mode = options. mode ;
+} else if (options.inlineVariables.localsOnly) {
+ } else { mode = InlineVariables.Mode.ONLY; } mode = "all";
+ } else if (options.inlineVariables == null) {
+ } else { mode = InlineVariables.Mode.ONLY; } mode = "ALL";
+ } else { mode = InlineVariables.Mode.INLINE_LOCAL; }
+} else if (options.inlineVariablesLocalOnly) {
+ } else { mode = InlineVariables.Mode.README;
+ } else { mode = null; }else if (options.inlineLocalVariables) {
+ } else if (options.inlineVariablesLocals) {
+ } else if (locals) {
+ } else if (options.inlineLocalOnly) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL ; } mode = options. mode ;
+ } if (options.inlineLocals) {
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; } if (mode!= null)
+ } else { mode = InlineVariables.Mode.ONLY; } if (options.inlineLocalVariable) {
+ } if (options.inlineVariables || options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (options.local) {
+ } else { mode = InlineVariables.Mode.ONLY; } else { mode = InlineVariableMode;
+ } if (options.inlineVariables && options.inlineLocalVariables) {
+ if (options.local) {
+ } else { mode = InlineVariables.MODULE;
+ } else { mode = "" ; } if(options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.ONLY; } if (options.inlineVariable) {
+ } else { mode = InlineVariables.Mode.INLINE_LOCAL_ONLY; }
+ } else if (localOnly) {
+ } else { mode = Mode.ALL;
+} else if (options.inlineLocalVariables) { if (options.inlineLocal) {
+ } else { mode = InlineVariables.Mode.INLINE_LOCALS_ONLY; }
+ } else { mode = InlineVariableMode;
+ } else { if (options.inlineVariables!= null) {
+ } if (locals) {
+ } else if (options.options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL ; } mode = "all";
+ } else if (options.inlineVariables&&inlineLocalVariables) {
+ } else { mode = "all"; } if(options.inlineLocalVariables) {
+ } else { mode = "all" ; }else if (options.inlineLocalVariables) {
+ } if (options.location) {
+ } else { mode = InlineVariablesMode;
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; } mode = null;
+} else if (options.inlineLocalVariables!= null) {
+ } else { mode = InlineVariable.ALL;
+ } else { mode = InlineVariables.Mode.INLINE_ONLY; } mode = "all";
+ } else if (compiler.options.inlineLocalVariables) {
+ } else { if (options.global) {
+ } else { mode = ALL } if(options.inlineLocalVariables) {
+ } if (inlineVariables && options.inlineLocalVariables) {
+} else if (options.local)
+ } else { mode = InlineVariables;
+} else if (options.inlineLocalVariables)  { if (options.inlineLocalMode) {
+ } if (options.inlineVariables.inlineLocalVariables) {
+ } else { mode = Mode.ALL; }else if (options.inlineLocalVariables) {
+ } else if (options.inlineVariables|options.inlineLocalVariables) {
+ } else { if (options.inlineVariables == null) {
+ } else if (inlineLocal) {
+} else if (options.inlineLocalVariables)  { if (options.inlineLocalOnly) {
+ } if (options.global) {
+ } else { mode = 0; }else if (options.inlineLocalVariables) {
+ } if (local){
+ } else if (options.inlineVariables_inlineLocalVariables) {
+ } else if (options.inlineVariablesMode!= null) {
+ } else { mode = Mode.ONLY;
+ } else { mode = "ALL" ;
+ } else { mode = null; if(options.inlineLocalVariables) {
+} else if (options.inlineVariables).locals) {
+ } else { mode = 0 ;
+} else if (options.inlineLocalVariables) { if (options.inlineGlobal) {
+ } else { if (options.location) {
+ } else if (!options.inlineLocalVariables) {
+ } else if (options.inlineVariables) { if (global) {
+ } } else if(options.inlineLocalVariables) {
+ } else { mode = InlineVariables.Mode.INLINE_ALL_ONLY
+} else if (options.inlineVariables.useLocalVariables) {
+ } else { mode = Mode.NONE;
+ } if (options.localOnly) {
+ } else if (options.inline.inlineLocalVariables) {
+ } else { mode = Mode.ANY;
+ } else { mode = 'all' ;
+ } else if (options.inlineGlobal || options.inlineLocalVariables) {
+ } else if (options.inlineVariables) { if (local) {
+ } else { } else if (options.inlineLocalVariables) {
+ } else if (options.inlineVariablesMode == null) {
+ } else { mode = "All" ; }else if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (options.global) {
+} else if (options.inlineLocalVariables)  { if (options.inlineVariables) {
+ } else { if (options.inlineVariables == true) {
+ } else if (inlineLocalVariables&&options.inlineLocalVariables) {
+ } else if (options.inlineUninlineLocalVariables) {
+ } else { mode = ALL;
+ } else { mode = 0 ; }
+ } else if (!options) {
+ } else { if (localOnly) {
+ if (options.locals) {
+} else if (options.inlineLocalVariables) { mode = InlineVariables; }
+ } else { mode = null }; if(options.inlineLocalVariables) {
+} else if (options.inlineVariables && options.localOnly) {
+ } else if (options.debug.inlineLocalVariables) {
+ } else { mode = "" ;
+ } else { mode = ALL; }else if (options.inlineLocalVariables) {
+ } else if (inlineVariables|options.inlineLocalVariables) {
+ } else if (options.configuration.inlineLocalVariables) {
+ } else if (options.variables.inlineLocalVariables) {
+ } else if (options.inlineVariables).isLocalOnly() {
+ } else { mode = null ; }
+ } else if (options.inlineConstants&&options.inlineLocalVariables) {
+} else if (options.inlineVariables.includeLocalVariables) {
+ } else if (options.inlineVariables||options.inlineLocalVariables) {
+} else if (options.inlineVariables == "all") {
+ } else { mode = ALL }; if(options.inlineLocalVariables) {
+ } else { mode = ALL ; }
+ } else if (options.inlineVariables).isLocalOnly()) {
+ } else { mode = null } if(options.inlineLocalVariables) {
+ } if (global){
+ if (local) {
+ } else { mode = "" ; }else if (options.inlineLocalVariables) {
+ } else { mode = "ALL" ; }else if (options.inlineLocalVariables) {
+} else if (options.inlineVariables).locals() {
+ } else if (inlineVariables=options.inlineLocalVariables) {
+ } else if (local){
+ } else { if (options.config.inlineLocalVariables) {
+ } else { mode = undefined ;
+ } if (inlineLocal){
+ } if (localOnly){
+} else if (options.inlineVariables.LOCALS) {
+} else if (options.inlineVariables.localOnly) {
+} else if (options.inlineVariables.localOnLY) {
+ if (global) {
+} else if  (options.inlineLocalNames) {
+} else if (options.inlineVariables.localOnlyMode) {
+} else if (options)
+ } else if (inlineVariables.inlineLocalVariables) {
+} else if  (options.localVariable) {
+ } else if (options.mode && options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (options) {
+} else if (options.inlineVariables.includeLocalOnly) {
+ } else if (inlineVariables || options.inlineLocalVariables) {
+ } if (!options){
+ } else if (options.enableUninlineLocalVariables) {
+ } else if (inlineLocalVariables=options.inlineLocalVariables) {
+ } else if (options.allowUninlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (localOnly) {
+ } mode = null;
+ } else if (options.inlineGlobal|options.inlineLocalVariables) {
+ } else { mode = null ; } } if(options.inlineLocalVariables) {
+ if (locals) {
+ } else if (options.enableIninlineLocalVariables) {
+ } else if (!inlineLocal) {
+ } else { mode = null }else if (options.inlineLocalVariables) {
+} else if (options.inlineVariablesLocations) {
+} else if (options.inlineVariables.isLocalOnly()) {
+} else if (options.inlineLocalVariables) { if (inlineLocal) {
+} else if  (!options)
+ } if (options.config.inlineLocalVariables) {
+} else if (options).local {
+ } } else { if (options.inlineLocalVariables) {
+} else if  (options.inlineLocal) {
+} else if (options.inlineLocalVariables) { if (includeLocal) {
+} else if  (options.loc) {
+ } else if (options.inlineVariables) { mode = null; }
+} else if  (local)
+ } else { if (options.options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (!mode) {
+} else if (options.inlineLocalVariables) { mode = options.inlineMode;
+} else if (options.inlineLocalVariables) { } else {
+ } else if (options.inlineVariables) { mode = true; }
+ } else { mode = 0; } } elseif (options.inlineLocalVariables) {
+ } if (options.inline)else if (options.inlineLocalVariables) {
+ } else if (this.options.inlineLocalVariables) {
+ } else if (options.inlineVariables) { mode = options; }
+} else  { if (options) {
+ } else { else if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { mode = inlineLocalVariable; }
+ } else { mode; } if(options.inlineLocalVariables) {
+ } else { mode = null; } }else if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables == true) {
+} else if (options.localVariables) {
+ } else { } } else if(options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables == false) {
+} else if (options.inlineLocalVariables) { mode = "all" ;
+ } else { } } if(options.inlineLocalVariables) {
+ } else { mode = ALL; } }else if (options.inlineLocalVariables) {
+ } else { mode = "" }else if (options.inlineLocalVariables) {
+ } else { mode = 0 }else if (options.inlineLocalVariables) {
+ } else { mode = undefined }else if (options.inlineLocalVariables) {
+} else if (options.localFiles) {
+ } mode = 0;
+} else if (options.environment) {
+ } else { return null;
+ } mode = true;
+ if (options.inline)
+ (options.inlineLocalVariables) {
+} else if  (global)
+ } mode = options;
+ } else { mode } else if(options.inlineLocalVariables) {
+} else  if (global) {
+ } else { mode = "all"; } }else if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (!mode)
+} else if (options.inlineLocalVariables) { if (options)
+ } else) {
+} else if (options.inlineLocalVariables == null) {
+} else if (useLocal) {
+} else if (options.inlineLocalVariables) { mode = inlineVariables; }
+ } else { mode; } elseif (options.inlineLocalVariables) {
+ if (options) {
+} else if (options.location)
+} else if  (includeFiles) {
+} else if (options.inlineLocalVariables) { if (true)
+} else if (options.global)
+ } if (options) {
+ } else { mode } } if(options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { mode = "all"; }
+ if ($.inlineLocalVariables) {
+ } mode = "all";
+ } if (inlineLocal)else if (options.inlineLocalVariables) {
+ } if (! options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { mode = ALL; }
+} else if (options.inlineLocalVariables) { mode = null;
+ } if.inlineLocalVariables) {
+} else if (options.inlineLocalVariables) { if (all)
+ } else { mode = """;if (options.inlineLocalVariables) {
+ } if (.inlineLocalVariables) {
+ } () {
+ } if (!inlineLocalVariables) {
+ } else { mode = "";if (options.inlineLocalVariables) {
+} else  { } else {
+} else if (options).global {
+ if (options.inline)else if (options.inlineLocalVariables) {
+ if (flags) {
+} else if (options.inlineLocalVariables) { mode = true; }
+ mode = null; }else if (options.inlineLocalVariables) {
+ mode = null;
+} else if (options.inlineLocalVariables && inlineVariable) {
+} else if (options.inlineLocalVariables) { mode = null; }
+ if (.inlineLocalVariables) {
+ if (location) {
+ } if (options)else if (options.inlineLocalVariables) {
+ } } } else if(options.inlineLocalVariables) {
+ } else if (isEmptyArray(options.inlineLocalVariables) {
+ if (options.inlineLocalelse if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables &&! mode) {
+ } else if (isEmpty(options.inlineLocalVariables) {
+ } return mode;
+ if (options.inline)if (options.inlineLocalVariables) {
+ } if (inlineVariable)else if (options.inlineLocalVariables) {
+} else if (flags) {
+} else if (options.inlineLocalVariables) { if (!)
+} else if  else {
+ } default) {
+} else if (options.inlineLocalVariables) { if ()
+ mode = true;
+} else if (options.localMode) {
+ if (!inlineLocalVariables) {
+}  if (local)
+ } if (inlineLocalOnlyelse if (options.inlineLocalVariables) {
+} else if (options.loop) {
+} else if (options.inlineLocalVariablesMode) {
+ } else { else{
+} else if  (! {
+ } (() {
+ } if (options) {if (options.inlineLocalVariables) {
+ } else { }{
+}  if (options)
+} else if (location) {
+}  if (global)
+} else if (options.inlineLocalVariables)  if (all)
+ } } } ;
+} else if (options.inlineLocalVariablesEnabled) {
+} else if (options.inlineLocalVariables)  if (true)
+ } els{
+ } if (options).else if (options.inlineLocalVariables) {
+} else if (options.inlineLocalVariablesOnly()) {
+} else if  (!)
+} else if (optional)
+} else if (location)
+} else if (options.loc)
+} else if  ()
+} else if (locales) {
+} else if (locale) {
+ } elsif (options.inlineLocalVariables) {
+} else if  ( {
+ } else {
+ } } }
+ if (!options.inlineLocalVariables) {
+ if options.inlineLocalVariables) {
+ } el else{
+} else if (options.inlineLocalVariables)  if ( {
+}  else, {
+} else if (options.inlineLocalVariables) { } else
+} else if (options.inlineLocalVariables)  { this.
+ } };
+ break; } }else if (options.inlineLocalVariables) {
+ break; }
+} else if (options)) {
+ } (options.inlineLocalVariables) {
+ else if (options.inlineLocalVariables) {
+ } } if(options.inlineLocalVariables) {
+ } el elseif (options.inlineLocalVariables) {
+ } }
+} else if (options.inlineLocalVariables)  if necessary {
+} else if (options.inlineLocalVariables)  if ()
+ } } } }else if (options.inlineLocalVariables) {
+ } elseIf(options.inlineLocalVariables) {
+}  } else,
+ if (_inlineLocalVariables) {
+} else if (options++) {
+} else if (options.) {
+ }...
+} else if (options.inlineLocalVariables)) {
+ }
+} else if (options.inlineLocalVariables)  { *
+} else if (options.inlineLocalVariables()) {
+ } (inlineLocalVariables) {
+ }; if(options.inlineLocalVariables) {
+} else if (options.inlineLocalVariables)  { var
+ if ((options.inlineLocalVariables) {
+}  else,
+}\ elseif (options.inlineLocalVariables) {
+ } Elseif (options.inlineLocalVariables) {
+ } #{
+ }; else{
+ } unless(options.inlineLocalVariables) {
+} else { *
+}  } else

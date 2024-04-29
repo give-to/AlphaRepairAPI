@@ -1,0 +1,182 @@
+ break;
+break; case Token.PROP:
+ } break;
+break; } break;
+break; break;
+ default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.getType()));
+ default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.getType())); }
+break; case Token.ADDPROP:
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type");
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + node.getType());
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.type()) );
+ } else { visitNew(sideEffectInfo, node);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + node.type());
+ default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.type));
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node));
+ default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.type()));
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + node);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node)); }
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.name(node.Type()) );
+break; case Token.DELPROP:
+ default: throw new IllegalArgumentException( "Unhandled side effect node type " + Token.name(node.getType())); }
+ } else { visitNew(sideEffectInfo); }
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node");
+ } else { visitNew(sideEffectInfo);
+ break; default: throw new IllegalArgumentException ( "Unhandled side effect node type " + node. getType()));
+ } else { visitNew(sideEffectInfo, node); }
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + sideEffectInfo);
+break; case Token.ADD:
+break; default: switch(node.type()) {
+break; } switch(node.getType()) {
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + node); }
+break; case Token.INCPROP:
+ } else { visitNew(sideEffectInfo, node, gramp);
+ } else { visitThrow(sideEffectInfo, node); }
+ default: throw new IllegalArgumentException ( "Unhandled side effect node type " + Node.name(node))); }
+ } else { visitNew(sideEffectInfo, node); } }
+ break; default: visitNew(sideEffectInfo, node);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.NAME);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + node
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " + Node.NODE);
+ break; default: throw new IllegalArgumentException( "Unhandled node type");
+ break; default: visitAssignmentOrUnaryOperatorLhs( sideEffectInfo, traversal);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type " +);
+ } else { visitThrow(sideEffectInfo, node);
+ break; default: throw new IllegalArgumentException( "Unhandled side effect");
+ break; default: visitNew(sideEffectInfo);
+ break; default: throw new IllegalArgumentException ( "Unhandled side effect node type " + node. type()); }
+break; case Token.DIV:
+break; case Token.DELFUNCTION:
+break; case Token.DELFUNC:
+ break; default: visitAssignmentOrUnaryOperatorLhs(sideEffectInfo, node); }
+ } else { switch(node.type()) break;
+ break; default: throw new IllegalArgumentException( "Unknown side effect node type");
+ break; default: throw new IllegalArgumentException( "Unknown side effect node");
+ break; }
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type.");
+ break; case Token.PROP: break;
+ break; default: throw new IllegalArgumentException( "Unhandled side effect node type"); }
+break; } switch(node.type()) {
+ } else { visitNew(node, parent, gramp); }
+ } else { visitCall(node, parent, gramp); }
+ } else { visitCall(node, parent, gramp);
+ break; default: throw new IllegalArgumentException( "Unexpected side effect node type");
+break; case Token.PROPERTY:
+ break; default: visitNew(sideEffectInfo); }
+ break; default: visitNew(sideEffectInfo, node); }
+ break; default: throw new IllegalArgumentException( "Unknown side effect type");
+ } else { visitNew(node); }
+ } else { node. getFirstChild ( ) ;
+ } else { visitNew(node, parent); }
+ } else { visitNew(node, parent, gramp); } }
+ } else { switch(node) { break;
+break; case Token.DELCONST:
+ break; default: throw new IllegalArgumentException( "Unhandled side effect type");
+ } else { node. getNext ( ) ;
+ } } break;
+ } else { node. setFirstChild ( null ) ;
+ } else { node. next ( ) ;
+ } else { switch(node.type()); break;
+break; default: break;
+ } else { node. setFirstChild ( parent ) ;
+ } else { visitNew(sideEffectInfo, node, parent); } }
+ } else { switch(node).type(); break;
+break; case Token.OP:
+ break; default: throw new IllegalArgumentException( "Unknown side effect node type"); }
+ } else { visitCall(node, parent, gramp); } }
+ case Token.PROP:
+ } else { switch(node)) { break;
+ break; case Token.PROP:
+ } else { node. detach ( ) ;
+break; case Token.INC:
+ break; default: visitNew(sideEffectInfo, node); } }
+ case Token.PROP: break;
+ switch(node.getType()); break;
+ } else { visitNew(node, node, parent, gramp); }
+ } else { node. remove ( ) ;
+break; case Token.DEF:
+ break; default: throw new IllegalArgumentException( "Unknown node type"); }
+ case Token.PROP:
+break; case Token.PROPOP:
+ break; case Token.DELPROP:
+ break; default: visitNew(node); }
+ } else { node. nextChild ( ) ;
+break; case Token.DELPROCESS:
+break; } } break;
+ } else { visitNew(sideEffectInfo, node, parent, null);
+ } else { switch(node.value()); break;
+break; case Token.DELOP:
+ } else { switch(node).type()); break;
+ break; default: visitCall(node, parent, gramp); } }
+ } else { visitNew(node, parent, gramp); } } }
+ } else { node. setFirstChild ( null ) ; }
+ } else { switch(node)) break;
+ break; case Token.PROP;
+break; case Token.PROPS:
+ } case Token.ADD:
+ if (inExterns)
+ case Token.DELPROP:
+ break; case Token.OP: break;
+ switch(node.getType()) break;
+ break; case Token.INC: break;
+ break; default:
+ } case Token.DIV:
+ } else { node = null ; }
+ break; default: } break;
+ } else { break;
+break; } case Token.ADD:
+break; switch(node)
+break; default: switch(node.type()) {}
+break; case Token.DEL:
+ switch(node.value()); break;
+ case Token.ADD:
+ case Token.LOAD:
+ break; case Token.ADD:
+ return; } break;
+ break; default: } } break;
+ } else { node = parent ; }
+ switch(node) { break;
+ case Token.INC: break;
+ switch(node.value()) break;
+ case Token.OP:
+ node.getFirstChild(); }
+break; case '.':
+ break; switch;
+ case Token.ADD: break;
+ case Token.ADD:
+ } else { node = node ; } }
+ break; default: break; }
+break; case ".":
+ return; } } break;
+break; case CALL:
+ } else { } break;
+ break; } }
+ break; default: } }
+ break;
+break; }
+ } else { return ; }
+ } else { break ; }
+ break; } } } break;
+break; case NAME:
+ break; default: }
+ node.getFirstChild(); });
+ } }
+ return; }
+ break; });
+ }
+ } else { }
+ default: break;
+ } else {
+ } else break;
+ break; } else
+ } break ; }
+ default:
+ }); break;
+ } else
+ } switch;
+break break;
+ }
+ break,
+ continue;
+ });
+ break

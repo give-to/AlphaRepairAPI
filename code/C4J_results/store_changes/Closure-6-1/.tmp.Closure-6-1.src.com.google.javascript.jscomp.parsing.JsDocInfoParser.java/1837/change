@@ -1,0 +1,390 @@
+ skipEOLs);
+ skipEOLs;
+ skipEOLs(); token = next();
+ skipEOLs();
+ skipEOLs(); } token = next();
+skipEOLs(); token = next(); }
+ token = next();
+ skipEOLs(); next();
+ skipEOLs(); }
+ skipEOLs(); } next();
+skipEOLs() token = next(); }
+ skipEOLs(); token = next(); };
+ skipEOLs(); token = next(); } else {
+ skipEOLs(); token = next;
+ skipEOLs(); };
+ } token = next();
+ skipEOLs(); token = next();;
+ skipEOLs(); token = next(); } else { next();
+ skipEOLs(); token = next(token);
+skipEOLs( token = next(); }
+ skipEOLs(); token = next(); next();
+ skipEOLs(); token = next());
+ skipEOLs(); token = next(); }
+ skipEOLs(); token = next(););
+ skipEOLs(token);
+ } else { token = next(token);
+ return null;
+ skipEOLs(); token = next(); } } else {
+ skipEOLs();;
+ } next();
+ skipEOLs(); token = next);
+ skipEOLs(); } else {
+skipEOLs() token = next();
+ skip(token);
+skipEOLs(token); }
+ skipEOLs(); token = next();
+ } else { hasParams = false;
+ skipEOLs(); token = next(); } else
+ skipEOLs2();
+ } else {
+ skipEOLs(); token = next(); continue;
+ skipEOLs(); token = next(true);
+ skipEOLs(); } continue;
+ skipEOLs(); } break;
+ } else { token = parseTypeName(token);
+ } else { token = next(); }
+ skipEOLs(); }
+ skipEOLs(); } else { hasParams =
+ skipEOLs(); } else { token = next(); }
+ skipEOLs(); } else { hasParams = false;
+ skipEOL(); token = next();
+ skipEOLs(); } else { next();
+ skipEOLs(); } else;
+ skipEOLs(colon);
+skipEOLs(); token = next(); } else {
+skipEOLs( token = next(); } else { continue ; }
+ } else { parseTypeName(next());
+skipEOLs(tokenStr); }
+skipEOLs( token = next()); }
+ } else { isThis = "new".equals(tokenStr); } if (isThis)
+ } else { token = next(); }
+ skipEOLs(); token = next(); } else { next(); }
+ skipEOLs(tokenStr);
+ skipEOLs(); return null;
+ skipEOLs(); } Token contextType;
+ skipEOLs(); token = next(2);
+ skipEOLs(); token = next().next();
+skipEOLs() } else { token = next(); }
+ skipEOLs(); } else { token = next();
+skipEOLs( token = next(); } else { return ; }
+ } else { token = next();
+skipEOLs() token = next(); } else { continue ; }
+ skipEOLs(); token = next(false);
+ skipEOLs(); } else { isThis = false; }
+ skipEOLs(); token = next(_);
+ } else { isThis = "this".equals(tokenStr); }
+ } else { token = next());
+ skipEOLs(); } else { continue;
+ skipEOLs(); } else { isThis = false;
+skipEOLs(); token = next(); } } else {
+skipEOLs() token = next(); } else {
+ skipEOLs(); token = next; next();
+ skipEOLs(); } else { return null;
+ } else { isThis = false ; } if ( isThis ) { isThis = true ; } if ( isThis ) { next();
+skipEOLs() } if (hasParams) {
+ } else { isParams = false ; } } else { token = next(); } } else { next();
+ skipEOLs(); token = next(); break;
+ skipEOLs(); } else { hasParams = false; }
+ } else { parseTypeName(token);
+ } else { isThis = "new".equals(tokenStr); } if (!isThis)
+ } else { isParams = false ; } if ( isParams ) { if (isNew)
+skipEOLs(); } else { token = next(); }
+ } else { token = next(););
+ isThis = false;
+ } else { isParams = false ; } } else { token = next(); } if (hasParameters)
+skipEOLs(); } if (hasParams) {
+ skipEOLs(); token = nextToken();
+skipEOLs( token = next(); } else {
+ } else { isParams = false ; } } else { token = next(); } if (isNew)
+ } else { isThis = false;
+ } else { isThis = true ; } } else { isThis = false ; } if (hasParams) {
+ } else { isThis = false ; }
+ skipEOLs(); token = next(); } }
+ skipEOLs(););
+ skipEOLs(); } else { hasParams = false
+ } else { next(token);
+ } else { isParams = false ; } } else { token = next(); } } else {
+ skipEOLs(); token(next);
+ } else { isThis = true ; } } else { isThis = false ; }
+ } if ( isNew ) { next(); } if ( isNew ) { next(); } if ( isThis ) { next();
+skipEOLs() token = next(); if (token) {
+ skipEOLs(true);
+ } else { isThis = false ; } } else { isThis = false ; }
+ } else { isThis = "new".equals(tokenStr); } } else { next();
+ skipEOLs(); } else continue;
+ } if ( isNew ) { next(); } if ( isNew ) { next(); } if ( isNew ) {
+ } else { isThis = false ; } } else { token = next(); } if (hasParams) {
+ } else { isThis = false ; } if ( isThis ) { token = next(); if ( token == null ) {
+ if (hasParams)
+ } else { isThis = "this".equals(tokenStr); } } else {
+ if (hasParams) {
+ } else { isThis = "this".equals(tokenStr); } if (new)
+ } if ( isNew ) { next(); } if ( isNew ) { next(); } if ( isNew ) { next();
+ } else { hasParams =
+ } else { isThis = false ; } if ( isThis ) { token = next(); } else { token = next();
+ skip(1);
+ } else { isThis = false ; } } if ( isThis ) { token = next(); } else { token = next(); } }
+ } else { hasParams = false
+ } else { isThis = false ; } if ( isThis ) { token = next(); } else { next();
+ } if ( isNew ) { next(); } if ( isNew ) { next(); } if ( isThis ) {
+ skipEOLs(); token = next(); },
+skipEOLs( token = next(); } } else {
+ } else { isThis = false ; } if ( isThis ) { token = next(); if (token == null)
+ } else { isThis = false; }
+ next());
+ } if (hasParams) {
+ skipEOL; token = next();
+ SkipEOLs(); } token = next();
+ } if (isThis || isNew) { next(); } } else { next();
+ } if (hasParams)
+ } else { isThis = false ; } if ( isThis ) { token = next(); } } else { next();
+ if (hasParams) {
+ } token = next(token);
+ } else { next();
+ token = next;
+skipEOLs() } else { token = next(); } }
+ } if ( isThis || isNew ) { next(); } if ( isThis || isNew ) { if (hasParameters)
+ skipEOLs(); token = next( )();
+ } else { isThis = false ; } if (hasParams) {
+ skipEOLs(); token = next(); };
+ skipEOLs(); } else { break;
+ skipEOL(token);
+ skipEOLs(); } else
+skipEOLs(); token = next(); } else { final
+ skipEOLs(); } return null;
+ skipEOLs(1);
+ } else { token = next(); } } else {
+ skipEOLs(); } else break;
+skipEOLs() token = next(); } } else {
+ } else { isThis = false ; } if ( isThis ) { next();
+ } else { parameters = null;
+ } else { isThis = false ; } } if ( isThis ) { token = next(); } if ( isNew )
+ skipEOLs(); } else { token = next(); } }
+ skipEOLs(); } else { hasParams =!
+ skipEOLs(); token = nextCursor();
+ hasParams; }
+ } else { isThis = true ; } } else { token = next(); }
+skipEOLs(); } else { token = next(); } }
+ skipEOLs(); token = next(); } else { token = [];
+skipEOLs( token = next); }
+ } else { return null; }
+ } else { isThis = "this".equals(tokenStr); } if (this)
+ } else { isThis = true ; } } else { if (isThis)
+ } else { token = next();
+ } if (isNew) {
+ skipEOLs();
+ skipEOLs(); tokenNext();
+ } if ( isThis || isNew ) { next(); } if ( isThis || isNew ) { if (new)
+ skipEOLs(...);
+ } else { isThis = false ; } } else { isThis = false ; } } else { isThis = false ; } }
+ } else { isThis = false ; } if ( isThis ) { isThis = true ; } if ( isThis ) { } }
+skipEOLs() } if (isNew) {
+skipEOLs(); } if (isNew) {
+ } else { isThis = false ; } } else { isThis = true ; } } else { isThis = false ; } }
+ } if (isNew) { next();
+ hasParams();
+skipEOLs( token = next(); } else { final
+ } else { isThis = "this".equals(tokenStr); } if (true)
+ next();
+ } else { isThis = "this".equals(tokenStr); } }
+ } else { isThis = false ; } } else { isThis = false ; } } else { isThis = false ; } } }
+ } else { isThis = "new".equals(tokenStr); } if (isThis){
+ } else { token = next(); } }
+ } if (isNew || isThis) { next(); } } else {
+ } else { isThis = true ; } } else { hasParams =
+ } else { isThis = false ; } } if ( isThis ) { token = next(); } else { token = next(); } else
+ } else { hasParams false;
+ } else { isThis = false ; } } else { isThis = false ; } } if ( isThis ) { if (...)
+ skipEOLs(); token = next(); } else { token = next
+ } else { isThis = false ; } } else { isThis = true ; }
+ } else { isThis = false ; } } else { hasParams =
+ } else { isParams = false ; } } else { token = next(); } if (isNew){
+ } else { isParams = false ; break ; } } else { token = next(); } } }
+ } else { isThis = false ; } } else { isThis = false ; } } else { isThis = true ; } }
+skipEOLs( token = next(); ) ; }
+ if (isThis) { next();
+ skipEOLs()); next();
+ skipEOLs(); continue;
+ } else { isThis = true ; } } else { isThis = false ; } }
+ skipEOLs(_);
+ isThis = false; }
+ } else { isParams = false ; break ; } } else { token = next(); } } else
+ } else { isThis = false ; } } else { isThis = false ; } }
+skipEOLs(); token = next(); } else { }
+ } else { isThis = false ; } } else { isThis = false ; } } else { token = next(); } } else
+ } else { isParams = false ; } } else { token = next(); } if (hasParameters){
+ skipEOLs(); current();
+ } if ( isThis || isNew ) { next(); } if ( isThis || isNew ) { next(); } } }
+skipEOLs() } else { token = next(); } } }
+ } else { isParams = false ; } } else { token = next(); } } else
+skipEOLs() token = next(); } else { final
+ } else { isParams = false ; } } else { token = next(); } } }
+ } if ( isNew ) { next(); } if ( isNew ) { next(); } if ( isNew ) { } }
+skipEOLs() token = next(); };
+ } else { hasParams = true
+ skipEOLs(next();
+ skipEOLs()();
+skipEOLs(); token = next(); } }
+skipEOLs( token = next(); } else { }
+ skipEOLs1();
+skipEOLs( token = next(); } else { continue; };
+skipEOLs() } else { isThis = false ; }
+skipEOLs() if (hasParams) {
+skipEOLs(); token = next(); } else { } }
+ } else { return null;
+ skipEOLs(); token = next;
+ } else { isThis = false ; } } else { isThis = true ; } }
+ } else { token = next(); next();
+ skipEOLs(); token = next; } else
+ isThis = isNew;
+skipEOLs(); token = next(); } } else { final
+ hasParams;
+skipEOLs( token = next(); } }
+ } else { isThis = false ; } if ( isThis ) { token = next(); } else { next;
+ skipEOLs()); token = next();
+skipEOLs() } else { token = next(); } };
+skipEOLs( token = next(); } else { } }
+ } else { isThis = true ; } } if ( isThis ) { token = next(); } } } else
+ } else { isThis = "this".equals(tokenStr); } } } else
+skipEOLs() token = next(); } else { }
+ skipEOLs2;
+ } else { isThis = false ; } if ( isThis ) { token = next(); } else { next()
+skipEOLs(); } else { token = next(); } };
+skipEOLs() token = next(); } else { continue; };
+skipEOLs() } else { token = next(); } } final
+skipEOLs( token = next(); } else { } } }
+ skipEOLs++;
+ } else { isThis = true ; } } else { isThis = false ; };
+ skipEOLs();();
+ }
+ } else { token = next(); } }
+ skip(2);
+skipEOLs(); token = next; }
+ isThis = true;
+skipEOLs( token = next(); } } else { final
+ } else { isThis = false ; } if ( isThis ) { } }
+ hasParams =
+skipEOLs() token = next(); } }
+ skipEOLs(); token = current();
+ hasParams;
+ } else { token = next(); } } else
+skipEOLs() token = next(); } else { } }
+ continue; }
+skipEOLs(); token = next(); } final
+ skipEOLsNext();
+skipEOLs(); } else {
+skipEOLs(); token = next(); } } }
+skipEOLs(); token = next(); } else { } };
+ skipColon);
+skipEOLs(); token = next(); },
+ skipEOLs(); final
+skipEOLs() if (isNew) {
+ skipEOLs(); } }
+skipEOLs( token = next(); } else { } };
+skipEOLs(); } else { final
+ }
+ skipEOLs()); }
+skipEOLs( token = next(); } } }
+ skipColon;
+skipEOLs(); } } else {
+skipEOLs() return null; }
+ SkipEOLs();
+skipEOLs( token = next(); } };
+skipEOLs( token = next(); ) ; };
+skipEOLs() continue; }
+skipEOLs(...) }
+ skipCOLs(); }
+skipEOLs(); token = next(); } } final
+skipEOLs() token = next(); } final
+skipEOLs() token = next; }
+skipEOLs() token = next(); } } }
+ skipEOLs());
+skipEOLs(true); }
+ isNew; }
+skipEOLs(); continue; }
+skipEOLs( token = next(); ) } }
+skipEOLs() token = next(); },
+ continue; } next();
+skipEOLs( token = next()); } }
+ token = null;
+skipEOLs(); } else { }
+skipEOLs() token = current(); }
+skipEOLs(tokenStr); };
+ next(_);
+ skipColon();
+skipEOLs(2);
+skipEOLs() } else {
+ skipEOL(); }
+ next(););
+skipEOLs( token = next(); }); }
+skipEOLs() } else { final
+ } break;
+skipEOLs() token = next(); } } final
+ hasParams &&
+ skip(true);
+ SkipEOLs;
+ } continue;
+skipEOLs() } } else {
+ skipCOLON;
+skipEOLs(current); }
+skipEOLs(\"\");
+skipEOLs() token = next;
+skipEOLs() return ; }
+ skipColons();
+skipEOLs(token); };
+ } token = current();
+ SkipEOLs);
+ return ; }
+ token = current();
+ } else {
+skipEOLs(); token = next()); } }
+ } else;
+ skipOLs();
+skipEOLs(); token = next; } }
+skipEOLs(); token = current(); } }
+ } else { final
+ continue; }
+skipEOLs() return null };
+ skipCEOLs);
+skipEOLs() return null }
+skipEOLs(tokenStr); },
+skipEOLs() token = current(); } }
+ continue };
+ } else { }
+skipEOLs() token = next; } }
+ return null();
+ continue; } continue;
+ skip(); } }
+ continue next();
+ continue; } break;
+ skipEOL();
+skipEOLs(); continue; };
+ skipComments();
+ continue; } }
+ continue; };
+ skipEOL());
+ skipToken();
+ skip; } }
+ switchToNextToken;
+ } else
+ if (...)
+skipEOLs(); } final
+ } }
+ } }
+skipEOLs() } }
+skipEOLs; }
+skipEOLs() } final
+ } final
+skipEOLs()); } }
+ if();
+skipEOLs()); } final
+ };
+ if }
+ if()
+ };
+ final
+skipEOLs() }; }
+skipEOLs() }; final
+ }; }
+ }; final

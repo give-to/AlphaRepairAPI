@@ -1,0 +1,362 @@
+ skipEOLs();
+ skipEOLs;
+ skipEOLs);
+ skipEOLs(); } else {
+ skipEOLs(); return next();
+ skipEOLs(); return parse(token);
+ skipEOLs(token);
+ skipEOLs(); }
+ skipEOLs(); return parseFunctionType();
+ skipEOLs(); return next());
+ skipEOLs(next());
+skipEOLs() return parseRecordType(next()); } else {
+ skipEOLs(); return parseFunctionType(next()); } else {
+ return newNode(Token.LC); } else if (token == JsDocRecord) {
+ skipEOLs(); return parseFunctionType(next()); } else { return
+ return newNode(Token.LC); } else if (token == RecordType) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) {
+ skipEOLs(); return parseListType(next()); } else {
+skipEOLs() return parseRecordType(next()); } else
+ skipEOLs(); return parseCollectionType(next()); } else {
+ skipEOLs(); return parseType(token);
+ skipEOLs(); return parseFunctionType(next()); } else
+ skipEOLs(); return parseLangType();
+ skipEOLs(); return parseListType(next()); } else { return
+ skipEOLs(); return parseLC();
+skipEOLs(return parseRecordType(next()); } else {
+ next();
+ skipEOLs(next();
+ return newNode(Token.LC); } else if (token == JsDocToken.RR){
+ skipEOLs(); return parseCollectionType(next()); } else { return
+skipEOLs() return parseListType(next()); } else {
+skipEOLs(); return parseListType(next()); } else
+ return newArrayNode(token); } else if (token == JsDocToken.RR) {
+ return newNode(Token.LC); } else if (token == JsDocToken.RR)
+ skipEOLs(); return parseUnionType(next()); } else {
+skipEOLs(); return parseRecordType(next()); } else
+ skipEOLs(); return parseLCType(next()); } else {
+skipEOLs(); return parseFunctionType(next()); }
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { return parseRR(next()); }
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return newNode();
+ skipEOLs(); return null;
+skipEOLs(); return parseCollectionType(next()); } else
+skipEOLs(); return parseFunctionType(next()); } else
+ return newStringNode(token); } else if (token == JsDocToken.RR) {
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return newNode(token); }
+ return newArrayNode(token); } else if (token == JsDocRecord) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORD) {
+ return newStringNode(token); } else if (token == JsDocToken.RR) { return newNode(token); }
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return parseRR(next()); }
+ skipEOLs(); return parseFunctionType(next()); } else if (token == JsDocToken) { return
+ return newStringNode(token); } else if (token == JsDocToken.RECORD) {
+skipEOLs() return parseCollectionType(next()); } else {
+ return newNode(Token.LC); } else if (token == JsDocToken.RECORD) { return parseRecordType(); }
+ skipEOLs(); return parseFunctionType(next()); } else if (token == JsDocToken.RR){
+ skipEOLs(true);
+ skipEOLs(); return parseLCType(next()); } else { return
+ skipEOLs(); return parseListType(next()); } else if (token == JsDocToken.RR){
+ skipEOLs(); return parseCollectionType();
+ skipEOLs(); return parseUnionType();
+skipEOLs() return parseListType(next()); } else
+ return parseRecordType(next()); } else if (token == JsDocNL) {
+ skipEOLs2();
+ return newArrayNode(token); } else if (token == JsDocToken.RECORD) { return newRecord(token);
+ skipEOLs(); return parseFunction(token);
+ skipEOLs(); return parseListType(next()); } else if (token == JsDocToken) { return
+ return parseRecordType(next()); } else if (token == JsDocToken) {
+ skipEOLs(...);
+ skipEOLs(); return parseListType();
+ skipEOLs(); return parseFunctionType(next()); } else if (token == JsDocToken.RR)
+skipEOLs(); return parseFunction(next()); }
+skipEOLs() return parseCollectionType(next()); } else
+ return newNode(Token.LC); } else if (token == JsDocToken.RECORD) { if (recordType) {
+ skipEOLs(); return parse(stream);
+ skipEOLs(); return parseCollectionType(next()); } else
+ return newNode(Token.LC); } else if (token == JsRecord) {
+ return newArrayNode(token); } else if (token == JsDocToken.RECORD) { return parseRecord(next()); }
+ return newArrayNode(token); } else if (token == JsDocToken.RECORDTYPE) {
+ return newNode(Token.LC); } else if (token == JsDoc) {
+ return newStringNode(token); } else if (token == JsDocToken.RECORDTYPE) {
+ skipEOLs(); return parseUnionType(next()); } else { return
+ return parseRecordType(next()); } else if (token == JsDocToken.RR)
+ skipEOLs(); return newNode();
+skipEOLs(); return parseUnionType(next()); }
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return newRRNode();
+ return newArrayNode(token); } else if (token == JsDocToken.RECORD) { return parseRecord(token); }
+ skipEOLs(); return parseListType(next()); } else
+skipEOLs(); return parseUnionType(next()); } else
+skipEOLs() return parseFunctionType(next()); } else {
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return newArrayNode();
+ skipEOLs(); return parseLiteral();
+ return newNode(Token.LC); } else if (token == RECORD) {
+skipEOLs(); return parseCollectionType(next()); }
+ return newArrayNode(token); } else if (token == JsDocToken.RECORD) { return parseRecordType(); }
+ skipEOLs(); return parseFunctionType(next()); } else if (record)
+skipEOLs(return parseRecordType(next()); } else
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return newRecordNode();
+ skipEOLs(); } else
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return newRecordType();
+skipEOLs() return null;
+ return newStringNode(token); } else if (token == JsDocToken.RECORDType) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RRV) {
+ skipEOLs(); return parseLC(token);
+skipEOLs() return parseFunctionType(next()); } else
+ return newStringNode(token); } else if (token == JsDocToken.RR) { return newArrayNode();
+ skipEOLs();;
+skipEOLs() return parseFunctionType(next()); }
+ skipLines();
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return newRecordType(); }
+ skipEOLs(); return parseUnionType(next()); } else
+ skipEOLs(); return parseListType(next()); } else if (record)
+ return newArrayNode(token); } else if (token == JsDocToken.RECORD_TYPE) {
+ skipEOLsLC();
+ skipEOLs(); return parseComment();
+skipEOLs() return parseCollectionType(next()); }
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return newRecordType();
+ return newArrayNode(token); } else if (token == JsDocToken.RECORDType) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RRL) {
+ return parseRecordType(next()); } else if (token == JsDocToken.LF) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORDTYPE) {
+ skipEOLs(); return parseFunctionType;
+ skipEOLs(); return parseLCType(next()); } else if (record)
+ skipEOLs(); return newNode;
+ skipEOLs(); return parseLangNode();
+ skipEOLs(); return parseList(token);
+skipEOLs(); return parseCollection(next()); }
+ skipEOLs(); return parseFunctionType(next()); } else if (...)
+ skipEOLs(); return parseFunction(next()); } else
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return parseRR(); }
+ return newNode(Token.LC); } else if (token == JsDocToken.RR) { return newNode(); }
+ skipEOLs(); return newNode(Token);
+ skipEOLs(); return parseFunctionType(next()); } else if (! {
+ skipEOLs(); return next(_);
+ skipEOLs(); next();
+skipEOLs(); return parseListType(next()); }
+ skipEOLs(();
+skipEOLs() return parseUnionType(next()); } else
+skipEOLs(); return parseList(next()); }
+ skipEOLs++;
+skipEOLs() return parseRecordType(next()); }
+skipEOLs() return parseUnionType(next()); }
+ skipOLs();
+skipEOLs(); return parseType(next()); }
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return null;
+ skipEOLs(); return parseCollection(next()); } else
+ skipEOLs(); return parseCollectionType;
+ skipEOLs(); return parseLCType(next()); } else
+ return newStringNode(token); } else if (token == JsDocToken.RR) { return null;
+skipEOLs(return parseRecordType(next()); }
+ skipEOLs(); return parseListType(next()); } else if (...)
+skipEOLs(); return parseRecordType(next()); }
+ skipEOLs(); return parseList(next()); } else
+ skipEOLs(); return parseFunctionType(next()); } else if (null
+ skipEOLs(); return parseLangName();
+ skipEOLs(); return parseTypeName;
+skipEOLs() return parseFunction(next()); }
+skipEOLs() return parseCollection(next()); }
+ skipEOLs(); return parseLocation();
+skipEOLs() return parseListType(next()); }
+ skipEOLs(); return parseListType(next()); } else if (null
+skipEOLs(); return parseLC(next()); }
+ skipEOLs(); return parseCRLF;
+ skipEOLs(); return parseArrayType();
+skipEOLs() return parseLCType(next()); } else {
+ skipEOLs(Token.LC);
+ skipEOLs(); return parseString();
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { return null;
+skipEOLs() return parseList(next()); }
+ skipEOLs(); return parseLC(next()); } else
+ skipEOLs(); return token.LC;
+ skipEOLs(); return parseListType;
+ skipEOLs(); return parseLC(token;
+skipEOLs() return parseType(next()); }
+ skipEOLs(); next());
+ skipEOLs(); return parse(true);
+ skipEOLs(); return next($);
+ skipEOLs(); return parseLangNode;
+skipEOLs(return parseListType(next()); } else {
+skipEOLs() return parseLC(next()); }
+ skipEOLs(); return parseList();
+ skipEOLs(); return parseFunction(...);
+skipEOLs(return parseCollectionType(next()); } else {
+ skipEOLs(*);
+ skipEOLs(); return parseType();
+skipEOLs(return parseRecordType(next())); }
+ if ("record".equals(string)) {
+ skipEOLs(); return parseLdcType();
+skipEOLs() return parseFunctionType();
+ skipEOLs(stream);
+skipEOLs(); return parseFunction(next());
+ skipEOLs(2);
+ if (record".equals(string)) {
+ skipEOLs(1);
+skipEOLs(return parseRecordType(next()) } else {
+ skipEOL();
+ skipEOLs(); next;
+ skipEOLs(); return parseFunctionType(next()); }
+ return newNode(Token.LC); }
+ skipEOLs();
+ skipLines;
+ if ("record".equals(recordType)) {
+ skipEOLs(); return parseLC;
+ recordType(next()); }
+ skipEOLs(); return parse();
+ skipEOLs(next()); }
+skipEOLs(); return parseTypeName();
+ return newArrayNode(token); } else if (token == JsDocToken.RR) { return null();
+ if (record".equals(string)) { return
+ skipEOLs(Token.LC;
+skipEOLs(return parseCollectionType(next()); } else
+skipEOLs(); return parseTypeName(); }
+ skipEOLs(); next(_);
+ parseRecordType(next()); } else {
+ return newNode(Token.LC);
+ skipEOLs(); return parseFunction(next()); }
+ skip(token);
+skipEOLs() return parseCollectionType();
+ skipEOLs(next);
+skipEOLs() return parseRecordType();
+ skipComments();
+skipEOLs(return parseUnionType(next()); }
+ if ("record".equals(string)) { return
+ skipEOLs().next();
+ skipEOLs(); return parseString;
+ if ("record".equals(record)) {
+ skipEOLs(); return parseType;
+skipEOLs(return parseCollectionType(next()); }
+ if (record".equals(string))
+ return
+ skipEOLs(); return parseCollection(next()); }
+ skipEOLs(); next($);
+ return newNode(Token.LC, next()); }
+skipEOLs() return parseLC(token);
+skipEOLs( stream.getLineNumber()); }
+skipEOLs() return parseFunction(next());
+skipEOLs(Stream.getLineNumber()); }
+ skipEOLsList();
+skipEOLs() return newNode();
+ skipEOLs(newNode();
+ skipEOLs(_);
+skipEOLs( stream.getString() );
+ skipOLs;
+ return newNode(Token.LTC); }
+skipEOLs(skipEOLs());
+ if (record".equals()) {
+ return newListNode(Token.LTC); }
+skipEOLs(skipEOLs);
+skipEOLs() return parseLangType();
+skipEOLs() return parseTypeName();
+ skipEOL(token);
+skipEOLs(return parseRecordType(next()));
+skipEOLs(stream.getString()); }
+ skipEOLsL();
+skipEOLs() return parseListType();
+ skipEOLs2;
+ skipEOLs() return next();
+ skipEOLs(getLocation();
+ if (recordType".equals()) {
+ recordType(next()); return
+ if (recordType".equals(string))
+ parseRecordType(next()) } else {
+ skipEOols();
+ if (recordType!= null) {
+ skipEOLsInLine();
+ skipEOLsl();
+ skipEOLsInline();
+skipEOLs() return parseLangName();
+ recordType(next());
+skipEOLs() return parseTypeName(); }
+ skipEOLs(); return parseFunction(next()); else
+ skipEOLs(); + 1;
+ return newNode(Token.LC, next());
+ parseRecordType(next()); }
+ skipEOLs(); return "";
+ recordType(next()) } else
+ skipEOLs() }
+ return newNode(Token.LC, "*");
+ parseRecord(next());
+skipEOLs() } else {
+ return parseList(next()); }
+skipEOLs() return parseLC();
+ skipEOLs(); if ()
+ skipNLs();
+ skipEOLs(); return
+skipEOLs(scanEOLs());
+ return newNode();
+ if (record) {
+ skip(1);
+ skipEOL;
+skipEOLs() return parseString();
+ return parseFunctionType() ;
+skipEOLs(stream.getString(); }
+skipEOLs() return null; }
+skipEOLs() return parseList();
+ return parseFunctionType(); }
+ skipL ();
+skipEOLs(parseLines()); }
+skipEOLs(parseLang); }
+ skipChildren();
+ next(_);
+skipEOLs(token.LC);
+ skipNLs;
+ skip(2);
+ skipComments;
+ parseRecordType(); }
+ parseRecordType() {
+ parseRecordType();
+ if (record)
+skipEOLs(lineNumber); }
+skipEOLs() return null();
+skipEOLs(\"\");
+ next($);
+ skipNL();
+skipEOLs(\"*\");
+ skipEOFs;
+ skipLC();
+skipEOLs() } else
+ return null;
+ next());
+skipEOLs(\"\"); }
+skipEOLs(logical);
+skipEOLs(parseLines());
+skipEOLs() + 1;
+skipEOLs(newLine());
+ return null;
+ next();
+ return null; }
+skipEOLs() return undefined();
+ skipLibraries();
+ recordType();
+ SkipEOLs);
+ skipChildren;
+ skipIOLs();
+ skipComment();
+ SkipEOLs();
+ consumeEOLs);
+ return next();
+ skipEOOLs();
+ if (...)
+ skipNL;
+ SkipEOLs;
+skipEOLs() next();
+ recordType;
+ skipCRLF();
+ skipLC;
+ ignoreEOLs;
+ consumeEOLs;
+ skipCRLF;
+ continue;
+ break;
+ first();
+ if {
+ if {}
+skipEOLs() if }
+skipEOLs() if {
+skipEOLs() } }
+ } else
+ next());
+ }
+ {
+ {
+...
+ #

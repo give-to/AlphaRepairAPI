@@ -1,0 +1,722 @@
+result = result + (digit << shift);
+result = result + (continuation);
+result =  digit ;
+ result |= (digit << shift);
+ result |= digit;
+ result ++;
+result = result +  continuation ;
+result = result +  continuation ; continuation = false ;
+ result = -result + (digit << shift);
+ result += (digit << shift);
+ result = (<< shift);
+ result = digit(shift);
+ if (continuation) { result= result + (digit << shift);
+result = result + (digit  & VLQ_BASE_BIT);
+ result = result << shift+ (digit << shift);
+result = result  | digit ;
+result = result + (digit);
+result = result +  continuation ; continuation =! continuation ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) {
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) {
+ if (continuation) {
+ while (continuation) {
+ result = result | (digit << shift);
+result = result + (digit  & VLQ_BASE) ;
+ result += digit ;
+ result = (1<< shift);
+ result = result + digit;
+ shift = (shift + VLQ_BASE_SHIFT); while (continuation) {
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) {
+ shift = shift + VLQ_BASE_SHIFT;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation )
+result = result +  continuation ; shift = shift + - 1 ;
+ shift = shift + VLQ_BASE_Shift;
+ shift = shift + continuation ; result = result+ (digit << shift);
+result = result +  continuation ; shift = shift ; continuation = false ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = false ;
+ shift = shift + continuation ; result |= (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation =! continuation ; }
+result = result + (digit  & VLQ_MASK);
+ shift = digit >>> shift;
+ shift = shift + VLQ_BASE_SHIFT ; continuation = true ;
+ while (continuation) { result= result + (digit << shift);
+ while (continuation) { result = -result + (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { continuation = false ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = true ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = false ; }
+ shift = shift + VLQ_Shift;
+ shift = (shift + VLQ_BASE_SHIFT); while (shift > 0) {
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { continuation = true ;
+ result = (digit << shift);
+ shift = digit >>> shift ;
+ shift = shift + VLQ_BASE_Shift
+ shift = shift + VLQ_MASK;
+ shift = shift ; result = result+ (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = true ; }
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { continue ; }
+result = result +  VLQ_BASE_SHIFT ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation =! continuation ;
+ result = result |= digit;
+ shift = shift + VLQ_BASE_Shift;
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { break ; }
+ result = fromVLQSigned(digit << shift);
+ result ^= result + (digit << shift);
+ shift = shift + VLQ_CONTINUATION ;
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation )
+ if (shift > 0) { result = -result + (digit << shift);
+result = result  | continuation ; continuation = false ;
+ shift = shift + VLQ_BASE_SIZE ;
+ shift = shift + VLQ_CONTINUATION
+result = result +  VLQ_BASE_MASK ;
+ shift = shift + VLQ_SIZE;
+ shift = shift + VLQ_BASE_Shift
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { result += digit ;
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) { continuation = true ;
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { break }
+ shift = shift + VLQ_BASE_SHIFT; while (shift) {
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } while ( continuation ) {
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { result += digit << shift ; }
+ shift += VLQ_BASE_Shift;
+result = result + (char) digit ;
+ shift = -shift;
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) break ;
+ while (continuation) { result += (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { result += (digit << shift); } else {
+result = result + (digit  | VLQ_BASE_BIT);
+ shift = shift + VLQ_BASE_SHIFT ; continuation = false ;
+ shift = shift + 1 ; result |= (digit << shift);
+ result |= (1<< shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { result += digit ; }
+ shift = shift + VLQ_BASE_SIZE;
+ shift = shift + (digit << shift); while (continuation) {
+ result = result ; continuation = false;
+ shift = shift + continuation ; result = -result + (digit << shift);
+result = result +  continuation ; shift = - 1 ;
+ result += digit(shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continue ; }
+result  <<= shift ; continuation =! continuation ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation & 1 ; }
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; break ; }
+ shift = shift + VLQ_BASE_shift
+ if (continuation) { result = -result + (digit << shift);
+ result = (result | 1<< shift);
+ if (shift > 0) { result += (digit << shift);
+ shift = shift + VLQ_BASE ;
+ result = result |= (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) { continuation = true; }
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { continue ;
+ result = (result<< shift);
+ if (shift > 0) { result |= digit ; }
+ shift = shift + VLQ_SHIFT;
+ result = toVLQSigned(digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation && digit!= 0 ;
+ if (shift > 0) { result |=(digit << shift);
+ result = result + continuation | (digit << shift);
+ if (shift > 0) { result += digit ; }
+result = result + (digit << shift); continuation =! continuation ;
+ shift = shift + (digit << shift); while (shift > 0) {
+result = result + (digit << shift) ; continue ; } while (continuation) ;
+ result |+ (digit << shift);
+ result += (continuation<< shift);
+ while (continuation) { result |= result + (digit << shift);
+ while (continuation) result += (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation & 0xff ; }
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } while ( shift ) {
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { break ;
+ result = continuation ; shift=result + (digit << shift);
+result = result +  continuation ; shift = shift ; continuation = true ;
+ continuation = true; result= result + (digit << shift);
+ shift = (shift + VLQ_BASE_SHIFT) ;
+ shift = (shift + VLQ_BASE_SHIFT + 1);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; shift += digit ; }
+ shift = shift + (digit << shift); if (continuation) {
+ if (shift > 0) {
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; shift = 0 ; }
+ shift = shift + VLQ_SHIFT;
+ shift = shift + VLQ_BASE_SHIFT; do {
+ result = (continuation<< shift);
+ shift = shift + continuation ; result |= result + (digit << shift);
+result = result + (digit <<  1) + continuation ; continuation = false ;
+ shift = (shift + VLQ_1<< shift);
+ result += (1<< shift);
+ shift = (shift + VLQ_BASE_SHIFT); while (shift > 0) { continuation =! continuation ; }
+ if (shift > 0) { result |= digit ;
+ shift = shift + 1 ; result = result+ (digit << shift);
+ if (shift > 0) { result = (digit << shift);
+result = result +  continuation | digit ;
+ while (continuation);
+ shift = shift >>> 0 ; continuation = true ;
+result = result +  continuation ; continuation = true ;
+ result |= result + (digit << shift);
+ result = result | continuation | (digit << shift);
+ shift = (shift + VLQ_Shift);
+result = result +  continuation ; shift = shift + 1 ;
+ result = (result | digit);
+ result += fromVLQSigned(digit << shift);
+ while (continuation) { result ^= result + (digit << shift);
+result = result + (shift + VLQ_BASE) ;
+ continuation = continuation ; result = -result + (digit << shift);
+ shift = shift << 1 ; result = result+ (digit << shift);
+ shift = shift + digit << shift ; result |= result + (digit << shift);
+ shift = shift >>> 0 ; continuation =! continuation ;
+result = result + (digit <<  1) + continuation ;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation & 0xFF ;
+ if (continuation) result=result + (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) { continuation -- }
+ result += continuation ; continuation = false;
+ shift = digit >> shift ;
+ shift = shift ; while (continuation) {
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } while ( continuation ) ;
+ shift = (shift + VLQ_SIZE);
+ while (shift);
+ result = continuation ; result = -result + (digit << shift);
+ shift = shift + VLQ_Signed;
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = true ; } }
+ while (continuation) result= result + (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } } else {
+result = result + (digit << shift) + continuation ; continuation = false ;
+ shift = shift + (digit << shift); while (shift) {
+ if (continuation) {
+result  += digit ; continuation =! continuation ;
+ result = (result | VLQ_1<< shift);
+result = result + (digit >>> shift);
+result = result + (digit << shift) ; continuation = continuation ; shift = digit ;
+ result = continuation * -result + (digit << shift);
+ result += (int) (digit << shift);
+ result += continuation ; continuation = (digit << shift);
+ if ( continuation ) { result += digit << shift ; }
+result = result  | continuation ; continuation =! continuation ;
+ while (continuation) {
+ result = continuation ; result=result + (digit << shift);
+ shift = shift << shift ; result = result+ (digit << shift);
+result = result + (digit << shift) ; continuation = continuation ; shift = - 1 ;
+result = result +  continuation ; shift = digit >>> 1 ;
+ shift = digit >>> shift ; if ( continuation ) {
+ result += VLQSigned(shift);
+ shift = shift + VLQ_Shift(digit << shift);
+result = result + (digit << shift) ; continuation = result | (digit << shift);
+ if (shift > 0) { result ^= result + (digit << shift);
+ shift = digit >>> shift ; while ( continuation ) {
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } }
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; } while ( shift ) ;
+result = result + (digit << shift) ; continuation = continuation ; shift = 0 ;
+result = result + (digit <<  1) + continuation ; continuation =! continuation ;
+ if (result > 0) {
+result = result +  continuation ; shift = digit + shift ;
+ shift = shift + VLQ_BASE_SHIFT ; } else {
+ shift = (shift + VLQ_<< shift);
+ result = result + continuation(shift);
+ shift = shift + VLQ_Shift *(digit << shift);
+ shift = shift >>> 0 ; continuation =
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { continuation = continuation ; break ; } }
+result = result + (digit  & VLQ_BASE_VALUE);
+ shift = shift + VLQ_BASE_SHIFT ; } do {
+ result += (result << shift);
+ continuation = (shift + VLQ_SIZE);
+ shift = shift + VLQ_BASE_shift
+ shift = shift + continuation ; result |+ (digit << shift);
+ if (shift > 0) { result |= result + (digit << shift);
+ if ( continuation)
+ shift = shift >>> 0 ; result = result+ (digit << shift);
+result  <<= shift ; continuation = false ;
+result  <<= shift ; continuation = true ;
+ shift = VLQ_Shift(digit << shift);
+ shift = shift + continuation ; result = decode(digit << shift);
+result = result +  VLQ_BASE_VALUE ;
+ shift = digit >> shift ;
+ result = (result + digit);
+result = result + (digit  & VLQ_BASE_FLAG);
+ shift = shift + continuation ; result <<= shift+ (digit << shift);
+ result = (int)result + (digit << shift);
+result = result +  continuation ; shift = digit >>> shift ;
+ result += (digit >>>shift);
+result = result  || continuation ; shift = shift + - 1 ;
+ shift = shift + VLQ_BASE_IFT;
+ shift = shift + continuation ; result = result |(digit << shift);
+result = result +  continuation ; shift += digit >>> 1 ;
+ shift = shift >>> shift ; result |= result + (digit << shift);
+result = result + (digit  & VLQ_BIT);
+ while (continuation) result |= result + (digit << shift);
+ shift = shift >>> 0 | continuation ;
+result = result + (digit << shift) + continuation ;
+ shift = shift + VLQ_shift;
+ if (shift > 0) result += (digit << shift);
+ if ( continuation);
+ shift = VLQ_Shift + (digit << shift);
+ result = (result | digit<< shift);
+ shift = shift + digit << shift ; result ^= result + (digit << shift);
+result = result  ; continuation =! continuation ;
+ continuation = continuation ; result |= result + (digit << shift);
+result = result + (digit << shift) | c ;
+ shift = shift >>> 0 ; continuation = false ;
+ shift = (shift + VLQ_shift);
+ continuation = continuation ; result ^= result + (digit << shift);
+ shift = shift + (digit << shift);
+ result = result | continuation |= digit;
+ shift = (shift + VLQ_BASE_SHIFT); while (shift > 0) { continuation = true; } }
+ result += (char) (digit<< shift);
+ shift = shift << shift ; result |= result + (digit << shift);
+ shift = shift >>> - 1 ;
+ result = result*+ (digit << shift);
+result = result + (digit << shift) ; continuation = true ;
+ result = (result |= digit<< shift);
+result = result  | continuation ; shift = shift + - 1 ;
+ shift = shift + VLQ_BASE_SHIFT ; if ( continuation ) { int
+ shift = shift + continuation result = result+ (digit << shift);
+ result = result + decode(c);
+ shift = shift + 1 ; result += (digit << shift);
+ result = result + continuation + (digit << shift);
+ shift = digit >>> shift ; continuation = true ;
+ result = decode(c);
+result = result + (digit  & VLQ_BASE_MAX);
+ result += continuation | (digit << shift);
+result = result  << shift ; continuation = false ;
+ result = result + -1;
+ shift = shift + continuation ; result += decode(digit << shift);
+ shift = shift + -1+ (digit << shift);
+ if (shift > 0) { continuation result |= result + (digit << shift);
+ result = result | (<< shift);
+result = result + (digit << shift) ; continuation = digit & 0xff ;
+ shift = shift + continuation ; result = decodeChar(digit << shift);
+ continuation =! continuation ; result |= result + (digit << shift);
+ shift = VLQ_Signed(shift);
+ result = result + continuation + digit;
+ result += digit << shift;
+ shift = shift + continuation ; result = digit;
+ shift = shift + continuation ; result = result*+ (digit << shift);
+ if (result > 0) { result ^= result + (digit << shift);
+ result = result ; continuation = true;
+ result = (result + continuation) << (1<< shift);
+ shift = shift + VLQ_Shift |(digit << shift);
+result = result +  continuation ; shift = digit >>> 0xFF ;
+ shift = shift + continuation ; } result |= result + (digit << shift);
+ shift = shift + digit >>> shift ; result |= result + (digit << shift);
+ result = result | ^(digit << shift);
+ result |= (digit);
+ result = result + continuation * -1;
+result = result + (char) c + digit ;
+ result = (result | VLQ_<< shift);
+ result = result | digit(shift);
+ shift = shift + VLQ_BASE_SHIFT ; while ( continuation ) { int
+ shift = shift + 1 ; result = -result+ (digit << shift);
+ continuation = false;
+result = result + ( continuation? 1 : 0 ) ;
+ continuation = (shift + VLQ_Shift);
+ shift = digit >>> shift ; while ( continuation )
+ continuation =! continuation ; result ^= result + (digit << shift);
+ shift = shift + VLQ_BASE_ ;
+ if (result > 0) { result |= result + (digit << shift);
+ result = (result+shift);
+ shift = VLQ.shift(digit << shift);
+result = result + (digit <<  7) + continuation ;
+result  |= digit << shift ;
+ shift = shift + VLQ_BASE_SHIFT; while (shift > 0) { }
+ result = result << continuation+ (digit << shift);
+ while (continuation) { result = result=result + (digit << shift);
+ while (continuation) { result = (digit << shift);
+ while (continuation result= result + (digit << shift);
+ result = result + continuation << shift;
+result = result + (continuation << 1);
+ result = continuation + -result + (digit << shift);
+ result = (result << shift) | (c<< shift);
+ shift = shift + VLQ_BASE_SIZE
+ result |= digit(shift);
+ result = (result + continuation | 1<< shift);
+ result = (result |= 1<< shift);
+ shift = shift + 1 ; continuation = result |= result + (digit << shift);
+result = result + (digit  >>> 0xFF);
+ result = continuation | (digit << shift);
+ shift = shift + VLQ_BASE_SHIFT; }
+ result = (result << shift) + (c<< shift);
+ result += VLQValue(digit << shift);
+ result = (result + 1<< shift);
+ result = result + (char) digit);
+result = result + (digit << shift) ; continuation = false ;
+result  |= c << shift ;
+result = result + (digit <<  1) + continuation ; continuation = true ;
+ result += continuation ; continuation |= (digit << shift);
+ while (continuation) { result = c.result + (digit << shift);
+result = result +  continuation ; shift = digit ;
+ shift += digit ;
+ while (continuation) { result = result.result + (digit << shift);
+ result = continuation? -result + (digit << shift);
+ result = continuation | -result + (digit << shift);
+ shift = shift ; result = -result+ (digit << shift);
+ shift = VLQ_shift +(digit << shift);
+ result += out.append(digit << shift);
+ result += (char) digit);
+ shift = shift + VLQ_SIZE(digit << shift);
+ result = decode(in);
+ result = (result << shift) | (<< shift);
+result = result + (digit << shift) | c + continuation ;
+ result = (result << shift) + (<< shift);
+result = result + (digit  & 0xFF);
+result = result + (digit  & VLQ_BASE)) ;
+result = result + (digit <<  1) + continuation; shift = 0 ;
+ return (digit << shift);
+result = result + (digit << shift) ; continuation =! continuation ; shift ++ ;
+ result += continuation ; continuation = digit(shift);
+ result = (result + continuation);
+ shift = (shift + -1);
+result = result +  continuation ; } finally {
+result = result + (char) c ; continuation =! continuation ;
+ shift = shift << 1 ; result |+ (digit << shift);
+ shift = (shift + VLQ_BASE_SHIFT) ; *
+ continuation = false; result= result + (digit << shift);
+ result += in.read(digit << shift);
+ if ( continuation ) { result |+ (digit << shift);
+result = result  << shift ; continuation = true ;
+ result = result + continuation + -1;
+ while (continuation) { result = result*result + (digit << shift);
+ shift = shift + -1;
+ shift = shift + VLQ_Signed;
+ result = (result | VLQ1<< shift);
+ result = result | continuation ; result +=(digit << shift);
+ result = result | (continuation);
+ shift += digit >>> shift ;
+ result |= (<< shift);
+ shift = (shift + VLQ_Subshift);
+ shift = shift + 1 ; result = result*+ (digit << shift);
+ result = continuation? result :result + (digit << shift);
+result = result + (char) c ; continuation = true ;
+ result = result + continuation ; while (shift);
+ result += (<< shift);
+ shift = digit >>> VLQ_MAX(shift);
+result = result + (digit << shift) + continuation ; continuation = true ;
+result = result + (VLQ_BASE);
+ result = result + continuation ++;
+ result = c.result + (digit << shift);
+ result += (int) (1<< shift);
+ result |= (continuation<< shift);
+ result += digit << shift+ (digit << shift);
+ result = result + -shift;
+ result = continuation && digit(shift);
+ shift = shift >>> 0 ; continuation.
+result = result + (digit <<  2) + continuation ;
+ shift = digit >>> 0 ; continuation =
+ result = result | continuation ; result =(digit << shift);
+ result = (result + (1<< shift);
+ result = continuation.result + (digit << shift);
+ continuation = continuation ; shift = in.read(shift);
+ result = result + continuation + ' ';
+result = result + (digit << shift) ; continuation = shift ; } finally {
+result = result + (digit << shift) ; continuation =! continuation ; shift -- ;
+ result = (int) -result + (digit << shift);
+result = result + (char) c ; continuation = false ;
+ result = result + digit(shift);
+result = result + (continuation << shift);
+ shift = (shift + VLQ_unshift);
+ result += decode(c);
+result = result + (digit << shift) ; continuation = true ; break ;
+ result += continuation ; continuation = continuation |(digit << shift);
+result  = result | c << shift ;
+ shift = (shift + VLQ_Backshift);
+ shift = shift ; result = result*+ (digit << shift);
+ result += Math.abs(digit << shift);
+ shift = shift + -1;
+result = result + (char) digit ; continuation = true ;
+result =  digit | continuation ;
+ shift = 0;
+ result += (shift);
+result = result + (digit  >>> 0) + continuation ;
+result = result + (digit << shift); continuation = digit!= 0 ;
+ result = result << 7+ (digit << shift);
+result = result + (digit << shift); continuation = digit & 1 ;
+result = result + (char) digit ; continuation = false ;
+ if (shift);
+ result = result << shift;
+result = result + (digit << shift); continuation = digit == 0 ;
+ result += continuation ; continuation =! (digit << shift);
+ result = (result << shift | 1<< shift);
+result = result + (digit << shift) | continuation ;
+result = result + (digit  & VLQ_BASEMask);
+result = result + (digit  >>> 1) + continuation ;
+ result |= digit);
+ result += (byte) (digit << shift);
+ result += (digit);
+ shift = shift + continuation * 2+ (digit << shift);
+ shift = shift + continuation >>> 1 ;
+result = result + (digit <<  1) + continuation; shift = -1 ;
+result = result + (digit << shift) ; continuation = shift + -1 ;
+result = result + (digit  & VLQ_Shift);
+ shift = shift + VLQ_BASE_SHIFT ; } ;
+result = result + (digit  & VLQ_SIGN_BIT);
+result = result + (digit  >>> 0) | continuation ;
+ result += (char) c+ (digit << shift);
+result  <<= digit ;
+result = result + (digit << shift) ; continuation = digit >>>= shift ;
+result = result + (digit << shift) ; continuation =! continuation ; break ;
+ continuation = true;
+result = result + (digit  & VLQ_SIGN);
+ shift = shift >>> 0 ; } finally {
+ result = continuation*result + (digit << shift);
+result = result + (digit <<  1) + continuation + shift ;
+ shift = shift >>> 0 ; continuation ++ ;
+ result = result + (shift + continuation);
+result = result +  continuation ; shift = 0 ;
+ shift = shift ; result = continuation | -result + (digit << shift);
+result = result + (char) c + digit + continuation ;
+result = result + (digit  << 1);
+ shift = (shift + VLQ_BASE_SHIFT + 1));
+ result += continuation + (digit << shift);
+result = result +  continuation ; continuation -- ;
+ result = (result + continuation << 1<< shift);
+ if ( result == 0 ) { continuation = true ; break ; } }
+ result += VLQ.parse(digit << shift);
+result = result + (char) c [ digit ] ;
+ result = result + continuation ^(digit << shift);
+ shift = (shift + continuation << 1);
+result = result +  digit ; continuation = false ;
+ while (continuation) { result = +result + (digit << shift);
+ shift = shift + continuation << shift+ (digit << shift);
+ result = result + (char)shift);
+ result = continuation|result + (digit << shift);
+ return (<< shift);
+ shift = shift ; result += c+ (digit << shift);
+ shift = (shift + continuation + -1);
+ result += (char) (<< shift);
+ result = result + decode(in);
+result = result + (digit << shift) + continuation ; } finally {
+result  = result + continuation * digit ;
+result = result + (digit  & VLQ_VALUE);
+ result = continuation-result + (digit << shift);
+ result = -(digit << shift);
+result = result + (vLQ_BASE);
+ shift = shift(shift);
+ shift = digit >>> shift & 1 ;
+ shift = (shift + 1 | 1<< shift);
+result = result + (digit << shift) ; continue ; } while (continuation) {
+ result += continuation ; continuation = (shift-shift);
+ continuation = (shift + digit >>> 1);
+ result = result | (digit >>>shift);
+result = result + (shift + VLQ_BASE)) ;
+result =  - result ;
+ shift = (shift + continuation) >>> (();
+result = result + (char) c ; shift = digit >>> shift ;
+ shift = digit >>> 0xffff;
+ result += continuation ; continuation = (shift==shift);
+ result = (result + continuation + 1<< shift);
+result = result + (VLQ_BASE64);
+result = result + (char) + digit;
+ shift = digit ;
+ result += VLQ.dec(digit << shift);
+result = result + (digit << shift) ; continuation = continuation ; shift += digit ;
+ result <<= shift+ (digit << shift);
+result = result + (digit  >>> 0) << shift ;
+ if continuation {
+result = result + (digit  >>>= 7) ;
+ shift = (shift + continuation) >>> ();
+ result = continuation || (result==shift);
+ result = (result);
+result = result + (int) digit ;
+ result = ((<< shift);
+result = result + (shift + VLQ_SIZE) ;
+ result += VLQ_SIZE(digit);
+result = result + (VLQ_CONTINUE);
+ shift = -1;
+result =  -1 ;
+result = result + (digit <<  1) + continuation + digit ;
+result  = result + continuation * shift ;
+result =  + result ;
+result = result + (VLQ_Signed);
+ shift += -1;
+result = result + (continuation & 1);
+result = result + (digit  >>> 0) | c ;
+result = result + (char) c + ' ' ;
+ while (continuation )= result + (digit << shift);
+result = result + (char) decode(c);
+result = result + (VLQ_MASK);
+ result = +(digit << shift);
+result = result + (char) (digit);
+result = result + (digit << shift) - continuation ;
+ shift = shift + -shift+ (digit << shift);
+ result = continuation(shift);
+ result = result | continuation ^(digit << shift);
+ result = +result+ (digit << shift);
+result = result + (VLQ_MAX_VALUE);
+result =  result | continuation ;
+result = result + (char)dec(c);
+result = result + (char) c - digit ;
+result = result + (VLQ_SIZE);
+result = result + (continuation * digit);
+ result ^= (digit << shift);
+result = result + (digit << shift) ; continue ; } while (continuation); }
+ shift = digit(shift);
+ continuation = result |= result + (digit << shift);
+ result = (shift);
+ result += -(digit << shift);
+ result = result << shift*+ (digit << shift);
+result = result + (digit << shift) + continuation ; break ;
+ shift = (shift);
+result = result + (char) digit ; continuation =
+ result = result + continuation((shift);
+result = result +  continuation & digit ;
+result = result + (digit <<  (shift)) ;
+result = result + (digit <<  shift) + continuation ; break ; }
+result = result + (char) (char) (digit);
+ result ^= digit;
+ result = digit<< shift);
+result = result + (result << (shift) - 1);
+result = result + (digit << shift)+1;
+result = result + (digit <<  1) + continuation ; break ; }
+ result += continuation ; continuation = (shift>shift);
+ result *= digit;
+ if ( continuation )
+result = result + (digit << shift) | continuation ; break ;
+ result += -result+ (digit << shift);
+result = result + (digit  & VLQ_MASK));
+ result = digit((shift);
+result = result + (VLQ) digit);
+result  = result + continuation ; break ; }
+ result += decodeChar(digit << shift);
+result  <<= shift ; continuation =! continuation ; }
+result = result + (vLQ_SIZE);
+result = result + (digit <<  7) ;
+ shift = shift >>> 0 ; break ; }
+ shift = digit >>> shift ; }
+ result <<+ (digit << shift);
+ shift = shift ; while ( continuation ) ;
+ break; result ^= result + (digit << shift);
+ result = decode(digit << shift);
+result = result  ^ digit ;
+ result = 1<< shift);
+result = result + (digit  >>> 0xFF));
+result = result + (VLQ_SIGNED);
+ while (true);
+result = result  ++ ;
+result  += digit
+result = result + (digit  >>> 1);
+result = result + (shift + VLQ_BASE) *
+result = result + (digit << shift) | continuation ; break ; }
+ shift = shift + digit >>> shift ; }
+ result += charAt(digit << shift);
+ shift = shift + digit >>> shift ; *
+ continuation = result ^= result + (digit << shift);
+ shift = shift >>> 0 ; continue ; }
+ break; result |= result + (digit << shift);
+result = result + (character);
+ continuation = false);
+ shift = digit >>> shift ; *
+result =  result + continuation ; shift = digit ; }
+ result = c |= result + (digit << shift);
+ return digit<< shift);
+result = result + (result << shift);
+result = result +  continuation ; shift = shift + 1 ; }
+result = result +  continuation ; shift += digit >>> 0 ; }
+ result |= ((digit << shift);
+result = result + (shift << 1);
+result = result + (digit <<  2) ;
+result = result + (digit  & VLQ_BIT));
+result = result + (digit ) continuation ;
+result  = digit
+ shift = digit ; }
+ int result=result + (digit << shift);
+ break; }
+result = result +  continuation ; continuation = false ; }
+ shift = digit >>> 0xffff();
+ shift = digit >>> 0 ; continue ; }
+result = result +  + digit ;
+result = result + (char) ;
+ result ^+ (digit << shift);
+ while (!shift);
+result = result + (shift);
+ if (!shift);
+ while (digit << shift);
+result =  result + continuation ; continue ; }
+ if (digit << shift);
+result = result + (digit  & 0xFF));
+ (1<< shift);
+result  |=
+result = result  | ;
+result  += digit >>> shift ; }
+result = result + (char) digit ; shift = continuation ; }
+ result = ^result + (digit << shift);
+ result = ++result + (digit << shift);
+result = result + (shift + VLQ_SIZE); *
+ result == result + (digit << shift);
+ result *+ (digit << shift);
+result  += ;
+ result += ((digit << shift);
+result = result + (digit <<  1) + continuation ; *
+result = result  | c
+result  |= digit ; }
+result = result + (digit <<  shift));
+ result *= result + (digit << shift);
+result = result + (digit << shift); continuation =
+ result += digit+ (digit << shift);
+result = result + (digit << shift); continuation ;
+ result = c+ (digit << shift);
+result = result + (digit <<  1) + continuation; int
+result =  result + continuation ; }
+ continue; }
+ while ()
+result =  result + continuation ; *
+ + (digit << shift);
+result = result  + digit
+ result = 0;
+result =  result | continuation ; }
+ char result |= result + (digit << shift);
+result = result + (digit <<  shift) + continuation; *
+ return ((<< shift);
+ ++ result;
+result = result + (digit << shift) | continuation ; }
+result  = c ;
+result = result  | shift
+result = result + (digit << shift) | continuation ; *
+ result += result+ (digit << shift);
+ } result ^= result + (digit << shift);
+result = result + (digit <<  shift) ; *
+ result += c+ (digit << shift);
+ return 1<< shift);
+result = result + (digit >> shift);
+ do {
+result = result + (digit <<  1) ; *
+ while continuation);
+result = result + (char) digit ; *
+ if continuation then
+result = result + (char) digit; int
+ ++result);
+ break;
+result = result + (digit <<  7) ; *
+ } result |= result + (digit << shift);
+result = result + (digit  << shift) *
+result = result + (digit  << shift) |
+ result = result;
+ result |(digit << shift);
+result = result +  shift ;
+result = result + (digit << shift) + continuation ; }
+result = result +  1 ;
+ ++shift);
+result = result + (char) c
+ switchshift);
+ char result ^= result + (digit << shift);
+result = result + (digit) *
+result = result + (digit << shift) ++;
+ return result;
+result = result + (digit << shift) 1;
+ } result *= result + (digit << shift);
+ # shift;
+result = result +  carry ;
+result = result + (digit )) ;
+ result ^(digit << shift);
+result = result + (contin continuation);
+result = result + (digit )+;
+ result.result + (digit << shift);
+ result_result + (digit << shift);
+result = result + (c);
+ result ++result + (digit << shift);
+result = result ^ (digit << shift);
+result = result + (char continuation);
+result = result + (char digit);
+ break();
+ } {
+result = result + (continuity);
+ Result |= result + (digit << shift);
+ }
+ *
+result = result + (digit * shift);
+result = result + (digit & shift);
+result = result += (digit << shift);
+result = result = (digit << shift);
+result << result + (digit << shift);
+result -= result + (digit << shift);

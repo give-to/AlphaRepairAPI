@@ -1,0 +1,260 @@
+ return offset;
+ return offset
+ return -offset;
+ return sum-offset;
+ return sum + instant-offset;
+ return instant + offset;
+return offset ; }
+ return - 1;
+ return sum ;
+return offset + sum ;
+ sum += instant - offset ;
+ sum -= offset ;
+ sum += instant + offset ;
+ else if ((instant ^ offset) >= 0) { throw new ArithmeticException("Adding time zone offset caused overflow"); }
+ sum += offset ;
+ return sum - instant + offset;
+ return - sum-offset;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new ArithmeticException(); }
+ else if ((instant ^ offset) >= 0) { throw new ArithmeticException("Adding time zone offset caused overflow");
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { throw new ArithmeticException(); }
+ sum -= instant + offset ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) { throw new ArithmeticException(); }
+ return instant + sum;
+ else if ((instant ^ offset) > 0) { throw new ArithmeticException("Adding time zone offset caused overflow"); } else {
+ else if ((instant ^ offset) >= 0) { throw new ArithmeticException("Adding time zone offset caused overflow"); } else {
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) {
+ else if ((instant ^ offset) >= 0 && (instant ^ offset) < 0) {
+ return instant + sum ; }
+ else if ((instant ^ sum) > 0 && (instant ^ offset) < 0) { return sum ; }
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) {
+ sum += delta ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) { return sum ; }
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) {
+ return sum + offset ;
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { return sum ; }
+return offset + sum ; }
+ else if ((instant ^ offset) >= 0 && (instant ^ offset) >= 0) {
+ sum -= offset ; }
+ else if ((instant ^ sum) > 0 && (instant ^ offset) < 0) { throw new overflow"); }
+ else if ((instant ^ offset) >= 0) { throw new ArithmeticException("Adding time zone offset caused overflow"); } }
+ return sum + instant + offset;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new overflow"); }
+ return sum - instant-offset;
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { throw new ArithmeticException("Adding");
+ return instant + sum + offset ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) < 0) { throw new IllegalStateException();
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new ArithmeticException("Invalid");
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new ArithmeticException("Adding");
+return offset - sum ; } return offset ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) { throw new overflow"); }
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { throw new overflow"); }
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { throw new IllegalStateException();
+return  offset ; } return instant + sum + offset ;
+ return instant + sum - offset ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new IllegalStateException();
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) { throw new IllegalStateException();
+ return instant - sum + offset ;
+ if ( (instant ^ offset) >= 0 && (instant ^ offset) < 0)
+ if ( (instant ^ offset) < 0 && (instant ^ offset) >= 0)
+ else if ((instant ^ offset) >= 0 && (instant ^ offset) < 0) { sum += offset ;
+return offset + sum + diff ;
+ return (int) sum;
+ if ( (instant ^ sum) < 0 && (instant ^ offset) >= 0)
+return  offset ; } return instant - sum + offset ;
+return  offset - sum ; } return offset + diff ;
+ sum += delta ; }
+ sum += instant ^ offset ;
+ if ( (instant ^ sum) > 0 && (instant ^ offset) < 0)
+return  offset ; } return instant + sum - offset ;
+ if ( (instant ^ sum) < 0 && (instant ^ offset) < 0)
+ else if ((instant ^ offset) >= 0 && (instant ^ offset) < 0) { return sum ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new ArithmeticException("Invalid";
+ return sum ; }
+ else if ((instant ^ sum) > 0 && (instant ^ offset) >= 0) { return sum ;
+return offset ; } return instant ;
+return offset + sum - offset ;
+ } private int addOffset(long instant) {
+return offset + sum ; } return offset ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { return sum ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) < 0) { return sum ;
+ else if ((instant ^ sum) >= 0 && (instant ^ offset) >= 0) { return sum ;
+ else if ((instant ^ sum) > 0 && (instant ^ offset) > 0) { throw new OverflowException(); } }
+ if ( (instant ^ sum) < 0 && (instant ^ offset) >= 0) { }
+ return sum + offset ; }
+ return instant - sum ; }
+ if ( (instant ^ offset) < 0 && (instant ^ offset) >= 0) { }
+ return offset ; } else { return instant + offset;
+ if ( sum < 0 ) { throw new ArithmeticException("Invalid offset"); }
+ return sum + delta + instant-offset;
+ if ( iTimeField ) { return instant + offset ; }
+return  offset + sum ; } return offset + diff ;
+ return sum + (int)offset;
+ if ( (instant ^ sum) > 0 && (instant ^ offset) < 0) { }
+ sum += offset ; }
+ sum -= instant - offset ;
+ return instant + offset ; }
+ if ( (instant ^ offset) >= 0 && (instant ^ offset) < 0) { }
+return  offset + sum - instant + offset ;
+ return sum + (long)offset;
+return offset - sum ;
+ return offset ; } else { return - 1;
+ return instant + - offset;
+return  offset - sum ; } return offset ; }
+ if ( sum < 0 ) { throw new ArithmeticException("Adding offset"); }
+ else if (instant ^ offset) >= 0 {
+ if ( sum < 0 ) { throw new ArithmeticException ( sum ) }
+return  offset + sum ; } return instant ;
+ } private int getOffsetFromLocal(offset){
+ } private int getOffsetFromLocal(long offset){
+ if (! iTimeField ) { return instant + offset ; }
+ if ( iTimeField ) { return instant + sum ; }
+return offset - sum + diff ;
+ } private int getOffsetFromLocal(long) {
+ else if (instant ^ offset >= 0)
+ else { offset = instant + offset ; } if ( offset < 0 ) return 0 ;
+ return sum + sum + instant-offset;
+ if (! iTimeField ) return offset ; if (! iTimeZone )
+ if ( iTimeField ) { return instant + sum + offset ; }
+return offset - sum ; } return instant + offset ; }
+ return offset ; } else { return 0;
+ return offset ; } return sum + instant-offset;
+ if ( sum < 0 ) { throw new ArithmeticException("Invalid offset");
+ if ( (instant ^ sum) < 0 && (instant ^ offset) >= 0) { } }
+ return offset ; } return - 1;
+ return sum + instant + -offset;
+ else if (! iTimeField ) { throw new ArithmeticException ( ) ; }
+ return offset ; } return sum - instant + offset;
+return offset - sum ; }
+ if ( iTimeField ) { return instant + offset ; } else {
+return  offset ; } return instant + sum ; }
+ if ( iTimeField ) { return instant + sum ; } else {
+ if ( iTimeField ) { instant += offset ; }
+return  offset + sum - instant - offset ;
+ if ( iTimeField ) { instant += sum ; }
+ if ( sum < 0 ) { throw new ArithmeticException("Invalid instant"); }
+ if ( sum < 0 ) { throw new ArithmeticException("Unknown offset"); }
+ if ( iTimeField ) { return instant - sum ; } else {
+ return offset ; } else { return instant;
+return offset ; } return instant + sum * - 1 ;
+ if (! iTimeField ) { instant += sum ; }
+ if ( (instant ^ offset) < 0 && (instant ^ sum) >= 0 ) { } }
+return  offset + sum ; } return offset ; }
+ } private int addOffset(long) {
+ return sum + - offset;
+ if ( (instant ^ sum) > 0 && (instant ^ offset) < 0) { } }
+ if ( iTimeField ) { return instant - sum ; }
+ if (! iTimeField ) { return instant + offset ; } else {
+ } private int getOffsetFromLocal(offset);
+ return (int)offset;
+ if (! iTimeField ) { instant += offset ; }
+ if ( sum < 0 ) { throw new ArithmeticException("Adding"); }
+ } private int addOffset(long offset) {
+return offset ; } return instant ; }
+ } private int getOffsetFromLocal(int offset){
+ return offset ; } return instant + offset;
+return offset + sum * diff ;
+ return offset - sum ; } return - 1;
+ if (! iTimeField ) return offset ; if (! iTimeZone ) {
+ return sum + instant + delta-offset;
+ if ( iTimeField ) { return instant + offset ; } else
+return offset + sum ; } return instant + offset ; }
+ if (! iTimeField ) { return instant + sum ; }
+ if ( iTimeField ) { return instant - sum ; } else
+ } private int getOffset(long) {
+return  offset ; } return instant - sum ; }
+ if ( iTimeField? offset : - offset ) {
+ if (! (instant ^ offset) < 0 && (instant ^ sum) {
+ if ( iTimeField ) { return instant + sum ; } else
+return offset ; } return instant + sum + offset ; }
+ if (! iTimeField ) return offset ; if (! iOffsetField ) {
+return  offset ; } return instant + offset ; }
+ if ( sum < offset ) { return offset ; } if ( sum ) {
+ return offset ; } return instant - - 1;
+ if (! (instant ^ offset) < 0 && (instant ^ sum)) {
+ return offset + sum - - 1;
+ return offset - sum + - 1;
+ return (long)offset;
+ sum += instant - offset ; }
+ return sum - instant + (int)offset;
+ else { offset = instant + offset ; } if ( offset < 0 ) return offset ;
+ if (! (instant ^ offset) < 0 && (instant ^ sum) )
+ if ( iTimeField ) { return instant + offset ;
+ return instant - - offset;
+ return sum - instant + delta-offset;
+ return offset - sum + - diff;
+ return offset + sum + - 1;
+ return offset ; } return instant + - 1;
+ if (! iTimeField ) { instant += offset ;
+ return sum + instant - delta-offset;
+return offset - sum ; } return offset + delta ; }
+ return sum + instant + instant-offset;
+ return offset ; } return instant - - sum;
+ return offset ; } else { return instant + -offset;
+return offset - sum ; return offset ;
+ else { offset = instant + offset ; } if ( offset < 0 ) { return 0 }
+ else { offset = instant + offset ; } if ( offset < 0 || offset > sum )
+ return offset ; } return sum - instant-offset;
+ return instant - offset;
+ if (! iTimeField ) { return instant + offset ; } else
+return offset + sum - offset ; }
+ if ( sum == instant + offset ) {
+ return offset ; } return instant - sum + -offset;
+ return offset ; } return sum + instant+offset;
+ return offset ; } else { return -sum-offset;
+return offset - sum ; return 0 ;
+ } private int addOffset(offset){
+return offset + diff ;
+ } private int addOffset(long offset)
+ sum = instant ;
+ sum -= instant + offset ; }
+ return sum - instant + instant-offset;
+ sum += instant ;
+ return (sum)+offset;
+ return sum - instant - instant ^offset;
+ sum += instant + offset ; }
+ return offset ; } else { return -sum+offset;
+return offset - sum ; return instant ;
+ return instant - sum;
+ sum -= instant - offset ; }
+ sum += instant - offset + delta ;
+ sum += instant - offset - sum ;
+ return offset ; } else { return instant - -offset;
+ sum += diff ; }
+return offset + - sum ;
+ } private int addOffset(offset);
+ } private int addOffset(offset)
+ sum = instant + offset ; }
+ sum += instant ; }
+ else {
+ }
+ return ;
+ return +offset;
+return offset + amount ; }
+return offset + - diff ;
+ return sum ;
+ return - delta;
+ } return offset;
+ return sum*offset;
+ ++ sum ;
+ sum ++ ;
+ ++ offset ;
+ return 0 ;
+ return ++offset;
+ else { }
+ return 0
+ return --offset;
+ }
+ return "+offset;
+ return sum
+ } else
+ } }
+ return instant
+ else
+ return delta;
+ return index;
+ return
+return offset ; };
+ return -
+return offset + sum
+ return

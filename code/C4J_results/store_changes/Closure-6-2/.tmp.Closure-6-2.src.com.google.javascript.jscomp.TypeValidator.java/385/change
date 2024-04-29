@@ -1,0 +1,244 @@
+ return false;
+ else { return false;
+ else {
+ else { if (!rightType.canAssignTo(leftType)) {
+ else { if (!rightType.canAssignTo(leftType))
+ else { if (!rightType.canAssignTo(leftType)) { registerMismatch(null);
+ else { registerMismatch(t, n, "assignment to property " + propName); }
+return  false; } return false ;
+ else { registerMismatch(t, n, "assignment to property " + propName);
+return  false; } else { return false ;
+ else { if (rightType.canAssignTo(leftType))
+return  false; } } return false ;
+ else { if (!rightType.canAssignTo(owner))
+ else { if (rightType.canAssignTo(leftType)) { registerMismatch(null);
+ } else { return false ;
+ else { registerMismatch(rightType, rightType, leftType, null); } } else {
+ } else { if (!rightType.canAssignTo(leftType)) {
+ if (rightType.canAssignTo(leftType)) {
+ if (rightType.canAssignTo(leftType))
+ else { if (!rightType.canAssignTo(rightType)) { registerMismatch(null);
+ else { error(t, n, propName;
+ else { error(t, n, msg;
+ else { if (rightType.canAssignTo(leftType)) {
+ } else {
+ } else { if (!rightType.canAssignTo(leftType))
+ else { registerMismatch(rightType, leftType, null); } } } else {
+ else { if (rightType.canAssignTo(owner))
+ else { registerMismatch(t, n, "assignment to " + propName, null);
+ else { registerMismatch(rightType, leftType, null); } } } } else {
+ else { registerMismatch(t, n, "assignment to " + propName); }
+ else { error(t, n, msg,false;
+ else { if (rightType.canAssignTo(rightType)) { registerMismatch(null);
+ else { if (rightType.canAssignTo(leftType)) { registerMismatch(n);
+ else { if (!rightType.canAssignTo() {
+ else { if (leftType.canAssignTo(owner))
+ else { if (rightType == null) {
+ else { error(t, n); returnfalse;
+return  false ; } }
+ else { if (leftType == null) {
+ else { registerMismatch(owner, null;
+ else { if (rightType == leftType) {
+return  false; } } else { return false ;
+ else { if (!rightType.canAssignTo(leftType)) { return false; }
+ else { if (rightType.canAssign(leftType))
+ } return false ;
+ else { if (rightType.isNoType()) {
+ else { return false ; }
+ else { if (leftType.isNoType()) {
+ else { if (!rightType.canAssignTo(leftType)) { } }
+ else { if (rightType.isNoType())) {
+ else { if (!rightType.isNoType() && leftType.isNoType())
+ else { registerMismatch(rightType, rightType, leftType, null); } }
+ else { if (leftType.isNoType())
+ else { return false; } } else { if (rightType.canAssignTo(leftType) ) {
+return  false ; } return true ;
+ else { if (!rightType.canAssignTo(leftType)) return false;
+ else { if (!rightType.canAssignTo(leftType)) return true;
+ else { if (rightType.isNoType() && leftType.isNoType())
+ else { if (rightType.isNoType())
+ } else { if (rightType == null) {
+ else { registerMismatch(rightType, leftType, null); } } } } } }
+ else { if (!rightType.canAssignTo(leftType)) { return false;
+return  false ; } } }
+ else { if (!rightType.canAssignTo())
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of unknown type.");
+ else { if (!rightType.canAssignTo(rightType))
+ else { if (!rightType.canAssignTo(rightType)) { } }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " ) ;
+ else { registerMismatch(rightType, leftType, null); } } } } }
+ else { if (!rightType.canAssignTo(rightType)) {
+ else { registerMismatch(rightType, leftType, null); } } } } } } }
+ else { throw new RuntimeException ( "Unable to determine type of property " + propName + "." ) ;
+ else { if (rightType.canAssignTo(leftType) {
+ else { if (!leftType.canAssignTo(rightType)) { } }
+ else { if (rightType == leftType)
+ else { error(t, n, msg);
+return  false; } } } return false ;
+ else { if (!rightType.canAssignTo(leftType)) { }
+ else { return false ; } } else { if (rightType.canAssignTo(leftType) == false)
+ else { if (!rightType.canAssignTo(leftType)
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of unknown type" )
+ else { if (!rightType.canAssignTo(leftType)) { } } }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of owner.");
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of type " ) ;
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + owner, owner ) ;
+ else { return false ; } }
+ else { if (leftType == rightType)
+ else { throw new IllegalArgumentException ( "Unable to assign to property " + propName + " of " + ownerType ) ;
+ else { return false; } } else { if (rightType.isNoType() && leftType.isNoType())
+ else { if (!rightType.canAssignTo(leftType)) { return false }
+ else { return false; } } else { if (rightType.isNoType()) { registerMismatch(null);
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + ownerType ) ;
+ else { error(t, n,false;
+ else { registerMismatch(t, n, "assignment to property " + propName");
+ else { throw new IllegalArgumentException ( "Unable to assign to property " + propName + " of " + owner ) ; }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + owner ) ; }
+ catch (Exception e) {
+return  false; } return false ; }
+ else { throw new RuntimeException();
+ } }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + ownerType ) ; }
+return false; } else { error(t, n);
+ else { if (!rightType.canAssignTo(rightType)) { }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + owner ) ; } }
+return  false ; } } ) ;
+ else { registerMismatch(null, null;
+return  false ; } } return true ;
+return  false; } } return false ; }
+ else { return false; } } else { if (rightType.isNoType() && leftType.isType() {
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of unknown type." )
+ else { error(t, n, msg),false;
+return  false; } else { return false ; }
+ else { error(t, n, msg)false;
+ else { throw new IllegalArgumentException ( "Unable to assign to property " + propName + " of " + ownerType); }
+ else { if (owner == null) { returnfalse;
+ else { error(t, n );
+ else { registerMismatch(rightType, leftType, null); } } } } else
+ else { if (ownerType == null) returnfalse;
+ } else { return false ; }
+ } } else {
+ else { registerMismatch(null;
+return  false; } else { return false ; } }
+ }
+ else { registerMismatch(ownerType;
+return false; } else { return false ; } } }
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of " + owner, owner); }
+return false; } else { registerMismatch ( )
+ else { throw new RuntimeException ( "Unable to assign to property " + propName + " of type " + owner); }
+ else { if (owner == null) {
+ else { register ( owner ) ;
+ else { if (leftType.isInterface() )
+return  false; } } else { return false ; }
+ else { registerMismatch(owner);;
+ else { throw new IllegalArgumentException ( "Unable to assign to property " + propName + " of type " + owner); }
+ else { registerMismatch(n);
+ else { error(t, n;
+ else { if (rightType.isInterface() )
+ else { if (!owner == null) returnfalse;
+ } } if (! matched ) {
+ else { if (ownerType == null)
+ else { registerMismatch(null));
+ } if (! matched ) {
+ else { return false ; } return true;
+ else { if (!owner!= null) returnfalse;
+return false; } } else { return false ; } }
+ else { if (!owner.isInterface())
+ else { if (!owner) { returnfalse;
+return  false; } else {
+ } } if (! ok ) {
+ else { error(t, propName;
+ catch (Exception e)
+return  false ; }
+ else { } return false;
+ else { error(t, n) returnfalse;
+return false; } else { registerMismatch ( ;
+ } if (! ok ) {
+ } } if (! match ) {
+ } } } else {
+ } } else { return false;
+ } } } }
+ else { error(t, n),false;
+ else { if (ownerType == owner)
+ } return false ; } }
+ else { if (!owner) returnfalse;
+ } } } } else {
+return  true ; } } }
+ } } } } } } } } }
+ } } } } }
+ } } } } } else {
+ else { error(t); returnfalse;
+ else { throw "Unknown type.";
+ } return false ; }
+ else { error(t, n)false;
+return  true ; } }
+ }
+ } } } } } } } }
+ else { throw "Unknown type";
+ } } }
+ else { throw "Unknown type!";
+ else { return true ;
+ else { return false; };
+ } } } } } } }
+ else { return false.0;
+ else { return false; break;
+ else { return - 1;
+ else { } }
+ else { error(t, n);false;
+ else { return false ; } break;
+ else { return false, null;
+ } } } } } }
+ else returnfalse;
+return false; } ) ;
+ } } } } }
+ } else { return true;
+ else { return false; } returnfalse;
+ else { } else { returnfalse;
+ } } } }
+ } } } } } } } else
+ catch (Exception e) {}
+ } } } } } } else
+ else { return false.false;
+ } } return false;
+ } else { return false,false;
+ } else { return false.false;
+ else { return false,false;
+ } } } } } else
+return  true ; }
+ } } } else { returnfalse;
+ return true ;
+ } else {
+ } else { return false=false;
+ else { } } }
+ else { return false=false;
+return  false ; default :
+ else { return true=false;
+ } } }
+ default : { returnfalse;
+ } return true;
+ else { } }
+ } else returnfalse;
+ } } } else
+ } }
+ else { throw e;
+ } else { #false;
+ } } break;
+ else { #false;
+ else {
+return false ; break ;
+return false ; } ;
+ else { } elsefalse;
+ } } else
+ else { assertfalse;
+return  null ; }
+ } else
+ return ;
+ } else,
+ } break;
+ } elsefalse;
+ throw e;
+ return false
+return  null ;
+ else,
+ else
+return false. }

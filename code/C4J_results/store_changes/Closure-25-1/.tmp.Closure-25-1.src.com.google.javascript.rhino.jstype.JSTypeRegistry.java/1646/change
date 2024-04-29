@@ -1,0 +1,311 @@
+ fieldType= createFromTypeNodesInternal(
+ builder.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n,
+ fieldType = JSType.createFromTypeNodesInternal(
+ fieldType = getNativeType(JSTypeNative.TYPE,
+ fieldType = getType(
+ fieldType = getDeclaredType(
+fieldType = createFromTypeNodesInternal(n, fieldName,
+ fieldType = JSTypeNative.createFromTypeNodesInternal(
+ fieldType = getNativeType(JSType.TYPE,
+ fieldType = getNativeType(
+fieldType = createFromTypeNodesInternal(n.getFirstChild(),
+fieldType = createFromTypeNodesInternal(fieldName,
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); } else {
+ FieldType = getNativeType(JSTypeNative.TYPE,
+ fieldType = getType ( fieldName,
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope);
+ fieldType = getFieldType(
+ if (fieldTypeNode!= null) {
+ FieldType fieldType = JSType.createFromTypeNodesInternal(
+ fieldType = type(
+ fieldType = _createFromTypeNodesInternal(
+ fieldType = getNativeType ( JSTypeNative.RECORD_TYPE ) ; } else {
+ fieldType = getNativeType(JSType.ANY,
+ if (fieldTypeNode!= null)
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName);
+ fieldType = builder.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n, fieldTypeNode,
+ fieldType = getNativeType(fieldNameNode,
+ fieldType = getNativeType(fieldName,
+fieldType = createFromTypeNodesInternal(n, fieldNameNode,
+ fieldType = getFieldType(fieldName,
+ fieldType = FieldType.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n.getFirstChild(), fieldName,
+ fieldType = super.createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); else {
+ fieldType = getNativeType(JSTypeNative.ANY,
+ FieldType fieldType = JSTypeNative.createFromTypeNodesInternal(
+ fieldType.createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (hasType)
+ FieldType = getNativeType(JSType.TYPE,
+ fieldType = get(
+ fieldType = getType ( fieldNameNode,
+ fieldType = getType(n,
+ fieldType = getNativeType(JSTypeNative.TYPE(),
+fieldType = createFromTypeNodesInternal(n.getFirstChild(n),
+ fieldType = getNativeType(JSTypeNative,
+ fieldType = getNativeType(JSTypeNative)
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope)); } else {
+ fieldType = getFieldType(fieldNameNode,
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); } else
+ if (fieldType!= null)
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE);
+ fieldType = getFieldType(n,
+fieldType = createFromTypeNodesInternal(fieldNameNode,
+fieldType = createFromTypeNodesInternal(n.getFirstChild(fieldName),
+ fieldType = getNativeType(JSTypeNative.
+ fieldType = getDeclaredFieldType(
+ fieldType = this.createFromTypeNodesInternal(
+ FieldType fieldType = FieldType.createFromTypeNodesInternal(
+ fieldType = getJSTypeFromNode(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild, scope );
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if ( fieldTypeNode )
+fieldType = createFromTypeNodesInternal(fieldTypeNode,
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (scope)
+ fieldType = (JSType)createFromTypeNodesInternal(
+fieldType  = (
+ fieldType = getFieldTypeFromNode(
+ fieldType = getNativeType(FieldTypeNative)
+fieldType = createFromTypeNodesInternal(n.getFirstChild,
+ fieldType = getNativeType(TypeNative.createFromTypeNodesInternal(
+ fieldType = getTypeForFieldName(
+ fieldType = getNativeType(JSType.CLASS,
+ fieldType = getFieldTypeFromNodes(
+ If (fieldTypeNode!= null) {
+fieldType = createFromTypeNodesInternal(n, n.getFirstChild(),
+ fieldType = createFromTypeNodesInternal( fieldName, scope); } else {
+ fieldType = createType(
+ fieldType = getRawType(
+ fieldType = getNativeType(JSType.TYPE(),
+ fieldType = (JSType) super.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n, fieldTypeNode, fieldName,
+ if ( fieldTypeNode!= null && fieldTypeNode!= scope ) {
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope, hasType);
+ FieldType type = JSType.createFromTypeNodesInternal(
+ fieldType = getNativeType(FieldType.createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope); else
+ if ( fieldTypeNode!= null && fieldTypeNode. hasType ) {
+ if ( fieldTypeNode. isType ( ) ) {
+ fieldType = getNativeType(FieldType,
+ fieldType = getNativeType(FieldTypeNative,
+ fieldType = getNativeType(JSTypeNative.TYPE);
+ fieldType = getTypeFromNode(
+ If (fieldTypeNode!= null)
+ fieldType = getTypeFromFieldTypeNode(
+ fieldType = getNativeType(fieldTypeNode,
+ if ( fieldTypeNode instanceof Type ) {
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName), scope);
+ fieldType = type.createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); } else { } else {
+ fieldType = (JSTypeNative)createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if ( fieldNameNode )
+ if ( fieldTypeNode!= null && fieldType!= null ) {
+ fieldType = create(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope));
+ if ( fieldTypeNode instanceof JSType ) {
+ fieldType = getDeclaredNativeType(
+fieldType = createFromTypeNodesInternal(n, builder,
+fieldType = createFromTypeNodesInternal(n.getTypeNodes(),
+fieldType = createFromTypeNodesInternal(n.getFirstChildNode(),
+fieldType = createFromTypeNodesInternal(n, fieldTypeNode.getParent(),
+ fieldType = TypeNative.createFromTypeNodesInternal(
+ if ( fieldTypeNode!= null ) { if ( hasType ) {
+fieldType = createFromTypeNodesInternal(n.getFirstChild(0),
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope)); } else
+ if ( fieldTypeNode instanceof TypeNode ) {
+ fieldType = getTypeFromNodes(
+ fieldType = getJSTypeType(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope).
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName); else
+fieldType = createFromTypeNodesInternal(n, fieldNameNode, fieldName,
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (hasType).
+ if ( fieldTypeNode. hasLastChild ) {
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (hasField)
+ if ( fieldTypeNode instanceof JSTypeNative ) {
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope, hasType); else
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); } else { } else
+fieldType = createFromTypeNodesInternal(n, fieldName, fieldType,
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if ( fieldType ) {
+ fieldType = getTypeFactory ( ).createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (hasType),
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE); else {
+ if ( fieldTypeNode. getType ( ) == Token.TYPE )
+ fieldType = getTypeOfDeclaredField(
+ If (fieldType!= null)
+ fieldType = getNativeType(Native).createFromTypeNodesInternal(
+ fieldType = parse(
+ FieldType fieldType = (FieldType) _createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName));
+fieldType =  getNativeType(JSType.Type,
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName());
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope); otherwise
+ if ( fieldTypeNode. isTypeNode ( ) ) {
+ if (fieldType == null)
+ fieldType = getJSTypeForNode(
+ FieldType fieldType = builder.createFromTypeNodesInternal(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope); or
+ fieldType = getTypeFromJSTypeNative(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (scope).
+ FieldType fieldType = super.createFromTypeNodesInternal(
+ fieldType = getNativeType ( ).createFromTypeNodesInternal(
+ if ( fieldTypeNode!= null && fieldTypeNode!= scope )
+ if ( fieldTypeNode instanceof Node ) {
+ FieldType = getNativeType(
+ fieldType = RecordType.createFromTypeNodesInternal(
+ fieldType = getType ( ).createFromTypeNodesInternal(
+ if ( fieldTypeNode ) {
+ FieldType fieldType = this.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n.getType ( ),
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (scope),
+fieldType = createFromTypeNodesInternal(FieldType)
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild(), sourceName, scope); if (scope))
+fieldType = createFromTypeNodesInternal(n, fieldType,
+ FieldType type = FieldType.createFromTypeNodesInternal(
+fieldType  = new
+ fieldType = getNativeType ( JSTypeNative.RECORD ) ;
+ if (typeNode!= null) {
+ fieldType = getTypeFromJSTypeNode(
+ fieldType = getFieldTypeNative(
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName); otherwise
+ if (fieldTypeNode)
+ fieldType = createFromTypeNodesInternal( fieldName, scope); else {
+fieldType = createFromTypeNodesInternal(FieldType,
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE); } else
+ fieldType = parseType(
+fieldType = createFromTypeNodesInternal(n.getParent(),
+ if ( fieldTypeNode. isType ( ) == true )
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName) or
+ fieldType = getNativeType(JSONType.ANY,
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName, scope) or
+ FieldType = getDeclaredType(
+ fieldType = getNativeType(new FieldType(
+fieldType = createFromTypeNodesInternal(n.getLastChild(),
+ fieldType = createFromTypeNodesInternal(fieldTypeNode.getFirstChild(), sourceName) +
+ fieldType = fieldType.createFromTypeNodesInternal(
+ fieldType = getTypeFor(
+ fieldType = getFieldTypeFromFieldTypeNode(
+ fieldType = createFieldType(
+ fieldType = buildDeclaredType(
+ fieldType = Type.createFromTypeNodesInternal(
+ fieldType = getNativeType(JSTypeNative:
+ fieldType = getFieldTypeFromFieldNameNode(
+fieldType = createFromTypeNodesInternal(node, fieldName,
+ fieldType = new Type(
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE));
+ if ( fieldTypeNode. getType ( ) == Token.TYPE))
+ fieldType = getTypeOf(
+ fieldType = createFromTypeNodesInternal( fieldName, scope); } else
+ fieldType = createFromTypeNodesInternal( fieldName, scope); } else,
+ fieldType = TypeBuilder.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(fieldType,
+ if (hasType) {
+ FieldType.create(
+ if (fieldType) fieldType= createFromTypeNodesInternal(
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE());
+fieldType = createFromTypeNodesInternal(FieldTypeNative,
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE); else
+ if (scope) { fieldType= createFromTypeNodesInternal(
+ fieldType = getNativeType(JSTypeNative.RECORD_TYPE); else,
+ getType(
+ fieldType = getNativeType(JSTypeNative.RECORD); else
+ if (scope) {
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild()); else
+ If (fieldTypeNode)
+ If (fieldTypeNode) fieldType= createFromTypeNodesInternal(
+ if (type!= null)
+ fieldType = getNativeType(JSTypeNative.TYPE));
+ fieldType = resolveType(
+ fieldType = createFromTypeNodesInternal( fieldTypeNode.getFirstChild); else
+ if (hasType)
+ fieldType = getNativeType(JSTypeNative.RECORD); }
+ JSTypeNative
+fieldType = createFromTypeNodesInternal(FieldTypeNative)
+ fieldType = resolve(
+ if (scope)
+ JSTypeNative.fieldType= createFromTypeNodesInternal(
+ JSTypeNative typeFieldType= createFromTypeNodesInternal(
+ If (fieldType) { fieldType= createFromTypeNodesInternal(
+ type = builder.createFromTypeNodesInternal(
+ if (fieldType) {
+ JSTypeType fieldType= createFromTypeNodesInternal(
+ The field type is the type. fieldType= createFromTypeNodesInternal(
+ This type. fieldType= createFromTypeNodesInternal(
+ The type of the field is declared. fieldType= createFromTypeNodesInternal(
+ The type of the field is defined. fieldType= createFromTypeNodesInternal(
+ The field type is defined. fieldType= createFromTypeNodesInternal(
+ JSTypeNative typeFields= createFromTypeNodesInternal(
+ The type of the field is known. fieldType= createFromTypeNodesInternal(
+ This is the type we want. fieldType= createFromTypeNodesInternal(
+ This is valid. fieldType= createFromTypeNodesInternal(
+ If (hasType)
+ JSTypeImpl fieldType= createFromTypeNodesInternal(
+ JSType. fieldType= createFromTypeNodesInternal(
+ type = super.createFromTypeNodesInternal(
+ The field type is the same. fieldType= createFromTypeNodesInternal(
+ builder.type(
+ declareType(
+ JSType.
+ type = type.createFromTypeNodesInternal(
+ type = type(
+ The type. fieldType= createFromTypeNodesInternal(
+ buildFieldType(
+ FieldTypeBuilder.createFromTypeNodesInternal(
+ JSType nativeFieldType= createFromTypeNodesInternal(
+ This field. fieldType= createFromTypeNodesInternal(
+ createType(
+ If (fieldTypeNode). fieldType= createFromTypeNodesInternal(
+ addType(
+ JSTypeImpl
+ If it exists,
+ this.fieldType= createFromTypeNodesInternal(
+ The type of the field is {. fieldType= createFromTypeNodesInternal(
+ this.fieldTypeType= createFromTypeNodesInternal(
+ if (isInternal)
+ if (fieldTypeNode!= null) {}
+ FieldType.createFromTypeNodesInternal(
+ builder.add(
+ builder.parse(
+ FieldType.
+ if (isType)
+ The type of the field name. fieldType |= createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(this,
+fieldType = createFromTypeNodesInternal(builder,
+ builder.fieldType= createFromTypeNodesInternal(
+ setType(
+ this.fieldTypeInfo= createFromTypeNodesInternal(
+ The field type is type. fieldType |= createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(n
+fieldType = createFromTypeNodesInternal(N,
+fieldType = createFromTypeNodesInternal(node,
+ The field type is type. fieldType *= createFromTypeNodesInternal(
+ This type fieldType= createFromTypeNodesInternal(
+ This type.
+ This.fieldType= createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternal(node
+ This field type *= createFromTypeNodesInternal(
+fieldType  = get
+ return builder.createFromTypeNodesInternal(
+ type.createFromTypeNodesInternal(
+fieldType = createFromTypeNodesInternalImpl(
+fieldType  = parse
+ This is.
+ if any.
+ if any,
+fieldType = createFromTypeNodesInternal()(
+ fieldType |= createFromTypeNodesInternal(
+ fieldType *= createFromTypeNodesInternal(
+ Builder.createFromTypeNodesInternal(
+ * fieldType= createFromTypeNodesInternal(
+ fieldType &= createFromTypeNodesInternal(
+ this.createFromTypeNodesInternal(
+ this.
+ This.
+ This type
+ This field
+ FieldType= createFromTypeNodesInternal(
+ typeType= createFromTypeNodesInternal(
+ fieldsType= createFromTypeNodesInternal(
+fieldType += createFromTypeNodesInternal(
+ The
+fieldType is createFromTypeNodesInternal(

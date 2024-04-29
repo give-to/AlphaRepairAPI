@@ -1,0 +1,284 @@
+lineEndChar = c;
+ cursor++;
+lineEndChar = c; } else { lineEndChar = c ;
+ sourceCursor++c;
+ lineEndChar |= c;
+ sourceString[sourceCursor]= c;
+ charno = getOffset(); } else if (c == '\r' || c == '\n') {
+ lineEndChar = c; } else if (c == '\t') {
+ sourceString[sourceCursor++]= c;
+ charno = getOffset(); } if (c == '\r' || c == '\n') {
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { charno = 0;
+ charno = getOffset(); } else if (c == '\r' || c == '\n')) {
+ lineEndChar = c; } } else {
+lineEndChar  = c; cursor++;
+ charno = getOffset(); } else if (c == '\r') { charno = getOffset(); } else {
+ charno = getOffset(); } else if (c == '\r') { charno = getOffset(); }
+ lineEndChar = c; } else if (c == '\\') {
+ charno = getOffset(); } else { if (hitEOF) {
+ charno = getOffset(); } else { charno = getOffset(); } else { charno = getOffset(); } } else {
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { charno = c ;
+ charno = getOffset(); } else if (c == '\r' || c == '\\') {
+ lineStart = sourceCursor;
+ continue; }
+lineEndChar  = c; } else {
+ charno = getOffset(); } else { if (c == '\r' || c == '\n')) {
+ lineEndChar = c; } else if (c == '\r') {
+ charno = getOffset(); } else { if (sourceCursor == sourceEnd) {
+ lineEndChar = c ; } else if (c == '\r\n') {
+ charno = getOffset(); } if (c == '\r' || c == '\n')) {
+lineEndChar  = c ; lineStartChar = c ;
+ lineEndChar = c; c = '\n'; }
+ charno = getOffset(); } else if (c == '\r' || c == '\n'); { } else {
+ lineEndChar = c; } else { if (c == '\\') {
+ charno = getOffset(); } else { if (c == '\r' || c == '\n' ) { } else {
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { charno ++;
+ charno = getOffset(); } else if (c == '\r' || c == '\n\r') {
+ sourceCursor = 0;
+ lineEndChar = c; c = '\n'; } else
+ charno = getOffset(); } if (c == '\r' || c == '\n') { charno = 0;
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { } else {
+ charno = getOffset(); } else if (c == '\r' || c == '\n' || c == c) {
+ charno = getOffset(); } else { charno = getOffset(); } else { charno = getOffset(); } else {
+ charno = getOffset(); } else if (c == '\r' || c == ' ') {
+ c = '\n'; } else if (c == '\r' || c == '\\') {
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { charno --;
+ charno = getOffset(); } if (c == '\r' || c == '\n'; } else {
+ continue;
+ lineStart = sourceCursor++;
+lineEndChar =  c; } else { lineStart = cursor ;
+ charno = getOffset(); } else if (c == '\r' || c == 127) {
+ charno = getOffset(); } else if (c == '\r' || c == c) {
+ charno = getOffset(); } else { charno = getOffset(); } if ( hitEOF ) {
+ c = '\n'; } else { if (hitEOF) {
+lineEndChar =  c; } else { lineStart = 0 ;
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { charno++; }
+ charno = getOffset(); } else if (c == '\r') { charno = 0;
+lineEndChar  = c ; cursor--; }
+ charno = getOffset(); } if (c == '\r' || c == '\\') {
+ lineEndChar = c; } else if (c == 127) {
+ charno = getOffset(); } } else {
+lineEndChar  ++;
+ lineEndChar = c ; } else if (c == '\r' || c == 127)
+lineEndChar  = c ; lineStart = sourceCursor ;
+ charno = getOffset(); } else {
+ lineEndChar = c; c = '\r'; }
+ if (lineEndChar == null) {
+ lineEndChar = c; } else if (c == '\n') {
+ charno = getOffset(); } else if (c == '\r' || c == 127)
+ lineEndChar = c; } else if (c == '\t\f') {
+ sourceString.= c;
+ charno = getOffset(); } else if (c == '\r') { charno = c;
+lineEndChar  = c ; cursor--; } else
+lineEndChar =  c; } else { lineStart = c ;
+lineEndChar = c ; } else { lineStartChar = c ;
+ charno = getOffset(); } else { charno = 0 ;
+lineEndChar  = c ; cursor--; } else {
+ lineEndChar = c; } else { } else {
+ lineEndChar = c ; } else if (c == '\t' || c == '')
+lineEndChar  = c; cursor++; }
+lineEndChar  = c ; cursor++; } else
+lineEndChar  = c; } else { lineEndChar =
+ if (lineEndChar == -1) {
+ if (lineEndChar == '\n') {
+lineEndChar  = c ; sourceCursor = 0 ;
+ lineEndChar = c ; } else if (c == '\t' || c == 127)
+ lineStart = sourceCursor - 1;
+ break; } else { cursor++;
+ charno = getOffset(); } else { charno = 0 ; }
+ charno = getOffset(); } else { charno = -1;
+ lineEndChar = c; } else if (c == '\\\\') {
+ lineEndChar = c; c ++; } else {
+ lineStart = sourceEnd ;
+ buffer[ungetCursor]= c;
+ lineEndChar = c; } else if (c == '\r' || c) {
+ lineEndChar = c ; } else if (c == '\t' || c == 0)
+ sourceString[ungetCursor++]= c;
+ charno = getOffset(); } else { } else {
+ charno = sourceCursor ;
+ charno = getOffset(); } else { if (c == '\r' || c == '\n' ) { }
+ break; } else { lineEndChar = c;
+ ungetBuffer[sourceCursor]= c;
+ charno = getOffset(); } else { charno = c ;
+ charno = getOffset(); } else { continue; }
+ lineEndChar = -c;
+ charno = getOffset(); } else if (c == '\r' || c == '\n') { }
+ lineEndChar = c; } else if (c == c) {
+ lineEndChar = c ; } else if (c == '\t' || c) {
+ charno = getOffset(); } else {
+lineEndChar = c; } else { lineEndChar ++ ;
+lineEndChar  = c; cursor--;
+ } else {
+ lineEndChar = c ; } else if (c == '\t' || c)) {
+ charno = getOffset(); } else { ++c;
+ lineEndChar = c; sourceCursor++= c;
+ sourceCursor++= c;
+ lineEndChar = ++c;
+ cursor++c;
+ sourceCursor++-c;
+ charno = -1;
+ charno = getOffset(); } else { charno = getOffset(); } else { charno = getOffset(); } } else
+lineEndChar  = c; } else { cursor = 0 ;
+ charno = getOffset(); } else { break;
+ buffer[sourceCursor]= c;
+lineEndChar  = c ; } else
+ charno = getOffset(); } else { returnc;
+ lineStart = sourceCursor + 1;
+ break; } else { sourceCursor++c;
+ sourceString[sourceEnd]= c;
+lineEndChar  = c ; lineStartChar = 0 ;
+ cursor++; } else { cursor++-c;
+ if (lineEndChar == null)
+lineEndChar  = c; }
+ lineEndChar = c; c = '\n'; else
+ charno = getOffset(); } else { if (inline) {
+ break; } else { charno = c ;
+ lineStart = sourceStart ;
+ charno = getOffset(); } else { cursor= c;
+lineEndChar  = '\r';
+ cursor++; } else { sourceCursor++c;
+lineEndChar  = '\n';
+ charno = c ;
+ lineStart = cursor ;
+ cursor++; } else { cursor--;
+ charno = sourceCursor - 1;
+lineEndChar  = c; } else { cursor += c ;
+ ungetBuffer[c++]= c;
+ cursor++; } else { cursor = 0;
+ sourceCursor=c;
+ charno = getOffset(); } else
+lineEndChar  = -1;
+ break; } else {
+ cursor++; } else { cursor -= 1;
+ break; } } else {
+ break; } else { cursor++c;
+ lineStart = sourceCursor ; sourceString.= c;
+ lineStart ++ ; } else {
+ lineEndChar = c; sourceCursor++c;
+ lineStart = sourceCursor ; lineEnd= c;
+ sourceString[c++]= c;
+ charno = getOffset(); cursor = 0;
+ break; } else { sourceCursor = 0;
+ lineStart = cursor;
+ charno = getOffset(); }
+ charno = 127-c;
+ lineEndChar[sourceCursor]= c;
+ charno = getOffset(); charno=c;
+ charno = getOffset(); } else { --c;
+ lineEndChar = c ; } else if (c == '\t') { }
+ charno = -1;
+ break; } if (c == c) {
+ cursor--; } else { cursor++;
+ lineEndChar = c; c = '\r'; else
+ ungetBuffer[c]= c;
+ lineStart += sourceCursor;
+ cursor++; } else { cursor=c;
+ break; } else { c = 127 ;
+ charno = getOffset();
+ break; } else { break;
+ charno = getOffset(); } else { break ; } }
+ lineStart= c;
+ cursor++; } else { cursor++ + 1;
+ cursor++; } else { cursor++ - 1;
+ break; } else { cursor += c ;
+ charno = getOffset(); } else { charno = getOffset(); } } else { }
+ break; } else { charno = 0;
+ charno = sourceCursor++-c;
+ sourceCursor ++; } else { sourceString= c;
+ lineStart = 0;
+ charno = sourceCursor++;
+ break;
+ charno = (int)c;
+ sourceCursor++++c;
+ cursor = 0;
+ sourceCursor ++; lineEndChar |= c;
+ break; } else { cursor--;
+ cursor++-c;
+ if (lineEndChar == '\n')
+ cursor++ 1;
+ cursor++; } else
+ cursor++ + 1;
+ ungetBuffer[lineEndChar]= c;
+ cursor++; sourceCursor++c;
+ break; }
+ charno = 0;
+lineEndChar  = sourceCursor;
+ charno = sourceCursor+++c;
+ lineEndChar = 127-c;
+ sourceCursor = cursor;
+ cursor++ -1;
+ charno = getOffset(); }
+ cursor++; } else { cursor++=c;
+ ungetCursor++= c;
+ break; } else { cursor++-c;
+ lineEndChar = c; sourceString.= c;
+lineEndChar  = ' ' ;
+ charno = sourceCursor-c;
+ break; } else { continue;
+ lineEnd = c;
+ lineStart = sourceCursor++c;
+ break; } else { ++c;
+ cursor--;
+ charno = getOffset(); } else
+ charno = sourceCursor++c;
+ lineStart ++ ; lineEndChar |= c;
+ lineEndChar = sourceEnd;
+ lineStart ++ ; sourceString.= c;
+ return sourceCursor - 1;
+ sourceString[sourceCursor:]= c;
+ ungetBuffer[0]= c;
+ lineStartChar = c;
+ lineEndChar = ' 'c;
+ lineEndChar ^= c;
+ lineStart |= c;
+ lineEndChar.= c;
+ if (lineEndChar == '\n'))
+ sourceString[offset]= c;
+ break; } else { returnc;
+ break; } charno = c;
+ sourceString[pos]= c;
+ if (lineEndChar == '\n' {
+ lineEndChar = sourceString;
+ sourceEnd=c;
+ cursor++= c;
+ lineStart = 0;
+ cursor += 1;
+ lineEndChar <<= c;
+ lineEndChars |= c;
+ lineEndChar = c; } else { #
+ c=c;
+lineEndChar = c + 1 ;
+lineEndChar  --;
+ cursor++; }
+ cursor=c;
+ sourceString += c;
+ lineStart + cursor++= c;
+ continue;
+lineEndChar = c ; break;
+ if (true)
+ break; } else
+ continue; } else
+ break; } }
+ if (continue)
+lineEndChar = c ++ ;
+ buffer[]= c;
+ cursor+=c;
+ break;
+ buffer.= c;
+lineEndChar = c; else
+ char=c;
+lineEndChar  = c
+lineEndChar  += c ;
+ break }
+ continue();
+ return
+ return c;
+lineEndChar =  0;
+lineEndChar =  null;
+ break
+ }
+ }
+ return
+ #
+lineEndChar -= c;
+lineEndChar: c;

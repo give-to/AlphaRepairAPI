@@ -1,0 +1,592 @@
+return negate? -value : value;
+return negate ? -value  : value
+ return!negate ? -value : value;
+return negate ? -value : value ; }
+return negate  ; }
+return negate ? - 1 : value
+return negate ? - 1 : value ;
+ return negate? 0: value;
+ return -value : value;
+ if (value < 0) {
+ if (value < 0)
+ return -value;
+ if (value < -value) {
+ return negate?value : value;
+ return value ;
+return negate ? - 1 : value ; }
+ return value < 0? -value : value;
+return negate ? -value  : +value ;
+ if (value) {
+ if (value < 0) return 0;
+ value = negate? -value : value;
+return negate ? value : - 1 ;
+return negate ? -value  : +value ; }
+ return negate;
+ if (value < 0) return -value;
+ if (value < 0) return value;
+return negate ? value : 0 ;
+ return negate == false? -value : value;
+ if ( value < 0 ) { return -value ; } else {
+return negate ? - 1 : value & 1 ; }
+ if (value < 0) { return -value; }
+return negate ? - 1 ;
+ if (value < 0) { return 0 }
+return  ( int ) negate ; }
+ if (!value)
+ return negate? 1-value : value;
+ return (value < 0)? -value : value;
+ return -1: value;
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { negate = true; }
+return negate ? value : value ; }
+ if (value > 0) { negate = negate? -value : value ; } if ( value < 0 ) {
+ return value & negate ; }
+ if ( value > 0 ) { negate = negate? -value : value ; } if ( value < - 1 ) {
+ return negate? 0-value : value;
+ if ( value == 0 ) { return -value ; } else {
+ if (value > 0) { negate = negate? -value : 0 ; } if ( value < 0 ) {
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { negate = 0; }
+ if ( value < 0 ) { return -value ; } if ( value > 1 ) { return +value ; } else {
+ if (value < 0) { return 0; }
+ return negate == true? -value : value;
+ return (value < 0)? -1: value;
+ return negate == -1? -value : value;
+ if (value == 0) { return -value; }
+ return (value == 0)? -value : value;
+ if ( value > 0 ) { negate = negate? -value : 0 ; } if ( value < 0 ) { negate = 0 }
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { negate = true;
+ if ( value > 0 ) { negate = negate? -value : value ; } else { negate = value < 0 ; }
+ if (value < 0) { negate = false;
+ if ( negate ) { return value ; }
+ if (value > -value) {
+ return -1;
+ if ( value > 0 ) { negate = negate? -value : 0 ; } else { negate = value < 0 ; }
+ if ( value > 0 ) { negate = value < 0 ; }
+ return value ; }
+ if ( value > 0 ) { negate = negate? -value : 0 ; } if ( value < 0 ) { negate = 0 ;
+ if ( value < 0 ) { negate = negate? -value : 0 ; }
+ return negate? value & -1: value;
+ return (value < 0) ||! negate? -value : value;
+ if ( value < 0 ) { return -value ; } if ( value > 255 ) { return +value ; } else {
+ if (value < 0) { return -value;
+ if ( value > 0 ) { negate = negate? -value : value ; } else { negate = true ; }
+ if (value > 0) { negate = negate? -value : 0; } if ( value < 0 )
+ if (value)
+ return (int) -value;
+return negate ? value : value & 1 ; }
+ return (value < 0) == negate? -value : value;
+ if ( value > 0 ) { negate = negate? -value : value ; } else { negate =! negate ; }
+ return (value) - negate;
+return negate ? - 1 : value & 1 ;
+ if ( value > 0 ) { negate =! negate ; }
+ return (value < 0) negate? -value : value;
+ if (value > 0) { negate =! negate ; } if ( value < 0 ) {
+return negate ? value : - 1 ; }
+ if (value > 0) { negate = negate? -value : value ; } if ( value < 0 )
+ if ( value < 0 ) { return -value ; } if ( value > 1 ) { return +value ; } else
+ if ( value > 0 ) { negate = negate? -value : value ; } if ( value < 0 ) return 0 ;
+ if ( value < 0 ) { return value + 1 ; }
+ if ( value > 0 ) { negate = negate? -value : 0 ; } if ( value < 0 ) { negate ; }
+ if (value > 0) {
+ return value & negate;
+ if ( value > 0 ) { negate = negate && value < 0 ; }
+ return negate? value >>> 1: value;
+ if ( value < 0 ) { return -value ; } if ( value > 0 )
+ return?-value : value;
+return negate ? value : - value ; }
+ if (value > 0) { negate = negate? -value : 0; } if ( negate ) {
+ if (value < 0) { negate = true;
+ if ( value < 0 ) { return -value ; } if ( value > 255 ) { return +value ; } else
+return negate ? value - 1 : value ; }
+ if ( value > 0 ) { negate = negate? -value : negate ; }
+ return negate == 0? -value : value;
+ if (value > 0) { negate = negate | 0 ; } if ( value < 0 ) {
+ if ( value > 0 ) { negate = negate? -value : 0 ; }
+ if (value > 0) { negate = negate? -value : value ; } if ( negate ) {
+ return (value < 0)? 0: value;
+ return value ^ negate;
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { negate++; }
+ if (value < 0) { value = 0; }
+return negate ? - 1 : ( value & 1 ) ; }
+return negate ? 0 : value ; }
+return negate ? value : value - 1 ;
+ if ( value < 0 ) { return -value ; } if ( negate ) {
+return negate ? - 1 : 0 ; } return - 1 ;
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { return 0 }
+ if ( negate ) { return value ;
+return negate ? value : - value ;
+return  ( value & negate ) ; }
+ if ( value < 0 ) { negate = negate? -value : value ; }
+ return!!negate ? -value : value;
+ if (value > 0) { negate = negate? -value : value ; } else {
+ if ( value > 0 ) { negate =! negate ; } }
+ if ( value > 0 ) { negate =! value & 1 ; }
+ if (value < 0) { value = 0 }
+return negate ? - 1 : ( value & 1 ) ;
+ return (value < 0) &&! negate? -value : value;
+ if (value > 0) { negate =! negate ; } if ( value < - value ) {
+ if (value == -value) {
+ if (value > 0) { negate = false;
+ if ( negate ) return value ;
+ return negate? value - 1: value;
+ negate = (value & 1) == 0;
+return negate ? value - 1 : value + 1 ;
+ if (value < 0) { return value }
+ return (value < 0)? negate-value : value;
+ return -value *=!negate ? -value : value;
+ if (value > 0) return value;
+return negate ? value : 0 ; }
+ if (value > 0) { negate = negate | 0 ; } if ( value < - value ) {
+ negate = value & 1 ; return negate ; }
+ if (value > 0)
+ return! negate || value < 0? -value : value;
+ if ( value > 0 ) { negate = negate? -value : 0 ; } else { negate = 0 }
+ return! negate? -1: value;
+return  value & ~ negate ; }
+return negate ? value : value - 1 ; }
+return negate ? - 1 :
+return negate ? -value  : -value ; }
+return negate ? - 1 : - 1 ; } return - 1 ;
+ if ( negate ) { return (int) -value;
+ if (value < 0) { return 0};
+return negate  & value ; }
+ if ( value > 0 ) { negate =! negate && value < 0 ;
+ if (value > 0) { negate = negate | 0 ; } if ( value < 0 )
+return negate ? - 1 : 0 ; return value ; }
+ negate = (value & 1) == -1;
+ return (value < 0)? value == 0? -value : value;
+ return (value < 0? -value : value;
+ return (value & 1) == 0? -value : value;
+ return (value < 0)?value : value;
+return negate ? - 1 : value & 1 ; return value ;
+return negate ? value : ( value & 1 ) ; }
+return negate ? -value : value + ( value & 1 ) ; }
+ return (value == 0) ||! negate? -value : value;
+ negate = (value) == 0;
+ return (value == negate)? 0: value;
+return negate ? value : value & 1 ;
+ return negate? - -value : value;
+return negate ? - 1 : value & 1 ; return value ; }
+return negate ? - 1 : 0 ; } return value >>> 1 ;
+return negate ? value : value + 1 ;
+ if ( value < 0 ) { return -value ; } if ( value > 1 )
+return negate ? -value : value - 1 ; }
+ return negate? value-value : value;
+return negate ? -value  : ( value & 1 ) ; }
+ return (value < 0)? --value : value;
+ return (value < 0)? value < 0? -value : value;
+return negate ? value - 1 : value + 1 ; }
+ if ( negate ) { value = -value;
+ if (value > 0) { negate = negate? -value : 0; } if (value < 0) { return 0};
+ return negate? value + 1: value;
+return negate ? - 1 : value + 1 ;
+return negate ? -value : value & 1 ; }
+ return negate? (int) -value : value;
+ if ( value > 0 ) { negate =! negate || value < 0 ;
+ return (value & 1) ==!negate ? -value : value;
+ if (value < 0) return -value;
+ return ( int ) value ;
+ return negate && value < 0? -value : value;
+ return negate == negate? -value : value;
+ if (value < 0) { return --value;
+return  ( int ) value ; }
+ if ( value > 0 ) { negate =! negate && value < 0 }
+ return negate? 0xvalue : value;
+ if (value == 0) {
+return negate ? value : value & 0xff ;
+return negate ? -value  : -value ;
+return negate ? value : ( value & 1 ) ;
+ return (value < 0)? -1-value : value;
+ return (value < 0)? 0-value : value;
+ return negate? value << 1: value;
+return negate ? 0 : value & 1 ; }
+ return negate == 0? -1: value;
+return negate ? - 1 : value & 0xff ;
+ return (value < 0) *! negate? -value : value;
+ if ( value < 0 ) { value = value - 1 ;
+return negate ? - 1 : 0 ; return value ;
+ return negate || value < 0? -value : value;
+ return negate && value < -value? -value : value;
+return negate ? - 1 : ( value & 1 ) + 1 ;
+ if (value > 0) { negate = negate? -value : 0 ; } else {
+ return negate == 0? (int) -value : value;
+ if (value == 0) { return -value;
+return negate ?  value : 0 ; } return - 1 ; }
+ return value *=!negate ? -value : value;
+ if ( negate ) { return value ; } }
+ negate = value & 1 ; return negate ;
+ return value & ~ negate ;
+return  ( value & negate ) >>> 1 ;
+ return negate? value * -1: value;
+ return value - negate;
+ return (value == 0)? negate-value : value;
+return negate ? -value : value + ( value & 1 ) ;
+ return (int) negate;
+ return negate == -1? 0: value;
+return negate ? - 1 : ( value & 1 ) >>> 1 ;
+ return negate == -1? 0-value : value;
+return negate ? - 1 : value >>> 1 ;
+ return negate*value;
+ if (value == 0)
+ return (value < 0) ||!!negate ? -value : value;
+return negate ? -value  : ( value & 1 ) >>> 1 ; }
+ return (value) ^ negate;
+ return (value < 0)? 0 : negate? -value : value;
+ return (value == 0)? -1-value : value;
+ return value < -value? -value : value;
+ if ( negate ) { value = 0 ; }
+return negate  & value ;
+return negate ? - 1 : 0 ; } return value ; }
+ return (value < 0)? value > 0? -value : value;
+ return (value == negate)? -1: value;
+ return negate == -1? 1-value : value;
+ if ( negate ) { return value - 1 ; }
+ if (value > 0) { negate =! negate ||! negate && value < 0 ; }
+return negate ? - 1 : - 1 ; } return value ;
+ return negate? -1-value : value;
+ negate = (value & 2) == -1;
+return negate ? value : value & 1 ; return value ;
+ if ( value > 0 ) { negate =! negate ; } } }
+return negate ?  0 ;
+return negate ? 1 : value ;
+return negate ? -value  : +value ; return value ;
+ if ( negate ) return value ; }
+ return negate == true? 1-value : value;
+ return (value << negate) + 1;
+ return (value < 0) == negate? 0-value : value;
+ return (value == 0)?value : value;
+ if ( value > 0 ) { negate =! negate || value < 0 }
+ if ( value < 0 ) { value = value - 1 }
+ return (value & 0) == 0? -value : value;
+ negate = negate & 1 ; return value ; }
+ return -value; return!negate ? -value : value;
+ if ( negate ) { return value - 1 ;
+return negate ? - 1 : - 1 ;
+ if (value > 0) { negate = negate | 0 ; } if ( negate == 0 )
+ negate = negate & 1 ; return ( int ) value ;
+return negate ? - 1 : + 1 ;
+ if (value negative)
+ return (value) + negate;
+ return negate == 1? -value : value;
+return negate ? 1 : 0 ;
+return negate ? -value :  0 ; } return ( int ) value ; }
+return  ( value & negate ) >>> 1 ; }
+ return negate? (value & 1): value;
+ return value < 0 || negate? -value : value;
+return negate ?  value : ( value & 1 ) >>> 1 ;
+ if ( value > 0 ) { negate =! negate ; } else {
+ return (value << 1) + negate;
+ return value ==!negate ? -value : value;
+ return (value < 0) == negate? 1-value : value;
+ return! negate || value < -value? -value : value;
+return negate ? -value  : 0 ; } return value & 1 ; }
+return negate ? value : value - 1 ; } } ;
+ negate = negate & 1 ; return value ;
+return negate ? -value  : ( value & 1 ) >>> 1 ;
+ return negate? (value & 1) + 1: value;
+return negate ? -value : value + 1 ;
+return negate ? -value  : ( value & 1 ) + 1 ;
+ return negate? (value & -1): value;
+return negate ? - 1 : value & 0xff ; }
+ return (value) | negate;
+ return negate? value*-value : value;
+ return (value < 0 )? -1*-value : value;
+ negate = value & 1 ; return value ;
+ return negate == true? 0-value : value;
+ return value ^ negate ; }
+ return value * negate ; }
+ return (value < 0 )? negate? -value : value;
+return negate ? value : value & 1 ; } } ;
+ if ( value > 0 ) { negate =! negate ; } } ;
+ negate = (value & 1) == 1;
+ return (value < 0)? +-value : value;
+ return (value < 0) &&!!negate ? -value : value;
+return negate ? -value : value + ( value & 1 ) >>> 1 ; }
+ return (value == 0 )? negate? -value : value;
+ negate = (value & 1) == 0; return value
+ return value | negate;
+ return negate? value *= -1: value;
+return negate ? -value  : +value ; } return - value ; }
+ return (value == 0)? value == 0? -value : value;
+return negate ? -value  : ( value & 1 ) + 1 ; }
+return negate ?  value : value & 1 ; return value ; }
+ negate = (value & 1) ==;
+ return negate? value & 0xff: value;
+return negate ? - 1 : value & 0xFF ;
+return negate ? -value  : 0 ; } return - value ; }
+ return (value < 0)? 0 :!negate ? -value : value;
+ return! negate? 0: value;
+ negate = (value & 2) ==;
+return negate ? -value : value - 1 ; return value ;
+ if ( value < 0 ) { return -value ; } else { }
+ if (value > 0) { negate =! negate ; } if ( value < 0 ) { }
+return negate ? value : value & 0xff ; }
+ return negate || value < -value? -value : value;
+return negate ? -value  : (value & 1) ;
+return negate ? - 1 : 1 ;
+ negate = negate & 1 ; return value >>> negate ;
+ return (value < 0)? 0x-value : value;
+ return! negate || value < 0? 0-value : value;
+return negate ?  value : value & 1 ; } return value ;
+return negate ? -value :  ( value & 1 ) >>> ( 1 ) ;
+return negate ? -value  : +value ; } return - 1 ;
+ if ( negate ) { return 0 ; }
+return negate ? -value : value + ( value & 1 ) >>> 1 ;
+ return (value < 0)? n-value : value;
+ return negate == false? 0-value : value;
+ value = value & negate;
+ return! negate? value & -1: value;
+return negate ? -value : value * ( value & 1 ) ; }
+ if ( value < 0 ) { negate = negate? -value : 0 ; } }
+return negate ? -value  : ( value & 1 ) >>> - 1 ;
+return negate ? -value :  0 ; } return ( int ) -value ;
+ return value + negate;
+return  ( value & negate ) ;
+return negate ? -value  : -value + value ; }
+ return negate == false? 1-value : value;
+return negate ?  value : ( value & 1 ) + 1 ;
+ if ( value < 0 ) { negate = negate? -value : value ; } }
+ if (negative)
+ return negate? (value & 1) >>> 1: value;
+return negate ? -value : value + ( value & 1 ) >> 1 ;
+return  ( value & ~ negate ) ;
+ return (value << negate) + 0;
+ return negate? -value : value == 0? -value : value;
+ return (value < 0 )? value - 1: value;
+return negate ? -value : value + ( value & 1 ) >> 1 ; }
+return negate ? -value  : 0 ; } return value >>> 1 ;
+return negate ? -value : value - (value & 1) ;
+ negate = (value & 1) == 0 ; return ;
+ return! value < 0? -value : value;
+return negate ? -value : value * ( 1 - value ) ;
+ return (value < 0)? 1-value : value;
+ return negate == -1? '-value : value;
+return negate ?  value ;
+return negate ? -value  : +value * -value ; }
+ negate = (value & 2) == 0;
+return negate ? -value  : +value * value ;
+ return negate == -1? +-value : value;
+ negate = (value & 2) == 1;
+ return negate == 0? -1-value : value;
+return negate ?  : value ;
+ if ( negate ) return - 1 ;
+return negate ? -value  : + value * - 1 ;
+ return (value & 0) ==!negate ? -value : value;
+ if (value negate)
+ if ( value < 0 ) { return -value ; } else
+return negate ? -value  : ( value & -value ) ;
+ if ( negate ) { return -value;
+ return negate || value == -1? -value : value;
+return negate ? -value : value - 1 ;
+ if ( negate ) { value = 0xvalue;
+return negate ? -value  : ( value & - 1 ) ;
+return negate ? -value : value * ( value & 1 ) + 1 ; }
+return negate ? -value : value & ( 1 << value ) ;
+return negate ? -value : value + 1 ; }
+return negate ? -value : value - 1 ; return value ; }
+ negate = (value & 1)!= -1;
+ return negate == false? '-value : value;
+return negate ? -value : value + ( value & ~ 1 ) ;
+ if ( negate ) { value = -1-value;
+ return!! value < 0? -value : value;
+ return value == 0? -value : value;
+return negate ? value : value - 1 ; } }
+ if ( negate ) { value = (int)value;
+ return -value *!negate ? -value : value;
+ if ( negate ) { value = value-value;
+ return negate? '-value : value;
+return negate ? - 1 : value & 1 ; } }
+ return negate? value^-value : value;
+ if(negate)
+return negate ? -value : value - 1 ; } return value & 1 ; }
+ return (value < 0) || negate? -value : value;
+ negate = (value) == 1;
+ return value < negate? -value : value;
+ return (value < 0)? -value:negate ? -value : value;
+return negate ? value : value & 1 ; } }
+return negate ? -value : value * ( value & 1 ) + 1 ;
+ if (value > 0) { negate = negate | 0 ; } if ( negate ) { }
+ return (int)!!negate ? -value : value;
+ if ( value > 0 ) { negate = negate && value < 0 ; } } }
+ negate = value & 1 ; return negate | 0 ;
+ return negate? 0x-value : value;
+ value =!negate ? -value : value;
+ return -value *=!!negate ? -value : value;
+ value = negate? 0: value;
+return negate ? -value : value & 1 ; return value ;
+return negate ? -value : value - 1 ; } return value - 1 ;
+return negate ? -value : value - 1 ; } return value + 1 ;
+ if ( negate ) { return -1-value;
+return negate ? -value : value - 1 ; } return - 1 ;
+ negate = value & 1 ; return negate >>> 1 ;
+ return value < 0 ||! negate? 0-value : value;
+ negate = (value & 2) == -2;
+return negate ? -value  : +value ; return -value ;
+ if ( negate ) { return 0 ;
+return negate ? -value : value & ( 1 << value ) ; }
+return  negate? value : value & 0xFF ;
+ return (value << negate) + -value;
+return negate ? -value  : +value ; } }
+return negate ? -value : value * ( value & 1 ) + 0 ; }
+ return negate? (value & 0) >>>: value;
+ return negate? -value :!!negate ? -value : value;
+ return value == negate? -value : value;
+ if (value > 0) { negate =! negate || value < 0 ; } } }
+ return negate? (int) value-value : value;
+ if (value > 0) { negate =! negate && value < 0 ; } } }
+ return! negate? 0-value : value;
+return negate ? -value : value - 1 ; } } ;
+return negate ? -value  : + value * 1 ;
+ return (value << 1) + negate - 1;
+ return (value << negate) -value;
+ return negate: value;
+ if ( negate ) { return --value;
+return negate ?  0 : value
+return negate ? - 1 : - 1 ; } }
+return negate ?  value : 0
+ return -1 | negate;
+ return -value +!negate ? -value : value;
+ negate? -value : value;
+ return (value < 0)? value - negate: value;
+ return (value < 0)|negate ? -value : value;
+ return negate? -value : value ^!negate ? -value : value;
+ return (value) ==!negate ? -value : value;
+ return (value << negate) - -value;
+ negate = value & 1 ; return negate ; } }
+ return (value & 1) >>> 1; returnnegate ? -value : value;
+ value = value &= negate;
+ negate? 0: value;
+ return -value ; } return!negate ? -value : value;
+return negate ? -value :  ( value & 1 ) >>> 1 ; } }
+ return (int) value *!negate ? -value : value;
+ return (value < 0) + 1;!negate ? -value : value;
+return negate ? -value : value * -value ; }
+ return! negate;
+return negate ? - 1 : 0 ;
+ if (value < 0) { }
+return negate ? -value : value << 1 ;
+ return (value)!negate ? -value : value;
+return negate ? -value : value & 1 ;
+return  (value << 1) + negate ; } }
+ return! value == negate? -value : value;
+ return -value |!negate ? -value : value;
+ if negate {
+ value = value < 0? -value : value;
+ return -value + negate;
+return negate  | value ;
+ return!!!negate ? -value : value;
+ negate = (-value)==value;
+return  value & ~ negate ; } }
+ return negate? +-value : value;
+ return negate? -value : value ==!negate ? -value : value;
+return negate ? -value : value >>> 1 ; }
+ return value =!negate ? -value : value;
+return negate ? -value : value >>> 1 ;
+ negate = (value)!= 0;
+ return negate-value;
+ negate = negate ;
+ return (int) negate*value;
+ value = negate;
+return negate ? -value  : -value ; } }
+ return -value *!!negate ? -value : value;
+return negate ? -value : value - 1 ; } }
+ negate = (value) == 2;
+ return negate+value;
+ * value = negate? -value : value;
+ return negate & -value;
+ negate = (1)==value;
+ return (int) negate-value;
+ value = value & -value;
+ return -1-value;
+ return negate || _negate ? -value : value;
+return negate  & 1 ;
+ negate = -1; returnvalue;
+ return (int) negate+value;
+return negate ? -value : value * - 1 ; } }
+return negate ? -value : value & 0xff ; }
+ return value? -1: value;
+return negate ? -value : value * -value ;
+ return negate * -value;
+return negate  == true ;
+ negate = value == -value;
+return negate ?  0 :
+return negate ? -value : value & 1 ; } }
+ return (int) ~value;
+ return negate ||!negate ? -value : value;
+return negate ? -value : value + 1 ; } }
+ assert negate: value;
+ negate? 0-value : value;
+ * return!negate ? -value : value;
+return negate ? - 1 : 0
+ return value? negate: value;
+ return negate==value;
+ * return negate? -value : value;
+ return 0 ;
+? negate: value;
+ value = negate-value;
+ return? negate: value;
+ return -2: value;
+ value = negate?: value;
+return negate ? - 1 : 1
+ return negate? ~value : value;
+ negate? 1-value : value;
+return negate ?  1 ;
+ boolean negate? -value : value;
+ boolean value? -value : value;
+ value = -value;
+ boolean negate?value : value;
+ negate? '-value : value;
+! negate? -value : value;
+return negate ? -value  : 0 ;
+return negate ?  1 :
+return negate ? -value  + value ;
+ negate? +-value : value;
+ negate=value;
+ return negate-value : value;
+return negate ? - 1 ; }
+ if negate)
+ value = -value : value;
+return negate ? - value ;
+ return +-value : value;
+ return 0-value : value;
+ return isUnegate ? -value : value;
+return negate ? -value  - value ;
+ return is_negate ? -value : value;
+ value -= negate? -value : value;
+ return ~value : value;
+ if negate;
+ } else {
+? -value : value;
+ negate?value : value;
+ value += negate? -value : value;
+ if negate,
+ return!value : value;
+return negate ? -value  : 0
+return negate ? - 2 ;
+return negate ? - value :
+? 1-value : value;
+ boolean negate: value;
+ return ~value;
+ return +value;
+return negate ? -value :  1 ;
+return negate ? -value  1 ;
+ return negative;
+return negate ? -value  ; }
+return negate ? -value  : 1
+ return 0: value;
+ return 1;
+ *!negate ? -value : value;
+return negate ? 0
+return negate Value ;
+return negate  ; static
+ } {
+return negate ? -value : value ++ ;
+return negate ? -value : value; *
+ return negative? -value : value;
+ *
+ return neg? -value : value;
+ throw negate? -value : value;
+return negate ? +value : value;
+return negate ? -value | value;
+return negate + -value : value;
+return negate == -value : value;
+return negate || -value : value;

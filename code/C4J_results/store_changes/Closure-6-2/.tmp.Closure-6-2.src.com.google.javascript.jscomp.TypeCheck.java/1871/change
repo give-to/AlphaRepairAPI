@@ -1,0 +1,723 @@
+validator.expectCanAssignTo(t, valueType,
+validator.expectCanAssignTo(t, valueEnumType,
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  valueEnumType,
+validator.expectCanAssignTo(t,  value,
+validator.expectCanAssignTo(valueEnumType,
+validator.expectCanAssignTo(t, value,  declInfo,
+validator.expectCanAssignTo(t,  declInfo,
+validator.expectCanAssignTo(valueEnumPrimitiveType,
+validator.expectCanAssignTo(value,
+validator.expectCanAssignTo(valueType,
+validator.expectCanAssignTo(t,  valueEnumType, declInfo,
+validator.expectCanAssignTo(valueEnumPrimitive,
+validator.expectCanAssignTo(t, valueEnum,
+validator.expectCanAssignTo(t, value,  valueEnumType, declInfo,
+validator.expectCanAssignToType(
+validator.expectCanAssignTo(t.getScope(), valueEnumType,
+validator.expectCanAssignTo(t, value,  valueEnumPrimitive,
+validator.validate(
+validator.expectCanAssignTo(t,  valueEnumPrimitive,
+validator.expectCanAssignTo(valueType, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.getScope(), typeRegistry,
+validator.expectCanAssignTo(valueEnum,
+ if (valueEnumType == null) { return; }
+validator.expectCanAssignTo(t.getScope(), declInfo,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo,
+validator.expectCanAssignTo(valueType, valueEnumType,
+validator.expectCanAssignTo(valueEnumType, declInfo,
+validator.expectCanAssignTo(t, value,  valueEnum,
+ if (valueEnumType!= null) {
+validator.expectCanAssignToType(valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  declInfo, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueEnumType, valueType, declInfo,
+validator.expectCanAssignTo(myEnum,
+validator.expectCanAssignToType(valueEnumType,
+validator.expectCanAssignTo(t,  valueType, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,  valueEnumPrimitiveType
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType
+validator.expectCanAssignTo(valueEnumType, valueType,
+validator.expectCanAssignTo(t.getScope(),
+validator.expectCanAssignTo(t, valueEnumType, valueEnumPrimitiveType
+validator.expectCanAssignTo(t,  valueEnumType, typeRegistry,
+ if (valueEnumType == null) { return; } return
+validator.expectCanAssignTo(valueEnumPrimitiveType
+ if (valueEnumType == null) { return null; } return
+validator.expectCanAssignTo(t,  declInfo, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,  valueEnumPrimitiveType, value,
+validator. validate ( valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.getScope(), value,
+validator.expectCanAssignTo(t.getScope(), valueEnumPrimitive,
+validator.expectCanAssignTo(t,  valueEnumType, valueType,
+validator.expectCanAssignTo(t,  valueType, valueEnumType,
+validator.expectCanAssignTo(t,  valueEnumType, valueType, value,
+validator.expectCanAssignToType(valueEnumPrimitive,
+ if (valueEnumType == null) { return;
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueType) { return; }
+ if (valueEnumType!= valueType) { return; }
+validator.expectCanAssignTo(t,  valueEnumPrimitiveType, declInfo,
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= valueType ) { return null ; }
+ if (valueEnumType!= null)
+validator.expectCanAssignTo(valueEnumType, myEnum,
+validator.expectCanAssignTo(t,  valueEnumType, valueType, null,
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueType) {
+ if (valueEnumType == null) { return; } if (valueEnumType!= null) {
+validator.expectCanAssignTo(valueEnumType, typeRegistry,
+ if (valueEnumType == null) { return null; } if (valueEnumType!= null) {
+ if (valueEnumType == null) {
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueEnumType)
+validator.expectCanAssignTo(valueType, valueEnumPrimitive,
+validator.expectCanAssignTo(t, value,  valueEnumType); throw new Error(
+ if (valueEnumType == null) { return; } if (valueEnumType!= null)
+validator.expectCanAssignTo(t, valueType, valueEnumType, declInfo,
+ if ( valueEnumType == null ) { throw new IllegalArgumentException ( "Invalid enum element type " +
+ if (valueEnumType == null) { return null; } if (valueEnumType!= valueType) {
+validator. validate ( valueEnumType,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum element type " +
+validator.expectCanAssignToAnyType(valueEnumPrimitiveType,
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= valueType ) { return null ;
+ if ( valueEnumType!= null ) { return valueEnumType ; } else { throw new IllegalStateException (
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum element type",
+ if (valueEnumType == null) { return null; } if (valueEnumType!= null)
+validator. validate ( valueEnumPrimitive,
+validator.expectCanAssignTo(t,  valueEnumType, "value",
+ if (valueEnumPrimitiveType == null) { throw new Error(
+validator.expectCanAssignTo(t.getScope(), valueEnumPrimitiveType
+ if (valueEnumType!= null) { throw new IllegalArgumentException(" +
+validator.expectCanAssignTo(t, valueType, declInfo,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("" +
+ if (valueEnumType!= null) { return
+validator.expectCanAssignToType(valueEnumType, declInfo,
+ checkType(t, value, valueEnumPrimitiveType,
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType == valueType ) { return null ;
+ if ( valueEnumType!= null ) { return valueEnumType ; } else { throw new SyntaxException (
+ if (valueEnumType!= null) { throw new IllegalArgumentException(
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType, null,
+ if (valueEnumType == null) { return null; } if (valueEnumType!= valueType) { return
+validator.expectCanAssignTo(valueEnumType, valueType, t,
+ if (valueEnumType == null) { return null; } if (valueEnumType!= null) { return
+validator.notNull(valueEnumPrimitiveType,
+ checkEnumAlias(t, value, valueEnumPrimitiveType,
+ return getNativeType ( valueEnumPrimitive,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum type: " +
+ if (valueEnumType == null) { return; } if (valueEnumType!= null) { return
+ if ( valueEnumType == null ) { throw new IllegalArgumentException ( "Invalid enum type: " +
+ if (valueEnumType == null) { throw new IllegalArgumentException(
+ if ( valueEnumType == null ) { throw new IllegalArgumentException ( "Unknown enum type: " +
+ if (valueEnumType == null) { return new JSType(
+validator. notNull ( valueEnumType,
+ if (valueEnumType) {
+validator.expectCanAssignTo(t, value,  valueEnumType); assertTrue(
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= null ) { return null ; }
+validator.expectCanAssignTo(t,  valueEnumType, "enum",
+ if (valueEnumType == null) { return null; } if (valueEnumType) {
+ if ( valueEnumType == null ) { return ; } if ( valueEnumType. isEnumType ) { return ; }
+validator.expectCanAssignTo(t.getScope(), typeRegistry),
+validator.fail(
+ if (valueEnumType!= valueType) {
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueType)
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType == valueType ) { return ; }
+ if (valueEnumType == null) { return; } if (valueEnumType) {
+ if (valueEnumType!= valueType) { return; } return
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Unknown enum type: " +
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum type",
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= valueType ) return null ;
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueType) { return
+ if ( valueEnumType == null ) { return null ; } else { throw new IllegalStateException(
+ if (valueEnumType == null) { throw new IllegalArgumentException("Invalid enum type",
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum element types",
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo.getEnumParameterType(),
+validator.expectCanAssignTo(t, value,  declInfo.getEnumParameterType() &&
+validator.expectCanAssignTo(t, value,  valueEnumType); return getNativeType (
+ if (valueEnumType!= null) { return; }
+ if (valueEnumType == null) { return
+ if (valueEnumType == null) { return null; } if (valueEnumType)
+validator. notNull ( valueEnumPrimitive,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("\"" +
+ if ( valueEnumType == null ) { return null ; } return valueEnumType.
+ if (valueEnumType!= valueType) { return
+ if (valueEnumType == null) { return null; } if (valueEnumType!= valueType) { throw
+ if (valueEnumType == null) { return null; } return getNativeType(
+validator.expectCanAssignTo(t, value,  declInfo.getEnumParameterType(),
+validator.validateType(
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum type " +
+ return getNativeType(valueEnumType, valueEnumPrimitiveType,
+validator.expectCanAssignTo(valueEnumType, valueEnumType,
+ check(t, value, valueEnumPrimitiveType,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum element types " +
+ if (valueEnumType == null) { return null; } if (valueEnumPrimitive)
+ if ( valueEnumType == null ) { return null ; } else { return valueEnumType.
+ if (valueEnumType!= null) { throw new IllegalArgumentException(\"" +
+validator.expectCanAssignToValue(valueEnumPrimitiveType,
+ if (valueEnumType!= null) { return; } return
+validator. isEnumType ( valueEnum,
+validator.validate (valueEnum,
+ if (valueEnumType!= null) { throw new IllegalStateException(
+validator.expectCanAssignTo(valueEnumType, (Type)
+validator.expectCanAssignTo(t, value,  declInfo, valueEnumPrimitive,
+ if (valueEnumType == null) { return; } if (valueEnumType)
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid enum type:
+ if (valueEnumType == null) { throw new IllegalStateException(
+validator.expectCanAssignTo(t.getScope(), typeRegistry, " +
+ if ( valueEnumType == null ) { return null ; } else { return valueEnumType. replace (
+ if (valueEnumType == null) { return; } if (valueEnumType!= valueType) { return;
+ if (valueEnumType == null) { throw
+validator.expectCanAssignTo(valueType, valueEnum,
+ if (valueEnumType == null) { throw new IllegalArgumentException("Invalid enum type:
+ if (valueEnumType == null) { throw new IllegalArgumentException("Unknown enum type",
+ if (valueEnumPrimitiveType == null) { throw new TypeException(
+ if (valueEnumType == null) return;
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType, false,
+validator.expectCanAssignTo(t, valueEnumType, valueEnumPrimitive,
+ if (valueEnumType!= null) { return valueEnumType.toNativeType(
+ if (valueEnumPrimitiveType == null) { throw new RuntimeException(
+validator.expectCanAssignToType(valueEnum,
+ if (valueEnumType!= valueType) { throw
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid type:
+validator.expectCanAssignTo(valueType, valueEnumPrimitiveType
+validator.notNull(valueEnumPrimitiveType
+ if ( valueEnumType == null ) { return null ; } return valueEnumType &&
+ if ( valueEnumType == null ) { return null ; } else { return valueEnumType &&
+validator.validateType(valueEnumType,
+ if ( valueEnumType == null ) { return null ; } else { return valueEnumType. typeOf (
+ t.error(value,
+validator.expectCanAssignToAnyType(valueEnumPrimitive,
+ if (valueEnumType!= null) { throw new IllegalArgumentException("\" +
+ if (valueEnumType == null) { return null; } throw new Error(
+ if (valueEnumType!= valueType)
+validator.validate("enum",
+validator.expectCanAssignTo(t, value,  valueEnumType, declInfo ->
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= null ) { return null ; } return
+validator. ensureValid ( valueEnumType,
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType, 0,
+ if (valueEnumType!= null) { return valueEnumType; } else { throw
+validator.validate (valueEnumPrimitiveType
+ checkEnumType(t, value, valueEnumPrimitiveType,
+ return new JSType(valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.getScope(), typeRegistry, "",
+validator.expectCanAssignTo(t, value,  valueEnumType, declInfo &&
+ if ( valueEnumType == null ) { return null ; } return valueEnumType ||
+validator.valid(
+validator. isEnumType ( value, t,
+ if (valueEnumType == null) { return; } if (valueEnumPrimitive)
+ if (valueEnumType == null) { return null; } if (validator) {
+ return getNativeType ( valueEnumType,
+ if (valueEnumType == null) { return; } if (validator)
+validator.expectCanAssignTo(t.getScope(), valueEnum,
+validator.expectCanAssignToValue(valueEnumType,
+ if (valueEnumType == null) { return null; } else { return
+validator.expectCanAssignTo(t, value,  null,
+validator.expectCanAssignToType(valueEnumPrimitiveType); return
+ if (valueEnumType!= null) { throw new IllegalArgumentException("Invalid
+ if (valueEnumType!= null) { throw new IllegalArgumentException("",
+ t.error(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueEnumType, typeRegistry, null,
+validator.expectCanAssignTo(t, value,  typeRegistry,
+validator.expectCanAssignTo(t.getScope(), typeRegistry);
+ Assert.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ if (valueEnumType == null) { return; } if (validator) {
+validator.expectCanAssignTo(valueEnumType, valueType); assert(
+validator.validateType(valueEnumPrimitive,
+ return getNativeType(myEnum, valueEnumPrimitiveType,
+validator.validate (valueType,
+ if (valueEnumPrimitiveType == null) { throw new Exception(
+validator.expectCanAssignTo(valueType, declInfo,
+ if ( valueEnumType == null ) { return null ; } return (void)
+ if ( valueEnumType == null ) { return null ; } return (NativeType)
+validator.expectCanAssignTo(valueType, valueEnumType); return
+validator.notNull(valueEnumPrimitiveType ||
+ if (valueEnumPrimitiveType == null) { throw new TypeError(
+ return getNativeType(valueType,
+validator.expectCanAssignTo(t, value,  valueEnumValueType,
+ if ( valueEnumType == null ) { return null ; } else { return valueEnumType ; }
+ if (valueEnumType == null) { return null; } if (valueEnumType &&
+ if ( valueEnumType == null ) { return null ; } else {
+validator.expectCanAssignToType(valueEnumPrimitiveType
+ if (valueEnumType == null)
+ checkType(valueEnumPrimitiveType,
+validator.validate("myEnum",
+validator.expectCanAssignTo(this, valueEnumType,
+ checkType(value, valueEnumPrimitiveType,
+ if ( valueEnumType == null ) { return null ; } return (Node)
+validator.expectCanAssignTo(t,  valueType, valueEnum,
+ if ( valueEnumType == null ) { return null ; } if ( valueEnumType!= null ) { return null ; } *
+validator.expectCanAssignTo(null, valueEnumType,
+ return getNativeType ( valueType, declInfo, valueEnumPrimitiveType,
+ if (valueEnumType == null) { return null; } else { return null;
+ checkCast(value, valueEnumPrimitiveType,
+ if ( valueEnumType == null ) { return null ; } return (T)
+ return checkEnumAlias(t, value, valueEnumPrimitiveType,
+validator. notNull(
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); throw new Error(
+validator.notNull(valueEnum,
+ if (valueEnumType == null) { return; } else { return
+ check(valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); return getNativeType(
+ if (valueEnumType)
+validator.expectCanAssignTo(t, value,  valueEnumEnum,
+ if ( valueEnumType == null ) { return null ; } return (Type)
+validator. ensureValid ( value, t,
+validator.expectCanAssignTo(t.getScope(), typeRegistry); return
+ return getNativeType(UNKNOWN_TYPE,
+ if (typeRegistry!= null) { return
+validator.expectCanAssignTo(valueEnumPrimitiveType); return
+validator.expectCanAssignToValue(value,
+validator.expectCanAssignTo(t,  valueEnumEnum,
+ if (valueEnumType!= null) {expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType(valueType, valueEnumPrimitiveType,
+validator.expectCanAssignToType(valueType,
+validator.expectCanAssignTo(t,  valueEnumPrimitiveType) ;
+ if (validator!= null) {
+ return getNativeType(value,
+ if (typeRegistry!= null) {
+validator.validateType(valueEnum,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, typeRegistry, null,
+ checkType(t, valueEnumPrimitiveType,
+validator. validate ( value, t,
+ if (valueEnumType == null) { return; } else {
+ if (valueEnumType == null) { return null; } else { return this.
+validator.expectCanAssignTo(valueType, myEnum,
+validator.validate(value,
+ checkEnumAlias(value, valueEnumPrimitiveType,
+ report(t,
+ if (valueEnumType == null) { return; } if (null!=
+ return getNativeType(ANY_TYPE,valueEnumPrimitiveType,
+validator.validate(declInfo,
+ throw new IllegalArgumentException(value, valueEnumPrimitiveType,
+ return getNativeType(valueEnumPrimitiveType,
+ if (validator!= null)
+ checkEnumType(value, valueEnumPrimitiveType,
+validator. checkEnumType (
+validator.validate('enum',
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo.getName ( ),
+ return getNativeType ( valueEnumType, value, valueEnumPrimitiveType,
+ if (valueEnumType == null) { return null; } throw
+ return getNativeType(myEnum, value, valueEnumPrimitiveType,
+ this.checkEnumAlias(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.getScope(), typeRegistry); assert
+validator.expectCanAssignToValue(valueEnum,
+ check(value, valueEnumPrimitiveType,
+validator. ensureEnumType (
+ if (valueEnumType!= null) t.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,  valueEnumType, "enum" +
+ return getNativeType ( valueType. enumType, valueEnumPrimitiveType,
+validator.expectCanAssignToValue(valueType,
+ if (valueEnumType == null) { return; } if (null ==
+ if (valueEnumType == null) {expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return new JSTypeImpl(valueEnumPrimitiveType,
+ return getNativeType(MyEnum, valueEnumPrimitiveType,
+ if (valueEnumType == null) { return; } else { throw
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, "Invalid enum " +
+ return checkEnumAlias(value, valueEnumPrimitiveType,
+ return createNativeType ( valueEnumType, valueEnumPrimitiveType,
+ return getNativeType(ANY_ENUM,valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, "incompatible enum type",
+ throw new IllegalArgumentException("Invalid type",
+ if (valueEnumPrimitive)
+validator.expectCanAssignTo(ValueEnumPrimitive,
+ return getNativeType(VALUEENUMTYPE,
+ return getNativeType(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.getScope(), declInfo),
+ return getNativeType(VALUE_ENUMNS, valueEnumPrimitiveType,
+ return getNativeType(declInfo.value, valueEnumPrimitiveType,
+ if (typeRegistry!= null)
+ return getNativeType ( valueType. rawType, valueEnumPrimitiveType,
+ return checkEnumType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "incompatible value type" +
+ validate(value, valueEnumPrimitiveType,
+ return getNativeType ( valueEnumElementType,
+ return getNativeType(valueEnumType.value, valueEnumPrimitiveType,
+ return new JSTypeReference(valueEnumPrimitiveType,
+ this. checkEnumAlias(t, value, valueEnumPrimitiveType,
+ if (valueEnumType!= null) compiler.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, "Invalid enum element type",
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, typeRegistry, "" +
+ return getNativeType(MYENUM, valueEnumPrimitiveType,
+ throw new IllegalArgumentException(valueEnumPrimitiveType,
+ return getNativeType(ANY_TYPE,
+validator.expectCanAssignTo(t.getScope(), null,
+ JSType.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType ( "enum", t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); return getNativeType(value,
+ assertEquals(valueEnumPrimitiveType,
+ return getNativeType(VALUE_ENUM,valueEnumPrimitiveType,
+ return getNativeType ( "checkEnumAlias(t, value, valueEnumPrimitiveType,
+ if (valueEnumType!= null) this.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ checkCast(t, value, valueEnumPrimitiveType,
+ assert(valueEnumPrimitiveType,
+validator.validate(t,
+ validate(t, value, valueEnumPrimitiveType,
+ if (valueEnumType!= null &&
+ assert false,
+ error(t,
+ throw new InvalidArgumentException(value, valueEnumPrimitiveType,
+ throw new IllegalArgumentException("enum",
+ checkCast(valueEnumPrimitiveType,
+ check(t, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, typeRegistry, "",
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); throw new TypeException(
+ checkEnumElements(t, value, valueEnumPrimitiveType,
+ this. checkEnumAlias ( declInfo.value, valueEnumPrimitiveType,
+validator.expectCanAssignToAnyOf(valueType,
+validator.expectCanAssignTo(t, value,  typeRegistry, declInfo,
+validator.expectCanAssignTo(t,  typeRegistry, declInfo,
+ throw new IllegalArgumentException("enum", valueEnumPrimitiveType,
+validator.notEquals(
+validator.expectCanAssignTo(t, valueType, value,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, typeRegistry); return
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "incompatible value type",
+validator.expectCanAssignTo(ValueEnumType,
+validator.notNull(value,
+ return new JSType(value, valueEnumPrimitiveType,
+validator.validate("\"{\"",
+ assertType(valueEnumPrimitiveType,
+ return getNativeType ( valueType, declInfo, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "Unknown type " +
+ return checkEnumType(value, valueEnumPrimitiveType,
+ this. checkEnumAlias ( t, null, value, valueEnumPrimitiveType,
+ return getJSType(valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); return getNativeType(null,
+ checkTypeAlias(t, value, valueEnumPrimitiveType,
+ throw new IllegalArgumentException(value,
+ return typeRegistry.getType ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignToType(value,
+ return getNativeType(unknown_type,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, true,
+ if (valueEnumType == null) t.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ if (valueEnumType) { t.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "unknown enum type",
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo ->
+ return getNativeType(VALUE_NODE,valueEnumPrimitiveType,
+ if (valueEnumType) { compiler.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ copy(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "Unknown enum element type",
+ if (valueEnumType) { Assert.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.validationError(
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, typeRegistry) ;
+ return getNativeType(Unknown_TYPE,valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "incompatible enum type",
+validator.expectCanAssignToAnyOf(value,
+ checkEnum(t, value, valueEnumPrimitiveType,
+ return getNativeType(valueEnumType.valueEnumPrimitiveType,
+ return getNativeType(VALUE_ENUMNS,
+ checkElementsType(t, value, valueEnumPrimitiveType,
+ return getNativeType ( checkEnumAlias(t, value, valueEnumPrimitiveType,
+validator.validateString(
+ if (valueEnumType!= valueType)expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ t.check(value, valueEnumPrimitiveType,
+ throw new IllegalTypeException(value, valueEnumPrimitiveType,
+ if (!valueEnumType)
+validator.expectCanAssignTo(valueEnumType); return
+ assertSameType(valueEnumPrimitiveType,
+ return checkType(t, value, valueEnumPrimitiveType,
+ return (JSType)
+ t.annotate(value, valueEnumPrimitiveType,
+ throw new InvalidArgumentException(valueEnumPrimitiveType,
+validator.validate("value",
+ return getNativeType(null,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "expected",
+ return getNativeType(null, null,
+ return getNativeType ( valueType.valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "incompatible value" +
+validator.expectCanAssignTo(t, value,  "value",
+validator.expectCanAssignTo(t,  valueEnumType); return
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, typeRegistry, "",
+ return (JSType) checkEnumType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueType, typeRegistry,
+ return checkEnumElements(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  valueEnumPrimitiveType ||
+ this. checkEnumElements(t, value, valueEnumPrimitiveType,
+validator. isTrue(
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "value",
+ checkAlias(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "expected " +
+ if (validator) {
+ return getNativeType(MyEnum.valueEnumPrimitiveType,
+ t.error(1,
+ if (valueEnumType) { this.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return checkEnum(t, value, valueEnumPrimitiveType,
+ return checkElementsType(t, value, valueEnumPrimitiveType,
+ this. checkEnumAlias ( t, n, value, valueEnumPrimitiveType,
+ return getNativeType(ANY_TYPE),valueEnumPrimitiveType,
+ return getNativeTypeImpl(value,
+validator.expectCanAssignTo(t.getName(),
+ return getNativeType ( "enum " + value, value, valueEnumPrimitiveType,
+ this. checkEnumAlias(t.value, valueEnumPrimitiveType,
+validator.expectCanAssignToType(t,
+ return getNativeType(valueType.value, valueEnumPrimitiveType,
+validator. fail ( "Invalid enum type:
+ checkExpression(t, value, valueEnumPrimitiveType,
+ throw new InvalidTypeException(value, valueEnumPrimitiveType,
+ checkEnumAlias(t, valueEnumPrimitiveType,
+ return (JSType) checkEnumAlias(t, value, valueEnumPrimitiveType,
+ validate(valueEnumPrimitiveType,
+ throw new IllegalArgumentException(" "+valueEnumPrimitiveType,
+ throw new IllegalTypeException(valueEnumPrimitiveType,
+ return TypeCheckerUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validatorError(
+ return getNativeType(t.value, valueEnumPrimitiveType,
+ return getNativeType(valueEnum,
+ t.warning(value, valueEnumPrimitiveType,
+ report(t, valueEnumPrimitiveType,
+ return getNativeType("enum",valueEnumPrimitiveType,
+ this.checkEnumElements(value, valueEnumPrimitiveType,
+ return setNativeType(value,
+ this.checkEnumType(value, valueEnumPrimitiveType,
+ return getNativeTypeImpl(value, valueEnumPrimitiveType,
+ t.error(valueEnumPrimitiveType,
+validator.expectCanAssignTo(\"enum\",
+ throw new TypeException(valueEnumPrimitiveType,
+ JSTypes.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType) ; assertTrue(
+ t.checkCast(value, valueEnumPrimitiveType,
+ this. checkEnumType(t, value, valueEnumPrimitiveType,
+ Assertion. INSTANCE ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo &&
+ validateType(t, value, valueEnumPrimitiveType,
+ t.warning(value,
+ return typeRegistry.get ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ TypeChecker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,  myEnum,
+ return getNativeType(VALUE_NODE_value, valueEnumPrimitiveType,
+ return getNativeType(null, valueEnumPrimitiveType,
+ return getNativeType ( "checkEnum(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t.scope,
+validator.expectCanAssignTo(t, value,  declInfo, valueEnum,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo, typeRegistry) &&
+ assertSame(valueEnumPrimitiveType,
+ return getNativeType ( "enum type", value, valueEnumPrimitiveType,
+ validateType(valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, *
+ if (validator)
+ return typeRegistry.typeChecker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ JSDocInfo.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return typeRegistry. checkEnumElements(t, value, valueEnumPrimitiveType,
+ return (JSType) Assert.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.check(
+ return getNativeType(declInfo,value, valueEnumPrimitiveType,
+ return JSTypeUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ throw new IllegalStateException(value,
+validator.expectCanAssignToEnum(
+ throw new InvalidTypeException(valueEnumPrimitiveType,
+validator.error(
+ error(t, valueEnumPrimitiveType,
+ return getNativeType ( "enumType", value, valueEnumPrimitiveType,
+ return getNativeType ( ). createType(t, value, valueEnumPrimitiveType,
+ return getNativeType(checkEnumType(t, value, valueEnumPrimitiveType,
+ validateType(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  0,
+ t.error(0,
+ if (value!= null)
+validator.expectCanAssignTo(t, value,  "enum",
+ checkEnumElementType(t, value, valueEnumPrimitiveType,
+ return getNativeType ( "checkEnumType(t, value, valueEnumPrimitiveType,
+ return checkEnumElementType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(this, value,
+ if (valueEnumType &&
+ if (valueEnumType) { Debug.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ assertEquivalentTypes(valueEnumPrimitiveType,
+ t.fail(value,
+ checkElements(t, value, valueEnumPrimitiveType,
+ return checkEnumTypeAlias(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,  "enum",
+ return new JSTypeImpl(value, valueEnumPrimitiveType,
+ checkNodeType(t, value, valueEnumPrimitiveType,
+ throw new TypeException(value,
+validator.expectCanAssignTo(t, value,  valueEnumType
+ assertEnumType(t, value, valueEnumPrimitiveType,
+ Assertions.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ checkEnumElements(value, valueEnumPrimitiveType,
+ throw new TypeError(valueEnumPrimitiveType,
+ return JSDocInfoUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType(VALUE_NODE, value, valueEnumPrimitiveType,
+ return JSDocInfo.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ this.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType ( "enumAlias(t, value, valueEnumPrimitiveType,
+ return JSTypeAssignment.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return typeRegistry. compiler ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return JSTypeAssigner.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ checkIncompatibleTypes(t, value, valueEnumPrimitiveType,
+ this. checkEnumElementType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(valueType, value,
+ validate(t, valueEnumPrimitiveType,
+ checkIncompatibleElements(t, value, valueEnumPrimitiveType,
+ throw new TypeError(value,
+validator.expectCanAssignToAnyType(
+ assertTypeEquals(valueEnumPrimitiveType,
+ assertSameType(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(Value.class,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, "" +
+ checkEnumTypeAlias(t, value, valueEnumPrimitiveType,
+validator.validateSame(
+validator.fail
+ return checkIncompatibleElements(t, value, valueEnumPrimitiveType,
+ return getNativeType(checkEnum(t, value, valueEnumPrimitiveType,
+ report(t, value, valueEnumPrimitiveType,
+ return (JSDocInfo) compiler.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ checkEnum(t, valueEnumPrimitiveType,
+ t. report(value, valueEnumPrimitiveType,
+ return getNativeType(\"enum\":"value, valueEnumPrimitiveType,
+ Assertion. instance ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ t.error(Value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, (Node)
+ return JSDocInfoUtil.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ throw null,
+ return getNativeType(Elements).evaluate(t, value, valueEnumPrimitiveType,
+ return getNativeType ( ). newInstance(t, value, valueEnumPrimitiveType,
+ return getNativeType(\"enum\"+value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  false,
+ assertSubtypes(valueEnumPrimitiveType,
+ return typeRegistry.typeChecker().expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ this.checkEnumElementsType(t, value, valueEnumPrimitiveType,
+validator.warning(
+ JSDocHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return JSTypeAssignments.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType ( ). typeCheck(t, value, valueEnumPrimitiveType,
+ assertEquals(value, valueEnumPrimitiveType,
+ JSDocUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return checkEnumElementsType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(declInfo,
+ return typeRegistry.validator.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ t.warning(valueEnumPrimitiveType,
+ if (validationEnabled)
+ return JSDocUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return JSTypeUtil.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ report t, value, valueEnumPrimitiveType,
+ return JSTypeHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return typeRegistry.impl ( ).expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ process(t, value, valueEnumPrimitiveType,
+ JSTypeHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ this. checkEnumTypeAlias(t, value, valueEnumPrimitiveType,
+ JSType checker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ checkCast(t, valueEnumPrimitiveType,
+validator.expectCanAssignTo(valueEnumType),
+ checkTypes(t, value, valueEnumPrimitiveType,
+ return TypeCheckerHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t,
+ return TypeChecker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ if (!validator)
+validator.assert
+ report(value,
+ return getNativeTypeImpl(valueEnumPrimitiveType,
+ if (validation) {
+validator.expectCanAssignTo(t.getScope,
+validator.expectCanAssignTo(t,  valueType, null,
+ throwException(t,
+ return getNativeType ( ). convert(t, value, valueEnumPrimitiveType,
+ JSDoc.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return getNativeType ( "enumType(t, value, valueEnumPrimitiveType,
+ t.checkSubtypes(value, valueEnumPrimitiveType,
+ return getNativeType(Elements).apply(t, value, valueEnumPrimitiveType,
+ this. checkEnumElementTypes(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  valueType,
+ return checkEnumEquality(t, value, valueEnumPrimitiveType,
+ this. checkEnumAliasInNode(t, value, valueEnumPrimitiveType,
+ return getNativeType ( ). visit(t, value, valueEnumPrimitiveType,
+validator.validate();
+validator.verify(
+validator.expectCanAssignTo(t, value,  value,
+validator.expectCanAssignTo(t, value,  declInfo ->
+ JSCaller.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ throwError(t,
+validator.expectCanAssignToAny(
+ verify(valueEnumPrimitiveType,
+ return JSTypeChecker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  true,
+ return getNativeType ( "createType(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, null,
+ return (Boolean)
+ if (validator &&
+ assertType(value, valueEnumPrimitiveType,
+ this.checkEnumElementsTypes(t, value, valueEnumPrimitiveType,
+ return checkEnumTypeEquals(t, value, valueEnumPrimitiveType,
+ return getNativeType ( ). evaluate(t, value, valueEnumPrimitiveType,
+ check(t,
+validator.expectCanAssignTo(t, value,  valueEnumType ||
+ return checkEnumTypeMatch(t, value, valueEnumPrimitiveType,
+ validateCast(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  valueType, null,
+ throw(t,
+validatorException(
+validator.expectCanAssignTo(t, value,  valueEnumType),
+validator.expectCanAssignTo(\"" +
+ throw null, valueEnumPrimitiveType,
+ throw exception(t,
+ return checkEnumElementsTypes(t, value, valueEnumPrimitiveType,
+ return TypeCheckerUtil.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ copy(value, valueEnumPrimitiveType,
+ return t, value, valueEnumPrimitiveType,
+ return JSCaller.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueElem,
+validator.expectCanAssignTo(t, n,
+ ASTHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ astHelper.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t) &&
+ Exceptions.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value,  (Node)
+ checkEquality(t, value, valueEnumPrimitiveType,
+ throwException(value,
+validator.expectCanAssignTo(myType,
+ assert true,
+validator.expectCanAssignToValue(
+validator.expectCanAssignTo(\"\"",
+validator.expectCanAssignTo(t,  declarationInfo,
+ return (int)
+ traverse(t, value, valueEnumPrimitiveType,
+ verify(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t) ||
+ return TypeCheckUtils.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType) ;
+ return typeChecker.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ verify(t, value, valueEnumPrimitiveType,
+ throwError(value,
+validator.valid
+ JSTypeAssignment.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ warn t, valueEnumPrimitiveType,
+ traverse t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t), value,
+validator.expectCanAssignTo(t,  (Type)
+ assert(value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType) &&
+ return (void)
+ report t, valueEnumPrimitiveType,
+ reportValue, valueEnumPrimitiveType,
+ return (bool)
+ Jshint.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ assert null, valueEnumPrimitiveType,
+validator.expectCanAssignTo(this,
+validator.expectCanAssignToNode(
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); return
+ return; } return
+ return TypeAssignment.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return compiler.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t) ->
+ return this.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType) ||
+ return Debug.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t); return
+ checkType, value, valueEnumPrimitiveType,
+validator.expectCanAssignToInstance(
+ throw(",
+ checkValue, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(null,
+ report t,
+ compiler.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(Value)
+ return this.
+ return false;
+validator.expectCanAssignTo(t, value, valueEnumPrimitiveType); throw
+validator.expectCanAssignTo(t,  node,
+ return true;
+ return
+ * _expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ return; }
+ Expected.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueNode,
+ this._expectCanAssignTo(t, value, valueEnumPrimitiveType,
+validator.expectCanAssignTo(t, valueType),
+validator.expectCanAssignTo(t, value type,
+ return true,
+ * *expectCanAssignTo(t, value, valueEnumPrimitiveType,
+ } return
+ *

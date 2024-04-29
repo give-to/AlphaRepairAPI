@@ -1,0 +1,343 @@
+ skipEOLs();
+ token =
+ skipEOLs(); token =
+ skipEOLs();
+ skipEOLs;
+ skipEOLs);
+ token = next;
+ skipEOLs(); Node fieldName =
+ skipEOL(); token =
+ skipEOLs(); Node typeExpression =
+ token = next(); token = next();
+ skipEOLs(); if (!match(JsDocToken.COLON)) {
+ skipEOLs(); } while (true); token =
+ skipEOLs(); if (!match(JsDocToken.COLON))
+ skipEOLs(); if (!match(JsDocToken.COLON)) token =
+ skipEOLs(); Token typeExpression =
+ skipEOLs(); if (token == null) { break; token =
+ skipEOLs(); if (token == null) { break; } token =
+ skipEOLs(); if (!match(JsDocToken.TYPE))
+ skipEOLs(); token = next(); } else { token =
+ skipEOLs(); Token fieldName =
+ skipEOLs(); Token typeExpression = parseTypeExpression
+ skipEOLs(); token = next(); token =
+ skipEOLs(); if (!match(JsDocToken.COLON)) { token =
+ skipEOLs(); token = next(); } while (true); token =
+ skipEOLs(); if (!match(JsDocToken.TYPE)) {
+ skipEOLs(); if (!match(JsDocToken)) token =
+ skipEOLs(); if (token == null) { token =
+ token = next ( );
+ skipEOLs(); if (token == null) { return null; } token =
+next(skipEOLs());
+ skipEOLs(); if (!match(JsDocToken.STRING)) {
+ skipEOLs(); if (!match(JsDocToken.STRING))
+ skipEOLs(); if (!match(JsDocToken.TYPE)) token =
+ skipEOLs(); Token typeExpressionToken =
+ skipEOLs(); if (!match(JsDocToken)). token =
+ skipEOLs(); if (token!= null) { token =
+ skipEOLs(); token = next(); } token =
+ token = next(); } while (true;
+ parseFieldType(token) { switch (token) { case COLON: token =
+ skipEOLs(); if (!match(JsDocToken.COMMA)) { token =
+ skipEOLs(); token = next(); next();
+ token = next(); while (true);
+ skipEOLs(); if (!match(JsDocToken.COMMA)) token =
+ skipEOLs(); token = next ( );
+ skipEOLs(); if (token!= null) token =
+ skipEOLs(); token = nextToken();
+ skipEOLs(); if (token == null) token =
+ next(token);
+ skipEOLs(); if (token == null) { return null; token =
+ skipEOLs(); String fieldName =
+ skipEOLs(); token = next;
+ skipEOLs(); if (!token) { token =
+ skipEOLs(); token = next(); } while (token!=
+ skipEOLs(); if (!match(JsDocToken.COLON)) { } token =
+ token.skipEOLs();
+ skipEOLs(); token = next(token);
+ skipColon();
+ skipEOLs(); if (!match(JsDocToken).TYPE)
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; typeExpression =
+ next();
+ parseFieldType(token) { Node fieldType = newNode(Token.COLON); fieldType.addChild();
+ skipEOLs(); if (!match(JsDocToken.COLON))) token =
+ skipEOLs(); if (!match(JsDocToken.COMMA)) { } token =
+ skipEOLs(); token = next(); break;
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; skipEOLs();
+ parseFieldType(token) { switch (token) { case COLON: Node fieldName =
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; skipEOLs();
+ skipEOLs(token);
+ parseFieldType(token, skipEOLs);
+ parseFieldType(token) { Node typeExpression = parseTypeType(token) ; typeExpression =
+ skipEOLs(); Token typeExpression token =
+ skipEOLs(); if (!match(JsDocToken.TYPE)))
+ parseFieldType(token) { switch (token) { case COLON: Node typeExpression =
+ parseFieldType(token) { Node fieldType = newNode(Token.COLON); fieldType.addChildToBack
+ parseFieldType(token) { switch (token) { case COLON: } token =
+ token = next(); } while (token!= null;
+ token = next(); } while (true);
+ parseFieldType(token) { switch (token) { case COLON: String typeExpression =
+ skipEOLs(); Token token =
+ skipEOLs(); token = next ; next();
+ parseFieldType(token) { switch (token) { case COLON: String fieldName =
+ parseFieldType(token) { Node typeExpression = parseFieldType(token) ; typeExpression =
+next(skipEOLs);
+ skipEOLs(); Node fieldName = parseFieldName(token) ; if (fieldName == null) {
+ skipEOLs(); if (token == colon) {
+ skipEOLs(); Node typeName =
+ token. next ( );
+ skipEOLs(); Node fieldNameToken =
+ skipEOLs(); if (token!= COLON)
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; typeExpression.
+ parseFieldType(token) { switch (token) { case COLON: String string =
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; if (fieldName == null) token =
+ SkipEOLs(); token =
+ skipEOLs(); Token fieldNameToken =
+ token = next(); token. next();
+ token = nextColon();
+ parseFieldType(token); token = next();
+ skipEOLs(); } while (token =
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; skipEOL(); token =
+ skipEOLs(); token = nextCursor();
+ skipEOLs(); token = nextColon();
+ skipEOLs(); token = next();;
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; TypeExpression =
+next( ) ; skipEOLs();
+ token = next(); while (true;
+ parseFieldType(token) { Node fieldType = newNode(Token.COLON); fieldType.addChild.
+ SkipEOLs(); token = next ( );
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; skipEOL(); token =
+ parseFieldType(token) { Node typeExpression = parseTypeType(token) ; typeExpression.
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; SkipEOLs();
+ token.skipColon();
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; SkipEOL token =
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; skipEOLs(); }
+next( ) ; while ( token!= null ) {
+ if (token == null) { return null; } if ( token == null ) { return null ; } if (token!= null) {
+ token = next(token);
+ parseFieldType(token) { Node typeExpression = parseTypeExpression(token) ; SkipEOLs token =
+next(); } while ( token!= null ) ;
+next( ) ; if ( token!= null ) {
+ if (token == null) { return null; } if ( token == null ) { return null ; } if (token == null) {
+ parseFieldType(token) { Node fieldType = newNode(Token.COLON); fieldType.child(token).
+ SkipEOLs(); Node fieldName = parseFieldName(token) ; parseFieldName(token);
+ skipEOLs(); Token typeName =
+ skipEOLs(); Node fieldName = parseFieldName(token) ; parseFieldName(token);
+ SkipEOLs(); Node fieldName = parseFieldName(token) ; parseFieldName(token).
+ if (token == null) { return null; } if (token == null) { return null; } if (token!= null)
+ skipEOLs(); Node fieldName = parseFieldName(token) ; parseFieldName(token).
+next() if (token == null) { break; }
+next( ) ; token = next ( ) ;
+next(); while (true) {
+ if (token == null) { return null; } if (token == null) { return null; } if (token == null)
+ skipEOLs(); token = next(); } while token!=
+ skipEOL); token =
+next(skipEOLs();
+ skipEOLs(); if (!match(JsDocToken.COLON)) { return token }
+ skipEOLs();;
+ parseFieldType(token) { switch (token) { case COLON: String type = stream.
+ skipEOLs(); break;
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; if (fieldName!= null) token =
+ skipEOLs(); if (token!= null) token.
+next() while (token!= null) {
+ SkipEOLs(); Node fieldName = parseFieldName(token) ; parseFieldType(token);
+next( ) ; if ( token == COMMA ) {
+ parseFieldType(token) { Node fieldName = parseFieldName(token) + ': TypeExpression' ; token =
+ if (token == null) { return null; } if (token == null) { return null; } else { token = token.
+ if (!match(JsDocToken.COLON)) { return null; } else { skipEOLs(); } else { token =
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; skipEOLs(); while (token =
+ skipEOLs(); } token =
+ if (token == null) { return null; } if ( token == null ) { return null ; } else { token = (Token)
+ skipEOLs(); while (true);
+next( ) ; if ( token == COLON ) {
+ token. skipEOLs(); break;
+ skip(token);
+next() ; token = next(); while (true) {
+ token = next(colon);
+ parseFieldType(token) { Node fieldName = parseFieldName(token) ; skipEOLs(); while (token)
+ skipEOLs(); } while (true) ;
+ token. next ( ) ; token = next;
+ skipEOLs(); token = next(true);
+ token = next(); } while (true));
+ parseFieldType(token, fieldName);
+ skipColons();
+ next(_);
+next() ; token = next(); } while (true);
+ skipEOL; token =
+ token = next(); } while (token!= null);
+next() if (!match(JsDocToken.TYPE))
+ skipEOLs(); token.getText();
+ skipEOLs(colon);
+next() ; token = next(); while (true)
+next(); if (true) {
+ skipEOLs(); } while (true) {
+ skip(1);
+ parseFieldType(token) { switch (token) { case COLON: String fieldName = yield
+ skipEOLs(); next;
+next(); } while (! token ) ;
+ parseFieldType(token) { switch (token) { case COLON: String type = stream;
+ token = nextToken(token);
+ skipEOLs(); token.nextToken();
+ skipEOLs(); token.getToken();
+ token = nextComma();
+ skipEOL(token);
+ token = next(skipEOLs);
+ token = next(Token.LB);
+next(); if (!match(JsDocToken)) {
+next(); } while ( token!= nextToken ) ;
+ token. getColon ( );
+ skipEOLs(); return null;
+ token.moveTo(1);
+next(); if (token == ':') {
+ skipEOLs(); token. next();
+ if (token == null) { return null; } if ( token == null ) { return null ; } if ( token!= null ) break
+ token = next(); } while true;
+ token. next ( ) ; break;
+ skipEOLs(); next(token);
+ token.nextColon();
+ skipEOLs(); token |=
+ parseFieldType(token, fieldTypeList);
+ parseFieldType(token); next();
+next(); while (token!= COMMA) {
+nextLine ( token ) ;
+ SkipEOLs();
+ token = nextCursor();
+next() while (true) {
+next() if (true) {
+next(); if (token == colon) {
+ token = next(colon;
+ skipEOLs(); token = -
+next(token). skipEOLs();
+ parseFieldType(token). next();
+ parseFieldType(token, skipEOL);
+next(); if (!match(JsDocToken) {
+next() ; token = next(); while (true);
+ token = next(COLON);
+ skipEOLs(); token = next(_);
+ token = next().nextToken();
+next() { token = next(); } while true ;
+ skipEOLs(); token = next(););
+next( ) ; if (! colon ) {
+ token = next(Token.COL);
+ token = next().getToken();
+ skipEOLs(););
+ skipEOLs(); token = --
+ token = next(); } token = next();
+ token = token.
+ SkipEOLs();
+next() while (true);
+ token = next().getNext();
+ token. skipEOLs(); continue;
+next() { while (true) {
+next() while (token!= COMMA) {
+ skipEOLs()); token =
+next( ) ; token = next ( ) ; }
+next() ; token = next(); break ; }
+ skipEOLs(); return
+next() { while (true)
+ skipEOLs(...)
+ skipYOLs(); token =
+next() while (token!= COMMA) ;
+next() while (true)
+next() { skipEOLs(); }
+ skipEOSs);
+next() ; token = next(); } while ( ;
+ skipOLs();
+nextToken(token);
+next() while (token!= null) ;
+next(); } while ( token!= null ) ; }
+ skipToken();
+ skipCOLON();
+ SkipEOLs;
+next( ) ; while ( token!= null ) ;
+ skipEOS ();
+ skip(2);
+next(); } while ( token!= nextToken ) {
+ skipEOL();
+ SkipEOLs);
+ skipSpace();
+ token = next();;
+ break; token =
+next(skipEOLs();)
+ skipEnd(); token =
+ skipEOL();
+ skipNext();
+ skipColon;
+ skipWS();
+ nextToken();
+ token.next();;
+ skipEOLs());
+ token = token;
+next( ) ; skipEOLs(); }
+ token. next;
+next() ; break ; }
+ skipEOLs().
+next() ; while (true) ;
+ skipEOLs(); }
+ break; } else {
+next(skipEOLs(); });
+ (true);
+next() { skipEOLs(); };
+ next($);
+next(skipEOLs');
+next() { while (true) {}
+next() { while (true))
+next(colon) ;
+next( ) ; while ( true ) { }
+next(skipEOLs(); }
+next() { while (true) }
+next(skipEOLs())
+next(skipEOLs()); }
+next() ; do {
+ skipEOLs());
+next() while (true).
+ fieldName =
+ nextEOLs();
+ skipEOLs(); final
+ skipEOLs()
+ { token =
+ skipEOOLs();
+next (token) ; }
+nextLine ( token ) {
+ return null;
+ next() {
+ skipCapson();
+ token |=
+next(colon) {
+next(colon); }
+nextEOLs(); }
+ next();;
+next() break ; }
+ token ++;
+nextToken(token)
+next(...) ;
+ else {
+ token.
+ return token;
+ next(token)
+ break; } }
+ fieldName.
+ token = -
+next(token); } }
+next() ; } }
+next() ; } {
+ next(); }
+next(token); {
+ token +=
+next(...) {
+next(Token); }
+ break; }
+next(true); }
+next(2); }
+ Next(); }
+ Next(); {
+ else?
+ } {
+next() ; {
+next() { }
+next() } ;
+next() } }
+next(...)
+ return
+.
+ }

@@ -1,0 +1,811 @@
+ stream.next());
+ else { jsdocBuilder.markText(line, next());
+return new  ExtractionInfo();
+return new ExtractionInfo(line, charno);
+return new ExtractionInfo(line);
+return new  ExtractionInfo ( )
+ stream.update());
+return new ExtractionInfo(line, token);
+return new  ExtractionInfo ( line ) ; }
+ return line;
+ else { jsdocBuilder.mark(stream.next());
+ else { jsdocBuilder.markText(line());
+ else { jsdocBuilder.markText(new ExtractionInfo(line, next());
+ else { jsdocBuilder.markTextExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); }
+ else { jsdocBuilder.markText(next());
+ else { jsdocBuilder.mark(line, next());
+return new  ExtractionInfo ( token ) ;
+return new ExtractionInfo(line, charno, lineno);
+return new ExtractionInfo(line, next(token));
+return new Info ;
+ else { jsdocBuilder.markText(line, lineno, charno, lineno, charno + line.length()); }
+return new  ExtractionInfo ( token, line ) ;
+ return extractSingleLineBlock(line, next());
+return  extractSingleLineBlock ( token ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); }
+return new ExtractionInfo(line,  lineno, charno + line.length());
+ else { jsdocBuilder.markText(line, charno);
+ else { jsdocBuilder.markLineText(line, next());
+return new  ExtractionInfo ( token, line ) ; }
+ else { jsdocBuilder.markTextWithExtractionInfo(line, next());
+ else { jsdocBuilder.addExtractionInfo(line, next());
+ else { jsdocBuilder.markTextLine(line, next());
+return new  ExtractionInfo ( line, stream ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, lineno + line.length()); }
+return new ExtractionInfo(token, line, charno);
+ else { jsdocBuilder.markText(line, lineeno, charno, line.length()); }
+return new ExtractionInfo(line, lineno, charno);
+ else { jsdocBuilder.addTextExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno + line.length()); }
+return  extractSingleLineBlock ( token ) ; }
+ else { jsdocBuilder.markText(line, line, charno, line.length()); }
+return new ExtractionInfo(line, lineno, charno, token);
+ else { jsdocBuilder. markText ( line ) ; }
+ else { jsdocBuilder.new ExtractionInfo(line, next());
+return new ExtractionInfo(line, nextToken);
+return  extractSingleLineBlock ( token, option ) ;
+ else { jsdocBuilder.recordExtractionInfo(line, next());
+return new  ExtractionInfo ( line, token )
+ else { jsdocBuilder.markText(line, lineno, charno, line); }
+ else { jsdocBuilder.markText(line, lineno);
+return  extractSingleLineBlock ( token, stream ) ;
+return new  ExtractionInfo ( string, token ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, null); }
+ else { jsdocBuilder.append(line, next());
+ else { jsdocBuilder.generateExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (next) {
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (next!= null)
+ else { jsdocBuilder.write(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, false); }
+ else { jsdocBuilder.record(line, next());
+return new  ExtractionInfo ( token ) ; }
+return  extractSingleLineBlock(token, line);
+ else { jsdocBuilder.markText(line, 0);
+ else { jsdocBuilder.markText(line, lineno, charno, token); }
+return new ExtractionInfo(line, line, charno);
+ return extractSingleLineBlock(token, next());
+return new  ExtractionInfo ( ) ; }
+ else { jsdocBuilder.markText(line);
+return new ExtractionInfo(line, lineno, charno, lineno);
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (continue) {
+ else { jsdocBuilder.markTextInline(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, next()); }
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (debug)
+return new ExtractionInfo(line, charno, lineno, charno);
+ else { jsdocBuilder.markText(line, lineno, charno, token.info); }
+return new  ExtractionInfo ( token, stream ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } if (next)
+ else { jsdocBuilder.setExtractionInfo(line, next());
+ else { jsdocBuilder.mark(line,new ExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (next()) {
+ else { jsdocBuilder.markTextEnd(line, next());
+ else { jsdocBuilder.markText(line, lineno, line.length()); }
+ else { jsdocBuilder.markLineEnd(line, next());
+return new ExtractionInfo(line, line, charno + line.length());
+ else { jsdocBuilder.markText(line, charno, line.length()); }
+ else { jsdocBuilder.markText(line, line); }
+ else { jsdocBuilder.markTextBlock(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } } else {
+ else { jsdocBuilder.markInlineText(line, next());
+ else { jsdocBuilder. markText ( line, line ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } } else {
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } if (debug)
+ else { jsdocBuilder.markTextAndRecordExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } if (continue)
+ else { jsdocBuilder.markTextInLine(line, next());
+return new ExtractionInfo(line, charno + line.length());
+return new  ExtractionInfo ( line, lineno ) ;
+return  extractSingleLineBlock ( token, stream )
+return new ExtractionInfo(line, charno, token);
+ else { jsdocBuilder. markText ( line ) ; } }
+ else { jsdocBuilder.text(line, next());
+ return extractSingleLineBlock(token, stream));
+return new ExtractionInfo(line, line, charno, lineno);
+return new ExtractionInfo(token, line, charno, lineno);
+ return stream.next());
+ else { jsdocBuilder.markTextWithoutExtractionInfo(line, next());
+return  extractSingleLineBlock ( ) ;
+return new ExtractionInfo(line, charno, line.length());
+ return extractSingleLineBlock(token, stream, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } }
+ else { jsdocBuilder.markMarked(line, next());
+ console.log(line));
+ else { jsdocBuilder.markText().setExtractionInfo(line, next());
+ else { jsdocBuilder.markText().recordExtractionInfo(line, next());
+ else { line = line. trim ( ) ; } if ( line!= null ) {
+ if (next!= null)
+ else { jsdocBuilder.markTextAsExtractionInfo(line, next());
+ return extractSingleLineBlock(token, charno);
+ else { jsdocBuilder.markLine(line, next());
+ print(line));
+ else { jsdocBuilder.markText(line, lineno, charno, lineno, charno + line.length()); } }
+ return jsdocBuilder ;
+ else { jsdocBuilder.markTextInlineExtractionInfo(line, next());
+ return createExtractionInfo(line, next());
+ else { jsdocBuilder.markText()recordExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } }
+ else { jsdocBuilder.markText(line, line, charno, line); }
+return new  ExtractionInfo ( line, ) ;
+ else { jsdocBuilder.markTextNoText(line, next());
+ else { jsdocBuilder.markText(line, null);
+ else { jsdocBuilder.markTextAsText(line, next());
+ return extractSingleLineBlock(line);
+ else { jsdocBuilder.markLine(line, 0);
+return new  ExtractionInfo ( line, line ) ; }
+ else { jsdocBuilder.markLine(next());
+ jsdocBuilder.markText(line, next());
+return new ExtractionInfo(line,  lineno, charno, line.length());
+ else jsdocBuilder.markText(token.line, next());
+ return ( String ) line ;
+ else { line = line. trim ( ) ; }
+ stream.record(line, next());
+ else { jsdocBuilder.append(new ExtractionInfo(line, next());
+ else { line = line. trim ( ). toString ( ) ; }
+ else { jsdocBuilder.addTextToExtractionInfo(line, next());
+ if (next!= null) {
+ print(line);
+ else { jsdocBuilder.markText(line, lineno, charno, lineno, charno + 1); } }
+ return ( ExtractionInfo ) this ;
+return new  ExtractionInfo ( this ) ;
+return  extractSingleLineBlock ( stream ) ;
+ else { stream.markText(line, next());
+return  line. trim ( ) ;
+ else { jsdocBuilder.markText(line, lineno, charno, lineno + line.length()); } }
+ return extractSingleLineBlock ( token, line ) ; }
+return new ExtractionInfo(line, line.length(), charno);
+ else { jsdocBuilder.createExtractionInfo(line, next());
+ else { jsdocBuilder.addnew ExtractionInfo(line, next());
+ else { jsdocBuilder.markTextAndExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length() + 1); } }
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } if (next())
+ else { line = line. trim ( ). trim ( ) ; }
+ else { line = line. trim ( ). trim ( ) ;
+return  line. toString ( ) ;
+ else { jsdocBuilder.end(line,new ExtractionInfo(line, next());
+ else { jsdocBuilder. markText ( ) ;
+ else { jsdocBuilder.markText(line));
+ else { jsdocBuilder.createTextExtractionInfo(line, next());
+ return extractSingleLineBlock(token, option));
+ return ( ExtractionInfo )
+ if ( line. length () > 0 ) { line. trim ( ) ;
+return new ExtractionInfo(line, lineno, token);
+ else { jsdocBuilder.recordTextExtractionInfo(line, next());
+ else { jsdocBuilder.markLine(line());
+ else { jsdocBuilder.markExtractionInfo(line, next());
+ } return extractSingleLineBlock ( token, option ) ;
+ else { jsdocBuilder.markText(token, next());
+return new ExtractionInfo(line, lineno, charno + 1);
+ else { jsdocBuilder.markText(line;
+return new ExtractionInfo ( token, string, token ) ;
+ else { jsdocBuilder.info=new ExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineeno, charno, line.length()); } }
+ else { jsdocBuilder.markText(line, lineno, charno + line.length()); } }
+return new ExtractionInfo(line, next(stream.getCharno()) + 1);
+ else { jsdocBuilder.skip(stream.next());
+ else { jsdocBuilder.markText(line, lineno, charno, line); } }
+ else { jsdocBuilder.add(token,new ExtractionInfo(line, next());
+ else { console.log(line.length());
+ else { jsdocBuilder.markText(line, lineno, charno, charno + line.length()); } } }
+ else { jsdocBuilder.markText(line, lineno, charno, line.length(); } }
+ else { jsdocBuilder.markText(line, lineno, charno, charno + 1); } }
+ stream.update(line));
+ return extractSingleLineBlock(token,line, next());
+ else { next = stream. getNext ( ) ; } if ( next!= null )
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } } }
+return new ExtractionInfo(line, next(stream.getCharno() + 1));
+ else { console.log(line.toString());
+ else { jsdocBuilder.line(line, next());
+ return extractSingleLineBlock(token, lineno, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } if (debug())
+return  ( ExtractionInfo ) ;
+return new ExtractionInfo(line, nextLineNumber, charno, lineno);
+ return extractSingleLineBlock(token, line));
+return new ExtractionInfo(line, nextLineNumber, charno + line.length());
+ return extractSingleLineBlock(token, lineno);
+ else { return extractSingleLineBlock(token, next());
+ else { jsdocBuilder.markText(line, lineno, charno, line.length()); } } ;
+ else { jsdocBuilder.markText(line, lineno, charno, next()); } }
+ } return extractSingleLineBlock ( token ) ;
+ return extractSingleLineBlock(token, false));
+ else { line = line.toLowerCase());
+ if (line!= null) {
+return new ExtractionInfo(line, next() + next() + next() + next());
+return new ExtractionInfo(line,  charno, lineno, line.length());
+ else { jsdocBuilder.markText(line, lineno, charno); } }
+ jsdocBuilder.markText(token.line, next());
+ else { jsdocBuilder.mark(next());
+ else { jsdocBuilder.record(new ExtractionInfo(line, next());
+ else { jsdocBuilder.add(new ExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineno, charno, token); } }
+ else { next = stream. getNext ( ) ; next ( ) ; }
+ recordText(line, next());
+ return extractSingleLineBlock(token));
+ else { line = line. trim ( ) ;
+return new ExtractionInfo(line, next()). setToken ( token ) ; }
+ return extractSingleLineBlock(line, charno);
+return new ExtractionInfo(line, next()). getExtractionInfo ( ) ;
+ return extractSingleLineBlock(token, false);
+ else { jsdocBuilder.markEnd(new ExtractionInfo(line, next());
+ else { jsdocBuilder.markTextLine(next());
+return new ExtractionInfo(line, nextLineNumber(), charno);
+ else { line = stream.next());
+ stream.recordText(line, next());
+ else { jsdocBuilder.addText(line());
+ return line. toString ( ) ; }
+return new ExtractionInfo ( token, line, charno ) ; }
+ else { jsdocBuilder.markEndOfLine());
+return new ExtractionInfo(line, nextLineNumber + 1, jsdocBuilder);
+ else, jsdocBuilder.markText(new ExtractionInfo(line, next());
+ stream.update(line, next());
+ return extractSingleLineBlock(token, (string));
+ else { line = line.toString());
+ stream.add(line, next());
+return new ExtractionInfo ( token, line, stream ) ;
+return new ExtractionInfo ( line, line, token ) ;
+ return extractSingleLineBlock(token, charno));
+ if ( line. length () > 0 ) { next ( ) ;
+ else { next = stream. getNext ( ) ; next = null ; }
+ if ( line. length () > 0 ) { line. length ( ) ; }
+ return extractSingleLineBlock(token, options));
+ return ( ExtractionInfo ) token. info ;
+return new ExtractionInfo(line, next()). setToken ( token ) ;
+ return extractSingleLineBlock(token, true);
+ return ( ExtractionInfo ) token ;
+ else { jsdocBuilder.markString(line, next());
+ else { nextLine = line. toString ( ) ; }
+ else { next = stream. getNextLine ( ) ; }
+ stream.addText(line, next());
+ return extractSingleLineBlock(token, (line));
+ else { jsdocBuilder.markText(line, lineno, charno, line.length(); } } }
+return new ExtractionInfo(line, next()). setToken ( token. info ) ;
+return new ExtractionInfo(token, line, line.length());
+ jsdocBuilder.markText(token,line, next());
+return new ExtractionInfo ( token, line, false ) ;
+return new ExtractionInfo(line, next()). setToken ( token. info ) ; }
+ return line.toLowerCase());
+ else { jsdocBuilder.addText(new ExtractionInfo(line, next());
+ else { jsdocBuilder.markText()+new ExtractionInfo(line, next());
+ else { jsdocBuilder.markText(line, lineeno, charno); } }
+ return extractSingleLineBlock(line, charno));
+ stream.add(line));
+ return ( ExtractionInfo ) this ; }
+ return extractSingleLineBlock(line));
+ return extractSingleLineBlock(stream.next());
+return new ExtractionInfo(token, line, charno, line);
+ else { return jsdocBuilder.new ExtractionInfo(line, next());
+ if ( line. length () > 0 ) { nextLine ( line ) ; }
+return new ExtractionInfo(line, nextLineNumber + nextLineNumber + charno);
+ else { next = line. length ( ) ; }
+ else { if (line.length() > 0) {
+ else { jsdocBuilder.markText(");
+ stream.addLine(line, next());
+ else { jsdocBuilder.markText()new ExtractionInfo(line, next());
+return  ( ExtractionInfo ) token
+return new  ExtractractionInfo ( ) ;
+ return ( ExtractionInfo ) this. info ;
+ else { if (line.length() == 0) {
+ else { line = (stream.next());
+return new ExtractionInfo(line, nextLineNumber, charno, line.length());
+return new ExtractionInfo ( token, string, token ) ; }
+ if ( line. length () > 0 ) { line. trim ( ) ; }
+return new ExtractionInfo(line, nextLineNumber(), line, charno);
+ else { jsdocBuilder.comment=new ExtractionInfo(line, next());
+ stream.write(line, next());
+ record(line, next());
+ else { line = "" ; }
+ return ( String ) line ; }
+return new ExtractionInfo ( line, line, line, line ) ;
+ return extract(token, next());
+ stream.markText(line, next());
+return  line ; }
+return new ExtractionInfo ( token, string, line ) ; }
+ line = stream.next());
+ else { line.append(line.length());
+ else { jsdocBuilder.markline, next());
+return new ExtractionInfo ( token, line, lineno ) ;
+return  ( ExtractionInfo ) {
+return new ExtractionInfo(line, nextLineNumber, charno);
+ else { line = stream.getCurrentLine());
+ recordText(line));
+return new ExtractionInfo(line, nextLineNumber(), line.length(), charno);
+ else { next = stream. getNextToken ( ) ; }
+ return new ExtractionInfo(line));
+ else { console.logLine(line, next());
+ console.log("", line));
+return new ExtractionInfo(line, nextLineNo, charno);
+ if (next) {
+ else { jsdocBuilder.markEnd(line, next());
+ return line. trim ( )
+ return extractSingleLineBlock(jsdoc);
+ return extractSingleLineBlock(token, lineNo);
+ else { jsdocBuilder.markEnd(next());
+return new ExtractionInfo ( token, line, line, token ) ;
+return new ExtractionInfo(line, next() -> next() -> next() -> next());
+ else, jsdocBuilder.markText(line, next());
+return new ExtractionInfo(token, line, null);
+ return (ExtractionInfo) stream.next());
+return new ExtractionInfo(line, lineno, charno, null);
+ return extractSingleLine (token, stream, next());
+ else { stream.record(line, next());
+return new ExtractionInfo(line, nextLineNumber + charno);
+ else { return line.toLowerCase());
+return new ExtractionInfo ( token, line, line, line ) ;
+ print(line, next());
+ else { line = line. trim ( ) ; } } else {
+ stream.set(token, next());
+ else { jsdocBuilder.markText(getnext());
+ return newExtractionInfo(line, next());
+return new ExtractionInfo(line, next()). setToken ( token. token ) ; }
+return new ExtractionInfo(line, next()). toString ( ) ;
+return new ExtractionInfo(line, next() + 1) + 1;
+ else { console.log(line, next());
+ else { line = line. trim ( ). trim ( ) }
+ return extractSingleLine(token, stream));
+return new ExtractionInfo(line, next()). build ( ) ;
+ return extractSingleLineBlock(charno));
+ console.logLine(line));
+ stream.setLine(line));
+return new ExtractionInfo(line, next() + 1, line.length(), charno);
+return new ExtractionInfo(line, next() + next() + next()) + next());
+ return extractSingleLine(token, next());
+ if ( line. length ( ) > 0 ) { next ( ) ; }
+ else { next ( ) ; }
+ else { next ( ) ;
+return new ExtractionInfo(line, nextLineNumber + nextLineNumber + 1);
+ else { jsdocBuilder.markLine(line;
+ return extractSingleLineBlock(currentLine, next());
+return new ExtractionInfo(line, next()). setToken ( token, token ) ; }
+ return line.length());
+ return line.toString());
+return new ExtractionInfo(line, nextLineNumber(), line, charno, token);
+ if (debug) {
+ else { nextLine ( line, next ) ; }
+return new ExtractionInfo ( line, token ) ; } }
+return new ExtractionInfo(line, next()). setToken ( token. token ) ;
+ else { jsdoc.record(line, next());
+ else { line. append ( token ) ; }
+return new ExtractionInfo(line, nextLine);
+ else { jsdocBuilder.markSpace(next());
+ return extractSingleLine();
+ else { return null ; } return null;
+ stream.record(line));
+ else { nextLine ( line ) ; }
+ else { nextLine ( ) ; }
+return new  Text ( )
+ stream.setText(line, next());
+ return extractSingleLineBlock(lineno));
+ return extractSingleLineBlock(jsdoc, next());
+ else, jsdocBuilder.markText(next());
+ else { jsdocBuilder.markText(); return;
+ if ( line. length () > 0 ) { nextLine ( line ) ; } }
+ stream.setCurrentLine(line));
+ stream.update().next());
+ else { stream.set(token, next());
+ stream.replace(line, next());
+ else { jsdocBuilder.mnew ExtractionInfo(line, next());
+return new ExtractionInfo(line, next()). getExtractionInfo ( ) ; }
+ return extractSingleLineBlock()(token);
+return new ExtractionInfo(line, next(stream.getLineNumber() + 1));
+return new ExtractionInfo(line, next()). setToken ( token ). extractInfo ;
+ else { jsdocBuilder.markTextnext());
+ else { jsdoc.write(line, next());
+ return token. info ;
+ record(line));
+ else { line = null ; }
+return new ExtractionInfo(line, next() + 1);
+ return extractSingleLineBlockInternal(line, next());
+ else { return new TextExtractionInfo(line, next());
+ else { jsdoc.add(line, next());
+ else { nextLine = line ; }
+ stream.append(line, next());
+return new ExtractionInfo(line, lineno, charno, lineno());
+return new ExtractionInfo(line, charno, lineno, charno());
+ stream.addText(line));
+ else { line = line. trim ( ) }
+return new ExtractionInfo(line, next() + next() + next() + line);
+ else { stream.add(line, next());
+ else { jsdocBuilder.createnew ExtractionInfo(line, next());
+return new ExtractionInfo(line, nextLineNumber, charno + lineno);
+ else { jsdocBuilder.recordnew ExtractionInfo(line, next());
+return new ExtractionInfo(line, next() + next() + next() + next()));
+ else { charno = stream.next());
+ return line.toUpperCase());
+return new ExtractionInfo(line, next(line));
+return new ExtractionInfo(line, next() + next() + next() + token);
+return new ExtractionInfo(line, next() - 1, charno);
+ stream.setLine(line, next());
+ return extractSingleLine ( token, stream);
+ } private ExtractionInfo extractNext ( ) {
+return new ExtractionInfo(line, charno + line.length()); }
+return new ExtractionInfo(line, next() - 1) - 1;
+ } private ExtractionInfo next ( ) {
+return new ExtractionInfo(line, next()). getInfo ( ) ;
+return new ExtractionInfo(line, next(stream.getCharno() + 2));
+ print(line.toString()));
+ else { return null ; } return line;
+ else { return jsdocBuilder.next());
+return new ExtractionInfo(line, next(stream.getCharno()) + 1));
+ if (next()) {
+ printText(line));
+ printLine(line));
+return new ExtractionInfo(line, next() + 1, token.info);
+return new ExtractionInfo(line, nextLineNumber + nextCharNumber);
+ else { return new JSDocExtractionInfo(line, next());
+ if (continue) {
+ line = (stream.next());
+ record(line);
+ return extractSingleLineBlock(lineInfo);
+ else { stream.write(line, next());
+ return extractSingleLineBlock(_);
+return new ExtractionInfo(line, next() + charno);
+ console.log((line));
+ (line);
+return new ExtractionInfo(line, next(stream.getCharno())) ;
+ return line. trim ( ) ; } }
+ else { console.log(line);
+return new ExtractionInfo ( token ) ; } return null ; } }
+return new ExtractionInfo(line, next() + next() + next() + indent);
+return new ExtractionInfo(line, next() - 1, token.info);
+return  null ;
+return new ExtractionInfo(line, nextLineNumber + nextCharNo);
+ return extractSingleLine(line, next());
+ return append(line);
+return new ExtractionInfo(line, next()). setToken ( token ) ; } }
+ else { next = stream. getNext ( ) ; next = next ; } }
+ stream.updateLineNumber());
+ stream.setLineNumber());
+ return extract(token);
+return new  ExtractionInfo(...)
+return new ExtractionInfo(line, nextLineNumber, nextCharNo);
+return new ExtractionInfo(line, next(stream, token, option));
+return new ExtractionInfo(line, nextLineNumber, token);
+return new ExtractionInfo(line, null);
+ else { line = null ; } return line;
+ else { line = line. trim ( ) ; } }
+return new ExtractionInfo(line,  line, charno + line.length()); }
+ else { jsdocBuilder.ExtractionInfo(line, next());
+return new ExtractionInfo(line, next()). setToken ( token ) ; } } ;
+return new ExtractionInfo(line, lineno, charno); }
+ return extractSingleLineBlock(lineString));
+ return extractMultiLineBlock(token);
+return new ExtractionInfo(line,  lineno, charno + line.length);
+ return extractSingleLineBlock);
+return new ExtractionInfo(line, next(token, stream));
+return new ExtractionInfo(line, next() -> next() -> next() -> token);
+return new ExtractionInfo(line, nextLineNumber + nextLineNumber);
+ else { return null ; } return token;
+ return extractTextual(token, next());
+ else { jsdocBuilder.markLine;
+return new ExtractionInfo(line, nextLineNumber(), token);
+ stream.update(line);
+return  lineno ;
+ else { return new SingleLineExtractionInfo(line, next());
+ else { line = line. trim ( ) ; } } }
+return new ExtractionInfo(line, charno, line.length()); }
+ else { return new LineExtractionInfo(line, next());
+return new ExtractionInfo(token, line, charno, lineno());
+return  this. info ;
+ return trim(line);
+return new ExtractionInfo(line, next()). extractSingleLineBlock() ;
+ else { next = stream. getNextLine ( ) ; } } }
+ else { line = line.getText());
+ else { return new JsExtractionInfo(line, next());
+return new ExtractionInfo(line, next() -> next() -> token);
+ jsdocBuilder.record(line, next());
+ return line ; } }
+ else { next = stream. getNextLine ( ) ; } }
+ return (stream.next());
+ return (extractionInfo) this;
+ else { markText(line, next());
+ else { token = stream.next());
+ stream.set(line));
+ (line));
+ else { console.log(line());
+return new ExtractionInfo(line, next()) ; } return null ;
+ else { if (line.length() > 0) {}
+ else { line = "" ;
+ stream.increment());
+return new ExtractionInfo(line, charno, lineno); }
+ printDescription(line));
+ return line + " ";
+ return stream.getText());
+ return ( String ) line
+ return extractSingleLineBlock(token, indent());
+return new ExtractionInfo(line, charno, lineno());
+ else { console.log(getLine());
+ line.setLineNumber());
+ return (line);
+return new ExtractionInfo(line, next() + next() + next() + indent());
+ else { line = line ; } return line;
+return new ExtractionInfo(token, line, line.length()); }
+return new ExtractionInfo(line, next(token), token);
+return new ExtractionInfo(line, next()) ; } return null ; }
+ else { return null ; } } return null;
+ else { return "" ; } return null;
+ return extractSingleLine(token);
+ if (inline) {
+ return extract(line);
+ line.append(stream.next());
+ else { next = line. trim ( ) ; } }
+ else { jsdocBuilder.text = line;
+ return new Info(line);
+return new  ExtractInfo();
+ printLine(line, next());
+ return indent(line);
+ record(token, next());
+ stream.endLine());
+ else { next = true ;
+ stream.update(next());
+ else { line.append(getString());
+return new ExtractionInfo(line, next()) ; return null ; }
+ else { nextLine = line. length ( ) ; } }
+ else { return new StringExtractionInfo(line, next());
+ line = stream.stream().next());
+ return extractSingleLineBlock());
+return new ExtractionInfo(token, line, charno());
+ else { next = stream. getNext ( ) ; } next ( ) ; }
+ return stream.getCurrentLine());
+return new ExtractionInfo(line, line, charno); }
+return  - 1 ;
+ return stream.getLineNumber());
+ log(line));
+ else { return new SimpleTextExtractionInfo(line, next());
+ stream.parse(line, next());
+ return extract(line, next());
+ return (int) charno;
+return new ExtractionInfo(line, next(stream.getCharno() + 1))
+ else { next = stream. getNext ( ) ; } } } }
+return new ExtractionInfo(line, next(token, line, charno)) ;
+return new ExtractionInfo(line, next()) ; return null;
+ return getExtractionInfo(line, next());
+ else { return null;
+ return extractTextDescription(line);
+ else { jsdocBuilder.end(line;
+ else, jsdocBuilder.new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next() - lineno);
+ if (debug)
+return new ExtractionInfo(line, next()). setToken ( token. info )
+ recordLine(line, next());
+return  extractSingleLineBlock(line); }
+ if (next)
+return new ExtractionInfo(line, next() - 1, token.token);
+ printText(line, next());
+ return stream.update());
+ print(token, next());
+ stream = stream.next());
+return new ExtractionInfo(line, line, null);
+return new ExtractionInfo(line, next()). toJSDocToken();
+ else { returnnew ExtractionInfo(line, next());
+ return line ; } } ;
+return new ExtractionInfo(line, next()). toJSDocInfo();
+return new ExtractionInfo(line, nextLineNumber) ; }
+ else { line += (stream.next());
+return new ExtractionInfo(line, next(stream, token.info););
+ return " " + line;
+ return (extractionInfo) token;
+ print((line));
+return new ExtractionInfo(line, next()). setToken ( token. info));
+ append(line, next());
+return new ExtractionInfo(line, nextLineNumber, charno, lineno));
+ else { stream.update(next());
+ if (continue)
+return new  Info();
+ stream.reset());
+ return (extractionInfo) info;
+return new ExtractionInfo(token, line, charno));
+return new ExtractionInfo(line, nextLineNumber + nextLineNumber());
+ else { nextLine ( line ) ; } }
+ return stream.getEndPosition());
+ return line + " " + token;
+return new ExtractionInfo(line, charno); }
+return new ExtractionInfo(line, next()) + charno);
+return new ExtractionInfo(line, next(stream.getCharno())); }
+ return extract(stream, next());
+return new ExtractionInfo(line, next()) { return null;
+ else { line = line. trim ( ) ; } } else { }
+ return line + ' ';
+ return stream.getTextualDescription());
+return new ExtractionInfo(line, line, charno());
+ else { nextLine ( line ) ; } } }
+return new ExtractionInfo(line, next(stream, token.info); });
+ return (line));
+return new ExtractionInfo(line, next() + 1, token.info());
+return new ExtractionInfo(line, next(stream.getCharno())));
+return new ExtractionInfo(line, false);
+return new ExtractionInfo(line, nextLineNumber(line););
+ else { return stream.next());
+ recordDescription(line, next());
+return new ExtractionInfo(line, nextLineNumber, stream);
+ return line + "\n;
+ return buildExtractionInfo(line, next());
+return  null ; }
+ return (extractionInfo) null;
+return new ExtractionInfo(line, next()) ; } return null ; } }
+return new  TranslationInfo();
+return new  ExtractionInfo
+ else { jsdocBuilder=new ExtractionInfo(line, next());
+return new  String ( )
+ return line.text;
+ return line.toStringBuffer());
+return new ExtractionInfo(line, next()) + charno;
+ return new TextBlock(line, next());
+ else { return createExtractionInfo(line, next());
+return new ExtractionInfo(line, nextLineNumber(), false);
+return new ExtractionInfo(line, next(token, token););
+return new ExtractionInfo(line, next()). getExtractionInfo ( )); }
+return new ExtractionInfo(line, charno));
+return new ExtractionInfo(line, next(token););
+ else { nextLine ( ) ; } }
+ return stream.getTextualBlock());
+return new ExtractionInfo(line, next(stream, token, option);
+return new ExtractionInfo(line, nextLineNumber(), line, charno());
+return new ExtractionInfo(line, line, charno));
+return new ExtractionInfo(line, next(token, line, charno););
+return new ExtractionInfo(line, next() - 1, token.info());
+return new ExtractionInfo(line, next(stream, token, option););
+ } private ExtractionInfo next() { {
+return new ExtractionInfo(line, next(stream, token, option); });
+.stream.next());
+ else { line = "" ; } }
+ else { next ( ) ; } }
+ return line);
+return new ExtractionInfo(line), token);
+return new ExtractionInfo(line, next(stream, token); });
+return new ExtractionInfo(line, charno());
+ stream.setEnd());
+return new ExtractionInfo(line, next(token, token); });
+ return line + '\n;
+return new ExtractionInfo(line, next(stream, token););
+ return line.description;
+return new  Text ( ) ;
+ return line + "\\n;
+ return stream.getCurrentLineNumber());
+return  token ;
+return new ExtractionInfo(line, next(token, stream, option););
+ return line.content;
+return new ExtractionInfo(line, next() + charno());
+return new ExtractionInfo(line, next() + charno));
+ extract(line, next());
+return new ExtractionInfo(line, next(token, line, charno); });
+return new ExtractionInfo(line, next(line, charno););
+ return charno;
+return new ExtractionInfo(line, next() + 1) ; }
+return new ExtractionInfo(line, next(stream.getLineNumber())); }
+ else { line = null ; } }
+ return line.info;
+return new ExtractionInfo(line, next() + 1, token.info); }
+ } private ExtractionInfo next() { *
+return new ExtractionInfo(line, next()) ; } return null ; } ;
+return new ExtractionInfo(line, next(token)) ; }
+return new ExtractionInfo(line, nextLineNumber(), line, charno));
+return new ExtractionInfo(line, next(token, stream););
+ stream.close());
+return new ExtractionInfo(line, next()) { return null; }
+return  " " ;
+return new  ExtractionInfo ;
+return new ExtractionInfo(line, nextLineNumber(), line, charno)
+ else { return new DefaultExtractionInfo(line, next());
+ else { nextLine = line ; } } } }
+return new ExtractionInfo(line, next() - 1, token.info); }
+ else { info=new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next(token); });
+ else { return new SimpleExtractionInfo(line, next());
+return new ExtractionInfo(line, nextLineNumber + nextCharNumber); }
+ else { next=new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next() ) ; }
+ stream.end());
+return new ExtractionInfo(line, next()) + token;
+return new ExtractionInfo(line, next(line, charno); });
+ stream.start());
+return new ExtractionInfo(line, charno)
+ return (token);
+ if (inline)
+return new ExtractionInfo(line, next()) { return null; });
+return new ExtractionInfo(line, next(line, charno)); }
+ else { next(new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next(stream));
+return new ExtractionInfo(line, next() - 1) ; }
+ else { return next(new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next()). extractSingleLineBlock(); }
+return new ExtractionInfo(line, next()) + 1);
+ while stream.next());
+ else { return getExtractionInfo(line, next());
+ return new LineExtractionInfo(line, next());
+return new ExtractionInfo(line, nextToken());
+ return extractExtractionInfo(line, next());
+ line.contents().next());
+return new ExtractionInfo(line, lineno); }
+ else { traceInfo=new ExtractionInfo(line, next());
+ } else { returnnew ExtractionInfo(line, next());
+.stream().next());
+ else { token=new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next()) + 1;
+ else { return buildExtractionInfo(line, next());
+return new ExtractionInfo(line, nextLine());
+ recordText());
+ return line, next());
+return new ExtractionInfo(line, next(token);)
+ return line));
+ return new TextExtractionInfo(line, next());
+return new ExtractionInfo(line, next() + 1, token.token); }
+return new ExtractionInfo(line, next(token, stream);
+return new Line ;
+return new ExtractionInfo(line, next() - 1, token.token); }
+return new ExtractionInfo(line, next() + 1));
+ else { return makeExtractionInfo(line, next());
+ addText(line, next());
+ process(line, next());
+ return (string));
+return new ExtractionInfo(line, next()) + token);
+ else { line = (next());
+ } else {
+return new ExtractionInfo ( line )
+return new ExtractionInfo(line, nextLine); }
+return new ExtractionInfo(line, next()) + indent;
+return new ExtractionInfo(line, next() + charno); }
+return new ExtractionInfo(line, next() + 1, token, indent); }
+ else { return token.new ExtractionInfo(line, next());
+ } else { next=new ExtractionInfo(line, next());
+ return textDescription;
+ } return null;
+ recordLine());
+ return "...";
+ if (next())
+ } else { next(new ExtractionInfo(line, next());
+return new ExtractionInfo(line, next(...));
+ return new StringExtractionInfo(line, next());
+ updateLine());
+return new ExtractionInfo(line,  true);
+(true));
+(true);
+(token);
+ (this));
+return new ExtractionInfo(line, next() - lineno); }
+return new ExtractionInfo(line, nextLineNumber()); }
+return new ExtractionInfo(line, nextLineEnd); }
+return new ExtractionInfo(line, next(token);
+ (token, next());
+return new ExtractionInfo(line, nextLineNo); }
+ setLine());
+ else { recordExtractionInfo(line, next());
+ return null, next());
+ getLine());
+ (line, next());
+return new ExtractionInfo(line, nextCharno); }
+return new ExtractionInfo(line, next() + charno)); }
+ return true;
+return new ExtractionInfo(line, next() + 1());
+ return token, next());
+return new ExtractionInfo(line, nextline);
+ while (hasnext());
+return new ExtractionInfo(line, next() + 1)
+return new ExtractionInfo(info);
+return new ExtractionInfo(line, nextToken); }
+return new ExtractionInfo(line, nextStart); }
+ return new DefaultExtractionInfo(line, next());
+ else {
+return new ExtractionInfo(string);
+return new ExtractionInfo(line, nextline); }
+return new ExtractionInfo(line, nextLine()); }
+ else { }
+return new ExtractionInfo(this); }
+return new ExtractionInfo(line, next())); }
+ else { thrownew ExtractionInfo(line, next());
+ else { #new ExtractionInfo(line, next());
+ } } }
+ } returnnew ExtractionInfo(line, next());
+ } } ;
+ iterator.next());
+ else, returnnew ExtractionInfo(line, next());
+ reader.next());
+ iter.next());
+ } else,
+ } }
+return new ExtractionInfo(line, next()) { }
+return new ExtractionInfo(line, next()) {...
+return new ExtractionInfo(line)); }
+ }
+ } #new ExtractionInfo(line, next());
+return new ExtractionInfo(line), token
+ else,

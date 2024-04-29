@@ -1,0 +1,200 @@
+ } else
+ break;
+ } else {
+ if (hasSideEffects) {
+break ; } else { continue ; }
+break ; } else { break ; }
+break ; } else { continue ;
+ } else { hasSideEffects = false;
+ if (hasSideEffects)
+ } else { hasSideEffects = false ;
+ } if (hasSideEffects) { callNode.setIsNoSideEffectsCall();
+ break; } else
+ } else { defs. remove ( def ) ;
+ break ; } else { hasSideEffects = false;
+ } } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+break ; } else { functionInfo = def ; }
+break ; default : break ;
+ } } if ( hasSideEffects ) { callNode. setIsPure ( ) ;
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure(true);
+ } else { defs [ name ] = def;
+ } else { hasSideEffects = false ; } } if ( hasSideEffects ) { callNode. setIsPure ( ) ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+break ; } else { break ; } }
+ } } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+ } } if (hasSideEffects) { callNode.setIsPureCall();
+ } if (hasSideEffects) { functionInfo.setIsNoSideEffectsCall();
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( ) ;
+ } else if (defs == null) { defs = [ ] ; } if ( hasSideEffects ) {
+ } else { hasSideEffects = false ; } } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+ } else { hasSideEffects = false ; } } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( true )
+ } } if (! hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+ } else { functionInfo.setIsPure ( false);
+ } else if (defInfo.mayBePure()) { hasSideEffects = true ; } } } else {
+ } else { if (hasSideEffects) {
+ } else if (defs!= null) { defs. add ( def. getRValue ( ) ) ;
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure(false);
+ } else { hasSideEffects = false ; } if (! hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+ } else if (hasSideEffects) {
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true )
+ break; } else {
+ } else { hasSideEffects = true ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+ } else { hasSideEffects = true ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( )
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure();
+break ; } break ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( false )
+ } } if (! hasSideEffects ) { callNode. setIsNoSideEffectsCall ;
+ } if (hasSideEffects) { callNode.setIsPure(true);
+ } if (hasSideEffects) { callNode.setIsSideEffectsCall();
+ } else { hasSideEffects = false ; } if (hasSideEffects)
+ } } if ( hasSideEffects ) { callNode. setIsPure ( false )
+ break; } else { hasSideEffects = false ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( true);
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( true);
+ } else { hasSideEffects = false ; } if (! hasSideEffects ) { callNode. setIsNoSideEffectsCall();
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( false);
+ } } if ( hasSideEffects ) { callNode. setIsPure ( true )
+break ; } else { return false ; }
+ } else if (defs!= null) { defs. add ( functionInfo ) ;
+ if (!hasSideEffects)
+break ; } else { return false ;
+break ; } } else { hasSideEffects = true
+ } else if (defs!= null) { defs. add ( def ) ; } else {
+break ; } else { return false ; break ;
+ break ; } else { functionInfo = def;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( false )
+ } else if (defInfo.mayBePure()) { hasSideEffects = false ; } } } else {
+ } else if (defs!= null) { defs. remove ( functionInfo ) ;
+ defInfo.setIsPure;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { functionInfo. setIsNoSideEffectsCall ( true )
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure(); } else
+ } else if (defs!= null) { defs. add ( def. get ( ) ) ;
+break ; } } } }
+ } else { defs. remove ( def. name ) ;
+ } else { return false;
+ } else { functionInfo.setIsPure ( true);
+ } else if (defs == null) { defs = [ ] ;
+ } else { defs. add ( def ) ;
+ break ; }
+ break; } else { defs. remove ( def ) ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( )
+break ; } else { continue ; } }
+ break outer;
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure(true); }
+ break; } else { functionInfo.setIsPure ( false);
+ } } if ( hasSideEffects ) { callNode. setIsNoSideEffectsCall ( )
+break ; } } else { break ; }
+ } else if (defs!= null) { defs. add ( def ) ; } } else {
+ if (defs == null) {
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ( ;
+break ; } } else { return false ;
+ } else { functionInfo.setIsPure();
+ } else { functionInfo.setIsPure() ;
+ } else { hasSideEffects = true ;
+ } else if (defs!= null) { defs. remove ( def. getRValue()); }
+ } else if (defInfo.mayBePure()) { defInfo.setIsPure(false); }
+break ; } else { break ; } } }
+ } else { hasSideEffects = false ; if (hasSideEffects) {
+ } else { hasSideEffects = true ; if (hasSideEffects)
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. remove ( ) ;
+break ; } else { continue ; } break ;
+ } else { break ; }
+ if (def.isPure()) {
+ if (!hasSideEffects) {
+ } else { defs. remove (def));
+break ; } else { break ;
+break ; } else { hasSideEffects = false
+break ; } else { def. remove ( ) ;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure(); }
+break ; } } else { hasSideEffects = false
+ } else { functionInfo.setPure = false;
+ } } else { hasSideEffects = true ;
+ break; } else { functionInfo.setIsPure ( true);
+ } else { defs. remove (def;
+ } else { hasSideEffects = false ; } } } } else {
+break ; } else { hasSideEffects = true
+ functionInfo.setPure = true;
+ } else { defInfo.setIsPure;
+ functionInfo = def;
+ } else { hasSideEffects = false ; } if ( hasSideEffects ) { callNode. setIsPure ; }
+ } else { def.setPure = false;
+ } else if (defs == null) {
+ } else { hasSideEffects = false ; if (isPure) {
+ if (isPure) {
+ functionInfo.setIsPure;
+ } else if (defs == null) { defs = [def]; }
+ } else { hasSideEffects = false ; } if (debug) {
+ } else { defs. remove ( def. rValue ) ;
+ } else { defs. add ( def. definition ) ;
+ } } } else {
+ } else if (defs!= null) { defs. add ( def ) ; } if ( break ) {
+ functionInfo.isPure = true;
+break ; } } } } }
+ functionInfo.setIsPure(); break;
+ break ; } } }
+ } else { functionInfo.setIsPure(); }
+ } else if (defs!= null) { defs. add ( def ) ; } if (debug) {
+ defInfo.setPure = true;
+ functionInfo.isPure = false;
+ if (hasSideEffects == false)
+ def.setPure = true;
+ functionInfo.setPure = false;
+ defInfo.setIsPure(); break;
+ } else { continue;
+ break ; default :
+ } else { hasSideEffects = true;
+ } else { break;
+ break; }
+ } } else {
+ callNode = def;
+ if (def == null) {
+ break ; } }
+ } else if (defs == null) { defs = { } ;
+ } else if (defInfo.mayBePure()) { hasSideEffects = true ; } } else { #
+ def.setPure = false;
+ if (hasSideEffects == true)
+ } else if (defInfo.mayBePure()) { hasSideEffects = true ; } } else { }
+ break ; break ;
+ functionInfo.setIsPure(true;
+ } else if (defInfo.mayBePure()) { hasSideEffects = false ; } } else { #
+ if (!hasEffects)
+ break; } else continue;
+break ; } break ; }
+ } break;
+break ; } } break ;
+ break; default:
+ } else { functionInfo.setIsPure ( false )
+ functionInfo = callNode;
+ def.setIsPure;
+ } else { return true;
+ } else { hasSideEffects = false ; }
+ } else { defs. add ( def ) ; } else
+ break; else
+ } else { defs. add ( def ) ; } }
+ } else { if (!pure)
+break ; default : {
+ } else continue;
+break ; break ; }
+ } else { hasSideEffects = true ; if (hasSideEffects))
+ def = def;
+ if (hasSideEffects) { }
+ if (!hasSideEffects
+ } } break;
+ if (hasSideEffects))
+ else {
+ break loop;
+ if (!hasEffects())
+ }
+ break 2;
+ break;;
+ default:
+ } }
+ break();
+ else
+ } }
+ continue;
+ }
+ break

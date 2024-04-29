@@ -1,0 +1,657 @@
+return JSError.make(sourceName, line,
+return JSError.make(
+return JSError.make(sourceName, lineOffset,
+return JSError.make( sourceName,
+return  makeError(
+return JSError.make( sourceName, defaultLevel,
+ defaultLevel,
+ return JSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, DiagnosticType.
+return JSError.make( sourceName, line, defaultLevel,
+ sourceName, line, lineOffset, defaultLevel,
+return JSError.make
+ super.make(sourceName, line, lineOffset, defaultLevel,
+return  JSError(
+ return super.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make( sourceName, line, 0,
+return JSError.make( sourceName, line, lineOffset,
+return  JSError.make( compiler,
+ return JSEror.make(sourceName, line, lineOffset, defaultLevel,
+ return makeError(line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, CheckLevel.
+ return JSError.make(defaultLevel,
+ return makeError(lineOffset, defaultLevel,
+ return JSError(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError. make ( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR ) ; }
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR, message); }
+return JSError.make( sourceName, line, defaultLevel.
+ return makeError(sourceName, line, lineOffset, defaultLevel,
+ return makeError(defaultLevel,
+ else { return JSError. make ( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR ) }
+return JSError.make(sourceName, line, lineOffset, defaultLevel, DiagnosticType.
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR); } }
+return JSError.make( sourceName, line + 1,
+ } return JSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line,
+return  JSError.make( null,
+return  JSError.make( sourceName
+ return JSErr.make(sourceName, line, lineOffset, defaultLevel,
+ return JSError.make(lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, message); } }
+ } else { return JSError. make ( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR ) }
+ else { return JSError. make ( sourceName, line, lineOffset, defaultLevel, message ) ; }
+ return JSError. make ( line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, DiagnosticType.
+return  JSError.makeInternal(
+return JSError.make( sourceName, defaultLevel.
+ return super.error(line, lineOffset, defaultLevel,
+ else { return JSError.make(line, lineOffset, defaultLevel,
+ return makeError ( sourceName, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR );
+return JSError.make( sourceName, line, defaultLevel |
+ else { returnJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make( sourceName, line, DefaultCheckLevel.
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR });
+ return JSError.make( sourceName, lineOffset, defaultLevel,
+ super.error(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, defaultLevel,
+return JSError.make(sourceName,  line, lineOffset, CheckLevel.ERROR,
+return JSError.make(sourceName,  line, lineOffset, CheckLevel.ERROR |
+return  new JSError(defaultLevel,
+ return JSError.makeError(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, ERROR, message); }
+ } return JSError. make ( sourceName, line,
+return JSError.make(sourceName,  line, lineOffset, JSError.
+ return makeError ( sourceName, defaultLevel,
+ else { return JSError.make( sourceName, defaultLevel,
+ return JSErrormake(defaultLevel,
+return JSError.make(sourceName, line, lineOffset, DefaultLevel.
+ else { return JSError.make( sourceName, line, 0,
+ else { return JSError. make( sourceName, line, lineOffset, CheckLevel.
+ else { return JSError. make ( sourceName, line, lineOffset, defaultLevel ) ; }
+ } else { return JSError. make ( sourceName, line,
+ else { return JSError. make( sourceName, line, defaultLevel.
+return JSError.make( source, line,
+ return JSError.makeError(lineOffset, defaultLevel,
+ } return JSError.make(defaultLevel,
+return JSError.make( sourceName, line, 1,
+return JSError.make(sourceName, line, lineOffset, DiagnosticType,
+ else { return JSError.make(lineOffset, defaultLevel,
+ return JSError(defaultLevel,
+ return JSError.makeError(line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line + 1,
+ return makeError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make( sourceName, defaultLevel |
+return JSError.make( sourceName, line, lineOffset, Error.
+ return JSErrormake(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, DiagnosticType ::
+ return JSError. make ( sourceName, line, defaultLevel, Error.
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel); } }
+ return super.makeError(line, lineOffset, defaultLevel,
+ return JSError ( line, lineOffset, defaultLevel,
+return  new JSError(
+ return JSError.make(, defaultLevel,
+ } return JSError. make ( line, lineOffset, defaultLevel,
+ } return JSEror.make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError. make( sourceName, line, defaultLevel, Error.
+return JSError.make( sourceName, line, null,
+ if ( isParseError ( message ) ) {
+ else { return JSError.make( sourceName, line, lineOffset, Error.
+ report(defaultLevel,
+ report(lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, defaultLevel.
+return JSError.make( sourceName, line, 0, defaultLevel,
+ else { return JSEror.make(sourceName, line, lineOffset, defaultLevel,
+ return JSError ( null, line, lineOffset, defaultLevel,
+ return JSError.make(,
+ return makeError ( message, line, lineOffset, defaultLevel,
+ else { return JSError(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getKey().matcher(message).matches(defaultLevel)) {
+ return JSError. make ( null, defaultLevel,
+ if ( isParseError ( sourceName ) ) {
+ } else { return JSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR); } } else
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel, PARSE_ERROR); } } }
+return JSError.make(sourceName,  line, lineOffset, CheckLevel.WARNING,
+ return super.error(sourceName, line, lineOffset, defaultLevel,
+ } return JSErrorImpl.make(sourceName, line, lineOffset, defaultLevel,
+ return JSError.make (, lineOffset, defaultLevel,
+ } return JSError.make(lineOffset, defaultLevel,
+return JSError.make( sourceName, line, DefaultCheckLevel,
+return JSError.make(sourceName, line, lineOffset, ErrorLevel.
+ } return JSError. makeError(sourceName, line, lineOffset, defaultLevel,
+ return JSError.make(message,sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, ErrorType.
+ else if (entry.getValue().matcher(message).matches(message)) {
+ } return makeError ( line, lineOffset, defaultLevel,
+return  JSError.
+return JSError.make(sourceName, line, lineOffset, ErrorType.
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSError.
+ } return new JSError(lineOffset, defaultLevel,
+return  JSError.make( 0,
+ return JSError.makeInternal(defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, Error ::
+ super.error(line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, DiagnosticType ::
+return JSError.make(sourceName,  line, lineOffset, ErrorLevel.ERROR |
+ return JSError.makeError(defaultLevel,
+ } return JSError. make ( compiler, defaultLevel,
+ else { return JSError(line, lineOffset, defaultLevel,
+return  JSError.newInstance(
+ } return JSError. makeError(lineOffset, defaultLevel,
+return  JSError.makeError(
+return JSError.make( sourceName, line, lineOffset, Error ::
+ else { return JSErrormake(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getValue().matcher(message).matches(defaultLevel)) {
+ else { return JSError.makeError(sourceName, line, lineOffset, defaultLevel,
+ return JSError.makeSourceError(line, lineOffset, defaultLevel,
+ if ( isParseError ( message, sourceName, line ) )
+ } return makeError ( sourceName, lineOffset, defaultLevel,
+ } return JSError.make( null,
+ } return JSError. make ( null, defaultLevel,
+ return JSErrorImpl.make(sourceName, line, lineOffset, defaultLevel,
+ return super.makeError(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message, sourceName, line ) ) {
+ } return new JSError(defaultLevel,
+ else { return JSError. make ( sourceName, line, lineOffset, ErrorLevel. ERROR,
+ if ( isParseError ( message, sourceName ) ) {
+ else { return JSError. make ( sourceName, line, lineOffset, CheckLevel. ERROR,
+ return makeError ( sourceName, line, defaultLevel,
+ else if (entry.getKey().matchcher(message).matches(defaultLevel)) {
+ return JSError. make ( sourceName, line, lineOffset, defaultLevel.
+return JSError.make( sourceName, line, 0, 0,
+ else if (entry.getValue().matcher(message).matches()) { return null; }
+ else { return JSError.make (, lineOffset, defaultLevel,
+ return JSError ( sourceName, lineOffset, defaultLevel,
+ return makeError(message, defaultLevel,
+ else if (entry.getKey().matcher(message).matches()) { return null; }
+ } return makeError ( sourceName, line, lineOffset, defaultLevel,
+ } return JSError. make ( sourceName, line, lineOffset, defaultLevel, ErrorLevel.
+ return JSError make(lineOffset, defaultLevel,
+ return super.parse(sourceName, line, lineOffset, defaultLevel,
+ } return new JSError ( line, lineOffset, defaultLevel,
+ else { return JSError.make( sourceName, line, lineOffset, ErrorLevel.ERROR |
+ } return makeError ( compiler, defaultLevel,
+return  JMSError.make( sourceName,
+ } else { return JSEror.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( sourceName, line ) )
+ return JSError.makeDefault(lineOffset, defaultLevel,
+ if ( isParseError ( sourceName, line ) ) {
+return  jserror.make( sourceName,
+ return new DiagnosticType(lineOffset, defaultLevel,
+ if ( isParseError ( message, sourceName, lineOffset ) ) {
+ } return JSError ( line, lineOffset, defaultLevel,
+ return new JSError(lineOffset, defaultLevel,
+ return makeError ( null, line, lineOffset, defaultLevel,
+ return JSError.make(),
+ if ( isParseError ( defaultLevel ) ) {
+ else { return JSError.make( sourceName, line, lineOffset, defaultLevel); } } }
+ } return JSError make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError. make ( sourceName, line, lineOffset, ErrorLevel. ERROR_
+ else if (entry.getKey().matcher(message).matches()) { if (defaultLevel)
+ if ( isParseError ( message, defaultLevel ) ) {
+ makeError(line, lineOffset, defaultLevel,
+ return super.makeError(lineOffset, defaultLevel,
+ else if (entry.getKey().matchcher(message).matches(message)) {
+ return JSError. make ( sourceName, line, lineOffset, defaultLevel |
+ if ( isParseError ( message ) ) { return null ; }
+ return make(line, lineOffset, defaultLevel,
+ } return new JSErrorImpl(defaultLevel,
+ return JSError. make ( null, line, lineOffset, defaultLevel,
+ else if (entry.getKey().matcher(message).matches()) { return defaultLevel; }
+ else if (entry.getKey().matcher(message).matches(message)) {
+ else { return JSErrorImpl.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE_ERROR,
+ if ( isParseError ( sourceName, line, lineOffset ) ) {
+ if ( isParseError ( message ) )
+ if ( isParseError ( sourceName, line, message ) ) {
+return  JSError.createInternal(
+ return makeError(message,
+ else if ( isParseError ( message ) ) { if ( defaultLevel!= null ) {
+ if ( isParseError ( ) ) {
+ return JSError.makeDefault(defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSErrorFactory.
+ if ( isParseError ( message, compiler ) ) {
+ else { return JSError.make.make(sourceName, line, lineOffset, defaultLevel,
+ return new DiagnosticType(sourceName, line, lineOffset, defaultLevel,
+ return makeError(sourceName, line,
+ if ( isParseError ( message ) ) { if ( defaultLevel!= null ) {
+ else { return JSError.make(,
+ return super.parse(line, lineOffset, defaultLevel,
+ report(line, lineOffset, defaultLevel,
+ return JSError. make ( 0, defaultLevel,
+ } else { return JSError(sourceName, line, lineOffset, defaultLevel,
+ return JSError ( source, line, lineOffset, defaultLevel,
+ } return JSError.make( compiler,
+return  make(
+ if ( message!= null ) {
+ } else { return JSErrorImpl.make(sourceName, line, lineOffset, defaultLevel,
+ } return JSErr.make(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getValue().matcher(message).matches()) { return defaultLevel; }
+ if ( isParseError ( message ) ) { return defaultLevel ; }
+ if (defaultLevel) {
+ return JSError ( message, line, lineOffset, defaultLevel,
+ return sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.make().make(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getKey().matchcher(message).matches()) { return null; }
+ } return JSError(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message, line ) ) {
+ return makeError ( source, line, lineOffset, defaultLevel,
+ return JSError.make(source,defaultLevel,
+ return JSError. create ( ).make(sourceName, line, lineOffset, defaultLevel,
+ } return JSError. create ( ).make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( sourceName, lineOffset ) ) {
+ else { return JSError(source, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE_WARNING, defaultLevel.
+ throw makeError(line, lineOffset, defaultLevel,
+ } return JSError make(defaultLevel,
+ throw sourceName, line, lineOffset, defaultLevel,
+ } return JSError.make(, defaultLevel,
+ if ( isParseError ( message ) ) { if ( defaultLevel!= null )
+ else { return JSErr.make(sourceName, line, lineOffset, defaultLevel,
+ return JSError. make ( source, line, lineOffset, defaultLevel,
+ } return super.makeError(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message ) && defaultLevel!= null ) {
+ return JSError.makeSourceName, line, lineOffset, defaultLevel,
+ else if ( isParseError ( message ) ) { if ( defaultLevel ) {
+ return JSError. make ( sourceNameline, lineOffset, defaultLevel,
+ return new Error ( sourceName, line, lineOffset, defaultLevel,
+ return JSErrorFactory.make(sourceName, line, lineOffset, defaultLevel,
+ } return super.error(line, lineOffset, defaultLevel,
+ if ( isParseError ( sourceName, line, message ) )
+ } return JSError. makeError(defaultLevel,
+ return make(lineOffset, defaultLevel,
+return JSError.make( sourceName, line, DefaultCheckLevel |
+return JSError.make(sourceName, line, lineOffset, DiagnosticType |
+ if ( isParseError ( message ) || defaultLevel > 0 ) {
+ } return new JSError(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message ) && isDefaultError ( message ) )
+ return JSError. makeParse(sourceName, line, lineOffset, defaultLevel,
+ return new JSError(line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, CheckLevel.PARSE |
+ return JSError.make,
+return JSError.make(sourceName, line, lineOffset, DefaultLevel.PARSE_ERROR,
+ return JSError.make(), defaultLevel,
+ if ( isParseError ( message ) || defaultLevel ) {
+ return make(defaultLevel,
+ return JSError.JSError.make(sourceName, line, lineOffset, defaultLevel,
+ return JSErrorMake(defaultLevel,
+ else { return JSErrorFactory.make(sourceName, line, lineOffset, defaultLevel,
+ return JSError. make ( ).make(sourceName, line, lineOffset, defaultLevel,
+ return JSError make(line, lineOffset, defaultLevel,
+ if (! isParseError ( message ) ) {
+ return makeError ( compiler, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, JSErrorFactory.
+ if ( isParseError ( sourceName, message ) )
+ else { return JSError.NONE.make(sourceName, line, lineOffset, defaultLevel,
+ } return JSErrorFactory.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParse ( ) ) {
+ return make ( compiler, defaultLevel,
+ } return JSError. makeParse(sourceName, line, lineOffset, defaultLevel,
+ return makeError(message, sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line,  lineOffset, JSError.Type.
+ } return makeError(defaultLevel,
+return JSError.make( SourceReporter.
+return  JSEror.make(
+ else { return makeError(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel); } return JSError.make(
+ return super.error(lineOffset, defaultLevel,
+ return new DiagnosticType(defaultLevel,
+ throw JSError.make(defaultLevel,
+ else { if ( isParseError ( message ) ) { return null ; } }
+ report(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, CheckLevel.NONE,
+ makeError(sourceName, line, lineOffset, defaultLevel,
+ } return makeError ( sourceName, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSErrorType.
+ if (! isParseError ( message ) )
+ if ( isParseError ( message ) ) { return ; }
+ return JSEError.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message, sourceName ) )
+return JSError.make(sourceName, line,  lineOffset, JSError.TYPE_
+ return JSError(lineOffset, defaultLevel,
+ else { if ( isParseError ( message ) ) { return defaultLevel ; }
+ throw defaultLevel,
+return  JSError.make( new
+return JSError.make(sourceName, line, lineOffset, JSErrorType.
+ return JSError.make, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel) ; } return JSError.make
+ else { return JSError.PARSE.make(sourceName, line, lineOffset, defaultLevel,
+ return JSErrorMake(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.(line, lineOffset, defaultLevel,
+ if ( isParseError ( message ) ) return defaultLevel ; else
+ return new DiagnosticType(line, lineOffset, defaultLevel,
+ return makeError ( source, line, defaultLevel,
+ return make ( sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSErrorImpl.
+ else { return JSErrormake(line, lineOffset, defaultLevel,
+ } return super.makeError(line, lineOffset, defaultLevel,
+ } return JSError. create_make(sourceName, line, lineOffset, defaultLevel,
+ return new JSErrorImpl(lineOffset, defaultLevel,
+ return makeError(null, defaultLevel,
+ if ( isParseError ( message ) ) { return defaultLevel ; } else {
+ } else { return JSError.default.make(sourceName, line, lineOffset, defaultLevel,
+ } return super.parse(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getValue().matcher(message).matches()) { return null; } }
+ return JSError. make ( makeError(sourceName, line, lineOffset, defaultLevel,
+ } return super.makeError(lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, CheckLevel.PARSE,
+ } else { return JSError make(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getValue().matcher(message).matches(message)); {
+ if (message == null) {
+ else { return JSError.make(JSError.make(sourceName, line, lineOffset, defaultLevel,
+ } return JSError. make_make(sourceName, line, lineOffset, defaultLevel,
+ else if (entry.getKey().matcher(message).matches(defaultLevel)) { }
+ } else { return JSErrorFactory.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message ) ) { throw new RuntimeException ; }
+ return JSError.make(, line, lineOffset, defaultLevel,
+ else if (entry.getKey().matcher(message).matches()) { return null; } }
+return  JSErr.make(
+ } return JSErrorUtils.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseException ( message ) ) {
+ return super().makeError(line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset,  defaultLevel, JSError.class,
+return JSError.make( sourceName, 0,
+ report( compiler, defaultLevel,
+ return JSEr.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make( sourceName, line +
+return JSError.make(sourceName, line, lineOffset, defaultLevel) ; } return JSError(
+ } return make ( line, lineOffset, defaultLevel,
+ else { return JSError.makeInternal(sourceName, line, lineOffset, defaultLevel,
+ } public static JSError message {
+ } else {
+ } return JSError. INSTANCE_make(sourceName, line, lineOffset, defaultLevel,
+ } else { return JSError.make.make(sourceName, line, lineOffset, defaultLevel,
+ } super.error(line, lineOffset, defaultLevel,
+ return JSError(null, defaultLevel,
+ return super.parse(lineOffset, defaultLevel,
+return  JMSError.make(
+return JSError.make(sourceName, line, lineOffset,  defaultLevel, JSError.TYPE_
+ } return makeError ( compiler, line, lineOffset, defaultLevel,
+ throw makeError(defaultLevel,
+ else { return JSError2.make(sourceName, line, lineOffset, defaultLevel,
+ if (! isError ( message ) ) {
+ return defaultLevel,
+return  jserror.make(
+ return makeError().make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset,  defaultLevel, JSError.Type.
+return  new ErrorReporter(
+return JSError.make(sourceName, line, lineOffset, defaultLevel).parseError(JSError.
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSErrorException.
+ throw makeError(lineOffset, defaultLevel,
+ return compiler.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE_WARNING |
+return  new JSErrorImpl(
+ } return JSError. INSTANCE.make(sourceName, line, lineOffset, defaultLevel,
+ } return JSError.JSError.make(sourceName, line, lineOffset, defaultLevel,
+ (line, lineOffset, defaultLevel,
+ else { return JSError.default.make(sourceName, line, lineOffset, defaultLevel,
+ if (!! defaultLevel ) {
+return JSError.make(sourceName, line, defaultLevel ==
+ return new Error ( defaultLevel,
+ return makeError(null,
+return JSError.make(sourceName, line, lineOffset,  defaultLevel.getValue(), DiagnosticType.
+ if (! isError ( message ) )
+ } return makeError ( compiler,
+return  new JSError(new
+ } return JSErrorParser.make(sourceName, line, lineOffset, defaultLevel,
+ if ( isParseError ( message ) ) { return defaultLevel ; } }
+ return makeError(line, defaultLevel,
+ return makeError(sourceName line,lineOffset, defaultLevel,
+ return super().parse(sourceName, line, lineOffset, defaultLevel,
+ return new DiagnosticError(lineOffset, defaultLevel,
+return JSError.make(sourceName, line, 0, null,
+ if (defaultLevel) { returnJSError.make(sourceName, line, lineOffset, defaultLevel,
+ } public static JSError {
+ return makeError ( compiler, line, lineOffset, defaultLevel,
+ return new ErrorException(lineOffset, defaultLevel,
+return JSError.make( "",
+ return new JSError(,
+ return makeError ( compiler,
+ else if (message!= null) {
+ throw new CheckError(defaultLevel,
+ return JSRror.make(sourceName, line, lineOffset, defaultLevel,
+ } return super. makeError ( sourceline, lineOffset, defaultLevel,
+ } return makeError(lineOffset, defaultLevel,
+ else if (message == null) {
+ } return JSEError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return makeError.make(sourceName, line, lineOffset, defaultLevel,
+ return DiagnosticType.make(sourceName, line, lineOffset, defaultLevel,
+ return reporter.make(sourceName, line, lineOffset, defaultLevel,
+return  JSError(new
+return JSError.make( SourceReporter,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE_WARNING | defaultLevel.
+return JSError.make( sourceName +
+ return super().parse(lineOffset, defaultLevel,
+ return new ErrorException(defaultLevel,
+ if ( isParseError ( ) )
+ return new CheckError(defaultLevel,
+ if (! ignoreParse ) {
+ throw (sourceName, line, lineOffset, defaultLevel,
+return  new ErrorException(
+ return null, defaultLevel,
+ return super().parse(line, lineOffset, defaultLevel,
+ } public static JSError error {
+ return JSError(null,
+return JSError.create( sourceName, line,
+ return compiler.report(defaultLevel,
+ } public static String message {
+ } return make ( compiler,
+ return super().error(line, lineOffset, defaultLevel,
+ throwError(line, lineOffset, defaultLevel,
+ reportError(defaultLevel,
+ return make( compiler,
+return JSError.make(sourceName, line, lineOffset, defaultLevel) ; } return JSError(new
+return JSError.make(sourceName, line, lineOffset,  defaultLevel, JSError.TYPE,
+ if (defaultLevel!= null) returnJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel) ; } return JSEror.make(
+ else { return { String }JSError.make(sourceName, line, lineOffset, defaultLevel,
+ return error(line, lineOffset, defaultLevel,
+ return ErrorReporter.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, DiagnosticType ::
+ super.error(lineOffset, defaultLevel,
+ return make ( null, line, lineOffset, defaultLevel,
+ if (! ignoreError ) {
+ return new ErrorException(sourceName, line, lineOffset, defaultLevel,
+ print(line, lineOffset, defaultLevel,
+ return line, lineOffset, defaultLevel,
+ } public String message() {
+ return super().error(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, JSError ::
+ return makeSource (, line, lineOffset, defaultLevel,
+return  new ErrorReport(
+ reportError(lineOffset, defaultLevel,
+ } else { return JSError. defaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ report( compiler,
+ } else { return JSError. DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ throw (line, lineOffset, defaultLevel,
+ else { return JSError.createDefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ error(line, lineOffset, defaultLevel,
+ throw new Error(defaultLevel,
+ else { return JSError.make.JSError.make(sourceName, line, lineOffset, defaultLevel,
+ compiler.error(defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, ErrorType.
+return JSError.make(sourceName, line, lineOffset, defaultLevel.SEVERE,
+ else { return (Exception)JSError.make(sourceName, line, lineOffset, defaultLevel,
+ return makeError(source,
+ compiler.error(lineOffset, defaultLevel,
+ return parseError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE |
+ return defaultParser.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, ErrorLevel.
+ compiler.log(defaultLevel,
+ return makeDefault (,
+ return defaultLevel.make(sourceName, line, lineOffset, defaultLevel,
+ } return super. make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, CheckLevel.
+return JSError.make(sourceName, line, lineOffset, defaultLevel, defaultLevel, JSErrorFactory.
+return  new DiagnosticType(
+ makeError(lineOffset, defaultLevel,
+ else { return (String)JSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, DiagnosticType,
+ reportError(sourceName, line, lineOffset, defaultLevel,
+ else { return DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ return make ( source, line, lineOffset, defaultLevel,
+ } else { return (Exception)JSError.make(sourceName, line, lineOffset, defaultLevel,
+ log(defaultLevel,
+ makeError(defaultLevel,
+ super.report(line, lineOffset, defaultLevel,
+ else { return SimpleJSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return null ; } return _JSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.PARSE,
+return  new DefaultError(
+ reportError(line, lineOffset, defaultLevel,
+ else { return JSError.UnknownJSError.make(sourceName, line, lineOffset, defaultLevel,
+ return make ( compiler, line, lineOffset, defaultLevel,
+ else { return null ; } return DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+return  new Syntax(
+ else { return null ; } return SimpleJSError.make(sourceName, line, lineOffset, defaultLevel,
+ }, line, lineOffset, defaultLevel,
+ else { return null ; } return "JSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return null ; } returnJSError.make(sourceName, line, lineOffset, defaultLevel,
+ } return JSError. createDefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.GenericJSError.make(sourceName, line, lineOffset, defaultLevel,
+ } else { return { String }JSError.make(sourceName, line, lineOffset, defaultLevel,
+ return make( null,
+ throw new Error(, defaultLevel,
+ } }, defaultLevel,
+ compiler.log(lineOffset, defaultLevel,
+ return make(line, defaultLevel,
+ showError(sourceName, line, lineOffset, defaultLevel,
+ else { return StandardJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, compiler,
+ else { return JSError.defaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return JSError.DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+return  error(
+ log(lineOffset, defaultLevel,
+return  new ErrorError(
+ super.report(sourceName, line, lineOffset, defaultLevel,
+ super.log(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.ERROR |
+ } public static String message ;
+ printSourceName, line, lineOffset, defaultLevel,
+ report(source, line, lineOffset, defaultLevel,
+ return make ( null, defaultLevel,
+ super.raise(sourceName, line, lineOffset, defaultLevel,
+ } else { return DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, Error.
+return JSError.make(sourceName, line, lineOffset, Errors.
+ } return null ;
+ throw make(defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel, compiler,
+ showError(line, lineOffset, defaultLevel,
+return  new Error(
+ return defaultError.make(sourceName, line, lineOffset, defaultLevel,
+ } else { return SimpleJSError.make(sourceName, line, lineOffset, defaultLevel,
+ return create(defaultLevel,
+ throwError(sourceName, line, lineOffset, defaultLevel,
+ return create(lineOffset, defaultLevel,
+ throw new Error(line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.ERROR,
+ return error(lineOffset, defaultLevel,
+ log(line, lineOffset, defaultLevel,
+ } } else {
+ report(message, line, lineOffset, defaultLevel,
+ } return (Exception)JSError.make(sourceName, line, lineOffset, defaultLevel,
+return  create(
+ super.parse(sourceName, line, lineOffset, defaultLevel,
+ return defaultLevel ; }
+ else { return ; }
+ else { return null }
+ error(sourceName, line, lineOffset, defaultLevel,
+ if (isParseError(message)) { }
+ else { return BaseJSError.make(sourceName, line, lineOffset, defaultLevel,
+ } else { return StandardJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.NAME,
+ return (null, defaultLevel,
+ else { return CompiledJSError.make(sourceName, line, lineOffset, defaultLevel,
+ log(sourceName, line, lineOffset, defaultLevel,
+ return super().make(sourceName, line, lineOffset, defaultLevel,
+ print(lineOffset, defaultLevel,
+ log(TAG,
+ warn(defaultLevel,
+ return Error.make(sourceName, line, lineOffset, defaultLevel,
+ return null ; }
+ else { return { String:JSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { return null ;
+ error(lineOffset, defaultLevel,
+ print(sourceName, line, lineOffset, defaultLevel,
+ return JError.make(sourceName, line, lineOffset, defaultLevel,
+ return null ; } }
+ throw(lineOffset, defaultLevel,
+return  makeException(
+ reporter(defaultLevel,
+return  fail(
+return  createError(
+ }
+ report(null, defaultLevel,
+ error(defaultLevel,
+ log(WARNING,
+return  buildError(
+ return null ;
+return JSError.makeDefault(
+ } return DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ else {
+return  report(
+ report(processor, defaultLevel,
+ return null, lineOffset, defaultLevel,
+ } return SimpleJSError.make(sourceName, line, lineOffset, defaultLevel,
+ throw (null, defaultLevel,
+return JSError.create(
+return JSError.makeException(
+ else returnJSError.make(sourceName, line, lineOffset, defaultLevel,
+ return null,
+return JSError.make(sourceName, line,  false,
+ compiler.make(sourceName, line, lineOffset, defaultLevel,
+ } return _JSError.make(sourceName, line, lineOffset, defaultLevel,
+ else { } }
+ } return StandardJSError.make(sourceName, line, lineOffset, defaultLevel,
+ }, null, defaultLevel,
+ return SimpleJSError.make(sourceName, line, lineOffset, defaultLevel,
+ } } ;
+ return report.make(sourceName, line, lineOffset, defaultLevel,
+ return DefaultJSError.make(sourceName, line, lineOffset, defaultLevel,
+ return _make(sourceName, line, lineOffset, defaultLevel,
+ } },
+ return null, line, lineOffset, defaultLevel,
+ } } }
+ return compiler, defaultLevel,
+ }, compiler, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, default
+ return StandardJSError.make(sourceName, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, new
+return JSError.make(sourceName, default
+return JSError.made(
+return JSError.make(sourceName, line, lineOffset, new
+ (source, line, lineOffset, defaultLevel,
+ } else { }
+return JSError.make(sourceName, 1,
+return JSError.create
+return JSErrormake(
+ } } else
+return JSError.parse
+ DefaultLevel,
+ } }
+ super().make(sourceName, line, lineOffset, defaultLevel,
+ } else
+return JSError.make(sourceName, line, lineOffset, J
+return JSError.make(sourceName, line, lineOffset, defaultLevel.C
+return JSError.make(sourceName, -
+ return.make(sourceName, line, lineOffset, defaultLevel,
+ (name, line, lineOffset, defaultLevel,
+return JSError.make(sourceName + "
+return JSError.make(sourceName, line, lineOffset, defaultLevel.F
+return JSError.make(sourceName, line, lineOffset, defaultLevel.P
+return JSError.make(sourceName, lineOffset +
+ (file, line, lineOffset, defaultLevel,
+return JSError.make(sourceName, line, lineOffset, defaultLevel.N
+return JSError.make(sourceName, line, lineOffset, defaultLevel.IN
+return JSError.make(sourceName + ",
+return JSError.make(sourceName, line, lineOffset + 1
+return JSError.make(sourceName, lineOffset |
+ defaultValue,
+return JSError.make(sourceName, line offset,
+return JSError.make(sourceName, line, lineOffset. case
+ else
+ else {}
+ else,

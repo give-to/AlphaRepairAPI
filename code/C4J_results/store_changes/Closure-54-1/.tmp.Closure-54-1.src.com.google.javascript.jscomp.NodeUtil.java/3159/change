@@ -1,0 +1,608 @@
+return getBestLValue(lValue);
+ return lValue.getParent());
+ return getBestLValue(lValue.getParent());
+ return lValue.getQualifiedName());
+return getBestLValueOwner(lValue);
+return  lValue;
+ return lValue.getJSDocInfo());
+return getBestLValueOwner();
+ return lValue);
+ return lValue.getFirstChild());
+return  lValue.getParent();
+ return getBestLValue(getParent());
+ return lValue.getParent);
+ return getBestLValueOwner(lValue.getParent());
+ return lValue.getFirstChild();
+ return lValue.owner;
+ return lValue.getQualifiedName);
+ return getBestLValueOwner(lValue));
+ return getOwner(lValue.getParent());
+ return getObjectLitKeyName(lValue.getParent());
+return  lValue.owner();
+return getBestLValue(lValue.getParent(), lValue);
+ return lValue.getParent;
+ return lValue.getJSDocInfo);
+ return getBestLValue(value.getParent());
+ return getBest(lValue.getParent());
+ return (lValue.getParent());
+ return lValue.getFirstChild;
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, lValue.getParent())) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, lValue.getParent)) {
+ return lValue.getParent()); } else if (isGet(lValue, lValue.getParent())) {
+ return getBestLValue(lValue.getParent()); } else if (isObjectLitKey(lValue.getParent)) {
+ return lValue.getParent(); } else if (isGet(lValue, lValue.getParent())) {
+ return lValue.getParent(); } else if (isObjectLitKey(lValue, lValue.getParent())) {
+ if (isSet(lValue)) {
+ return lValue.getParent().getBestLValue(lValue.getParent());
+ return lValue.getOwner(lValue.getParent());
+return getBestLValueOwner(lValue, parent);
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, lValue.getParent()) {
+ return lValue.getParent().getFirstChild());
+ if (isGet(lValue, lValue.getParent())) {
+ return lValue.getQualifiedName(lValue.getParent());
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue.getParent())) {
+ return getBestLValue(lValue.getParent()); } else if (isObjectLitKey(lValue))) {
+ return getBestLValue(lValue.getParent()); } else if (isObjectLitKey(lValue, lValue)) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, lValue.getParent()) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue)) {
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, lValue.getParent)) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue.getParent)) {
+ return lValue.getFirstChild(); } return null;
+ if (isGet(lValue.getParent())) {
+ return lValue.getParent().getFirstChild(); } return null;
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, parent)) {
+ return lValue.getParent().getFirstChild();
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, lValue.parent)) {
+return getBestLValueOwner(lValue, lValue);
+ return lValue.getFirstChild(lValue.getParent());
+return getBestLValue(lValue.getParent()) + getObjectLitKey(lValue);
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, getParent())) {
+ return owner());
+ if (isGet(lValue, lValue.getParent)) {
+ return getObjectLitKey(lValue.getParent());
+ return getBestLValueOwner((lValue));
+ return getBestLValue(lValue.getParent()); } else if (isObjectLitKey(lValue, parent)) {
+return getBestLValue(lValue.getParent()).getFirstChild();
+ if (isGet(lValue.getParent)) {
+ return lValue.getBestLValue(lValue.getParent());
+ return lValue.getObjectLitKeyName());
+ if (isGet(lValue, lValue.getParent())) { return null; }
+ return getBestLValue(lValue));
+ return lValue.getParent()); } if (isGet(lValue, lValue.getParent)) {
+ return lValue.getParent()); } else if (isGet(lValue, lValue.getParent)) {
+ return lValue.getFirstChild(); } else if (isGet(lValue)) {
+ return lValue.getParent().getFirstChild;
+ return lValue.getParent()); } else if (isObjectLitKey(lValue.getParent)) {
+ return lValue.getObjectLitKey(lValue.getParent());
+ return lValue.getParent().getOwner;
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, lValue.parent)) {
+ return lValue.getJSDocInfo(lValue.getParent());
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue, lValue)) {
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, parent)) {
+ return getObjectLitKeyName(lValue));
+ return lValue.getParent().getParent());
+ return lValue.getOwner;
+ if (isGet(lValue)) {
+ return lValue.getParent()); } if (isGet(lValue, lValue.getParent()) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(lValue))) {
+ return getBestLValue(lValue.getParent()); } else if (isGet(parent)) {
+ return lValue.getParent()); } if (isGet(lValue.getParent())) {
+return getBestLValue(lValue, parent);
+ return lValue.getParent()); } else if (isGet(lValue.getParent())) {
+ if (isSet(lValue, lValue)) {
+ return lValue.getParent()); } else if (isGet(lValue, lValue.parent)) {
+ return lValue.get(lValue.getParent());
+ return lValue.getParent()); } if (isGet(lValue, lValue.parent)) {
+ return lValue.getParent()); } else if (isGet(lValue.getParent)) {
+ return lValue.getParent()); } else if (isGet(lValue)) {
+ return getBestLValue(lValue.getParent()); } else if (isAssign) {
+ return lValueOwner;
+ return null; } if (isGet(lValue, lValue.getParent() == null)) {
+ return lValue.getFirstChild().owner;
+ return get(lValue.getParent());
+ return lValue.getFirstChild(());
+ return lValue.getFirstChild(); } else if (isGet(lValue, parent)) {
+return getBestLValue(lValue.getParent()).getOwner();
+ if (isGet(lValue, lValue.getParent()) {
+ return getBestLValue(n));
+ return lValue.getParent().getFirstChild(0);
+ return lValue.getParent(); } else if (isGet(lValue.getParent)) {
+ return lValue.getLastChild();
+ return getObjectLit(lValue.getParent());
+return  owner;
+ return getBestLValueOwner(getParent());
+ return getOwner());
+ if (isSet(lValue))
+ return lValue.getParent()); } if (isGet(lValue.getParent)) {
+ return getObjectLitKey(lValue));
+ return lValue.getParent()); } else if (isObjectLitKey(lValue))) {
+return getBestLValue(lValue.getParent()).getParent();
+ return get(lValue);
+ if (isGet(lValue, lValue.parent)) {
+return getBestLValueOwner(lValue, null);
+ return lValue.getFirstChild(); } else if (isAssign) {
+ return lValue.getFirstChild(); }
+ if (isSet(lValue.getParent())) {
+ return getObjectLitKeyName(lValue);
+ if (isGet(lValue, lValue.getParent())) { }
+ if (isSet(lValue.getParent)) {
+ return lValue.getParent()); } else if (isGet(lValue, parent)) {
+ if (isSet(lValue, lValue.getParent)) {
+ return lValue.getParent().getObjectLitKeyName();
+ return lValue.getParent().getFirstChild(lValue.getParent());
+ return lValue. getObjectLitKeyName(lValue.getParent());
+ if (isGet(lValue, lValue.getParent() == null)) {
+ if (isSet(lValue, lValue.parent)) {
+return getBestLValue(lValue, lValue.getParent());
+ return lValue.getParent().getFirstChild(); }
+ return lValue.getName(lValue.getParent());
+ return lValue.getFirstChild(); } else if (isGet(lValue))) {
+return getBestLValue(lValue.getParent(), lValue.getParent());
+ return lValue.getParent().owner;
+ if (isSet(lValue, lValue.getParent()) {
+ return (lValue);
+ return lValue.getObjectLitNode(lValue.getParent());
+ return lValue.getParent()); } else if (isObjectLitKey(lValue, lValue.getParent())) { }
+ if (isGet(lValue, lValue.getParent())) { return null }
+ return lValue.getQualifiedName();
+ return lValue.getObjectLitKeyName();
+ return lValue.getObjectLitOwner(lValue.getParent());
+ if (isGet(lValue, parent)) {
+ return lValue.getObject(lValue.getParent());
+ return lValue.getFirstChild(); } else if (isGet(parent)) {
+ return lValue.getName ( );
+ if (isGet(lValue, lValue)) {
+ if (isSet(lValue, null)) {
+ return lValue.getParent().getParent().getBestLValue(lValue.getParent());
+ if (isGet(lValue, lValue.getParent())) { return null};
+ return lValue.getOwner ( );
+ return lValue));
+ return lValue.getLastChild;
+ return lValue.getParent().getFirstChild(LValue);
+ return lValue.getObjectLitKey();
+ return lValue.getLastChild(); } return null;
+ return lValue.getOwner().getFirstChild());
+ return lValue.getParent()); } else if (isAssign) {
+ return getObjectLitKey(lValue);
+ return owner(lValue.getParent());
+ if (isGet(lValue, lValue.getParent))) {
+ return lValue.getParent().getFirstChild().getParent();
+ return getBestLValueOwnerObject(lValue.getParent());
+ return lValue.getParent().getParent;
+ if (isGet(lValue, null)) {
+ return lValue.getParent().getFirstChild().getName();
+ if (isSet(lValue, parent)) {
+return getBestLValueOwner(lValue, owner);
+ if (isSet(lValue))) {
+ return null; } if (isSet(lValue)) {
+ return getBestLValue(parent));
+ return lValue.getParent(); } else if (isAssign) {
+ return lValue.getFirstChild(); } else if (isGet(n)) {
+return getBestLValueOwner(lValue, lValue.parent());
+return getBestLValue(lValue, lValue);
+ return lValue.getJSDocInfo));
+ return getBestLValueOwner(n));
+ return lValue.getParent()); } else if (isGet(lValue, lValue.getParent())) { }
+ return lValue.getJSDocFirstChild());
+ return lValue.getParent().getFirstChild(1);
+ return lValue.getParent()); } else if (isGet(lValue))) {
+ return owner.getParent());
+ return (getParent());
+return getBestLValueOwner(lValue, lValue.parent);
+ return lValue.getParent().getQualifiedName(); return null;
+ return lValue.getFirstChild(); } if (isGet(parent)) {
+return getBestLValue(lValue.getParent()).owner();
+ return lValue.getOwnerName(lValue.getParent());
+ return lValue.getJSDocKeyName());
+ return (lValue));
+ if (isGet(lValue, lValue.getParent()))) {
+ return null; }
+ if (isGet(lValue.getParent))) {
+ return lValue.getOwnerOf(lValue.getParent());
+ return lValue.getJSDocInfo();
+ return lValue.getFirstChild().getParent());
+ return lValue.getParent().getFirstChild().owner();
+ if (isGet(lValue))) {
+ return lValue.getLastChild());
+ if (isGet(parent)) {
+ return lValue.getParent().getFirstChild().owner;
+ return lValue.getObjectLitName(lValue.getParent());
+ return lValue.getParent().getName;
+ owner = lValue.getParent());
+ return get(lValue));
+ return getBestLValueOwnerObjectKey(lValue.getParent());
+ return lValue.getOwner(n.getParent());
+ return getBestLValueOwner(lValue,lValue.getParent());
+ return getBest(value.getParent());
+ return getBestLValueOwner(parent));
+ return lValue.getFirstChild(); return null;
+return getBestLValueOwner(lValue.getParent(), null);
+ return getLValue(lValue.getParent());
+return getBestLValue(lValue.getParent(), null);
+ return lValue(lValue.getParent());
+return getBestLValue(lValue.getParent()) + getObjectLitKeyName();
+ return lValue.getJSDoc(();
+ return lValue.getSecondChild();
+return getBestLValue(lValue.getParent()); } else { return getBestLValue();
+ return lValue.getParent().owner().getBestLValue(lValue.getParent());
+ return lValue.getJSDoc(');
+ return lValue.getObjectLitKey());
+ return getBestLValueOwnerName(lValue.getParent());
+return getBestLValue(lValue.getParent()) + "." + getObjectLitKey();
+ return lValue.getParent(); } return null;
+ return lValue.getJSDoc(_);
+ return lValue.getFirstChild(); } else {
+ return getObjectLitOwner(lValue.getParent());
+ return lValue.getOwnerNode(lValue.getParent());
+return getBestLValue(lValue.getParent()); } return null;
+return getBestLValue(lValue.getParent()).getFirstChild(); } return null;
+ return parent.getParent());
+ return lValue.getSecondChild;
+ return lValue.getFirstChild(n.getParent());
+ return lValue.getParent()#getBestLValue(lValue.getParent());
+return getBestLValue(lValue, owner);
+ return lValue.getOwner());
+ if (isGet(lValue.getParent()))) {
+ return lValue.getObjectLitKey(());
+ return getBestLValueOwner().getParent());
+return getBestLValue(lValue, null);
+ return getBestOwner(lValue.getParent());
+ return getObject(lValue));
+ lValue=getBestLValue(lValue.getParent());
+ return lValue.getParent().getParent();
+ return getBestLValue(null));
+ return getBestLValueOwnerForObject(lValue.getParent());
+ if (isGet(n)) {
+ if (isPut(lValue)) {
+ if (isGet(lValue.getParent())) { return null }
+ return null; } if (isGet(lValue) ) {
+ return lValue.getParent(); }
+return getBestLValue(lValue.getParent(), lValue).owner();
+ return lValue.getParent() + "."getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent(), lValue.getName());
+ return lValue.owner().getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent(), lValue.owner());
+return getBestLValueOwner(lValue.getParent()); }
+ return lValue.getParent(););
+ return lValue.getName());
+return getBestLValue(lValue.getParent()); } else { return lValue. owner ;
+return getBestLValueOwner(lValue, false);
+ return getBestLValueOwnerNode(lValue.getParent());
+ return lValue.getParent().getOwnerOf(lValue.getParent());
+ return lValue.getName;
+return getBestLValue(lValue.getParent(), lValue).getFirstChild();
+ return lValue.getNextChild;
+ return getBestLValue());
+return getBestLValue(lValue.getParent(), lValue); }
+return getBestLValue(lValue.getParent()) + getObjectLitKeyLValue();
+ return lValue. getParent ( ). _getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()) + lValue.getName();
+return getBestLValue(lValue.getParent()); } else { return null;
+ return lValue.getObjectLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()).getFirstChild(); }
+ return getOwner(lValue));
+ return getBestLValue(l.getParent());
+ return lValue.getParent().getOwner();
+return getBestLValue(lValue.getParent()) + "." + lValue.getName();
+ return lValue.getParent()().getBestLValue(lValue.getParent());
+ if (isGet(lValue.getParent())) { }
+return getBestLValue(lValue.getParent()); } else { return lValue;
+ return lValue.getParent().getOwner().getBestLValue(lValue.getParent());
+return getBestLValueOwner(lValue); }
+return getBestLValue(lValue.getParent()).owner;
+ return getObjectLitKeyOwnerNode(lValue.getParent());
+ return l));
+ return lValue.getParent().getFirstChild(); } return parent;
+ return lValue.getParent();
+return getBestLValue(lValue.getParent()) + getObjectLitKey(l);
+ return lValue.getParent(*);
+ if (isGet) {
+return getBestLValue(lValue.getParent()) + "." + lValue.name();
+ return lValue.getLastChild(); }
+ return getBestLValue().getParent());
+return getBestLValue(lValue.getParent()) + "";
+return getBestLValue(lValue.getParent()); } else { return lValue. parent ;
+ return lValue.owner());
+ if (isGet(lValue, lValue.getParent())) { } }
+ return lValue.getParent(());
+ if (lValue) {
+return getBestLValue(lValue.getParent()) + "." + getString(lValue);
+return getBestLValue(lValue.getParent().getParent());
+return getBestLValue(lValue.getParent(), owner);
+ return lValue.getParent().getParent(());
+return getBestLValueOwner(lValue.getParent();)
+ return lValue.getParent(_);
+return getBestLValue(lValue.getParent()); }
+return getBestLValue(lValue.getParent(), lValue).getParent();
+ return lValue.getJSDocName());
+ return getBestLValue.getParent());
+ return LValue.getJSDocInfo());
+ return getFirstChild());
+ return getBest(lValue));
+return getBestLValueOwner(null);
+return getBestLValueOwner(lValue, true);
+ return lValue.getOwner(parent.getParent());
+return getBestLValue(lValue, lValue.parent());
+ return lValue.getParent().getOwner(lValue.getParent());
+return getBestLValue(lValue, lValue.parent);
+ return lValue.next(_);
+ return getBestLValueOwner(lValue());
+ return getBestLValueOwnerFromObject(lValue.getParent());
+ return owner);
+ return lValue.getObjectLit());
+return getBestLValue(lValue).getParent();
+return getBestLValue(lValue.getParent()) + "." + lValue.owner();
+return getBestLValue(lValue.getParent()) + lValue.getFirstChild();
+ return lValue(n);
+return getBestLValue(lValue.getParent()); } else { return lValue.owner();
+ lValue.getBestLValue(lValue.getParent());
+ return lValue.getQualifiedName(); }
+return getBestLValue(lValue.getParent(lValue)); } else { return lValue;
+ return getBestLValueLValue(getParent());
+ return null;
+return getBestLValue(lValue.getParent(lValue)) ; } return null;
+return getBestLValue(lValue.getParent()); } else { return lValue ; }
+ return lValue.getFirstChild(); } else
+return getBestLValue(lValue.getParent(), lValue.owner);
+return getBestLValue(lValue.getParent()). getQualifiedName ( ) ;
+return getBestLValue(lValue.getParent()) + "." + lValue;
+ owner = getBestLValue(lValue.getParent());
+ if (parent == null) {
+ return lValue.owner.getBestLValue(lValue.getParent());
+ return lValue(parent);
+ return null);
+ return lValue.getFirstChild(_);
+ return ownerName + "."+getBestLValue(lValue.getParent());
+ return getBestLValue(Value.getParent());
+ return lValue.getFirstChild(();
+ return getObjectLitNode(lValue.getParent());
+return  lValue.owner
+return getBestLValueOwner(lValue.getParent(); }
+ return getOwnerNode(lValue.getParent());
+ return lValue.getOwner);
+return getBestLValue(lValue.getParent();)
+ return lValue.getParent()->getBestLValue(lValue.getParent());
+ owner = getLValue(lValue.getParent());
+ if (isProperty(lValue))
+ return getString(lValue));
+ return getBestLValueOwnerFor(lValue.getParent());
+ return lValue.getJSDoc('));
+ return null;
+ return n.getParent());
+ return getObjectOwner(lValue.getParent());
+ if (isGet(lValue)) { }
+ if (lValue!= null)
+ return getObjectLitKeyOwnerName(lValue.getParent());
+ return lValue(null);
+ return owner.getString());
+ return lValue.getString());
+return getBestLValueOwner(lValue.getParent(););
+return getBestLValue(lValue.getParent(lValue)) ; } else { return null;
+return getBestLValue(lValue.getParent()) + lValue.getLastChild();
+ return lValue.getSecondChild());
+ return lValue.getQualifiedOwner(lValue.getParent());
+ return getBestLValue(n.getParent());
+ if (isGet())) {
+ return lValue.owner);
+ return getOwner(n));
+ return $(lValue);
+return getBestLValue(n);
+return getBestLValue(lValue.getParent(lValue)). getFirstChild ( ) ;
+ return getNode(lValue.getParent());
+return getBestLValue(lValue.getParent()). getFirstChild(); } return lValue ;
+ if (isLValue) {
+ if (isGet()) {
+ if (isSet(lValue)) { }
+ return lValue.getName);
+ return getObjectLitName(lValue.getParent());
+return getBestLValueOwner(parent);
+ return LValue.getBestLValue(lValue.getParent());
+ return lValue.getOwnerName());
+ return owner));
+ return getOwnerName(lValue.getParent());
+ return LValue.getQualifiedName());
+return getBestLValueOwner(n);
+ return lValue.getFirstChild(); } }
+return getBestLValue(lValue.getParent(lValue)) ; } return lValue ;
+return getBestLValue(lValue.getParent()) + ".";
+ return owner(getParent());
+return getBestLValue(lValue.getParent()) + "." + owner;
+ return LValueUtils.getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()). getFirstChild(null);
+ return lValue.getParent(); } #getBestLValue(lValue.getParent());
+ return getOwnerOf(lValue.getParent());
+ return ownerof lValue.getParent());
+return getBestLValue(lValue.getParent(), lValue.getParent()); }
+return getBestLValue(lValue.getParent()). getName ( ) ;
+ return lValue.next();
+return getBestLValue(lValue.getParent()) + "." + lValue.name
+return getBestLValue(lValue).owner;
+ return parent);
+ return lValue.getOwner().getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()).getLastChild();
+ return lValue.getValue;
+return getBestLValueOwner(lValue.getParent();
+return getBestLValue(lValue); }
+ return lValue.name;
+return getBestLValue(lValue.getParent(), lValue.getParent(), null);
+return getBestLValue(lValue.parent());
+ owner = (lValue.getParent());
+ return lValue.getKey();
+ return lValue.getObjectLitName());
+ return _getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent(lValue.getParent()));
+ return lValue.getKey;
+ return lValue.getFirstChild(); } {
+ return lValue.parent;
+ lValue = lValue;
+ return lValue.owner();
+return getBestLValue(lValue.getParent().getFirstChild());
+return  lValue.;
+return  lValue.name();
+ if (isSet()) {
+ return lValue.parent().getBestLValue(lValue.getParent());
+ return getOwnerName());
+ return LValueHelper.getBestLValue(lValue.getParent());
+ return getOwner(parent));
+ return lValue[0].getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()), lValue);
+return getBestLValue(lValue.getParent();
+ return new Node());
+ return lValue.Owner().getBestLValue(lValue.getParent());
+ return lValue.getOwnName());
+ return getBestLValue(.getParent());
+return  lValue.Owner();
+ return lValueOwner.getBestLValue(lValue.getParent());
+ return owner.getBestLValue(lValue.getParent());
+ return lValue.Owner;
+ lValue = null;
+ return lValue.getKey());
+return getBestLValue(lValue.getParent(LValue)) ; } return lValue ;
+ ownerName = lValue.getParent());
+ return getOwnerNode());
+ return node.owner());
+ return getBestLValue(lValue());
+return getBestLValue(lValue.getParent);
+ return getLValue().getParent());
+ getBestLValueOwner(lValue());
+return getBestLValue(lValue.parent);
+return getBestLValue(lValue.getParent(getParent()));
+ return owner(n);
+ return (String(null));
+ return lValue.get().getParent());
+ owner(lValue.getParent());
+return getBestLValue(lValue.getParent()), owner;
+return getBestLValue(parent);
+return getBestLValue(lValue.getParent()).getFirstChild(false);
+ return parent.owner;
+ return getLValue(getParent());
+return getBestLValue(lValue.getParent()); } return lValue;
+ return (String(n));
+ return ownerOfValue;
+return getBestLValue(lValue.getParent().getFirstChild()); }
+return getBestLValue(lValue.getParent(.getParent()));
+return getBestLValue(lValue.owner);
+return getBestLValue(lValue.getParent()) + ";"
+ return (ObjectKey)getBestLValue(lValue.getParent());
+return getBestLValue(lValue.getParent()) + owner;
+ return parent;
+return getBestLValue(null);
+ return getName(lValue.getParent());
+return  lValue; }
+return  lValue.name
+ return getOwner();
+return getBestLValue(lValue.getParent()) + "Owner" ;
+ return lValue.getQualifiedKey());
+return getBestLValueOwner(); }
+return getBestLValue(lValue.getParent(getFirstChild()); }
+ return node(n));
+return getBestLValue(lValue.getParent(lValue.getParent());)
+ return lValueObject.getBestLValue(lValue.getParent());
+ return findOwner(lValue.getParent());
+ ownerName = null;
+return getBestLValue(lValue.getParent(LValue)) ;
+ return value.getParent());
+return getBestLValue(lValue.owner());
+ return getOwner(());
+return getBestLValue(lValue.getParent(lValue)) ;
+ return super.getBestLValue(lValue.getParent());
+ return lValue; }
+ if (debug) {
+return getBestLValue(lValue.getParent(lValue.getParent()););
+ return owner.name;
+return getBestLValue(lValue.getParent(lValue.getParent()); }
+return getBestLValue(lValue.getParent()) + "." + owner
+ return nodeOwner(lValue.getParent());
+ return parent));
+ return null; } else
+ return getBestLOwner(lValue.getParent());
+ return $(owner));
+ ownerName = owner;
+return getBestLValueOwn(lValue);
+ owner = getBestOwner(lValue.getParent());
+ owner = (value.getParent());
+ return $(n));
+ returnOwner());
+return getBestLValue(lValue.getParent(););
+ returnOwner(lValue.getParent());
+ return toString());
+return getBestLValue(lValue.getParent().getParent()); }
+ return parent());
+return getBestLValue(lValue.getParent()).getFirstChild(); } }
+ return (value.getParent());
+ return getBestLvalue(lValue.getParent());
+ return mapper.getBestLValue(lValue.getParent());
+ return node(lValue.getParent());
+ return $(getParent());
+ return getParent());
+return getBestLValue(lValue.getParent(getParent()); }
+ return parent; }
+ return $(lValue.getParent());
+ return lValueOwner().getBestLValue(lValue.getParent());
+ owner = null;
+ return name(lValue.getParent());
+return getBestLValue(lValue.getParent(true)) ;
+ return parent.getBestLValue(lValue.getParent());
+ return null));
+ return.getParent());
+return getBestLValue(lValue.Owner());
+ return toString(lValue.getParent());
+return getBestLValue(lValue.getParent(...));
+ return get());
+ return getName());
+return getBestLValue(lValue.getParent()), owner);
+ return lValue.(getParent());
+ parent.getBestLValue(lValue.getParent());
+return getBestLValue(value);
+ return GetBestLValue(lValue.getParent());
+ return LObject.getBestLValue(lValue.getParent());
+ getBestLValueOwner(lValue.getParent());
+ if (debug)
+ return parent;
+ return ownerName.getBestLValue(lValue.getParent());
+ return ().getParent());
+return getBestLValue(lValue.getParent(n)) ;
+ owner = n;
+ return (null);
+ if (reverse)
+ return lValue(getParent());
+return getBestLValue(owner);
+ return (owner);
+return  lValue();
+ return (parent);
+return  owner();
+ return null};
+ return ());
+return getBestLValue(lValue)();
+ return node.getParent());
+ owner.getBestLValue(lValue.getParent());
+ owner = parent;
+return getBestLValue(lValue.getParent(parent); }
+ return (n);
+ return (parent.getParent());
+ return (Value.getParent());
+ parent = n;
+return  ownerName;
+return getBestLValue(lValue.getChild());
+return getBestLValue(lValue)
+return getBestLValue(lValue.getOwner());
+return getBestLValue(LValue);
+return  lValue,
+ return this);
+return getBestLValueName();
+ return this;
+ return ();
+ return root;
+ return "(lValue.getParent());
+ try {
+return getBestLValueParent();
+return getBestLValueMember();
+return getBestLValue() ;
+return getBestLValue(lValue.getParent())) ;
+ get(lValue.getParent());
+return getBestLValue(lValue.getParent())); }
+ } else
+ } }
+ try to
+return getBestLValue(lValue.getParent()) } }
+ }

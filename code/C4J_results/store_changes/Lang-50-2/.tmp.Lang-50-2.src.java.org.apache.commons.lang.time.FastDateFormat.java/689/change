@@ -1,0 +1,499 @@
+rule = new StringLiteral(sub);
+ rule = new CharacterLiteral(sub);
+ rule(sub);
+ rule. append(sub);
+rule = new StringLiteral(sub.charAt(1));
+rule  = null
+ rule = new CharacterLiteral ( sub [ 1 ] ) ;
+rule = new StringLiteral ( sub. charAt ( 0 ) )
+ rule = new CharacterLiteral ( );
+ rule = new Character(sub);
+rule = new StringLiteral ( sub. substring ( 1 ) ) ;
+ rule = parseStringLiteral(sub);
+rule = new StringLiteral(sub, tokenLen);
+ rule = (sub);
+ rule = new CharacterLiteralString(sub);
+rule = new StringLiteral(sub.charAt(0));
+ rule = new StringLiteral(sub.charAt(0)); } break; case '"' :
+ rule = null;
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '"' :
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\'": {
+ rule = new CharacterLiteral ( sub, 0 ) ;
+ rule = new String(sub);
+rule = new StringLiteral(sub.charAt(0)); }
+rule = new StringLiteral(sub) ; } break;
+ rule = new CharacterLiteral ( sub. length ( ) )
+ rule = new CharacterLiteral(tokenLen);
+ rule = new CharacterLiteral ( sub, token ) ;
+rule = new StringLiteral ( sub. trim ( ) ) ;
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\'":
+ if (sub.length() == 2) { rule = new CharacterLiteral(sub);
+rule = new StringLiteral(sub); }
+ rule = new CharacterLiteral ( sub ) ; }
+ rule = new CharacterLiteral ( sub, tokenLen ) ;
+rule = new StringLiteral(sub) ; break;
+ rule = new CharacterLiteral ( sub. trim ( ) )
+rule = new StringLiteral(sub.charAt(1)); }
+ rule = (Rule)new StringLiteral(sub);
+rule = new StringLiteral ( sub, token ) ;
+ if (sub.length() == 2) {
+rule = new StringLiteral(sub.charAt(0)+1);
+ rule = new CharacterLiteral(sub.charAt(0)); } break; case '\'": {
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; default:
+ rule = new StringLiteral(sub.charAt(0)); } else { rule = null ; }
+ rule = new CharacterLiteral(''+sub);
+ rule = new CharacterLiteral(1+sub);
+ if (sub.length() == 2) { rule = new CharacterLiteral(); }
+ rule = new CharLiteralFromStringLiteral(sub);
+ rule = new CharLiteral(sub);
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\'":
+ sub = sub. substring ( 0, 1 ) ;
+rule = new StringLiteral(sub, token); }
+ rule = sub ; }
+rule = new StringLiteral(sub[0]);
+ rule = '\''+new StringLiteral(sub);
+ rule = new StringLiteral(sub.charAt(0)); } break; default: {
+ rule = new CharacterLiteral ( sub, 1 ) ;
+rule = new StringLiteral ( )
+ sub = sub. substring ( 1, tokenLen ) ;
+ sub = sub. substring ( 1 ) ; }
+ if (sub!= null) {
+ if (sub.length() == 2) { rule = new CharLiteral(sub);
+rule = new StringLiteral(sub.charAt(0)+'\'');
+ rule = new StringLiteral(sub.charAt(0)); } else { case '"' :
+ rule = new CharacterLiteralExpression(sub);
+ rule = new Char(sub);
+rule = new StringLiteral ( sub. trim ( ) )
+rule = new StringLiteral(sub) rule. append ( sub ) ;
+ rule = new CharacterLiteralImpl(sub);
+ if (sub.length() == 2) { rule = new CharacterLiteral; }
+ rule = new StringLiteral(sub.charAt(0)); } else if ( sub ) {
+rule = new StringLiteral ( sub [ 1 ] ) ;
+ rule = new CharacterLiteral(sub, token); }
+ sub = sub. substring ( 1, tokenLen ) ; }
+rule = new StringLiteral(sub.charAt(0)+' ');
+ rule = new CharacterLiteralText(sub);
+ if (sub.length() == 2) { rule = new CharacterLiteral();
+ sub = sub. substring ( 0, tokenLen ) ;
+rule = new StringLiteral(sub.charAt(0)); break;
+ rule = new CharacterLiteral(0+sub);
+ rule = new CharacterLiteral( ' ');
+ rule [ tokenIndex ]= new StringLiteral(sub);
+ if (sub.length() == 2) { rule = new StringLiteral(sub);
+rule = new StringLiteral ( sub. charAt ( 1 ) )
+ rule = new CharacterString(sub);
+ if (sub.length() == 2) { rule = new CharLiteral(); }
+ rule = new CharacterLiteralValue(sub);
+rule = new StringLiteral(sub.charAt(0), token); }
+rule = new StringLiteral ( sub )
+ rule = new CharacterValue ( sub ) ;
+rule  = sub ;
+ if (sub.length() == 3) { rule = new CharacterLiteral(); }
+ if (sub.length() > 1) {
+rule = new StringLiteral(sub.charAt(0, token); }
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\'"": {
+ rule = new CharacterLiteralChars(sub);
+ rule = new CharacterExpression(sub);
+rule = new StringLiteral(sub.charAt(0, tokenLen)); }
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\\': {
+ if (sub.length() == 2) { rule = new Character (sub); }
+ rule = '\'';
+ if (sub.length() == 2) { rule = new Character (sub); } else
+ rule = new StringLiteral(sub.charAt(0)); } case '\'" :
+rule = new StringLiteral(sub.length(1);
+ rule = new CharacterLiteralDigit(sub);
+ if (sub.length() == 2) { rule = new CharacterLiteral }
+ if ( sub. charAt ( 0 ) == '\'' ) {
+ sub = sub. substring ( 1 ) ;
+ rule = new CharStringLiteral(sub);
+ rule = new CharValue(sub);
+ rule = new CharacterLiteralFromStringLiteral(sub);
+ if (sub.length() == 2) { rule = new String(sub); }
+ rule = new CharacterLiteral(sub.length()); }
+ rule |= new StringLiteral(sub);
+ sub = sub. substring ( 1, 2 ) ;
+rule = new StringLiteral(sub.charAt(1)); break;
+ if (sub.length() == 2) { rule = new CharLiteral();
+rule = new StringLiteral(sub.charAt(0) + '"');
+ sub = sub. substring ( 0, 1 ) ; }
+rule = new StringLiteral ( sub. toString ( ) )
+ sub = sub. substring ( 0, tokenLen ) ; }
+ rule = new CharacterText(sub);
+ rule = new CharacterLiteralIgnoreCase(sub);
+ rule = new CharString(sub);
+ rule [ 0 ]= new StringLiteral(sub);
+ rule = new CharacterLiteralWrapper(sub);
+ rule = new CharacterLiteral ( "\\'" )
+ rule = new CharacterLiteral(\',sub);
+ rule = new CharacterStringLiteral(sub);
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\'"':
+rule = new StringLiteral ( sub. charAt ( ) )
+ rule = new CharacterSequence ( sub ) ;
+rule = new StringLiteral(sub) rule. append ( sub )
+ rule = new CharacterLiteral(sub;
+ rule = new CharLiteral. FromStringLiteral(sub);
+ rule [ '\''' ]= new StringLiteral(sub);
+ if (sub.length() > 1)
+ rule = new CharacterValue ( ) ;
+ rule = StringLiteral(new StringLiteral(sub);
+ rule = new CharacterLiteralSequence(sub);
+ rule = new CharLiteral(new StringLiteral(sub);
+ rule [ tokenLen ]= new StringLiteral(sub);
+ if (sub.length() == 2)
+ if (sub.length() == 2) { rule = null ; }
+ sub = sub. substring ( 1, token. length()); }
+ rule = new CharacterLiteral(sub[0]); }
+rule = new StringLiteral(sub.charAt(0)+'\''');
+ rule = stringLiteral(new StringLiteral(sub);
+ rule [ i ]= new StringLiteral(sub);
+ if ( sub. charAt ( 0 ) == '\''' ) {
+ rule = new CharacterLiteral ( sub ) ; } break; case '\'": {
+ sub = sub. substring ( 1, token. length ) ;
+ rule = new Character ( sub ) ; }
+ if (sub.length() > 2) {
+ rule = new CharacterLiteral(string=sub);
+ rule = new CharacterSequence ( sub ) ; }
+ rule = new CharacterLiteral(new String(sub);
+ if ( sub. charAt ( 0 )!= '\'' ) {
+ rule = new CharLiteralString(sub);
+ sub = sub. substring ( 1, 1 ) ;
+rule = new StringLiteral(sub.length(1));
+rule = new StringLiteral(sub.length(), sub);
+rule = new StringLiteral(sub.charAt(0)+"\"");
+ rule = ' ';
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n' : {
+ rule [ '\\'' ]= new StringLiteral(sub);
+ rule = new CharLiteral ( );
+ rule = new CharSequence(sub);
+ if (sub.length() == 2) { rule = "\""; }
+ rule.StringLiteral(sub);
+ rule = new String ( sub )
+ rule = new CharLiteral(tokenLen);
+rule = new  CharacterLiteral(new StringReader(sub);
+ rule = literal(sub);
+ if ( sub. length ( ) > 0 ) {
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\'" : case '"' :
+ rule = new CharacterLiteral. FromStringLiteral(sub);
+ rule = new CharacterString ( sub, token ) ;
+ if (sub.length() == 2) { rule = '\'' ;
+rule = new StringLiteral(sub, 1);
+ rule = new CharacterText ( sub ) ; }
+ if (sub.length() == 2) { rule = new CharacterLiteral(sub));
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case ' ':
+ return null;
+rule = new StringLiteral(sub.CharAt(1));
+ if (sub.length() == 2) { rule = new Character(sub);
+ rule = new CharacterStringRule ( sub ) ; }
+ rule = stringLiteral=new StringLiteral(sub);
+ if (sub.length() == 2) { rule = "\\\""; }
+ if (sub.length() == 2) { rule = "\\'" ;
+ rule = new CharacterString ( sub ) ; }
+ rule =StringLiteral(sub);
+ rule = new CharacterLiteral ( sub )
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case '\r':
+ rule = new CharacterValue ( sub )
+ if (sub instanceof String) {
+ if (sub.length() == 2) { rule = "\\\"";
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\n': case ' ':
+ rule = null ; }
+ rule = new CharacterStringRule(sub);
+rule = new StringLiteral(sub.charAt(0, token) ;
+ rule = new CharacterLiteral(sub.charAt(0)); } break; case '\n': case '\r':
+ rule = new Text(sub);
+ rule = new CharacterLiteral(\\'');
+ rule = new CharLiteralStringLiteral(sub);
+ rule = new CharExpression(sub);
+rule = new StringLiteral ( sub, 0 ) ;
+ rule = TimeZoneNumberRule.fromStringLiteral(sub);
+ rule = StringLiteral.new StringLiteral(sub);
+ rule = new CharacterText ( );
+ rule = new UppercaseStringLiteral(sub);
+ rule = new UnterminatedStringLiteral(sub);
+ rule = StringLiteralRule.new StringLiteral(sub);
+rule = new StringLiteral(sub) ; } break ; default : break ;
+ if ( sub. length ( ) ) {
+ rule = new CharacterLiteral(sub)+;
+ rule = new CharacterLiteral(sub);;
+ rule = parse(sub);
+ rule = new CharacterLiteral(+sub);
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\'": {}
+ rule [ tokenLen ++ ]= new StringLiteral(sub);
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case '\n':
+ sub = sub. substring ( 0, 1 ) }
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case ' '':
+ rule = new StringLiteral(sub.charAt(0)); } case '"' : {
+ rule = (rule)new StringLiteral(sub);
+ rule *= new StringLiteral(sub);
+ rule = new CharacterLiteral ( sub. charAt ( 0 ) ) ; } break; case '\n': case ' '':
+ rule = new CharLiteral(1)+new StringLiteral(sub);
+ rule = new CharacterString ( );
+ rule = new CharacterLit(sub);
+rule = new StringLiteral(sub.length()); }
+ rule = new CharacterString ( sub )
+ rule = new CharacterLiteral(sub.charAt(0)); } break; case '\n': case '\n':
+ rule = new CharacterLiteral()sub;
+ rule = new CharacterLiteral ( sub ) ; } break; case '\n' : {
+ rule = new CharLiteral(0)+new StringLiteral(sub);
+rule = new StringLiteral(sub, true);
+ rule = new Character ( ' ');
+rule = new StringLiteral(sub) ; } break ; default : break ; }
+ rule = new CharLiteral(); rule= new StringLiteral(sub);
+ rule = null ; } else { rule =new StringLiteral(sub);
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case '-':
+ rule = new CharLiteral(sub;
+ if (sub.length() == 2) { rule = new CharacterString; }
+ rule = new CharPattern(sub);
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case ' ': {
+rule = new StringLiteral(sub) ; } default : rule = null ; break ;
+ rule = new CharacterLiteralAtLeast(sub);
+ rule = '\'' ; rule=new StringLiteral(sub);
+ rule = new StringLiteral(sub.charAt(0)); } break; case '\n': case '\':
+ rule = new Pattern(sub);
+rule = new StringLiteral(sub, false);
+rule = new StringLiteral(sub) ; } break ; default : rule = null ;
+ rule = (String)new StringLiteral(sub);
+ rule = new CharacterLiteral(_);
+rule = new StringLiteral(sub) rule. append ( token ) ;
+ rule = new UnescapedStringLiteral(sub);
+ rule = rule|new StringLiteral(sub);
+ rule = new CharacterLiteral(1)+new StringLiteral(sub);
+ rule = new StringRule(sub);
+ rule. charAt ( 0 ) |= new StringLiteral(sub);
+ rule [ '\'' ]= new StringLiteral(sub);
+ if ( sub. charAt ( 0 ) == '\'' ) break ; }
+rule = new StringLiteral(sub, 0, 1);
+ rule = " ";
+rule = new StringLiteral(sub) rule = rule. trim ( ) ;
+rule = new StringLiteral(sub.length()++);
+ rule = new CharacterLiteral(0)+new StringLiteral(sub);
+ rule [ 0 ] [ 0 ]= new StringLiteral(sub);
+ rule = new CharLiteral(new CStringLiteral(sub);
+rule = new StringLiteral(sub) ; } break ; default : rule = token ;
+ rule = new CharLiteral(new RawStringLiteral(sub);
+rule = new StringLiteral(sub) rule. append ( '\'' ) ;
+ rule = new CharLiteral(new SafeStringLiteral(sub);
+ rule = new CharacterLiteral().fromStringLiteral(sub);
+ rule. charAt ( 0 ) *= new StringLiteral(sub);
+ rule = new Character (sub); break;
+ rule = TimeZoneRule.fromStringLiteral(sub);
+ sub = sub. substring ( 1, token. length ) }
+ rule = New CharacterLiteral(sub);
+ if (tokenLen == 2) {
+ rule = new CharLiteral(new CharStringLiteral(sub);
+rule = new StringLiteral(sub) rule. add ( rule ) ;
+rule = new StringLiteral(sub) rule. append ( ' ' ) ;
+rule = new StringLiteral(sub) rule. add ( rule )
+ rule = new CharLiteralForStringLiteral(sub);
+ if (sub.length() == 2) { }
+rule = new StringLiteral(sub) ; } break ; default : break ; default :
+ rule = new CharLiteral(new ByteStringLiteral(sub);
+ rule. getText ( ) |= new StringLiteral(sub);
+rule = new  CharacterLiteral(new StringBuilder(sub);
+ rule = new (sub);
+ rule = new SafeStringLiteral(sub);
+ rule = new Pattern ( sub )
+ rule = new CharLiteral. fromStringLiteral(sub);
+ if (sub!= '\'')
+ rule = "\\'";
+ rule = new CharLiteralInStringLiteral(sub);
+ rule = new CharLiteral(rule=new StringLiteral(sub);
+ rule = new CharChars(sub);
+ rule = StringLiteralRule(new StringLiteral(sub);
+ rule = '\\'';
+ rule [ token ++ ]= new StringLiteral(sub);
+ if (sub.length() == 2) break; }
+rule = new StringLiteral(sub) rule = '\'' ;
+ rule [ '\'"' ]= new StringLiteral(sub);
+ rule = new Character ( ) ;
+ rule. getValue ( ) |= new StringLiteral(sub);
+ rule = new CharacterLiteral().newInstance(sub);
+ rule = null ; break ;
+ rule [ '\\' ]= new StringLiteral(sub);
+rule = new  CharacterLiteral("\''")(sub);
+rule = new StringLiteral(sub) } break ; default : rule = token ; }
+rule = new StringLiteral(sub) rule = rule. trim ( )
+ rule [ tokenName ]= new StringLiteral(sub);
+rule = new StringLiteral(sub) ; } default : rule = token ; }
+rule = new StringLiteral(sub) ; } break ; default :
+ rule [ 0 ] [ 1 ] |= new StringLiteral(sub);
+ rule = new CharacterLiteral(charAt(sub);
+ rule [ rule. length - 1 ] |= new StringLiteral(sub);
+ rule = new MultilineStringLiteral(sub);
+rule = new StringLiteral(sub) rule. setText ( sub )
+ if (tokenLen == 1) {
+ rule = null ; } break;
+ rule = rule=new StringLiteral(sub);
+ rule = new CharacterExpression();
+ rule. add(sub);
+ rule = new CharacterLiteral. fromStringLiteral(sub);
+rule = new StringLiteral(sub.length( ));
+ rule = new String(sub;
+ rule = new Charset(sub);
+ rule = new CharLiteral()+new StringLiteral(sub);
+ rule = new CharacterLiteral(part);
+ rule = new CharacterValue ;
+ rule = stringLiteral.new StringLiteral(sub);
+ rule = '\'' ;
+ rule = new UTF-8-StringLiteral(sub);
+rule = new StringLiteral(sub.length())); }
+ rule = new RawStringLiteral(sub);
+ rule = new CharacterLiteral()+new StringLiteral(sub);
+rule = new StringLiteral(sub) ; break ; }
+ rule = new CharacterString(sub, 1);
+ rule = "\\";
+ rule [ ruleIndex ] [ ruleIndex ] |= new StringLiteral(sub);
+ rule = '( ');
+ rule [ 0 ] [ token ] |= new StringLiteral(sub);
+ rule = new UnicodeStringLiteral(sub);
+rule = new StringLiteral(sub) ; } break ; }
+ rule = STRING;
+ rule [ tokenLen ] |= new StringLiteral(sub);
+ rule [ 0 ] = sub ; } rule |= new StringLiteral(sub);
+ rule = new UTF8StringLiteral(sub);
+ rule. charAt ( 0 ) ^= new StringLiteral(sub);
+ rule [ '\'' ] [ tokenLen ]= new StringLiteral(sub);
+ rule = new CharPattern(new StringLiteral(sub);
+ rule. literalText |= new StringLiteral(sub);
+ rule = new String();
+ rule = (string)new StringLiteral(sub);
+ rule [ 0 ] = sub [ 0 ] ^= new StringLiteral(sub);
+ if (sub!= '') {
+ rule = "\"";
+ rule = '\n';
+ rule [ rule. length - 1 ] ^= new StringLiteral(sub);
+rule = new StringLiteral(sub) ; } break ; default : { break ;
+ rule = new CharLiteral; rule= new StringLiteral(sub);
+ rule = null ; rule =new StringLiteral(sub);
+rule = new StringLiteral(sub.length(0);
+rule = new  CharacterLiteral("\'""(sub);
+ if (sub!= "") {
+ rule [ 0 ] = sub [ 0 ] |= new StringLiteral(sub);
+ rule = new LiteralStringLiteral(sub);
+ rule = EMPTY;
+ rule = (char)new StringLiteral(sub);
+ rule [ '\'' + tokenName ]= new StringLiteral(sub);
+rule = new  CharacterLiteral("\'"")(sub);
+ rule = rule_new StringLiteral(sub);
+rule = new StringLiteral ( "\\'" )
+ if (sub!= null)
+rule = new StringLiteral(sub[0]); }
+ rule = "\\'"+new StringLiteral(sub);
+ rule = new CompiledStringLiteral(sub);
+ rule = new UTF-8BitStringLiteral(sub);
+ rule = new SymbolicStringLiteral(sub);
+ if (sub) {
+ rule = "\\"+new StringLiteral(sub);
+ rule = new CharacterLiteral2;
+ rule [ 1 ]= new StringLiteral(sub);
+rule = new StringLiteral(sub) rule = '\\';
+ rule = new MulticodeStringLiteral(sub);
+ rule = new CharacterLiteral()^new StringLiteral(sub);
+ rule = rule||new StringLiteral(sub);
+ rule = rule.new StringLiteral(sub);
+rule = new StringLiteral(sub) ; } } break;
+rule = new StringLiteral(sub) rule = '\''
+ rule = new InsensitiveStringLiteral(sub);
+ rule. value |= new StringLiteral(sub);
+ rule. set(sub);
+ rule = "+sub);
+ rule = new PlainStringLiteral(sub);
+ rule = "(sub);
+ rule = $(sub);
+ ruleText(sub);
+ rule = new CharacterSingleChars(sub);
+ rule [ index ]= new StringLiteral(sub);
+ rule += (sub);
+ rule = createStringLiteral(sub);
+ rule = new CharacterSingleBrace(sub);
+rule = new StringLiteral(sub) ; } }
+ rule = new MulticastStringLiteral(sub);
+rule = new StringLiteral(sub, ' ');
+ rule = (super);
+ return rule;
+rule = new StringLiteral(sub) break; }
+ rule = literalText;
+ if (sub!= null) {}
+ rule = new CharacterSingleQuoteRule(sub);
+rule = new StringLiteral(sub) break ; default :
+ rule = new CharacterTiteral(sub);
+rule = new  String ( )
+ rule = undefined;
+rule = new  Character ;
+rule = new  CharText();
+ rule = '\\';
+rule  = sub
+rule = new StringLiteral(sub) } break;
+rule = new StringLiteral(...)
+rule = new StringLiteral(tokenLen);
+ rule = readStringLiteral(sub);
+ case '\'":
+ rule = fromStringLiteral(sub);
+ if (sub)
+rule = new StringLiteral ( ) ;
+ rule [ ]= new StringLiteral(sub);
+ rule = '\'' +
+rule = new  Text ;
+ case '\'':
+ rule = sub);
+ case '"' :
+ rule = null);
+ rule ^= new StringLiteral(sub);
+ break loop;
+ case '\'": }
+rule = new  Pattern ;
+rule = new StringLiteral(tokenStr);
+ return null);
+ rule = null ;
+ rule + "= new StringLiteral(sub);
+ rule &= new StringLiteral(sub);
+ ruleRule(sub);
+ rule. value= new StringLiteral(sub);
+ rule. parse(sub);
+rule = new StringLiteral(sub) break;
+ rule. literal= new StringLiteral(sub);
+ break 2;
+ rule. escape(sub);
+ break outer;
+rule = new StringLiteral(subString);
+rule  = undefined
+rule = new  Text();
+ ruleValue(sub);
+ break;);
+ rule. text= new StringLiteral(sub);
+rule = new StringLiteral(sub)); }
+rule = new StringLiteral(sUB);
+ break; }
+rule = new StringLiteral(tokenString);
+ var rule=new StringLiteral(sub);
+rule  = ""
+ break;
+ break();
+ throw exception);
+ ruleFromStringLiteral(sub);
+ (break);
+rule  = ''
+ comment(sub);
+ print(sub);
+ case '"'':
+ parse(sub);
+ rule ||= new StringLiteral(sub);
+rule = new StringLiteral(Sub); }
+ case '''
+ case '':
+ case '"'
+ default:
+rule = new StringLiteral(sub));
+rule = new StringLiteral(sub) } }
+rule = new StringLiteral(Sub);
+rule = new StringLiteral(part);
+rule = new StringLiteral(sub());
+ break }
+ rule.new StringLiteral(sub);
+ rule_new StringLiteral(sub);
+ rule(new StringLiteral(sub);
+rule = new StringLiteral(sub) } break
+ #
+rule = new StringLiteral(super);
+rule = new StringLiteral(string);
+rule += new StringLiteral(sub);
+rule << new StringLiteral(sub);

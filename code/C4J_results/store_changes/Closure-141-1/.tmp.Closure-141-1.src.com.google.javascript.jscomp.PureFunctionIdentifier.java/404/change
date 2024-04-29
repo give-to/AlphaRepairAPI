@@ -1,0 +1,144 @@
+ return sideEffectInfo ;
+ if (inExterns) { traversal. report ( node, INVALID_NO_SIDE_EFFECT ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NO_SIDE_EFFECT ) ; }
+ if (inExterns) { traverseal. report ( node, INVALID_NO_SIDE_EFFECT ) ;
+ } }
+ if (inExterns) { traverseal. report ( node, INVALID_NO_SIDE_EFFECT ) ; }
+ return node. getString ( ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NON_EXTERNAL ) ;
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); }
+ if (inExterns) { traversal. report ( node, INVALID_EXTERNAL ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NO_EXTERNAL ) ;
+ if (inExterns) { traversal. report ( node, INVALID_CALL ) ;
+ } if (inExterns) { traversal. report ( node, INVALID_NO_SIDE_EFFECT);
+ if (inExterns) { traversal. report ( node, INVALID_NAMESPACE ) ; }
+ } if (inExterns) { traversal. report ( node, INVALID_NO_EXTERNAL ) ;
+ if (inExterns) { traverseal. report ( node, INVALID_EXTERNAL ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NON_SIDE_EFFECT ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NO_SIDEEFFECT ) ;
+ if (inExterns) { traversal. report ( node, INVALID_CALL_SITE); }
+ if (inExterns) { traversal. report ( node, INVALID_CALL ) ; }
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); } }
+ if (inExterns) { traversal. report ( node, INVALID_CALL_SITE ) ;
+ if (inExterns) { traversal. report(node, INVALID_EXTERNAL); }
+ } if (inExterns) { traversal. report ( node, INVALID_CALL_SITE);
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); } } }
+ if (inExterns) { traversal. report ( node, INVALID_EXTERNAL )
+ return node ;
+ if (inExterns) { traversal. report ( node, INVALID_NAMESPACE ) ;
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState();
+ if (inExterns) { return ; }
+ if (inExterns) { traversal. report ( node, INVALID_NO_SIDE_EFFECT_NAME);
+ } if (inExterns) { traversal. report ( node, EXTERNAL ) ;
+ if (inExterns) { traversal. report ( node, INVALID_NO_SIDE_EFFECT_NAME )
+ } else { sideEffectInfo. setTaintsUnknown(); } return sideEffectInfo ;
+ return true ; } else { return false ; } }
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); } return node ;
+ } else { sideEffectInfo. setTaintsUnknown ( ) ;
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(true); }
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); } return node ; } }
+ return node ; }
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(); } } } ;
+ if (inExterns) { traversal. report(node, INVALID_Call);
+ if (inExterns) { traversal. report(node, INVALID_ALL);
+ if (inExterns) { traversal.report(node, INTERNAL); }
+ if (inExterns) { sideEffectInfo.setIsPure(); }
+ } if (inExterns) { traversal. report ( node, INVALID_Call);
+ if (inExterns) { sideEffectInfo.setIsPure(); } }
+ if (inExterns) { traversal. report ( node, INVALID_CALL_STATEMENT);
+ return node. getFirstChild ( ) ; }
+ if (inExterns) { sideEffectInfo.setTaintsLocalState(); }
+ } if (inExterns) { traversal. report ( node, INVALID_ALL )
+ if (inExterns) { sideEffectInfo.setTaintsCall(node);
+ if (inExterns) { traversal. report ( node, INVALID_CALL_STATUS);
+ } else { sideEffectInfo. setTaintsUnknown ( ) ; }
+ } if (inExterns) { traversal. report ( node, EXTERNAL )
+ return node. getFirstChild ( ) ;
+ return true ; } else { return false ; } } ;
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState(true);
+ if (inExterns) { return node ; }
+ if (inExterns) { return node. getString ( ) ;
+ if (inExterns) { sideEffectInfo.setIsPure(true);
+ } else { sideEffectInfo. setTaintsUnknown ( ) ; } }
+ } else { sideEffectInfo. setTaintsUnknown(node); } }
+ if (inExterns) { traversal.report(node); } }
+ } else { sideEffectInfo. setTaintsUnknown(); } return node ; } } ;
+ return true ; } else { return false ; } return true ; }
+ } else { sideEffectInfo. setTaintsUnknown(); } } } ;
+ return true ; } else { return false ; } return true ;
+ return ( Node ) node ;
+ }
+ return node. getLastChild ( ) ;
+ if (inExterns) { return ; } }
+ return ( Node ) node. next ( ) ;
+ return node. getString ( ) ; }
+ } else { sideEffectInfo. setTaintsUnknown ( ) ; } } ;
+ if (inExterns) { return false ; }
+ } else { sideEffectInfo. setTaintsUnknown(); } } } } ;
+ } return sideEffectInfo ;
+ } else { sideEffectInfo. setTaintsUnknown(); } } } ) ;
+ return ( Node ) node ; }
+ if (inExterns) { return node ; } }
+ } else { sideEffectInfo. setTaintsUnknown(); } } ) ;
+ return ( Node ) node. parent ;
+ } else { sideEffectInfo. setTaintsUnknown(node); }
+ }
+ if (inExterns) { sideEffectInfo.setTaintsGlobalState; }
+ return true ; }
+ return true ; } else { return false ; } } return true ;
+ return true ; } else { return false ; } } ) ;
+ return ;
+ if (inExterns) { return ; } } }
+ return true ;
+ return true ; } else { return false ; } } } ;
+ return true ; } else { return false ; } } } ) ;
+ return ( Node ) node. firstChild ;
+ return node. getString ( )
+ } else { sideEffectInfo. append ( ) ;
+ if (inExterns) { node = call;
+ return - 1 ;
+ return true ; } else { return false ; } } } } } ;
+ } else { sideEffectInfo. appendCall ( )
+ return node ; } } ;
+ return ( CallSite ) node ; }
+ return this ; }
+ return node ; } }
+ } } } ; }
+ return ( Node ) node. nextChild ; }
+ return node. lineno ;
+ return node. next ( ) ;
+ return node. parent ; }
+ return ( Node ) node ; } }
+ return ( Node ) node. getNextChild ;
+ return node ; } return node ;
+ return node. getString()); }
+ } } else {
+ return node. parent ;
+ return node ; } } } ) ;
+ return node ; } } } } ) ;
+ return false ;
+ return this ;
+ return node ; } } } } } ) ;
+ } } ) ; }
+ return node. value ;
+ } } } ;
+ } } } } ;
+ } } ;
+ } } } ;
+ } } ; }
+ return ; } } ;
+ } } ;
+ } } } } {
+ return ; }
+ } } } {
+ } } },
+ } } {
+ } },
+ } } }
+ } ;
+ break ;
+ } }
+ } ;
+ return
+ }; }
+ }); }

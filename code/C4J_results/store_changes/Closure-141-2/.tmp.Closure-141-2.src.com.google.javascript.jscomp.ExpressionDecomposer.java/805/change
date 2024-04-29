@@ -1,0 +1,1020 @@
+return NodeUtil.canBeSideEffected(n);
+return NodeUtil.canBeSideEffected(n,  followingSideEffectsExist);
+return NodeUtil.mayHaveSideEffects(n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.mayHaveSideEffects();
+return NodeUtil. mayHaveSideEffects ( n )
+return  followingSideEffectsExist
+return NodeUtil.canBeSideEffected(n, followingSideEffects);
+ NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.mayHaveSideEffects(n, following);
+ return true;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, seenSideEffects);
+return  followingSideEffectsExist ;
+return NodeUtil.canBeSideEffected(n, following);
+return NodeUtil. mayHaveSideEffects ( )
+return  NodeUtil.mayHaveSideEffects(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist);
+return NodeUtil. mayHaveSideEffects ( n ) ; }
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, this.knownConstants);
+return NodeUtil.canBeSideEffected(this, n, this.knownConstants);
+return NodeUtil.mayHaveSideEffects(n, followingSide);
+ return NodeUtil.mayHaveEffects(n);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, false);
+ return _canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.mayHave(n);
+return NodeUtil. mayHaveSideEffects ;
+return  NodeUtil.mayHaveEffects(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), followingSideEffectsExist);
+return  followingSideEffects ;
+return NodeUtil.mayHaveSideEffects(n, followingEffects);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, true);
+ return isSafe(n, this.knownConstants);
+ return NodeUtil.knownConstants);
+return  isExpressionTreeUnsafe(n, this.knownConstants);
+ return isSafeAssign(n, this.knownConstants);
+ return mayHaveSideEffects(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingEffects);
+ return NodeUtil(n);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), seenSideEffects);
+ return this.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.mayHaveEffects();
+ return NodeUtil.mayHaveSideEffects(knownConstants);
+return n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist);
+return NodeUtil.canBeSideEffected(n, followingSideEffects, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), followingSideEffectsExist);
+ return NodeUtil.(n);
+ return NodeUtil.mayHave(n, this.knownConstants);
+return  true ; }
+return NodeUtil.canBeSideEffected(n, followingSideEffectsList);
+ return (!knownConstants);
+return NodeUtil.mayHaveSideEffects(n, followingSide());
+ return NodeUtil.mayHaveEffects(knownConstants);
+return  followingSideEffectsExist ; }
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist) ; }
+return  this.isExpressionTreeUnsafe(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this, this.knownConstants);
+return NodeUtil. mayHaveSideEffects ( lhs ) ;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsList, this.knownConstants);
+ return NodeUtil.effects(n);
+ return isSafe(n);
+ return NodeUtil. mayHaveSideEffects(n, followingSideEffects);
+ return (n.knownConstants);
+(n, this.knownConstants);
+return NodeUtil.mayHaveSideEffects(n, follows);
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), seenSideEffects);
+ return NodeUtil.mayHaveEffects(n.knownConstants);
+ return includes(n, this.knownConstants);
+ return NodeUtil.may(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, thisExpression);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, this, this.knownConstants);
+ return NodeUtil.mayHaveSideEffects(this.knownConstants);
+ return NodeUtil.mayHave(n.knownConstants);
+ return NodeUtil. mayHaveSideEffects(n, followingSideEffectsExist);
+return NodeUtil.canBeSideEffected(n, followingSide);
+return NodeUtil.canBeSideEffected(n.getFirstChild(), followingSideEffectsExist);
+ return NodeUtil.mayHaveEffects(this.knownConstants);
+return NodeUtil. mayHaveSideEffects ( ( n ) )
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, false, this.knownConstants);
+ return NodeUtil. mayHaveSideEffects ( n, followingSideEffectsExist )
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, this);
+return NodeUtil.mayHaveSideEffects(n, followedSide);
+return  FollowingSideEffectsExist ( n ) ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || followingSideEffectsExist
+ return (!this.knownConstants);
+ return NodeUtil.mayHaveEffects(n;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, true, this.knownConstants);
+return  FollowingSideEffectsExist ; }
+return NodeUtil.canBeSideEffected(n, this).mayHaveSideEffects(n);
+return NodeUtil.canBeSideEffected(n, thisExpressionTree);
+return  NodeUtil.mayHaveSideEffects(this).inline(n, this.knownConstants);
+ Return NodeUtil.mayHaveEffects(n);
+return NodeUtil.canBeSideEffected(n.getFirstChild(), seenSideEffects);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffects);
+ if ( n. isFunctionCall ( ) ) { return followingSideEffectsExist
+return  NodeUtil.mayHaveSideEffectsWithKnownConstants(n, this.knownConstants);
+return NodeUtil.mayHaveSideEffects(n, followingNode);
+return NodeUtil.mayHaveSideEffects(n, follow);
+ return NodeUtil.mayHaveEffects;
+return(n);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, true, false);
+ return NodeUtil.mayHave(knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist2);
+return  this.mayHaveSideEffects(n, this.knownConstants);
+return  NodeUtil. affected ( n )
+ if ( n. isFunction ( ) ) { return NodeUtil. mayHaveSideEffects ;
+ if ( n. isFunction ( ) ) { return n. isFunction ( ) ;
+ return mayHaveEffects(n, this.knownConstants);
+return NodeUtil.canBeSideEffected() ;
+ if ( n. isFunction ( ) ) { return NodeUtil. mayHaveSideEffects ( )
+ return!isExpressionTreeUnsafe(n, this.knownConstants);
+ if ( n. isFunctionCall ( ) ) { return NodeUtil. mayHaveSideEffects ( )
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, inlined);
+ return NodeUtil. mayHaveSideEffects ( n, followingSideEffects )
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, context);
+ Return NodeUtil.mayHave(n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; }
+return  FollowingSideEffectsExist ;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist++);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || followingSideEffectsExist ;
+ if ( n. isFunctionCall ( ) ) { return NodeUtil. mayHaveSideEffects ;
+ if ( n instanceof Function ) { return NodeUtil. mayHaveSideEffects ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isFunction ( ) ;
+ return NodeUtil. mayHaveSideEffects ( n, seenSideEffects )
+ If (this.knownConstants!= null)
+ if (this.knownConstants) {
+return NodeUtil.canBeSideEffected(n.getFirstChild(), seenSideEffects, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getNextChild(), followingSideEffectsExist);
+ if ( n. isFunctionCall ( ) ) { return n. isFunction ( ) ;
+ return!empty(this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsList);
+return  NodeUtil. isSafe ( n )
+ return Node(n.knownConstants);
+ return (NodeUtil.knownConstants);
+ if ( n. isFunction ( ) ) { return NodeUtil. mayHaveSideEffects ( n )
+ if ( n. isFunction ( ) ) { return n. isFunction ( )
+ return NodeUtil.mayHave(this.knownConstants);
+ return NodeUtil.isSafe(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, false);
+return  followingSideEffectsExist ( n ) ;
+return NodeUtil.canBeSideEffected(inlined);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isCall ( ) ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, true);
+return NodeUtil.canBeSideEffected(n, followedSideEffects);
+ if ( n. isFunctionCall ( ) ) { return n. isFunctionCall ( )
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), n);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist), false;
+ if ( n. isFunctionCall ( ) ) { return n. isFunctionCall ;
+ if ( n instanceof FuncCall ) { return NodeUtil. mayHaveSideEffects ;
+return NodeUtil.mayHaveSideEffects(this, n);
+return  NodeUtil.mayHaveSideEffects(this).apply(n, this.knownConstants);
+ if (this.knownConstants!= null)
+ Return NodeUtil.mayHaveSideEffects;
+return  NodeUtil.mayHaveSideEffectsWithConstants(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist) ; }
+ if ( n. isFunctionCall ( ) ) { return n. isFunctionCall ( ) ;
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist) ; }
+return ! isExpressionTreeUnsafe ( n )
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || n. isFunction ( ) ;
+ return!isExpressionTree(n, this.knownConstants);
+return NodeUtil.mayHaveChildren(n);
+ if ( n. isFunctionCall ( ) ) { return true ; } }
+return NodeUtil.canBeSideEffected(n.getFirstChild(), followingSideEffectsList);
+return NodeUtil.canBeSideEffected(n,  followingSideEffectsExist, false, false);
+ if (this.knownConstants!= null) {
+ return Node.uses(n);
+ return NodeUtil.safe(n);
+ return!empty(knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist, false);
+ return NodeUtil.may(n);
+ return NodeUtil.mayHaveChildren(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, true, true);
+return NodeUtil.canBeSideEffected(n, this).mayHaveSideEffects(n, this);
+return NodeUtil.canBeSideEffected(n,  followingSideEffectsExist, false, true);
+ return! isExpressionTreeUnsafe ( n, following ) ;
+ return this.mayHaveEffects(n, this.knownConstants);
+ if (! isFunctionCall ( n ) ) { return false ; } return followingSideEffectsExist ; }
+return NodeUtil.canBeSideEffected(n, this, followingSideEffects);
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? this. knownConstants : n ; }
+ return NodeUtil.effects(knownConstants);
+ if ( this. hasSideEffects ( n, this. knownConstants ) ) {
+ return NodeUtil(n.knownConstants);
+ if ( n. isFunctionCall ( ) ) { return NodeUtil. affected ( n )
+ If (this.knownConstants!= null) {
+return NodeUtil.canBeSideEffectedInline(n, followingSideEffects);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist2, this.knownConstants);
+return NodeUtil.canBeSideEffected(inlined, n, this.knownConstants);
+return  nodeUtil.mayHaveSideEffects(n, this.knownConstants);
+ if ( n. isFunctionCall ( ) ) { return NodeUtil. mayHaveSideEffects ( n )
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, thisExpression);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && followingSideEffectsExist
+ if (this.knownConstants)
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, n);
+return NodeUtil.mayHaveChanges(n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } else { return false ; }
+ If (this.knownConstants) {
+ If (this.knownConstants) { returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.effects(n, this.knownConstants);
+ if ( this. canBeSideEffected ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? this. knownConstants : false ;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsApply);
+ return NodeUtil.may(n.knownConstants);
+ return NodeUtil(inlined);
+return NodeUtil.canBeSideEffected(inlined, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), this);
+return  followsSideEffectsExist ;
+ If (this.knownConstants!= null && this.canBeSideEffected) {
+ if ( n. isFunction ( ) ) { return NodeUtil.mayHaveSideEffects(n);
+return  NodeUtil.mayHaveSymbolEffects(n, this.knownConstants);
+ return isSafeExpressionTree(n, this.knownConstants);
+ return Node.uses(knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, ".");
+ If (this.knownConstants!= null && this.canBeSideEffected)
+ this.knownConstants = NodeUtil.canBeSideEffected(n, this.knownConstants);
+ if (this.canBeSideEffected)
+ if (this.knownConstants) {NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n.getFirstChild(), n);
+ return contains(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, null, this.knownConstants);
+ return nodeUtil.mayHaveEffects(n, this.knownConstants);
+ return NodeUtil.mayHaveChanges(n, this.knownConstants);
+ if ( this. hasSideEffects ( n, this. knownConstants ) )
+ return NodeUtil.guard(n);
+ return!NodeUtil.knownConstants);
+ return NodeUtil.uses(n);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild, followingSideEffectsExist);
+(n);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, astNode);
+return NodeUtil.canBeSideEffected(n), followingSideEffectsExist);
+ if ( this. hasSideEffects ( n, seenSideEffects ) )
+ return!isExpressionTreeUnsafe(n);
+ if ( n. isFunction ( ) ) { return NodeUtil. mayHaveSideEffects
+ If (this.knownConstants) {NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), seenEffects);
+return !isExpressionTreeUnsafeInlineCall(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist, true);
+ Return NodeUtil.mayHaveEffects;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, this);
+return !isExpressionTreeUnsafe(NodeUtil.apply(n, this.knownConstants);
+ return nodeUtil.mayHaveEffects(n);
+ if (! this. hasSideEffects ( n, this. knownConstants ) ) {
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), seenEffects);
+ If (this.knownConstants!== null) {
+return  NodeUtil.mayHaveSideEffects(n); checkConst(n, this.knownConstants);
+ if ( n. isFunction ( ) ) { return NodeUtil. affected ( n )
+ if ( n. isFunctionCall ( ) ) { return NodeUtil. mayHaveSideEffects
+return  NodeUtil.mayHaveSideEffectsInExpression(n, this.knownConstants);
+return !isExpressionTreeUnsafe(this).inline(n, this.knownConstants);
+return  NodeUtil.mayHaveKnownConstants(n, this.knownConstants);
+ if ( n. isFunction ( ) ) { return n. isFunction ( )? true : false ; }
+ return!isExpressionTreeSafe(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(followingSideEffectsExist, n, this.knownConstants);
+return  followingSideEffectsExist == true ;
+ return NodeUtil.mayHaveSideEffects().canBeSideEffected(n, this.knownConstants);
+ return NodeUtil. mayHaveSideEffects ( n, nextNode ) ;
+ return FollowingSideEffects(n);
+return !isExpressionTreeUnsafe(NodeUtil).apply(n, this.knownConstants);
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. knownConstants!= null ) {
+ if ( n instanceof Function ) { return n. isSafeAssign ( this ) ;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsPresent, this.knownConstants);
+ return leadingSideEffectsExist;
+ return anySideEffects(n, this.knownConstants);
+return  NodeUtil.mayHaveSideEffects(this).call(n, this.knownConstants);
+ return followingSideEffectsPresent;
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffected ) {
+return  NodeUtil.mayHaveSideEffects(this).inject(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, seenSideEffects);
+return  NodeUtil.mayHaveSyntaxError(n, this.knownConstants);
+ return!isExpressionTreeUnsafe(this.knownConstants);
+return NodeUtil.canBeSideEffected(n, leadingSideEffects);
+return  NodeUtil.mayHaveSideEffectsFor(n, this.knownConstants);
+ if (! this. hasSideEffects ) { return false ; } if ( this. canBeSideEffected ) {
+ if ( n instanceof Function ) { return n instanceof Call ;
+ return node.mayHaveSideEffects(knownConstants);
+ If (this.knownConstants!= null && this.canBeSideEffected!= null)
+return NodeUtil.canBeSideEffected(n, this.getNextChild(), seenSideEffects);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || n. isCall ( ) ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? this. knownConstants : false ; }
+ return!isExpressionTreeUnsafe(n.knownConstants);
+ return (n, this.knownConstants);
+ if (! ( n instanceof Call ) ) { return false ; } return n. isCall ( ) ;
+ return "NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsOnly, this.knownConstants);
+ If (this.knownConstants) returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ if (this.knownConstants) returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+return  FollowingSideEffectsExist == true ;
+ if ( this. hasSideEffects ( n ) )
+ return nodeUtil.mayHave(n);
+ if (! this. hasSideEffects ( n, seenSideEffects ) )
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? true : false ; }
+ return this.mayHaveSideEffects(this.knownConstants);
+ if ( this. hasSideEffects ( n, this. constants ) ) {
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, " ");
+return NodeUtil.canBeSideEffected(n, followingSideEffectsOnly);
+return NodeUtil. ;
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? this. knownConstants : true ;
+return NodeUtil.canBeSideEffected(n, followingSideEffectsApply, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsEx);
+return NodeUtil.canBeSideEffected(n, leadingSideEffectsExist, this.knownConstants);
+return NodeUtil. mayHaveSideEffectsN ;
+ If (this.knownConstants.length > 0) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? this. knownConstants : [ ] ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ||!isExpressionTreeUnsafe() ;
+return  NodeUtil.mayHaveSideEffectsIn(n, this.knownConstants);
+return  followingSideEffectsExist > 0 ;
+ return `NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil(knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsEx, this.knownConstants);
+ return nodeUtil.may(n, this.knownConstants);
+ If (this.knownConstants!== undefined) {
+return NodeUtil.canBeSideEffected(n, followingSideEffectsPresent);
+return  NodeUtil.mayHaveSideEffects(this).check(n, this.knownConstants);
+ return n.uses(this.knownConstants);
+ return!isExpressionTreeUnsafe(knownConstants);
+ If (this.knownConstants)
+ Return NodeUtil.mayHaveEffects(knownConstants);
+ if ( n. isFunctionCall ( ) ) { return n. isFunctionCall ( ) ; }
+return NodeUtil.canBeSideEffected(n, followingNode);
+return NodeUtil.canBeSideEffected(n.getFirstChild(), n, this.knownConstants);
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. hasConstants ( ) ) {
+return  NodeUtil. mayHave ;
+return  NodeUtil.mayHaveSideEffectsWithConst(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), followingSideEffects) ;
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. canBeSideEffected ) {
+ return!isExpressionTreeUnsafe(unknownConstants);
+return  NodeUtil.mayHaveSideEffectsWithConstList(n, this.knownConstants);
+ if ( this. canBeSideEffects ) {
+ if ( this. canBeSideEffects ( n ) ) {
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), this);
+return  leadingSideEffectsExist
+ check(n, this.knownConstants);
+ if (this.knownConstants)NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, next().x);
+ return NodeUtil.isSafe(n);
+ if (! this. hasSideEffects ( n, this. constants ) ) {
+ return node.mayHaveSideEffects(this.knownConstants);
+ if ( this. hasSideEffects ( n, true ) ) {
+return NodeUtil. hasEffects ( n )
+return  leadingSideEffects ;
+ If (this.knownConstants!= null && this.canBeSideEffects(n)) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants, seenSideEffects);
+ If (this.knownConstants)NodeUtil.canBeSideEffected(n, this.knownConstants);
+ if ( this. hasSideEffects ) { if ( n instanceof Const ) {
+ If (this.knownConstants!= null) return true;
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? true : false ;
+ if ( this. hasSideEffects ) { if ( n instanceof Name ) {
+ if (this.knownConstants) { returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.hasEffects(n, this.knownConstants);
+ return isSafeInlineCall(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(node, followingSideEffectsExist);
+return  FollowingSideEffectsExist
+ return n.mayHaveSideEffects(this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) && this. knownConstants ) {
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(n)) ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, next().x);
+ return NodeUtil. mayHaveSideEffects(n, followingSideEffects); }
+return NodeUtil.canBeSideEffected(n, followsSideEffectsExist);
+ if ( n. isFunction ( ) ) { return false ; } if ( this. hasKnownConstants ( n ) ) {
+ if (! this. hasSideEffects ) { return false ; } if ( this. hasKnownConstants ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants)? true : false ; } }
+ if ( this. hasSideEffects ) { if ( n!= null ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isInlined ( ) ;
+ if ( this. canBeSideEffects ( n ) )
+ Return NodeUtil.(n);
+ return NodeUtil.effects(this.knownConstants);
+ return n.equals(this.knownConstants);
+return  NodeUtil.mayHaveSideEffectsWithConstNames(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isFunctionCall ( ) ;
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. hasConstants ( n ) )
+ return NodeUtil.isSafe(knownConstants);
+ return node(n.knownConstants);
+ If (this.knownConstants!= null) return false;
+ return guard(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this).mayHaveSideEffects() ;
+ Return NodeUtil.mayHave(n.knownConstants);
+return  NodeUtil. isSafe ;
+ If (this.canBeSideEffected(n) ) {
+return  NodeUtil.mayHaveSideEffectsForConstants(n, this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunctionCall ( ) ) {
+ return NodeUtil.hasEffects(knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSide());
+ return isSafeAssign(n);
+return NodeUtil.canBeSideEffected(this, n, followingSideEffects);
+return  NodeUtil.mayHaveSideEffectsInner(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, follows);
+ return isSafe(knownConstants);
+ if ( this. hasSideEffects ( n, false ) ) {
+ if ( this. hasSideEffects ) { if ( n!= this ) {
+ return this.mayHaveSideEffects(n.knownConstants);
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. knownConst!= null ) {
+ return NodeUtil.maySideEffects(knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffects ( n ) )
+ If the function called has side-effects, returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ return!isExpressionTreeUnsafe(n;
+ return followingSideEffectsMatch;
+return NodeUtil.canBeSideEffected(NodeUtil.mayHaveSideEffects(), n, this.knownConstants);
+ return isSafe(this.knownConstants);
+ If (this.knownConstants!= null && this.knownConstants.length > 0)
+return true);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), true);
+ If (this.knownConstants!= null && this.canBeSideEffectsed) {
+return  n. isFunction ( ) ;
+ return n!= null;
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffects ) {
+ return!Node(n.knownConstants);
+return  NodeUtil.mayHaveSideEffectsForConst(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(followingSideEffects, n, this.knownConstants);
+ return n.contains(this.knownConstants);
+ return isExpressionTreeSafe(n, this.knownConstants);
+ return n.mayHaveEffects(this.knownConstants);
+ return n. getFirstChild ( )!= null;
+ if (! this. hasSideEffects ( n ) ) { return false ; } if ( this. hasConstants ( n )) {
+return NodeUtil.canBeSideEffectedInline(n, following);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) || n. isClass ( ) )
+ if ( this. hasSideEffects ) {
+return NodeUtil.canBeSideEffected(n, followedSide);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isFunctionCall ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.usedConstants, this.names);
+return NodeUtil.canBeSideEffected(n, leadingSideEffects, this.knownConstants);
+ return NodeUtil.mayHaveSideEffects.canBeSideEffected(n, this.knownConstants);
+ If (this.knownConstants!= null && this.canBeSideEffects) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && followingSideEffects ;
+ Return NodeUtil(n);
+ return anyEffects(n);
+ return NodeUtil.effects(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || n. isFunctionCall ( ) ;
+ if (! this. hasSideEffects ) { return false ; } if ( this. knownConst!= null ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || followingSideEffects ;
+ return NodeUtil.may_canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.$canBeSideEffected(n, this.knownConstants);
+return  NodeUtil.mayHaveSideEffectsForNode(n, this.knownConstants);
+ return!isExpressionTree(NodeUtil.knownConstants);
+ return NodeUtil.mustHaveEffects;
+ return NodeUtil.uses(knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffects ( n )) {
+return NodeUtil. affects ( n )
+return NodeUtil.canBeSideEffected(n.getFirstChild(), seenEffects);
+ if ( n. isFunction ( ) ) { return false ; } if ( n. isIdentifier ( ) ) { return false ; }
+ if (! this. hasSideEffects ( n ) ) { return false }
+ if ( this. hasSideEffects ) { return false ; } if ( n instanceof CallExpression ) {
+ return isInlined(n, this.knownConstants);
+return NodeUtil.canBeSideEffectedInline(n, followingEffects);
+ return guard(n);
+return NodeUtil.canBeSideEffected(n, this.inlinedConstants, this.knownConstants);
+ If (this.knownConstants!= null && this.canBeSideEffected())
+ return this.mayHave(n, this.knownConstants);
+ return n.hasChildren(this.knownConstants);
+ if (! this. hasSideEffects ( n, true ) ) {
+ return NodeUtil.(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild, seenSideEffects);
+ return NodeUtil.hasChildren(knownConstants);
+ return!(NodeUtil.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) < 0;
+ return n.effects(this.knownConstants);
+ if ( this. hasSideEffects ( n, seenSideEffects )) {
+ return this.isSafe(n, this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunctionCall ( ) == true ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || n. isFunctionCall ;
+ return!isExpressionTreeUnsafe(!this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, false); }
+return NodeUtil. unsafe ( n )
+ if ( n. isFunction ( ) ) { return false ; } if ( n. isIdentifier ( ) ) { return true ; }
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } return false ;
+ If (this.knownConstants!= null && this.canBeSideEffected()) {
+return NodeUtil.canBeSideEffected(n, follow);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, astContext);
+ return!empty(n);
+return NodeUtil.canBeSideEffected(this.parent, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), next().getFirstChild);
+ return NodeUtil.(n, this.knownConstants);
+ If (this.knownConstants!= null && this.canBeSideEffected)) {
+ return!isSafe(NodeUtil.knownConstants);
+ return contains(knownConstants);
+ return any(this.knownConstants);
+ if (! this. hasSideEffects ( n ) ) return false ;
+ return Node.uses(n.knownConstants);
+ return isExpressionTreeUnsafeInlined(n, this.knownConstants);
+ if ( this. hasEffects ) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, this.scope);
+ return n.hasChildren(knownConstants);
+ return!(this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( this. knownConstants ) { return false ; }
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, true); }
+ return n.effects(knownConstants);
+ return n.is(this.knownConstants);
+return NodeUtil.canBeSideEffectedInline(n, followingSide);
+ If the call to be inlined has side-effects, check to see if there are any side-effects.
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) && n. isName ( ) )
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, this.context);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsEx);
+return NodeUtil.canBeSideEffected(this, n, followingSideEffectsList);
+ return nodeHasSideEffects(n, this.knownConstants);
+ if ( n. isFunction ( ) ) { return false ; } if ( this. hasKnownConstants ) { return true ;
+ return any(knownConstants);
+ return node.mayHaveEffects(knownConstants);
+ return n.match(this.knownConstants);
+ return NodeUtil.unused;
+ return!isExpressionTreeUnsafe()(this.knownConstants);
+ return NodeUtil.mayHaveEffects()n;
+ return n. getNextChild ( )!= null;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, true);
+return NodeUtil.canBeSideEffected(n, this, followedSideEffects);
+ if (this.knownConstants) { this.canBeSideEffected(n, this.knownConstants);
+ this.knownConstants && NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return (!NodeUtil.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExists++);
+return  NodeUtil.canHaveEffects(n, this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunctionCall ( ) ) { return true ;
+ return node.mayHaveEffects(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), followingSide);
+(n.knownConstants);
+return  false ; }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, leadingSideEffectsExist);
+ return Node.isFunction(knownConstants);
+ return (this.knownConstants);
+return NodeUtil.canBeSideEffected(n, seenSideEffects);
+ return isSafeAssign(n, true, this.knownConstants);
+ If the call to be inlined has side-effects, check to see if they can be moved.
+ return NodeUtil.uses(n.knownConstants);
+ return NodeUtil.may(knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffects); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.usedConstants, this.types);
+ return Node.may(n);
+ return NodeUtil.isSafe(this.knownConstants);
+ return NodeUtil.mayHaveEffects(node.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) ) { return true ;
+ return isExpressionTreeUnsafe()(n, this.knownConstants);
+ return!isExpressionTreeUnsafe(!knownConstants);
+ if ( this. hasSideEffects ( n ) ) { return true ;
+return NodeUtil.canBeSideEffected(n, this.scope, this.knownConstants);
+ return NodeUtil.unsafe;
+ return NodeUtil.affected(knownConstants);
+ return followingSideEffectsExist || true;
+ return NodeUtil.check(n, this.knownConstants);
+ return followingSideEffectsList;
+ return isSafeInline(n, this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) ) { return false ;
+ return isExpressionTreeUnsafe(this.n, this.knownConstants);
+ if (this.knownConstants) return this.canBeSideEffected(n, this.knownConstants);
+ if (knownConstants)
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, false); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, this); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.unusedConstants);
+ return!isExpressionTreeUnsafe($this.knownConstants);
+return NodeUtil.mayHaveSpecialEffects(n);
+ return this.mayHaveSideEffects(n,knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, true); }
+ return isSafe(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, followed);
+ If the call to be inlined has side-effects, check to see if it has side-effects.
+return NodeUtil. can ( n ) ;
+ return followingSideEffectsExist();
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExists..);
+return NodeUtil.canBeSideEffected(n, this.ops, this.knownConstants);
+return !isExpressionTreeUnsafeCall(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.context, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist); } }
+return NodeUtil.canBeSideEffected(n, this.knownConstants(n)) ;
+ return n.getFirstChild(NodeUtil.knownConstants);
+ if ( this. sideEffectsEnabled ) {
+ if (!this.knownConstants)NodeUtil.canBeSideEffected(n, this.knownConstants);
+return false);
+ return Node.var(knownConstants);
+return NodeUtil.canBeSideEffected(NodeUtil.inline(), this, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist++);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), seenSideEffects); }
+ return NodeUtil.canHaveEffects(this.knownConstants);
+ return Node.is(n);
+return  followsSideEffectsExist
+ return n.isUnsafe(this.knownConstants);
+ return!isExpressionTreeUnsafe()(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.usedConstants);
+return NodeUtil.canBeSideEffected(this.functionCallToInline, this, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.callInlined, n, this.knownConstants);
+ If (this.knownConstants) { this.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.hasSideEffects(this.knownConstants);
+ this.knownConstants = Consts.canBeSideEffected(n, this.knownConstants);
+ if (inlined) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownCallees);
+ return node.mayHave(n.knownConstants);
+ If (this.knownConstants) return this.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.mayCover(n, this.knownConstants);
+ return n.test(this.knownConstants);
+ return isSafeCall(n, this.knownConstants);
+ return this.nodeUtil.canBeSideEffected(n, this.knownConstants);
+ If the call to be inlined has side-effects, check to see if they can affect it.
+ if ( this. hasSideEffects ) { return false ; } if ( n. isFunction ( ) ) { return false }
+ return followingSideEffectsExist2;
+ return node.mayHaveSideEffects(unknownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, this); }
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(n)) ; }
+return NodeUtil.canBeSideEffected(this.callToInline, this, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n.getFirstChild( ), this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownNames, this.names);
+ return!isExpressionTreeUnsafe(__this.knownConstants);
+return NodeUtil.canBeSideEffected(n, thisExpressionTreeUnsafe);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followSideEffectsExist);
+return NodeUtil.canBeSideEffected(this.callToInline(), this, n, this.knownConstants);
+return !isExpressionTreeUnsafeFor(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n.getFirstChild(), this, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsOnly);
+ return isSafeAnnotate(n, this.knownConstants);
+ return NodeUtil.uses(this.knownConstants);
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffects ( n ) {
+return NodeUtil.canBeSideEffected(this.functionCallToInline(), this, n, this.knownConstants);
+ if (inline) {
+ return NodeUtil.mayHave(node.knownConstants);
+ return includes(knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) && n. isCall ;
+return NodeUtil.canBeSideEffected(this.functionCallToInline, n, this.knownConstants);
+ return Node.unlink(knownConstants);
+ If (this.knownConstants!= null && this.canBeSideEffected!= null){
+ return check(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, false);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), followingSideEffects); }
+ return node.effects(knownConstants);
+ if (this.knownConst)
+ return anySideEffectsIn(n, this.knownConstants);
+ return n.isIn(knownConstants);
+ return!isExpressionTreeSafe(n;
+ return NodeUtil.isExpressionTreecanBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownNames, this.states);
+ return doesHaveSideEffects(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, context);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, null);
+return NodeUtil.canBeSideEffected(n, leadingSideEffectsExist2, this.knownConstants);
+ return Node.isFunction(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, true);
+ return inlined(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this).mayHaveSideEffects(n); }
+ return n. getNext ( )!= null;
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist, false); }
+return NodeUtil.canBeSideEffected(n, this, followingSide);
+ return follows(n);
+return NodeUtil.canBeSideEffected(n) && followingSideEffectsExist
+ if (this.knownConstants) return super.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.inlinedConstList, this.knownConstants);
+return NodeUtil.mustHaveSideEffects(n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsPresent);
+return NodeUtil.canBeSideEffected(this.inlineConstants, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, true, this.knownConstants);
+return  trailingSideEffects ;
+ return nodeIsSafe(n, this.knownConstants);
+return NodeUtil.mayHaveChildren();
+ return NodeUtil.mayCcanBeSideEffected(n, this.knownConstants);
+ return this.mayHaveSideEffects(!this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSide);
+return NodeUtil.canBeSideEffected(this, n);
+ return n.isNode(this.knownConstants);
+ if (this.canBeSideEffected())
+ if (hasSideEffects)
+ return isSafeAssign(nhs, this.knownConstants);
+ return is(n, this.knownConstants);
+ return n.isMember(knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, ".");
+ return NodeUtil.mayExcanBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.callToInline, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.inlinedConstants, n, this.knownConstants);
+ return isUnsafe(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants(n, followingSideEffects));
+return NodeUtil.mayHaveChildEffects(n);
+return NodeUtil.canBeSideEffected(n, inlined);
+ return safe(n);
+ return observes(n);
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), seenSideEffects); }
+ return issubs(n, this.knownConstants);
+ return isInline(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownNames, this.parents);
+return NodeUtil.canBeSideEffected(n,  followedSideEffectsExist);
+ return n.isIn(this.knownConstants);
+ return super.canBeSideEffected(n, this.knownConstants);
+ return this.expressionTree.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.guard(this.knownConstants);
+ this.knownConstants = Util.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants)!= false;
+ If the function called has side effects, returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsApply);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownProperties);
+ return includes(this.knownConstants);
+return NodeUtil.canBeSideEffected(n,  leadingSideEffectsExist);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffectsExist, true); }
+return NodeUtil.canBeSideEffected(NodeUtil.inline, this, n, this.knownConstants);
+ return matches(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild());
+ If (this.knownConst)
+return NodeUtil.canBeSideEffected(this.node, n, this.knownConstants);
+ if ( this. isFunction ) {
+ return hasEffects(n, this.knownConstants);
+ return (true);
+return NodeUtil.canBeSideEffected(this.scope, n, this.knownConstants);
+return NodeUtil.mustHaveSideEffects();
+ this.knownConstants = Functions.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this);
+ return!isExpressionTree.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getLastChild(), followingSideEffects); }
+ return NodeUtil.inlined().canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(NodeUtil.mayHaveSideEffectsFunction, n, this.knownConstants);
+ this.knownConstants NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.inlinedExpression, n, this.knownConstants);
+ return contains(this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, n);
+return  next().x();
+return NodeUtil.canBeSideEffected(n, n);
+ return followingSideEffectsApply;
+return NodeUtil.canBeSideEffected(this.callInlineExpression, n, this.knownConstants);
+return NodeUtil.canBeSideEffectedInline(n, followingSideEffects); }
+ return containsNode(n, this.knownConstants);
+ return node.uses(n.knownConstants);
+return NodeUtil.canBeSideEffected(this.functionCallToInlineInline, n, this.knownConstants);
+ return NodeUtil.mayLike(n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.expr);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) == true;
+return NodeUtil.canBeSideEffected(this, n, n);
+return NodeUtil.canBeSideEffected(n, leadingSideEffectsExistFlag, this.knownConstants);
+ if (knownConstants) {NodeUtil.canBeSideEffected(n, this.knownConstants);
+ if (this) {
+ return NodeUtil.mayHaveAnnotations().canBeSideEffected(n, this.knownConstants);
+return NodeUtil :: isSafe ;
+return  followingSideEffectsExists
+ this.knownConstants = ConstList.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExist, 0); }
+return NodeUtil.canBeSideEffected(inline);
+return NodeUtil.mayHasSideEffects(n);
+ Return NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return followingSideEffectsSet;
+ return NodeUtil.expr.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.callInline, this, n, this.knownConstants);
+ return!(n);
+ return isset(n, this.knownConstants);
+return NodeUtil.canBeSideEffectedInline(n, followingSide());
+return NodeUtil.canBeSideEffected(n, thisExpTree);
+return NodeUtil.canBeSideEffected(n.getFirstChild, n);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, " ");
+return NodeUtil.canBeSideEffected(n, this.knownConstants, leadingSideEffects) ;
+ return n. getNext ( ) == n;
+return NodeUtil.canBeSideEffected(this.callInline(), this, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingNode);
+return NodeUtil. isUnsafe ;
+return NodeUtil.canBeSideEffected(this.expr, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, false, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || false;
+ if (this.known constants)
+ return NodeUtil.__canBeSideEffected(n, this.knownConstants);
+return NodeUtil.mayHaveChanges();
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffects); }
+ If (knownConstants) {NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n.firstChild, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.parentExpression, n, this.knownConstants);
+ return nodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil. MAYBE ;
+ if ( this. hasSideEffects ) { return false ; } if ( this. canBeSideEffected ) { }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist, 0); }
+return NodeUtil.canBeSideEffected(n, this.expressionTree);
+return NodeUtil.canBeSideEffected(n, false);
+return NodeUtil.canBeSideEffected(this.inlined, n, this.knownConstants);
+ return (!n.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } else {
+ return ExpressionTree.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, null, this.knownConstants);
+ if (! this. hasSideEffects ) { return false ; } if ( this. knownConstants ) { }
+ return NodeUtil.inline().canBeSideEffected(n, this.knownConstants);
+ return anyEffects(n, this.knownConstants);
+ If the call to be inlined has side-effects, check to see if there are any side-effects,
+return NodeUtil.canBeSideEffected(n, inlined, this.knownConstants);
+return NodeUtil.canBeSideEffected(inline, this.knownConstants);
+return NodeUtil.mayHave();
+return NodeUtil.canBeSideEffected(NodeUtil.inline()), n, this.knownConstants);
+return NodeUtil. safe ;
+return NodeUtil.canBeSideEffected(n, this.knownConstants) <> false;
+ If the call to be inlined has side-effects, check to see if there are any side-effects and
+ return NodeUtil.inlined.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.callInline, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(NodeUtil.inlineThis, n, this.knownConstants);
+ if (n) {
+return NodeUtil.canBeSideEffected(n, this.getLastChild());
+return NodeUtil.canBeSideEffected(this.functionCaller, n, this.knownConstants);
+ return NodeUtil.isExpr.canBeSideEffected(n, this.knownConstants);
+ If the call to be inlined has side-effects, check to see if they can be moved;
+ If the call to be inlined has side-effects, check to see if they can be affected here.
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } }
+ return followingSideEffectsExist && Util.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingSideEffectsExistingCall);
+ return mayHave(n, this.knownConstants);
+ return false;
+return  next().isSafe();
+return NodeUtil.canBeSideEffected(this.context, n, this.knownConstants);
+ If the call to be inlined has side-effects, check to see if it has side-effect.
+ return NodeUtil.super(.knownConstants);
+return  - 1 ;
+ If (this.known constants)
+ return NodeUtil.true;
+return NodeUtil.canBeSideEffected(n, this).mayHaveSideEffects(); }
+return NodeUtil. false ;
+return NodeUtil.isSafe();
+ return followingSideEffectsExist && ExpressionTree.canBeSideEffected(n, this.knownConstants);
+ return safe(n, this.knownConstants);
+ return anyEffects(this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants(n)) ; }
+return NodeUtil.canBeSideEffected(this.inlinedNode, n, this.knownConstants);
+ return canHaveEffects(n, this.knownConstants);
+ this.knownConstantsUtil.canBeSideEffected(n, this.knownConstants);
+ return!(knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffects); }
+return NodeUtil.canHaveSideEffects();
+ if (true) {
+return NodeUtil.canBeSideEffectedn);
+return NodeUtil.canBeSideEffected(n), followingSideEffectsExist); }
+ If the call to be inlined has side-effects, check to see if it has side-effects and
+return NodeUtil.canBeSideEffected(n, 0, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this).isUnsafe();
+ If the call to be inlined has side-effects, check to see if it has side-effects...
+ return node.mayHave(this.knownConstants);
+return NodeUtil.canBeSideEffected(inline, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followedBy);
+ if (this.knownConst)NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return NodeUtilImpl.canBeSideEffected(n, this.knownConstants);
+ return ASTNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.knownCallee);
+ return ast.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.mayHaveEffects.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this, n, followingSideEffects); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist));
+ if (debug) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants(n) + 1) ;
+ return Functions.canBeSideEffected(n, this.knownConstants);
+ if ( this. canBeSideEffects ( n ) {
+ If (knownConstants) returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ return node.uses(this.knownConstants);
+ if (knownConstants) returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, followingCall);
+return NodeUtil.canBeSideEffected(n, followsSideEffectsExist); }
+ if ( this. hasSideEffects ) { if ( this. knownConstants!= null ) { }
+ return NodeUtil2.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.util.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.ignore;
+return NodeUtil.canBeSideEffected(n, ".", this.knownConstants);
+ return!is(n);
+ If the call to be inlined has side-effects, check to see if they can affect it;
+return NodeUtil.canBeSideEffected(n, nextNode);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) < 0 ; }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExists++);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.scope);
+ return next(knownConstants);
+ return NodeUtil.next().x.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.unlink();
+ return NodeUtils.canBeSideEffected(n, this.knownConstants);
+ return NodeUtil.Expression.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.x);
+return n, this.knownConstants);
+return  followingSideEffects
+return NodeUtil.canBeSideEffected(n, this.getFirstChild(), this); }
+ if (knownConstants) { returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } } }
+ if (superClass) {
+return NodeUtil.canBeSideEffected(n, this.knownConstants) ; } } ;
+ If (this.canBeSideEffected(n)) { }
+ return nodeIn(knownConstants);
+ return n!= n;
+return NodeUtil.canBeSideEffected(n,  followingSideEffectsExist));
+ return astHelper.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, thisExpressionTreeNode);
+return NodeUtil.canBeSideEffected(n, this, followingSide());
+ if (inlineFunction) {
+return NodeUtil.shouldHaveSideEffects();
+ return!null(knownConstants);
+ If (this.knownConstants!= null) { }
+ check(this.knownConstants);
+ return!null(this.knownConstants);
+ if (this.knownConstants).NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSideEffectsExist)); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, this.context);
+return NodeUtil.canBeSideEffected(this.self, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants) || followingSideEffectsExists
+return NodeUtil.canBeSideEffected(n, this, n);
+ return this.functionCaller.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(this.execContext, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, followingSide());
+ return this.callInlined.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingEffects);
+return NodeUtil.canBeSideEffected(n, currentContext, this.knownConstants);
+return NodeUtil.ignore();
+return NodeUtil.canBeSideEffected(this.inline, n, this.knownConstants);
+return  next().x;
+return NodeUtil.canBeSideEffected(n, this.parent, this);
+return NodeUtil.canBeSideEffected(n, this.getFirstChild()); }
+ return NodeUtil.unused.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, thisNode, this.knownConstants);
+ return NodeUtil.prototype.canBeSideEffected(n, this.knownConstants);
+ return n == this;
+ return IR.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n); }
+ NodeUtils.canBeSideEffected(n, this.knownConstants);
+return NodeUtil. isBlock ;
+ check(knownConstants);
+return NodeUtil.canBeSideEffectedNode();
+ This.knownConstants=NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.node);
+ return (knownConstants);
+return NodeUtil.canBeSideEffected(n, this.scope);
+return NodeUtil.canBeSideEffected(n, this.locator);
+ this.knownConstants = this.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.getLastChild()); }
+return NodeUtil.mayHaveSpecialEffects(n); }
+return NodeUtil.canBeSideEffected(n, next(), seenSideEffects);
+ if (known) {
+return NodeUtil.canBeSideEffectedN();
+return NodeUtil.canBeSideEffected(n, this.parent);
+return NodeUtil.canBeSideEffected(n, this.parent(), this);
+ return (true) n);
+return NodeUtil.mayHaveSideEffects(node); }
+return NodeUtil.canBeSideEffected(n, this.locals);
+return NodeUtil.continue();
+return NodeUtil.canBeSideEffected(n,  followedSideEffectsExist); }
+return NodeUtil.canBeSideEffected(n,  leadingSideEffectsExist); }
+return NodeUtil.canBeSideEffected(node, followingSideEffects); }
+return NodeUtil.canBeSideEffected(n, leadingSideEffects); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, leadingSideEffects); }
+return NodeUtil.canBeSideEffected(n, this) ; }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, next().x); }
+return NodeUtil.canBeSideEffected(n, precedingSideEffects);
+ return!n;
+ return containsAny(n, this.knownConstants);
+ return (n.this.knownConstants);
+return n);
+ return this._canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.ctx);
+return NodeUtil.canBeSideEffected(n, this) ;
+ return!this.knownConstants);
+return NodeUtil.canBeSideEffected(lhs);
+return NodeUtil.canBeSideEffected(injected, n, this.knownConstants);
+return NodeUtil.continue;
+ return Util.canBeSideEffected(n, this.knownConstants);
+ return apply(n, this.knownConstants);
+ return!knownConstants);
+return NodeUtil.canBeSideEffected(n, this, followingSideEffects());
+ compare(n, this.knownConstants);
+return false, this.knownConstants);
+ return!canBeSideEffected(n, this.knownConstants);
+ return!null;
+return NodeUtil.canBeSideEffected(n, followedSideEffects); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, ".");
+return NodeUtil.canBeSideEffected(inliner, n, this.knownConstants);
+return NodeUtil. TRUE
+return NodeUtil.canBeSideEffected(injected);
+return NodeUtil.canBeSideEffected(expr, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(lhs, this.knownConstants);
+ This is equivalent to "NodeUtil.canBeSideEffected(n, this.knownConstants);
+ } return true;
+ return node.canBeSideEffected(n, this.knownConstants);
+ return (bool)NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil. false
+return NodeUtil.safe();
+ return this.expressionTreeNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(injected, this.knownConstants);
+return this.knownConstants);
+ This is safe.
+return NodeUtil.canBeSideEffected(inslined);
+return NodeUtil.canBeSideEffected(nhs, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstantsList);
+ this.canBeSideEffected(n, this.knownConstants);
+ return!true;
+ return __canBeSideEffected(n, this.knownConstants);
+ return this.NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return "canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants());
+return NodeUtil.canBeSideEffected(n, this.knownConstants, astNode);
+return NodeUtil.canBeSideEffected(node);
+ return this.parentNodeUtil.canBeSideEffected(n, this.knownConstants);
+ This is fine.
+ return this.name.NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.expressionTree); }
+return NodeUtil.canBeSideEffected(-n);
+return NodeUtil.canBeSideEffected(n, this.parentNode); }
+ This means "NodeUtil.canBeSideEffected(n, this.knownConstants);
+ This is: returnNodeUtil.canBeSideEffected(n, this.knownConstants);
+ This is: return _NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, currentNode);
+ return this.name||NodeUtil.canBeSideEffected(n, this.knownConstants);
+ This is: "NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n)); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants) true;
+return NodeUtil.canBeSideEffected(n, this.knownConstants, " ");
+return NodeUtil.canBeSideEffected(n)();
+return NodeUtil.canBeSideEffected(n, this.knownConstants) false;
+return NodeUtil.canBeSideEffected(sn);
+ This will work.
+ This is:!NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.execContext); }
+return NodeUtil.canBeSideEffected(n, this.knownConstants, currentContext);
+ return _NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.expr());
+ * Note:
+ This is safe!
+return NodeUtil.canBeSideEffected(n, thisNode);
+ This is safe:
+ return true&&NodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this.knownConstants, 0);
+ * NOTE:
+ return true||NodeUtil.canBeSideEffected(n, this.knownConstants);
+ return!NodeUtil.canBeSideEffected(n, this.knownConstants);
+ This.parentNodeUtil.canBeSideEffected(n, this.knownConstants);
+ return FunctionNodeUtil.canBeSideEffected(n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, n, this.knownConstants);
+ * Note that
+ * * *
+return NodeUtil.canBeSideEffected(ns);
+ Return true;
+return  0 ;
+ * Note,
+return NodeUtil.canBeSideEffected(n)) ;
+return NodeUtil.canBeSideEffected(call, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(node, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(null, n, this.knownConstants);
+return NodeUtil.canBeSideEffected(n, this)); }
+return NodeUtil.canBeSideEffected(node, this.knownConstants);
+return NodeUtil.canBeSideEffected(this, this.knownConstants);
+return NodeUtil.canBeSideEffected(c, this.knownConstants);
+return NodeUtil.canBeSideEffected(c);
+ *

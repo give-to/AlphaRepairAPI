@@ -1,0 +1,181 @@
+ break;
+ break; break;
+ tokenLen++;
+ rule = tokenLen ;
+ rule = new TextField(Calendar.AM_PM, AmPmStrings, tokenLen);
+ rule = new TextField(Calendar.AM_PM, AmPmStrings);
+ rule = new TextField(Calendar.AM_PM, amPmStrings, tokenLen);
+ rule = new TextField(Calendar.AM_PM, amPmStrings);
+ rule = selectNumberRule(Calendar.AM, tokenLen);
+ } break;
+ rule = new TextField(Calendar.AM_PM, tokenLen);
+ rule = new TextField(Calendar.AM_AM, AmPmStrings);
+ rule = new TextField(Calendar.AM_PM, AMPmStrings);
+ rule = new TextField(Calendar.AM_PM, amStrings);
+ break; } break;
+ rule = new TimeZoneNameRule ( mTimeZone, mLocale ) ;
+ rule = new TextField(Calendar.AM_PM, AmStrings);
+ rule = new TextField(Calendar.AM_AM, amStrings);
+ break;
+ rule = selectNumberRule(Calendar.AM_PM, amPmStr);
+ rule. setText ( token ) ;
+ rule = selectNumberRule(a, tokenLen);
+ rule = new TextFieldRule (Calendar.AM_PM, AmPmStrings, tokenLen);
+ rule. append ( token ) ; break;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = rule. toString ( ) ;
+ rule. set ( tokenLen ) ;
+ rule = new TextField(Calendar.AM_PM, AMStrings);
+ rule = new TextField(Calendar.AM_AM, tokenLen);
+ rule = new TextField(Calendar.AM_AM, AmPmStrings); }
+ rule = new TimeZoneNameRule ( mTimeZone, tokenLen ) ;
+ rule = new TextField (Calendar.AM_PM, AmPmStrings, tokenLen));
+ rule. setText ( tokenLen ) ;
+ rule = selectNumberRule(Calendar.AM_PM, AmPmNumbers);
+ rule = selectNumberRule(Calendar.AM_PM);
+ rule = selectNumberRule(Calendar.AM_PM, amPmString);
+break; case 'h' :
+ rule = new TextField(Calendar.AM, tokenLen);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = rule. trim ( ) ;
+ rule = new TextField(Calendar.AM_PM, amPmStrings); }
+ rule = new TextField(Calendar.AM_PM, AmPmStrings.MAX);
+ rule = new TextField(Calendar.AM_PM, amPmString);
+ rule. setText ( token ) ; break;
+ rule = new TextField(Calendar.AM_PM, AmPmStrings).text();
+ rule = new TextField(Calendar.AM_PM, AmPmStrings); }
+ rule = new TextField(Calendar.AM_PM, amPmText);
+ rule = new TextField(Calendar.AM_PM, AmPmStrings.TEXT);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = rule. getText ( ) ;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = tokenLen ;
+ rule = new TextFieldRule (Calendar.AM_PM, AmPmStrings); rule. setText ( token ) ;
+ rule = new TextField(Calendar.AM_PM, AmPmStrings, 0);
+ rule = new TextField(Calendar.AM_PM, amPmStrings, 0);
+ rule = new TimeZoneNumberRule ( tokenLen ) ;
+ rule = selectNumberRule(a, tokenLen); }
+ rule = new TextFieldRule (Calendar.AM_PM, AmPmStrings); rule = new TimeZoneRule ( rule);
+ rule. append ( tokenLen ) ; break;
+break; case 'H' :
+ rule = new TextField(Calendar.AM, amStrings);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'a' ;
+ rule = new TextFieldRule (Calendar.AM_PM, AmPmStrings); rule. set ( tokenLen ) ;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ). toString ( ) ;
+ rule. append ( token ) ;
+ rule. text = tokenLen ;
+ rule. set ( tokenLen ) ; break;
+ rule = selectNumberRule(, tokenLen);
+ rule = new TextField(Calendar.AM_PM, AmPmStrings, tokenLen); }
+ rule = new TextField(Calendar.AM, AmStrings);
+ break; default: break;
+ rule = selectNumberRule(tokenLen);
+ rule = selectNumberRule(AmPm, tokenLen);
+ rule = new TextFieldRule (Calendar.AM_PM, amPmStrings, tokenLen) ;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'AM_PM';
+ rule = new TextFieldRule (Calendar.AM_PM, amPmStrings, tokenLen); }
+ break; case '':
+ rule = new TextFieldRule (Calendar.AM_PM, amPmStrings, amPmStrings);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'A' ;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule. setText ( text ) ;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings, tokenLen ) ; }
+ rule = selectNumberRule(AM, tokenLen);
+ rule = new TextFieldRule (Calendar.AM_PM, AmPmStrings, tokenLen));
+ rule = selectNumberRule(AmPmStrings);
+break; case 'a': break;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'AM' ;
+ rule. text ( tokenLen ) ; break;
+break; case 'h': break;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'AMPT' ;
+ rule = new TextField ( tokenLen);
+ rule = rule. trim ( ) ;
+ rule. set ( amPm ) ; break;
+ rule. text ( token ) ; break;
+ rule = selectNumberRule(Calendar.AM, 1);
+ rule = new TextFieldRule (Calendar.AM_PM, amPmStrings, amPmLen);
+break; case 'H: break;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = null ; break ; }
+ rule. setText ( tokenLen ) ; break;
+ rule = new TextField(Calendar.PM, tokenLen);
+ rule = new TextField(Calendar.AM_PM, '');
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'AM_PM');
+ rule = selectNumberRule(Calendar.AM, 0);
+ rule = selectNumberRule(Am, tokenLen);
+ rule. append ( tokenLen ) ;
+ rule = selectNumberRule(am, tokenLen);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = 'AM_PM'
+ rule. text = token ; break;
+ rule = 'a' ;
+break; case 'h', break;
+break; case 'g' :
+ rule. text = text ;
+ rule = new TextField(Calendar.AM_PM, 0);
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = " " ;
+ rule = selectNumberRule(A, tokenLen); }
+ rule = new TextField(Calendar.AM, AM);
+ rule. append ( token ) ; } break;
+ rule = new TextFieldRule ( Calendar. AM_PM, AmPmStrings ) ; rule = null ; } }
+break; case 'k' :
+ rule. text = token ; } break;
+ rule. setText ( token ) ; } break;
+break; case 'h: break;
+ rule. clear ( ) ; break;
+ rule. append ( ) ; break;
+break; case 'G' :
+ rule += tokenLen ;
+ rule = new TimeZoneRule ( tokenLen);
+ rule = null ; break ;
+ rule. append ( ) ;
+ rule = new TimeZone ( tokenLen);
+ rule = new TimeZoneRule ( tokenLen )
+ rule. setText ( token ) break;
+ rule = 'a' ; break;
+ rule. append ( 'a' ) ; break;
+ break; } } break ;
+ if (tokenLen) break;
+ rule. setText ( text )
+ rule. append ( 'AM' ) ; break;
+ tokenLen++; break;
+ rule. text ( ) ;
+ break; case 'k': break;
+ case 'a': break;
+ case 'a':
+ rule. blank = true ;
+ break; case '',
+ if (tokenLen)
+ case 'k': break;
+break; case 'k': break; break;
+break; case 'a': break; }
+ break; default:
+break; case 'h': break; break;
+ break; case 'T':;
+ break break;
+ tokenLen = 4;
+break; case 'A': break; }
+break; case 'g': break; break;
+break; case 'a': break; break;
+ if (optional)
+break; case 'k': if (tokenLen)
+break; case 'j': break; break;
+ break; case 'h':;
+ break; case 'h';
+ tokenLen = 1;
+break; case 'k': break; } break;
+ break; }
+ break; switch;
+break; case 'k': break; case '':
+break; case 'a': default: break; }
+ tokenLen;
+ break; default:
+break; case 'h': break; }
+break; case 'k': default : break ; }
+ ; break;
+ }
+ tokenLen);
+ breakthrough;
+ } } break;
+ tokenLength++;
+ break 2;
+ default:
+ tokenLen();
+ break
+ } }
+ }
+ break,
+ break.

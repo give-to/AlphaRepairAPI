@@ -1,0 +1,471 @@
+if (isHoisted) {
+ } else{
+ varNode = newDecl ;
+ varNode = newDecl ; }
+if (isHoistedFunction) {
+ } else { if (value == null){
+if (value == null) {
+ varNode = newDecl ; } else
+if (varNode == null) {
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n ) ;
+ varNode = newDecl. detach ( ) ;
+ newDecl. setFirstChild ( varNode ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( varNode ) ;
+ varNode = newDecl. next ( ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n, name ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFrom ( n ) ;
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var ( name ) ;
+ varNode = newDecl. clone ( ). detach ( ) ;
+if (isHoisted && varNode == null) {
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( n ) ;
+ varNode = newDecl. nextChild ( ) ;
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var ( ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n, varNode ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree(n); }
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var (name); }
+ varNode = newDecl ; if(isHoisted) {
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var(existingName);
+ varNode = newDecl. clone ( ) ; }
+ } else { if (isHoisted) {
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( varNode ) ;
+ } else { if (varNode == null) {
+ varNode = IR. var ( newDecl. clone ( ) ). useSourceInfoIfMissingFromForTree ( ) ;
+ varNode = newDecl. cloneNode ( ) ;
+ varNode = newDecl. cloneNode ( ). useSourceInfoIfMissingFrom ( n ) ;
+ varNode = newDecl. clone ( ) ; varNode. useSourceInfoIfMissingFromForTree ( n, name ) ;
+ } else { varNode = IR. var ( "var name = EXPR;" ). useSourceInfoFrom ( existingName ) ;
+ varNode = IR. var ( newDecl ) ;
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var ( n ) ;
+ } if (value == null) {
+ varNode = newDecl. cloneNode ( ). detach ( ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree(n, name); }
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n, variableNode ) ;
+ varNode = newDecl. cloneNode ( ) ; } else
+ } else { varNode = IR. name("").useSourceInfoFrom(existingName); varNode = IR. var(newName);
+ varNode = IR. var ( newDecl. clone ( ) ). useSourceInfoFrom ( n ) ;
+ } else { varNode = IR. var ( "var name = EXPR;" ). useSourceInfoFrom ( n ) ;
+ } else if (value == null) {
+ varNode = IR. var ( newDecl. clone ( ) ). useSourceInfoFrom ( existingName ) ;
+ } else { varNode = IR. name("").useSourceInfoFrom(newName); varNode = IR. var (name);
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree(varNode); }
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( name ) ;
+ varNode = IR. var ( newDecl ) ;
+ varNode = newDecl. cloneNode ( n ) ;
+ newDecl. setFirstChild ( n, varNode ) ;
+ } else { varNode = IR. var ( "var name = EXPR;" ). useSourceInfoFrom ( name ) ;
+ } else { if (newDecl == null) {
+ varNode = newDecl. replaceChild ( n, varNode ) ;
+ newDecl. removeFirstChild ( ) ;
+ varNode = newDecl. firstChild ;
+ varNode = IR. var ( name ) ;
+ varNode = newDecl. clone ( ) ; } else
+ varNode = newDecl. cloneNode ( ). useSourceInfoFrom ( varNode ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( name ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree(n); } else
+ } else { varNode = IR. var ( name ). useSourceInfo ( ) ;
+ varNode = newDecl ; } if(isHoisted) {
+ } else { varNode = IR. var ( "var name = EXPR;", name ) ;
+ varNode = newDecl. getFirstChild ( n ) ;
+ } else { varNode = null ; } if(isHoisted) {
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFrom(n); }
+ varNode = newDecl. clone ( ). useSourceInfo ( n ) ;
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( existingName ) ;
+ varNode = newDecl ; } }
+ } else { varNode = IR. var ( "var name = EXPR;" ). useSourceInfo ( n ) ;
+ varNode = newDecl. cloneNode ( ) ; } } else
+ } else { if (value!= null){
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( v ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFrom ( name ) ;
+if (isHoisted)  { if (value == null) {
+ } else { varNode = IR. var ( "var name = EXPR;", name ) ; }
+ varNode = newDecl. cloneNode ( ) ; }
+if (isHoisted)  { varNode = IR.var(name);
+ varNode = newDecl ; } } else
+ varNode = IR. var ( newDecl. clone ( ) ). useSourceInfoIfMissingFromForTree ( n );
+ newDecl. detach ( ) ;
+if (isHoisted)  { if (newDecl) {
+ } if (isHoisted) {
+ varNode = IR. var ( name ) ;
+ varNode = newDecl. clone ( ). detachFromParent ; }
+ } else { varNode = v ; } if(isHoisted) {
+ newDecl. setFirstChild ( null ) ;
+ varNode = newDecl. clone ( ) ; varNode = varNode. clone ( ) ; varNode = newDecl ; } }
+ } else if (isHoisted) {
+ varNode = newDecl. clone ( ) ; } } else
+ varNode = newDecl. clone ( ). useSourceInfo ( name ) ;
+ varNode = newDecl. clone ( ). useSourceInfoFrom ( value ) ;
+ varNode = newDecl. cloneNode ( ) ; } }
+ } else { varNode = null ; if(isHoisted) {
+ } else { varNode = IR. var ( name ). detach ( ) ;
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromNode ( n );
+ varNode = newDecl. cloneNode ( ) ; } } }
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n ) ; } } else
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree(n); } }
+ varNode = newDecl. parent ;
+ } else { if (newDecl == varNode) {
+ varNode = newDecl. clone ( ) ; varNode. useSourceInfoIfMissingFromForTree ( n ) ; } else
+if  (newDecl == null) {
+if (isHoisted && newDecl == null) {
+ varNode = newDecl. cloneNode ( ) ; } } } else
+ varNode = newDecl. clone ( ) ; } else { varNode = null ;
+ varNode = newDecl ; } else {
+ varNode = newDecl. clone ( ) ; varNode. useSourceInfoIfMissingFromForTree ( n ) ; } }
+ } if (newDecl!= null) {
+ varNode = newDecl. clone ( ) ; if (varNode) {
+if (newDecl!= null) {
+ } else { if (newDecl!= null) {
+if (isHoisted)  { if (parent == null) {
+if  (value!= null) {
+ varNode = newDecl. clone ( ). useSourceInfoIfMissingFromForTree ( n ) ; } } }
+ newDecl. setFirstChild ( varNode ) ; }
+if  (name == EXPR) {
+if (isHoisted)  { if (name == EXPR) {
+ varNode = newDecl. clone ( ) ; } } } else
+if (isHoisted)  { varNode =
+ varNode = newDecl. clone ( ) ; } }
+ if (newDecl == varNode){
+ varNode = newDecl. nextChild ; }
+if  ( varNode == newDecl ) {
+ varNode = newDecl. cloneNode ( ) ; } } } }
+ } if (varNode == null) {
+if (isHoisted || compiler.getCodingConvention()!= null) {
+ } else { varNode = IR. var ( name ) ; } } else
+if (isHoisted || compiler.getCodingConvention() == null) {
+ varNode = newDecl. cloneNode ( ). parent ; }
+if (isHoisted)  { if (newDecl!= null) {
+if (isHoisted)  { if (value!= null) {
+ } else { varNode = IR. var ( name, newDecl ) ;
+ varNode = Node. var ( ) ; if(isHoisted) {
+if  (name == null) {
+ varNode = newDecl. nextChild ;
+if (isHoisted)  { if (newDecl == null)
+ } else { varNode = IR. var ( name ) ; } } }
+ } else if (varNode == null) {
+ } } else{
+if  (parent!= null) {
+ } } else { if (value == null){
+if (isHoisted || v.getNameNode()!= null) {
+if (isHoisted)  { if (name == null) {
+if (isHoisted || v.getNameNode() == null) {
+if (isHoisted && v.getNameNode() == null) {
+ newDecl = varNode ;
+if (isHoisted)  { if (newDecl == null) {
+if (isHoisted && compiler.getCodingConvention() == null) {
+ newDecl = newDecl ;
+ varNode = Node. var ( newDecl ) ;
+ } else { varNode = parent ; } if(isHoisted) {
+ newDecl. removeChild ( ) ;
+ if (grandparent) {
+if  ( n. isName ( ) ) {
+ if (newDecl. isName ( )){
+ } else { if (variableNode == null){
+ varNode = newDecl. cloneNode ( ) ; if (value) {
+ } else { if (!isHoisted) {
+if (isHoisted)  { if (grandparent) {
+ varNode = IR. name ( newDecl ) ;
+ } else if (newDecl == null) {
+if (isHoisted || compiler.getCodingConvention!= null) {
+if (isHoisted (newDecl) ) {
+if  (parent == null) {
+ varNode = IR. var ( ) ;
+ varNode = newDecl ; } else if(isHoisted) {
+ newDecl = newDecl ; }
+ } varNode = newDecl ;
+ varNode = IR. name ( name ) ;
+if (isHoisted)  { if (newDecl instanceof Name) {
+if (isHoisted && newDecl!= null) {
+ } else { varNode = value ; if(isHoisted) {
+ varNode = IR. var ( name )
+ } varNode = newDecl ; if(isHoisted) {
+ } else { varNode = v ; if(isHoisted) {
+if (isHoisted && name == null) {
+ } else { if (newDecl instanceof Node) {
+ varNode = v ;
+if (isHoisted && v.getNameNode == null) {
+ } } else { if (newDecl == null) {
+if (isHoisted || v.getNameNode!= null) {
+if  (name == null) { varNode =
+ } else { if (varNode == newDecl) {
+if (isHoisted)  { if (newDecl)
+if (isHoisted && compiler.getCodingConvention()!= null) {
+ } } else { if(isHoisted) {
+ } else { if (grandparent){
+if (isHoisted)  { if (!varNode)
+if (isHoistedExpression) {
+ } else { if (newDecl == n) {
+if (isHoisted)  { if (reverse)
+if (isHoisted)  { if (reverse) {
+if (isHoisted && newDecl!= varNode) {
+if (isHoisted && compiler.getCodingConvention!= null) {
+ varNode = newDecl ; } } else if(isHoisted) {
+ varNode = IR. name ( ) ;
+if (isHoisted (n)) {
+ if (newDecl instanceof Name){
+ } else { varNode ; } if(isHoisted) {
+ } else { if (name == null){
+if  (reverse) {
+ varNode = null ;
+ varNode = newDecl ; } } if (isHoisted) {
+if (isHoisted)  { varNode = IR.var(n);
+ } else if (value!= null) {
+if (isHoisted)  { if (parent == null)
+ } } else { if (newDecl!= null) {
+ if (newDecl instanceof NameNode){
+ } else { varNode = null ;
+ } if (value!= null) {
+if (isHoisted || v.getNameNode == null) {
+if (isHoisted)  { if (grandparent)
+if (isHoisted)  { varNode = IR.var(value);
+if (isHoisted || v.getNameNode().isEmpty ( )) {
+if (newDecl. hasChildren ( )) {
+ varNode = n ;
+if (isHoistedExpression (n)) {
+if (isHoisted || v.getCodingConvention()!= null) {
+if (isHoisted && v.getNameNode!= null) {
+if (isHoisted (n, newDecl) ) {
+if (isHoisted && newDecl. isFunction ( )) {
+if (isHoisted || varNode == null) {
+if (isHoisted && compiler.useCodingConvention(n)) {
+ if (newDecl!= null) if(isHoisted) {
+if (isHoisted || v.getCodingConvention() == null) {
+if (newDecl. isEmpty ( )) {
+ varNode = newDecl ; } if (!isHoisted) {
+if (isHoisted || compiler.getCodingConvention == null) {
+if (isHoisted && v.getNameNode()!= null) {
+ } else { if (append){
+if (isHoisted (n))) {
+if (isHoisted && newDecl. getFirstChild!= null) {
+if (isHoisted)  { varNode = IR.var("");
+if (newDecl. isFunction ( )) {
+if (newDecl. length == 1) {
+ } else { if (__isHoisted) {
+if (isHoisted)  { if (drop) {
+if (isHoisted && varNode == newDecl) {
+if (isHoisted && newDecl. getFirstChild == null) {
+if (isHoisted || v.getNameNode() == varNode) {
+if ( name!= null ) { if (reverse) {
+if (isHoisted && v.getNameNode().isEmpty ( )) {
+if (isHoisted && v.getNameNode() == varNode) {
+ } } else if (isHoisted) {
+if  ( name!= null || value!= null ) {
+ varNode = null; if(isHoisted) {
+if (isHoisted && newDecl. isName ( )) {
+if (isHoisted && newDecl == varNode) {
+if (isHoisted)  { varNode = IR.name("");
+if (isHoisted && v.getCodingConvention() == null) {
+if (newDecl. getParent == null) {
+ } else { if (this.isHoisted) {
+ if (newDecl instanceof Node){
+if (newDecl. length > 0) {
+if (isHoisted)  { newDecl. setFirstChild ( n);
+if (isHoisted && compiler.getCodingConvention == null) {
+if (isHoistedExpression (newDecl) ) {
+if (newDecl!= varNode) {
+if (isHoisted (newDecl, v)) {
+ varNode = value ;
+if  (debug) {
+if  (append) {
+if  (newDecl) {
+if  (name == null || varNode) {
+if (isHoistedNode (n)) {
+ if () {
+if (isHoisted || v.getNameNode()!= newDecl) {
+ newDecl = newDecl ;
+if (isHoisted && compiler.useCodingConvention!= null) {
+if (isHoisted && newDecl.length == 0) {
+if  (legend) {
+if ( name!= null && name == EXPR ) {
+ } if (newDecl instanceof Node) {
+ if (newDecl) { if(isHoisted) {
+if (isHoistedNode (newDecl) ) {
+if (newDecl. length == 0) {
+if (isHoisted (newDecl, n)) {
+if ( name == null ) { if (reverse) {
+if (isHoistedExpressionNode) {
+if (isHoisted && newDecl.length > 0) {
+if  ( name!= null ) { if (reverse)
+if (isHoisted || newDecl == null) {
+ varNode = name ; if(isHoisted) {
+ } } else { if (!isHoisted) {
+if (isHoistedExpression) { if (newDecl) {
+ } else { if (v.isHoisted) {
+ varNode = newDecl ; } if (__isHoisted) {
+if ( name == null ) { varNode = v ;
+if  ( name!= null && name == value ) {
+ } if (append){
+ } else { } } if (isHoisted) {
+ varNode = newDecl ; } }
+ } else { } if (isHoisted) {
+ varNode = node ; } else
+if (parent.isEmpty ( )) {
+if  recursive {
+ varNode = n ; if(isHoisted) {
+if (isHoisted && newDecl.length == 1) {
+ } else { if (_isHoisted) {
+ if (grouping) {
+ } else { } if (!isHoisted) {
+if (isHoisted && v.getNameNode()) {
+ varNode = v; if(isHoisted) {
+if (isHoisted)  { if (!value)
+ } else { if (v!= null.isHoisted) {
+if (newDecl. length > 1) {
+if (isHoisted && v.getNameNode().isEmpty) {
+ } else { if (value == null&&isHoisted) {
+if  ( name!= null ) { if (append)
+ if (newDecl!= null && v.isHoisted) {
+ } else {
+ } else
+if (isHoisted && grandparent) {
+if (isHoisted && compiler.useCodingConvention(n) {
+if (isHoisted && newDecl == v) {
+ } else { if (v!= null&&isHoisted) {
+if (isHoisted)  { if (parent!= null)
+if (isHoisted && name!= null) {
+if (isHoisted || n.getString!= null) {
+if (isHoisted && value == null) {
+if (isHoisted || isRecursiveFunction) {
+ if (external) {
+if (isHoisted || newDecl!= null) {
+if (isHoisted) { if (name == "") {
+ } } } if (isHoisted) {
+if (isHoistedCalls) {
+ } else { if (null == _isHoisted) {
+if (isHoisted && grandparent!= null) {
+if (isHoisted || isRecursiveFunction(newDecl)) {
+ } else { if (this._isHoisted) {
+ } if (newDecl) if(isHoisted) {
+if (isHoisted && newDecl instanceof Node) {
+if  (name!= null ||!value) {
+if (isHoisted || n. isName ( )) {
+if (isHoisted ( n ) ) { if (reverse) {
+ } if (newDecl) {
+if (isHoisted && newDecl instanceof Name) {
+if  ( name!= null ) { if (root)
+if (isHoisted || v.getNameNode()) {
+if (isHoisted || v.getNameNode().isEmpty) {
+ newDecl = varNode ;
+if (isHoisted && n == null) {
+ } else { if (this.__isHoisted) {
+if  (root) {
+if (isHoisted == true) {
+ } else { }else{
+if  debug {
+ } if (!isHoisted) {
+if (isHoisted)  { newDecl =
+ } else { if (true == _isHoisted) {
+ } } } } if(isHoisted) {
+if (isHoisted)  { if (root)
+if (isHoisted || newDecl!= varNode) {
+ } else if (!isHoisted) {
+ } else { } } if (!isHoisted) {
+if (isHoisted || v.getNameNode() == n) {
+if (isHoisted || isRecursive) {
+ } } if (isHoisted) {
+ } if (newDecl).if(isHoisted) {
+if (isHoisted || name == null) {
+ } } } else
+if (isHoisted || value == null) {
+if (variableNode == null) {
+if (isHoistedCall) {
+if (isHoistedNode) {
+if (isHoisted || n. getString()!= null) {
+ if (left) {
+ } } } else if(isHoisted) {
+if (isHoisted || (newDecl == null) {
+if (isHoisted && v == null) {
+if (isHoisted ||!isRecursiveFunction) {
+ } } } }
+if  (name!= null ||!name) {
+if  (reverse)
+if (isHoisted || n.getString == null) {
+if  (append)
+if (isHoisted || n. getString() == null) {
+ } if (__isHoisted) {
+ if (before) {
+ } } else
+if  (reverse {
+ } } else {
+if (isHoisted)  { if (!reverse)
+if (isHoisted || v.isVAR ( )) {
+ } } finally { if(isHoisted) {
+if (isHoisted || newDecl instanceof Name) {
+if (isHoisted || name!= null) {
+if (isHoisted || (newDecl!= null) {
+if (isHoisted || v.isFunction ( )) {
+if (isHoisted || isRecursiveCall) {
+if (isHoisted && newDecl) {
+if  (debug)
+ if (force) {
+ } else { if recursive){
+if (isHoistedName) {
+ if (!isHoisted) {
+ if (__isHoisted) {
+if (isHoisted)  { if recursive {
+ varNode = newDecl ; }
+ } } }
+if (isHoisted)  { if strict {
+if  ( varNode == null ) { return
+if (isHoisted)  { } else {
+if (isHoisted || isVars) {
+if  (force)
+ } else { else{
+ } if (reverse)
+if (isHoisted &&! recursive) {
+if  ( varNode == null ) { }
+if  strict {
+ break ; } } if(isHoisted) {
+ } if (hasChildren) {
+ break ; } if(isHoisted) {
+ } finally { if(isHoisted) {
+if (isHoisted ||! recursive) {
+ if (dropFirst) {
+if (n == null) {
+ } if (before) {
+ if (!) {
+ } if (left) {
+ return newDecl ;
+ } } finally {
+ if (_isHoisted) {
+ if (=) {
+ } if ( ){
+if (isHoisted && varNode) {
+if  nested {
+if  DEBUG {
+if (isHoisted || isFunction) {
+ } finally {
+ }
+ break ; }
+ if recursive) {
+if (isHoisted || isCall) {
+if (isHoisted &&! reverse) {
+if (isHoisted)  break ; }
+if (isHoisted ||! reverse) {
+if (isHoisted || isCustom) {
+ if (null{
+if (isHoisted)) {
+ if (null
+ if (.){
+ } }
+ } } }
+if (isHoisted)  { } }
+ if (! {
+if (isHoisted()) {
+ else if(isHoisted) {
+if (isHoisted)  { } else
+if (useFront) {
+if (isHoisted)  continue ; }
+if (noComments) {
+if (hasChildren) {
+ } elseIf(isHoisted) {
+ } }
+if (isHoisted)  { return
+if (isHoisted!) {
+ } else
+if (isHoisted)  break;
+if (isHoisted)  { }
+ If (isHoisted) {
+ } } If(isHoisted) {
+ else
+ } If(isHoisted) {
+if (isHoisted)  break.

@@ -1,0 +1,135 @@
+ }
+ return originalPath;
+ return this;
+ return originalPath + fileName;
+ this.fileName = fileName;
+ this.code = code;
+ return this.originalPath;
+ return originalPath!= null? originalPath : fileName;
+ this.fileName = fileName; this.lastLine = -1;
+ this.fileName = fileName; this.lastLine = 1;
+ this.lastOffset = 0; this.lastLine = 1; return originalPath;
+ this.fileName = fileName; this.lastOffset = 0;
+ this.fileName = fileName; this.lastLine = 0;
+ this.fileName = fileName; this.lastOffset = -1;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = -1;
+ return this.originalPath!= null? originalPath : fileName;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 1;
+ this.lastOffset = 0; this.lastLine = 0; return originalPath;
+ this.fileName = null;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 0;
+ this.fileName = fileName; this.code = code;
+ this.lastOffset = 0; this.lastLine = 1; return this;
+ return this.originalPath!= null;
+ return fileName;
+ return this.originalPath + fileName;
+ this.fileName = originalFileName;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine++;
+ this.lastOffset = 0;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 1
+ this.originalPath = fileName;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 0
+ this.lastOffset = 0; this.lastLine = 1; return code;
+ this.lastOffset = -1;
+ return originalPath; }
+ this.lastOffset = 0; this.lastLine = 0; return this;
+ this.fileName = fileName; return originalPath;
+ return this.path;
+ this.fileName = fileName; this.lastLine = 0; this.lastOffset = 0;
+ } else { this.originalPath = fileName ; } else { this.originalPath = fileName ; } return this.originalPath ;
+ } else { if ( sourceCode == null ) { return null ; } return sourceCode. toString ( ) ; }
+ this.fileName = fileName; this.lastLine = line1;
+ this.fileName = fileName; this.lastLine = 0; this.lastOffset = -1;
+ } else { if ( sourceCode == null ) { return null ; } else { return sourceCode. toString ( ) ;
+ this.lastOffset = 0; this.lastLine = 1; return fileName;
+ return originalPath + "." + fileName;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 0.0;
+ this.fileName = originalPath + fileName;
+ this.lastOffset = 0; this.lastLine = 0; return code;
+ } else { this.originalPath = fileName ; } } else { this.originalPath = fileName ; } return originalPath ;
+ return this.originalPath || fileName;
+ this.fileName = fileName; this.lastOffset = 0; return originalPath;
+ this.fileName = fileName; this.lastLine = 0; return originalPath;
+ } else { this.originalPath = fileName ; } else { this.originalPath = filePath ; } return this.originalPath ;
+ } else { this.originalPath = fileName ; } public boolean hasSourceInMemory() { return hasSourceInMemory ( ) ;
+ this.fileName = fileName; this.lastLine = 0; this.offset = 0;
+ } else { this.originalPath = fileName ; } else { this.originalPath = fileName ; } return this. code ;
+ return this.originalPath!= null? this.originalPath : null;
+ this.fileName = fileName; this.lastLine = 0; this.lastOffset++;
+ } else { if ( code == null ) { return null ; } else { return code. toString ( ) ; }
+ } else { this.originalPath = fileName ; } } else { this.originalPath = fileName ; } return this. code ;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 1; }
+ return code;
+ return originalPath + name;
+ } else { this.originalPath = fileName ; } } else { this.originalPath = fileName ; } return code ; }
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 0; }
+ this.fileName = fileName; this.lastLine = 1; return originalPath;
+ } else { this.originalPath = fileName ; } public boolean hasSourceInMemory() { return hasSourceInMemory ( ) ; }
+ this.fileName = originalPath; return originalPath;
+ this.path = null;
+ this.fileName = "";
+ this.fileName = fileName; this.lastLine = 0; return this;
+ this.fileName = fileName; return this;
+ } else { if ( sourceCode == null ) { return null ; } } public String getCode() { return sourceCode;
+ this.fileName = fileName; this.lastLine = 0; this.lastOffset = 0
+ } else { this.originalPath = fileName ; } else { this.fileName = fileName ; } return this. code ;
+ this.fileName = fileName; this.lastOffset = -1; this.lastLine = 1
+ return this.originalPath!= null? this.originalPath : null
+ } else { if ( sourceCode == null ) { return null ; } return sourceCode. toString ( ) ; } }
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = -1; }
+ this.fileName = fileName; return this.path;
+ } else { if ( sourceCode == null ) { return null ; } } public String getCode() { return code;
+ this.fileName = originalPath; return this;
+ return this.originalPath!= null? originalPath : fileName; }
+ this.fileName = originalPath; return fileName;
+ this.fileName = fileName; this.lastLine = 1; this.lastOffset++;
+ this.fileName = fileName; this.lastOffset = 0
+ } else { if ( sourceCode == null ) { return null ; } else { return sourceCode. trim ( ) ; }
+ return originalPath + "." + code;
+ this.fileName = originalPath + name;
+ this.fileName = fileName; this.code = code
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine;
+ this.fileName = fileName; this.lastLine = 0; this.offset = 0
+ } else { this.originalPath = fileName ; } public String getFileName() { return fileName + ".js" ;
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 0; } }
+ } else { this.originalPath = fileName ; } public String getFileName() { return fileName + "." ; }
+ this.fileName = fileName; this.lastOffset = 0; this.lastLine = 1; } }
+ } else { this.originalPath = fileName ; } public String getCode() { return getCode() { return code ; }
+ return this.originalPath + code;
+ } else { if ( code == null ) { return null ; } else { return code ; } } return code ; }
+ this.fileName = originalPath + filename;
+ this.fileName = fileName; return true;
+ } else { this.originalPath = fileName ; } public String getFileName() { return fileName + '.' ; }
+ this.fileName = fileName; return code;
+ this.fileName = fileName; return originalPath; }
+ return originalPath; }
+ return null;
+ this.fileName = originalPath; }
+ this.fileName = fileName; this.code = null
+ return true;
+ this.path = null
+ this.path = path
+ return origPath;
+ return originalPath();
+ return this; }
+ return this; } }
+ return code; }
+ return null; } }
+ return originalPath; };
+ } } ;
+ } } ; }
+ } }
+ this.code }
+ this.code();
+ } } {
+ return this;
+ return code;
+ return;
+ }
+ } }
+ return null;
+ this;
+ return this
+ };
+ }; }
+ return

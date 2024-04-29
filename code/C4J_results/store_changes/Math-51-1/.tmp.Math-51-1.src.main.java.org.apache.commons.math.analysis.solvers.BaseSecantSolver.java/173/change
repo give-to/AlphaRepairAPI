@@ -1,0 +1,311 @@
+x0 = x1;
+ x0 *= x1;
+ x=x1;
+x0  = x;
+ x1 = x;
+ x = x;
+ x1 = x0;
+x0 = x1 ; x1 = x0 ;
+ x0 = x ; x1 = x;
+x0  = x ; x1 = x0 ;
+ x1 = x0 ; x0 = x;
+x0 = x1 ; x1 = x ;
+ x1 = x ; x0 = x;
+x0  = x1 ; f0 = f0 ;
+x0  = x ; x1 = x1 ;
+ x1 = x + 1;
+ x1 = x0 ; x0 = fx1;
+x0  = x ; f0 = f0 ;
+x0  = x ; f0 = f ;
+x0  = x ; f1 = x ;
+ x0 = x1 ; f0 = fx ; inverted = inverted ;
+x0  = x ; f0 = fx ;
+ x0 = x1 ; f0 = fx ; inverted = true ;
+x0 = x1 ; x1 = x0 + fx ;
+x0  = x ; fx ++ ;
+ x0 = x1; x1 = fx1;
+x0  = x ; x1 = x + 1 ;
+ x0 = x1 ; f0 = fx ; f1 = fx ; fx = 0.0 ;
+ x0 = x1 ; f0 = f1 ; inverted = inverted ;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = 0.0 ;
+ f1 = fx ; x0 = x;
+x0 = x1 + fx;
+ x1 = x0 ; x = x;
+x0  = x ; f0 = x ;
+x0 = x1 ; x1 = x0 + 1 ;
+ x1 = x0 ; x0 *= x1;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; f0 = f0 ;
+ x0 = x + 1;
+ fx = 0.0 ; x0 *= x1;
+ x1 = x0 + fx1;
+ x0 = x1 ; f0 = f1 ; inverted = true ;
+ x0 = x1 ; x1 = x0 ; fx = fx ; f1 = f0 ;
+ x = x0 ; x0 *= x1;
+ x0 = x1 ; f0 = fx ; inverted =!inverted ;
+ x = x-x1;
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; inverted = true ;
+ x0 = x ; x = x;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = f0 ;
+ x0 = x1 ; f0 = fx ;
+ x1 = x0 ; x0=x1;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; inverted = inverted ;
+ x0 = -x1;
+x0 = x1 ; x = x ;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; f0 = f1 ;
+ x1 = x ; fx ++;
+ x0 = x1 ; f0 = fx ; f1 = fx ; fx = 0.0 ; inverted = true ;
+ x0 = x1 ; f0 = fx ; f1 = fx ; inverted =!inverted ;
+ x0 = x1; x1=x1;
+x0 = x1 ; f0 = x ;
+ x0 = x1 ; f0 = fx ; } else {
+x0 = x1 - fx;
+ x1 = x0 ; f1 = fx ; inverted = inverted ;
+ fx = 0.0 ;
+x0 = x1 ; f1 = f0 ;
+ f1 = fx ; x0 *= x1;
+x0 = x1 + fx ; fx = 0 ;
+ x1 = x ; x = 0;
+ x0 = x1 ; f0 = fx ; inverted = inverted ; } else {
+ x1 = x ; f1 = fx1;
+ x0 = x1 ; f0 = f1 ; inverted = inverted ; } else {
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; inverted = false ;
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } else {
+ x0 = x1 ; fx = f0 ;
+ x0 = x ; x = 0;
+ f1 = 0.0 ;
+ x1 = x ; f1=x1;
+ x = x0 ; x1 = x;
+ x0 = x1 ; f0 = fx ; f1 = fx ; fx = 0.0 ; inverted = false ;
+ x0 = x1 ; x1 *= x1;
+ x = x0 ; x1= x1;
+ x0 = x1 ; f0 = fx ; inverted =!inverted ; } else {
+ x = x+x1;
+ x1 = x0 ; x0 = -x1;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; f1 = 0 ;
+ x1 = x0-x1;
+ x1 = x0 ; fx = f0 ;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; f0 = 0 ;
+ x0 = x1 ; f0 = f1 ;
+ x1 = x0 ; f1 = f0 ;
+ x1 = x ; f1 = 0;
+ f1 = f0;
+x0  = x1 + x;
+ x0 = x1 ; fx = 0 ;
+x0 =  x ; x1 = x ; fx =
+ x1 = x0 ; fx = 0 ;
+ x1 = x0 ; f1 = fx ; } else {
+x0  = x
+ x0 = x1 ; f0 = f1 ; } else {
+ x1 = x ; x0 = fx1;
+x0 = x1 ; f0 = fx ;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; f0 = f1 ; } else {
+ x1 = x ; x0=x1;
+ x1 = x ; x = x;
+ x1 = x0+x1;
+ x0 = x1 ; f1 = fx ; inverted = inverted ; } else {
+x0  = x - 1;
+ x1 = x ; f1;
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; } else {
+x0 = x1 ; f0 = 0.0 ;
+ x1=x1;
+ x0 = x ; x1 *= x1;
+x0 = x1 + fx ; fx = x ;
+ x0 = x1 ; f1 = fx ; } else {
+x0 = x1 ; f1 = x ;
+ x0 = x1 + 1;
+ x1 = x0 ; f0 = fx ; } else {
+x0  = x ; fx -- ;
+ x0 = x1 ; f0 = f1 ; f1 = fx ; inverted = inverted ; } else {
+ x0 = x1 ; f0 = fx ; f1 = fx ; inverted = inverted ; } else {
+ return x;
+x0  = x + f;
+ x1 = x0 - fx1;
+ fx = 0.0 ; x1= x1;
+ x = x1 + 1;
+ x = x0 + x1;
+ f1 = fx ; x0= x1;
+ x1 = x ; f1 = f ;
+ if (inverted) {
+ x1 = x0 ;
+ x = x0 + fx1;
+ x = x0 + fx ; x *= x1;
+x0  = x1 - 1;
+x0 = x1 ; f0 = 0 ;
+x0 = x1 ; f0 = fx ; } else {
+ x1 = x ; x0 *= x1;
+x0 =  x ; x1 = x ; f1 =
+ x1 = x ; f1 = x ;
+ Update the search interval. fx = 0 ;
+ x0 = x1 ; fx = x ;
+ fx = 0 ;
+ fx = 0.0 ; x1 *= x1;
+x0  = x1 = x ;
+x0 = x1 ; x1 = x0 + x1 ;
+ x = -x1;
+ x0 = x; x=x1;
+ fx = 0.0 ; x0= x1;
+ x0 = x1 ; f0 = f ;
+ x = x + 1;
+ x1 = x ; x=x1;
+ x1 = x + f;
+ x = 0;
+ x0 = x1 ; inverted = true ;
+x0 = x1 ; f1 = fx ; } else {
+x0  = x1 - x;
+ x = x0 - fx1;
+ x1 = x0 ; inverted = true ;
+ x = x0 ; fx = x *= x1;
+ x1 = x0 ; inverted = inverted ;
+x0 = x1 ; f0 = f1 ;
+ x = x0-x1;
+ f1 = fx + 1 ;
+ x = x0 + fx; x1= x1;
+ x = x0 ; x0= x1;
+ x0 = x0-x1;
+ f1 = fx - 1 ;
+ x0 = x1 ; f0 = fx ; f1 = fx ; fx = fx ; } }
+ f1 = fx + f0;
+ x = x0 + x*x1;
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } else { break;
+ x0 = x1 ; f0 = fx ; f1 = fx ; inverted = inverted ; inverted = inverted ; }
+ x1 = x0 ; } else {
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = fx ; } }
+ x0 = x1 ; inverted = inverted ;
+ x0 = x1 ; f0 = fx ; inverted = true ; } else { if (! inverted)
+ f1 = 0 ;
+ x0 = x1 ; f0 = fx ; inverted = true ; } else { if (reverse)
+ x0 = x1 ; x1 = x0 ; f1 = fx ; f0 = f1 ; } }
+ x0 = x1 ; x1 = x0 ; f1 = fx ; fx = f0 ; } }
+ f1 = fx ; x1= x1;
+x0 = x1 ; x = 0 ;
+ x0 = x1 ; } else {
+ x0 = x1 ; f0 = fx ; inverted = false ; } else { if (reverse)
+ x0 = x1 ; f0 = fx ; f1 = fx ; inverted = inverted ; inverted = false ; }
+ x0 = x1 ; inverted = false ;
+ x0 = x1 ; f0 = f1 ; f1 = fx ; inverted = inverted ; inverted = false ; }
+ x0 = x1 ; x1 = x0 ; f1 = fx ; f0 = f0 ; } }
+ x1 = -x1;
+ f1 = fx ; } else {
+ x0 = x0;
+x0 = x1 ; inverted = true ;
+ x0 = x1 ; f0 = fx ; inverted = true ; } else { break ; }
+ x1 = x0 - fx;
+ x = x*x1;
+ x1 = x0 + x;
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } else,
+ if (inverted)
+ x0 = x1 ; f0 = fx ; inverted =!inverted ; } else,
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } else
+ x0 = x1 ; f0 = fx ; inverted = inverted ; }
+ if (!inverted)
+ x0 = x1 ; f0 = f1 ; inverted = inverted ; } else,
+ x1 = x ; } else {
+ x0 = x1 ; f0 = fx ; inverted = inverted ; } else,
+ x = x0 x1= x1;
+ x1 = x ;
+ x = x ; x0= x1;
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } else:
+ f1 = 0.0 ;
+ x0 = x1 ; f0 = f1 ; inverted = inverted ; }
+ inverted = true ;
+ x = x0 *= x1;
+ x = x0 ;
+ x0 = x1 ; f0 = fx ; inverted = inverted ; } }
+x0 = x1 - f0;
+ x1 = x0 ; f1 = fx ; inverted = inverted ; }
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } }
+ x0 = x1 ; f1 = fx ; inverted = inverted ; }
+ x1 =
+ x0 = x1 ; f0 = f0 ; inverted = inverted ; }
+ f0 = fx ; } else {
+x0  ++ ;
+ x ++;
+ x = x0 ; f= x1;
+ x0 = x1 ; fx =
+ x1;
+ x0 = x1 ; f0 = fx ; } else
+ x = x ; x1= x1;
+ x = x + f;
+ x0 = x+x1;
+ x0 = x-x1;
+ x1 = x-x1;
+ x0 = x0 + 1;
+x0 =  x ; x1 = x ; f1 ;
+ inverted = inverted ;
+ x0 = x1 ; f0 = f1 ; inverted = inverted ; } else { }
+ x0 = x1 ; f0 = fx ; inverted = inverted ; } else { }
+x0 =  x ; x1 = x ; fx ;
+ x0 = x1 ; f0 = fx ; } }
+ x = x0;
+ x0 = x1 ; f0 = f1 ; } else
+ x = x; x= x1;
+ x1 = x0 ; f1 = fx ; } }
+ x1 = x0 ; f0 = fx ; } else
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } } } }
+ x = null;
+ x0 = x1 ; f0 = fx ; inverted =!inverted ; } } } }
+ x0 = x1 ; f1 = fx ; inverted = inverted ; } else { }
+ x0 = x1 ; f0 = fx ; }
+x0  --;
+x0 =  x ; x1 = x ; f1 *
+ x = x; f= x1;
+ return x1;
+ this.x1 *= x1;
+ x1 = x0 ; f1 = fx ; }
+ x0 = x1 ; f0 = f1 ; inverted =!inverted ; } } } else
+ x0 = x1 ; f0 = fx ; inverted =!inverted ; } } } else
+ x0;
+ x0 = x1 ; fx = fx ; }
+x0  = x0 ;
+ x1 = x0 ; f0 = fx ; }
+ x = x0= x1;
+ x0 = x1 ; f0 = f1 ; }
+ x = y;
+ x1 *= x1;
+ x0 = x1 ; } else
+ inverted = false ;
+ x = f;
+ if (reverse)
+ x0 = x1; else
+ x *= x1;
+ x0 ^= x1;
+ x0 =
+ x2 = x;
+ x1 = x0 ; } else
+x0 = x1 ; f0 = 0.0.
+ return x; x= x1;
+ x0 x1= x1;
+ x =
+ x0 += x1;
+ x1 = x0; }
+ int x0 *= x1;
+ } else {
+ x = x1= x1;
+ x == x1;
+ if (inverted) { double
+x0 = x1 ; f0 = 0.0 }
+x0 = x1 ; x1 = x0 ; }
+ return x;
+x0  = x1.
+ } else {
+ x0 -= x1;
+ x2= x1;
+ break; }
+x0 = x1x;
+x0  = 0;
+ this.
+x0  = null;
+ x =
+ x-x1;
+ this.
+ x.
+ x+=x1;
+ x++;
+ x ;
+x0 = x1 + 1
+x0 = x1; }
+x0 = x1x.
+ }
+ }
+x0 is x1;

@@ -1,0 +1,544 @@
+case Token.COMMA:  return 0;
+ case Token.ASSIGN_COMMA:  return 0;
+case  Token.ASSIGN_AND:
+case Token.COMMA:  return  - 1;
+case  Token.ASSIGN_BITOR:
+case Token.COMMA: case Token.ASSIGN_AND:
+case Token.COMMA:  return 0; case Token.ASSIGN_BITOR:
+ case Token.AND:
+case  Token.ASSIGN_HOOK:
+case Token.COMMA:  return 0; case Token.ASSIGN_AND:
+ case Token.COMMA: case Token.COMMA:  return 0;
+ case Token.HOOK: return 0;
+case Token.COMMA:   case Token.ASSIGN_BITXOR:
+ return 0;
+ case Token.NCOMMA:  return 0;
+case Token.COMMA: case Token.ASSIGN_HOOK:
+case Token.COMMA: case Token.BITOR:
+case Token.COMMA: case Token.ASSIGN_BITOR:
+ case Token.AND: return 0;
+ case Token.ASSIGN_HOOK:  return 0;
+case  Token.ASSIGN_BITXOR:
+case Token.COMMA:  return 0; case Token.BITOR:
+ case 0: case Token.COMMA:  return 0;
+case Token.COMMA:  return 0; case Token.AND:
+ case Token.ASSIGN_BITOR:  return 0;
+case  Token.ASSIGN_OR:
+ case Token.ASSIGN: case Token.ASSIGN_AND:
+ case Token.COMMA:
+case Token.COMMA:  return 0; case Token.HOOK:
+case  Token.ASSIGN_BITAND:
+case Token.COMMA: case Token.ASSIGN_OR:
+ case Token.ASSIGN_BIT:  return 0;
+ case Token.HOOK:
+ case 0:
+case Token.COMMA:  return 0; case Token.ASSIGN_OR:
+ case 0: return 0;
+ case Token.OR: return 0;
+ case Token.ASSIGN: case Token.ASSIGN_OR:
+ case Token.ASSIGN:
+ case Token.ASIGN: case Token.ASSIGN_AND:
+ case Token.COMMA: case!Token.COMMA:  return 0;
+ case Token.OR: case Token.AND:  return 0;
+ case Token.ASSIGN: return 0;
+case Token.ASSIGN: case Token.BITOR:
+ case Token.COMMA: case Node.COMMA:  return 0;
+case Token.COMMA: case Token.AND:
+ case Token.ASSIGNMENT:  return 0;
+case  Token.ASIGN_BITXOR:
+case Token.COMMA:  return  1; case Token.ASSIGN_AND:
+ case Token.Token.COMMA:  return 0;
+ switch (type) { case Token.ASSIGN_BITOR:
+ case Token.ASSIGN_ALL:  return 0;
+ case Token.ASSIGN: return 0; case Token.AND:
+ case Token.ASSIGN_AND: return 0;
+ switch (type) { case Token.ASSIGN_AND:
+ case Token.CHAR:
+ case Token.HOOK: return -0;
+ case Token.AND: return 1;
+ case Token.ASSIGN_BITXOR:  return 0;
+ case 0: return -0;
+case Token.ASIGN: case Token.BITOR:
+case Token.COMMA: case Token.ASSIGN_BITAND:
+ case Token.COMMA: case ~Token.COMMA:  return 0;
+case Token.COMMA:  return 0; case Token.ASSIGN_BIT:
+ case Token.OR: case Token.ANDOR:  return 0;
+ case Token.COMMA case Token.COMMA:  return 0;
+ case Token.ASIGN: case Token.ADD:  return 0;
+ case Token.COMMA: case Token.UNCOMMA:  return 0;
+ switch (type) { case Token.ASSIGN_OR:
+ case Token.ASSIGN_OR: return 0;
+ case Token.ASSIGN_BITAND:  return 0;
+ case Token.BITOR:
+case Token.COMMA:  return 0; case Token.ASSIGN_BITAND:
+ case Token.HOOK: return 1;
+ case Token.COMMA: return 1;
+ case Token.ACCESS: return 1;
+case Token.COMMA: case Token.ASSIGNOR:
+ case -1: return 0;
+case Token.COMMA:  return  1; case Token.BITOR:
+ case Token.ASIGN_BITOR:return 0;
+case Token.COMMA:  return 0; case Token.ASSIGN_HOOK:
+case  Token.ASSIGN_BIT:
+ case Token.ASSIGN: case Token.ADD:  return 0;
+case  Token.IGN: case Token.BITOR:
+ case Token.ASSIGN: case Token.IGN_OR:
+ case Token.ASSIGN: case Token.BITXOR:
+ case Token.PREFIX:
+ case Token.ASSIGNMENT_COMMA:  return 0;
+ case Token.OR: case Token.BITOR:  return 0;
+ case Token.ACCESSOR: case Token.COMMA:  return 0;
+ case Token.ASSIGN: case Token.NCOMMA:  return 0;
+ case Token.ASIGN: case Token.AND:  return 0;
+ case Token.ASIGN_BITXOR:  return 0;
+ case Token.INCREMENT_COMMA:  return 0;
+ case Token.IN:  return 0;
+ return -0;
+ case Token.ASSIGN_AND: return 1;
+case Token.COMMA:  return  1; case Token.AND:
+ case Token.ASIGN: case Token.ASSIGNOR:
+ case Token.ADD: return 0;
+ case Token.CUSTOM: case Token.COMMA:  return 0;
+case Token.COMMA:  return 0; case Token.ASSIGNOR:
+ case 0, Token.COMMA:  return 0;
+ case Token.ASSIGN: case Token.COMMA:  return 0;
+ case Token.OR:
+ case Token.BITOR: return 0;
+ case Token.ADD:
+ case case Token.COMMA:  return 0;
+ switch (type) { case Token.AND:
+ case Token.ACCESSOR: case Token.Token.COMMA:  return 0;
+case Token.COMMA:  return 0; case Token.ASSIGNBIT:
+ case Token.NONCOMMA:  return 0;
+case Token.COMMA:  return 0; case Token.BIT:
+ case Token.ASSIGN:
+case Token.COMMA:  return 0; case Token.OR:
+ case Token.IGNORE:
+case  Token.ASIGN_BITOR:
+case Token.COMMA:   case Token.ASIGN_BITXOR:
+ case Token.ASIGN: return0;
+ case Token.HOOK: return 1.0;
+ case Token.ASSIGNOR:
+case Token.IGN: case Token.IGNBITOR:
+ case Token.ASSIGN: return 1.0;
+case Token.COMMA: case Token.ASSIGN_BIT:
+ case Token.BIT:
+case Token.COMMA: return 1;
+ case Token.CALL: case Token.COMMA:  return 0;
+ case Token.AS: return 0;
+ case -1: return -0;
+ case Token.ASIGN: case Token.NCOMMA:  return 0;
+ case Token.PRECISION_COMMA:  return 0;
+case Token.COMMA:  return  - 1 ; case Token.BITOR:
+case Token.ASIGN: case Token.ASIGNOR:
+case Token.IGN: case Token.IGN_OR:
+ case Token.ASIGN_HOOK:  return 0;
+ case Token.COMMA: case Token.NCOMMA:  return 0;
+case Token.COMMA:  return 0; case Token.ASSIGNMENT:
+ case 0: case case Token.COMMA:  return 0;
+ case 0: case Token.HOOK:  return 0;
+ case Token.ASSIGN_FLAG:  return 0;
+ case Token.ACCESS: case Token.Token.COMMA:  return 0;
+case  Token.ASSIGN_BITWISE:
+ case Token.ASIGN: case Token.HOOK:
+ case Token.IGN: case Token.ADD:  return 0;
+ switch (type) { case Token.OR:
+case Token.ASSIGN: case Token.IGN_AND:
+case  Token.assign_BITOR:
+ case Token.ASSIGN_OR: return 1;
+ case Token.BITCOMMA:  return 0;
+ case Token.IN: return 0; case Token.INSTANCEOF:
+ case Token.OR: case Token.AND: return 0; case Token.OR: case Token.AND:
+ case Token.ASSIGNED_COMMA:  return 0;
+ case Token.ACCESS: return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.HOOK:
+ case Token.ASSIGN: return -0;
+ case Token.ASIGNMENT:  return 0;
+ case Token.COMMA: switch caseToken.COMMA:  return 0;
+ case Token.COMMENT: case Token.COMMA:  return 0;
+ case Token.COMMA: case Type.COMMA:  return 0;
+ case Token.PATTERN:
+ case Token.IGNORE:
+ case Token.POSSIBLE_COMMA:  return 0;
+ case Token.COMMA: return 1; caseToken.COMMA:  return 0;
+ case Token.HOOK: return 0.0;
+case Token.COMMA: case Token.HOOK:
+case Token.COMMA:  return 0; switch (type) {
+ case Token.OR: case Token.AND: case Token.OR: case Token.OR: case Token.AND:
+ case Token.NUMBER case Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.HOOK:
+ case Token.IN: return 1; case Token.INSTANCEOF:
+ case Token.COMMA: case ^Token.COMMA:  return 0;
+ case Token.COMMA: case Token.NOTCOMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.OR: case Token.HOOK:
+ case Token.COMMA,!Token.COMMA:  return 0;
+ case Token.ACCESSOR:
+case Token.COMMA: case Token.ASSIGNMENT:
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.HOOK:
+ case Token.ACCEPTION: return 1;
+ case Token.STRING case Token.COMMA:  return 0;
+ case Token.STRING:
+ case Token.COMMA: { case Token.COMMA:  return 0;
+ case Token.COMMA: case Token.OR: case Token.AND: case Token.ASSIGN_OR:
+ case Token.IGNIGN_BITOR:return 0;
+ case Token.ASSIGN: return - 1.0;
+ case Token.ACCEPT: return 1;
+ case Token.STRING: return 0; case Token.ASSIGN_COMMA:
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.OR: return 2;
+ case Token.BIT:
+case Token.COMMA: case Token.IGN_OR:
+case Token.COMMA: case Token.ASSIGNBIT:
+ case Token.ALL:
+ case Token.COMMA, Token.COMMA:  return 0;
+case Token.COMMA: case Token.IGNIGNOR:
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_OR:
+ case Token.COMMA: return 1; case Token.HOOK:
+ case Token.ASSIGNED:
+ case Token.ASSIGN: return 1;
+ case Token.OR: case Token.AND: return 0; case Token.OR: case Token.OR:
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.OR:
+ case Token.HOOK: return.0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.AND:
+ case Token.ANY:
+ case Token.ASSIGNED:  return 0;
+ case Token.ASSIGN: case 0: return0;
+ case Token.CALL: case Token.Token.COMMA:  return 0;
+ case Token.ASIGN_AND:
+case Token.COMMA:  return 0; case Token.IGNORE:
+ case Token.OR: case Token.AND: case Token.OR: case Token.ASSIGN_AND:
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.OR: return 1;
+ case Token.ASSIGN: return 0.0;
+ case Token.COMMA: return 0; case Token.ASSIGN_BITOR:
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.AND: return 1;
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_MOD:
+ case '(':
+ case Token.ASIGN: return 1.0;
+ case Token.T_COMMA:  return 0;
+ case Token.ASSIGN_AND:
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_LSH:
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.AND: return 1;
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_LHS:
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.OR: return 0;
+ case Token.NUMBER,Token.COMMA:  return 0;
+ case Token.ASSIGN_ALL:
+ case Token.IGN_COMMA:  return 0;
+ case Token.COMMA: return 0; case Token.OR: case Token.OR: return 1;
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.AND:
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.OR:
+ case Token.OR: case Token.AND: case Token.OR: case Token.ORHOOK:
+ case Token.COMMA: return 1; case Token.ASSIGN_MOD:
+ case Token.COMMA: case Node.Token.COMMA:  return 0;
+ case Token.NP_COMMA:  return 0;
+ case Token.COMMA: case |Token.COMMA:  return 0;
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.OR: case Token.AND:
+ case Token.COMMA: switch { case Token.COMMA:  return 0;
+ case Token.IGN: return -0;
+case Token.COMMA:  return  Token.COMMA;
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_AND:
+ case Token.ASSIGN_OR_COMMA:  return 0;
+ case Token.COMMA: case Token.OR: case Token.AND: case Token.ASSIGN_MOD:
+ case Token.IN,Token.COMMA:  return 0;
+ case Token.COMMA: case case Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: return 0; case Token.OR: case Token.NOT:
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_DIV:
+ case Token.CMA: caseToken.COMMA:  return 0;
+ case Token.COMMA: return 0; caseToken.COMMA:  return 0;
+ case Token.IGNORE:  return 0;
+ case Token.IDENT:
+case  Token.ASSIGN_BITOR: break;
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.ASSIGN_ADD:
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND:
+case Token.COMMA: case Token.OR:
+ case Token.COMMA: case Token.OR: case Token.AND: case Token.ASSIGN_AND:
+ case Token.HOOK: return |0;
+ case Token.ALL:return 0;
+ case Token.STRING: return 0; case Token.COMMA:
+ case Token.ALTER:
+ case Token.COMMA: case Token.OR: case Token.AND: return 0; case Token.NOT:
+ case Token.STRING: return 0; case Token.IGNIGN_COMMA:
+ case Token.IGNIGNMENT:  return 0;
+ case Token.IN:
+ case Token.COMMA: return 1; case Token.ASSIGN_BITOR:
+ case Token.COMMA: return 0; case Token.ASSIGN_MOD:
+ case Token.OR: case Token.AND: return 0; case Token.ASSIGN_HOOK:
+ case Token.ASSIGN_CHAR:
+ case Token.assign_AND:
+ case Token.COMMA: return 1; case Token.ASSIGN_ADD:
+ caseToken.COMMA, caseToken.COMMA:  return 0;
+ case Token.COMMA: return 0;
+ case Token.STRING: return 0; case Token.CUSTOM:
+ case Token.STRING,Token.COMMA:  return 0;
+ case Token.COMMA: return 1; case Token.ASSIGN_OR:
+ case Token.0_COMMA:  return 0;
+ case Token.ACCESSOR: case case Token.COMMA:  return 0;
+ case 0: return 1;
+ case Token.COMMA: break;
+ case Token.ASSIGN: return (int)0;
+ case -1:
+ case Token.ASIGN: return - 1.0;
+ case 0, case Token.COMMA:  return 0;
+ case Token.ASSIGN_NO_COMMA:  return 0;
+ case Token.STRING: return 0; case Token.ASSIGN_COMMENT:
+ case Token.COMMA: return 0; case Token.OR: case Token.HOOK:
+ case Token.ASIGN: case -1:  return 0;
+ case '?':  return 0;
+case Token.COMMA: case Token.BIT:
+ case Token.INITIALIZE_COMMA:  return 0;
+ case Token.ASSIGN_0_COMMA:  return 0;
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.AND: return 1; }
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.AND: return -1;
+ case Token.ASSIGN_BIT:
+ case Token.OR: case Token.AND: case Token.OR: case Token.IN:
+ case -1: case Token.COMMA:  return 0;
+ case 1: case Token.COMMA:  return 0;
+ case Token.NOP:return 0;
+ case '*' case Token.COMMA:  return 0;
+ case Token.ASSIGN_BITOR: switch;
+ case Token.ACCESS: return - 1;
+ case Token.COMMA: return 0; case Token.OR: return 1; case Token.AND: return 2; }
+ case Token.COMMA: return 1; case Token.ASSIGN:
+ case Token.PRECISION:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.COMMA:
+ case Token.COMMA: case?:Token.COMMA:  return 0;
+ case Token.HOOK;
+ case Token.COMMA: return - 1; break;
+ case 0, 1, Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.EQ:
+ case Token.IN: return 0; case Token.INSTANCEOF
+ case Token.IN: return 0; case Token.COMMA:
+ case Token.STRING: return 0; case Token.AND:
+ case Token.ASSIGN_UNKNOWN_COMMA:  return 0;
+ case Token.0;
+ case Token.COMMA: return - 1;
+ case Token.OR: case Token.AND: case Token.OR: case Token.SHOR:
+ case?::Token.COMMA:  return 0;
+ case Token.STRING: return 0; case Token.COMMENT:
+ case 0: return 0.0;
+ case Token.OR: return -0;
+ case Token.COMMA: return 1; case Token.AND:
+ case Token.ASSIGN_BIT_COMMA:  return 0;
+ case Token.STRING: return 0; case Token.CHAR:
+ case Token.COMMA: case?::Token.COMMA:  return 0;
+ case Token.COMMA: return 1; break;
+ case Token.STRING: return 0; case Token.COMPACT:
+case Token.COMMA: case Token.IGNORE:
+ case Token.ACCEPTION: return 0;
+ case Token.LCOMMA:  return 0;
+ case Token.COMMA: return 0; case Token.OR: case Token.OR: return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.AND: return 1; }
+ case -1: return 1;
+ case 0: switch case Token.COMMA:  return 0;
+ case Token.STRING: return 0; case Token.ASSIGN_CUSTOM:
+ case Token.STRING: return 0; case Token.ASSIGN_CHARACTER:
+ case Token.ASSIGN_BITOR: switch:
+ case Token.IGNIGN_COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.AND: case Token.OR: return 1; }
+ case Token.ASSIGN;
+ case Token.COMPACT:
+ case Token.AND: break;
+ case Token.STRING: return - 1;
+case Token.COMMA: case Token.BITAND:
+ case Token.ACCESSOR: case Node.Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.OR: case Token.OR: return 1; }
+ case Token.ASSIGN: return - 1;
+ case Token.COMMENT:
+ case -1 case Token.COMMA:  return 0;
+ case Token.IN: return -0;
+ case Token.COMMA: case! case Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.OR:
+ case 0: return 1.0;
+ case Token.IN: return 0; case Token.INSTANCEOF: {
+ case Token.ASSIGN: {
+ case Token.AND;
+ case Token.NODE_Token.COMMA:  return 0;
+ case Token.OR: case Token.AND: case Token.OR: case Token.NOT:
+case  0:
+ case Token.ACCESS: return 1; break;
+case Token.COMMA: case Token.IGNOR:
+ case Token.STRING: return 0; case Token.ASSIGN_COMPARE:
+ case Token.IN: case Token.COMMA:
+ case 1: return -0;
+ case Token.IN: return - 1; break;
+ case Token.OR: case Token.AND: case Token.OR: case Token.COMP:
+case Token.COMMA:   case Token.ASSIGN_BITXOR,
+ case 0: return |0;
+ case Token.STRING: case Token.PREFIX:
+ case Token.UNCOMMA:  return 0;
+ case Token.STRING: return 0; case Token.ASSIGN_COMPACT:
+ case Token.COMMA: return 1; return 2;
+ case Token.COMMA: return - 1; return 1;
+ case 1: return 0;
+ case Token.HOOK: return -1;
+ case { case Token.COMMA:  return 0;
+ case Token.AND: return;
+ case Token.ASSIGN_BITOR: case
+ case Token.ACCESS: case Token.TYPE.COMMA:  return 0;
+ switch (type) { case Token.ASSIGN: {
+ case Token.OR,Token.COMMA:  return 0;
+case Token.AND
+ case 0: return.0;
+ case Token.ASSIGN_BITOR: switch to
+ case Token.STRING: case Token.COMPACT:
+ case Token.ASIGN: return - 1;
+ return 0.0;
+ case Token.HOOK: {return 0;
+ case 0: case 0.0;
+case  Token.ASSIGN_BITOR: switch
+ case Token.Type.COMMA:  return 0;
+ case ',':
+ case Token.IN caseToken.COMMA:  return 0;
+ case Token.ASSIGN: switch
+ case 0: case -0;
+ case Token.assign_COMMA:  return 0;
+ case Token.ASSIGN_BITOR::return 0;
+ case Token.ASSIGN_BITOR: {return 0;
+ case 0: return;
+ case Token.IN: case Token.INSTANCEOF: {
+ case Token.ALL,Token.COMMA:  return 0;
+ case ' ':
+ case Token.POSITION_COMMA:  return 0;
+ case 0: break;
+ case Token.ASSIGN_HOOK: {return 0;
+case  '?':
+ case Token.assIGN_COMMA:  return 0;
+case Token.COMMA: return 3;
+ return 1.0;
+case  '=':
+ case? case Token.COMMA:  return 0;
+ case Token.ACCESSOR: case?::Token.COMMA:  return 0;
+ case Token.IN|Token.COMMA:  return 0;
+ case Token.TYPE.COMMA:  return 0;
+ case Token.ACCESSOR: case #COMMA:  return 0;
+ case Token.INCOMMA:  return 0;
+ case '=':  return 0;
+ case 0COMMA:  return 0;
+case Token.COMMA:  return 0; case '=':
+ case Node.Token.COMMA:  return 0;
+ case ^Token.COMMA:  return 0;
+ case Token.STRING: return 0; case Token.COMMA: switch
+ case 0.0;
+ case Token.BIT;
+ case Token.IN;
+ case null:return 0;
+case Token.COMMA: return 2;
+ case Token.ASSIGN: {return 0;
+ case "?":  return 0;
+ case Token.COMMA: return 1; break; }
+ case :COMMA:  return 0;
+ case (int)Token.COMMA:  return 0;
+case Token.COMMA: return 5;
+ case 1:
+ case Token.HSL:  return 0;
+ case 0:0;
+ case Token.COMMA: return 1; case Token.OR: return 2; } }
+ case Token.COMMA: return - 1; break; }
+ case Token.COMMA: {
+case Token.COMMA:  return  0; case Token.ASSIGNBIT():
+ case ~Token.COMMA:  return 0;
+case Token.COMMA:  return  0 ; case Token.ASSIGN: {
+ case Token.ASIGN_BITOR: {return 0;
+ case Token.ASIGN: {
+case Token.COMMA:  return 0; case '?':
+case Token.COMMA:  return  0; case '(':
+ case Token.ASIGN_HOOK: {return 0;
+ case Token.ASSIGN_BITAND: {return 0;
+ case Token.IGNIGN: {return 0;
+ case Token.SubToken.COMMA:  return 0;
+ case ConstantsToken.COMMA:  return 0;
+ case null:
+ case Token.ASSIGN_BIT::return 0;
+ case 0: {return 0;
+ case BITCOMMA:  return 0;
+ return 1;
+case  "?":
+case  '(':
+case  -1:
+ case!Token.COMMA:  return 0;
+case Token.COMMA:  return  0; case 0;
+case Token.COMMA:  return 0; case -1:
+ return - 1.0;
+ case Token.ASSIGN_BIT():return 0;
+case Token.COMMA:  return  0; case "=":
+case Token.COMMA:  return  0; case?:
+ case Token.IGN: {return 0;
+ case '(':  return 0;
+case Token.IN
+ case Case Token.COMMA:  return 0;
+ case?:Token.COMMA:  return 0;
+ case?:return 0;
+case Token.COMMA:  return  0; case '!':
+case Token.ADD
+ case #COMMA:  return 0;
+ case 0;
+ case Token: return0;
+case ?:
+ case -1;
+ case Token.NOP: {return 0;
+case Token.COMMA_AND:
+case Token.COMMA: return - 1; }
+ case Token.ASSIGN_ALL::return 0;
+} case Token.COMMA:  return 0;
+ case *Token.COMMA:  return 0;
+case Token.COMMA: case Token.BIT,
+case Token.COMMA:  return 0; case 1:
+case Token.COMMA:  return 0.0;
+case Token.COMMA:  return 0; switch type {
+ default:
+case Token.COMMA:  return 0; case null:
+ case 0,!Token.COMMA:  return 0;
+case Token.COMMA:  return  - 2;
+case Token.COMMA:  return  0; case 0:
+case Token.COMMA_OR:
+ return -1;
+case  1:
+case Token.COMMA:  return 0.5;
+case  OP:
+case Token.COMMA:  return 0; switch:
+case Token.COMMA: return - 1,
+ case '0;
+ case ASTNode.COMMA:  return 0;
+case Token.BIT
+ case Type.COMMA:  return 0;
+ case -0;
+ case -1::return 0;
+ case Token.AND::return 0;
+case Token.COMMA:  return  Token.COMMA:
+case  AND:
+ case '?';
+ case 0;
+case Token.AS
+case Token.COMMA: switch {
+case Token.COMMA: return 0; }
+ case OP:  return 0;
+ return '0;
+case Token.COMMA: {
+case Token.COMMA:  return  - 1; switch
+ case Symbol.COMMA:  return 0;
+case Token.COMMA: switch:
+case Token.COMMA:  return 0; switch;
+case Token.COMMA: switch;
+case Token.COMMA:  return  0; } switch
+ return "0;
+ return type;
+ case Node.COMMA:  return 0;
+case Token.COMMA:  return 0; switch {
+ case '=';
+case Token.COMMAIN:
+case Token.COMMA:  return  1; } switch
+ case :return 0;
+case Token.COMMA:  return 0; switch
+case Token.COMMA: switch
+ case
+ default {
+ case "return 0;
+case Token.COMMA:   switch to
+ case...return 0;
+case Token.COMMA:   {}
+case Token.COMMA:  return 0 ; case
+case Token.COMMAIN':
+case Token.COMMA:  return 0.0
+case Token.COMMA, switch
+ {
+case Token.COMMA():  return 0;
+case Token.COMMA':  return 0;
+case Token.COMMA):  return 0;

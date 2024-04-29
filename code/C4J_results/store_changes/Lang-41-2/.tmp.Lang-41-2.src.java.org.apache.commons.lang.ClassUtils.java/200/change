@@ -1,0 +1,1058 @@
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  out + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx);
+ out += innerIdx;
+ out += className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, "");
+out = out.replace(PACKAGE_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  out + innerIdx ;
+out =  out + className.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx + 1, PACKAGE_SEPARATOR_CHAR);
+out =  replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += className.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx ) ;
+ return innerIdx;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx ) ;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + innerIdx ) ;
+ out = out + innerIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  out. substring ( innerIdx);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - 1 ) ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); } else {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "");
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx )
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); } else {
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx + 1 ) ;
+out = out.replace(in);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + innerIdx;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, className);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 2 ) ;
+ return out;
+out = out. substring ( lastDotIdx);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + innerIdx )
+ if (out!= null) {
+out =  out + ' ' ;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + innerIdx + 1);
+out = out.replace(INNER_CLASS_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out. substring ( 0, innerIdx);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 1);
+ out = out + in.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' ;
+out  += ' ' ;
+ out = out. substring ( lastDotIdx, lastDotIdx + 1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. trim ( ) ;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx - 1 ) ;
+out = out.replace(PACKAGE_SEPARATOR_STRING, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, className, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = replace(out, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, innerIdx + 1);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx ) + ' ' ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, CLASS_SEPARATOR_CHAR); } else {
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - 1));
+ out = out. substring ( lastDotIdx + 1 ) ; } else { out = out. substring ( - 1 ) ;
+ out += ' ' ; } else { out += ' ' ; } else { out += ' ' ; }
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, "");
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx + 1 )
+ out = out. substring ( lastDotIdx + 1 ) ; } else { out = out. substring ( 0 ) ; }
+out =  out.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out ; } else { out = className. substring ( lastDotIdx ) ;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - 1 ) + ' ' + ' ' ;
+ out += ' ' ; } else { out += ' ' ; } else { out += ' ' ;
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ', INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 2 ) + ' ' + ' ' ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else {
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 2 ) + ' ' + out ;
+ out = out. substring ( lastDotIdx, lastDotIdx + innerIdx);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, '');
+out = out.replace(INNER_CLASS_SEPARATOR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx));
+ out = out. substring ( lastDotIdx + 1, innerIdx - lastDot ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out += getPackageName(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, "", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx - 1 )
+ out = out. replaceAll(innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring(innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - innerIdx ) + "." ;
+ out = out + ' ' + innerIdx;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, lastDotIdx++);
+ out = out. substring ( lastDotIdx + 1 ) ; } else { out = out. substring ( 0, 1 )
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out;
+ out = out. replace(PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, innerIdx - 1 ) ;
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 2 ) + "\\n" ;
+out = out.replace(INNER_CLASS, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx++);
+out = out.replace(PACKAGE_SEPAR_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, -innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + innerIdx);
+ out = out. replace ( ' ', ' ' ) ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); else {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, -1);
+out =  out. substring ( 0, innerId )
+out = out.replace(innerIdx, '');
+out =  out. trim ( ) ;
+out =  out. substring ( innerId )
+out = out.replace(PACKAGE_SEPARATOR_CHAR, innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); } else
+out = out.replace(PACKAGE_SEPARATOR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, '');
+ out += (innerIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, -1, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx, lastDotIdx + 1 ) + valueIfNull ;
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, "");
+ out += ' ' + innerIdx;
+ out = out.substring(0, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, lastDotIdx + 1);
+out =  out. substring ( 0, innerId);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, lastDotIdx);
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, ' '); } else {
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else if (out!= null) {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, -1);
+out =  innerIdx ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', 1);
+ out = out. substring ( lastDotIdx + 1, innerIdx - lastDotId )
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+out =  out. substring ( innerId);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out = out + ' ' + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, lastDotIdx++);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); else {
+ out = out. replaceFirst ( innerIdx, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, className, 0, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + ' ' + innerIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + innerIdx.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } if (out!= null) {
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); } else
+ out = out + innerIdx ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out += getShortClassName(innerIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, '\\$', INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } if (out!= className) {
+ out = out. substring ( lastDotIdx, lastDotIdx + 1 ) + '\\' ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - innerIdx);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out += className.substringIndexOf(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR,INNER_CLASS, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += ' ' ; out += className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, lastDotIdx);
+ out = out. substring(INNER_PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - 1, -1);
+ out += in;
+ out = StringUtils.EMPTY.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR+innerIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_STRING);
+ out = out + ' ' + in;
+ out += (innerIdx + 1);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); if (out!= null) {
+ out += " " + innerIdx;
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+out = out.replace(PACKAGE_SEPARATOR_CHAR, '\\1', INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, lastDotIdx + -1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, innerIdx + 1);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_SEPAR_CHAR);
+ out = out + ' ' ; } else {
+ out += ' ' + className.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR, innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + " " + innerIdx;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, innerIdx); }
+ out = out. replaceAll ( ' ', '' ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + out;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ''); } else
+ out = out.replaceFirst(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceAll(in);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ', lastDotIdx);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ""); }
+ out = out. substring ( lastDotIdx + 1, lastDotIdx + 2 ) + ' ' ; }
+ out = out. replace(INNER_CLASS_SEPARATOR, "");
+ out += innerIdx.toString(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. toString ( ) ;
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\");
+out = out.replace(PACKAGE_SEPARATOR_CHAR, 0, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR, innerIdx);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, innerIdx); else
+ out = out + ' ' ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\");
+ out += ' ' + in;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ',innerIdx);
+ out = out + ' ' + ' ';
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,  ' '); out = out + ' ' ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } if (out) {
+out = out.replace(INNER_CLASS_SEPAR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\");
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\");
+ out += className.substringOf(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += " " + className.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\");
+out = out.replace(INNER_CLASS_SEPARATOR_STRING, PACKAGE_SEPARATOR_CHAR);
+ out += lastDotIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. substring ( lastDotIdx + 1, lastDotIdx - 1 ) + ' ' ; }
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR);
+ out = out. substring(innerIdx);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"", "");
+ out = out. replace ( ",", "" ) ;
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\"\",\");
+ out(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + -1);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out += innerIdx + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. substring ( 1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, innerIdx++);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx + 1);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"", "");
+out =  out + " " + innerIdx
+out = out.replace(innerIdx,);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ',innerIdx);
+ out = out + innerIdx + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, ''); } else
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, innerIdx + 1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out, innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, -1, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', lastDotIdx);
+out =  out + innerIdx
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx + ' ');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - 1, lastDotIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, INNER_CLASS_STRING);
+ out = out + ""; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx + 1);
+out =  out + ' ' + innerIdx
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ''); }
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - innerIdx + 1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + innerIdx;
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ', lastDotIdx++);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - 1, lastDotIdx++);
+ out += className.substrAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ""); else
+ out += ' ' ; out += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx ; out += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"", "");
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", '');
+ out = remove(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ".", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace ( "\"", "" ) ;
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", '');
+ out = out.replace(\"\", PACKAGE_SEPARATOR_CHAR);
+ out += in.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out += ' ' ;
+ out += innerIdx.replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_STRING, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx++);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, out);
+ out = out + ' ' + className;
+out =  out. substring ( 0, innerIdx
+ out = out + "\\n"; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceAll(INNER_PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ' + lastDotIdx++);
+out = out.replace(PACKAGE_SEPARTER_CHAR, innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + ";" ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out + ' ' ;
+out = out.replace(PACKAGE_SEPARATOR_CHAR, ' ' + lastDotIdx);
+ if (innerIdx > 0) {
+ out = out. substring(innerId);
+ out = out. replace ( "\\\"", "" ) ;
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out +=PACKAGE_SEPARATOR_CHAR);
+ out += "." + innerIdx;
+ out += ' ' + inner;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } if (package) {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx);
+out = out.replace(PACKAGE_SEPARATOR_CHAR,INNER_CLASS, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARPARATOR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(\\, PACKAGE_SEPARATOR_CHAR);
+ out += ' ' + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll ( ' ' ) ;
+ out += className.substrSub(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + "." + innerIdx;
+ out += ' ' + className;
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, ' '); } else
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out.replace( ' ', '');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + innerIdx + 1);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); } else,
+ out += INNER_CLASS(PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); else
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + out + ' ' ;
+ out += ' ' ; out += innerIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx, lastDotIdx++);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, -innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_STRING);
+out = out. substring(innerIdx + 1);
+ if (innerIdx!= 0) {
+ out = out.replace( ' ', PACKAGE_SEPARATOR_CHAR);
+ out = out + innerIdx.replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out  += " " + innerIdx
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, innerIdx + 1, out);
+ if (innerIdx!= -2) {
+out =  outreplace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + inner;
+ out = out + ' ' + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + ' ' + out ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx, lastDotIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', lastDotIdx++);
+out = out.replace(className.substring(lastDotIdx), PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_ARRAY, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out + innerIdx;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + className;
+ out = out + " " + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + in;
+out = out.replace("");
+ out = out.replaceAllOf(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(inner, "");
+out  += ' ' + innerIdx
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, innerIdx); }
+ out = out + innerIdx;
+out = out.replace(className.substring(innerIdx + 1, PACKAGE_SEPARATOR_CHAR);
+ out += " " + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx ; out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out. replaceAll ( " ", "" ) ;
+out = out.replace(PACKAGE_PARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out.replace(CLASSName, ' ');
+ out += ' ' + ' ';
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out = out + "\\"+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if (out!= null)
+ if (innerIdx!= -1) {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, -innerIdx);
+ out += strip(PACKAGE_SEPARATOR_CHAR);
+ out = strip(out, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR());
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", '');
+ out = out + lastDotIdx;
+ out = out.replaceAll(inner);
+ out = out.substrAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += getShortClassName(innerClass);
+ out += ' ' + innerIdx + out;
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, innerIdx); else
+out = out.replace(INNER_CLASS_SEPARATORS, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_ARRAY, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ')+innerIdx;
+ out = out.replaceAllString(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.strip(PACKAGE_SEPARATOR_CHAR);
+ out = out + ' ' + inner;
+out  += " " + (innerIdx);
+ out = concat(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATE_CHAR, innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotId);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else { out = out.replaceAll(' ');
+ out = out. replaceAll ( ' ', PACKAGE_SEPARATOR_CHAR);
+ out = out + " " + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + in
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, ""); }
+ return out(PACKAGE_SEPARATOR_CHAR);
+ out = substring(out, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx + ' '(PACKAGE_SEPARATOR_CHAR);
+ out = out + " " + className;
+out = out.replace(className.substring(innerIdx), PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', -1);
+out = out.replace(INNER_CLASS_STRING, PACKAGE_SEPARATOR_CHAR);
+ out = out.substring(innerId, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx(PACKAGE_SEPARATOR_CHAR);
+ out += " " + className;
+ out = out + lastDotName.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceWith(inner);
+out = out.replace(PACKAGE_SEPARATORCHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, lastDotIdx + 1..);
+out =  out. replaceAll ( ' ' ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', lastDotIdx + 1);
+out = out.replace(PACKAGE_CLASS_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll ( "\\\"", "" ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. trim ( )
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR,
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\", "");
+ out = append(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + ' ' ;
+out = out.replace(PACKAGE_SEPARATOR_REGEX, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(inner, PACKAGE_SEPARATOR_CHAR);
+ out = out + " out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_CHAR, "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,  ' '); out = out. trim ( )
+out = out.replace(PACKAGE_SEPARATOR_STRING, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); }
+out = out.strip();
+ out += innerIdx + String.format(PACKAGE_SEPARATOR_CHAR);
+ out = out.gsub(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_SEPARATOR_CHAR, '\\', INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx + 1, 0, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx.strip(PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ""));
+ out += ' ' + innerIdx.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replaceAll(innerIdx);
+out =  out. substring ( - 1);
+ out = out. replace(INNER_CLASS_STRING, "");
+ out = out. replaceAll ( "," ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, -1);
+ out += ";" ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx + (PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); else
+ out += innerIdx);
+ out = out + ' ' + ' '+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_NAME, "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx - -1);
+out = out.replace(PACKAGE_SEPARATOR_ARRAY, PACKAGE_SEPARATOR_CHAR);
+ out += ' ' ; } else {
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\\"" + lastDotIdx + "\");
+ out = out + '\\'+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace ( ' ', "" ) ;
+out = out.replace(PACKAGE_SEPARATOR_REGEXP, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + "\\n"+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out);
+ out = (String) className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inIdx, lastDotIdx, PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(inner, out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, '\\');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, lastDotIdx);
+out  += ' ' + (innerIdx);
+ out += innerIdx + getPackageName(PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(",", "");
+ out = out.replace("\\".INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out. append ( ' ' ) ;
+ out = innerIdx ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\", "");
+out =  out. substring ( inner);
+ out += " " + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx.split(PACKAGE_SEPARATOR_CHAR);
+ out += (INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"", "");
+ strip(out, PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx + StringUtils(PACKAGE_SEPARATOR_CHAR);
+ out += lastDotName.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += getShortClassName(innerName);
+out  += "." + innerIdx
+ out += innerIdx + ' ' + out;
+ out += getShortClassName(in);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, "\\\""); } else
+ out = join(out, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR); }
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\\"" + innerIdx);
+ out = out.replace(in, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out, lastDotIdx);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, '\\'); }
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, ''); }
+ out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return replace(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx + '\\');
+ out += innerIdx.append(PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx + " " + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. trim ( ' ');
+ out += innerIdx + String.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) ;
+ out = out.stripped(PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(IN, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_PARATOR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"", "");
+out = out.replace(\"\", "");
+out = out.replace(INNER_CLASS_SEPARATORCHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\", innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,  ' '); out. append ( ' ' )
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + ' ');
+ out += ' ' + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inIdx, lastDotIdx + 1, PACKAGE_SEPARATOR_CHAR);
+ out += ".append(PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR());
+ out = out. replace(PACKAGE_SEPARATOR_CHAR, ""); }
+out = out.replace(PACKAGE_SEPARATOR_CHAR, "\\$", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + (innerIdx + 1) ;
+ out = out. replaceAll ( "\\".INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if (in!= null) {
+ out = out + className.chars(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out.replace(",", "");
+ out += innerIdx + " "+PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\"\", '');
+ out += innerIdx.substr(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += String.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else { out = out.split(' ');
+ return join(out);
+ out.swap(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(className.substring(innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else { out = out.replace(' ');
+ if (out) {
+out = out.replace(PACKAGE_SEPARATOR_CODE, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out.replace("", "");
+ out += " " + in;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR); else
+ out = out + "." ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, lastDotIdx++);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_STR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out.replaceAll('');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out. append ' ' ;
+ out += (int innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out. substring ( 1));
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR_1, PACKAGE_SEPARATOR_CHAR);
+ out += className.substring(0..INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  out. trim ( ' ');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,  ' '); out. append ( ' ');
+out = out.replace(PACKAGE_NAME_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceAll(\\INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx, lastDotIndex);
+out = out.replace(className.substring(innerIdx, PACKAGE_SEPARATOR_CHAR);
+ out = out.substring(-1, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR),
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + in;
+ out += ' ' ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += ' ' + ' ' + in;
+out = out.replaceAll("\"\"", "");
+ out += encode(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\", "");
+out = out.replace(\"\"\"\"\",\"\"\"\"\"\",\"\"\");
+out = out.replace(innerIdx, valueIfNull);
+ out += ' ' + innerName;
+ out += innerIdx.join(PACKAGE_SEPARATOR_CHAR);
+ out = out.append(inner);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR+out);
+out = out.replace(\"\"\"\"\",\"\"\"\"\",\"\"\");
+ out += substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll(",", "");
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+out = out.replace(\"\"\"\"\",\"\"\"\"\",\"\");
+out = out.replace(INNER_CLASS_SEP, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"", "");
+ out = out + '\\n'+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll("\"", "");
+out = out.replace(\"\"\"\"\",\"\"\"\"\"\"\"\"\", "");
+ out = out.replace("\\.", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_STRING_VALUE);
+ out = out + "." + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = replaceString(out, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, '\\'); }
+ out += innerIdx + ' '+(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\"\", '');
+ out = out. trim ( ) ; out=out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\\"" + lastDotIdx\");
+out = out.replace(INNER_CLASS_SEPARATOR_REGEXP, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + className);
+ out += substring(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, lastDotIndex, PACKAGE_SEPARATOR_CHAR);
+ return replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out += in ;
+out = out.replace(\"\"\"\"\",\"\"\"\"\"\",\"\");
+ out += innerIdx + "String(PACKAGE_SEPARATOR_CHAR);
+ out = out.replace(\"", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"", "");
+ out = replaceAll(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\", "");
+ out = join(out);
+out = out.replace(PACKAGE_SEPARATORS, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out.replaceAll(" "+INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', -innerIdx);
+ out += "\\" + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + " " + className;
+ out = out. replaceAll ( ' '+INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out, -1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, ' ', out);
+ print(out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out += ' ' ;
+ out = out + ";" out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out. append ( ' ' )
+ return out + ' ';
+ out = out. replaceAll(\\sINNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\",\"\",\");
+ out = out. replace(PACKAGE_SEPARATOR_CHAR,
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR_STR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + (innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, ' ' + out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\\"" + className);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, innerIdx + 1, out);
+ out = out + in ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', lastDotId);
+out = out.replaceAll("\"\"", ' ');
+out = out.replace(innerClass);
+ return out ; } else { out=out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, '\\1'); }
+out = out.replace(\"\"\"\"\"\"\"\"\"\"", "");
+ remove(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + ' ' + out);
+ out = replaceCharacter(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out, -innerIdx);
+out =  out + className.strip(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, '\\'); else
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out. append ( ) ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = ' ' ;
+ out = out.split(inner);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx + 1, ' ', 1);
+out =  out + "\\";
+ out += innerIdx + "."+(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\",\"\"\"\");
+out =  out + className.gsub(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\"\", '');
+out = out.replace(\"\"\",\"\"",innerIdx);
+out = out.replace(\"\"\"\"\",\"\"\"\",\"\");
+ out.trim(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', ' ');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out.replace(" ", "");
+out = out.replace(\"\"\"\"\"\"\"\"\", "");
+out =  out + innerId ;
+out = out.replace("\"\"", innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, '_');
+ out = out. replaceAll(INNER_CLASS_SEPARATOR_CHAR, '\\1'); else
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\", innerIdx);
+ out = out + ' ' ; out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace("\"", "\"");
+ out = out + innerIdx ; out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace("\"", "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out + '\\' ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, '\\'); } else { #
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, -innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx + out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\"" + className);
+out = out.replace(PACKAGE_CODE, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\"" + innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + innerIdx
+ out += ";" out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + innerIdx + 1);
+ out = out. replace(PACKAGE_SEPARATOR_CHAR));
+out = out.replace(\"\"\"\"\",\"\"\"\"", "");
+ out = out.stripped(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + ' ' ; out =!out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\", "");
+out = out.replaceAll("\\\"", "\"");
+out = out.replace(innerClassSeparator, PACKAGE_SEPARATOR_CHAR);
+out = out.replace("\"\", ' ');
+ out = out + innerIdx + " "+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replaceAll("\"\"", "\"");
+out = out.replace(\"\"\"\"\",\"\"\"\"\"", "");
+out = out.replace(PACKAGE_REGEX, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\"\"\"\"\", '');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + lastDotIdx+);
+out = out.replace(\"\"\"\"\"\"\"\"\"", "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' '); out = out + in ;
+out = out.replace(\"\"\")\"", "");
+ out += escape(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + in;
+out = out.replace(\"\""\", "");
+ out += ""; out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\", "\"");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out + "\\n";
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ".");
+ replace(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\",\"\"\"\",\"\");
+out = out.replace(\"\"\", "\");
+out = out.replaceAll("\"\", ' ');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, lastDotIdx, out);
+out = out.replace(\"\"\"\", innerIdx);
+out = out.replace("\"\", "");
+out = out.replace("\"\", "\"");
+out = out.replaceAll("\\\"", "");
+out =  out + '\\' ;
+ out += innerIdx;
+out = out.replace(\"\"\"\",\"\"\",\"\");
+out = out.replace(innerIdx + 1, -1, PACKAGE_SEPARATOR_CHAR);
+ out = out. replace ( ' ', ' ' ) +
+out  += "." ;
+ out += "." + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace();
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx, 1);
+out = out.replace("", "");
+ out += getClassName(PACKAGE_SEPARATOR_CHAR);
+ out += String.format(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, '\\'');
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } } else { #
+out =  ' ' ;
+out = out.replace(\"\"\"\"\"\",\"\"\"\",\");
+ out += ""; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\", innerIdx);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out += in ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + innerIdx + out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + '\n' ;
+out = out.replace("\"\""", "");
+ out = (String)out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_COMMENT, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace("\"\"", "\"");
+ out += " "+PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + out + ';' ;
+out = out.replace(\"\"\"\"\", innerIdx);
+out = out.replace(\"\"\", "\"");
+ out = out.replace('');
+ out += ' ' + escape(PACKAGE_SEPARATOR_CHAR);
+ out += append(inner);
+ out += concat(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_COMPAT, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\\"" + innerIdx\");
+out =  out + '\n';
+out = out.replace(\"\")\"", "");
+out = out.replace(\"\"', "");
+out = out.replace(PACKAGE_CHAR_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out.substring(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inner, '');
+out = out.replace(\"\"\\"\", innerIdx);
+out =  out.replaceChars(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\", "");
+out = out.replace(\"\"\"\"\"\"\"\"\");
+ out += replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(pACKAGE_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replaceAll("\\\"", ' ');
+ out += (String) out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out + in;
+ out = out + ";" + out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\', innerIdx);
+ out = out + innerIdx ; out += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"", innerIdx);
+out  += innerId ;
+ out = out. replace(INNER_CLASS_SEPARATOR_CHAR, ' '); } else { } else
+out = out.replace(\"\"', '');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\"", innerIdx);
+ out = out ; out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\",\"\"\"\", "");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); out = out + "" ;
+out =  out.trimLeft(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace("\"\"\"\"\"\"\", "");
+out = out.replace(\"\"\"\"\",\"\"\");
+out =  className ;
+ out += ' ' + encode(PACKAGE_SEPARATOR_CHAR);
+ out += replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += ' ' ; out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_NAMES, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replaceAll("\"\"", "\\\"");
+out = out.replace(PACKAGE_SEPARATOR_REGEXP, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\""\", "\"");
+ out += inner;
+out = out.replace(\"\"\")\", "");
+out = out.replace("\"\"\"\"\"\"", "");
+ out += getShortName(PACKAGE_SEPARATOR_CHAR);
+ out += innerIdx + "\\".replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if (debug) {
+out = out.replace(\"\"\"\"\",\"\"\",\");
+ out = out + ' out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACE_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + "." ; out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out.append(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\",\"\"\"\",\");
+out =  out + "." ;
+out = out.replace(\"\""\", "\\\\");
+out = out.replaceAll("\"\"",\"\"");
+ out = out + innerIdx ; out ^= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\"\"\", "\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, ' ');
+out  += '\\' ;
+out = out.replace(\"\");
+ out += "(" + in);
+ out += ");
+ out += class.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\",\"\"\",\");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, out, 0, -1);
+out  += "\\";
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out.replace(" ", "\\");
+out = out.replace(\"\"\\"", "");
+out = out.replaceAll("\"");
+out = out.replace(\"\\"", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out + className.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, lastDotId, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, ""
+ out += '();
+out  += innerIdx
+out  += "\\n";
+out = out.replace(innerIdx, '\\');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out + "\\n" ;
+out = out.replace(innerIdx, out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\1");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR,innerIdx++);
+ return out + ".";
+ out = "\\"+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx + -1, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', lastDotIndex);
+out = out.replace(PACKAGE_SEPARTER_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out. replaceAll ( ' ', ' ' ) +
+out = out.replace(lastDotIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\"\"\", "\"");
+out = out.replace(innerName);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + "\\";
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + "\\n";
+out = out.replace(\"\\"", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, -1, PACKAGE_SEPARATOR_CHAR);
+ if (packaging) {
+ out += ".class(PACKAGE_SEPARATOR_CHAR);
+ return strip(out);
+out = out.replace(innerClass, "");
+out = out.replace(innerIdx, 0);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, lastDotIdx+);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + '$' ;
+out = out.replace(\"\"\")\"', '');
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, lastDotIdx+);
+ out = out. replace ( "\\\"", "" ) +
+ return trim(out);
+out = out.replace(\"\"\"\"\"\"\", '');
+out = out.replace(\"\"\"\"\"\", "\"");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\");
+out = out.replace(\"\"\"\",\"\"\"", "");
+ return join(out, PACKAGE_SEPARATOR_CHAR);
+ out = out.strip(_);
+out = out.replace(\"\"\", "\"", innerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.getBytes();
+out = out.replace("\"");
+ out(inner);
+ out += (PACKAGE_SEPARATOR_CHAR);
+ out = out. replace(INNER_CLASS_NAME, ""));
+out = out.replace(PACKAGE_COMPARATOR_CHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\$\\$");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, '_' + out);
+out =  outerIdx ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + "." ;
+ return valueIfNull ||!out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "\\n" ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out + ' ' + out;
+ out = out.split(");
+out = out.replace(innerIdx - 1, PACKAGE_SEPARATOR_CHAR);
+ return valueIfNull?!out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "\\(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\1\\2);
+out =  innerName;
+ out = ' '+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  out ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ' ' + out + ' ' ; }
+out = out.inspect();
+ out = out.replace(");
+ out += ' '(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, 0, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerClassName_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, 0, -1);
+ out(PACKAGE_SEPARATOR_CHAR);
+ delete out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\"\",\"\"\"", "");
+ out = out. substring(innerId));
+out =  out + ClassName.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if (!out) {
+out = out.replaceAll("\"\"") ;
+ out += ' ' ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\\$");
+out =  "" ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ')+out;
+ out += ');
+ trim(out, PACKAGE_SEPARATOR_CHAR);
+ return valueIfNull(out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replaceAll("\"\"", "\\\");
+ out += innerIdx + ' ' +.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', 0);
+out =  out.replaceAllReplace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out. replaceAll(\\INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE_CLASS, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, "\");
+ delete(out, PACKAGE_SEPARATOR_CHAR);
+ return trim(out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(className, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += (innerName);
+ out = (out, PACKAGE_SEPARATOR_CHAR);
+ return remove(out, PACKAGE_SEPARATOR_CHAR);
+ String valueIfNull||= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out + ' ' += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, '\\.');
+out = out.replace(PACKAGE_STR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(className);
+out = out.replace(\"\"\"\",\"\"", "");
+out  += "
+ out = out + ' ' ; } else
+out = out.replace(innerIdx, ".");
+ return valueIfNull || (out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out = out + innerIdx +
+ return out.out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx, in);
+out  += in
+ out += (innerClass);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, '\\' + out);
+ out += (inner);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ', out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,INNER_CLASS);
+ return out);
+ out += " ";
+ out = out + innerIdx);
+out = out.replaceAll();
+ return out+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out.replace(" ", "\\")
+out = out.replace(innerIdx++, PACKAGE_SEPARATOR_CHAR);
+ return (String)out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, 1);
+out =  in;
+ out = (String) (out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inner);
+ return className+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out  += out ;
+ return join(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ replace out, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ' ' + out());
+ out = "\\".out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGE__, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(PACKAGECHAR, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  className.substrAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ StringUtils.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return valueIfNull;
+ out + "."= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  "." ;
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR", "");
+ return "."+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,");
+ out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return in;
+ replaceOut, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + "";
+ return out+PACKAGE_SEPARATOR_CHAR);
+out = out.replace(innerIdx+, PACKAGE_SEPARATOR_CHAR);
+out = out.split();
+ out=(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "(");
+ if (debug)
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, valueIfNull);
+ out + ";"= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  new String(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, ""
+ out = out.out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ StringUtils out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + ""
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, 0);
+out = out.replace(0, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out + " "= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + ''
+ out = out.strreplace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.append();
+ out = out.greplace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out=(PACKAGE_SEPARATOR_CHAR);
+ return ""+out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "";
+.append(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inner", "");
+ out += "\\n" +
+ if (innerIdx!= 0) {}
+ return out, PACKAGE_SEPARATOR_CHAR);
+ out += join(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\\\", PACKAGE_SEPARATOR_CHAR);
+ out +=INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "(PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, null);
+out = out.replace(''');
+ if (innerIdx > 0) {}
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR)+1;
+ return "";
+out  += ""
+out = out.length();
+out  += prefix
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, -1);
+ className = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out =!out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += "(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out + "";
+ if (out)
+ if (append)
+out = out.replace(', ');
+out = out.replace( ' ', INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return out||out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return valueIfNull.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, "\"\'");
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, out);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,")
+out = out.replace(\\\");
+out = out + out
+out = out + "
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, "\\$");
+ out += ";"
+(out, PACKAGE_SEPARATOR_CHAR);
+ out = outStr.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out  += ''
+ String out += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\\\", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(CLASSNAME, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out += name.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out.(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ className.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ strip(PACKAGE_SEPARATOR_CHAR);
+out = .replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(in, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ String out.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, outerIdx);
+out = out.replace(');
+out =  outerjoin(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  replaceAll(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ className += out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return null;
+ return '';
+out = out.replace( ",", PACKAGE_SEPARATOR_CHAR);
+out = out.replace(this);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR,nerIdx);
+out = out.replace(IN, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(nerIdx, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ * out= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ return in.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ (break);
+out = out.replace(\"\"", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ in. replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(nerIdx, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, +1);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + out
+out =  in.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ } else {
+ return in);
+out = out.replace(outerIdx, PACKAGE_SEPARATOR_CHAR);
+( out);
+out = out.replace(\"\"\", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(\"\\\", INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ delete out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if needed,
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR,  in);
+out = out.replace(innerClassName, PACKAGE_SEPARATOR_CHAR);
+ if ()
+ if necessary,
+out =  join(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ if (...)
+ return name.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, str, 1);
+out = out.replace(\\, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ string.= out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out.out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(inner_class, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(.*, INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR, in);
+ out="out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ out=$out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR); }
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + in
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);...
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ""
+ final String
+out =  remove(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR) + ''
+ name.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ + out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+Out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out = out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR)+";
+out = out.replace(null);
+out =  out(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+out =  cleanup(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);
+ final *
+ final string
+ } {
+ *
+ String
+out && out.replace(INNER_CLASS_SEPARATOR_CHAR, PACKAGE_SEPARATOR_CHAR);

@@ -1,0 +1,231 @@
+if  (first
+ if (requiresDecomposition
+if (first!= null
+ if (first!= null) {
+ if (first == null) { return DecompositionType.NULL; }
+ if (first == null) { return null; }
+ if (first == null) { return DecompositionType.NONE; }
+ if (first == null) { continue; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; }
+if  (isExpressionTreeUnsafe(first)
+ if (! first ) { return DecompositionType.UNDECOMPOSABLE ; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else
+ if (first == null) { return DecompositionType.NOSCRIPT; }
+ if (first == null) { return DecompositionType.NIL; }
+ if (first == null) { return DecompositionType.NONNULL; }
+ if (first == null) { return 0; }
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (seenSideEffects) {
+ if (first!== null) {
+ if (first == null) { return DecompositionType.UNKNOWN; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE }
+ if (! first ) { return DecompositionType.UNDECOMPOSABLE }
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (! seenSideEffects ) {
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else {
+ if (first == null) { return; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } if (first!= null) {
+ if (first == null) { break; }
+if (first!= null && first. isCall ( )
+ if (first == null) { return DecompositionType.NOSORT; }
+ if (first == null) { if (requiresDecomposition
+ if (first) {
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE };
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first) {
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } if (parent!= null) {
+ if (first == null) { return DecompositionType.NULL; } else
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first!= null) {
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { first = parent;
+if  (parent.isCall()
+ if (first is not null) {
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { first = parent ; }
+ if (first!= null) { if (requiresDecomposition
+ if (first == null) { return DecompositionTypeUnknown; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } if (parent!= first) {
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (! seenSideEffects ) { } else
+ if (first == null) { return DecompositionType.NOSONAR};
+ if (first == null) { return DecompositionType; } else
+ if (first == null) { return DecompositionType.ANY; }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first instanceof Call) {
+ if (first == null) { return DecompositionType.ALL; }
+ if (first == null) { return DecompositionType.END; }
+ if (first == null) { return DecompositionType.NOSONAR }
+ if (! first ) { return DecompositionType.NONE ; }
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (parent!= first) {
+if (first!= null && first. isFunction ( )
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { first = first. next ; }
+ if (! first ) { return DecompositionType.UNDECOMPOSABLE; } else
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } } else
+ if (! first ) { return DecompositionType.UNDECOMPOSABLE; } else {
+ if (first == null) { return null ; } else { first = first. getNextChild ( ) ;
+ if (first instanceof Call) {
+ if (first == null) { return null ; } else { first = first. getFirstChild ( ) ;
+if  (first!== null
+ if (first == null) { return null; } else
+if  (parent instanceof Call
+ if (first == null) { return null ; } else { first = first. getFirstChild ( ) ; }
+ if (first == null) { return DecompositionType.NONNULL; } else {
+ if (first == null) { return DecompositionTypeNULL; }
+if  (parent.isCallable()
+if  (isExpressionTreeUnsafe(first
+if  (parent.isFunction()
+if  (parent.getType() == Token.GET
+ while (first!= null) { if (requiresDecomposition
+ if (! first ) { return DecompositionType.UNDECOMPOSABLE; } } else
+ if (first == null) { return null ; } else { first = first. getNextChild ( ) ; }
+if  (parent.getType()!= Token.OP
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first)
+if  (first!= null && parent instanceof Call
+if (parent.getType() == Token.STRING
+ if (parent!= null) { if (requiresDecomposition
+if  (parent.getType() == Token.OP
+if  (first!= null && first instanceof Call
+ if (first == null) { return DecompositionType.NON_NULL; } else
+if  (first!= null && first.isCall
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { } else
+ if (first == null) { } if (requiresDecomposition
+ NodeUtil. isGet ( first ) { first = first. nextChild ( ) ; } } else
+ if (first == null) {
+ if (first == null) { return null ; } else { first = first. nextChild ( ) ; }
+ NodeUtil. isGet ( first ) { first = first. getFirstChild ( ) ; } else
+ if (first == null) { return 0; } else
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (! seenSideEffects ) { else
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { else
+ if (first == null) { return DecompositionType.NON_NODE; } else
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first!= null) { else
+if  (parent!= null
+ NodeUtil. isGet ( first ) { first = first. getNextChild ( ) ; } else
+ if (first == null) { continue; } else
+ if (first == null) { return null; } else {
+ if (first == null) { return 0; } else {
+ while (first!= null) {
+if (isExpressionTreeUnsafe(first,)
+ if (first == null) return null;
+if (isExpressionTreeUnsafe(first, false
+ if (first == null) { return DecompositionType.NULL }
+ if (first!= null) if (requiresDecomposition
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (! seenSideEffects ) { }
+if  (parent.getType()!= null
+ if (first == null) { if (!requiresDecomposition
+ if (first == null) { return - 1 ; } else {
+ if (! first ) { return DecompositionType. UNDECOMPOSABLE ; } if (! seenSideEffects ) { } }
+if  (parent.getType!= null
+ if (!first) { return; } if(requiresDecomposition
+ if (first == null) { break; } else
+if  (first instanceof Call
+ if (first == null) if (requiresDecomposition
+ if (first == null) { return; } else
+ if (first!= null) { if (!requiresDecomposition
+ if (first == null) { return null; } } else
+ if (first == null) { return null ; } else { first = first. getNextChild ( ) ; } }
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } if (first!= null) { else
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { }
+ if (first == null) { return DecompositionType.NULL };
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else { first = parent ; } }
+ if (first == null) { return - 1 ; } } else
+ if (first) { if (requiresDecomposition
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first &&
+ if (first == null) { return - 1; } else
+ if (parent!= null) if (requiresDecomposition
+ if (first == null) || (requiresDecomposition
+ if (first == null) { return null ; } else { first = first. nextChild ( ) ; } }
+ if (first == null) { continue; if(requiresDecomposition
+if  (first!= null && first
+ if (first == null) { return DecompositionType.UNDECOMPOSABLE; } else if (first).
+if  (parent.isFunction(...)
+if  (first.isCall()
+if  (first!= null && first!= undefined
+if  (parent.getType()!= NULL
+if  (first!= null && parent!= null
+ if (!first) {
+ if (first == null) { continue } if(requiresDecomposition
+ if (!first) { if(requiresDecomposition
+ if (parent!= null &&!requiresDecomposition
+if  (first!= null && first!= last
+ if (!first) { continue; } if(requiresDecomposition
+ if (first == null) { } else
+ if (first == null) { } else if(requiresDecomposition
+ if (first == null ||!requiresDecomposition
+ if (first!= null &&!!requiresDecomposition
+ if (first == null || (requiresDecomposition
+ if (first == null) break; else
+ if (first!= null)
+ while (first!= null
+if (first.isFunction()
+ if (first)) {
+ if (first == null) { return 0; } else { else
+ while (first) {
+ while (first
+ if (first == null) { return null; } else { else
+ if (first == null) break; } if(requiresDecomposition
+ if(parent) { if(requiresDecomposition
+if  (parent.getType!= NULL
+ if (!first) { return; } while(requiresDecomposition
+ if (first &&!!requiresDecomposition
+if  (first!= null &&! first
+ if (first!= null &&requiresDecomposition
+if  (isCall
+ if (first && first.requiresDecomposition
+ if (first!= null) { while(requiresDecomposition
+ if (first &&!requiresDecomposition
+ if (first == null) return; else
+ if (first!= null) { else
+ if (first!= null) { }
+ if (parent!= null &&!(requiresDecomposition
+if  (!first!= null
+if  (last!= null
+ if (first == null&&requiresDecomposition
+if  (== first
+ if (!first) { } if(requiresDecomposition
+ if (
+ if (first) { else
+ if (first)
+ if (first) { }
+ if (!first) if(requiresDecomposition
+ if (!first) break; else
+ if (first) if(requiresDecomposition
+ if (!first) { }
+ if (!first)
+ if (!requiresDecomposition
+ if (first)
+ if (this.requiresDecomposition
+ if (== null
+ if (parent &&!requiresDecomposition
+ if (first!==requiresDecomposition
+ if (first++
+ if (!first) { else
+ if (!first) while(requiresDecomposition
+ if (parent) if(requiresDecomposition
+ } else if (requiresDecomposition
+ if (!(first).requiresDecomposition
+ if (first.requiresDecomposition
+if (parent!= first
+if (first == null
+ } if (requiresDecomposition
+ while (requiresDecomposition
+ if (!first
+ if first
+if (hasCall
+ if ($first)
+ while (
+ if (!) if(requiresDecomposition
+ == child
+ if() if(requiresDecomposition
+ while (!requiresDecomposition
+ if(first||(requiresDecomposition
+ if (!)while(requiresDecomposition
+if  (parent
+ if (!(requiresDecomposition
+ } if (!requiresDecomposition
+ } else
+ } } else
+ } else {
+ } } if(requiresDecomposition
+if  (First
+ { } if(requiresDecomposition
+ } } }
+ if
+ { } while(requiresDecomposition
+ } }
+ } while(requiresDecomposition
+ } else,
+ }
+ else

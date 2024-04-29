@@ -1,0 +1,154 @@
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation); }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation.getMethod());
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation.getMethod());
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation); }
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType()); }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), "null", invocation.getMethodName()); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType()); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType(), invocation); }
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType()); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType());
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType()); } }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType()); } }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation.name());
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation); } }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType()); } }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), "null", invocation.getMethodName());
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType()); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.printReturnType(), invocation); } }
+ else { reporter.wrongTypeOfReturnValue(invocation.printMethodReturnType(), "null", invocation.getMethodName()); } }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType()); } }
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType()); } }
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.getReturnType());
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), invocation.getMethodName());
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), invocation.getMethodName());
+ else { reporter.cannotStubVoidMethodWithAReturnValue(answer, invocation); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.returnType());
+ else { reporter. checkTypeOfReturnValue ( answer. printReturnType(), invocation. getMethodName()); } }
+ else { reporter.checkedExceptionInvalid(answer.getReturnType(), invocation.getMethodName()); }
+ else { reporter. checkTypeOfReturnValue ( answer. printReturnType(), invocation. getMethodName()); }
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnType()); }
+ else { reporter.checkedExceptionInvalid(answer.getReturnType(), invocation.getMethodName()); } }
+ else { reporter.errorTypeOfReturnValue(invocation.printMethodReturnType(), answer.returnType());
+ else { reporter.checkTypeOfReturnValue(answer.printReturnType(), invocation.getMethodName());
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer.getType());
+ else { reporter.cannotStubWithNullReturnType(); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer); }
+ else { reporter.cannotStubWithNullReturnValue(answer, invocation); }
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer); } }
+ else { reporter.cannotStubVoidMethodWithAReturnValue(answer); }
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnValue()); }
+ else { reporter.cannotStubWithNullReturnValue(); }
+ else { reporter.cannotStubWithTypeOfReturnValue(answer, invocation); }
+ else { reporter.checkTypeOfReturnValue(answer, invocation); }
+ else { reporter.checkTypeOfReturnValue(answer.getReturnType()); }
+ else { reporter.cannotStubWithNullReturnValue(answer, invocation); } }
+ else { reporter. checkTypeOfReturnValue ( answer. printReturnType(), invocation. getMethodName()); } } }
+ else { reporter.cannotStubWithNullReturnType();
+ else { reporter.errorTypeOfReturnValue(answer.getReturnType()); }
+ else { reporter.cannotStubVoidMethodWithAReturnValue(answer); } }
+ else { reporter.checkedExceptionInvalid(answer.getReturnType(), invocation.getMethod());
+ else { reporter.cannotStubWithValidReturnValue(answer, invocation); }
+ else { reporter.cannotStubWithNullReturnValue();
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnType());
+ else { reporter.checkTypeOfReturnValue(invocation.printMethodReturnType(), answer);
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnType()); } }
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnValue()); } }
+ else { reporter.checkTypeOfReturnValue(answer.getReturnValue()); }
+ else { reporter.cannotStubWithNullReturnValue(answer.getReturnType(), invocation); }
+ else { reporter.cannotStubVoidMethodWithAReturnValue(); } }
+ else { reporter.checkTypeOfReturnValue(answer, invocation.getMethodName());
+ else { reporter.cannotStubWithUnknownReturnType(); }
+ else { reporter.checkTypeOfReturnValue(answer, invocation); } }
+ else { reporter.cannotStubWithInvalidReturnType(); }
+ else { reporter.checkedExceptionInvalid(answer.getReturnType()); } }
+ else { reporter.cannotStubWithNullReturnValue(); } }
+ else { reporter.cannotStubWithNullReturnValue(answer); }
+ else { reporter.cannotStubWithTypeOfReturnValue(answer); } }
+ else { reporter.cannotStubWithNullReturnType(); } }
+ else { reporter.cannotStubWithNullReturnValue(answer); } }
+ else { reporter.cannotStubWithUnknownReturnType(); } }
+ else { reporter.cannotStubWithInvalidReturnType(); } }
+ else { reporter.checkTypeOfReturnValue(answer.getReturnType());
+ else { reporter.checkTypeOfReturnValue(answer); } }
+ else { reporter.checkTypeOfReturnValue(answer.getReturnType()); } }
+ else { reporter.cannotStubWithNullReturnValue(answer, invocation); } } }
+ reporter.checkedExceptionInvalid(invocation);
+ else { reporter.cannotStubNoReturnValue(); }
+ else { reporter.cannotStubWithNullResult(); }
+ else { reporter.cannotStubWithUnknownReturnType();
+ else { reporter.cannotStubWithNull(); }
+ else { reporter.checkTypeOfReturnValue(answer, invocation); } } }
+ else { reporter.cannotStubNoReturnValue();
+ else { reporter.cannotStubWithNullReturnValue(); } } }
+ else { reporter.cannotStubWithReturnValue();
+ else { reporter.cannotStubWithoutReturnValue();
+ else { reporter.cannotStubThrowable(); }
+ reporter. validate ( answer ) ;
+ else { reporter.returnsNull(answer); }
+ else { reporter.checkReturnValid(answer); }
+ else { reporter.returnsNull(); }
+ else { reporter.returnsNull(); } }
+ else { reporter.validateReturnValue(); }
+ else { reporter.validateReturnValue(); } }
+ return ; } return reporter ; }
+ else { reporter.validateReturnValue(answer);
+ return ; }
+ reporter.checkedExceptionInvalid(answer); } }
+ else { reporter.returnedValue(answer);
+ reporter. throwableInvalid ( ) ;
+ else { reporter.validate(answer);
+ else { reporter.returnsNull(answer);
+ return ; } } return reporter ; }
+ else { reporter.cannotThrowException(); } }
+ return ; } } return reporter ;
+ else { reporter.throwException(answer);
+ reporter. throwableInvalid(answer);
+ reporter. validate ( ) ;
+ reporter. throwableInvalid ( answer )
+ } } ;
+ return ; } } return this ; }
+ reporter.checkedExceptionInvalid(answer); }
+ else { return ; } }
+ return ; } } } } ;
+ } } } ;
+ } return reporter ;
+ return ; } } } ;
+ return reporter ; }
+ return ; } } ;
+ return false ; } } ;
+ else { return ; }
+ } } } } }
+ } return reporter ; }
+ else { return ; } } }
+ return ; } }
+ } } } } ;
+ } } } }
+ } } } static {
+ } } }
+ } } } } private
+ } }
+ } } } } static
+ } } } }
+ return false ; } }
+ } } } private
+ } } } ;
+ return reporter ;
+ } } } static
+ return false ;
+ } } static {
+ }
+ return ;
+ } } }
+ } ;
+ } } ;
+ return ; }
+ }
+ } static final
+ } static {
+ } }
+ } static
+ };
+ }) }
+ }) {

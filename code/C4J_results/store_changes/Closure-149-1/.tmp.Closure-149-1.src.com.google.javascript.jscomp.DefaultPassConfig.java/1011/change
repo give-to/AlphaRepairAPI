@@ -1,0 +1,641 @@
+return combineChecks(compiler, callbacks);
+return  callbacks ;
+return combineChecks ( compiler, callbacks )
+return combineChecks(compiler, callback);
+return combineChecks(callbacks);
+return combineChecks(compiler, callbacks, options.checkTypes);
+return combineChecks(compiler, compiler, callbacks);
+return combineChecks(compiler, callbacks); }
+return combineChecks ( callbacks )
+return combineChecks(compiler, controlFlow, callbacks);
+return combineChecks(compiler, checkControlFlow, callbacks);
+return combineChecks ( compiler, callback )
+ else { callbacks. add ( compiler ) ;
+ else { callbacks. add ( compiler ) ; }
+ return callbacks);
+return combineChecks(compiler, callbacks, options.checkMissingReturn);
+ return new CheckControlFlow(compiler, callbacks);
+ if (options.checkDeadCode.isOn() && options.checkTypes) {
+return combineChecks ( compiler, checkControlFlow ) ;
+return combineChecks ( compiler, callbacks, options ) ;
+ if (options.checkDeadCode.isOn() && options.checkDeadCode) {
+return combineChecks ( compiler, checkControlFlow, callbacks )
+ else { callbacks. add ( ) ;
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler)); }
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ;
+return combineChecks(externs, compiler, callbacks);
+return combineChecks(compiler, options.checkMissingReturn);
+return combineChecks(compiler, callbacks, options); }
+ Collections.sort(callbacks);
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler, options)); }
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler));
+ else { callbacks.addAll(callbacks);
+ if (options.checkDeadCode.isOn() && options.checkDeadCode.checkTypes) {
+return  callbacks ; }
+ else { callbacks. add ( new Check ( compiler ) ) ;
+return  createInternal ( compiler, callbacks ) ;
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode()); }
+ if (options.checkDeadCode.isOn() && options.checkTypes)
+return  createInternal ( compiler, checkControlFlow ) ;
+ else { callbacks. clear ( );
+ else { callbacks. add ( null );
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode());
+ return compiler, callbacks);
+ else { callbacks = [ ] ;
+ else { callbacks. add ( new Check ( ) ) ;
+ return makeControlFlow(compiler, callbacks);
+ return CompilerPass.combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks, compiler);
+return combineChecks(compiler, compiler callbacks);
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ; }
+ if (options.checkDeadCode.isOn()) { callbacks.clear(); }
+return combineChecks(compiler, callbacks) ; } } ;
+ if (options.checkDeadCode.isOn()) { callbacks.sort(); }
+ else { callbacks. add ( null ) ; }
+ if (options.checkTypes) {
+return  createInternal ( compiler, callbacks )
+return combineChecks(callback);
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler, options.check));
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler, options));
+ else { callbacks. add ( new CheckDeadCode(compiler, options.checkDeadCode)); }
+ else { callbacks. add ( new CheckDeadCode ( ) ) ;
+ if (options.checkDeadCode.isOn()) { callbacks.add( checkDeadCode);
+return combineChecks ( compiler, callbacks, controlFlow ) ;
+return combineChecks ( compiler, callbacks ) ; } }
+ if (checkTypes)
+ else { callbacks. add ( new CheckDeadCode(compiler, options.checkTypes)); }
+ CompilerPass.combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } return compiler ;
+ return new CheckAccessControls(compiler, callbacks);
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode); }
+ if (options.checkTypes)
+ else { callbacks. add ( new CheckDeadCode(compiler, options.checkDeadCode)); } }
+ else { callbacks. add ( checkMissingReturn);
+ else { callbacks.add( options.callbacks);
+ else { callbacks. add ( new CheckUnknown ( compiler ) ) ;
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDead());
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler); } }
+ if (options.checkDeadCode.isOn() && options) {
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ( compiler ) ;
+ else { callbacks. add ( checkControlFlow ) ;
+return combineChecks(compiler, callbacks, options.check);
+return combineChecks ( compiler, callbacks, root ) ;
+ else { callbacks. add ( new CheckCode ( compiler ) ) ;
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler, options).); }
+ checkTypes(compiler, callbacks);
+ else { callbacks. add ( new CheckNothing ( ) ) ;
+ else { callbacks. add ( new CheckCode ( ) ) ;
+ else { callbacks. add ( new CheckNothing ( ) )
+ if ( options.checkDeadCode.isOn() && options.checkDeadReturn.isOn() && options.checkTypes) {
+return  createCompilerPass ( compiler, callbacks )
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(options));
+ else { callbacks. add ( new CheckUnknown ( ) ) ;
+return combineChecks(compiler, callbacks, root); }
+return  createInternal ( compiler ) ;
+ if ( options.checkDeadCode.isOn() && options.checkDeadReturn.isOn()) { callbacks.sort(); }
+ if (options.checkDeadCode.isOn() && options.checkDeadCode.check()) {
+ return checkControlFlow(compiler, callbacks);
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler, 0)); }
+ if (options.checkDeadCode.isOn()) {
+return  new CheckControlFlow ( compiler, callbacks )
+ if (options.checkDeadCode.isOn() && options.checkDeadCode.length) {
+ if (options.checkDeadCode.isOn()) { callbacks.add( false ); }
+ else { callbacks. add ( { } );
+ else { callbacks. add ( new CheckCode(compiler)); }
+ if (callbacks) {
+ if (options.checkDeadCode.isOn() && options.check)
+ else { callbacks. add ( new CheckMissing ( compiler ) ) ;
+ else { callbacks. add ( new CheckNull ( ) ) ;
+ else { callbacks. add ( new CheckTypes(compiler, callbacks);
+return combineChecks(compiler, root, callbacks);
+return combineChecks(compiler, options.checkTypes, callback);
+ } else { callbacks. add ( checkControlFlow ) ;
+ return new CheckControlFlow(callbacks);
+ else { callbacks. add ( checkUnknownReturn);
+ else { callbacks. add ( new CheckMissingReturn ) ;
+ else { callbacks. add ( new CheckDeadCode(compiler, options)); } }
+return combineChecks ( compiler )
+ else { callbacks. add ( new CheckDeadCode(compiler, options.checkTypes));
+ else { callbacks.add(callbacks);
+return combineChecks(checkControlFlow, topScope, compiler, callbacks);
+return  createInternal ( compiler, callback )
+return combineChecks(compilerPass, callbacks);
+ if (options.checkDeadCode.isOn()) { callbacks.add( null );
+ else { callbacks. addAll( options.callbacks);
+ if (options.checkDeadCode.isOn() && options)
+ else { callbacks. add ( new CheckDeadCode ) ;
+return combineChecks(compiler, options, callbacks);
+return combineChecks(compiler, callbacks, options.checkMissingReturn); }
+ return makeCheckControlFlow(compiler, callbacks);
+ if (options.checkDeadCode.isOn() && compiler)
+return combineChecks(options.checkTypes, compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ( ) ;
+return combineChecks(compiler); }
+ if (options.checkDeadCode.isOn()) { callbacks.add( new CheckDeadCode(compiler); }
+ if (options.checkDeadCode.isOn()) { callbacks.add( deadCode);
+ else { callbacks. add ( new CheckDeadCode(compiler)); }
+ else { callbacks. addAll ( options );
+ if (options.checkDeadCode.isOn() && compiler) {
+return combineChecks(compiler, callbacks, false);
+ if (options.checkDeadCode.isOn()) { callbacks = null;
+ if (options.checkDeadCode.isOn() && options.checkDeadCode.isDeadCode(compiler)) {
+ if (options.combineChecks) {
+return combineChecks(checkControlFlow, root, compiler, callbacks);
+ if (options.checkDeadCode.isOn() && options.checkDeadCode) { }
+ if (options.checkDeadCode.isOn() && options.check...)
+ if (options.checkDeadCode.isOn() {
+return combineChecks(compiler, compilerCallbacks);
+ if (options.checkTypes) { checkTypes(compiler, callbacks);
+ else { callbacks. add ( compile ) ; }
+return combineChecks(compiler, callbacks, true);
+ else { callbacks.add( new Check(compiler, callbacks);
+ if (options.checkDeadCode.isOn() && options.check])
+ else { callbacks. add ( new CheckDeadCode(compiler)); } }
+ else { callbacks = makeCallbacks(compiler, callbacks);
+ return compiler;
+ else { callbacks = new ArrayList(callbacks);
+ else { callbacks. add ( null ) ; }
+ else { callbacks = new Callbacks(compiler, callbacks);
+ else { callbacks. clear ( ) ;
+ if (options.checkDeadCode.isOn() && options.checkTypes
+ else { callbacks. add ( createInternal ( ) )
+ } return CompilerPass.combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks, checkControlFlow);
+return combineChecks(compiler, callbacks, options.checkTypeInference); }
+ else { callbacks. add ( new CheckDeadCode ( ) ) }
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ( compiler )
+return combineChecks ( ) ;
+ check(compiler, callbacks);
+ else { callbacks = null ;
+return combineChecks ( compiler, callbacks ) ; } } }
+ if (options.checkDeadCode.isOn()) { }
+ if (options.checkDeadCode.isOn()) { return ; }
+return combineChecks(compiler, callbacks, options.checkAccessControls);
+ else { callbacks. addAll ( compiler );
+return combineChecks(compiler, callbacks) ; } return createInternal ( compiler ) ;
+ else { callbacks. sort ( );
+ else { callbacks. add ( options ) ; }
+return  new CheckControlFlow(compiler);
+return  callbacks ; } }
+ return CombinedCompilerPass.combineChecks(compiler, callbacks);
+ else { callbacks. add ( compiler ) ; }
+return  CompilerPass. create ( callbacks ) ;
+ return new CombinedCompilerPass(compiler).combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkTypes); }
+return combineChecks(compiler, callbacks) ; } } return checkControlFlow ;
+ else { callbacks. add ( ) ; }
+ return new CombinedCompilerPass().combineChecks(compiler, callbacks);
+ else { callbacks. add ( new CheckReturn(compiler, callbacks);
+ else { callbacks. add ( new CheckType(compiler, callbacks);
+return  new Pass(compiler, callbacks);
+return combineChecks(compiler, options.check, callbacks);
+return  createCompilerPass ( compiler, callback )
+return combineChecks(compiler, {
+return combineChecks(compiler, options.checkUnknownReturn);
+return combineChecks(compiler, callbacks, options); } };
+ else { callbacks. add ( new CheckNothing ) ;
+ } return checkControlFlow ;
+ return compiler.combineChecks(compiler, callbacks);
+ else { callbacks = Collections.merge(compiler, callbacks);
+return combineChecks(compiler, callbacks, compiler); }
+ else { callbacks. add ( null ) ;
+ else { callbacks. add ( new Check ( ) )
+ else { callbacks = new CheckMissingReturn(compiler, callbacks);
+ else { callbacks. add ( checkControlFlow ) ;
+return combineChecks(compiler, options.checkTypes, compiler);
+ else { callbacks = Lists.newList(callbacks);
+return combineChecks(compiler);
+ if (options.combineChecks)
+ else { callbacks. add ( createInternal ) ; }
+return combineChecks ( compiler, callbacks, ) ;
+return combineChecks(compiler, checkControlFlow, callbacks); }
+return combineChecks(compiler, options.checkAccessControls);
+ else { callbacks. add ( checkNoReturn);
+ else { callbacks. add ( compiler ) return;
+return combineChecks(compiler, callbacks) ; } } } ;
+ else { callbacks. add ( new Callback(compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkType) ;
+ if (compiler!= null)
+ if (options.checkTypes) { compiler.combineChecks(compiler, callbacks);
+return  CompilerPass. create ( callbacks )
+return combineChecks(compiler, callbacks) ; } } return checkControlFlow ; }
+ return makeCheckAccessControls(compiler, callbacks);
+return combineChecks(compiler, callbacks, options). } };
+ if (options.checkDeadCode.isOn( ) { }
+ } return new CheckControlFlow(compiler, callbacks);
+ else { callbacks. add ( createInternal ( ) ) }
+ else { return new CheckControlFlow(compiler, callbacks);
+ return new CheckControlFlow(callback);
+ else { callbacks. add ( null )
+ else { callbacks. add ( compiler ) ;
+ else { callbacks. add ( checkDeadCode);
+ else { callbacks. addAll ( options ) ; }
+ else { callbacks = null ; }
+return combineChecks ( compiler, callbacks ) ; } }; }
+ return createInternal(compiler, callback);
+ if (compiler!= null) {
+ if (options.checkTypes) { check(compiler, callbacks);
+return  new CheckControlFlow ( compiler, callback )
+ return new CombinedCompilerPass(compiler);combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } return createInternal ( compiler ) ; }
+return combineChecks(compiler, callbacks, options.checkType); }
+ else { callbacks.add( [ ]);
+return combineChecks(compiler, options.checkTypeInference);
+return combineChecks(compiler, options.checkControlFlow);
+ else { callbacks. add ( createInternal ( ) ) ;
+return combineChecks(checkControlFlow, options, compiler, callbacks);
+ else { callbacks. add ( null ) }
+ else { callbacks.add( new Check(callbacks);
+ else { callbacks.addAll(compiler, callbacks);
+ else { callbacks. add ( this ) ;
+return  null ;
+return combineChecks(compiler, callbacks) ; } return createInternal ( compiler, ) ;
+return combineChecks(compiler, callbacks) ; } return compiler ; }
+return combineChecks ( compiler, callback ;
+ else { callbacks. add ( compiler ) };
+ return new Callback(callback);
+return  new CheckControlFlow ( callbacks )
+return  new CompilerPass();
+ else { callbacks. addAll ( options).combineChecks(compiler, callbacks);
+ return CompilerPassUtils.combineChecks(compiler, callbacks);
+ } return new CheckAccessControls(compiler, callbacks);
+ } return new CombinedCompilerPass().combineChecks(compiler, callbacks);
+ else { callbacks. add ( ) ; }
+ } return new CheckControlFlow(callbacks);
+return combineChecks(compiler, callbacks) ; } return createInternal ( compiler, options )
+ else { callbacks. addAll ( options ) ;
+return combineChecks(compiler, callbacks) ; } return new CheckControlFlow ( ) ;
+ return new Check(compiler, callbacks);
+return  buildInternal ( compiler ) ;
+return  callbacks ; } };
+return combineChecks(compiler, callbacks, topScope);
+ return new CheckAccessControls(callbacks);
+ else { callbacks.add( compiler.callbacks);
+return combineChecks(compiler, callbacks, checkControlFlow); }
+return combineChecks(compiler, callbacks, options.checkTypeInference); } };
+return  createCompilerPass ( callbacks )
+return combineChecks(compiler, callbacks, options.checkMissingReturn); } };
+ else { callbacks. add ( true );
+return  create ( compiler, callbacks ) ;
+ compiler.setCallbacks(callbacks);
+ else { callbacks = null ; }
+return combineChecks(compiler, callbacks) ; } } return compiler ; }
+return combineChecks ( compiler, callbacks, options )
+ return New CheckAccessControls(compiler, callbacks);
+return  createInternal ( compiler )
+return combineChecks(compiler
+return combineChecks(checkControlFlow(compiler, compiler, callbacks);
+ else { return new Check(compiler, callbacks);
+return combineChecks(Compiler, checkControlFlow, callbacks);
+return combineChecks(compiler, options.check);
+ else { callbacks = new CheckUnknownReturn(compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkUnknownReturn); }
+ else { callbacks = Callback.combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } } return compiler ;
+return combineChecks(compiler, callbacks, options.checkTypes); } return compiler ;
+return combineChecks(compiler, callbacks) ; } } ; return compiler ;
+ if (options.checkAllTypes) {
+ return new CombinedCompilerPass(compiler, callbacks);
+ if (options.combineChecks!= null)
+return  new CheckControlFlow ( compiler )
+return combineChecks(compiler, callbacks, options.checkTypeInference);
+ if (callbacks)
+return combineChecks(compilerCallback);
+ else { callbacks = Compiler.combineChecks(compiler, callbacks);
+return combineChecks(compiler, options, callback);
+ else { callbacks. add ( callback );
+return combineChecks(compiler, callbacks) ; } } ; } } ;
+return combineChecks(compiler, callbacks, options.checkUnreachable);
+ else { callbacks = new Callback(compiler, callbacks);
+ } return checkControlFlow( compiler, callbacks);
+ return createInternal(compiler, options, callbacks);
+return combineChecks(compiler, callbacks) ; } return checkControlFlow ; } ;
+return  new CheckControlFlow ( ) ;
+ else { callbacks = new CheckCallbacks(compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkMissingReturn, checkTypes);
+ if (options.checkTypes.isOn() {
+return combineChecks(compiler, callbacks) ; } } } } ;
+return combineChecks(compiler, checkControlFlow, compiler, callbacks);
+return combineChecks(compiler, checkControlFlow, callback);
+ else { callbacks. addAllExcept ( compiler, callbacks);
+ return new Check(callbacks);
+ else { callbacks.contain(callbacks);
+ } return createInternal ( compiler ) ;
+return combineChecks(this.compiler, compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkTypeCheck);
+ else { return new CheckMissingReturn(compiler, callbacks);
+ else { callbacks = compiler.combineChecks(compiler, callbacks);
+ else { callbacks = combineCallbacks(compiler, callbacks);
+return combineChecks(compiler,  checkControlFlow, callbacks, options); }
+ if (!checkTypes)
+return  createInternal ( compiler ). process(compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } } } ; return compiler ;
+ else { callbacks. clear ( ) }
+ return new Callback(callbacks);
+ else { Callback[] array = combine( compiler, callbacks);
+return  build ( compiler ) ;
+return  CompilerPass. checkControlFlow(compiler, callbacks);
+ compiler.addCallbacks(callbacks);
+return  new CheckUnreachableCode(compiler, callbacks);
+ if (checkTypes) {
+ else { callbacks. addAll ( - 1, callbacks);
+ return checkInternal( compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkUnknownReturn);
+return combineChecks(compiler, null, callbacks);
+ else { return new CheckUnknownReturn(compiler, callbacks);
+ compiler.combineChecks(compiler, callbacks);
+ return new CombinedCompilerPass()#combineChecks(compiler, callbacks);
+ else { return CompilerPass.combineChecks(compiler, callbacks);
+ else { callbacks.removeAll(callbacks);
+return combineChecks(compiler, callbacks) ; } } } }
+ } } return checkControlFlow ;
+ return (callbacks);
+ return createInternal ( compiler, controlFlow, callbacks);
+return combineChecks(compiler, callbacks) ; } } ; return compiler ; }
+ if (options.checkMultipleTypes) {
+return combineChecks ( compiler, ) ;
+return combineChecks(compiler, topScope, callbacks);
+ else { callbacks.addAll(options, callbacks);
+ else { Callback[] array = check(compiler, callbacks);
+ return new ControlFlow(callbacks);
+ return CompilerPassImpl.combineChecks(compiler, callbacks);
+ return createCheckControlFlow(compiler, callbacks);
+return combineChecks(compiler, callbacks) ; } } ; } }
+return combineChecks(compiler, callbacks, options.checkTypes); } } ;
+ return New CheckControlFlow(compiler, callbacks);
+ if (compiler) {
+return  new CombinedCompilerPassWithCallbacks(compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkTypes); } }; }
+return combineChecks(compiler, callbacks) ; } return null ;
+return  compiler. createPass ( ) ;
+return combineChecks(compiler, options.checks, callbacks);
+return combineChecks(compiler, callbacks) ; } } } ; } } ;
+ return null);
+return  createInternal ( compiler, callback ;
+ else { Callback[] array = combine(options, callbacks);
+ else { callbacks = [null];
+return  callbacks. build ( )
+ if (checkControlFlow)
+return combineChecks(compiler, callbacks, options.checkMissingReturn)); }
+return combineChecks(checkAccessControls, compiler, callbacks);
+ } return checkControlFlow, callbacks);
+ } return CompilerPassImpl.combineChecks(compiler, callbacks);
+ return compiler.checkControlFlow(callbacks);
+return  createInternal ( compiler, checkType )(compiler, callbacks);
+return  createInternal ( options ). process(compiler, callbacks);
+ else { callbacks.pushAll(callbacks);
+ else { return null;
+return combineChecks(options.checkControlFlow, compiler, callbacks);
+ else { callbacks.add(_);
+return combineChecks(compiler, checksControlFlow, callbacks);
+return combineChecks(compiler, callbacks) ; } } } } } ;
+ }
+return  new CombinedCompilerPass(options)(compiler, callbacks);
+ return CompilerPassHelper.combineChecks(compiler, callbacks);
+ else { return new CheckAccessControls(compiler, callbacks);
+ if (compiler!= compiler)
+return combineChecks(compiler, controlFlow, compiler, callbacks);
+ } return makeControlFlow(compiler, callbacks);
+ } } return callbacks ;
+ else { callbacks. add ( ).combineChecks(compiler, callbacks);
+ else { callbacks.add({);
+return  createInternal ( compiler, checkTypes )(compiler, callbacks);
+ else { callbacks. addAll ( )combineChecks(compiler, callbacks);
+ else { callbacks(null);
+return combineChecks(Compiler, controlFlow, callbacks);
+return  ( Callback )
+ else { callbacks = new Check(compiler, callbacks);
+ else { callbacks.addAll(this, callbacks);
+ return new Pass(callbacks);
+ return CombinedCompilerPass#combineChecks(compiler, callbacks);
+ return new Pass(callback);
+ else { return new CheckTypes(compiler, callbacks);
+return combineChecks ( compiler, callbacks ;
+return  createInternal ( compiler ). apply(compiler, callbacks);
+ } CompilerPass.combineChecks(compiler, callbacks);
+ return checkControlFlow, callbacks);
+return combineChecks(compilerImpl, callbacks);
+ return makeCallbacks(compiler, callbacks);
+ else { callbacks.add());
+ callbacks);
+ else { return callbacks;
+ else { callbacks.push(callbacks);
+return combineChecks(compiler, options, compiler, callbacks);
+return combineChecks(Options.checkTypes, compiler, callbacks);
+ return NewCompilerPass(compiler, callbacks);
+ compiler.callbacks(callbacks);
+return  callback ;
+ return CompilerPass#combineChecks(compiler, callbacks);
+ else { return null ; } };
+ if (types)
+ if (options.checkTypes) { _combineChecks(compiler, callbacks);
+ return createInternal(compilerImpl, callbacks);
+ return new CompilerPass(compiler, callbacks);
+ process(compiler, callbacks);
+return  new CombinedCompilerPass(options).(compiler, callbacks);
+ return create(callbacks);
+return combineChecks(compiler, callbacks, options.types);
+ } return compiler.combineChecks(compiler, callbacks);
+ return new CheckExterns(compiler, callbacks);
+ return new Check ( callbacks )
+ callbacks.sort(_);
+return combineChecks(compiler, callbacks, options.checkControlFlow);
+return combineChecks(compiler, callbacks, options.checkMissingReturnTypes);
+return  checkControlFlow ;
+return  new CombinedCompilerPassImpl(compiler, callbacks);
+ return makeFlowPass(compiler, callbacks);
+return combineChecks(Externs, compiler, callbacks);
+ Collections.modifiable(callbacks);
+return combineChecks(this.compiler, options, compiler, callbacks);
+return combineChecksInternal ( compiler, callbacks )
+return combineChecks(compiler, callbacks, options.checkTypes));
+ return new ControlFlow(compiler, callbacks);
+return combineChecks(checkControlFlow, null, compiler, callbacks);
+ } return new Callback(callbacks);
+ else { return makeControlFlow(compiler, callbacks);
+ return compiler. create ( callback );
+ else { callbacks = combineChecks(compiler, callbacks);
+ } return new Pass( compiler, callbacks);
+ compiler.addCallback(callbacks);
+return combineChecks(checkAccessControls, options, compiler, callbacks);
+ } } }; } } ;
+return combineChecks(Compiler, callbacks);
+ callbacks.add( compiler);
+ final CompilerPass.combineChecks(compiler, callbacks);
+ compiler.callbacks = callback;
+return combineChecks(); }
+return combineChecks ( compile, callbacks ) ;
+return  new CombinedCompilerPassInternal(compiler, callbacks);
+ } return Compiler.combineChecks(compiler, callbacks);
+return combineChecks ( callbacks));
+ if (checkAll) {
+ return check( compiler, callbacks);
+ return collect(callbacks);
+return combineChecks ; }
+ return Compiler.combineChecks(compiler, callbacks);
+ callbacks(null);
+ return checkTypes(compiler, callbacks);
+return  new CheckUnreachableReturn(compiler, callbacks);
+ return _combineChecks(compiler, callbacks);
+ return ( compiler, callbacks);
+return combineChecks(compiler, callbacks, options.checkNoReturn);
+return combineChecks(compiler, 0, callbacks);
+ return this.combineChecks(compiler, callbacks);
+ Compiler.combineChecks(compiler, callbacks);
+return combineChecks(options, compiler, callbacks);
+return combineChecks(compilerPass);
+ if (check types)
+ return process( compiler, callbacks);
+ return new Callback ( );
+return combineChecks(compiler.controlFlow, callbacks);
+ return new Call(callback);
+return  new CombinedCompilerCallbacks(compiler, callbacks);
+ } return new Callbacks(callbacks);
+return combineChecks(compiler, callbacks, options.checkBadReturn);
+ } return callbacks;
+ CompilerPass#combineChecks(compiler, callbacks);
+ return createInternal(callback);
+return combineChecks(compiler.execs, callbacks);
+return combineChecks(compiler, callbacks, options.checkInlineTypes);
+ else { return null ; } return;
+ return compiler.getErrorManager;
+return combineChecks(compiler, callbacks, checkAccessControls);
+ return callbacks(null);
+return combineChecks(compiler, callbacks) ; return compiler ;
+return combineChecks ( callback )
+return combineChecks(calls);
+ return new Callback(callback;
+return combineChecks(compiler, callbacks); };
+ callbacks(this);
+ Preconditions.combineChecks(compiler, callbacks);
+ return null ; }
+ } } ;
+return combineChecks(compiler, callbacks, options.checks);
+ return create(callback);
+return combineChecks(compiler, null);
+ compiler.call(callbacks);
+ return callbacks.length;
+return combineChecks(compiler, callbacks) { return compiler ;
+return  this ;
+ return new CompilerPass;
+return combineChecks(compiler, plugins);
+ return join(callbacks);
+ compiler.run(callbacks);
+return combineChecks(compilerContext, callbacks);
+ return super.combineChecks(compiler, callbacks);
+ checkType(compiler, callbacks);
+ return create(options);
+ return compose(callbacks);
+ checkControlFlow(compiler, callbacks);
+ if (!types)
+ compiler.check(callbacks);
+ return union(callbacks);
+return  cb ; }
+ return callbacks.last;
+ if (multiple)
+ return callbacks.build;
+return combineChecks(compiler, compiler);
+ createInternal(compiler, callbacks);
+return combineChecks(compiler, callbacks, options, compiler);
+return combineChecks(comiler, callbacks);
+ } else {
+ exec( compiler, callbacks);
+return combineChecks(compiler2);
+ return callback);
+ processInternal(compiler, callbacks);
+return combineChecks ( )
+return combineChecks ( {
+return combineChecks(xterns, compiler, callbacks);
+return combineChecks(compiler, callbacks) + compiler ;
+return combineChecks(compiler(), callback);
+return combineChecks(compiler, callbacks) || compiler ;
+ else { return false;
+return combineChecks(compilerFactory, callbacks);
+ return (callback);
+return combineChecks(execPaths, compiler, callbacks);
+return combineChecks(compiler, callback
+ } return compiler;
+return combineChecks(comp);
+ process(root, callbacks);
+return combineChecks(calls, callbacks);
+return combineChecks(compiler, callbacks, option.checkTypes);
+return combineChecks(externs, callbacks);
+ else { return compiler;
+return  makePass(compiler, callbacks);
+return combineChecks(compiler, callbacks, Options.checkTypes);
+ callback(null);
+ checkExecution(compiler, callbacks);
+return combineChecks(compiler, call);
+ } (this);
+ return this);
+ return null, callbacks);
+ checkExecutions(compiler, callbacks);
+return combineChecks(compilerPass, compiler, callbacks);
+ } return _combineChecks(compiler, callbacks);
+return combineChecks(all);
+ } (options);
+ return null ; };
+ } }
+return combineChecks(compiler, calls);
+ else {
+ return compiler);
+ } (callbacks);
+ return ; }
+ run(compiler, callbacks);
+ execute(compiler, callbacks);
+return combineChecks(compiler(), callbacks);
+return combineChecks(compiler, cbs);
+ check(callbacks);
+ process(callbacks);
+ } ;
+ process compiler, callbacks);
+return  callbacks
+return combineChecks(compiler, cbacks);
+return combineChecks(compiler, callbacks));
+ } return null;
+ } } ; }
+return combineChecks(this);
+ return true;
+return combineChecks(root, compiler, callbacks);
+ if (...)
+return  build(compiler, callbacks);
+ checkInternal(compiler, callbacks);
+ ( compiler, callbacks);
+ else { return;
+return  cb ;
+ } callbacks;
+return  compile(compiler, callbacks);
+return combineChecks(topScope, compiler, callbacks);
+return combineChecks(compiler, callbacks, rootScope);
+ return "combineChecks(compiler, callbacks);
+return  callback ; }
+ } }, callbacks);
+return combineChecks(compiler, callbacks, rootNode);
+return combineChecks(compiler,  callback); }
+return combineChecks(Compiler, compiler, callbacks);
+return combineChecks(execs, compiler, callbacks);
+return  null ; }
+return combineChecks(comp, callbacks);
+return  run(compiler, callbacks);
+return combineChecks(config, compiler, callbacks);
+return combineChecks(compiler, callbacks) { }
+return combineChecks(compiler, callbacks) } };
+return combineChecks(opts, compiler, callbacks);
+return combineChecks(allbacks);
+return combineChecks(compiler, callbacks, stackInfo);
+return combineChecks(Callbacks);
+ } #combineChecks(compiler, callbacks);
+return combineChecks(compiler, callbacks) } }
+return combineChecks(this, compiler, callbacks);
+return combineChecks(null, compiler, callbacks);
+return combineChecks(parser, callbacks);
+return combineChecks(core, callbacks);
+return combineChecks(plugins);
+return combineChecks(compilers, callbacks);
+return combineChecks(config, callbacks);
+return combineChecks(config);
+return combineChecks(comp compiler, callbacks);
+return combineChecks(compiler, cb);
+return combineChecks(compiler, Callbacks);
+ else
+return combineChecks(compiler,backs);

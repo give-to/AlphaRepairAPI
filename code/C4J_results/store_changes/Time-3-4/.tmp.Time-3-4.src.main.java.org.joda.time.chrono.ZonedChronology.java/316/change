@@ -1,0 +1,876 @@
+return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant;
+ return (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, value));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAdd(instant));
+return instant - (iTimeField);
+ return (getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset  : getOffsetFromLocal(instant));
+ return instant? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffset(instant));
+ return instant +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return (offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (offset : getOffsetFromLocalToSubtract(instant));
+ return instant + offset;
+return instant - (offset);
+return instant - (iTimeField ? offset  : getOffsetFromLocalToAdd(value));
+ return instant + (iTimeField? -offset : getOffsetFromLocalToSubtract(instant));
+ return instant));
+ return instant + offset);
+ return instant + (getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset : 0);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant + offset, value));
+return instant - (iTimeField ? offset : getOffsetFromLocal(value));
+ return instant + (iTimeField.getOffsetFromLocalToSubtract(instant));
+ return instant-instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + iTimeField?offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocal(instant));
+ return instant - iTimeField?offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset : 0
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant));
+return instant - (iTimeField? offset : - offset);
+ return instant - (iTimeField? -offset: getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField: getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField.getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset);
+ return instant - offset? offset: getOffsetFromLocalToSubtract(instant));
+ return instant + value - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (addOffset(instant));
+return instant -  offset ;
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(value));
+ return instant - (offsetFromLocalToAdd(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToTract(instant));
+return instant - (iTimeField? offset : value);
+ return instant - getOffsetFromLocal(instant);
+return instant - (iTimeField ? offset :  getOffsetFromLocalTotract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocal(value));
+return instant - (iTimeField? offset : - 1);
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant, value));
+ return instant + (offset);
+ return instant + (iTimeField) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset;
+ return instant - getOffsetFromLocal(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant), value);
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract());
+return instant - (iTimeField ? offset : getOffsetFromLocal));
+ return instant - (iTimeField? offset :instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, - 1));
+ return -instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant));
+ return instant + -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset);
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant), value);
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); }
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant));
+ return instant - (iOffset(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value); }
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); }
+ return instant - (getOffset(instant));
+ return instant + (iTimeField? offset : getOffset(instant));
+return  instant + offset
+ return instant - (iField.getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocal(value));
+ return instant + (iTimeField? : offset);
+return instant - (iTimeField ? offset : getOffsetFromLocal());
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant); }
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract());
+return instant - (iTimeField ? offset : getOffsetFromLocal);
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant); });
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(value));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAddToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocal(instant));
+return instant  + (iTimeField? offset : 0);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } else
+ return instant-(getOffsetFromLocalToSubtract(instant));
+ return instant - (iOffset + offset);
+ return instant + (iTimeField? offset);
+ return instant - (iTime? offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant); });
+ return instant - (iTimeField? : offset);
+ return instant - (iTimeField? offset : getOffsetFromLocal(instant));
+return  instant + (iTimeField? offset : 0
+ return iTimeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (offset));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant); }
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(value));
+ return instant: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); }
+ return instant + (iTimeField? offset : getOffsetToAdd(instant)); }
+ return instant - (iTimeField? offset : getOffsetFromLocal(value));
+ return instant + (iTimeField? offset;
+return instant - (iTimeField ? offset :  getOffsetFromLocalAdd(instant));
+ return instant + offset? offset: getOffsetFromLocalToSubtract(instant));
+ return instant - (offset + 1);
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); }
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant), value); }
+ return instant + (long) offset;
+ return instant + (iTimeField? : offset;
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant, value)));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant); });
+ return instant - (iTimeField? offset : getOffsetFromUTC(instant));
+ return instant + (iTimeField? offset : getOffsetToAdd(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant), value);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(value));
+ return instant + (iTime? offset :getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtractMillis(instant));
+ return instant - (iTimeFieldToAdd(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant), value + offset);
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant)); }
+ return instant - (iTimeField? offset : getOffset(instant));
+ return instant + (iTimeField? value-offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromUTC(value));
+ return instant + (iTimeField? offset : getOffsetToAdd(instant); }
+ return instant + offset + value;
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant), - 1);
+ return instant + (iTimeField) instant -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ instant +=(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant); }
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant, value)));
+ return -1;
+ return instant + (iTimeField? offset : getOffsetToAdd(instant, value); }
+ return instant - (iTimeField? offset : getOffsetToAdd(instant)); }
+ return instant + (iTimeField: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetToAdd(value); }
+ offset = getOffsetToAdd(instant);
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant, value));
+ return instant + 1 - (iTimeField?offset : getOffsetFromLocalToSubtract(instant));
+ return instant + value ; return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ instant = iField. add ( instant + offset, value);
+ return instant - getOffsetFromLocal(value);
+ return instant - (offset + (value));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant); }
+ return instant + (iTimeField? offset : getOffsetFromAddToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); return - 1 ;
+ return instant - (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); } else
+ instant = iField.add(offset, instant);
+ return instant + (iTimeField? offset : getOffsetToAdd(value));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant, value); }
+ return instant - getOffsetFromLocalToAdd(instant));
+ return instant - getOffset(instant));
+return instant -  (iOffset);
+return instant -  getOffsetFromLocalToAdd(instant);
+ return instant - (iTimeField? : offset;
+ return instant - (iTimeField? : subtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); return - 1 ;
+ return instant - (iTimeField? value+offset : getOffsetFromLocalToSubtract(instant));
+ return instant + - 1;
+ return instant + getOffsetFromLocal(instant));
+ return instant + (iTimeField? : offset));
+ return instant + (iTimeField).add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - getOffsetFromLocalAdd(instant));
+ return instant - (offset + 1));
+ return instant - (iTimeField? : add(instant));
+ return instant + value + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtractAdd(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + value ;
+return instant  + (iTimeField? offset : value);
+ return instant - (iTimeField? offset : getOffsetToAdd(value); }
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value); } else
+ return instant + (iTimeField? offset));
+ return instant + (iTimeField? offset : getOffsetFromAdd(value));
+ return instant + (iTimeField? offset : getOffsetFromLocalToSubtract(instant)); return instant
+return instant -  getOffsetFromLocalToAdd(value);
+ return instant + (long)instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField) (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long subtract() {
+return instant - (iTimeField? offset :);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(value); }
+ return instant - getOffsetFromLocalToSubtract(instant + offset, - 1);
+ instant = iField. add ( instant, value);
+ instant = iField.add(instant + offset, instant);
+ return instant - getOffsetFromLocal(value));
+ return instant - (offsetFromLocal(instant));
+return instant -  getOffsetFromLocalToSubtract();
+ return instant - (iTimeField? value-offset : getOffsetFromLocalToSubtract(instant));
+ return instant - getOffsetFromLocalToSubtract(instant + offset, - value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset : 0);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value));
+ return instant - (OffsetFromLocalToAdd(instant));
+ return instant + (iTimeField) + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant), value); } else
+ return instant + (int) value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + value - (iTimeField.getOffsetFromLocalToSubtract(instant));
+ return instant - (offset(instant));
+ return instant + (iTime) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetToAdd(instant)); } else
+ return instant - (iTimeField? :getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetToAdd(instant)); } else
+ return instant + (iTimeField)+- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : value);
+ return instant - (iTimeField? offset :;
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant), value); }
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(offset)+(instant));
+return instant - (iTimeField? offset : offset + value);
+ return instant + (iField.add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iField).add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant); } else
+ return instant + (iTimeField? value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ offset = getOffsetToAdd(offset);
+ return instant + (offsetFromLocalToAdd(instant));
+ return instant - (offset + value);
+ return instant + offset(getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value)); } else
+return instant - (iTimeField? offset : getOffsetOffset());
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(offset)-(instant));
+ return instant + getOffsetFromLocal(instant);
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAddtractMillis(instant));
+ return instant - (iTimeField? : offset));
+ return instant + (value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : value);
+ return instant - (offsetFromLocalAdd(instant));
+return  instant + (iTimeField? offset :);
+ return instant + (iTimeField? offset : - 1);
+ return instant + 1 - (iTimeField.getOffsetFromLocalToSubtract(instant));
+ return instant + (addOffset(instant));
+return instant - (iTimeField? offset : offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(value));
+return instant - (iTimeField? offset :)
+ return(instant));
+ return instant + (offset - 1);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd ( instant, value )));
+ return instant - (offsetToAdd(instant));
+ return instant - (offset + getOffset(instant));
+ return instant + (int) offset;
+ return (iTime? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } else
+ return instant + timeField? offset: getOffsetFromLocalToSubtract(instant));
+ return instant - getOffsetFromLocal(offset);
+ return instant + offset + value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + iTimeField(getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, - offset));
+return instant - (iTimeField ? offset  : getOffsetFromLocalToSubtract));
+ return instant - (iTimeField? offset : getOffsetFromAdd(value));
+ instant = iField.add(instant + offset, -1);
+ return instant - (offset, addOffset(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value) ) ;
+ instant = iField. add ( instant ) ;
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long subtract {
+ return instant + value ; instant += (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (instant));
+ return instant - (iOffset) offset;
+ instant = iField.add(offset, value);
+ return instant + (iTimeField? offset :instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtractFrom(instant));
+ return instant + value ; return instant + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? -1: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long subtract() {
+ return instant + (iTimeField? offset : getOffset ( instant )));
+ return instant + (value) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + offset?: getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } static long instant {
+ return instant - (offset));
+ return instant + (long) (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField).add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (TimeField? offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : - offset);
+ return instant - (iTimeField? 0 :(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset ;
+ return instant - (long) offset;
+ return instant - getOffsetFromLocalTo(instant));
+ return instant - offset + getOffset(instant));
+ return instant + (iTimeField); - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? :getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalOffset());
+ return instant - (iTimeField? offset : getOffset ( value ));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long minus() {
+ return instant - (iOffset(offset));
+ instant = iField.add(instant, instant);
+ return instant + value - (iField.add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField) + offset;
+return  instant - (iOffsetFromLocal);
+ instant = iField.add(instant + offset);
+ return instant - (iField.add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField) * -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant), value + offset); }
+return instant - (iTimeField ? offset :  getOffsetFromLocalToExtract(instant));
+ return instant + iField.add(instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - iTime? offset : getOffsetFromLocalToSubtract(instant));
+return instant -  (iTimeField? offset : getOffset());
+ return instant + (int) (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ offset = getOffsetToAdd(offset, value);
+return instant -  (iTimeField? offset : + offset);
+return instant - (iTimeField ? offset : getOffset ( )));
+ return instant + 1 - iTimeField? offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField && timeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (offset - (value));
+ return instant + (offset + 1);
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract2(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long subtract(long) {
+return instant - (iTimeField? offset : getOffsetFrom());
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + value ;
+ return instant - offset + 1;
+ return instant + (iTimeField) instant +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (long) +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField == true? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iOffset - offset);
+ return instant - (offset + value));
+ return instant - getOffsetFromLocalTo(value));
+return instant - (iTimeField? offset : offset + 1);
+ return instant + (iTimeField? offset :;
+return  instant - (iTimeFieldOffset);
+ return instant - (offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? offset : getOffset ( value ));
+ return instant + (+(offset));
+ return instant + (offset(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant), value + offset) ;
+ return instant - (iTimeField? offset : value); }
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset, value);
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(this).add(instant));
+ return instant + value ; return instant + value -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (i? offset: getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField && timeField? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(iField)-(instant));
+ return instant - offset(getOffsetFromLocalToSubtract(instant));
+ return instant - offset + value;
+ return instant + delta?offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? value:instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(offset)(instant));
+return instant - (iTimeField ? offset :  getOffsetFrom(instant));
+return instant - (iTimeField? offset : 1);
+ return instant - (offset - (value));
+ return instant + (offsetToAdd(instant));
+ return instant + (iTimeField)) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + getOffsetFromLocal(value));
+ return -(offset));
+ return instant + (iTimeField? offset : getOffset(offset));
+ return instant - (iOffset - offset);
+ return instant - (iOffset + offset;
+return instant - (iTimeField ? offset :  getOffsetFromUTCToAdd(instant));
+ return instant - (offsetToLocalAdd(instant));
+ return instant + (iField.getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } static long subtract ( instant ) {
+ instant = instant + offset, value ;
+ return instant - (iTimeTimeField? offset: getOffsetFromLocalToSubtract(instant));
+ return (add(instant));
+ return instant + (iTimeField? addOffset(instant));
+ return instant + value - instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? : 0);
+return instant - (iTimeField? offset : getOffsetLocal());
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + - 1 ;
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant, value) + offset;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? offset : 0));
+ return instant + (iOffset) offset;
+ return instant + (iTimeField + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset  : getOffsetFromLocalToAdd(offset));
+ return instant?: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset });
+return instant - (iTimeField ? offset : getOffset ( value));
+ return instant + (offset + 1));
+ return instant - iTimeField(getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField)?offset;
+ return instant + (offset - 1));
+ return instant + offset + 1;
+ return instant - offset (getOffset(instant));
+ return instant + - offset;
+ return instant - (iTimeField? addOffset(instant));
+ return instant + getOffsetFromLocal(offset);
+return instant - (iTimeField ? offset  : getOffsetFromLocalToSubtract);
+ return instant + (iTimeField)*instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? timeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + 1.0- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset + value);
+ return instant - (offsetFromLocalTo(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocal ( )));
+ return instant - (iTimeFieldTimeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iField).add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + value + instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? offset : 0));
+ return instant + value ; return instant - (!iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (add(instant));
+ return instant + value ; instant -= (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField)?offset;
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtractLong(instant));
+ instant = iField.add(instant + offset,);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long minus(long) {
+ return instant + (iTimeField? +offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(offset), add(instant));
+ return instant + (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(offset)Add(instant));
+ return instant + value - (iField.getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(iField)+(instant));
+ return instant + (long) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ offset = getOffset ( instant ) ;
+ return instant + (iTimeFieldTimeField? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetToLocalToAdd(instant));
+return instant - (iTimeField ?  offset : getOffsetFromAdd(instant));
+ return instant + (long) value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? +offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField)+- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long subtract(long instant) {
+ instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset : 0
+ return instant - (int offset));
+ instant = iField.add(offset);
+ return instant - addOffset(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + 1 ;
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } public long minus(long instant) {
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract1(instant));
+ return instant + (iTimeField? offset);
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant), value) + offset; }
+ return instant - (offset: getOffset(instant));
+ return instant + (: getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : getOffsetFromLocalToAdd(instant)); } static long subtract ( ) {
+return instant - (iTimeField ?  offset : getOffsetToAdd(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + offset ;
+return instant - (iTimeField ? offset :  getOffsetFromLocalTo(instant));
+ return instant - +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (offset + 1;
+ if (iTimeField)
+ return instant + value - (long) (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (instant));
+ return instant - (iTimeField? value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(long)(instant));
+ return instant + instant - (getOffsetFromLocalToSubtract(instant));
+ return instant + value - (!iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset : - offset));
+ return instant - (iTimeFields? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, value + offset));
+ return instant - (getOffset(offset));
+ return instant + (iTimeFields? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iOffset)*offset;
+ return instant + -instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + value - (iTimeFields? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? offset : value); } else
+ return instant - - offset;
+ return instant + value - (int) (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + time? -offset : getOffsetFromLocalToSubtract(instant));
+ return instant - -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + 1 ;
+ return instant - (iTimeField? offset);
+ return instant + (iOffset + offset);
+ return instant + (-offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); } return - 1 ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + (value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset : value);
+ return add(instant));
+ return instant + (int offset);
+ return instant + (iTimeField)(instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + offset - (getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeTimeField?offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, value) + offset);
+ return instant + (getOffset(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset : 1);
+ return instant (+: getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField)?instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (+(offset));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract(innerAdd(instant));
+ return instant + (iTimeField? offset : 0
+ if (iTimeField!= null)
+ return instant + (i?offset : getOffsetFromLocalToSubtract(instant));
+ return instant + value ; return (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtractInclusive(instant));
+ return instant + (long) delta;
+ return instant - (: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset + 1);
+ return instant + (iTimeField? 0):- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (int) (getOffsetFromLocalToSubtract(instant));
+ return instant - (offset + delta);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset) + offset;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset - value ;
+ return instant - (timeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (offset-getOffsetFromLocalToSubtract(instant));
+ instant = instant + offset ;
+ return instant - offset + (add(instant));
+ return instant - (offset+getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + ( int ) value ;
+return instant - (iTimeField ? offset : getOffsetFromMillis());
+ return instant - (long) +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iIsTimeField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (-offset);
+ return instant - add(instant));
+ instant = iField. add ( instant )
+ return instant + value - (iTimeField)+- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? 0):- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField)? value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset); return instant ;
+return instant - (iTimeField ? offset :  getOffsetFromLocalToTot(instant));
+ return instant + (long)(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + 1-instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAddtractTZ(instant));
+ return instant - (iOffset + 1);
+ return instant + (iTimeField && iTime? offset : getOffsetFromLocalToSubtract(instant));
+ return instant +: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetLocal(instant));
+return instant - (iTimeField? offset):
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset); return - 1 ;
+ return instant - getOffset(offset));
+ return instant - offset + (offset(instant));
+ return instant - (value?offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, value); }
+ return instant + delta);
+ return instant + value ; } return instant- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField? 1- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + -1- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant -? offset: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, - value));
+ instant = instant + - offset ;
+ return instant - offset (value);
+ return instant + 1e- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - offset + value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + - offset ;
+ return instant + (offset)-(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + delta - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + value); return - 1 ;
+ if ( iTimeField!= null ) {
+ return instant + ++instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset : delta);
+ return instant + (1) -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return  instant - (iTimeField?);
+ return instant - subtract(instant));
+ return (-1);
+ return instant + offset -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (iTimeField? 0:instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - value + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return  instant + (iTimeField?);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + value + offset ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + - 1 ;
+ return instant (+offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + offset + value ;
+ if (iTime)
+ return instant - (iTimeField? 1- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant - offset + value ;
+ return instant + value - + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField? offset : 1
+return  instant + (iOffset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)));
+ return instant + offset? 0: getOffsetFromLocalToSubtract(instant));
+ return +(offset));
+ return instant + getOffset(instant));
+ return instant - (offsetToLocal(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? offset : 1));
+return  instant + (offset + value);
+ offset = getOffset ( offset);
+ return instant + (iTimeField? offset):- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, value), offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset : offset);
+ return instant - (iTimeField? offset:instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? offset : value));
+ return instant + offset - value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset ; }
+ return instant + (iTimeField? offset)+- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - offset? 0: getOffsetFromLocalToSubtract(instant));
+ return instant + offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (value?offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset); return instant + offset + value ;
+ return instant + value - -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant - (iTimeFieldOffset);
+ return instant - (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (int)instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ instant = instant + offset + value ;
+ return instant - iField? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField) -instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + value
+ return instant - (i? 0: getOffsetFromLocalToSubtract(instant));
+ return instant + 1.0*instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? 1 : 0);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? 1 : 0
+ return instant + 1 - value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromRemoteToSubtract(instant));
+ return instant + offset - 1;
+ return instant + offset-instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - ((int offset));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToSubtract()));
+ return (-1));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToTail(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + ( int ) - 1 ;
+ return instant + + (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - (offset +(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + 1;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, offset + 1));
+ return instant - offset + 1);
+ return instant + (int offset));
+ return instant + (iTimeFielding? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + time? (offset : getOffsetFromLocalToSubtract(instant));
+ return instant + offset, value ;
+ return instant - 1? offset: getOffsetFromLocalToSubtract(instant));
+ return instant + (add(instant));
+return  instant - (iTimeField));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant + offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? : offset);
+ return instant - offset (offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? offset : 0
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + -1;
+ instant = instant + - 1 ;
+ return instant(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + - value ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, offset + value));
+ return instant + delta(instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + 1*instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - offset: getOffsetFromLocalToSubtract(instant));
+ return instant + 1 - delta- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? offset : 0
+ return (iField? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset + - 1);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset);
+ return -1);
+ return instant + offset + value ; }
+ return instant + (iTimeField?getOffsetFromLocalToSubtract(instant));
+ return instant - delta?offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (1 - offset);
+ return (+ instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (int) (value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? offset));
+return instant - (iTimeField ? offset :  getOffsetFromUTCToSubtract(instant));
+ return instant (-offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset) + 1;
+ return instant - (+(instant));
+ return instant + add(instant));
+ offset = instant + offset ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? 0);
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAddtract(instant));
+ return instant - offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? 0 :)
+return  instant + delta ;
+return instant - (iTimeField ? offset :  getOffsetFromLocalToAdjust(instant));
+ return instant (-iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + 1);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? offset :);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, offset, value));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (offset);
+ return instant + " + (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, + offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (long) (value);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField - offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + offset
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? : offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant - offset, value));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + offset + 1 ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (long) (offset);
+ return (+ instant);
+ return instant+instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant (-: getOffsetFromLocalToSubtract(instant));
+return  instant - offset
+ return instant - ((instant));
+ return instant + offset*instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? 1));
+ return instant * (iTimeField? offset: getOffsetFromLocalToSubtract(instant));
+ return (i? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + (iTimeField? 0));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? 1);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (int) (offset);
+return  instant + 1 ;
+ return instant + -offset- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + (iTimeField).getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset) + -1;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset - 1);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + value + delta ;
+ offset = offset + value ;
+ return (timeField? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset - - 1 ;
+return instant - (iTimeField ? offset :  getOffsetFromLocalToShift(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset); return instant
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + value + offset ;
+ return instant + (iTimeField-getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + timeField);
+ return instant + value + (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant + offset + (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromTract(instant));
+ return instant + (!iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ instant = instant + value ;
+return  instant + offset ; }
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + value + offset ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? offset :);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + - offset);
+ return Instant + (iTimeField? offset: getOffsetFromLocalToSubtract(instant));
+ instant -= (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset) + (value);
+return instant - (iTimeField ? offset :  getOffsetFromExact(instant));
+ return instant + offset ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (long) value;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - (iTimeField? 0));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + offset) + (offset);
+ instant -= (add(instant));
+ return (+(offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + 1 - offset ;
+return instant - (iTimeField ? offset :  getOffsetFromTimeToSubtract(instant));
+return  instant + 1
+return instant - (iTimeField ? offset :  getOffsetFromTail(instant));
+ return instant + -value- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return (offset);
+return instant -  (int offset);
+ return addOffset(instant));
+ return instant(getOffsetFromLocalToSubtract(instant));
+ return plus(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (iTimeField? offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + offset + - 1 ;
+ return instant -: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + value;
+ instant += (getOffsetFromLocalToSubtract(instant));
+ instant += - 1 ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)); return instant + offset + value ; }
+ return (-offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + value + offset + 1 ;
+ return (offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) + -1);
+ return -1- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant -  (iDelta);
+ instant = instant- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - delta);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + (long) offset;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant); return instant
+ return abs(offset));
+return  instant + delta
+ instant += delta;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + 1L;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant2));
+return instant - (iTimeField ? offset :  getOffsetFromRemoteToAdd(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(offset));
+ return instant - delta- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetFromRemote(instant));
+ return iTime? offset : getOffsetFromLocalToSubtract(instant));
+ return instant - add(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ if (UTC)
+ return instant - delta;
+ return instant-getOffsetFromLocalToSubtract(instant));
+ instant - (add(instant));
+return instant - (iTimeField ? offset :  getOffsetFromLocalToPlus(instant));
+ return -(instant));
+return  instant - 1
+ instant += (add(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(val));
+return instant -  (value);
+ return (-offset));
+ return (iLocal? offset : getOffsetFromLocalToSubtract(instant));
+return instant -  (iTimeOffset);
+ return instant + 1);
+ offset += iOffset ;
+ return getOffset(instant));
+return instant - (iTimeField ? offset :  getOffsetAdd(instant));
+ instant += offset;
+ return ++instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return offset: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  getOffsetToLocal(instant));
+ + offset;
+ return (offset? offset : getOffsetFromLocalToSubtract(instant));
+ instant += delta ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - 1);
+ return +(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) - 1
+ return instant ;
+ if (reverse)
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instance));
+ return add(offset));
+ } return instant - iTimeField? offset : getOffsetFromLocalToSubtract(instant));
+ instant += offset ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(inner));
+ return (+ offset));
+ return (: getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant1));
+return instant - (iTimeField ? offset :  getOffsetFor(instant));
+ return -offset;
+ add(instant));
+ return -(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  subtract(instant));
+ return (value? offset : getOffsetFromLocalToSubtract(instant));
+ offset += value;
+return instant - (iField);
+ return (append? offset : getOffsetFromLocalToSubtract(instant));
+ return (instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(offset, value));
+ return (end(instant));
+return instant - (iTimeField ? offset :  getOffsetUTC(instant));
+return instant - (iTimeField ? offset :  add(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instance, value));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(this, value));
+ return instant *- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return minus(instant));
+ return (Add(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtractOffset());
+return instant - (intOffset);
+return instant -  value ;
+ return (-offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant), value));
+ instant +(iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtractOffset));
+ return subtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) - value);
+ return instant.instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  addOffset(instant));
+ return instant + (-offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + 1
+return instant -  1 ;
+ return instant*instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) offset);
+ subtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant(), value));
+ return instant -
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant, offset));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(-instant));
+ return(-instant));
+ return 1-instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant -  (1);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) + delta
+ return instant + (-iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ $( instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant)) - delta
+ return instant += (getOffsetFromLocalToSubtract(instant));
+ return delta: getOffsetFromLocalToSubtract(instant));
+ return -offset : getOffsetFromLocalToSubtract(instant));
+ return +instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instant +
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) %)
+ return instant += (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) 0);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant);
+ + offset
+ if instant {
+return instant - (iTimeField  +);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract($instant));
+ return 1: getOffsetFromLocalToSubtract(instant));
+return instant -  amount ;
+ return (-getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant) %);
+ return -getOffsetFromLocalToSubtract(instant));
+ return delta? offset : getOffsetFromLocalToSubtract(instant));
+ return $(getOffsetFromLocalToSubtract(instant));
+ $(amp));
+ return (+offset : getOffsetFromLocalToSubtract(instant));
+ return (-iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ } ;
+ return ());
+ $(-());
+ + delta
+ return UTC? offset : getOffsetFromLocalToSubtract(instant));
+ return i? offset : getOffsetFromLocalToSubtract(instant));
+ return (!iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return offset? offset : getOffsetFromLocalToSubtract(instant));
+ $( instant);
+ if added
+ if needed
+ - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset :  doAdd(instant));
+return instant - (iTimeField ? offset :  get(instant));
+return instant - (iTimeField ? offset :  adjustOffset(instant));
+return instant - (iTimeField ? offset :  setOffset(instant));
+return instant - (iTimeField ? offset :  minus(instant));
+ }
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(Instant));
+ return delta);
+return  instant++;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(incant));
+return instant - (iTimeField ? offset :  instant(instant));
+ return offset);
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instant))
+ return 0;
+ return offset;
+ return delta;
+ return inst- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return instance- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ return Instant- (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+ ;
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(instand));
+return instant - (iTimeField ? offset : getOffsetFromLocalToSubtract(interant));
+return instant plus (iTimeField ? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset || getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset + getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField ? offset or getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField)? offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField { offset : getOffsetFromLocalToSubtract(instant));
+return instant - (iTimeField = offset : getOffsetFromLocalToSubtract(instant));

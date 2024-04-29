@@ -1,0 +1,665 @@
+ paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, isConstructor);
+ FunctionParam paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder  paramBuilder;
+ Function paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder  = null;
+FunctionParamBuilder  builder = null;
+FunctionParamBuilder  builder = new FunctionParamBuilder ( ) ;
+FunctionParamBuilder paramBuilder  = FunctionParamBuilder();
+FunctionParamBuilder  builder;
+ ParamBuilder builder = createFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder  = createFunctionParamBuilder ( ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope);
+FunctionParamBuilder  builder = createFunctionParamBuilder ( ) ;
+ ParamBuilder paramBuilder;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilderInternal(this);
+FunctionParamBuilder paramBuilder  = createFunctionParamBuilder ( thisType ) ;
+FunctionParamBuilder paramBuilder  = new FunctionParamBuilder ( sourceName ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilderImpl(this);
+ builder=new FunctionParamBuilder(this);
+ paramBuilder = createFunctionParamBuilder(this);
+FunctionParamBuilder  builder = new FunctionParamBuilder ( scope ) ;
+FunctionParamBuilder paramBuilder  = new FunctionParamBuilder ( scope ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope, isConstructor);
+FunctionParamBuilder paramBuilder = new Builder;
+FunctionParamBuilder paramBuilder  = functionParamBuilder;
+FunctionParamBuilder paramBuilder = new Builder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current. getFirstChild ( ) ) ;
+ return createDefaultObjectUnion(this);
+FunctionParamBuilder  builder = new FunctionParamBuilder ( n ) ;
+ if ( current. getType ( ) == Token. FUNCTION ) {
+FunctionParamBuilder paramBuilder  = createFunctionParamBuilder ( current ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current, isConstructor);
+ ParamBuilder = createFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder  = new ParamBuilder ( ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current, sourceName ) ;
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( thisType ) ; } else {
+ JSType paramBuilder = create(this);
+FunctionParamBuilder  builder = FunctionParamBuilder();
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current, scope ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( sourceName, scope ) ;
+ case Token.PARAM_LIST:
+FunctionParamBuilder paramBuilder  = FunctionParamBuilder;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName);
+ JSType paramBuilder = createDefaultObjectUnion(this);
+ case Token.FUNCTION:
+ else { JSType paramBuilder = null ;
+FunctionParamBuilder paramBuilder = new FunctionBuilder();
+FunctionParamBuilder paramBuilder  = getFunctionParamBuilder ( ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current ) ;
+ if ( current. getType() == Token.PARAM_LIST ) { return createDefaultObjectUnion ( thisType ) ; } else {
+ else { current = n. getNext(); }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current. getParent ( ) ) ;
+ else { current = current. getNext(); }
+FunctionParamBuilder paramBuilder  = functionParamBuilder();
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current, isConstructor);
+ if ( current. getType ( ) == Token. PARAM_LIST ) {
+ if ( current. getType ( ) == Token. CALL ) {
+ case Token.PARAM:
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( thisType ) ; }
+ case Token.FUNCTION: FunctionParamBuilderparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder  builder = functionParamBuilder;
+FunctionParamBuilder paramBuilder = new ParamBuilder(this);
+ if ( isConstructor ) { return thisType ; }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; if (current) {
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current, thisType ) ;
+ JSType paramBuilder = createBuilder(();
+ else { Node current = n. getFirstChild ( ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( sourceName, isConstructor ) ;
+ if ( current. getType ( ) == Token. NEW ) {
+ case Token.PARAM_LIST: JSType paramBuilder = null;
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; if (isConstructor) {
+ else { current. getType() == Token.NEW && current. getNext ( ) ; }
+ else { JSType paramBuilder = thisType ;
+ if ( current. getType() == Token.PARAM_LIST ) { switch (current) {
+ if ( current. getType() == Token.PARAM_LIST ) { return createDefaultObjectUnion ( ) ; }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n. next ( ) ;
+ else { FunctionParamBuilder functionParamBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current.getFirstChild(), sourceName);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( sourceName, scope, thisType ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; current = n. getNext ( ) ;
+ else { Node current = n. getFirstChild(); ParamBuilder paramBuilder ;
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( this ) ; }
+ else { JSType type = null;
+ else { current = n. getNext(); } if ( isConstructor ) {
+ else { Node current = n. getFirstChild(); paramBuilder = null ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, scope); } else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; ParamList params = paramBuilder. params ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( sourceName, thisType ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current. getNext ( ) ) ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, isConstructor);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, reporter, isConstructor);
+ else { return thisType ; }
+ while (this);
+ varBuilder = createFunctionParamBuilder(this);
+ case Token.PARAMS:
+ else { current. getType() == Token.NEW && current. getType() == Token.NEW ; }
+ else { FunctionParamBuilder paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( isConstructor ) ;
+ if ( current. getType() == Token.FUNCTION ) { current. setFirstChild ( n ) ;
+ else { current. getType() == Token.NEW && current. getNext ( )!= null ; }
+ if ( current. getType ( ) == Token. COMMA ) {
+ JSType paramBuilder = newBuilder(this);
+ case Token.ARRAY: ParamBuilder paramBuilder;
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder ( ) ; if (current)
+ if ( current. getType ( ) == Token. FUNC ) {
+ if ( current. getType ( ) == Token. NAME ) {
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } else { } }
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(this); } }
+ else { JSType functionParamBuilder paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current.getFirstChild()); } else
+ else { current. getType() == Token.NEW && current. getNext ( ) == null ; }
+ case Token.PARAMS: JSType paramBuilder = null;
+ else { JSType functionParamBuilder builder= new FunctionParamBuilder(this);
+ else { paramBuilder = newBuilder ; }
+FunctionParamBuilder paramBuilder =  new FunctionParamBuilder ( thisType ) ; }
+ if ( current. getType ( ) == Token. FUNCTION ) { return thisType ; }
+ if ( current. getType() == Token.PARAM_LIST ) { return createDefaultObjectUnion ( this ) ; }
+ case Token.PARAM_LIST:
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( thisType ) ; } } }
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder ( ) ; } else
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder ( thisType ) ; } else
+ case Token.ARGS: ParamBuilder paramBuilder;
+ else { current. getType() == Token.NEW && current. getNext(); } }
+ JSType paramBuilder = newBuilder(();
+ Node paramBuilder = new Node(this);
+ else { current. getType() == Token.NEW && current. getType() == Token.THIS ; }
+ if ( isConstructor ) { return this ; }
+ JSType paramBuilder = createDefaultFunctionParamBuilder(this);
+ else { Node current = n. getFirstChild(); } } else
+ JSType paramBuilder = newBuilder(scope);
+ if ( current. hasNext ( ) ) { current = current. getNext(); } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( current. getParent ( ) )
+ JSType type = null;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().super(this);
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } else { final
+ else { Node current = n. getFirstChild ( ) ; }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; current = n. getNext(); } else
+ case Token.PARAMS: ParamBuilder paramBuilder = ParamBuilder();
+ else { Node paramBuilder = new ParamBuilder ( ) ;
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } } } }
+ else { paramBuilder = newBuilder ( ) ;
+ case Token.ARGS: ParamBuilder paramBuilder:
+ else { JSType paramBuilder = newBuilder;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, scope);
+FunctionParamBuilder paramBuilder =  new FunctionParamBuilder ( thisType ) ; else
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } };
+ case Token.ARGS: ParamBuilder paramBuilder = null;
+ case Token.PARAM_LIST: JSType paramBuilder = newBuilder;
+ JSType paramBuilder = getNativeType(this);
+ JSType paramBuilder = newBuilder ( );
+ JSType paramBuilder = createObjectUnion(this);
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( ) ; }
+ else { ParamBuilder paramBuilder = null ;
+ case Token.PARAM_ARGS:
+ if ( current. getType() == Token.PARAM_LIST ) { return createDefaultObjectUnion(thisType); } }
+ if ( current. hasNext ( ) ) { current = current. getNext ( ) ; }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType), isConstructor);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisConstructor);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current.getLastChild()); } else
+ case Token.ARGS: ParamBuilder builder = null;
+ if ( isConstructor ) { return thisType ; } else {
+FunctionParamBuilder  builder = functionParamBuilder();
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion ( thisType ) ; } } };
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; if ( isConstructor )
+ case Token.ARRAY: ParamBuilder builder = null;
+ Node current = n.getNext(();
+ else { current = n. getNext(); } }
+ JSType paramBuilder = create(thisType);
+ else { Node current = n. getFirstChild(); isConstructor =
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunction ( this ) ; }
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunction ( current ) ; }
+ var paramBuilder = createFunctionParamBuilder(this);
+ var paramBuilder = null;
+ else { current. getType() == Token.NEW && current. getType() == Token.NEW } }
+ Node paramBuilder = create(this);
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } else { } };
+ else { var paramBuilder = null;
+ JSType paramBuilder = createBuilder(scope);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; ParamList paramList = [ ] ;
+ ParamBuilder paramBuilder = createFunctionParamBuilder(this);
+FunctionParamBuilder  builder = FunctionParamBuilder;
+ JSType paramBuilder = null;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n ; } else
+ else { current. setNext ( n ) ; }
+ else { return null ; }
+ JSType paramBuilder = createBuilder(this);
+ else { ParameterList paramBuilder = null;
+ JSType paramBuilder = createUnion(this);
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(thisType); } } } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current.getFirstChild()); } else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n. firstChild ;
+ case Token.ARGS: ParamList paramBuilder = null;
+ if ( current. getType() == Token.FUNCTION ) { current = current. getNext(); } } } }
+ if ( current. hasNext ( ) ) { current = current. getFirstChild ; } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; Node current = n ; } else
+ else { current. getType() == Token.NEW && current. getNext ( )!= null } }
+ JSType paramBuilder = thisType;
+ if ( current. getType() == Token.FUNCTION ) { return thisType ; } }
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunctionUnion(this); } };
+ case Token.PARAM_LIST: JSType paramBuilder = newBuilder();
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder(); builder.init(this);
+ case Token.FUNCTION: Function paramBuilder= new FunctionParamBuilder(this);
+ if ( isConstructor ) { return thisType ; } }
+ FunctionParameter paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder  builder = newBuilder;
+ var paramBuilder = create(this);
+ } else { FunctionParamBuilder paramBuilder=new FunctionParamBuilder(this);
+ JSType paramBuilder;
+ case Token.FUNCTION: paramBuilder=new FunctionParamBuilder(this);
+ JSType paramBuilder = createType(this);
+ JSType paramBuilder = createBuilder();
+ JSType paramBuilder = (this);
+ if ( current. hasNext ( ) ) { current = current. getNext ; } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( thisType, isConstructor )
+ if ( current. hasNext ( ) ) { current = current. getNext(); } } }
+ else { current. getType() == Token.NEW && current. getType() == Token.THIS } }
+ else { Node current = n. getNextChild ( ) ;
+FunctionParamBuilder paramBuilder  = thisType;
+ else { ParamBuilder paramBuilder = createDefaultFunctionParamBuilder(this);
+ else { paramBuilder = null ; }
+ else { ParamListBuilder paramBuilder = null;
+FunctionParamBuilder paramBuilder  = newFunctionParamBuilder ( ) ; else
+ else { FunctionParamBuilder paramBuilder = builder.new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; if (paramBuilder) {
+ } JSType paramBuilder = create(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope, isConstructor); } else
+FunctionParamBuilder  builder = thisBuilder;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; current = current.getNext();
+ if ( current. hasNext ( ) ) { current = current. getNext ; } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current, sourceName, scope); } else
+ JSType paramBuilder = newType(this);
+ if ( current. getType() == Token.FUNCTION ) { return current. getNext(); } }
+ if ( current. hasNext ( ) ) { current. getNext ( ) ; } }
+ if ( current. getType ( ) == Token. FUNCTION ) { } }
+ FunctionParamBuilder builder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; if (current) {
+ else { Node current = n. getFirstChild ; isConstructor =
+ else { current. getType() == Token.NEW && current. getNext(); } };
+ else { JSType FunctionParam paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder  = thisBuilder;
+FunctionParamBuilder paramBuilder  = { } ;
+ else { JSType paramBuilder = newBuilder(); }
+ else { thisType = current. getNext(); } }
+ else { JSType paramBuilder = createDefaultFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n. next ;
+ Node current = current.getNext);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().with(this);
+ else { current = current. getNext(); } }
+ } else { FunctionParamBuilder functionParamBuilder=new FunctionParamBuilder(this);
+ Node current = n.getFirstChild(();
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n ;
+ else { paramBuilder = newBuilder ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().init(this);
+ if ( current. getType() == Token.PARAM_LIST ) { switch (current) { }
+FunctionParamBuilder  builder = new FunctionParamBuilder ( ) ; else
+ else { Node current = n. getFirstChild(); isConstructor &&
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; if (isConstructor)
+FunctionParamBuilder paramBuilder = new FunctionParamBuilderFromNode(this);
+ JSType paramBuilder = newBuilder;
+ else { FunctionParamBuilder(this); paramBuilder= new FunctionParamBuilder(this);
+ JSType paramBuilder = createFunctionBuilder(this);
+ case Token.FUNCTION: FunctionFunctionparamBuilder = new FunctionParamBuilder(this);
+ JSType paramBuilder = createFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current.getNext()); } else
+ case Token.FUNC:
+ JSType paramBuilder = createFunctionParameter(this);
+ if ( current. getType ( ) == Token. FUNCTION ) { return this ; } }
+ case Token.ARGS:
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, isConstructor); else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().addFunction(this);
+ else { var paramBuilder = newBuilder;
+ FunctionBuilder paramBuilder= new FunctionParamBuilder(this);
+ else { ParamBuilder paramBuilder;
+ case Token.PARAM: FunctionParamBuilderparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, contextNode);
+ else { Builder paramBuilder = createDefaultObjectUnion(this);
+ else { ParamBuilder paramBuilder = createFunctionParamBuilder(this);
+ case Token.FUNCTION: FunctionParamparamBuilder = new FunctionParamBuilder(this);
+ } JSType paramBuilder = null;
+ if ( current. getType() == Token.FUNCTION ) { return createDefaultFunction ( ) ; } }
+ JSType paramBuilder = createFunctionUnion(this);
+ Node current = n.getNext();
+ else { Node current = n. getFirstChild ( ) ; } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; current = current.getNext(); }
+ var paramBuilder=new FunctionParamBuilder(this);
+ if ( isConstructor ) { break ; } }
+ else { FunctionParamBuilder paramBuilder *= new FunctionParamBuilder(this);
+ JSType paramBuilder = createNewBuilder(this);
+ return createFunctionUnion(this);
+FunctionParamBuilder  builder = { } ;
+ else { Node current = n. getFirstChild(); isConstructor ;
+ else { JSType functionParamBuilderBuilder= new FunctionParamBuilder(this);
+ if ( isConstructor ) { return thisType ; } } }
+ else { FunctionParamBuilder functionParamBuilder builder= new FunctionParamBuilder(this);
+ FunctionParamBuilder builder = createFunctionParamBuilder(this);
+ else { ParamBuilder paramBuilder = ParamBuilder;
+ Node current = current.getNext();
+ Node current = current.getNext(();
+ JSType paramBuilder = newBuilder(null;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, thisConstructor);
+ JSType paramBuilder = createFunctionParam(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilderFromThis(this);
+ else { FunctionParamBuilder functionBuilder = builder.new FunctionParamBuilder(this);
+ else { ObjectType paramBuilder = createObjectUnion(this);
+ if ( current. getType() == Token.FUNCTION ) { } } }
+ case Token.PARAM: paramBuilder=new FunctionParamBuilder(this);
+ JSType paramBuilder = createDefaultObjectFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParam ( ) ;
+ else { FunctionParamBuilder paramBuilder |= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new Builder();
+ Node paramBuilder = clone(this);
+ JSType builder = createFunctionParamBuilder(this);
+ else { thisType = current. getFirstChild ; } }
+ ObjectType paramBuilder = create(this);
+ paramBuilder.push(this);
+ } case Token.PARAM:
+ JSType paramBuilder = newBuilder(n);
+ case Token.ARGS: FunctionParamBuilderparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().setParent(this);
+ JSType paramBuilder = clone(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; var type = null ;
+ else { current = n. next ; } }
+ case Token.FUNCTION: Param:
+ JSType paramBuilder = builder();
+ else { ObjectType paramBuilder = createObjectType(this);
+ if ( current. getType ( ) == Token. FUNCTION ) { } };
+ Node paramBuilder = createBuilder(();
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(n, isConstructor);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current.getLastChild()); } else
+ else { Builder paramBuilder = null;
+ if ( current. getType ( ) == Token. FUNCTION ) }
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder(); builder.add(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().setFunction(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n. firstChild();
+ Object paramBuilder = createFunctionParamBuilder(this);
+ } else { ParamBuilder paramBuilder = createFunctionParamBuilder(this);
+ else { ObjectBuilder paramBuilder = createObjectBuilder(this);
+ if ( current. getType ( ) == Token. FUNCTION ) { }
+ } FunctionParam paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, isConstructor); }
+ case Token.ARGS: FunctionParamBuilder fparamBuilder = new FunctionParamBuilder(this);
+ case Token.FUNCTION: ParamBuilderparamBuilder = new FunctionParamBuilder(this);
+ else { current = n. next(); } }
+ else { current = n. getNext(); } } }
+ case Token.PARAM: FunctionParamBuilder fparamBuilder = new FunctionParamBuilder(this);
+ varBuilder.push(this);
+ else { Node paramBuilder = null;
+ ParamBuilder builder = null;
+ else { return thisType ; } }
+FunctionParamBuilder  paramBuilder = newFunctionParamBuilder;
+ else { ParamBuilder paramBuilder = createDefaultObjectFunctionParamBuilder(this);
+ final ParamBuilder paramBuilder = createFunctionParamBuilder(this);
+ Node current = n.getNext(this);
+ else { ParamBuilder paramBuilder = paramBuilder;
+ paramBuilder = null;
+ else { ParamBuilder paramBuilder=new FunctionParamBuilder(this);
+ Node paramBuilder = new Builder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope, isConstructor); else
+ ParamList paramBuilder;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; if (current)
+ var paramBuilder = clone(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().withThis(this);
+ if ( current. getType() == Token.FUNCTION ) { } } };
+ ParamBuilder builder = getFunctionParamBuilder(this);
+ return createObjectUnion(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; current = n. next ; }
+ } JSType paramBuilder = createDefaultFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, isConstructor); else
+ else { FunctionParam paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder().setThis(this);
+ JSType paramBuilder = build(this);
+FunctionParamBuilder Builder = null;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; } else
+ else { FunctionParamBuilder newFunctionParamBuilder |= new FunctionParamBuilder(this);
+ else { FunctionParamBuilder(this).paramBuilder = new FunctionParamBuilder(this);
+ case Token.LIST:
+ else { JSType newFunctionParamBuilder |= new FunctionParamBuilder(this);
+ else { FunctionParamBuilder paramBuilder ::= new FunctionParamBuilder(this);
+ else { FunctionParamBuilder paramBuilder &= new FunctionParamBuilder(this);
+ Function paramBuilder = createFunctionParamBuilder(this);
+ if ( isConstructor ) { break ; } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, scope); else
+ Param paramBuilder= new FunctionParamBuilder(this);
+ else { paramBuilder = null;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(scope).build(this);
+FunctionParamBuilder paramBuilder = new  FunctionParamBuilder(); builder.build(this);
+ case Token.PARAM: FunctionParamBuilder functionparamBuilder = new FunctionParamBuilder(this);
+ else { current = n ; } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(n.getFirstChild()); } else
+ else { thisType = current. getNext(); } } }
+ else { current. getNext ( ) ; } } }
+ } JSType paramBuilder = createDefaultObjectFunctionParamBuilder(this);
+ else { current = n. getNext(); } } } }
+ JSType paramBuilder = copy(this);
+ Object paramBuilder = create(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, isConstructor); }
+ case Token.PARAM: FunctionParamBuilder _paramBuilder = new FunctionParamBuilder(this);
+ functionParamBuilder paramBuilder= new FunctionParamBuilder(this);
+ if ( isConstructor ) { return thisType ; } } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope, isConstructor); }
+FunctionParamBuilder paramBuilder  = newFunctionParamBuilder(); }
+ case Token.NAME:
+ Node paramBuilder = newBuilder(();
+ case Token.METHOD:
+ else { ParamBuilder paramBuilder = new JSFunctionParamBuilder(this);
+ else { FunctionParamBuilder varArgBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; current = n. next(); }
+ case Token.TYPE:
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; boolean addSuccess ;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) + isConstructor;
+ paramBuilder.add(this);
+ } else { FunctionParam paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, isConstructor));
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = sourceNode ;
+ else { ParamBuilder paramBuilder = new JSDocFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new ParamBuilder;
+ case Token.PARAM: FunctionparamBuilder = new FunctionParamBuilder(this);
+ else { ParamBuilder builder = null;
+ case Token.ARRAY: varargs = [];
+ else { current = n ; } }
+ varBuilder = create(this);
+FunctionParamBuilder paramBuilder = new DefaultFunctionParamBuilder(this);
+ else { ParamBuilder paramBuilder = newJsDocFunctionParamBuilder(this);
+ Node current = current.next(();
+ case Token.ARGS: varargs = [];
+ else { break ; }
+ Node paramBuilder = newNode(();
+ FunctionParamBuilder=new FunctionParamBuilder(this);
+ case Token.PARAM: FunctionParamparamBuilder = new FunctionParamBuilder(this);
+ } JSType paramBuilder = createFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName, scope); }
+ if (isConstructor);
+ } else { ParamBuilder builder = createFunctionParamBuilder(this);
+ else { return thisType ; } } }
+FunctionParamBuilder paramBuilder = new FunctionParam(this);
+ var builder = createFunctionParamBuilder(this);
+ else { current. getNext ( ) ; } } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current.getFirstChild(), sourceName); else
+ case Token.PARAM_LIST: {
+FunctionParamBuilder  paramBuilder();
+FunctionParamBuilder Builder paramBuilder;
+FunctionParamBuilder paramBuilder  = createFunctionParamBuilder(); else
+ Node paramBuilder=new FunctionParamBuilder(this);
+ ObjectType paramBuilder = newBuilder(this);
+ case Token.PARAM: ParamBuilderparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current, sourceName, scope, reporter); else
+ case Token.FUNCTION: {
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) + thisType;
+ Node paramBuilder = createFunctionBuilder(this);
+ paramBuilder = getFunctionParamBuilder(this);
+ } } FunctionParam paramBuilder=new FunctionParamBuilder(this);
+ else { FunctionParamBuilder _paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current, scope);
+ else { current = n. getNext(); };
+ current.getNext();
+FunctionParamBuilder  builder = createFunctionParamBuilder(); }
+ ObjectType paramBuilder = createBuilder(this);
+ case Token.FUNCTION: ParamList
+ final FunctionParam paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( sourceName ) ; }
+FunctionParamBuilder paramBuilder  = newFunctionParamBuilder ( scope )
+ } else { ParamBuilder paramBuilder=new FunctionParamBuilder(this);
+ else { return null ; } }
+ case Token.FUNC: FunctionparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionBuilder(this);
+ current.setNext();
+ } JSType paramBuilder;
+ else { FunctionParamBuilder fparamBuilder = new FunctionParamBuilder(this);
+ FunctionParam builder builder=new FunctionParamBuilder(this);
+ else { return null ; } } }
+ return createDefaultFunctionUnion(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope); else
+ final FunctionParamBuilder builder = createFunctionParamBuilder(this);
+ JSType paramBuilder = newJsFunctionParamBuilder(this);
+ } JSType builder = createFunctionParamBuilder(this);
+ Node paramBuilder;
+ else { final FunctionParamBuilder _paramBuilder = new FunctionParamBuilder(this);
+ final FunctionParamBuilder builder=new FunctionParamBuilder(this);
+ var paramBuilder = builder;
+ } } } FunctionParam paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; isConstructor &&
+ ParamListBuilder paramBuilder;
+ else { functionParamBuilder paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new  functionParamBuilder ( ) ;
+ } else { Function paramBuilder=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType), scope);
+ } else { FunctionParamBuilder _paramBuilder = new FunctionParamBuilder(this);
+ var args = null;
+ if (current.hasNext);
+ return createDefaultFunctionParamBuilder(this);
+ else { FunctionParamBuilder builder=new FunctionParamBuilder(this);
+ JSType paramBuilder = getFunctionParamBuilder(this);
+ FunctionParamBuilder builder = getFunctionParamBuilder(this);
+ current.getNext(_);
+ } else { FunctionParamBuilder fparamBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; Node current = n ; }
+ ParamBuilder paramBuilder = getFunctionParamBuilder(this);
+ functionBuilder.push(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType), isConstructor); else
+ varArgs = null;
+ return createConstructor(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope); }
+FunctionParamBuilder paramBuilder = new FunctionParamListBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, false);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current, scope); else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; } } else
+ else { FunctionParamBuilder functionparamBuilder = new FunctionParamBuilder(this);
+ switch (this);
+ else { paramBuilder = builder;
+ var paramBuilder;
+ if (current.isFunction);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, source);
+ } FunctionParamBuilder paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, args);
+FunctionParamBuilder paramBuilder  = [];
+ builder = createFunctionParamBuilder(this);
+ return create(this);
+ current.setNext(_);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; } else {
+FunctionParamBuilder  paramBuilder:
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, sourceName));
+ return createFunctionParamBuilder(this);
+ Type paramBuilder;
+FunctionParamBuilder paramBuilder  = null
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(args);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current, thisType); else
+ if (isConstructor?);
+ current = n);
+ if (isConstructor==);
+ } final FunctionParam paramBuilder= new FunctionParamBuilder(this);
+ current.append(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(null);
+ } FunctionBuilder paramBuilder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, scope));
+ } } } FunctionParamBuilder builder= new FunctionParamBuilder(this);
+ function paramBuilder= new FunctionParamBuilder(this);
+ if (this);
+ current.next(_);
+ current.set(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType, current); else
+ current.init(this);
+ new.add(this);
+ new.push(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( ) ; } }
+ current = visit(this);
+ current.next(this);
+ return (this);
+FunctionParamBuilder  paramBuilder =
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType); } }
+FunctionParamBuilder  builder();
+ this. setFunctionParamBuilder(this);
+ while (current);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType));
+ while (true);
+ current.next();
+ current.push(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) + thisBuilder;
+ newFunction(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisTypeName);
+ return union(this);
+ } while (this);
+ current.getNext);
+ } } else {
+ var argBuilder;
+ } else {
+ synchronized (this);
+ return clone(this);
+ this = createFunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder  = builder;
+ else { FunctionParam.paramBuilder = new FunctionParamBuilder(this);
+ current = next);
+ current = current);
+FunctionParamBuilder paramBuilder = new ParameterBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) + 1;
+ var type;
+ var argsBuilder;
+ current.next(*);
+FunctionParamBuilder paramBuilder  = args ;
+FunctionParamBuilder  builder:
+ break ; } }
+ Node type;
+ } } } }
+ current=new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; } }
+ paramBuilder:new FunctionParamBuilder(this);
+ }, false);
+ }, null);
+ } break ; }
+ varBuilder=new FunctionParamBuilder(this);
+ else { FunctionParam_paramBuilder = new FunctionParamBuilder(this);
+ createDefaultFunctionParamBuilder(this);
+ else { Function.paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParameterBuilder(this);
+ else { Function(paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) { } else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) + "";
+ else { FunctionParam(paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new  functionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( )
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(ThisType);
+ String type;
+ paramBuilder=(new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(n);
+ } } }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; }
+ else { function_paramBuilder = new FunctionParamBuilder(this);
+ else { FunctionBuilderparamBuilder = new FunctionParamBuilder(this);
+ Node arg;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) ; else
+FunctionParamBuilder paramBuilder = new Function(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(...)
+ }, n);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( builder )
+ (this);
+FunctionParamBuilder  param;
+ function_paramBuilder = new FunctionParamBuilder(this);
+Builder=new FunctionParamBuilder(this);
+ break ; }
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder ( builder );
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(scope); else
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(args); else
+ }, 0);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(current); else
+ Function(paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisBuilder);
+FunctionParamBuilder paramBuilder  =;
+ } else { }
+FunctionParamBuilder paramBuilder ; else
+ function.paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new Instance();
+FunctionParamBuilder paramBuilder = new DefaultFunctionBuilder(this);
+ Function.paramBuilder = new FunctionParamBuilder(this);
+ return getFunctionParamBuilder(this);
+ else {
+ Node args;
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType) {
+ # createFunctionParamBuilder(this);
+ }
+ } }
+ default : }
+ default : {
+ } } #paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(functionName);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisNode);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) {};
+ } }; #paramBuilder = new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(thisType());
+FunctionParamBuilder paramBuilder = new FunctionParamBuilder(this) { }
+ else { #paramBuilder = new FunctionParamBuilder(this);
+ const builder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new Param(this);
+ paramsBuilder= new FunctionParamBuilder(this);
+ } }; FunctionparamBuilder = new FunctionParamBuilder(this);
+ param builder= new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder = new Instance(this);
+ };
+ else:
+FunctionParamBuilder paramBuilder := new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder: new FunctionParamBuilder(this);
+FunctionParamBuilder paramBuilder is new FunctionParamBuilder(this);

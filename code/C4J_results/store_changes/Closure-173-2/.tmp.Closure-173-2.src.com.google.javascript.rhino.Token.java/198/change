@@ -1,0 +1,518 @@
+case MUL:             return "MUL";
+ case MOD:return "MUL";
+ case MOD:
+case MUL:              return "MOD";
+ case MUL: case MUL:             return "MUL";
+case MUL:             return  "MUL"; case DIV:
+ case MUL: case MOD:return "MUL";
+ case MUL; case MOD:             return "MUL";
+case MUL:             return  "MULU";
+case  DIV:
+case MUL:             return "MUL" case DIV:
+ case MUL: case MUL;return "MUL";
+case MUL:              return "UL";
+ case MUL: case SUBMUL:             return "MUL";
+ case MUL: case MOD: #"MUL";
+case MUL:             return  "MUL"; case INC:
+case MUL:             return  "MUL; case DIV:
+ case MUL: case MULR:             return "MUL";
+ case MUL: case MULTI:             return "MUL";
+ case MULR:             return "MUL";
+case MUL:             return  "MULMUL";
+case MUL:             return  "MUL"; case Div:
+case MUL:             return  "MUL"; case INC;
+ case MOD: return "MOD;
+case  DIV: return "DIV";
+ case MOD: return "MOD";
+ case MULTI:             return "MUL";
+case MUL:             return  "MUL"; case DOUBLE:
+ case MUL: return "MUL";
+ case MUL:
+ case MUL: #"MUL";
+ case MUL: case MUL,return "MUL";
+case MUL:             return  "MUL"; case DECIMAL:
+ case DEC: return "DEC;
+ case DIV: return "DIV;
+case MUL:             return "MUL" case DIV: return "DIV";
+case MUL:             return  "MULM";
+ case MUL; case MUL:             return "MUL";
+case MUL:             return  "MUL"; case INCREASE:
+ case MOD: #"MUL";
+ case MUL: case MOD,return "MUL";
+ case MUL: case UNMUL:             return "MUL";
+ case MUL: return "MOD";
+case MUL:             return  "MUL"; case DECR:
+ case MUL: case MUL-return "MUL";
+case MUL; case INC;
+case MUL:             return  "MUL; case INC:
+ case MUL,DIV:             return "MUL";
+ case DIV: return "DIV";
+case MUL:             return  "MULH";
+case MUL:             return  "MULR";
+case MUL:             return  "MUL"; case DIV, MOD:
+ case MUL: case MUL; case MOD:             return "MUL";
+ case MUL: case MULA:             return "MUL";
+ case MULTI:
+ case DIV;
+case MUL:             return  "MUL"; case INCREMENT:
+case MULR:
+ case MUL: case MUL: #"MUL";
+ case MAX: return "MAX;
+ case MUL: case MOD;return "MUL";
+ case INC: return "INC;
+ case MUL, SUB:             return "MUL";
+ case MUL: case MULB:             return "MUL";
+ case MUL|MUL:             return "MUL";
+ case MUL: case MULN:             return "MUL";
+case MUL:             return  "MULB";
+ case MUL: case MUL|return "MUL";
+ case MUL; case MUL; case MOD:             return "MUL";
+ case MUL: return "MOD"; case SUBMUL:             return "MUL";
+ case MUL: case NOTMUL:             return "MUL";
+ case MUL, INC:             return "MUL";
+case MUL:              case INC:
+ case MUL: case MUL*return "MUL";
+case MUL8 : return "MUL8";
+case MUL:             return  "MUL"; case MULTIPly:
+case MUL:             return  "MUL; break;
+case MUL:             return  "MUL"; case INC, case DEC:
+case MUL:             return  "MUL"; case MULTIPLY:
+ case MUL: case DIV: case MOD:             return "MUL";
+case MUL : return "MUL; case Div:
+ case MUL: case SUB:             return "MUL";
+ case INC: return "INC";
+ case GE: return "GE;
+case MUL:             return  "MUL"; case MOD: case Div:
+case MUL:             return  "MUL"; case MULA:
+ case MUL: case MOD...return "MUL";
+ case MUL, case MUL:             return "MUL";
+ case MUL: case DECMUL:             return "MUL";
+ case MUL: case MOD #"MUL";
+case MUL:             return "MUL" case INC:
+ case MUL|DIV:return "MUL";
+case MUL:             return  MOD;
+ case MUL, DEC:             return "MUL";
+ case DEC: return "DEC";
+ case MUL: case MODUL:             return "MUL";
+case MUL:             return "MUL" case DECIMAL:
+ case MUL, MOD:             return "MUL";
+case MUL : return "MUL; case INC;
+ case MUL|DIV|return "MUL";
+ case MUL: case MUL; case SUB:             return "MUL";
+ case MUL: case MUL+MUL:             return "MUL";
+ case MUL: case MULTIPLY:             return "MUL";
+ case MUL: return "UL"; case SUBMUL:             return "MUL";
+ case MUL: case DEC: return"MUL";
+ case MUL: case MOD: case div:             return "MUL";
+case  MOD: return "MOD";
+ case MUL: case MOD: case SUB:             return "MUL";
+ case MUL: case MUL|MUL:             return "MUL";
+case MUL:             return  "MUL"; case MIX:
+ case MUL; case SUB:             return "MUL";
+ case MUL: case MOD:
+case  DEC: return "DEC";
+ case MUL: case MULMUL:             return "MUL";
+case MUL:             return "MUL" case DEC: return "DEC";
+ case EQUALS: return "Equals;
+case MUL:             return  "MUL"; case MUL;
+ case DIV : case MUL : return "MUL"; case MOD : return "MOD"; case NOT : return "BITNOT";
+ case MUL; case MUL; case SUB:             return "MUL";
+ case MOD: case div;
+ case MUL: case MOD::"MUL";
+ case MULS:             return "MUL";
+case MUL:             return "MUL" case DIV: case MOD:
+case MUL:             return "MUL" case Div:
+ case MULA:             return "MUL";
+ case MUL, SUBMUL:             return "MUL";
+ case MUL, caseDIV, case caseMUL:             return "MUL";
+ case MUL+MUL:             return "MUL";
+case MUL:             return  "MULMul";
+ case MUL: case MUL; caseMUL:             return "MUL";
+ case MUL: case MOD: return return"MUL";
+ case MUL: case MR:             return "MUL";
+ case MUL: return "MOD"; case DECMUL:             return "MUL";
+case MUL:             return "MUL" or "MUL"; case DIV:
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUB:
+ case MUL: case MUL; #"MUL";
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUB:
+ case MULH:             return "MUL";
+ case MUL: case MUL; case SUBMUL:             return "MUL";
+ case DIV : return "DIV"; case MOD:
+ case MUL: case MULRSH:             return "MUL";
+case MULF: return "ULF";
+ case DIV : case MUL : return "DIV"; case MOD : return "MOD"; case BITNOT : return "BITNOT";
+case MUL:              case MOD:
+ case MUL: case MOD+"MUL";
+ case MUL: return "UL"; case DECMUL:             return "MUL";
+case MUL:             return "MUL" case MULTI:
+case  DIV: case MOD:
+case MUL:             return "MUL" case "MUL" :
+case MULMUL;
+ case DECIMAL:
+ case NEG : return "NEG"; case INC : return "INC";
+ case INC: return "INCU";
+ case MUL: case MOD: case INC:             return "MUL";
+ case MUL2:return "MUL";
+ case DEC: return "DECD";
+ case MUL: case "return"MUL";
+ case DIV : return "DIV"; case MUL:
+ case MUL: case MULTI: #"MUL";
+ case MOD: return "MODUL";
+ case MUL: return "MUL; case DIV: return "DIV; case MOD:
+ case MUL: return "MUL"; case DIV: return "DIV"; case MOD: return "MOD";
+ case MUL: return "MULH";
+ case MUL: return "MUL"; case DIV: return "DIV"; case DIV:
+ case MUL: case UMUL:             return "MUL";
+case  DIV : return "DIV"; case MOD:
+ case MUL: return return"MUL";
+ case EQUAL: return "QUAL;
+ case DIV:
+ case MUL: return "MUL"; case DIV: return "DIV";
+ case DIV : case MUL : return "MUL"; case MOD : return "DIV"; case SUB : return "SUB";
+ case MUL: case MUL8: return"MUL";
+ case MUL: return "MUL; case DIV: return "DIV"; case DIV:
+ case MUL: case MOD return"MUL";
+case MUL; caseDIV;
+ case MUL: return "MULM";
+ case MUL: case MUL8: #"MUL";
+ case GE: case GE;
+case MUL:             return  "MUL(mod);
+ case MUL: return "UL";
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUBSUB:
+ case DIV : case MUL : return "DIV"; case MOD : case BITNOT : return "BITNOT"; case NEG:
+ case NEG : return "NEG"; case ADD : return "ADD";
+case MUL:             return  SUB;
+ case DIV : return "DIV; case MOD:
+ case MUL: case MULU+MUL:             return "MUL";
+ case MUL: return "MULU";
+ case DIV : return "DIV"; case MOD : return "MOD"; case ADD:
+ case MULB:return "MUL";
+case  INC: return "INC";
+case MUL:              case SUB;
+ case MUL: return "MUL; case DIV: return "DIV"; case MOD: return "MOD";
+ case MAX: case MAX;
+ case MUL or SUBMUL:             return "MUL";
+ case MOD: case MULR:             return "MUL";
+ case DIV : return "DIV"; case MOD : return "MOD"; case NOT:
+ case MUL: return "MUL; case DIV: return "DIV; case INC:
+ case MUL: return "MUL"; case DIV: return "DIV; case MOD:
+ case MUL: case MUL-MUL:             return "MUL";
+ case EQUAL: return "EquAL;
+ case MUL: return "MUL"; case DIV: return "DIV"; case MOD:
+ case DIV : return "DIV"; case MOD : return "MOD; case SUB:
+case  DEC : return "DEC"; case INC;
+ case DIV : return "DIV"; case MOD : return "MOD"; case INC:
+case MUL:             return "MUL" case DOUBLE:
+case MUL : return "MUL"; case DUB:
+ case DIV : return "DIV"; case MOD : return "MOD"; case MOD:
+ case DIV : return "DIV"; case MOD : return "MOD"; case BITOR:
+case MUL; case ADD;
+ case DIV : return "DIV"; case MULTI:
+case MUL:             return "MUL" case INCREASE:
+ case MUL: case MUL, SUBMUL:             return "MUL";
+ case MUL: return "MUL"; case DIV: return "DIVU";
+ case MUL : return "MULMUL";
+case MUL:             return "MUL" case DECR:
+ case MUL: return "MUL; case DIV: return "DIV"; case MOD:
+case  DIV: return "DIVD";
+ case NEG : case POS : return "POS"; case BITOR:
+case  DIV" : return "DIV" ;
+ case DIV : return "DIV"; case MOD : return "MOD"; case ADD:
+ case MUL, UNMUL:             return "MUL";
+ case SUBMUL:             return "MUL";
+ case MUL: return "MUL"; case DIV: return "DIVL";
+ case NEG : return "NEG"; case SUB : return "Sub";
+case MUL:             return "MUL" case DEC:
+ case MUL: return "MUL"; case DIV: return "DIV"; case SUB:
+ case DIV : return "DIV" case MUL:
+case MUL:             return "MUL" case DEC : case INC :
+case MUL: case MULTI;
+ case MUL: return "MUL; case DIV: return "DIVL";
+case  DEC: return "DECD";
+ case DIV: case MULTI:
+ case MUL, caseDIV, case UMUL:             return "MUL";
+ case DIV : return "DIV"; case MOD : return "MODD";
+ case INC; case MOD;
+ case MUL: return "MUL"; case DIV: return "DIVMUL";
+case  DIV : return "DIRECTIONAL";
+case  DIV : return "DIVE";
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUB_MOD:
+ case DIV : return "DIV"; case MOD : return "MOD"; case NEG:
+ case MUL: return "MUL"; case DIV: return "DIV"; case SUB: return "SUB";
+ case MUL: return "MUL; case DIV: return "DIVU";
+ case MUL: return "MUL"; case DIV: return "DIV"; case SUB: return "Sub";
+ case NEG : case POS : case NEW : return "NEG";
+ case MR:             return "MUL";
+ case DIV: case MULTI;
+ case MUL: case MUL2:return "MUL";
+ case DIV : return "DIV"; case MOD : return "MODM";
+ case MUL: return "MUL"; case DIV: return "DIV"; case SUB: return "SUBSUB";
+ case DIV : return "DIV"; case MOD : return "MODIF";
+ case DIV : return "DIV"; case MOD : return "MODU";
+case MUL:             return "MUL" case DIV: return "DIVU";
+ case MUL: return "MUL"; case DIV: return "DIVF";
+case MUL:             return "MUL" case DEC: return "DECU";
+ case INC: case INC;
+ case DIV : return "DIV"; case MOD : return "MOD(mod);
+ case INC;
+ case MUL: return "MUL"; case DIV: return "DIV"; case SUB: case ADD:
+ case MUL: case DIV+MUL:             return "MUL";
+ case DIV : return "DIV"; case MOD : return "MOD"; case BITMOD:
+case MUL:              case div:
+ case DEC: case DEC;
+case  DECIMAL:
+ case MUL: case MUL_MUL:             return "MUL";
+ case MODUL:
+ case MOD: case INC:
+ case MOD: case ADD;
+case MUL; case Div;
+ case MUL : return "MUL; case INC;
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUBSC:
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUB, ADD:
+ case DIV: return "DIVIDE;
+case MUL; case SUB;
+case  DIV : return "DIVY";
+ case DIV : return "DIV" case MOD : case SUB :
+ case MUL: case U+MUL:             return "MUL";
+case  DIV : return "DIV"; case SUB:
+ case MUL : return "MUL"; case INC;
+ case ADD+MUL:             return "MUL";
+ case NEG : case POS : case NEW : return "NEW" ;
+case MUL:              case ADD;
+case  Div:
+ case MUL or -MUL:             return "MUL";
+case  DOUBLE:
+ case DIV : return "DIV"; case MOD : case SUB :
+ case MUL: return "MUL"; case DIV: return "DIV"; case MOD: return "MODDIV";
+ case MUL : return "MUL-1";
+ case NEG : return "NEG"; case SUB : return "UB";
+ case MOD: case ADD:
+case  DEC: return "DECU";
+ case MUL: return "MUL"; case DIV:
+ case MUL: case SUB+MUL:             return "MUL";
+ case DIV : return "DIV"; case MOD : return "MOD(mod)"
+ case NEG : return "NEG"; case INC ; case INC :
+ case DOUBLE:
+ case NEG: if NEG: if NEG: return "NEG"; case DIV: return "DIV";
+case MUL:             return "MUL" case INCREMENT:
+ case NEG:
+case MUL:             return "MUL" case ADD:
+ case DIV : return "DIV"; case MOD : return "MOD(MOD);
+ case DECR:
+ case DIV : return "DIV"; case MOD : return "MODUL;
+ case DIV : return "DIV"; case MOD : return "MOD"; case SUB_OR:
+case MUL:             return "MUL" case DEC: return "DECD";
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV"; case DIV:
+ case MULTIPLY:
+case MUL: case MULTI:
+case MUL:             return "MUL" or "MUL"; case DOUBLE:
+case  DIV: return "DIVIDE";
+ case DIV : return "DIV"; case MOD : case SUB;
+ case MUL-MUL:             return "MUL";
+case MUL:             return "MUL" case DIV: return "DIVD";
+ case EQUAL: return "ALS;
+case MUL : return "MUL" ; }
+ case MUL: return +"MUL";
+ case DIV : return "DIV"; case MOD: case ADD;
+ case EQUAL: return "AL;
+ case NEG: if NEG: if NEG: return "NEG"; case POS: return "POSEG";
+ case NEG: if NEG: if NEG: if NEG: return "NEG"; case DIV:
+ case MUL : return "MUL(mod);
+case MUL:             return  "MUL(mod)"
+ case NEG: if (NEG) { return "NEG"; } else { return "NEG";
+ case NEG: if NEG: if NEG: return "NEG"; case POS: case POS;
+ case MUL: return "MUL"; case DIV: return "DIV"; case MOD: return "MOD-DIV";
+case  DIV: return "DIIV";
+ case MOD: case DIV+MUL:             return "MUL";
+ case MUL: case UUIDMUL:             return "MUL";
+case MUL:             return "MUL" case DIV: case Div:
+ case MUL: } return"MUL";
+ case NEG: if NEG: if NEG: return "NEG"; case DIV: if DIV:
+case MUL:             return "MUL" case DIV: return "DIVDIV";
+case  INC;
+ case MUL: case MUL2;return "MUL";
+ case NEG : return "NEG"; case INC : case INC ;
+ case EQUAL: return "ALL;
+ case EQUAL: return "Equ;
+ case NEG: if NEG: if NEG: return "NEG"; case POS: return "POSIF";
+ case MUL: case MUL1:return "MUL";
+ case DIV: return "DIV"; case MOD: return "MOD"; case SUB: case ADD:
+ case MUL: case MULTI;return "MUL";
+ case MUL: case MUL: return "MUL; case DIV: case MOD: return "DIV";
+ case DIV : return "DIV"; case MULTI;
+ case MUL, **return "MUL";
+ case MUL: return "MUL; case DIV: return "DIV; case Div
+case MUL:             return "MUL" case DIV: return "DIVIDE";
+ case MO:return "MUL";
+ case MUL: case MUL: return "MUL"; case DIV: case DIV: return "DIV";
+case MUL: case MULA;
+ case MOD+MUL:             return "MUL";
+ case MUL: case Ureturn "MUL";
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: case DIV: return "DIV";
+case  DEC : case INC :
+ case NEG: if NEG: return "NEG"; case POS: return "POS-1";
+ case MUL: case MUL: return "MUL; case DIV: case DIV: return "DIV";
+case  DIV : return "DIV(DIV);
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV; case DIV:
+case MUL:             return "MUL" case MOD: case Div:
+ case MUL,MUL:             return "MUL";
+case MUL:             return "MUL" case DIV: return "DIIV";
+ case NEG: if NEG: if NEG: return "NEG"; case POS: return POS;
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIVU";
+ case NEG: if (NEG), return "NEG"; case NEG: return "NEG";
+ case NEG: if (NEG) then return "NEG"; case NEW: return "NEG";
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIVDIV";
+ case NEG: if NEG: if NEG: if POS: return "POS"; case DIV:
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV"; case DECR:
+ case DIV: return "DIV"; case MOD: return "MOD"; case SUB: case SUB:
+ case MOD #"MUL";
+ case MUL: case MUL: return "MUL"; case DIV: return "DIV"; case DIV:
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV"; case MUL:
+ case MUL: case MUL: return "MUL; case DIV: return "DIV"; case DIV:
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV2";
+ case DIV: return "DIVN;
+ case NEG: if (NEG), return "NEG"; case NEW: return "NEG";
+ case DIV: return "DIV"; case MOD;
+ case NEG: if NEG: if NEG: return "NEG"; case DIV, MOD:
+case MUL:             return "MUL" case MOD: case div:
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIVF";
+ case MUL: case MUL: case DIV: return "MUL"; case DIV: return "DIV(DIV)"
+ case NEG: if (NEG) { return "NEG"; } return "NEGE";
+ case DECMUL:             return "MUL";
+case  DECR:
+ case NEG: if NEG: return "NEG"; case POS: return "POS(POS);
+ case NEG: if (NEG) { return "NEG"; } return "NEG" ;
+ case EQ: case EQ: return "EQ"; case MUL:
+case MUL:             return "MUL" case DIV: return "DIV(DIV);
+ case MUL, case INC, case DEC,return "MUL";
+ case NEG: if NEG: return "NEG"; case POS: return "POS; default:
+ case NEG: if (NEG), return "NEG"; case NEG: return "EG";
+ case MOD+"MUL";
+ case DIV: return "DIV"; case MOD: return "MOD" case SUB: case ADD:
+ case MUL: case MUL-1:return "MUL";
+ case EQ: case EQ: case NE: return "NE"; case MOD:
+ case NEG: if NEG: if NEG: return "NEG"; case POS: case POS:
+ case DIV: if (DIV) { return "DIV"; } else { return "DIV"; } case MOD:
+ case NEG: if (NEG) then return "NEG"; case NEW: return "NEW" ;
+ case DIV: return "DIVD;
+ case DIV: if DIV, return "DIV"; case MOD: if MOD, return "MOD-MOD";
+ case DIV: return "DIVA;
+ case MOD;
+ case DIV+MUL:             return "MUL";
+ case DIV: return "DIV"; case MOD: return "MOD"; case NOT: case SUB:
+ case DIV: return "DOUBLE;
+ case MUL: case MULTIPly;return "MUL";
+ case NEG: if (NEG), return "NEG"; case NEW: return "NEW" ;
+ case NEG: if NEG: return "NEG"; case POS: return "POS(POS)"
+ case MUL: case MULTIPly:return "MUL";
+ case DIV: return "DIV"; case MOD: return "MOD"; case SUB: case SUB;
+ case DIV: if DIV : return "DIV"; case MOD: if MOD : return "MOD"; else:
+ case DIV: case MUL: return "DIV"; case MODDIV:
+ case DIV: if DIV : return "DIV"; case MOD: if MOD : return "MOD" else :
+ case EQ: case EQ: case NE: return "NE"; case ADD:
+case  DIV, MOD:
+ default:
+ case MULTI;
+ case MUL+"MUL";
+ case NEG: if NEG: return "NEG"; case POS: return "POS; case:
+case MUL:              case DIV:
+case MUL:              return "MUL; default:
+ case MUL: case MULTIPly,return "MUL";
+ case MULMUL:             return "MUL";
+ case DIV: return "DIVE;
+case  INC; case INC;
+case MUL:              return "DIV";
+ case M return"MUL";
+ case URSH;
+case  INC; case DEC;
+ case ADD;
+ case DECR;
+ case DIV: return "DIV"; case SUB;
+case MUL:              break;
+ case DIV" : return "DOUBLE;
+case MULC:
+ case MOD,DIV:
+ case MUL: returns"MUL";
+case MUL, SUB,
+case  MOD: case Div:
+case MUL:              case MIX: return "MUL";
+case MULMUL:
+ case NEG: if (NEG), return "NEG"; case NEW: return "NEW" case:
+case MUL:              case MUL2:
+ case ADD|MUL:             return "MUL";
+case MULA:
+case MUL:             return "MUL" case DUB:
+case MUL:              return "MUL; case Div
+case MUL:             return "MUL" ; case MOD:
+ case EQ: case EQ: case EQ: case EQ: {
+ case DEC;
+ case ADD-MUL:             return "MUL";
+case MUL:              case MIX: return "MULF";
+ case mul:return "MUL";
+case  DEC:
+case MUL:              case MIX: return "MULP";
+ case MUL-return "MUL";
+case MUL, SUB:
+case MULS:
+case MUL:              return "MUL; case Divide
+ case INC:
+ case mulreturn "MUL";
+ case munreturn "MUL";
+case MUL:             return  mul;
+case  DIV2:
+case MUL, MOD:
+ caseUL:return "MUL";
+ case MUL": return"MUL";
+ case DIVN;
+ case DIV2;
+case  DIV0:
+ case MUL;
+ case MULB-return "MUL";
+case MUL:              case MIX;
+ case mreturn "MUL";
+case  NEG:
+ case MOD;
+case  INCREASE:
+case MUL:             return  "MODUL";
+ case MODreturn "MUL";
+ case MOD: break;
+ case DIVA;
+case MUL:             return  "MMUL";
+case MUL:             return "MUL" break;
+ case MUL;return "MUL";
+case  MUL:
+ case MUL,return "MUL";
+ case MER:             return "MUL";
+ return "ADD;
+ case #"MUL";
+case MUL:             return  MO;
+ break;
+ case PRMUL:             return "MUL";
+case MULB:
+ case EXT;
+ case NORMUL:             return "MUL";
+ case *
+case MUL:             return  "MUL;"
+ case div;
+ case -MUL:             return "MUL";
+case MUL:              return;
+ return "UB;
+case MUL:             return  "MDUL";
+case MUL:             return  "MIT";
+case MUL:             return  MUS;
+ case:
+case MUL:             return "MUL" case;
+case MUL:             return  "ADD";
+case MUL:             return "MUL" case:
+case MUL:              case MOD
+ case MIL:             return "MUL";
+ case MODUL:             return "MUL";
+ # return"MUL";
+case MUL:              case *
+ case *"MUL";
+ case +"MUL";
+case MUL:              case ADD
+ case MSUL:             return "MUL";
+ case MOUL:             return "MUL";
+ case
+ or

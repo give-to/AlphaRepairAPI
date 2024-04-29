@@ -1,0 +1,477 @@
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter = false ;
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter = false ;
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter = true ;
+ class FormattingOptions {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter = {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter = false ; }
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printOutputDelimiter = false ;
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter =
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter = {
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter = true ; }
+ private Set < String > options = new HashSet ( ) ; options. addAll ( defaults ) ; options. addAll ( options ) ;
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter =
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInputDelimiter = false ; }
+ private final Set < String > options = new HashSet <> ( ) ;
+ private final Options options = new Options ( ) { options. printPrettyPrint = false ; options. printInputDelimiter = {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInput = false ;
+ private Set < String > options = new HashSet < String > ( ) ; options. addAll ( this. getOptions ( ) ) ;
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printOutputDelimiter = {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; this. printInputDelimiter = {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printOutputDelimiter = false ; }
+ class FormattingOptionsenum FormattingOption {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter = true ; }
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. print = false ;
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputSepimiter = {
+ private int
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printOutput = false ;
+ private Set < String > options = new HashSet < String > ( ) ; options. addAll ( "--formatting" ) ; }
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. printInput = true ;
+ private Set < String > options = new HashSet ( ) ; options. addAll ( defaults ) ; options. addAll ( flags ) ;
+ class CommandLineRunner implements CommandLineRunnerWithFormattingOption {
+ private Set < String > options = new HashSet < String > ( ) ; options. addAll ( defaults ) ; options. addAll {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInput = false ; }
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printer = false ;
+ private final Options options = new Options ( ) { options. prettyPrint = true ; options. print = true ;
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInputDelimiter ;
+ class FormattingOptions
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printOutput = false ; }
+private static  final int
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. print = true ;
+ class CommandLineRunner implements CmdLineFormattingOption {
+ private final Set < String > options = new HashSet < String > ( ) ;
+ class FormattingOptions extendsFormattingOption {
+ private final Set < OptionDef > options = new HashSet < OptionDef > ( {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. print = false ; }
+ class CommandLineOptions implements CommandLineFormattingOption {
+ private final Set < String, String > options = new HashSet ( ) ;
+ private final Set < String > options = new HashSet < String > ( ) {
+ private final Set < String > options = new HashSet <> ( ) {
+ private final Set < String > formatOptions = new Set ( ) {
+ class FormattingOptions extends CommandLineOptions {
+ private final Set < String > options = new Set <> ( ) ;
+ class FormattingOptions extends CompilerOptions {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printInput = {
+ static class FormattingOptions extends CommandLineOptions {
+ class CommandLineRunner implements CommandLineRunner{
+ class CommandLineOptions implements CmdLineFormattingOption {
+ class FormattingOptions implementsFormattingOption {
+ class FormattingOptions extends Options {
+ class FormattingOption extends AbstractFormattingOption {
+ class CommandLineRunner implements CommandLineFormattingOption {
+ private final Set < String > formatOptions = new Set < String > {
+ static class FormattingOptions extends CompilerOptions {
+ private final Set < String, String > options = new HashSet ( ) {
+ class FormattingOption extends CompilerFormattingOption {
+ class CommandLineRunner extends CommandLineRunner{
+ class CommandLineRunner implements CommandLineRunner interface{
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. print = true ; }
+ class DefaultFormattingOption {
+ private final Set < String > options = new HashSet < String > ( ) ; }
+ class CommandLineOptions implements CommandLineOptionsWithFormattingOption {
+ private final Set < String > options = new Set ( ) {
+ private final Set < OptionDef > options = new HashSet < OptionDef > ( )
+ class Flags(){
+ private final Set < String > options = new HashSet <> ( ) ; {
+ private final Set < String > formatOptions = new Set ( ) ;
+ class FormattingOption {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. formatting = {
+ public static Set < String > options = new Set < String > ( ) { class FormattingOptions {
+ public static Set < String > options = new Set < String > ( ) { class FormattingOption {
+ private final Set < String > options = new HashSet <> ( ) ; }
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. format = {
+ private final Set < String > options = new Set <> ( ) {
+ class CommandLineRunner extends CommandLineRunnerWithFormattingOption {
+ private final Set < String > options = new HashSet <> ( {
+ private final Options options = new Options ( ) { class FormattingOption extends {
+ class FormattingOption extends DefaultFormattingOption {
+ class CommandLineRunner implements CompilerOptionsFormattingOption {
+ class CommandLineRunner implements CommandLineRunner { {{{
+ private final Set < String > options = new HashSet < String > ( ) { }
+private static enum FormattingOption Set(String[] args) { enum
+ private final Options options = new Options ( ) { options. prettyPrint = false ; options. printer = {
+ private final Set < String > options = new Set ( ) ;
+ private final Options options = new Options ( ) { options. prettyPrint = false ; }
+private static  Set < String, boolean > { enum
+ private final Set < String > options = new HashSet <> ( )
+private static  final boolean
+ class CommandLineRunner extends CommandLineOptions interface{
+private static enum FormattingOption Set(String[] args) { private int
+ class FormattingOptions {static enum FormattingOption {
+ class FormattingOptions extends AbstractFormattingOption {
+ private Class <? extends CompilerOptions > const{
+ class FormattingOptions extends CompilerFormattingOption {
+ public static Set < String > options = new Set < String > ( ) { return options ; } }
+ class FormattingOptions=enum FormattingOption {
+ private final Set < String, String > options = new HashSet ( ) ; {
+ private final Set < String > formattingOptions = {
+ static class FormattingOptions extends Options {
+ private Class <? extends CompilerOptions > struct{
+ class CommandLineRunner implements CommandLineRunnerFormattingOption {
+ class CommandLineOptions implements CompilerOptionsFormattingOption {
+ private final Options options = new Options ( ) { options. prettyPrint = false ; } {
+ class FormattingOptions implements CompilerFormattingOption {
+ class FormattingOption extends OptionFormattingOption {
+ class FormattingOption extends Options {
+ private final Set < String > options ;
+ class CommandLineRunner implements CommandLineOptions interface{
+ static class Flags {
+ class FormattingOption extends BaseFormattingOption {
+ class CommandLineRunner extends CommandLineRunner interface{
+ class CommandLineRunner extends CommandLine{
+ public static Set < String > options = new Set < String > ( ) { return null ; } }
+ class FormattingOptions extends OptionDef {
+ class CommandLineRunner implements CommandLineRunner { #{
+ class CommandLineRunner implements CommandLineRunnerContract{
+ class FormattingOption extendsFormattingOption {
+ private final Options options = new Options ( ) { options. prettyPrint = true ; } {
+private static enum FormattingOption  { enum
+ private final Set < String > options = new Set ( ) ; }
+ class FormattingOptions(enum FormattingOption {
+ class CommandLineRunner implements CommandLineRunner implements CommandFormattingOption {
+ class FormattingOptions extends CommandLineOptions {enum FormattingOption {
+ class CommandLineRunner implements CommandLineOptionsWithFormattingOption {
+ class CommandLineRunner implements CommandLineRunner implements AbstractFormattingOption {
+private static enum FormattingOption Set() { enum
+ public static Set < OptionDef > options = new Set < OptionDef > ( ) { } {
+ class CommandLineRunner implements CompilerOptions. CommandFormattingOption {
+ Class FormattingOptions {
+ class CommandLineRunner implements CommandLineRunner implements DefaultFormattingOption {
+private static  Set<String, boolean>
+ public static Set < String > options = new HashSet < String > ( ) { } {
+ private final Set < String > options = {
+ class CommandLineRunner extends CommandLineRunner { {{{
+ public static Set < String > options = new HashSet < String > ( ) ; } {
+ class CompilerFormattingOption {
+private  static int
+ class CommandLineRunner extends CommandLineOptions{
+private static enum FormattingOption Set { private int
+private static  Set < String, String > { enum
+ class FormattingOptions extends Flags {
+private static enum FormattingOption Set(String[] args, boolean this) enum
+ class CommandLineRunner implements CommandLineRunner implements OptionFormattingOption {
+private static enum FormattingOption Set(String[] args) { private enum
+ private final Set < String > options = new Set ( ) { }
+ class FormattingOptions = {
+ static class FormattingOptions extends CompilerOptions { }
+private static  Set < String, boolean > =
+ private final Set < String > formatOptions = new Set ( {
+private static enum FormattingOption Set(String[] args) { int
+ private final Set <? extends CompilerOptions > options = { }
+ class CommandLineRunner extends Runner interface{
+private static enum  setOptions(String[] args) { enum
+private static enum FormattingOption Set() { private int
+ class CommandLineRunner implements CmdLineRunnerFormattingOption {
+ class CommandLineRunner extends Options{
+ static class FormattingOptions implements CompilerOptions { } {
+ public static Set < String > options = new HashSet < String > ( ) ; } { }
+ private Set < String, boolean > { enum
+private static  Set < String, boolean > *
+ class Flags{
+ private final Options options = new Options ( ) { options. printPrettyPrint = false ; } } { }
+ class CommandLineRunner {
+ class FormattingOption extends CommandLineOptions {enum FormattingOption {
+private static enum FormattingOption Set(String[] options) { enum
+ private final Options options = new Options ( ) { options. printPrettyPrint = true ; } } { }
+private static  Set < String, Boolean > { enum
+ public static Set < String > options = new HashSet < String > ( ) { } { }
+private static  Set < String, boolean > { class
+private static  Set < String, String > options { enum
+ private final Set < String > formatOptions = new Set ( )
+private static enum FormattingOption Set { private boolean prettyPrint,
+ class Formatting {
+private static  Set < String > { enum
+ class CommandLineOptions[]{
+ private final Set < String > formatOptions = null ; }
+ class CommandLineOptions extends Options{
+ class CommandLineRunner implements CommandLine{
+ static class FormattingOptions {
+ class FormatOptions {
+ static class FormattingOptions implements CompilerOptions { }
+ public static Set < String, String > { privatestatic enum FormattingOption {
+ public static Set < String > options = new HashSet < String > ( ) ; } } {
+ private final Set < String > formattingOptions = null ; }
+ class CommandLineRunner interface{
+private static  Set < String, String > options = { enum
+ class CommandLineOptions {
+ public static Set < String > options = new HashSet <> ( ) ; } { }
+private static enum FormattingOption Set implements { private boolean prettyPrint, boolean
+private static enum FormattingOption Set { enum
+ public static Set < String > options = new HashSet < String > ( ) { } } {
+ public static Set < String > options = new Set < String > ( ) { class FormattingOption {}
+ class FormattingOptions extends CommandLineOptions { privatestatic enum FormattingOption {
+ private Set<String, boolean>
+ private final Set < String > formattingOptions = { }
+ private final Set < String > options = { }
+ private Set < String, String > { enum
+ private final Set < String > options = null ; }
+private static  Set<String, Boolean>
+ private Set < String, String > options; enum
+private static enum FormattingOption Set(String[] options) { private int
+ class FormattingOption = {
+ static class Flags {static enum FormattingOption {
+ class CompilerOptions[]{
+ private Class <? extends Options > const{
+private static enum FormattingOption Set { private boolean prettyPrint; enum
+private static enum FormattingOption Set(String[] args) { private static int
+ class CommandLineRunner implements CommandLineOptions{
+private static enum FormattingOption Set(String[] args, boolean this): int
+ class Flags implements CompilerFormattingOption {
+private static enum FormattingOption Set(String[] args,
+ private final Set < String > formatOptions = { }
+ public static Set < String > {enum FormattingOption {
+ private Set < String, String > options { enum
+private static enum FormattingOption Set(String[] args, boolean this) {
+private static  Set < String, String > optionsSet { enum
+private static enum FormattingOption Set(String[] args) { private char
+ private Set < String, String > options = { enum
+ public static Set < String > options = { privatestatic enum FormattingOption {
+ private class Flags {static enum FormattingOption {
+private static enum FormattingOption Set() { private boolean applyToOptions() throws
+private static enum FormattingOption Set { private boolean prettyPrint, boolean
+ class FormattingFlags implementsFormattingOption {
+ class CommandLineOptions interface{
+private static enum  < String, boolean > =
+private static enum FormattingOption Set() { int
+private static  Set < String, String > options ; enum
+private static enum  < String,? extends CompilerOptions > {
+private static enum  < String, boolean > { enum
+ static class FormattingOptions implements CompilerOptions { } abstract
+private static enum FormattingOption Set(int) { enum
+ class FormattingOptions extends CommandLineOptions { abstractenum FormattingOption {
+ <DC>
+ class CommandLineRunner(){
+private static  Set < String, boolean > options { enum
+ private void setOptions() {static enum FormattingOption {
+private static  Set < String >
+ class CommandLineRunner extends Runner{
+ class Flags[]{
+ private final Set < String > options ; }
+ private Set < String, String > options; int
+private static  Set < String, String > options { class
+private static enum  setOptions ( String [] args ) { private enum
+ public static Set < String > { privatestatic enum FormattingOption {
+private static enum  setOptions ( String [] args ) { private int
+private static enum  setOptions(String[] args,
+private static  Set < String, boolean
+ class CommandLineRunner implements interface{
+ private Set < String, String > optionsSet { enum
+ private Set < String, boolean> =
+ private Set < String, Boolean > { enum
+ private Set < String, boolean > { class
+private static enum  < String, String > { enum
+ public static Set < String, String > formatOptions = { {
+private static enum  setOptions(String[] args) { int
+ class CommandLineRunner extends RunnerContract{
+private static enum  Options { private boolean prettyPrint; enum
+ private Set < String, String > options { class
+ public static Set < String > formatOptions = &enum FormattingOption {
+ class CommandLineFormattingOption {
+ static class FormattingOptions implements CompilerOptions { } class
+private static  Set < String, String > options = enum
+ class FormattingOptionenum FormattingOption {
+ class Flags implements AbstractFormattingOption {
+ class FormattingOption implements FormattingOption { abstractenum FormattingOption {
+ private Set < String, boolean> *
+ class CommandLineRunner extends Command{
+private static  Set < String, boolean > options = { enum
+ public static Set < String > options { privatestatic enum FormattingOption {
+ private final Set < String > options {
+private static enum FormattingOption Set(int) { int
+ public static Set < String > options = { }
+ public static Set < String > options = {static enum FormattingOption {
+private static enum  < String, String > { private int
+ class Flags implements CommandFormattingOption {
+private static enum FormattingOption  { private boolean prettyPrint, boolean
+private static enum FormattingOption  { private int
+ private Options [] options = new Options ( ) { enum
+ class Flags extends CommandFormattingOption {
+ class FormattingOption extends CommandLineOption { abstractenum FormattingOption {
+ private Set < String > { enum
+private static enum FormattingOption  { private boolean prettyPrint; enum
+private static enum FormattingOption Set(String[],
+private static enum  < String,? extends CompilerOptions > =
+ class CommandLineRunner{
+private static enum FormattingOption Set(String[] { int
+private static enum FormattingOption Handler() { enum
+ class CmdFormattingOption {
+ static class FormattingOptions extends Options { }
+ private Set < String, String > options = enum
+private static enum  Options { private boolean prettyPrint; int
+ private Set < String > options,
+ class FormattingOption extends CommandLineOptions { abstractenum FormattingOption {
+ public static Set < String,enum FormattingOption {
+ class CommandLineRunner extends Options interface{
+private  static boolean
+private static enum  < String, String > =
+private static enum FormattingOption Set(String[])
+ private Set < String, String > optionsSet { class
+private static enum  < String, String, String > { enum
+ private static void options = {static enum FormattingOption {
+ class FormattingOptions extends CommandLineOptions_enum FormattingOption {
+private static  Set < String, String > options ; { enum
+ class Flags interface{
+ public static Set < String > options = &enum FormattingOption {
+private static enum FormattingOption Handler { enum
+ class CommandLineOptions{
+ class Flags extends AbstractFormattingOption {
+ private Set < Option > options,
+ class FormattingOption {static enum FormattingOption {
+private static  Set < Option > { enum
+ private class Flags(enum FormattingOption {
+ class FormattingFlagsenum FormattingOption {
+private  Set < String, boolean
+private static  Set < String, String > options = { global
+ private Set < String, String > options ; { enum
+ class FormattingOption {enum FormattingOption {
+ class Flags(enum FormattingOption {
+ public class Flags {
+ private class DefaultFormattingOption {
+ class FormattingOptions extends Options { #enum FormattingOption {
+ class Flags implements DefaultFormattingOption {
+private static enum  < String, String > options = { enum
+ static class FormattingOptions extends Options { privatestatic enum FormattingOption {
+ class FormattingOptions extends CommandLine { privatestatic enum FormattingOption {
+private static enum  setOptions(String[] args) { global
+ class FormattingOptions extends Options { privatestatic enum FormattingOption {
+private static enum FormattingOption Set(int) int
+ public Class <?>enum FormattingOption {
+private static enum FormattingOption Set(int) =
+private static enum  Options { private boolean prettyPrint; boolean
+private static enum  { enum
+ class FormattingOption extends Options { abstractenum FormattingOption {
+private static  Set < String, int
+private  final int
+ class FormattingOptions extends CommandLineOption { privatestatic enum FormattingOption {
+ public class Flags(enum FormattingOption {
+private static enum FormattingOption  { private boolean prettyPrint; int
+private static enum FormattingOption Handler() { int
+private static enum  < String, String > { private enum
+private static enum  < String, boolean >
+private static enum FormattingOption Handler(int
+ private void setFormattingOptionsenum FormattingOption {
+private static enum  < String, Boolean > =
+private static enum  < String, Boolean > { enum
+ class SimpleFormattingOption {
+private static enum  setOptions(String[] { int
+ public static Set < String,?enum FormattingOption {
+ private class Flags[]{
+ private void setFormatting(enum FormattingOption {
+ class FormatOptions(){
+ private Set < Option > { enum
+ public static Set < String > <enum FormattingOption {
+ private class Flags(){
+private static enum  < String, boolean > {
+ class Flags={
+ public static Set < String > options ; {static enum FormattingOption {
+ static class FormattingOptions = { privatestatic enum FormattingOption {
+ private Options[]{
+ class FormattingOptions { privatestatic enum FormattingOption {
+private static enum FormattingOption  { private boolean prettyPrint; boolean
+ class Flags<enum FormattingOption {
+ private static{
+private static  boolean options; enum
+ protected Options [ ] { enum
+ public static Set < String > |enum FormattingOption {
+ class FormattingOption extends Option { abstractenum FormattingOption {
+private static enum  Options { enum
+private static enum  options = { } { enum
+private static enum  FormatOptions { enum
+ public static Set < String > { classenum FormattingOption {
+ class FormattingOptions implements Options { #enum FormattingOption {
+ class Flags=enum FormattingOption {
+private static enum  options = { enum
+ private void options ( ) { privatestatic enum FormattingOption {
+private static enum  < String, Boolean >
+private static enum  Options { private int
+ private void options = {static enum FormattingOption {
+ class FormattingOptions { #enum FormattingOption {
+ private boolean prettyPrint; boolean
+ private int options = { enum
+private static  Set < String> *
+ class FormattingOption extendsenum FormattingOption {
+ class FormattingOptions extends Flags { privatestatic enum FormattingOption {
+ private class Flags abstractstatic enum FormattingOption {
+private static  boolean [ ]
+ private enum
+private static enum  Options = { enum
+ class CompileFormattingOption {
+ class FormattingOptions = { }
+private  Set < String, int
+ private boolean prettyPrint; enum
+ protected Options { enum
+private static  boolean options; boolean
+ private boolean prettyPrint; int
+private static enum  options = enum
+private static  int { enum
+ static class Flags { privatestatic enum FormattingOption {
+ private Options { enum
+ private boolean
+ public class Flags {static enum FormattingOption {
+ private int options; int
+ static class FormattingOptions { }
+private  final boolean
+ static class FormattingOptions extends Options { { abstractstatic enum FormattingOption {
+ class FormattingOptions = { privatestatic enum FormattingOption {
+ class FormattingOptions { }
+private static  boolean options; int
+ private String
+private static  boolean [],
+ private boolean options; boolean
+private  Set < String> *
+private static enum  Options { private enum
+ private boolean options; enum
+ class FormattingOption { }
+ protected static int
+ protected int
+private static  void { enum
+ class FormattingOption { privatestatic enum FormattingOption {
+private static enum FormattingOption  { private enum
+ private OptionsOptions { enum
+private static enum  < String > { enum
+ public Options { enum
+ public static{
+ private void options = { privatestatic enum FormattingOption {
+ class OptionFormattingOption {
+ class Flags { privatestatic enum FormattingOption {
+ private void options = privatestatic enum FormattingOption {
+ private {{{
+private  static enum
+private  void options =
+ private void { enum
+private static  final Options
+private static enum  { private int
+ public {{{
+private static  final String
+private static enum FormattingOption  { class
+private static enum  {int
+ class CommandFormattingOption {
+private static  final short
+private static enum  defaults = enum
+ class HasFormattingOption {
+private  boolean options; int
+private static enum  {} { enum
+ private void {int
+ private class Optionsenum FormattingOption {
+ class Options(enum FormattingOption {
+private static enum  Flags =
+private static enum FormattingOption  { int
+ <code>
+private static enum FormattingOption [] =
+private static enum  { case
+ <pre>
+private  Options { class
+private static enum FormattingOption  { const
+ private java.static enum FormattingOption {
+ private class Nonstatic enum FormattingOption {
+ private class Outerstatic enum FormattingOption {
+ private java:static enum FormattingOption {
+ private class <static enum FormattingOption {
+ static {
+ private classenum FormattingOption {
+ private ^enum FormattingOption {
+ static final
+ { <static enum FormattingOption {
+ static class
+ } {
+ {
+ final

@@ -1,0 +1,626 @@
+ungetBuffer[ungetCursor++] = c;
+ungetBuffer ( ) ;
+ c=c;
+ if (c == '<') { return JsDocToken.LT;
+ungetBuffer(c); if (c == '.')
+ if (c == '<') { return JsDocToken.LT
+ if (c == '.') { c = getChar(); } else {
+ if (c == '.') {
+ if (c == '.') { return JsDocToken.STRING;
+ungetBuffer[ungetCursor++] =  c; } else {
+ if (c == '<') { return JsDocToken.STRING;
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken.LT};
+ if (c == '<') { return JsDocToken.LF;
+ if (c == '<') { return JsDocToken.LT; } else { return JsDocToken.STRING;
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken.LT;
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken; }
+ if (c == '.') { return JsDocToken.LT;
+ if (c == '.') { c = getChar(); }
+ungetBuffer[ungetCursor++] = c; if (c == '.')
+ if (c == '<') { return JsDocToken;
+ if (c == '<') { return JsDocToken.LEFT;
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken.LT;}
+ungetBuffer[ungetCursor++] = c ; if ( c == '.' ) {
+ if (c == '.') { c = getChar(); if (c == '.') {
+ if (c == '.') { c = getChar(); if (c == '<') { } else {
+ if (c == '.') { buffer[ungetCursor++] = c;
+ if (c == '.') {
+ if (c == '.') { c = getChar(); if (c == '<') { c = '<'; }
+ if (c == '.' && c == '<') { ungetChar(c);
+ if (c == '<') { return JsDocToken.LT; }
+ if (c == '.') { break;
+ c = '.';
+ if (c == '.') { c = getChar(); if (c == '.') { c = '.';
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken;
+ if (c == '.') { c = getChar(); if (c == '.') { } else {
+ if (c == '.') { c = getChar(); if (c == '<') { c = '<';
+ if (c == '.' || c == '<') { ungetChar(c);
+ungetBuffer[ungetCursor++]; } else {
+ if (c == '.') { c = '.'; } else {
+ if (c!= '.') { c = getChar(); } else {
+ if (c == '.') { c = getChar(); if (c!= '.') {
+ungetBuffer[ungetCursor++]; if (c == '.') {
+ if (c == '.') { c = getChar(); } else
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken. }
+ if (c == '.') { ungetChar(c);
+ungetBuffer[ungetCursor++]; if (c == '.')
+ if (c == '.') { c = getChar(); if (c == '<') { c = '.';
+ if (c == '.') { c = getChar(); if (c == '<') { break; }
+ if (c == '.') { c = getChar();
+ if (c == '.') { return JsDocToken.LT
+ if (c == '.') { c = '.' ; } else {
+ if (c == '.')
+ if (c == '.') { return JsDocToken;
+ if (c == '.') { c = getChar(); if (c == '<') { c = '.'; }
+ if (c == '.') { c = getChar(); if (c == '<') {
+ if (c == '.') { c = getChar(); if (c == '.')
+ if (c == '.') { ++c;
+ if (c == '.') { c = '.';
+ if (c == '.') { c = getChar(); if (c == '>') { c = '>'; }
+ if (c == '.') { c = getChar(); if (c == '>') { c = '>';
+ if (c == '.') { c = getChar(); } else { c = '.';
+ if (c == '.') { c = '.' ;
+ if (c == '.') { c = getChar(); if (c == '<') { c = '>'; }
+ if (c!= '.') { buffer[ungetCursor++] = c;
+ if (c == '.') { if (ungetBuffer)
+ if (c == '.') { c = getChar(); if (c!= '.')
+ if (c == '.') { c = getChar(); if (c == '<') { c = '>';
+ if (c == '.') { ungetChar(c2);
+ if (c == '.') { c = getChar(); if (c == '.') { break; }
+ if (c == '.') { c = getChar(); if (c == '<') { continue; }
+ if (c == '.') { c = getChar(); if (c == '<') { return null; }
+ungetBuffer[c]); if (c == '.')
+ if (c == '<') { c = '.';
+ if (c == '.') { c = getChar(); ungetCursor++ =
+ if (c == '.') { c = getChar(); if (c == '<') { break }
+ if (c == '.' && c == '<') { ungetBuffer();
+ungetBuffer[c]); if (c == '.') {
+ if (c == '.') { c = getChar(); if (c == '<') { return JsDocToken. };
+ if (c == '.') { } else {
+ if (c == '.' && c == '<') {
+ if (c == '<') { c = '>';
+ungetBuffer[ungetCursor++]  = '.';
+ if (c == '.') { c = getChar(); } }
+ungetBuffer(c); if (c == c)
+ if (c == '.') { c = getChar(); ungetCursor++ --;
+ if (c == '.') { c ++;
+ if (c == '<') { return JsDocToken.<
+ if (c == '.') { c = getChar(); ungetCursor++++;
+ if (c == '.' || c == '<') { } else {
+ungetBuffer(c); if (c == '')
+ if (c == '.' || c == '<') { ungetBuffer();
+ if (c == '.') { if (c == '<') { c = '<';
+ if (c == '.' && c!= '.') {
+ if (c!= '.') {
+ungetBuffer[0];
+ if (c!= '.') { ++c;
+ if (c == '.') { c = c ;
+ungetBuffer[c]; if (c == '.')
+ if (c == '.') { if (c == '<') { } else {
+ if (c == '.') { c = getChar(); if (c == '<') { break;
+ if (c == '.') { if (c == '<') break;
+ungetBuffer ( buffer ) ;
+ if (c == '<') { return JsDocToken();
+ if (c == '.') { prev=c;
+ if (c == '<') { return JsDocToken.
+ungetBuffer(c); if (c!= '.')
+ if (c == '.') { if (c == '<') { break; }
+ungetBuffer[ungetCursor++]  = c ; break ; default :
+ if (c == '.' && c == '<') { ungetCursor++;
+ungetBuffer[ungetCursor++] =  c; if (c == '<') {
+ if (c == '.') { ungetCursor =
+ if (c == '.') buffer[ungetCursor++] = c;
+ if (c == '.') { break; }
+ungetBuffer[ungetCursor] = c; } else {
+ungetBuffer(c2); if (c == c)
+ if (c == '.') { if (c == '<') { break }
+ungetBuffer(c, '.');
+ if (c == '.') { if (unget)
+ungetBuffer(c); if (c == 0)
+ if (c == '.' && c == '<') { ungetBuffer++ =
+ if (c == '.') { line[ungetCursor++] = c;
+ if (c == '.') { if (c == '<') { break;
+ if (c == '.') { line[] = c;
+ if (c == '.') { --c;
+ if (c!= '.') { prev=c;
+ if (c == '.') { string[ungetCursor++] = c;
+ if (c == '.') { stringBuffer[ungetCursor++] = c;
+ if (c == '.') { ungetBuffer();
+ if (c == '.') { c = getChar(); if (c == '<') { } else
+ if (c == '.') { } else {
+ if (c!= '.')
+ if (c == '.' && c == '.')
+ if (c!= '.') { break;
+ buffer[ungetCursor++] = c;
+ if (c == '.') { start= c;
+ungetBuffer(c1); if (c == c)
+ if (c == '.' || c == '<') { ungetBuffer++ =
+ if (c == '.') { if (true)
+ungetBuffer ( c ) ;
+ if (c == '.') { line[++] = c;
+ if (c!= '.') { c=c;
+ if (c == '.' && c == '<') { ungetBuffer &&
+ if (c == '.') { c = getChar(); ungetCursor++++ =
+ungetBuffer[ungetCursor++]  = c; if (c == c)
+ if (c == '.') { c = getChar(); if (c == '<') { } }
+ungetBuffer(c); if (c == '.'
+ if (c == '.') { c = getChar(); if (c == '<') break; }
+ungetBuffer(c); if (c == ',')
+ungetBuffer(c); } else {
+ungetBuffer[ungetCursor++]  = c; if (c == '')
+, if (c == '.') {
+ if (c < '.') { ++c;
+, if (c == '.') { break;
+ungetBuffer[ungetCursor++]; if (c == c)
+ if (c == '.') { return c;
+ if (c == '.') { lineBuffer[ungetCursor++] = c;
+ if (c == '.') { c --;
+ if (c == '.' || c == '<') { ungetBuffer &&
+ if (c!= '.') buffer[ungetCursor++] = c;
+ if (c == '.') { c = getChar(); if (c == '<') { }
+ if (c!= '.') { c ++;
+ungetBuffer[ungetCursor] = c;
+ if (c == '.') { pos= c;
+ if (c == '<') { break;
+ if (c == '<') { break; }
+ungetBuffer[ungetCursor();] = c; } else {
+ if (c == '.') { text[ungetCursor++] = c;
+ if (c == '.') { string[++] = c;
+ if (c == '.') [ungetCursor++] = c;
+ if (c!= '.') { stringBuffer[ungetCursor++] = c;
+ungetBuffer(c); if (c == ')'
+ if (c!= '.') { } else {
+ if (c == '.') { ungetChar(c); }
+ if (c == '.') ++c;
+ if (c!= '.') {
+ if (c == '.') { break; }
+ if (c == '.') prev= c;
+ungetBuffer[ungetCursor++] = c; if (c!= '.') {
+ if (c!= '.') { --c;
+ if (c == '.') { c = '.'; }
+ungetBuffer[c] = true;
+ungetBuffer[ungetCursor++]; } else { c = '.' ;
+ if (c == '.') { ungetBuffer =
+ if (c == '.') { stringBuffer++] = c;
+ if (c == '.') { [ungetCursor++] = c;
+ungetBuffer[ungetCursor++]  = c; if (c!= '.')
+ungetBuffer(c2); } else {
+ if (c == '.') { buffer[] = c;
+ if (c == '.') { c = getChar(); if (c == '<') { break; } }
+ungetBuffer[ungetCursor] = c ; break ; default :
+ if (c == '.') { lines[ungetCursor++] = c;
+ungetBuffer[ungetCursor++] = c ; if ( c == '<') break;
+ if (c == '.') returnc;
+ if (c == '.') { '] = c;
+ if (c == '}') {
+ungetBuffer[] = c;
+ if (c!= '.') { line[] = c;
+ungetBuffer[c]); if (c == '<') {
+ if (c == '.') { continue;
+ungetBuffer(c); if (c) {
+ if (c!= '.') ++c;
+ if (c == '.') { c = getChar(); } else { c = '<'; }
+ if (c!= '.') { lineBuffer[ungetCursor++] = c;
+ungetBuffer[c]); if (c!= '.') {
+ if (c == '.') { continue; }
+, if (c == '.') { buffer[ungetCursor++] = c;
+ if (c == '.') { prev.= c;
+ungetBuffer[ungetCursor++]  = c; } } else {
+ if (c == '.') { line.= c;
+ if (c!= '.') [ungetCursor++] = c;
+ if (c == '.') this[ungetCursor++] = c;
+ if (c == '.') { ungetChar(c) }
+, if (c == '.') break;
+ if (c!= '.') { start= c;
+ungetBuffer[ungetCursor++]; if (c == '')
+ungetBuffer[ungetCursor++]  = c; }
+ } else { c = '.';
+ if (c!= '.') { line[++] = c;
+ if (c == '.') { break;
+ungetBuffer(c1); } else {
+ if (c == '.') { line *= c;
+ if (c == '.') { ungetChar(c); } else
+ if (c == '.') { line += c;
+ if (c == '.') { c = getChar(); if (c == '<') { break; } else
+ if (c == '.') { [++] = c;
+ if (backtrack) {
+ if (c == '.') { last |= c;
+ if (c == '.') { c = getChar(); if (c == '.') { }
+ if (c == '.') { '[] = c;
+ungetBuffer[ungetCursor(c))]; if (c == c)
+ungetBuffer[ungetCursor++]  = c; break; } else {
+ if (c == '.' && c == '<')
+ungetBuffer ( c ) ; break ; default :
+ if (c == '.') { c = getChar(); if (c == '<') { return null; };
+ if (c == '.') { "[] = c;
+ungetBuffer[c]); } else { c = '.' ;
+ if (c == '.') { [] = c;
+ungetBuffer[c]); if (c == '}') {
+ if (c == '.') { c = getChar(); if (c!= '.') { }
+ } else { c = c;
+ungetBuffer[ungetCursor(c) + 1];
+ if (c!= '.') { string[++] = c;
+ungetBuffer[ungetCursor++]; break ; default :
+ else { c = '.';
+ if (c == '.') break loop;
+ungetBuffer[0] = c;
+ungetBuffer[c]); if (c!= '.')
+ungetBuffer[c]); if (c == c)
+ } else { this.stringBuffer[] = c;
+ungetBuffer[c] = false;
+ungetBuffer[c]; if (c == c)
+ if (c!= '.') this[ungetCursor++] = c;
+ if (c!= '.') returnc;
+ if (c!= '.') { '] = c;
+ if (true) {
+ungetBuffer[ungetCursor();] = c;
+ if (c == '.') { [1] = c;
+ if (c == '.') { ungetChar(c); } }
+ if (c == '.') { break; } }
+ if (c == '.') { pos++] = c;
+ungetBuffer[ungetCursor] = c; } } else {
+ if (c == '.') { ungetChar(c2); }
+ungetBuffer[ungetCursor(c))]; if (c == '')
+ if (c == '.') string[ungetCursor++] = c;
+ungetBuffer[ungetCursor(c))]; if (c == 0)
+ if (c == '.') --c;
+ if (c == '.') { line++] = c;
+ungetBuffer[c] = c;
+ if (c == '.') { c = '.'; } else
+, e.g. Array.< int
+ if (c == '.') { break; } else
+ungetBuffer[c] = '.';
+ } default: { c = '.';
+ungetBuffer[c] if (c == c)
+ if (c == '.') text[ungetCursor++] = c;
+ if (c!= '.') prev= c;
+ungetBuffer[c]); if (c == '')
+ungetBuffer[c]; if (c!= '.')
+ungetBuffer[ungetCursor(c)];
+ if (c == '.') { "[++] = c;
+ungetBuffer(c2); } } else {
+ungetBuffer[ungetCursor();] = c; break ; default:
+ungetBuffer[ungetCursor(c))];
+ if (c == '.') line[++] = c;
+ if (c == '.') { if (ungetBuffer())
+ungetBuffer[ungetCursor++] = c; if (c == '<') { return
+ungetBuffer[i] = c;
+ if (c!= c) {
+ungetBuffer[c]); if (c == '.'
+ungetBuffer[ungetCursor();] = '.';
+ungetBuffer[ungetCursor++]); } else {
+ c = ',';
+ungetBuffer[ungetCursor++]; if (c == '<') { return
+ungetBuffer[ungetCursor()] = c; break ; default :
+ungetBuffer[ungetCursor++]  = c; } default:
+ case '.': break;
+ if (c == '.') pos= c;
+ungetBuffer[ungetCursor();] = c; } } else {
+ungetBuffer[ungetCursor++]  = '.'; }
+ungetBuffer[ungetCursor++]  = c; } }
+ if (c == '.') start= c;
+ungetBuffer[ungetCursor++]  = c1;
+, c = '.';
+, this.string[i++] = c;
+ if (ungetBuffer)
+ if (c == '.') p= c;
+ if (c == '.') { } }
+, this.stringBuffer[this.ungetCursor++] = c;
+ungetBuffer[ungetCursor++]); if (c == '<') { return
+, so this.string[i++] = c;
+ungetBuffer[c] if (c) {
+ungetBuffer[ungetCursor++]; if (c == '.') { return
+ c = ' ';
+ } else { this.string[ungetCursor++] = c;
+ if (c == '.') { break }
+ungetBuffer[ungetCursor++] = c; if (c == '<') { break
+ungetBuffer[ungetCursor++]  = c; } else
+ if (c > '.')
+ if (c == '.') { } else
+ if (backtrack) { prev= c;
+, this.string[i] = c;
+ungetBuffer[ungetCursor++]  = c ; break ; }
+, so this.string[i] = c;
+ break c = '.';
+ } else { this.string[i] = c;
+, this.stringBuffer[i++] = c;
+ } else { c = '<';
+ line[i++] = c;
+ungetBuffer[c]); if (c == '.'))
+ungetBuffer[ungetCursor++]  = c ; break ;
+, so this.stringBuffer[i++] = c;
+ungetBuffer[ungetCursor] = c ; break ; }
+, so this.string[ungetCursor++] = c;
+, if (c == '.' break;
+ } else { this.string[i++] = c;
+ungetBuffer[ungetCursor();] = c; }
+ if (backtrack) { start= c;
+, so stringBuffer[i++] = c;
+. this.stringBuffer[i++] = c;
+. this.stringBuffer[] = c;
+ if (c!= c) buffer[ungetCursor++] = c;
+ } else { this.lines[i] = c;
+ } else { this.stringBuffer[++] = c;
+, this.stringBuffer[ungetCursor++] = c;
+, c = c;
+, this.string[ungetCursor++] = c;
+ } else { c = ',';
+ungetBuffer[ungetCursor++]; break ; default : {
+ungetBuffer[1];
+ } default: { c = c;
+ungetBuffer[ungetCursor++]  = '}' ;
+ c ++;
+ in this case c = '.';
+ } else { this.buffer[ungetCursor++] = c;
+ if (c == '<') { }
+ if (c == '<') { return
+ } else { stringBufferTop++] = c;
+ if (c < 0) buffer[ungetCursor++] = c;
+ if (backtrack) { buffer[ungetCursor++] = c;
+ungetBuffer[ungetCursor++]  = c; } else { break ; }
+ if (c == '.') { }
+ungetBuffer[ungetCursor() + 1] ;
+ungetBuffer[ungetCursor++]; } else { break ;
+ if (c == '.')= c;
+ string[i++] = c;
+ if (c!= c)
+ if (c > 0) buffer[ungetCursor++] = c;
+ } else { this.lines[ungetCursor++] = c;
+ungetBuffer[ungetCursor++]  = c; if (c == c){
+ else { c = ',';
+ungetBuffer[ungetCursor(c))]; if (c == c))
+ } else { stringBuffer[i++] = c;
+ lineBuffer[ungetCursor++] = c;
+ if (c == '.') { } }
+ if (c == '.' buffer[ungetCursor++] = c;
+ } else { this.string[pos++] = c;
+ } default: { c = ',';
+ } default: { c = 'c;
+, so this.stringBuffer[] = c;
+ if (c == '.')) [ungetCursor++] = c;
+ } else { this.comments[i] = c;
+ c = 'c;
+, so this.string[pos++] = c;
+ line[ungetCursor++] = c;
+ungetBuffer[ungetCursor] = c; } }
+ } else { this.stringBufferTop++] = c;
+ if (c == '.') { } else
+, so stringBuffer[i] = c;
+, this.string[pos++] = c;
+ungetBuffer[i];
+ungetBuffer[ungetCursor] = c; }
+ungetBuffer[ungetCursor++]  = c; if (c == c))
+ungetBuffer[ungetCursor(c))]; if (c == c){
+ } else { stringBuffer[++] = c;
+ungetBuffer[ungetCursor] = c; } else
+ c = prevc;
+ else { c = ' ';
+. this.string[i] = c;
+ } else { c = '';
+ungetBuffer[ungetCursor(c)]; }
+ } else { c = 'c;
+ if (backtrack) { pos= c;
+ungetBuffer[ungetCursor++]  = true;
+ungetBuffer(c); }
+, so this.stringBuffer[ungetCursor++] = c;
+ lineBuffer[i++] = c;
+ } else { return '.'+c;
+ungetBuffer[ungetCursor(c) + 1]();
+: c = 'c;
+ } default: { c = -c;
+ if (c!= c) prev= c;
+ case '<': break;
+ungetBuffer[ungetCursor++]; if (c == c))
+ungetBuffer[ungetCursor++]; } default:
+, so this.string[0] = c;
+, so this.lines[ungetCursor++] = c;
+ line[++] = c;
+ungetBuffer[ungetCursor++] = c; else
+ungetBuffer[ungetCursor();]
+, stringBuffer[i++] = c;
+ string[i] = c;
+ } else { buffer[ungetCursor++] = c;
+ } else { this.data[ungetCursor++] = c;
+ c = c2;
+, e.g. ['.'] = c;
+ungetBuffer[ungetCursor(c));
+ c += 1;
+ } else { break; c=c;
+ungetBuffer[ungetCursor();] ;
+, so stringBuffer[0] = c;
+, so this.string[index] = c;
+ } else { lineBuffer[ungetCursor++] = c;
+ line[i] = c;
+ } else { line[ungetCursor++] = c;
+ungetBuffer[ungetCursorPos] = c;
+ prevChar=c;
+ungetBuffer[ungetCursor++]  = false;
+ lineBuffer[++] = c;
+ if (c == '')
+ } default: { c |= c;
+ungetBuffer(c, '.'');
+. this.string[ungetCursor++] = c;
+ if (c == ')'
+ungetBuffer[ungetCursor++]  = c; break; default: {
+ungetBuffer[ungetCursor++]  = null;
+, so this.buffer[ungetCursor++] = c;
+ stringBuffer[i++] = c;
+ungetBuffer[ungetCursor++]  = c ; break ; default : break
+, stringBuffer[] = c;
+, this.lines[ungetCursor++] = c;
+ungetBuffer[ungetCursor++] ;
+ungetBuffer[ungetCursor++] = c + 1;
+ } default: { c1=c;
+ungetBuffer[0]();
+ungetBuffer[ungetCursor] ;
+, so stringBuffer[] = c;
+ line [1] = c;
+, stringBuffer[i] = c;
+ string[pos++] = c;
+ stringBuffer[ungetCursor++] = c;
+ungetBuffer[ungetCursor++]  = c; break ; default : return
+ buffer[i++] = c;
+: c = '.'c;
+ linebuffer[ungetCursor++] = c;
+ if (c == '.') { }
+ if (false) {
+ungetBuffer ( c ) ; break ; } }
+ line[0] = c;
+ { c = 'c;
+: c = -c;
+: case '.':c;
+ } default: { c *= c;
+ungetBuffer[ungetCursor(c]);
+: break; c=c;
+ } default: { c ^= c;
+, stringBuffer[0] = c;
+ text[ungetCursor++] = c;
+ } else { c |= c;
+ string[ungetCursor++] = c;
+: lineBuffer[ungetCursor++] = c;
+ if (c!= '.') { }
+ if (true)) {
+ungetBuffer[c] (c); }
+ if (c == '.') { return
+, e.g. Array.<>;
+ } else { } c=c;
+ return c;
+ungetBuffer(c, '.')
+ } else { this.strings[ungetCursor++] = c;
+ in this case c = 'c;
+ } default: { c2= c;
+: stringBuffer[ungetCursor++] = c;
+ungetBuffer[c] = '.'; }
+, e.g. Array.<>:
+, so stringBuffer[++] = c;
+ lineBuffer[pos++] = c;
+: case '.'=c;
+ungetBuffer[ungetCursor(c)]
+, so stringBufferTop++] = c;
+ } else { c = -c;
+ c = nc;
+ungetBuffer(c, '.';
+ungetBuffer ( c ) ; } } }
+, stringBuffer[pos++] = c;
+ungetBuffer[ungetCursor++] =  c2;
+ } default: { c.= c;
+ungetBuffer ( )
+ungetBuffer(c1); }
+, stringBuffer[1] = c;
+ textBuffer[ungetCursor++] = c;
+ungetBuffer(c); } else
+ungetBuffer[ungetCursor++] = c
+, but stringBuffer[] = c;
+, but buffer[ungetCursor++] = c;
+ prev=c;
+ungetBuffer[ungetCursor()];
+ungetBuffer[c];
+ungetBuffer[ungetCursor++]; break;
+ lines[ungetCursor++] = c;
+ } else {
+, but string[i++] = c;
+ungetBuffer[0] = c; }
+ n = c;
+ungetBuffer[ungetCursor] =
+ { '.'=c;
+ungetBuffer[c] = '.'; else
+ungetBuffer(c2); }
+ c = -c;
+ungetBuffer(c); } }
+ } else { c *= c;
+: c = prevc;
+ungetBuffer[0] = c; } }
+ungetBuffer[0] = c; } else
+ } else { c ^= c;
+ungetBuffer[i] = c; }
+ungetBuffer[ungetCursor(c);
+ } else { tokens[ungetCursor++] = c;
+ } else { string[ungetCursor++] = c;
+, string[i] = c;
+ i ++;
+ line = 0;
+, so buffer[ungetCursor++] = c;
+, line[i] = c;
+, line[0] = c;
+ungetBuffer(); }
+: linebuffer[ungetCursor++] = c;
+ line [] = c;
+ } else { break |= c;
+ } else { c.= c;
+ [1] = c;
+ungetBuffer(buffer); }
+ } } else { tokens[ungetCursor++] = c;
+ string[++] = c;
+: stringBuffer.= c;
+ } } else { buffer[ungetCursor++] = c;
+ n ++;
+ buffer[] = c;
+ungetBufferBuffer();
+, line[1] = c;
+ string[] = c;
+ungetBuffer[]();
+ } c |= c;
+ } break;
+ } prev |= c;
+ungetBuffer[ungetCursor++]; } else
+ [line++] = c;
+ prev |= c;
+ buffer[++] = c;
+ungetBuffer[ungetCursor++]; } }
+: } prev |= c;
+: stringBufferTop= c;
+ungetBuffer[ungetCursor++] = [];
+ lineArray[ungetCursor++] = c;
+ungetBuffer[ungetCursorPosition] = c;
+: prev.= c;
+ c |= c;
+, so c |= c;
+ } else { ^= c;
+ungetBuffer[0](); }
+ungetBuffer[](); }
+: c |= c;
+ungetBuffer[ungetCursor++] =
+ungetBuffer[] = c,
+ungetBuffer[ungetCursorIndex] = c;
+: c2= c;
+ prev.= c;
+ungetBuffer[0] =
+ungetBuffer[c](); }
+ line += c;
+ if (true) break
+ in this case:
+ for some reason:
+ungetBuffer[ungetCursor++]; }
+. lineBuffer[ungetCursor++] = c;
+ line *= c;
+ for some reason,
+ungetBuffer(); } }
+ c==c;
+ b=c;
+ in this case,
+ungetBufferBuffer(); }
+ungetBuffer[ungetCursor++]  = true
+ } default: {
+ungetBuffer[ungetCursorTop] = c;
+ungetBuffer[ungetCursor++]();
+. inputBuffer[ungetCursor++] = c;
+, so do
+ungetBuffer[ungetCursor++]  = false
+, so
+; buffer[ungetCursor++] = c;
+, so:
+, so {
+: buffer[ungetCursor++] = c;
+ } } }
+: line[ungetCursor++] = c;
+; string[ungetCursor++] = c;
+; tokens[ungetCursor++] = c;
+, but
+, like
+ } }
+. }
+ungetBuffer[ungetCursor++] += c;
+;
+:
+ungetBuffer[ungetCursor++] + c;
+ungetBuffer[ungetCursor++] return c;

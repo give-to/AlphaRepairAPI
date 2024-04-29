@@ -1,0 +1,480 @@
+return parseRecordType(next());
+ return next());
+ return parseRecordType());
+ return parseRecordType();
+ return parseRecordType(next);
+ return parseRecordType;
+ return parseRecordType(next));
+ return parseRecord(next());
+ return parseRecordType(next()));
+ return parseRecord());
+ return parseRecord(next);
+ return parseRecordType(next()); } else if (token == JsDocToken) {
+ return parseRecord(next));
+ return parseRecordType(next());;
+ return _parseRecordType(next());
+ return parseRecordType(next(token));
+ return next()));
+return parseRecordType(next()); } else { return parseType(token);
+ return parseRecordType(next()); } else if (token == JsDocToken.RR)
+ return (Node)parseRecordType(next());
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) {
+ return null;
+ return parse(next());
+ return parseCollectionType(next()); } else if (token == JsDocToken) {
+ return parseListType(next()); } else if (token == JsDocToken) {
+ return parseListType(next()); } else if (token == JsDocToken.RR)
+ return parseListType(next()); } else if (token == JsDocRecord)
+ return parseRecordType(next()); }
+ return parseCollectionType(next()); } else if (token == JsDocToken.RR)
+ } else if (token == JsDocToken.RECORD) { skipEOLs(); return parseRecordType(next()); } else
+ return parseRecordType(next()); } else if (token == JsDocToken)
+ return parseCollectionType(next()); } else if (token == JsDocToken.RR) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipEOLs(); }
+ return parseArrayType(next()); } else if (token == JsDocToken.RR) { skipEOLs(); } else {
+ return parseListType(next()); } else if (token == JsDocToken.RR) {
+ return parseRecord(next;
+ return parseCollection(next()); } else if ( token == JsDocToken.RR) { skipEOLs();
+ return parseList(next()); } else if ( token == JsDocToken.RR) { skipEOLs();
+ return parseCollectionType(next()); } else if (token == JsDocRecord)
+ } else if (token == JsDocToken.RECORD) { skipEOLs(); return parseRecord(next()); }
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORD) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipEOLs();
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORD) { skipEOLs();
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipEOLs(); } else {
+ next()));
+ return parseLC(next()); } else if (token == JsDocToken.RR) { skipEOLs(); }
+ return parseFunctionType(next()); } else if (token == JsDocToken.RECORD) { skipEOLs(); }
+ return parseListType(next()); } else if (token == JsDocToken.RECORD) {
+ return parseRecordType(next()); parseUnionType(next());
+return parseRecordType(next()); } else { return parseTypeName();
+ return parseCollection(next()); } else if (token == JsDocToken.RR) { skipEOLs(); }
+ } else if (token == JsDocToken.RR) { skipEOLs(); } else {
+ return parseRecordType(next(next()));
+ return parseListType(next()); } else {
+ } else if (token == JsDocToken.RECORD) { skipEOLs(); return parseRecordType(next()); }
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORDTYPE) {
+ return parseLC(next()); } else if (token == JsDocToken.REC) { skipEOLs(); }
+ return parseRecordType(next()); } else if (token == JsDocToken.REC)
+return parseRecordType(next()); } else { return parseArrayType();
+ } else {
+ return parseRecord(next());;
+ return parseRecordType(next()); } else if (token == JsDocToken.REC) {
+ return parseFunctionType(next()); } else if (token == JsDocRecord)
+ return parseListType(next()); } else if (token == JsDocRecord) {
+ return parseFunctionType(next()); } else if (token == JsDocToken.RR) { skipEOL();
+ return parseArrayType(next()); } else if (token == JsDocToken.RECORD) { skipEOLs(token);
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORD) { skipEOLs(token);
+ return parseRecord();
+ return parseFunctionType(next()); } else if (token == JsDocToken.RR) { skipEOLs(token);
+ return parseLCType(next()); } else {
+ return parseCollection(next()); } else if (token == JsDocToken.RR) { skipEOL();
+ return parseListType(next()); } else if (token == REC) {
+ return parseCollectionType(next()); } else { skipEOLs();
+ return parseCollectionType(next()); } else {
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipEOL();
+ return parseListType(next()); } else
+ return parseRecordType(next(), next());
+ return parseCollectionType(next()); } else if (token == JsDoc) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipEOLs(token);
+ return parseCollection(next()); } else if (token == JsDocToken.RR) { skipEOLs(token);
+ return parseRecord(token));
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORD_TYPE) {
+ return parseRecordType(next()); } else if (token == JsDocToken.CUSTOM) {
+ return parseCollectionType(next()); } else if (token == REC) {
+ return parseFunctionType(next()); } else if (token == JsDocToken.RR) { skipEOLs(); } else
+ return parseLCType(next()); } else if (token == REC) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RECORDType) {
+ return parseCollectionType(next()); } else if (token == JsDocToken.RECORDTYPE) {
+ return parseFunctionType(next()); } else if (token == REC) {
+ return parseRecordType(next()); } else if (token == JsDocToken.RRL) {
+ return parseRecordType(next()); } else if (token == JsDocToken.LF) {
+ return parseCollectionType(next()); } else
+ return parseFunctionType(next()); } else {
+ return parseRecordType(next()); break;
+ return parseCollectionType(next()); } else { skipEOL();
+ return parseListType(next()); } else { skipEOL();
+ return ;
+ return parseRecordType(next()); return null;
+return parseRecordType(next()); } else { return null ;
+return parseRecordType(next()); return parseType(token);
+ return parseLCType(next()); } else { skipEOL();
+ return parseListType(next()); } else if (record)
+ return (next());
+return parseRecordType(next()); } else { return parseUnionType();
+return parseRecordType(next()); return parseUnionType(next());
+return parseRecordType(next()); return parseArrayType(next());
+return parseRecordType(next()) } else { return parseTypeName(token);
+ return parseLCType(next()); } else if (recordType)
+ return parseLCType(next()); } else if (record)
+ return parseRecordType(next()); } else if (token == JsDocToken.RR) { skipComments();
+ return parseCollection(next()); }
+ return parseRecordType(next()); } else {
+ return parseLCType(next()); } else if (recordType) {
+ return parseCollection(next()); } else if (token == JsDocToken.RR) { skipOLs();
+ return parseCollectionType(next()); } else if (token == RS) {
+ return parseLCType(next()); } else
+ return parseCollectionType(next()); } else if (record)
+return parseRecordType(next()); } else { return null ; }
+ return parseRecordType(next()); } return null ;
+ return parseRecordType(next(Token.LC));
+return parseRecordType(next()) } else { return parseUnionType(next());
+ return parseFunctionType(next()); } else if (record)
+ return parseListType(next()); } else if (recordType)
+return parseRecordType(next()) } else { return parseType(token);
+ return parseRecordType(next()); return newNode();
+ return parseRecordType(next()); } else if (token == "*") {
+ return parseType(next()); }
+ return parseCollectionType(next()); }
+ return parseListType(next()); } else if (token == "record") {
+ return parseCollectionType(next()); } else if (token == "RR") {
+ return parseFunctionType(next()); }
+ return parseRecordType(next(), next();
+ return parseFunctionType(next()); } else
+ return parseList(next()); }
+ return parseList(next()); } else
+ return this.parseRecordType(next());
+ return parseLCType(next()); } else if (record {
+return parseRecordType(next()); } else { return parseType ( ) ;
+ return parseLangType(next());
+ return parseFunctionType();
+ return parseLC(next()); }
+return parseRecordType(next()) } else { return parseArrayType(next());
+ return parseCollectionType(next(token));
+return parseRecordType(next()); return parseRecordType(next());
+ return parseRecordType(next()) + 1;
+ return parseUnionType(next()); }
+ return parseFunctionType(next()); } else if (recordType) {
+ return parseRecordType(next()());
+ return parseLangType(next()); } else {
+ return parseRecordType(next()); } else
+ return parseLC(next()); } else
+ return parseListType(next()); } else if (recordType) {
+ return parseListType(next()); } else if (token == "REC" {
+ return parseListType(next(token));
+ return parseRecord(next()));
+ return parseRecordType(next(), token.LC);
+ return parseRecordType(next(), null);
+ return parseCollectionType(next()); } else if (recordType) {
+ return parseRecordType(next(token.LC));
+return parseRecordType(next()); } return parseTypeName();
+return parseRecordType(next()); return parseRecordType();
+ return parseCollectionType(next()));
+ return parseRecordType(next()); stream.next());
+return parseRecordType(next()); return parseType(next());
+ return parseFunction(next()); }
+ return parseCollectionType(next()); } else if (token == "REC" {
+ return parseRecordType(next;
+ return parseRecordType(next();
+return parseRecordType(next()); } else { return parseUnknown ( ) ;
+ return parseCollectionType(next());
+ return parseRecordType(next()); } else {parseRecordType(next());
+ return newNode(Token.parseRecordType(next());
+ return parseRecordType(token.next()));
+return parseRecordType(next()); return parseArrayType(next()); }
+ return parseRecordType(next(), token.LC;
+return parseRecordType(next()); return parseTypeName(token);
+return parseRecordType(next()); } else { return parseUnion(next());
+return parseRecordType(next()); } else { return parseType(next());
+ return parseRecordType(next() + 1);
+ return parseCollectionType(next(next()));
+ return parseRecordType(next()); parseArrayType(next());
+ return parseType(next());
+ return parseRecordType);
+ return parseRecordType(parseBasicTypeExpression(next());
+ return parseRecordType(next(token)));
+ return parseRecord(next();
+ return parseListType(next()));
+ return parseLC(next());
+ return parseRecordType(next(), null;
+ return parseRecordType(next(), false);
+return parseRecordType(next()); return parseUnion(next());
+return parseRecordType(next()); return parseUnionType();
+return parseRecordType(next()); return parseUnionType(next()); }
+ return parseRecord(token);
+return parseRecordType(next()); } else { return parseNode();
+return parseRecordType(next()) } else { return parseTypeName();
+ return parseRecordType(next().));
+return parseRecordType(next()); } else { return parseUnknownToken();
+ return parseListType(next(next()));
+ return parseCollectionType(next()); parseRecordType(next());
+ return parseCollection(next());
+return parseRecordType(next()) + parseUnionType(next());
+ return parseListType(next());
+ return parseFunction(next());
+ return parseRecordType(next(), next);
+ return parseRecordType(token.LC);
+return parseRecordType(next()); } else { return parseType ( token )
+return parseRecordType(next()) + parseUnion(next());
+return parseRecordType(next()); return parseArrayType();
+ return token;
+ return parseLC();
+ return parseRecordType(next(), Token.LC);
+ return parseCollection(next());
+ return parseRecordType(next()); return parseNode();
+ return newNode();
+return parseRecordType(next()) } else { return parseArrayType();
+return parseRecordType(next()); return parseTypeName();
+ return parseRecordType(nextLine());
+ return parseLCType(next(token));
+ return parseRecordType(next(), true);
+ return parseList(next());
+ return parseRecordType(token.getString()));
+ return parseRecordType(next().getValue);
+ return parseRecordType(next()); return next());
+ return parse(token));
+ return next();
+ return parseRecordType(next().next);
+ return parseRecordType(next().getString());
+ return parseRecordType(Token.LC(next());
+ return parseFunctionType(next()); } else {parseRecordType(next());
+ return parseRecordType(next(), null, null);
+return parseRecordType(next()) + parseArrayType(next());
+ return parseCollectionType(next(Token.LC));
+ next());
+ return parseRecordType(next()).next());
+ return parseUnionType();
+ return parseType(next());
+ return parseListType(next()); } else {parseRecordType(next());
+ return parseLiteralType(next());
+ return parseRecordType(next(true));
+return parseRecordType(next()) + parseType(token);
+ return parseRecordType(next().getValue());
+ return parseCollectionType(next()); } else {parseRecordType(next());
+ return parseLinearType(next());
+ return parseRecordType(Token.LC)(next());
+ return parseListType(next()); } else { next();
+ return parseLCRecordType(next());
+ return parseRecordType(token.LC(next());
+ return parseCollectionType();
+ return parseRecordType(nextNode());
+ return parseFunctionType(next()); return _parseRecordType(next());
+return parseRecordType(next()), next());
+ return parseRecordType(next().toString());
+ return parseFunctionType(next()); } else { next();
+ return null;
+ return parseRecordType(nextToken());
+return parseRecordType(next()) ; } return parseType(token);
+ return parseRecordType(next()); stream.close());
+ return parseRecordType(next()); return newNode;
+ return parseRecord(next()); }
+ return parseRecordType(next()); } }
+ return parseLCType(next()); } else { next();
+ return parseRecordType(Token.LC, next());
+ return parseCollectionType(next());;
+ return parseLcType(next());
+ return parseRecordType(next()); } return token;
+ return (StringNode)parseRecordType(next());
+ return parseRecordType(next().getString()));
+ return parseRecordType(token.next());
+ return parseRecordType(token));
+ return (ObjectNode)parseRecordType(next());
+ return parseRecordType(next()) + " ";
+ return parseLC(next()); } else { returnparseRecordType(next());
+ return parseUnionType(next()));
+return parseRecordType(next()) } else { return parseType ( token )
+ return parseCollectionType(next);
+ return parseListType(next()); } else if (...)
+ return parseRecordType(next()); parseType(next());
+ return newNode(Token).parseRecordType(next());
+ return parseListType(next()); } else if (! {
+ return parseRecType(next()));
+return parseRecordType(next(}); return parseType(token);
+ return parseRecordType(nextCursor());
+ return parseFunctionType(next()); returnparseRecordType(next());
+ return parseLangRecordType(next());
+ return parseCollection(next;
+ return parseRecordType(next()); return parse(next());
+ return parseCollection(next()));
+ return parseRecordType(next(), null, false);
+ return parseLdcType(next());
+ return parseLC(next());
+ return parseRecordType(parseLangType(next());
+ return null);
+ return parseFunctionType(next()); } returnparseRecordType(next());
+ return parseLcRecordType(next());
+ return parseType(token);
+ return newArrayNode().parseRecordType(next());
+ return parseListType(next()); } else { }
+ return parseRecordType();
+ return parseRecordType(nextType(next());
+ return parseRecordType(nextLang());
+ return parseCollection(next);
+ return parseType(next);
+ return parseCollection();
+ return parseListOfRecordTypes(next());
+ return parseRecordType(nextLc());
+ return parseRecordType(token);
+ return parseRecordType(parseLdcType(next());
+ return parseRecordType(nextLines());
+ return parseType(next()).parseRecordType(next());
+ return parseRecordType(next(token).name);
+ return parseRecordType(next(current()));
+ return parseFunction(next())|parseRecordType(next());
+ return parseRecordType(parseLang)(next());
+ return parseCollectionType(next()); } else { }
+ return parseType(next())-parseRecordType(next());
+ return newStringNode().parseRecordType(next());
+ return parseType(next())|parseRecordType(next());
+ return parseRecordType(Token.LC).next());
+ return parseRecordType(parseLCExpression(next());
+ return parseLCType(next()); } else { }
+ return parseRecordType(token.LC)(next());
+ return parseRecordType(next()-next());
+ return parseFunctionType(next())|parseRecordType(next());
+ return parseRecordType(Token.LC),next());
+ return parseList(next()));
+ return parseFunctionType(next()); } else { }
+ return parseRecordType(next()+next());
+ return parseTypeName(token)->parseRecordType(next());
+ return parseRecord(token;
+ return newRecord(token));
+ return parseFunctionType(next())-parseRecordType(next());
+ return (ArrayNode)parseRecordType(next());
+ } else
+ return parseRecType(next());
+ return parseTypeName(token)||parseRecordType(next());
+ return newNode(token).parseRecordType(next());
+return parseRecordType(next()) } return parseTypeName();
+ return parseType(next())+parseRecordType(next());
+return parseRecordTypeNext();
+return parseRecordType(next(skipEOLs));
+ return parseCollectionOfRecordType(next());
+return parseRecordType(next()); } return null ; }
+return parseRecordType(next()), token.LC);
+ return parseListType();
+ return parseCollectionOfRecordTypes(next());
+ return parseRecordType(token.LCType(next());
+ return parseLC(token);
+ return parseRecursiveType(next);
+ return parseRecordType(nextLC(next());
+ return parseListType(next);
+ return parse(token);
+ return parseUnionType(next());
+ return parseList(next;
+ return parseRecord(');
+ return parseLinearTypeExpression(next());
+return parseRecordType(next()) + parseType(next());
+ return parseFunctionType(next()); } #parseRecordType(next());
+return parseRecordType(next()) + parseArray(next());
+ }
+ return newNode(String)parseRecordType(next());
+return parseRecordType(next()), parseType(token);
+ return parseType(next;
+ return parseLiteralListType(next());
+ return record(next());
+ return parseUnionType(next);
+ return parseUnionType(next()); } returnparseRecordType(next());
+ return parseLdcArrayType(next());
+ return newNode().parseRecordType(next());
+ return next(_);
+ return parseTypeName(next()); } returnparseRecordType(next());
+ return parseList();
+ return parseReferenceType(next());
+ return parseLocation();
+ return parser.parseRecordType(next());
+ return parseLdcRecordType(next());
+ return newNode(String).parseRecordType(next());
+ return parseCollection(token));
+ return type(next());
+ return parseNext());
+ return parseRecordType(newStringNode(next());
+ return compiler.parseRecordType(next());
+ return parseRecordType(next()); push(next());
+ return parseType();
+ return parseCollectionType();
+ return parseLangSyntaxType(next());
+return parseRecordType(next()) + "*";
+ return parseLC();
+ return parseRecordType(next)Node(next());
+ return parseLC;
+ return parseNode();
+return parseRecordType(next(token, next()));
+ return parseRecordName();
+ return parseRecord;
+ return parseList();
+ return parseLangConverter(next());
+return parseRecordType(next()) - 1.0;
+ return parseRecord('));
+ return parseUnion(next());
+ return parseRecordTypes();
+ return parseRecordType(next); push(next());
+return parseRecordType(next()) + 1);
+ return parseList;
+return parseRecordType(next()), next() ;
+return parseRecordType(next()); return "*";
+ return (node)parseRecordType(next());
+ return newNode;
+ return parseLiteralListNode(next());
+ return parseRecordType(next)Type(next());
+return parseRecordType(next()) } return null;
+ return recordType(next());
+ return super.parseRecordType(next());
+return parseRecordType(next(...));
+ return parseLocation;
+ return $(next());
+return parseRecordType(next()) + '*' ;
+return parseRecordType(next()) - 1;
+ return parseRecordNode();
+return parseRecordType(next()) } return parseNode();
+ return parseCollectionType;
+ return compile(next());
+ return parseRecordName;
+return parseRecordType(next()) + ' ';
+return parseRecordType(next(next())); }
+ return next(');
+ return parseCollectionType());
+ return parseRecordTypes;
+ return token);
+ return context.parseRecordType(next());
+ return parseRecordName());
+ return newRecord());
+ return parseCollection());
+return parseRecordType(...)
+return parseRecordType(next()) + "\\n";
+ return next('));
+ return parseRecordNode;
+ return this;
+ return newNode());
+ return newNode(next());
+return parseRecordType(next( ) + 1) + 1
+ return next);
+return parseRecordType(next()), token);
+ return parseRecordTypes());
+ return next("));
+ return list(next());
+ return [];
+return parseRecordType(next()) + 2;
+ return parser(next());
+ return null
+ return ();
+ return parseString());
+return parseRecordType(next()); return ;
+ try {
+ return undefined;
+ return translate(next());
+ return null();
+return parseRecordType(next())); }
+ return literal(next());
+ return '';
+return parseRecordType(next()) + 1
+ continue;
+ return false;
+ return true;
+ return unparseRecordType(next());
+return parseRecordType(next()) + ;
+ return __parseRecordType(next());
+return parseRecordType(current());
+ return;
+ parse(next());
+ next("));
+ return parse());
+ next('));
+return parseRecordType(); next());
+ return [];
+ return current());
+ continue(next());
+return parseRecordType(next()) } }
+ } returnparseRecordType(next());
+ return
+return parseRecordType(future());

@@ -1,0 +1,187 @@
+ break; break;
+ typeable = false;
+ typeable = false;
+ break;;
+ break;
+ typeable = typeable ;
+ typeable =
+ typeable = true;
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable = typeable ;
+ typeable =! (null == n);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable = false;
+ typeable =! (typeable);
+ typeable =! typeable ;
+ break ; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable =! typeable ;
+ typeable =! (null);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable = true ;
+ break; case Token.NUMBER: ensureTyped(t, n, NUMBER_TYPE); typeable = false;
+ break;
+ break ; case Token.STRING: ensureTyped(t, n, STRING_STRING);
+ break ; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if ( typeable == false )
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE);
+ if (typeable == false)
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable =
+ break; case Token.UNKNOWN: ensureTyped(t, n, UNKNOWN_TYPE); typeable = typeable ;
+ break; case Token.NUMBER: ensureTyped(t, n, NUMBER_TYPE);
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE); if (typeable)
+ break; case Token.STRING: ensureTyped(t, n, STRING_);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); break; default:
+ break; case Token.STRING: ensureTyped(t, n, STRING);
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE);
+ if (typeable) typeable = false;
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE_TYPE);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); break;
+ case Token.STRING: ensureTyped(t, n, STRING_STRING);
+ typeable =! (parent.isAssign());
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if (typeable) {
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable = true
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if ( typeable ) return t ;
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable = false
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if typeable :
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if (optional)
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if (typeable) typeable;
+ case Token.STRING: ensureTyped(t, n, STRING_);
+ typeable = true;
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if ( typeable == false ) {
+ typeable =!! null ;
+ break; case Token.STRING: ensureTyped(t, n);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if ( typeable ) return true ;
+ break; case Token.STRING: ensureTyped(t, n, STR);
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable =
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE); case default:
+ break ; case Token.STRING: ensureTyped(t, n, STRING_TYP);
+ break; case Token.NUMBER: ensureTyped(t, n, NUM_TYPE);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable =! n ;
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE_NAME);
+ break; case Token.EXPEXP: ensureTyped(t, n, EXPEXP_TYPE);
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE); default:
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); typeable ;
+ if (typeable) { typeable = false;
+ break; case Token.STRING: ensureTyped(t, stringType);
+ break; case Token.STRING: ensureTyped(t, n, STRING_TYPE); if (typeable) typeable++;
+ break; default: break;
+ case Token.STRING: ensureTyped(t, n, STRING_TYPE_TYPE);
+ break; case Token.NUMBER: ensureTyped(t, n, NUMBER_);
+ case Token.STRING: ensureTyped(t, n, STRING_TYP);
+ typeable =! ( n == null ) ;
+ typeable = false
+ break; case Token.STRING: ensureTyped(t);
+ break ; case Token.STRING: typeable = false;
+ case Token.STRING: ensureTyped(t, n);
+ break; case Token.STRING: ensureTyped(t, n, TYPE);
+ if (typeable) return false;
+ case Token.STRING: ensureTyped(t, n, STR);
+ break; case Token.EXPEXP: ensureTyped(t, expType);
+ if (typeable) { typeable = false; }
+ case Token.STRING: ensureTyped(t, stringType);
+ switch ( t. getFirstChild ( ) ) { case Token.STRING_TYPE:
+ break; case Token.STRING: ensureTyped(t, STRING);
+ typeable =! (null === typeable);
+ if (typeable) typeable = true;
+ break; } else { typeable = false ; } if ( typeable ) {
+ case Token.STRING: ensureTyped(t, n, string);
+ break; case Token.STRING: ensureTyped(, n);
+ typeable =! ( n instanceof Null);
+ typeable =! ( parent. isNull ( ));
+ typeable =! ( n. isNull ( ));
+ if ( typeable ) return true ;
+ if ( typeable ) return t ;
+ typeable =! (null!= n);
+ if (typeable) { typeable = false};
+ break; typeable = false;
+ break; case Token.STRING: ensureTyped(n);
+ break; } else { typeable = false ; } if ( typeable )
+ break; case Token.EXPEXP: typeable = false;
+ break; case Token.STRING: ensureTyped(t,);
+ if (! typeable ) { typeable = true ; }
+ typeable =! null ;
+ typeable ;
+ if (! typeable ) { typeable = false ; }
+ switch ( t. getFirstChild ( n ) ) { case Token.DECIMAL :
+ if (typeable) { typeable = true;
+ if (! typeable )
+ typeable = false break;
+ typeable =! n ;
+ break; typeable = true;
+ break ; case Token.STRING: typeable = true
+ if (typeable && n == null)
+ if (null)
+ typeable = true
+ break; if (typeable) break;
+ typeable =! n. isNull ;
+ break; } typeable = true;
+ typeable = true break;
+ break; } typeable = false;
+ break; case Token.STRING: ensureTyped(stringType);
+ if (typeable) break;
+ if (typeable)
+ typeable = false;;
+ break; if typeable: break;
+ typeable = false; break;
+ break; case Token.DECIMAL: break;
+ break; default:
+ break; case Token.STRING: break;
+ break; case Token.INT: break;
+break; case Token.NUMBER:
+ case Token.STRING: typeable = false;
+break; if (typeable)
+ break; } } break;
+ break; if (typeable) return t;
+ case Token.STRING: typeable = true;
+ break; case Token.STRING: break;;
+ break; } n += 1;
+ break; } else { typeable = false;
+ break; if typeable { break;
+ break; switch (n) { break;
+ typeable = ;
+break; if (typeable) {
+ break; if (typeable) { break;
+ break; switch (n) break;
+ break; case Token.TEXT: break;
+break; case Token.DECIMAL:
+ break; if (typeable) return true;
+break; case Token.INT:
+break; } break ; case Token.NUMBER:
+break; switch (typeable) {
+ break; if (typeable == false) break;
+break; case Token.NUMERIC:
+break; switch (n) {
+break; case Token.NUM:
+break; if (n!= null) break;
+ break; switch (typeable)) break;
+break; case Token.DECLARATORS:
+break; case Token.NUMBER: break;
+break; case Token.CUSTOM:
+ break; } break;
+break; case Token.DECLARATIVES:
+break; case Token.NEG:
+ typeable++;
+break; if (typeable) { break; }
+break; if (typeable):
+ true;
+ default:
+ false;
+ return false; break;
+break; case Token.DECIMAL: switch
+ return false;
+ break; } break ; }
+ break ; break ; } }
+ break ; break ; } #
+ break;;;
+ break 2;
+ break(); break;
+ } break;
+ break. break;
+ break; } break:
+ break; } break();
+ break,
+ }
+ break();
+ break;" };
+ break; break,
+;
+ break ; }
+ break ; final
+ break.;
+ }
+ break

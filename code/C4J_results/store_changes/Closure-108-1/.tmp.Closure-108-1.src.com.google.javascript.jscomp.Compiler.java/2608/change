@@ -1,0 +1,136 @@
+ }
+ return null;
+ } return null;
+ } return originalCode ;
+ } else { originalCode = resourceName ;
+ } return getNodeForCodeInsertion ( originalCode, resourceName ) ;
+ } return getNodeForCodeInsertion ( originalCode ) ;
+ } else { originalCode = new StringReader ( resourceName ). toString ( ). trim ( ) ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ). trim ( ) ;
+ } else { originalCode = new StringReader ( resourceName ). toString ( ). toString ( ) ;
+ } if ( isBase ) { ensureLibraryInjected("base", originalCode);
+ } return getNodeForCodeInsertion ( null, originalCode ) ;
+ } else { originalCode = new StringReader ( resourceName ). readLine ( ). trim ( ) ;
+ } else { originalCode = new StringReader ( resourceName ). readLine ( ). toString ( ) ;
+ } else { originalCode = new StringReader ( resourceName ). toString ( ). trim ( )
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) ; }
+ } else { originalCode = new StringReader ( resourceName ). toString ( ). toLowerCase ( ) ;
+ } else { originalCode = String. valueOf ( resourceName ) ;
+ } if ( isBase ) { ensureLibraryInjected("base".equals(resourceName));
+ } return getNodeForCodeInsertion ( null, originalCode, resourceName ) ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ). toString ( ) ;
+ } else { originalCode = new StringReader ( resourceName ). readLine ( ). trim ( )
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( ) ;
+ } return getNodeForCodeInsertion ( this, originalCode ) ;
+ } if (originalCode == null) { return null;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ). toLowerCase ( ) ;
+ } else { originalCode = new String ( resourceName ) ;
+ } else { originalCode = readLibraryCode(resourceName);
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( ' ' ) ; originalCode. append ( resourceName )
+ } if ( isBase ) { ensureLibraryInjected("base"); return null;
+ } return getNodeForCodeInsertion ( this, originalCode, resourceName ) ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) + ' ' ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) + "" ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( source ) ;
+ } else { originalCode = new StringReader ( resourceName ) ;
+ } if ( isBase ) { ensureLibraryInjected("base").equals(resourceName); }
+ } else { originalCode = resourceName ; }
+ } else { originalCode = String. valueOf ( resourceName )
+ } if ( isBase ) { ensureLibraryInjected("base".equals(resourceName)); }
+ } else { originalCode = "" ;
+ } else { originalCode = new StringReader ( resourceName, UTF_8 ). readLine ( ). trim ( )
+ } if ( isBase ) { ensureLibraryInjected("base".equals(resourceName); }
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. clear ( ) ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( ' ' )
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ). trim ( ) ; }
+ } if ( isBase ) { ensureLibraryInjected("base.js", resourceName);
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( "" ) ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. close ( ) ;
+ } return new Node ( originalCode ) ;
+ } return getNodeForCodeInsertion ( originalCode, null ) ;
+ } return getNodeForCodeInsertion ( null, originalCode, resourceName));
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode += "." ;
+ } else { originalCode = new StringReader ( resourceName ). toString ( ) ; }
+ } if (originalCode == null) {
+ } else { originalCode = String. valueOf ( resourceName ) ; }
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) + "js" ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode += " " ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) ; } return null ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( ' ' ) ; originalCode. append ( code )
+ } else { originalCode = new StringReader ( resourceName ). readLine ( ) ; }
+ } else { originalCode = new String ( resourceName )
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( "." )
+ } else { originalCode = new StringReader ( resourceName ). toString ( ). toLowerCase ( ) ; }
+ } if ( isBase ) { ensureLibraryInjected("base.js"); }
+ } return getNodeForCodeInsertion(null);
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ). trim ( ) + "" ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. close ( )
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode += ' ' ;
+ } if ( isBase ) { ensureLibraryInjected("base.js"); return null;
+ } else { originalCode = new StringReader ( new FileReader ( resourceName ) ). readLine ( ). trim ;
+ } else { originalCode = new StringReader ( resourceName ). readLine ( ). toString ( ) ; }
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. clear ( )
+ } else { originalCode = new StringReader ( resourceName ). readUTF ( ) ; }
+ } if (originalCode == null)
+ } if (originalCode) {
+ } return getNodeForCodeInsertion ( originalCode ). removeChildren ( ) ;
+ } else { originalCode = new StringReader ( new FileReader ( resourceName ) ). readLine ( ) + "" ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) + "." + extension ;
+ } else { originalCode = new StringBuilder ( ) ; originalCode. append ( resourceName ) ; originalCode. append ( "" )
+ } return getNodeForCodeInsertion ( originalCode ) ; }
+ } if (originalCode == null) { return;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) ; } return originalCode ; }
+ } return getNodeForCodeInsertion ( originalCode, resourceName, null ) ;
+ } else { originalCode = new StringReader ( new FileReader ( resourceName ) ). readLine ( ). trim();
+ } return getNodeForCodeInsertion ( null, originalCode, resourceName ) ; }
+ } return getNodeForCode ( originalCode);
+ } return getNodeForCodeInsertion ( null, originalCode ) ; }
+ } return getNodeForCodeInsertion ( originalCode, parent);
+ } if ( isBase ) { ensureLibraryInjected("base"); return ;
+ } else { originalCode = "base" ;
+ } else { originalCode = readLibraryCode ( resourceName ). toString ( ) ; } }
+ } return null ; }
+ } return getNodeForCodeInsertion ( this, originalCode, resourceName ) ; }
+ } return new Node ( originalCode));
+ } return new Node ( ) ;
+ } if (originalCode == null) { return null
+ } return getNodeForCode ( ) ;
+ } return new Node ( originalCode, resourceName));
+ } return originalCode ; }
+ } return getNodeForCode ( originalCode));
+ } else { originalCode = read ( resourceName);
+ } if ( isBase ) { ensureLibraryInjected("base".equals(resourceName)); } }
+ return null; } return originalCode ;
+ } if (originalCode == null) { return
+ } if (originalCode)
+ return null; } return null;
+ } else { return originalCode;
+ } return getNodeForCodeInsertion ( originalCode, resourceName ) ; } }
+ } if (!originalCode)
+ return null; } return originalCode ; }
+ } throw originalCode ;
+ } return originalCode ;
+ return null; return null;
+ return originalCode;
+ return null; }
+ return null; }
+ } return null;
+ throw e;
+ } return originalCode);
+ } return "" ; }
+ }
+ } } else {
+ } } } ;
+ return null }
+ } return null
+ break; }
+ } return;
+ return;
+ break;
+ return null
+ } } ;
+ return null;
+ } }
+ } }
+ }; }
+ };

@@ -1,0 +1,731 @@
+validator.expectObject(t, rvalueType,
+validator.expectObject(t, rvalue,  functionType,
+validator.expectObject(t, rvalue,
+validator.expectObject(rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType,
+validator.expectObject(t, assign,
+validator.expectObject(t, rvalueType, functionType,
+validator.expectObject(t, assign, rvalueType,
+validator.expectObject(rvalueType, functionType,
+validator.expectObject(rvalue,
+validator.expectObject(t, rvalue,  functionType, property, rvalueType,
+validator.expectObject(t, assign, object, rvalueType,
+validator.expectObject(t, rvalue,  info,
+validator.expectObject(t, rvalueType, property, info,
+ checkConstructor( t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, info,
+validator.expectObject(t,  assign, rvalueType, property, info,
+ if (rvalueType) {
+validator.expectObject(t, assign, rvalue, info,
+validator.expectObject(object,
+validator.expectObjectType(
+validator.expectObject(t, rvalue, rvalueType, functionType, property, info,
+validator.expectObject(t, rvalueType, info,
+ checkDeclaredPropertyInheritance(t, rvalue, rvalueType,
+validator.expectObject(t, assign, rvalueType, functionType,
+validator.expectObject(t, rvalue,  functionType, property, info, rvalue,
+validator.expectObject(t, rvalue,  functionType, property, info,
+ if ( rvalueType!= null) {
+validator.expectObject(t, assign, functionType,
+validator.validate(rvalueType,
+validator.expectObject(t, assign, rvalueType, info,
+validator.expectObject(t, assign, rvalue,
+ if (rvalueType!= null)
+ if (rvalueType)
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property, info);
+ if (validator)
+validator.expectObject(t, rvalueType, functionType, property, rvalue,
+validator.expectObject(t, assign, object, rvalue, info,
+validator.expectObject(object, rvalueType, functionType,
+validator.expectObject(t, rvalueType, object, property, rvalue,
+validator.expectObject(t, rvalueType, property, rvalue,
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property, rvalue);
+validator.expectObject(t, rvalue,  functionType, info,
+validator.expectObject(t, rvalue, rvalueType, functionType, property, rvalue,
+validator.expectObject(t,  assign, object, property, rvalueType,
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property); }
+ } else { JSType rvalueType =
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property, lvalue);
+validator.expectObject(t, assign, rvalueType, rvalue,
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property, info); }
+ } else { checkDeclaredPropertyInheritance(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritance( t, rvalueType,
+validator.expectObject(functionType, rvalueType, rvalue,
+validator.expectObject(object, rvalueType,
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property, info,
+validator.expectObject(object, rvalueType, info,
+validator.expectObject(t, rvalue,  functionType, property, rvalue,
+validator.expectObject(t, rvalueType, object, rvalue,
+ } else { JSType rvalueType = functionType ;
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property);
+validator.expectObject(object, rvalueType, property, info,
+validator.expectObject(t, rvalue,  functionType, info, rvalueType,
+validator.validate ( rvalueType, functionType,
+validator.expectObject(t, rvalue, rvalueType, functionType, info,
+ } else { JSType rvalue =
+validator.expectObject(t, rvalue,  object, property, functionType,
+validator.expectObject(t, rvalue, rvalueType, functionType, property, info, assign,
+validator.expectObject(rvalueType, property, info,
+validator.expectObject(t, assign, object, rvalue,
+validator.validate(
+validator.expectObject(functionType, rvalueType, info,
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, property,
+validator.expectObject(t,  assign, object, rvalueType, info,
+ if ( rvalueType. isObject ( ) ) {
+ } else { JSType rvalueType = rvalue.getJSType(
+validator.expectObject(t, rvalueType, object.prototype, property, info,
+validator.expectObject(t, rvalue,  object, property, rvalueType,
+ if ( rvalueType!= null && rvalueType. isObject ( ) ) {
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, functionType, rvalue);
+validator.expectObject(rvalueType, info,
+ } else { JSType rvalueType = null;
+validator.expectObject(t, rvalueType, object, property, info,
+validator.expectObject(t, rvalueType, assign, rvalue,
+ checkConstructorInheritance(t, rvalue, rvalueType,
+ if ( functionType. isConstructor()) { checkDeclaredPropertyInheritance(t, assign, functionType, property);
+ if (functionType.isInterface()) { checkDeclaredPropertyInheritance(t, assign, object, functionType);
+ if ( rvalueType!= null && rvalueType. isObject ( ) )
+validator.expectObject(t, rvalueType, object, property,
+ if (functionType.isInterface() || functionType.isInterface()) { checkDeclaredPropertyInheritance();
+ checkDeclaredPropertyInheritance(rvalue, rvalueType,
+ checkConstructor( t, rvalueType,
+ } else { JSType rvalueType = objectJsType.getJSType(
+validator.expectObject ( rvalueType, functionType, info,
+validator.expectObjectType(rvalueType, functionType,
+ if ( rvalueType!= null ) { if (validator!= null) {
+validator.expectObject(t, rvalue,  functionType, info, getJSType(),
+ checkDeclaredPropertyInheritance( functionType, rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { return ; } if ( rvalueType!= null ) {
+validator.expectObject(t, rvalueType, property, info, rvalue,
+validator.expectObject(t, rvalueType, assign,
+validator.expectObject ( rvalueType, property, rvalue,
+validator.expectObject(functionType, rvalueType,
+ } else { rvalueType =
+validator.expectObject(t, assign, object, functionType,
+validator.expectObject(t, rvalue, rvalueType, property, info,
+ checkConstructor(rvalue, rvalueType,
+validator. invalidate ( rvalueType,
+ } else { JSType rvalueType = getJSType(
+validator.expectObject(functionType, rvalue, info,
+validator.expectObject(rvalueType, object, property, info,
+validator.expectObject(t, rvalueType, object.prototype, functionType,
+ if ( rvalueType!= null ) { if (validator)
+ } else { JSType rvalueType = objectJsType.getType(
+ if ( rvalueType == null ) { return ; } if (validator) {
+ if ( rvalueType == null ) { return ; } if (validator)
+validator.expectObject(t, rvalueType, rvalue, functionType,
+validator.expectObject(t, rvalue,  functionType, rvalueType, info,
+validator.expectObject ( rvalueType, object, rvalue,
+ if ( rvalueType!= null ) { if (validator!= null)
+validator.expectObject(t, rvalueType, assign, object, rvalue,
+validator.expectObject(rvalueType, object, property,
+ if (rvalueType!= null) { _expectObject(t, rvalue, rvalueType,
+ if ( rvalueType!= null ) { rvalueType =
+validator.expectObject(t, rvalue,  object.prototype, rvalueType,
+validator.expectObject(t, object, rvalueType, info,
+ } else { JSType rvalueType = objectJsType.getType(),
+ if ( rvalueType == null ) { return ; } if ( rvalueType!= null ) {
+validator.expectObject(t, rvalueType, rvalue,
+ checkDeclaredProperty( t, assign, rvalue, rvalueType,
+validator.expectObject(t, object, rvalueType,
+validator.expectObject(t, rvalue,  assign, functionType,
+ setJSType(rvalueType,
+ } else { JSType rvalueType = functionType(
+ } else { JSType rvalueType = rvalue.getJSType(),
+ } else { JSType rvalueType = objectJsType.toMaybeType(
+ if ( rvalueType == null ) { return ; } if (validator!= null)
+ } else { JSType rvalueType = objectJsType.getJSType(),
+ } else { JSType rvalueType = objectJsType,
+validator.expectObject(t, rvalue, rvalueType, functionType, rvalue,
+ } else { JSType rvalueType = rvalue.getType(
+ } else { JSType rvalueType.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, typeRegistry,
+ checkDeclaredPropertyInheritance( t,t, rvalue, rvalueType,
+ if (rvalueType!= null) {expectObject(t, rvalue, rvalueType,
+validator.validate(rvalue,
+validator.expectObject(t, rvalueType, object.prototype, rvalue,
+validator.expectObject(t, rvalue,  assign, object, rvalueType,
+validator.expectObject(t, rvalue,  functionType, property, info.getType(),
+validator.warn(
+ if ( rvalueType!= null && rvalueType. isObject ) {
+ } else { JSType rvalueType = objectJsType(
+validator.expectObject(t, rvalueType, object.prototype, info,
+ } else { JSType rvalueType = rvalue.getType(),
+ if ( rvalueType == null ) { return ; } if ( rvalueType!= null )
+validator.expectObject(t, rvalue,  object, functionType,
+ if (rvalueType!= null) { this.
+validator.expectObject(t, rvalue,  object.prototype, functionType,
+ checkDeclaredPropertyInheritance( functionType, rvalueType,
+validator.expectObjectType(rvalueType,
+ } else { JSTypeUtil.expectObject(t, rvalue, rvalueType,
+ checkConstructor( t, assign, rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { return ; } if ( rvalueType instanceof Object ) {
+validator.expectObject(t, rvalue, rvalueType, property, functionType,
+ NodeUtil.expectObject(t, rvalue, rvalueType,
+validator.expectObject ( rvalueType, objectJsType,
+validator.expectObject(t, rvalueType, functionType, info,
+ if (functionType.isInterface() || functionType.isConstructor()) { this.
+ if ( rvalueType!= null && rvalueType. isObjectType ( ) )
+validator.expectObject(t, rvalueType, object.prototype.property, info,
+ checkType( t, rvalue, rvalueType,
+ checkConstructorInheritance(rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType, property, lvalue,
+ checkConstructorInitializer(t, rvalue, rvalueType,
+validator. reportError ( rvalueType,
+ checkDeclaredPropertyInheritanceInheritance(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue,  assign, functionType, rvalueType,
+ if ( rvalueType!= null ) { if (validator) {
+ if ( rvalueType. isNull ( ) ) { return ; } else { if (validator!= null)
+validator.expectObject(t, rvalue,  assign, functionType, rvalue,
+ } checkDeclaredPropertyInheritance(t, rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new IllegalArgumentException ( "Expected
+ if ( rvalueType!= null ) { if ( rvalueType!= rvalueType ) {
+validator.expectObject(object, rvalue, info,
+validator.expectObject(t, rvalueType, assign, object, property,
+ } else { JSType rvalueType = type;
+ if ( rvalueType. isObject ( ) )
+ } else { JSType rvalueType = functionType,
+ } else { throw new IllegalArgumentException(rvalueType,
+validator.expectObject(object, rvalue,
+ checkType( t, rvalueType,
+validator.expectObject(t, rvalue, rvalueType) ; } else { throw new RuntimeException(
+ if ( rvalueType. isNull ( ) ) { return ; } } else { if (validator) {
+validator.expectObject(t, rvalue,  functionType, rvalue,
+ } else { throw new IllegalArgumentException ( "Bug
+ if ( rvalueType!= null && rvalueType!= functionType ) {
+ } else { throw new IllegalArgumentException ( "BUG
+ if (rvalueType!= null) { return
+validator.expectObject(rvalueType, property,
+validator.expectObject(t, rvalue,  assign, object, functionType,
+validator.expectObject(t, rvalue, rvalueType) ; } else { throw new Error(
+validator.expectObject(t, rvalueType, rvalue, info,
+validator.expectObject(t, rvalue,  assign, property, functionType,
+validator.validateType(rvalueType,
+ if (functionType.isInterface() || functionType.isInterface()) { } else {
+ checkDeclaredInheritance(t, rvalue, rvalueType,
+ } else { JSType rvalueType = objectJsType.replace(
+validator.validate(object, rvalueType,
+ checkDeclaredProperty( t, assign, rvalueType,
+ } else { JSType rvalueType = null,
+validator.expectObject(obj, rvalueType, property, info,
+validator.expectObject(t, rvalueType, object, property, rvalueType,
+ checkDeclaredPropertyInheritance( info,t, rvalue, rvalueType,
+ if ( rvalueType == null ) { return ; } if (validation) {
+ if (RvalueType!= null)
+validator.expectObject(RvalueType, functionType,
+ if ( rvalueType!= null && rvalueType!= object ) {
+validator.expectObject(t, rvalueType, property,
+validator.expectObject(t, rvalueType, property, info, rvalueType,
+ if ( rvalueType == null ) { return ; } if ( rvalueType!= null ) { assert (true)
+ } else { if (rvalueType) {
+validator.expectObject(t, rvalue,  functionType, rvalueType, rvalue,
+ } else { JSType rvalue = _expectObject(t, rvalue, rvalueType,
+ if ( rvalueType!= null ) { assert (true)
+ checkDeclaredPropertyInheritance(rvalue,
+ checkDeclaredPropertyInheritance(object2, rvalueType,
+ if ( rvalueType == null ) { throw new IllegalArgumentException ( "Cannot use
+ checkConstructor( t, assign, rvalueType,
+validator.validateString(rvalueType,
+ if ( rvalueType!= null ) { if (validationEnabled)
+ checkDeclaredPropertyInheritance t, rvalueType,
+ } else { throw new IllegalArgumentException(String
+ if ( rvalueType. isNull ( ) ) { return ; } } else { if (validationEnabled)
+ if ( rvalueType. isNull ( ) ) { return ; } else { if (validator)
+ checkConstructorType( t, rvalue, rvalueType,
+validator.expectObject(t, rvalueType, assign, rvalueType,
+ } else { JSType rvalueType = functionType;
+validator.warn(rvalueType,
+ } else { throw new IllegalArgumentException ( "BUG:
+ if ( rvalueType == null ) { return ; } else { if (validator!= null)
+validator.expectObject(t, rvalue, rvalueType, property, info, functionType,
+validator.expectObject(t, rvalue, rvalueType, property, info, getJSType(),
+validator.expectObject(rvalueType, object,
+ } else { JSType objectJsType.expectObject(t, rvalue, rvalueType,
+ } else { JSTypeHelper.expectObject(t, rvalue, rvalueType,
+ } else { throw new RuntimeException(t,
+ } else { throw new IllegalArgumentException ( "ERROR
+validator.expectObject(t, rvalue, rvalueType, functionType, info, typeRegistry,
+validator.notNull(rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new IllegalArgumentException ( "Error:
+ checkDeclaredPropertyInheritance(, assign, rvalue, rvalueType,
+validator.expectObject(t, object, rvalue,
+ } else { throw new IllegalArgumentException ( "Found
+ } else { JSType rvalueType = objectJsType;
+ if ( rvalueType!= null && rvalueType!= property ) {
+ if ( rvalueType!= null && rvalueType!= objectType )
+validator.expectObject(t, rvalue, rvalueType, functionType, info, rvalue,
+ if ( rvalueType!= null ) { assert (validator)
+ if (functionType.isInterface()) { if (rvalueType!= null) { this.
+validator.validate(rvalueType, info,
+ } else { throw new IllegalStateException(t,
+validator.expectObject(t, rvalue,  object.prototype, functionType, info,
+ } else { JSType rvalueType = objectJsType.getType().
+validator.expectObject(t, rvalue,  object, rvalueType,
+ checkInheritance( t, rvalue, rvalueType,
+ } else { throw new RuntimeException(rvalue,
+ if ( rvalueType == "object" ) { } else {
+ if (rvalueType!= null) { context.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue,  property, functionType,
+ } else { JSType jstype.expectObject(t, rvalue, rvalueType,
+ checkTypeInheritance( t, rvalue, rvalueType,
+validator.expectObject(t, rvalue,  object, property, info,
+ checkInheritance( t, assign, rvalueType,
+ checkDeclaredPropertyInheritanceForObject(t, rvalue, rvalueType,
+ if ( rvalueType!= null ) { if (validator!= null) { return
+validator.expectObject(t, rvalueType, assign, info,
+ assign.setJSType(rvalueType,
+ } else { throw new IllegalStateException(this,
+validator.expectObject(object, functionType,
+validator.expectObject(functionType, rvalue,
+ if (functionType.isInterface() || functionType.isConstructor()) { error =
+ if ( rvalueType. isNull ( ) ) { throw new InvalidArgumentException ( "Invalid argument:
+validator.expectObject(t, rvalueType, object, info,
+ checkPrototypeInheritance(t, rvalue, rvalueType,
+ checkConstructorInheritanceInheritance(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceForConstructor(t, rvalue, rvalueType,
+ checkPrototypeInheritance(rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, object, property, functionType,
+ checkInheritance( t, rvalueType,
+ } else { throw new TypeError(rvalue,
+ } else { throw new IllegalArgumentException(msg
+ if ( rvalueType. isNull ( ) ) { throw new IllegalArgumentException ( ) ; }
+ checkDeclaredPropertyInheritance(rvalueType,
+ checkDeclaredPropertyInheritance t, rvalue, rvalueType,
+ } else { JSType rvalueType = objectJsType. getJSType(); throw
+validator.expectObject(t, rvalue, rvalueType, functionType, property, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType, property2,
+ } else { JSType rvalueType = ObjectJsType.
+ checkConstructorInheritance( functionType, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceGetprop(t, rvalue, rvalueType,
+validator.validateType(rvalueType, info,
+ } else { JSType rvalueType=expectObject(t, rvalue, rvalueType,
+ } else { JSTypeUtils.expectObject(t, rvalue, rvalueType,
+ if ( rvalueType == null ) { return ; } if (validation)
+ if ( rvalueType. isNull ( ) ) { throw new InvalidArgumentException ( "Expected object
+ } else { JSTypeExporter.expectObject(t, rvalue, rvalueType,
+ if ( rvalueType!= null ) { if (validation)
+ } else { JSType rvalue = context.expectObject(t, rvalue, rvalueType,
+ } else { throw new IllegalArgumentException ( "Invalid property type:
+ if (rvalueType!= null)expectObject(t, rvalue, rvalueType,
+ } else { checkDeclaredInheritance(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritance2(t, rvalue, rvalueType,
+ } else { checkTypeInheritance(rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new InvalidArgumentException ( "Invalid object");
+ checkInheritedPropertyInheritance(t, rvalue, rvalueType,
+ ObjectUtil.expectObject(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceImpl(t, rvalue, rvalueType,
+ } checkDeclaredProperty( t, assign, rvalue, rvalueType,
+ if ( rvalueType == null ) { throw new IllegalArgumentException ( "Cannot handle
+validator.expectObject(t, rvalueType, objectJsType,
+ } else { throw new RuntimeException(this,
+ if ( rvalueType == null ) { throw new IllegalArgumentException ( "Cannot access
+ checkTypeInheritance(rvalue, rvalueType,
+validator.validateRvalueType(
+ } else { JSType result =
+validator.expectObject(object, rvalueType, rvalueType,
+ checkTypeInheritance( t, rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new IllegalArgumentException ( "Expecting
+ } else { JSType rvalueUtil.expectObject(t, rvalue, rvalueType,
+ } else { throw new Error(t,
+ if ( rvalueType!= null ) { assert (validator);
+ if ( rvalueType == null ) { return ; } if ( rvalueType!= null ) { assert (true);
+validator.expectObject(t, rvalue,  object.prototype, info,
+validator.expectObject(t, rvalue, rvalueType, objectJsType,
+ } else { JSType rvalueType = new
+ } else { JSType.expectObject(t, rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new InvalidArgumentException ( "Expected:
+ if (rvalueType!= null) { info.expectObject(t, rvalue, rvalueType,
+ if ( rvalueType. isNull ( ) ) { throw new InvalidArgumentException ( "Invalid object:
+ checkInheritance( t, assign, rvalue, rvalueType,
+validator.validateString(rvalueType, info,
+ } else { JSType rtype =
+ checkDeclaredPropertyIn( t, rvalue, rvalueType,
+ } else { JSType rvalueType =!
+ checkDeclaredPropertyInheritance(object2, rvalue, rvalueType,
+validator.validate(functionType,
+ if (RvalueType) {
+ } else { JSType rvalueType = rvalue. getType ( ) ; } throw
+ checkType(rvalueType,
+ if (functionType.isInterface() || functionType.isConstructor()) { } }
+ } else { JSType assertionUtil.expectObject(t, rvalue, rvalueType,
+ checkConstructorType( t, rvalueType,
+ if (RvalueType)
+ checkInheritance(rvalue, rvalueType,
+ } else { throw new IllegalStateException ( "BUG
+ checkConstructors( t, rvalue, rvalueType,
+ if (rvalueType!= null) { compiler.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, property, info, assign,
+ if ( rvalueType. isObject ( ) ) { return
+validator. invalidate ( rvalue,
+ if ( rvalueType. isNull ( ) ) { return ; } if ( rvalueType!= null ) { return
+validator.expectObject(t, rvalue, rvalueType, object, property, info,
+validator.validate(t,
+validator.expectObject(t, rvalue,  property, info,
+validator.expectObject(t, rvalueType, object,
+ if (functionType.isInterface()) { if (rvalueType!= null) { } }
+ } else { throw new IllegalStateException ( "Bug
+ checkDeclaredInheritance(rvalue, rvalueType,
+validator.expectObject(t, rvalue,  assign, object, property,
+validator.expectObject(valueType,
+ } else { JSType rvalueType = rvalue.getType()
+ checkInheritance(t, functionType,rvalue, rvalueType,
+validator.expectObject(t, rvalue,  objectJsType,
+ } else { throw new IllegalStateException(rvalueType,
+ checkInheritanceInheritance(t, rvalue, rvalueType,
+ } else { JSTypeInfo.expectObject(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritType(t, rvalue, rvalueType,
+ if (functionType!= null) { _expectObject(t, rvalue, rvalueType,
+ if ( rvalueType == null ) { return ; } if ( rvalueType!= null ) { assert (true),
+ setJSType(rvalue, rvalueType,
+validator. reportError ( rvalueType, Error.
+ } else { throw new BugError(this,
+validator. invalidate ( functionType,
+ if (rvalueType!= null) context.expectObject(t, rvalue, rvalueType,
+ if (!functionType)
+ } else { JSType rvalueType = getJSType(),
+ checkDeclaredPropertyIn( t, rvalueType,
+ } else { checkInheritance( t, rvalue, rvalueType,
+ setJSType(object,rvalueType,
+ checkDeclaredPropertyInheritance()(rvalueType,
+validator(t,
+validator.expectObject(t, rvalue,  functionType, property,
+ checkConstructorType(rvalue, rvalueType,
+ if (rvalueType!= null) { throw
+ } else { checkInheritance( t, rvalueType,
+ checkDeclaredPropertyInheritanceInternal(t, rvalue, rvalueType,
+ checkConstructorInheritType(t, rvalue, rvalueType,
+ } else { ObjectUtil.expectObject(t, rvalue, rvalueType,
+ } else { JSType astUtil.expectObject(t, rvalue, rvalueType,
+ checkConstructorPropertyInheritance(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceType(t, rvalue, rvalueType,
+ return; } else { throwError(t,
+ } else { throw new BugError(t,
+ } else { JSType rvalueType = -
+ checkConstructorType( t, assign, rvalueType,
+ checkConstructorInheritProperty(t, rvalue, rvalueType,
+ } else { JSTypeVisitor.expectObject(t, rvalue, rvalueType,
+ } checkDeclaredInheritance(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType, property,
+ } else {
+ return; } else { throw new RuntimeException(rvalueType,
+validator.expectObject(t, rvalue,  function, info,
+ } else { throw new IllegalArgumentException ( "Invalid property type for
+ checkDeclaredPropertyInheritance, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, info, functionType,
+ } else { setJSType(rvalueType,
+ setType(rvalueType,
+ } else { return; } assign.add(rvalueType,
+validator.error(
+ checkDeclaredPropertyInheritanceOfConstructor(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceInspection(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, object, functionType,
+ } else { throwError(t,
+ checkDeclaredPropertyInheritanceInjection(t, rvalue, rvalueType,
+ assign(object, rvalueType,
+ return rvalueType,
+ checkPrototype( t, rvalue, rvalueType,
+ } else { JSTypeReporter.expectObject(t, rvalue, rvalueType,
+ if (validator) {
+ checkDeclaredPropertyInclusion(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType.getName(),
+ checkError(t,
+ return; } else { throw new TypeException(rvalueType,
+ } else { JSType assertionType.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, object,
+ } else { JSTypes.expectObject(t, rvalue, rvalueType,
+ setJSTypeImpl(rvalueType,
+validator.expectObject(functionType,
+ } else { NodeUtil.expectObject(t, rvalue, rvalueType,
+ return; } else { throw new TypeError(rvalueType,
+ if ( rvalueType!= null ) { if ( rvalueType!= rvalue ) { } }
+validator. validate ( rvalueType, functionType ::
+ checkDeclaredPropertyInheritance2(rvalue, rvalueType,
+validator.expectObject(t, functionType,
+ checkConstructorInitializer(rvalue, rvalueType,
+validator. reportError ( Error.
+validator.expectObject(rvalue, info,
+ checkType(rvalue, rvalueType,
+ } else { throw new Error(this,
+ assign.addJSType(rvalueType,
+ if ( rvalueType!= null ) { if ( rvalueType!= rvalueType ) { return
+ } else { JSType. _expectObject(t, rvalue, rvalueType,
+ assign(object.prototype, rvalueType,
+ checkDeclaredConstructor(t, rvalue, rvalueType,
+ } else { ReflectUtil.expectObject(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceForObjects(t, rvalue, rvalueType,
+ } else { return; } checkType(rvalueType,
+ } else { throwException(t,
+ checkConstructorProperty( t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritance2(rvalueType,
+ if (validation)
+ return; } else { checkType( t, rvalueType,
+ checkDeclaredPropertyInheritanceInfo(rvalue, rvalueType,
+ checkDeclaredPropertyInheritanceFor(rvalue, rvalueType,
+ checkInheritance( t, functionType.rvalue, rvalueType,
+ setType(object, rvalueType,
+ checkConstructors( t, rvalueType,
+ checkConstructorInheritType(rvalue, rvalueType,
+ } else { JSType info.expectObject(t, rvalue, rvalueType,
+ assign.setType(rvalueType,
+ } else { TypeUtil.expectObject(t, rvalue, rvalueType,
+ setType(rvalue, rvalueType,
+ checkConstructor(rvalueType,
+ checkDeclaredPropertyInitializer(t, rvalue, rvalueType,
+ } checkConstructor( t, rvalue, rvalueType,
+ checkTypeInitializer( t, rvalue, rvalueType,
+ checkConstructor ( rvalue, info,
+ assign.addType(rvalueType,
+validator. report ( t,
+ if ( rvalueType!= null ) { if ( rvalueType!= rvalue ) { } return
+ checkPrototypeInitializer(t, rvalue, rvalueType,
+ checkDeclaredPropertyInference(t, rvalue, rvalueType,
+validator.validate(this,
+ } checkError(t,
+validator. invalidate ( t,
+ checkPrototype( t, rvalueType,
+ checkConstructorInheritProperty(rvalue, rvalueType,
+ JSTypeHelper.expectObject(t, rvalue, rvalueType,
+validator.expectObject(Rvalue,
+ assignObject(object2,rvalueType,
+validator.warn(Rvalue,
+ ReflectUtil.expectObject(t, rvalue, rvalueType,
+ checkConstructor ( t, rvalue,
+ } else { throw new Error(1,
+ checkConstructorInheritanceType(t, rvalue, rvalueType,
+validator.validate(info,
+ } else { JsonUtil.expectObject(t, rvalue, rvalueType,
+ checkInheritedProperty( t,rvalue, rvalueType,
+ checkPrototypeType( t, rvalueType,
+ checkInheritance(functionType,rvalue, rvalueType,
+ assign(t, rvalue, rvalueType,
+ checkDeclaredPropertyInheritance(itrvalue, rvalueType,
+ } else { JsonExporter.expectObject(t, rvalue, rvalueType,
+ checkInheritanceType(t, rvalue, rvalueType,
+validator.addError(
+validator.warn(t,
+ } else { JsUtil.expectObject(t, rvalue, rvalueType,
+ assign (rvalue, rvalueType,
+ checkConstructorTypes(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, object, property,
+validator. fail ( Error.
+ checkPrototypeType(t, rvalue, rvalueType,
+ checkInheritanceType(rvalue, rvalueType,
+ checkInheritType(rvalue, rvalueType,
+validatorException(
+ info.setType(rvalueType,
+ checkProperty( t, rvalue, rvalueType,
+ checkDeclaredPropertyType(t, rvalue, rvalueType,
+ check( t, rvalue, rvalueType,
+ checkInitializer( t, rvalue, rvalueType,
+validator.expectObject(t, rvalue,  object, property,
+ setJSTypeInternal(rvalueType,
+validator(rvalue,
+ error(t,
+validator.validate(T,
+ JSTypeUtil.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t,
+ TypeRegistry.expectObject(t, rvalue, rvalueType,
+ } else { setError(t,
+ ObjectUtils.expectObject(t, rvalue, rvalueType,
+ checkConstructors(rvalue, rvalueType,
+ checkConstructor ( functionType, rvalueType,
+ setJSTypeInfo(rvalueType,
+ checkConstructorInspection(t, rvalue, rvalueType,
+validator.addWarning(
+ checkDeclaredPropertyInher(rvalue, rvalueType,
+validator.warnError(
+validator.warn(T.
+ checkConstructorInheritType(rvalueType,
+ checkInterface( t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, assign,
+ checkDeclaredPropertyInjection(rvalue, rvalueType,
+ } else { JsonExceptions.expectObject(t, rvalue, rvalueType,
+ if (validationEnabled)
+validator.expectObject(this,
+ checkPrototype(rvalue, rvalueType,
+ visitConstructor(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, false,
+validator. reportError ( error,
+ checkType ( t, assign, rvalueType,
+ setJSTypeReference(rvalueType,
+validator.fail(
+ return; } setError(t,
+validator.warn(T,
+validator.warning(
+ checkReference( t, rvalue, rvalueType,
+validator.validate(rvalueType,!
+validator.expectObject(obj,
+ JSTypeExporter.expectObject(t, rvalue, rvalueType,
+validator.validate ( rvalueType, info ::
+( t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, true,
+validator.expectObjectType(rvalue,
+ } else { throw new TypeException(rvalueType,
+ } } else {
+ checkConstructorInheritance()(rvalueType,
+validator.expectObject(t, rvalueType, property2,
+ Assertionions.expectObject(t, rvalue, rvalueType,
+validatorError(
+ assign.addType(object,rvalueType,
+validator.warn
+validator.expectObject(t, rvalue, rvalueType, property,
+ assign.addProperty(rvalueType,
+ inherit( t, rvalue, rvalueType,
+ assign(object,
+ setType(rvalue,
+ check( t, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, FunctionType.
+ check(t,
+validator.validate(rvalueType, new
+ return; } error(t,
+validator.validate(rvalueType, -
+ assign.add(rvalueType,
+validator.expectObject(t, rvalueType, functionName,
+ checkTypeInheritanceAndexpectObject(t, rvalue, rvalueType,
+validator.expectObject(rvalueType, functionType(),
+ visitConstructor(rvalue, rvalueType,
+ } } else { throw(t,
+ checkTypeInheritance.expectObject(t, rvalue, rvalueType,
+ JSTypeUtils.expectObject(t, rvalue, rvalueType,
+ assign.setType(rvalue, rvalueType,
+ checkConstructorTypes(rvalue, rvalueType,
+validator.expectObject(RvalueType,
+ assign (object.prototype, _rvalueType,
+ } setError(t,
+ visitType(rvalueType,
+ return; } else {expectObject(t, rvalue, rvalueType,
+ assign.set(rvalue, rvalueType,
+validator.expectObject(rvalueType,!
+validator.validateError(
+ } setType(object,
+ setType(t, rvalue, rvalueType,
+validator.expectObject(info,
+ checkConstructorInitializers(t, rvalue, rvalueType,
+validator.expectObject(t, rvalueType,!
+ checkObjectConstructor(t, rvalue, rvalueType,
+validator.notNull(
+ setType(object,
+ assign.set(rvalueType,
+ JSTypeVisitor.expectObject(t, rvalue, rvalueType,
+validator. invalidate ( rvalueType ) #
+ checkTypeError(rvalueType,
+validator. reportError ( rvalueType, ERROR
+ if (test)
+ } error(t,
+validator. invalidate ( rvalueType ) (
+ if (!error)
+validator.expectObject(t, rvalue, rvalueType, null,
+validator.expectObject(t, rvalue, object,
+ JSTypesImpl.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, property,
+validator.expectObject(rvalueType, new
+ checkCast(rvalue, rvalueType,
+ this.expectObject(t, rvalue, rvalueType,
+ assign(object, rvalue, rvalueType,
+ traverse(t, rvalue, rvalueType,
+ validate(rvalueType,
+validator.warn(Info,
+validator. reportError ( rvalueType, "
+ JSTypeExpect.expectObject(t, rvalue, rvalueType,
+ checkError(rvalueType,
+ visitType(t, rvalue, rvalueType,
+ visitType(rvalue, rvalueType,
+ inherit(t, rvalueType,
+ checkTypeInheritanceInexpectObject(t, rvalue, rvalueType,
+ visitProperty(t, rvalue, rvalueType,
+ assign(t, rvalueType,
+ checkCast(rvalueType,
+validator.expectObject(rsvalueType,
+ visitInterface(t, rvalue, rvalueType,
+ AssertionError.expectObject(t, rvalue, rvalueType,
+ checkConstructors(rvalueType,
+ JSTypesHelper.expectObject(t, rvalue, rvalueType,
+ checkTypeInheritance().expectObject(t, rvalue, rvalueType,
+ injectType(rvalue, rvalueType,
+ functionType.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue, rvalueType, functionType ==
+validator.expectObject(resourceType,
+ JsonUtil.expectObject(t, rvalue, rvalueType,
+ inherit(rvalue, rvalueType,
+validatorWarning(
+ override(rvalueType,
+ return; }
+validator.expectObject(t, rvalueType(),
+ checkInheritanceAndReexpectObject(t, rvalue, rvalueType,
+ inject(rvalue, rvalueType,
+validator.expectObjectProperty(
+ check(rvalueType,
+validator.throw(
+ register(rvalueType,
+ validate(t, rvalue, rvalueType,
+ } else {expectObject(t, rvalue, rvalueType,
+ visit(t, rvalue, rvalueType,
+ validate(rvalue, rvalueType,
+validator.expectObject(t, ignore
+ } this.expectObject(t, rvalue, rvalueType,
+ return null,
+ JsonUtils.expectObject(t, rvalue, rvalueType,
+ rewrite(t, rvalue, rvalueType,
+validator.expectObject(t, rvalue,  functionType,!
+ inject(rvalueType,
+ }, info,
+ return visitor.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, Rvalue,
+ return; } }
+ assign object, rvalueType,
+ assign object, rvalue, rvalueType,
+validator(new
+ traverse(rvalue, rvalueType,
+validator.expectObject(t, assert
+validator.expectObject(t2,
+validator.expectObject(t, cvalueType,
+ this.
+ return false,
+(info,
+validator.expectObject(t,!
+( t, rvalueType,
+ astHelper.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t, obj,
+validator.expectObject(t, new
+ } else { return
+ checkCast(t, rvalue, rvalueType,
+ Exceptions.expectObject(t, rvalue, rvalueType,
+ assert.expectObject(t, rvalue, rvalueType,
+ report t, rvalueType,
+ } checkUnexpectObject(t, rvalue, rvalueType,
+ checkUnexpectObject(t, rvalue, rvalueType,
+ JSTypeHelper#expectObject(t, rvalue, rvalueType,
+validator.expectObjects(
+validator.expectObject(object, property,
+ assertionContext.expectObject(t, rvalue, rvalueType,
+validator.expectObject(t,  RvalueType,
+validator.expectObject(t, assignment,
+validator.expectObject(t, info,
+validator.expectObject(t, rvalue,  false,
+ check (, rvalueType,
+ checkTypes(t, rvalue, rvalueType,
+ if (!!
+ assertionHelper.expectObject(t, rvalue, rvalueType,
+ objectType.expectObject(t, rvalue, rvalueType,
+ checkReexpectObject(t, rvalue, rvalueType,
+(t,
+ return
+ if (!)
+validator.expectObject(t, rvalue,  functionType(),
+ if (!null
+validator.expectObject(t, rvalue, rvalueType,!
+validator.expectObject(new
+validator.expectObject(t, rvalue,  functionName,
+validator.expectObject(t, rvalue,  FunctionType.
+validator.expectObject(t, rvalue, rvalueType, new
+validator.expectObject(T
+ } return
+ check.expectObject(t, rvalue, rvalueType,
+ error =
+validator.expectObject(t, rvalue, rvalueType.get
+validator.expectObject(t, rvalue, rvalueType, -
+validator.expectObject(t, rvalue, rvalueType.new
+ } }
+ }
+validator.expectObject(t, rvalueType.
+validator.expectObject(t, rvalueType.,

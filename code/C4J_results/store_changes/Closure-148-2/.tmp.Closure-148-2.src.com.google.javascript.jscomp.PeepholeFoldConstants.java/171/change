@@ -1,0 +1,185 @@
+ break;
+ } break;
+ break; default: typeNameString = null;
+break; case Token.BOOL:
+break; } break;
+ break; }
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "string";
+ default: typeNameString = "undefined";
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = null;
+ break; break;
+ break; default: typeNameString = null break;
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "boolean";
+ break; case Token.UNKNOWN: typeNameString = "unknown"; break; default: typeNameString = "string";
+ break; default:
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "null";
+ break; case Token.UNKNOWN: typeNameString = "unknown"; break; default: typeNameString = "unknown";
+ break; case Token.UNKNOWN: typeNameString = "unknown"; break; default: typeNameString = null;
+ break; case Token.STRING: typeNameString = "string";
+ break; case Token.STRING: typeNameString = "string" ; default: typeNameString = "string";
+ break; case Token.UNKNOWN: typeNameString = "unknown"; break; default: typeNameString = "undefined";
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "undefined";
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString++;
+ break; case Token.UNKNOWN: typeNameString = "undefined";
+ break; case Token.UNKNOWN: typeNameString = "unknown" ; default: typeNameString = "string";
+ break; case Token.STRING: typeNameString = "string" ; } else { typeNameString = null ;
+ break; case Token.FALSE: typeNameString = "boolean";
+ break; case Token.STRING: typeNameString = "string" if (argumentNode == null)
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString = null;
+ break; default: break;
+ break; case Token.FALSE: typeNameString = "false";
+ break; case Token.UNKNOWN: typeNameString = "unknown";
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString = [];
+ break; case Token.STRING: typeNameString = "string" ; default: typeNameString = null;
+ break; case Token.UNKNOWN: typeNameString = "unknown"; break; default: typeNameString = "undefined"; }
+ break; case Token.STRING: typeNameString = "string"; break; default: return typeNameString;
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString;
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString = "";
+ break; case Token.STRING: typeNameString = "string" + argumentNode;
+break; case Token.FALSE:
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "undefined"; }
+ break; case Token.STRING: typeNameString = "string" ; case Token.NUMBER:
+break; case Token.VALUE:
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NULL: typeNameString++;
+ break; case Token.STRING: typeNameString = "boolean";
+break; default: typeNameString = "null";
+ break; case Token.STRING: typeNameString = "string"; break; default: typeNameString = "boolean"; }
+ } default: typeNameString = "undefined";
+ } else { typeNameString = null;
+ break; default: typeNameString = "undefined";
+ break; case Token.DECIMAL: typeNameString = "decimal" ; break; }
+ break; case Token.STRING: typeNameString = "string" if (argumentNode!= null)
+ break; case Token.UNKNOWN: typeNameString = "unknown" ; default: typeNameString = null;
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString =;
+ break; case Token.STRING: typeNameString = "string"; break; case Token.NUMBER: typeNameString = 0;
+ break; case Token.STRING: case Token.NUMBER: typeNameString = "number"; break; default: typeNameString++;
+ case Token.STRING: typeNameString = "string";
+ break; case Token.DECIMAL: typeNameString = "decimal" + argumentNode;
+ } default: typeNameString = "string";
+break; default: typeNameString = null; }
+ break; case Token.UNKNOWN: typeNameString = "undefined"; }
+ break; case Token.STRING: typeNameString = "string" ; case Token.NULL:
+ break; case Token.STRING: typeNameString = "";
+ break; case Token.STRING: typeNameString = "string" + "string" ;
+ break; case Token.STRING: typeNameString = "string" ; case Token.TEXT:
+ break; case Token.DECIMAL: typeNameString = "decimal" ; break;
+ break; case Token.DECIMAL: typeNameString = "decimal" ; break ; default:
+ default: typeNameString = "string";
+ break; case Token.STRING: typeNameString = "string" ; default: return typeNameString;
+ break; case Token.UNKNOWN: typeNameString = "unknown" ; break; }
+ break; default: typeNameString = "string";
+ break; case Token.UNKNOWN: typeNameString = "undefined" ; break;
+ } else { typeNameString = "null"; }
+ break; case Token.UNKNOWN: typeNameString = "unknown" ; break ; default:
+ } else { typeNameString }
+ default: typeNameString = "unknown";
+ break;
+break; case Token.BINARY:
+ break; case Token.STRING: typeNameString = null;
+ break; default: typeNameString = "";
+ default: typeNameString = "null";
+ break; case Token.DECIMAL: typeNameString = "decimal" ; case Token.INT:
+ break; case Token.NULL: break;
+ break; default: typeNameString break;
+break; default: switch (argumentNode) {
+ default: typeNameString = "boolean";
+ break; default:
+ break; case Token.CUSTOM: typeNameString = "custom";
+ } else { typeNameString = "null";
+ break; default: typeNameString = ".";
+ break; case Token.STRING: typeNameString = "string" + "";
+ break; default: typeNameString = "null";
+ break; case Token.STRING: typeNameString = "string"; } else { typeNameString = }
+break; case Token.STR:
+ default: typeNameString = "undefined"; }
+break; case Token.Boolean:
+ break; case Token.STRING: typeNameString = "string"; } else { typeNameString = };
+break; case Token.BOOOL:
+break; default: typeNameString = "unknown";
+ break; case Token.STRING: typeNameString = "shortString";
+ break; case Token.STRING: typeNameString =;
+break; default: typeNameString = "string";
+ case Token.STRING: typeNameString = "boolean";
+ default: typeNameString = null;
+ break; default: typeNameString = "unknown type";
+ break; case Token.STRING: typeNameString = "string" + "string"; }
+ break; }
+ case Token.NULL: typeNameString++;
+ break; case Token.STRING: typeNameString = "string; }
+ break; default: typeNameString = undefined break;
+break; case Token.Bool:
+ break; case Token.UNKNOWN: typeNameString = "null";
+ break; default: typeNameString = "undefined"; }
+ } else { typeNameString = "undefined" ; }
+ case Token.NULL: typeNameString = null
+break; case Token.BOOLEAN:
+ break; case Token.STRING: typeNameString = ""
+break; case Token.BIT:
+break; case Token.BooleanLit:
+break; case Token.INT:
+break; case Token.PRIMARY:
+ break; case Token.BOOL: break;
+break; case Token.NEGATIVE:
+ } else { typeNameString = "unknown" ; break ; }
+break; case Token.BUG:
+ case Token.NULL: break;
+ if (argumentNode == null)
+ break; default: } break;
+ case Token.NULL:
+ break; default: typeNameString = "null"; }
+ break; case Token.INT: break;
+ break; case Token.VALUE: break;
+ break; default: break; break;
+ } else { typeNameString = };
+ } else { typeNameString = }
+ case Token.STRINGLIT:
+ } else { typeNameString};
+ break; case Token.STRING: typeNameString = "string;
+ } default: typeNameString = "undefined"; }
+ break; case Token.BOOL;
+ switch (argumentNode) break;
+ break; case Token.STR : break;
+ } else { typeNameString ; }
+ if (typeNameString)
+ break; case STRING:
+ } default: typeNameString++;
+ case Token.STRING: break;
+ case Token.FALSE:
+ } else { typeNameString++;
+ break; case Token.FALSE;
+ break; case Token.STRING;
+ case Token.STRING:
+ case Token.INT:
+ break; case Boolean:
+ break; case "true":
+ default: typeNameString++;
+ switch (argumentNode); break;
+ break; switch;
+ break; case '=':
+ switch (argumentNode)) break;
+ case Token.TYPE:
+ switch (argumentNode)
+ case Token.TEXT:
+ default: typeNameString;
+ break; case "true",
+ break; default: }
+ default: break;
+break; case Token.BOOL: {
+ default: } break;
+ } default: break;
+ break } break;
+ break; });
+ }
+ break; default;
+ default:
+ } else {
+ break: }
+ break;;
+ break break;
+ break
+ break();
+ }
+ break.
+ break();
+ break,
+break. }

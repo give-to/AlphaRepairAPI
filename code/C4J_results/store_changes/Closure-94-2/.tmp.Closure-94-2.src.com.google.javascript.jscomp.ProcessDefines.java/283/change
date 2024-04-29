@@ -1,0 +1,654 @@
+ valParent= getValueParent(ref);
+Node valParent = getValueParent(ref);
+Node valParent = getValueParent(fullName);
+Node  valParent = parent;
+Node valParent = getValueParent ( ) ;
+Node  valParent;
+Node  valParent = ref.parent;
+Node  valParent = refInfo.parent;
+ valParent = t.getValueParent(ref);
+Node  valParent = getParent ( ) ;
+ Node valParent = (Node) parent);
+ Node valParent = ((Node) parent);
+Node valParent = getValueParent(ref) ; if (valParent!= null) {
+ case SET_FROM:
+Node valParent  = refInfo.name.getFirstChild();
+ ValueParent valParent = _getValueParent(ref);
+Node  valParent = getFirstChild ( ) ;
+Node valParent = getValueParent(ref) ; Node lvalueToRemoveLater = null;
+Node valParent = getValueParent(ref) ; if (valParent!= null)
+Node valParent = getValueParent ( refInfo. name, fullName ) ;
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_ASSIGN:
+Node valParent =  refInfo.name.addRef(ref);
+Node  valParent = getNode ( ) ;
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_ASSIGN:
+ case SET_FROM_SET:
+Node  valParent = ref. getParent ( ) ;
+ Node valParent = new Node(name);
+ Node valParent = new Node(parent);
+Node valParent = getValueParent(refInfo.name);
+Node  valParent = refInfo.getFirstChild();
+ Node valParent = parent.getFirstChild(();
+ } ValueParent valParent = _getValueParent(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_VALUE:
+ case SET_FROM_NODE: case SET_FROM_SET:
+ case SET_FROM_SET:
+ case SET_FROM_DEF:
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_SET:
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_VALUE:
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_SET:
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: case SET_FROM:
+ valParent = new Node(ref);
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM_SET:
+Node  valParent = getValue ( ) ;
+ valParent = (Node) parent);
+ case SET_FROM_DEF:
+ case SET_FROM_VAR: case SET_FROM_SET: case SET_FROM_LIST:
+Node  valParent = refParent;
+ Node valParent = new Node(val);
+ valParent = parent;
+Node valParent  = refInfo.name.getLastChild();
+ case SET_FROM_NODE: case SET_FROM_VALUE:
+ case SET_FROM_SET: valParent= getValueParent(ref);
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM_FOO:
+ case SET_FROM_VAR: case SET_FROM_SET: case SET_FROM_SET:
+ Node valParent = (Node)(parent);
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: case SET_FROM_INSTANCE:
+Node valParent = getValueParent ( refInfo. name, parent ) ;
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: case SET_FROM_VAR:
+Node  valParent = n;
+ case SET_FROM_INSTANCE: case SET_FROM_VAR:
+ case SET_FROM_NODE: case SET_FROM_VAR:
+ case SET_FROM_INSTANCE:
+Node  valParent = getParent ( ref ) ;
+ case SET_FROM:
+Node  valParent = parent.parent;
+ switch (ref.type) { case SET_FROM_VALUE:
+ case SET_FROM_NODE: case SET_FROM_STRING:
+ case SET_FROM_NODE: case SET_FROM_REF:
+ valParent = ref.parent;
+ case SET_FROM_NODE: case SET_FROM:
+ case SET_FROM_DEFAULT: case SET_FROM:
+ valParent = new Node(name);
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_FOO:
+Node valParent =  refInfo.name.getRef(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_ASSIGN: {
+ case SET_FROM_DATE: case SET_FROM_TIME:
+ valParent = getDefineParent(ref);
+ valParent = new Node(parent);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: {
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_ASSIGN: {
+ case SET_FROM_VALUE:
+ case SET_FROM_LOCAL: case SET_FROM_SET:
+Node valParent = getValueParent(n);
+ valParent = assignableDefines.get(ref);
+ valParent.add(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE:
+ Node valParent = new Node(ref);
+Node valParent = getValueParent ( refInfo. name, ref ) ;
+ Node valParent = t.getFirstChild(();
+ ValParent = t.getValueParent(ref);
+Node valParent =  refInfo.name.getParent ( ) ;
+ Val parent = t.getValueParent(ref);
+Node valParent = getValueParent(n, parent);
+ valParent = parent.getFirstChild(ref);
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM:
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_ASSIGN: }
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_ASSIGN: }
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: break; }
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM_SET
+Node valParent  = ref. getFirstChild ( ) ;
+ case SET_FROM: Node valParent= getValueParent(ref);
+Node valParent = getValueParent(ref) ; Node lvalueToRemoveLater;
+ Node valParent = t.getFirstChild(ref);
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM: }
+ case SET_FROM_INSTANCE: case SET_FROM_DEFINITION:
+ switch (ref.type) { case SET_FROM_SET:
+ case SET_FROM_VAR: case SET_FROM_REF: case SET_FROM:
+ case SET_FROM_INSTANCE: case SET_FROM_INSTALL:
+Node valParent = getValueParent(n, fullName);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: case SET_FROM: }
+ case SET_FROM_NAME:
+ case SET_FROM_VALUE:
+ case SET_FROM_LOCAL: case SET_FROM:
+ Node valParent = getFirstChild(parent);
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_ASSIGN: } }
+ case SET_FROM_VAR: case SET_FROM_SET: case SET_FROM:
+ valParent.remove(ref);
+Node  valParent = ref.parent();
+Node  valParent = getFirstChild(n);
+Node valParent = getValueParent ( refInfo. name, name ) ;
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_ASSIGN: } }
+ Ref valParent = new Ref(ref);
+ { Node valParent= getValueParent(ref);
+Node valParent = getValueParent(refInfo.name, name.declaration);
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: }
+ case SET_FROM_NODE:
+ case SET_FROM_INSTANCE:
+ case SET_FROM_FULL:
+Node valParent = getValueParent(refInfo.name, refInfo.ref);
+ { ValueParent valParent = _getValueParent(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: break;
+ case SET_FROM_VAR: case SET_FROM_DEF: case ASSIGN:
+ case SET_FROM_DIR:
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM: }
+Node valParent = getValueParent(ref) ; if (valParent) {
+ ValueParent valParent= getValueParent(ref);
+Node  valParent = ref;
+ Node valParent = getParent(fullName);
+ Node valParent = get(n);
+ valParent = _getValueParent(ref);
+ case SET_FROM_DEFINE:
+ Node valParent = parent.getFirstChild();
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: } }
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: }
+ case SET_FROM_DEF: valParent= getValueParent(ref);
+ case SET_FROM_VAR: case SET_FROM_REF: case SET_FROM: }
+ valParent = getParent(ref);
+ valParent = allDefines.get(ref);
+ valParent.addRef(ref);
+ valParent = name.getValueParent(ref);
+ valParent = t.getFirstChild(ref);
+Node valParent =  refInfo.name.getParent(n);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: case ASSIGN:
+ Node valParent = parent.getNextChild(();
+ Node valParent = get(ref);
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM: {
+Node  name;
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: case undefined:
+ case SET_FROM_VAR: case SET_FROM_DEF: case SET_FROM };
+ case SET_FROM_NODE: case SET_FROM_VAR: case SET_FROM_ASSIGN: { }
+ } valParent = refInfo.getValueParent(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_VAR: case SET_FROM_ASSIGN: { }
+ case SET_FROM_VAR: case SET_FROM_FOO: {
+ case SET_FROM_DIR: valParent= getValueParent(ref);
+Node  name = ref;
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: case SET_FROM_DEFINITION: {
+ case SET_FROM_NODE: case SET_FROM CALL:
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: return true; }
+Node valParent = getValueParent(ref) ; Node lvalueToRemoveLater = n;
+ Node valParent = getDefineNode(ref);
+ valParent.removeChild(ref);
+Node valParent  = refInfo.name.getFirstChild;
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: return false; }
+ Node valParent = getParentNode(val);
+ case SET_FROM_NAME: valParent= getValueParent(ref);
+ valParent = name.getFirstChild(ref);
+ case SET_FROM_NAME:
+ Node valParent = getFirstChild(ref);
+ case SET_FROM: valParent=getValueParent(ref);
+ valParent = allRefInfo.get(ref);
+ case SET_FROM_DEFINITION:
+ valParent = refInfo.parent;
+ case SET_FROM_DEFINES:
+Node valParent = getValueParent ( refInfo. name, n ) ;
+ Node valParent = getParentNode(ref);
+Node valParent =  refInfo.name.findParent(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: case SET_VALUE:
+Node valParent = getValueParent(ref); Node lvalueToRemoveLater = parent;
+Node valParent = getValueParent ( refInfo ) ;
+ case SET_FROM_DIR:
+ Node valParent = t.getFirstChild();
+ refInfo.add(ref);
+ Node valParent = getDefineParent(ref);
+ valParent = parent(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_INSTANCE: {
+ valParent = names.get(ref);
+ valParent.set(ref);
+ valParent = parent.getValueParent(ref);
+ case SET_FROM_NODE: case SET_FROM: {
+ Node valParent = t.getParentNode(ref);
+ { ValueParent valParent = t.getValueParent(ref);
+ { ValueParent valParent= getValueParent(ref);
+ case SET_FROM: valParent = _getValueParent(ref);
+ Node valParent = parent(ref);
+ valParent = allValInfo.get(ref);
+ case SET_FROM_INSTANCE: case SET_FROM_DEFINITION: {
+Node  valParent = refInfo.getFirstChild;
+ case SET_FROM_SET valParent=getValueParent(ref);
+ switch (ref.type) { Node valParent= getValueParent(ref);
+ valParent = refInfo.getValueParent(ref);
+ valParent = getParentNode(ref);
+ case INIT: ValueParent valParent = _getValueParent(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: default: }
+ case SET_FROM_NODE: case SET_FROM: }
+ } ValueParent valParent = t.getValueParent(ref);
+ valParent = this.getDefineParent(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: return; } }
+ case SET_FROM_NODE: case SET_FROM_NODE: } }
+ case SET_FROM_DATE:
+ final Node valParent= getValueParent(ref);
+ case COMPARE: valParent = t.getValueParent(ref);
+Node valParent = getValueParentNode ( refInfo. name ) ;
+ case SET_FROM_DEFAULT: case ASSIGN:
+Node valParent =  parent.getFirstChild(ref);
+Node valParent = getValueParent(ref) ; case SET_FROM:
+ Node valParent = getNode(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: default: } }
+ case SET_FROMDEF:
+ refInfo.remove(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: { }
+ name.getValueParent(ref);
+ valParent = get(ref);
+Node valParent = getValueParent ( refInfo. value ) ;
+Node valParent = getValueParent ( ref, fullName ) ;
+ case SET_FROM_DEFINES:
+ case SET_FROM_FULL:
+ ref.set(ref);
+ valParent = findParent(ref);
+ case SET_FROM_VAR: case SET_FROM_ASSIGN: default: {
+Node valParent = getValueParent(ref) ; valParent. detach ( ) ;
+ case SET_FROM_VAR: {
+ case SET_FROM_FULL: case SET_FROM: {
+ ValidationContext valParent=getValueParent(ref);
+ case SET_FROM_DEFINES: {
+Node valParent = getValueParent(ref) ; valParent = valParent. parent;
+ valParent = parent.getChild(ref);
+ Node valParent = (Node);
+Node valParent = getValueParent(name, fullName);
+ case SET_FROM_NODE: case NODE:
+ case SET_FROM_UNKNOWN: case undefined:
+ case SET_FROM_SET: LvalParent = getValueParent(ref);
+Node valParent = getValueParent(ref) ; switch (valParent) {
+ case VAR: valParent = t.getValueParent(ref);
+Node  name = name;
+Node valParent =  refInfo.name.removeRef(ref);
+Node valParent =  refInfo.name.getChild(ref);
+ valParent = findDefine(ref);
+ valParent = t.getDefineParent(ref);
+Node valParent = getValueParent(n, parent, ref);
+ valParent = name.getParent(ref);
+ Node valParent = getValueNode(ref);
+Node valParent = getValueParent ( ref, parent ) ;
+ case SET_FROM_LOCAL: case SET_FROM: }
+ valParent = parent.getFirstChildOf(ref);
+ case SET_FROM_DEFINE: case ASSIGN:
+ case SET_FROM_INSTANCE: NodevalParent = getValueParent(ref);
+Node valParent = getValueParent(name, refInfo.name).nextChild;
+ case COMPARE: Node valParent= getValueParent(ref);
+ case SET_FROM_FOO: case ASSIGN:
+Node valParent  = refInfo.name.getLastChild;
+ valParent = get(n);
+ case SET_FROM_NODE: case ASSIGN:
+ } } ValueParent valParent = _getValueParent(ref);
+ Ref ref = ref(ref);
+ case SET_FROMDEF:
+ case ASSIGN: Node valParent= getValueParent(ref);
+ case SET_FROM } valParent= getValueParent(ref);
+ valParent = getNode(ref);
+ case INIT: ValueParent valParent= getValueParent(ref);
+ case SET_FROM_NODE: case NAME:
+Node valParent = getValueParent(ref) ; case ASSIGN:
+ valParent = valNode;
+ case SET_FROM: val valParent= getValueParent(ref);
+ Node name = ref.name;
+ case SET_FROM_DIRECTORY;
+ case SET_FROM_NODE: case NODE:
+ case SET_FROM. };
+ case SET_FROM_NODE: case SET_VALUE:
+Node  valParent = node;
+Node valParent = getValueParent(n.getParent());
+ case SET_FROM_NODE: {
+ case SET_FROM_FOO: {
+Node valParent = getValueParent ( refInfo, ref ) ;
+ parent.getValueParent(ref);
+ case SET_FROM_DEFINITION;
+ case SET_FROM_INSTANCE: LvalParent = getValueParent(ref);
+Node valParent = getValueParent ( refInfo. valueParent ) ;
+ case SET_FROM_DEFAULT: case SET_ALL:
+ case SET_FROM_UNKNOWN: } }
+ Node valParent = find(ref);
+Node valParent =  allDefines.get(ref);
+ case CALL: Node valParent= getValueParent(ref);
+ case SET_FROM_MULTI: {
+Node valParent  = ref.getFirstChild(); } }
+ case SET_FROM_SET: NodevalParent = getValueParent(ref);
+ case SET_FROM_FOLDER;
+ case SET_FROM_SET: ref.getValueParent(ref);
+ case SET_FROM_MULTIPLE: {
+ case SET_FROM_UNKNOWN: break;
+ refInfo.set(ref);
+ case SET_FROM_NODE: {
+ case SET_FROM_UNKNOWN: {
+ valParent = findDefineParent(ref);
+ case SET_FROM_UNSPECIFIED;
+ case SET_FROM_DEFINE: {
+ { Node valParent = parent.getFirstChild(ref);
+ } ValidationContext valParent = _getValueParent(ref);
+Node valParent =  allValInfo.get(ref);
+ case SET_FROM_DEFINES: {
+Node valParent = getValueParent(n, refInfo.name);
+ } ValidationContext valParent=getValueParent(ref);
+ ref = new Ref(ref);
+ valParent = name.addRef(ref);
+ case SET_FROM_INIT_ERROR: {
+ case SET_FROM_SET: name.getValueParent(ref);
+Node valParent =  parent.getFirstChildAfter(ref);
+ case VAR: ValParent = t.getValueParent(ref);
+ Node name = refInfo;
+ case SET_FROM_DEF: LvalParent = getValueParent(ref);
+Node valParent = getValueParent(nodeTraversal);
+ case SET_FROM_DEFAULT: case SET_VALUE:
+ case CALLBACK: Node valParent= getValueParent(ref);
+ case COMPOSITE: Node valParent= getValueParent(ref);
+ case SET_FROM_NAME: LvalParent = getValueParent(ref);
+Node valParent = getValueParent ( ref, name ) ;
+ } ValidateVal parent = t.getValueParent(ref);
+Node valParent = getValueParent ( refInfo. name ) ; break; }
+ name = name(ref);
+Node valParent = getValueParent ( ref, n ) ;
+ case SET_FROM_SET: lvalParent = getValueParent(ref);
+ case SET_FROM; Node valParent= getValueParent(ref);
+ case undefined: Node valParent= getValueParent(ref);
+ case CALLBACK: valParent= getValueParent(ref);
+ valParent = lookup(ref);
+ case SET_FROM_DEFINITION: {
+ case SET_FROM }; valParent= getValueParent(ref);
+ valParent = name.name.addRef(ref);
+ case SET_TO: Node valParent= getValueParent(ref);
+ case SET_FROM_MULTI: {
+ case SET_FROM_DEFINITION: {
+ case SET_FROM_DEF: {
+ case SET_FROM_DEFAULT: case ASSIGN: {
+ case COMPARE: valParent = parent.getValueParent(ref);
+ case COMPOSITE: ValueParent valParent= getValueParent(ref);
+ case SET_FROM_DEFINES;
+ String name = fullName;
+ case SET_FROM_NODE: case ASSIGN: {
+Node valParent = getValueParent(name, refInfo.name).nextChild();
+Node valParent = getValueParent(ref) ; case VAR:
+ Node valParent = valNode;
+ case SET_FROM_FOO: break;
+ case NULL: Node valParent= getValueParent(ref);
+ case SET_FROM_LOCAL: default: } }
+Node valParent = getValueParent(n, ref, parent);
+ name.set(ref);
+ } Val parent = t.getValueParent(ref);
+ case SET_FROM_SET LvalParent = getValueParent(ref);
+ valParent = name.getParentNode(ref);
+Node valParent  = parent.getFirstChild(); } }
+ } Validate valParent = _getValueParent(ref);
+ case SET_FROM };
+Node valParent =  name.name.addRef(ref);
+Node valParent = getValueParent(ref). getFirstChild ( ) ;
+ Val valParent=getValueParent(ref);
+Node valParent =  refInfo.name.getFirstChild(); final
+ case NAME: Node valParent= getValueParent(ref);
+ case SET_FROM_NODE: NodevalParent = getValueParent(ref);
+ case SET_FROM_LOCAL: LvalParent = getValueParent(ref);
+ case SET_FROM_LOCAL: NodevalParent = getValueParent(ref);
+ case SET_FROM_NODE: case NAME: }
+ case SET_FROM_NODE: break;
+Node valParent =  parent.getChild(ref);
+Node valParent = getValueParent(ref) ; if (valParent)
+ case SET_FROM: refInfo.add(ref);
+ case SET_FROM_MULTIPLE: }
+ case SET_FROM_NAME: {
+Node valParent = getValueParent(ref) ; switch(valParent)
+ case SET_FROM_UNKNOWN: case undefined }
+ case SET_FROM_VAR;
+ case SET_FROM: refInfo.remove(ref);
+Node valParent = getValueParent(n, ref.name);
+ valParent.getValueParent(ref);
+Node valParent = getValueParent(ref.value);
+ } ValueParent valParent= getValueParent(ref);
+ case SET_FROM_INSTANCE;
+ case SET_FROM_NODE: case ASSIGN: {
+Node valParent = getValueParent(name, parent);
+ compiler.report(ref);
+ case SET_FROM_LOCAL: case CALL: }
+ case SET_FROM_SET;
+Node valParent =  parent.getFirstChildOf(ref);
+ case SET_FROM() {
+ valParent = name.name.getParent(ref);
+ case SET_FROM_UNKNOWN: continue;
+ case SET_FROM_NONE;
+ val.getValueParent(ref);
+ case SET_FROM_FULL_NAME;
+Node valParent = getValueParent(n, ref, name);
+ ref.set(name);
+ addRef(ref);
+ case SET_FROM_DEF;
+ case SET_FROM_NODE: case SET: } }
+ case SET_FROM_MULTI: }
+ { Node valParent = parent.getParentNode(ref);
+ case SET_FROM() {
+ setRef(ref);
+ case SET_VALUE: valParent= getValueParent(ref);
+ valParent = name.name.findParent(ref);
+ valParent = allRefInfo.getRef(ref);
+Node valParent = getValueParent(ref) ; break; }
+ case SET_FROM. }
+ valParent = refInfo.value;
+Node valParent = getValueParent(ref). getNext ( ) ;
+ case SET_FROM_UNKNOWN: { final
+ case SET_FROM_DEFINES: }
+Node valParent  = refInfo.getFirstChild(); final
+Node valParent = getValueParent(ref) ; valParent = valParent. parent();
+ case SET_FROM_DEFINE;
+ case SET_FROM() LvalParent = getValueParent(ref);
+ case SET_FROM_DEFAULT: case SET: } }
+ case SET_FROM_INIT: default: {
+ case SET_FROM_UNKNOWN: default: {
+ case SET_FROM_NODE: case SET: } }
+Node valParent =  refInfo.name.getLastChild(); final
+ case SET_FROM_DEFAULT: case ASSIGN: }
+Node valParent =  parent.getFirstChildBefore(ref);
+Node valParent =  this.getDefineNode(ref);
+ case SET_FROM_NODE: default: {
+ ValueParent valParent =.getValueParent(ref);
+ case SET_FROM_NODE;
+ { Node valParent = parent.getNextChild(ref);
+ } } Node valParent= getValueParent(ref);
+Node valParent =  node.getChild(ref);
+Node  valParent = refParent();
+ Node name = ref.node;
+ case SET_FROM_VALUE;
+ valParent = n;
+ ref.add(ref);
+ valParent = valParent;
+ case SET_FROM: LvalParent = getValueParent(ref);
+ case SET_FROM_MULTI: { final
+Node valParent = getValueParent(name, ref);
+ case SET_FROM: {
+ case SET_ALL:
+ ref = ref(ref);
+ case SET_FROM };
+ val valParent= getValueParent(ref);
+Node valParent = getValueParent(ref) ; if (valParent!= null) {}
+ String valParent=getValueParent(ref);
+ case SET_SOURCE: valParent= getValueParent(ref);
+ ValueNode valParent= getValueParent(ref);
+ case INIT: Node lvalParent = getValueParent(ref);
+ case SET_FROM: {
+ case SET_FROM; LvalParent = getValueParent(ref);
+Node valParent = getValueParent(name);
+ case SET_FROM_VALUE:valParent = getValueParent(ref);
+ case INIT_ERROR: LvalParent = getValueParent(ref);
+ case SET_FROM_SET lvalParent = getValueParent(ref);
+ case SET_INIT:
+Node valParent = getValueParent(name, refInfo.name); } }
+Node valParent = getValueParent(n, refInfo.name); } }
+ case SET_FROM() :
+ valParent = ref;
+ { break; }
+ break; } }
+ case SET_SOURCE:
+Node valParent = getValueParent(ref); if (valParent!= null).
+ var name = name;
+ case ASSIGN: ValueParentvalParent = getValueParent(ref);
+Node  valParent();
+Node valParent =  names.get(ref);
+Node  valParent =
+Node valParent = getValueParent(refInfo.name, name.declaration());
+ return true; } }
+ checkRef(ref);
+ { ValParent valParent= getValueParent(ref);
+ valParent = name;
+Node valParent = getValueParent(refInfo.name, fullName); final
+ name=getValueParent(ref);
+ case ASSIGN:
+Node valParent =  getValueFromRef(ref);
+ { ValueNode valParent= getValueParent(ref);
+Node valParent =  nodes.get(ref);
+ break; }
+Node  valParent = parent; final
+Node valParent = getValueParent(name, refInfo.name, parent); }
+ return false; } }
+ case SET_VALUE:
+ ref.getValueParent(ref);
+Node valParent = getValueParent(name, refInfo.name, parent); final
+ switch (ref);
+Node valParent = getValueParent(ref) ; switch(valParent).
+Node valParent = getValueParent(ref) ; case NAME:
+ assert(name!= null);
+ case SET_ALL:
+Node valParent = getValueParent(ref) ; switch(valParent);
+ } });
+Node valParent = getValueParent(ref) ; break; } }
+Node valParent = getValueParent(refInfo.name, fullName); {
+Node valParent = getValueParent(refInfo.name, fullName); }
+Node valParent = getValueParent(refInfo.name, ref); final
+ ref.set(n);
+ ValueParent>valParent = getValueParent(ref);
+ Value valParent= getValueParent(ref);
+ node.set(ref);
+Node  valParent = ref; final
+ return; } }
+Node valParent = getValueParent(node);
+Node valParent = getValueParent(refInfo.name, parent); final
+ switch (name);
+ default: break; }
+ final ValueParent lvalParent = getValueParent(ref);
+ visit(ref);
+ case COMPOSITE: LvalParent = getValueParent(ref);
+Node valParent = getValueParent(refInfo.name, ref); }
+Node valParent = getValueParent(refInfo.name, ref); {
+ assert(ref);
+ { ValueParent.valParent = getValueParent(ref);
+ case ASSIGN: LvalParent = getValueParent(ref);
+ processRef(ref);
+Node valParent = getValueParent(parent);
+Node valParent = getValueParent(refInfo).getFirstChild(); final
+ { ValueParent lvalParent = getValueParent(ref);
+ ValueParent.valParent = getValueParent(ref);
+Node  parent;
+ ref = ref(name);
+Node valParent = getValueParent(ref).parent;
+ { ValueParent(valParent = getValueParent(ref);
+Node valParent = getValueParent(refInfo.name, parent); {
+ { ValueParent>valParent = getValueParent(ref);
+Node valParent = getValueParent ( refInfo. name ) ; final
+Node valParent = getValueParent(ref) + 1;
+ ValueParent(valParent = getValueParent(ref);
+ assert(true);
+ case CALLBACK: LvalParent = getValueParent(ref);
+ check(ref);
+ case INIT: LvalParent = getValueParent(ref);
+ ValueParent lvalParent = getValueParent(ref);
+Node valParent =  findParent(ref);
+ case SET_TO: {
+ assert false;
+Node valParent =  findNode(ref);
+ parent.add(ref);
+ return true; } };
+Node valParent = getValueParent(ref) - 1;
+ case CALL:
+ var valParent;
+ break;
+Node valParent = getValueParent(n, refInfo.name));
+ case SET_TO: {
+ Node lvalParent = getValueParent(ref);
+ valValParent= getValueParent(ref);
+Node  name = name();
+ assert true;
+ case SET_DEF: {
+ { val valParent= getValueParent(ref);
+ assert valParent;
+ addReference(ref);
+Node valParent = getValueParent(ref).getFirstChild(); final
+Node valParent = getValueParent(ref) ; break;
+Node valParent = getValueParent(n, fullName); final
+ { } }
+Node  val;
+Node valParent = getValueParent(n, fullName); {
+Node valParent = getValueParent(refInfo.name); {
+Node valParent = getValueParent(ref, fullName); final
+ break; } };
+Node valParent = getValueParent(ref) ; break; };
+Node  ref;
+ return true;
+ if(valParent);
+ Name nameName;
+Node valParent = getValueParent ( refInfo ) {
+ case ASSIGN: {
+ switch(this);
+Node valParent = getValueParent(ref); } }
+ case undefined:
+Node valParent = getValueParent(refInfo.name); }
+ removeRef(ref);
+Node valParent = getValueParent(ref) + parent;
+Node valParent = getValueParent(fullName); final
+ } break);
+ return false;
+Node valParent = getValueParent ( ref ) ; final
+Node valParent = getValueParent(n, parent); final
+Node valParent = getValueParent(ref, fullName); {
+ })();
+Node valParent = getValueParent(ref) ; break; });
+ assert(validation);
+Node valParent = getValueParent(ref, parent); final
+ var = null;
+Node valParent = getValueParent(n, parent); {
+Node valParent = getValueParent(name, ref); final
+Node valParent = getValueParent(ref, parent); {
+Node  varParent;
+ if(validation);
+ throw t;
+ assert(validate);
+Node valParent = getValueParent ( ref ) {
+ break;);
+Node valParent = getValueParent(fullName); {
+ Name name2;
+Node valParent = getValueParent(refInfo); final
+ ValueContextvalParent = getValueParent(ref);
+Node valParent = getValueParent(ref).parent();
+ {
+Node valParent = getValueParent(fullName); }
+ default: {
+Node valParent = getValueParent(ref, parent); }
+ valParent:getValueParent(ref);
+Node valParent = getValueParent(ref.value); final
+Node valParent =  lookup(ref);
+Node valParent = getValueParent(ref, name); final
+ valParent="getValueParent(ref);
+ } }
+Node valParent = getValueParent(FullName);
+Node valParent =  parse(ref);
+ switch(*);
+Node valParent = getValueParent(ref); {
+ { final
+Node valParent = getValueParent(n); final
+Node valParent = getValueParent(n); {
+Node valParent = getValueParent(ref); }
+Node valParent : {
+Node valParent = getValueParent(); final
+ break }
+Node valParent = getValueParent(ref) } }
+ ValParent= getValueParent(ref);
+Node valParent ; final
+Node valParent = getValueParent(defName);
+Node valParent = getValueParent(); {
+Node valParent ; {
+Node valParent  = this
+ Val parent= getValueParent(ref);
+Node valParent  = final
+Node valParent = getValueParent(); }
+Node valParent = getValueParent(ref) } };
+ Val val= getValueParent(ref);
+Node valParent = getValueParent() {
+Node valParent = getValueParent(ref) { final
+ }
+Node valParent := getValueParent(ref);
+Node valParent: getValueParent(ref);
+Node valParent, getValueParent(ref);

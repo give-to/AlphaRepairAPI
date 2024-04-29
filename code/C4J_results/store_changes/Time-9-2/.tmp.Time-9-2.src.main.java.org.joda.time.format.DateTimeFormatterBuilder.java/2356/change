@@ -1,0 +1,275 @@
+ } else { limit--;
+ } else {
+limit--;
+limit -= 2;
+ } else { break parse;
+ } else { break parse; limit--;
+ } else { break parse; }
+ } else if (c == '+') { expectSeparators = false; } else {
+ } else if (c == '+') { expectSeparators = false;
+ } else if (c == '+') { expectSeparators = false; } else { break parse; }
+ } else if (c == '+') { expectSeparators = false; } else { break parse;
+ } else { break parse; } limit--;
+ } else { break parse;
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } else {
+limit -= 2; limit--;
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = false;
+ } else if (c == '+' && c <= '9') { expectSeparators = false;
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } else { break parse;
+ } else if (c == '+' && c <= '9') { expectSeparators = true; } else { break parse;
+ } else { expectSeparators = false;
+ } else if (c == '+') { expectSeparators = true; } else { break parse; }
+ } else if (c == '+') { expectSeparators = true; } else { break parse;
+ } else if (c == '+') { expectSeparators = true; } else {
+ } else if (c == '9' && c <= 'Z') { expectSeparators = false;
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = true ; } else {
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = false ; } else {
+ } else { expectSeparators = false;
+ } else if (c == '+' && c <= '9') { break parse;
+limit--; position += 2; limit--;
+limit -= 2; limit += 2;
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = true ; c = ':';
+ } else if (c == '+' && c <= '9') { expectSeparators;
+ } else if (c == '+' && c <= '9') { expectSeparators =
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } else { break;
+ } else if (c == '+') { expectSeparators = false; } else if (c == '-'') {
+ } else if (c == '9' && c <= '0') { break parse;
+ } else if (c == '+' && c <= '9') { expectSeparators = true; } else { break;
+ } else if (c == '+' && c <= '9') { expectSeparators; }
+ } else if (c == '+' && c <= '9') { expectSeparators = false; break parse; }
+ } else if (c == '+') { break parse;
+ break parse; }
+ } else { break parse; } if (c == '.') {
+ } else if (c == '+') { expectSeparators;
+ } else if (c == '+') { expectSeparators; }
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = true ; } else { break;
+limit--; limit -= 2;
+ } else if (c == '+') { expectSeparators =
+ } else if (c == '+') { expectSeparators = false; } else { break;
+ } else { break parse; break;
+ } else { if (c == '+') { break parse; }
+ } else if (c == '+' && c <= '9') { expectSeparators
+ } else if (c == '+') {
+ } else if (c == 'Z' && c <= '9') { expectSeparators;
+ } else if (c == 'Z' && c <= '9') { expectSeparators =
+ } else if (c == '9' && c <= 'Z') { expectSeparators; }
+ } else if (c == '.') {
+ } else if (c == '+') { expectSeparators = false; } else { break parse};
+ } else { expectSeparators; limit--;
+ } else { limit -= 2;
+ } else if (c == '+') { expectSeparators = false; break parse; }
+ } else if (c == '+' && c <= '9') { expectSeparators = false; }
+ if (negative) { limit--;
+ } else if (c == '+' && c <= '9') { expectSeparators = true; } else { break parse};
+ } else if (c == '+') { expectSeparators = true;
+ } else if (c == '+' && c <= '9') {
+limit--; position++; } else { return ~position;
+limit -= 2; } else { break parse;
+ } else { if (c == '+') { expectSeparators;
+ } else if (c == '+' && c == '-') {
+ } else if (c == '+') { expectSeparators = true; } else { break;
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } else { break }
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = true ; break parse; }
+ } else if (c == '+' && c <= '9') { expectSeparators = true; } else { break }
+ break parse; } else { break parse;
+ } else { if (c == '+') { break parse;
+ } else { break parse; } if (c == ':') {
+ if (c == '+') { limit--;
+limit--2;
+ } else { break parse; } if (c) {
+ } else if (c == '+') { expectSeparators = false; }
+ } else if (c == '9' && c <= 'Z') { expectSeparators = false; }
+ } else { if (c == '+') { expectSeparators =
+ } else { break parse;;
+ } else if (c == '+' && c <= '9') { break parse; }
+ } else { return ~position; } limit--;
+ } else { return ~position;
+ } else { expectSeparators --;
+ } else if (c == '-') {
+ } else if (c == '9' && c <= 'A' { break parse;
+ } else { break;
+ } else { break parse; } if (c == '.')
+limit--; position += 2;
+limit++; } else { expectSeparators --;
+limit -= 2; break parse; } limit--;
+ } else if (c == '.')
+limit--; position++; } else { break parse;
+ } else if (c == '+') { expectSeparators = false; } else { break }
+ } else if (c == '9' && c <= '0') { break parse; }
+ } else { expectSeparators = true;
+ break parse; } else {
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = false; }
+ break parse; limit--;
+ } else { break parse; } if (c == \'')
+ } else { expectSeparators = -1;
+ } else if (c == '+') { break parse; }
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } {
+limit--; position--;
+ } else if (c == '+' && c <= '9') { expectSeparators = false; } else
+ } else { if (c == '.') {
+ if (c == '.') limit--;
+ } else { break parse; } if (c == ':'
+ } else { break parse; } if (c == '-'){
+ break parse; } else { limit--;
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = false; } {
+ } else if (c == '+') { expectSeparators = false; } {
+ if (c == '.') { break;
+ if (c == '-') limit--;
+ } else { break parse; } if (c < 0)
+ } else if (c == '+') { expectSeparators = true; }
+ if (c == '-') { limit--;
+ } else { expectSeparators = false limit--;
+ } else if (c == '+' && c <= '9') { offset =
+ } else if (c == '9' && c <= 'A' ) { expectSeparators = false; } else
+ } else { expectSeparators; }
+ } else if (c == '+' && c <= '-') { offset =
+ } else if (c == '+') { expectSeparators = false; } else { break parse; } {
+limit--; } else { return ~position; }
+ } else if (c == '+') { expectSeparators = false; } else
+ if (c == '-') { break;
+ } else { break parse; } if (c == ')'
+limit--; position++; } else { limit--;
+ break parse; } else { break parse; }
+ break parse; } limit--;
+limit++; } else { break parse;
+ } else if (c == '.'){ limit--;
+ } else if (c == '-'){ limit--;
+limit--; limit--;
+ } else { if (c == '+') {
+ } else { expectSeparators; } limit--;
+ } else { break } limit--;
+limit -= 2; position += 2;
+ if (c == '.')
+ if (c == '.') break;
+ } else if (c == '-')
+limit += 2; limit--;
+ if (c == '+') {
+ } else if (c == '+' && c <= '9') { offset +=
+ } else { break; limit--;
+ } else if (c == ':') { offset =
+limit--; } else { break parse;
+ } else if (c == '+') { offset =
+limit--; offset += 2;
+limit -= 2; if (c == '.')
+ } else { expectSeparators = limit--;
+ if (c == '.')
+ } else if (c == '')
+ } else if (c == '-' { limit--;
+ } else { break parse; }
+limit--; offset -= 2;
+limit -= 2; } else { break parse; }
+ } else { break parse limit--;
+limit--; position += 2; limit += 2;
+ } else if (c == ''){ limit--;
+ } else { break parse } limit--;
+limit--; position++; } else { break parse; }
+ } else { break;
+ if (c == '.'){ limit--;
+ if (c == 'Z') {
+ } else if (c == ':') { offset +=
+limit--; limit += 2;
+ } else if (c == '.'
+ if (!negative) { limit--;
+ } limit--;
+ } else { break parse};
+ if (c == 0) limit--;
+ } else { break parse; };
+ } else if (c == '+') { expectSeparators = false,
+limit += 2; limit -= 2;
+ } else { expectSeparators=false;;
+ if (negative) limit--;
+ } else { break parse; offset--;
+limit++; } else { return ~position; }
+limit--; offset--;
+ } else { return ~position++;
+ if (c == '-')
+ } else if (c == '+') { expectSeparators = false();
+limit -= 2; if (c == ')'
+limit -= 2; } else { break parse};
+ if (limit <= 0)
+limit -= 2; limit++; limit--;
+limit--; position++;
+ } else if (c == ''){
+ } else { break parse();
+limit--; } else { break parse; }
+ } else { break parse; continue;
+limit--; offset;
+ if (!negative) limit--;
+ } else if (c == '
+limit--; position++; } else { return ~position};
+ } else { break parse};
+limit++; } else { break parse; }
+ } else { return ~position;;
+limit--; position += 2; break;
+limit++; limit--;
+limit--; position++; } else { break parse};
+ if (c == '.'){
+limit--; position++; } else { return ~position();
+limit -= 2; if (c == '.'){
+ if (limit--)
+limit--(2);
+ } else { limit -= 1;
+ } else { if (c == '.') {}
+ if (negative) {
+ } else { break }
+ } else { limit++;
+ else { limit -= 2;
+limit--; } else { break parse};
+limit += 2;
+ if (limit--);
+ if (limit--)
+ if (limit--){
+limit--; } else { break parse }
+limit--; } else { break parse();
+ } else {
+ } else { offset--;
+limit--; 2;
+ break parse;
+ else { limit--;
+limit--; 0;
+limit -= 2; limit += 2; }
+ limit++;
+limit=2;
+ if negative { limit--;
+ if (limit--;
+limit---2;
+limit--; position += 2; }
+limit -= 1;
+ limit-offset++;
+limit--; position += 2; else
+limit--; limit -= 2; }
+ limit-offset--;
+ while (true)
+ if (offset)
+limit--; limit -= 2; else
+ break;
+limit--; offset -= 2; }
+ break parse;
+ offset += 2;
+ } else limit--;
+ } { limit--;
+limit -= 2; }
+ offset--;
+ break; limit--;
+ } else { break
+limit -= 2; else
+limit--1;
+limit++; limit--();
+ position--;
+ } {
+ if (!)
+ if (...)
+ } else
+ else {
+ } else
+limit--2();
+ };
+ } offset--;
+ break,
+ }
+ } position--;
+ } count--;
+ else
+limit-;
+ else
+ }

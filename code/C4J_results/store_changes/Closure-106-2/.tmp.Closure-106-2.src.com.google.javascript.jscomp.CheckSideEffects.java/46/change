@@ -1,0 +1,150 @@
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( t, n, parent ) ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { t. visit ( n, parent ) ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { t. visit ( n, parent ) ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( t, n, parent )
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return this ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return this ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( t, n ) ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( n, parent ) ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( n, parent ) ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( t, n ) ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. parent = parent ; return ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { t. visit ( n ) ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return this ; } }
+ } public void visit(Node t, Node n, Node parent) { t. visit ( n ) ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return ; }
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { super. visit ( n ) ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; } return this ; }
+ } public void visit(NodeTraversal t, Node n, Node parent) {
+ } public void visit(NodeTraversal t, Node n) { return true ;
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return this ;
+ } public void visit(NodeTraversal t, Node n) { return ;
+ } public void visit(Node t, Node n, Node parent) { t. visit ( n ) ; }
+ } public void visit(Node t, Node n, Node parent) { t. visit ( n, parent )
+ } static void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return this ; } }
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return this ; }
+ } public void visit(Node t, Node n) { t. visit ( n, parent ) ; }
+ } public void visit(NodeTraversal t, Node n) { return false ;
+ } public void visit(Node t, Node n, Node parent) { this.level = level
+ } public void visit(NodeTraversal t, Node n) { return n ;
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; }
+ } public void visit(NodeTraversal t) { this. level = level ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; return parent ; } }
+ } else { this. level = null ; } return this ; }
+ } public void visit(Node t, Node n) { this. level = level ; return ;
+ } public void visit(NodeTraversal t, Node n, Node parent) { this. level = level ; }
+ } public void visit(Node t, Node n, Node parent) { super. visit ( t ) ; }
+ } else { this. level = 0 ; } return this ; }
+ } else { this. level = level ; } return this ; }
+ } public void visit(Node t, Node n) { t. visit ( n ) ; }
+ } public void visit(Node t, Node n) { this. level = level ; return this ; }
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return true ;
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return ; }
+ } else { this. level = level ; } return new CheckSideEffects ( this. level ) ;
+ } else { this. level = 0 ; } return this ;
+ } else { this. level = level ; } return this ;
+ } else { this. level = null ; } return new CheckSideEffects ( this ) ; }
+ return this;
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; return true ; }
+ } public void visit(NodeTraversal t, Node n, Node) {
+ } else { this. level = null ; } return this ;
+ } else { this. level = n. getType ( ) ; }
+ } else { this. level = level ; } return new CheckSideEffects ( this ) ;
+ } else { this. level = null ; } return new CheckSideEffects ( this ) ;
+ return this.level;
+ } public void visit(NodeTraversal t) { this.level = level
+ } public void visit(NodeTraversal t, Node n, Node parent)
+ } else { this. level = level ; } return new CheckSideEffects ( this ) ; } }
+ } public void checkSideEffects(CheckLevel level) { this. level = level ; } return this ; } }
+ } else { this. level = null ; } return this ; } }
+ } else { this. level = null ; } return new CheckSideEffects ( s ) ;
+ } else { this. level = null ; } return new CheckSideEffects ( ) ; }
+ } return new CheckSideEffects ( ) ;
+ return this ; } return CheckSideEffects ;
+ } return new CheckSideEffects ( this ) ; }
+ } return CheckSideEffects ;
+ return this ; } return CheckSideEffects ; }
+ } return new CheckSideEffects ( s ) ; }
+ } public void checkSideEffects(CheckLevel level) { this. level = level ; return this ; } } }
+ } else { this. level = level ; } return new CheckSideEffects ( this, level ) ;
+ } return new CheckSideEffects ( s ) ;
+ } else { this. level = 0 ; } return this ; } }
+ } else { this. level = level ; } return this ; } }
+ } else { this. level = level ; } return new CheckSideEffects ( ) ; }
+ } else { this. level = null ; } } return CheckSideEffects ;
+ } else { this. level = n. getType ( ) ; } }
+ } else { this. level = level ; } return new CheckSideEffectsCallback ( this ) ; }
+ } else { this. level = null ; } } return this ; }
+ } else { this. level = level ; } return new CheckSideEffects ( this ) ; } ;
+ return this ; } return this ; }
+ } } <DC>
+ } else { this. level = n. getLevel ( ) ;
+ } return new CheckSideEffects ( ) ; }
+ } public void visit(Node t, Node n, Node parent) { this. level = level ; };
+ return this. checkSideEffects ( ) ;
+ return this ; } return checkSideEffects ;
+ } else { this. level = null ; } return this ; } } ;
+ } public void visit(T t) { return t ;
+ } public void visit(Node n) { return n ;
+ } return new CheckSideEffects ( this ) ;
+ } public void visit(Node t) { return t ;
+ } else { this. level = level ; } return this ; } } ;
+ } public void visit(Node n, Node parent) {
+ } return CheckSideEffects ; }
+ } else { this. level = null ; } return this ; } } }
+ return this. checkSideEffects ( ) ; }
+ this.error = null;
+ } public void visit(Node n) { return true ;
+ return this ; } return this ;
+ return this ; } return null ;
+ return this ; } return null ; }
+ } else { this. level = level ; } } } ;
+ } else { this. level = null ; } } } ;
+ return this ; } return new CheckSideEffects ( )
+ return this ; } return new CheckSideEffects ( {
+ return this. checkSideEffects ; }
+ return this ; } } ;
+ } return this ; }
+ } return new CheckSideEffects ( ) ; } }
+ } <DC>
+ } return new CheckSideEffects ( ) {
+ return this ; } return false ; }
+ }
+ } else { this. level = n. getLevel(); } }
+ } return this ;
+ return this ; } } }
+ return this ; } }
+ return this ; } }
+ return this. level ; } }
+ return this ; }
+ return this. level ; } ;
+ return this ; }
+ return this ; } final
+ return level;
+ return this. checkSideEffects ; };
+ return this ; } abstract
+ return level ; }
+ } public final
+ return level ; } }
+ } } public final
+ } } final
+ return null;
+ return;
+ } } } final
+ return ; } }
+ } } }
+ } }
+ } public static
+ } } static
+ } final
+ } static
+ } *
+ return this
+ } }
+ }; }
+ };
+ }; final
+ }
+...

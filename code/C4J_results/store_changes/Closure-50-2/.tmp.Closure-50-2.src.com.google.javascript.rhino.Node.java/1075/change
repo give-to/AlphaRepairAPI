@@ -1,0 +1,451 @@
+if (printSource) {
+if (printLineno) {
+ else if (printSource) {
+ else if (printLineno){
+if  (printLine) {
+ } else{
+ } else if (printSource) {
+if (type == Token.LINE) {
+if (printSource) { sb.append("");
+ else if (type == Token.LINE) {
+if (printSource)  { sb.append(' ');
+ else if (printLine) {
+ else if (type == Token.STRING) {
+ else if (type == Token.STRING) { sb.append(' ');
+ else if (type == Token.STRING) { sb.append("");
+ else if (type == Token.STRING) { sb.append(' '); }
+if (printSource)  { sb.append(' '); }
+if  (printLineno) { final
+ else if (type == Token.STRING) { sb.append(' '); sb.append(); }
+if (printSource) { sb.append("";
+ else if (type == Token.STRING) { sb.append();
+ else if (type == Token.STRING) { sb.append(' '); sb.append(getString()); }
+ else
+ else if (type == Token.STRING) { sb.append(' '); sb.append(string()); }
+ else if (type == Token.STRING) { sb.append(' '); } } else
+if (printSource) { sb.append();
+ else if (type == Token.STRING) { sb.append(' '); sb.append(string); }
+ else if (type == Token.STRING) { sb.append(' '); sb.append(getString()); } } else
+ else if (type == Token.STRING) { sb.append(' '); } else
+ else if (type == Token.LINES){
+ else if (type == Token.LINE)
+ else if (type == Token.STRING) { sb.append(' '); sb.append(getString()); } else
+ else if (type == Token.STRING) { sb.append("";
+ else {
+ else if (type == Token.STRING) { sb.append(getString()); } else
+ else if (type == Token) { if(printSource) {
+if (printSource) { sb.append("
+ else if (type == Token.STRING) { sb.append(getString()); }
+ else if (type == Token.STRING) { sb.append(getString()); } } else
+ else if (type == Token.LINEN){
+ else if (type == Token.NAME) {
+ else if (type == Token.TEXT) if(printSource) {
+ else if (type == Token.STRING) { sb.append(' '); } } } else
+ else if (type == Token.STR) if(printSource) {
+ else if (type == Token.STRING) { sb.append(" "); }
+if (printSource) { final
+ else if (type == Token.STRING) { } } else
+ else if (type == Token.STRING) { sb.append(' '); getString(); } else
+ } } else if (printSource) {
+ else if (type == Token.STRING) { sb.append(' '); sb.append(string());
+ else if (type == Token.STRING) { sb.append(' '); sb.append();
+ else if (type == Token.NAME)
+ else if (type == Token.STRING) { sb.append(' '); } }
+ else { sb. append(' '); sb. append ( getString ( ) ) ; }
+if  (printLine)
+ else if (type == Token.STRING) { sb.append(' '); sb.append(); } else
+ } else
+ else if (type == Token.STRING) { sb.append(' '); getString()); } else
+ else if (type == Token.STRING) { sb.append(' '); return sb ; }
+ else if (type == Token.NAME)
+ else if (type == Token.STRING) { sb.append(' '); sb.append(""); }
+ else if (type == Token.STRING) { sb.append(' '); sb.append(string);
+if (type == Token.LINES) {
+if (printSource) { sb.append(" "); }
+ else if (type == Token.STRING) { sb.append(getString()); } } } else
+ else if (type == Token.STRING) { sb.append(getString()); } }
+ else if (type == Token.STRING) { sb.append(' '); sb.append(string()); } else
+ else if (type == Token.STRING) { sb.append(" "); sb.append("");
+if (printSource)  { sb.append(getSource()); }
+ else if (type == Token.NAME){
+ else if (type == Token.STRING) { sb.append(' '); sb.append()); }
+ else if (type == Token.STRING) { } else
+if (printSource) { sb.append(source); }
+ else if (type == Token.CHAR) if(printSource) {
+ else if (type == Token.STRING) { sb.append(" "); } else
+ else if (type == Token.NAME) if(printSource) {
+ else { sb. append(' '); sb. append ( getString()); } }
+ else if (type == Token.STR) {
+if (type == Token.LINEN) {
+ else { sb. append("<invalid>"); } } else
+ else if (type == Token.STRING) { sb.append(" <string>"); } else
+if (printSource) { sb.append("]"); }
+ } else if (type == Token.LINE) {
+ } else if (type == Token.STRING) {
+ else { sb. append("<invalid>"); } }
+ else if (printLine)
+ else if (type == Token.LINE)
+ else { sb. append("<invalid>"); } } } else
+ else if (type == Token.STRING) { sb = "" ;
+if (printSource) { printSource(); }
+ else { sb. append(" ");
+ } else if (printLineno) {
+ else { sb. append ( '<invalid>'); } }
+ else { sb. append("<unknown>"); }
+if (printSource) { sb.append(']'); }
+ else { sb. append(" ");
+ else if (type == LINES) {
+ else if (type == Token.LINENO) {
+ else { sb. append(" "); }
+ else if (type == Token.CHAR) {
+ else { sb. append ( '<invalid>'); } } else
+ else if (type == Token.SOURCE) if(printSource) {
+ else if (type == Token) {
+ else if (type == Token.PARAMETER) {
+ else if (type == Token.STRING) { return ; } else
+ else if (type == Token.STR &&!printSource) {
+ else if (type == Token.printSource) {
+ else { sb. append(' '); }
+ else if (type == Token.LINEAREN) {
+if (printLineno) { sb.append("
+ else if (type == Symbol) if(printSource) {
+ else if (type == Token.LINK){
+ else if (type == Token.SOURCE|printSource) {
+ } else if (type == Token.NAME) {
+ else { sb. append(' '); } } else
+ else if (type == Token.TEXT){
+ else if (type == Token.STRING|printSource) {
+ else { sb. append("<invalid>""); }
+ else if (type == Token.STR ||!printSource) {
+ else { sb. append(" "); }
+ else if (type == LineNumber) {
+ else if (type == Token.CHAR)
+ else if (type == STRING){
+ else { sb. append ( " <unknown>"); } } else
+ else if (type == Token.TEXT)
+ else if (type == Token.SOURCE &&!printSource) {
+ else if (type == Token.NUMERIC) {
+if (printSource)  { sb.append(getString()); }
+ else if (type == Symbol) {
+ else if (type == Token.UnprintSource) {
+ else if (type == Token.LONERAL) {
+ else { sb. append(' '); }
+ else { sb. append(" " ; }
+ else if (type == Token.LONG){
+if (printSource) { sb.append(");
+ else if (type == Token.NAME &&!printSource) {
+ else { sb. append("<invalid>"); } } }
+ else if (type) { if(printSource) {
+if (type == Token.NAME) {
+ else { sb. append ( '<unknown>'); } }
+ else { sb. append(' '); } }
+ else { sb. append("";
+ } } else{
+ else { sb. append("";
+if (printSource)  { sb.append(' '); } }
+ } else if (type == Token.NAME) {
+ } else if (type == Token.LINEN) {
+ else { sb. append("<unknown>"); } }
+ else if (type == Token.TEXT)
+ else { return ; } if(printSource) {
+ else { sb. append("<invalid>""); } }
+if (printSource)  { sb.append(' '); } final
+ else if (type == Token.PAREN) { } else
+if (printSource)) { sb.append(' ');
+if (printLineno) { sb.append();
+ else if (type == Token.SOURCE&&printSource) {
+ } } } else if (printSource) {
+ else if (type == "LINE"){
+if (printLine) { sb.append("");
+ else if (type == Token.STRING) { } } }
+if (printSource)) { sb.append(" ");
+ else { sb.append(" if(printSource) {
+if (printSource) { sb.append('
+ else if (type == Token.SOURCE){
+ else if (type == String) if(printSource) {
+if  (printLines) { final
+ else if (type == null &&!printSource) {
+ } else { if (printSource) {
+ else { sb. append(" "); } }
+ else if (type == Token.STRING) { }
+ if (printLineno) {
+ } } else
+ else { sb. append(' '); } else
+if (printSource) { sb.append(")
+ else { sb.append(""); if(printSource) {
+if (printLines) { sb.append();
+ if (printLine) {
+if (printLineno) { sb.append('
+if (printSource)) { sb.append("";
+ } else if (type == Token.printSource) {
+if  (printLine) { sb.append("
+if (printSource)  { sb.append(" "); } }
+ else { sb = "" ;
+ else if (type == LINENumber) {
+ else if (type == Token.NAME&&printSource) {
+ else if (type == LINEEN) {
+ else { sb. append(' '); } } }
+ if (printAnnotations) {
+if  (type == Token.LINK) {
+ else if (printLocation) {
+ } else if (printLine) {
+if (type == Token.LINeno) {
+if  (printLine) { sb.append();
+ if (printLineno)
+ else if (type == Token.TEXT|printSource) {
+ else { if (printSource) {
+if (printSource) { } else {
+ else if (printLine) {
+if  (printLineno)
+ else if (type == Token) if(printSource) {
+ else if (type == ' '){
+if  (type == Token.LONERAL) {
+if (printSource) { return sb ; }
+ } if (printLineno){
+ else if (type == Token.SOURCE if(printSource) {
+ else if (type == null ||!printSource) {
+if  (type == Token.LINENO)
+ else if (type == TEXT) if(printSource) {
+ else if (type == Token.TEXT if(printSource) {
+if (printSource || type == Token.SOURCE) {
+ else if (type == LINEEND){
+if (printSource ||!printAnnotations) {
+if (type == Token.LONG) {
+ else { return null ; } if(printSource) {
+if (printSource && type == Token.SOURCE) {
+if  (printLineno) { printLine(); }
+ else if (type == 0 &&!printSource) {
+if (printSource && getLineno()!= -1) {
+if  (printLineNumber) { final
+ } } } } else if (printSource) {
+if (printSource) { if (printLine)
+if (printSource && type == Token.LINE) {
+ if (type == Token.LINE)
+if (printSource) { if (source)
+if  (printLinenumbers) {
+if  (printLine) { sb.append('
+if (printSource && type == Token.LINEAREN) {
+ else { return ; }
+ else if (isLineno) {
+if (printSource && type == Token.LINES) {
+ else { } } else
+if (printSource &&! printAnnotations) { if (printSource) {
+ if (printLines)
+if (printSource && type == Token.LINEN) {
+ else { sb. append("
+ if (printAnnotations)
+ else { } } if(printSource) {
+ else if (type) if(printSource) {
+if (printSource &&!printAnnotations) {
+if (type == Token.NL) {
+ else { sb = '' ;
+ } } } else
+ else if (this.printSource) {
+if (printSource && type == Token.PARAMETER) {
+if  (printLocation) {
+if (printSourceLines) {
+ else { return ; }
+if (printSource && type == Token.LINENO) {
+ else if (type!= Token.printSource) {
+ if (line) {
+if (printSource || type == Token.LINE) {
+if (printSource || (type == Token.SOURCE) {
+if (printSource || (type == Token.STRING) {
+ } } } } if (printSource) {
+ } if (printLine){
+ else { return ; } }
+ else { } else if(printSource) {
+if (printSource && type == Token.LINK) {
+if (printSource || printAnnotations) {
+ if (printLinenoNumbers){
+if (type == Token.TEXT) {
+ if (printLinenoInfo){
+if (type == LineNumber) {
+if (printSource &&! printAnnotations) { if (printLine) {
+if  (printLineno()) { final
+ } } } if (printSource) {
+ } else if (this.printSource) {
+if  (printLines) {
+if  (printLineno) { try {
+if (printSource || type == Token.PARAMETER) {
+if (printSource || (type == Token.PARAMETER) {
+ else if (trace) {
+ } } } } } if (printSource) {
+ else { } else{
+if (printSource) { if (trace)
+ } } else { if(printSource) {
+if (printSource || type == Token.STRING) {
+if (printSource || type == Token.NAME) {
+if (printSource && type == Token.NAME) {
+ else { return ; } } if(printSource) {
+if (type == LINES) {
+if (type == Token.CHAR) {
+if (printSource || type == Token.LINES) {
+ if (debug){
+if (printSource || (type == Token.LANGUAGE) {
+if (printSource && (type == Token.SOURCE) {
+if (printSource && (type == Token.LINE) {
+if (printSource || getLineno()!= Token.NAME) {
+ else if (true) if(printSource) {
+ if (trace){
+if  (print)
+if (printSource) { if (debug)
+if (printSource || printLineno) {
+if  (printLineNumber) {
+ if (printSource)
+if (printSource) { return sb;
+if (printSource && (type == Token.LINE) && printLine) {
+ else if (type == NAME) {
+if (printSource || (type == Token.STRING) printSource) {
+if (printSource || type == Token.LINEAREN) {
+ } else if (this instanceofprintSource) {
+if (type == STRING) {
+if  (printLineNumbers) {
+if (printSource || (type == Token.LINE) {
+ } else if (!printSource) {
+if (printSource && (type == Token.LONGNUM)) {
+if (printSource && type == Token.LINERAL) {
+ else if (type ==!printSource) {
+if (printSource || (type == Token.NAME) {
+ } else { } } if(printSource) {
+ } } if (printSource) {
+if (printSource && type == Token.LINEOF) {
+if  else {
+if (printSource) { return ; }
+if  (printLineno) { } final
+if (printSource || getLineno() == Token.NAME) {
+ else if (printLineNumbers) {
+ else if (print){
+if (printSource || (type == Token.LINES) {
+if (printSource && type == Token.LONGNUMBER) {
+if (printSource && (type == Token.LONERAL) {
+if (printSource && getLineno()!= Token.NAME) {
+if  (printLine()) {
+if (printSource && getLineno()!= Token.END) {
+ else if (this instanceofprintSource) {
+if (printSource || getLineno() == Token.SOURCE) {
+if (printSource || (type == Token.LONGNUM)) {
+if (printSource || (type == Token.LINE) && printLine) {
+if (printSource || (type == Token.LONERAL) {
+ else { } if(printSource) {
+if (printSource || type == Token.STRING || type == null) {
+ else if (type == String)(printSource) {
+if  (debug)
+if (printSource && type!= Token.NAME) {
+ else if (type == String if(printSource) {
+if (printSource || (type == Token.LONGNUMBER) {
+if (printSource &&!printEnd) {
+if (printSource && type!= Token.SOURCE) {
+if (printSource && printAnnotations) {
+if  { final
+ } if (printSource) {
+if (printSource || (type == Token.LINK) {
+if (printSource || printLineNumbers) {
+if (printSource && type == Token.NUMBER_LEN) {
+if (printSource && (type == Token.LONGNU)) {
+if (printSource ||! (type == Token.NAME) {
+ else { } else
+ else { } }
+if (printSource && type == Token.LONGNUOUS) {
+if (printSourceLineNumbers) {
+ else { } } }
+if (type == LINeno) {
+if  (trace)
+if (printSource && type == Token.LINENAME) {
+if  (printLineNumber) { } final
+if (printSource || this instanceof SourceNode) {
+if (printSource || type == Token.TEXT) {
+ if (log) {
+if  (printLineNumber) { } }
+if (type == LINEN) {
+if (printSource && getLineno) {
+if (printLineno)) {
+ if (printLin) {
+if (printSource || printFunction) {
+if (printSource) { } } }
+ if (print) {
+ } } } }
+if  (line)
+if (printSource && type == Token.NUMBER_LONG) {
+if (printSource && type == Token.LONGNUED) {
+if (printSource && printLine) {
+ if (printLine())
+ } } }
+if (printSource || getLineno()!= -1 || debug) {
+ } else { }
+ } else { } else
+if (printSource || printSourceLineno) {
+if  (log)
+if (printSource && type!= -1) {
+if (printSource || (type == Token.PARAMETERS) {
+if (printSource || getLineno()!= -1 && debug) {
+if (printSource && printLineno) {
+ } } } } else
+if (printSource && printEnd) {
+if (printSource &&!printEndLine) {
+if (printSource) { } }
+ } else {
+if (printSourceLine) {
+if (printSource)  return sb;
+ else if (!printSource) {
+if (printSource) { } final
+if (printSource || printLineNumber) {
+if (printSource || printNodes) {
+if (printSource || printSourceLines) {
+if (printSource) { try {
+if (printSource || printEnd) {
+if (printSource && this instanceof Source) {
+ } }) {
+if (printSource || printLine) {
+ else { } }
+if (printSource)) { final
+if (printSource && this instanceof Node) {
+if (printSource || printNum) {
+ else { final
+ } else { final
+if (printSource && printLineNumbers) {
+ else { else if(printSource) {
+if (printSource ||!printAnnotation) {
+ } default) {
+ } }
+ else if else {
+if (printSource || printNumber) {
+if (printSource && printNumber) {
+if (printSourceNode) {
+ else { }
+ if () {
+if (printSource && printFunction) {
+ } } } }
+if (printSource && printNum) {
+ } } }
+ else { try{
+ } else) {
+if (showLineno) {
+ }
+ if (!printSource) {
+ else {
+ } }
+ else () {
+ else { else
+ } if (!printSource) {
+if (printSource)  break; }
+if (printDelta) {
+ else { }
+if  (...)
+if  (final
+if  { }
+ else if if(printSource) {
+if (printSource)) {
+ }
+if (printSource)  { }
+ } finally{
+ { final
+ final
+ } final
+if (printSource()) {
+ } #{
+if (printSource)  break;
+ if ($printSource) {
+ while (printSource) {
+ else else{
+ else while(printSource) {

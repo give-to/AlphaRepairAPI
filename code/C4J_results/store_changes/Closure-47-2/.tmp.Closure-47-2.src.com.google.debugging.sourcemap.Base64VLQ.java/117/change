@@ -1,0 +1,680 @@
+int digit = Base64.fromBase64(c);
+int digit = Base64. decode ( c ) ;
+int digit  = c ;
+ digit = Base64.fromBase64(c);
+ Base64.fromBase64(c);
+ digit = Integer.fromBase64(c);
+int digit =  toVLQSigned(c);
+ result = decode(c);
+int digit = Base64. toBase64 ( c ) ;
+ decode(c);
+ int digit = VLQ.fromBase64(c);
+int digit = Base64. decode ( c )
+ char digit = Base64.fromBase64(c);
+ if (continuation);
+int digit =  decode(c);
+ char digit = VLQ.fromBase64(c);
+int  digit = c >>> shift;
+int digit = Base64 digit;
+int digit = Base64.to(c);
+ int digit = (int)Base64.fromBase64(c);
+int  result = c ;
+int digit = Base64 (c);
+ char digit = c;
+ int digit = fromVLQSigned(c);
+ if (c!= 0) {
+ char digit = toVLQSigned(c);
+int digit = Base64.fromBase64(c); if (digit!= 0) {
+ if (c!= c) {
+ int digit = Integer.fromBase64(c);
+ result = result + (c << shift); shift = shift + VLQ_BASE_SHIFT ; while (true) {
+ digit=fromBase64(c);
+int digit = Base64.toInt(c);
+ char digit = decode(c);
+ if (c);
+ int digit = VLQ_Base64.fromBase64(c);
+ result += decode(c);
+ int digit = VBase64.fromBase64(c);
+int digit = Base64.fromBase64(c); if (digit) {
+int digit = Base64. toBase64 ( c + shift ) ;
+ result = result + (char) c; shift = shift + VLQ_BASE_SHIFT;
+ result = result + (c << shift); shift = shift + VLQ_BASE_SHIFT; do {
+ if ( c == 0 ) { result = result + (digit << shift); } else {
+int digit = Base64.fromBase64(c); if (digit!= 0)
+ if ( c == 0 ) { result = result ; } else {
+int digit = Base64.fromBase64(c); if (digit == -1) {
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_Shift;
+ if ( c == 0 ) { break ; }
+ char digit = (char)Base64.fromBase64(c);
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_Shift ; }
+int digit = Base64. toBase64 ( c. value ) ;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; } else {
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_SIZE;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; continue ; } else {
+ if ( c == 0 ) { result = result + shift ; } else {
+ switch ( c ) { case ' ' : result = result + (c << shift); shift = shift + VLQ_SHIFT;
+ if ( c!= 0 ) { result = result + (c << shift); shift = shift + VLQ_BASE_SIZE;
+ if ( c!= 0 ) { result = result + (c << shift); shift = shift + VLQ_BASE_Shift;
+ int digit = toVLQSignedInt(c);
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; }
+int digit = Base64.toBase64(c) >>> shift;
+int digit = Base64.fromBase64(c); while (continuation) {
+ result = result + (char) c; shift = shift + VLQ_BASE_SIZE;
+int digit = Base64.fromBase64(c, -1);
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_SIZE ; }
+ int digit = digit=Base64.fromBase64(c);
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_BASE ; }
+ result = result + (char) c; shift = shift + VLQ_BASE_Shift;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0;
+ switch ( c ) { case ' ' : result = result + (digit << shift); shift = shift + VLQ_Shift;
+ if ( c == ' ' ) { result = result + (digit << shift); shift = shift + VLQ_Shift;
+int digit = Base64.toBase64(c).length;
+ switch ( c ) { case ' ' : result = result + (digit << shift); shift = shift + VLQ_SIZE ;
+ result = result + (char) c; shift = shift + VLQ_BASE_Shift
+ result = result + c + (digit << shift);
+int digit = Base64.toString(c);
+ if ( c == 0 ) { result = result + digit << shift ;
+ int digit |= Base64.fromBase64(c);
+ result = result + (c << shift); shift = shift + VLQ_BASE_SHIFT ; while (shift)
+ if ( c == ' ' ) { result = result + (digit << shift); } else {
+ if ( c == 0 ) { result = result + (digit << shift);
+ result = result + (c << shift); shift = shift + VLQ_SHIFT;
+ result += c;
+ result = result + (char) c; shift = shift + VLQ_SHIFT;
+ result = result + c;
+int digit  = c & VLQ_MASK ;
+ if ( c == ' ' ) { result = result + (digit << shift); shift = shift + VLQ_SIZE;
+ if ( c!= null ) { continuation = true ;
+ if ( c == ' ' ) { result = result + c ; } else {
+int digit = Base64.fromBase64(c); if (digit > 0) {
+ if ( c == 0 ) { continue ; }
+int digit = Base64.fromBase64(c); if (digit == c) {
+ if ( c!= null ) { result += c. ord ( ) ;
+int digit = Base64. toBase64 ( c, shift ) ;
+ if ( c == 0 ) { result = result + (shift << shift); shift = shift + VLQShift;
+ result = result + (digit << shift); result= Base64.fromBase64(c);
+ if (c == -1) {
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQ_shift;
+ if ( c == 0 ) { result = result + (digit << shift); do {
+ if ( c == ' ' ) { result = result + c ; shift = shift ; } else {
+int digit = Base64.toBase64(c); if ( continuation )
+ if ( c == 0 ) { result = result + (char << shift); shift = shift ; } else {
+ if ( c == ' ' ) { result = result + (digit << shift); do {
+ if ( c == ' ' ) { result = result + shift ; } else {
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift ; } else {
+ if ( c == 0 ) { continuation = true ;
+ if ( c == ' ' ) { result = result + (digit << shift); shift = 0 ; }
+ if (c == c) {
+int digit = Base64.toBase64(c); continuation = true ;
+ if ( c == 0 ) { result = result + (digit << shift); shift = shift + VLQShift;
+ if (c == null) { break ; }
+int  digit = c. ordinal ( ) ;
+ result = result + (digit << shift)(c);
+ if (c!= 0) {digit = Base64.fromBase64(c);
+int digit  = c. ord ( ) & 0xff ;
+ result = result + (char) c; shift = shift + VLQ_BASE_shift
+int digit = Base64.fromBase64(c); if (digit > 0)
+ int digit = VLQSigned(c);
+int digit = Base64.toBase64(c)+shift;
+ if (c == 0) { break; }
+ result = result + (digit << shift);
+int digit =  result + (digit << shift); result = decode(c);
+int digit = Base64.fromBase64(c); if (c == digit) {
+ if ( c == c ) { result = c ; break ; }
+ if (c!= null) {
+int digit = Base64.fromBase64(c); if (digit == 0) {
+ if ( c == ' ' ) { result += c ; continue ; }
+int digit = Base64. fromBase64 ( c, shift ) ;
+ result = result + decode(c);
+ if (c!= null) {
+ result = result + (char) c; shift = shift + VLQ_SIZE;
+ result = result + (digit <<c);
+ char digit = VLQ_Base64.fromBase64(c);
+ result = result + (char) c; shift = shift + VLQ_Shift;
+ result = c;
+int digit = Base64.fromBase64(c); if (digit!= -1) {
+ if ( c == ' ' ) { result = result + (digit << shift); shift = 0;
+int  digit = c & 0xFF ;
+int digit = Base64.fromBase64 c;
+ int digit = out.append(Base64.fromBase64(c);
+int  digit = c & VLQ_BIT;
+int digit = Base64.fromBase64(c[0]);
+ if ( c == 0 ) { result = result + digit << shift ; }
+ int digit = toVLQSignedDigit(c);
+ if (c == 0) { result = result ; }
+int digit = Base64.toBase64(c) >>> (shift);
+ while (c!= 0) {
+ continuation = c == -1;
+ if ( c == '\\' ) {
+ char digit = (char) VLQ.fromBase64(c);
+ int digit = result + (int)Base64.fromBase64(c);
+int digit =  c & VLQ_SIGN_BIT;
+ result += c << shift;
+ char digit = Integer.fromBase64(c);
+int  digit = c & VLQ_SIGN;
+int digit = Base64.from(c);
+ if (c!= null) {digit = Base64.fromBase64(c);
+ result = result + (c << shift); shift = shift + VLQ_BASE_SHIFT; final
+ int digit = toVLQDecodeInt(c);
+int  digit = c. ord ( shift ) ;
+ char digit = VBase64.fromBase64(c);
+ if (c == result) {
+int  digit = c >> shift ;
+ if (continuation) {digit = Base64.fromBase64(c);
+int digit = Base64. decode ( c, in ) ;
+ if ( c!= null ) { result += c ; } else {
+ int digit = VLQ_digit(c);
+int digit = Base64.toBase64(c); while (true)
+ if (c == 0) { result = result + shift ; }
+ int digit = result + VLQ_Base64.fromBase64(c);
+int  digit = c >>> 0 ; continuation = true ;
+int digit = Base64.toBase64(c); boolean
+int digit =  (int) toVLQSigned(c);
+ char digit = toVLQSignedDigit(c);
+ if (c == 0) {
+ if ( c == 0 ) { result = result + digit ;
+ result = result + (digit << Base64.fromBase64(c);
+ if ( c == 0 ) { result = result + shift ;
+ if ( c == 0 ) { result = result + shift ; continue ; }
+ if ( c == ' ' ) { result = result + c ; continue ; }
+ if ( c!= null ) { result += c. ord ( ) ; }
+ if (c == 0) { break; }digit = Base64.fromBase64(c);
+ if (c == 0) { result = 0 ; }
+ int digit = VLQ_Signed(c);
+ int digit = 0xBase64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> 0; if (digit) {
+int  digit = c & 0xff ;
+ if ( c == 0 ) { result = result + c ; continue ; }
+ int digit = VLQValue.fromBase64(c);
+ if (c == 0) { return result; }
+ result = result + c;digit = Base64.fromBase64(c);
+ if ( c == ' ' ) {
+ char digit = char & VLQ.fromBase64(c);
+ result = result + c << shift;digit = Base64.fromBase64(c);
+ char digit = toVLQSignedChar(c);
+ result <<= shift; digit= Base64.fromBase64(c);
+ if (c!= 0)
+ int digit = decodeDigit(c);
+int digit = Base64.fromBase64(c); if (continuation)
+ int digit = toVLQInt(c);
+ result = result + c(shift);
+ result = result + c << shift;
+ if ( c == 0 ) { result = digit ;
+ if ( c == 0 ) { result = c ; break ;
+ char digit = c & VLQ_SIGN;
+ int digit = toVLQInteger(c);
+ int digit = (int) VBase64.fromBase64(c);
+ if ( c == 0 ) { result = result + (digit << shift); }
+ result = result + c + (digit << shift;
+ if ( c == ' ' ) { result = result + (digit << shift); }
+ int digit = toVLQBinarySigned(c);
+ if ( c == c ) { result = c ; continue ; }
+int digit = Base64.fromBase64(c) >>> 0; if (digit > 0)
+ char digit = toVLQSignedInt(c);
+ char digit = c & VLQ_BIT;
+ int digit = (int) VLQ.fromBase64(c);
+int digit = Base64.fromBase64(c); if (digit == 0) { break }
+ result = result + (digit << shift;
+ int digit = result + (digit)Base64.fromBase64(c);
+ int digit = (int) out.append(Base64.fromBase64(c);
+ if (c == 0) { continue; }
+int  digit = c >>> (shift) ;
+ result = decodeChar(c);
+ int digit = VLQValue.Base64.fromBase64(c);
+ char digit = c & 0xff ; result |= Base64.fromBase64(c);
+int digit = Base64.digit();
+ if ( c == 0 ) { break ; } else {
+ while (c!= -1) {
+ if (c == 0) { result = 0;
+ if ( c == ' ' ) { result = c ; continue ; }
+ int digit = toVLQSignedInteger(c);
+ digit |=Base64.fromBase64(c);
+ if (c!= 0) { digit |= Base64.fromBase64(c);
+ int digit = VLQValue_Base64.fromBase64(c);
+ int digit = result + (digit << shift)Base64.fromBase64(c);
+int digit =  c. ord ( ) ; continuation = true ;
+ if (c!= 0) { char digit= Base64.fromBase64(c);
+int digit =  result + (digit << shift); result += decode(c);
+ if (c!= 0) { int digit |= Base64.fromBase64(c);
+ if (c == 0) { continue; }digit = Base64.fromBase64(c);
+ shift = shift + 1;
+int digit = Base64.fromBase64(c).shift(shift);
+int digit = Base64.fromBase64c();
+int digit = Base64.fromBase64(c.charArray());
+ result = result + c ; shift = 0;
+ int digit = UBase64.fromBase64(c);
+int digit = Base64.fromBase64(c); while (true) {
+ if (c!= 0) { do {
+int digit =  c. ord ( ) & 0xFF ;
+int digit = Base64.fromBase64(c); if (c == digit)
+ if (c!= null) { int digit |= Base64.fromBase64(c);
+ if (c!= -1) {digit = Base64.fromBase64(c);
+ result = result + (c << shift); shift = shift + VLQ_BASE_SHIFT; }
+ int digit = result + Base64.fromBase64(c);
+ while (c!= 0)
+ result = result + (digit << shift)= Base64.fromBase64(c);
+int digit = Base64.fromBase64(c); if (digit == 0)
+ shift = 0;
+ while (c!= null) {
+ if ( c == c ) { result = c ; shift ++ ; }
+int digit =  result + toVLQSigned(c);
+ char digit = (int)Base64.fromBase64(c);
+int digit = Base64.fromBase64(c); continuation = true ;
+ if (c!= null) { char digit= Base64.fromBase64(c);
+int  digit = c & 0xF ;
+ result = result + (char c << shift);
+int digit = Base64.fromBase64(c) >>> shift;
+ if ( c == 0 ) { result = result + (digit << shift); shift = 0 ; } else { final
+int digit = Base64.fromBase64(c) >>> 0; if (digit > 0) {
+ if ( c!= null ) { result += c ; }
+int digit = Base64.toBase64(c) >>> 7;
+int  digit = c & 0x7f ;
+ int digit = result + (digit << shift)+Base64.fromBase64(c);
+int digit = Base64.fromBase64(c.value);
+ result = result << shift;digit = Base64.fromBase64(c);
+ if (c!= 0);
+int digit =  c & VLQ_BASE; decode(c);
+ if ( c == 0 ) { result = result + (char << shift); shift = shift + 1 ; } else
+ int digit = c & VLQ_SIGN(c);
+int digit  = c & VLQ_SIGNBIT;
+ if (c == '\\') {
+ char digit = decodeDigit(c);
+int  digit = c & 0x3F ;
+int  digit = c >>> 1 ;
+ continuation = c == ' ';
+ result = result + (char << shift);
+ char digit = digit=Base64.fromBase64(c);
+ char digit = 0xBase64.fromBase64(c);
+ continuation = c!= -1;
+int  result = result + c ;
+ int digit = toVLQValue(c);
+int  digit = c >>> 0xFF ;
+ result = result + (digit << shift) +Base64.fromBase64(c);
+ int digit = VL64.fromBase64(c);
+ if (c == 0) { break }
+ result = result | c;
+ result += c << shift;digit = Base64.fromBase64(c);
+ result = result + digit |= Base64.fromBase64(c);
+ char digit = c; result |= Base64.fromBase64(c);
+ if ( c == 0 ) { continue ;
+ digit = Character.fromBase64(c);
+ if ( c == 0 ) { result = result + shift ; }
+ if ( c == 0 ) { result = result + (digit << shift); } else
+ int digit = Character.digit(c);
+ char digit = VLQValue.Base64.fromBase64(c);
+ if ( c == 0 ) { result = c ; break }
+ if (c == null) { break ; }digit = Base64.fromBase64(c);
+ result = result + (digit = Base64.fromBase64(c);
+ result += c ; digit |= Base64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> 0; if (digit!= 0)
+int digit = Base64.fromBase64(c) >>> (shift);
+ if (c) {
+ if (c!= 0) { char digit |= Base64.fromBase64(c);
+ if ( c == 0 ) { result = c ; } else
+ char digit = c & 1; digit = Integer.fromBase64(c);
+int digit = Base64. toBase64 ( c ) ; do {
+ int digit = toBase64(c);
+ char digit = VLQValue_Base64.fromBase64(c);
+ int digit = result + (digit << shift);Base64.fromBase64(c);
+ int digit = (int) decode(c);
+ result = result + (digit << shift |c);
+ char digit = c & 0xff;
+ result = result + c ; result ^= Base64.fromBase64(c);
+int digit = Base64.fromBase64(c)+shift;
+ result += (c << shift);
+int digit = Base64.toBase64(c) | 0 ;
+ int digit = c & 1; digit = Integer.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> (shift + 1) ;
+int digit = Base64.fromString(c);
+int digit = Base64.fromBase64(c) >>> (shift); if (digit) {
+ int digit = ^Base64.fromBase64(c);
+int digit =  c & VLQ_BASE_;
+ int digit = IntBase64.fromBase64(c);
+ result = result + (c << shift + 1);
+ result = result + (c << shift);
+ if ( c == 0 ) { result = result ; shift = shift ; }
+int digit =  c & VLQ_Signed(c);
+ if ( c == ' ' ) { result = result + shift ; }
+int digit = Base64.fromBase64(c); if (digit == -1) break;
+int digit = Base64.fromBase64(c) >>> 0; if (continuation)
+int digit = Base64.fromBase64(c) >>> 0; if continuation {
+ if ( c == ' ' ) { result = c ; } else
+ result = result + digit <<= Base64.fromBase64(c);
+ result = result + (digit << shift +c);
+int digit = Base64.toDouble(c);
+ result = result + (digit << shift)+= Base64.fromBase64(c);
+ int digit = c & VLQ_shift(c);
+ if (c!= 0) break;
+ if (c!= 0) { final
+ if (c == ' ') {
+ int digit = digit + Base64.fromBase64(c);
+ char digit = UBase64.fromBase64(c);
+ char digit = Character.fromBase64(c);
+int digit  = c & VLQ_BASE;
+ int digit = digit | Base64.fromBase64(c);
+ result = 0;digit = Base64.fromBase64(c);
+ int digit = (int) UBase64.fromBase64(c);
+int digit = Base64.digit(c);
+ char digit; digit= Base64.fromBase64(c);
+ result = result + c ; digit |= Base64.fromBase64(c);
+ char digit = c >>> shift + 1;
+ continuation = c >> shift == 0;
+ if ( c == 0 ) { result = c ; }
+ result = result + (character << shift);
+ int digit = c >>> 1 | Base64.fromBase64(c);
+int digit = Base64.fromBase64(c).digit();
+int digit = Base64.fromBase64(c); while (true)
+ result = result + (char)(c);
+ continuation = c & 0xFF;
+ char digit = c & 0xFF;
+ if (c == 0) { break; } final
+ char digit = c & VLQ(shift);
+ result = result << shift;
+ result = result + c << shift);
+ result = result + (digit << -c);
+ char digit = c & VLQ_BIT);
+ if (c == 0);
+ char digit = c & VLQ_SIGN);
+ result = result | c;digit = Base64.fromBase64(c);
+ int digit = c >>> shift + 1;
+ if ( c!= null ) { continuation =
+ int digit; digit= Base64.fromBase64(c);
+int digit = Base64.fromc();
+ result = result + (digit << shift) +fromBase64(c);
+ int digit = c >>> 1 ^ Base64.fromBase64(c);
+int digit =  c & VLQ_BASE_BIT(c);
+int digit =  (int) toVLQSignedInt(c);
+ result = result + c ; result |= Base64.fromBase64(c);
+ if ( c == 0 ) { result = result + (digit << shift); } }
+ char digit = c; digit |= Base64.fromBase64(c);
+ continuation = c >> shift!= 0;
+int digit = Base64.toInt(c); boolean
+int digit = Base64.fromBase64(c) >>> (shift); shift = shift + 1 ;
+int digit = Base64. toBase64 ( c )
+ continuation = (result == c);
+ int digit = toInt(c);
+ if (c!= c);
+ int digit = VLQInteger.fromBase64(c);
+ if ( c == 0 ) { result = result + shift ; } else
+ if (c == '\\') {digit = Base64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> 0xFF;
+ result = result + c; c= Base64.fromBase64(c);
+ int digit = result + (int)=Base64.fromBase64(c);
+ char digit ; digit |= Base64.fromBase64(c);
+ int digit = digitFromChar(c);
+ if (c == -1);
+ while (c!= null)
+ if ( c == 0 ) { result = result + (digit << shift); final
+int digit = Base64.fromBase64(c).toInt();
+ result = result | (digit = Base64.fromBase64(c);
+ result = result + (c + << shift);
+ while (continuation);
+int digit = Base64.fromBase64(c) >>> (shift); if ( continuation )
+ digit = toBase64(c);
+int digit = Base64. encode ( c ) ;
+ if ( c == c ) { result += digit ; shift ++ ; } else
+ while (c) {
+ continuation = c!== 0;
+ if ( c == ' ' ) { result = result + (digit << shift); final
+ while (c!= 0) { final
+ continuation = c!== null;
+int digit = Base64.fromBase64(c); if (c == '\\' )
+ result += (char)c);
+int digit =  c & VLQ_SIGN ; decode(c);
+ int digit = result + (int)~Base64.fromBase64(c);
+int digit =  c & VLQ_SIGNED(c);
+ do {
+ result += (char)(c);
+ if ( c == ' ' ) { result = result + shift ; } else
+int digit =  result + (digit << shift); decode(c);
+ byte digit = Base64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> (shift); shift = shift >>> 1 ;
+ int digit = result |= Base64.fromBase64(c);
+int digit = Base64.fromBase64(c); if (char == '\\')
+ int digit = (int)~Base64.fromBase64(c);
+ if (c == 0) { break };
+ int digit = Uint64.fromBase64(c);
+ int digit = "+"+Base64.fromBase64(c);
+ result = result + c ; shift += 1;
+ if (c!= null);
+ int digit = (int)CharIterator.Base64.fromBase64(c);
+ character = Base64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> 0; shift = 0 ;
+ if ( c == ' ' ) { result += c ; continue ; } final
+ char digit = result + (char)~Base64.fromBase64(c);
+int digit =  result + toVLQSignedInt(c);
+int digit =  fromVLQSignedInt(c);
+ if ( c == 0 ) { result = result ; continue ; } final
+ char digit = c >>> (shift + 1);
+ result = result + c + digit(shift);
+int digit =  toVLQSignedChar(c);
+int digit = Base64.toBase64(c).length();
+int digit = Base64.fromBase64(c) >>> (shift); shift = shift >>> shift ;
+ char digit = (char)~Base64.fromBase64(c);
+ result = result ^ decode(c);
+ if ( c == 0 ) { result += digit ; }
+ shift += 1;
+ if (c == 0) { result = result ; } final
+ shift = 1;
+ if (c!= null) { continue ;
+ result = c;digit = Base64.fromBase64(c);
+ result = result + ord(c);
+ if ( c == 0 ) { result = result + shift ; } }
+ char digit = c >> shift + 1;
+ int digit = VLQString.fromBase64(c);
+ if ( c!= null ) { continuation = true ; }
+int digit = Base64.fromBase64(c) >>> (shift); shift += digit >>> shift ;
+int digit = Base64.fromBase64(c) >>> 0; if (digit)
+int digit = Base64.fromBase64(c); boolean
+ result += c; digit= Base64.fromBase64(c);
+ if (continuation)digit = Base64.fromBase64(c);
+int digit = Base64.fromBase64(c); continuation = true; else
+ continuation = (result == 0);
+int digit = Base64. decode c ;
+ result += c(shift);
+ char digit = c >>> (MASK);
+int digit = Base64.fromBase64(c, true);
+ if (c == 0) { return result ; } final
+int digit =  (int) toVLQSignedChar(c);
+ continuation = (c == c);
+ if ( c == ' ' ) { result = c ; } else
+ continuation = c == 0;
+int digit =  result + fromVLQSignedInt(c);
+ int digit = result= Base64.fromBase64(c);
+ int digit ^= Base64.fromBase64(c);
+int digit = Base64.decode();
+ result = result + c ; shift = 1;
+ char digit = CvLQ.fromBase64(c);
+int digit = Base64.fromBase64(c[Shift]);
+int  result = 0 ;
+int digit = Base64.fromBase64(c); if (digit == 0) break; else
+ char digit |= Base64.fromBase64(c);
+ result |= c;
+int digit = Base64.fromBase64(c) >>> 0xffffffff;
+ switch (c) { do {
+int  result = result ;
+ digit = decodeDigit(c);
+ continuation = c >>>(MASK);
+int digit = Base64.fromBase64(c) & 0xFF ;
+ Character digit=fromBase64(c);
+ int digit, shift= Base64.fromBase64(c);
+ int digit = VLQInt.fromBase64(c);
+ if ( c == ' ' ) { break ; } final
+int digit = Base64.fromBase64(c); if (digit == 0) { break;}
+ digit = decode(c);
+int digit = Base64.fromBase64(c, 0);
+int digit = Base64.fromBase64(c[shift]);
+ result = result + c >>> (shift shift);
+int digit = Base64.toString(c); boolean
+ result += decodeChar(c);
+int digit = Base64.fromBase64(c) | 0 ;
+int digit = Base64 c;
+int digit = Base64.fromBase64(c).digit;
+int  result ;
+ result = result&digit = Base64.fromBase64(c);
+ shift += 2;
+ char digit = CharBase64.fromBase64(c);
+ if (! continuation);
+ while (c);
+int digit = Base64.toBase64(c); bool
+int digit = Base64.fromBase64(c[1]);
+int digit =  VLQDecode(c);
+int digit = Base64.fromBase64(c) >>> 0xff;
+ if (c == 0) break; final
+ result = result + (c);
+int digit = Base64.fromBase64(c) >>> 0xffffff;
+ int digit = "0".Base64.fromBase64(c);
+ char digit=fromBase64(c);
+ int digit &= Base64.fromBase64(c);
+int  continuation ;
+ result += (digit<<c);
+int digit = Base64.shift c;
+ Character digit = Base64.fromBase64(c);
+ int digit = result ^= Base64.fromBase64(c);
+ char digit = ByteBase64.fromBase64(c);
+int digit = Base64.fromBase64(c); continuation = true; }
+ int digit = digit(c);
+int  digit = c >>> shift; boolean
+int digit = Base64.fromBase64(c, shift); boolean
+ if continuation);
+ switch (c) { case '-' : {
+int digit = Base64.toChar(c); boolean
+int  digit = -c;
+ shift = shift ; final
+ boolean continuation;
+int digit = Base64.fromBase64(c, 16);
+int digit =  Integer.digit(c);
+ digit += Integer.fromBase64(c);
+int digit = Base64.digit(c); boolean
+int digit = Base64.shift();
+ digit = (c);
+int digit = Base64.digit c;
+ digit =.fromBase64(c);
+ shift = c >>> (shiftShift);
+ result ^= c;
+int digit = Base64.fromBase64(c) << shift;
+ digit = c;
+ digit = ^fromBase64(c);
+int digit = Base64.to c;
+ if (c == 0) break; #digit = Base64.fromBase64(c);
+ decodeChar(c);
+ int digit >>>= Base64.fromBase64(c);
+ if (c!= c) { boolean
+ digit = Number.fromBase64(c);
+ digit = decodeCharValue(c);
+int digit = Base64 (c); boolean
+int digit = Base64.fromBase64(c) >>> (shift); shift = shift ; boolean
+ if (c == 0) { break; };
+int digit = Base64.fromBase64(char c);
+int digit = Base64.fromBase64(c) >>> (shift); shift = shift ; }
+ if (c!= null) continue; #digit = Base64.fromBase64(c);
+ result = result + "digit = Base64.fromBase64(c);
+ digit = decodeCRC(c);
+int  digit = c >>> shift; *
+int digit = Base64.fromBase64(c) >> shift;
+int  digit = c ; boolean
+int  digit ;
+ char digit = char=Base64.fromBase64(c);
+ digit <<=Base64.fromBase64(c);
+int digit = Base64.fromBase64(c digit);
+ result =fromBase64(c);
+ int digit = digitOfBase64.fromBase64(c);
+int digit = Base64.fromBase64(c) >>> 0; shift = shift ; boolean
+int  result = c ; boolean
+ double digit = Base64.fromBase64(c);
+int digit  = c ++ ;
+ shift++; ;
+ char decode(c);
+ continuation = true;
+ char = c;
+ result ^= (c);
+ char digit;
+ result +=(c);
+ continuation ++;
+ result <<= (c);
+int digit =  decodeChar(c);
+ digit ^=Base64.fromBase64(c);
+ shift += shift ; final
+ result <<= 1;
+ checkChar(c);
+int digit =  toInteger(c);
+ while ();
+int digit = Base64.fromBase64(c++);
+ result += (digit = Base64.fromBase64(c);
+ out.append(c);
+ result = Integer.fromBase64(c);
+ if continuation {digit = Base64.fromBase64(c);
+int digit = Base64.dec();
+ shift ++ ;
+ result = encode(c);
+ (c);
+int digit = Base64.fromBase64(c); bool
+ loop do {
+ --shift;
+int digit = Base64.fromBase64(c); *
+int  result = 0
+ base64.fromBase64(c);
+ c++);
+int digit =  (c);
+ result = (digit = Base64.fromBase64(c);
+ char c;digit = Base64.fromBase64(c);
+int digit = Base64.byte();
+int digit  = 0 ;
+ encode(c);
+int digit = Base64.fromBase64(c) >>> 0; boolean
+int  result; boolean
+int digit = Base64.init();
+ { decode(c);
+int  shift++; ;
+int  result = c
+int digit = Base64.fromBase64(c) >>> shift; boolean
+int  result = ;
+ switch(c);
+ char result;digit = Base64.fromBase64(c);
+ return Integer.fromBase64(c);
+int digit  = 1 ;
+int digit = Base64.fromBase64(c0);
+ flag ++;
+int digit =  fromString(c);
+ loop(); {
+int digit =  fromChar(c);
+ decoder(c);
+ consume(c);
+ decodeCharacter(c);
+ while continuation);
+int digit = Base64.fromBase64digit();
+int digit  c ;
+int digit = Base64.fromBase64() ;
+int digit = Base64.fromBase64(c));
+int digit = Base64.fromBase64($c);
+int digit = Base64 digit();
+int digit  = c
+ result +=fromBase64(c);
+int digit = Base64.fromBase64char c);
+ result =Base64.fromBase64(c);
+ byte[]digit = Base64.fromBase64(c);
+ character |= Base64.fromBase64(c);
+ try {
+ result +=Base64.fromBase64(c);
+int digit  ; boolean
+ int _digit = Base64.fromBase64(c);
+ digit +=Base64.fromBase64(c);
+int digit =  ord(c);
+ int cdigit = Base64.fromBase64(c);
+ final
+ int-digit = Base64.fromBase64(c);
+ +64.fromBase64(c);
+int digit = Base64.fromBase64(c) + 1
+int digit = Base64.fromBase64(c) | char
+int digit = Base64.fromBase64(c) | 0
+int digit = Base64.fromBase64(cc);
+ do {}
+ { final
+ {
+int digit =  digest(c);
+int digit =  encode(c);
+int digit; Base64.fromBase64(c);
+int digit = Base64.fromBase64(C);
+int digit = Base64.fromBase64(rc);
+int digit := Base64.fromBase64(c);
+int digit, Base64.fromBase64(c);

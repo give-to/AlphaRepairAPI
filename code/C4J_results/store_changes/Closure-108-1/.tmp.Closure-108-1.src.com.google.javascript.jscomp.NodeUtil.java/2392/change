@@ -1,0 +1,493 @@
+} else if (value!= null) {
+}  else {
+ } if(value != null) {
+ if (value != null) {
+ return result;
+} else if (value !=  null)
+ } else { result = null ; } if(value != null) {
+ } else { if (value != null) {
+} else if (value ) {
+ } if (null) {
+ } else { result = null ; if (value != null) {
+ if (null) {
+ } else { result = nameNode ;
+ } else { result = IR.var(nameNode);
+} else if (value Node.isName()) {
+ } else { result = IR.exprResult(nameNode);
+} else if (value != null)  { result = IR.exprResult();
+ if (result) {
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result. setFirstChild(nameNode);
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result.setFirstChild(info); }
+ } else if (nameNode!= null) {
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result = nameNode ;
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result. setJSDocInfo(info);
+ } else if (null) {
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result. setFirstChild(info);
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ) ;
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result. setFirstChild(info);
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result = nameNode ;
+ } else { result = IR. var ( nameNode )
+ } else { result = IR. var ( nameNode ) ;
+ } else if (nameNode.isAssign) {
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result.setFirstChild(info));
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ; result. setFirstChild ( info ) ;
+ } else { result = IR. var ( ) ;
+ } else { result = IR.var(value);
+ } else { result = IR. exprResult ( nameNode, value ) ;
+ } else { result = IR.var(nameNode); }
+ } else { result = IR. exprResult ( nameNode, value, info ) ;
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ), info ) ;
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result. setFirstChild(nameNode);
+ } else { result = IR. exprResult ( nameNode, value ) ; return result ;
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result = null);
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value, info ) )
+ } else { result = null ; } if (null) {
+ } else { result ; } if (value != null) {
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value, info ) ) ;
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ) ; return result ;
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ) ; } return result ;
+} else if (value != null)  { result = IR.var(nameNode);
+ } else { result = IR. assign ( nameNode, value ) ;
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ) ; result = null ;
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result = nameNode);
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ) ; } result = result ;
+ result.getFirstChild().setJSDocInfo(info);
+ } else { result = IR. var ( nameNode, value )
+ } else { result = IR. var ( nameNode, value ) ;
+ } else { result = null ; } } elseif (value != null) {
+ } else { result = IR. exprResult ( nameNode, value ) ; result = null ;
+ } else { result = IR. exprResult(IR.assign(nameNode, value); return result);
+ } else if (nameNode.value != null) {
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ; result. detach ( ) ;
+} else if (value != null)  { result = IR.var(result);
+ } else if (assign) {
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) )
+ } if (result==null) {
+ } else { result = IR.exprResult(nameNode);
+ } else { result = IR. exprResult ( nameNode, value )
+} else if (value  instanceof Assignment) {
+ } else { result = IR. exprResult ( nameNode, value ) ; } return result ;
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result = null;
+ } else { result = IR. exprResult ( nameNode, value ) ; }
+ } else { result = IR. exprResult(nameNode, value); result = nameNode ;
+ return nameNode;
+ } else { result = value ;
+ } if (assign) {
+} else if (value != null)  { if (info) {
+ } else { result = IR. assign ( nameNode, value ) ; result = null ;
+ } else { result = IR. assign ( nameNode, value )
+ } else { result = IR. varResult ( nameNode, value ) ; return result ;
+ } else { result = IR. exprResult ( nameNode ) ; return result ;
+ } else { result = IR. assign ( nameNode, value, info ) ;
+ } else { result = nameNode ;
+ } else { result = IR. assign ( nameNode, value ) ; return result ;
+ } else { } if (value != null) {
+ } else { result = IR.var(name);
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result.set(info));
+ } else { result = null ;
+} else if (value != null)  { result = IR.const(nameNode);
+ } else { result = null ;
+ } else { result = IR. varResult ;
+ } else { result = null ; } else{
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result = nameNode;
+ } else { result = IR. exprResult ( nameNode ) ; result = null ;
+} else if (value !=  null && result!= null) {
+} else if  (nameNode.isAssign()) {
+ } else { result = IR.const(nameNode);
+ return result; }else if (value != null) {
+ result.getFirstChild().setJSDoc(info);
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result. setParent ( null);
+ } else if (nameNode.isFunction) {
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value, info ) ;
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value ) ; result. detach ( ) )
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result. setName ( name )
+ } else { result = IR.var(name);
+ } else { result = IR.name(nameNode);
+ return result ; } else { result = nameNode ;
+ } if (nameNode!= null) {
+ } else if (result == null){
+} else if (value != null)  { result = IR.expr(nameNode);
+} else if (value != null)  { result = null;
+ return result ; } else { result = IR. var ( ) ;
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); result. setThis ( info )
+ } else { result = IR. exprResult(IR.var(nameNode, value)); result. setThis ( info);
+ } else { result = IR. exprResult(IR.assign(nameNode, value););
+ } if ( result ) {
+} else if  (nameNode.isFunction()) {
+ } else { result = IR. exprResult(IR.assign(nameNode, value); result);
+ return result ; } else { result = IR. var ( name ) ;
+ } else if (nameNode.getParent()!= null) {
+} else if (value != null)  { if (info!= null) {
+} else if (value Node.isName(name)) {
+ } else { result = IR. exprResult ( nameNode, value ) ; } result = result ;
+ } else { result = IR.const(nameNode); }
+} else if (value != null)  { result = IR.string(nameNode);
+ } else { result = Node. NULL ;
+ } else if (nameNode.isVariable) {
+ } else { result = IR. exprResult(nameNode, value); result. detach ( ) ;
+ } else if (nameNode==null) {
+ } else { result = IR. exprResult(IR.assign(nameNode, value)); }
+} else if  (nameNode.isExpression()) {
+ } else { result = IR.expr(nameNode);
+ } else { result = IR. var ( nameNode ;
+ } else { result = IR. assign ( nameNode, value ) ; }
+ } else { result = IR. exprResult ( IR. assign ( nameNode, value, info )));
+ } else { result = null } if (value != null) {
+ } else { return result ;
+} else if  (nameNode.isVariable()) {
+ } else { result = IR. assign ( nameNode, value, info )
+ } else { result = IR. exprResult(nameNode, value); result = null ; }
+ } else { result = IR.name(name);
+ } else { if (nameNode!= null) {
+ } else { result = IR.variable(nameNode); }
+ } else { result = IR. var ( name )
+} else if (value Node.isName(nameNode)) {
+} else if  (nameNode.isIdentifier()) {
+ } else if (nameNode.isVar) {
+ } else if (nameNode.isMember) {
+ } } elseif (value != null) {
+} else if  (nameNode.isExpr()) {
+ } else { result = null ; if (value) {
+} else if (value != null)  { result = IR.const(result);
+ } else { result = IR.exprResult(){
+ } else if (nameNode.isExpression) {
+} else if (value != null)  { result = IR.name(nameNode);
+} else if (nameNode.isIdentifier(name)) {
+ } else { result = IR.exprResult();
+} else if (value !=  null && value instanceof Assignment) {
+} else if  (nameNode.isMember()) {
+} else if (nameNode.isAssign(value)) {
+ } else if (nameNode.getParent==null) {
+ } else { result = IR.const(name);
+ if result!= null) {
+ } else { result = null ; } } else{
+ } else { result = IR. exprResult ( nameNode, value ;
+ } else { result = null ; } elseif (value != null) {
+ return result ; } else { result = IR. varResult ;
+} else if (value != null)  { result = IR.expr(result);
+} else if (value != null)  { result = IR.var(value);
+} else if  (nameNode.isMember(value)) {
+ } else { if (info!= null) {
+} else if  (nameNode.isVariable(value)) {
+ } else if (nameNode.isIdentifier) {
+} else if (value !=  null && value. isName ( ) ) {
+ } else { result = IR.variable(name);
+} else if (value !=  null && info!= null) {
+ } else { if (value) {
+ return result ; } else { result = null ;
+} else if (value !=  null) { if (info == null) {
+ } else { result = nodeNode ; } if(value != null) {
+ return result ; } result = nameNode ;
+ } if (nameNode.getParent ( )!= null) {
+ } if (nameNode.getParent()==null) {
+ } else { result = IR.variableResult(nameNode);
+ return result ; } else { result = value ;
+ } else if (assign()){
+ } else if (nameNode.getFirstChild!= null) {
+} else if (nameNode.isExpression(value)) {
+ } else { result = IR. var ;
+ } else { } if (nameNode!= null) {
+ } else { result = IR. var ( value )
+} else if  (nameNode.isExpressionNode()) {
+} else if (value !=  null && result) {
+ } else { result = null ; } } if(value != null) {
+} else if  (nameNode.isVar()) {
+ } else if (value.length==null) {
+} else if  (nameNode.isAssignable()) {
+ } else { if (assign) {
+ } else { result = value ;
+ } else { result = nameNode ; } if(value != null) {
+ } } else{
+} else if  (info!= null) {
+ } else { result = IR.nullResult();
+} else if (value != null)  { result = IR.string(name);
+ return result ; } return result ;
+ return result ; } result = null ;
+ } else { result = nameNode ; if (value != null) {
+} else if  (nameNode.isAssignment()) {
+ if (result!= null) {
+} else if (value Node) {
+ } else if (nameNode.isAssignment) {
+ } else if (value==null) {
+ } else if (nameNode.parent!= null) {
+} else if (value != null)  { result = nameNode;
+} else if (value Node.isIdentifier()) {
+} else if (value Node.isName(value)) {
+ if (result==null) {
+ } else { result = IR.null;
+ } result = IR.exprResult();else if (value != null) {
+ } else if (valueNode!= null) {
+ } return result ; } elseif (value != null) {
+ } else { if (assign()) {
+ } else if (assign)){
+} else if (value !=  null && value instanceof AssignmentNode) {
+} else if  (nameNode.isIdent()) {
+} else if (nameNode.isAssignNode) {
+ } else if (nameNode.parent==null) {
+} else if (value .isIdentifier(nameNode)) {
+} else if (nameNode.isAssignStatement) {
+} else if (nameNode.isVariable(valueNode)) {
+ return result; } if(value != null) {
+} else if  (nameNode.expression()) {
+ result = nameNode ;
+} else if (nameNode.isMember(valueNode)) {
+ } else { return result ; if(value != null) {
+} else if (value Node.isIdentifier(name)) {
+ } else { return null } if(value != null) {
+} else if (value Node.isExpression()) {
+} else if (nameNode.isAssignable) {
+ } else if (nameNode.value==null) {
+ } else if (nameNode.getParent!= null) {
+} else if (value Node.isVariable(nameNode)) {
+ return result ; } result = value ;
+ } else { result = IR.var result;
+ } else if (nameNode=null) {
+ } else if (nameNode.append()){
+ } else if (nameNode.length==null) {
+} else if (value != null)  { result = value;
+ } else { result = node ; } if (value != null) {
+ } if (nameNode.getParent==null) {
+ } if (assign()){
+} else if (value !=  null && result!= result) {
+ result. detach ( ) ;
+ } else { result = null if (value != null) {
+} else if (nameNode.isExprResult) {
+ } else { result ; if (value != null) {
+ } else { result = IR.constResult();
+ } result = IR.exprResult(result);else if (value != null) {
+ } else if (nameNode.call()){
+ } else { result } else if (value != null) {
+ } else if (nameNode.exprResult!= null) {
+ result. setDebugInformation ( ) ; }else if (value != null) {
+ result. setDebugInformation ( info); }else if (value != null) {
+ } else if (nameNode.append) {
+ } else { result = IR.var(); }
+ } if (nameNode.isVar) {
+ } else if (result == null&&value != null) {
+ } else { return result } if(value != null) {
+ } else if (value.isNotnull) {
+ } else if (value.value!= null) {
+ } else { result = IR.var() ;
+} else if (value Node.isExpression(nameNode)) {
+ } else { } else if(value != null) {
+} else if (value !=  null) { result = 'null'; }
+ } else if (info.assign!= null) {
+ } else { result = node ;
+} else if (value !=  null) { if (assign) {
+} else if (value .isName()) {
+ } else if (assignment) {
+ } else if (nameNode.assign!= null) {
+} else if (value != null)  { result.setValue(value);
+} else if (value !=  null) { result = IR.var();
+} else if  (value)
+ } else { result = node ; } } elseif (value != null) {
+ } else if (value.parent!= null) {
+ } else { if (assign)){
+ } else if (nameNode!= null&&value != null) {
+ } else { result = undefined ; } } elseif (value != null) {
+} else if (nameNode.isExpr) {
+ } else if (nameNode.$value != null) {
+ } else if (isAssign()){
+ } else if (assigned) {
+} else if (value Node.isString(value)) {
+} else if (value  instanceof IR.assignExpression) {
+} else if (value != null)  { result = "null"; }
+ } else if (result) {
+} else if (value Node.isName())) {
+ } if (value) {
+ } else if (nameNode.parentNode!= null) {
+ } if (assignment) {
+} else if (value != null)  { if (info)
+ result. setFirstChild(result);
+ result. detach ( ) }else if (value != null) {
+ } result = result ;
+ result = null ; }else if (value != null) {
+} else if (value !=  null) { if (assign()) {
+ } else { result = null ; }
+ result = null ; } if(value != null) {
+ } else { result = null }; if(value != null) {
+ } result = null ; } elseif (value != null) {
+} else if  (nameNode.expr()) {
+} else if (value !=  null &&! implicit) {
+ } else { result = undefined ; } if(value != null) {
+} else if (value  instanceof IR.AssignExpression) {
+} else if (value  instanceof Assignment()) {
+} else if  (info.isName()) {
+} else if (value Node.isName(...)) {
+ return result ; } result = name ;
+ } if (assign)){
+ } result. setDebugInformation ( info);else if (value != null) {
+ } else if (info.value != null) {
+ } result = IR.expr(result); }else if (value != null) {
+ return result; } } elseif (value != null) {
+ result.getFirstChild(result);else if (value != null) {
+ } else { } if (valueNode!= null) {
+ } if (assigned) {
+ } else { if (valueNode!= null) {
+ } else if (variableNode!= null) {
+} else if (value !=  -1) {
+} else if (nameNode.isCall) {
+} else if (value != null)  { result = null; }
+ if(!= null) {
+} else if (value Node.isExpression(name)) {
+ } else { result = null
+} else if (value != null)  { result = IR.exprResult;
+ } if (result!= null) {
+ } result. setDebugInformation ( info )else if (value != null) {
+ } if (result)){
+} else if (value .isIdentifier()) {
+ } else { result = ;
+ } result. setDebugInformation ( info ) }else if (value != null) {
+} else if (value !=  null || info) {
+} else if (value != null)  { result = {}; }
+} else if (value Node.isString()) {
+} else if (value  instanceof Name()) {
+ } else { result } if (value != null) {
+ result. setParent ( null);
+} else if (value !=  null && info) {
+ } else { result = nodeNode ; } elseif (value != null) {
+} else if (value Node.isVariable()) {
+ if (assign) {
+ } return result ;
+} else if (value !=  null &&! ignore) {
+ return result
+} else if (value !=  null &&! result) {
+ } result = IR.exprResult(); }else if (value != null) {
+ } else { result = IR.null();
+ } if (result=null) {
+ } result. detach ( ) ;if (value != null) {
+} else if (value .isIdentifier(nameNode)) { *
+} else if  (isVariable()) {
+} else if (value !=  nameNode) {
+ } else { result = node ; } elseif (value != null) {
+ } else { result = value ; }if (value != null) {
+ } else { }else{
+ } result = null ;
+ } else { result = value ; } elseif (value != null) {
+ } else { result = value ;if (value != null) {
+} else if  (isFunction()) {
+ } else if (nameNode!!= null) {
+ } return result;else if (value != null) {
+ } if (nameNode.value != null) {
+ } else { } } if(value != null) {
+ } else { else if (value != null) {
+} else if (value Node.isName(nameNode)) { *
+ } result = IR.exprResult(else if (value != null) {
+ } if (variable) {
+} else if  (isVar()) {
+ result = null ; if(value != null) {
+ } else { result = undefined ; } elseif (value != null) {
+} else if (value !=  "null") {
+ } else if (node is assignment) {
+ } else { result = null } elseif (value != null) {
+} else if (value !=  null) { result =
+} else if (value !=  null) { *
+} else if (value !=  null &&! expression) {
+ } result = IR.null; }else if (value != null) {
+} else if  (value)) {
+ } if (nameNode.expr) {
+ } else { result = null ; } else
+ } else) {
+ } result = result. parent ;else if (value != null) {
+ } else { result =
+} else if  (info.expression()) {
+} else if  (info) {
+ if (result)){
+ } if (valueNode!= null) {
+ result = null;
+} else if (value != null)  { result = IR.var;
+ } result = nameNode ; }else if (value != null) {
+ return result } elseif (value != null) {
+} else if (nameNode.variable) {
+ result = null }else if (value != null) {
+} else if (value .expression()) {
+} else if (value  instanceof Assignment)
+ } else { result ;
+ } else if ( {
+ } if (isnull) {
+ } if (expression) {
+} else if (value !=  null) { result =;
+ } else if {
+ } if ( assign)
+} else if  (result)
+ } if (.){
+ return result; elseif (value != null) {
+ result; } elseif (value != null) {
+ } else if (result!= null) {
+} else if (value != null)  { result = [];
+ } else if else{
+} else if (value != null)(info)) {
+ if (nameNode!= null) {
+ } result = null; elseif (value != null) {
+ } else if if (value != null) {
+} else if (value != null)  { result ++ ;
+ } ifelse{
+} else if  (variable)
+} else if (isAssign) {
+} else if (value .nil()) {
+ return result; if(value != null) {
+} else if (value != null)  return result;
+ } else { var
+ result. detach ( ) ;else if (value != null) {
+ } if (!null) {
+} else if (value != null)  { result =();
+ return result; } * }else if (value != null) {
+ return result } if(value != null) {
+ } result = result. parent();else if (value != null) {
+ if (value) {
+ break;
+ if (!result) {
+} else if  ()
+ } else { *
+} else if (value != nullNode) {
+ if(!null) {
+} else if (isAssignment) {
+ if (result)
+} else if (value ==null)
+ }(_) {
+} else if (value Node)) {
+ } if(!= null) {
+} else if (value != null) { var
+} else if (append)
+} else if  (...)
+ } } if (value != null) {
+} else if  (){
+ } else,{
+} else if (value !=  null()) {
+} else if (value !=  null)) {
+ return;
+ if($!= null) {
+} else if (value != null)  { result.
+ }(!= null) {
+} else if (value != null)) { *
+} else if (value != null)  {\ result =
+ return result);
+ return result,
+} else if (isVar) {
+} else if (value ()) {
+} else if (assigning) {
+ } if (!value != null) {
+} else if (variable) {
+ else if (value != null) {
+} else if (value !=  value) {
+} else if (value !=  undefined) {
+ } (null) {
+} * }else if (value != null) {
+} else if (value !=  null))
+} else if (value !=  null {
+ if (!value != null) {
+ } (value != null) {
+} else if (expression) {
+} else if (value !=  null())
+ while (value != null) {
+} else if (true) {
+}  else,
+ }
+}  else {}
+ } while(value != null) {
+ }sif (value != null) {
+}\ else{
+ }; elseif (value != null) {
+ *
+} else if (value not null) {
+} else if (value > null) {

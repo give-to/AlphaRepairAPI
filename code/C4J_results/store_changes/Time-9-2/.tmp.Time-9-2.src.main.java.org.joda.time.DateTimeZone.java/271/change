@@ -1,0 +1,435 @@
+return forOffsetMillis(offset);
+ return DateTimeZone.forOffsetMillis(offset);
+ return offset ;
+return forOffsetMillis(offset, minutesOffset);
+ return fixedOffsetZone(offset);
+ return DateTimeZone.UTC;
+return forOffsetMillis ( offset )
+ return forOffset(offset);
+ return FixedOffsetZone(id, -offset);
+ return offset);
+return forOffsetMillis ( offset, minutesOffset )
+ return TimeZone.forOffsetMillis(offset);
+ return DateTimeZone. UTC + offset ;
+return forOffsetMillis ( hoursOffset, minutesOffset ) ;
+return forOffsetMillis ( hoursOffset ) ;
+ return FixedOffsetZone(id,offset);
+ return FixedOffsetZone(offset, minutesOffset);
+ return DateTimeZone.UTC(offset);
+ return DateTimeZone.UTC.forOffsetMillis(offset);
+return forOffsetMillis ( hoursOffset, offset ) ;
+ if ( offset!= 0 )
+ return DateTimeZone(offset);
+ return minutesOffset ;
+ if ( offset < 0 ) { return null }
+return forOffsetMillis(offset, millisOffset);
+ return FixedOffsetZone(offset);
+ if ( offset > 0 ) {
+ return FixedOffsetZone(id, minutesOffset);
+ return DateTimeZone ;
+return forOffsetMillis(offset, minutesOffset); }
+ return FixedOffsetZone ( id, offset ) ; }
+ if ( offset!= - 1 ) {
+ return new DateTimeZone(offset);
+return forOffsetMillis ( hoursOffset, minutesOffset, offset ) ;
+ return FixedOffsetZone(id, offset+offset);
+ if ( offset < 0 ) { return DateTimeZone. UTC ; }
+ if ( offset < 0 ) { return null ; }
+return forOffsetMillis ( offset ) ; }
+ return FixedOffsetZone ( offset, minutesOffset )
+return forOffsetMillis(offset, hoursInMinutes);
+ return FixedOffsetZone(id, hoursOffset+offset);
+ return DateTimeZone.NONE;
+ return FixedOffsetZone(id, 0,offset);
+return forOffsetMillis ( offset, hoursOffset, minutesOffset ) ;
+ return FixedOffsetZone(offset, offset);
+ return FixedOffsetZone(id, offset + 1);
+ if ( offset!= 0 ) {
+ return FixedOffsetZone(id, hoursOffset,offset);
+ if ( offset < 0 ) { throw new IllegalArgumentException ( ) }
+ if ( offset < 0 ) { return null ; } if ( offset > 0 ) {
+ return DateTimeZone.forOffset(offset);
+ return TimeTimeZone. UTC ;
+ return FixedOffsetZone(id, offset * 60);
+return forOffsetMillis ( offset, minutesOffset, hoursOffset ) ;
+ return FixedOffsetZone(id, offset,offset);
+ if ( offset ) {
+ return DateTimeZone. UNKNOWN ;
+return forOffsetMillis ( hoursOffset, minutesOffset ) ; }
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } else {
+ return FixedOffsetZone(id, minutesOffset+offset);
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } if ( offset > 0 )
+ if ( offset < 0 ) { throw new IllegalArgumentException ( ) ; }
+ return (offset);
+return forOffsetMillis(offset, 0);
+ return DateTimeZone. UTC ; }
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return null ; }
+return forOffsetMillisOffset ;
+ if ( offset < 0 ) { return forOffsetUTC(offset); }
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalStateException {
+ return FixedOffsetZone ( id, offset, minutesOffset )
+ if ( offset < 0 || offset > 59 ) { return null ; }
+ if ( offset == 0 ) { return DateTimeZone. UTC ; }
+ return DateTimeZone.UTC.forOffset(offset);
+ return DateTimeUtils.forOffsetMillis(offset);
+ if ( offset < 0 ) return null ;
+ if ( offset < 0 ) { throw IllegalArgumentException ; }
+ return FixedOffsetZone(id, hoursOffset-offset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return null }
+ if ( offset > 0 )
+ return FixedOffsetZone ( id, offset ) ; } }
+ return DateTimeZone. UTC ; return offset;
+ return forOffsetMillis ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalStateException {
+ if ( offset < 0 || offset > 59 ) { return null }
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } if ( offset ) {
+ return DateTimeZone.of(offset);
+ return FixedOffsetZone ( id, offset, 0 ) ;
+ return TimeZone. UTC ;
+ if ( offset < 0 ) { return null ; } if ( offset > - 1 ) {
+ if ( offset > - 1 ) {
+ if ( offset < 0 ) { return forOffsetUTC (offset);
+ return ( DateTimeZone )
+ if ( offset < 0 ) { throw new IllegalArgumentException("Invalid offset");
+ } return DateTimeZone.UTC;
+ if ( offset == 0 ) { return DateTimeZone. UTC ; } else {
+ return new DateTimeZone ( hoursOffset ) ;
+ return new DateTimeZone ( offset, minutesOffset )
+ return FixedOffsetZone(id, 0+offset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalArgumentException {
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } if ( offset > 59 )
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IOException {
+ if ( offset < 0 ) { return DateTimeZone. UTC }
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws ZoneException {
+return forOffsetMillis(offset, -minutesOffset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) { int id = offset ;
+ return FixedOffsetZone ( id, offset ) ; } ;
+ if ( offset < 0 ) { offset = 59 ; }
+ if ( offset < 0 ) { return null ; } if ( offset > 0 )
+ if ( offset < 0 ) { offset = 0 ; }
+ return FieldTimeZone.UTC + offset;
+ if ( offset < 0 ) { offset = 0 ;
+ if ( offset < 0 ) { throw new IllegalArgumentException ( ) ;
+ if ( offset < 0 ) { return null ; } else {
+ return FixedOffsetZone(offset, 0);
+ return FixedOffsetZone ( offset, ) ;
+ return forOffsetMillis(offset); } catch (IllegalArgumentException ex) { throw ex ; }
+return forOffsetMillis(offset) ; } return forOffsetHoursMinutes ;
+ return TimeTimeZone. UTC + offset ;
+ return forOffsetMillis(offset); } if ( offset < 0 ) { throw new IllegalArgumentException ( ) ;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { throw IllegalArgumentException ; }
+return forOffsetMillis(offset) ; } return forOffsetUTC ( ) ;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) return null ;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) {
+return forOffsetMillis(offset, hoursOffset + minutesOffset);
+ return FixedOffsetZone ( offset ) ; }
+ if ( offset < 0 ) { return forOffsetMillis(offset); } if ( offset > 59 ) { offset = 59 ; }
+ return fixedOffsetZone(offset, minutesOffset);
+ if ( offset < 0 ) { offset = - offset ; }
+ return FixedOffsetZone.of(offset);
+ return new DateTimeZone ( offset ) ; } public static DateTimeZone forOffsetMillis(int offset) { int id = offset ;
+return forOffsetMillis(offset) ; } return forOffsetHoursHours ( ) ;
+ } return DateTimeZone.forOffsetMillis(offset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalArgumentException
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) { String id = printOffset();
+ if ( offset > 0 ) { offset = 0 ; }
+ return FixedOffsetUtils.forOffsetMillis(offset);
+ return FixedOffsetZone.UTC.forOffsetMillis(offset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalTimeException {
+return forOffsetMillis ( offset, hoursOffset, minutesOffset )
+ return DateTimeZone. UTC + offset * 60;
+ if ( offset < 0 || offset > 59 ) {
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) { int id = -1;
+ return forOffsetMinutes(offset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) { int offset = offset ;
+ return forOffsetMillis(offset); } if ( offset < 0 ) { throw new IllegalArgumentException("Invalid offset");
+ return DateTimeZone.UTC(offset, offset);
+return forOffsetMillis ( offset, minutes ) ;
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws DateException {
+ return forOffsetMillis(offset); } if ( offset < 0 ) { throw new IllegalArgumentException ( ) }
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset)
+ return forOffsetMillis(offset); } if ( offset < 0 ) { throw new IllegalArgumentException ; }
+ return forOffsetMillis ( offset ) ; } public DateTimeZone forOffsetMillis(int offset) throws IllegalArgumentException
+ if ( offset < 0 || offset > 59 ) return null ;
+ return FixedOffsetZone(id, offset + 60);
+ return new DateTimeZone ( offset ) ; } public static DateTimeZone forOffsetMillis(int offset) { int offset = offset ;
+ if ( offset < 0 ) { return forOffsetMillis(offset); } if ( offset > 59 ) { offset += 60 ; }
+ if ( offset < 0 ) { return UTC }
+ return forOffsetMillis(offset); } catch (IllegalArgumentException ex) { return null; }
+ if ( offset >= 0 ) {
+ return FixedOffsetZone ( offset, offset )
+ return forOffsetHoursMinutes(offset);
+ if ( offset < 0 ) { return null ; } if ( offset >= 0 ) {
+ return DateTimeZone.ZONE;
+ return new DateTimeZone ( offset ) ; } public static DateTimeZone forOffsetHours() {
+ return DateTimeConstants.forOffsetMillis(offset);
+ return new DateTimeZone ( offset ) ; } public static DateTimeZone forOffsetOffset() {
+ DateTimeZone.forOffsetMillis(offset);
+ return FixedOffsetZone.forOffset(offset);
+return forOffsetMillis(offset, offset);
+return forOffsetMillis(offset, minutesOffset, hoursInMinutes);
+return forOffsetMillis ( offset, hoursOffset ) ; }
+ if ( offset < 0 ) { return DateTimeZoneUTC }
+ if ( offset < 0 ) { return DateTimeZoneUTC ;
+return forOffsetMillis(offset) ; } return forOffsetHours ( offset ) ;
+ return UTCDateTimeZone.forOffsetMillis(offset);
+ return forOffsetMillis(offset); } if ( offset < 0 ) { throw new IllegalArgumentException("Offset negative");
+ return super.forOffsetMillis(offset);
+ return DateTimeZone.UTC.of(offset);
+ return new DateTimeZone ( ). forOffset(offset);
+ return DateTimeZone. INSTANCE.forOffsetMillis(offset);
+ return DateTimeZone.ZONE);
+return forOffsetMillis(offset, hoursOffset, minutesOffset ) ; }
+ return DateTimeZone.TZ);
+return forOffsetMillis(offset, offset + minutesOffset);
+ return DateTimeZone. UTC. INSTANCE.forOffsetMillis(offset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return new DateTimeZone ; }
+ return new DateTimeZone ( ). withOffset(offset);
+ return dateTimeZone(offset);
+ if ( offset >= 0 )
+return forOffsetMillis ( hoursOffset, offset, 0 ) ;
+ return DateTimeZone.NONE.forOffsetMillis(offset);
+ if ( offset < 0 ) return ;
+return forOffsetMillis(offset) ; } return null ;
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } if ( offset < 59 )
+ return DateTimeZone. INSTANCE ( ).forOffsetMillis(offset);
+return forOffsetMillis(offset) ; } else { return forOffsetUTC ; }
+ if ( offset == 0 ) { return null ; }
+ return DateTimeZone.ZERO);
+ return FixedOffsetZone(offsetOffset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { throw IllegalArgumentException ;
+ return FixedOffsetZone ( offset )
+ return DateTimeZone.UTC offset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return new DateTimeZone(); }
+ return forOffsetMillis(offset); } if ( offset < 0 || offset > 59 ) { return null }
+ return forOffsetHours(offset);
+ return DateTimeZone. ZONE.forOffsetMillis(offset);
+ return DateTimeZone.ZERO;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { throw IllegalArgumentException }
+return forOffsetMillis ( hoursOffset, offset, null ) ;
+ return DateTimeZone. UTC. withOffsetOffset(offset);
+return forOffsetMillis(offset) + FixedOffsetZone(offset, offset);
+ return FixedOffset.UTC(offset);
+ return new DateTimeZone ;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return null ; } else {
+return forOffsetMillis(offset) ; } return forOffsetUTC(offset) ;
+return forOffsetMillis ( hoursOffset, offset ) ; } } ;
+return forOffsetMillis(offset, hoursOffset + minutesOffset); }
+return forOffsetMillis(offset) ; } return forOffsetHours ( ) ;
+ return fixedOffsetZone(id,offset);
+ return TimeTimeZone.of(offset);
+ if ( offset > 0 ) return null ;
+return forOffsetMillis(offset) ; } return forOffsetHours ( ) ; }
+ return of(offset);
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset){
+ return DateTimeZone.ADJUST(offset);
+ return FixedOffsetZone(id, hoursOffset);
+ return new DateTimeZone ( )
+ return hoursOffset ;
+return forOffsetMillis(offset, hoursOffset, minutesOffset, minutesOffset);
+return forOffsetMillis(offset, minutesOffset) ; } return null ;
+return forOffsetMillis(offset) + FixedOffsetZone(offset) ;
+return forOffsetMillis(offset) + offset ;
+ return new Date ( ) ;
+ return FieldTimeZone. UTC ; return offset;
+return forOffsetMillis(offset, hoursOffset + minutesOffset + offset);
+ return UTC.forOffsetMillis(offset);
+ return FixedOffsetZone.UTC(offset);
+return forOffsetMillis(offset) ; } return forOffset ( offset ) ;
+ } return offset ;
+ return new DateTimeZone ( offset ) ; } public DateTimeZone forOffsetMillis(int offset);
+ return DateTimeZone.UTC - offset;
+ int offset = offset ;
+ if ( offset < 0 ) return UTC ;
+return forOffsetMillis ( offset, minutesOffset ) ; } } ;
+ return forOffsetMillis(offset); } catch (IllegalArgumentException ex) { return null }
+return  new DateTimeZone ( ). at(offset);
+return forOffsetMillis ( hourOffset, offset ) ;
+ return DateTimeZone. UTCTZ.forOffsetMillis(offset);
+ return dateTimeZone ;
+ if ( offset > 0 ) { offset -= 60 ;
+return forOffsetMillis(offset, hoursOffset, minutesOffset, hoursOffset);
+ return TimeTimeZone. ofOffset(offset);
+ return DateTimeZone. ofOffsetHours(offset);
+ return ( int ) offset ;
+ return TimeTimeZone. forOffset(offset);
+ return FixedOffsetZone ( id ). forOffset(offset);
+return forOffsetMillis(offset) ; return null ;
+ return new TimeZone ( ) ;
+return forOffsetMillis(offset) ; } return forOffsetMinutes ;
+ return FixedOffsetZoneImpl(offset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { } }
+return forOffsetMillis ( hoursOffset, offset ) ; } ;
+ offset += offset ;
+ } return minutesOffset ;
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { return null ;
+ return DateTimeZone. ofMillis(offset);
+return forOffsetMillis(offset) ; } return null ; }
+return  new DateTimeZone ( ). offset(offset);
+ if ( offset < 0 ) { return forOffsetUTC(offset); } else
+ return TimeTimeZone. ofMillis(offset);
+ return TimeTimeZone. UTC ; return offset;
+ return DateTimeZone. UTC. forOffsetUTC(offset);
+return forOffsetMillis(offset) ; } return null ; } ;
+return forOffsetMillis(offset). withOffset ( offset ) ;
+ if (offset)
+ return DateTimeZone.UTC.forHours(offset);
+ if ( offset < 0 ) { return null ; } if ( offset > 59 ) { }
+ if ( offset > 0 ) { return null }
+return forOffsetMillis ( offset, minutesOffset ;
+return forOffsetMillis(offset, minutesOffset) ; } return null ; }
+ return FixedOffsetZone(id, +offset);
+ return DateTimeZone.UTC.with(offset);
+ if ( offset < 0 ) { return }
+ return DateTimeZone.(offset);
+return forOffsetMillis(offset, offset + minutesOffset); }
+ if ( offset > 0 ) return offset ;
+ return DateTimeZone.UTC.withOffset(offset);
+ return (-offset);
+return forOffsetMillis(offset) ; } return forOffsetUTC ; }
+ if ( offset < 0 ) { break ; }
+return forOffsetMillis(offset, hoursOffset) ;
+ return for(offset);
+ return Timezone.forOffsetMillis(offset);
+return forOffsetMillis(offset) ; } return DateTimeZone ;
+return forOffsetMillis(offset) ; } return forOffsetMillis ;
+ return FixedOffsetZone (id).forOffsetMillis(offset);
+ return DateTimeZone. UTC + offset + offset;
+ return new Date(offset);
+return forOffsetMillis ( minutesOffset ) ;
+ return DateTimeZone.UTC.UTC.forOffsetMillis(offset);
+return forOffsetMillis(offset) ; } return forOffsetHoursUTC ;
+return forOffsetMillis(offset) + minutesOffset ;
+return forOffsetMillis(offset) + FixedOffsetZone.UTC;
+ return DateTimeZone.TIMEUTC(offset);
+ return date(offset);
+return forOffsetMillis(offset, hoursOffset) ; } return null ; }
+ return new TimeZone(offset);
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } }
+ return FieldTimeZone.UTC;
+return forOffsetMillis(offset, hoursOffset + minutesOffset + daysOffset);
+ if ( offset < 0 ) { return null ; } if ( offset > 60 ) { }
+ return FixedOffsetZone.create(offset);
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } else
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } else { }
+return  ( DateTimeZone ) offset
+return  offset + minutesOffset ;
+ return offset + 1 ;
+return forOffsetMillis(offset)? offset : null ;
+ return DateTimeZone. UTC ( ).forOffsetMillis(offset);
+ return FixedOffsetZone(-offset);
+ return DateTimeZone. INSTANCE ( )#forOffsetMillis(offset);
+ return DateTimeZone. UTC. INSTANCE#forOffsetMillis(offset);
+ return offset(offset);
+return forOffsetMillis(offset, minutesInHours);
+return forOffsetMillis(offset). toUTC ( ) ;
+return forOffsetMillisOffset ( offset ) ;
+ return newOffset(offset);
+return forOffsetMillis(offset). withZone ( ) ;
+ if ( offset == 0 ) { return DateTimeZone. UTC ; } else { }
+ return TimeZone(offset);
+ return getOffset(offset);
+ return DateTimeZone. UTC ( )#forOffsetMillis(offset);
+return forOffsetMillis ( offset, ) ;
+ return - offset ;
+ return DateTimeZone. UTC ( offset ).forOffsetMillis(offset);
+ if ( offset < 0 || offset > 59 ) { }
+ } return TimeZone.UTC;
+ return FixedOffset. of(offset);
+ offset += minutesOffset ;
+ return forOffsetMinute(offset);
+ return floor(offset);
+return forOffsetMillis ( ) ;
+ int offset ++ ;
+return forOffsetMillis(offset, minutesOffset); } ;
+ return null ; } ;
+ if ( offset < 0 ) { return DateTimeZone. UTC ; } else { } }
+ if ( offset < 0 ) { return null ; } }
+ return DateTimeZone. UTC ; } #forOffsetMillis(offset);
+return forOffsetMillis(offset) ; } return UTC ;
+return forOffsetMillis(offset, minutesInSecond);
+return forOffsetMillis(offset, hoursInMin);
+ return timeZone.forOffsetMillis(offset);
+ int offset = 0 ;
+return forOffsetMillis(offset), offset);
+return forOffsetMillis(offset). toUTC ( )
+ return offset * 60;
+return forOffsetMillis(offset), minutesOffset);
+return forOffsetMillis(offset) ; } return UTCZone ;
+ return { offset }
+return forOffsetMillis(offset, 59);
+return forOffsetMillis ( offset));
+ if ( offset < 0 ) { }
+return forOffsetMillis(sOffset);
+return forOffsetMillis(offset) - offset ;
+return forOffsetMillis(offset) ; } } ;
+ return timeZone. UTC;
+ return timeZone(offset);
+return forOffsetMillis(offset + minutesOffset);
+ return DateTimeZone.GMT;
+return forOffsetMillis(offset) ; } return UTCOffset ;
+ return $(offset);
+return forOffsetMillis(offset, 60);
+ return Zone.forOffsetMillis(offset);
+ return "+offset);
+ return DateTimeZone#forOffsetMillis(offset);
+ return offset + 60;
+return forOffsetMillis(offset). toTimeZone ;
+return forOffsetMillis(offset, monthsOffset);
+ return forOffset(-offset);
+ return get(offset);
+ offset = 0 ;
+return forOffsetMillis ; }
+ return fixedOffsetUTC(offset);
+return forOffsetMillis(offset); } }
+ return Utils.forOffsetMillis(offset);
+ } return TimeZone.forOffsetMillis(offset);
+ return Calendar.forOffsetMillis(offset);
+return  offset ; }
+return forOffsetMillis(offset) - 1 ;
+return forOffsetMillis(msOffset);
+ } return offset + 1;
+ return fixedOffsetOffset(offset);
+return forOffsetMillis(offset) ; return UTC ;
+ return offset + offset;
+ return "GMT offset);
+return forOffsetMillis(offsetOffset);
+ return offset % 60;
+return forOffsetMillis(minutes);
+ return fixedOffset(offset);
+ } DateTimeZone.forOffsetMillis(offset);
+ return withOffset(offset);
+ return dateTimeZone.forOffsetMillis(offset);
+ return _forOffsetMillis(offset);
+ return offset.forOffsetMillis(offset);
+return forOffsetMillis ( )
+return forOffsetMillis(absOffset);
+ return "forOffsetMillis(offset);
+ return null ;
+ return at(offset);
+return forOffsetMillisUTC ;
+ return new UTC(offset);
+ return offset ;
+ } else {
+ return - 1;
+ return.forOffsetMillis(offset);
+ else return offset;
+ return null ;
+return forOffsetMillisOffset ( offset )
+ return this ;
+ return 0 ;
+ return null);
+return forOffsetMillis(offset) + offset
+ finally {
+return forOffsetMillis(offset) - offset
+ throw ex);
+ (offset);
+return forOffsetMillis(offset) - 1
+return forOffsetMillis(Offset);
+ } }
+ return false;
+ } #forOffsetMillis(offset);
+ }
+ finally,
+ finally:
+return forOffsetMillis(off);
+return forOffsetMillis(id);

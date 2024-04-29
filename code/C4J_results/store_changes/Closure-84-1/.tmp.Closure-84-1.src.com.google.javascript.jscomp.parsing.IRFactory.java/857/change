@@ -1,0 +1,145 @@
+ return newNode(Token.EMPTY);
+ }
+ return newNode(EMPTY);
+ return newNode(Token.EMPTY, sourceName);
+ return newNode(null);
+ return newNode(Token.WARNING);
+ return newNode(Token.EMPTY), transformBlock(node.getBody()));
+ return newNode(Token.EMPTY), transformBlock(node.getBody());
+ return newNode(Token.EMPTY, node, 0);
+ return newNode(Token.EMPTY, node, sourceName);
+ return newNode(Token.EMPTY), transformBlock(node.getBody())); }
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0);
+ return newNode(Token.EMPTY, transformBlock(node.getBody()));
+ return newNode(Token.EMPTY); return node ; }
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); }
+ return newNode(Token.EMPTY, node.getText()));
+ return newNode(Token.EMPTY, node.getValue()));
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0);
+ return newNode(Token.ERROR);
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); }
+ return newNode(Token.EMPTY, node.getLineno(), "", 0);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); return newNode(Token.EMPTY);
+ return node ; }
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return null ;
+ return newNode(Token.EMPTY, node.getLineeno(), "", 0);
+ return newNode(Token.EMPTY, node.getBody());
+ return newNode(Token.RETURN_NULL);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); }
+ return newNode(Token.EMPTY, node.getString()));
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "") ;
+ return newNode(Token.EMPTY), transformBlock(node.body());
+ return newNode(Token.EMPTY, transformBlock(node.getBody());
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", "", 0);
+ return newNode(Token.EMPTY, node.getText());
+ return newNode(Token.EMPTY, node.getText()); }
+ return newNode(Token.PASS);
+ return newNode(Token.EMPTY, transform(node.getBody())) ;
+ return newNode(Token.EMPTY), transformBlock(node.body));
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return node ; }
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return node ;
+ return newNode(Token.EMPTY, node.getName()));
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return null ;
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return Node.NULL;
+ return newNode( "constructuring assignment forbidden", sourceName, "", 0); return newNode(Token.EMPTY);
+ return newNode(Token.EMPTY, transformBlock(node).getBody());
+ return newNode(Token.EMPTY, node.getLineeno(), "", 0); }
+ return newNode(Token.RETURN, sourceName);
+ return newNode(Token.EMPTY, transformBlock(node.body()));
+ return newNode(Token.DOUBLE);
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", "", 0);
+ return newNode(Token.EMPTY, node.getValue());
+ return newNode(Token.EMPTY, node.content());
+ return newNode(Token.EMPTY, transformBlock(node.getBody())));
+ return newNode(Token.EMPTY, node.value());
+ return newNode(Token.EMPTY), transformBlock(node.getBody()), sourceName);
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return Node.EMPTY;
+ return newNode(Token.EMPTY), transformBlock(node).getBody());
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return newNode(null);
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return Node.NULL;
+ return newNode(Token.RETURN, node);
+ return newNode(Token.NULL);
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0, node);
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return node ;
+ return newNode(Token.DESCRIPTOR);
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return sourceName ;
+ return newNode(Token.EMPTY, node.getLineno(), "", "", 0);
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return node ; }
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); return node ; }
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return Node.NEW;
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), ""));
+ return newNode(Token.EMPTY, node.value);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); return node ;
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return null ; }
+ return newNode(Token.DISTRUCT);
+ return newNode(Token.IGNORE, sourceName);
+ return newNode(Token.EMPTY, node.getContent());
+ return newNode(Token.EMPTY), transformBlock(node.getBody()), 0);
+ return newNode(Token.EMPTY, transformBlock(node.getBody));
+ return newNode(Token.RETURN_VALUE);
+ return newNode(Token.EMPTY); return node;
+ return newNode(Token.NEW);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); return newNode(Token.ERROR);
+ return newNode(Token.EMPTY, transform(node.getExpression()), transformBlock(node));
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); return token.EMPTY;
+ return null;
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "")");
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", 0); } }
+ return newNode(Token.RETURNNULL);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0); return null;
+ return newNode( "constructuring assignment forbidden", sourceName, node.getLineno(), "", -1);
+ return ;
+ return newNode(Token.EMPTY, transform(node.getExpression()), transformBlock());
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", 0); } }
+ return newNode( "destructuring assignment forbidden", sourceName, node.getLineno(), "", -1);
+ return newNode( "constructuring assignment forbidden", node.getLineno(), "", 0); return null ;
+ return newNode(Token.DEFINED);
+ return newNode(Token.EMPTY), transformBlock(node.getBody())); } }
+ return Node.NULL;
+ return newNode(Token.EMPTY, transform(node.getExpression()), transformBlock);
+ return newNode(Token.DEFAULT_VALUE);
+ return newNode(Token.EMPTY, node.getLineno(), "", 0, node);
+ return node;
+ return newNode(Token.STRUCTUREASSIGN);
+ return newNode(Token.EMPTY, transformBlock(node.getBody())); } }
+ return newNode(0);
+ return newNode(NULL);
+ }
+ return newNode(False);
+ return Node.EMPTY;
+ return Node.NEW;
+ return newNode(NULL); }
+ return Node.EMPTY
+ return newNode(NODE);
+ return Token.WARNING;
+ return Node.ERROR;
+ return EMPTY;
+ return newNode();
+ return null ; }
+ return newNode(Token.MISS);
+ return newNode(NONE);
+ return newNode(EmptyNode);
+ return newNode;
+ return node
+ } }
+ return null
+ } } else {
+ return undefined;
+ } } ; }
+ } } else { static
+ } } ; static
+ } } else,
+ } } else static
+ } } { } public
+ } } { } }
+ } } { } static
+ } } {
+ } } static
+ } } ;
+ } { static
+ } static
+ return
+ } }
+ } internal
+ };
+} public

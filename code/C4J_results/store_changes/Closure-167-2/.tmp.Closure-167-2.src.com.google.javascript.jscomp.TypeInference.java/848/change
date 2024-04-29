@@ -1,0 +1,241 @@
+ return scope;
+return  scope ; }
+ else { scope = narrowScope ( scope, node, narrowed ) ; }
+ else { scope = narrowScope(scope, node, narrowed);
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node, narrowed ) ; }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node. getType ( ) ) ; }
+ else { scope = narrowScope ( scope, node, narrowed ) ; } if ( scope!= null ) {
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope instanceof FlowScope ) {
+return  scope. createChildFlowScope();
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName(), getJSType(node), narrowed); }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope!= null ) {
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), narrowed ) ; }
+ else { scope = narrowScope ( scope, node, narrowed ) ; } if ( scope instanceof Scope ) {
+return  scope. createChildFlowScope ( narrowed ) ;
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope instanceof Scope ) {
+ else { scope = narrowScope ( scope, node, narrowed, narrowed ) ; }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node. getType ( ) ) }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ;
+ else { scope = narrowScope(scope, node); }
+ else { scope = narrowScope ( scope, node, narrowed ) }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType(node), narrowed ) ; }
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope instanceof FlowScope )
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node. getType ( ) ) ;
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType ( node ) ) ; }
+ else { scope = scope. createChildFlowScope ( node, narrowed ; } if ( scope!= null ) {
+ else { scope = narrowScope ( scope, node, narrowed ) ; } if ( scope!= null )
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType(node ) ) }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node, narrowed ) }
+ else { scope = scope. createChildFlowScope ( node, narrowed ; } if ( scope instanceof Scope ) {
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType(node), narrowed ) }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope == null ) {
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope!= narrowed ) {
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope!= null )
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType(node ) ) ;
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node, narrowed ) ;
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType ( ) ) }
+ else { scope. addChildFlowScope ( node, narrowed ) ; }
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope == narrowed ) {
+ else { scope = scope. createChildFlowScope ( narrowed ) ; }
+ } else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope instanceof Scope ) {
+return  scope. clone ( ) ;
+return  scope. createScope ( ) ;
+ else { scope = narrowScope ( scope, node, narrowed ) ; } if ( scope == null ) {
+ else { scope = scope. createChildFlowScope ( node ) ; }
+ } else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope!= null ) {
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node. type, narrowed ) }
+return scope. narrowScope ( node, narrowed ) ; }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName, getJSType ( ) ) ;
+ else { scope = scope. createChildFlowScope ( ) ; }
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName(), getJSType(node), narrowed); } }
+return  scope. narrowScope ( node, narrowed ) ;
+ else { scope = narrowScope ( scope, node ) ;
+return scope. createChildFlowScope ( narrowed ) ; }
+ else { scope = scope. createChildFlowScope ( narrowed ) ;
+ else { scope = scope. createChildFlowScope ( node, narrowed ; } if ( scope == null ) {
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope!= undefined ) {
+return  scope. createChildFlowScope ;
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), narrowed ) ; } }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if (! narrowed ) {
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } if ( scope == narrowed ) {
+return  scope. createChildFlowScope(); }
+ else { scope = narrowScope(scope); }
+return  scope. createChildFlowScope ( )
+ else { scope = narrowScope ( scope, node, narrowed ) ; } if ( returnScope )
+ else { scope = narrowScope(scope, node, narrowed); } }
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } }
+ } return scope ; }
+return  scope. getScope ( ) ;
+ else { scope = narrowScope ( scope, node, narrowed, narrowed ) ; } }
+ if ( scope!= null ) {
+return  scope. createFlowScope ( narrowed ) ;
+ else { scope. addChildFlowScope ( node ) ; }
+return  scope. createChildFlowScope ; }
+return  scope. addChildFlowScope ( narrowed ) ;
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; break ; } }
+return  scope. merge ( node, narrowed ) ; }
+ if ( scope == narrowed ) {
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope == narrowed )
+ else { scope = narrowScope(scope, narrowed);
+ return scope
+ else { scope = narrowScope ( scope, node, narrowed ) ; break ; } }
+ return scope. createChildScope ( );
+ else { scope = narrowScope(scope, node, narrowed); } if ( scope!= undefined )
+return  scope. createChildFlowScope ( narrowed )
+ } return scope;
+ else { scope = scope. createChildFlowScope ( ) ;
+return scope. addChildFlowScope ( narrowed ) ; }
+ else { scope = narrowScope ( scope, node, narrowed ) ; } break ; default :
+ else { scope = narrowScope(scope, narrowed;
+ else { scope = narrowScope ( scope, node ) }
+ else { redeclareVar(scope, node;
+ else { scope = narrowScope ( scope ) ;
+return  scope. createFlowScope ( ) ;
+ else { scope = narrowScope(scope, narrowed); }
+ if ( narrowed == null ) {
+return  scope. createFlowScope ( narrowed ) ; }
+return  scope. merge ( node, narrowed ) ;
+ return scope. create ( ) ;
+ else { scope = scope. createChildFlowScope ( node, narrowed ) ; } } }
+ else { scope = narrowScope ( scope, node, narrowed ) ; } } }
+ else { scope = narrowScope ( scope, narrowed )
+return scope. createFlowScope ( node, narrowed ) ;
+ else { scope = narrowScope ( scope, node, narrowed, narrowed ) ; } } }
+return  scope. createNewFlowScope ( ) ;
+ else { scope = node. parent ; }
+return  scope. createParentFlowScope ;
+ else { scope = narrowScope ( scope, node )
+ return scope ; } return null ;
+ else { redeclareVar(scope, narrowed;
+ return scope.createChildFlowScope(node);
+ else { scope = narrowScope ( scope, node, narrowed ) ; } break ; } }
+ return scope ; } return scope ;
+return  scope ; } ;
+ else { scope = narrowScope ( node ) ;
+ else { scope = narrowScope ( scope ) }
+ if ( scope instanceof Scope ) {
+ else { scope. addChildFlowScope ( node, narrowed ) ; } }
+ if (node.isGetProp()) {
+ if ( narrowed == node ) {
+ else { scope = scope. createChildFlowScope ( node. getQualifiedName ( ), node, narrowed ) ; } } } ;
+ else { scope. addChild ( node ) }
+ else { redeclareSimpleVar(node,scope;
+ return scope ; } } ;
+ if ( narrowed == null )
+ else { scope = narrowScope ( scope, node, narrowed ) ; } } } ;
+ else { scope = narrowScope ( scope, node, narrowed, narrowed ) ; } } ;
+ return scope ; } return node ;
+ else { scope. add ( node ) }
+ if ( scope!= undefined ) {
+ else { scope = narrowScope ( scope, node, narrowed ) ; } } } }
+ if ( scope instanceof FlowScope )
+ else { scope = node ; break ; }
+return  scope. get ( ) ;
+ if ( node. isGetProp ) {
+return  scope ; } }
+ else { return scope ; } return narrowed;
+ else { redeclareSimpleVar(node),scope;
+ return scope.createChildFlowScope(node;
+ }
+ return scope.createChildFlowScope(...);
+ else { redeclare (scope, node;
+ if ( narrowed == node )
+return scope. createChildFlowScope ( ) ; } ;
+ if ( scope!= null )
+ if (node.isGetProp())
+ else { redeclareNode(node),scope;
+ else { scope = node. parent ; } returnscope;
+ return scope.createChildFlowScope().scope;
+ } return scope ; } ;
+ return scope. narrowScope ;
+ else { scope = node ; } }
+ return scope ; } ) ;
+ else { redeclareNode(node,scope;
+ else { scope = scope. createChildFlowScopescope;
+ if ( narrowed!= null )
+ return scope.createChildFlowScope(scope;
+ else { scope = scope. createChildScope().scope;
+ return scope. scope ; }
+ else { scope = node. parent;
+ else { redeclareScope(node,scope;
+ if (! narrowed ) {
+ return scope.createChildScope(node;
+ return scope.createFlowScope;
+ else { redeclareThis(node),scope;
+ return scope.createChildFlowScope();scope;
+ else { scope = node ; } } returnscope;
+ else { scope = narrowed ; } }
+ return (FlowScope)scope;
+ return scope ; } } return null;
+ return scope ; } return root;
+ if (returnScope)
+ return scope. parentFlowScope;
+ return scope.flowScope;
+ return scope ; } else { return _scope;
+ return scope.createChildFlowscope;
+ return scope || narrowed;
+ return scope.createChildScope().scope;
+ return scope.scope;
+ return scope.createChildFlowScope()scope;
+ return scope.createChildFlow().scope;
+ return scope ; } else { returnscope;
+ return scope.createChildScope(scope;
+ return (FlowScope) _scope;
+return  scope ; } } }
+ return scope.createChildFlow(scope;
+ return scope + narrowed;
+ } }
+ } return scope || narrowed;
+ return (Node)scope;
+ if (! narrowed )
+ return sc ; }
+ return scope + " ";
+ return scope + ";";
+ break ; default :
+ } return scope.scope;
+ return - 1;
+ return (FlowScope) subscope;
+ return (void)scope;
+ return (FlowScope)$scope;
+return  scope.scope();
+ return node.scope;
+ return scope || undefined;
+ return (Scope)scope;
+ return scope = narrowed;
+ return narrowed.scope;
+ return thisScope.scope;
+ return ;
+ return newScope;
+ return narrowScope;
+ return scope.$scope;
+ return scope ; }
+ } return narrowed;
+ break ;
+ return expanded_scope;
+return scope. node ;
+ break ; default : }
+ return node ; } returnscope;
+ return this.scope;
+ } ;
+ break ; } }
+ return scope ; } #scope;
+return  expandedScope ;
+ return narrowed ;
+ return root ;
+ break ; }
+ return node ;
+return  scope. }
+ } }
+ }
+ } } }
+ return _scope;
+ } } ;
+ return expanded;
+ return --scope;
+ return!scope;
+ } ; }
+return scope(); }
+return scope. };
+ }); }

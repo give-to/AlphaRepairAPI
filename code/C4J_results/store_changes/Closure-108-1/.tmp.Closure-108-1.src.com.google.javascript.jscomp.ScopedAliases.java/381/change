@@ -1,0 +1,517 @@
+scopedAliasNames.add(name);
+scopedAliasNames. remove ( name ) ;
+ scopedNames.add(name);
+ recordAlias(name);
+scopedAliasNames = null;
+scopedAliasNames. clear ( ) ;
+ if (nameCount > 0)
+ aliasNames.add(name);
+ if (nameCount)
+scopedAliasNames.add(name, varNode);
+ if (nameCount) {
+scopedAliasNames.add(globalName);
+ varNode = IR. var ( name, value ) ;
+ if (nameCount == 0) { varNode = null; }
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + name));
+ varNode = IR. var ( name, grandparent ) ;
+ if (nameCount) {
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" + nameCount : "");
+ if (name) {
+scopedAliasNames. remove ( name, nameCount ) ;
+scopedAliasNames. removeAll ( name ) ;
+scopedAliasNames.add(name, value);
+scopedAliasNames.add(name); varNode = value ;
+scopedAliasNames.add(name) ; name = n. getString ( ) ;
+ scopedAliasNodes.add(name);
+ String globalName;
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount);
+ if ( nameCount > 0 ) {
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + count));
+ String localName = "$jscomp.scope(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" + nameCount : ""));
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" : "");
+ names.add(name);
+ String localName = scopedAliasNames.get(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : nameCount);
+ varNode = IR. name("").useSourceInfoFrom(name); if (varNode)
+ if ( nameCount == 0 ) { varNode = n ; }
+ if (nameCount > 0) {
+ if (nameCount > 0) { varNode =
+ if ( nameCount == 0 ) { varNode = value ; }
+ if (nameCount == 0) { return null; }
+ if (nameCount < 0) return null;
+ String localName = name;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" :
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : name);
+scopedAliasNames.add(name); varNode = value. clone ( ) ;
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount)); String nameCount =
+ varNode = IR. name("").useSourceInfoFrom(name); varNode = varNode ;
+ varNode = IR. var ( name ) ;
+ String localName = scopedAliasNames.add(name);
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount); String nameCount =
+ if (nameCount == 0) { continue; }
+ if (nameCount == 0) { varNode = null;
+ if ( nameCount == 0 ) { varNode = n. clone ( ) ;
+ String scopeName = scopedAliasNames.add(name);
+ if (nameCount < 0) { continue; }
+ if (nameCount < 0) return;
+ if ( nameCount > 0 ) { varNode = v. getVar ( ) ;
+scopedAliasNames.remove(name); varNode = value ;
+ name = name. toString ( ) ;
+ if (nameCount == 0) { return; }
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : "");
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" : ""));
+ String scopeName = scopedAliasNames.get(name);
+ varNode = IR. var ( name, varNode ) ;
+ varNode = IR. name("").useSourceInfoFrom(name); if (varNode) {
+ name = name. substring ( 0, nameCount ) ;
+scopedAliasNames.add(name, varName);
+ if (nameCount < 0) { return null; }
+ String name = scopedAliasNames.add(name);
+ if (nameCount < 0) { return; }
+ varNode = IR. var ( ) ;
+ String localName = scopedAliasNames.name(name);
+scopedAliasNames.add(name); if (nameCount > 0) {
+ if (nameCount == 0) return null;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : nameCount));
+ if ( nameCount == 0 ) { varNode = n. getParent ( ) ;
+ if ( nameCount == 0 ) { varNode = value ; } else {
+ name = name. substring ( 0, 1 ) ;
+ if ( nameCount == 0 ) { varNode = n. clone ( ) ; }
+ String scopeName = "$jscomp.scope(name);
+ if (nameCount > 0) { varNode = value;
+ if ( nameCount == 0 ) { varNode = n ; } else {
+scopedAliasNames.add(name); if (nameCount) {
+ name = name. toLowerCase ( ) ;
+ if ( nameCount == 0 ) { varNode = v ; } else {
+ if ( nameCount > 0 ) { varNode = value ; } else {
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount));
+ if ( nameCount == 0 ) { varNode = n. nextChild ; }
+ if ( nameCount > 0 ) { varNode = v. getVarNode ( ) ;
+ String globalName = scopedAliasNames.add(name);
+ varNode = value. clone ( ) ;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : name));
+scopedAliasNames.remove(name); varNode = null;
+ String globalName = scopedAliasNames.get(name);
+scopedAliasNames. removeElement ( name ) ;
+ if (nameCount == 0) { varNode = value;
+ if ( nameCount == 0 ) { varNode = null ; } else {
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ""));
+ String scopeName = scopedScopeAliasNames.add(name);
+scopedAliasNames. remove ( name ) ; } else {
+ if ( nameCount == 0 ) { varNode = v. clone ( ) ; }
+ String scopeName = scopedScopeNames.count(name);
+ varNode = IR. var ( name, v ) ;
+ String localName = scopedNames.get(name);
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount)); String nameCount +=
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "");
+ if (nameCount > 0) scopedNames.add(name);
+scopedAliasNames.remove(name); if (nameCount) {
+ nameCount -= 1; scopedAliasNames.add(name);
+ varNode = IR. var ( name, null ) ;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + nameCount)); #
+ String scopeName = scopeAliasNames.get(name);
+ if (nameCount > 0) scopeAliasNames.add(name);
+ String scopeName = scopeNames.get(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" + nameCount : """);
+ varNode = value. cloneNode ( ) ;
+scopedAliasNames.set ( name, nameCount ) ;
+scopedAliasNames.add(name); varNode = value ; } else {
+ name = scopedAliasNames.add(name);
+ String scopeName = scopedNames.get(name);
+scopedAliasNames. remove ( name, n ) ;
+ varNode = IR. name("").useSourceInfoFrom(name); if (global)
+ String localName = name. toString ( ) ;
+ String scopedAliasNames.add(name);
+scopedAliasNames.add(name, name);
+ name = name. substring ( 1 ) ;
+ varNode = recordAlias(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + name)))
+ String localName = "$jscomp.name(name);
+scopedAliasNames.add(name); varNode = node. clone ( ) ;
+scopedAliasNames. remove ( name ) ; } } else {
+ if (nameCount > 1)
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + nameCount)); String
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$");");
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$");)
+ if (!nameCount)
+ String scopeName = scopeAliasNames.add(name);
+scopedAliasNames.add(name) ; if ( isHoisted ) {
+scopedAliasNames.removeElement(name); varNode = value ;
+scopedAliasNames. clear ( name ) ;
+scopedAliasNames.add(name); varNode = null;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" + nameCount : ""());
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" : """);
+ if (name > 0)
+ if (nameCount > 0)
+ String scopeName = "$jscomp.scope.".add(name);
+ String localName = name + nameCount + "";
+scopedAliasNames.add(nameCount, name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + name))
+ String globalName = scopedGlobalAliasNames.add(name);
+ String localName = "." + capitalize(name);
+ if (name!= null)
+scopedAliasNames.add(name, name + "");
+ String localName = scopedLocalNameNames.add(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$" + name);
+ String scopedScopeAliasNames.add(name);
+scopedAliasNames.remove("$" + name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : "$" + nameCount)); #
+scopedAliasNames. remove ( nameCount ) ;
+ name = name. substring ( nameCount ) ;
+ varNode = var(name);
+ if (nameCount == -1) {
+ String localName = capitalize(name);
+ if (count > 0)
+scopedAliasNames.add(name) ; if (global) {
+ String globalName = "$jscomp.scope." + name + ("$" + nameCount");
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : "$" + nameCount)); String
+scopedAliasNames.add(name, nameCount++);
+ String scopeName = scopeName ; scopeAliasNames.add(name);
+ value.push(name);
+ if (nameCount == -1) return
+ String localName = scopedNames.add(name);
+scopedAliasNames.remove(name); varNode = n ;
+scopedAliasNames.add(name); varNode = n ;
+ + 1;
+scopedAliasNames.add(name, globalName);
+ String scope = scopedAliasNames.scope(name);
+scopedAliasNames. remove ( name ) ; final
+ if (nameCount == 0) { varNode = null; } else
+scopedAliasNames.add(name, v);
+ String scopeName = scopedNames.add(name);
+ String name = scopedAliasNames.get(name);
+scopedAliasNames. pop ( ) ;
+ varNode = scopedNames.get(name);
+ String globalName ; scopedAliasNames.add(name);
+ String scopeName = "scope." + capitalize(name);
+ String localName = "var";
+ String localName = name + "()";
+ String localName = n. getString();
+ String localName = new String(name);
+ if (nameCount)
+ String localName = "$(name);
+scopedAliasNames. remove ( name ) ; } } }
+ String localName = scopedName + name;
+scopedAliasNames.add(name, n);
+scopedAliasNames.add(name) ; String localName = name ;
+ String localName = ".";
+ if ( nameCount == 0 ) { varNode = n. clone ( ) }
+ scopedScopeAliasNames.add(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "") :
+ String localName = "$jscomp.scope.(name);
+scopedAliasNames.add ( name, nameCount ) ;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$")); int
+ scopedAliasNameList.add(name);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : name());
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$"))"; String
+ String globalScope = scopedAliasNames.global;
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "" : ("$")); String
+ scopedAliasNamesList.add(name);
+ + 1);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "$" : "")); String
+scopedAliasNames.add(name); varNode = value ; } }
+ String localName = name + nameCount + name;
+scopedAliasNames ++ ;
+scopedAliasNames. remove ( name ) ; } } final
+ String localName = IR.name(name);
+ String globalName = scopedGlobalNameNames.add(name);
+ String scopeName = name + nameCount + "";
+scopedAliasNames. remove ( name ) ; } }
+scopedAliasNames.add(name); varNode = v ; } }
+ String localName = name + nameCount;
+ varNode = IR.var(name;
+ nameCount -= 1 ; scopedNames.add(name);
+scopedAliasNames.add("$" + name);
+ varNode = IR. var ( name ) ; } }
+ String globalName = globalAliasNames.add(name);
+scopedAliasNames. remove ( name ) ; } final
+ String localName = localNames.get(name);
+ scopedAliasRegions.add(name);
+ Node globalNode = null;
+ varNode = IR.var(value);
+scopedAliasNames.add(name, name + name);
+ if (nameCount > 0) aliasNames.add(name);
+ String localName = name + ".";
+ scopeAliasNames.add(name);
+ scopedAlias.add(name);
+scopedAliasNames.add(name); varNode = value ; final
+scopedAliasNames.add(name, name + suffix);
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "")); String
+scopedAliasNames. remove ( name, nameCount ) ; final
+scopedAliasNames.add(name); varNode = node ; } }
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "")";
+ String scopeName = scopeNames.add(name);
+ String name = "." + capitalize(name);
+scopedAliasNames.add(name); name = n. getString(); final
+ String localName = name + nameCount + ";
+ if ( nameCount == 0 ) { varNode = v. getNameNode(); } else
+ if ( nameCount > 0 ) { varNode = v. getVarNode(); } else
+ String localName = "global";
+ if (nameCount == 0) {
+scopedAliasNames.remove(name); varNode = value ; final
+ String globalName = "$jscomp.scope." + name + (nameCount == 0? "") +
+scopedAliasNames.add(name); varNode = value ; } final
+ String localName = nameCount + name;
+ varNode = new Node(name);
+ String scopeName = "$(name);
+ if (global)
+ String name = name;
+ varNode = IR.var(nameCount);
+ if ( nameCount == 0 ) { varNode = value ; } else
+ String localName = "".join(name);
+ if (global) {
+ String localName = name + ";";
+ String globalName = name;
+ String globalName = scopedAliasNamesToGlobal.add(name);
+ String scopeName = scopedScopeNames.add(name);
+ varNode = IR.var(variableName);
+scopedAliasNames.add(name, name + value);
+scopedAliasNames.add(name); varNode = value ; }
+scopedAliasNames.remove(name); varNode = value ; }
+ String localName = getLocalName(name);
+ String localName = globalName;
+ String scopeName = "scope.scope(name);
+scopedAliasNames.set ( name, v ) ;
+ String scopedExpressionNames.add(name);
+scopedAliasNames. removeElement ( name ) ; } } }
+ String scopeName = scopeNames.name(name);
+scopedAliasNames. removeElement ( name ) ; } }
+ String localName = "(" + name);
+ String localName = "$jscomp.scope(");
+ if ( nameCount > 0 ) { varNode = value ; } else
+scopedAliasNames.set ( name, name ) ;
+ varNode = IR.var(globalName);
+ name = new String(name);
+ String localName = scopeAliasNames.add(name);
+ if ( nameCount == 0 ) { varNode = value ; } }
+ name = capitalize(name);
+ String scopeName = "scope." + (name);
+ String localName = localName(name);
+ Node globalScope = null;
+ varNode = IR. var ( name ) ; } } }
+ if ( nameCount > 0 ) { varNode = v. var ; } }
+ varNode = IR.var(");
+scopedAliasNames.add ( name, nameCount ) ; } } }
+ varNode = new Variable(name);
+scopedAliasNames.add(name); name = n. getString(); }
+scopedAliasNames. remove ( name ) ; } } } }
+scopedAliasNames. removeElement ( name ) ; } } final
+scopedAliasNames.delete(name);
+ String scopedNameAliasNames.add(name);
+ String localName = "$jscomp." + name);
+ varNode = scopedAliasNames.null;
+scopedAliasNames.add ( name, nameCount ) ; } } final
+ varNode = scopedAliasNames.var;
+ String scopeAliasName = capitalize(name);
+ String localName = name + name;
+ varNode = IR. var ( name ) ; final
+ while (nameCount)
+ String scopeName = "Scope: "+(name);
+ String scopeName = "Scope(name);
+scopedAliasNames.add(name); varNode = grandparent ; final
+ String scopeName = "scope.name(name);
+ String scopeName = name + "Scope";
+ String localName = "".escape(name);
+ scopedFunctionAliasNames.add(name);
+ varNode = IR.name(name);
+ varNode = name(name);
+ aliases.add(name);
+ if (count)
+scopedAliasNames.add(name, variableName);
+ String localName = name + "";
+scopedAliasNames.add(nameCount);
+ varNode = value.replaceWith(name);
+ if (debug)
+ varNode = IR(name);
+ String namespace = "";
+ varNode = IR.variableScope(name);
+ String localName = ":"+(name);
+scopedAliasNames.add(name) ; varNode = v. getNode(); final
+scopedAliasNames.remove("$" + name");
+ String localName = "."+(name);
+ value.append(name);
+ varNode = node(name);
+ String localName = ":";
+scopedAliasNames. removeElement ( name ) ; final
+ String scopeName = capitalize(name);
+ String scopedAliasNamesUsed.add(name);
+scopedAliasNames.add(name) ; varNode = value ; } } }
+scopedAliasNames.add(name) ; name = n. getString ( )();
+ if (nameCount == 0) { return null; };
+scopedAliasNames.add(name) ; String globalName ;
+ name = name. substring ( 0 ) ; final
+scopedAliasNames.free(name);
+scopedAliasNames. remove ( nameCount ) ; final
+ print(name);
+ String localName = "name";
+scopedAliasNames.remove(name); varNode = [];
+scopedAliasNames. remove ( name ) ; }
+scopedAliasNames.remove(name); varNode = null
+ String globalScopeName = name;
+ name = escape(name);
+ varNode = IR.var()(name);
+ debug(name);
+ String scopeName = ".";
+scopedAliasNames.add(name); varNode = v ; final
+scopedAliasNames.add(name) ; varNode = value ; } } final
+ if (nameCount == -1) continue
+ String globalScope = null;
+scopedAliasNames.add(name); varNode = v ; }
+scopedAliasNames.remove(name); varNode = new
+scopedAliasNames.add(name, nameCount); final
+ name += "(" + name);
+ String localName = " "+name);
+ String localName = getName(name);
+ varNode = value ; } }
+ varNode = value.addChild(name);
+ varNode = new Name(name);
+scopedAliasNames = [ ] ;
+ varNode.push(name);
+ String name = capitalize(name);
+scopedAliasNames.add("$" + name");
+scopedAliasNames.remove("$" + name));
+ String scope = name;
+scopedAliasNames.add(name); varNode = value ; };
+ varNode = IR. var(); final
+ varNode = value.newChild(name);
+ String prefix = "";
+ String prefix = name;
+ if (nameCount) { final
+ value.appendChild(name);
+scopedAliasNames.add("$" + name));
+ if (debug)
+scopedAliasNames.remove("$" + name); final
+ name = String(name);
+ name += "($");
+ scopeNames.add(name);
+scopedAliasNames.add(name) ; varNode = new
+ varNode = IR. var ; final
+scopedAliasNames = null ; final
+ value.removeChild(name);
+scopedAliasNames.add(name, nameCount); }
+ value.addChild(name);
+scopedAliasNames.add("$" + name); final
+scopedAliasNames.add(name); varNode = [];
+ scopedName.add(name);
+scopedAliasNames.add(name); final
+ globalNames.add(name);
+ if (nameCount < 0) return null.
+ scopedKeys.add(name);
+ if (name)
+ log(name);
+scopedAliasNames.add(name); varNode = null
+scopedAliasNames.add(name, null);
+ name += " ($name);
+ namespaceNames.add(name);
+scopedAliasNames.removeAll(name); final
+scopedAliasNames.addAll(name); final
+ String scopedNameAliasList.add(name);
+scopedAliasNames.reset();
+ if (nameCount);
+ value.push(n);
+scopedAliasNames.add(name, name); final
+ scopingAliasNames.add(name);
+ if nameCount {
+scopedAliasNames.add("$" + name); }
+ if (enabled)
+ ScopedAliasNames.add(name);
+ - 1;
+scopedAliasNames.add(name) ; String globalName();
+scopedAliasNames.add(name) ; varNode = final
+scopedAliasNames.remove();
+scopedAliasNames.removeKey(name); final
+ if (true)
+scopedAliasNames.add(name, name); }
+ int globalName;
+scopedAliasNames.add(name, v); final
+scopedAliasNames.addAll(name); }
+ record(name);
+scopedAliasNames.removeAll(name); }
+scopedAliasNames.add(name, n); final
+scopedAliasNames.free();
+scopedAliasNames.add({ name });
+scopedAliasNames.add(name); }
+scopedAliasNames -- ;
+ nameList.add(name);
+scopedAliasNames.add(name) ; } else {
+scopedAliasNames.remove(name); };
+ value.add(name);
+ logAlias(name);
+ scopedAliases.add(name);
+ scopedFunctionNames.add(name);
+scopedAliasNames.addElement(name); final
+ name += "(");
+scopedAliasNames.addName();
+scopedAliasNames.add(nameName);
+ String globalName);
+scopedAliasNames = name ; final
+scopedAliasNames = null; }
+ String append(name);
+scopedAliasNames.add(name) ; } } }
+scopedAliasNames.clear(name); final
+scopedAliasNames.addAll(name); };
+scopedAliasNames.clear(); final
+ trace(name);
+scopedAliasNames = null();
+ String name(name);
+scopedAliasNames.add(name) ; } } final
+scopedAliasNames.add(name); } }
+scopedAliasNames.remove(); final
+scopedAliasNames.add(name); };
+ printName(name);
+scopedAliasNames.addAll();
+ String localName;
+ int index =
+scopedAliasNames.add(name) ; try { final
+ String name =
+ String prefix =
+scopedAliasNames.add(name) + 1;
+scopedAliasNames.add(localName);
+ scopedNameNames.add(name);
+ - 1);
+ if (global))
+ namespace.add(name);
+ seen.add(name);
+scopedAliasNames = nil;
+ ++ count;
+ if (count);
+scopedAliasNames.add({ name); }
+ String namespace =
+scopedAliasNames.remove(name());
+ printAlias(name);
+scopedAliasNames.add(name); } final
+scopedAliasNames.free(); final
+scopedAliasNames.add(name); } };
+scopedAliasNames.remove(name)
+ values.add(name);
+scopedAliasNames.add(); final
+ || 0;
+ int globalIndex;
+ recordName(name);
+scopedAliasNames.add(newName);
+ if (name);
+scopedAliasNames.add(name) ; } } };
+ String scopeName;
+ nameNames.add(name);
+scopedAliasNames.sort(); final
+ aliasList.add(name);
+scopedAliasNames.add(name) return value;
+ "+1);
+scopedAliasNames.pop(); final
+scopedAliasNames.add(name) return ; }
+ + 2);
+ + 2;
+scopedAliasNames.add() final
+ traceAlias(name);
+scopedAliasNames.add(name)); final
+scopedAliasNames.add(); }
+ recordFunction(name);
+scopedAliasNames.add(Name);
+scopedAliasNames.add(name)
+scopedAliasNames.add(name());
+scopedAliasNames.add(name) } }
+scopedAliasNames.add(name) } };
+ int
+scopedAliasNames.add(n);
+scopedAliasNames.add(names);

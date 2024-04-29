@@ -1,0 +1,558 @@
+ExtractionInfo authorInfo = extractSingleLineBlock();
+ authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token);
+ExtractionInfo  authorInfo = extractAuthor(token);
+ token = next();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = authorInfo.token;
+ Author authorInfo = extractAuthor(token);
+ Author authorInfo = extractAuthorInfo(token);
+ExtractionInfo  authorInfo = token;
+ Author authorInfo= extractSingleLineBlock();
+ AuthorInfo authorInfo=extractSingleLineBlock();
+ Author authorInfo = parser.extractSingleLineBlock();
+ token = eatTokensUntilEOL();
+ Author authorInfo = stream.getAuthor();
+ExtractionInfo  authorInfo;
+ AuthorInfo authorInfo = jsdocBuilder.extractSingleLineBlock();
+ Author authorInfo = extract(token);
+ Author authorInfo = extractAuthor(token.token);
+ Author authorInfo = extractAuthor(token, parser);
+ token = eatTokensUntilEOL(); continue retry;
+ Author authorInfo = jsdocBuilder.extractSingleLineBlock();
+ Author authorInfo = token.extractSingleLineBlock();
+ authorInfo = extractAuthor(token);
+ AuthorInfo authorInfo = parser.extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = eatTokensUntilEOL();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = authorInfo.token;
+ continue retry;
+ Author authorInfo = extractAuthorInfo();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); }
+ Author authorInfo = extractAuthorInfo(token;
+ Author authorInfo = extractAuthorInfo(annotation);
+ token = next(token);
+ Author authorInfo = extractAuthorComment(token);
+ authorInfo = extractAuthorInfo(token);
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); continue retry; }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } }
+ authorInfo = extract(token);
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } }
+ Author authorInfo = extractAuthor(token, true);
+ Author authorInfo = authorInfo.token;
+ Author authorInfo = token.token;
+ authorInfo = parser.extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } continue retry;
+ { token = eatTokensUntilEOL(); continue retry; }
+ token = eatTokensUntilEOL(); authorInfo= extractSingleLineBlock();
+ token=extractSingleLineBlock();
+ Author authorInfo = stream.getAuthorInfo();
+ { token = eatTokensUntilEOL(); continue retry };
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } continue retry; }
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = eatTokensUntilEOL();
+ Author info = jsdocBuilder.extractSingleLineBlock();
+ token = eatTokens();
+ { token = eatTokensUntilEOL(); continue retry;
+ AuthorInfo authorInfo = blockInfo.extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); continue retry; } else { token = eatTokensUntilEOL(); }
+ authorInfo = extractAuthorInfo(token;
+ Author authorInfo = extractAuthor(token, state);
+ switch (token) { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); continue retry; }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } continue retry; }
+ { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL();
+ token = eatTokensUntilEOL();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } continue retry;
+ token = next;
+ Author authorInfo = extractAuthor();
+ authorInfo = extractAuthor();
+ authorInfo = jsdocBuilder.extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilComment(); }
+ token = eatTokensUntilEOL(); continue retry };
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } } continue retry;
+ Author authorInfo = blockInfo.extractSingleLineBlock();
+ExtractionInfo  authorInfo = next(token);
+ authorInfo = extractAuthorInfo();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } continue retry }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } continue retry };
+ AuthorInfo authorInfo = token.extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL();
+ token = nextToken();
+ if (authorInfo.string.length() > 0) {
+ token = eatTokens(token);
+ { token = eatTokensUntilEOL(); } } else { token = eatTokensUntilEOL(); } }
+ { token = eatTokensUntilEOL();
+ExtractionInfo  author;
+ Author authorInfo = authorInfo.author;
+ { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL(); }
+ AuthorAuthor authorInfo = jsdocBuilder.extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); continue retry;
+ if (token == null) { token = eatTokensUntilEOL();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOF();
+ExtractionInfo authorInfo = extractSingleLineBlock() token = eatTokensUntilEOL();
+ if (authorInfo!= null) {
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = tokenInfo.token;
+ { Author authorInfo = extractAuthor(token);
+ { token = eatTokensUntilEOL(); continue retry }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL; }
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = token. next ( ) ;
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } continue retry; }
+ if (token == null) { ExtractionInfoauthorInfo = extractSingleLineBlock();
+ token = eatTokensUntilEOL(); continue retry; }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } continue retry }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL; } } }
+ AuthorAuthor authorInfo = extractAuthor(token);
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilToken(); }
+ if (token == null) { parser.addWarning("msg.bad.jsdoc.author", stream.getLineno()); } }
+ Author authorInfo = (Author)blockInfo.extractSingleLineBlock();
+ token = eatTokensUntilComment();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); continue retry; };
+ if (authorInfo) {
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); break ; } }
+ token = eatTokensUntilEOL(); continue retry }
+ AuthorInfo authorInfo = authorInfo.extractSingleLineBlock();
+ AuthorInfo authorInfo = token;
+ token = eatTokensUntilEOL);
+ Author authorInfo = getAuthorInfo();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } };
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } } continue retry;;
+ { token = eatTokensUntilEOL(); }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } } else { #
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL; } }
+ switch (token) { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); continue retry; };
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } }
+ if (token == null) { parser.addWarning("msg.bad.jsdoc.author", token); } continue retry; }
+ authorInfo = stream.getAuthorInfo();
+ { token = eatTokensUntilEOL(); continue retry; } else { continue retry; }
+ Author author = stream.getAuthor();
+ExtractionInfo  authorInfo = next();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); continue retry;
+ExtractionInfo authorInfo = extractSingleLineBlock ( token ) ; token = next ( ) ;
+ if (authorInfo.string!= null) {
+ authorInfo = stream.getAuthor();
+ { token = eatTokensUntilEOL(); continue retry; } } }
+ token = eatTokensUntilEOL(); token= extractSingleLineBlock();
+ authorInfo = extractAuthor(token, parser);
+ token = authorInfo.token;
+ authorInfo = extractAuthorInfo(token.token;
+ authorInfo = extractAuthorInfo(token)();
+ExtractionInfo  token = next();
+ Author authorInfo = extractAuthor(_);
+ AuthorInfo authorInfo = authorParser.extractSingleLineBlock();
+ token = eatTokensUntilEOL(token;
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOF(); } }
+ authorInfo = authorInfo.token;
+ token = eatTokensUntilEOL(); break; }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); };
+ authorInfo = extractAuthorInfo(token); next();
+ExtractionInfo authorInfo = extractSingleLineBlock() (token); token = authorInfo.token;
+ token = eatTokensUntilEOL(token);
+ token = eatTokensUntilEOL(); continue next();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } break ; }
+ Author authorInfo = extractAuthorInfo(token);;
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } };
+ authorInfo = extractAuthorComment(token);
+ { token = eatTokensUntilEOL(); continue retry; } }
+ Author authorInfo = extractAuthorInfo(token)();
+ Author authorInfo = stream.getAnnotation();
+ if (authorInfo.string.length() > 0)
+ AuthorInfo authorInfo = (Author) parser.extractSingleLineBlock();
+ authorInfo = extractAuthorInfo(annotation);
+ authorInfo = token.extractSingleLineBlock();
+ if (token == null) { authorInfo= extractSingleLineBlock();
+ Author authorInfo = (Author) parser.extractSingleLineBlock();
+ { authorInfo = extractAuthorInfo(token); }
+ token = eatTokensUntilEOL(); continue retry();
+ authorInfo = extractAuthorInfo(token).extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); continue } } }
+ token = eatToken();
+ { authorInfo = extractAuthor(token);
+ Author authorInfo = token.authorInfo;
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL(); } } } } } else { #
+ token = eatTokensUntilToken();
+ { Author authorInfo = extractAuthorInfo(token); final
+ token = eatTokensUntilEOL;
+ if (authorInfo.string!= null)
+ token = eatTokensUntilEOL(); continue retry; } } }
+ if (authorInfo.string) {
+ if (authorInfo!= null)
+ authorInfo = stream.getToken();
+ Author authorInfo = token.author;
+ { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL;
+ { token = eatTokensUntilEOL(); } } else { token = eatTokensUntilEOL(); } } }
+ authorInfo = extractAuthorInfo(token);;
+ Author authorInfo = next(token;
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntil ; }
+ token = eatTokensUntilEOL(); break retry; } }
+ { authorInfo = extractAuthor(token); }
+ { Author authorInfo = extractAuthorInfo(token, next); }
+ { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL; }
+ Author authorInfo = (Author) token.extractSingleLineBlock();
+ { Author authorInfo = extractAuthorInfo(token); }
+ExtractionInfo authorInfo = extractSingleLineBlock() if (authorInfo!= null) {
+ token = eatTokensUntilEOL(); continue retry; } }
+ token = eatTokensUntilEOL(); continue };
+ token = eatTokenUntilEOL(); continue retry;
+ { token = eatTokensUntilEOL(); continue retry; };
+ authorInfo = extractAuthorInfo(token).next();
+ if (token == next()) { ExtractionInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = authorInfo.token();
+ExtractionInfo  authorInfo = extractAuthor(token); final
+ if (token == null) { Author authorInfo= extractSingleLineBlock();
+ token = null;
+ authorInfo = token.token;
+ Author authorInfo = tokenInfo.author;
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = authorInfo.token; final
+ { token = eatTokensUntilEOL(); continue retry; } break; } }
+ { token = eatTokensUntilEOL(); } else { token = eatTokensUntilEOL;
+ token = next(token;
+ AuthorInfo = extract(token);
+ { Author authorInfo = extractAuthor(token); }
+ { ExtractionInfo authorInfo= extractSingleLineBlock();
+ Author authorInfo = extractAuthorInfo(next();
+ token = eatTokensUntilEOL(); } }
+ { token = eatTokensUntilEOL(); continue retry; } default: } }
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = tokenInfo.token;
+ if (!authorInfo.recordAuthor()) {
+ExtractionInfo  authorInfo = extractAuthorComment(token); final
+ if (token == null) authorInfo= extractSingleLineBlock();
+ Author authorInfo = next();
+ if (authorInfo.string.length() > 0) { final
+ { Author authorInfo = extractAuthor(token); final
+ token = eatTokensUntilEOL(); continue; }
+ authorInfo = next();
+ { token = eatTokensUntilEOL(); } }
+ Token authorInfo = token;
+ token = eatTokensUntilEOL(); continue } }
+ { Author authorInfo = extractAuthorInfo(token, next()); }
+ { token = eatTokensUntilEOL(); continue retry; } default: {
+ { Author authorInfo = extractAuthorInfo(token); {
+ { Author authorInfo = extractAuthorInfo(token, next); final
+ { token = eatTokensUntilEOL(); } continue retry };
+ token = eatTokensUntilNL();
+ token = eatTokensUntilEOL; authorInfo= extractSingleLineBlock();
+ authorInfo = extractAuthorInfo(next();
+ token = eatTokensUntilEOL(); return retry; } } }
+ { Author authorInfo = extractAuthorInfo(token, next(); });
+ next();
+ Author authorInfo = nextAuthor();
+ AuthorAuthor authorInfo = extract(token);
+ token = token.next();
+ExtractionInfo  authorInfo = annotation;
+ Author authorInfo = stream.getAnAuthor();
+ AuthorInfo authorInfo = authorBuilder.extractSingleLineBlock();
+ token = eatTokensUntilEOL(); break retry; } } }
+ Author authorInfo = reader.extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = authorInfo.token();
+ { Author authorInfo = extractAuthor(token); {
+ token = eatTokensUntilEOF();authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = token ; continue retry;
+ Author authorInfo = annotationInfo;
+ Author authorInfo = token;
+ { authorInfo = extractAuthorComment(token); }
+ { authorInfo = extractAuthorInfo(token); } }
+ { token = eatTokensUntilEOL(); continue retry; } default: }
+ token = next();;
+ next(_);
+ token = eatTokensUntilEOL(); }
+ Author author = extractAuthorInfo(token);
+ token = next(_);
+ Token authorInfo = nextToken();
+ { token = eatTokensUntilEOL(); } token = eatTokensUntilEOL(); };
+ next(token);
+ Author authorInfo = stream.getUser();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = eatTokensUntilEOL(); final
+ { token = eatTokensUntilEOL(); continue retry; } } } }
+ { token = eatTokensUntilEOL(); continue retry; } default : #
+ if (token == null) {
+ExtractionInfo authorInfo  = extractAuthorInfo(token, next(); });
+ { token = eatTokensUntilEOL(); continue retry; } } };
+ token = eatTokensUntilOL();
+ if (authorInfo.string.length() > 0)) {
+ token = eatTokensUntilNL();
+ { Author authorInfo = extractAuthorInfo(token, next); } }
+ { Author authorInfo = extractAuthorInfo(token); } }
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); token = next(); } }
+ token = eatTokensUntilEOF();
+ExtractionInfo  authorInfo = getAuthor(token);
+ if (token == null) { ExtractInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo  authorInfo = extractAuthorInfo(token); final
+ { AuthorInfo authorInfo = next(); authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() token;
+ authorInfo = stream.getAnnotation();
+ token = eatTokensUntilEOL(); continue retry; } } };
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = eatTokensUntilEOF();
+ { Author authorInfo = extractAuthorInfo(token, next();) ;
+ authorInfo = extractAuthor(token).getToken();
+ Author authorInfo = this.extractSingleLineBlock();
+ { Author authorInfo = extractAuthorInfo(token, next()); } }
+ token = eatTokensUntilEOL(); } } }
+ token = eatTokensUntilEOL(); continue retry; } default : #
+ExtractionInfo authorInfo = extractSingleLineBlock(token); authorInfo. token = token ;
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next();
+ExtractionInfo  authorInfo = extractAuthorComment(token) ;
+ token = eatTokensUntilEOL(); continue retry; } default: }
+ AuthorAuthorInfo authorInfo=extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = eatTokensUntilEOL;
+ token = eatTokensUntil();
+ token = eatTokensUntilEOF(); token= extractSingleLineBlock();
+ { Author authorInfo = extractAuthorInfo(token); } {
+ token = eatTokensUntilEOL(); continue retry; } default: {
+ExtractionInfo authorInfo  = extractAuthorInfo(token, next();)
+ if (token == null) { token = eatTokensUntilEOL;
+ token = eatTokens(_);
+ token = eatTokenUntilEOL();
+ token = next(); break;
+ExtractionInfo authorInfo =  extractAuthorComment(token, next();) ;
+ExtractionInfo authorInfo  = extractAuthorInfo(token, next(););
+ token = eatTokensUntilEOL;
+ { token = eatTokensUntilEOL(); continue retry; } } } else { #
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = tokenInfo.token; final
+ token = eatTokensUntilEO();
+ if (token == null) token= extractSingleLineBlock();
+ Author info = parser.extractSingleLineBlock();
+ExtractionInfo  authorInfo = extractAuthorComment(token); {
+ if (!authorInfo) { authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo  = extractAuthorInfo(token, next(); }
+ ExtractionInfo.authorInfo = extractSingleLineBlock();
+ if (!authorInfo.token) {
+ { Author authorInfo = extractAuthorInfo(token); } final
+ExtractionInfo  authorInfo = extractAuthor(token); {
+ token = eatTokensUntilEOL(); } };
+ token = eatTokensUntilEOL(); author info= extractSingleLineBlock();
+ token = next(); JsDocTokenauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = eatTokensUntilEOL(); }
+ { AuthorInfo authorInfo = authorInfo()= extractSingleLineBlock();
+ if (!authorInfo.recordAuthor())
+ authorInfo = token;
+ExtractionInfo  authorInfo = extractAuthorComment(token); }
+ { authorInfo = extractAuthor(token); final
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); continue retry();
+ token = eatTokensUntilEOF; token= extractSingleLineBlock();
+ if (!authorInfo) authorInfo= extractSingleLineBlock();
+ExtractionInfo  authorInfo = extractAuthor(token); }
+ if (authorInfo) { authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() token = eatTokensUntilEOL(); final
+ token = eatTokensUntilEOL(); }
+ token = eatTokensUntilEOF;authorInfo = extractSingleLineBlock();
+ token = next(););
+ if (authorInfo.string) { final
+ExtractionInfo authorInfo  = extractAuthorInfo(token, next); final
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = eatTokensUntilEOL;
+ parser.extractSingleLineBlock();
+ if (isSingleLine()) authorInfo= extractSingleLineBlock();
+ { token = eatTokensUntilEOL; }
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token, next(); });
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = next(); } }
+ token = eatTokensUntilEOL(); final
+ AuthorInfo authorInfo;
+ { authorInfo = extractAuthor(token); };
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); token = next(); final
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token, next(););
+ { token = eatTokensUntilEOL;
+ExtractionInfo  author();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); token = next(); }
+ { AuthorInfo authorInfo = authorInfo= extractSingleLineBlock();
+ authorInfo = nextToken();
+ { token = eatTokensUntilEOL(); };
+ExtractionInfo authorInfo = extractSingleLineBlock() (token); token = authorInfo.token();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); break; }
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token, next();)
+ { token = eatTokensUntilEOL(); #authorInfo = extractSingleLineBlock();
+ if (token) { authorInfo= extractSingleLineBlock();
+ if (!author) break;
+ { JsDocToken authorInfo= extractSingleLineBlock();
+ String authorInfo=extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock ( token ) ; token = next(); }
+ExtractionInfo authorInfo = extractSingleLineBlock(token, next();) ;
+ if (authorInfo)) {
+ExtractionInfo  authorInfo = extractAuthor(token));
+ExtractionInfo  authorInfo();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = next(); final
+ switch (token) { ExtractInfoauthorInfo = extractSingleLineBlock();
+ if (!authorInfo) {
+ authorInfo = _extractSingleLineBlock();
+ExtractionInfo authorInfo =  extractAuthorComment(token, next()); } }
+ExtractionInfo authorInfo =  extractAuthorInfo(token, next()); } }
+ExtractionInfo authorInfo = extractSingleLineBlock(token); continue retry();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = next(); } }
+ token = next(); } }
+ExtractionInfo authorInfo = extractSingleLineBlock()(token);
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token, next();");
+ExtractionInfo authorInfo  = extractAuthor(token, next(); });
+ switch (token) { CommentInfoauthorInfo = extractSingleLineBlock();
+ { ExtractionInfo.authorInfo = extractSingleLineBlock();
+ExtractionInfo  authorInfo);
+ token = token; } }
+ token = eatTokens(); }
+ authorInfo=(token);
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = next(); } final
+ token = authorInfo;
+ authorInfo = nextAuthor();
+ExtractionInfo authorInfo = extractSingleLineBlock(token, next(); });
+ExtractionInfo authorInfo =  extractAuthorComment(token, next();) {
+ExtractionInfo  authorInfo = next(); final
+ExtractionInfo authorInfo  = extractAuthorInfo(token); } final
+ token = getToken();
+ token token;
+ if (authorInfo!= null))
+ case TEXT: ExtractionInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo  = extractAuthorInfo(token); } }
+ if (authorInfo) { final
+ JsDocTokenauthorInfo = extractSingleLineBlock();
+ { token = eatTokensUntilEOL(); }authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() if (authorInfo) { final
+ { Author authorInfo= extractSingleLineBlock();
+ token = token;
+ case BLOCK: authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo  = extractAuthor(token, next); final
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); final
+ continue retry; }
+ExtractionInfo  authorInfo = final
+ token = eatTokenUntilEOL(); }
+ case NEWLINE: authorInfo= extractSingleLineBlock();
+ if (token == null) break; #authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo =  extractUser(token);
+ExtractionInfo authorInfo = extractSingleLineBlock(token, next()); break; }
+ token = ' ' ;
+ExtractionInfo  authorInfo = new
+ token = eatTokensUntil; }
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next(); } }
+ExtractionInfo authorInfo = extractSingleLineBlock(token, next); break; }
+ continue retry();
+ token = eatTokensUntilEOL(); } #authorInfo = extractSingleLineBlock();
+ print(token);
+ switch (token) { TokenInfoauthorInfo = extractSingleLineBlock();
+ ExtractionInfo>authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() token = null;
+ExtractionInfo authorInfo = extractSingleLineBlock(token); continue retry };
+ } next();
+ case STRING: authorInfo= extractSingleLineBlock();
+ if (token == null) { ExtractorauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token, next();)
+ { ExtractionInfo authorInfo *= extractSingleLineBlock();
+ append(token);
+ExtractionInfo authorInfo = extractSingleLineBlock(token); break; }
+ { ExtractInfo authorInfo= extractSingleLineBlock();
+ final String authorInfo= extractSingleLineBlock();
+ExtractionInfo  authorInfo = next(); }
+ExtractionInfo authorInfo = extractSingleLineBlock(token); final
+ case TEXT: Author authorInfo= extractSingleLineBlock();
+ExtractionInfo  authorInfo = extractAuthor(); final
+ token = "Author"; }
+ next($);
+ { JsDocToken>authorInfo = extractSingleLineBlock();
+ token = "author"; }
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = next(); } final
+ExtractionInfo authorInfo = extractSingleLineBlock(token); continue retry; }
+ token ++;
+ { Parser authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = next(); }
+ExtractionInfo authorInfo = extractSingleLineBlock() ; continue retry; }
+ expect(token);
+ExtractionInfo  authorInfo = next(token));
+ { ExtractionInfo _authorInfo = extractSingleLineBlock();
+ switch (token) { TokenImplauthorInfo = extractSingleLineBlock();
+ExtractionInfo  authorInfo; final
+ token = " " ;
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next(); }
+ExtractionInfo authorInfo = extractSingleLineBlock(token); token = next() } }
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token) ;
+ token = token; }
+ { TokenInfo authorInfo= extractSingleLineBlock();
+ { JsDocToken[]authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = next(); final
+ExtractionInfo authorInfo = extractSingleLineBlock() ; token = next(); ;
+ break ; } }
+ExtractionInfo authorInfo = extractSingleLineBlock() token);
+ final Block authorInfo= extractSingleLineBlock();
+ continue retry };
+ token.extractSingleLineBlock();
+ break; }
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next(); final
+ { JsDocToken.authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); {
+ stream = next();
+ token = ' '; }
+ExtractionInfo authorInfo = extractSingleLineBlock(token, parser);
+ case STRING: AuthorInfoauthorInfo = extractSingleLineBlock();
+ authorInfo *= extractSingleLineBlock();
+ EXTractionInfo.authorInfo = extractSingleLineBlock();
+ JsDocBlockauthorInfo = extractSingleLineBlock();
+ continue next();
+ JsDocToken>authorInfo = extractSingleLineBlock();
+ { Extractor authorInfo= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); } }
+ stream.next();
+ExtractionInfo  token = next;
+ExtractionInfo  token;
+ print(author);
+ authorInfo.extractSingleLineBlock();
+ JsDocToken.authorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); }
+ return next();
+ final Token authorInfo= extractSingleLineBlock();
+ {ExtractionInfo}authorInfo = extractSingleLineBlock();
+ token = current;
+ Token authorInfo;
+ExtractionInfo authorInfo = extractSingleLineBlockAuthor(token); final
+ ++ counter;
+ExtractionInfo authorInfo = extractSingleLineBlockComment();
+ EXTractionInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); {
+ next(*);
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); } final
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next(); {
+ExtractionInfo authorInfo = extractSingleLineBlock()(token); final
+ ++ i;
+ nextToken();
+ExtractionInfo  authorInfo = next() final
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); } {
+ExtractionInfo authorInfo = extractSingleLineBlock(token, true);
+ authorInfo ::= extractSingleLineBlock();
+ ++ index;
+ExtractionInfo authorInfo = extractSingleLineBlock() next(); }
+ExtractionInfo authorInfo = extractSingleLineBlock(token); }
+ExtractionInfo authorInfo = extractSingleLineBlock() next(); } }
+ExtractionInfo authorInfo = extractSingleLineBlockComment(token); { final
+ parser.next();
+ExtractionInfo authorInfo =  this;
+ExtractionInfo  author:
+ExtractionInfo authorInfo = extractSingleLineBlock() token = next() }
+ authorInfo|= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(parser);
+ AuthorInfo=extractSingleLineBlock();
+ExtractionInfo  author = new
+ExtractionInfo authorInfo = extractSingleLineBlockAuthor();
+ continue; }
+ } } }
+ reader.extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token); } }
+ExtractionInfo authorInfo = extractSingleLineBlock() token; final
+ExtractionInfo authorInfo = extractSingleLineBlock() (token));
+ AuthInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(...)
+ExtractionInfo authorInfo = extractSingleLineBlock(); final
+ExtractionInfo authorInfo = extractSingleLineBlock(token); } final
+ authorInfo :=extractSingleLineBlock();
+ { AuthorInfoauthorInfo = extractSingleLineBlock();
+ ExtractInfoauthorInfo = extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock() token();
+ExtractionInfo authorInfo  = next
+ nextLine();
+ author info= extractSingleLineBlock();
+ExtractionInfo authorInfo : {
+ Author info= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(token));
+ExtractionInfo authorInfo = extractSingleLineBlock(parser); final
+ Author author= extractSingleLineBlock();
+ExtractionInfo authorInfo = extractSingleLineBlock(Token);
+ } }
+ Author(authorInfo = extractSingleLineBlock();
+ Author[]authorInfo = extractSingleLineBlock();
+ { #authorInfo = extractSingleLineBlock();
+ { final
+ { }
+ } };
+ {
+ final
+ExtractionInfo authorInfo := extractSingleLineBlock();
+ExtractionInfo authorInfo: extractSingleLineBlock();
+ExtractionInfo authorInfo += extractSingleLineBlock();

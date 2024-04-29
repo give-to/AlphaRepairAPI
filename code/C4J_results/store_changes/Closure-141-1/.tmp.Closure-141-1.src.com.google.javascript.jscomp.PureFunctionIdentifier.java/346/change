@@ -1,0 +1,584 @@
+visitCall(sideEffectInfo);
+visitCall(node);
+visitCall(traversal, sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent);
+visitCall(sideEffectInfo, traversal);
+visitCall(sideEffectInfo, node, traversal);
+visitCall(sideEffectInfo, node);
+visitCall(node, traversal);
+visitCall(node, sideEffectInfo);
+visitCall(node, parent, sideEffectInfo);
+ visit(node);
+visitCall(traversal, node, parent, node);
+ visitNew(sideEffectInfo);
+visitCall(sideEffectInfo, node, node.getFirstChild);
+visitCall(traversal, parent, node);
+visitCall(sideEffectInfo, node.getFirstChild);
+visitCall(node, parent, traversal);
+ visitNew(sideEffectInfo); break;
+ visitNew(node);
+ visitAssignmentOrUnaryOperatorLhs(sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent, gramp);
+ visitNew(sideEffectInfo,node);
+ visitNew(node, traversal);
+ visitNew(node, parent, sideEffectInfo);
+ visitNew(node, parent, sideEffectInfo;
+ visitNew(sideEffectInfo;
+visitCall(node, node, parent, sideEffectInfo);
+ visitNew(node, sideEffectInfo);
+visitCall(node, node, parent);
+visitCall(sideEffectInfo, node, parent.getFirstChild());
+ visitAssignmentOrUnaryOperatorLhs(node);
+visitCall(sideEffectInfo, node, parent, node.getFirstChild);
+ visit(sideEffectInfo, node);
+ visitFunction(traversal, node, parent, node);
+visitCall(node, parent, gramp);
+visitCall(node, node, traversal);
+ visitNew(traversal,sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent.getFirstChild);
+ visitCalls(node);
+ visitCall(sideEffectInfo;
+ visitCall(parent, node);
+visitCall(node, parent, node.getFirstChild());
+visitCall(traversal, node, parent, sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent, false);
+ visitNew(node, parent, gramp;
+ visitNew(traversal, parent, node);
+visitCall(sideEffectInfo, node, node.getFirstChild());
+visitCall(node, parent, node.getFirstChild);
+visitCall(node, parent, node.getParent());
+ visit(parent, node);
+ visitCall(node, parent, sideEffectInfo;
+ visitAssignmentOrUnaryOperator(sideEffectInfo, node);
+ visitCall(sideEffectInfo); break;
+visitCall(traversal, traversal, node);
+visitCall(sideEffectInfo, node, node.getFirstChild(), traversal);
+ switch(node.getType()) { case Token.CALL:
+visitCall(sideEffectInfo,  node, parent, node.getFirstChild());
+ visitNew(node, parent, gramp);
+visitCall(sideEffectInfo, node, parent.getFirstChild(), traversal);
+ visitCalls(sideEffectInfo, node);
+ visitAssignmentOrUnaryOperatorNew(sideEffectInfo, node);
+ visitFunction(node, parent, sideEffectInfo);
+ visitNew(traversal, node, parent, node);
+visitCall(sideEffectInfo,  node, parent.getFirstChild(), parent);
+visitCall(sideEffectInfo, node, parent, null);
+ visitFunction(node, parent, gramp);
+ visitFunction(traversal, parent, node);
+ visitNew(node, parent, traversal);
+visitCall(sideEffectInfo, traversal, node, parent);
+ visitFunction(traversal, node);
+visitCall(sideEffectInfo, node, node.getSecondChild);
+visitCall(node, node.getFirstChild());
+visitCall(node, node, parent, gramp);
+ visitFunction(node, parent, sideEffectInfo;
+ switch (node.getType()) { case Token.CALL: case Token.NEW:
+ visitFunction(traversal, gramp, node);
+visitCall(sideEffectInfo, node, node, parent);
+visitCall(sideEffectInfo, node, parent, true);
+ visitNew(node, node, parent, sideEffectInfo);
+visitCall(sideEffectInfo, node, parent, node.getFirstChild()); }
+ visitFunction(node, parent, gramp;
+ visitNew(sideEffectInfo);;
+visitCall(sideEffectInfo, node, parent.getFirstChild()); }
+visitCall(sideEffectInfo, node, parent, node.getSecondChild);
+ visitCall(node, parent, gramp;
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL: case Token.NEW:
+ visitNew(node, parent, node.getFirstChild());
+visitCall(sideEffectInfo,  node, node.getFirstChild(), parent);
+ visitNew(node, node, parent);
+ switch(node.getType()) { case Token.DELFUNC:
+visitCall(sideEffectInfo, node.getFirstChild());
+ visitCalls(sideEffectInfo);
+visitCall(node, node, parent.getFirstChild);
+ visitAssignmentOrUnaryOperatorLhs, node);
+visitCall(sideEffectInfo, node, parent, traversal);
+visitCall(sideEffectInfo, node, parent.getSecondChild());
+ visitNew(node, node.getFirstChild);
+ visitAssignmentOrUnaryOperatorNew(node);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.INC:
+visitCall(node, parent, null, sideEffectInfo);
+visitCall(sideEffectInfo, node, node.getSecondChild());
+ switch(node.getType()) { case Token.NEW:
+ switch(node.getType()) { case Token.FUNCTION:
+ visitFunction(traversal,sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent.getParent());
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL:
+ visitFunction(node, traversal);
+ visitNewFunctionLhs(sideEffectInfo, node);
+visitCall(node, traversal, node, parent);
+visitCall(node, parent, node, gramp);
+ visitNew(node, parent, node.getParent());
+visitCall(sideEffectInfo, node, parent.getSecondChild);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.DELPROP:
+ switch(node.getType()) case Token.CALL:
+ switch(node.getType()) { case Token.FUNC:
+ visitAssignmentOrUnaryOperationLhs(sideEffectInfo, node);
+ visitAssignmentOrUnaryOperator(node);
+visitCall(sideEffectInfo, node, node.getFirstChild()); }
+ visitNew(node, node, parent); break;
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.THROW:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.PROP:
+ visitNew(node, node, traversal);
+ visitCall(allFunctionCalls,node);
+visitCall(node, parent, traversal, gramp);
+ visitCall(node;
+ switch(node.getType()) { case Token.CALL: case Token.NEW: switch(node.getType()); }
+ visitFunction(node, sideEffectInfo);
+ switch(node.getType()) case Token.NEW:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType()) }
+visitCall(sideEffectInfo, node, parent.getParent(), parent);
+ switch (node.getType()) { switch (node.getType()) { case Token.CALL: case Token.DELNEW:
+ visitNew(node, node.getFirstChild());
+visitCall(traversal, node, node, parent);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType()) {
+ visitNew(sideEffectInfo, scope, node);
+ visitCalls(node, traversal);
+visitCall(node, node.getFirstChild);
+ switch (node.getType()) { switch (node.getType()) { case Token.CALL: case Token.NODE:
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL: case NEW:
+ visitNew(traversal, traversal, node);
+ visitFunction(traversal, node,node);
+ case Token.PROP:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType()) { }
+ visitAssignmentOrUnaryOperatorLhs(node); }
+ switch(node.getType()) { case Token.DELCALL:
+ switch (node.getType()) { case Token.CALL: case Token.DELPROP:
+ visitAssignmentOrUnaryOperatorLhs(sideEffect);
+ visitNew(node, traversal.getScope, node);
+ switch (node.getType()) { case Token.NEW: switch (node.getType()) { case CALL:
+ switch(node.getType()) { case Token.CALL: case Token.NEW: switch(node.getType());
+ visitCall( traversal, node);
+ switch(node.getType()) { switch(node.getType()) { case Token.NEW:
+ switch (node.getType()) { switch (node.getType()) { case Token.CALL: case Token.DELMETHOD:
+visitCall(traversal, traversal, sideEffectInfo, node);
+ switch(node.getType()) { switch(node.getType()) { case Token.DELFUNC:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.CALL:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.DEL:
+visitCall(node, node.getFirstChild(), parent);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.DELMETHOD:
+ visitAssignmentOrUnaryFunctionLhs(sideEffectInfo, node);
+visitCall(sideEffectInfo, node, node.getNextChild());
+visitCall(node, node.getFirstChild()); }
+visitCall(sideEffectInfo, node.getFirstChild()); }
+ switch (node.getType()) { case Token.CALL: case Token.NEW: if (isCall(sideEffectInfo)) {
+ switch (node.getType()) { switch (node.getType()) { case Token.CALL: case Token.NEW: } }
+visitCall(sideEffectInfo, node, parent, node.getSecondChild()); }
+visitCall(node, node, sideEffectInfo);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: case Token.NEW:
+visitCall(sideEffectInfo, node.getSecondChild);
+visitCall(sideEffectInfo,  node, parent.getFirstChild()); } }
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType() { }
+ visitFunction(traversal, traversal,sideEffectInfo, node);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType()) { } }
+ visitAssignmentOrUnaryOpLhs(sideEffectInfo, node);
+ switch(node.getType()) { switch(node.getType()) case Token.CALL:
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getName());
+ visitNewTraversal(sideEffectInfo, node);
+ switch (node.getType()) { case Token.CALL: case Token.NEW: switch (node.getType() { });
+ switch(node.getType()) { case Token.CALL: case CALL:
+visitCall(traversal, node, node);
+ switch(node.getType()); case Token.CALL:
+ switch(node.getType()) { case Token.CLONE:
+ switch(node.getType()) { case Token.CALL: case Token.NEW: } }
+visitCall(node, parent, null, traversal);
+visitCall(Traversal, node, parent, node);
+ visitCalls(allFunctionCalls,node);
+ visitFunction(node, parent;
+visitCall(sideEffectInfo, node.getSecondChild());
+ visitNew(sideEffectInfo));
+ visitNew(traverse, parent, node);
+ visitNew(node, parent.getParent(),node);
+ switch(node.getType()) { case Token.CALLBACK:
+ switch(node.getType()) { case CALL:
+ visitNew(allFunctionCalls,node);
+ switch (node.getType()) { case Token.CALL: case Token.DELMETHOD:
+ if (isCall(sideEffectInfo)) {
+ visitNew(Traversal,sideEffectInfo, node);
+ visitFunction(traversal, node,sideEffectInfo, node);
+ switch(node.getType()) { switch(node.getType()) { case Token.CALLBACK:
+ visitNew(node, parent, node.getFirstChild()); }
+visitCall(sideEffectInfo, node) ; } else { visitNew(node); }
+ visitAssignmentOrUnaryOperatorCall(sideEffectInfo, node);
+ visitNew(sideEffectInfo); return;
+visitCall(node, traversal, parent);
+visitCall(node, node, node, parent);
+ visitFunction(traverse, parent, node);
+visitCall(sideEffectInfo, node, parent).getFirstChild(); }
+visitCall(Traversal, node, parent, sideEffectInfo, node);
+ switch(node.getType()) { case Token.NEW: case Token.CALL:
+ switch (node.getType()) { case Token.CALL: case Token.NODE:
+visitCall(allFunctionCalls, traversal, sideEffectInfo, node);
+ visitNewCallLhs(sideEffectInfo, node);
+visitCall(sideEffectInfo,  node, node.getFirstChild()); } }
+ switch(node.getType()) { case Token.DELFUNCTION:
+ visitAssignmentOrUnaryOperatorFunction(sideEffectInfo, node);
+visitCall(sideEffectInfo, node, node.getSecondChild(), parent);
+ switch (node.getType()) { case Token.FUNC: case Token.NEW:
+ switch (node.getType()) { case Token.CALL: case NEW:
+ visitNew(sideEffectInfo, node;
+ switch(node.getType()) { case Token.CALL: case Token.CALL:
+visitCallInfo();
+ visitFunction(traversal, parent,sideEffectInfo, node);
+ switch(node.getType()) { case Token.CALL: case Token.NEW: }
+visitCall(sideEffectInfo, node, parent.getSecondChild()); }
+visitCall(traversal, node, parent, false);
+ visitCall(node, traversal, parent;
+ visitNew(node, node.getSecondChild);
+ visitCall(sideEffectInfo);;
+ visitCallLhs(sideEffectInfo, node);
+ visitFunction(node, parent);
+ switch(node.getType()) {
+visitCall(traverse, parent, node);
+visitCall(sideEffectInfo, node) ; if (inExterns)
+ visitNewLhs(sideEffectInfo, node);
+visitCall(sideEffectInfo, node, parent, node.getLastChild()); }
+ visitNew(node, node.getFirstChild()); }
+ visitCall(node, parent, node.getFirstChild()); }
+ visitCall(sideEffectInfo, node;
+ visitNew(sideEffectInfo); }
+visitCall(sideEffectInfo, node, parent.getLastChild()); }
+visitCall(allFunctionCalls, traversal, node);
+ visitAssignmentOrUnaryOperatorLhs(...)
+visitCall(sideEffectInfo, node) ; case Token.PROP:
+ visitNew(node, parent, traversal.node);
+ switch(node.getType()) case Token.ADD:
+visitCall(node, parent, node);
+ visitNew(node, node.getSecondChild());
+ visitFunction(sideEffectInfo,node);
+ visitNewCall(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; if (inExterns) {
+ switch(node.getType()) { case Token.CALL: } }
+visitCall(node, traversal.getScope, node);
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL() :
+ visitNew(callInfo);
+visitCall(sideEffectInfo); }
+ switch(node.getType()) { case Token.CALL: }
+ visitNewFunctionCall(node);
+ visitNewFunctionCall(sideEffectInfo, node);
+ switch (node.getType()) { case Token.CALL: case.NEW:
+ if (isCall(node)) {
+ switch(node.getType()) { case Token.NEW: case Token.INC:
+ visitNew( traversal, node);
+ visitCreate(sideEffectInfo,node);
+visitCall(node, parent, traversal, false);
+ visitCall(node);;
+ visitNew(node);;
+ visitNew(traverse);
+visitCall(node, parent, scope, sideEffectInfo, node);
+visitCall(node, parent, traversal, node);
+ visitFunction(traversal, traversal, node);
+visitCall(sideEffectInfo, node, node.getLastChild);
+visitCall(allFunctionCalls, parent, node);
+ switch(node.getType());
+visitCall(node, parent, node.getParent);
+ switch(sideEffectInfo);
+visitCall(node, node, parent, false);
+ visitAssignmentOrFunctionLhs(sideEffectInfo, node);
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL: }
+visitCall(sideEffectInfo, node) ; switch(node.getType());
+ visitFunction(parent,node);
+ visitNew(traverse,node);
+visitCall(node, node.getSecondChild);
+ switch(node.getType()) { case Token.CALL: case Token.NEW: } } }
+ visitNewFunction(sideEffectInfo, node);
+ visitNewCall(node);
+ visitFunction(traversal(sideEffectInfo, node);
+ visitMethod(node, traversal);
+visitCall(node, parent, false);
+ visitMethod(traversal, node);
+ visitAssignmentOrUnaryOperatorLhs();
+ visitNew(node); visitCall(sideEffectInfo, node);
+ case Token.INC:
+ switch(node.getType()) case CALL:
+ case Token.ADD:
+ switch(node.getType()) { case '(':
+ visitCalls(traversal, node);
+ switch(node.getType().getName());
+visitCall(sideEffectInfo, node) ; } else { node. detach ( ) ;
+ switch(node.getType()) { switch(node.getType()) { case Token.CALL() }
+ visitAssignmentOrNewLhs(sideEffectInfo, node);
+ switch(node.getType() });
+ switch(node.getType() case Token.NEW):
+ switch(node.getType().getName()) {
+ switch(sideEffectInfo)
+ visitNew(parent, node);
+ if (isCall(sideEffectInfo)))
+ visitAssignmentOrUnaryOperator(, node);
+visitCall(node, child, parent);
+ visitFunctionCalls(sideEffectInfo, node);
+ if (sideEffectInfo)
+visitCall(sideEffectInfo, node) ; } else { node. remove ( ) ;
+ visitNew(node, node, parent, null;
+ visitNewCalls(node);
+ visitCall(traversal, _sideEffectInfo, node);
+ visitNewCalls(sideEffectInfo, node);
+visitCall(node, traversal, parent, sideEffectInfo, node);
+visitCall(traverse, parent, sideEffectInfo, node);
+ visitCallOrUnaryOperator(sideEffectInfo, node);
+ switch(node.getType()):
+visitCall(sideEffectInfo, node, node.getParent);
+ switch(node.getType());
+ visitFunction(traversal, _sideEffectInfo, node);
+ visitCalls(node;
+ case Token.LOAD:
+visitCall(sideEffectInfo, node.getSecondChild()); }
+visitCall(node, traversal, parent, node);
+ visitNew(node, traversal,sideEffectInfo, node);
+ visitFunction(sideEffectInfo);
+visitCall(sideEffectInfo, node) ; } else { node = node. parent ;
+visitCall(allFunctionCalls, parent, sideEffectInfo, node);
+ switch(node.getType() { });
+ visitCalls(parent, node);
+ visitAssignmentOrUnaryOperatorRhs(sideEffectInfo, node);
+ visitAssignmentOrUnaryOperation(sideEffectInfo, node);
+visitCall(node); }
+ switch(node.getType().getName()):
+visitCall(allFunctionCalls, scope, node);
+ visitFunction(traversal, node.sideEffectInfo, node);
+ visitNewNodeLhs(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; case Token.ADD:
+visitCall(allFunctionCalls, scope, sideEffectInfo, node);
+ visitNew(node); }
+visitCall(node, traversal.getScope, sideEffectInfo, node);
+ visitCallOrNewFunctionLhs(sideEffectInfo, node);
+ visitNew(node, traversal.sideEffectInfo, node);
+ visitNew(node, parent, scope,sideEffectInfo, node);
+visitCall(traversalNode, sideEffectInfo, node);
+ visitNewFunction(node);
+ visitNew(allFunctionCalls,...node);
+ visitNew(transformer,node);
+visitCall(sideEffectInfo, scope, node);
+ visitCreate(sideEffectInfo);
+ visitNew(node, parent); } visitCall(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) break; }
+ case CALL:
+visitCall(node, root, sideEffectInfo);
+ visitNew(sideEffectInfo, subnode);
+ visitNew(node); } visitCall(sideEffectInfo, node);
+ visitCall(visitor, node);
+ visitNew(node, parent); } visitFunction(sideEffectInfo, node);
+ visitNew(traversal.sideEffectInfo, node);
+visitCall(node, traversal, sideEffectInfo, node);
+ visitNew(visitor);
+visitCall(sideEffectInfo, parent, traversal);
+visitCall(sideEffectInfo, node) ; case Token.DELPROP:
+visitCall(sideEffectInfo, node) ; break; }
+ visitAssignmentOrNewOperator(node);
+ case Token.DELMETHOD:
+visitCall(sideEffectInfo, traversal, node);
+visitCall(sideEffectInfo, node) ; } else { switch(node); }
+ visitAssignmentOrUnaryOperatorCalls(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; switch(node.getType())
+ case Token.UPDATE:
+ visitNewFunctionCallLhs(sideEffectInfo, node);
+visitCall(node.getParent(), sideEffectInfo, node);
+visitCall(node.getFirstChild()); }
+ visitFunction(traversal, subnode);
+ case Token.SET:
+ switch(node.getName());
+ visitCall(traverse,node);
+ switch(node.getType() { });
+visitCall(traversal, rootNode, node);
+visitCall(callInfo);
+ visitCallNew(node);
+ visitNew(node;
+visitCall(sideEffectInfo, node) ; } else { switch(node.type())
+visitCall(node, sideEffectInfo, node);
+ visitNew(node); } visitFunction(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; } else { switch(node) {
+ visitFunctionCall(sideEffectInfo, node);
+ visitNew(childNode);
+visitCall(allFunctionCalls, sideEffectInfo, node);
+ switch(node.getType().getValue());
+ visitCall(traverse);
+visitCall(traversal, scope, node);
+ visitCall(scope, node);
+ visitNew(visitor,node);
+ switch(node.getType())
+visitCall(sideEffectInfo, node, traversal, parent);
+ visitNew(node); visitCalls(sideEffectInfo, node);
+ visitNew(node); break;
+visitCall(sideEffectInfo, node) ; switch(node.getValue());
+visitCall(sideEffectInfo, node) ; } else { node = null ; }
+visitCall(sideEffectInfo, node) ; if (inExternals)
+ visitNewCallNode(node);
+ switch(node.getType() { }
+visitCall(sideEffectInfo, node) ; switch(node.getParent());
+visitCall(parent, sideEffectInfo, node);
+ return true;
+visitCall(childNode);
+visitCall(node.getParent(), parent, sideEffectInfo, node);
+visitCall(node, traversal, node);
+ visitFunction(traversal, node(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; case Token.LOAD:
+ visitCall(this, node);
+visitCall(sideEffectInfo, node, node.firstChild);
+ visitFunction(node);
+ visitAssignmentOrUnary(sideEffectInfo, node);
+ visitNewCallNode(sideEffectInfo, node);
+visitCall(node, node, parent, sideEffectInfo, node);
+visitCall(sideEffectInfo, scope, lhs);
+visitCall(sideEffectInfo, node, parent, node);
+ visitCallNew(sideEffectInfo, node);
+ visitCallsInFunction(sideEffectInfo, node);
+visitCall(parent, node, scope, sideEffectInfo, node);
+visitCall(sideEffectInfo, node); }
+ case Token.CALL:
+visitCall(sideEffectInfo, parent, node);
+visitCall(sideEffectInfo, node) ; case Token.GET:
+ visitCall(...);
+ visitCallOrNewFunction(sideEffectInfo, node);
+visitCall(sideEffectInfo, node) ; switch(node.type())
+visitCall(node), traversal);
+ visitFunctionCall(node);
+ visitNewFunctionCalls(sideEffectInfo, node);
+visitCall(sideEffect);
+visitCall(parent, node, parent, sideEffectInfo, node);
+ visitAssignmentOrNewFunction(sideEffectInfo, node);
+ visitFunction(node;
+ visitAssignmentOrNewCall(sideEffectInfo, node);
+ visitCalls(traverse);
+visitCall(sideEffectInfo, parent);
+visitCall(sideEffectInfo, node) ; switch(node.value())
+ case Token.INC:
+ case Token.GET:
+ traverse(parent, node);
+ case Token.LOAD:
+visitCall(sideEffectInfo, node) ; switch(node.value());
+ case Token.ADD:
+ visitCall());
+visitCall(sideEffectInfo, node) ; } }
+visitCall(sideEffectInfo, node, traversal));
+ case NEW:
+ visitNew(translator,node);
+ visitCallAndNewFunction(sideEffectInfo, node);
+visitCallNode();
+visitCall(sideEffectInfo, node) case Token.ADD:
+visitCall(sideEffectInfo, node, node);
+visitCall(sideEffectInfo, node, null);
+visitCall(node, parent);
+visitCall(sideEffectInfo, node, scope);
+ visitCall, node);
+visitCall(traverse, node, sideEffectInfo, node);
+visitCall(opNode);
+visitCall(node.getFirstChild);
+ return false;
+visitCall(sideEffectInfo, node) break;
+ traverse(sideEffectInfo, node);
+ visit(, node);
+ visitFunction, node);
+visitCall(sideEffectInfo, node) ; break; } }
+ visit(this, node);
+visitCall(traverse, node, node);
+ visitNew(node2);
+visitCall(sideEffectInfo, traversal, parent);
+ visit(root, node);
+ visit(scope, node);
+visitCall(sideEffectInfo, node) ; } } else {
+visitCall(sideEffectInfo, node, traverseNode);
+ break; }
+visitCallInfo;
+visitCall(sideEffectInfo, rootNode, node);
+visitCall(sideEffectInfo, traverseal);
+ visitCreate(node);
+visitCall(sideEffectInfo, node) ; return; }
+ visitMethod(node);
+ visitMethodCall(sideEffectInfo, node);
+visitCall(n, traversal);
+ visitMethod(sideEffectInfo, node);
+ case '(':
+ case "new":
+visitCall() ;
+visitCall(sideEffectInfo2, node);
+visitCall(sideEffectInfo, node) ; } else { }
+ traverse(node);
+ switch(switch)
+visitCall(sideEffectInfo, node) ; } } } }
+visitCall(node.firstChild);
+visitCall(sideEffectInfo, node) break; } }
+ (break);
+visitCall(sideEffectInfo), traversal);
+visitCall(sideEffectInfo, node) ; } } }
+ traverse(, node);
+visitCall(visitor);
+visitCall(versal, node);
+ case case NEW:
+ visit(*);
+visitCall(visitor, sideEffectInfo, node);
+ case CASE:
+visitCall(sideEffectInfo, rootNode);
+visitCall(sideEffectInfo, node) ; } } else { }
+ node = null;
+ visit(", node);
+visitCall(sideEffectInfo, node, rootNode);
+ visit();
+visitCall(versal, sideEffectInfo, node);
+visitCall(sideEffectInfo, node, rhs);
+ visitNew();
+visitCall(sideEffectInfo, traversal));
+visitCall(traverse, sideEffectInfo, node);
+visitCall(node, traverseInfo);
+visitCall(transformer, node);
+visitCall(sideEffectInfo), node);
+visitCall(sideEffectInfo, node, false);
+ } return true;
+ } } break;
+visitCall(Traversal, sideEffectInfo, node);
+ traverse();
+visitCall(sideEffectInfo), node;
+visitCall(scope, sideEffectInfo, node);
+visitCall(sideEffectInfo, node) break; });
+ node = parent;
+visitCall(transformer, sideEffectInfo, node);
+visitCall(caseEffectInfo);
+visitCall(Node);
+visitCallInfo);
+visitCall(sideEffectInfo), parent);
+visitCall(transversal, sideEffectInfo, node);
+visitCall(sideEffectInfo,  traverseNode);
+ } return false;
+ add(sideEffectInfo, node);
+visitCall(parent);
+visitCall(node2);
+ call(sideEffectInfo, node);
+visitCall(transformer);
+visitCall(sideEffectInfo, node) } }
+ bind(sideEffectInfo, node);
+ default:
+visitCall(raversal, sideEffectInfo, node);
+ break outer;
+ continue outer;
+ break;
+ call(node);
+ visitor(node);
+ accept(node);
+ return null;
+visitCall(inFunctionCall, node);
+visitCall(sideEffectInfo, node); });
+visitCall(sideEffectInfo, node, parentNode);
+visitCall(sideEffectInfo); });
+visitCall(sideEffectsInfo);
+visitCall(this, sideEffectInfo, node);
+visitCall(root, sideEffectInfo, node);
+visitCall(case, node);
+visitCall(sideEffectInfo, node, tsym);
+visitCall(ctx, node);
+visitCall(path, scope, sideEffectInfo, node);
+visitCall(sideEffectInfo, rhs);
+visitCall(sideEffectInfo,  node));
+visitCall(root, node);
+visitCall(sideEffectInfo,  null);
+visitCall(sideEffectInfo, node, tpl);
+visitCall(sideEffectInfo,  false);
+visitCall(info);
+visitCall(sideEffectInfo, traverseFunction);
+ } }
+visitCall(sideEffectInfo) }
+ callback(sideEffectInfo, node);
+ apply(sideEffectInfo, node);
+visitCall(sideEffectInfo, true);
+visitCall(callback);
+ return
+ }
+ break

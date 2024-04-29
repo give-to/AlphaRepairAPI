@@ -1,0 +1,318 @@
+residuals = oldRes;
+ residuals *= oldRes;
+ cost = cost;
+residuals  = null;
+ cost = 0;
+ point[tmpVec]= oldRes;
+ cost=oldRes;
+ cost = previousCost ;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); tmpVec.
+ } else { var tmpVec = new VectorialPointValuePair(point, objective);
+residuals . add ( tmpVec ) ;
+residuals = oldRes; point[cost] = tmpVec;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective, cost);
+ } else { var tmpVec = new VectorialPointValuePair(point, objective, cost); var
+ } else { var tmpVec = new VectorialPointValuePair(point, objective, residuals);
+ } else { var tmpVec = new VectorialPointValuePair(point, objective, xNorm); var
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); this.
+residuals =  newRes ;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective, residuals); var
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); tmpVec =
+residuals = oldRes; point[0] = tmpVec;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var tmpVec =
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var res = this;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var res = null;
+ } else { var oldRes = new DoubleArray ( ) ; var tmpVec = new DoubleArray ( ) ; tmpVec.
+ tmpVec *= oldRes;
+ } else {
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var tmpVec.
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var tmpVec,
+residuals = oldRes; point[cost] = cost;
+ } else {
+ } else { var oldRes = new DoubleArray ( ) ; var tmpVec = new DoubleArray ( ) ; tmpVec =
+residuals = oldRes; xNorm = xNorm ;
+ } else { var tmpVec = new VectorialPointValuePair(point, objective); var tmp
+residuals = oldRes; point[cost] = oldCost;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } } else {
+residuals = oldRes; point[cost] = newCost;
+ tmpVec = oldRes; oldRes = tmpVec; tmpVec =
+residuals =  0.0;
+ oldRes = tmpVec; } else {
+ } else { var tmpVec = new VectorialPointValuePair ( point, objective )
+residuals = oldRes.length;
+ gradients = gradients;
+residuals  = 0;
+residuals = oldRes.toArray(tmpVec);
+residuals  = [ ] ;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } else { cost = previousCost ; } } else {
+ point[cost] *= oldRes;
+residuals = oldRes; cost = previousCost;
+ tmpVec=oldRes;
+ oldRes = newRes; } else {
+ cost = cost ;
+ point [cost] = oldCost;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } else { cost = previousCost ; } }
+residuals =  newArray; newRes = oldRes;
+ point [cost] = oldX[cost];
+residuals =  newArray; newRes = tmpVec;
+ point[cost] = tmpVec;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } } else { cost = previousCost ; }
+ cost = costRelativeTolerance;
+ } else { cost = previousCost ; } else { cost = previousCost ; } } else { cost = previousCost ; } }
+ point [cost] = newCost;
+residuals =  tmpVec; oldX = oldRes;
+residuals = oldRes.copy(tmpVec);
+ } else { var oldRes = new DoubleArray ( ) ; var tmpVec = new DoubleArray ( ) ; var residuals =
+residuals = oldRes; point[0] = oldX;
+ tmpVec = oldRes; oldRes = tmpVec; tmpVec.
+residuals  [cost] = oldRes [cost] ;
+ tmpVec = oldRes; oldRes = tmpVec; } else {
+ point [cost] = cost;
+ point[cost] = tmpVec-oldRes;
+ } else { cost = prevCost ; } } else { cost = prevCost ; } } else { cost = prevCost ; }
+ point[cost] = tmpVec;oldRes;
+ oldRes = tmpVec; } } else {
+ tmpVec [ xNorm ] *= oldRes;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } } else { cost = previousCost ; } } }
+ oldRes = oldRes; tmpVec.cost = cost;
+residuals  = [0];
+ residuals [prevCost] *= oldRes;
+ point[0] *= oldRes;
+ point [cost] = xNorm;
+ prevCost = cost;
+ oldRes = tmpVec; } else { var tmpVec = point[0] ;
+ tmpVec = oldRes; tmpVec [ cost ] = point [ cost ] ;
+ point[cost] = tmpVec*oldRes;
+ } else { var oldRes = new DoubleArray ( ) ; var tmpVec = new DoubleArray ( ) ; var residuals;
+ } else { cost = prevCost ; } } else { cost = prevCost ; } } else { cost = previousCost ; }
+ oldRes = oldRes; tmpVec.cost = previousCost;
+residuals = oldRes; point[0] =
+ cost = previousCost;
+ point[cost] = tmpVec.oldRes;
+ point[cost] = oldX[cost]; }
+ newRes = newRes; tmpVec=oldRes;
+ residuals = -oldRes;
+ newRes = newRes; oldRes = cost;
+ residuals [0] *= oldRes;
+ oldRes = tmpVec; cost = cost;
+ tmpRes = oldRes; } else {
+ tmpVec = point; tmpVec *= oldRes;
+residuals = oldRes.copy(tmpVec, residuals);
+ tmpVec =
+residuals =  tmpVec; oldX = point;
+ tmpRes = cost ; } else {
+ gradients = gradients;
+ point [cost] = newX[cost];
+ oldRes = oldRes; tmpVec.cost = newCost;
+residuals  = newRes = null ;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } else { cost = previousCost ; } } } }
+ tmpVec = point; residuals *= oldRes;
+ tmpVec. xNorm [ cost ] *= oldRes;
+ cost = newCost ; } } else {
+ tmpVec [ cost ] *= oldRes;
+residuals = oldRes [ - 1 ] ;
+ oldRes = newRes; } } else {
+ point [cost] = cost;oldRes;
+residuals = oldRes; point[cost] = 0;
+ newRes = newRes; oldRes = oldRes; tmpRes =
+ tmpVec = oldRes; tmpVec = point; tmpVec = cost;
+ oldRes = newRes; cost = cost;
+ oldRes = oldRes; tmpVec = newVec;
+ oldRes = tmpVec; tmpVec = newVec;
+ point [cost] = oldX[cost] ; double
+ } else { cost = previousCost ; } } else { cost = previousCost ; } } else { cost = previousCost ; } } else
+ tmpVec = oldRes; cost = previousCost;
+ newRes = newRes; oldRes = oldRes; newRes =
+residuals  = tmpVec.length;
+ } else { cost = previousCost ; } } else { cost = previousCost ; } else { cost = previousCost ; } } else,
+ point [cost] = cost; xNorm=oldRes;
+ cost = cost ; } else {
+residuals  = newRes.length;
+residuals  = { } ;
+residuals =  tmpVec; oldX = newRes;
+ point [cost] = point[cost]*oldRes;
+ oldRes = newRes; newRes = oldRes;
+ cost =
+ } } else {
+ oldX = point[cost];
+ point[cost] = newX[cost]; }
+residuals  [cost] = oldRes[cost]; }
+ residuals [currentCost] *= oldRes;
+ tmpVec = point[cost] *= oldRes;
+ cost = newCost; newCost *= oldRes;
+residuals  [ cost ] = point[cost] ; }
+residuals =  newArray; newRes = null;
+ newRes = residuals;
+ tmpRes = newRes; } else {
+ point[cost] = xNorm; xNorm= oldRes;
+residuals  = tmpVec.cost;
+ cost = costRelativeCost;
+ point[cost]= oldRes;
+ point[cost] = xNorm; residuals= oldRes;
+ tmpVec [ cost ] [ delta ] *= oldRes;
+ point [cost] = cost*oldRes;
+ tmpVec. xNorm ( ) *= oldRes;
+ oldRes = tmpVec; tmpVec = new VectorialPointValuePair() ;
+ newRes = point;
+ oldRes = tmpVec; cost = cost + delta;
+ point[cost] = -oldRes;
+ point [cost] = oldRes.cost;
+ point [ xNorm ] = xNorm;
+ tmpVec.
+ point [cost] = xNorm; double
+ oldRes = oldRes; tmpVec = newRes;
+ cost = newCost ;
+ cost = newCost ; residuals *= oldRes;
+ oldRes = tmpVec; tmpVec = point[0] ;
+ tmpVec [ 0 ] *= oldRes;
+ point [cost] = cost; oldX=oldRes;
+ grads = grads;
+ point[cost] = oldX;oldRes;
+residuals =  newArray; oldArray = null;
+ point[cost] = cost; objective *= oldRes;
+ cost = previousCost; xNorm = -oldRes;
+ oldX = point;
+residuals = oldRes.copy(tmpVec); }
+ oldRes = tmpVec; } else { var residuals, cost;
+ point[0]= oldRes;
+ point [cost] = 0;
+ residuals = _oldRes;
+ point[tmpVec]]= oldRes;
+ point[cost] = cost; residuals= oldRes;
+ point [cost] = oldRes[cost];
+ residuals =!oldRes;
+ point [cost] = cost-oldRes;
+ residuals = &oldRes;
+ cost = previousCost ; oldX = point;
+residuals =  point[cost] + delta;
+ oldRes = oldRes; tmpVec = cost;
+ oldRes = tmpVec; } else { var tmpVec; var
+residuals  [cost] = tmpVec; }
+residuals . add ( tmpVec ) ; }
+ cost = previousCost ; xNorm = 0;
+ } } else {
+ point[cost] = oldCost*oldRes;
+ residuals [0]= oldRes;
+residuals  = tmpVec.norm;
+ cost = prevCost ;
+ residuals ^= oldRes;
+residuals =  tmpVec; oldRes = null;
+residuals  [cost] = oldRes; residuals
+ point[cost] = xNorm*oldRes;
+ point [cost] = oldX.oldRes;
+ oldRes = tmpVec; cost = cost ; } else {
+residuals =  newArray; oldArray = point;
+ cost = newCost; oldCost *= oldRes;
+ cost *= oldRes;
+ point [cost] = oldRes - cost;
+ point [cost] = oldX.length;
+residuals  = point[cost]; }
+ point [cost] = newCost; double
+ point [cost] = xNorm; }
+ point[cost] = oldRes; objective =
+residuals = oldRes.length - 1;
+residuals  = tmpVec.matrix;
+ xNorm=oldRes;
+ cost = prevCost;
+residuals  = newRes.cost;
+ tmpVec = oldRes; oldRes = tmpVec; } else,
+residuals = oldRes.get (cost);
+residuals  = tmpVec.Rows;
+ point [cost] = oldX[cost]];
+residuals = oldRes.toDoubleArray(cost);
+ cost ++;
+ point[cost] = oldRes; else {
+residuals  [cost] = tmpVec; double
+ prevCost =
+residuals = oldRes.toArray(); } }
+residuals  = tmpVec.length; }
+residuals = oldRes.toArray(point); }
+residuals = oldRes [ 0 ] ;
+residuals  [cost] = tmpVec; else
+ newRes = point.oldRes;
+ newRes = tmpVec;
+residuals = oldRes.get ( ) ;
+ oldRes = tmpVec; tmpVec = point[0] =
+residuals = oldRes; else {
+ cost = previousCost; }
+ point [cost] = point;
+ gradients = newGradients;
+residuals  = tmpVec.norm();
+ point [cost] = $oldRes;
+residuals  = [0]; }
+ point [cost] = &oldRes;
+ oldRes = tmpVec; cost = previousCost; }
+ newRes = cost-oldRes;
+ oldRes = newRes; } else
+ residuals [prevCost] ^= oldRes;
+ point [cost] = --oldRes;
+ newRes = cost*oldRes;
+ point [cost] = xNorm0;
+ oldX=oldRes;
+residuals  = tmpVec.matrix();
+ point [cost] = xNorm2;
+ oldRes = newRes; } }
+ point=oldRes;
+ tmpRes = point.oldRes;
+ newRes=oldRes;
+ residuals = point.oldRes;
+residuals  = newRes; }
+ cost = prevCost; }
+residuals =  tmpVec.length; double
+ tmpRes =
+ cost = 1;
+ cost = previousCost; }
+ else {
+ cost = newCost; }
+residuals = oldRes [ cost ] ;
+residuals  = cost;
+ cost = previousCost ; } }
+ return newRes; }
+residuals = oldRes.toArray(); }
+residuals = oldRes; }
+residuals = oldRes.toArray(); } else
+ res=oldRes;
+residuals  --;
+residuals  ++ ;
+ costs = cost;
+ return newRes; } }
+ tmpVec ^= oldRes;
+residuals  = null
+ cost += delta;
+residuals = oldRes + cost ;
+ cost = previousCost; else
+ point[cost]]= oldRes;
+ residuals |= oldRes;
+residuals  [];
+ break ; }
+ cost --;
+ res *= oldRes;
+residuals = oldRes; xNorm =
+ return cost;
+residuals = oldRes = newRes ;
+ gradients = gradients();
+ objective *= oldRes;
+ this.
+residuals = oldRes; else
+ residual=oldRes;
+ } } }
+ return ; }
+residuals = oldRes.length; }
+ --cost;
+ grads *= oldRes;
+ oldX *= oldRes;
+ solution *= oldRes;
+ prevRes =
+ return true;
+ tmpRes.
+ } }
+ cost ;
+residuals = oldRes; double
+residuals = oldRes. }
+ else
+ }
+ double
+residuals += oldRes;
+residuals -= oldRes;
+residuals!= oldRes;

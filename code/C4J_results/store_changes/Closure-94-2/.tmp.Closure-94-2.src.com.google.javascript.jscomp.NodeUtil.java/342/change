@@ -1,0 +1,734 @@
+ return true;
+ return val.getQualifiedName());
+ return defines.contains(val.getQualifiedName());
+return defines.contains(val);
+ defines.contains(val.getQualifiedName());
+ val.getQualifiedName());
+ return true);
+ return isValidDefineValue(val.getQualifiedName());
+ return isValidName(val.getQualifiedName());
+ return isValidDefineValue(val, val.getQualifiedName());
+ return true));
+ return isValidDefineValue(val);
+ return isValidName(val));
+ return isValid(val.getQualifiedName());
+ return isValidDefineValue(val));
+ return isValidName(val);
+return defines. containsKey ( val ) ;
+ return isValidName(val.getString());
+ return isValidName(val.getFirstChild());
+ return isValidNameValue(val.getQualifiedName());
+ return isName(val);
+ return isValidNameValue(val);
+ return isValidDefineValue(def,val.getQualifiedName());
+ return (val.getQualifiedName());
+ return val.isName());
+ return isValidDefineValue(val, defines);
+return defines.add(val);
+ return true; } return false;
+ return is(val));
+ return isValidDefineValue(val.getFirstChild(), defines); } else {
+ return isValidDefineValue(defines,val.getQualifiedName());
+return defines.contains(val.name);
+ return isValidDefineValue(val, defines));
+ return isName(val));
+ return isValidName(val.getString()));
+ return isValidNameValue(val));
+ return (true);
+ return true; } else { return false;
+ return isValidName(val.getString));
+ return isValidDefineValue(val.getSecondChild(), defines);
+ return isValidName(val, defines));
+ return isValidDefineValue(val.getFirstChild(), defines); }
+ return val. isName ( ) ;
+ return isValidDefineValue(val.getFirstChild(), defines);
+ return isValid(val));
+ return isValidName(val, defines);
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (define!= null) {
+return  val instanceof Name ;
+ return is(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else if (val.isQualifiedName()) {
+return defines. contains ( val. getName ( ) )
+ return isValidName(val.getLastChild());
+ return isValidName(val, defines, true);
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (definitions!= null) {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return isValidDefineValue(val); }
+ return isValidDefine(val, defines);
+return defines. containsKey ( val. name ) ;
+ return isValidDefineValue(val.getFirstChild(), defines); } else if (definitions!= null) {
+ return isValidName(getQualifiedName());
+ return isValidDefine(val, defines));
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (defines!= null) {
+ return isValidName(val.getName());
+ return isValidNameValue(val, defines);
+ return isValidDefineValue(val.getFirstChild(), defines); } default: {
+ return isValidName(val.name());
+ return isValidName(val, defines, false);
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (includeFunctions) {
+ return isValidDefineValue(val.getLastChild(), defines);
+ return isValidName(val.getNext()));
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return isValidDefineValue(val);
+ return isName(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else if (define!= null) {
+ return isValidDefineValue(val.getLastChild(), defines); } else {
+ return isValidDefineValue(val.getFirstChild(), defines); } else
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (includeDefines)
+ return isValidDefineValue(val.getSecondChild(), defines); } else {
+ return isValidName(val.getName()));
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (defines instanceof Set) {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (define) {
+return defines.contains(val.getQualifiedName())? true : false;
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (defines.contains(val)) {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return false ; } default :
+ return isValidDefine(val.getQualifiedName());
+ return isValidName ( val. getFirstChild(), defines ) ;
+return defines.contains(val.getName())? true : false;
+ return! defines.contains(val.getQualifiedName()); } else {
+ return isValidDefineValue((String)val.getQualifiedName());
+ return isValidName(val.getSecondChild());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return false ; } else {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (includeDefines) {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return isValidDefineValue(val); } }
+return defines.contains(val.getName());
+ return isValidDefineValue(val.getSecondChild(), defines); }
+ return!defines.contains(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { case Token.NAME:
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (definitions) { return true;
+ return isValidDefineValue(val.getLastChild(), defines); }
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (defines.size() > 0)
+ return isValid(val, defines));
+return defines!= null;
+return defines. containsAll ( val ) ;
+return defines. contains ( val. getName ( )));
+ return isValidDeclineValue(val, val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else if (val.isDefined()) {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if (includeFunctions)
+ return isValid(val);
+ return isValidDefineValue(define).add(val.getQualifiedName());
+ return isValidDefineValue(definitions,val.getQualifiedName());
+ return isValidDeclineValue(val, defines);
+ return isValidDeclineValue(val, defines));
+ return isValid(val.getString());
+return defines. contains ( val. getString ( ) )
+ return isValidName(val.getName));
+ return isValidDefineValue(val.getFirstChild(), defines); } else { default:
+ if (includeFunctions) return true;
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return isValidDefineValue(val); } else
+ return isValidDefineValue(val.getFirstChild(), defines); } else { } else {
+ defines.add(val.getQualifiedName());
+ return isValidName(val.nextChild));
+ return! defines.contains(val.getQualifiedName()); } default: {
+ return isValidNameValue(val, defines));
+ return isValidDefineValue(val.getSecondChild(), defines); } default: {
+ return isValidDefineValue(v1.getQualifiedName());
+ return isValidDefineValueName(val.getQualifiedName());
+ return valid(val.getQualifiedName());
+ return false; } else { return true;
+ return isValidDefineValue(val.getLastChild(), defines); } default: {
+return defines.contains(val.getName()) && val!= null;
+ return val. isValid ( ) ;
+return defines. containsAll ( val. name ) ;
+ return isValidName(val.get());
+ return isValidDefineValue()(val.getQualifiedName());
+ return (true));
+ return isValidDefineValue(val.getFirstChild(), defines);
+ return isValidDefineValue(val.getSecondChild(), defines); } else { case Token.NAME:
+ return isValidDefineValue(val.getFirstChild(), defines); } default: { default:
+ return isValidNameDefineValue(val.getQualifiedName());
+ return definedNames.contains(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } case Token.NEG:
+ val.getString());
+ return isValidDefineValue(val.getFirstChild()); } else
+ return validName(val.getString());
+ return true; } else return false;
+ return isValidDefineValue(val.__getQualifiedName());
+ return true; } else {
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return isValidDefineValue(); } }
+ return isValidName ( val, defines ) ; }
+ return isValidDefineValue(val.getFirstChild(), defines); } default: } else {
+ return validate(val);
+ return val.getQualifiedName() &&!defines.contains(val.getQualifiedName());
+ return true; } default: return isImmutableValue();
+ return isValidDefineValue(val,.getQualifiedName());
+ return isValidDeclineValue(val.getQualifiedName());
+ return isValidName ( val, defines ) ; } return false ;
+ return isValidDefineValue(val, defines());
+ return isValidDefineValue(val, defines); } else { return false ;
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return false ; }
+ return val. isValidName ( ) ;
+ return isValidName ( val. getName ( ) )
+ return isValidDefineValue(val.getFirstChild()); }
+ return isValidName(val.getText());
+ return isValidDeclineValue(defines,val.getQualifiedName());
+ return defines.set().contains(val.getQualifiedName());
+ return isValidDefineValue(val.getLastChild(), defines); } else
+ return isValidDefineValue(val.getFirstChild(), defines); } default: break;
+ return true; } } return false;
+ return isValidDefineValue(val, defines); } else { return true ;
+ return isValidDefineValue(val.getSecondChild(), defines); } else
+ return isValidName ( val, defines ) ; } return true ;
+ return isValidDefineValue(val, defines); } return true ;
+ return (!val.getQualifiedName());
+ return isValidDefineValue(val, defines); return true;
+ return isValidDefineValue(val.getFirstChild(), defines); } case Token.ISNULL:
+ return isValidDefineValue(val.getFirstChild(), defines); break;
+ return isValidName ( val. getFirstChild(), defines, val ) ;
+ return isValidName ( val. getString ( ) )
+ return isValidDefineValue(val.getFirstChild(), defines); } else { break ; }
+ return isValidDefineNameValue(val.getQualifiedName());
+ return isValidDefineValueImpl(val.getQualifiedName());
+ return isValidDefineValue(val, defines); }
+return defines. containsKey ( val ) ; }
+ return isValidName(val,... defines);
+ return isValidDefineValue(val.getFirstChild(), defines); } else { break;
+ return isValidDefineValue(def).add(val.getQualifiedName());
+return defines.containsAll(val.getChildren()); return true;
+ return is(val);
+ return validateName(val.getFirstChild());
+ case Token.NAME:
+ return validate(val.getQualifiedName());
+ return validateName(val.getString());
+ return isValidNameValue(val, val.getQualifiedName());
+ return isValidDefineValue(val.getNextChild(), defines); }
+ return isValidName(getName());
+ return defines[0].contains(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return true ; }
+ return isValidDefineValue(val.getFirstChild(), defines); } case Token.EXPR:
+return defines.contains(val
+ return isValidDefineValue(val,defines.contains(val.getQualifiedName());
+ return validName(val.getFirstChild());
+ return isValidDefineValue(variant.getQualifiedName());
+return defines. add ( val )
+ return isValidDeclineValue(val));
+ return isValidDeclineValue(val);
+ return!val.getQualifiedName());
+ return isValidDeclineValue(def,val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return true ; } else
+ return val. isString ( ) ;
+ return isValidDefineValue(declines,val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { return false ; } else
+ return isValidDefine(val, val.getQualifiedName());
+ return isValidDefineValue(block,val.getQualifiedName());
+ return name(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } else { return false;
+ return val.isQualifiedName(); } else {
+ return isValidDefineValue(val.getNext(), defines); }
+ return isValid(val.name());
+ return isValidDefineName(def,val.getQualifiedName());
+ return isValidDefineValue(val, defines); } else {
+ return isValidDefineValue(val.get());
+ return isValidDefineValue(define).has(val.getQualifiedName());
+ return isValidName ( val, defines ) ; } break ;
+ return isValidName(val, defs);
+ return true; } else { return defines.contains(val.getQualifiedName());
+ return isValidDefinePropertyName(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) || defines.contains(val.name);
+ return isValidName ( val. getFirstChild(), defines ) ; break;
+return defines.contains(val.getQualifiedName(true)) ; } else { return false;
+ return valid(val);
+ return isValidDefineValue(val.getFirstChild(), defines); } }
+return defines. contains ( val. getName ) ;
+ return valid(val.getString());
+ return isValidDefineValue(def).has(val.getQualifiedName());
+ return true; } default: { return false;
+ return isValidDefineValue(val.getSecondChild()); } else
+return defines. contains ( val. name ) ; }
+ return isValidDefineValue(val.getLastChild()); } else
+ return isValidDefineValue(val, _defines.contains(val.getQualifiedName());
+ return true; } else { return!defines.contains(val.getQualifiedName());
+ return isValidDefineValue(val.getSecondChild()); }
+ return isValidName ( val, defines )
+ return true; }
+return defines.contains(val.getName()) || true;
+ return validName(val.getQualifiedName());
+ return defines.keys()[0].contains(val.getQualifiedName());
+return  true; } }
+ return isValidDefineValueForName(val.getQualifiedName());
+ return isValidDefine(val));
+ return true; } else { case Token.NEG:
+ return true; } else { return - 1;
+return defines.addAll(val.getChildren()); break;
+ return isValidNameNode(val);
+return defines.containsAll(val.getChildren()) == true;
+return defines.contains(val.getQualifiedName()) && val!= null;
+return defines.contains(val.getName()) || defines.size > 0;
+return defines.contains(val.getName()) || return true;
+ return isValidDefineValue(val.getNextChild(), defines); } else
+ if (define.contains(val)) {
+ return isValidName(val, defines); break;
+ return includes && includes. stream ( ).contains(val.getQualifiedName());
+ return isValidDefine(val);
+ return isValidDefineValue(val,!defines.contains(val.getQualifiedName());
+ return isValidDefineName(val.getQualifiedName());
+ return isValidDefineValue(define).get(val.getQualifiedName());
+return defines.contains(val.getQualifiedName(true)) ; } else { return true;
+ return isValidName ( val, defines ) ; return true ;
+ return isValidPropertyValue(val.getQualifiedName());
+ return isValidDefineValue(val, defines); } else
+ val.getName());
+ return isValidNameValue(val,!val.getQualifiedName());
+ return val.getQualifiedName()&&defines.contains(val.getQualifiedName());
+return  val. valid ( ) ;
+ return val!= null;
+ return defines.size == 1 && defines.contains(val.getQualifiedName());
+ return false; } return true;
+ return true; } else { return false ; } else {
+return defines.contains(val.getQualifiedName()) ; } else { return true;
+return defines.contains(val.getQualifiedName()) || true;
+ return val.isString());
+ return isValidDefineValue(val, defines); } }
+ return isValidName(val); } else {
+ return true; } else { return false ; } default:
+ return isValidPropertyName(val.getQualifiedName());
+ return defines.size() == 1 && defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) || defines.equals(val);
+ return isValidDefineName(val);
+ return isValidDecline(val.getQualifiedName());
+ return isValidPropertyName(val);
+ return isValidDefineValueInDefines(val.getQualifiedName());
+ return true; } else { if (includeDefines) {
+return defines.contains(val.getQualifiedName()) || defines.contains(val).name;
+ return val.isIdentifier());
+ return defines.size() > 0 && defines.contains(val.getQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); } else { if ( defines!= null ) { }
+ return isValidNameNode(val));
+ return isValidDefineValue(val)&&defines.contains(val.getQualifiedName());
+return  val. isName ( )
+return defines.contains(val.getName()) || defines.empty() ;
+ return isValidDefineValueWithName(val.getQualifiedName());
+ if (val.isEmpty()) { return true;
+return defines.containsAll(val.getChildren()) || true;
+ return isValidPropertyValue(val);
+ return val.isQualifiedName());
+ return isValidDefineValue(val.getFirstChild(), defines); }
+ return isValidName(val, val.getQualifiedName());
+ return isValidDefineValue(val.getNext()); } else
+ return defines.size() == 0 || defines.contains(val.getQualifiedName());
+ return true; } else { return false ; } }
+return defines.contains(val.getQualifiedName()) || defines.contains(val.name());
+ return isValidDefineValue(val.getFirstChild(), defines); } default: }
+ return val.isNameValid());
+return defines == val;
+ return validName(val, defines));
+ return isValidDefineValue(val),!defines.contains(val.getQualifiedName());
+ return isValidDefineValue(new Name(val.getQualifiedName());
+return defines. contains ( val ) ; }
+ return isValidDefineValue(val.getFirstChild(), defines); } default: break; }
+return defines.contains(val.getQualifiedName()) || defines.size() > 0;
+ return true; } else { case Token.NAME:
+ return isValidDefineValue(val.getSecondChild(), defines); }
+ return true; break;
+return defines.contains(val.getQualifiedName()) ; } else { return false ; } }
+ return isValidDefineValue(val); } else
+return defines.containsAll(val.getChildren()); break;
+return defines.containsAll(val).length;
+ return isValidDefineValueInDef(val.getQualifiedName());
+return defines.equals(val.getName());
+ return isValid(val.get());
+ return!this.defines.contains(val.getQualifiedName());
+ return isValidDefineValue(val).defines.contains(val.getQualifiedName());
+ return isNameValid(val.getQualifiedName());
+return defines.contains(val.getName()) && val.isName();
+return defines.contains(val.getName())? true : false ; } }
+ return true; return false;
+ return defines.size > 0 && defines.contains(val.getQualifiedName());
+return defines.containsAll(val.getChildren()) == false;
+ return (Boolean)!defines.contains(val.getQualifiedName());
+ return val.isValidName());
+ return isValidName(val, definesSet);
+return defines.contains(val.getName())? true : false ; break;
+return defines. contains ( val )
+ return isValidName(val, defines), true;
+ return isValidDefineName(val));
+return defines.containsAll(val.getChildren()).length;
+ return isValidName(val, defines, true;
+return defines.contains(val.getString()).length;
+return defines.size();
+ return isValidNames(val, defines);
+ return (boolean)defines.contains(val.getQualifiedName());
+ return true; else { return false;
+return defines.contains(val.getQualifiedName())? true : false ; } return false ;
+ val.getNext());
+ if (define!= null) {
+ return this.defines.contains(val.getQualifiedName());
+ return defines.keys(val).contains(val.getQualifiedName());
+ return isValidNameDefine(val.getQualifiedName());
+return defines.contains(val.getName()) || false;
+ return false; } else {
+ return isValidSimpleName(val.getQualifiedName());
+ return includes && includes. stream ( ). _contains(val.getQualifiedName());
+ return isValidDefineValue(val),defines.contains(val.getQualifiedName());
+ return validate(val));
+return defines.contains(val.getQualifiedName()) ; } else { return true ; } }
+ return isValidName(val, defines); defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } default: return false;
+ return valid(val));
+return defines.contains(val.getQualifiedName()) || defines.size > 0;
+ return isValidDefineValueInDefine(val.getQualifiedName());
+ return defines.add(val.getQualifiedName());
+ return defines.set.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName())? true : false ; } break;
+ return val.isExpr());
+ return (Boolean)defines.contains(val.getQualifiedName());
+ if (includeNames) return true;
+return defines.contains(val.getQualifiedName(true)) ; } else { return true ; }
+return  val. isDefined();
+ return isValidDefineValue(defines.contains(val.getQualifiedName());
+ val.getNextChild(); return true;
+ return isMutableValue(val.getQualifiedName());
+ return isValidName(val) && defines.contains(val.getQualifiedName());
+ return defines.size() == 0 ||! defines.contains(val.getQualifiedName());
+ return defines.names.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } default: return false; break;
+ return isValidName(val, defines), false;
+ return val.getFirstChild()!= null;
+ return true; } else { return false; } default: {
+return defines.contains(val.getQualifiedName())) ; } default: return false; break;
+ return defines.size() == 1 &&! defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()); return true;
+ return defines.getSet ( ).contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) || defines.equals(val).name;
+ return (isName(val));
+ return!(Boolean)defines.contains(val.getQualifiedName());
+ return -1;
+ if (true) return true;
+return defines.contains(val.getName()).length;
+ val.getParent());
+return defines.addAll(val.getChildren()); } }
+ return name(val);
+ return true; } else { { return false;
+return  val. isNameValid();
+return defines.contains(val.getQualifiedName()) && val instanceof Name;
+ return true; } } return true;
+ return NodeUtil.defines.contains(val.getQualifiedName());
+return defines.contains(val.getFirstChild().getName());
+ return defines.size == 0 || defines.contains(val.getQualifiedName());
+ return true());
+return defines.contains(val.getName()) || return false;
+ return (bool)defines.contains(val.getQualifiedName());
+return  true; } break;
+ return (boolean)!defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } else { return val instanceof Name ;
+ case Token.NEG:
+ return isValidName(defines, defines).contains(val.getQualifiedName());
+ return val.getFirstChild() == val;
+ return defines[0].name.contains(val.getQualifiedName());
+ return val.getFirstChild!= null;
+ return defines.getSet(0).contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName(true)) ; } else { return false ; }
+return defines.contains(val.getQualifiedName())? true : false ; } return true ;
+ return validName(val.getString));
+ return includeFunctions && defines.contains(val.getQualifiedName());
+ return defineNames.contains(val.getQualifiedName());
+ return names[0].contains(val.getQualifiedName());
+ return false; } else { return!defines.contains(val.getQualifiedName());
+ return isValidDefineValueInDefinition(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } else { return false ; break ;
+ return defines.keys(true).contains(val.getQualifiedName());
+return defines.contains(val.getName()); } else { return false ; }
+return defines.contains(val.getQualifiedName()) || return true;
+return defines.equals();
+return defines.contains(val.getQualifiedName()) ; } else { return false ; }
+ return isValidDefineValueForPropertyName(val.getQualifiedName());
+ return defines.getSet(val).contains(val.getQualifiedName());
+ return true; } else { defines.contains(val.getQualifiedName());
+ return isString(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) ; } else { return true ; }
+ return valid());
+ return isString(val));
+ return val.isQualifiedName(); } else
+return defines.contains(val.getQualifiedName()) ; } return true ;
+ return val.isDeclaration());
+return defines.contains(val.getQualifiedName()) ; } else { break;
+ return ok(val);
+ return isValidDefineNameInDef(val.getQualifiedName());
+ return nodeUtil.defines.contains(val.getQualifiedName());
+ return val.isName(def);
+ return isString(val);
+return defines.contains(val.getQualifiedName()) ; } return false ;
+ return validNameDefineValue(val.getQualifiedName());
+ val.getValue());
+ val.getFirstChild());
+return defines.contains(val.getQualifiedName())? true : false
+ return true; } else { return false;
+ return isNameValid(val);
+ return val.getName() &&!defines.contains(val.getQualifiedName());
+ return isNameValue(val);
+return defines.contains(val.getQualifiedName(true)) ; } else { break;
+return  val instanceof Declaration ;
+return defines.contains(val.getQualifiedName()) == true;
+ return isName());
+return defines.contains(val.getQualifiedName(true)) ; } return false;
+ return true; } else { return false; }
+return defines.contains(val.getQualifiedName()) return true;
+ return isNameValid(val));
+ return true; } else { break ; default:
+return defines.contains(val.getName()) ; }
+return defines.contains(val.getQualifiedName(true)) ; } return true;
+ return isValidDefineValueInDeclaration(val.getQualifiedName());
+ return IsValidDefineValue(val.getQualifiedName());
+return defines.contains(val.getName())? true : false ; }
+ return validateName(val.getQualifiedName());
+ return "names" + defines.contains(val.getQualifiedName());
+return defines.containsAll(val.getChildren()); } }
+return defines.contains(val.getString()).length();
+ return isValidValue(getQualifiedName());
+ return true; } else
+return defines.contains(val).length;
+return defines.contains(val.getQualifiedName())? true : false ; } }
+ return isValidProperty(val.getQualifiedName());
+return defines. contains ( val. name));
+ return validName(val);
+return defines.containsAll(val).length();
+ return defines.getSet(...).contains(val.getQualifiedName());
+ case true; return false;
+ return!(boolean)defines.contains(val.getQualifiedName());
+ return validate(val, defines));
+ if (define.contains(val))
+return defines.remove(val);
+return defines.size > 0;
+ return (Boolean) this.defines.contains(val.getQualifiedName());
+ return includeNames &&! defines.contains(val.getQualifiedName());
+ return isDefineValue(val.getQualifiedName());
+ return validNameValue(val.getQualifiedName());
+ return defines.name.contains(val.getQualifiedName());
+ return includeNames && includeNames.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()).length > 0;
+ return false; }
+return defines. contains val ;
+ return isValidValue(val.getQualifiedName());
+ return isValidName(val, defines); } }
+return defines.containsAll(val.getChildren()) ; }
+ return true; } else { return _defines.contains(val.getQualifiedName());
+ return false; } else { defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) || includeFunctions;
+ return includes &&! defines.contains(val.getQualifiedName());
+ return val.isValid());
+return defines.containsKey(val.getName()) ; }
+return defines.contains(val.getQualifiedName()) || false;
+ return defines.keys().toString().contains(val.getQualifiedName());
+ return!(bool)defines.contains(val.getQualifiedName());
+ return val.getName());
+ return _defines.contains(val.getQualifiedName());
+return defines.size == 1;
+ define.add(val.getQualifiedName());
+return defines.contains(val.name());
+ return val.isName(_);
+ return defs.contains(val.getQualifiedName());
+ return true; } default: {
+ return defines.stream( ).contains(val.getQualifiedName());
+ return true; } return true;
+ return defines.size(0).contains(val.getQualifiedName());
+ defines.addAll(val.getQualifiedName());
+ return false; } else { return _defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()); } } return true ;
+return defines.contains(val.getQualifiedName()) || val == null;
+ return (Boolean) (defines.contains(val.getQualifiedName());
+ return definedNodes.contains(val.getQualifiedName());
+ return isValid(getQualifiedName());
+return defines.contains(val.getQualifiedName(true)) || return true;
+ return defines[0].names.contains(val.getQualifiedName());
+ return isValidDefineValue(val); }
+ return defines && defines.contains(val.getQualifiedName());
+ return validName(val));
+return defines.length;
+ return includes && includes [ 0].contains(val.getQualifiedName());
+ return!(Boolean)!defines.contains(val.getQualifiedName());
+return defines.contains(val).name;
+ return name(val));
+return defines.contains(val.getQualifiedName()) && val instanceof Declaration;
+return defines.contains(val).value;
+ val.set(def);
+return defines.contains(val.getQualifiedName()) || return false;
+return defines. containsKey ( val. name));
+return defines.contains(val.getQualifiedName( ))!= null;
+ val.setName(val.getQualifiedName());
+ if (true) break;
+ definitions.add(val.getQualifiedName());
+ return true;
+ case Token.NODE:
+return defines.contains(val.getQualifiedName(true)) ; return true;
+ val.remove());
+ val.clean());
+ return true; } else { default:
+ return val.isName() ; } else
+ return true; } else { break; }
+return defines ; }
+return defines.addAll(val.getChildren()); }
+ return check(val.getQualifiedName());
+ { return true;
+ val.get());
+return defines.containsKey(val.name());
+ return includes && includes && defines.contains(val.getQualifiedName());
+ case Token.NS:
+ return val == undefined;
+ case Token.EXPR:
+return defines.contains(val.getQualifiedName()) && val instanceof Name();
+return defines.contains(val.getQualifiedName(true)) ; } break;
+return defines.size;
+ return defines[0]().contains(val.getQualifiedName());
+ return true; } else { break;
+ return validate());
+ return true; } else { return false ; } }
+return defines. contains ( )
+return defines.contains(val.getQualifiedName(true)) == true;
+ return!(String)definedNames.contains(val.getQualifiedName());
+ return (true)defines.contains(val.getQualifiedName());
+ return!defineNodes.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()); return false;
+ return isValidDefineValue(val); } {
+ return hasValidDefineValue(val.getQualifiedName());
+return defines.contains(val.getQualifiedName())) || return true;
+return defines.emptySet();
+ return definesByName.contains(val.getQualifiedName());
+ return val == val;
+ case Token.SET:
+ val.set(def));
+ return includes && includes.names.contains(val.getQualifiedName());
+ validate(val));
+return defines.equals(val.getName()); }
+return defines.empty() ;
+ return context.defines.contains(val.getQualifiedName());
+ return "namespace:".contains(val.getQualifiedName());
+ return val == null;
+return defines.contains(val.getFirstChild().getName);
+ return true; } default: return false; }
+ return true;));
+return defines.contains(val.getQualifiedName(), true);
+return defines.contains(val.getName()) && val!= null.
+ return defines.values.contains(val.getQualifiedName());
+ return false; } default: {
+ return!(Boolean) (defines.contains(val.getQualifiedName());
+ val.check());
+return defines.contains(val.getQualifiedName( )) == false;
+return defines.contains(val.getQualifiedName(true));
+return defines.contains(val.getQualifiedName()).length;
+ return val.isEmpty(); } else
+return defines.contains(val.getQualifiedName()); break;
+ return "(val);
+return defines.contains(val.getQualifiedName())) || return false;
+ return "(val));
+return defines.equals(val.getString()); }
+return  true; } break
+ return false; } else
+ return def.defines.contains(val.getQualifiedName());
+ return "name "+defines.contains(val.getQualifiedName());
+return defines.equals(val.getName();
+return defines!= null
+ break; }
+return defines.equals(val.getName);
+ return!defineDefines.contains(val.getQualifiedName());
+return defines.contains(val.getString()); }
+return defines.contains(val.getQualifiedName()).true;
+return defines.contains(val.getQualifiedName()) ; } default: return false; }
+ return '( ');
+return defines. containsAll(val.getName()); }
+ name(val.getQualifiedName());
+ return!self.defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()).1;
+return defines.contains(val.value);
+return defines.contains(val.getQualifiedName(true)); break;
+ return m_defines.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()).length();
+return defines.contains(val.getQualifiedName()).*();
+ return contains(val.getQualifiedName());
+ return defines.setcontains(val.getQualifiedName());
+ return node.defines.contains(val.getQualifiedName());
+ return!defineDefinitions.contains(val.getQualifiedName());
+return defines.contains(val.getQualifiedName()) && val!= null
+return  true; }
+return defines.contains(val.getString())); }
+ return includes &&!includes.contains(val.getQualifiedName());
+return defines.containsAll(val.children()); }
+return defines.contains(val.getQualifiedName(...));
+ return false;
+return defines.contains(val.getValue()); }
+return defines.containsAll(val.children); }
+return defines.addAll(val); }
+return defines.contains(val.getQualifiedName()) ||!def;
+ return (!nil);
+return defines.contains(val.getQualifiedName())? true : false; }
+return defines.equals(val); }
+return defines.contains(val.getName();
+return defines.contains(val.getText()); }
+return defines.contains(val.getQualifiedName() || val.getName()); }
+ return false));
+return defines.containsKey(val.name); }
+ return ok());
+return defines.add(val); }
+ return!true;
+return defines.containsAll(val); }
+return defines.contains(val.getQualifiedName()) ; }
+return defines.contains() ;
+ return true; } default: }
+return defines.contains(val.value()); }
+ return true; } else { {
+ return!false;
+return defines.contains(val.name()); }
+return defines.contains(val.getQualifiedName(val).getString()); }
+return defines.contains({ val
+return defines.contains(val.getParent()); }
+return defines.contains(val.getQualifiedName(true)); } }
+return defines.contains(val.getQualifiedName(true)) ; }
+ return define.contains(val.getQualifiedName());
+return defines.contains({ val);
+return defines.contains(val.getQualifiedName(false)); break;
+ return + true;
+return defines.contains(val.getQualifiedName() || val.getValue()); }
+ return defines(val.getQualifiedName());
+ default:
+return defines == {
+return defines. containsKey(val));
+return defines.contains({ val});
+return defines.remove(val); }
+return defines.size++;
+ return is());
+ return definitions.contains(val.getQualifiedName());
+ validate(val.getQualifiedName());
+return defines.contains(val));
+return defines.contains(val.getQualifiedName()); } }
+ return def.getQualifiedName());
+ return v.getQualifiedName());
+return defines.contains(val.getQualifiedName()) break;
+return defines.contains(val.value());
+ return names.contains(val.getQualifiedName());
+ return defined.contains(val.getQualifiedName());
+return defines.contains(val.data);
+return defines.length
+return defines!= {
+ define.contains(val.getQualifiedName());
+ return false);
+ return *defines.contains(val.getQualifiedName());
+ break;
+ if (defines.contains(val.getQualifiedName());
+ m_defines.contains(val.getQualifiedName());
+ switch val.getQualifiedName());
+ returns val.getQualifiedName());
+ (val));
+ validate.getQualifiedName());
+ def.getQualifiedName());
+ return (getQualifiedName());
+return  false; }
+return defines.contains(val)); }
+ switch());
+ definitions.contains(val.getQualifiedName());
+ return false;
+return defines.contains(val.getQualifiedName(false)); }
+ (true);
+return defines.contains(val.getQualifiedName(val)); }
+return defines.contains(val.getQualifiedName(...)); }
+ case true);
+return defines.contains(nil);
+ defined.contains(val.getQualifiedName());
+return defines.contains(def);
+ throw val.getQualifiedName());
+ declarations.contains(val.getQualifiedName());
+return  True;
+ return includes.contains(val.getQualifiedName());
+return  true();
+return defines.contains(val.getQualifiedName())); }
+ case true;
+return defines.contains(val.getQualifiedName()).*
+return defines.contains(val.getQualifiedName();)
+ default():
+ {

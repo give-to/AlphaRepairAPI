@@ -1,0 +1,157 @@
+ this. rows. add ( value ) ;
+ this. rows. add ( rowKey, value ) ;
+ this. rows. add ( rowKey ) ;
+ this. rows. add ( rowKey, columnKey ) ;
+ this. rows. add ( rowKey, value )
+ this. rows. add ( rowIndex, rowKey, columnKey ) ;
+ this. rows. add ( rowIndex, value, columnKey ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; return this ; }
+ this. rows. add ( rowIndex, value, columnKey ) ; }
+ this. rows. add ( value, rowKey, columnKey ) ; return this ;
+ this. rows. add ( rowIndex, rowKey, columnKey ) ; }
+ this. rows. add ( rowIndex, rowKey, value ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( rowKey ) ;
+ this. rows. add ( rowIndex, value, columnKey )
+ this. rows. add ( ) ;
+ this. rows. add ( rowIndex, value ) ; } }
+ this. rows. add ( rowIndex, columnKey ) ;
+ this. rows. add ( rowKey, value ) ; } }
+ this. values. add ( value, rowKey, columnKey ) ; }
+ return value ; }
+ this. values. add ( value, rowKey, columnKey ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; return ( Number ) value ; }
+ this. rows. add ( rowIndex, value ) ; return this ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( rowKey ) ; }
+ this. rows. add ( rowKey, value, columnKey )
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, rowKey, columnKey )
+ this. rows. add ( value ) ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. clear ( ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, rowKey ) ; }
+ this. rows. add ( value, rowKey, columnKey, null, null ) ;
+ this. rows. add ( rowIndex, value ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; return value ; }
+ this. rows. add ( value, rowKey, columnKey ) ; return this ; } }
+ this. rows. add ( value, rowKey, columnKey ) ; return this. rows ;
+ this. rows. add ( value, rowKey, columnKey ) ; return ( Number ) value ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( row ) ;
+ this. values. add ( value, rowKey, columnKey )
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; return true ;
+ this. rows. add ( rowKey, rowKey, columnKey ) ; }
+ this. rows. add ( rowIndex, value ) ; return this ; }
+ this. add ( value ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, columnKey ) ;
+ this. rows. add ( rowKey, rowKey, columnKey, value ) ;
+ this. rows. add ( value, rowKey, columnKey, null ) ; }
+ this. rows. add ( rowIndex, rowKey ) ;
+ return this. rows. add ( value, rowKey, columnKey ) ; } else { throw new IllegalArgumentException ( ) ;
+ return value ;
+ this. rows. add ( value, rowKey, columnKey ) ; return null ; } } ;
+ this. rows. add ( rowIndex, value ) ; return rowIndex ;
+ this. rows. add ( value, rowKey, columnKey ) ; return value ;
+ this. rows. add ( value, rowKey, columnKey ) ; } }
+ } else { throw new UnknownKeyException("Unrecognised rowKey: " + rowKey + "."); }
+ } else { throw new UnknownKeyException ( "Unrecognised rowKey: " + rowKey + " " + columnKey ) ;
+ this. rows. add ( row, value ) ;
+ this. rows. add ( value, rowKey, columnKey, null ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( rowKey, value ) ;
+ } else { throw new UnknownKeyException("Unrecognised rowKey: " + rowKey); } } ;
+ this. rows. add ( value, rowKey, columnKey ) ; return value ; } }
+ this. rows. add ( rowIndex, rowKey ) ; return rowKey ;
+ } else { throw new UnknownKeyException ( "Unrecognised rowKey: " + rowKey + " " + columnKey ) ; }
+ this. rows. add ( value, rowKey, columnKey ) ; } else { throw new UnknownKeyException ( ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; return value ; } } ;
+ this. rows. add ( value, rowKey, columnKey ) ; return ( Number ) value ; } }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, rowKey ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; } else { throw new IllegalArgumentException ( )
+ this. rows. add ( value, rowKey, columnKey ) ; return ( Number ) value ; } } ;
+ this. rows. add ( value, rowKey, columnKey ) ; return null ; } }
+ this. rows. add ( rowKey, value ) ; return this ;
+ this. rows. add ( value, rowKey, columnKey, null ) ; return this ;
+ this. rows. add ( value, rowKey, columnKey ) ; return this. rows ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. sort ( ) ;
+ return this. rows. add ( value, rowKey, columnKey ) ; } else { throw new IllegalArgumentException ( ) ; }
+ this. rows. add ( rowIndex, value ) ; }
+ this. rows. add ( value, rowKey, columnKey ) ; return true ; }
+ this. values. add ( value, rowKey ) ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( rowIndex ) ; }
+ } else { throw new UnknownKeyException("Unrecognised rowKey: " + rowKey + " + columnKey); }
+ this. rows. add ( value, rowKey, columnKey ) ; return null ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( rowIndex ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; } else { throw new IllegalArgumentException ;
+ this. rows. add ( value, rowKey, columnKey ) ; return this ; } } ;
+ this. rows. set ( rowKey, value ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, rowKey, ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. sortRowKeys = true
+ return this. rows. add ( value, rowKey, columnKey ) ; } else { throw new IllegalArgumentException ( )
+ } else { throw new UnknownKeyException ( "Unrecognised rowKey: " + rowKey ) ; } return value ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rowKeys = rowKeys ;
+ this. values. add ( value ) ; }
+ this. rows. add ( value )
+ } else { throw new UnknownKeyException("Unrecognised rowKey: " + rowKey + " " + columnKey + ")" ;
+ this. rows. add ( value, rowKey, columnKey ) ; } else { throw new UnknownKeyException ; }
+ this. rows. add ( value, rowKey, columnKey ) ; this. rows. remove ( value, rowKey, column ) ;
+ this. rows. add ( value, rowKey, columnKey ) ; this. sortRowKeys ++ ;
+ this. rows. add ( value, rowKey, columnKey ) ; return null ; } return this ;
+ this. rows. add ( value, rowKey, columnKey ) ; return null ; } return null ;
+ this. rows. put ( rowKey, value ) ;
+ this. values. add ( value, rowKey ) ;
+ }
+ this. values. add ( value ) ;
+ } else { throw new UnknownKeyException("Unrecognised rowKey: " + rowKey + "." ) ;
+ this. addValue ( ) ;
+ this. values. add ( value, columnKey )
+ this. addValue ( value ) ;
+ this. rows. add ( rowIndex, value )
+ this. rows. add ( value, row ) ;
+ setValue ( value, columnKey ) ;
+ this. values. add ( value )
+ setValue ( value, rowKey ) ;
+ this. rows. add ( value, ) ;
+ return value ; } }
+ setValue ( value, rowKey, null )
+ } } else {
+ this. add ( ) ;
+ return value + columnKey ;
+ return null ; }
+ setValue ( value ) ; }
+ setValue ( value, columnKey )
+ return this ; }
+ return value + columnKey ; }
+ this. addValue ( value )
+ this. rows = rows ;
+ return ( Number ) value ; } } ;
+ this. values = value ;
+ return ;
+ return value ; } } ;
+ } } ;
+ return value + 1 ;
+ return null ; } }
+ } } } else {
+ return value ; }
+ return - 1 ;
+ } }
+ return this ; }
+ return this ;
+ value = newValue ;
+ return value ; } }
+ return null;
+ return true ;
+ return ( ) ;
+ return ; }
+ return null ; } }
+ } },
+ } } {
+ return this ; } }
+ return ; } }
+ } } ; } ;
+ } } } ;
+ } }
+ } else {
+ } ;
+ }
+ } else
+ return ;
+ return }
+ *
+ };

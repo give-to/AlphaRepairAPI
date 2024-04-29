@@ -1,0 +1,575 @@
+ Preconditions.checkState(column >= 0);
+conditions.checkState(column >= 0);
+ checkState(column >= 0);
+ lineNumber>= 0);
+Preconditions.checkState(column >=  lines.size);
+Preconditions.checkState(columnNumber >= 0);
+ assert(column >= 0);
+Preconditions.checkState(column >= 0, lineNumber);
+ Preconditions(column >= 0);
+ lines.remove(0);
+ Preconditions.check(column >= 0);
+Preconditions.checkState();
+ lines.remove(lineNumber);
+Preconditions.checkState(column >=  0, "unexpected", column);
+ int index = 0;
+ assert lineNumber>= 0);
+Preconditions.checkState(column >= 0, "unexpected:%s", column);
+Preconditions.checkState(lineNumber < lines.size);
+ Preconditions.checkState(lineNumber <= column);
+Preconditions.checkState(columnNumber >= lines.size);
+Preconditions.checkState(lineNumber < lines.size() - 1);
+ lines.remove(line);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); }
+Preconditions.checkState(lineNumber <= lines.size);
+ Preconditions.checkState(line >= 0);
+Preconditions.checkLineNumber(column);
+Preconditions.checkState(lineNumber <= lines.size());
+Preconditions.checkState(column >= 0
+Preconditions.checkState(column >= 0, column);
+Preconditions.checkState(column >= 0) ; return getMapping ( column ) ;
+ List < Entry > entries = lines. get ( lineNumber ) ;
+Preconditions.checkState(lineNumber <= lines.size() - 1);
+Preconditions.checkState(empty);
+Preconditions.checkState(column >=  0, "unexpected:%s");
+ Preconditions.checkState(lineNumber < lines.size);
+ Preconditions.checkState(lineNumber < column);
+ Preconditions.checkState(lineNumber-column >= 0);
+Preconditions.checkState(column >= 0) ; return getMapping ( lineNumber ) ;
+Preconditions.checkState(lineNumber < lines.size());
+ Preconditions.checkState(column >= 0);
+ Preconditions.checkArgument(column >= 0);
+Preconditions.checkLineNumber(lineNumber);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(line); }
+ Preconditions.checkState(column >= 0;
+Preconditions.checkState(column >=  lines.size());
+ Iterator < Entry > entries = lines. iterator ( ) ;
+Preconditions.checkState(column >= 0) ; return getMappingForLine ( ) ;
+ List < Entry > entries = lines. get ( lineNumber - 1);
+ Iterator < Entry > entries = lines. get ( line ) ;
+Preconditions.checkState(column <= lines.size);
+ Preconditions.checkState(lineNumber >= 0);
+Preconditions.checkState(column  <= lines.size() - 1);
+ Preconditions.checkState(lineNumber < lines.size());
+ List < Entry > entries = lines. get ( line ) ;
+ Preconditions.checkState(line < 0);
+ Preconditions.checkState(line <= 0);
+Preconditions.checkState(column >=  0, "unexpected:%s", column
+ Preconditions.checkState(column + 1>= 0);
+ return getOriginalMapping(lineNumber);
+ Preconditions.checkState(lineNumber <= lines.size() - 1);
+Preconditions.checkState(column >=  0, "unexpected:column");
+ Preconditions.checkState(lineNumber>= 0);
+ Preconditions.checkState(lineNumber <= 1);
+Preconditions.checkState(column >= 0) ; return getMapping ( ) ;
+ return getOriginalMappingForLine ( lineNumber, column ) ; }
+ return getOriginalMappingForLine(lineNumber);
+Preconditions.checkState(column >= 0) ; return getMapping ( line ) ;
+ Preconditions.checkState(lineNumber < 1);
+ Iterator < Entry > entries = lines. get ( 0 ) ;
+Preconditions.checkState(column >= 0) ; return getOriginalMapping ( column ) ;
+ Preconditions.checkState(line);
+ return lines.get(lineNumber);
+ int lineNumber = 0;
+ Preconditions.checkState(lineNumber <= lines.size()) ;
+ lines.add(line);
+ Preconditions.checkState(lineNumber < lines.size() && column >= 0);
+ Preconditions.checkState(lineNumber <= lines.size(column));
+Preconditions.checkState(column >=  0, "unexpected:", column);
+ Preconditions.checkState(lineNumber+column >= 0);
+ Preconditions.checkState(line.column >= 0);
+Preconditions.checkState(column <= lineNumber);
+ Preconditions.checkState(lineNumber <= lines.size() && column >= 0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); };
+ List < Entry > entries = lines. get ( lineNumber -- ) ;
+ PreconditionState(column >= 0);
+Preconditions.checkState(columnNumber <= lines.size);
+ Preconditions.checkState(line --);
+ Iterator < Entry > lines = lines. iterator ( ) ;
+ Preconditions.checkState(column--;
+ List < Entry > entries = lines. get ( ) ;
+ int lineNumber = lines.get(lineNumber);
+ Preconditions.checkState(lineNumber);
+Preconditions.checkState(columnNumber >= lineNumber);
+ lines.add(lineNumber);
+ Preconditions.checkState(Preconditions.checkState(column >= 0);
+ List < Entry > entries = lines. get ( 0);
+ return getPreviousMapping(lineNumber);
+Preconditions.checkState(column  >= 0, "unexpected:lineNumber");
+ lineNumber = lines.get(lineNumber);
+Preconditions.checkState(column  >= 0, "unexpected, column");
+ return getMapping ( lineNumber ) ;
+ Preconditions.checkState(columnNumber -->= 0);
+ List < Entry > entries = newList ( ) ;
+ int lineNumber = lines.get(lineNumber - 1);
+ Preconditions.checkState(lineNumber < lineNumber) ;
+ Iterator < Entry > lines = lines. get ( 0 ) ;
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(0); }
+ List < Entry > entries = lines. get ( lineNumber ++ ) ;
+ Preconditions.checkState(line == 0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(line); };
+ Preconditions.checkState(line+column >= 0);
+ Preconditions.checkState(lineNumber < lines.size() - 1) ;
+ lineNumber = lines.get(0);
+ Iterator < Entry > entries = lines. get ( lineNumber);
+ Preconditions.checkState(line-column >= 0);
+ Preconditions.checkState(column --);
+ Preconditions.checkState(lineNumber <= lineNumber) ;
+ return getOriginalMapping ( lineNumber ) ; }
+ if (lines.get(lineNumber) == null) { return getPreviousMappingLineNumber(); }
+ Preconditions.checkState(column);
+Preconditions.checkState(column >=  0, "unknown column");
+Preconditions.checkState(column >= 0, "unexpected" );
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } else { return null; }
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else { return null; }
+ if (column < 0) { Preconditions.checkState(column >= 0);
+ Preconditions.checkState2(column >= 0);
+Preconditions.checkState(column >= 0) ; return getPreviousMapping ( column ) ;
+Preconditions.checkLineNumber(line);
+ lines.set(line, null);
+ Preconditions.checkState(lineNumber.column >= 0);
+Preconditions.checkNumber(column >= 0);
+ Preconditions.checkState(lineNumber -->= 0);
+ Line lines = lines.get(lineNumber);
+ return getMapping ( line ) ;
+ Preconditions.checkState(lines).get(column >= 0);
+ if (column >= 0) { Preconditions.checkState(column >= 0);
+Preconditions.checkState(column >= 0) ; return getPreviousMapping(lineNumber);
+ Preconditions.checkState(column - 1>= 0);
+ Iterator < Entry > lines = lines. iterator ( )
+ int index = lines.get(0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber)); }
+Preconditions.checkState(column >= - 1);
+ int index = lineNumber - 1;
+ lines.remove(line, column);
+ return lines.get(0);
+ Preconditions.check(>= 0);
+ return getMappingForLine(lineNumber);
+Preconditions.checkState(column <= lines.size());
+Preconditions.checkState(column >= 0) ; return getPrevious ( column ) ;
+Preconditions.checkState(column >=  0, "unknown:%s");
+ Preconditions.checkState(lineNumber < lines.size()) and
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } else {
+ lines=lines.get(lineNumber);
+ lines.set(line, 0);
+ int index = lines.get(lineNumber);
+Preconditions.checkIndex(lineNumber);
+ Iterator < Entry > entries = getIterator ( ) ;
+Preconditions.checkPosition(column >= 0);
+ Preconditions.checkState(lineNumber <= lines.size()) and
+ int lineNumber = lines.get(0);
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else {
+Preconditions.checkState(column >=);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } if (column < 0)
+ Preconditions.checkLine >= 0;
+Preconditions.checkState(column >= 0) ; return getOriginalMapping ( ) ;
+Preconditions.checkState(column >= 0) ; return getOriginal ( ) ; }
+ if (column >= 0) Preconditions.checkState(column >= 0);
+Preconditions.checkState(column >=  0, "missing column");
+Preconditions.checkState(columnNumber >= -1);
+ Preconditions.state(column >= 0);
+ lines.put(lineNumber, lineNumber);
+ return getOriginalMapping ( ) ;
+Preconditions.checkState(column >= 0) ; return getMapping ( 0 ) ;
+ int index = lines.get(lineNumber;
+ int index = lines.getIndex(0);
+ int index = line - 1;
+ return getOriginalMapping ( line ) ;
+Preconditions.checkState(columnNumber <= lineNumber);
+ int lineNumber = lineNumber ;
+ Preconditions.checkState.checkState(column >= 0);
+ lines.set(lineNumber, line);
+ lines.set(lineNumber, lineNumber);
+ if (column < 0) Preconditions.checkState(column >= 0);
+Preconditions.checkState(column >= 0) ; return getPreviousMapping ( ) ;
+ Preconditions.checkState(lineNumber).checkState(column >= 0);
+ lines.put(lineNumber, line);
+ Line lines = lines.getLine(0);
+ lines.put(line, null);
+ Preconditions.checkState(lineNumber<(column >= 0);
+Preconditions.checkState(true);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } else
+ Preconditions.checkState(lineNumber <= column) and
+Preconditions.checkState(lineNumber < column) ;
+Preconditions.checkState(column  <= lines.get(lineNumber)) ;
+Preconditions.checkState(column >= 0) ; return getPrevious ( line ) ;
+ int index = lines.get(lineNumber+0);
+ return getMapping ( ) ;
+ Preconditions.checkState(lineNumber <= lines.size(column)) and
+ int index = lines.get(lineNumber-0);
+ Preconditions.checkLineNumber();
+ Preconditions.checkState(preconditions.checkState(column >= 0);
+ lines.set(lineNumber);
+ lines.removeFirst(0);
+Preconditions.checkLine(line);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } if (empty) {
+ int lineNumber = lines.getLineNumber(0);
+ Preconditions.checkState(lineNumber < column) and
+ if ( lines. get ( lineNumber ) == null ) { return getPreviousMapping ( lineNumber ) ; } } else {
+ int index = - 1;
+ Preconditions.checkState(lineNumber <= lines.size() && column >= 1);
+ int index = lines.get(lineNumber,0);
+ Preconditions.checkStateCheckState(column >= 0);
+ Preconditions.checkLineNumber >= 0;
+Preconditions.checkLineNumber();
+ if (lines.get(lineNumber)!= null) { return getOriginalMapping(lineNumber); } else {
+ Preconditions.assert(column >= 0);
+Preconditions.checkState(column  >= 0, "bad line number");
+ int index = lineNumber;
+ int index = lineNumber.get(0);
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else
+ int lineNumber;
+ Preconditions.checkState(); Preconditions.checkState(column >= 0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } if (skip) {
+ Preconditions.checkLine(line);
+ Preconditions.checkState(column++;
+ Preconditions.checkState(lineNumber <= lines.size() - 1) and
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else { return null };
+ Preconditions.checkState(lineNumber <= column) &&
+Preconditions.checkPosition(column);
+ lineNumber = lines.get(line+0);
+ Preconditions.checkState(lineNumbercolumn >= 0);
+ Preconditions.checkState(lineNumber+(column >= 0);
+ int index = lines.get(lineNumber)-;
+ Line lines = lines.get(line, column);
+Preconditions.checkState(column >= 0) ; return ( OriginalMapping ) {
+Preconditions.checkState(column >= 0) ; int index = 0 ;
+ int index = lines.get(line-1);
+Preconditions.checkState(column >=  0, "negative column");
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); };
+ Preconditions.checkState(lineNumber < lines.size() && column >= 0)
+ Preconditions.checkState(lineNumber_column >= 0);
+Preconditions.checkState(column >=  0, "unknown:column");
+ int index = lines.getLineIndex(0);
+ Preconditions.checkState(column-column >= 0);
+ Line lines = lines.get(0);
+ Preconditions.checkState(lineNumber*column >= 0);
+ lineNumber = lines.getFirst(0);
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else { return ; }
+ Preconditions.checkState(lineNumber < lines.size() - 1) and
+ int index = lines.get(lineNumber++);
+Preconditions.checkState(lineNumber <= lines.size(column)) ;
+Preconditions.checkState(false);
+Preconditions.checkState(column >=  0, "bad column");
+ Preconditions.checkState(lineNumber <= lines.size() && column >= 0)
+ Preconditions.checkState(lineNumber-(column >= 0);
+ assert(lineNumber>= 0);
+ int index;
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else { return null }
+ Line lines = lines.get(lineNumber0);
+ Preconditions.checkState(lines.get(column >= 0);
+ Precondition.check(column >= 0);
+ int index = lineNumber(0);
+ lines = lines.get(lineNumber - 1);
+ Preconditions.Preconditions.checkState(column >= 0);
+ Preconditions.(column >= 0);
+ Preconditions.checkArgument2(column >= 0);
+ int lineNumber = lines.getLine(0);
+Preconditions.checkState(column >= 0) ; return originalMapping ;
+ Preconditions.checkState(0);
+ Preconditions.checkState(colNumber>= 0);
+ lineNumber = lines.get(line-0);
+ checkLine(line);
+ int lineNumber = line(0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } else,
+Preconditions.checkState(column >= 0, "missing");
+ int offset = lines.get(lineNumber);
+ Preconditions.conditions.checkState(column >= 0);
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber); } else:
+ if (column >= 0)conditions.checkState(column >= 0);
+Preconditions.checkState(column >= 0, "negative");
+ lineNumber -= lines.size(0);
+ int index = lines.get(line + 1);
+Preconditions.checkState(column >= 0) ; return getOriginal ( ) ;
+ return getFirstLine ( ) ;
+ int lineNumber = lines.get(0,0);
+ Preconditions(columnNumber>= 0);
+Preconditions.checkState(column >= 0) ; int lineNumber = 0 ;
+ List<Entry> entries = lines[lineNumber;
+ Preconditions(lineNumber>= 0);
+Preconditions.checkState(column --);
+ int lineNumber = lineNumber(0);
+ Preconditions.checkState1(column >= 0);
+ int index = lines.size - 1;
+ lines.removeElement(0);
+ Preconditions.checkState(checkState(column >= 0);
+ Preconditions.checkNotNull(column >= 0);
+ Preconditions.validateState(column >= 0);
+ Preconditions.checkcolumn >= 0);
+ Preconditions.preconditions.checkState(column >= 0);
+ Preconditions.checkState(lineNumber < lineNumber) and
+ Conditions.checkState(column >= 0);
+ int index--;
+Preconditions.checkState(column <= lines.size(0);
+ Preconditions.checkState(empty;
+ lineNumber = lineNumber(0);
+Preconditions.checkState(column  >= 0, "unexpected, column);
+ lines = lines.get(line, column);
+ Preconditions.checkLineNumberIsValid(column >= 0);
+ if (column > 0) Preconditions.checkState(column >= 0);
+ Preconditions.checkLineNumber;
+ lineNumber.set(0);
+ int index = lineNumber - column--;
+ Preconditions.checkStateSameLine(column >= 0);
+ if (lines.get(lineNumber) == null) { return getPreviousLineNumber(); };
+ if (lines.get(lineNumber) == null) { return getPreviousLineNumber(); } else
+ Preconditions.checkArgument4(column >= 0);
+ Preconditions.checkLineNumber++;
+ Preconditions.proconditions.checkState(column >= 0);
+ if (lines.get(lineNumber)!= null) { return getPreviousMapping(lineNumber); } else { }
+ int index = lineNumber--;
+Preconditions.checkState(column >= 0) ; if (empty) {
+ List<Entry> lines = lines(column>= 0);
+ return lines.get(line);
+ Preconditions.checkState(lineNumber <= lines.size() && column >= 0); else
+ Preconditions.checkStatePreconditions.checkState(column >= 0);
+ Precondition.state(column >= 0);
+Preconditions.checkState(column >= 0) ; return null ; }
+ if (lines.get(lineNumber) == null) { return getPreviousMapping(lineNumber) ; } else.
+ if (column >= 0) {
+ lines.removeLast(0);
+Preconditions.checkState(lineNumber < lines.size()");
+ if (lines.get(lineNumber) == null) { return getPreviousLineNumber(); } #
+ Preconditions.checkState(lineNumber <= lines.size()) && column >= 0; else
+ int expectedLineNumber = lineNumber;
+ Preconditions.checkState(lineNumber <= lines.size() && column >= 0);;
+ int expected = lineNumber ;
+ Preconditions.checkState(conditions.checkState(column >= 0);
+ Preconditions.checkState(lineNumber <= lines.size() && lineNumber <= column); else
+ Precondition(column >= 0);
+ int index++;
+ Preconditions.checkState.validState(column >= 0);
+ Preconditions.checkState(line).checkState(column >= 0);
+ Preconditions.checkLineNumberIsZero(column >= 0);
+ Preconditions.checkState(lineNumber <= lines.size()) && column >= 0;;
+ lineNumber = floor(line);
+Preconditions.checkState(column >= 0) ; return mapping ; }
+ Preconditions.Postconditions.checkState(column >= 0);
+ lineNumber = (int)0);
+ Preconditions.checkState(lineNumber <= lines.size() && lineNumber <= column); #
+ List<Entry> entries = entries(column>= 0);
+ int expected = lineNumber - 1;
+ Preconditions.checkState.and(column >= 0);
+Preconditions.checkState(column >= 0) ; int lineNumber = column ;
+ Preconditions.check(line);
+ int index = line + 1;
+ setLine(0);
+Preconditions.checkState(column  < lines.size);
+ if (column < 0)conditions.checkState(column >= 0);
+ Preconditions.proconditions().checkState(column >= 0);
+ Preconditions.checkState(lines).checkState(column >= 0);
+Preconditions.checkState(column >= 0, "unexpected"");
+ Preconditions.checkColumn>= 0);
+Preconditions.checkState(columnNumber >= 0)
+Preconditions.checkState(lineNumber <= column);
+ int index = line + column;
+Preconditions.checkState(lineNumber < lines.size()) {
+Preconditions.check (line);
+ entries.remove(0);
+ Preconditions.condition(column>= 0);
+ int offset = 0;
+Preconditions.checkState(column <= 0);
+Preconditions.checkState(column >= 0) { return null; }
+Preconditions.checkState("");
+Preconditions.checkState(column Number >= lines.size());
+Preconditions.checkState(lineNumber);
+Preconditions.ALL
+Preconditions.OFF
+ Preconditions.checkState(line --)
+ Preconditions.unnecessaryConditions().checkState(column >= 0);
+Preconditions.checkState(column >= 0", lineNumber);
+ lines.get(line);
+ int index = lines.get(column >= 0);
+ Preconditions.properConditions.checkState(column >= 0);
+ if (column > 0)conditions.checkState(column >= 0);
+Preconditions.checkState(column  >= 0, "unexpected:lineNumber);
+ lines.remove(1);
+Preconditions.checkState(column >= 0) ; int lineNumber ;
+ Preconditions.check('>= 0);
+ lines.add(0);
+ int index = 1;
+ int index = lines.search(column >= 0);
+ if (column) Preconditions.checkState(column >= 0);
+Preconditions.checkState(column >= 1);
+Preconditions.checkState(column < 0);
+ return getPreviousMapping(lineNumber); }
+ Preconditions.checkState(lineNumber);checkState(column >= 0);
+ Preconditions.checkCheckState(column >= 0);
+Preconditions.checkState(column >= 0) throws IOException {
+Preconditions.checkState(");
+Preconditions.checkState(column >= 0) ; return null ;
+ Preconditions.equals.checkState(column >= 0);
+ if (lineNumber < 0 || column>= 0);
+ if (lineNumber < 0 && column>= 0);
+ int position = 0;
+Preconditions.true();
+Preconditions.CHECK();
+ Preconditions.checkState().checkState(column >= 0);
+Preconditions.checkState(column > 0);
+ assert(columnNumber>= 0);
+ line.remove(0);
+ Preconditions.State(column >= 0);
+ int found = 0;
+ Pconditions.checkState(column >= 0);
+ Preconditions.checkState(lineNumber)checkState(column >= 0);
+Preconditions.ALL;
+ int index = lines.size(column >= 0);
+ checkLine (#);
+Preconditions.checkState(column >=  lines.size()");
+ Preconditions.logical.checkState(column >= 0);
+ Preconditions.validState(column >= 0);
+Preconditions.checkState(line);
+Preconditions.CHECK;
+ assertState(column >= 0);
+Preconditions.True();
+ if (lineNumber>= 0);
+ if (lineNumber -->= 0);
+ if (column>= 0);
+ Preconditions.and(column >= 0);
+ checkLine(0);
+Preconditions.checkState(column >= 0) ; int index = 1 ;
+ if (column >= 0)
+ Precondition.condition(column >= 0);
+ if (column < 0) {column>= 0);
+ assertLineNumber(column>= 0);
+Preconditions.validate();
+Preconditions.noException();
+ PrecheckState(column >= 0);
+Preconditions.checkLine();
+Preconditions.checkOpen();
+ if (lineNumber < 0)
+ if (lineNumber > 0)
+Preconditions.checkState(...)
+ if (column > 0) {column>= 0);
+ Precondition(lineNumber>= 0);
+ seek(0);
+ return get(0);
+ line.add(0);
+Preconditions.checkState(column >=  lineNumber--);
+Preconditions.checkState(column >= 0xFFFF);
+ assertLineNumber>= 0);
+ assert(column + 1>= 0);
+Preconditions.checkState(columnNumber >= 1);
+Preconditions.checkState(column >= 0) { return null;
+ Preconditions.checkState() ;
+ Precondition.assert(column >= 0);
+ Preconditions.checkLineNumber++;
+Preconditions.checkState(column >= 0) < 0;
+Preconditions.checkState(column >= 0.0);
+ return null;
+Preconditions.checkState(column >=  lines.length);
+Preconditions.checkState(column >= 0, 0);
+ setColumn(0);
+ int index0;
+ column--;
+ Preconditions.checkLineNumber;
+ check(line);
+ PreconditionsState(column >= 0);
+ checkColumn(column);
+ return getLine();
+Preconditions.checkState(column >= 0), lineNumber);
+ Preconditions.condition.checkState(column >= 0);
+ Preconditions.self_checkState(column >= 0);
+Preconditions.checkState(column >= 0) == 0;
+ int column = lines.get(column >= 0);
+ skip(0);
+ Functions.checkState(column >= 0);
+ Preconditions.check(Column>= 0);
+ printLineNumber);
+ Preconditions.checker.checkState(column >= 0);
+ Preconditions.validator.checkState(column >= 0);
+ Precondition.checkState(column >= 0);
+Preconditions.checkState(0);
+ checkLineNumber(_);
+ setPosition(0);
+Preconditions.checkState(column  >= 0, "unknown column";
+ Preconditions.self.checkState(column >= 0);
+ Preconditions.DependencyCheck.checkState(column >= 0);
+ if (line > 0)
+Preconditions.DEBUG
+Preconditions.checkState(column >= 0) { return null };
+ int index = 0;
+Preconditions.checkState(column  >= 0, "unknown column")
+ Preconditions.pre-checkState(column >= 0);
+ validateLineNumber);
+ Preconditions.self().checkState(column >= 0);
+Preconditions.CHECK
+Preconditions.checkState(column >= 0, lineNumber));
+Preconditions.checkState(column >= 0xffff);
+ Check checkState(column >= 0);
+Preconditions.checkState(column >= 0) == column;
+ return (0);
+ if (column >= 0) then
+itions.checkState(column >= 0);
+ if (!empty) {
+Preconditions.checkState(column ++);
+ else { Preconditions.checkState(column >= 0);
+ sort(0);
+Preconditions.true
+ Preconditions.uncheckState(column >= 0);
+ if(column >= 0);
+ search(0);
+ line--;
+ if (column >= 0).
+ PreconditionCheck(column >= 0);
+ IPreconditions.checkState(column >= 0);
+Preconditions.checkState(column >= 0) ; try {
+ })();
+Preconditions.checkState(notEmpty);
+ if (empty) {
+ Precond.checkState(column >= 0);
+Preconditions.checkState(column >= 0) < column;
+Preconditions.checkState(col --);
+ if (!emptyLine)
+ Postconditions.checkState(column >= 0);
+ check(column >= 0);
+ assertTrue(column >= 0);
+ int index = 1;
+ Preconditions.precheckState(column >= 0);
+ (column>= 0);
+ Preconditions2.checkState(column >= 0);
+ final Preconditions.checkState(column >= 0);
+. Preconditions.checkState(column >= 0);
+ else: Preconditions.checkState(column >= 0);
+ assertThat(column >= 0);
+ else, Preconditions.checkState(column >= 0);
+ else. Preconditions.checkState(column >= 0);
+ trim();
+ CheckState(column >= 0);
+Preconditions.checkState(column >=  0) {
+ trimLine);
+ (++);
+LineNumber>= 0);
+ } else Preconditions.checkState(column >= 0);
+Preconditions.checkState(column >=  0)
+ Preconditionitions.checkState(column >= 0);
+ validate(column >= 0);
+ trimline);
+ preconditions.checkState(column >= 0);
+Linenumber>= 0);
+ Preconditions#checkState(column >= 0);
+Preconditions.checkState(column >=  0); }
+ I18n.
+Preconditions.checkState(column >=  0).
+Preconditions.checkState(column >= 0) --;
+ I18N:
+ I18n;
+ I18n:
+ Preconditionals.checkState(column >= 0);
+ checkArg(column >= 0);
+ I:O:
+Preconditions.checkState(column >=  0));
+Preconditions.checkState(active);
+Preconditions.checkState(column >= 0) --();
+ Conditions#checkState(column >= 0);
+ } else {
+ while(column >= 0);
+Preconditions.checkState(column >= 0;");
+ FunctionscondcheckState(column >= 0);
+Preconditions.checkState(column >= 0) --++;
+Preconditions.checkState(column >= 0;)
+Preconditions.checkState(column == 0);
+ } else,
+ };
+;

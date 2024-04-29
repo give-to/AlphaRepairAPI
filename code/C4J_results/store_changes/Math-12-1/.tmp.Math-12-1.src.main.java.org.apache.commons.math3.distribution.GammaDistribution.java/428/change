@@ -1,0 +1,384 @@
+return scale * d * v;
+return scale * d *  u;
+return scale *  u;
+ return -scale * d * v;
+ return -d * v;
+ return scale * x2*v;
+ return -v;
+ continue;
+ return scale * u*v;
+ return scale*v;
+ return scale * x2;
+return  scale * u * u;
+ return scale * u + d* v;
+ return scale * d * x2;
+ return scale * d * x2*v;
+ if (FastMath.log(u) < 0.5 * x2 + d)
+ if (FastMath.log(u) > 0.5 * x2 + d) {
+ if (FastMath.log(u) < 0.5 * x2 + d) {
+ if (FastMath.log(u) > 0.5 * x2 + d)
+ return scale * u * x2*v;
+ if (FastMath.log(u) < 0.5 * x2) {
+ if (FastMath.log(u) > 0.5 * x2) {
+ if (FastMath.log(u) < 0.5 * x2 + d * (1 - v))
+ return scale * x2+d * v;
+ return scale * x2 * u;
+ return scale * u + d * x2*v;
+ if (FastMath.log(u) < 0.5 * x2 + d * v) {
+ return scale * u * x2 + d* v;
+ if (FastMath.log(u) > 0.5 * x2 + d * v) {
+ return 0;
+ return scale * u * x2;
+ if (FastMath.log(u) < 0.5 * x2 + d * (v))) {
+ if (FastMath.log(u) < 0.5 * x2 + d * (v)) {
+ return scale * d * u + v;
+ return scale * u + x2*v;
+ if (FastMath.log(u) > 0.5 * x2)
+ if (FastMath.log(u) < 0.5 * x2)
+ if (FastMath.log(u) < 0.5 * x2 + d * v)
+ if (FastMath.log(u) > 0.5 * x2 + d * v)
+ if (FastMath.log(u) > 0.5 * x2 + d * (1 - v))
+ if (FastMath.log(u) < 0.0331 * x2 + d * x2) {
+ return scale * u*d * v;
+ if (FastMath.log(v) < 0.5 * x2 + d * x2) {
+ return 1 - scale* d * v;
+ if (FastMath.log(v) < 0.5 * x2 + d * (1 - v))
+ return scale * d * x2 + u;
+ return scale * d * u + x2;
+ if (FastMath.log(u) > 0.0331 * x2 + d) {
+ if (fastMath.log(u) < 0.5 * x2) {
+ if (FastMath.log(v) < 0.5 * x2 + d) {
+ if (FastMath.log(u) < 0.5 * x2 + d * v)) {
+ if (fastMath.log(u) > 0.5 * x2) {
+ if (FastMath.log(v) < 0.5 * x2 + d)
+ if (FastMath.log(u) > 1 - x2) {
+ return scale * d * u - v;
+ if (FastMath.log(u) < 1 - x2) {
+ return scale * d * v; } else if (u > 0.0331 * x2 + d * x2) {
+ if (FastMath.log(u) < 0.0331 * x2 + d)
+ return 0.5 * x2 + scale* d * v;
+ if (FastMath.log(u) > 0.5 * x2 + d * v)) {
+ return scale * d * u + x2*v;
+ return scale * d * v; } else if (u > 0.0331 * x2 * x2) {
+ return scale * d * v; } else if (u > 0.0331 * x2 + d * v) {
+ return scale * d * v; } else if (u < 1 - 0.0331 * x2 + d * x2) {
+ return scale * d * u*v;
+ return scale * d * v; } else if (u > 1 - 0.0331 * x2 + d * x2) {
+ return scale * u + d * u*v;
+ return scale * u + d * u;
+ return scale * u + 1 - scale*d * v;
+ if (FastMath.log(u) > 0.5) {
+ if (FastMath.log(u) < 0.5) {
+ if (FastMath.log(u) > 0.5 * d)
+return scale  * u * x2 + d * u;
+ return scale * d * v; } else if (u > 0.0331 * x2 + d * (1 - v)) {
+ return scale * d * u + d* v;
+ if (FastMath.log(u) < 0.5 * d)
+ return scale * d * v; } else if (u > 0.0331 * x2 * x2 + d * v) {
+ return scale * d * v; } else if (u < 1 - 0.0331 * x2 * x1) {
+ if (FastMath.log(u) > 1 - 0.5 * x2)
+ return 0.5 * x2 + -scale* d * v;
+ if (FastMath.log(u) < 1 - d * x2) {
+ if (FastMath.log(u) < 1 - 0.5 * x2)
+ return scale * d * u; continue;
+ if (FastMath.log(u) > 1 - v) {
+ return scale * u * x2 + scale* d * v;
+ return scale * u + scale*d * v;
+ return scale * u + d * u + d* v;
+ if (FastMath.log(u) > 0.5 * v)
+ return scale * x2 + u* v;
+ return 0.0331*scale * d * v;
+ if (FastMath.log(u) > x2) {
+ return scale * d * u; } else {
+ return scale * d * v; } else if (u > 1 - 0.0331 * x2 * x1) {
+ return -1;
+ if (0.5 * x2 + d * (1 - v))) {
+ return scale * u * x2 + u;
+ return x2*v;
+ return scale * d * u * x2;
+return scale * d * v + u * u;
+ return scale * d * v; } else if (u > 0.0331 * x2 + d * 1 - v) {
+ return scale * u - x2*v;
+return scale * d  * u + d * x2;
+ return scale * d * u + scale * d* v;
+ return scale * d * v; } else if (u > 0.0331 * x2 * x1) {
+ return scale * d * v; } else if (u > 1 - 0.0331 * x2 * v) {
+ return scale * u + 1 - d* v;
+ if (FastMath.log(u) < 1) {
+ return scale * u - d* v;
+ if (FastMath.log(u) < 1 - v) {
+ return scale * u * u + d * u;
+ return scale * d * v ; } else if ( u > 0.0331 * x2 * x2 * x2) {
+ return scale * u * x2 * x2;
+ return scale * d * u * u;
+ return scale * x2-d * v;
+ if (FastMath.log(u) < 1 - d * v) {
+ return scale * d * v; } else if (u < 1 - 0.0331 * x2 * v) {
+ return scale * u + x2 + d* v;
+ return scale * d * u * x2*v;
+ return 1 - 0.0331*scale * d * v;
+ return -1* v;
+ return scale * u * x2 + u* v;
+ return scale * d * v; } else if (u > 1 - 0.0331 * x2 * x) {
+ return scale * u * x2 + d;
+ return scale * d * u + d * u;
+return scale * d * v; continue;
+ return scale * u + x2*d * v;
+return scale * d  * u * x2 + d * u;
+ return scale * x2*d * v;
+ if (FastMath.log(u) > 1) {
+ if (0.5 * x2 + d * (1 - v)) {
+ if (1 - v < x2) {
+ if (FastMath.log(u) < 0.5)
+ if (0.5 * x2 + d * x2) {
+ return scale * x2 + u;
+return scale * d * v; } else { return scale * u;
+ return scale * d * v; } else if (u > 0.0331 * x2 + d * u * v) {
+ if (FastMath.log(u) < 1 - v)
+ return scale * u * u + d * v;
+ return scale * u * x + x2*v;
+ return scale * d * u + u * v;
+ return scale * x2 + scale* d * v;
+ return scale * d * u; } else
+return scale * d * v ; } else { continue;
+ return scale * u - 1 - scale*d * v;
+ return scale * u + 1 - x2*d * v;
+ if (FastMath.log(u) > 1 - v)
+ if (FastMath.log(u) < 0) {
+ return scale * u + 1 + scale*d * v;
+ return scale * u * x + scale * u* v;
+ return scale * d * u - u * v;
+ return scale * 1 - scale*d * v;
+ return scale * u * u * u;
+ return scale * u * x2 + -d* v;
+ if (0.5 * x2 + d * u) {
+ return scale * u * u + d;
+return scale * d *  u ; } else { return scale * u ;
+ return scale * u - 1 - d* v;
+ return scale * u * x2 + -1* d * v;
+ return 1 - 1 - scale* d * v;
+ return scale * u * x + d*v;
+ return scale * u + d * 1 - u* v;
+return scale * d  * u * x2 + u;
+return scale * d * v + u * x2;
+ return scale * d + u* v;
+ return scale * x2 + 1 - scale*d * v;
+ if (FastMath.log(u) > 0) {
+ if (0.5 * x2 < u) {
+return scale * d * v ; } else { return scale * d ;
+return scale * d *  u ; } else { return scale * d ;
+ return -1 - scale* d * v;
+ return scale * u + x2 + scale* d * v;
+ return scale * u + -scale*d * v;
+return scale * d * v; } else { return scale * v;
+ if (1 - v < 0.5) {
+return scale * d  * u * x2 + v;
+ if (1 - v < 0.5 * x2)
+ return x2;
+ return 1 - 0.0331* d * v;
+ return 1 - 1.0331*scale * d * v;
+ return scale * u + 1 - x2-d * v;
+ return scale * d * u - 1-v;
+ return 0.0331* d * v;
+ return scale * u + 0.5* d * v;
+ return scale * u * x2 - scale* d * v;
+return scale  * u * u * x2 + d;
+ return 0.5 * u + scale* d * v;
+ return 1 - x2* d * v;
+ return 0.5 * x2 + 1-scale * d * v;
+ return scale * u * d + d* v;
+ return 0.5 * x2 + u*scale * d * v;
+ return scale * u + 1 - x2+d * v;
+ return scale * 1 - u* v;
+ return scale * d * u + scale * d* d * v;
+ return 0.5 * x2 + d*scale * d * v;
+ if (0.5 * u < x2) {
+ if (1 - v > x2) {
+return scale * d  * u - x2;
+ return 0.5* d * v;
+ return 0.0331 * u* d * v;
+ return 1 - u + -scale * d * v;
+return scale * d  * u * x2 + u * v;
+return scale * d  * u + d * u * x2;
+ if (u < x2) {
+ return -1 + scale* d * v;
+ return scale * d * u * u*v;
+ if (0.5 * x2) {
+return scale * d *  u + d * x2 * x2;
+ return 1 - 0.5* d * v;
+ return scale * d * u; }
+ return u;
+ return scale * u - scale*d * v;
+return scale * d  * u * x2 + u * u;
+ return -1-v;
+ return scale * 1 + scale*d * v;
+ return 1 - 0.0331 * -scale * d * v;
+ if (1 - v < 0) {
+ return 1 - scale * u*d * v;
+ return 0.0331 * -scale * d * v;
+ if (d < 1 - v) {
+ return scale * u * x2 + -scale* d * v;
+ return scale * u + 1 - 0.5* d * v;
+ return u*v;
+ if (d < 0.5) {
+ return 1 - 0.0331 * u*scale * d * v;
+ return scale * scale*d * v;
+ if (d < x2) {
+return scale * d  * u + d * v; continue;
+return scale * d * v * x2 + u * u;
+ if (u > x2) {
+return scale * d  * u + d * u + v;
+ if (U < 0.5 * x) {
+ return 0.5 * x2 - -scale * d * v;
+ return scale * u + -d * v;
+ return scale * -d * v;
+return scale * d * v + u;
+ if (1 - v < d * u) {
+ return scale * u + 1.0* d * v;
+ return scale * d * v; } else if (u > 1 - 0.0331 * x2 * x2) { else
+ return 1 - 0.0331 * xscale * d * v;
+ if (1 - v < 1 - d) {
+ return 0.5 * x2-scale * d * v;
+return scale * d  * u; break;
+ return scale * x2 + -scale* d * v;
+ return scale * d * v; } else
+return scale * d  * u + d * u; continue;
+return scale * d * v ; } else { return scale * u ; }
+ if (1 - v < 0.0331) {
+ if (0.5 * u < v) {
+return scale * d * v ; } else { break;
+ return 0.5 * x2 + u-scale * d * v;
+return scale * d * v + u * u; continue;
+ return -scale* v;
+ return d* v;
+ if (u < 0) {
+return scale * d * v + u * x2 * u;
+ return scale * d * u;
+ return scale * u + x2;
+ if (d <= v) {
+return scale * d * v + u * x2 + u;
+ return scale * d * u; else
+ return 1 - -scale * d * v;
+ return 1 - u - -scale * d * v;
+ return 1 + scale* d * v;
+ return 1 - u * -scale * d * v;
+ return 1 - u + 1-scale * d * v;
+ return 0.0331* v;
+ return scale * u ; } else
+ return 0.0331
+ return scale * u * u; }
+return scale * d * v * x2 + u * v;
+return scale * d * v ; } else { return scale * d ; }
+ return 0.0331;
+ return 0.5*scale * d * v;
+ return -scale*u;
+ return 1 - u*scale * d * v;
+return scale * d * v + u * u; break;
+ return scale * u * x2; }
+ if (1 - v < 0.5 * u)
+return scale * d * v + u * x2 ; continue;
+ return 1 - u - 1-scale * d * v;
+return scale * d * v - u * u;
+return scale * d * v; break;
+ if (v <= 0)
+ return 1 - 1 - 1-scale * d * v;
+ return + scale*d * v;
+ return x2+scale * d * v;
+ return -1*scale * d * v;
+ return scale * -1*v;
+ return scale * -1-v;
+ return scale * u; }
+ return scale * d;
+ return 1 - x2+scale * d * v;
+ return scale * c * u;
+ return 0.0
+ return 1 - u-scale * d * v;
+ return 1 - u;
+ return x2+d * v;
+return scale * d * v * u + u;
+ return u + -scale * d * v;
+return scale * d * v; } continue;
+ if (true) {
+ if (1 - v < 0.5 * u){
+ break;
+ return 1;
+return scale * d  * u + d * x2; }
+return scale *  u + d * u * x2; }
+ if (v < 0)
+ if (u < 0)
+ return scale * u; else
+ return scale * c*v;
+ if (v) {
+return scale *  u + d * u * x2; else
+return scale *  d * u + d * x2; else
+return scale *  d * u * x2 + u; else
+ return -u* v;
+ return scale * u ; else
+return scale * d * v + u * x2; }
+ return scale * u ; }
+ return scale * u;
+return scale * d * v + u * x2; else
+ u = 1;
+ return 0.0331
+return scale * d  * u; else
+ scale += u;
+ scale = u;
+ return 2*scale * d * v;
+ return 0.5
+ break; }
+ x2=scale * d * v;
+ return u-v;
+ return 1-v;
+return  scale;
+return scale * d  + u;
+ continue;
+ return 0;
+ return 0.0
+ return;
+return scale * d * v; }
+ scale*d * v;
+return scale * u
+ continue; }
+return scale * d * v + u; }
+ break; } else
+ return x2* d * v;
+return scale * d * v + u; else
+ return v;
+ return -1* d * v;
+ return +d * v;
+ continue; } else
+ do {
+ break;
+ return v;
+ return 0.5
+ d=v;
+ return +v;
+ u=v;
+ continue; } {
+return scale * d ; }
+ return *d * v;
+ return 2*d * v;
+ return c* v;
+ scale*v;
+ return 1-d * v;
+ -scale*d * v;
+return scale * d * v; else
+ return 2* v;
+return scale *  x;
+return scale *d
+return scale * d ; else
+return scale * d *  x;
+return scale ; }
+ do not
+ do nothing
+return scale * d * u
+return scale * d *  d;
+return scale * d * v\n
+: -scale * d * v;
+ return size* d * v;
+ return c* d * v;
+ #
+return scale * d + v;
+return scale * d - v;
+return scale + d * v;
+return scale - d * v;

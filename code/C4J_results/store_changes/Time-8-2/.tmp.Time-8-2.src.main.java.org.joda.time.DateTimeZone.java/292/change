@@ -1,0 +1,147 @@
+ }
+ } else { offset = Math. abs ( offset ) ;
+ offset = 0 ;
+ } else { offset = FieldUtils. safeMultiply ( minutesOffset, DateTimeConstants. UTC);
+ } else { offset = FieldUtils. safeMultiply ( hoursOffset, DateTimeConstants. UTC);
+ } else { offset = FieldUtils. safe ( offset ) ;
+ } else { offset = Math. abs ( minutesOffset ) ;
+ } else { offset = FieldUtils. safeAdd ( offset ) ;
+ } else { offset = FieldUtils. safeMultiply ( hoursOffset, DateTimeConstants. UTC )
+ } if ( offset < 0 ) { offset = 0 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = ( int ) - offset ;
+ } else { offset = minutesOffset ;
+ } else { offset = FieldUtils. MAX_VALUE ;
+ } else { offset = Math. floor ( offset ) ;
+ } else { offset = FieldUtils. safeMultiply ( offset )
+ } if ( offset < 0 ) { offset = 0 ; } else { offset = ( int ) offset ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = ( int ) - offset ;
+ } if ( offset < 0 ) { return null ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. abs ( offset ) ;
+ } else { offset = 0 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = ( int ) offset ;
+ throw new IllegalArgumentException("Offset out of range: " + offsetsOffset);
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = ( int ) offset ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. floor ( offset ) ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset = ( int ) - offset ;
+ } else { offset = FieldUtils. safeOffset ( offset ) ;
+ throw new IllegalArgumentException("Offset out of range: " + offset
+ } if ( offset < 0 ) { offset = - 1 ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset += minutesOffset ;
+ throw new IllegalArgumentException("Offset out of range: " + offset); }
+ } else { offset = FieldUtils. safeOffset ( offset )
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset ++ ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset += Math. PI ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset += minutesOffset ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = Math. abs ( offset ) ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. abs ( offset )
+ } else { offset = ( int ) minutesOffset ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = offset + 1 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = + 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. round ( offset ) ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = ( int ) offset - 1 ;
+ } else { offset = FieldUtils. abs ( offset ) ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = ( int ) offset - 1 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = ( int ) offset + 1 ;
+ } if ( offset < 0 ) { offset = - 1 ; return null ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset += offset ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = ( int ) offset + 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = - offset + 1 ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset += Math. PI ;
+ } else { offset = Math. abs ( offset )
+ } if ( offset < 0 ) { return ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset += 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = - offset - 1 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = - 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = offset - minutesOffset ;
+ } else { offset = FieldUtils. safeAdd ( offset, 0 )
+ } if ( offset < 0 ) {
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = offset + minutesOffset ;
+ } if ( offset < 0 ) { offset = - offset ; } else { offset += offset ;
+ } if ( offset < 0 ) { return forOffsetMinis(offset); } else { offset = offset - 1 ;
+ } if ( offset < 0 ) { offset = - offset ;
+ } else { offset = FieldUtils. safeAdd ( offset, 1 )
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = offset + minutesOffset ;
+ } return forOffsetMillis(offset); } else { offset = Math. floor ( hoursOffset * 60 ) + minutesOffset * 60 ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset += - 1 ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset += offset ;
+ return fixedOffsetZone(offset, minutesOffset);
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = - 1 ; }
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. abs ( offset - 0 )
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. floor ( offset )
+ } if ( offset < 0 ) { offset = - 1 ; break ;
+ } if ( offset < 0 ) { return forOffsetMinis(offset); } else { offset = offset + 1 ;
+ } if ( offset < 0 ) { offset = - offset ; } else { offset = - offset ; }
+ } else { offset = Math. random ( ) ;
+ } else { offset = hoursOffset + minutesOffset ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset = ( int ) offset ; }
+ } else { offset = hoursOffset + offset ;
+ } else { offset = FieldUtils. safeAdd ( offset, 60 )
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. round ( offset )
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. abs ( offset ) - 1
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. round ( minutesOffset ) ;
+ } return forOffsetHours(offset);
+ } if ( offset < 0 ) { offset = - 1 ; return DateTimeZone ;
+ offset = - 1 ;
+ } int id = printOffset(offset); offset = id ;
+ } if ( offset < 0 ) { offset = - offset ; }
+ } int id = printOffset(offset, minutesOffset);
+ } offset += offset ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset -- ;
+ } return forOffsetHoursHours(offset);
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = ( int ) offset ; }
+ } if ( offset < 0 ) { return DateTimeZone. UTC_UTC ;
+ } else { offset = hoursOffset * 60 ;
+ } if ( offset < 0 ) { return null
+ } if ( offset < 0 ) { offset = - offset ; break ;
+ } if ( offset < 0 ) { offset = 0 ; } else { offset += 1 ;
+ } if ( offset < 0 ) { return forOffsetMillis(offset); } else { offset = Math. abs ( offset ) ; }
+ throw new IllegalArgumentException("Offset out of range: " + offset) ;
+ } if ( offset < 0 ) { offset = - 1 ; } else { break ;
+ } if ( offset < 0 ) { return DateTimeZone. UTC ; offset = 0 ;
+ } if ( offset < 0 ) { return DateTimeZone. UTC ; return null ;
+ } if ( offset < 0 ) { return DateTimeZone. UTC ; offset ++ ;
+ } else { offset ++ ;
+ } offset = offset ;
+ } else { offset = hoursOffset ;
+ return FixedOffsetZone(offset, offset);
+ } int offset = offset ;
+ return FixedOffsetZone(offset, 0);
+ } else { offset = - 1 ;
+ } if ( offset ) {
+ return DateTimeZone.UTC;
+ } offset = 0 ;
+ } else { offset += offset ;
+ } if ( offset < 0 )
+ } offset ++ ;
+ } if ( offset == 0 )
+ } if ( offset < 0 ) { offset += 60 ;
+ return null;
+ } if ( offset < 0 ) { offset = - 1 ; } else { offset = - 1 ; } }
+ } offset = minutesOffset ;
+ } int offset += offset ;
+ } if ( offset < 0 ) { offset = - 1 ; return DateTimeZoneUTC
+ } else { offset = hoursOffset ; }
+ } if (offset)
+ return DateTimeZone;
+ } offset += offset ;
+ return UTC;
+ throw ex ;
+ return - 1 ;
+ offset = 1 ;
+ } if ( offset < 0 ) { return
+ return null; }
+ } return offset ;
+ return ;
+ return UTC; }
+ } offset += offset();
+ } int offset; }
+ } return null;
+ return null
+ } }
+ return UTC
+ } } }
+ }
+ return {
+}; }
+ };
