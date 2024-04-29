@@ -72,7 +72,7 @@ python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=0 --validation=Tru
 
 
 
-## 4. Repeat all experiments
+## 4. Repeat whole experiments
 
 ```shell
 # Generating the patches
