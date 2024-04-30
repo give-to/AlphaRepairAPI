@@ -5,13 +5,17 @@ This repository is used to replicate the experiments of article "Towards Effecti
 The repository is modified from the paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning", which is published at ESEC/FSE 2022. And the source code is available [here](https://zenodo.org/record/6819444). 
 
 
+
 ## 1. Modification
+
 In this repository, we made the following changes:
 
 - Add `add_new_line` method call.
 - Separate the generation patch and verification patch parts.
 - Limit the generation of up to 5000 patches per suspicious location (`add_new_line` and `process_file` count separately).
 - The whole process of fixing each bug is limited to 5h.
+
+
 
 ## 2. Environment
 
@@ -22,13 +26,21 @@ In this repository, we made the following changes:
 - Ubuntu 20.04
 - CUDA Version: 11.6
 
+
+
 ## 3 Experiment Setup
+
 - Timeout: 5h
 - beam_width: 5
 - Plausible patches number limit at one suspicious location: 5000
 
+
+
 ## 4 Excluded Bug(s)
+
 > None
+
+
 
 ## 5. Installation
 
@@ -97,17 +109,22 @@ After finishing the repair, the results are in folders: `codebert_result`. The p
 It may take about **22 days** to finish the entire experiment. The main script is `runAlphaRepair.py`, it reads the list of bugs in the `buglist` file and fixes them sequentially. You can modify `buglist` to determine the bugs to be fixed.
 
 ```shell
+cp location/ochiai/chart/18/2bak location/ochiai/chart/18/2
 # Generating the patches
 python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=104
 # Validate the patches
 python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=104 --validation=True
 ```
 
+After finishing the repair, the results are in folders: `codebert_result`. 
+
+
+
 **Note:** In the patch generation phase, the patches will be saved in the `store_changes` folder, and the time used to generate the patches will be saved in the `time_info` folder. **Do not delete these files to ensure the normal operation of patch validation.** The results of the patch validation will be in the `codebert_result` folder.
 
 
 
-## 9. Structure of the Directories
+## 8. Structure of the Directories
 
 ```
  |--- README.md               :  user guidance
