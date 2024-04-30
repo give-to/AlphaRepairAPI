@@ -127,11 +127,13 @@ After finishing the repair, the results are in folders: `codebert_result`.
 ## 8. Structure of the Directories
 
 ```
- |--- README.md               :  user guidance
- |--- code                    :  source code
- |------ C4J_results          :  results about CatenaD4J by AlphaRepair
+ |--- README.md               :  User guidance
+ |--- code                    :  Source code
+ |------ C4J_results          :  Results about CatenaD4J by AlphaRepair
  |--------- codebert_result   :  Validation results for all patches
  |--------- store_changes     :  The process information of the patch generation
  |--------- time_info         :  The total time to generate the patch for each bug
+ |------ codebert-base-mlm    :  The model used in AlphaRepair
+ |------ location             :  Bug positions localized with GZoltar
  |--- correct_patches         :  Generated patches about Defects4J by AlphaRepair
 ```
