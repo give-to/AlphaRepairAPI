@@ -1,21 +1,38 @@
 # AlphaRepair
 
-This repository implements research paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning", which is published at ESEC/FSE 2022. The source code are modified from official [Zenodo repo](https://zenodo.org/record/6819444).
+This repository is used to replicate the experiments of article "Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs" on AlphaRepair. 
 
-## 1. Environment
+The repository is modified from the paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning", which is published at ESEC/FSE 2022. And the source code is available [here](https://zenodo.org/record/6819444). 
+
+
+## 1. Modification
+In this repository, we made the following changes:
+
+- Add `add_new_line` method call.
+- Separate the generation patch and verification patch parts.
+- Limit the generation of up to 5000 patches per suspicious location (`add_new_line` and `process_file` count separately).
+- The whole process of fixing each bug is limited to 5h.
+
+## 2. Environment
 
 - JDK 1.8
-- python 3.10
+- Python 3.10
 - [Defects4J 2.0.0](https://github.com/rjust/defects4j)
 - [CatenaD4J](https://github.com/universetraveller/CatenaD4J)
 - Ubuntu 20.04
 - CUDA Version: 11.6
 
+## 3 Experiment Setup
+- Timeout: 5h
+- beam_width: 5
+- Plausible patches number limit at one suspicious location: 5000
 
+## 4 Excluded Bug(s)
+> None
 
-## 2. Installation
+## 5. Installation
 
-### 2.1 Create the docker image
+### 5.1 Create the docker image
 
 Use the `Dockerfile` in `./Docker` to create the docker image.
 
@@ -25,7 +42,7 @@ docker build -t alpharepair-env .
 
 This docker image includes **Defects4J**, **CatenaD4J**, **JDK 1.8**, and **Python 3.10**.
 
-### 2.2 Create the container with GPU
+### 5.2 Create the container with GPU
 
 AlphaRepair requires the use of GPU, otherwise generating the patch part would be very slow.
 
@@ -33,7 +50,7 @@ AlphaRepair requires the use of GPU, otherwise generating the patch part would b
 docker run -it --gpus all -e NVIDIA_DRIVER_CAPABILITIES=compute,utility -e NVIDIA_VISIBLE_DEVICES=all --name alpharepair alpharepair-env /bin/bash
 ```
 
-### 2.3 Clone the AlphaRepair repository
+### 5.3 Clone the AlphaRepair repository
 
 At the root of this container, we clone the AlphaRepair repository.
 
@@ -42,7 +59,7 @@ cd /
 git clone https://github.com/give-to/AlphaRepairAPI.git
 ```
 
-### 2.4 Install Dependencies
+### 5.4 Install Dependencies
 
 After testing, we found that using **pip** in the Docker file might cause image creation to fail, so configuration inside the container is required.
 
@@ -59,20 +76,25 @@ If you have another version of CUDA, you can refer https://pytorch.org/get-start
 
 
 
-## 3. Quick Test
+## 6. Quick Test
 
-Run the test experiment to ensure your environment is correct. The part of generating the patches will take between 80 and 110 minutes of your time. These two commands take a maximum of 5 hours.
+It takes several minutes to quickly test your installation. (**Note:** In quick test, the `ochiai.ranking.txt` in Chart-18-2 only contains one location! )
 
 ```shell
+cp location/ochiai/chart/18/2short location/ochiai/chart/18/2
 # Generating the patches
 python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=0
 # Validate the patches
 python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=0 --validation=True
 ```
 
+After finishing the repair, the results are in folders: `codebert_result`. The plausible patch will show `Success (Plausible Patch)`.
 
 
-## 4. Repeat whole experiments
+
+## 7. Experiment Reproduction
+
+It may take about **22 days** to finish the entire experiment. The main script is `runAlphaRepair.py`, it reads the list of bugs in the `buglist` file and fixes them sequentially. You can modify `buglist` to determine the bugs to be fixed.
 
 ```shell
 # Generating the patches
@@ -81,36 +103,11 @@ python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=104
 python3 runAlphaRepair.py --start_bug_index=0 --end_bug_index=104 --validation=True
 ```
 
-
-
-## 5. Usage
-
-The main script is `runAlphaRepair.py`, it reads the list of bugs in the `buglist` file and fixes them sequentially. It accept 3 parameters:
-
-- **start_bug_index:** bug start index in `buglist` file. (The default is 0)
-- **end_bug_index:** bug end index in `buglist` file. (The default is 0)
-- **validation:** Whether to validate. (The default is False)
-
-This repository separates patch generation and patch validation. 
-
-1. To generate the patches
-
-   ```shell
-   python3 runAlphaRepair.py --start_bug_index=<start_bug_index> --end_bug_index=<end_bug_index>
-   ```
-
-2. To validate the patches
-
-   ```shell
-   python3 runAlphaRepair.py --start_bug_index=<start_bug_index> --end_bug_index=<end_bug_index> --validation=True
-   ```
-
-
-In the patch generation phase, the patches will be saved in the `store_changes` folder, and the time used to generate the patches will be saved in the `time_info` folder. **Do not delete these files to ensure the normal operation of patch validation.** The results of the patch validation will be in the `codebert_result` folder.
+**Note:** In the patch generation phase, the patches will be saved in the `store_changes` folder, and the time used to generate the patches will be saved in the `time_info` folder. **Do not delete these files to ensure the normal operation of patch validation.** The results of the patch validation will be in the `codebert_result` folder.
 
 
 
-## 6. Structure of the Directories
+## 9. Structure of the Directories
 
 ```
  |--- README.md               :  user guidance
