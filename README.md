@@ -1,6 +1,6 @@
 # AlphaRepair
 
-This repository is used to replicate the experiments of article "Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs" on AlphaRepair. 
+This repository is used to replicate the experiments of article "Detecting, Creating, Repairing, and Understanding Indivisible Multi-Hunk Bugs" on AlphaRepair. 
 
 The repository is modified from the paper "Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning", which is published at ESEC/FSE 2022. And the source code is available [here](https://zenodo.org/record/6819444). 
 
