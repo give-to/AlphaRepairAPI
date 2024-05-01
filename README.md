@@ -89,6 +89,17 @@ If you have another version of CUDA, you can refer https://pytorch.org/get-start
 
 
 
+**Make sure your GPU is available by following commands in Python terminal:**
+
+```
+import torch
+torch.cuda.is_available()
+```
+
+**This output should be `True`, otherwise it will be very slow in the patch generation part.**
+
+
+
 ## 6. Quick Test
 
 It takes several minutes to quickly test your installation. (**Note:** In quick test, the `ochiai.ranking.txt` in Chart-18-2 only contains one location! )
