@@ -69,6 +69,7 @@ At the root of this container, we clone the AlphaRepair repository.
 ```shell
 cd /
 git clone https://github.com/give-to/AlphaRepairAPI.git
+cd /AlphaRepairAPI && chmod +x *
 ```
 
 ### 5.4 Install Dependencies
